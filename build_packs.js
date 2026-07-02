@@ -264,7 +264,7 @@ Choose exactly 3 stories. For EACH chosen story produce an object with:
 - hook: ONE short sentence in KOREAN explaining why this story is worth reading today.
 - title: a short English headline (max ~10 words). Rewrite it; do not copy verbatim.
 - passage: 110–140 words of ORIGINAL B1–B2 English that you write yourself, explaining the story clearly. DO NOT copy sentences from the source. Keep sentences short.
-- glossary: a list of ~20–24 objects, each { "word": <a lowercase word that appears in YOUR passage>, "meaning": <short English meaning, max 30 characters, fitting the passage context> }. Choose words a B1–B2 learner might not know.
+- glossary: a list of ~20–24 objects, each { "word": <a SINGLE lowercase word (one token, no spaces or phrases) that appears in YOUR passage>, "meaning": <a short, simple English definition a beginner can understand — about 2 to 6 words, roughly under 40 characters, ENGLISH ONLY (never Korean), fitting the passage context> }. Choose single words a B1–B2 learner might not know. Do not use hard words inside the definition.
 - questions: exactly 3 English writing prompts — Q1 a fact-check question, Q2 a context-vocabulary question, Q3 an opinion question (2–3 sentences).
 - modelAnswers: exactly 3 short model answers, one per question.
 
@@ -313,14 +313,29 @@ function loadPacks() {
   }
 }
 
+// Trim a meaning to a soft length WITHOUT cutting a word in half. Only trims
+// runaway meanings; short ones pass through untouched.
+function tidyMeaning(s) {
+  let v = String(s || "").trim().replace(/\s+/g, " ");
+  const CAP = 48;
+  if (v.length > CAP) {
+    const cut = v.slice(0, CAP);
+    const sp = cut.lastIndexOf(" ");
+    v = (sp > 20 ? cut.slice(0, sp) : cut).replace(/[,;:\-]+$/, "").trim();
+  }
+  return v;
+}
+
 // Accepts either the array form [{word, meaning}] (from the schema) or a plain
 // {word: meaning} object, and returns a lowercase-keyed map the app expects.
+// Only SINGLE words are kept — the app collects one token per click, so
+// multi-word phrases in the glossary could never be surfaced.
 function normalizeGlossary(g) {
   const out = {};
   const add = (word, meaning) => {
     const key = String(word || "").toLowerCase().trim();
-    const val = String(meaning || "").trim().slice(0, 30);
-    if (key && val) out[key] = val;
+    const val = tidyMeaning(meaning);
+    if (key && val && !/\s/.test(key)) out[key] = val;
   };
   if (Array.isArray(g)) {
     g.forEach((item) => item && add(item.word, item.meaning));
