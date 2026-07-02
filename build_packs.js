@@ -210,7 +210,19 @@ const PACK_SCHEMA = {
           hook: { type: "string" },
           title: { type: "string" },
           passage: { type: "string" },
-          glossary: { type: "object" },
+          // A structured-output object needs declared properties; a free-form
+          // map returns empty. Use an array of {word, meaning} and convert later.
+          glossary: {
+            type: "array",
+            items: {
+              type: "object",
+              properties: {
+                word: { type: "string" },
+                meaning: { type: "string" },
+              },
+              required: ["word", "meaning"],
+            },
+          },
           questions: { type: "array", items: { type: "string" } },
           modelAnswers: { type: "array", items: { type: "string" } },
         },
@@ -252,7 +264,7 @@ Choose exactly 3 stories. For EACH chosen story produce an object with:
 - hook: ONE short sentence in KOREAN explaining why this story is worth reading today.
 - title: a short English headline (max ~10 words). Rewrite it; do not copy verbatim.
 - passage: 110–140 words of ORIGINAL B1–B2 English that you write yourself, explaining the story clearly. DO NOT copy sentences from the source. Keep sentences short.
-- glossary: an object mapping ~20–24 lowercase words that appear in YOUR passage to a short English meaning (max 30 characters) fitting the passage context.
+- glossary: a list of ~20–24 objects, each { "word": <a lowercase word that appears in YOUR passage>, "meaning": <short English meaning, max 30 characters, fitting the passage context> }. Choose words a B1–B2 learner might not know.
 - questions: exactly 3 English writing prompts — Q1 a fact-check question, Q2 a context-vocabulary question, Q3 an opinion question (2–3 sentences).
 - modelAnswers: exactly 3 short model answers, one per question.
 
@@ -301,14 +313,19 @@ function loadPacks() {
   }
 }
 
+// Accepts either the array form [{word, meaning}] (from the schema) or a plain
+// {word: meaning} object, and returns a lowercase-keyed map the app expects.
 function normalizeGlossary(g) {
   const out = {};
-  if (g && typeof g === "object") {
-    for (const [k, v] of Object.entries(g)) {
-      const key = String(k).toLowerCase().trim();
-      const val = String(v).trim().slice(0, 30);
-      if (key) out[key] = val;
-    }
+  const add = (word, meaning) => {
+    const key = String(word || "").toLowerCase().trim();
+    const val = String(meaning || "").trim().slice(0, 30);
+    if (key && val) out[key] = val;
+  };
+  if (Array.isArray(g)) {
+    g.forEach((item) => item && add(item.word, item.meaning));
+  } else if (g && typeof g === "object") {
+    for (const [k, v] of Object.entries(g)) add(k, v);
   }
   return out;
 }
