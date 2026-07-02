@@ -365,9 +365,12 @@ async function main() {
   const missing = newPacks.filter((p) => !p.url);
   if (missing.length) console.warn(`${missing.length} pack(s) have no URL after mapping.`);
 
+  // Replace any existing packs that share an id (same day + rank) with the
+  // freshly generated ones, so a re-run updates today's packs instead of being
+  // silently dropped. Older days are preserved in the accumulating feed.
   const existing = loadPacks();
-  const existingIds = new Set(existing.map((p) => p.id));
-  const merged = [...newPacks.filter((p) => !existingIds.has(p.id)), ...existing];
+  const newIds = new Set(newPacks.map((p) => p.id));
+  const merged = [...newPacks, ...existing.filter((p) => !newIds.has(p.id))];
 
   fs.writeFileSync(PACKS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf8");
   console.log(`Wrote ${newPacks.length} new packs (${label}; total ${merged.length}) to packs.json`);
