@@ -1,0 +1,55 @@
+name: Deploy to Cafe24 (FTP)
+
+# FileZilla로 수동 업로드하던 것을 대체하는 자동 배포.
+# main에 푸시되면(=코드 수정 또는 daily.yml이 packs.json을 갱신하면)
+# 카페24 호스팅의 /www/ 폴더로 정적 파일을 FTP 업로드한다.
+on:
+  push:
+    branches:
+      - main
+    # 정적 사이트와 무관한 파일 변경만으로는 배포하지 않는다.
+    paths-ignore:
+      - "README.md"
+      - "build_packs.js"
+      - "vercel.json"
+      - ".github/**"
+  # daily.yml이 packs.json을 갱신·커밋하면 이어서 배포한다.
+  # (기본 GITHUB_TOKEN으로 만든 커밋은 push 이벤트를 트리거하지 못하므로 필요.)
+  workflow_run:
+    workflows: ["Daily CoinDesk packs"]
+    types:
+      - completed
+  workflow_dispatch: {}
+
+concurrency:
+  group: ftp-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    # workflow_run 트리거일 때는 선행 워크플로우가 성공한 경우에만 배포한다.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          # 카페24 웹 루트. FileZilla에서 index.html을 넣던 폴더와 동일해야 한다.
+          server-dir: /www/
+          local-dir: ./
+          # 정적 사이트에 필요 없는 파일은 업로드에서 제외한다.
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/README.md
+            **/build_packs.js
+            **/vercel.json
