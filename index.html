@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#fbfaf7" />
+  <title>Daybreak Wire</title>
+
+  <!-- Fonts: headline=Fraunces, body=Newsreader (serif), data/labels=IBM Plex Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- React 18 + Babel standalone (CDN) -->
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    :root {
+      --amber: #df8b25;
+      --amber-soft: #f6e3c7;
+      --bg: #fbfaf7;
+      --card: #ffffff;
+      --ink: #23201b;
+      --muted: #6b6459;
+      --faint: #9a9284;
+      --hair: #e6e1d6;
+      --good: #3f7d5a;
+      --shadow: 0 1px 0 rgba(35,32,27,.04), 0 8px 24px rgba(35,32,27,.05);
+    }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
+    body {
+      font-family: "Newsreader", Georgia, serif;
+      font-size: 18px;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
+    .fraunces { font-family: "Fraunces", Georgia, serif; }
+
+    #root { max-width: 640px; margin: 0 auto; min-height: 100vh; }
+
+    /* Masthead */
+    .masthead {
+      padding: 22px 20px 14px;
+      border-bottom: 1px solid var(--hair);
+      position: sticky; top: 0; z-index: 20;
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
+      backdrop-filter: saturate(1.1) blur(8px);
+    }
+    .masthead .kicker {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
+      color: var(--faint);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .masthead h1 {
+      font-family: "Fraunces", serif;
+      font-weight: 700; font-size: 30px; letter-spacing: -.01em;
+      margin: 6px 0 0;
+    }
+    .masthead .amberdot { color: var(--amber); }
+
+    /* Tabs */
+    .tabs {
+      display: flex; gap: 4px;
+      padding: 10px 16px 0;
+      position: sticky; top: 0; z-index: 15;
+    }
+    .tabbar {
+      position: sticky; bottom: 0; z-index: 20;
+      display: flex; gap: 2px;
+      background: color-mix(in srgb, var(--bg) 90%, transparent);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid var(--hair);
+      padding: 8px 12px calc(8px + env(safe-area-inset-bottom));
+    }
+    .tabbar button {
+      flex: 1; background: none; border: 0; cursor: pointer;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      letter-spacing: .08em; text-transform: uppercase;
+      color: var(--muted); padding: 8px 4px; border-radius: 10px;
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+    }
+    .tabbar button.active { color: var(--ink); background: var(--amber-soft); }
+    .tabbar .glyph { font-size: 16px; }
+
+    main { padding: 16px 16px 24px; }
+
+    /* Recommendation cards */
+    .section-label {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      letter-spacing: .16em; text-transform: uppercase; color: var(--faint);
+      margin: 8px 2px 12px;
+    }
+    .rec {
+      background: var(--card); border: 1px solid var(--hair); border-radius: 16px;
+      padding: 16px 16px 14px; margin-bottom: 12px; box-shadow: var(--shadow);
+      cursor: pointer; transition: transform .12s ease, border-color .12s ease;
+      display: block; width: 100%; text-align: left;
+    }
+    .rec:active { transform: scale(.992); }
+    .rec .rank {
+      font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 12px;
+      color: var(--amber); letter-spacing: .1em;
+      display: inline-flex; align-items: center; gap: 8px;
+    }
+    .rec .rank .badge {
+      background: var(--amber); color: #fff; border-radius: 6px;
+      padding: 2px 7px; font-size: 12px;
+    }
+    .rec .reads { color: var(--faint); }
+    .rec h2 {
+      font-family: "Fraunces", serif; font-weight: 600; font-size: 22px;
+      line-height: 1.25; margin: 10px 0 6px; letter-spacing: -.01em;
+    }
+    .rec .hook { color: var(--muted); font-size: 16px; line-height: 1.5; }
+    .rec .foot {
+      margin-top: 12px; display: flex; justify-content: space-between; align-items: center;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint);
+    }
+    .rec .foot a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--hair); }
+    .rec.read { opacity: .82; }
+    .readpill {
+      background: var(--amber-soft); color: #8a5a12; border-radius: 999px;
+      padding: 2px 9px; font-size: 10px; letter-spacing: .1em;
+    }
+
+    /* Reader */
+    .backbtn {
+      background: none; border: 0; cursor: pointer; color: var(--muted);
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .08em;
+      padding: 4px 0; margin-bottom: 8px;
+    }
+    .progresswrap {
+      position: sticky; top: 0; z-index: 10; height: 3px; background: var(--hair);
+      border-radius: 3px; overflow: hidden; margin-bottom: 4px;
+    }
+    .progressbar { height: 100%; background: var(--amber); width: 0%; transition: width .08s linear; }
+    .holdnote {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--amber);
+      letter-spacing: .06em; height: 16px; margin: 2px 0 6px;
+    }
+    .reader h2 {
+      font-family: "Fraunces", serif; font-weight: 700; font-size: 26px;
+      line-height: 1.22; margin: 6px 0 4px; letter-spacing: -.01em;
+    }
+    .reader .byline {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint);
+      letter-spacing: .08em; margin-bottom: 16px;
+    }
+    .passage { font-size: 19px; line-height: 1.75; }
+    .passage .w { cursor: pointer; border-radius: 3px; padding: 0 .5px; }
+    .passage .w.picked {
+      background: linear-gradient(transparent 62%, var(--amber-soft) 62%);
+      box-shadow: inset 0 -2px 0 var(--amber);
+    }
+    .hint {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint);
+      letter-spacing: .04em; margin: 14px 0; text-align: center;
+    }
+
+    .divider { height: 1px; background: var(--hair); margin: 22px 0; }
+
+    .btn {
+      width: 100%; border: 0; border-radius: 12px; cursor: pointer;
+      font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 13px;
+      letter-spacing: .06em; text-transform: uppercase; padding: 14px;
+    }
+    .btn.primary { background: var(--amber); color: #fff; }
+    .btn.primary:disabled { background: var(--hair); color: var(--faint); cursor: not-allowed; }
+    .btn.ghost { background: var(--card); color: var(--ink); border: 1px solid var(--hair); }
+
+    /* Glossary */
+    .glosslist { list-style: none; padding: 0; margin: 12px 0 0; }
+    .glossitem {
+      display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+      padding: 11px 2px; border-bottom: 1px solid var(--hair);
+    }
+    .glossitem .term { font-weight: 600; }
+    .glossitem .base { color: var(--faint); font-size: 13px; }
+    .glossitem .def { color: var(--muted); text-align: right; font-size: 16px; }
+    .glossitem .saved { color: var(--good); font-size: 10px; font-family: "IBM Plex Mono", monospace; }
+
+    /* Writing */
+    .qcard {
+      background: var(--card); border: 1px solid var(--hair); border-radius: 14px;
+      padding: 14px; margin-bottom: 12px;
+    }
+    .qcard .qlabel {
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .14em;
+      text-transform: uppercase; color: var(--amber); margin-bottom: 6px;
+    }
+    .qcard .qtext { font-size: 17px; line-height: 1.5; margin-bottom: 10px; }
+    .qcard textarea {
+      width: 100%; min-height: 74px; resize: vertical; border: 1px solid var(--hair);
+      border-radius: 10px; padding: 10px; font-family: "Newsreader", serif; font-size: 16px;
+      background: #fffdf9; color: var(--ink);
+    }
+    .qcard textarea:focus { outline: none; border-color: var(--amber); }
+    .model {
+      margin-top: 10px; padding: 10px 12px; background: #f6f4ee; border-radius: 10px;
+      font-size: 15px; line-height: 1.5;
+    }
+    .model .mlabel {
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .12em;
+      text-transform: uppercase; color: var(--good); margin-bottom: 4px;
+    }
+
+    /* Wordbank */
+    .toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
+    .search {
+      flex: 1; min-width: 140px; border: 1px solid var(--hair); border-radius: 10px;
+      padding: 10px 12px; font-family: "IBM Plex Mono", monospace; font-size: 13px;
+      background: var(--card); color: var(--ink);
+    }
+    .search:focus { outline: none; border-color: var(--amber); }
+    .chip {
+      border: 1px solid var(--hair); background: var(--card); color: var(--muted);
+      border-radius: 999px; padding: 8px 12px; cursor: pointer;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .06em;
+    }
+    .chip.active { background: var(--amber-soft); color: #8a5a12; border-color: var(--amber-soft); }
+
+    .streak {
+      display: flex; align-items: center; justify-content: space-between;
+      background: var(--card); border: 1px solid var(--hair); border-radius: 14px;
+      padding: 12px 14px; margin-bottom: 14px; box-shadow: var(--shadow);
+    }
+    .streak .big { font-family: "Fraunces", serif; font-weight: 700; font-size: 26px; }
+    .streak .lbl { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; }
+
+    .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .wcard {
+      background: var(--card); border: 1px solid var(--hair); border-radius: 12px;
+      padding: 14px 12px; cursor: pointer; min-height: 74px;
+      display: flex; flex-direction: column; justify-content: space-between;
+    }
+    .wcard .front { font-family: "Fraunces", serif; font-weight: 600; font-size: 18px; }
+    .wcard .backdef { color: var(--muted); font-size: 15px; line-height: 1.4; }
+    .wcard .meta {
+      display: flex; justify-content: space-between; align-items: center; margin-top: 8px;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; color: var(--faint);
+    }
+    .wcard.learned { border-color: var(--amber-soft); background: #fffdf6; }
+    .wcard .learntoggle {
+      border: 1px solid var(--hair); background: none; border-radius: 999px;
+      padding: 2px 8px; font-size: 10px; cursor: pointer; color: var(--muted);
+      font-family: "IBM Plex Mono", monospace;
+    }
+    .wcard .learntoggle.on { background: var(--good); color: #fff; border-color: var(--good); }
+
+    .empty {
+      text-align: center; color: var(--faint); padding: 40px 20px;
+      font-family: "IBM Plex Mono", monospace; font-size: 13px; line-height: 1.7;
+    }
+    .archrow {
+      display: flex; align-items: baseline; gap: 10px; padding: 12px 2px;
+      border-bottom: 1px solid var(--hair); cursor: pointer; width: 100%;
+      background: none; border-left: 0; border-right: 0; border-top: 0; text-align: left;
+    }
+    .archrow .adate { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint); min-width: 84px; }
+    .archrow .atitle { font-family: "Fraunces", serif; font-weight: 600; font-size: 16px; flex: 1; }
+    .toast {
+      position: fixed; left: 50%; transform: translateX(-50%); bottom: 88px;
+      background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 999px;
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; z-index: 50;
+      box-shadow: 0 8px 24px rgba(0,0,0,.2);
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" data-presets="react">
+    const { useState, useEffect, useRef, useCallback, useMemo } = React;
+
+    /* ------------------------------------------------------------------ */
+    /* Storage helpers (localStorage, prefix dbw:)                         */
+    /* ------------------------------------------------------------------ */
+    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak" };
+    function load(key, fallback) {
+      try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }
+      catch (e) { return fallback; }
+    }
+    function save(key, val) {
+      try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
+    }
+    function kstToday() {
+      const now = new Date();
+      const kst = new Date(now.getTime() + 9 * 3600 * 1000);
+      return kst.toISOString().slice(0, 10);
+    }
+    function daysBetween(a, b) {
+      const da = new Date(a + "T00:00:00Z").getTime();
+      const db = new Date(b + "T00:00:00Z").getTime();
+      return Math.round((db - da) / 86400000);
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Lemma / word-form normalization for glossary lookup                 */
+    /* ------------------------------------------------------------------ */
+    function candidateForms(raw) {
+      const w = raw.toLowerCase().replace(/[^a-z\-']/g, "");
+      if (!w) return [];
+      const forms = new Set([w]);
+      // plurals / 3rd person
+      if (w.endsWith("ies") && w.length > 4) forms.add(w.slice(0, -3) + "y");
+      if (w.endsWith("es") && w.length > 3) { forms.add(w.slice(0, -2)); forms.add(w.slice(0, -1)); }
+      if (w.endsWith("s") && !w.endsWith("ss") && w.length > 3) forms.add(w.slice(0, -1));
+      // past tense
+      if (w.endsWith("ied") && w.length > 4) forms.add(w.slice(0, -3) + "y");
+      if (w.endsWith("ed") && w.length > 3) {
+        forms.add(w.slice(0, -2));            // walked -> walk
+        forms.add(w.slice(0, -1));            // liked -> like
+        if (w[w.length - 3] === w[w.length - 4]) forms.add(w.slice(0, -3)); // stopped -> stop
+      }
+      // -ing
+      if (w.endsWith("ing") && w.length > 4) {
+        forms.add(w.slice(0, -3));            // reading -> read
+        forms.add(w.slice(0, -3) + "e");      // making -> make
+        if (w[w.length - 4] === w[w.length - 5]) forms.add(w.slice(0, -4)); // running -> run
+      }
+      return Array.from(forms);
+    }
+    function lookupGloss(word, glossary, wordbank) {
+      const forms = candidateForms(word);
+      for (const f of forms) {
+        if (glossary && glossary[f]) return { base: f, def: glossary[f], source: "gloss" };
+      }
+      for (const f of forms) {
+        if (wordbank && wordbank[f]) return { base: f, def: wordbank[f].meaning, source: "bank" };
+      }
+      // last resort: whole phrase key present verbatim
+      const lc = word.toLowerCase();
+      if (glossary && glossary[lc]) return { base: lc, def: glossary[lc], source: "gloss" };
+      return null;
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* App root                                                            */
+    /* ------------------------------------------------------------------ */
+    function App() {
+      const [packs, setPacks] = useState(null);
+      const [err, setErr] = useState(null);
+      const [tab, setTab] = useState("today");
+      const [openId, setOpenId] = useState(null);
+
+      const [wordbank, setWordbank] = useState(() => load(KEY.wordbank, {}));
+      const [reads, setReads] = useState(() => load(KEY.reads, {}));
+      const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null }));
+      const [toast, setToast] = useState(null);
+
+      useEffect(() => save(KEY.wordbank, wordbank), [wordbank]);
+      useEffect(() => save(KEY.reads, reads), [reads]);
+      useEffect(() => save(KEY.streak, streak), [streak]);
+
+      useEffect(() => {
+        fetch("packs.json?t=" + Date.now())
+          .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+          .then((arr) => setPacks(Array.isArray(arr) ? arr : []))
+          .catch((e) => setErr(e.message));
+      }, []);
+
+      const showToast = useCallback((msg) => {
+        setToast(msg);
+        setTimeout(() => setToast(null), 1800);
+      }, []);
+
+      // Sort ascending by date then rank; latest date group = today's picks.
+      const sorted = useMemo(() => {
+        if (!packs) return [];
+        return [...packs].sort((a, b) => {
+          if (a.date !== b.date) return a.date < b.date ? -1 : 1;
+          return (a.rank || 99) - (b.rank || 99);
+        });
+      }, [packs]);
+
+      const latestDate = sorted.length ? sorted[sorted.length - 1].date : null;
+      const todaysPicks = sorted.filter((p) => p.date === latestDate);
+      const openPack = openId ? sorted.find((p) => p.id === openId || p.date === openId) : null;
+
+      const addWords = useCallback((entries, articleId) => {
+        setWordbank((prev) => {
+          const next = { ...prev };
+          let added = 0;
+          for (const { base, def } of entries) {
+            if (!next[base]) {
+              next[base] = { meaning: def, addedDate: kstToday(), learned: false, articleId };
+              added++;
+            }
+          }
+          return next;
+        });
+      }, []);
+
+      const markRead = useCallback((articleId) => {
+        setReads((prev) => {
+          if (prev[articleId]) return prev;
+          return { ...prev, [articleId]: { readAt: Date.now(), completed: true } };
+        });
+        // streak update
+        setStreak((prev) => {
+          const today = kstToday();
+          if (prev.lastDate === today) return prev;
+          if (prev.lastDate && daysBetween(prev.lastDate, today) === 1)
+            return { count: prev.count + 1, lastDate: today };
+          return { count: 1, lastDate: today };
+        });
+      }, []);
+
+      if (err) return <Shell tab={tab} setTab={setTab}><div className="empty">packs.json을 불러오지 못했습니다.<br/>{err}</div></Shell>;
+      if (!packs) return <Shell tab={tab} setTab={setTab}><div className="empty">불러오는 중…</div></Shell>;
+
+      let body;
+      if (openPack) {
+        body = <Reader
+          pack={openPack}
+          wordbank={wordbank}
+          reads={reads}
+          onBack={() => setOpenId(null)}
+          onComplete={markRead}
+          onAddWords={addWords}
+          showToast={showToast}
+        />;
+      } else if (tab === "today") {
+        body = <Today picks={todaysPicks} date={latestDate} reads={reads} onOpen={setOpenId} />;
+      } else if (tab === "archive") {
+        body = <Archive packs={sorted} reads={reads} onOpen={setOpenId} />;
+      } else {
+        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} />;
+      }
+
+      return (
+        <Shell tab={tab} setTab={(t) => { setOpenId(null); setTab(t); }} hideChromeWhenReading={!!openPack}>
+          {body}
+          {toast && <div className="toast">{toast}</div>}
+        </Shell>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Shell: masthead + content + bottom tabbar                           */
+    /* ------------------------------------------------------------------ */
+    function Shell({ children, tab, setTab }) {
+      const TABS = [
+        { id: "today", label: "오늘", glyph: "◆" },
+        { id: "archive", label: "보관함", glyph: "▤" },
+        { id: "wordbank", label: "단어장", glyph: "✦" },
+      ];
+      return (
+        <React.Fragment>
+          <header className="masthead">
+            <div className="kicker mono">
+              <span>DAYBREAK WIRE</span>
+              <span>{kstToday()} · KST</span>
+            </div>
+            <h1 className="fraunces">Daybreak <span className="amberdot">Wire</span></h1>
+          </header>
+          <main>{children}</main>
+          <nav className="tabbar">
+            {TABS.map((t) => (
+              <button key={t.id} className={tab === t.id ? "active" : ""} onClick={() => setTab(t.id)}>
+                <span className="glyph">{t.glyph}</span>
+                <span>{t.label}</span>
+              </button>
+            ))}
+          </nav>
+        </React.Fragment>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Today: recommended 3                                                */
+    /* ------------------------------------------------------------------ */
+    function Today({ picks, date, reads, onOpen }) {
+      if (!picks.length) return <div className="empty">아직 추천 기사가 없습니다.<br/>Actions가 첫 팩을 생성하면 여기에 표시됩니다.</div>;
+      return (
+        <React.Fragment>
+          <div className="section-label mono">오늘의 추천 · {date}</div>
+          {picks.map((p) => {
+            const isRead = !!reads[p.id];
+            const rank = String(p.rank || 1).padStart(2, "0");
+            return (
+              <button key={p.id} className={"rec" + (isRead ? " read" : "")} onClick={() => onOpen(p.id)}>
+                <div className="rank mono">
+                  <span className="badge">{rank}</span>
+                  <span className="reads">{p.reads || ""}</span>
+                </div>
+                <h2 className="fraunces">{p.title}</h2>
+                <div className="hook">{p.hook}</div>
+                <div className="foot mono">
+                  <a href={p.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>원문 ↗</a>
+                  {isRead ? <span className="readpill">READ</span> : <span>읽기 →</span>}
+                </div>
+              </button>
+            );
+          })}
+        </React.Fragment>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Reader: read gate → glossary → writing                              */
+    /* ------------------------------------------------------------------ */
+    function tokenize(text) {
+      // Split into word / non-word tokens, keeping separators.
+      return (text || "").split(/(\s+|[^\w'\-]+)/).filter((t) => t.length);
+    }
+
+    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast }) {
+      const alreadyRead = !!reads[pack.id];
+      const [picked, setPicked] = useState({});            // index -> word
+      const [progress, setProgress] = useState(alreadyRead ? 1 : 0);
+      const [completed, setCompleted] = useState(alreadyRead);
+      const [showGloss, setShowGloss] = useState(false);
+      const [holdLeft, setHoldLeft] = useState(0);
+      const holdTimer = useRef(null);
+      const doneRef = useRef(alreadyRead);
+
+      const tokens = useMemo(() => tokenize(pack.passage), [pack.passage]);
+
+      const clearHold = useCallback(() => {
+        if (holdTimer.current) { clearInterval(holdTimer.current); holdTimer.current = null; }
+        setHoldLeft(0);
+      }, []);
+
+      const onScroll = useCallback(() => {
+        if (doneRef.current) return;
+        const el = document.scrollingElement || document.documentElement;
+        const denom = el.scrollHeight - el.clientHeight;
+        const ratio = denom > 0 ? Math.min(1, el.scrollTop / denom) : 1;
+        setProgress(ratio);
+
+        const atBottom = ratio >= 0.985;
+        if (atBottom && !holdTimer.current) {
+          // Start 1.5s hold.
+          let left = 1500;
+          setHoldLeft(left);
+          holdTimer.current = setInterval(() => {
+            left -= 100;
+            if (left <= 0) {
+              clearHold();
+              doneRef.current = true;
+              setCompleted(true);
+              onComplete(pack.id);
+            } else {
+              setHoldLeft(left);
+            }
+          }, 100);
+        } else if (!atBottom && holdTimer.current) {
+          // Scrolled back up → reset timer (progress bar already follows scroll).
+          clearHold();
+        }
+      }, [clearHold, onComplete, pack.id]);
+
+      useEffect(() => {
+        window.scrollTo(0, 0);
+        window.addEventListener("scroll", onScroll, { passive: true });
+        return () => { window.removeEventListener("scroll", onScroll); clearHold(); };
+      }, [onScroll, clearHold]);
+
+      const togglePick = (idx, word) => {
+        setPicked((prev) => {
+          const next = { ...prev };
+          if (next[idx]) delete next[idx]; else next[idx] = word;
+          return next;
+        });
+      };
+
+      // Build glossary entries for the picked words (with lemma + wordbank fallback).
+      const glossEntries = useMemo(() => {
+        const out = [];
+        const seen = new Set();
+        Object.entries(picked).forEach(([idx, word]) => {
+          const found = lookupGloss(word, pack.glossary, wordbank);
+          const key = (found ? found.base : word.toLowerCase());
+          if (seen.has(key)) return;
+          seen.add(key);
+          out.push({
+            surface: word,
+            base: found ? found.base : word.toLowerCase(),
+            def: found ? found.def : null,
+            fromBank: found ? found.source === "bank" : false,
+          });
+        });
+        return out.sort((a, b) => a.base.localeCompare(b.base));
+      }, [picked, pack.glossary, wordbank]);
+
+      const revealGloss = () => {
+        setShowGloss(true);
+        const savable = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def }));
+        if (savable.length) {
+          onAddWords(savable, pack.id);
+          showToast(savable.length + "개 단어를 단어장에 추가했습니다");
+        }
+      };
+
+      const pickedCount = Object.keys(picked).length;
+
+      return (
+        <div className="reader">
+          <button className="backbtn mono" onClick={onBack}>← 목록으로</button>
+          <div className="progresswrap"><div className="progressbar" style={{ width: (progress * 100).toFixed(1) + "%" }} /></div>
+          <div className="holdnote mono">
+            {completed ? "✓ 완독" : holdLeft > 0 ? `맨 아래 · ${(holdLeft / 1000).toFixed(1)}초 유지` : ""}
+          </div>
+
+          <h2 className="fraunces">{pack.title}</h2>
+          <div className="byline mono">{pack.source} · {pack.date}</div>
+
+          <div className="passage">
+            {tokens.map((tok, i) => {
+              if (/^[\w'\-]+$/.test(tok)) {
+                return (
+                  <span
+                    key={i}
+                    className={"w" + (picked[i] ? " picked" : "")}
+                    onClick={() => togglePick(i, tok)}
+                  >{tok}</span>
+                );
+              }
+              return <span key={i}>{tok}</span>;
+            })}
+          </div>
+
+          <div className="hint mono">
+            {pickedCount > 0 ? `${pickedCount}개 단어 선택됨` : "모르는 단어를 탭해서 표시하세요"}
+          </div>
+
+          <div className="divider" />
+
+          {!showGloss && (
+            <button className="btn primary" disabled={!completed} onClick={revealGloss}>
+              {completed ? "단어 뜻 확인" : "끝까지 읽어야 열립니다"}
+            </button>
+          )}
+
+          {showGloss && (
+            <React.Fragment>
+              <div className="section-label mono">단어 뜻 · 본문 맥락</div>
+              {glossEntries.length === 0 && <div className="hint mono">선택한 단어가 없습니다. 본문 단어를 탭한 뒤 다시 확인하세요.</div>}
+              <ul className="glosslist">
+                {glossEntries.map((e) => (
+                  <li key={e.base} className="glossitem">
+                    <span>
+                      <span className="term">{e.surface}</span>{" "}
+                      {e.base !== e.surface.toLowerCase() && <span className="base">({e.base})</span>}
+                    </span>
+                    <span className="def">
+                      {e.def || <span className="base">사전에 없음</span>}
+                      {e.fromBank && <div className="saved">SAVED</div>}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+
+              <div className="divider" />
+              <Writing pack={pack} showToast={showToast} />
+            </React.Fragment>
+          )}
+        </div>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Writing: 3 prompts, self-graded model answers                       */
+    /* ------------------------------------------------------------------ */
+    function Writing({ pack, showToast }) {
+      const qs = pack.questions || [];
+      const ans = pack.modelAnswers || [];
+      const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
+      const [inputs, setInputs] = useState(qs.map(() => ""));
+      const [revealed, setRevealed] = useState(false);
+
+      const copyMine = () => {
+        const text = qs.map((q, i) => `Q${i + 1}. ${q}\nMy answer: ${inputs[i] || "(빈칸)"}`).join("\n\n");
+        const payload = `다음 영작을 첨삭해 주세요.\n\n${text}`;
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(payload).then(
+            () => showToast("내 답변을 복사했습니다"),
+            () => showToast("복사 실패")
+          );
+        }
+      };
+
+      return (
+        <React.Fragment>
+          <div className="section-label mono">영작 3문항</div>
+          {qs.map((q, i) => (
+            <div className="qcard" key={i}>
+              <div className="qlabel mono">{labels[i] || "Q" + (i + 1)}</div>
+              <div className="qtext">{q}</div>
+              <textarea
+                value={inputs[i]}
+                placeholder="여기에 영어로 답을 써보세요…"
+                onChange={(e) => setInputs((prev) => prev.map((v, j) => (j === i ? e.target.value : v)))}
+              />
+              {revealed && ans[i] && (
+                <div className="model">
+                  <div className="mlabel mono">Model answer · 체크포인트</div>
+                  {ans[i]}
+                </div>
+              )}
+            </div>
+          ))}
+          <div style={{ display: "flex", gap: 8 }}>
+            <button className="btn ghost" onClick={copyMine}>내 답변 복사</button>
+            <button className="btn primary" onClick={() => setRevealed(true)}>
+              {revealed ? "모범답안 표시됨" : "제출 · 모범답안 보기"}
+            </button>
+          </div>
+        </React.Fragment>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Archive                                                             */
+    /* ------------------------------------------------------------------ */
+    function Archive({ packs, reads, onOpen }) {
+      // Newest first.
+      const rows = [...packs].reverse();
+      if (!rows.length) return <div className="empty">보관된 기사가 없습니다.</div>;
+      return (
+        <React.Fragment>
+          <div className="section-label mono">보관함 · {rows.length}편</div>
+          {rows.map((p) => (
+            <button key={p.id} className="archrow" onClick={() => onOpen(p.id)}>
+              <span className="adate mono">{p.date} #{p.rank || 1}</span>
+              <span className="atitle fraunces">{p.title}</span>
+              {reads[p.id] && <span className="readpill">READ</span>}
+            </button>
+          ))}
+        </React.Fragment>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Wordbank                                                            */
+    /* ------------------------------------------------------------------ */
+    function Wordbank({ wordbank, setWordbank, streak }) {
+      const [query, setQuery] = useState("");
+      const [filter, setFilter] = useState("all"); // all | todo | done
+      const [flipped, setFlipped] = useState({});
+
+      const entries = useMemo(() => {
+        return Object.entries(wordbank)
+          .map(([word, v]) => ({ word, ...v }))
+          .filter((e) => {
+            if (filter === "todo" && e.learned) return false;
+            if (filter === "done" && !e.learned) return false;
+            if (query && !e.word.includes(query.toLowerCase()) &&
+                !(e.meaning || "").toLowerCase().includes(query.toLowerCase())) return false;
+            return true;
+          })
+          .sort((a, b) => (b.addedDate || "").localeCompare(a.addedDate || "") || a.word.localeCompare(b.word));
+      }, [wordbank, query, filter]);
+
+      const total = Object.keys(wordbank).length;
+      const learned = Object.values(wordbank).filter((v) => v.learned).length;
+
+      const toggleLearned = (word, e) => {
+        e.stopPropagation();
+        setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], learned: !prev[word].learned } }));
+      };
+      const flip = (word) => setFlipped((p) => ({ ...p, [word]: !p[word] }));
+
+      return (
+        <React.Fragment>
+          <div className="streak">
+            <div>
+              <div className="big fraunces">🔥 {streak.count || 0}일</div>
+              <div className="lbl mono">연속 학습</div>
+            </div>
+            <div style={{ textAlign: "right" }}>
+              <div className="big fraunces">{learned}/{total}</div>
+              <div className="lbl mono">암기 / 전체</div>
+            </div>
+          </div>
+
+          <div className="toolbar">
+            <input className="search" placeholder="단어·뜻 검색" value={query} onChange={(e) => setQuery(e.target.value)} />
+            <button className={"chip" + (filter === "all" ? " active" : "")} onClick={() => setFilter("all")}>전체</button>
+            <button className={"chip" + (filter === "todo" ? " active" : "")} onClick={() => setFilter("todo")}>미암기</button>
+            <button className={"chip" + (filter === "done" ? " active" : "")} onClick={() => setFilter("done")}>암기완료</button>
+          </div>
+
+          {entries.length === 0 ? (
+            <div className="empty">
+              {total === 0
+                ? "아직 모은 단어가 없습니다.\n기사를 읽고 모르는 단어를 탭해 보세요."
+                : "조건에 맞는 단어가 없습니다."}
+            </div>
+          ) : (
+            <div className="wgrid">
+              {entries.map((e) => (
+                <div key={e.word} className={"wcard" + (e.learned ? " learned" : "")} onClick={() => flip(e.word)}>
+                  {flipped[e.word]
+                    ? <div className="backdef">{e.meaning}</div>
+                    : <div className="front fraunces">{e.word}</div>}
+                  <div className="meta">
+                    <span>{e.addedDate || ""}</span>
+                    <button className={"learntoggle" + (e.learned ? " on" : "")} onClick={(ev) => toggleLearned(e.word, ev)}>
+                      {e.learned ? "암기 ✓" : "암기"}
+                    </button>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </React.Fragment>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+  </script>
+</body>
+</html>
