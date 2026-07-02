@@ -495,7 +495,9 @@
                 <h2 className="fraunces">{p.title}</h2>
                 <div className="hook">{p.hook}</div>
                 <div className="foot mono">
-                  <a href={p.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>원문 ↗</a>
+                  {p.url
+                    ? <a href={p.url} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>원문 ↗</a>
+                    : <span style={{ color: "var(--faint)" }}>원문 링크 없음</span>}
                   {isRead ? <span className="readpill">READ</span> : <span>읽기 →</span>}
                 </div>
               </button>
