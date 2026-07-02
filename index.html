@@ -538,11 +538,15 @@
         setHoldLeft(0);
       }, []);
 
-      const onScroll = useCallback(() => {
+      // Evaluate read progress. Runs on scroll AND on mount/resize, so a short
+      // article that fits the screen (no scrollbar — common on desktop) still
+      // counts as "read to the bottom" and starts the 1.5s hold.
+      const evaluate = useCallback(() => {
         if (doneRef.current) return;
         const el = document.scrollingElement || document.documentElement;
         const denom = el.scrollHeight - el.clientHeight;
-        const ratio = denom > 0 ? Math.min(1, el.scrollTop / denom) : 1;
+        // Nothing to scroll → treat as already at the bottom.
+        const ratio = denom > 2 ? Math.min(1, el.scrollTop / denom) : 1;
         setProgress(ratio);
 
         const atBottom = ratio >= 0.985;
@@ -569,9 +573,17 @@
 
       useEffect(() => {
         window.scrollTo(0, 0);
-        window.addEventListener("scroll", onScroll, { passive: true });
-        return () => { window.removeEventListener("scroll", onScroll); clearHold(); };
-      }, [onScroll, clearHold]);
+        window.addEventListener("scroll", evaluate, { passive: true });
+        window.addEventListener("resize", evaluate);
+        // Check once after layout settles (fonts/images) for the no-scroll case.
+        const t1 = setTimeout(evaluate, 300);
+        const t2 = setTimeout(evaluate, 1200);
+        return () => {
+          window.removeEventListener("scroll", evaluate);
+          window.removeEventListener("resize", evaluate);
+          clearTimeout(t1); clearTimeout(t2); clearHold();
+        };
+      }, [evaluate, clearHold]);
 
       const togglePick = (idx, word) => {
         setPicked((prev) => {
