@@ -251,7 +251,7 @@ function buildPrompt(candidates, label, ranked) {
     ? "These candidates are already ordered by popularity (the \"Most Read\" list), so prefer the ones near the top unless a lower story is far more relevant to the learner."
     : "Pick the 3 most relevant and interesting stories for the learner.";
 
-  return `You are the editor of "Daybreak Wire", a daily crypto news reader that helps a Korean intermediate (B1–B2) English learner. The learner is a crypto/fintech PM interested in stablecoins, regulation, tokenization, and exchanges like OKX.
+  return `You are the editor of "Daybreak Wire", a daily crypto news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a crypto/fintech PM interested in stablecoins, regulation, tokenization, and exchanges like OKX.
 
 CANDIDATE STORIES (${label}):
 ${list}
@@ -263,8 +263,8 @@ Choose exactly 3 stories. For EACH chosen story produce an object with:
 - rank: 1, 2, or 3 (1 = most recommended).
 - hook: ONE short sentence in KOREAN explaining why this story is worth reading today.
 - title: a short English headline (max ~10 words). Rewrite it; do not copy verbatim.
-- passage: 110–140 words of ORIGINAL B1–B2 English that you write yourself, explaining the story clearly. DO NOT copy sentences from the source. Keep sentences short.
-- glossary: a list of ~20–24 objects, each { "word": <a SINGLE lowercase word (one token, no spaces or phrases) that appears in YOUR passage>, "meaning": <a short, simple English definition a beginner can understand — about 2 to 6 words, roughly under 40 characters, ENGLISH ONLY (never Korean), fitting the passage context> }. Choose single words a B1–B2 learner might not know. Do not use hard words inside the definition.
+- passage: 200–260 words of ORIGINAL B2–C1 English that you write yourself, explaining the story clearly and with some depth (context, why it matters, implications). DO NOT copy sentences from the source. Use a natural, slightly challenging register — richer vocabulary and varied sentence structure — while staying clear.
+- glossary: a list of ~20–24 objects, each { "word": <a SINGLE lowercase word (one token, no spaces or phrases) that appears in YOUR passage>, "meaning": <a clear, specific definition written in simple English — a short sentence of about 8 to 16 words that explains what the word means IN THIS PASSAGE'S CONTEXT, enough for a learner to really understand it, not just a one-word synonym. ENGLISH ONLY (never Korean). Do not use hard words inside the definition.> }. Choose single words a B2–C1 learner might still find tricky.
 - questions: exactly 3 English writing prompts — Q1 a fact-check question, Q2 a context-vocabulary question, Q3 an opinion question (2–3 sentences).
 - modelAnswers: exactly 3 short model answers, one per question.
 
@@ -317,11 +317,12 @@ function loadPacks() {
 // runaway meanings; short ones pass through untouched.
 function tidyMeaning(s) {
   let v = String(s || "").trim().replace(/\s+/g, " ");
-  const CAP = 48;
+  // Detailed meanings are welcome; only trim truly runaway text, at a word boundary.
+  const CAP = 140;
   if (v.length > CAP) {
     const cut = v.slice(0, CAP);
     const sp = cut.lastIndexOf(" ");
-    v = (sp > 20 ? cut.slice(0, sp) : cut).replace(/[,;:\-]+$/, "").trim();
+    v = (sp > 40 ? cut.slice(0, sp) : cut).replace(/[,;:\-]+$/, "").trim() + "…";
   }
   return v;
 }

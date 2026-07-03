@@ -16,6 +16,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <!-- Pretendard: Korean glyphs render in this; it sits AFTER the Latin fonts in
+       each stack, so English keeps its serif/mono design and only Korean changes. -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
 
   <!-- React 18 + Babel standalone (CDN) -->
   <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -41,13 +44,13 @@
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
     html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); }
     body {
-      font-family: "Newsreader", Georgia, serif;
+      font-family: "Newsreader", "Pretendard", Georgia, serif;
       font-size: 18px;
       line-height: 1.65;
       -webkit-font-smoothing: antialiased;
     }
-    .mono { font-family: "IBM Plex Mono", ui-monospace, monospace; }
-    .fraunces { font-family: "Fraunces", Georgia, serif; }
+    .mono { font-family: "IBM Plex Mono", "Pretendard", ui-monospace, monospace; }
+    .fraunces { font-family: "Fraunces", "Pretendard", Georgia, serif; }
 
     #root { max-width: 640px; margin: 0 auto; min-height: 100vh; }
 
@@ -60,13 +63,13 @@
       backdrop-filter: saturate(1.1) blur(8px);
     }
     .masthead .kicker {
-      font-family: "IBM Plex Mono", monospace;
+      font-family: "IBM Plex Mono", "Pretendard", monospace;
       font-size: 11px; letter-spacing: .18em; text-transform: uppercase;
       color: var(--faint);
       display: flex; justify-content: space-between; align-items: center;
     }
     .masthead h1 {
-      font-family: "Fraunces", serif;
+      font-family: "Fraunces", "Pretendard", serif;
       font-weight: 700; font-size: 30px; letter-spacing: -.01em;
       margin: 6px 0 0;
     }
@@ -88,7 +91,7 @@
     }
     .tabbar button {
       flex: 1; background: none; border: 0; cursor: pointer;
-      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px;
       letter-spacing: .08em; text-transform: uppercase;
       color: var(--muted); padding: 8px 4px; border-radius: 10px;
       display: flex; flex-direction: column; align-items: center; gap: 3px;
@@ -100,7 +103,7 @@
 
     /* Recommendation cards */
     .section-label {
-      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px;
       letter-spacing: .16em; text-transform: uppercase; color: var(--faint);
       margin: 8px 2px 12px;
     }
@@ -112,7 +115,7 @@
     }
     .rec:active { transform: scale(.992); }
     .rec .rank {
-      font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 12px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-weight: 600; font-size: 12px;
       color: var(--amber); letter-spacing: .1em;
       display: inline-flex; align-items: center; gap: 8px;
     }
@@ -122,13 +125,13 @@
     }
     .rec .reads { color: var(--faint); }
     .rec h2 {
-      font-family: "Fraunces", serif; font-weight: 600; font-size: 22px;
+      font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 22px;
       line-height: 1.25; margin: 10px 0 6px; letter-spacing: -.01em;
     }
     .rec .hook { color: var(--muted); font-size: 16px; line-height: 1.5; }
     .rec .foot {
       margin-top: 12px; display: flex; justify-content: space-between; align-items: center;
-      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint);
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint);
     }
     .rec .foot a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--hair); }
     .rec.read { opacity: .82; }
@@ -140,7 +143,7 @@
     /* Reader */
     .backbtn {
       background: none; border: 0; cursor: pointer; color: var(--muted);
-      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .08em;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; letter-spacing: .08em;
       padding: 4px 0; margin-bottom: 8px;
     }
     .progresswrap {
@@ -149,15 +152,15 @@
     }
     .progressbar { height: 100%; background: var(--amber); width: 0%; transition: width .08s linear; }
     .holdnote {
-      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--amber);
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--amber);
       letter-spacing: .06em; height: 16px; margin: 2px 0 6px;
     }
     .reader h2 {
-      font-family: "Fraunces", serif; font-weight: 700; font-size: 26px;
+      font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 26px;
       line-height: 1.22; margin: 6px 0 4px; letter-spacing: -.01em;
     }
     .reader .byline {
-      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint);
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint);
       letter-spacing: .08em; margin-bottom: 16px;
     }
     .passage { font-size: 19px; line-height: 1.75; }
@@ -167,7 +170,7 @@
       box-shadow: inset 0 -2px 0 var(--amber);
     }
     .hint {
-      font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint);
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint);
       letter-spacing: .04em; margin: 14px 0; text-align: center;
     }
 
@@ -175,7 +178,7 @@
 
     .btn {
       width: 100%; border: 0; border-radius: 12px; cursor: pointer;
-      font-family: "IBM Plex Mono", monospace; font-weight: 600; font-size: 13px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-weight: 600; font-size: 13px;
       letter-spacing: .06em; text-transform: uppercase; padding: 14px;
     }
     .btn.primary { background: var(--amber); color: #fff; }
@@ -191,21 +194,21 @@
     .glossitem .term { font-weight: 600; }
     .glossitem .base { color: var(--faint); font-size: 13px; }
     .glossitem .def { color: var(--muted); text-align: right; font-size: 16px; }
-    .glossitem .saved { color: var(--good); font-size: 10px; font-family: "IBM Plex Mono", monospace; }
+    .glossitem .saved { color: var(--good); font-size: 10px; font-family: "IBM Plex Mono", "Pretendard", monospace; }
 
     /* Writing */
     .qcard {
       background: var(--card); border: 1px solid var(--hair); border-radius: 14px;
-      padding: 14px; margin-bottom: 12px;
+      padding: 16px; margin-bottom: 12px;
     }
     .qcard .qlabel {
-      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .14em;
-      text-transform: uppercase; color: var(--amber); margin-bottom: 6px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; letter-spacing: .12em;
+      text-transform: uppercase; color: var(--amber); margin-bottom: 8px;
     }
-    .qcard .qtext { font-size: 17px; line-height: 1.5; margin-bottom: 10px; }
+    .qcard .qtext { font-size: 19px; line-height: 1.55; margin-bottom: 12px; }
     .qcard textarea {
-      width: 100%; min-height: 74px; resize: vertical; border: 1px solid var(--hair);
-      border-radius: 10px; padding: 10px; font-family: "Newsreader", serif; font-size: 16px;
+      width: 100%; min-height: 84px; resize: vertical; border: 1px solid var(--hair);
+      border-radius: 10px; padding: 12px; font-family: "Newsreader", "Pretendard", serif; font-size: 18px;
       background: #fffdf9; color: var(--ink);
     }
     .qcard textarea:focus { outline: none; border-color: var(--amber); }
@@ -214,7 +217,7 @@
       font-size: 15px; line-height: 1.5;
     }
     .model .mlabel {
-      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: .12em;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px; letter-spacing: .12em;
       text-transform: uppercase; color: var(--good); margin-bottom: 4px;
     }
 
@@ -222,14 +225,14 @@
     .toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
     .search {
       flex: 1; min-width: 140px; border: 1px solid var(--hair); border-radius: 10px;
-      padding: 10px 12px; font-family: "IBM Plex Mono", monospace; font-size: 13px;
+      padding: 10px 12px; font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 13px;
       background: var(--card); color: var(--ink);
     }
     .search:focus { outline: none; border-color: var(--amber); }
     .chip {
       border: 1px solid var(--hair); background: var(--card); color: var(--muted);
       border-radius: 999px; padding: 8px 12px; cursor: pointer;
-      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .06em;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; letter-spacing: .06em;
     }
     .chip.active { background: var(--amber-soft); color: #8a5a12; border-color: var(--amber-soft); }
 
@@ -238,44 +241,56 @@
       background: var(--card); border: 1px solid var(--hair); border-radius: 14px;
       padding: 12px 14px; margin-bottom: 14px; box-shadow: var(--shadow);
     }
-    .streak .big { font-family: "Fraunces", serif; font-weight: 700; font-size: 26px; }
-    .streak .lbl { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; }
+    .streak .big { font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 26px; }
+    .streak .lbl { font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; }
 
     .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .wcard {
+      position: relative;
       background: var(--card); border: 1px solid var(--hair); border-radius: 12px;
-      padding: 14px 12px; cursor: pointer; min-height: 74px;
+      padding: 14px 12px; cursor: pointer; min-height: 82px;
       display: flex; flex-direction: column; justify-content: space-between;
     }
-    .wcard .front { font-family: "Fraunces", serif; font-weight: 600; font-size: 18px; }
-    .wcard .backdef { color: var(--muted); font-size: 15px; line-height: 1.4; }
+    .wcard .front { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 20px; }
+    .wcard .backdef { color: var(--ink); font-size: 16px; line-height: 1.45; padding-right: 18px; }
+    .wcard .wdelete {
+      position: absolute; top: 6px; right: 6px; width: 22px; height: 22px;
+      border: 0; background: none; color: var(--faint); cursor: pointer;
+      font-size: 18px; line-height: 1; border-radius: 6px; padding: 0;
+    }
+    .wcard .wdelete:hover { color: #b23b3b; background: var(--hair); }
     .wcard .meta {
       display: flex; justify-content: space-between; align-items: center; margin-top: 8px;
-      font-family: "IBM Plex Mono", monospace; font-size: 10px; color: var(--faint);
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px; color: var(--faint);
     }
-    .wcard.learned { border-color: var(--amber-soft); background: #fffdf6; }
+    .wcard.review { border-color: #e7d3ad; background: #fffdf6; }
+    .wcard.mastered { border-color: var(--good); background: #f4faf6; }
     .wcard .learntoggle {
       border: 1px solid var(--hair); background: none; border-radius: 999px;
-      padding: 2px 8px; font-size: 10px; cursor: pointer; color: var(--muted);
-      font-family: "IBM Plex Mono", monospace;
+      padding: 3px 10px; font-size: 11px; cursor: pointer; color: var(--muted);
+      font-family: "IBM Plex Mono", "Pretendard", monospace;
     }
-    .wcard .learntoggle.on { background: var(--good); color: #fff; border-color: var(--good); }
+    .wcard .learntoggle.due { background: var(--amber); color: #fff; border-color: var(--amber); font-weight: 600; }
+    .wcard .stagenote {
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px; color: var(--faint);
+    }
+    .wcard .stagenote.done { color: var(--good); }
 
     .empty {
-      text-align: center; color: var(--faint); padding: 40px 20px;
-      font-family: "IBM Plex Mono", monospace; font-size: 13px; line-height: 1.7;
+      text-align: center; color: var(--faint); padding: 40px 20px; white-space: pre-line;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 13px; line-height: 1.7;
     }
     .archrow {
       display: flex; align-items: baseline; gap: 10px; padding: 12px 2px;
       border-bottom: 1px solid var(--hair); cursor: pointer; width: 100%;
       background: none; border-left: 0; border-right: 0; border-top: 0; text-align: left;
     }
-    .archrow .adate { font-family: "IBM Plex Mono", monospace; font-size: 11px; color: var(--faint); min-width: 84px; }
-    .archrow .atitle { font-family: "Fraunces", serif; font-weight: 600; font-size: 16px; flex: 1; }
+    .archrow .adate { font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint); min-width: 84px; }
+    .archrow .atitle { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 16px; flex: 1; }
     .toast {
       position: fixed; left: 50%; transform: translateX(-50%); bottom: 88px;
       background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 999px;
-      font-family: "IBM Plex Mono", monospace; font-size: 12px; z-index: 50;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; z-index: 50;
       box-shadow: 0 8px 24px rgba(0,0,0,.2);
     }
   </style>
@@ -365,6 +380,23 @@
       useEffect(() => save(KEY.wordbank, wordbank), [wordbank]);
       useEffect(() => save(KEY.reads, reads), [reads]);
       useEffect(() => save(KEY.streak, streak), [streak]);
+
+      // Once on load: drop mastered words that have sat in "장기완료" for 7+ days.
+      useEffect(() => {
+        setWordbank((prev) => {
+          const today = kstToday();
+          const next = {};
+          let changed = false;
+          for (const [w, v] of Object.entries(prev)) {
+            if ((v.stage || (v.learned ? "review" : "new")) === "mastered" &&
+                v.masteredSince && daysBetween(v.masteredSince, today) >= 7) {
+              changed = true; continue; // expired → remove
+            }
+            next[w] = v;
+          }
+          return changed ? next : prev;
+        });
+      }, []);
 
       useEffect(() => {
         fetch("packs.json?t=" + Date.now())
@@ -743,12 +775,12 @@
     /* Archive                                                             */
     /* ------------------------------------------------------------------ */
     function Archive({ packs, reads, onOpen }) {
-      // Newest first.
-      const rows = [...packs].reverse();
-      if (!rows.length) return <div className="empty">보관된 기사가 없습니다.</div>;
+      // Only articles the user has finished reading, newest first.
+      const rows = [...packs].reverse().filter((p) => reads[p.id]);
+      if (!rows.length) return <div className="empty">아직 읽은 기사가 없습니다.{"\n"}오늘 탭에서 기사를 완독하면 여기에 쌓입니다.</div>;
       return (
         <React.Fragment>
-          <div className="section-label mono">보관함 · {rows.length}편</div>
+          <div className="section-label mono">보관함 · 읽은 기사 {rows.length}편</div>
           {rows.map((p) => (
             <button key={p.id} className="archrow" onClick={() => onOpen(p.id)}>
               <span className="adate mono">{p.date} #{p.rank || 1}</span>
@@ -763,32 +795,65 @@
     /* ------------------------------------------------------------------ */
     /* Wordbank                                                            */
     /* ------------------------------------------------------------------ */
+    // Spaced-repetition stage of a word (with legacy 'learned' migration).
+    function stageOf(v) { return v.stage || (v.learned ? "review" : "new"); }
+
     function Wordbank({ wordbank, setWordbank, streak }) {
       const [query, setQuery] = useState("");
-      const [filter, setFilter] = useState("all"); // all | todo | done
+      const [filter, setFilter] = useState("all"); // all | new | review | mastered
       const [flipped, setFlipped] = useState({});
+      const today = kstToday();
+
+      const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= 3;
 
       const entries = useMemo(() => {
         return Object.entries(wordbank)
-          .map(([word, v]) => ({ word, ...v }))
+          .map(([word, v]) => ({ word, ...v, stage: stageOf(v) }))
           .filter((e) => {
-            if (filter === "todo" && e.learned) return false;
-            if (filter === "done" && !e.learned) return false;
+            if (filter !== "all" && e.stage !== filter) return false;
             if (query && !e.word.includes(query.toLowerCase()) &&
                 !(e.meaning || "").toLowerCase().includes(query.toLowerCase())) return false;
             return true;
           })
           .sort((a, b) => (b.addedDate || "").localeCompare(a.addedDate || "") || a.word.localeCompare(b.word));
-      }, [wordbank, query, filter]);
+      }, [wordbank, query, filter, today]);
 
       const total = Object.keys(wordbank).length;
-      const learned = Object.values(wordbank).filter((v) => v.learned).length;
+      const counts = { new: 0, review: 0, mastered: 0 };
+      Object.values(wordbank).forEach((v) => { counts[stageOf(v)]++; });
 
-      const toggleLearned = (word, e) => {
-        e.stopPropagation();
-        setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], learned: !prev[word].learned } }));
+      const patch = (word, p, ev) => {
+        ev && ev.stopPropagation();
+        setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], ...p } }));
+      };
+      const toReview = (word, ev) => patch(word, { stage: "review", reviewSince: today, learned: true }, ev);
+      const toMastered = (word, ev) => patch(word, { stage: "mastered", masteredSince: today }, ev);
+      const removeWord = (word, ev) => {
+        ev.stopPropagation();
+        if (!window.confirm(`"${word}" 단어를 단어장에서 삭제할까요?`)) return;
+        setWordbank((prev) => { const n = { ...prev }; delete n[word]; return n; });
       };
       const flip = (word) => setFlipped((p) => ({ ...p, [word]: !p[word] }));
+
+      const CHIPS = [
+        { id: "all", label: `전체 ${total}` },
+        { id: "new", label: `미암기 ${counts.new}` },
+        { id: "review", label: `복습중 ${counts.review}` },
+        { id: "mastered", label: `완료 ${counts.mastered}` },
+      ];
+
+      const actionFor = (e) => {
+        if (e.stage === "new")
+          return <button className="learntoggle" onClick={(ev) => toReview(e.word, ev)}>암기</button>;
+        if (e.stage === "review") {
+          if (reviewDue(e))
+            return <button className="learntoggle due" onClick={(ev) => toMastered(e.word, ev)}>복습하기</button>;
+          const d = Math.max(1, 3 - daysBetween(e.reviewSince || today, today));
+          return <span className="stagenote">복습 D-{d}</span>;
+        }
+        const left = Math.max(0, 7 - daysBetween(e.masteredSince || today, today));
+        return <span className="stagenote done">완료 · 삭제 D-{left}</span>;
+      };
 
       return (
         <React.Fragment>
@@ -798,16 +863,16 @@
               <div className="lbl mono">연속 학습</div>
             </div>
             <div style={{ textAlign: "right" }}>
-              <div className="big fraunces">{learned}/{total}</div>
-              <div className="lbl mono">암기 / 전체</div>
+              <div className="big fraunces">{counts.mastered}/{total}</div>
+              <div className="lbl mono">장기완료 / 전체</div>
             </div>
           </div>
 
           <div className="toolbar">
             <input className="search" placeholder="단어·뜻 검색" value={query} onChange={(e) => setQuery(e.target.value)} />
-            <button className={"chip" + (filter === "all" ? " active" : "")} onClick={() => setFilter("all")}>전체</button>
-            <button className={"chip" + (filter === "todo" ? " active" : "")} onClick={() => setFilter("todo")}>미암기</button>
-            <button className={"chip" + (filter === "done" ? " active" : "")} onClick={() => setFilter("done")}>암기완료</button>
+            {CHIPS.map((c) => (
+              <button key={c.id} className={"chip" + (filter === c.id ? " active" : "")} onClick={() => setFilter(c.id)}>{c.label}</button>
+            ))}
           </div>
 
           {entries.length === 0 ? (
@@ -819,15 +884,14 @@
           ) : (
             <div className="wgrid">
               {entries.map((e) => (
-                <div key={e.word} className={"wcard" + (e.learned ? " learned" : "")} onClick={() => flip(e.word)}>
+                <div key={e.word} className={"wcard " + e.stage} onClick={() => flip(e.word)}>
+                  <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
                   {flipped[e.word]
-                    ? <div className="backdef">{e.meaning}</div>
-                    : <div className="front fraunces">{e.word}</div>}
+                    ? <div className="front fraunces">{e.word}</div>
+                    : <div className="backdef">{e.meaning}</div>}
                   <div className="meta">
                     <span>{e.addedDate || ""}</span>
-                    <button className={"learntoggle" + (e.learned ? " on" : "")} onClick={(ev) => toggleLearned(e.word, ev)}>
-                      {e.learned ? "암기 ✓" : "암기"}
-                    </button>
+                    {actionFor(e)}
                   </div>
                 </div>
               ))}
