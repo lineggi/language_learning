@@ -174,10 +174,29 @@
       letter-spacing: .08em; margin-bottom: 16px;
     }
     .passage { font-size: 19px; line-height: 1.75; }
-    .passage .w { cursor: pointer; border-radius: 3px; padding: 0 .5px; }
+    .passage .w { cursor: pointer; border-radius: 3px; padding: 0 .5px; touch-action: none; user-select: none; -webkit-user-select: none; }
     .passage .w.picked {
       background: linear-gradient(transparent 62%, var(--amber-soft) 62%);
       box-shadow: inset 0 -2px 0 var(--amber);
+    }
+    /* Study mode: tap a sentence to reveal its glossary words below it. */
+    .passage.study .sentence { cursor: pointer; border-radius: 4px; transition: background .12s; }
+    .passage.study .sentence.open { background: #fdf4e4; }
+    .passage.study .gword {
+      background: linear-gradient(transparent 62%, var(--amber-soft) 62%);
+      box-shadow: inset 0 -2px 0 var(--amber);
+    }
+    .passage.study .sentbox {
+      display: block; margin: 8px 0 12px; padding: 10px 12px;
+      background: #fff8ee; border-left: 3px solid var(--amber); border-radius: 8px;
+      font-family: "Newsreader", "Pretendard", serif; font-size: 15px; line-height: 1.5;
+    }
+    .passage.study .sbrow { display: block; padding: 4px 0; cursor: pointer; }
+    .passage.study .sbrow b { color: var(--ink); }
+    .passage.study .sbrow.muted { color: var(--faint); cursor: default; }
+    .passage.study .sbadd {
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px;
+      color: var(--amber); border: 1px solid var(--amber-soft); border-radius: 999px; padding: 1px 6px; margin-left: 4px;
     }
     .hint {
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint);
@@ -297,14 +316,20 @@
       padding: 14px 12px; cursor: pointer; min-height: 82px;
       display: flex; flex-direction: column; justify-content: space-between;
     }
-    .wcard .front { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 20px; }
-    .wcard .backdef { color: var(--ink); font-size: 16px; line-height: 1.45; padding-right: 18px; }
+    .wcard .front { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 20px; padding-right: 48px; }
+    .wcard .backdef { color: var(--ink); font-size: 16px; line-height: 1.45; padding-right: 48px; }
     .wcard .wdelete {
       position: absolute; top: 6px; right: 6px; width: 22px; height: 22px;
       border: 0; background: none; color: var(--faint); cursor: pointer;
       font-size: 18px; line-height: 1; border-radius: 6px; padding: 0;
     }
     .wcard .wdelete:hover { color: #b23b3b; background: var(--hair); }
+    .wcard .wspeak {
+      position: absolute; top: 6px; right: 30px; width: 22px; height: 22px;
+      border: 0; background: none; cursor: pointer; font-size: 13px; line-height: 1;
+      border-radius: 6px; padding: 0; opacity: .7;
+    }
+    .wcard .wspeak:hover { opacity: 1; background: var(--hair); }
     .wcard .meta {
       display: flex; justify-content: space-between; align-items: center; margin-top: 8px;
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px; color: var(--faint);
@@ -366,6 +391,19 @@
     function pickStreak(local, remote) {
       const cl = (local && local.count) || 0, cr = (remote && remote.count) || 0;
       return cl >= cr ? (local || { count: 0, lastDate: null }) : remote;
+    }
+
+    // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
+    function speak(text) {
+      try {
+        const synth = window.speechSynthesis;
+        if (!synth || !text) return;
+        synth.cancel();
+        const u = new SpeechSynthesisUtterance(String(text));
+        u.lang = "en-US";
+        u.rate = 0.95;
+        synth.speak(u);
+      } catch (e) {}
     }
 
     function load(key, fallback) {
@@ -722,8 +760,9 @@
       const [picked, setPicked] = useState({});            // index -> word
       const [progress, setProgress] = useState(alreadyRead ? 1 : 0);
       const [completed, setCompleted] = useState(alreadyRead);
-      const [showGloss, setShowGloss] = useState(false);
+      const [openSent, setOpenSent] = useState(null); // expanded sentence index (study mode)
       const [holdLeft, setHoldLeft] = useState(0);
+      const savedRef = useRef(false);
       const holdTimer = useRef(null);
       const doneRef = useRef(alreadyRead);
 
@@ -789,6 +828,34 @@
         });
       };
 
+      // Drag / hold-and-move to highlight a run of consecutive words at once.
+      const dragRef = useRef({ active: false, start: null, moved: false });
+      const selectRange = (a, b) => {
+        const lo = Math.min(a, b), hi = Math.max(a, b);
+        setPicked((prev) => {
+          const next = { ...prev };
+          for (let i = lo; i <= hi; i++) {
+            const t = tokens[i];
+            if (t && /^[\w'\-]+$/.test(t)) next[i] = t;
+          }
+          return next;
+        });
+      };
+      useEffect(() => {
+        const up = () => { dragRef.current.active = false; };
+        window.addEventListener("pointerup", up);
+        window.addEventListener("pointercancel", up);
+        return () => { window.removeEventListener("pointerup", up); window.removeEventListener("pointercancel", up); };
+      }, []);
+      const onWordDown = (i) => { dragRef.current = { active: true, start: i, moved: false }; };
+      const onWordEnter = (i) => {
+        if (dragRef.current.active) { dragRef.current.moved = true; selectRange(dragRef.current.start, i); }
+      };
+      const onWordClick = (i, word) => {
+        if (dragRef.current.moved) { dragRef.current.moved = false; return; } // was a drag, not a tap
+        togglePick(i, word);
+      };
+
       // Build glossary entries for the picked words (with lemma + wordbank fallback).
       const glossEntries = useMemo(() => {
         const out = [];
@@ -808,13 +875,64 @@
         return out.sort((a, b) => a.base.localeCompare(b.base));
       }, [picked, pack.glossary, wordbank]);
 
-      const revealGloss = () => {
-        setShowGloss(true);
-        const savable = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def }));
-        if (savable.length) {
-          onAddWords(savable, pack.id);
-          showToast(savable.length + "개 단어를 단어장에 추가했습니다");
-        }
+      // Split the passage into sentences, each with its tokens and the glossary
+      // words it contains (with meanings) for the tap-to-reveal study mode.
+      const sentences = useMemo(() => {
+        const parts = (pack.passage || "").match(/[^.!?]+[.!?]*(?:\s+|$)/g) || [pack.passage || ""];
+        return parts.filter((s) => s.trim()).map((s) => {
+          const toks = tokenize(s);
+          const glosses = [];
+          const seen = new Set();
+          toks.forEach((t) => {
+            if (/^[\w'\-]+$/.test(t)) {
+              const found = lookupGloss(t, pack.glossary, wordbank);
+              if (found && found.def && !seen.has(found.base)) {
+                seen.add(found.base);
+                glosses.push({ surface: t, base: found.base, def: found.def });
+              }
+            }
+          });
+          return { text: s, toks, glosses };
+        });
+      }, [pack.passage, pack.glossary, wordbank]);
+
+      // On completion, save the tapped words into the wordbank (once). Words in
+      // the article glossary use that meaning; any others are defined on demand
+      // via /api/define so nothing is left as "사전에 없음".
+      useEffect(() => {
+        if (!completed || savedRef.current) return;
+        savedRef.current = true;
+        (async () => {
+          const withDef = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def }));
+          const noDef = glossEntries.filter((e) => !e.def);
+          const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
+          let fetched = [];
+          if (noDef.length && endpoint) {
+            const results = await Promise.all(noDef.map(async (e) => {
+              try {
+                const r = await fetch(endpoint, {
+                  method: "POST", headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ word: e.surface, passage: pack.passage }),
+                });
+                if (!r.ok) return null;
+                const d = await r.json();
+                return d && d.meaning ? { base: (d.word || e.base), def: d.meaning } : null;
+              } catch { return null; }
+            }));
+            fetched = results.filter(Boolean);
+          }
+          const all = [...withDef, ...fetched];
+          if (all.length) {
+            onAddWords(all, pack.id);
+            showToast(all.length + "개 단어를 단어장에 담았어요");
+          }
+        })();
+      }, [completed]);
+
+      const addOne = (g, ev) => {
+        ev.stopPropagation();
+        onAddWords([{ base: g.base, def: g.def }], pack.id);
+        showToast(`"${g.base}" 단어장에 담았어요`);
       };
 
       const pickedCount = Object.keys(picked).length;
@@ -824,57 +942,56 @@
           <button className="backbtn mono" onClick={onBack}>← 목록으로</button>
           <div className="progresswrap"><div className="progressbar" style={{ width: (progress * 100).toFixed(1) + "%" }} /></div>
           <div className="holdnote mono">
-            {completed ? "✓ 완독" : holdLeft > 0 ? `맨 아래 · ${(holdLeft / 1000).toFixed(1)}초 유지` : ""}
+            {completed ? "✓ 완독 · 문장을 탭하면 뜻이 보여요" : holdLeft > 0 ? `맨 아래 · ${(holdLeft / 1000).toFixed(1)}초 유지` : ""}
           </div>
 
           <h2 className="fraunces">{pack.title}</h2>
           <div className="byline mono">{pack.source} · {pack.date}</div>
 
-          <div className="passage">
-            {tokens.map((tok, i) => {
-              if (/^[\w'\-]+$/.test(tok)) {
-                return (
-                  <span
-                    key={i}
-                    className={"w" + (picked[i] ? " picked" : "")}
-                    onClick={() => togglePick(i, tok)}
-                  >{tok}</span>
-                );
-              }
-              return <span key={i}>{tok}</span>;
-            })}
-          </div>
-
-          <div className="hint mono">
-            {pickedCount > 0 ? `${pickedCount}개 단어 선택됨` : "모르는 단어를 탭해서 표시하세요"}
-          </div>
-
-          <div className="divider" />
-
-          {!showGloss && (
-            <button className="btn primary" disabled={!completed} onClick={revealGloss}>
-              {completed ? "단어 뜻 확인" : "끝까지 읽어야 열립니다"}
-            </button>
-          )}
-
-          {showGloss && (
+          {!completed ? (
             <React.Fragment>
-              <div className="section-label mono">단어 뜻 · 본문 맥락</div>
-              {glossEntries.length === 0 && <div className="hint mono">선택한 단어가 없습니다. 본문 단어를 탭한 뒤 다시 확인하세요.</div>}
-              <ul className="glosslist">
-                {glossEntries.map((e) => (
-                  <li key={e.base} className="glossitem">
-                    <span>
-                      <span className="term">{e.surface}</span>{" "}
-                      {e.base !== e.surface.toLowerCase() && <span className="base">({e.base})</span>}
-                    </span>
-                    <span className="def">
-                      {e.def || <span className="base">사전에 없음</span>}
-                      {e.fromBank && <div className="saved">SAVED</div>}
-                    </span>
-                  </li>
+              <div className="passage">
+                {tokens.map((tok, i) => {
+                  if (/^[\w'\-]+$/.test(tok)) {
+                    return (
+                      <span key={i} className={"w" + (picked[i] ? " picked" : "")}
+                        onPointerDown={() => onWordDown(i)}
+                        onPointerEnter={() => onWordEnter(i)}
+                        onClick={() => onWordClick(i, tok)}>{tok}</span>
+                    );
+                  }
+                  return <span key={i}>{tok}</span>;
+                })}
+              </div>
+              <div className="hint mono">
+                {pickedCount > 0 ? `${pickedCount}개 단어 선택됨 · 드래그로 여러 개 선택` : "모르는 단어를 탭하거나 드래그해서 표시"}
+              </div>
+            </React.Fragment>
+          ) : (
+            <React.Fragment>
+              <div className="passage study">
+                {sentences.map((s, si) => (
+                  <span key={si} className={"sentence" + (openSent === si ? " open" : "")}
+                        onClick={() => setOpenSent(openSent === si ? null : si)}>
+                    {s.toks.map((t, ti) => {
+                      if (/^[\w'\-]+$/.test(t)) {
+                        const f = lookupGloss(t, pack.glossary, wordbank);
+                        return <span key={ti} className={f && f.def ? "gword" : ""}>{t}</span>;
+                      }
+                      return <span key={ti}>{t}</span>;
+                    })}
+                    {openSent === si && (
+                      <span className="sentbox">
+                        {s.glosses.length ? s.glosses.map((g, gi) => (
+                          <span className="sbrow" key={gi} onClick={(ev) => addOne(g, ev)}>
+                            <b>{g.surface}</b> — {g.def} <span className="sbadd">+ 담기</span>
+                          </span>
+                        )) : <span className="sbrow muted">이 문장엔 사전 단어가 없어요</span>}
+                      </span>
+                    )}
+                  </span>
                 ))}
-              </ul>
+              </div>
 
               <div className="divider" />
               <Writing pack={pack} showToast={showToast} />
@@ -1096,8 +1213,9 @@
           ) : (
             <div className="wgrid">
               {entries.map((e) => (
-                <div key={e.word} className={"wcard " + e.stage} onClick={() => flip(e.word)}>
+                <div key={e.word} className={"wcard " + e.stage} onClick={() => { flip(e.word); speak(e.word); }}>
                   <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
+                  <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speak(e.word); }} aria-label="발음 듣기" title="발음 듣기">🔊</button>
                   {flipped[e.word]
                     ? <div className="front fraunces">{e.word}</div>
                     : <div className="backdef">{e.meaning}</div>}
