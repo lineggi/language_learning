@@ -4,7 +4,7 @@
 // so it is safe to commit them. Leave SUPABASE_URL empty to run in local-only
 // mode (no login, data stays in this browser's localStorage).
 window.DBW_CONFIG = {
-  SUPABASE_URL: "",              // e.g. "https://abcd1234.supabase.co"
-  SUPABASE_ANON_KEY: "",         // Supabase → Project Settings → API → anon public key
+  SUPABASE_URL: "https://icicfqtjvzdyvffbhawt.supabase.co",
+  SUPABASE_ANON_KEY: "",         // Supabase → Project Settings → API → "anon public" key (paste here)
   GRADE_ENDPOINT: "/api/grade",  // Vercel serverless function; leave as-is
 };
