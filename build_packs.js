@@ -26,6 +26,11 @@ const PACKS_PATH = path.join(__dirname, "packs.json");
 
 const HOMEPAGE = "https://www.coindesk.com/";
 const RSS_FEEDS = ["https://www.coindesk.com/arc/outboundfeeds/rss/"];
+// Economy / general-business feeds (free, reliable RSS with real article URLs).
+const ECON_FEEDS = [
+  "https://www.cnbc.com/id/20910258/device/rss/rss.html", // CNBC Economy
+  "https://feeds.bbci.co.uk/news/business/rss.xml",       // BBC Business
+];
 const UA = "DaybreakWire/1.0 (+github actions)";
 
 // ---------------------------------------------------------------------------
@@ -167,9 +172,9 @@ function parseRss(xml) {
   return items;
 }
 
-async function fetchRss() {
+async function fetchRss(feeds) {
   let items = [];
-  for (const feed of RSS_FEEDS) {
+  for (const feed of feeds) {
     try {
       const res = await fetchWithRetry(feed, { headers: { "User-Agent": UA } });
       items.push(...parseRss(await res.text()));
@@ -180,17 +185,25 @@ async function fetchRss() {
   return dedupeByUrl(items).slice(0, 15);
 }
 
-async function collectCandidates() {
+// Crypto candidates: CoinDesk homepage "Most Read", falling back to its RSS.
+async function collectCrypto() {
   try {
     const { items, usedMostRead } = await fetchMostRead();
-    console.log(`Homepage scrape: ${items.length} candidates (${usedMostRead ? "Most Read" : "featured"}).`);
-    return { candidates: items, label: usedMostRead ? "Most Read" : "Top Story", ranked: usedMostRead };
+    console.log(`Crypto: ${items.length} candidates (${usedMostRead ? "Most Read" : "featured"}).`);
+    return { candidates: items, label: "Crypto", ranked: usedMostRead };
   } catch (err) {
-    console.warn(`Most Read scrape failed (${err.message}); falling back to RSS.`);
-    const rss = await fetchRss();
-    console.log(`RSS fallback: ${rss.length} candidates.`);
-    return { candidates: rss, label: "Editor's Pick", ranked: false };
+    console.warn(`Crypto scrape failed (${err.message}); falling back to RSS.`);
+    const rss = await fetchRss(RSS_FEEDS);
+    console.log(`Crypto RSS fallback: ${rss.length} candidates.`);
+    return { candidates: rss, label: "Crypto", ranked: false };
   }
+}
+
+// Economy candidates: CNBC Economy + BBC Business RSS.
+async function collectEconomy() {
+  const rss = await fetchRss(ECON_FEEDS);
+  console.log(`Economy: ${rss.length} candidates.`);
+  return { candidates: rss, label: "Economy", ranked: false };
 }
 
 // ---------------------------------------------------------------------------
@@ -242,7 +255,7 @@ const PACK_SCHEMA = {
   required: ["packs"],
 };
 
-function buildPrompt(candidates, label, ranked) {
+function buildPrompt(candidates, label, ranked, domain) {
   const list = candidates
     .map((c, i) => `${i + 1}. TITLE: ${c.title}\n   URL: ${c.link}${c.description ? `\n   SUMMARY: ${c.description.slice(0, 300)}` : ""}`)
     .join("\n\n");
@@ -251,7 +264,11 @@ function buildPrompt(candidates, label, ranked) {
     ? "These candidates are already ordered by popularity (the \"Most Read\" list), so prefer the ones near the top unless a lower story is far more relevant to the learner."
     : "Pick the 3 most relevant and interesting stories for the learner.";
 
-  return `You are the editor of "Daybreak Wire", a daily crypto news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a crypto/fintech PM interested in stablecoins, regulation, tokenization, and exchanges like OKX.
+  const persona = domain === "economy"
+    ? `You are the editor of "Daybreak Wire", a daily news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a fintech PM. For ECONOMY, choose general economics / business stories — central banks and interest rates, inflation, jobs, growth, trade, major companies, and markets — that build strong economic English vocabulary.`
+    : `You are the editor of "Daybreak Wire", a daily crypto news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a crypto/fintech PM interested in stablecoins, regulation, tokenization, and exchanges like OKX.`;
+
+  return `${persona}
 
 CANDIDATE STORIES (${label}):
 ${list}
@@ -350,6 +367,42 @@ function normalizeGlossary(g) {
 // Main
 // ---------------------------------------------------------------------------
 
+// Generate up to 3 packs for one domain and shape them into feed entries.
+async function makePacks(coll, domain, idPrefix, rankBase, date) {
+  if (!coll || coll.candidates.length < 3) {
+    console.warn(`${domain}: fewer than 3 candidates (${coll ? coll.candidates.length : 0}); skipping.`);
+    return [];
+  }
+  const source = domain === "crypto"
+    ? "Daybreak Wire (based on CoinDesk)"
+    : "Daybreak Wire (based on business news)";
+  const readsLabel = domain === "crypto" ? "Crypto" : "Economy";
+
+  const result = await callGemini(buildPrompt(coll.candidates, coll.label, coll.ranked, domain));
+  const raw = Array.isArray(result?.packs) ? result.packs : [];
+  return raw.slice(0, 3).map((p, i) => {
+    const localRank = Number.isInteger(p.rank) && p.rank >= 1 && p.rank <= 3 ? p.rank : i + 1;
+    // Map Gemini's chosen candidate NUMBER to the real URL — never model-invented.
+    const idx = Number.isInteger(p.sourceIndex) ? p.sourceIndex - 1 : i;
+    const src = coll.candidates[idx] || coll.candidates[i] || coll.candidates[0];
+    return {
+      id: `${idPrefix}-${date}-${localRank}`,
+      date,
+      rank: rankBase + localRank,       // crypto → 1..3, economy → 4..6 (ordering)
+      category: domain,                 // "crypto" | "economy"
+      reads: `${readsLabel} #${localRank}`,
+      hook: p.hook || "",
+      url: src.link || "",
+      title: p.title || src.title || "",
+      source,
+      passage: p.passage || "",
+      glossary: normalizeGlossary(p.glossary),
+      questions: Array.isArray(p.questions) ? p.questions.slice(0, 3) : [],
+      modelAnswers: Array.isArray(p.modelAnswers) ? p.modelAnswers.slice(0, 3) : [],
+    };
+  });
+}
+
 async function main() {
   if (!API_KEY) {
     console.error("GEMINI_API_KEY is not set.");
@@ -359,55 +412,31 @@ async function main() {
   const date = kstDateString();
   console.log(`Building packs for ${date} using model ${MODEL}`);
 
-  const { candidates, label, ranked } = await collectCandidates();
-  if (candidates.length < 3) {
-    console.error("Fewer than 3 candidates collected; aborting without changes.");
+  const crypto = await collectCrypto();
+  let economy;
+  try { economy = await collectEconomy(); }
+  catch (err) { console.warn(`Economy collection failed: ${err.message}`); economy = { candidates: [], label: "Economy", ranked: false }; }
+
+  const cryptoPacks = await makePacks(crypto, "crypto", "cd", 0, date);
+  const econPacks = await makePacks(economy, "economy", "ec", 3, date);
+  const newPacks = [...cryptoPacks, ...econPacks];
+
+  if (newPacks.length === 0) {
+    console.error("No packs generated; aborting without changes.");
     process.exit(1);
   }
-
-  const result = await callGemini(buildPrompt(candidates, label, ranked));
-  const rawPacks = Array.isArray(result?.packs) ? result.packs : [];
-  if (rawPacks.length === 0) {
-    console.error("Gemini returned no packs; aborting without changes.");
-    process.exit(1);
-  }
-
-  const newPacks = rawPacks.slice(0, 3).map((p, i) => {
-    const rank = Number.isInteger(p.rank) ? p.rank : i + 1;
-    // Map Gemini's chosen candidate number to the real scraped URL. This is the
-    // key correctness guarantee: the "원문" link is never invented by the model.
-    const idx = Number.isInteger(p.sourceIndex) ? p.sourceIndex - 1 : i;
-    const src = candidates[idx] || candidates[i] || candidates[0];
-    return {
-      id: `cd-${date}-${rank}`,
-      date,
-      rank,
-      reads: `${label} #${rank}`,
-      hook: p.hook || "",
-      url: src.link || "",
-      title: p.title || src.title || "",
-      source: "Daybreak Wire (based on CoinDesk)",
-      passage: p.passage || "",
-      glossary: normalizeGlossary(p.glossary),
-      questions: Array.isArray(p.questions) ? p.questions.slice(0, 3) : [],
-      modelAnswers: Array.isArray(p.modelAnswers) ? p.modelAnswers.slice(0, 3) : [],
-    };
-  });
-
-  // Guard: every pack must carry a real CoinDesk URL.
   const missing = newPacks.filter((p) => !p.url);
   if (missing.length) console.warn(`${missing.length} pack(s) have no URL after mapping.`);
 
   // Replace any existing packs that share an id (same day + rank) with the
-  // freshly generated ones, so a re-run updates today's packs instead of being
-  // silently dropped. Older days are preserved in the accumulating feed.
+  // freshly generated ones. Older days are preserved in the accumulating feed.
   const existing = loadPacks();
   const newIds = new Set(newPacks.map((p) => p.id));
   const merged = [...newPacks, ...existing.filter((p) => !newIds.has(p.id))];
 
   fs.writeFileSync(PACKS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf8");
-  console.log(`Wrote ${newPacks.length} new packs (${label}; total ${merged.length}) to packs.json`);
-  newPacks.forEach((p) => console.log(`  #${p.rank} ${p.title} -> ${p.url}`));
+  console.log(`Wrote ${newPacks.length} new packs (${cryptoPacks.length} crypto + ${econPacks.length} economy; total ${merged.length}).`);
+  newPacks.forEach((p) => console.log(`  #${p.rank} [${p.category}] ${p.title} -> ${p.url}`));
 }
 
 main().catch((err) => {
