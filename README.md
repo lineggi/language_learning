@@ -12,6 +12,30 @@
 | `packs.json` | 기사 피드(배열, 누적). Actions가 매일 갱신. |
 | `build_packs.js` | CoinDesk RSS → Gemini → 팩 3편 생성 → `packs.json` 앞에 prepend. |
 | `.github/workflows/daily.yml` | cron `0 21 * * *`(=06:00 KST) + `workflow_dispatch`. |
+| `config.js` | 클라이언트 설정(Supabase URL/anon key, 채점 엔드포인트). 비워두면 로컬 전용. |
+| `api/grade.js` | Vercel 서버리스 함수 — 영작 AI 채점·첨삭(Gemini). 키는 서버 env에만. |
+| `supabase/schema.sql` | Supabase 테이블 + RLS(기기 간 동기화용). |
+
+## 백엔드(선택) — 기기 동기화 + AI 채점
+
+정적 배포만으로도 앱은 동작합니다(단어장/진도는 기기별 localStorage). 아래를 설정하면
+**폰↔PC 동기화**와 **영작 AI 채점·첨삭**이 켜집니다.
+
+### A. Supabase (동기화)
+1. supabase.com에서 프로젝트 생성.
+2. SQL Editor → `supabase/schema.sql` 붙여넣고 Run.
+3. Authentication → Providers → **Email**(매직링크) 활성화. URL Configuration의 Site URL에
+   배포 도메인(예: `https://language-learning-vert.vercel.app`) 추가.
+4. Project Settings → API 에서 **Project URL**과 **anon public key** 복사 → `config.js`에 붙여넣기.
+   (anon key는 공개돼도 안전 — RLS가 보호)
+
+### B. AI 채점 (Vercel 함수)
+1. Vercel 프로젝트 → Settings → Environment Variables 에 **`GEMINI_API_KEY`** 추가
+   (GitHub Actions secret과는 별개입니다). 선택: `GEMINI_MODEL`.
+2. 재배포하면 `POST /api/grade`가 활성화됩니다. 앱의 영작 화면에서 **"AI 채점·첨삭"** 버튼이 동작.
+
+> `config.js`의 `SUPABASE_URL`이 비어 있으면 로그인 바가 숨겨지고 로컬 전용으로 동작합니다.
+> `GRADE_ENDPOINT`는 기본 `/api/grade` — Vercel 함수가 없으면 버튼이 오류 메시지를 표시합니다.
 
 ## 1회 설정
 

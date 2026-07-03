@@ -28,6 +28,11 @@
        inline script (blank page). 7.23.5 uses the classic runtime (React.createElement). -->
   <script src="https://unpkg.com/@babel/standalone@7.23.5/babel.min.js"></script>
 
+  <!-- Supabase client (cross-device sync) + app config. Both are optional: with
+       an empty SUPABASE_URL the app runs local-only, exactly as before. -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="config.js"></script>
+
   <style>
     :root {
       --amber: #df8b25;
@@ -221,6 +226,42 @@
       text-transform: uppercase; color: var(--good); margin-bottom: 4px;
     }
 
+    /* AI grade result */
+    .grade {
+      margin-top: 10px; padding: 12px; border: 1px solid var(--amber-soft);
+      background: #fffaf1; border-radius: 10px;
+    }
+    .grade .grow { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
+    .grade .gscore {
+      font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 22px; color: var(--amber);
+    }
+    .grade .gsum { font-size: 15px; color: var(--ink); line-height: 1.5; }
+    .grade .gcorr { padding: 7px 0; border-top: 1px dashed var(--hair); font-size: 15px; }
+    .grade .gbefore { color: #b23b3b; text-decoration: line-through; }
+    .grade .garrow { color: var(--faint); }
+    .grade .gafter { color: var(--good); font-weight: 600; }
+    .grade .gwhy { color: var(--muted); font-size: 13px; margin-top: 2px; }
+    .grade .grevised { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--hair); font-size: 15px; line-height: 1.55; }
+    .grade .grevised .mono { font-size: 10px; color: var(--good); letter-spacing: .1em; text-transform: uppercase; margin-right: 6px; }
+    .gerr { margin-top: 8px; color: #b23b3b; font-size: 12px; }
+
+    /* Auth / sync bar */
+    .authbar {
+      display: flex; align-items: center; gap: 8px; margin: 0 0 14px;
+      padding: 8px 10px; border: 1px solid var(--hair); border-radius: 10px; background: var(--card);
+    }
+    .authbar .mono { font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--muted); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .authbar .authinput {
+      flex: 1; min-width: 0; border: 1px solid var(--hair); border-radius: 8px; padding: 8px 10px;
+      font-size: 12px; background: #fffdf9; color: var(--ink);
+    }
+    .authbar .authinput:focus { outline: none; border-color: var(--amber); }
+    .authbar .authbtn {
+      border: 1px solid var(--hair); background: var(--amber-soft); color: #8a5a12; cursor: pointer;
+      border-radius: 8px; padding: 8px 12px; font-family: "IBM Plex Mono", "Pretendard", monospace;
+      font-size: 11px; white-space: nowrap;
+    }
+
     /* Wordbank */
     .toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
     .search {
@@ -305,6 +346,23 @@
     /* Storage helpers (localStorage, prefix dbw:)                         */
     /* ------------------------------------------------------------------ */
     const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak" };
+
+    /* Optional backend: Supabase (sync) + /api/grade (AI grading). If SUPABASE_URL
+       is empty the client is null and the app stays fully local. */
+    const CFG = (typeof window !== "undefined" && window.DBW_CONFIG) || {};
+    const SB = (CFG.SUPABASE_URL && CFG.SUPABASE_ANON_KEY && window.supabase)
+      ? window.supabase.createClient(CFG.SUPABASE_URL, CFG.SUPABASE_ANON_KEY,
+          { auth: { persistSession: true, autoRefreshToken: true } })
+      : null;
+
+    // Merge remote state into local without losing anything the user collected offline.
+    function mergeWordbank(local, remote) { return { ...(remote || {}), ...(local || {}) }; }
+    function mergeReads(local, remote) { return { ...(remote || {}), ...(local || {}) }; }
+    function pickStreak(local, remote) {
+      const cl = (local && local.count) || 0, cr = (remote && remote.count) || 0;
+      return cl >= cr ? (local || { count: 0, lastDate: null }) : remote;
+    }
+
     function load(key, fallback) {
       try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }
       catch (e) { return fallback; }
@@ -376,10 +434,57 @@
       const [reads, setReads] = useState(() => load(KEY.reads, {}));
       const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null }));
       const [toast, setToast] = useState(null);
+      const [session, setSession] = useState(null);
+      const [syncMsg, setSyncMsg] = useState("");
+      const hydratedRef = useRef(false);
+      const saveTimer = useRef(null);
 
       useEffect(() => save(KEY.wordbank, wordbank), [wordbank]);
       useEffect(() => save(KEY.reads, reads), [reads]);
       useEffect(() => save(KEY.streak, streak), [streak]);
+
+      // Track Supabase auth session (only when a backend is configured).
+      useEffect(() => {
+        if (!SB) return;
+        SB.auth.getSession().then(({ data }) => setSession(data.session || null));
+        const { data: sub } = SB.auth.onAuthStateChange((_e, s) => setSession(s));
+        return () => sub.subscription.unsubscribe();
+      }, []);
+
+      // On sign-in: pull the remote row and merge it into local state.
+      useEffect(() => {
+        if (!SB || !session) { hydratedRef.current = false; return; }
+        let cancelled = false;
+        (async () => {
+          setSyncMsg("동기화 중…");
+          const { data, error } = await SB.from("user_state").select("*")
+            .eq("user_id", session.user.id).maybeSingle();
+          if (cancelled) return;
+          if (error) { setSyncMsg("동기화 오류"); return; }
+          if (data) {
+            setWordbank((loc) => mergeWordbank(loc, data.wordbank));
+            setReads((loc) => mergeReads(loc, data.reads));
+            setStreak((loc) => pickStreak(loc, data.streak));
+          }
+          hydratedRef.current = true;
+          setSyncMsg("동기화됨");
+          setTimeout(() => setSyncMsg(""), 1500);
+        })();
+        return () => { cancelled = true; };
+      }, [session]);
+
+      // Push local changes up (debounced) once hydrated.
+      useEffect(() => {
+        if (!SB || !session || !hydratedRef.current) return;
+        if (saveTimer.current) clearTimeout(saveTimer.current);
+        saveTimer.current = setTimeout(() => {
+          SB.from("user_state").upsert({
+            user_id: session.user.id, wordbank, reads, streak,
+            updated_at: new Date().toISOString(),
+          }).then(({ error }) => { if (error) setSyncMsg("저장 오류"); });
+        }, 1000);
+        return () => saveTimer.current && clearTimeout(saveTimer.current);
+      }, [wordbank, reads, streak, session]);
 
       // Once on load: drop mastered words that have sat in "장기완료" for 7+ days.
       useEffect(() => {
@@ -476,9 +581,45 @@
 
       return (
         <Shell tab={tab} setTab={(t) => { setOpenId(null); setTab(t); }} hideChromeWhenReading={!!openPack}>
+          {SB && <AuthBar session={session} syncMsg={syncMsg} showToast={showToast} />}
           {body}
           {toast && <div className="toast">{toast}</div>}
         </Shell>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* AuthBar: magic-link login + sync status (only when SB configured)   */
+    /* ------------------------------------------------------------------ */
+    function AuthBar({ session, syncMsg, showToast }) {
+      const [email, setEmail] = useState("");
+      const [sent, setSent] = useState(false);
+
+      const sendLink = async () => {
+        if (!email.trim()) return;
+        const { error } = await SB.auth.signInWithOtp({
+          email: email.trim(),
+          options: { emailRedirectTo: window.location.href },
+        });
+        if (error) showToast("로그인 링크 전송 실패: " + error.message);
+        else { setSent(true); showToast("메일로 로그인 링크를 보냈어요"); }
+      };
+
+      if (session) {
+        return (
+          <div className="authbar">
+            <span className="mono">☁ {session.user.email}{syncMsg ? " · " + syncMsg : " · 동기화 켜짐"}</span>
+            <button className="authbtn" onClick={() => SB.auth.signOut()}>로그아웃</button>
+          </div>
+        );
+      }
+      return (
+        <div className="authbar">
+          <input className="authinput mono" type="email" placeholder="이메일로 기기 동기화"
+            value={email} onChange={(e) => setEmail(e.target.value)}
+            onKeyDown={(e) => e.key === "Enter" && sendLink()} />
+          <button className="authbtn" onClick={sendLink}>{sent ? "재전송" : "링크 받기"}</button>
+        </div>
       );
     }
 
@@ -729,6 +870,10 @@
       const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
       const [inputs, setInputs] = useState(qs.map(() => ""));
       const [revealed, setRevealed] = useState(false);
+      const [grades, setGrades] = useState({}); // idx -> result | {error} | {skipped}
+      const [grading, setGrading] = useState(false);
+
+      const endpoint = (window.DBW_CONFIG || {}).GRADE_ENDPOINT;
 
       const copyMine = () => {
         const text = qs.map((q, i) => `Q${i + 1}. ${q}\nMy answer: ${inputs[i] || "(빈칸)"}`).join("\n\n");
@@ -741,10 +886,33 @@
         }
       };
 
+      const gradeAll = async () => {
+        if (!endpoint) { showToast("AI 채점 서버가 아직 설정되지 않았어요"); return; }
+        if (!inputs.some((v) => v && v.trim())) { showToast("먼저 답을 작성해 주세요"); return; }
+        setGrading(true); setRevealed(true);
+        const acc = {};
+        for (let i = 0; i < qs.length; i++) {
+          const ua = (inputs[i] || "").trim();
+          if (!ua) { acc[i] = { skipped: true }; setGrades({ ...acc }); continue; }
+          try {
+            const r = await fetch(endpoint, {
+              method: "POST", headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ question: qs[i], passage: pack.passage, modelAnswer: ans[i], userAnswer: ua }),
+            });
+            const data = await r.json();
+            acc[i] = r.ok ? data : { error: data.error || ("HTTP " + r.status) };
+          } catch (e) { acc[i] = { error: String((e && e.message) || e) }; }
+          setGrades({ ...acc });
+        }
+        setGrading(false);
+      };
+
       return (
         <React.Fragment>
           <div className="section-label mono">영작 3문항</div>
-          {qs.map((q, i) => (
+          {qs.map((q, i) => {
+            const g = grades[i];
+            return (
             <div className="qcard" key={i}>
               <div className="qlabel mono">{labels[i] || "Q" + (i + 1)}</div>
               <div className="qtext">{q}</div>
@@ -753,6 +921,22 @@
                 placeholder="여기에 영어로 답을 써보세요…"
                 onChange={(e) => setInputs((prev) => prev.map((v, j) => (j === i ? e.target.value : v)))}
               />
+              {g && !g.skipped && !g.error && (
+                <div className="grade">
+                  <div className="grow">
+                    <span className="gscore">{g.score}점</span>
+                    <span className="gsum">{g.summary}</span>
+                  </div>
+                  {(g.corrections || []).map((c, ci) => (
+                    <div className="gcorr" key={ci}>
+                      <div><span className="gbefore">{c.before}</span> <span className="garrow">→</span> <span className="gafter">{c.after}</span></div>
+                      <div className="gwhy">{c.why}</div>
+                    </div>
+                  ))}
+                  {g.revised && <div className="grevised"><span className="mono">교정본</span> {g.revised}</div>}
+                </div>
+              )}
+              {g && g.error && <div className="gerr mono">채점 실패: {g.error}</div>}
               {revealed && ans[i] && (
                 <div className="model">
                   <div className="mlabel mono">Model answer · 체크포인트</div>
@@ -760,11 +944,16 @@
                 </div>
               )}
             </div>
-          ))}
-          <div style={{ display: "flex", gap: 8 }}>
+          );})}
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
             <button className="btn ghost" onClick={copyMine}>내 답변 복사</button>
-            <button className="btn primary" onClick={() => setRevealed(true)}>
-              {revealed ? "모범답안 표시됨" : "제출 · 모범답안 보기"}
+            {endpoint && (
+              <button className="btn primary" onClick={gradeAll} disabled={grading}>
+                {grading ? "채점 중…" : "AI 채점 · 첨삭"}
+              </button>
+            )}
+            <button className="btn ghost" onClick={() => setRevealed(true)}>
+              {revealed ? "모범답안 표시됨" : "모범답안 보기"}
             </button>
           </div>
         </React.Fragment>
