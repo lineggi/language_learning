@@ -345,6 +345,14 @@
     .flashcard .fc-speak:hover { opacity: 1; }
     .fc-controls { display: flex; gap: 10px; margin-top: 14px; }
     .fc-controls .btn { flex: 1; }
+    .btn.fc-yes { background: var(--good); color: #fff; }
+    .btn.fc-no { background: #fff; color: #b23b3b; border: 1px solid #e6bcbc; }
+    .fc-sub { text-align: center; color: var(--faint); font-size: 10px; margin-top: 10px; letter-spacing: .04em; }
+    .studydone { text-align: center; padding: 24px 8px; }
+    .studydone .donebig { font-size: 34px; font-weight: 700; }
+    .studydone .donelbl { font-size: 11px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; margin: 4px 0 20px; }
+    .studydone .doneperfect { color: var(--good); font-size: 14px; margin-bottom: 8px; }
+    .studydone .btn { margin: 6px 0; }
 
     .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .wcard {
@@ -1209,6 +1217,7 @@
       const [deck, setDeck] = useState([]);
       const [idx, setIdx] = useState(0);
       const [cardFlip, setCardFlip] = useState(false);
+      const [missed, setMissed] = useState([]);
       const today = kstToday();
 
       const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= 3;
@@ -1253,11 +1262,28 @@
       };
       const startStudy = () => {
         const d = shuffle(entries.map((e) => ({ word: e.word, meaning: e.meaning })));
-        setDeck(d); setIdx(0); setCardFlip(false); setStudying(true);
+        setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setStudying(true);
       };
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
-      const nextCard = () => { setCardFlip(false); setIdx((i) => (i + 1) % deck.length); };
-      const prevCard = () => { setCardFlip(false); setIdx((i) => (i - 1 + deck.length) % deck.length); };
+      const advance = () => { setCardFlip(false); setIdx((i) => i + 1); };
+      // "알아요" → advance the word one SRS stage (미암기→복습중→장기완료).
+      const know = () => {
+        const w = deck[idx].word;
+        const st = stageOf(wordbank[w] || {});
+        if (st === "new") patch(w, { stage: "review", reviewSince: today, learned: true });
+        else if (st === "review") patch(w, { stage: "mastered", masteredSince: today });
+        advance();
+      };
+      // "몰라요" → keep the stage, mark for the repeat round.
+      const dontKnow = () => {
+        const w = deck[idx].word;
+        setMissed((m) => (m.includes(w) ? m : [...m, w]));
+        advance();
+      };
+      const restartMissed = () => {
+        const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "" })));
+        setDeck(d); setMissed([]); setIdx(0); setCardFlip(false);
+      };
 
       const CHIPS = [
         { id: "all", label: `전체 ${total}` },
@@ -1280,7 +1306,28 @@
       };
 
       // Flashcard study session (replaces the grid while active).
-      if (studying && deck.length) {
+      if (studying) {
+        // Round finished → summary + repeat-missed / restart.
+        if (idx >= deck.length) {
+          const known = deck.length - missed.length;
+          return (
+            <React.Fragment>
+              <div className="studyhead mono">
+                <span>라운드 완료</span>
+                <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
+              </div>
+              <div className="studydone">
+                <div className="donebig fraunces">✓ {known} · ✕ {missed.length}</div>
+                <div className="donelbl mono">아는 단어 / 모르는 단어</div>
+                {missed.length > 0
+                  ? <button className="btn primary" onClick={restartMissed}>모르는 단어 {missed.length}개 다시</button>
+                  : <div className="doneperfect mono">완벽해요! 🎉</div>}
+                <button className="btn ghost" onClick={startStudy}>처음부터 다시</button>
+                <button className="btn ghost" onClick={() => setStudying(false)}>단어장으로</button>
+              </div>
+            </React.Fragment>
+          );
+        }
         const cur = deck[idx];
         return (
           <React.Fragment>
@@ -1296,9 +1343,10 @@
               <div className="fc-hint mono">{cardFlip ? "탭하면 뜻으로" : "탭하면 단어 보기"}</div>
             </div>
             <div className="fc-controls">
-              <button className="btn ghost" onClick={prevCard}>← 이전</button>
-              <button className="btn primary" onClick={nextCard}>다음 →</button>
+              <button className="btn fc-no" onClick={dontKnow}>✕ 몰라요</button>
+              <button className="btn fc-yes" onClick={know}>✓ 알아요</button>
             </div>
+            <div className="fc-sub mono">알아요 = 다음 단계로 (미암기→복습중→완료)</div>
           </React.Fragment>
         );
       }
