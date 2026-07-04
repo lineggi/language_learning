@@ -294,6 +294,11 @@
       font-size: 11px; white-space: nowrap;
     }
     .authbar .authbtn.google { background: #fff; color: #3c4043; border-color: #dadce0; font-weight: 600; }
+    .authmsg {
+      margin: -8px 0 14px; padding: 6px 10px; border-radius: 8px; background: #fdecec;
+      color: #b23b3b; font-size: 11px; font-family: "IBM Plex Mono", "Pretendard", monospace;
+      word-break: break-word;
+    }
 
     /* Wordbank */
     .toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
@@ -391,7 +396,17 @@
     const CFG = (typeof window !== "undefined" && window.DBW_CONFIG) || {};
     const SB = (CFG.SUPABASE_URL && CFG.SUPABASE_ANON_KEY && window.supabase)
       ? window.supabase.createClient(CFG.SUPABASE_URL, CFG.SUPABASE_ANON_KEY,
-          { auth: { persistSession: true, autoRefreshToken: true } })
+          {
+            auth: {
+              persistSession: true,
+              autoRefreshToken: true,
+              detectSessionInUrl: true,
+              // Implicit flow returns tokens in the URL hash on redirect, which a
+              // pure static SPA can read directly — avoids PKCE code-exchange
+              // failures that leave OAuth logins stuck on the sign-in state.
+              flowType: "implicit",
+            },
+          })
       : null;
 
     // Merge remote state into local without losing anything the user collected offline.
@@ -498,6 +513,12 @@
       // Track Supabase auth session (only when a backend is configured).
       useEffect(() => {
         if (!SB) return;
+        // Surface an OAuth redirect error (e.g. redirect_uri_mismatch) if present.
+        const params = new URLSearchParams(
+          (window.location.hash || "").replace(/^#/, "") + "&" + (window.location.search || "").replace(/^\?/, "")
+        );
+        const err = params.get("error_description") || params.get("error");
+        if (err) setSyncMsg("로그인 오류: " + err);
         SB.auth.getSession().then(({ data }) => setSession(data.session || null));
         const { data: sub } = SB.auth.onAuthStateChange((_e, s) => setSession(s));
         return () => sub.subscription.unsubscribe();
@@ -674,13 +695,16 @@
         );
       }
       return (
-        <div className="authbar">
-          <button className="authbtn google" onClick={googleLogin} title="Google로 로그인">G · 구글 로그인</button>
-          <input className="authinput mono" type="email" placeholder="또는 이메일"
-            value={email} onChange={(e) => setEmail(e.target.value)}
-            onKeyDown={(e) => e.key === "Enter" && sendLink()} />
-          <button className="authbtn" onClick={sendLink}>{sent ? "재전송" : "링크"}</button>
-        </div>
+        <React.Fragment>
+          <div className="authbar">
+            <button className="authbtn google" onClick={googleLogin} title="Google로 로그인">G · 구글 로그인</button>
+            <input className="authinput mono" type="email" placeholder="또는 이메일"
+              value={email} onChange={(e) => setEmail(e.target.value)}
+              onKeyDown={(e) => e.key === "Enter" && sendLink()} />
+            <button className="authbtn" onClick={sendLink}>{sent ? "재전송" : "링크"}</button>
+          </div>
+          {syncMsg && <div className="authmsg mono">{syncMsg}</div>}
+        </React.Fragment>
       );
     }
 
