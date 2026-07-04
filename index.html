@@ -174,7 +174,7 @@
       letter-spacing: .08em; margin-bottom: 16px;
     }
     .passage { font-size: 19px; line-height: 1.75; }
-    .passage .w { cursor: pointer; border-radius: 3px; padding: 0 .5px; touch-action: none; user-select: none; -webkit-user-select: none; }
+    .passage .w { cursor: pointer; border-radius: 3px; padding: 0 .5px; user-select: none; -webkit-user-select: none; }
     .passage .w.picked {
       background: linear-gradient(transparent 62%, var(--amber-soft) 62%);
       box-shadow: inset 0 -2px 0 var(--amber);
@@ -925,7 +925,9 @@
         });
       };
 
-      // Drag / hold-and-move to highlight a run of consecutive words at once.
+      // Mouse drag to highlight a run of consecutive words at once (desktop).
+      // Uses MOUSE events, not pointer events, so touch swipes are never captured
+      // for selection — on mobile a swipe just scrolls and a tap collects one word.
       const dragRef = useRef({ active: false, start: null, moved: false });
       const selectRange = (a, b) => {
         const lo = Math.min(a, b), hi = Math.max(a, b);
@@ -940,9 +942,8 @@
       };
       useEffect(() => {
         const up = () => { dragRef.current.active = false; };
-        window.addEventListener("pointerup", up);
-        window.addEventListener("pointercancel", up);
-        return () => { window.removeEventListener("pointerup", up); window.removeEventListener("pointercancel", up); };
+        window.addEventListener("mouseup", up);
+        return () => window.removeEventListener("mouseup", up);
       }, []);
       const onWordDown = (i) => { dragRef.current = { active: true, start: i, moved: false }; };
       const onWordEnter = (i) => {
@@ -1055,8 +1056,8 @@
                   if (/^[\w'\-]+$/.test(tok)) {
                     return (
                       <span key={i} className={"w" + (picked[i] ? " picked" : "")}
-                        onPointerDown={() => onWordDown(i)}
-                        onPointerEnter={() => onWordEnter(i)}
+                        onMouseDown={() => onWordDown(i)}
+                        onMouseEnter={() => onWordEnter(i)}
                         onClick={() => onWordClick(i, tok)}>{tok}</span>
                     );
                   }
@@ -1064,7 +1065,7 @@
                 })}
               </div>
               <div className="hint mono">
-                {pickedCount > 0 ? `${pickedCount}개 단어 선택됨 · 드래그로 여러 개 선택` : "모르는 단어를 탭하거나 드래그해서 표시"}
+                {pickedCount > 0 ? `${pickedCount}개 단어 선택됨` : "모르는 단어를 탭해서 표시 · PC는 드래그로 여러 개"}
               </div>
             </React.Fragment>
           ) : (
