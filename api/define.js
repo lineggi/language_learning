@@ -3,8 +3,8 @@
 
 const DEFINE_SCHEMA = {
   type: "object",
-  properties: { word: { type: "string" }, meaning: { type: "string" } },
-  required: ["word", "meaning"],
+  properties: { word: { type: "string" }, meaning: { type: "string" }, example: { type: "string" } },
+  required: ["word", "meaning", "example"],
 };
 
 module.exports = async function handler(req, res) {
@@ -28,7 +28,11 @@ ALWAYS give the word's normal dictionary meaning. If the passage below uses it, 
 PASSAGE (optional context):
 ${passage || "(none)"}
 
-Return JSON: { "word": "<base/dictionary form of the word, lowercase>", "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words in the definition.>" }`;
+Return JSON: {
+  "word": "<base/dictionary form of the word, lowercase>",
+  "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words.>",
+  "example": "<one short, natural English example sentence (max ~14 words) that uses the word \\"${word}\\" itself>"
+}`;
 
   try {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
@@ -46,6 +50,7 @@ Return JSON: { "word": "<base/dictionary form of the word, lowercase>", "meaning
     let out; try { out = JSON.parse(text); } catch { res.status(502).json({ error: "parse", raw: text.slice(0, 200) }); return; }
     out.word = String(out.word || word).toLowerCase().trim();
     out.meaning = String(out.meaning || "").trim();
+    out.example = String(out.example || "").trim();
     res.status(200).json(out);
   } catch (err) {
     res.status(500).json({ error: String((err && err.message) || err) });

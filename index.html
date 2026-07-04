@@ -351,6 +351,7 @@
     .flashcard .swipe-tag.yes { right: 16px; color: var(--good); border: 2px solid var(--good); transform: rotate(8deg); }
     .flashcard .fc-def { font-family: "Newsreader", "Pretendard", serif; font-size: 22px; line-height: 1.5; color: var(--ink); }
     .flashcard .fc-word { font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 40px; color: var(--ink); letter-spacing: -.01em; }
+    .flashcard .fc-ex { margin-top: 14px; font-family: "Newsreader", "Pretendard", serif; font-size: 16px; font-style: italic; color: var(--muted); line-height: 1.5; max-width: 90%; }
     .flashcard .fc-hint { position: absolute; bottom: 14px; font-size: 10px; color: var(--faint); letter-spacing: .1em; }
     .flashcard .fc-speak { position: absolute; bottom: 12px; right: 14px; border: 0; background: none; cursor: pointer; font-size: 18px; opacity: .7; }
     .flashcard .fc-speak:hover { opacity: 1; }
@@ -650,11 +651,11 @@
       const addWords = useCallback((entries, articleId) => {
         setWordbank((prev) => {
           const next = { ...prev };
-          let added = 0;
-          for (const { base, def } of entries) {
+          for (const { base, def, example } of entries) {
             if (!next[base]) {
-              next[base] = { meaning: def, addedDate: kstToday(), learned: false, articleId };
-              added++;
+              next[base] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "" };
+            } else if (example && !next[base].example) {
+              next[base] = { ...next[base], example }; // backfill an example onto an existing word
             }
           }
           return next;
@@ -1018,14 +1019,23 @@
         [picked]
       );
 
+      // The sentence in the passage that contains a word — used as its example.
+      const sentenceContaining = (w) => {
+        const esc = String(w).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const re = new RegExp("\\b" + esc + "\\b", "i");
+        const hit = sentences.find((s) => re.test(s.en));
+        return hit ? hit.en.trim() : "";
+      };
+
       // On completion, save the tapped words into the wordbank (once). Words in
       // the article glossary use that meaning; any others are defined on demand
-      // via /api/define so nothing is left as "사전에 없음".
+      // via /api/define so nothing is left as "사전에 없음". Each word also gets a
+      // short example sentence (the passage sentence, or one from the API).
       useEffect(() => {
         if (!completed || savedRef.current) return;
         savedRef.current = true;
         (async () => {
-          const withDef = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def }));
+          const withDef = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def, example: sentenceContaining(e.surface) }));
           const noDef = glossEntries.filter((e) => !e.def);
           const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
           let fetched = [];
@@ -1038,7 +1048,7 @@
                 });
                 if (!r.ok) return null;
                 const d = await r.json();
-                return d && d.meaning ? { base: (d.word || e.base), def: d.meaning } : null;
+                return d && d.meaning ? { base: (d.word || e.base), def: d.meaning, example: d.example || sentenceContaining(e.surface) } : null;
               } catch { return null; }
             }));
             fetched = results.filter(Boolean);
@@ -1305,7 +1315,7 @@
         return a;
       };
       const startStudy = () => {
-        const d = shuffle(entries.map((e) => ({ word: e.word, meaning: e.meaning })));
+        const d = shuffle(entries.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "" })));
         setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setStudying(true);
       };
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
@@ -1325,9 +1335,33 @@
         advance();
       };
       const restartMissed = () => {
-        const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "" })));
+        const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "", example: (wordbank[w] || {}).example || "" })));
         setDeck(d); setMissed([]); setIdx(0); setCardFlip(false);
       };
+
+      // Backfill a missing example for the current study card via /api/define.
+      useEffect(() => {
+        if (!studying || idx >= deck.length) return;
+        const cur = deck[idx];
+        if (!cur || cur.example) return;
+        const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
+        if (!endpoint) return;
+        let cancelled = false;
+        (async () => {
+          try {
+            const r = await fetch(endpoint, {
+              method: "POST", headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ word: cur.word, passage: "" }),
+            });
+            if (!r.ok) return;
+            const d = await r.json();
+            if (cancelled || !d.example) return;
+            setDeck((dk) => dk.map((it, i) => (i === idx ? { ...it, example: d.example } : it)));
+            setWordbank((prev) => (prev[cur.word] ? { ...prev, [cur.word]: { ...prev[cur.word], example: d.example } } : prev));
+          } catch (e) {}
+        })();
+        return () => { cancelled = true; };
+      }, [studying, idx, deck]);
 
       // Swipe: drag the card left (몰라요) / right (알아요); a small move is a tap (flip).
       const SWIPE_TH = 80;
@@ -1408,7 +1442,10 @@
               <span className="swipe-tag yes" style={{ opacity: dragX > 0 ? Math.min(1, dragX / SWIPE_TH) : 0 }}>알아요 ✓</span>
               <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speak(cur.word); }} title="발음 듣기">🔊</button>
               {cardFlip
-                ? <div className="fc-word fraunces">{cur.word}</div>
+                ? <React.Fragment>
+                    <div className="fc-word fraunces">{cur.word}</div>
+                    {cur.example && <div className="fc-ex">{cur.example}</div>}
+                  </React.Fragment>
                 : <div className="fc-def">{cur.meaning}</div>}
               <div className="fc-hint mono">{cardFlip ? "탭하면 뜻으로" : "탭하면 단어 보기"}</div>
             </div>
