@@ -222,7 +222,19 @@ const PACK_SCHEMA = {
           rank: { type: "integer" },
           hook: { type: "string" },
           title: { type: "string" },
-          passage: { type: "string" },
+          // The passage split into sentences with a Korean translation each.
+          // The app rebuilds the passage by joining the English sentences.
+          sentences: {
+            type: "array",
+            items: {
+              type: "object",
+              properties: {
+                en: { type: "string" },
+                ko: { type: "string" },
+              },
+              required: ["en", "ko"],
+            },
+          },
           // A structured-output object needs declared properties; a free-form
           // map returns empty. Use an array of {word, meaning} and convert later.
           glossary: {
@@ -244,7 +256,7 @@ const PACK_SCHEMA = {
           "rank",
           "hook",
           "title",
-          "passage",
+          "sentences",
           "glossary",
           "questions",
           "modelAnswers",
@@ -280,7 +292,7 @@ Choose exactly 3 stories. For EACH chosen story produce an object with:
 - rank: 1, 2, or 3 (1 = most recommended).
 - hook: ONE short sentence in KOREAN explaining why this story is worth reading today.
 - title: a short English headline (max ~10 words). Rewrite it; do not copy verbatim.
-- passage: 200–260 words of ORIGINAL B2–C1 English that you write yourself, explaining the story clearly and with some depth (context, why it matters, implications). DO NOT copy sentences from the source. Use a natural, slightly challenging register — richer vocabulary and varied sentence structure — while staying clear.
+- sentences: write an ORIGINAL 200–260 word explanation of the story in B2–C1 English (context, why it matters, implications; DO NOT copy sentences from the source; natural, slightly challenging register). Return it as an ARRAY split by sentence, where each item is { "en": "<one full English sentence>", "ko": "<a natural, accurate KOREAN translation of that sentence>" }. Keep 10–16 sentences.
 - glossary: a list of ~20–24 objects, each { "word": <a SINGLE lowercase word (one token, no spaces or phrases) that appears in YOUR passage>, "meaning": <a clear, specific definition written in simple English — a short sentence of about 8 to 16 words that explains what the word means IN THIS PASSAGE'S CONTEXT, enough for a learner to really understand it, not just a one-word synonym. ENGLISH ONLY (never Korean). Do not use hard words inside the definition.> }. Choose single words a B2–C1 learner might still find tricky.
 - questions: exactly 3 English writing prompts — Q1 a fact-check question, Q2 a context-vocabulary question, Q3 an opinion question (2–3 sentences).
 - modelAnswers: exactly 3 short model answers, one per question.
@@ -385,6 +397,11 @@ async function makePacks(coll, domain, idPrefix, rankBase, date) {
     // Map Gemini's chosen candidate NUMBER to the real URL — never model-invented.
     const idx = Number.isInteger(p.sourceIndex) ? p.sourceIndex - 1 : i;
     const src = coll.candidates[idx] || coll.candidates[i] || coll.candidates[0];
+    // Sentence array with Korean translations; passage is the joined English.
+    const sentences = (Array.isArray(p.sentences) ? p.sentences : [])
+      .filter((s) => s && s.en)
+      .map((s) => ({ en: String(s.en).trim(), ko: String(s.ko || "").trim() }));
+    const passage = sentences.length ? sentences.map((s) => s.en).join(" ") : (p.passage || "");
     return {
       id: `${idPrefix}-${date}-${localRank}`,
       date,
@@ -395,7 +412,8 @@ async function makePacks(coll, domain, idPrefix, rankBase, date) {
       url: src.link || "",
       title: p.title || src.title || "",
       source,
-      passage: p.passage || "",
+      passage,
+      sentences,
       glossary: normalizeGlossary(p.glossary),
       questions: Array.isArray(p.questions) ? p.questions.slice(0, 3) : [],
       modelAnswers: Array.isArray(p.modelAnswers) ? p.modelAnswers.slice(0, 3) : [],

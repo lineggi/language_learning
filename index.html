@@ -179,12 +179,20 @@
       background: linear-gradient(transparent 62%, var(--amber-soft) 62%);
       box-shadow: inset 0 -2px 0 var(--amber);
     }
-    /* Study mode: tap a sentence to reveal its glossary words below it. */
-    .passage.study .sentence { cursor: pointer; border-radius: 4px; transition: background .12s; }
+    /* Study mode: a small number before each sentence; tap it to see the
+       Korean translation (and the sentence's glossary words) below. */
+    .passage.study .sentence { border-radius: 4px; transition: background .12s; }
     .passage.study .sentence.open { background: #fdf4e4; }
-    .passage.study .gword {
-      background: linear-gradient(transparent 62%, var(--amber-soft) 62%);
-      box-shadow: inset 0 -2px 0 var(--amber);
+    .passage.study .snum {
+      display: inline-block; min-width: 18px; height: 18px; line-height: 18px; text-align: center;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; font-weight: 600;
+      color: #fff; background: var(--amber); border-radius: 5px; cursor: pointer;
+      margin: 0 4px 0 0; vertical-align: 2px; user-select: none; padding: 0 3px;
+    }
+    .passage.study .snum:hover { background: #c9781a; }
+    .passage.study .sbko {
+      display: block; font-family: "Newsreader", "Pretendard", serif; font-size: 16px;
+      color: var(--ink); line-height: 1.55; margin-bottom: 6px;
     }
     .passage.study .sentbox {
       display: block; margin: 8px 0 12px; padding: 10px 12px;
@@ -878,9 +886,12 @@
       // Split the passage into sentences, each with its tokens and the glossary
       // words it contains (with meanings) for the tap-to-reveal study mode.
       const sentences = useMemo(() => {
-        const parts = (pack.passage || "").match(/[^.!?]+[.!?]*(?:\s+|$)/g) || [pack.passage || ""];
-        return parts.filter((s) => s.trim()).map((s) => {
-          const toks = tokenize(s);
+        const base = (Array.isArray(pack.sentences) && pack.sentences.length)
+          ? pack.sentences.map((s) => ({ en: s.en || "", ko: s.ko || "" }))
+          : ((pack.passage || "").match(/[^.!?]+[.!?]*(?:\s+|$)/g) || [pack.passage || ""])
+              .filter((s) => s.trim()).map((s) => ({ en: s, ko: "" }));
+        return base.map(({ en, ko }) => {
+          const toks = tokenize(en);
           const glosses = [];
           const seen = new Set();
           toks.forEach((t) => {
@@ -892,9 +903,9 @@
               }
             }
           });
-          return { text: s, toks, glosses };
+          return { en, ko, toks, glosses };
         });
-      }, [pack.passage, pack.glossary, wordbank]);
+      }, [pack.sentences, pack.passage, pack.glossary, wordbank]);
 
       // On completion, save the tapped words into the wordbank (once). Words in
       // the article glossary use that meaning; any others are defined on demand
@@ -971,22 +982,20 @@
             <React.Fragment>
               <div className="passage study">
                 {sentences.map((s, si) => (
-                  <span key={si} className={"sentence" + (openSent === si ? " open" : "")}
-                        onClick={() => setOpenSent(openSent === si ? null : si)}>
-                    {s.toks.map((t, ti) => {
-                      if (/^[\w'\-]+$/.test(t)) {
-                        const f = lookupGloss(t, pack.glossary, wordbank);
-                        return <span key={ti} className={f && f.def ? "gword" : ""}>{t}</span>;
-                      }
-                      return <span key={ti}>{t}</span>;
-                    })}
+                  <span key={si} className={"sentence" + (openSent === si ? " open" : "")}>
+                    <span className="snum" onClick={() => setOpenSent(openSent === si ? null : si)}
+                          title="뜻 보기">{si + 1}</span>
+                    {s.toks.map((t, ti) => <span key={ti}>{t}</span>)}
                     {openSent === si && (
                       <span className="sentbox">
-                        {s.glosses.length ? s.glosses.map((g, gi) => (
+                        {s.ko
+                          ? <span className="sbko">{s.ko}</span>
+                          : <span className="sbrow muted">번역은 다음 갱신부터 표시됩니다</span>}
+                        {s.glosses.map((g, gi) => (
                           <span className="sbrow" key={gi} onClick={(ev) => addOne(g, ev)}>
                             <b>{g.surface}</b> — {g.def} <span className="sbadd">+ 담기</span>
                           </span>
-                        )) : <span className="sbrow muted">이 문장엔 사전 단어가 없어요</span>}
+                        ))}
                       </span>
                     )}
                   </span>
