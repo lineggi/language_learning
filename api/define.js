@@ -22,12 +22,13 @@ module.exports = async function handler(req, res) {
   const passage = (body && body.passage ? String(body.passage) : "").slice(0, 1500);
   if (!word) { res.status(400).json({ error: "No word." }); return; }
 
-  const prompt = `Define the English word "${word}" for a Korean B2–C1 learner, based on how it is used in this passage.
+  const prompt = `Define the English word "${word}" for a Korean B2–C1 learner.
+ALWAYS give the word's normal dictionary meaning. If the passage below uses it, prefer that sense; if the word is not in the passage, just give its common general meaning. NEVER say the word is absent or cannot be defined — always return a real definition.
 
-PASSAGE:
-${passage || "(no passage given)"}
+PASSAGE (optional context):
+${passage || "(none)"}
 
-Return JSON: { "word": "<base/dictionary form of the word, lowercase>", "meaning": "<a clear, specific definition in SIMPLE English — one short sentence of about 8 to 16 words that fits this context. English only, no Korean. Do not use hard words in the definition.>" }`;
+Return JSON: { "word": "<base/dictionary form of the word, lowercase>", "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words in the definition.>" }`;
 
   try {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;

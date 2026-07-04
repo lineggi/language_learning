@@ -358,15 +358,19 @@
     .studydone .doneperfect { color: var(--good); font-size: 14px; margin-bottom: 8px; }
     .studydone .btn { margin: 6px 0; }
 
-    .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+    .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; grid-auto-rows: 150px; }
     .wcard {
       position: relative;
       background: var(--card); border: 1px solid var(--hair); border-radius: 12px;
-      padding: 14px 12px; cursor: pointer; min-height: 82px;
+      padding: 14px 12px; cursor: pointer; height: 150px; overflow: hidden;
       display: flex; flex-direction: column; justify-content: space-between;
     }
-    .wcard .front { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 20px; padding-right: 48px; }
-    .wcard .backdef { color: var(--ink); font-size: 16px; line-height: 1.45; padding-right: 48px; }
+    /* Fixed height so flipping / different meaning lengths never resize neighbors. */
+    .wcard .cardbody { overflow: hidden; padding-right: 44px; }
+    .wcard .front { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 20px;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .wcard .backdef { color: var(--ink); font-size: 15px; line-height: 1.4;
+      display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; }
     .wcard .wdelete {
       position: absolute; top: 6px; right: 6px; width: 22px; height: 22px;
       border: 0; background: none; color: var(--faint); cursor: pointer;
@@ -1418,9 +1422,11 @@
                 <div key={e.word} className={"wcard " + e.stage} onClick={() => { flip(e.word); speak(e.word); }}>
                   <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
                   <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speak(e.word); }} aria-label="발음 듣기" title="발음 듣기">🔊</button>
-                  {flipped[e.word]
-                    ? <div className="front fraunces">{e.word}</div>
-                    : <div className="backdef">{e.meaning}</div>}
+                  <div className="cardbody">
+                    {flipped[e.word]
+                      ? <div className="front fraunces">{e.word}</div>
+                      : <div className="backdef">{e.meaning}</div>}
+                  </div>
                   <div className="meta">
                     <span>{e.addedDate || ""}</span>
                     {actionFor(e)}
