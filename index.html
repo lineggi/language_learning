@@ -366,7 +366,19 @@
     .studydone .donestat:first-child .num { color: var(--good); }
     .studydone .donestat:last-child .num { color: var(--amber); }
     .studydone .donestat .lbl { font-size: 11px; color: var(--faint); letter-spacing: .06em; margin-top: 6px; }
-    .studydone .doneperfect { color: var(--good); font-size: 14px; margin-bottom: 8px; }
+    .studydone .doneperfect { color: var(--good); font-size: 22px; font-weight: 700; margin: 4px 0 14px; }
+    .confetti { position: fixed; inset: 0; pointer-events: none; overflow: hidden; z-index: 60; }
+    .confetti span {
+      position: absolute; top: -14px; border-radius: 2px; opacity: 0;
+      animation-name: confetti-fall; animation-timing-function: cubic-bezier(.3,.2,.5,1);
+      animation-iteration-count: 1; animation-fill-mode: forwards;
+    }
+    @keyframes confetti-fall {
+      0% { top: -14px; opacity: 0; transform: translateX(0) rotate(0deg); }
+      8% { opacity: 1; }
+      100% { top: 105vh; opacity: .95; transform: translateX(24px) rotate(680deg); }
+    }
+    @media (prefers-reduced-motion: reduce) { .confetti { display: none; } }
     .studydone .btn { margin: 6px 0; }
 
     .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; grid-auto-rows: 150px; }
@@ -1277,6 +1289,18 @@
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
 
+      // Confetti pieces for the "다 외우셨네요!" celebration (generated once).
+      const confetti = useMemo(() => {
+        const colors = ["#df8b25", "#3f7d5a", "#4285F4", "#EA4335", "#FBBC05", "#b23b3b"];
+        return Array.from({ length: 70 }, (_, i) => ({
+          left: Math.random() * 100,
+          delay: Math.random() * 0.7,
+          dur: 1.8 + Math.random() * 1.6,
+          size: 6 + Math.random() * 7,
+          color: colors[i % colors.length],
+        }));
+      }, []);
+
       const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= 3;
 
       const entries = useMemo(() => {
@@ -1432,7 +1456,19 @@
                 </div>
                 {missed.length > 0
                   ? <button className="btn primary" onClick={restartMissed}>학습 중인 단어 {missed.length}개 다시</button>
-                  : <div className="doneperfect mono">완벽해요! 🎉</div>}
+                  : (
+                    <React.Fragment>
+                      <div className="doneperfect fraunces">다 외우셨네요! 🎉</div>
+                      <div className="confetti" aria-hidden="true">
+                        {confetti.map((c, i) => (
+                          <span key={i} style={{
+                            left: c.left + "%", width: c.size, height: c.size, background: c.color,
+                            animationDelay: c.delay + "s", animationDuration: c.dur + "s",
+                          }} />
+                        ))}
+                      </div>
+                    </React.Fragment>
+                  )}
                 <button className="btn ghost" onClick={startStudy}>처음부터 다시</button>
                 <button className="btn ghost" onClick={() => setStudying(false)}>단어장으로</button>
               </div>
