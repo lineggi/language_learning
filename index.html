@@ -337,15 +337,22 @@
     .flashcard {
       position: relative; background: var(--card); border: 1px solid var(--hair); border-radius: 18px;
       min-height: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      text-align: center; padding: 28px 22px; cursor: pointer; box-shadow: var(--shadow);
-      transition: transform .1s ease, background .12s;
+      text-align: center; padding: 28px 22px; cursor: grab; box-shadow: var(--shadow);
+      touch-action: none; user-select: none; -webkit-user-select: none;
     }
-    .flashcard:active { transform: scale(.99); }
     .flashcard.flipped { background: #fffdf6; border-color: var(--amber-soft); }
+    .flashcard.no { border-color: #e6bcbc; }
+    .flashcard.yes { border-color: var(--good); }
+    .flashcard .swipe-tag {
+      position: absolute; top: 16px; font-family: "IBM Plex Mono", "Pretendard", monospace;
+      font-size: 15px; font-weight: 600; padding: 4px 10px; border-radius: 8px; pointer-events: none;
+    }
+    .flashcard .swipe-tag.no { left: 16px; color: #b23b3b; border: 2px solid #b23b3b; transform: rotate(-8deg); }
+    .flashcard .swipe-tag.yes { right: 16px; color: var(--good); border: 2px solid var(--good); transform: rotate(8deg); }
     .flashcard .fc-def { font-family: "Newsreader", "Pretendard", serif; font-size: 22px; line-height: 1.5; color: var(--ink); }
     .flashcard .fc-word { font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 40px; color: var(--ink); letter-spacing: -.01em; }
     .flashcard .fc-hint { position: absolute; bottom: 14px; font-size: 10px; color: var(--faint); letter-spacing: .1em; }
-    .flashcard .fc-speak { position: absolute; top: 12px; right: 14px; border: 0; background: none; cursor: pointer; font-size: 18px; opacity: .7; }
+    .flashcard .fc-speak { position: absolute; bottom: 12px; right: 14px; border: 0; background: none; cursor: pointer; font-size: 18px; opacity: .7; }
     .flashcard .fc-speak:hover { opacity: 1; }
     .fc-controls { display: flex; gap: 10px; margin-top: 14px; }
     .fc-controls .btn { flex: 1; }
@@ -1253,6 +1260,8 @@
       const [idx, setIdx] = useState(0);
       const [cardFlip, setCardFlip] = useState(false);
       const [missed, setMissed] = useState([]);
+      const [dragX, setDragX] = useState(0);
+      const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
 
       const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= 3;
@@ -1320,6 +1329,28 @@
         setDeck(d); setMissed([]); setIdx(0); setCardFlip(false);
       };
 
+      // Swipe: drag the card left (몰라요) / right (알아요); a small move is a tap (flip).
+      const SWIPE_TH = 80;
+      const onCardDown = (e) => { swipeRef.current = { down: true, startX: e.clientX, dx: 0, moved: false }; };
+      const onCardMove = (e) => {
+        if (!swipeRef.current.down) return;
+        const dx = e.clientX - swipeRef.current.startX;
+        swipeRef.current.dx = dx;
+        if (Math.abs(dx) > 6) swipeRef.current.moved = true;
+        setDragX(dx);
+      };
+      const answerSwipe = (dir) => {
+        setDragX(dir === "no" ? -520 : 520);
+        setTimeout(() => { if (dir === "no") dontKnow(); else know(); setDragX(0); }, 160);
+      };
+      const onCardUp = () => {
+        const { dx, moved } = swipeRef.current;
+        swipeRef.current.down = false;
+        if (dx <= -SWIPE_TH) answerSwipe("no");
+        else if (dx >= SWIPE_TH) answerSwipe("yes");
+        else { if (!moved) flipCard(); setDragX(0); }
+      };
+
       const CHIPS = [
         { id: "all", label: `전체 ${total}` },
         { id: "new", label: `미암기 ${counts.new}` },
@@ -1370,18 +1401,18 @@
               <span>단어 외우기 · {idx + 1} / {deck.length}</span>
               <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
             </div>
-            <div className={"flashcard" + (cardFlip ? " flipped" : "")} onClick={flipCard}>
-              <button className="fc-speak" onClick={(ev) => { ev.stopPropagation(); speak(cur.word); }} title="발음 듣기">🔊</button>
+            <div className={"flashcard" + (cardFlip ? " flipped" : "") + (dragX > SWIPE_TH ? " yes" : dragX < -SWIPE_TH ? " no" : "")}
+              style={{ transform: `translateX(${dragX}px) rotate(${dragX * 0.04}deg)`, transition: swipeRef.current.down ? "none" : "transform .18s ease" }}
+              onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
+              <span className="swipe-tag no" style={{ opacity: dragX < 0 ? Math.min(1, -dragX / SWIPE_TH) : 0 }}>✕ 몰라요</span>
+              <span className="swipe-tag yes" style={{ opacity: dragX > 0 ? Math.min(1, dragX / SWIPE_TH) : 0 }}>알아요 ✓</span>
+              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speak(cur.word); }} title="발음 듣기">🔊</button>
               {cardFlip
                 ? <div className="fc-word fraunces">{cur.word}</div>
                 : <div className="fc-def">{cur.meaning}</div>}
               <div className="fc-hint mono">{cardFlip ? "탭하면 뜻으로" : "탭하면 단어 보기"}</div>
             </div>
-            <div className="fc-controls">
-              <button className="btn fc-no" onClick={dontKnow}>✕ 몰라요</button>
-              <button className="btn fc-yes" onClick={know}>✓ 알아요</button>
-            </div>
-            <div className="fc-sub mono">알아요 = 다음 단계로 (미암기→복습중→완료)</div>
+            <div className="fc-sub mono">← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기</div>
           </React.Fragment>
         );
       }
