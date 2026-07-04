@@ -5,101 +5,88 @@
     "rank": 1,
     "category": "crypto",
     "reads": "Crypto #1",
-    "hook": "IMF의 최근 보고서는 토큰화가 금융 시스템에 가져올 기회와 위험을 동시에 조명합니다.",
-    "url": "https://www.coindesk.com/markets/2026/07/03/tokenization-could-make-finance-faster-but-also-more-susceptible-to-shocks-imf-says",
-    "title": "IMF Warns of Tokenization's Dual Impact on Finance",
+    "hook": "제재를 받는 러시아 스테이블코인이 거래량을 부풀리고 있다는 의혹과 함께 블록체인 분석의 중요성을 조명합니다.",
+    "url": "https://www.coindesk.com/business/2026/07/03/this-sanctioned-russian-stablecoin-claims-it-processes-billions-but-blockchain-analysts-disagree",
+    "title": "Russian Stablecoin's Volume Claims Disputed",
     "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "The International Monetary Fund (IMF) recently released a report analyzing the transformative potential of tokenization in the financial sector. While acknowledging that tokenization can significantly enhance efficiency and reduce costs, the IMF also highlighted inherent risks. This technology, which converts real-world assets into digital tokens on a blockchain, promises faster transactions and broader access to markets. For fintech product managers, understanding these dynamics is crucial for developing robust and compliant solutions. The report suggests that while tokenization can streamline processes, its interconnected nature might also create new vulnerabilities. For instance, a rapid shift of liquidity across different tokenized assets could trigger unexpected market instability. Furthermore, the complexity of cross-chain interactions and the potential for a single point of failure in underlying infrastructure pose significant challenges. Regulators globally are grappling with how to oversee this evolving landscape without stifling innovation. The IMF emphasizes the need for comprehensive regulatory frameworks that address these systemic risks. This includes developing clear standards for asset ownership, data privacy, and interoperability across different blockchain platforms. Ultimately, the success of tokenization hinges on balancing its efficiency gains with robust risk management and regulatory oversight. This report serves as a critical reminder for all stakeholders to approach this technological advancement with caution and foresight.",
+    "passage": "A sanctioned Russian stablecoin, A7A5, faces scrutiny. It claims to process billions of dollars in transactions. However, blockchain analysts strongly disagree with this figure. The stablecoin states crypto data providers understate its activity. Conversely, analysts report a sharp decline in its actual volumes. This situation highlights significant challenges in verifying on-chain data accuracy. It also raises critical questions about transparency in sanctioned entities. For a PM, understanding such data discrepancies is absolutely crucial for decision-making. This case clearly shows the inherent complexity of crypto market oversight and regulation. It emphasizes the need for robust and independent verification methods.",
     "sentences": [
       {
-        "en": "The International Monetary Fund (IMF) recently released a report analyzing the transformative potential of tokenization in the financial sector.",
-        "ko": "국제통화기금(IMF)은 최근 금융 부문에서 토큰화의 혁신적인 잠재력을 분석하는 보고서를 발표했습니다."
+        "en": "A sanctioned Russian stablecoin, A7A5, faces scrutiny.",
+        "ko": "제재를 받는 러시아 스테이블코인 A7A5가 조사를 받고 있습니다."
       },
       {
-        "en": "While acknowledging that tokenization can significantly enhance efficiency and reduce costs, the IMF also highlighted inherent risks.",
-        "ko": "IMF는 토큰화가 효율성을 크게 높이고 비용을 절감할 수 있음을 인정하면서도 내재된 위험을 강조했습니다."
+        "en": "It claims to process billions of dollars in transactions.",
+        "ko": "이 스테이블코인은 수십억 달러 규모의 거래를 처리한다고 주장합니다."
       },
       {
-        "en": "This technology, which converts real-world assets into digital tokens on a blockchain, promises faster transactions and broader access to markets.",
-        "ko": "실물 자산을 블록체인상의 디지털 토큰으로 변환하는 이 기술은 더 빠른 거래와 시장 접근성 확대를 약속합니다."
+        "en": "However, blockchain analysts strongly disagree with this figure.",
+        "ko": "하지만 블록체인 분석가들은 이 수치에 강력히 동의하지 않습니다."
       },
       {
-        "en": "For fintech product managers, understanding these dynamics is crucial for developing robust and compliant solutions.",
-        "ko": "핀테크 제품 관리자에게는 이러한 역학 관계를 이해하는 것이 견고하고 규정을 준수하는 솔루션을 개발하는 데 매우 중요합니다."
+        "en": "The stablecoin states crypto data providers understate its activity.",
+        "ko": "스테이블코인은 암호화폐 데이터 제공업체들이 활동을 과소평가한다고 말합니다."
       },
       {
-        "en": "The report suggests that while tokenization can streamline processes, its interconnected nature might also create new vulnerabilities.",
-        "ko": "보고서는 토큰화가 프로세스를 간소화할 수 있지만, 상호 연결된 특성으로 인해 새로운 취약점을 만들 수도 있다고 제안합니다."
+        "en": "Conversely, analysts report a sharp decline in its actual volumes.",
+        "ko": "반대로, 분석가들은 실제 거래량이 올해 급격히 감소했다고 보고합니다."
       },
       {
-        "en": "For instance, a rapid shift of liquidity across different tokenized assets could trigger unexpected market instability.",
-        "ko": "예를 들어, 다양한 토큰화된 자산 간의 유동성이 급격하게 이동하면 예상치 못한 시장 불안정을 촉발할 수 있습니다."
+        "en": "This situation highlights significant challenges in verifying on-chain data accuracy.",
+        "ko": "이 상황은 온체인 데이터 정확성 검증의 중요한 어려움을 보여줍니다."
       },
       {
-        "en": "Furthermore, the complexity of cross-chain interactions and the potential for a single point of failure in underlying infrastructure pose significant challenges.",
-        "ko": "더욱이, 교차 체인 상호작용의 복잡성과 기본 인프라의 단일 실패 지점 가능성은 상당한 도전을 제기합니다."
+        "en": "It also raises critical questions about transparency in sanctioned entities.",
+        "ko": "또한 제재 대상 기관의 투명성에 대한 중요한 의문을 제기합니다."
       },
       {
-        "en": "Regulators globally are grappling with how to oversee this evolving landscape without stifling innovation.",
-        "ko": "전 세계 규제 당국은 혁신을 억압하지 않으면서도 이 진화하는 환경을 어떻게 감독할지에 대해 고심하고 있습니다."
+        "en": "For a PM, understanding such data discrepancies is absolutely crucial for decision-making.",
+        "ko": "PM에게는 이러한 데이터 불일치를 이해하는 것이 의사 결정에 절대적으로 중요합니다."
       },
       {
-        "en": "The IMF emphasizes the need for comprehensive regulatory frameworks that address these systemic risks.",
-        "ko": "IMF는 이러한 시스템적 위험을 다루는 포괄적인 규제 프레임워크의 필요성을 강조합니다."
+        "en": "This case clearly shows the inherent complexity of crypto market oversight and regulation.",
+        "ko": "이 사례는 암호화폐 시장 감독 및 규제의 내재된 복잡성을 명확히 보여줍니다."
       },
       {
-        "en": "This includes developing clear standards for asset ownership, data privacy, and interoperability across different blockchain platforms.",
-        "ko": "여기에는 자산 소유권, 데이터 프라이버시, 그리고 다양한 블록체인 플랫폼 간의 상호운용성에 대한 명확한 표준 개발이 포함됩니다."
-      },
-      {
-        "en": "Ultimately, the success of tokenization hinges on balancing its efficiency gains with robust risk management and regulatory oversight.",
-        "ko": "궁극적으로 토큰화의 성공은 효율성 향상과 견고한 위험 관리 및 규제 감독 간의 균형에 달려 있습니다."
-      },
-      {
-        "en": "This report serves as a critical reminder for all stakeholders to approach this technological advancement with caution and foresight.",
-        "ko": "이 보고서는 모든 이해관계자가 이 기술 발전에 신중함과 선견지명을 가지고 접근해야 한다는 중요한 경고 역할을 합니다."
+        "en": "It emphasizes the need for robust and independent verification methods.",
+        "ko": "이는 강력하고 독립적인 검증 방법의 필요성을 강조합니다."
       }
     ],
     "glossary": {
-      "transformative": "causing a significant and noticeable change in someone or something.",
-      "potential": "the ability to develop, achieve, or succeed in the future.",
-      "sector": "a part of an economy, society, or area of activity.",
-      "acknowledging": "accepting or admitting the existence or truth of something.",
-      "enhance": "to improve the quality, amount, or strength of something.",
-      "efficiency": "the state or quality of being efficient, which means achieving maximum productivity with minimum wasted effort or expense.",
-      "inherent": "existing in something as a permanent, essential, or characteristic attribute.",
-      "dynamics": "the forces or properties that stimulate growth, development, or change within a system or process.",
-      "crucial": "extremely important, because it will affect other things.",
-      "robust": "strong and healthy; able to withstand difficult conditions.",
-      "compliant": "obeying rules or laws, especially in a particular system or framework.",
-      "streamline": "to make a process or organization more efficient and effective by simplifying it.",
-      "interconnected": "having all constituent parts linked or connected.",
-      "vulnerabilities": "the state of being exposed to the possibility of being attacked or harmed.",
-      "liquidity": "the availability of liquid assets to a market or company, meaning assets that can be easily converted to cash.",
-      "instability": "the state of being unstable, meaning prone to change or collapse.",
-      "complexity": "the state or quality of being intricate or complicated.",
-      "infrastructure": "the basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
-      "grappling": "struggling to deal with or understand something difficult or problematic.",
-      "oversee": "to supervise a person or their work and make sure that they do it properly.",
-      "stifling": "making it difficult to breathe or preventing something from developing.",
-      "comprehensive": "including or dealing with all or nearly all elements or aspects of something.",
-      "frameworks": "a basic structure underlying a system, concept, or text.",
-      "systemic": "relating to a system, especially as opposed to a particular part.",
-      "interoperability": "the ability of different computer systems or software to exchange and make use of information.",
-      "hinges": "depends entirely on a particular factor or point.",
-      "oversight": "the action of overseeing something; supervision.",
-      "stakeholders": "a person with an interest or concern in something, especially a business.",
-      "foresight": "the ability to predict what will happen or be needed in the future."
+      "sanctioned": "having official restrictions or penalties imposed on it by a government or international body.",
+      "stablecoin": "a type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+      "claims": "states that something is true, often without strong proof or when it is disputed by others.",
+      "process": "to perform a series of actions or operations to achieve a particular result, like handling transactions.",
+      "billions": "a very large number, specifically referring to several units of one thousand million.",
+      "disagree": "to have a different opinion or to not share the same view as someone else.",
+      "blockchain": "a distributed and decentralized ledger that records transactions across many computers, making them secure.",
+      "analysts": "experts who examine data and information to provide insights and make predictions.",
+      "understate": "to describe something as being smaller, less important, or less significant than it actually is.",
+      "activity": "the state of being active or engaged in a particular action or process, such as trading.",
+      "conversely": "introducing a statement or idea that reverses one that has just been made or referred to.",
+      "decline": "a gradual and continuous loss of strength, numbers, or value.",
+      "volumes": "the total amount of something, especially the quantity of goods or money traded over a period.",
+      "highlights": "draws special attention to something, making it more noticeable or prominent.",
+      "verifying": "checking or proving that something is true, accurate, or valid through examination.",
+      "on-chain": "referring to data or transactions that are recorded and visible on a blockchain's public ledger.",
+      "discrepancies": "differences or inconsistencies between two or more facts or figures that should be the same.",
+      "crucial": "extremely important or essential for the success or outcome of something.",
+      "transparency": "the condition of being open, honest, and easily understood, especially regarding information.",
+      "entities": "things that exist as separate and distinct units, such as organizations or businesses.",
+      "oversight": "the act of supervising or managing something to ensure it is done correctly and legally.",
+      "complexity": "the state of being intricate or complicated, involving many different parts or factors.",
+      "robust": "strong and healthy; able to withstand difficult conditions or challenges.",
+      "independent": "not controlled or influenced by others in matters of opinion or action."
     },
     "questions": [
-      "Q1: According to the passage, what are the two main aspects of tokenization that the IMF's report addresses?",
-      "Q2: The passage mentions \"interconnected nature\" and \"single point of failure.\" In your own words, explain how these concepts relate to the potential risks of tokenization described by the IMF.",
-      "Q3: As a fintech product manager, how would you approach developing a new product that utilizes tokenization, considering both its benefits and the risks highlighted by the IMF?"
+      "What is the main disagreement between the Russian stablecoin A7A5 and blockchain analysts regarding its operations?",
+      "In this context, what does it mean for a stablecoin to be \"sanctioned,\" and why might this affect its reported trading volumes?",
+      "How important is independent blockchain analysis for maintaining trust and transparency in the crypto market, especially for PMs developing new products?"
     ],
     "modelAnswers": [
-      "A1: The IMF's report addresses both the transformative potential, specifically enhanced efficiency and reduced costs, and the inherent risks, such as new vulnerabilities and market instability, that tokenization brings to the financial sector.",
-      "A2: The \"interconnected nature\" implies that tokenized assets are linked across various platforms, meaning a problem in one area could quickly spread. A \"single point of failure\" refers to a critical component in the underlying infrastructure that, if it fails, could cause the entire system to collapse, making tokenization more susceptible to widespread shocks.",
-      "A3: I would prioritize a phased development approach, starting with a robust risk assessment and a clear regulatory compliance strategy. My product would incorporate strong security measures, emphasize transparency in asset ownership, and aim for interoperability while mitigating potential single points of failure through redundant systems."
+      "The stablecoin A7A5 claims to process billions in transactions, but blockchain analysts dispute this. They report a sharp decline in its actual trading volumes this year.",
+      "Being \"sanctioned\" means official restrictions are imposed on the stablecoin, often by governments. This could lead to a decrease in legitimate trading activity and difficulties in accurate reporting.",
+      "Independent blockchain analysis is crucial for trust and transparency. It helps PMs verify claims, understand market realities, and build reliable products by providing unbiased data."
     ]
   },
   {
@@ -108,96 +95,88 @@
     "rank": 2,
     "category": "crypto",
     "reads": "Crypto #2",
-    "hook": "제재를 받는 러시아 스테이블코인이 주장하는 거래량과 블록체인 분석가들의 데이터가 크게 엇갈리고 있습니다.",
-    "url": "https://www.coindesk.com/business/2026/07/03/this-sanctioned-russian-stablecoin-claims-it-processes-billions-but-blockchain-analysts-disagree",
-    "title": "Russian Stablecoin's Billions Claim Disputed by Analysts",
+    "hook": "IMF의 분석을 통해 토큰화가 금융을 혁신하면서도 새로운 위험을 초래할 수 있음을 이해할 수 있습니다.",
+    "url": "https://www.coindesk.com/markets/2026/07/03/tokenization-could-make-finance-faster-but-also-more-susceptible-to-shocks-imf-says",
+    "title": "IMF Warns on Tokenization's Risks",
     "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "A Russian stablecoin, A7A5, is currently at the center of a controversy regarding its reported transaction volumes. Despite being under international sanctions, the issuer of A7A5 claims that its ruble-backed token processes billions in transactions. However, this assertion is strongly contested by various blockchain analytics firms. These firms, which track on-chain data, report a significant decline in the stablecoin's activity this year. The discrepancy raises critical questions about data transparency and the reliability of self-reported metrics in the crypto space. For a fintech product manager, this situation underscores the importance of independent verification and robust data analytics. It also highlights the complexities of operating a stablecoin, especially when facing geopolitical challenges and sanctions. Sanctions are designed to restrict financial flows, making it difficult for entities like A7A5 to maintain high transaction volumes legitimately. The divergent claims between the issuer and analysts could impact investor confidence and regulatory scrutiny. Understanding how to accurately assess the true usage and health of a stablecoin, particularly a sanctioned one, is paramount. This case serves as a cautionary tale about the challenges of operating under strict financial controls and the need for verifiable data. It also underscores the ongoing tension between centralized claims and decentralized, transparent blockchain records.",
+    "passage": "The International Monetary Fund (IMF) recently evaluated tokenization. Tokenization can make core financial processes significantly faster. It also promises to significantly reduce operational costs for institutions. However, the IMF identified several potential downsides to this innovation. It warned that tokenization could increase the risk of financial shocks. This vulnerability primarily comes from rapid contagion risks across markets. PMs should carefully consider both the benefits and these inherent risks. Understanding these broad implications is vital for secure product development. New, adaptive regulations may be needed to manage these emerging risks effectively. This ensures the stability of the broader financial system.",
     "sentences": [
       {
-        "en": "A Russian stablecoin, A7A5, is currently at the center of a controversy regarding its reported transaction volumes.",
-        "ko": "러시아 스테이블코인 A7A5가 현재 보고된 거래량과 관련하여 논란의 중심에 서 있습니다."
+        "en": "The International Monetary Fund (IMF) recently evaluated tokenization.",
+        "ko": "국제통화기금(IMF)이 최근 토큰화를 평가했습니다."
       },
       {
-        "en": "Despite being under international sanctions, the issuer of A7A5 claims that its ruble-backed token processes billions in transactions.",
-        "ko": "국제 제재를 받고 있음에도 불구하고, A7A5 발행사는 루블화 기반 토큰이 수십억 달러 규모의 거래를 처리한다고 주장합니다."
+        "en": "Tokenization can make core financial processes significantly faster.",
+        "ko": "토큰화는 핵심 금융 프로세스를 훨씬 더 빠르게 만들 수 있습니다."
       },
       {
-        "en": "However, this assertion is strongly contested by various blockchain analytics firms.",
-        "ko": "그러나 이러한 주장은 여러 블록체인 분석 회사에 의해 강력히 반박되고 있습니다."
+        "en": "It also promises to significantly reduce operational costs for institutions.",
+        "ko": "또한 기관의 운영 비용을 크게 절감할 수 있다고 약속합니다."
       },
       {
-        "en": "These firms, which track on-chain data, report a significant decline in the stablecoin's activity this year.",
-        "ko": "온체인 데이터를 추적하는 이 회사들은 올해 이 스테이블코인의 활동이 크게 감소했다고 보고합니다."
+        "en": "However, the IMF identified several potential downsides to this innovation.",
+        "ko": "하지만 IMF는 이러한 혁신에 대한 몇 가지 잠재적인 단점을 확인했습니다."
       },
       {
-        "en": "The discrepancy raises critical questions about data transparency and the reliability of self-reported metrics in the crypto space.",
-        "ko": "이러한 불일치는 암호화폐 분야에서 데이터 투명성과 자체 보고된 지표의 신뢰성에 대한 중요한 질문을 제기합니다."
+        "en": "It warned that tokenization could increase the risk of financial shocks.",
+        "ko": "토큰화가 금융 충격의 위험을 증가시킬 수 있다고 경고했습니다."
       },
       {
-        "en": "For a fintech product manager, this situation underscores the importance of independent verification and robust data analytics.",
-        "ko": "핀테크 제품 관리자에게 이 상황은 독립적인 검증과 견고한 데이터 분석의 중요성을 강조합니다."
+        "en": "This vulnerability primarily comes from rapid contagion risks across markets.",
+        "ko": "이러한 취약성은 주로 시장 전반의 빠른 전염 위험에서 비롯됩니다."
       },
       {
-        "en": "It also highlights the complexities of operating a stablecoin, especially when facing geopolitical challenges and sanctions.",
-        "ko": "또한 지정학적 도전과 제재에 직면했을 때 스테이블코인을 운영하는 복잡성을 보여줍니다."
+        "en": "PMs should carefully consider both the benefits and these inherent risks.",
+        "ko": "PM은 이점과 이러한 내재된 위험을 모두 신중하게 고려해야 합니다."
       },
       {
-        "en": "Sanctions are designed to restrict financial flows, making it difficult for entities like A7A5 to maintain high transaction volumes legitimately.",
-        "ko": "제재는 금융 흐름을 제한하도록 설계되어 A7A5와 같은 주체가 합법적으로 높은 거래량을 유지하기 어렵게 만듭니다."
+        "en": "Understanding these broad implications is vital for secure product development.",
+        "ko": "이러한 광범위한 함의를 이해하는 것은 안전한 제품 개발에 필수적입니다."
       },
       {
-        "en": "The divergent claims between the issuer and analysts could impact investor confidence and regulatory scrutiny.",
-        "ko": "발행사와 분석가 간의 상이한 주장은 투자자 신뢰와 규제 감독에 영향을 미칠 수 있습니다."
+        "en": "New, adaptive regulations may be needed to manage these emerging risks effectively.",
+        "ko": "이러한 새로운 위험을 효과적으로 관리하기 위해 새롭고 적응적인 규제가 필요할 수 있습니다."
       },
       {
-        "en": "Understanding how to accurately assess the true usage and health of a stablecoin, particularly a sanctioned one, is paramount.",
-        "ko": "스테이블코인, 특히 제재를 받는 스테이블코인의 실제 사용량과 건전성을 정확하게 평가하는 방법을 이해하는 것은 매우 중요합니다."
-      },
-      {
-        "en": "This case serves as a cautionary tale about the challenges of operating under strict financial controls and the need for verifiable data.",
-        "ko": "이 사례는 엄격한 금융 통제하에 운영하는 데 따르는 어려움과 검증 가능한 데이터의 필요성에 대한 경고의 교훈을 제공합니다."
-      },
-      {
-        "en": "It also underscores the ongoing tension between centralized claims and decentralized, transparent blockchain records.",
-        "ko": "또한 중앙 집중식 주장과 분산형, 투명한 블록체인 기록 간의 지속적인 긴장을 강조합니다."
+        "en": "This ensures the stability of the broader financial system.",
+        "ko": "이는 더 넓은 금융 시스템의 안정성을 보장합니다."
       }
     ],
     "glossary": {
-      "sanctioned": "officially approved and allowed, often implying restrictions due to political or economic reasons.",
-      "controversy": "a prolonged public dispute, debate, or contention concerning a matter of opinion.",
-      "reported": "stated or described by someone, often officially.",
-      "issuer": "a person or company that supplies or formally releases something, especially financial assets.",
-      "assertion": "a confident and forceful statement of fact or belief.",
-      "contested": "challenged or disputed in a formal argument or debate.",
-      "analytics": "the systematic computational analysis of data or statistics.",
-      "on-chain": "referring to data or transactions that are recorded and verifiable on a blockchain.",
-      "discrepancy": "a lack of compatibility or similarity between two or more facts.",
-      "transparency": "the condition of being transparent, meaning easily seen through or understood.",
-      "reliability": "the quality of being trustworthy or of performing consistently well.",
-      "metrics": "a method of measuring something, or the results obtained from this.",
-      "underscores": "emphasizes the importance of something.",
-      "verification": "the process of establishing the truth, accuracy, or validity of something.",
-      "complexities": "the state of being intricate or complicated.",
-      "geopolitical": "relating to politics, especially international relations, as influenced by geographical factors.",
-      "legitimately": "in a way that is allowed by law or rules, or that is fair and reasonable.",
-      "divergent": "tending to be different or develop in different directions.",
-      "scrutiny": "critical observation or examination.",
-      "paramount": "more important than anything else; supreme.",
-      "cautionary": "serving as a warning.",
-      "verifiable": "able to be checked or demonstrated to be true, accurate, or justified.",
-      "tension": "a state of disagreement, hostility, or antagonism between two or more groups or forces.",
-      "decentralized": "having power or authority dispersed rather than concentrated in one place."
+      "evaluated": "assessed or judged the value, quality, or significance of something through careful study.",
+      "tokenization": "the process of converting rights to an asset into a digital token on a blockchain.",
+      "financial": "relating to money, banking, investment, or the management of funds and assets.",
+      "processes": "series of actions or steps taken in order to achieve a particular end or result.",
+      "significantly": "to a large or important extent; notably or considerably.",
+      "reduce": "to make something smaller or less in amount, degree, or size.",
+      "operational": "relating to the way a business or system works or functions.",
+      "institutions": "established organizations or foundations, especially those dedicated to public service or culture.",
+      "identified": "recognized or discovered the existence of something specific.",
+      "potential": "existing in possibility; capable of developing into something real or actual.",
+      "downsides": "disadvantages or negative aspects of something that might otherwise seem beneficial.",
+      "innovation": "the introduction of new ideas, methods, or products that create change.",
+      "warned": "informed someone about a possible danger, problem, or unpleasant situation that might occur.",
+      "shocks": "sudden and disturbing events that have a strong negative impact on a system or economy.",
+      "vulnerability": "the state of being exposed to the possibility of being attacked or harmed.",
+      "primarily": "for the most part; mainly or chiefly.",
+      "contagion": "the spreading of a harmful idea, practice, or economic crisis from one system to another.",
+      "inherent": "existing in something as a permanent, essential, or characteristic attribute.",
+      "implications": "the possible results or effects of an action or a decision that are not immediately obvious.",
+      "vital": "absolutely necessary or important; essential for success or survival.",
+      "adaptive": "able to adjust to new conditions or situations.",
+      "regulations": "rules or laws made by an authority to control the way something is done.",
+      "effectively": "in a way that is successful in producing a desired or intended result.",
+      "stability": "the state of being steady and not changing or being disturbed."
     },
     "questions": [
-      "Q1: What is the main point of contention regarding the Russian stablecoin A7A5, according to the passage?",
-      "Q2: The passage uses the term \"on-chain data.\" Explain what this means in the context of blockchain analytics and why it's crucial for verifying stablecoin activity.",
-      "Q3: If you were designing a new stablecoin, what steps would you take to ensure transparency and build trust with users and regulators, especially in light of the A7A5 situation?"
+      "What are the two main benefits of tokenization highlighted by the IMF?",
+      "What does the IMF mean by \"rapid contagion risks\" in the context of tokenization, and how does this create \"vulnerability\"?",
+      "As a PM, how would understanding the IMF's concerns about tokenization influence your approach to designing and launching a new tokenized product?"
     ],
     "modelAnswers": [
-      "A1: The main point of contention is the significant discrepancy between the billions in transaction volumes claimed by the sanctioned Russian stablecoin A7A5 and the sharply reduced activity reported by blockchain analytics firms.",
-      "A2: \"On-chain data\" refers to information directly recorded and publicly verifiable on a blockchain ledger. It's crucial for verifying stablecoin activity because it provides an immutable, transparent record of all transactions, allowing independent analysts to confirm or dispute self-reported metrics without relying on the issuer's claims.",
-      "A3: To ensure transparency and build trust, I would implement real-time, publicly accessible dashboards showing audited reserve attestations and on-chain transaction volumes. I would also commit to regular, independent third-party audits and clearly communicate the stablecoin's operational framework and risk management policies to both users and regulatory bodies."
+      "The IMF highlighted that tokenization can make financial processes faster and significantly reduce costs. These are key advantages for financial systems.",
+      "\"Rapid contagion risks\" refers to how quickly negative impacts could spread across the financial system due to the interconnected nature of tokenized assets. This rapid spread creates \"vulnerability\" to sudden shocks.",
+      "Understanding these concerns would lead me to prioritize robust risk management and security measures. I'd design products with built-in safeguards and advocate for clear regulatory frameworks to mitigate potential shocks."
     ]
   },
   {
@@ -206,100 +185,92 @@
     "rank": 3,
     "category": "crypto",
     "reads": "Crypto #3",
-    "hook": "바이낸스가 유럽 MiCA 규제에 대한 자사의 입장을 밝히며, 규제 프레임워크의 진정한 가치를 강조합니다.",
+    "hook": "유럽의 MiCA 규제에 대한 바이낸스의 입장을 통해 글로벌 암호화폐 거래소의 규제 전략을 엿볼 수 있습니다.",
     "url": "https://www.coindesk.com/policy/2026/07/03/binance-says-mica-should-be-judged-by-who-it-licenses-not-who-it-excludes",
-    "title": "Binance: MiCA's Success is in Licenses, Not Exclusions",
+    "title": "Binance on MiCA Regulation and Licensing",
     "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "Binance, a major cryptocurrency exchange, has publicly articulated its perspective on Europe's landmark Markets in Crypto-Assets (MiCA) regulation. Gillian Lynch, Binance's Europe head, stated that the true measure of MiCA's success should be determined by the entities it licenses, rather than those it excludes. This statement comes shortly after Binance withdrew its MiCA application just days before the July 1st deadline. Despite this withdrawal, Lynch affirmed Binance's continued commitment to the European Union market. She highlighted that Binance had met Greece's licensing requirements, indicating its capability to comply with robust regulatory standards. For fintech product managers, this development offers critical insights into the evolving regulatory landscape for crypto exchanges. It underscores the challenges exchanges face in navigating diverse national interpretations and implementation of overarching European regulations like MiCA. Binance's strategy suggests a focus on obtaining licenses in specific jurisdictions where their operational model aligns most effectively with local requirements. This approach could influence how other large exchanges adapt to new regulatory regimes across different regions. The debate over MiCA's effectiveness will likely continue as more exchanges either gain licenses or decide to exit the European market. Ultimately, the success of any regulatory framework depends on its ability to foster a safe and innovative environment for all participants. This situation is a key indicator of how major players are adapting to global crypto regulation.",
+    "passage": "Binance recently commented on Europe's landmark MiCA regulation. MiCA stands as a significant and comprehensive regulatory framework. It aims to standardize crypto asset rules across the entire EU bloc. Binance's Europe head, Gillian Lynch, publicly shared her perspective. She stated MiCA should be judged primarily by its licensed entities. This is rather than by those it ultimately excludes from the market. Binance controversially withdrew its MiCA application just before the deadline. Despite this strategic move, the company affirmed its strong commitment to the EU. For a PM, understanding exchange regulatory strategies is absolutely key for market entry. This case clearly shows the complex dance between innovation and strict compliance requirements. It highlights the ongoing challenges for global crypto platforms.",
     "sentences": [
       {
-        "en": "Binance, a major cryptocurrency exchange, has publicly articulated its perspective on Europe's landmark Markets in Crypto-Assets (MiCA) regulation.",
-        "ko": "주요 암호화폐 거래소인 바이낸스가 유럽의 획기적인 암호자산시장(MiCA) 규제에 대한 입장을 공개적으로 밝혔습니다."
+        "en": "Binance recently commented on Europe's landmark MiCA regulation.",
+        "ko": "바이낸스는 최근 유럽의 획기적인 MiCA 규제에 대해 언급했습니다."
       },
       {
-        "en": "Gillian Lynch, Binance's Europe head, stated that the true measure of MiCA's success should be determined by the entities it licenses, rather than those it excludes.",
-        "ko": "바이낸스 유럽 책임자인 길리언 린치는 MiCA의 성공 여부는 배제하는 주체가 아니라 라이선스를 부여하는 주체에 의해 결정되어야 한다고 말했습니다."
+        "en": "MiCA stands as a significant and comprehensive regulatory framework.",
+        "ko": "MiCA는 중요하고 포괄적인 규제 프레임워크로 자리매김하고 있습니다."
       },
       {
-        "en": "This statement comes shortly after Binance withdrew its MiCA application just days before the July 1st deadline.",
-        "ko": "이 발언은 바이낸스가 7월 1일 마감일 며칠 전에 MiCA 신청을 철회한 직후에 나왔습니다."
+        "en": "It aims to standardize crypto asset rules across the entire EU bloc.",
+        "ko": "이는 전체 EU 블록에 걸쳐 암호화폐 자산 규칙을 표준화하는 것을 목표로 합니다."
       },
       {
-        "en": "Despite this withdrawal, Lynch affirmed Binance's continued commitment to the European Union market.",
-        "ko": "이러한 철회에도 불구하고 린치는 유럽연합 시장에 대한 바이낸스의 지속적인 헌신을 확인했습니다."
+        "en": "Binance's Europe head, Gillian Lynch, publicly shared her perspective.",
+        "ko": "바이낸스의 유럽 책임자인 길리언 린치는 공개적으로 그녀의 관점을 공유했습니다."
       },
       {
-        "en": "She highlighted that Binance had met Greece's licensing requirements, indicating its capability to comply with robust regulatory standards.",
-        "ko": "그녀는 바이낸스가 그리스의 라이선스 요건을 충족했으며, 이는 견고한 규제 기준을 준수할 수 있는 능력을 보여준다고 강조했습니다."
+        "en": "She stated MiCA should be judged primarily by its licensed entities.",
+        "ko": "그녀는 MiCA가 주로 허가된 기관으로 평가되어야 한다고 말했습니다."
       },
       {
-        "en": "For fintech product managers, this development offers critical insights into the evolving regulatory landscape for crypto exchanges.",
-        "ko": "핀테크 제품 관리자에게 이 발전은 암호화폐 거래소에 대한 진화하는 규제 환경에 대한 중요한 통찰력을 제공합니다."
+        "en": "This is rather than by those it ultimately excludes from the market.",
+        "ko": "이는 궁극적으로 시장에서 제외되는 기관보다는 허가된 기관으로 평가되어야 한다는 것입니다."
       },
       {
-        "en": "It underscores the challenges exchanges face in navigating diverse national interpretations and implementation of overarching European regulations like MiCA.",
-        "ko": "이는 MiCA와 같은 포괄적인 유럽 규정의 다양한 국가별 해석 및 구현을 헤쳐나가는 데 거래소가 직면하는 어려움을 강조합니다."
+        "en": "Binance controversially withdrew its MiCA application just before the deadline.",
+        "ko": "바이낸스는 마감일 직전에 논란의 여지 없이 MiCA 신청을 철회했습니다."
       },
       {
-        "en": "Binance's strategy suggests a focus on obtaining licenses in specific jurisdictions where their operational model aligns most effectively with local requirements.",
-        "ko": "바이낸스의 전략은 운영 모델이 현지 요건과 가장 효과적으로 일치하는 특정 관할 구역에서 라이선스를 획득하는 데 중점을 둔다는 것을 시사합니다."
+        "en": "Despite this strategic move, the company affirmed its strong commitment to the EU.",
+        "ko": "이러한 전략적인 움직임에도 불구하고 회사는 EU에 대한 강력한 헌신을 확인했습니다."
       },
       {
-        "en": "This approach could influence how other large exchanges adapt to new regulatory regimes across different regions.",
-        "ko": "이러한 접근 방식은 다른 대형 거래소들이 다양한 지역의 새로운 규제 체제에 어떻게 적응할지에 영향을 미칠 수 있습니다."
+        "en": "For a PM, understanding exchange regulatory strategies is absolutely key for market entry.",
+        "ko": "PM에게는 거래소의 규제 전략을 이해하는 것이 시장 진입에 절대적으로 중요합니다."
       },
       {
-        "en": "The debate over MiCA's effectiveness will likely continue as more exchanges either gain licenses or decide to exit the European market.",
-        "ko": "더 많은 거래소들이 라이선스를 획득하거나 유럽 시장을 떠나기로 결정함에 따라 MiCA의 효과에 대한 논쟁은 계속될 것으로 보입니다."
+        "en": "This case clearly shows the complex dance between innovation and strict compliance requirements.",
+        "ko": "이 사례는 혁신과 엄격한 규정 준수 요구 사항 사이의 복잡한 균형을 명확히 보여줍니다."
       },
       {
-        "en": "Ultimately, the success of any regulatory framework depends on its ability to foster a safe and innovative environment for all participants.",
-        "ko": "궁극적으로 모든 규제 프레임워크의 성공은 모든 참가자에게 안전하고 혁신적인 환경을 조성하는 능력에 달려 있습니다."
-      },
-      {
-        "en": "This situation is a key indicator of how major players are adapting to global crypto regulation.",
-        "ko": "이 상황은 주요 기업들이 글로벌 암호화폐 규제에 어떻게 적응하고 있는지를 보여주는 중요한 지표입니다."
+        "en": "It highlights the ongoing challenges for global crypto platforms.",
+        "ko": "이는 글로벌 암호화폐 플랫폼의 지속적인 과제를 강조합니다."
       }
     ],
     "glossary": {
-      "articulated": "expressed or stated clearly and distinctly.",
+      "commented": "expressed an opinion or reaction to something in speech or writing.",
+      "landmark": "an important stage or turning point in something, or a very significant development.",
+      "regulation": "a rule or directive made and maintained by an authority to control behavior.",
+      "comprehensive": "including or dealing with all or nearly all elements or aspects of something.",
+      "framework": "a basic structure underlying a system, concept, or text, providing guidance.",
+      "aims": "intends or plans to achieve a particular purpose or goal.",
+      "standardize": "to make things conform to a standard or set of rules, ensuring consistency.",
+      "crypto": "referring to cryptocurrencies or digital assets, often used as a prefix.",
+      "asset": "something valuable owned by a company or individual that can be used to produce wealth.",
+      "bloc": "a group of countries or political parties that have formed an alliance.",
       "perspective": "a particular attitude toward or way of regarding something; a point of view.",
-      "landmark": "an event or discovery that marks an important stage or turning point in something.",
-      "regulation": "a rule or directive made and maintained by an authority.",
-      "determined": "having made a firm decision and being resolved not to change it.",
-      "entities": "things with distinct and independent existence.",
-      "withdrew": "took back or removed.",
-      "affirmed": "stated as a fact; asserted strongly and publicly.",
-      "commitment": "the state or quality of being dedicated to a cause, activity, or policy.",
-      "highlighted": "drew special attention to something.",
-      "capability": "the ability or power to do something.",
-      "comply": "to act in accordance with a wish, request, or command.",
-      "robust": "strong and healthy; able to withstand difficult conditions.",
-      "insights": "the capacity to gain an accurate and deep understanding of someone or something.",
-      "evolving": "developing gradually, especially from a simple to a more complex form.",
-      "navigating": "planning and directing the route or course of a ship, aircraft, or other form of transport, or dealing with a difficult situation.",
-      "diverse": "showing a great deal of variety; very different.",
-      "interpretations": "the action of explaining the meaning of something.",
-      "overarching": "comprehensive or all-embracing.",
-      "jurisdictions": "the official power to make legal decisions and judgments.",
-      "aligns": "places or arranges things in a straight line, or brings them into agreement.",
-      "effectively": "in a way that is successful in producing a desired or intended result.",
-      "influence": "the capacity to have an effect on the character, development, or behavior of someone or something.",
-      "regimes": "a system or ordered way of doing things, especially a political or social system.",
-      "debate": "a formal discussion on a particular topic in a public meeting or legislative assembly.",
-      "foster": "to encourage the development or growth of something good.",
-      "participants": "a person who takes part in something.",
-      "indicator": "a thing, especially a trend or fact, that shows the state or level of something."
+      "primarily": "for the most part; mainly or chiefly.",
+      "licensed": "officially permitted to operate or do something by an authority.",
+      "entities": "things that exist as separate and distinct units, such as organizations or businesses.",
+      "ultimately": "in the end; finally or eventually.",
+      "excludes": "prevents someone or something from being included in a group or activity.",
+      "controversially": "in a way that gives rise to public disagreement or heated discussion.",
+      "withdrew": "took back or removed something that was previously put forward or offered.",
+      "application": "a formal request for something, such as a job, permission, or a license.",
+      "deadline": "the latest time or date by which something should be completed.",
+      "affirmed": "stated something as true or confirmed its validity or commitment.",
+      "strategic": "relating to the identification of long-term or overall aims and interests.",
+      "compliance": "the act of obeying an order, rule, or request.",
+      "platforms": "systems or services that allow users to interact and conduct transactions."
     },
     "questions": [
-      "Q1: What is Binance's main argument regarding how MiCA's effectiveness should be assessed?",
-      "Q2: The passage refers to MiCA as an \"overarching European regulation.\" What does this phrase imply about its scope and the challenges it presents for exchanges like Binance?",
-      "Q3: From a product management perspective, how might Binance's approach of focusing on specific jurisdictions influence its product offerings or market strategy in the EU?"
+      "What is the primary goal of Europe's MiCA regulation for crypto assets?",
+      "Explain what Binance's Europe head meant by judging MiCA based on \"licensed entities rather than by those it excludes.\"",
+      "How might Binance's decision to withdraw its MiCA application, while still affirming commitment to the EU, impact its operations or reputation in the European market from a PM's perspective?"
     ],
     "modelAnswers": [
-      "A1: Binance argues that MiCA's success should be judged by the number and quality of entities it successfully licenses, rather than by the number of entities it excludes or causes to withdraw their applications.",
-      "A2: \"Overarching European regulation\" implies that MiCA is a comprehensive framework intended to apply across all EU member states, standardizing crypto rules. This presents challenges for exchanges because they must navigate consistent compliance with this broad regulation while also adapting to diverse national interpretations and implementation details within each country.",
-      "A3: Binance's strategy of focusing on specific jurisdictions could lead to tailored product offerings that better fit local regulatory nuances and user preferences. It might also mean a more gradual expansion within the EU, prioritizing markets where licensing is more straightforward or where their existing operational model is already well-suited, potentially offering different services in different EU countries."
+      "The primary goal of Europe's MiCA regulation is to standardize rules for crypto assets across the entire European Union. This creates a consistent regulatory environment.",
+      "She meant that the success and fairness of MiCA should be evaluated by how many legitimate businesses successfully obtain licenses, not by how many entities decide not to apply or are excluded.",
+      "From a PM's perspective, this might signal a strategic pivot or a challenge in meeting specific MiCA requirements. It could temporarily affect user trust or market access, requiring Binance to find alternative ways to serve EU customers while remaining compliant."
     ]
   },
   {
@@ -308,99 +279,97 @@
     "rank": 4,
     "category": "economy",
     "reads": "Economy #1",
-    "hook": "인플레이션 지표는 중앙은행의 금리 결정에 핵심적인 영향을 미치므로, 경제와 금융 시장의 흐름을 이해하는 데 필수적입니다.",
+    "hook": "미국 연방준비제도(Fed)가 선호하는 물가 지표가 다시 상승하여 금리 정책에 어떤 영향을 미칠지 알아보세요.",
     "url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
-    "title": "US Core Inflation Rises, Fueling Rate Hike Speculation",
+    "title": "US Core Inflation Rises, Pressuring Fed Policy",
     "source": "Daybreak Wire (based on business news)",
-    "passage": "The latest economic data reveals that the core inflation rate in the United States reached 3.4% in May, marking its highest level since October 2023. This figure, measured by the Personal Consumption Expenditures (PCE) price index, is the Federal Reserve's preferred gauge for understanding underlying price pressures. The PCE index excludes volatile food and energy costs, providing a clearer picture of sustained inflation trends. An unexpected rise in this key metric suggests that inflationary forces might be more persistent than previously anticipated by policymakers. Such elevated inflation could compel the Federal Reserve to maintain its restrictive monetary policy stance for an extended period. This development has significant implications for interest rates, potentially leading to further hikes or delaying any anticipated rate cuts. For consumers, persistent inflation erodes purchasing power, making everyday goods and services more expensive. Businesses might face increased operational costs, which could impact profitability and investment decisions. In the financial markets, higher inflation often translates to increased bond yields and shifts in investor sentiment towards riskier assets. Fintech companies, in particular, need to monitor these trends closely, as they influence lending rates, digital payment adoption, and overall economic stability. The central bank's primary mandate includes price stability, and this report underscores the ongoing challenge in bringing inflation back to its 2% target. Analysts will be scrutinizing upcoming data releases for signs of whether this acceleration is a temporary blip or a more entrenched pattern. The trajectory of inflation remains a pivotal factor in shaping both domestic economic policy and global financial conditions. Therefore, understanding the nuances of this report is crucial for anyone involved in economic forecasting or financial planning. The market's reaction will largely depend on whether this data is seen as an outlier or as confirmation of a stickier inflationary environment.",
+    "passage": "The U.S. core inflation rate recently reached 3.4% in May. This marks its highest level since October 2023. It is measured by the Personal Consumption Expenditures (PCE) price index. The Federal Reserve closely monitors this index. PCE is the Fed's preferred gauge for inflation. A rising core inflation rate complicates the Fed's decisions. They must balance controlling prices with economic growth. Higher inflation might lead to maintaining elevated interest rates. This could impact borrowing costs for businesses and consumers. Fintech companies are particularly sensitive to these shifts. They operate in markets affected by lending and investment. Understanding inflation trends is crucial for strategic planning.",
     "sentences": [
       {
-        "en": "The latest economic data reveals that the core inflation rate in the United States reached 3.4% in May, marking its highest level since October 2023.",
-        "ko": "최신 경제 데이터에 따르면 미국의 근원 인플레이션율이 5월에 3.4%에 도달하며, 2023년 10월 이후 최고치를 기록했습니다."
+        "en": "The U.S. core inflation rate recently reached 3.4% in May.",
+        "ko": "미국의 근원 인플레이션율은 최근 5월에 3.4%에 도달했습니다."
       },
       {
-        "en": "This figure, measured by the Personal Consumption Expenditures (PCE) price index, is the Federal Reserve's preferred gauge for understanding underlying price pressures.",
-        "ko": "개인소비지출(PCE) 물가지수로 측정된 이 수치는 근원 물가 압력을 이해하기 위한 연방준비제도의 선호 지표입니다."
+        "en": "This marks its highest level since October 2023.",
+        "ko": "이는 2023년 10월 이후 가장 높은 수준입니다."
       },
       {
-        "en": "The PCE index excludes volatile food and energy costs, providing a clearer picture of sustained inflation trends.",
-        "ko": "PCE 지수는 변동성이 큰 식품 및 에너지 비용을 제외하여 지속적인 인플레이션 추세를 더 명확하게 보여줍니다."
+        "en": "It is measured by the Personal Consumption Expenditures (PCE) price index.",
+        "ko": "이는 개인소비지출(PCE) 물가 지수로 측정됩니다."
       },
       {
-        "en": "An unexpected rise in this key metric suggests that inflationary forces might be more persistent than previously anticipated by policymakers.",
-        "ko": "이 핵심 지표의 예상치 못한 상승은 인플레이션 압력이 정책 입안자들이 이전에 예상했던 것보다 더 지속적일 수 있음을 시사합니다."
+        "en": "The Federal Reserve closely monitors this index.",
+        "ko": "연방준비제도(Fed)는 이 지수를 면밀히 주시합니다."
       },
       {
-        "en": "Such elevated inflation could compel the Federal Reserve to maintain its restrictive monetary policy stance for an extended period.",
-        "ko": "이러한 높은 인플레이션은 연방준비제도가 긴축적인 통화 정책 기조를 더 오랜 기간 유지하도록 강요할 수 있습니다."
+        "en": "PCE is the Fed's preferred gauge for inflation.",
+        "ko": "PCE는 연준이 선호하는 인플레이션 측정 지표입니다."
       },
       {
-        "en": "This development has significant implications for interest rates, potentially leading to further hikes or delaying any anticipated rate cuts.",
-        "ko": "이러한 전개는 금리에 중대한 영향을 미치며, 잠재적으로 추가 인상으로 이어지거나 예상되는 금리 인하를 지연시킬 수 있습니다."
+        "en": "A rising core inflation rate complicates the Fed's decisions.",
+        "ko": "근원 인플레이션율 상승은 연준의 결정을 복잡하게 만듭니다."
       },
       {
-        "en": "For consumers, persistent inflation erodes purchasing power, making everyday goods and services more expensive.",
-        "ko": "소비자에게 지속적인 인플레이션은 구매력을 약화시켜 일상적인 상품과 서비스의 가격을 더 비싸게 만듭니다."
+        "en": "They must balance controlling prices with economic growth.",
+        "ko": "그들은 물가 통제와 경제 성장 사이에서 균형을 맞춰야 합니다."
       },
       {
-        "en": "Businesses might face increased operational costs, which could impact profitability and investment decisions.",
-        "ko": "기업들은 운영 비용 증가에 직면할 수 있으며, 이는 수익성과 투자 결정에 영향을 미칠 수 있습니다."
+        "en": "Higher inflation might lead to maintaining elevated interest rates.",
+        "ko": "높은 인플레이션은 높은 금리를 유지하게 할 수 있습니다."
       },
       {
-        "en": "In the financial markets, higher inflation often translates to increased bond yields and shifts in investor sentiment towards riskier assets.",
-        "ko": "금융 시장에서 높은 인플레이션은 종종 채권 수익률 증가와 투자 심리가 더 위험한 자산으로 이동하는 결과를 초래합니다."
+        "en": "This could impact borrowing costs for businesses and consumers.",
+        "ko": "이는 기업과 소비자의 차입 비용에 영향을 미칠 수 있습니다."
       },
       {
-        "en": "Fintech companies, in particular, need to monitor these trends closely, as they influence lending rates, digital payment adoption, and overall economic stability.",
-        "ko": "특히 핀테크 기업들은 대출 금리, 디지털 결제 채택, 전반적인 경제 안정성에 영향을 미치므로 이러한 추세를 면밀히 주시해야 합니다."
+        "en": "Fintech companies are particularly sensitive to these shifts.",
+        "ko": "핀테크 기업들은 이러한 변화에 특히 민감합니다."
       },
       {
-        "en": "The central bank's primary mandate includes price stability, and this report underscores the ongoing challenge in bringing inflation back to its 2% target.",
-        "ko": "중앙은행의 주요 임무는 물가 안정이며, 이 보고서는 인플레이션을 2% 목표치로 되돌리는 데 있어 지속적인 도전을 강조합니다."
+        "en": "They operate in markets affected by lending and investment.",
+        "ko": "그들은 대출과 투자에 영향을 받는 시장에서 운영됩니다."
       },
       {
-        "en": "Analysts will be scrutinizing upcoming data releases for signs of whether this acceleration is a temporary blip or a more entrenched pattern.",
-        "ko": "분석가들은 이 가속화가 일시적인 현상인지 아니면 더 고착화된 패턴인지를 보여주는 다음 데이터 발표를 면밀히 검토할 것입니다."
-      },
-      {
-        "en": "The trajectory of inflation remains a pivotal factor in shaping both domestic economic policy and global financial conditions.",
-        "ko": "인플레이션의 궤적은 국내 경제 정책과 글로벌 금융 상황을 형성하는 데 있어 여전히 핵심적인 요소입니다."
-      },
-      {
-        "en": "Therefore, understanding the nuances of this report is crucial for anyone involved in economic forecasting or financial planning.",
-        "ko": "따라서 이 보고서의 미묘한 차이를 이해하는 것은 경제 예측이나 재무 계획에 관련된 모든 사람에게 중요합니다."
-      },
-      {
-        "en": "The market's reaction will largely depend on whether this data is seen as an outlier or as confirmation of a stickier inflationary environment.",
-        "ko": "시장의 반응은 이 데이터가 예외적인 것으로 간주되는지, 아니면 더 고착화된 인플레이션 환경을 확인하는 것으로 간주되는지에 크게 좌우될 것입니다."
+        "en": "Understanding inflation trends is crucial for strategic planning.",
+        "ko": "인플레이션 추세를 이해하는 것은 전략적 계획에 중요합니다."
       }
     ],
     "glossary": {
-      "gauge": "a tool or measure used to estimate or determine the amount, level, or condition of something.",
-      "underlying": "existing beneath the surface or not immediately obvious, forming the basis of something.",
-      "volatile": "describes something that changes rapidly and unpredictably, especially for the worse.",
-      "sustained": "continuing for an extended period without interruption or weakening.",
-      "anticipated": "expected or looked forward to; something that was predicted to happen.",
-      "policymakers": "individuals or groups responsible for creating and implementing government or organizational policies.",
-      "compel": "to force or oblige someone to do something.",
-      "restrictive": "limiting or controlling something, often used for policies that aim to slow economic growth.",
-      "implications": "the possible results or effects of an action or decision.",
-      "erodes": "gradually wears away or diminishes something, such as value or confidence.",
-      "profitability": "the state of yielding a financial profit or gain; the ability of a business to make money.",
-      "mandate": "an official order or commission to do something; a central bank's official objective.",
-      "scrutinizing": "examining something very carefully and critically.",
-      "trajectory": "the path or course that something follows, often referring to a trend or development.",
-      "pivotal": "of crucial importance in relation to the development or success of something else."
+      "core": "referring to a measure that excludes volatile items like food and energy.",
+      "inflation": "the general increase in prices and fall in the purchasing value of money.",
+      "index": "a list of numbers that shows how much the value of something has changed.",
+      "monitors": "regularly observes and checks the progress or quality of something over a period.",
+      "preferred": "liked better than others; favored.",
+      "gauge": "an instrument or device used for measuring the amount or level of something.",
+      "complicates": "makes something more difficult or complex.",
+      "balance": "to give equal importance to two or more things.",
+      "controlling": "having power over something; managing or limiting it.",
+      "maintaining": "continuing to have or keep something in the same state.",
+      "elevated": "higher than the usual or expected level.",
+      "interest": "money paid regularly at a particular rate for the use of money lent.",
+      "borrowing": "taking money from a bank or person with the intention of returning it.",
+      "impact": "to have a strong effect on someone or something.",
+      "consumers": "people who buy goods and services for their own use.",
+      "sensitive": "easily affected by changes or outside influences.",
+      "operate": "to function or be in effect.",
+      "markets": "places where goods and services are bought and sold.",
+      "affected": "influenced or changed by something.",
+      "lending": "the act of giving money to someone with the expectation that they will pay it back.",
+      "investment": "the act of putting money into something to gain profit.",
+      "understanding": "knowing how something works or what it means.",
+      "trends": "general directions in which something is developing or changing.",
+      "crucial": "extremely important, because it will affect other things.",
+      "strategic": "relating to the identification of long-term aims and interests."
     },
     "questions": [
-      "According to the passage, what specific economic indicator is the Federal Reserve's preferred gauge for inflation, and what was its reported value in May?",
-      "The passage states that \"persistent inflation erodes purchasing power.\" Explain what \"erodes purchasing power\" means in your own words, and discuss its practical impact on consumers.",
-      "Given the implications of rising core inflation on interest rates and financial markets, what strategies might fintech companies consider to adapt to or even benefit from such an economic environment?"
+      "What specific economic index is mentioned as the Federal Reserve's preferred gauge for inflation, and what was its recent reading?",
+      "In the context of the passage, why is \"core inflation\" considered a significant economic indicator, and how does it differ from general inflation?",
+      "How might rising core inflation and potentially higher interest rates affect fintech companies, and what strategies might they consider in response?"
     ],
     "modelAnswers": [
-      "The Federal Reserve's preferred gauge for inflation is the Personal Consumption Expenditures (PCE) price index, which was reported to be 3.4% in May. This specific metric excludes volatile food and energy costs to provide a clearer view of underlying price trends.",
-      "\"Erodes purchasing power\" means that the same amount of money can buy fewer goods and services over time because prices have increased. Practically, this means consumers' wages and savings lose value, making everyday necessities like groceries and housing more expensive and reducing their overall financial well-being.",
-      "Fintech companies could adapt by developing tools that help consumers manage budgeting in an inflationary environment, such as inflation-adjusted savings goals. They might also explore services that offer inflation-protected investments or provide real-time data analytics to businesses for dynamic pricing strategies, potentially benefiting from increased demand for financial resilience solutions."
+      "The Personal Consumption Expenditures (PCE) price index is the Fed's preferred gauge. It recently reached 3.4% in May.",
+      "Core inflation excludes volatile items like food and energy, offering a clearer view of underlying price trends. It is significant because it helps the Fed make more stable policy decisions.",
+      "Rising inflation and interest rates can increase borrowing costs, impacting fintech lending and investment products. Fintech companies might need to adjust their pricing models or focus on services that thrive in higher rate environments."
     ]
   },
   {
@@ -409,93 +378,101 @@
     "rank": 5,
     "category": "economy",
     "reads": "Economy #2",
-    "hook": "유럽중앙은행 총재의 거취는 유로존의 통화 정책 방향에 중대한 영향을 미치므로, 유럽 경제의 미래를 가늠하는 데 중요합니다.",
-    "url": "https://www.cnbc.com/2026/07/03/christine-lagarde-ecb-france-election.html",
-    "title": "Lagarde Considers Early Exit from ECB Presidency",
+    "hook": "구직을 포기하는 사람들이 늘면서 노동 시장 참여율이 50년 만에 최저치를 기록했다는 소식을 확인해 보세요.",
+    "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+    "title": "Labor Force Participation Plunges to 50-Year Low",
     "source": "Daybreak Wire (based on business news)",
-    "passage": "Christine Lagarde, the President of the European Central Bank (ECB), has indicated that she might not serve her full eight-year term, hinting at a potential early departure. Her comments suggest she is contemplating a shift towards French politics, raising questions about the future leadership of one of the world's most influential central banks. An early exit by Lagarde would introduce significant uncertainty into the eurozone's monetary policy landscape. The ECB plays a critical role in maintaining price stability across the 20 nations that use the euro, influencing interest rates, inflation, and economic growth. Her potential successor would inherit the ongoing challenges of managing inflation while navigating a complex geopolitical environment. Such a leadership transition could lead to shifts in policy priorities, potentially affecting the pace of interest rate adjustments or the bank's approach to quantitative easing. Financial markets typically react to such news with volatility, as investors assess the implications for bond yields, currency valuations, and equity performance. For fintech professionals, monitoring these developments is crucial, as changes in central bank leadership can alter the regulatory landscape and the broader economic conditions impacting digital finance. The speculation surrounding Lagarde's future underscores the intricate link between high-level economic governance and national political ambitions. Her decision could reshape not only the ECB's trajectory but also the political dynamics within France and the wider European Union. This situation highlights the immense personal and political pressures faced by leaders of major economic institutions. Any change at the helm of the ECB would be closely watched globally, given the euro's status as a major reserve currency. The transition period, if it occurs, would require careful communication from the ECB to maintain market confidence and minimize disruption. Ultimately, Lagarde's choice will have far-reaching consequences for Europe's economic stability and its standing on the global financial stage.",
+    "passage": "The U.S. labor force participation rate has recently dropped. It reached its lowest level in 50 years, outside the Covid era. This indicates a significant number of job seekers are giving up. Many individuals are no longer actively looking for employment. While the unemployment rate fell, this decline is concerning. A lower participation rate suggests underlying weakness in the economy. It means fewer people are available to work and contribute. This trend can impact economic growth and productivity. It also highlights challenges in attracting workers back to the workforce. Policymakers will need to address these structural issues. Understanding labor market dynamics is vital for business strategy. Fintech firms rely on a robust economy for consumer confidence.",
     "sentences": [
       {
-        "en": "Christine Lagarde, the President of the European Central Bank (ECB), has indicated that she might not serve her full eight-year term, hinting at a potential early departure.",
-        "ko": "크리스틴 라가르드 유럽중앙은행(ECB) 총재가 8년 임기를 모두 채우지 않을 수 있다고 시사하며, 조기 퇴임 가능성을 내비쳤습니다."
+        "en": "The U.S. labor force participation rate has recently dropped.",
+        "ko": "미국의 노동력 참여율이 최근 하락했습니다."
       },
       {
-        "en": "Her comments suggest she is contemplating a shift towards French politics, raising questions about the future leadership of one of the world's most influential central banks.",
-        "ko": "그녀의 발언은 프랑스 정치로의 전환을 고려하고 있음을 암시하며, 세계에서 가장 영향력 있는 중앙은행 중 하나의 미래 리더십에 대한 의문을 제기합니다."
+        "en": "It reached its lowest level in 50 years, outside the Covid era.",
+        "ko": "이는 코로나 시대 외에 50년 만에 최저 수준에 도달했습니다."
       },
       {
-        "en": "An early exit by Lagarde would introduce significant uncertainty into the eurozone's monetary policy landscape.",
-        "ko": "라가르드 총재의 조기 퇴임은 유로존의 통화 정책 환경에 상당한 불확실성을 초래할 것입니다."
+        "en": "This indicates a significant number of job seekers are giving up.",
+        "ko": "이는 상당수의 구직자들이 포기하고 있음을 나타냅니다."
       },
       {
-        "en": "The ECB plays a critical role in maintaining price stability across the 20 nations that use the euro, influencing interest rates, inflation, and economic growth.",
-        "ko": "ECB는 유로를 사용하는 20개국 전반의 물가 안정을 유지하는 데 핵심적인 역할을 하며, 금리, 인플레이션, 경제 성장에 영향을 미칩니다."
+        "en": "Many individuals are no longer actively looking for employment.",
+        "ko": "많은 개인이 더 이상 적극적으로 일자리를 찾지 않습니다."
       },
       {
-        "en": "Her potential successor would inherit the ongoing challenges of managing inflation while navigating a complex geopolitical environment.",
-        "ko": "그녀의 잠재적 후임자는 복잡한 지정학적 환경을 헤쳐나가면서 인플레이션을 관리하는 지속적인 과제를 물려받을 것입니다."
+        "en": "While the unemployment rate fell, this decline is concerning.",
+        "ko": "실업률은 하락했지만, 이러한 감소는 우려스러운 부분입니다."
       },
       {
-        "en": "Such a leadership transition could lead to shifts in policy priorities, potentially affecting the pace of interest rate adjustments or the bank's approach to quantitative easing.",
-        "ko": "이러한 리더십 전환은 정책 우선순위의 변화로 이어질 수 있으며, 잠재적으로 금리 조정 속도나 은행의 양적 완화 접근 방식에 영향을 미칠 수 있습니다."
+        "en": "A lower participation rate suggests underlying weakness in the economy.",
+        "ko": "낮은 참여율은 경제의 근본적인 약점을 시사합니다."
       },
       {
-        "en": "Financial markets typically react to such news with volatility, as investors assess the implications for bond yields, currency valuations, and equity performance.",
-        "ko": "금융 시장은 일반적으로 이러한 소식에 변동성으로 반응하며, 투자자들은 채권 수익률, 통화 가치, 주식 실적에 대한 영향을 평가합니다."
+        "en": "It means fewer people are available to work and contribute.",
+        "ko": "이는 일하고 기여할 수 있는 사람이 줄어든다는 의미입니다."
       },
       {
-        "en": "For fintech professionals, monitoring these developments is crucial, as changes in central bank leadership can alter the regulatory landscape and the broader economic conditions impacting digital finance.",
-        "ko": "핀테크 전문가들에게는 이러한 변화를 모니터링하는 것이 중요합니다. 중앙은행 리더십의 변화는 규제 환경과 디지털 금융에 영향을 미치는 전반적인 경제 상황을 바꿀 수 있기 때문입니다."
+        "en": "This trend can impact economic growth and productivity.",
+        "ko": "이러한 추세는 경제 성장과 생산성에 영향을 미칠 수 있습니다."
       },
       {
-        "en": "The speculation surrounding Lagarde's future underscores the intricate link between high-level economic governance and national political ambitions.",
-        "ko": "라가르드의 미래를 둘러싼 추측은 고위 경제 거버넌스와 국가 정치적 야망 사이의 복잡한 연관성을 강조합니다."
+        "en": "It also highlights challenges in attracting workers back to the workforce.",
+        "ko": "또한 인력을 다시 노동 시장으로 끌어들이는 데 어려움이 있음을 보여줍니다."
       },
       {
-        "en": "Her decision could reshape not only the ECB's trajectory but also the political dynamics within France and the wider European Union.",
-        "ko": "그녀의 결정은 ECB의 궤적뿐만 아니라 프랑스 및 더 넓은 유럽 연합 내의 정치적 역학 관계를 재편할 수 있습니다."
+        "en": "Policymakers will need to address these structural issues.",
+        "ko": "정책 입안자들은 이러한 구조적 문제를 해결해야 할 것입니다."
       },
       {
-        "en": "This situation highlights the immense personal and political pressures faced by leaders of major economic institutions.",
-        "ko": "이 상황은 주요 경제 기관의 리더들이 직면하는 막대한 개인적, 정치적 압력을 보여줍니다."
+        "en": "Understanding labor market dynamics is vital for business strategy.",
+        "ko": "노동 시장 역학을 이해하는 것은 비즈니스 전략에 필수적입니다."
       },
       {
-        "en": "Any change at the helm of the ECB would be closely watched globally, given the euro's status as a major reserve currency.",
-        "ko": "유로가 주요 기축 통화라는 점을 감안할 때, ECB 수장의 어떤 변화라도 전 세계적으로 면밀히 주시될 것입니다."
-      },
-      {
-        "en": "The transition period, if it occurs, would require careful communication from the ECB to maintain market confidence and minimize disruption.",
-        "ko": "만약 전환기가 발생한다면, 시장 신뢰를 유지하고 혼란을 최소화하기 위해 ECB의 신중한 소통이 필요할 것입니다."
-      },
-      {
-        "en": "Ultimately, Lagarde's choice will have far-reaching consequences for Europe's economic stability and its standing on the global financial stage.",
-        "ko": "궁극적으로 라가르드의 선택은 유럽의 경제 안정과 국제 금융 시장에서의 위상에 광범위한 영향을 미칠 것입니다."
+        "en": "Fintech firms rely on a robust economy for consumer confidence.",
+        "ko": "핀테크 기업은 소비자 신뢰를 위해 견고한 경제에 의존합니다."
       }
     ],
     "glossary": {
-      "indicated": "showed or expressed something indirectly, rather than stating it clearly.",
-      "serve": "to hold a position or office, especially for a specified period of time.",
-      "term": "a fixed period of time during which someone holds an office or position.",
-      "contemplating": "thinking deeply or seriously about something, often a future action or decision.",
-      "shift": "a change in position, direction, or tendency.",
-      "influential": "having a great deal of influence on someone or something.",
-      "uncertainty": "the state of being unsure or not knowing what will happen.",
-      "landscape": "the overall situation or environment relating to a particular activity or subject.",
-      "eurozone": "the group of European Union countries that have adopted the euro as their common currency.",
-      "successor": "a person or thing that takes a place or position previously held by someone or something else.",
-      "inherit": "to receive or be left with a situation, problem, or characteristic from a predecessor.",
-      "transition": "the process or a period of changing from one state or condition to another.",
-      "volatility": "the tendency of a market or price to change rapidly and unpredictably."
+      "labor": "work, especially physical work.",
+      "participation": "the action of taking part in something.",
+      "rate": "a measure, quantity, or frequency, typically one measured against another quantity.",
+      "dropped": "fallen or allowed to fall.",
+      "reached": "arrived at a particular stage or level.",
+      "indicates": "points out or shows.",
+      "significant": "important and large enough to be noticed.",
+      "actively": "in an energetic and engaged manner.",
+      "employment": "the state of having a paid job.",
+      "unemployment": "the state of being jobless and seeking work.",
+      "decline": "a gradual and continuous loss of strength, numbers, or value.",
+      "concerning": "causing worry; worrying.",
+      "underlying": "present but not immediately obvious.",
+      "weakness": "the state or condition of lacking strength.",
+      "suggests": "puts forward for consideration.",
+      "available": "able to be used or obtained; at someone's disposal.",
+      "contribute": "to give something, especially money or time, to help achieve or provide something.",
+      "impact": "to have a strong effect on someone or something.",
+      "productivity": "the rate at which goods or services are produced.",
+      "highlights": "draws special attention to something.",
+      "attracting": "drawing by appealing to interests or desires.",
+      "workforce": "the people engaged in or available for work.",
+      "policymakers": "people who make official decisions, especially in government.",
+      "address": "to think about and begin to deal with an issue or problem.",
+      "structural": "relating to the way a system or organization is built or organized.",
+      "dynamics": "the forces or properties that stimulate growth or change.",
+      "vital": "absolutely necessary or important.",
+      "robust": "strong and healthy.",
+      "confidence": "the feeling or belief that one can rely on someone or something."
     },
     "questions": [
-      "What specific institution does Christine Lagarde currently lead, and what is the main reason mentioned in the passage for her potential early departure?",
-      "The passage mentions that \"an early exit by Lagarde would introduce significant uncertainty into the eurozone's monetary policy landscape.\" Explain what \"monetary policy landscape\" refers to and why a change in leadership would create uncertainty within it.",
-      "If Lagarde were to step down early, what qualities or policy stances do you think would be most crucial for her successor to possess to maintain stability and confidence in the ECB?"
+      "What is the main finding regarding the U.S. labor force participation rate, and what historical context is provided for this level?",
+      "Explain what the term \"labor force participation rate\" means in simple terms, and why its decline is considered concerning despite a falling unemployment rate.",
+      "From a fintech perspective, why is a robust economy and consumer confidence important, and how might a declining labor force participation rate affect these factors?"
     ],
     "modelAnswers": [
-      "Christine Lagarde currently leads the European Central Bank (ECB). The main reason mentioned for her potential early departure is that she is contemplating a shift towards French politics, which would mean not serving her full eight-year term.",
-      "The \"monetary policy landscape\" refers to the overall environment and framework of decisions and actions taken by the central bank to control the money supply and interest rates within the eurozone. A change in leadership would create uncertainty because a new president might have different policy priorities or approaches to managing inflation and economic growth, potentially altering the direction of interest rate adjustments or other key strategies.",
-      "A successor would need strong communication skills to articulate the ECB's policy clearly and maintain market confidence. They should also possess a deep understanding of eurozone economics, a commitment to price stability, and the ability to navigate complex geopolitical challenges while fostering consensus among diverse member states."
+      "The U.S. labor force participation rate has dropped to its lowest level in 50 years, excluding the Covid pandemic period.",
+      "The labor force participation rate measures the percentage of the working-age population either employed or actively seeking work. Its decline is concerning because it indicates fewer people are available to work, suggesting economic weakness even if unemployment falls due to people giving up.",
+      "A robust economy and consumer confidence drive demand for fintech products like loans and investments. A declining participation rate signals economic weakness, potentially reducing consumer spending and confidence, which could impact fintech growth."
     ]
   },
   {
@@ -504,88 +481,104 @@
     "rank": 6,
     "category": "economy",
     "reads": "Economy #3",
-    "hook": "미국 고용 시장의 둔화는 연방준비제도(Fed)의 통화 정책 결정에 중요한 영향을 미치므로, 시장의 방향성을 이해하는 데 필수적입니다.",
-    "url": "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html",
-    "title": "US Job Growth Slows Significantly in June",
+    "hook": "유럽이 중국과의 무역 불균형을 해결하려 하지만, 중국산 에어컨 없이는 여름을 나기 어렵다는 흥미로운 상황을 살펴보세요.",
+    "url": "https://www.cnbc.com/2026/07/02/european-union-china-meeting-summer-heatwave-trade-imbalance-tariffs-.html",
+    "title": "Europe Struggles to Rebalance China Trade",
     "source": "Daybreak Wire (based on business news)",
-    "passage": "The latest U.S. jobs report indicates a significant slowdown in job creation for June, with nonfarm payrolls increasing by only 57,000. This figure falls considerably short of the 115,000 jobs economists had anticipated, signaling a cooling labor market. Despite the weaker-than-expected payrolls growth, the unemployment rate experienced a slight uptick to 4.2%, which is still relatively low historically. A decelerating job market can have various implications for the broader economy and monetary policy. On one hand, it might ease wage pressures, potentially helping to curb inflation, which is a primary concern for the Federal Reserve. On the other hand, a sharp decline in hiring could suggest weakening economic demand and raise concerns about a potential recession. The Federal Reserve closely monitors these labor market indicators when making decisions about interest rates. Slower job growth might give the central bank more leeway to pause or even consider rate cuts in the future, especially if inflation also shows signs of moderating. For businesses, a loosening labor market could mean an easier time finding and retaining employees, but it could also reflect reduced consumer spending. Fintech companies, particularly those involved in lending or employment-related services, must assess how these trends will impact their customer base and operational strategies. The report underscores the delicate balancing act faced by policymakers: cooling the economy enough to control inflation without triggering a severe downturn. Investors will be watching subsequent jobs reports closely for further evidence of labor market trends and their potential influence on the Fed's next moves. This data provides a crucial snapshot of the current economic health, shaping expectations for both short-term market performance and long-term economic stability.",
+    "passage": "Europe aims to rebalance its trade relationship with China. However, a historic heatwave is complicating this effort. Unprecedented demand for air conditioners has emerged. Most of these essential units are made in China. This situation highlights Europe's reliance on Chinese manufacturing. Brussels faces a tough challenge in shifting its trade balance. Reducing dependence on Chinese goods is a strategic goal. Yet, immediate consumer needs often override long-term plans. The reliance on specific imports can create vulnerabilities. This impacts supply chain resilience and economic security. Fintech companies involved in international trade finance observe these dynamics. Global trade shifts can influence payment systems and investment flows.",
     "sentences": [
       {
-        "en": "The latest U.S. jobs report indicates a significant slowdown in job creation for June, with nonfarm payrolls increasing by only 57,000.",
-        "ko": "최신 미국 고용 보고서에 따르면 6월 일자리 창출이 크게 둔화되어 비농업 부문 고용이 57,000명 증가하는 데 그쳤습니다."
+        "en": "Europe aims to rebalance its trade relationship with China.",
+        "ko": "유럽은 중국과의 무역 관계 재균형을 목표로 합니다."
       },
       {
-        "en": "This figure falls considerably short of the 115,000 jobs economists had anticipated, signaling a cooling labor market.",
-        "ko": "이 수치는 경제학자들이 예상했던 115,000명에 훨씬 못 미치며, 노동 시장의 냉각을 시사합니다."
+        "en": "However, a historic heatwave is complicating this effort.",
+        "ko": "하지만 역사적인 폭염이 이러한 노력을 복잡하게 만들고 있습니다."
       },
       {
-        "en": "Despite the weaker-than-expected payrolls growth, the unemployment rate experienced a slight uptick to 4.2%, which is still relatively low historically.",
-        "ko": "예상보다 낮은 고용 증가에도 불구하고, 실업률은 4.2%로 소폭 상승했지만, 이는 역사적으로 여전히 낮은 수준입니다."
+        "en": "Unprecedented demand for air conditioners has emerged.",
+        "ko": "전례 없는 에어컨 수요가 발생했습니다."
       },
       {
-        "en": "A decelerating job market can have various implications for the broader economy and monetary policy.",
-        "ko": "둔화되는 고용 시장은 광범위한 경제와 통화 정책에 다양한 영향을 미칠 수 있습니다."
+        "en": "Most of these essential units are made in China.",
+        "ko": "이러한 필수적인 기기 대부분은 중국에서 제조됩니다."
       },
       {
-        "en": "On one hand, it might ease wage pressures, potentially helping to curb inflation, which is a primary concern for the Federal Reserve.",
-        "ko": "한편으로는 임금 압력을 완화하여 연방준비제도의 주요 관심사인 인플레이션을 억제하는 데 도움이 될 수 있습니다."
+        "en": "This situation highlights Europe's reliance on Chinese manufacturing.",
+        "ko": "이 상황은 유럽이 중국 제조업에 의존하고 있음을 보여줍니다."
       },
       {
-        "en": "On the other hand, a sharp decline in hiring could suggest weakening economic demand and raise concerns about a potential recession.",
-        "ko": "다른 한편으로는 급격한 채용 감소가 경제 수요 약화를 시사하고 잠재적인 경기 침체에 대한 우려를 불러일으킬 수 있습니다."
+        "en": "Brussels faces a tough challenge in shifting its trade balance.",
+        "ko": "브뤼셀은 무역 균형을 바꾸는 데 어려운 도전에 직면해 있습니다."
       },
       {
-        "en": "The Federal Reserve closely monitors these labor market indicators when making decisions about interest rates.",
-        "ko": "연방준비제도는 금리 결정 시 이러한 노동 시장 지표들을 면밀히 주시합니다."
+        "en": "Reducing dependence on Chinese goods is a strategic goal.",
+        "ko": "중국 상품에 대한 의존도를 줄이는 것은 전략적 목표입니다."
       },
       {
-        "en": "Slower job growth might give the central bank more leeway to pause or even consider rate cuts in the future, especially if inflation also shows signs of moderating.",
-        "ko": "느린 일자리 증가는 중앙은행에 향후 금리 인상을 중단하거나 심지어 인하를 고려할 여지를 더 많이 줄 수 있으며, 특히 인플레이션 또한 완화 조짐을 보인다면 더욱 그렇습니다."
+        "en": "Yet, immediate consumer needs often override long-term plans.",
+        "ko": "그러나 당장의 소비자 요구가 종종 장기 계획보다 우선합니다."
       },
       {
-        "en": "For businesses, a loosening labor market could mean an easier time finding and retaining employees, but it could also reflect reduced consumer spending.",
-        "ko": "기업에게는 완화되는 노동 시장이 직원을 찾고 유지하는 데 더 쉬울 수 있다는 의미이지만, 소비자 지출 감소를 반영할 수도 있습니다."
+        "en": "The reliance on specific imports can create vulnerabilities.",
+        "ko": "특정 수입품에 대한 의존은 취약점을 만들 수 있습니다."
       },
       {
-        "en": "Fintech companies, particularly those involved in lending or employment-related services, must assess how these trends will impact their customer base and operational strategies.",
-        "ko": "핀테크 기업, 특히 대출 또는 고용 관련 서비스에 종사하는 기업은 이러한 추세가 고객 기반 및 운영 전략에 어떻게 영향을 미칠지 평가해야 합니다."
+        "en": "This impacts supply chain resilience and economic security.",
+        "ko": "이는 공급망 탄력성과 경제 안보에 영향을 미칩니다."
       },
       {
-        "en": "The report underscores the delicate balancing act faced by policymakers: cooling the economy enough to control inflation without triggering a severe downturn.",
-        "ko": "이 보고서는 정책 입안자들이 직면한 미묘한 균형점을 강조합니다: 심각한 경기 침체를 유발하지 않으면서 인플레이션을 통제할 만큼 경제를 식히는 것입니다."
+        "en": "Fintech companies involved in international trade finance observe these dynamics.",
+        "ko": "국제 무역 금융에 관여하는 핀테크 기업들은 이러한 역학을 주시합니다."
       },
       {
-        "en": "Investors will be watching subsequent jobs reports closely for further evidence of labor market trends and their potential influence on the Fed's next moves.",
-        "ko": "투자자들은 노동 시장 동향과 연준의 다음 조치에 미칠 잠재적 영향을 파악하기 위해 후속 고용 보고서를 면밀히 주시할 것입니다."
-      },
-      {
-        "en": "This data provides a crucial snapshot of the current economic health, shaping expectations for both short-term market performance and long-term economic stability.",
-        "ko": "이 데이터는 현재 경제 건강에 대한 중요한 스냅샷을 제공하며, 단기 시장 성과와 장기 경제 안정성 모두에 대한 기대를 형성합니다."
+        "en": "Global trade shifts can influence payment systems and investment flows.",
+        "ko": "글로벌 무역 변화는 결제 시스템과 투자 흐름에 영향을 줄 수 있습니다."
       }
     ],
     "glossary": {
-      "indicates": "suggests or shows something, often indirectly.",
-      "slowdown": "a reduction in the speed or rate of something, especially economic activity.",
-      "considerably": "to a great or significant extent.",
-      "anticipated": "expected or looked forward to; something that was predicted to happen.",
-      "signaling": "indicating or giving a sign of something.",
-      "uptick": "a small increase or rise in something.",
-      "historically": "in the past, based on or relating to history.",
-      "decelerating": "slowing down or decreasing in speed or rate.",
-      "implications": "the possible results or effects of an action or decision.",
-      "ease": "to make something less severe, difficult, or burdensome.",
-      "leeway": "the amount of freedom to move or act as one wishes.",
-      "moderating": "becoming less extreme or intense; slowing down."
+      "aims": "intends to do something; has a goal.",
+      "rebalance": "to restore equilibrium or stability to something.",
+      "relationship": "the way in which two or more concepts, objects, or people are connected.",
+      "historic": "famous or important in history, or potentially so.",
+      "heatwave": "a prolonged period of abnormally hot weather.",
+      "complicating": "making something more difficult or complex.",
+      "effort": "a vigorous or determined attempt.",
+      "unprecedented": "never done or known before.",
+      "demand": "a strong request or need for something.",
+      "emerged": "became apparent, important, or prominent.",
+      "essential": "absolutely necessary or important.",
+      "units": "single items or groups regarded as a single entity.",
+      "highlights": "draws special attention to something.",
+      "reliance": "the state of depending on someone or something.",
+      "manufacturing": "the making of articles on a large scale using machinery.",
+      "brussels": "often used to refer to the European Union's administration.",
+      "shifting": "moving or changing from one position or direction to another.",
+      "balance": "a situation in which different elements are equal or in the correct proportions.",
+      "reducing": "making something smaller or less in amount or degree.",
+      "dependence": "the state of relying on or being controlled by someone or something else.",
+      "strategic": "relating to the identification of long-term aims and interests.",
+      "override": "to use one's authority to reject or cancel a decision.",
+      "vulnerabilities": "the state of being exposed to the possibility of being attacked or harmed.",
+      "resilience": "the capacity to recover quickly from difficulties; toughness.",
+      "security": "the state of being free from danger or threat.",
+      "involved": "connected with or participating in something.",
+      "finance": "the management of large amounts of money, especially by governments or companies.",
+      "observe": "to notice or perceive something and register it as being significant.",
+      "dynamics": "the forces or properties that stimulate growth or change.",
+      "influence": "to have an effect on the character, development, or behavior of someone or something.",
+      "payment": "the action or process of paying someone or something.",
+      "flows": "the movement of something in one particular direction."
     },
     "questions": [
-      "According to the passage, by how many jobs did nonfarm payrolls increase in June, and how did this compare to economists' expectations?",
-      "The passage refers to a \"cooling labor market.\" Based on the context provided, explain what this term implies about the current state of job growth and competition for jobs.",
-      "For a fintech PM, how might a significant slowdown in job creation influence decisions regarding product development or market strategy, especially if their products relate to lending or employment?"
+      "What specific product is mentioned as a key factor complicating Europe's efforts to rebalance trade with China, and why is it currently in high demand?",
+      "Explain the concept of \"trade imbalance\" in the context of Europe and China, and describe two potential economic consequences of Europe's reliance on Chinese manufacturing.",
+      "How do shifts in global trade, like the one described, impact fintech companies involved in international trade finance, and what opportunities or challenges might arise for them?"
     ],
     "modelAnswers": [
-      "Nonfarm payrolls increased by only 57,000 jobs in June. This figure fell considerably short of economists' anticipation of 115,000 new jobs, indicating a weaker-than-expected performance.",
-      "A \"cooling labor market\" implies that the rate of job growth is slowing down, suggesting that fewer new jobs are being created. This also means that competition for available jobs might be increasing, as there are fewer openings relative to the number of job seekers.",
-      "A fintech PM in lending might anticipate increased credit risk among consumers due to potential job insecurity, leading to stricter lending criteria or new products for financial hardship. For employment-related fintech, it could mean developing tools for career transition support or upskilling, adapting to a market where job seekers need more assistance."
+      "Air conditioners are complicating Europe's trade rebalancing with China. They are in high demand due to a historic heatwave across Europe.",
+      "A trade imbalance means one country imports significantly more from another than it exports to it. Europe's reliance on Chinese manufacturing can create supply chain vulnerabilities and impact its economic security.",
+      "Global trade shifts can influence cross-border payment systems and investment flows handled by fintech firms. This might create challenges in risk management but also opportunities for new financing solutions or digital trade platforms."
     ]
   },
   {
