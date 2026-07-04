@@ -361,8 +361,11 @@
     .btn.fc-no { background: #fff; color: #b23b3b; border: 1px solid #e6bcbc; }
     .fc-sub { text-align: center; color: var(--faint); font-size: 10px; margin-top: 10px; letter-spacing: .04em; }
     .studydone { text-align: center; padding: 24px 8px; }
-    .studydone .donebig { font-size: 34px; font-weight: 700; }
-    .studydone .donelbl { font-size: 11px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; margin: 4px 0 20px; }
+    .studydone .donestats { display: flex; justify-content: center; gap: 36px; margin-bottom: 22px; }
+    .studydone .donestat .num { font-size: 40px; font-weight: 700; line-height: 1; }
+    .studydone .donestat:first-child .num { color: var(--good); }
+    .studydone .donestat:last-child .num { color: var(--amber); }
+    .studydone .donestat .lbl { font-size: 11px; color: var(--faint); letter-spacing: .06em; margin-top: 6px; }
     .studydone .doneperfect { color: var(--good); font-size: 14px; margin-bottom: 8px; }
     .studydone .btn { margin: 6px 0; }
 
@@ -1417,10 +1420,18 @@
                 <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
               </div>
               <div className="studydone">
-                <div className="donebig fraunces">✓ {known} · ✕ {missed.length}</div>
-                <div className="donelbl mono">아는 단어 / 모르는 단어</div>
+                <div className="donestats">
+                  <div className="donestat">
+                    <div className="num fraunces">{known}</div>
+                    <div className="lbl mono">외운 단어</div>
+                  </div>
+                  <div className="donestat">
+                    <div className="num fraunces">{missed.length}</div>
+                    <div className="lbl mono">학습 중인 단어</div>
+                  </div>
+                </div>
                 {missed.length > 0
-                  ? <button className="btn primary" onClick={restartMissed}>모르는 단어 {missed.length}개 다시</button>
+                  ? <button className="btn primary" onClick={restartMissed}>학습 중인 단어 {missed.length}개 다시</button>
                   : <div className="doneperfect mono">완벽해요! 🎉</div>}
                 <button className="btn ghost" onClick={startStudy}>처음부터 다시</button>
                 <button className="btn ghost" onClick={() => setStudying(false)}>단어장으로</button>
