@@ -293,6 +293,7 @@
       border-radius: 8px; padding: 8px 12px; font-family: "IBM Plex Mono", "Pretendard", monospace;
       font-size: 11px; white-space: nowrap;
     }
+    .authbar .authbtn.google { background: #fff; color: #3c4043; border-color: #dadce0; font-weight: 600; }
 
     /* Wordbank */
     .toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
@@ -656,6 +657,14 @@
         else { setSent(true); showToast("메일로 로그인 링크를 보냈어요"); }
       };
 
+      const googleLogin = async () => {
+        const { error } = await SB.auth.signInWithOAuth({
+          provider: "google",
+          options: { redirectTo: window.location.href },
+        });
+        if (error) showToast("구글 로그인 실패: " + error.message);
+      };
+
       if (session) {
         return (
           <div className="authbar">
@@ -666,10 +675,11 @@
       }
       return (
         <div className="authbar">
-          <input className="authinput mono" type="email" placeholder="이메일로 기기 동기화"
+          <button className="authbtn google" onClick={googleLogin} title="Google로 로그인">G · 구글 로그인</button>
+          <input className="authinput mono" type="email" placeholder="또는 이메일"
             value={email} onChange={(e) => setEmail(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && sendLink()} />
-          <button className="authbtn" onClick={sendLink}>{sent ? "재전송" : "링크 받기"}</button>
+          <button className="authbtn" onClick={sendLink}>{sent ? "재전송" : "링크"}</button>
         </div>
       );
     }
