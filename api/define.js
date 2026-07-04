@@ -10,9 +10,11 @@ const DEFINE_SCHEMA = {
 module.exports = async function handler(req, res) {
   if (req.method !== "POST") { res.status(405).json({ error: "Use POST" }); return; }
 
-  const key = process.env.GEMINI_API_KEY;
+  // Trim to guard against a trailing newline/space pasted into the env var,
+  // which would corrupt the ?key= query and make Gemini return 400.
+  const key = (process.env.GEMINI_API_KEY || "").trim();
   if (!key) { res.status(500).json({ error: "GEMINI_API_KEY is not configured on the server." }); return; }
-  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+  const model = (process.env.GEMINI_MODEL || "gemini-2.5-flash").trim();
 
   let body = req.body;
   if (typeof body === "string") { try { body = JSON.parse(body); } catch { body = {}; } }
