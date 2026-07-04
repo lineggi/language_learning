@@ -802,19 +802,35 @@
     }
 
     function Today({ picks, date, reads, onOpen }) {
+      const [cat, setCat] = useState("all"); // all | crypto | economy
       if (!picks.length) return <div className="empty">아직 추천 기사가 없습니다.<br/>Actions가 첫 팩을 생성하면 여기에 표시됩니다.</div>;
       const crypto = picks.filter((p) => p.category !== "economy");
       const econ = picks.filter((p) => p.category === "economy");
-      const grouped = econ.length > 0;
+      const hasBoth = crypto.length > 0 && econ.length > 0;
 
       const Group = ({ items }) => items.map((p, i) => (
         <RecCard key={p.id} p={p} reads={reads} onOpen={onOpen} badge={String(i + 1).padStart(2, "0")} />
       ));
 
+      const CHIPS = [
+        { id: "all", label: `전체 ${picks.length}` },
+        { id: "crypto", label: `크립토 ${crypto.length}` },
+        { id: "economy", label: `경제 ${econ.length}` },
+      ];
+
       return (
         <React.Fragment>
           <div className="section-label mono">오늘의 추천 · {date}</div>
-          {grouped ? (
+          {hasBoth && (
+            <div className="toolbar" style={{ marginBottom: "12px" }}>
+              {CHIPS.map((c) => (
+                <button key={c.id} className={"chip" + (cat === c.id ? " active" : "")} onClick={() => setCat(c.id)}>{c.label}</button>
+              ))}
+            </div>
+          )}
+          {!hasBoth ? (
+            <Group items={crypto.length ? crypto : econ} />
+          ) : cat === "all" ? (
             <React.Fragment>
               <div className="cat-label mono">◆ 크립토</div>
               <Group items={crypto} />
@@ -822,7 +838,7 @@
               <Group items={econ} />
             </React.Fragment>
           ) : (
-            <Group items={crypto} />
+            <Group items={cat === "crypto" ? crypto : econ} />
           )}
         </React.Fragment>
       );
