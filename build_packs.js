@@ -62,7 +62,11 @@ async function fetchWithRetry(url, opts = {}, tries = 3) {
   for (let i = 0; i < tries; i++) {
     try {
       const res = await fetch(url, opts);
-      if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+      if (!res.ok) {
+        // Surface the response body (e.g. Gemini's error message) for diagnosis.
+        const body = await res.text().catch(() => "");
+        throw new Error(`HTTP ${res.status} for ${url} :: ${body.slice(0, 300)}`);
+      }
       return res;
     } catch (err) {
       lastErr = err;
