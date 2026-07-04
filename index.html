@@ -324,6 +324,28 @@
     .streak .big { font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 26px; }
     .streak .lbl { font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint); letter-spacing: .1em; text-transform: uppercase; }
 
+    /* Flashcard study */
+    .studybtn { margin-bottom: 14px; }
+    .studyhead {
+      display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; color: var(--muted); letter-spacing: .06em;
+    }
+    .flashcard {
+      position: relative; background: var(--card); border: 1px solid var(--hair); border-radius: 18px;
+      min-height: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 28px 22px; cursor: pointer; box-shadow: var(--shadow);
+      transition: transform .1s ease, background .12s;
+    }
+    .flashcard:active { transform: scale(.99); }
+    .flashcard.flipped { background: #fffdf6; border-color: var(--amber-soft); }
+    .flashcard .fc-def { font-family: "Newsreader", "Pretendard", serif; font-size: 22px; line-height: 1.5; color: var(--ink); }
+    .flashcard .fc-word { font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 40px; color: var(--ink); letter-spacing: -.01em; }
+    .flashcard .fc-hint { position: absolute; bottom: 14px; font-size: 10px; color: var(--faint); letter-spacing: .1em; }
+    .flashcard .fc-speak { position: absolute; top: 12px; right: 14px; border: 0; background: none; cursor: pointer; font-size: 18px; opacity: .7; }
+    .flashcard .fc-speak:hover { opacity: 1; }
+    .fc-controls { display: flex; gap: 10px; margin-top: 14px; }
+    .fc-controls .btn { flex: 1; }
+
     .wgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
     .wcard {
       position: relative;
@@ -1183,6 +1205,10 @@
       const [query, setQuery] = useState("");
       const [filter, setFilter] = useState("all"); // all | new | review | mastered
       const [flipped, setFlipped] = useState({});
+      const [studying, setStudying] = useState(false);
+      const [deck, setDeck] = useState([]);
+      const [idx, setIdx] = useState(0);
+      const [cardFlip, setCardFlip] = useState(false);
       const today = kstToday();
 
       const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= 3;
@@ -1216,6 +1242,23 @@
       };
       const flip = (word) => setFlipped((p) => ({ ...p, [word]: !p[word] }));
 
+      // Flashcard study: random order, meaning first, tap to flip to the word.
+      const shuffle = (arr) => {
+        const a = arr.slice();
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          const t = a[i]; a[i] = a[j]; a[j] = t;
+        }
+        return a;
+      };
+      const startStudy = () => {
+        const d = shuffle(entries.map((e) => ({ word: e.word, meaning: e.meaning })));
+        setDeck(d); setIdx(0); setCardFlip(false); setStudying(true);
+      };
+      const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
+      const nextCard = () => { setCardFlip(false); setIdx((i) => (i + 1) % deck.length); };
+      const prevCard = () => { setCardFlip(false); setIdx((i) => (i - 1 + deck.length) % deck.length); };
+
       const CHIPS = [
         { id: "all", label: `전체 ${total}` },
         { id: "new", label: `미암기 ${counts.new}` },
@@ -1236,6 +1279,30 @@
         return <span className="stagenote done">완료 · 삭제 D-{left}</span>;
       };
 
+      // Flashcard study session (replaces the grid while active).
+      if (studying && deck.length) {
+        const cur = deck[idx];
+        return (
+          <React.Fragment>
+            <div className="studyhead mono">
+              <span>단어 외우기 · {idx + 1} / {deck.length}</span>
+              <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
+            </div>
+            <div className={"flashcard" + (cardFlip ? " flipped" : "")} onClick={flipCard}>
+              <button className="fc-speak" onClick={(ev) => { ev.stopPropagation(); speak(cur.word); }} title="발음 듣기">🔊</button>
+              {cardFlip
+                ? <div className="fc-word fraunces">{cur.word}</div>
+                : <div className="fc-def">{cur.meaning}</div>}
+              <div className="fc-hint mono">{cardFlip ? "탭하면 뜻으로" : "탭하면 단어 보기"}</div>
+            </div>
+            <div className="fc-controls">
+              <button className="btn ghost" onClick={prevCard}>← 이전</button>
+              <button className="btn primary" onClick={nextCard}>다음 →</button>
+            </div>
+          </React.Fragment>
+        );
+      }
+
       return (
         <React.Fragment>
           <div className="streak">
@@ -1248,6 +1315,10 @@
               <div className="lbl mono">장기완료 / 전체</div>
             </div>
           </div>
+
+          {entries.length > 0 && (
+            <button className="btn primary studybtn" onClick={startStudy}>🎴 단어 외우기 시작 · {entries.length}개</button>
+          )}
 
           <div className="toolbar">
             <input className="search" placeholder="단어·뜻 검색" value={query} onChange={(e) => setQuery(e.target.value)} />
