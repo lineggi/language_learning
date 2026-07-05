@@ -1319,6 +1319,14 @@
       const counts = { new: 0, review: 0, mastered: 0 };
       Object.values(wordbank).forEach((v) => { counts[stageOf(v)]++; });
 
+      // Flashcard study pool = 미암기(new) words only, regardless of the grid filter.
+      const newPool = useMemo(
+        () => Object.entries(wordbank)
+          .filter(([, v]) => stageOf(v) === "new")
+          .map(([word, v]) => ({ word, meaning: v.meaning, example: v.example || "" })),
+        [wordbank]
+      );
+
       const patch = (word, p, ev) => {
         ev && ev.stopPropagation();
         setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], ...p } }));
@@ -1342,7 +1350,8 @@
         return a;
       };
       const startStudy = () => {
-        const d = shuffle(entries.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "" })));
+        if (!newPool.length) return;
+        const d = shuffle(newPool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "" })));
         setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setStudying(true);
       };
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
@@ -1514,8 +1523,10 @@
             </div>
           </div>
 
-          {entries.length > 0 && (
-            <button className="btn primary studybtn" onClick={startStudy}>🎴 단어 외우기 시작 · {entries.length}개</button>
+          {total > 0 && (
+            <button className="btn primary studybtn" onClick={startStudy} disabled={!newPool.length}>
+              🎴 단어 외우기 · 미암기 {newPool.length}개
+            </button>
           )}
 
           <div className="toolbar">
