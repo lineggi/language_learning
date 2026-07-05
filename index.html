@@ -582,7 +582,13 @@
         const err = params.get("error_description") || params.get("error");
         if (err) setSyncMsg("로그인 오류: " + err);
         SB.auth.getSession().then(({ data }) => setSession(data.session || null));
-        const { data: sub } = SB.auth.onAuthStateChange((_e, s) => setSession(s));
+        // Only an explicit SIGNED_OUT clears the session. A transient null on a
+        // token-refresh hiccup would otherwise bounce the user to the login
+        // screen even though their stored refresh token is still valid.
+        const { data: sub } = SB.auth.onAuthStateChange((event, s) => {
+          if (event === "SIGNED_OUT") { setSession(null); return; }
+          if (s) setSession(s);
+        });
         return () => sub.subscription.unsubscribe();
       }, []);
 
@@ -959,7 +965,7 @@
       // Mouse drag to highlight a run of consecutive words at once (desktop).
       // Uses MOUSE events, not pointer events, so touch swipes are never captured
       // for selection — on mobile a swipe just scrolls and a tap collects one word.
-      const dragRef = useRef({ active: false, start: null, moved: false });
+      const dragRef = useRef({ active: false, start: null, ranged: false });
       const selectRange = (a, b) => {
         const lo = Math.min(a, b), hi = Math.max(a, b);
         setPicked((prev) => {
@@ -971,18 +977,24 @@
           return next;
         });
       };
+      // A word is toggled on mouseUP, not on a separate click event. The old
+      // click-gated approach could be silently swallowed on desktop when a stray
+      // hover/mouseenter during the press flipped a "moved" flag — leaving clicks
+      // that did nothing. Deciding tap-vs-drag here makes a plain click reliable:
+      // a real drag only counts once the pointer enters a DIFFERENT word.
       useEffect(() => {
         const up = () => { dragRef.current.active = false; };
         window.addEventListener("mouseup", up);
         return () => window.removeEventListener("mouseup", up);
       }, []);
-      const onWordDown = (i) => { dragRef.current = { active: true, start: i, moved: false }; };
+      const onWordDown = (i) => { dragRef.current = { active: true, start: i, ranged: false }; };
       const onWordEnter = (i) => {
-        if (dragRef.current.active) { dragRef.current.moved = true; selectRange(dragRef.current.start, i); }
+        const d = dragRef.current;
+        if (d.active && i !== d.start) { d.ranged = true; selectRange(d.start, i); }
       };
-      const onWordClick = (i, word) => {
-        if (dragRef.current.moved) { dragRef.current.moved = false; return; } // was a drag, not a tap
-        togglePick(i, word);
+      const onWordUp = (i, word) => {
+        const d = dragRef.current;
+        if (d.active && !d.ranged) togglePick(i, word); // a plain tap/click, not a drag
       };
 
       // Build glossary entries for the picked words (with lemma + wordbank fallback).
@@ -1104,7 +1116,7 @@
                       <span key={i} className={"w" + (picked[i] ? " picked" : "")}
                         onMouseDown={() => onWordDown(i)}
                         onMouseEnter={() => onWordEnter(i)}
-                        onClick={() => onWordClick(i, tok)}>{tok}</span>
+                        onMouseUp={() => onWordUp(i, tok)}>{tok}</span>
                     );
                   }
                   return <span key={i}>{tok}</span>;
