@@ -27,9 +27,15 @@ const PACKS_PATH = path.join(__dirname, "packs.json");
 const HOMEPAGE = "https://www.coindesk.com/";
 const RSS_FEEDS = ["https://www.coindesk.com/arc/outboundfeeds/rss/"];
 // Economy / general-business feeds (free, reliable RSS with real article URLs).
+// Several sources so there are always enough FRESH stories after we drop
+// articles already used on recent days.
 const ECON_FEEDS = [
   "https://www.cnbc.com/id/20910258/device/rss/rss.html", // CNBC Economy
+  "https://www.cnbc.com/id/10000664/device/rss/rss.html", // CNBC Finance
   "https://feeds.bbci.co.uk/news/business/rss.xml",       // BBC Business
+  "https://feeds.bbci.co.uk/news/business/economy/rss.xml", // BBC Economy
+  "https://www.theguardian.com/business/economics/rss",  // Guardian Economics
+  "https://www.theguardian.com/uk/business/rss",         // Guardian Business
 ];
 const UA = "DaybreakWire/1.0 (+github actions)";
 
@@ -176,7 +182,7 @@ function parseRss(xml) {
   return items;
 }
 
-async function fetchRss(feeds) {
+async function fetchRss(feeds, cap = 15) {
   let items = [];
   for (const feed of feeds) {
     try {
@@ -186,7 +192,30 @@ async function fetchRss(feeds) {
       console.warn(`RSS feed failed ${feed}: ${err.message}`);
     }
   }
-  return dedupeByUrl(items).slice(0, 15);
+  return dedupeByUrl(items).slice(0, cap);
+}
+
+// Normalize a URL for comparison (drop query/hash and trailing slash).
+function normUrl(u) {
+  return String(u || "").split(/[?#]/)[0].replace(/\/+$/, "").toLowerCase();
+}
+
+// Collect the URLs already used by existing packs so we never re-run a story
+// that appeared on a recent day — this is what keeps the daily feed fresh.
+function usedUrlSet(existing) {
+  const set = new Set();
+  for (const p of existing || []) if (p && p.url) set.add(normUrl(p.url));
+  return set;
+}
+
+// Drop candidates whose article was already used. If that leaves fewer than
+// `minKeep`, top back up with the used ones (fresh first) so a build never
+// fails just because a feed is slow — but the freshest stories still win.
+function excludeUsed(candidates, used, minKeep = 3) {
+  const fresh = candidates.filter((c) => !used.has(normUrl(c.link)));
+  if (fresh.length >= minKeep) return fresh;
+  const stale = candidates.filter((c) => used.has(normUrl(c.link)));
+  return [...fresh, ...stale];
 }
 
 // Crypto candidates: CoinDesk homepage "Most Read", falling back to its RSS.
@@ -205,7 +234,7 @@ async function collectCrypto() {
 
 // Economy candidates: CNBC Economy + BBC Business RSS.
 async function collectEconomy() {
-  const rss = await fetchRss(ECON_FEEDS);
+  const rss = await fetchRss(ECON_FEEDS, 40);
   console.log(`Economy: ${rss.length} candidates.`);
   return { candidates: rss, label: "Economy", ranked: false };
 }
@@ -434,10 +463,21 @@ async function main() {
   const date = kstDateString();
   console.log(`Building packs for ${date} using model ${MODEL}`);
 
+  // Load the accumulated feed up front so we can avoid re-running any article
+  // that already appeared on a recent day (keeps crypto AND economy fresh).
+  const existing = loadPacks();
+  const used = usedUrlSet(existing);
+
   const crypto = await collectCrypto();
   let economy;
   try { economy = await collectEconomy(); }
   catch (err) { console.warn(`Economy collection failed: ${err.message}`); economy = { candidates: [], label: "Economy", ranked: false }; }
+
+  const cryptoBefore = crypto.candidates.length;
+  const econBefore = economy.candidates.length;
+  crypto.candidates = excludeUsed(crypto.candidates, used);
+  economy.candidates = excludeUsed(economy.candidates, used);
+  console.log(`After dropping already-used stories: crypto ${crypto.candidates.length}/${cryptoBefore}, economy ${economy.candidates.length}/${econBefore}.`);
 
   const cryptoPacks = await makePacks(crypto, "crypto", "cd", 0, date);
   const econPacks = await makePacks(economy, "economy", "ec", 3, date);
@@ -452,7 +492,6 @@ async function main() {
 
   // Replace any existing packs that share an id (same day + rank) with the
   // freshly generated ones. Older days are preserved in the accumulating feed.
-  const existing = loadPacks();
   const newIds = new Set(newPacks.map((p) => p.id));
   const merged = [...newPacks, ...existing.filter((p) => !newIds.has(p.id))];
 
