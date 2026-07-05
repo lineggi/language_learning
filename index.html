@@ -214,6 +214,14 @@
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint);
       letter-spacing: .04em; margin: 14px 0; text-align: center;
     }
+    .finishbtn {
+      width: 100%; border: 0; border-radius: 12px; cursor: pointer;
+      background: var(--amber); color: #fff;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-weight: 600; font-size: 13px;
+      letter-spacing: .06em; text-transform: uppercase; padding: 15px;
+      margin: 4px 0 28px;
+    }
+    .finishbtn:active { opacity: .88; }
 
     .divider { height: 1px; background: var(--hair); margin: 22px 0; }
 
@@ -428,12 +436,22 @@
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 13px; line-height: 1.7;
     }
     .archrow {
-      display: flex; align-items: baseline; gap: 10px; padding: 12px 2px;
-      border-bottom: 1px solid var(--hair); cursor: pointer; width: 100%;
-      background: none; border-left: 0; border-right: 0; border-top: 0; text-align: left;
+      display: flex; align-items: center; gap: 4px; padding: 0 2px;
+      border-bottom: 1px solid var(--hair);
+    }
+    .archrow .aopen {
+      display: flex; align-items: baseline; gap: 10px; flex: 1; min-width: 0;
+      padding: 12px 2px; cursor: pointer; width: 100%; text-align: left;
+      background: none; border: 0;
     }
     .archrow .adate { font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint); min-width: 84px; }
     .archrow .atitle { font-family: "Fraunces", "Pretendard", serif; font-weight: 600; font-size: 16px; flex: 1; }
+    .archrow .adelete {
+      flex: none; width: 26px; height: 26px; border: 0; background: none;
+      color: var(--faint); cursor: pointer; font-size: 18px; line-height: 1;
+      border-radius: 6px; padding: 0;
+    }
+    .archrow .adelete:hover { color: #b23b3b; background: var(--hair); }
     .toast {
       position: fixed; left: 50%; transform: translateX(-50%); bottom: 88px;
       background: var(--ink); color: #fff; padding: 10px 16px; border-radius: 999px;
@@ -715,7 +733,7 @@
       } else if (tab === "today") {
         body = <Today picks={todaysPicks} date={latestDate} reads={reads} onOpen={setOpenId} />;
       } else if (tab === "archive") {
-        body = <Archive packs={sorted} reads={reads} onOpen={setOpenId} />;
+        body = <Archive packs={sorted} reads={reads} setReads={setReads} onOpen={setOpenId} />;
       } else {
         body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} />;
       }
@@ -895,64 +913,41 @@
       const [progress, setProgress] = useState(alreadyRead ? 1 : 0);
       const [completed, setCompleted] = useState(alreadyRead);
       const [openSent, setOpenSent] = useState(null); // expanded sentence index (study mode)
-      const [holdLeft, setHoldLeft] = useState(0);
       const savedRef = useRef(false);
-      const holdTimer = useRef(null);
       const doneRef = useRef(alreadyRead);
 
       const tokens = useMemo(() => tokenize(pack.passage), [pack.passage]);
 
-      const clearHold = useCallback(() => {
-        if (holdTimer.current) { clearInterval(holdTimer.current); holdTimer.current = null; }
-        setHoldLeft(0);
-      }, []);
-
-      // Evaluate read progress. Runs on scroll AND on mount/resize, so a short
-      // article that fits the screen (no scrollbar — common on desktop) still
-      // counts as "read to the bottom" and starts the 1.5s hold.
+      // Track scroll depth for the progress bar only. Completion is no longer
+      // automatic — the reader must tap the 완독 button below the article.
       const evaluate = useCallback(() => {
-        if (doneRef.current) return;
         const el = document.scrollingElement || document.documentElement;
         const denom = el.scrollHeight - el.clientHeight;
-        // Nothing to scroll → treat as already at the bottom.
         const ratio = denom > 2 ? Math.min(1, el.scrollTop / denom) : 1;
         setProgress(ratio);
+      }, []);
 
-        const atBottom = ratio >= 0.985;
-        if (atBottom && !holdTimer.current) {
-          // Start 1.5s hold.
-          let left = 1500;
-          setHoldLeft(left);
-          holdTimer.current = setInterval(() => {
-            left -= 100;
-            if (left <= 0) {
-              clearHold();
-              doneRef.current = true;
-              setCompleted(true);
-              onComplete(pack.id);
-            } else {
-              setHoldLeft(left);
-            }
-          }, 100);
-        } else if (!atBottom && holdTimer.current) {
-          // Scrolled back up → reset timer (progress bar already follows scroll).
-          clearHold();
-        }
-      }, [clearHold, onComplete, pack.id]);
+      // Mark the article read (only via the 완독 button / click).
+      const finish = useCallback(() => {
+        if (doneRef.current) return;
+        doneRef.current = true;
+        setCompleted(true);
+        onComplete(pack.id);
+        window.scrollTo(0, 0);
+      }, [onComplete, pack.id]);
 
       useEffect(() => {
-        window.scrollTo(0, 0);
+        if (!alreadyRead) window.scrollTo(0, 0);
         window.addEventListener("scroll", evaluate, { passive: true });
         window.addEventListener("resize", evaluate);
-        // Check once after layout settles (fonts/images) for the no-scroll case.
         const t1 = setTimeout(evaluate, 300);
         const t2 = setTimeout(evaluate, 1200);
         return () => {
           window.removeEventListener("scroll", evaluate);
           window.removeEventListener("resize", evaluate);
-          clearTimeout(t1); clearTimeout(t2); clearHold();
+          clearTimeout(t1); clearTimeout(t2);
         };
-      }, [evaluate, clearHold]);
+      }, [evaluate, alreadyRead]);
 
       const togglePick = (idx, word) => {
         setPicked((prev) => {
@@ -1101,7 +1096,7 @@
           <button className="backbtn mono" onClick={onBack}>← 목록으로</button>
           <div className="progresswrap"><div className="progressbar" style={{ width: (progress * 100).toFixed(1) + "%" }} /></div>
           <div className="holdnote mono">
-            {completed ? "✓ 완독 · 문장을 탭하면 뜻이 보여요" : holdLeft > 0 ? `맨 아래 · ${(holdLeft / 1000).toFixed(1)}초 유지` : ""}
+            {completed ? "✓ 완독 · 문장을 탭하면 뜻이 보여요" : ""}
           </div>
 
           <h2 className="fraunces">{pack.title}</h2>
@@ -1125,6 +1120,7 @@
               <div className="hint mono">
                 {pickedCount > 0 ? `${pickedCount}개 단어 선택됨` : "모르는 단어를 탭해서 표시 · PC는 드래그로 여러 개"}
               </div>
+              <button className="finishbtn" onClick={finish}>완독 · 학습 시작</button>
             </React.Fragment>
           ) : (
             <React.Fragment>
@@ -1264,19 +1260,26 @@
     /* ------------------------------------------------------------------ */
     /* Archive                                                             */
     /* ------------------------------------------------------------------ */
-    function Archive({ packs, reads, onOpen }) {
+    function Archive({ packs, reads, setReads, onOpen }) {
       // Only articles the user has finished reading, newest first.
       const rows = [...packs].reverse().filter((p) => reads[p.id]);
       if (!rows.length) return <div className="empty">아직 읽은 기사가 없습니다.{"\n"}오늘 탭에서 기사를 완독하면 여기에 쌓입니다.</div>;
+      const removeRead = (id) => {
+        setReads((prev) => { const next = { ...prev }; delete next[id]; return next; });
+      };
       return (
         <React.Fragment>
           <div className="section-label mono">보관함 · 읽은 기사 {rows.length}편</div>
           {rows.map((p) => (
-            <button key={p.id} className="archrow" onClick={() => onOpen(p.id)}>
-              <span className="adate mono">{p.date} #{p.rank || 1}</span>
-              <span className="atitle fraunces">{p.title}</span>
-              {reads[p.id] && <span className="readpill">READ</span>}
-            </button>
+            <div key={p.id} className="archrow">
+              <button className="aopen" onClick={() => onOpen(p.id)}>
+                <span className="adate mono">{p.date} #{p.rank || 1}</span>
+                <span className="atitle fraunces">{p.title}</span>
+                {reads[p.id] && <span className="readpill">READ</span>}
+              </button>
+              <button className="adelete" onClick={() => removeRead(p.id)}
+                      aria-label="삭제" title="보관함에서 삭제">×</button>
+            </div>
           ))}
         </React.Fragment>
       );
