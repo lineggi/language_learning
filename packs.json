@@ -1,5 +1,586 @@
 [
   {
+    "id": "cd-2026-07-06-1",
+    "date": "2026-07-06",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "금융 기관들이 스테이블코인을 어떻게 활용할지 고민하는 현 상황을 통해, 디지털 자산 시장의 미래를 엿볼 수 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/05/banks-have-stopped-asking-if-stablecoins-belong-in-finance-now-they-re-considering-how",
+    "title": "Banks Embrace Stablecoins for Future Finance",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Financial institutions are now actively exploring the immense potential of stablecoins. They no longer question their fundamental place within traditional finance systems. Instead, banks are focusing on practical integration strategies and robust technological solutions. This significant shift indicates a major turning point for the future of digital assets worldwide. Experts predict a massive increase in digital asset transaction volume globally by 2030. Banks aim to become secure, compliant gateways for all these new, evolving digital transactions. They want to ensure safe, efficient, and transparent stablecoin transfers for their diverse client base. This strategic move could effectively bridge traditional financial systems and decentralized finance ecosystems. It also highlights the growing legitimacy and broader acceptance of crypto within mainstream banking operations. The race to adopt and successfully implement stablecoins is now intensifying, leading financial innovation. Banks are positioning themselves to capitalize on this expanding market opportunity.",
+    "sentences": [
+      {
+        "en": "Financial institutions are now actively exploring the immense potential of stablecoins.",
+        "ko": "금융 기관들은 이제 스테이블코인의 엄청난 잠재력을 적극적으로 탐색하고 있습니다."
+      },
+      {
+        "en": "They no longer question their fundamental place within traditional finance systems.",
+        "ko": "그들은 더 이상 전통 금융 시스템 내에서 스테이블코인의 근본적인 위치를 의심하지 않습니다."
+      },
+      {
+        "en": "Instead, banks are focusing on practical integration strategies and robust technological solutions.",
+        "ko": "대신, 은행들은 실질적인 통합 전략과 견고한 기술 솔루션에 집중하고 있습니다."
+      },
+      {
+        "en": "This significant shift indicates a major turning point for the future of digital assets worldwide.",
+        "ko": "이러한 중요한 변화는 전 세계 디지털 자산의 미래에 대한 주요 전환점을 시사합니다."
+      },
+      {
+        "en": "Experts predict a massive increase in digital asset transaction volume globally by 2030.",
+        "ko": "전문가들은 2030년까지 전 세계적으로 디지털 자산 거래량이 엄청나게 증가할 것이라고 예측합니다."
+      },
+      {
+        "en": "Banks aim to become secure, compliant gateways for all these new, evolving digital transactions.",
+        "ko": "은행들은 이 모든 새롭고 진화하는 디지털 거래를 위한 안전하고 규정을 준수하는 관문이 되는 것을 목표로 합니다."
+      },
+      {
+        "en": "They want to ensure safe, efficient, and transparent stablecoin transfers for their diverse client base.",
+        "ko": "그들은 다양한 고객층을 위해 안전하고 효율적이며 투명한 스테이블코인 이체를 보장하고자 합니다."
+      },
+      {
+        "en": "This strategic move could effectively bridge traditional financial systems and decentralized finance ecosystems.",
+        "ko": "이러한 전략적 움직임은 전통 금융 시스템과 탈중앙화 금융 생태계를 효과적으로 연결할 수 있습니다."
+      },
+      {
+        "en": "It also highlights the growing legitimacy and broader acceptance of crypto within mainstream banking operations.",
+        "ko": "또한 주류 은행 업무 내에서 암호화폐의 커지는 정당성과 더 넓은 수용을 강조합니다."
+      },
+      {
+        "en": "The race to adopt and successfully implement stablecoins is now intensifying, leading financial innovation.",
+        "ko": "스테이블코인 채택 및 성공적인 구현 경쟁이 이제 심화되어 금융 혁신을 이끌고 있습니다."
+      },
+      {
+        "en": "Banks are positioning themselves to capitalize on this expanding market opportunity.",
+        "ko": "은행들은 이 확장하는 시장 기회를 활용하기 위해 스스로를 포지셔닝하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "institutions": "Large, established organizations like banks or financial companies.",
+      "exploring": "Actively investigating or examining something to learn about it.",
+      "potential": "The possibility that something will develop or happen in the future.",
+      "fundamental": "Forming a necessary base or core for something to exist or function.",
+      "traditional": "Following old customs or beliefs, not modern or new in style.",
+      "finance": "The management of large amounts of money, especially by governments or companies.",
+      "integration": "The process of combining different things so they work together effectively.",
+      "robust": "Strong and healthy, not likely to fail or become weak.",
+      "solutions": "Ways of solving a problem or dealing with a difficult situation.",
+      "shift": "A slight change in position, direction, or tendency.",
+      "indicates": "Shows or suggests that something is true or exists.",
+      "turning": "A time when an important change happens, which then affects the future.",
+      "digital": "Things of value that exist in a digital format, like cryptocurrencies or NFTs.",
+      "predict": "To say that something will happen in the future, often based on knowledge.",
+      "massive": "Extremely large or heavy; very great in amount or degree.",
+      "transaction": "An instance of buying or selling something, or exchanging money.",
+      "compliant": "Following a rule, standard, or law; meeting specified requirements.",
+      "gateways": "Points of entry or access to a system or network.",
+      "efficient": "Achieving maximum productivity with minimum wasted effort or expense.",
+      "transparent": "Easy to see through; open and honest, not secretive.",
+      "bridge": "To connect two things or places, making a link between them.",
+      "decentralized": "Not controlled by a single authority but distributed among many.",
+      "legitimacy": "The quality of being reasonable and acceptable, or legally valid.",
+      "mainstream": "The ideas, attitudes, or activities that are regarded as normal or conventional."
+    },
+    "questions": [
+      "What is the main change in banks' attitude towards stablecoins, according to the article?",
+      "The article mentions \"secure, compliant gateways.\" Based on the context, what role do banks aim to play regarding stablecoin transactions?",
+      "How do you think increased bank involvement with stablecoins might impact their adoption by everyday users and businesses? What are potential benefits and challenges?"
+    ],
+    "modelAnswers": [
+      "Banks have moved past questioning if stablecoins belong in finance. They are now actively focusing on how to integrate and utilize them with robust solutions.",
+      "Banks aim to serve as trusted intermediaries or platforms. They want to ensure stablecoin transactions are safe, compliant, and easy to perform for their clients.",
+      "Increased bank involvement could boost stablecoin adoption by offering trust and familiarity. However, it might also introduce more regulation and centralization, potentially limiting some decentralized benefits."
+    ]
+  },
+  {
+    "id": "cd-2026-07-06-2",
+    "date": "2026-07-06",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화가 단순한 자산 분할을 넘어 개인 맞춤형 포트폴리오로 진화하는 흥미로운 미래를 살펴보세요.",
+    "url": "https://www.coindesk.com/business/2026/07/02/tokenization-s-next-use-case-is-personalized-portfolios-nylim-executive-says",
+    "title": "Tokenization to Personalize Investment Portfolios",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Tokenization is evolving significantly beyond simple digital asset representation. Its next significant application involves creating highly personalized investment portfolios. Thomas Sy, a NYLIM executive, highlights this innovative and promising use case. NYLIM is a large asset manager currently overseeing $800 million in various funds. Blockchain technology can enable complex portfolio construction with unprecedented efficiency. This level of intricate customization is currently very difficult in traditional finance structures. Tokenized assets allow for fractional ownership of diverse, real-world items and financial products. Investors can precisely tailor their holdings to specific preferences, risk appetites, and long-term goals. This offers greater flexibility and improved accessibility for sophisticated wealth management strategies. It could democratize access to previously exclusive, illiquid, or hard-to-reach investments. The technology promises to fundamentally revolutionize how investment portfolios are built and managed. This transformative shift creates new opportunities for financial product development and industry innovation.",
+    "sentences": [
+      {
+        "en": "Tokenization is evolving significantly beyond simple digital asset representation.",
+        "ko": "토큰화는 단순한 디지털 자산 표현을 넘어 크게 진화하고 있습니다."
+      },
+      {
+        "en": "Its next significant application involves creating highly personalized investment portfolios.",
+        "ko": "그 다음 중요한 적용 분야는 고도로 개인 맞춤형 투자 포트폴리오를 만드는 것입니다."
+      },
+      {
+        "en": "Thomas Sy, a NYLIM executive, highlights this innovative and promising use case.",
+        "ko": "NYLIM의 토마스 시 임원은 이 혁신적이고 유망한 활용 사례를 강조합니다."
+      },
+      {
+        "en": "NYLIM is a large asset manager currently overseeing $800 million in various funds.",
+        "ko": "NYLIM은 현재 다양한 펀드에서 8억 달러를 감독하는 대형 자산 관리사입니다."
+      },
+      {
+        "en": "Blockchain technology can enable complex portfolio construction with unprecedented efficiency.",
+        "ko": "블록체인 기술은 전례 없는 효율성으로 복잡한 포트폴리오 구성을 가능하게 합니다."
+      },
+      {
+        "en": "This level of intricate customization is currently very difficult in traditional finance structures.",
+        "ko": "이러한 복잡한 맞춤화 수준은 현재 전통 금융 구조에서는 매우 어렵습니다."
+      },
+      {
+        "en": "Tokenized assets allow for fractional ownership of diverse, real-world items and financial products.",
+        "ko": "토큰화된 자산은 다양하고 실제적인 항목과 금융 상품의 부분 소유권을 허용합니다."
+      },
+      {
+        "en": "Investors can precisely tailor their holdings to specific preferences, risk appetites, and long-term goals.",
+        "ko": "투자자들은 특정 선호도, 위험 감수 성향 및 장기 목표에 맞춰 보유 자산을 정확하게 조정할 수 있습니다."
+      },
+      {
+        "en": "This offers greater flexibility and improved accessibility for sophisticated wealth management strategies.",
+        "ko": "이는 정교한 자산 관리 전략에 더 큰 유연성과 향상된 접근성을 제공합니다."
+      },
+      {
+        "en": "It could democratize access to previously exclusive, illiquid, or hard-to-reach investments.",
+        "ko": "이는 이전에 독점적이거나 비유동적이거나 접근하기 어려웠던 투자에 대한 접근을 민주화할 수 있습니다."
+      },
+      {
+        "en": "The technology promises to fundamentally revolutionize how investment portfolios are built and managed.",
+        "ko": "이 기술은 투자 포트폴리오가 구축되고 관리되는 방식을 근본적으로 혁신할 것을 약속합니다."
+      },
+      {
+        "en": "This transformative shift creates new opportunities for financial product development and industry innovation.",
+        "ko": "이러한 혁신적인 변화는 금융 상품 개발 및 산업 혁신을 위한 새로운 기회를 창출합니다."
+      }
+    ],
+    "glossary": {
+      "evolving": "Developing gradually, especially from a simple to a more complex form.",
+      "significant": "Important or notable; having a special meaning or importance.",
+      "application": "The action of putting something into operation or practical use.",
+      "personalized": "Designed or made to meet the specific needs or tastes of an individual.",
+      "portfolios": "A collection of financial investments held by an individual or organization.",
+      "executive": "A person with senior managerial responsibility in a business organization.",
+      "innovative": "Featuring new methods; advanced and original.",
+      "use": "A specific situation or scenario in which a product or system can be used.",
+      "asset": "A financial professional who manages investments for clients.",
+      "overseeing": "Supervising someone or something, especially in an official capacity.",
+      "funds": "A sum of money saved or made available for a particular purpose.",
+      "blockchain": "A distributed digital ledger that records transactions across many computers.",
+      "enable": "To make it possible for something to happen or for someone to do something.",
+      "construction": "The process of building or creating something.",
+      "unprecedented": "Never done or known before; without previous instance.",
+      "intricate": "Very complicated or detailed; difficult to understand.",
+      "customization": "The process of modifying something to suit a particular individual or task.",
+      "traditional": "Existing in or as part of a tradition; long-established.",
+      "fractional": "Relating to or constituting a part of a whole; very small.",
+      "ownership": "The act, state, or right of possessing something.",
+      "tailor": "To make or adapt for a particular purpose or person.",
+      "holdings": "The shares, property, or other investments owned by an individual or company.",
+      "democratize": "To make something available to all people, not just a select few.",
+      "illiquid": "Not easily converted into cash without a loss in value."
+    },
+    "questions": [
+      "Who is Thomas Sy, and what is his role at NYLIM?",
+      "How does tokenization enable \"complex portfolio construction\" that is challenging in traditional finance, according to the article?",
+      "What are the potential benefits and drawbacks of personalized, tokenized portfolios for individual investors compared to existing investment options?"
+    ],
+    "modelAnswers": [
+      "Thomas Sy is the head of multi-asset solutions at NYLIM. NYLIM is an asset manager with $800 million under management.",
+      "Tokenization allows for fractional ownership of diverse assets. This enables investors to create highly customized portfolios, which is difficult with traditional, less divisible assets.",
+      "Benefits include greater customization, fractional ownership, and access to unique assets. Drawbacks might involve regulatory uncertainties, liquidity issues for niche tokens, and potential technical complexities for users."
+    ]
+  },
+  {
+    "id": "cd-2026-07-06-3",
+    "date": "2026-07-06",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "영국이 암호화폐 시장에 혁신적인 규제 프레임워크를 도입하며 글로벌 거래의 새로운 장을 열 준비를 하고 있습니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/04/uk-s-bold-new-crypto-rules-promise-to-unlock-global-trading-but-huge-compliance-hurdles-still-threaten-the-rollout",
+    "title": "UK Unveils Bold Crypto Regulatory Framework",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The UK's Financial Conduct Authority (FCA) has recently introduced new crypto rules. This comprehensive regulatory framework aims to significantly unlock global trading potential. It specifically prioritizes institutional adoption and enhanced market liquidity within the sector. Many prominent industry experts have praised this forward-thinking and balanced regulatory approach. However, significant compliance hurdles still exist for crypto firms seeking authorization. The authorization process is expected to be very rigorous, demanding, and challenging for applicants. Companies must meticulously navigate complex legal requirements to operate legally in the UK market. Despite these inherent difficulties, the new rules could significantly boost overall market confidence. They primarily aim to create a clearer, more secure, and robust environment for digital assets. This progressive stance could attract more traditional financial players into the crypto sector. The UK actively seeks to establish itself as a leading global crypto and fintech hub. Ultimately, success depends on effective implementation and continuous industry adaptation and feedback.",
+    "sentences": [
+      {
+        "en": "The UK's Financial Conduct Authority (FCA) has recently introduced new crypto rules.",
+        "ko": "영국 금융행위감독청(FCA)이 최근 새로운 암호화폐 규정을 도입했습니다."
+      },
+      {
+        "en": "This comprehensive regulatory framework aims to significantly unlock global trading potential.",
+        "ko": "이 포괄적인 규제 프레임워크는 글로벌 거래 잠재력을 크게 발휘하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It specifically prioritizes institutional adoption and enhanced market liquidity within the sector.",
+        "ko": "이는 특히 기관 투자자의 채택과 해당 부문 내 향상된 시장 유동성을 우선시합니다."
+      },
+      {
+        "en": "Many prominent industry experts have praised this forward-thinking and balanced regulatory approach.",
+        "ko": "많은 저명한 업계 전문가들이 이 선진적이고 균형 잡힌 규제 접근 방식을 칭찬했습니다."
+      },
+      {
+        "en": "However, significant compliance hurdles still exist for crypto firms seeking authorization.",
+        "ko": "하지만 승인을 추구하는 암호화폐 기업들에게는 여전히 상당한 규제 준수 장벽이 존재합니다."
+      },
+      {
+        "en": "The authorization process is expected to be very rigorous, demanding, and challenging for applicants.",
+        "ko": "승인 절차는 신청자들에게 매우 엄격하고 까다로우며 도전적일 것으로 예상됩니다."
+      },
+      {
+        "en": "Companies must meticulously navigate complex legal requirements to operate legally in the UK market.",
+        "ko": "기업들은 영국 시장에서 합법적으로 운영하기 위해 복잡한 법적 요건들을 세심하게 헤쳐나가야 합니다."
+      },
+      {
+        "en": "Despite these inherent difficulties, the new rules could significantly boost overall market confidence.",
+        "ko": "이러한 내재된 어려움에도 불구하고, 새로운 규정들은 전반적인 시장 신뢰를 크게 높일 수 있습니다."
+      },
+      {
+        "en": "They primarily aim to create a clearer, more secure, and robust environment for digital assets.",
+        "ko": "그들은 주로 디지털 자산을 위한 더 명확하고 안전하며 견고한 환경을 조성하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This progressive stance could attract more traditional financial players into the crypto sector.",
+        "ko": "이러한 진보적인 입장은 더 많은 전통 금융 주체들을 암호화폐 부문으로 끌어들일 수 있습니다."
+      },
+      {
+        "en": "The UK actively seeks to establish itself as a leading global crypto and fintech hub.",
+        "ko": "영국은 스스로를 선도적인 글로벌 암호화폐 및 핀테크 허브로 적극적으로 확립하고자 합니다."
+      },
+      {
+        "en": "Ultimately, success depends on effective implementation and continuous industry adaptation and feedback.",
+        "ko": "궁극적으로, 성공은 효과적인 구현과 지속적인 업계 적응 및 피드백에 달려 있습니다."
+      }
+    ],
+    "glossary": {
+      "authority": "The power or right to give orders, make decisions, and enforce obedience.",
+      "introduced": "Brought something into use or operation for the first time.",
+      "comprehensive": "Including or dealing with all or nearly all elements or aspects of something.",
+      "framework": "A basic structure underlying a system, concept, or text.",
+      "unlock": "To make something available or accessible that was previously restricted.",
+      "potential": "The possibility that something will develop or happen in the future.",
+      "prioritizes": "Treats something as more important than other things.",
+      "institutional": "Relating to a large, established organization, especially in finance.",
+      "adoption": "The action or fact of choosing to take up or follow something.",
+      "liquidity": "The availability of liquid assets to a market or company.",
+      "prominent": "Important, famous, or easily noticeable.",
+      "praised": "Expressed approval or admiration for someone or something.",
+      "forward-thinking": "Planning for the future; progressive.",
+      "regulatory": "Relating to the supervision and control of a system or industry.",
+      "compliance": "The act of obeying a rule, law, or request.",
+      "hurdles": "Difficulties or obstacles that must be overcome.",
+      "authorization": "Official permission or approval.",
+      "rigorous": "Extremely thorough, exhaustive, or accurate.",
+      "demanding": "Requiring a lot of effort, skill, or attention.",
+      "meticulously": "In a way that shows great attention to detail; very carefully.",
+      "navigate": "To plan and direct the course of a ship, aircraft, or other form of transport.",
+      "inherent": "Existing in something as a permanent, essential, or characteristic attribute.",
+      "progressive": "Happening or developing gradually or in stages.",
+      "adaptation": "The process of changing to suit different conditions."
+    },
+    "questions": [
+      "What are two main goals of the UK's new crypto framework, according to the article?",
+      "The article mentions \"compliance hurdles.\" What does this phrase mean in the context of firms operating under new regulations?",
+      "How might the UK's proactive regulatory stance influence other countries' approaches to crypto regulation and global market competition?"
+    ],
+    "modelAnswers": [
+      "The UK's new framework aims to significantly unlock global trading potential and prioritize institutional adoption and market liquidity.",
+      "\"Compliance hurdles\" refer to the difficult and complex requirements or obstacles that firms must overcome to meet the new legal and regulatory standards.",
+      "The UK's progressive stance could encourage other nations to develop clearer crypto regulations to remain competitive. It might also pressure them to balance innovation with investor protection."
+    ]
+  },
+  {
+    "id": "ec-2026-07-06-1",
+    "date": "2026-07-06",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "유럽중앙은행 총재의 잠재적인 조기 퇴임이 유럽 경제와 금융 시장에 미칠 영향을 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/03/christine-lagarde-ecb-france-election.html",
+    "title": "ECB Head May Exit Early Amid French Political Ambitions",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "European Central Bank (ECB) President Christine Lagarde is reportedly considering an early departure. Her current term as head of the central bank is scheduled to conclude in late 2027. Lagarde has openly indicated she might leave sooner to pursue opportunities in French politics. This potential leadership change introduces a degree of uncertainty for the ECB's future direction. The central bank is absolutely crucial for maintaining economic stability across the eurozone. It is responsible for setting key monetary policy decisions, including managing interest rates. Any shift in its top leadership could significantly influence financial market sentiment and stability. Investors will closely monitor these developments for clear signals about policy continuity. Her decision will carry substantial implications for both Europe's economic trajectory and political landscape. It also highlights the complex intersection where high-level finance meets national political ambitions. Such a move could reshape the institutional leadership of one of the world's major economic blocs. This situation presents a compelling case study on the interplay between central banking and political careers.",
+    "sentences": [
+      {
+        "en": "European Central Bank (ECB) President Christine Lagarde is reportedly considering an early departure.",
+        "ko": "유럽중앙은행(ECB) 총재 크리스틴 라가르드가 조기 퇴임을 고려 중인 것으로 알려졌습니다."
+      },
+      {
+        "en": "Her current term as head of the central bank is scheduled to conclude in late 2027.",
+        "ko": "중앙은행 총재로서 그녀의 현재 임기는 2027년 말에 종료될 예정입니다."
+      },
+      {
+        "en": "Lagarde has openly indicated she might leave sooner to pursue opportunities in French politics.",
+        "ko": "라가르드는 프랑스 정치에서 기회를 추구하기 위해 더 일찍 떠날 수도 있음을 공개적으로 시사했습니다."
+      },
+      {
+        "en": "This potential leadership change introduces a degree of uncertainty for the ECB's future direction.",
+        "ko": "이러한 잠재적인 리더십 변화는 ECB의 미래 방향에 어느 정도의 불확실성을 가져옵니다."
+      },
+      {
+        "en": "The central bank is absolutely crucial for maintaining economic stability across the eurozone.",
+        "ko": "중앙은행은 유로존 전반의 경제 안정을 유지하는 데 절대적으로 중요합니다."
+      },
+      {
+        "en": "It is responsible for setting key monetary policy decisions, including managing interest rates.",
+        "ko": "이는 금리 관리를 포함한 주요 통화 정책 결정을 담당합니다."
+      },
+      {
+        "en": "Any shift in its top leadership could significantly influence financial market sentiment and stability.",
+        "ko": "최고 리더십의 어떤 변화라도 금융 시장의 심리와 안정성에 크게 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Investors will closely monitor these developments for clear signals about policy continuity.",
+        "ko": "투자자들은 정책 연속성에 대한 명확한 신호를 얻기 위해 이러한 전개 상황을 면밀히 주시할 것입니다."
+      },
+      {
+        "en": "Her decision will carry substantial implications for both Europe's economic trajectory and political landscape.",
+        "ko": "그녀의 결정은 유럽의 경제적 궤적과 정치적 지형 모두에 상당한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "It also highlights the complex intersection where high-level finance meets national political ambitions.",
+        "ko": "이는 또한 고위 금융과 국가 정치적 야망이 만나는 복잡한 교차점을 보여줍니다."
+      },
+      {
+        "en": "Such a move could reshape the institutional leadership of one of the world's major economic blocs.",
+        "ko": "그러한 움직임은 세계 주요 경제 블록 중 하나의 제도적 리더십을 재편할 수 있습니다."
+      },
+      {
+        "en": "This situation presents a compelling case study on the interplay between central banking and political careers.",
+        "ko": "이 상황은 중앙은행 업무와 정치 경력 간의 상호 작용에 대한 흥미로운 사례 연구를 제공합니다."
+      }
+    ],
+    "glossary": {
+      "president": "the main leader of an organization, country, or large financial institution.",
+      "departure": "the act of leaving a place or an organization, especially an official one.",
+      "term": "a fixed period of time during which someone holds an office or position.",
+      "scheduled": "planned to happen at a particular time or date.",
+      "conclude": "to bring something to an end or finish it.",
+      "pursue": "to try to achieve a goal or follow a career path with determination.",
+      "uncertainty": "a situation where things are not clear, stable, or predictable.",
+      "crucial": "extremely important or essential for the success of something.",
+      "maintaining": "keeping something in good condition or at an appropriate level.",
+      "stability": "the state of being firm, steady, and not likely to change.",
+      "eurozone": "the group of European Union countries that use the euro as their common currency.",
+      "monetary": "relating to money or currency, especially how a central bank controls it.",
+      "policy": "a set of rules, plans, or actions adopted by a government or organization.",
+      "influence": "to have a strong effect or influence on someone or something.",
+      "sentiment": "a general feeling or opinion about something, especially in financial markets.",
+      "monitor": "to observe and check the progress or quality of something over a period of time.",
+      "developments": "new events or changes that happen over time.",
+      "implications": "the possible future effects or results of a decision or event.",
+      "intersection": "a point where two or more things meet or cross, often ideas or fields.",
+      "ambitions": "strong desires to achieve something, often success or power.",
+      "institutional": "relating to a large and important organization, like a bank or government.",
+      "blocs": "groups of countries or parties with common interests or goals.",
+      "interplay": "the way in which two or more things affect each other."
+    },
+    "questions": [
+      "Q1: What is Christine Lagarde's current position and what is she reportedly considering?",
+      "Q2: Why might a change in ECB leadership introduce uncertainty for financial markets? Explain using terms from the passage.",
+      "Q3: How do you think the intersection of high-level financial roles and national politics can both benefit and challenge economic stability?"
+    ],
+    "modelAnswers": [
+      "A1: Christine Lagarde is currently the President of the European Central Bank. She is reportedly considering an early departure from her term to pursue French politics.",
+      "A2: A change in ECB leadership could introduce uncertainty because the central bank is crucial for managing the eurozone's economy and setting monetary policy. New leadership might signal shifts in these policies, impacting investor confidence and market stability.",
+      "A3: Such an intersection can bring diverse perspectives to economic policy, benefiting from political insights. However, it can also challenge stability if political ambitions overshadow independent financial decisions, creating uncertainty for markets."
+    ]
+  },
+  {
+    "id": "ec-2026-07-06-2",
+    "date": "2026-07-06",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "연준이 선호하는 지표로 측정된 인플레이션율 상승 소식을 통해 금융 시장에 미치는 영향을 이해하고 경제 용어를 익히세요.",
+    "url": "https://www.cnbc.com/2026/06/25/pce-inflation-report-may-2026-.html",
+    "title": "US Core Inflation Rises to 3.4%, Highest Since Late 2023",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. core inflation rate recently showed an unexpected increase. It reached 3.4% in May, according to the Federal Reserve's preferred measurement. This figure marks the highest inflation level observed since October 2023. Core inflation specifically excludes highly volatile food and energy prices. This exclusion helps provide a clearer and more stable picture of underlying price trends. The Federal Reserve meticulously monitors this crucial economic data point. They use it as a primary factor when making significant decisions about interest rates. A consistent rise in inflation often prompts central banks to consider rate hikes. The primary goal of these hikes is to effectively cool down the economy and control rising prices. However, implementing higher interest rates can also lead to a slowdown in overall economic growth. Fintech professionals must possess a deep understanding of these complex inflation dynamics. Such knowledge directly influences sound investment strategies and prevailing market conditions.",
+    "sentences": [
+      {
+        "en": "The U.S. core inflation rate recently showed an unexpected increase.",
+        "ko": "미국의 근원 인플레이션율이 최근 예상치 못한 증가를 보였습니다."
+      },
+      {
+        "en": "It reached 3.4% in May, according to the Federal Reserve's preferred measurement.",
+        "ko": "연방준비제도(Fed)가 선호하는 측정치에 따르면, 5월에 3.4%에 도달했습니다."
+      },
+      {
+        "en": "This figure marks the highest inflation level observed since October 2023.",
+        "ko": "이 수치는 2023년 10월 이후 관측된 최고 인플레이션 수준을 기록합니다."
+      },
+      {
+        "en": "Core inflation specifically excludes highly volatile food and energy prices.",
+        "ko": "근원 인플레이션은 특히 변동성이 큰 식료품 및 에너지 가격을 제외합니다."
+      },
+      {
+        "en": "This exclusion helps provide a clearer and more stable picture of underlying price trends.",
+        "ko": "이러한 제외는 근원적인 물가 추세에 대한 더 명확하고 안정적인 그림을 제공하는 데 도움이 됩니다."
+      },
+      {
+        "en": "The Federal Reserve meticulously monitors this crucial economic data point.",
+        "ko": "연방준비제도는 이 중요한 경제 데이터를 면밀히 모니터링합니다."
+      },
+      {
+        "en": "They use it as a primary factor when making significant decisions about interest rates.",
+        "ko": "그들은 이를 금리에 대한 중요한 결정을 내릴 때 주요 요인으로 사용합니다."
+      },
+      {
+        "en": "A consistent rise in inflation often prompts central banks to consider rate hikes.",
+        "ko": "인플레이션의 지속적인 상승은 종종 중앙은행들이 금리 인상을 고려하도록 유도합니다."
+      },
+      {
+        "en": "The primary goal of these hikes is to effectively cool down the economy and control rising prices.",
+        "ko": "이러한 인상의 주된 목표는 경제를 효과적으로 냉각시키고 물가 상승을 통제하는 것입니다."
+      },
+      {
+        "en": "However, implementing higher interest rates can also lead to a slowdown in overall economic growth.",
+        "ko": "그러나 더 높은 금리를 시행하는 것은 전반적인 경제 성장의 둔화로 이어질 수도 있습니다."
+      },
+      {
+        "en": "Fintech professionals must possess a deep understanding of these complex inflation dynamics.",
+        "ko": "핀테크 전문가들은 이러한 복잡한 인플레이션 역학에 대한 깊은 이해를 가지고 있어야 합니다."
+      },
+      {
+        "en": "Such knowledge directly influences sound investment strategies and prevailing market conditions.",
+        "ko": "그러한 지식은 건전한 투자 전략과 지배적인 시장 상황에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "core": "referring to the central or most important part of something, often excluding volatile elements.",
+      "inflation": "a general increase in prices and fall in the purchasing value of money.",
+      "increased": "became greater in size, amount, or degree.",
+      "gauge": "a tool or indicator used to measure or estimate something.",
+      "marks": "indicates a particular point or stage in a process or event.",
+      "excludes": "leaves out or does not include something.",
+      "volatile": "likely to change rapidly and unpredictably, especially for the worse.",
+      "underlying": "forming the basis or foundation of something, not immediately obvious.",
+      "trends": "general directions in which something is developing or changing.",
+      "monitors": "observes and checks the progress or quality of something over a period of time.",
+      "crucial": "extremely important or essential for the success of something.",
+      "data": "facts and statistics collected together for reference or analysis.",
+      "decisions": "choices made after thinking about several possibilities.",
+      "interest": "the extra money paid for borrowing money, or earned for lending it.",
+      "prompts": "causes or brings about an action or feeling.",
+      "consider": "think carefully about something, typically before making a decision.",
+      "hikes": "increases, especially in prices, taxes, or interest rates.",
+      "cooldown": "to reduce the intensity or activity of something, often an economy.",
+      "control": "to have power over something, or to limit its growth.",
+      "slowdown": "a reduction in the speed or activity of something.",
+      "dynamics": "the forces or properties that stimulate growth, development, or change within a system.",
+      "influence": "to have an effect on the character, development, or behavior of someone or something.",
+      "strategies": "plans of action designed to achieve a long-term or overall aim.",
+      "conditions": "the circumstances or factors affecting the way people live or work."
+    },
+    "questions": [
+      "Q1: According to the passage, what specific percentage did the U.S. core inflation rate reach in May, and when was it last at this level?",
+      "Q2: What is the purpose of \"core inflation\" as a measurement, and why does the Federal Reserve monitor it closely?",
+      "Q3: As a fintech professional, how might a sustained period of high core inflation affect your recommendations for investment strategies?"
+    ],
+    "modelAnswers": [
+      "A1: The U.S. core inflation rate reached 3.4% in May. It was last at this level in October 2023.",
+      "A2: Core inflation excludes volatile food and energy prices to provide a clearer picture of underlying price trends. The Federal Reserve monitors it closely to make informed decisions about interest rates and monetary policy.",
+      "A3: A sustained period of high core inflation would likely lead me to recommend inflation-hedging assets like real estate, commodities, or inflation-protected securities. I would also advise caution with long-term fixed-income investments due to eroding purchasing power."
+    ]
+  },
+  {
+    "id": "ec-2026-07-06-3",
+    "date": "2026-07-06",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국 노동 시장의 중요한 변화를 보여주는 노동력 참여율 하락 소식을 통해 경제 지표를 해석하는 능력을 길러보세요.",
+    "url": "https://www.cnbc.com/2026/07/02/job-seekers-giving-up-labor-force-participation-rate-falls-to-lowest-in-50-years-outside-of-covid-era.html",
+    "title": "US Labor Force Participation Hits 50-Year Low",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. labor force participation rate recently experienced a significant drop. It fell to its lowest point in five decades, excluding the exceptional Covid-19 pandemic era. This decline strongly suggests that many individuals are no longer actively seeking employment. A persistent fall in this rate can indicate a fundamental weakening of the overall labor market. Such a trend also hints at broader, underlying challenges within the national economy. While the unemployment rate showed a slight decrease, its interpretation needs caution. This reduction was partly due to fewer people being counted as unemployed. These individuals had actually exited the job market entirely, rather than securing new positions. This specific trend raises serious concerns about the nation's long-term economic growth potential. It directly impacts future productivity levels and overall consumer spending power. Policymakers will need to analyze this complex data thoroughly for effective interventions. Understanding these dynamics is vital for assessing the true health of the economy.",
+    "sentences": [
+      {
+        "en": "The U.S. labor force participation rate recently experienced a significant drop.",
+        "ko": "미국 노동력 참여율이 최근 크게 하락했습니다."
+      },
+      {
+        "en": "It fell to its lowest point in five decades, excluding the exceptional Covid-19 pandemic era.",
+        "ko": "이는 예외적인 코로나19 팬데믹 시기를 제외하고 50년 만에 최저치로 떨어졌습니다."
+      },
+      {
+        "en": "This decline strongly suggests that many individuals are no longer actively seeking employment.",
+        "ko": "이러한 감소는 많은 개인이 더 이상 적극적으로 일자리를 찾지 않고 있음을 강력히 시사합니다."
+      },
+      {
+        "en": "A persistent fall in this rate can indicate a fundamental weakening of the overall labor market.",
+        "ko": "이 비율의 지속적인 하락은 전반적인 노동 시장의 근본적인 약화를 나타낼 수 있습니다."
+      },
+      {
+        "en": "Such a trend also hints at broader, underlying challenges within the national economy.",
+        "ko": "이러한 추세는 또한 국가 경제 내의 더 광범위하고 근원적인 도전을 암시합니다."
+      },
+      {
+        "en": "While the unemployment rate showed a slight decrease, its interpretation needs caution.",
+        "ko": "실업률은 약간 감소했지만, 그 해석에는 주의가 필요합니다."
+      },
+      {
+        "en": "This reduction was partly due to fewer people being counted as unemployed.",
+        "ko": "이러한 감소는 부분적으로 실업자로 집계되는 사람들의 수가 줄었기 때문입니다."
+      },
+      {
+        "en": "These individuals had actually exited the job market entirely, rather than securing new positions.",
+        "ko": "이 사람들은 실제로 새로운 일자리를 얻기보다는 노동 시장에서 완전히 이탈했습니다."
+      },
+      {
+        "en": "This specific trend raises serious concerns about the nation's long-term economic growth potential.",
+        "ko": "이러한 특정 추세는 국가의 장기적인 경제 성장 잠재력에 대한 심각한 우려를 불러일으킵니다."
+      },
+      {
+        "en": "It directly impacts future productivity levels and overall consumer spending power.",
+        "ko": "이는 미래 생산성 수준과 전반적인 소비자 지출 능력에 직접적인 영향을 미칩니다."
+      },
+      {
+        "en": "Policymakers will need to analyze this complex data thoroughly for effective interventions.",
+        "ko": "정책 입안자들은 효과적인 개입을 위해 이 복잡한 데이터를 철저히 분석해야 할 것입니다."
+      },
+      {
+        "en": "Understanding these dynamics is vital for assessing the true health of the economy.",
+        "ko": "이러한 역학을 이해하는 것은 경제의 진정한 건전성을 평가하는 데 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "participation": "the act of taking part in an activity or being involved in something.",
+      "dropped": "decreased in amount, level, or quality.",
+      "decades": "periods of ten years.",
+      "excluding": "not including something; leaving something out.",
+      "decline": "a continuous decrease in number, value, or quality.",
+      "seeking": "trying to find or obtain something.",
+      "employment": "the state of having a paid job.",
+      "weakening": "becoming less strong, effective, or powerful.",
+      "underlying": "forming the basis or foundation of something, not immediately obvious.",
+      "challenges": "difficulties that test one's strength or ability.",
+      "unemployment": "the state of being without a job but actively searching for one.",
+      "decrease": "a reduction in the size, amount, or extent of something.",
+      "counted": "included in a total or calculation.",
+      "exited": "left a place or situation.",
+      "entirely": "completely; in every way.",
+      "trend": "a general direction in which something is developing or changing.",
+      "concerns": "worries or anxieties about something.",
+      "productivity": "the rate at which goods or services are produced.",
+      "spending": "the act of using money to buy things or services.",
+      "policymakers": "people who create and implement rules and strategies, especially in government.",
+      "analyze": "to examine something in detail, typically for purposes of explanation and interpretation.",
+      "interventions": "actions taken to improve or remedy a situation."
+    },
+    "questions": [
+      "Q1: What is the main finding regarding the U.S. labor force participation rate, according to the passage?",
+      "Q2: Explain why a decrease in the unemployment rate might not always signal a strong job market, referencing the passage.",
+      "Q3: What long-term economic effects might a sustained decline in labor force participation have on a country's economy?"
+    ],
+    "modelAnswers": [
+      "A1: The U.S. labor force participation rate has dropped to its lowest level in five decades, excluding the Covid era, indicating that many potential workers are no longer seeking jobs.",
+      "A2: A decrease in the unemployment rate might not always signal a strong job market if it happens because people are leaving the labor market entirely, rather than finding work. This means fewer people are counted as unemployed, artificially lowering the rate.",
+      "A3: A sustained decline in labor force participation could lead to reduced economic growth due to fewer available workers, impacting overall productivity. It might also decrease consumer spending, further slowing economic activity."
+    ]
+  },
+  {
     "id": "cd-2026-07-05-1",
     "date": "2026-07-05",
     "rank": 1,
