@@ -469,7 +469,7 @@
     /* ------------------------------------------------------------------ */
     /* Storage helpers (localStorage, prefix dbw:)                         */
     /* ------------------------------------------------------------------ */
-    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak" };
+    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks" };
 
     /* Optional backend: Supabase (sync) + /api/grade (AI grading). If SUPABASE_URL
        is empty the client is null and the app stays fully local. */
@@ -909,7 +909,9 @@
 
     function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast }) {
       const alreadyRead = !!reads[pack.id];
-      const [picked, setPicked] = useState({});            // index -> word
+      // Restore any highlighted words for this article so they survive leaving
+      // and re-opening the page (kept per pack id in localStorage).
+      const [picked, setPicked] = useState(() => (load(KEY.picks, {})[pack.id]) || {}); // index -> word
       const [progress, setProgress] = useState(alreadyRead ? 1 : 0);
       const [completed, setCompleted] = useState(alreadyRead);
       const [openSent, setOpenSent] = useState(null); // expanded sentence index (study mode)
@@ -1082,6 +1084,14 @@
           }
         })();
       }, [completed]);
+
+      // Persist highlighted words per pack so they remain after navigating away.
+      useEffect(() => {
+        const all = load(KEY.picks, {});
+        if (Object.keys(picked).length) all[pack.id] = picked;
+        else delete all[pack.id];
+        save(KEY.picks, all);
+      }, [picked, pack.id]);
 
       const addOne = (g, ev) => {
         ev.stopPropagation();
