@@ -3,8 +3,13 @@
 
 const DEFINE_SCHEMA = {
   type: "object",
-  properties: { word: { type: "string" }, meaning: { type: "string" }, example: { type: "string" } },
-  required: ["word", "meaning", "example"],
+  properties: {
+    word: { type: "string" },
+    meaning: { type: "string" },
+    ko: { type: "string" },
+    example: { type: "string" },
+  },
+  required: ["word", "meaning", "ko", "example"],
 };
 
 module.exports = async function handler(req, res) {
@@ -31,6 +36,7 @@ ${passage || "(none)"}
 Return JSON: {
   "word": "<base/dictionary form of the word, lowercase>",
   "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words.>",
+  "ko": "<the word's meaning in KOREAN — a short, natural Korean gloss (e.g. 정당성, 합법성 / 완화하다). Korean only, a few words, no English.>",
   "example": "<one short, natural English example sentence (max ~14 words) that uses the word \\"${word}\\" itself>"
 }`;
 
@@ -50,6 +56,7 @@ Return JSON: {
     let out; try { out = JSON.parse(text); } catch { res.status(502).json({ error: "parse", raw: text.slice(0, 200) }); return; }
     out.word = String(out.word || word).toLowerCase().trim();
     out.meaning = String(out.meaning || "").trim();
+    out.ko = String(out.ko || "").trim();
     out.example = String(out.example || "").trim();
     res.status(200).json(out);
   } catch (err) {

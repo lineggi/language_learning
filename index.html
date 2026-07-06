@@ -346,7 +346,18 @@
       position: relative; background: var(--card); border: 1px solid var(--hair); border-radius: 18px;
       min-height: 260px; display: flex; flex-direction: column; align-items: center; justify-content: center;
       text-align: center; padding: 28px 22px; cursor: grab; box-shadow: var(--shadow);
-      touch-action: none; user-select: none; -webkit-user-select: none;
+      touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none;
+    }
+    .flashcard .fc-ko {
+      position: absolute; inset: 0; border-radius: 18px; background: rgba(43, 38, 33, .96);
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;
+      padding: 24px; z-index: 5;
+    }
+    .flashcard .fc-ko-word { font-size: 22px; color: #f1e7d8; letter-spacing: -.01em; }
+    .flashcard .fc-ko-mean { font-size: 34px; font-weight: 700; color: #fff; line-height: 1.25; }
+    .flashcard .fc-ko-tag {
+      margin-top: 6px; font-size: 10px; letter-spacing: .16em; color: var(--amber);
+      border: 1px solid var(--amber); border-radius: 999px; padding: 3px 10px;
     }
     .flashcard.flipped { background: #fffdf6; border-color: var(--amber-soft); }
     .flashcard.no { border-color: #e6bcbc; }
@@ -1348,7 +1359,7 @@
       const newPool = useMemo(
         () => Object.entries(wordbank)
           .filter(([, v]) => stageOf(v) === "new")
-          .map(([word, v]) => ({ word, meaning: v.meaning, example: v.example || "" })),
+          .map(([word, v]) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" })),
         [wordbank]
       );
 
@@ -1376,7 +1387,7 @@
       };
       const startStudy = () => {
         if (!newPool.length) return;
-        const d = shuffle(newPool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "" })));
+        const d = shuffle(newPool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
         setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setStudying(true);
       };
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
@@ -1396,15 +1407,16 @@
         advance();
       };
       const restartMissed = () => {
-        const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "", example: (wordbank[w] || {}).example || "" })));
+        const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "", example: (wordbank[w] || {}).example || "", meaningKo: (wordbank[w] || {}).meaningKo || "" })));
         setDeck(d); setMissed([]); setIdx(0); setCardFlip(false);
       };
 
-      // Backfill a missing example for the current study card via /api/define.
+      // Backfill a missing example AND Korean gloss for the current study card
+      // via /api/define, so a long-press can show the Korean meaning instantly.
       useEffect(() => {
         if (!studying || idx >= deck.length) return;
         const cur = deck[idx];
-        if (!cur || cur.example) return;
+        if (!cur || (cur.example && cur.meaningKo)) return;
         const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
         if (!endpoint) return;
         let cancelled = false;
@@ -1416,31 +1428,46 @@
             });
             if (!r.ok) return;
             const d = await r.json();
-            if (cancelled || !d.example) return;
-            setDeck((dk) => dk.map((it, i) => (i === idx ? { ...it, example: d.example } : it)));
-            setWordbank((prev) => (prev[cur.word] ? { ...prev, [cur.word]: { ...prev[cur.word], example: d.example } } : prev));
+            if (cancelled) return;
+            const patch = {};
+            if (d.example && !cur.example) patch.example = d.example;
+            if (d.ko && !cur.meaningKo) patch.meaningKo = d.ko;
+            if (!Object.keys(patch).length) return;
+            setDeck((dk) => dk.map((it, i) => (i === idx ? { ...it, ...patch } : it)));
+            setWordbank((prev) => (prev[cur.word] ? { ...prev, [cur.word]: { ...prev[cur.word], ...patch } } : prev));
           } catch (e) {}
         })();
         return () => { cancelled = true; };
       }, [studying, idx, deck]);
 
       // Swipe: drag the card left (몰라요) / right (알아요); a small move is a tap (flip).
+      // Press-and-hold (꾸욱) peeks the Korean meaning while held.
       const SWIPE_TH = 80;
-      const onCardDown = (e) => { swipeRef.current = { down: true, startX: e.clientX, dx: 0, moved: false }; };
+      const LONG_MS = 420;
+      const [koPeek, setKoPeek] = useState(false);
+      const longTimer = useRef(null);
+      const clearLong = () => { if (longTimer.current) { clearTimeout(longTimer.current); longTimer.current = null; } };
+      const onCardDown = (e) => {
+        swipeRef.current = { down: true, startX: e.clientX, dx: 0, moved: false, long: false };
+        clearLong();
+        longTimer.current = setTimeout(() => { swipeRef.current.long = true; setKoPeek(true); }, LONG_MS);
+      };
       const onCardMove = (e) => {
         if (!swipeRef.current.down) return;
         const dx = e.clientX - swipeRef.current.startX;
         swipeRef.current.dx = dx;
-        if (Math.abs(dx) > 6) swipeRef.current.moved = true;
-        setDragX(dx);
+        if (Math.abs(dx) > 6) { swipeRef.current.moved = true; clearLong(); }
+        if (!swipeRef.current.long) setDragX(dx);
       };
       const answerSwipe = (dir) => {
         setDragX(dir === "no" ? -520 : 520);
         setTimeout(() => { if (dir === "no") dontKnow(); else know(); setDragX(0); }, 160);
       };
       const onCardUp = () => {
-        const { dx, moved } = swipeRef.current;
+        const { dx, moved, long } = swipeRef.current;
         swipeRef.current.down = false;
+        clearLong();
+        if (long) { setKoPeek(false); setDragX(0); return; } // was a long-press peek
         if (dx <= -SWIPE_TH) answerSwipe("no");
         else if (dx >= SWIPE_TH) answerSwipe("yes");
         else { if (!moved) flipCard(); setDragX(0); }
@@ -1529,8 +1556,15 @@
                   </React.Fragment>
                 : <div className="fc-def">{cur.meaning}</div>}
               <div className="fc-hint mono">{cardFlip ? "탭하면 뜻으로" : "탭하면 단어 보기"}</div>
+              {koPeek && (
+                <div className="fc-ko">
+                  <div className="fc-ko-word fraunces">{cur.word}</div>
+                  <div className="fc-ko-mean fraunces">{cur.meaningKo || "불러오는 중…"}</div>
+                  <div className="fc-ko-tag mono">한국어 뜻</div>
+                </div>
+              )}
             </div>
-            <div className="fc-sub mono">← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기</div>
+            <div className="fc-sub mono">← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기 · 꾸욱 누르면 한국어 뜻</div>
           </React.Fragment>
         );
       }
