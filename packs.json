@@ -1,5 +1,529 @@
 [
   {
+    "id": "cd-2026-07-07-1",
+    "date": "2026-07-07",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 시장에서 USDC가 USDT를 추월하며 새로운 판도를 만들고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/06/circle-s-usdc-is-leaving-tether-behind-in-the-stablecoin-volume-race",
+    "title": "USDC Surpasses Tether in Stablecoin Trading Volume",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Circle's USDC stablecoin is now seeing higher trading volumes than Tether's USDT. This marks a significant shift in the competitive stablecoin landscape. New data from Visa highlights this trend clearly. Institutional adoption of digital currencies is rapidly increasing. Wall Street banks are using them for faster settlement processes. Overall trading volume for digital currencies spiked by 63% last month. This surge indicates growing mainstream acceptance of stablecoins. USDC's rise suggests its increasing appeal to large financial institutions. Its regulatory compliance and transparency are key factors. This development could reshape the future of digital finance.",
+    "sentences": [
+      {
+        "en": "Circle's USDC stablecoin is now seeing higher trading volumes than Tether's USDT.",
+        "ko": "써클의 USDC 스테이블코인이 이제 테더의 USDT보다 더 높은 거래량을 보이고 있습니다."
+      },
+      {
+        "en": "This marks a significant shift in the competitive stablecoin landscape.",
+        "ko": "이는 경쟁적인 스테이블코인 시장에서 중요한 변화를 나타냅니다."
+      },
+      {
+        "en": "New data from Visa highlights this trend clearly.",
+        "ko": "비자의 새로운 데이터가 이러한 추세를 명확하게 보여줍니다."
+      },
+      {
+        "en": "Institutional adoption of digital currencies is rapidly increasing.",
+        "ko": "디지털 통화에 대한 기관들의 채택이 빠르게 증가하고 있습니다."
+      },
+      {
+        "en": "Wall Street banks are using them for faster settlement processes.",
+        "ko": "월스트리트 은행들은 더 빠른 결제 과정을 위해 이를 사용하고 있습니다."
+      },
+      {
+        "en": "Overall trading volume for digital currencies spiked by 63% last month.",
+        "ko": "지난달 디지털 통화의 전체 거래량은 63% 급증했습니다."
+      },
+      {
+        "en": "This surge indicates growing mainstream acceptance of stablecoins.",
+        "ko": "이러한 급증은 스테이블코인에 대한 주류의 수용이 증가하고 있음을 나타냅니다."
+      },
+      {
+        "en": "USDC's rise suggests its increasing appeal to large financial institutions.",
+        "ko": "USDC의 부상은 대형 금융 기관에 대한 매력이 증가하고 있음을 시사합니다."
+      },
+      {
+        "en": "Its regulatory compliance and transparency are key factors.",
+        "ko": "규제 준수와 투명성이 핵심 요소입니다."
+      },
+      {
+        "en": "This development could reshape the future of digital finance.",
+        "ko": "이러한 발전은 디지털 금융의 미래를 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "stablecoin": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency like the US dollar.",
+      "trading": "The activity of buying and selling financial assets, such as cryptocurrencies, on a market.",
+      "volume": "The total amount or quantity of something, in this case, the number of transactions or assets traded.",
+      "surpasses": "To become greater or better than something or someone else.",
+      "tether": "A specific company that issues the stablecoin USDT, which is widely used in the crypto market.",
+      "landscape": "The overall situation or environment related to a particular activity or system.",
+      "highlights": "To draw special attention to something, making it more noticeable.",
+      "institutional": "Relating to a large and established organization, such as a bank or financial firm.",
+      "adoption": "The act of formally accepting or starting to use something new, like a technology or system.",
+      "digital": "Relating to information that is stored or transmitted as a series of numbers, especially using computer technology.",
+      "currencies": "Systems of money used in a particular country or region.",
+      "settlement": "The process of completing a financial transaction, typically by exchanging assets or funds.",
+      "spiked": "To increase suddenly and sharply, often in a graph or chart.",
+      "surge": "A sudden and powerful increase in something, like a volume or number.",
+      "mainstream": "The ideas, attitudes, or activities that are regarded as normal or conventional by most people.",
+      "acceptance": "The act of agreeing to receive or approve of something.",
+      "appeal": "The quality of being attractive or interesting to someone.",
+      "financial": "Relating to money, banking, or investments.",
+      "regulatory": "Relating to rules or laws that are made by an authority to control an activity.",
+      "compliance": "The act of obeying rules, laws, or requests.",
+      "transparency": "The quality of being open, honest, and easy to understand, without hidden information.",
+      "reshape": "To change the shape or form of something, or to change its nature or structure."
+    },
+    "questions": [
+      "What recent development indicates a significant shift in the stablecoin market according to the article?",
+      "The article mentions \"institutional adoption.\" Explain what this phrase means in the context of digital currencies and why it matters.",
+      "How might the increasing dominance of a regulated stablecoin like USDC impact the broader perception and acceptance of cryptocurrencies by traditional financial institutions?"
+    ],
+    "modelAnswers": [
+      "Circle's USDC stablecoin has recently surpassed Tether's USDT in trading volume, signaling a notable change in the competitive landscape.",
+      "\"Institutional adoption\" refers to large financial organizations like Wall Street banks starting to use digital currencies. It matters because it brings legitimacy, capital, and widespread use to the crypto market.",
+      "The increasing dominance of USDC could enhance trust and legitimacy for cryptocurrencies among traditional financial institutions. Its regulatory compliance may encourage more mainstream entities to participate, accelerating digital finance integration."
+    ]
+  },
+  {
+    "id": "cd-2026-07-07-2",
+    "date": "2026-07-07",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화 플랫폼 Securitize가 상장 후 대규모 자금으로 인수합병을 모색하며 성장을 가속화합니다.",
+    "url": "https://www.coindesk.com/business/2026/07/06/securitize-eyes-acquisitions-with-usd400-million-war-chest-after-going-public-ceo-says",
+    "title": "Securitize Plans Acquisitions Post-IPO for Tokenization Growth",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Securitize, a tokenization platform, recently went public on the NYSE. The company now possesses a significant $400 million war chest. CEO Carlos Domingo announced plans for strategic acquisitions. The goal is to expand its institutional tokenization platform. Securitize aims to strengthen its position in the market. This strategy focuses on growth rather than buying competitors directly. Tokenization involves converting real-world assets into digital tokens. It offers increased liquidity and transparency for various assets. This move highlights the growing importance of tokenization in finance. Such expansion could accelerate the adoption of digital assets. It also signals confidence in the future of regulated digital securities.",
+    "sentences": [
+      {
+        "en": "Securitize, a tokenization platform, recently went public on the NYSE.",
+        "ko": "토큰화 플랫폼인 Securitize가 최근 뉴욕 증권 거래소에 상장했습니다."
+      },
+      {
+        "en": "The company now possesses a significant $400 million war chest.",
+        "ko": "회사는 이제 4억 달러에 달하는 상당한 자금을 보유하고 있습니다."
+      },
+      {
+        "en": "CEO Carlos Domingo announced plans for strategic acquisitions.",
+        "ko": "카를로스 도밍고 CEO는 전략적 인수 계획을 발표했습니다."
+      },
+      {
+        "en": "The goal is to expand its institutional tokenization platform.",
+        "ko": "목표는 기관 토큰화 플랫폼을 확장하는 것입니다."
+      },
+      {
+        "en": "Securitize aims to strengthen its position in the market.",
+        "ko": "Securitize는 시장에서의 입지를 강화하고자 합니다."
+      },
+      {
+        "en": "This strategy focuses on growth rather than buying competitors directly.",
+        "ko": "이 전략은 경쟁사를 직접 인수하기보다는 성장에 중점을 둡니다."
+      },
+      {
+        "en": "Tokenization involves converting real-world assets into digital tokens.",
+        "ko": "토큰화는 실제 자산을 디지털 토큰으로 변환하는 것을 포함합니다."
+      },
+      {
+        "en": "It offers increased liquidity and transparency for various assets.",
+        "ko": "이는 다양한 자산에 대해 유동성과 투명성을 높여줍니다."
+      },
+      {
+        "en": "This move highlights the growing importance of tokenization in finance.",
+        "ko": "이러한 움직임은 금융에서 토큰화의 중요성이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "Such expansion could accelerate the adoption of digital assets.",
+        "ko": "이러한 확장은 디지털 자산의 채택을 가속화할 수 있습니다."
+      },
+      {
+        "en": "It also signals confidence in the future of regulated digital securities.",
+        "ko": "또한 규제된 디지털 증권의 미래에 대한 신뢰를 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "securitize": "The name of a company that specializes in converting assets into digital tokens.",
+      "tokenization": "The process of converting rights to an asset into a digital token on a blockchain.",
+      "platform": "A system or service that allows users to create, manage, and exchange digital assets.",
+      "public": "To offer shares of a company to the general public for the first time, usually on a stock exchange.",
+      "nyse": "An abbreviation for the New York Stock Exchange, a major stock market in the United States.",
+      "possesses": "To have or own something, like money or assets.",
+      "war": "A large sum of money saved for a particular purpose, often for business expansion or acquisitions.",
+      "chest": "A container, typically a strong box, used for storage. Here, it's used metaphorically to mean a large reserve of money.",
+      "ceo": "An abbreviation for Chief Executive Officer, the highest-ranking executive in a company.",
+      "announced": "To make something known publicly or officially.",
+      "strategic": "Relating to a plan of action designed to achieve a long-term or overall aim.",
+      "acquisitions": "The act of buying or taking control of another company or part of a company.",
+      "institutional": "Relating to large, established organizations like banks, funds, or corporations.",
+      "expand": "To make something larger or more extensive.",
+      "strengthen": "To make something stronger or more effective.",
+      "position": "The place or rank of someone or something in a competition or hierarchy.",
+      "competitors": "People or organizations that are trying to be more successful than others in the same field.",
+      "converting": "To change the form, character, or function of something.",
+      "real-world": "Existing or occurring in reality; not imaginary or theoretical.",
+      "assets": "Items of value owned by a person or company that can be converted into cash.",
+      "liquidity": "The ease with which an asset can be converted into cash without affecting its market price.",
+      "transparency": "The quality of being open, honest, and easy to understand.",
+      "highlights": "To draw special attention to something important.",
+      "securities": "Financial instruments that can be traded, such as stocks, bonds, or digital tokens representing ownership."
+    },
+    "questions": [
+      "What is Securitize's primary strategy for growth after going public, as mentioned by its CEO?",
+      "Define \"tokenization\" in your own words, based on the article's context, and explain one benefit it offers.",
+      "How might Securitize's expansion and focus on institutional tokenization contribute to the broader acceptance of digital assets in traditional finance?"
+    ],
+    "modelAnswers": [
+      "Securitize plans to use its $400 million war chest for strategic acquisitions to expand its institutional tokenization platform.",
+      "Tokenization is the process of transforming real-world assets into digital tokens on a blockchain. One benefit is increased liquidity, making assets easier to buy and sell.",
+      "By expanding its institutional tokenization platform, Securitize can facilitate the integration of digital assets into traditional financial systems. This could build trust and familiarity, leading to broader acceptance among established financial players."
+    ]
+  },
+  {
+    "id": "cd-2026-07-07-3",
+    "date": "2026-07-07",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "미국 정부가 비트코인 및 암호화폐 보유에 대한 최적의 구조를 모색하며 규제 논의가 진행 중입니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/06/bitcoin-s-u-s-reserve-still-a-work-in-progress-as-federal-agencies-hash-it-out",
+    "title": "U.S. Government Debates Bitcoin Reserve Structure",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. government is actively evaluating how to hold Bitcoin. They are also considering a separate stockpile for other crypto assets. The White House stated this federal fund is still a work-in-progress. Various federal agencies are currently debating the best structure. This discussion highlights ongoing efforts to integrate crypto into national policy. Establishing a federal reserve for Bitcoin could legitimize digital assets. It would also signal a long-term strategic interest in cryptocurrencies. Such a move might influence global regulatory frameworks significantly. Clarity on this issue is crucial for market stability and investor confidence. The outcome will shape the future of crypto regulation in the U.S.",
+    "sentences": [
+      {
+        "en": "The U.S. government is actively evaluating how to hold Bitcoin.",
+        "ko": "미국 정부는 비트코인 보유 방안을 적극적으로 평가하고 있습니다."
+      },
+      {
+        "en": "They are also considering a separate stockpile for other crypto assets.",
+        "ko": "또한 다른 암호화폐 자산을 위한 별도의 비축량도 고려하고 있습니다."
+      },
+      {
+        "en": "The White House stated this federal fund is still a work-in-progress.",
+        "ko": "백악관은 이 연방 기금이 아직 진행 중이라고 밝혔습니다."
+      },
+      {
+        "en": "Various federal agencies are currently debating the best structure.",
+        "ko": "다양한 연방 기관들이 최적의 구조에 대해 논의하고 있습니다."
+      },
+      {
+        "en": "This discussion highlights ongoing efforts to integrate crypto into national policy.",
+        "ko": "이 논의는 암호화폐를 국가 정책에 통합하려는 지속적인 노력을 강조합니다."
+      },
+      {
+        "en": "Establishing a federal reserve for Bitcoin could legitimize digital assets.",
+        "ko": "비트코인 연방 준비금을 설립하는 것은 디지털 자산을 합법화할 수 있습니다."
+      },
+      {
+        "en": "It would also signal a long-term strategic interest in cryptocurrencies.",
+        "ko": "이는 또한 암호화폐에 대한 장기적인 전략적 관심을 나타낼 것입니다."
+      },
+      {
+        "en": "Such a move might influence global regulatory frameworks significantly.",
+        "ko": "이러한 움직임은 전 세계 규제 프레임워크에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Clarity on this issue is crucial for market stability and investor confidence.",
+        "ko": "이 문제에 대한 명확성은 시장 안정성과 투자자 신뢰에 매우 중요합니다."
+      },
+      {
+        "en": "The outcome will shape the future of crypto regulation in the U.S.",
+        "ko": "그 결과는 미국 암호화폐 규제의 미래를 결정할 것입니다."
+      }
+    ],
+    "glossary": {
+      "government": "The system or group of people governing an organized community or state.",
+      "actively": "In a way that involves doing something rather than just thinking or observing.",
+      "evaluating": "To assess something to determine its worth, significance, or condition.",
+      "hold": "To keep or maintain possession of something, like an asset or funds.",
+      "bitcoin": "A decentralized digital currency, without a central bank or single administrator, that can be sent from user to user.",
+      "stockpile": "A large accumulation of something, typically held as a reserve.",
+      "crypto": "A short form for cryptocurrency, a digital currency in which transactions are verified and records maintained by a decentralized system.",
+      "assets": "Items of value owned by a person or company that can be converted into cash.",
+      "stated": "To express something definitely or clearly in speech or writing.",
+      "federal": "Relating to a central government rather than individual states.",
+      "fund": "A supply of money or other assets that is intended for a specific purpose.",
+      "work-in-progress": "A project or task that is not yet completed but is still being worked on.",
+      "agencies": "Government organizations that provide a specific service or function.",
+      "debating": "To discuss an issue, especially in a formal setting, with different opinions presented.",
+      "highlights": "To draw special attention to something important.",
+      "integrate": "To combine one thing with another so that they become a whole.",
+      "national": "Relating to a nation; common to or characteristic of a whole nation.",
+      "policy": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
+      "establishing": "To set up something on a firm or permanent basis.",
+      "legitimize": "To make something acceptable and valid, often by official approval.",
+      "strategic": "Relating to the identification of long-term or overall aims and interests.",
+      "influence": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+      "regulatory": "Relating to rules or laws that are made by an authority to control an activity.",
+      "frameworks": "A basic structure underlying a system, concept, or text."
+    },
+    "questions": [
+      "What two types of crypto assets is the U.S. government considering holding as a federal reserve?",
+      "The article mentions \"federal agencies are currently debating.\" What does this phrase imply about the current state of decision-making regarding crypto reserves?",
+      "In what ways could the U.S. government establishing a federal Bitcoin reserve impact global cryptocurrency markets and regulatory approaches in other countries?"
+    ],
+    "modelAnswers": [
+      "The U.S. government is considering holding Bitcoin and a separate stockpile of other crypto assets as a federal reserve.",
+      "This phrase implies that different government bodies have varying opinions and are discussing the optimal approach, indicating that a final decision has not yet been reached and the process is ongoing.",
+      "A U.S. federal Bitcoin reserve could significantly legitimize digital assets globally, encouraging other nations to explore similar strategies. It might also set a precedent for regulatory frameworks, influencing international standards for crypto integration."
+    ]
+  },
+  {
+    "id": "ec-2026-07-07-1",
+    "date": "2026-07-07",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "유럽중앙은행(ECB)이 인플레이션 대응을 위해 금리를 인상하며 경제에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/06/11/ecb-hikes-interest-rates.html",
+    "title": "ECB Raises Rates Amid Soaring Energy Costs",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The European Central Bank recently raised interest rates. This was the first rate hike since 2023. The decision came as energy prices increased significantly. Higher energy costs have been driving up inflation. The ECB aims to control these rising prices. Central banks typically raise rates to cool down an overheating economy. This makes borrowing more expensive for businesses and consumers. Such measures can slow economic growth. The ECB also revised its inflation forecasts upwards. Conversely, it lowered its outlook for economic growth. This indicates a challenging economic environment. The move highlights the ongoing battle against inflation. It also shows the delicate balance central banks must maintain.",
+    "sentences": [
+      {
+        "en": "The European Central Bank recently raised interest rates.",
+        "ko": "유럽중앙은행(ECB)은 최근 금리를 인상했습니다."
+      },
+      {
+        "en": "This was the first rate hike since 2023.",
+        "ko": "이는 2023년 이후 첫 금리 인상이었습니다."
+      },
+      {
+        "en": "The decision came as energy prices increased significantly.",
+        "ko": "이 결정은 에너지 가격이 크게 상승하면서 나왔습니다."
+      },
+      {
+        "en": "Higher energy costs have been driving up inflation.",
+        "ko": "더 높은 에너지 비용이 인플레이션을 부추겨왔습니다."
+      },
+      {
+        "en": "The ECB aims to control these rising prices.",
+        "ko": "ECB는 이러한 가격 상승을 통제하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Central banks typically raise rates to cool down an overheating economy.",
+        "ko": "중앙은행은 일반적으로 과열된 경제를 식히기 위해 금리를 인상합니다."
+      },
+      {
+        "en": "This makes borrowing more expensive for businesses and consumers.",
+        "ko": "이는 기업과 소비자에게 대출 비용을 더 비싸게 만듭니다."
+      },
+      {
+        "en": "Such measures can slow economic growth.",
+        "ko": "이러한 조치는 경제 성장을 둔화시킬 수 있습니다."
+      },
+      {
+        "en": "The ECB also revised its inflation forecasts upwards.",
+        "ko": "ECB는 또한 인플레이션 예측치를 상향 조정했습니다."
+      },
+      {
+        "en": "Conversely, it lowered its outlook for economic growth.",
+        "ko": "반대로, 경제 성장 전망은 하향 조정했습니다."
+      },
+      {
+        "en": "This indicates a challenging economic environment.",
+        "ko": "이는 어려운 경제 환경을 나타냅니다."
+      },
+      {
+        "en": "The move highlights the ongoing battle against inflation.",
+        "ko": "이러한 움직임은 인플레이션과의 지속적인 싸움을 강조합니다."
+      },
+      {
+        "en": "It also shows the delicate balance central banks must maintain.",
+        "ko": "또한 중앙은행이 유지해야 할 미묘한 균형을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "inflation": "A general increase in prices and a fall in the purchasing value of money.",
+      "borrowing": "Taking money with an agreement to pay it back, usually with interest.",
+      "revised": "Changed or updated, usually to make it more accurate.",
+      "forecasts": "Predictions or estimates about future economic conditions.",
+      "outlook": "The likely future situation or prospect for something.",
+      "maintain": "To keep something in its existing state or condition.",
+      "measures": "Official actions taken to achieve a particular aim.",
+      "consumers": "People who buy goods and services for their own use.",
+      "businesses": "Organizations that sell goods or services to make money.",
+      "typically": "In most cases, usually.",
+      "control": "To limit or manage something.",
+      "significant": "Large or important enough to have an effect.",
+      "challenging": "Difficult in an interesting or enjoyable way."
+    },
+    "questions": [
+      "Q1: What specific action did the European Central Bank take recently, and when was the last time they took such an action?",
+      "Q2: Explain the term \"overheating economy\" and how raising interest rates is intended to address it, based on the passage.",
+      "Q3: Do you think central banks should prioritize controlling inflation even if it means slowing economic growth? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: The European Central Bank recently raised interest rates, marking the first such rate hike since 2023.",
+      "A2: An \"overheating economy\" refers to an economy growing too quickly, which typically leads to high inflation. Raising interest rates is intended to cool it down by making borrowing more expensive, thereby reducing spending by businesses and consumers.",
+      "A3: It's a difficult trade-off, but controlling inflation is often crucial for long-term economic stability. While slowing growth can be painful in the short term, unchecked inflation erodes purchasing power and creates uncertainty, which can be more damaging in the long run."
+    ]
+  },
+  {
+    "id": "ec-2026-07-07-2",
+    "date": "2026-07-07",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "핀테크 거대 기업 클라르나(Klarna)가 미국 은행 면허를 추진하며 전통 은행 시스템으로 확장하려는 전략을 살펴보세요.",
+    "url": "https://www.cnbc.com/2026/07/06/klarna-seeks-us-bank-charter-in-push-beyond-buy-now-pay-later.html",
+    "title": "Fintech Giant Klarna Eyes US Bank Charter",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Klarna, a prominent fintech company, is now seeking a U.S. bank charter. This move represents a significant expansion beyond its core \"buy now, pay later\" (BNPL) services. By obtaining a bank charter, Klarna aims to offer a wider range of traditional banking products. This could include deposits, loans, and other financial services. The company is following a trend among fintech and crypto firms. Many are looking to integrate more deeply into the traditional banking system. A bank charter provides regulatory stability and broader operational capabilities. This allows Klarna to compete more directly with established banks. It also helps in diversifying its revenue streams. This strategic shift could reshape the competitive landscape. It highlights the evolving nature of the financial industry.",
+    "sentences": [
+      {
+        "en": "Klarna, a prominent fintech company, is now seeking a U.S. bank charter.",
+        "ko": "유명 핀테크 기업인 클라르나(Klarna)가 미국 은행 면허를 추진하고 있습니다."
+      },
+      {
+        "en": "This move represents a significant expansion beyond its core \"buy now, pay later\" (BNPL) services.",
+        "ko": "이러한 움직임은 핵심적인 '선구매 후결제'(BNPL) 서비스를 넘어선 중요한 확장입니다."
+      },
+      {
+        "en": "By obtaining a bank charter, Klarna aims to offer a wider range of traditional banking products.",
+        "ko": "은행 면허를 취득함으로써 클라르나는 더 넓은 범위의 전통적인 은행 상품을 제공하고자 합니다."
+      },
+      {
+        "en": "This could include deposits, loans, and other financial services.",
+        "ko": "여기에는 예금, 대출 및 기타 금융 서비스가 포함될 수 있습니다."
+      },
+      {
+        "en": "The company is following a trend among fintech and crypto firms.",
+        "ko": "이 회사는 핀테크 및 암호화폐 기업들 사이의 추세를 따르고 있습니다."
+      },
+      {
+        "en": "Many are looking to integrate more deeply into the traditional banking system.",
+        "ko": "많은 기업들이 전통적인 은행 시스템에 더 깊이 통합되기를 원합니다."
+      },
+      {
+        "en": "A bank charter provides regulatory stability and broader operational capabilities.",
+        "ko": "은행 면허는 규제 안정성과 더 넓은 운영 역량을 제공합니다."
+      },
+      {
+        "en": "This allows Klarna to compete more directly with established banks.",
+        "ko": "이를 통해 클라르나는 기존 은행들과 더 직접적으로 경쟁할 수 있습니다."
+      },
+      {
+        "en": "It also helps in diversifying its revenue streams.",
+        "ko": "또한 수익원을 다각화하는 데 도움이 됩니다."
+      },
+      {
+        "en": "This strategic shift could reshape the competitive landscape.",
+        "ko": "이러한 전략적 변화는 경쟁 환경을 재편할 수 있습니다."
+      },
+      {
+        "en": "It highlights the evolving nature of the financial industry.",
+        "ko": "이는 금융 산업의 진화하는 특성을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "prominent": "Important and well-known.",
+      "fintech": "Technology that aims to improve and automate the delivery and use of financial services.",
+      "significant": "Large or important enough to have an effect.",
+      "expansion": "The action of becoming larger or more extensive.",
+      "core": "The central or most important part of something.",
+      "deposits": "Money placed into a bank account.",
+      "loans": "Amounts of money borrowed that are expected to be paid back with interest.",
+      "integrate": "To combine one thing with another so that they become a whole.",
+      "diversifying": "Spreading investments or activities across different areas to reduce risk.",
+      "reshape": "To change the form or structure of something."
+    },
+    "questions": [
+      "Q1: What is Klarna's primary business model, and what new kind of license is it currently seeking?",
+      "Q2: According to the passage, what are two main benefits Klarna hopes to gain by obtaining a bank charter?",
+      "Q3: As a fintech PM, what do you think are the biggest opportunities and challenges for fintech firms seeking to enter traditional banking?"
+    ],
+    "modelAnswers": [
+      "A1: Klarna's primary business model is \"buy now, pay later\" (BNPL) services. It is currently seeking a U.S. bank charter.",
+      "A2: By obtaining a bank charter, Klarna hopes to offer a wider range of traditional banking products and gain regulatory stability and broader operational capabilities.",
+      "A3: Opportunities include accessing new revenue streams, building greater customer trust, and expanding product offerings. Challenges involve navigating complex regulations, competing with established banks, and integrating legacy systems with agile fintech solutions."
+    ]
+  },
+  {
+    "id": "ec-2026-07-07-3",
+    "date": "2026-07-07",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "중국이 일본에 대한 수출 규제를 확대하며 글로벌 무역 관계와 기술 공급망에 어떤 파급 효과를 가져올지 분석해 보세요.",
+    "url": "https://www.cnbc.com/2026/06/29/china-japan-export-controls-watch-list-defense-entities.html",
+    "title": "China Expands Export Curbs on Japan Firms",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China has recently expanded its export restrictions on Japanese companies. This move involves blacklisting several Japanese government defense research institutes. Additionally, dozens more Japanese firms face tightened export controls. The restrictions target sensitive sectors like drone makers and nuclear companies. This action reflects escalating geopolitical tensions between the two nations. It also highlights China's strategy to control critical technologies. Such export curbs can disrupt global supply chains. They force companies to reconsider their manufacturing and sourcing strategies. This could lead to increased costs and reduced efficiency for affected businesses. The decision emphasizes the ongoing trade friction. It suggests a growing trend of nations using economic tools for strategic advantage. This situation will likely have broader implications for international trade relations.",
+    "sentences": [
+      {
+        "en": "China has recently expanded its export restrictions on Japanese companies.",
+        "ko": "중국은 최근 일본 기업에 대한 수출 규제를 확대했습니다."
+      },
+      {
+        "en": "This move involves blacklisting several Japanese government defense research institutes.",
+        "ko": "이러한 움직임은 여러 일본 정부 국방 연구 기관을 블랙리스트에 올리는 것을 포함합니다."
+      },
+      {
+        "en": "Additionally, dozens more Japanese firms face tightened export controls.",
+        "ko": "또한, 수십 개의 일본 기업들이 강화된 수출 통제를 받게 됩니다."
+      },
+      {
+        "en": "The restrictions target sensitive sectors like drone makers and nuclear companies.",
+        "ko": "이러한 규제는 드론 제조업체 및 원자력 기업과 같은 민감한 부문을 겨냥합니다."
+      },
+      {
+        "en": "This action reflects escalating geopolitical tensions between the two nations.",
+        "ko": "이러한 조치는 양국 간의 고조되는 지정학적 긴장을 반영합니다."
+      },
+      {
+        "en": "It also highlights China's strategy to control critical technologies.",
+        "ko": "또한 핵심 기술을 통제하려는 중국의 전략을 강조합니다."
+      },
+      {
+        "en": "Such export curbs can disrupt global supply chains.",
+        "ko": "이러한 수출 규제는 글로벌 공급망을 교란할 수 있습니다."
+      },
+      {
+        "en": "They force companies to reconsider their manufacturing and sourcing strategies.",
+        "ko": "이는 기업들이 제조 및 조달 전략을 재고하도록 강요합니다."
+      },
+      {
+        "en": "This could lead to increased costs and reduced efficiency for affected businesses.",
+        "ko": "이는 영향을 받는 기업들에게 비용 증가와 효율성 감소를 초래할 수 있습니다."
+      },
+      {
+        "en": "The decision emphasizes the ongoing trade friction.",
+        "ko": "이 결정은 지속적인 무역 마찰을 강조합니다."
+      },
+      {
+        "en": "It suggests a growing trend of nations using economic tools for strategic advantage.",
+        "ko": "이는 국가들이 전략적 이점을 위해 경제적 도구를 사용하는 추세가 커지고 있음을 시사합니다."
+      },
+      {
+        "en": "This situation will likely have broader implications for international trade relations.",
+        "ko": "이러한 상황은 국제 무역 관계에 더 넓은 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "expanded": "Made larger or more extensive.",
+      "blacklisting": "Placing a person or company on a list of those to be avoided or punished.",
+      "tightened": "Made more strict or severe.",
+      "escalating": "Increasing rapidly in intensity or seriousness.",
+      "disrupt": "To interrupt an event, activity, or process by causing a problem.",
+      "efficiency": "The state of achieving maximum productivity with minimum wasted effort or expense.",
+      "implications": "The possible results or effects of an action or a decision."
+    },
+    "questions": [
+      "Q1: Which specific types of Japanese entities and sectors are being targeted by China's expanded export restrictions?",
+      "Q2: Based on the passage, explain how export curbs can impact global supply chains and affected businesses.",
+      "Q3: Do you believe countries are increasingly using economic tools, like export restrictions, for strategic advantage? What are the potential long-term consequences of this trend for global cooperation and trade?"
+    ],
+    "modelAnswers": [
+      "A1: China's expanded export restrictions are targeting several Japanese government defense research institutes and dozens of Japanese firms in sensitive sectors like drone makers and nuclear companies.",
+      "A2: Export curbs can disrupt global supply chains by forcing companies to reconsider their manufacturing and sourcing strategies. This can lead to increased costs and reduced efficiency for businesses affected by the restrictions.",
+      "A3: Yes, I believe countries are increasingly using economic tools for strategic advantage, as seen in this and other recent examples. The potential long-term consequences include a fragmentation of global trade, reduced international cooperation, and a less efficient global economy as countries prioritize national interests over free trade principles."
+    ]
+  },
+  {
     "id": "cd-2026-07-06-1",
     "date": "2026-07-06",
     "rank": 1,
