@@ -275,11 +275,16 @@
       margin-top: 10px; padding: 12px; border: 1px solid var(--amber-soft);
       background: #fffaf1; border-radius: 10px;
     }
-    .grade .grow { display: flex; align-items: baseline; gap: 10px; margin-bottom: 8px; }
-    .grade .gscore {
-      font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 22px; color: var(--amber);
+    .grade .gtop {
+      display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px;
+      padding-bottom: 10px; border-bottom: 1px solid var(--hair);
     }
-    .grade .gsum { font-size: 15px; color: var(--ink); line-height: 1.5; }
+    .grade .gscore {
+      font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 38px;
+      color: var(--amber); line-height: 1;
+    }
+    .grade .gscore-unit { font-size: 12px; color: var(--faint); letter-spacing: .04em; }
+    .grade .gsum { font-size: 15px; color: var(--ink); line-height: 1.5; margin-bottom: 8px; }
     .grade .gcorr { padding: 7px 0; border-top: 1px dashed var(--hair); font-size: 15px; }
     .grade .gbefore { color: #b23b3b; text-decoration: line-through; }
     .grade .garrow { color: var(--faint); }
@@ -500,8 +505,22 @@
           })
       : null;
 
-    // Merge remote state into local without losing anything the user collected offline.
-    function mergeWordbank(local, remote) { return { ...(remote || {}), ...(local || {}) }; }
+    // Merge remote state into local without losing anything the user collected
+    // offline. Keys are normalized to lowercase so the same word never survives
+    // twice under different casing; on a conflict the local value wins (keeps
+    // SRS progress made on this device), and an example is kept if either side
+    // has one.
+    function mergeWordbank(local, remote) {
+      const out = {};
+      const put = (k, v) => {
+        const key = String(k || "").toLowerCase().trim();
+        if (!key || !v) return;
+        out[key] = out[key] ? { ...out[key], ...v, example: out[key].example || v.example || "" } : v;
+      };
+      for (const [k, v] of Object.entries(remote || {})) put(k, v);
+      for (const [k, v] of Object.entries(local || {})) put(k, v); // local overrides remote
+      return out;
+    }
     function mergeReads(local, remote) { return { ...(remote || {}), ...(local || {}) }; }
     function pickStreak(local, remote) {
       const cl = (local && local.count) || 0, cr = (remote && remote.count) || 0;
@@ -588,7 +607,9 @@
       const [tab, setTab] = useState("today");
       const [openId, setOpenId] = useState(null);
 
-      const [wordbank, setWordbank] = useState(() => load(KEY.wordbank, {}));
+      // Normalize keys on load so any pre-existing case-variant duplicates
+      // (e.g. "Vanguard" and "vanguard") collapse into one right away.
+      const [wordbank, setWordbank] = useState(() => mergeWordbank(load(KEY.wordbank, {}), {}));
       const [reads, setReads] = useState(() => load(KEY.reads, {}));
       const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null }));
       const [toast, setToast] = useState(null);
@@ -701,11 +722,19 @@
       const addWords = useCallback((entries, articleId) => {
         setWordbank((prev) => {
           const next = { ...prev };
+          // Case-insensitive index so a word is never stored twice under
+          // different casing/spacing (e.g. "Vanguard" vs "vanguard").
+          const lcIndex = {};
+          for (const k of Object.keys(next)) lcIndex[k.toLowerCase()] = k;
           for (const { base, def, example } of entries) {
-            if (!next[base]) {
-              next[base] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "" };
-            } else if (example && !next[base].example) {
-              next[base] = { ...next[base], example }; // backfill an example onto an existing word
+            const norm = String(base || "").toLowerCase().trim();
+            if (!norm) continue;
+            const existing = lcIndex[norm];
+            if (!existing) {
+              next[norm] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "" };
+              lcIndex[norm] = norm;
+            } else if (example && !next[existing].example) {
+              next[existing] = { ...next[existing], example }; // backfill an example onto an existing word
             }
           }
           return next;
@@ -1241,10 +1270,11 @@
               />
               {g && !g.skipped && !g.error && (
                 <div className="grade">
-                  <div className="grow">
-                    <span className="gscore">{g.score}점</span>
-                    <span className="gsum">{g.summary}</span>
+                  <div className="gtop">
+                    <span className="gscore fraunces">{g.score}</span>
+                    <span className="gscore-unit mono">/ 100점</span>
                   </div>
+                  <div className="gsum">{g.summary}</div>
                   {(g.corrections || []).map((c, ci) => (
                     <div className="gcorr" key={ci}>
                       <div><span className="gbefore">{c.before}</span> <span className="garrow">→</span> <span className="gafter">{c.after}</span></div>
