@@ -474,6 +474,25 @@
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; z-index: 50;
       box-shadow: 0 8px 24px rgba(0,0,0,.2);
     }
+    /* Bottom-sheet confirm modal */
+    .sheet-backdrop {
+      position: fixed; inset: 0; background: rgba(0,0,0,.42); z-index: 70;
+      display: flex; align-items: flex-end; justify-content: center;
+      animation: fadeIn .15s ease;
+    }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    .sheet {
+      width: 100%; max-width: 480px; background: var(--card);
+      border-radius: 20px 20px 0 0; padding: 12px 20px calc(22px + env(safe-area-inset-bottom));
+      box-shadow: 0 -10px 34px rgba(0,0,0,.22); animation: sheetUp .22s ease;
+    }
+    @keyframes sheetUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+    .sheet-grip { width: 40px; height: 4px; border-radius: 2px; background: var(--hair); margin: 0 auto 16px; }
+    .sheet-title { font-size: 19px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+    .sheet-desc { font-size: 14px; color: var(--muted); line-height: 1.55; margin-bottom: 18px; }
+    .sheet-actions { display: flex; gap: 10px; }
+    .sheet-actions .btn { flex: 1; width: auto; }
+    .btn.danger { background: #b23b3b; color: #fff; }
   </style>
 </head>
 <body>
@@ -485,7 +504,7 @@
     /* ------------------------------------------------------------------ */
     /* Storage helpers (localStorage, prefix dbw:)                         */
     /* ------------------------------------------------------------------ */
-    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks" };
+    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks", writing: "dbw:writing" };
 
     /* Optional backend: Supabase (sync) + /api/grade (AI grading). If SUPABASE_URL
        is empty the client is null and the app stays fully local. */
@@ -1215,12 +1234,39 @@
       const qs = pack.questions || [];
       const ans = pack.modelAnswers || [];
       const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
-      const [inputs, setInputs] = useState(qs.map(() => ""));
-      const [revealed, setRevealed] = useState(false);
-      const [grades, setGrades] = useState({}); // idx -> result | {error} | {skipped}
+      // Restore any answers + AI feedback saved for this article so they survive
+      // leaving and re-opening the page (kept per pack id in localStorage).
+      const initRef = useRef(null);
+      if (initRef.current === null) initRef.current = (load(KEY.writing, {})[pack.id]) || {};
+      const stored = initRef.current;
+      const [inputs, setInputs] = useState(() => qs.map((_, i) => (stored.inputs && stored.inputs[i]) || ""));
+      const [revealed, setRevealed] = useState(() => !!stored.revealed);
+      const [grades, setGrades] = useState(() => stored.grades || {}); // idx -> result | {error} | {skipped}
       const [grading, setGrading] = useState(false);
+      const [confirmReset, setConfirmReset] = useState(false);
 
       const endpoint = (window.DBW_CONFIG || {}).GRADE_ENDPOINT;
+
+      // Persist answers + grades per pack so they aren't lost on navigation.
+      useEffect(() => {
+        const all = load(KEY.writing, {});
+        const hasContent = inputs.some((v) => v && v.trim()) || Object.keys(grades).length > 0 || revealed;
+        if (hasContent) all[pack.id] = { inputs, grades, revealed };
+        else delete all[pack.id];
+        save(KEY.writing, all);
+      }, [inputs, grades, revealed, pack.id]);
+
+      const doReset = () => {
+        setInputs(qs.map(() => ""));
+        setGrades({});
+        setRevealed(false);
+        setConfirmReset(false);
+        const all = load(KEY.writing, {});
+        delete all[pack.id];
+        save(KEY.writing, all);
+        showToast("작성 내용을 지웠어요");
+      };
+      const hasWork = inputs.some((v) => v && v.trim()) || Object.keys(grades).length > 0;
 
       const copyMine = () => {
         const text = qs.map((q, i) => `Q${i + 1}. ${q}\nMy answer: ${inputs[i] || "(빈칸)"}`).join("\n\n");
@@ -1303,7 +1349,24 @@
             <button className="btn ghost" onClick={() => setRevealed(true)}>
               {revealed ? "모범답안 표시됨" : "모범답안 보기"}
             </button>
+            {hasWork && (
+              <button className="btn ghost" onClick={() => setConfirmReset(true)}>다시 작성하기</button>
+            )}
           </div>
+
+          {confirmReset && (
+            <div className="sheet-backdrop" onClick={() => setConfirmReset(false)}>
+              <div className="sheet" onClick={(e) => e.stopPropagation()}>
+                <div className="sheet-grip" />
+                <div className="sheet-title fraunces">작성한 내용을 지울까요?</div>
+                <div className="sheet-desc">내 답변과 AI 첨삭 내용이 모두 삭제됩니다.</div>
+                <div className="sheet-actions">
+                  <button className="btn ghost" onClick={() => setConfirmReset(false)}>취소</button>
+                  <button className="btn danger" onClick={doReset}>확인</button>
+                </div>
+              </div>
+            </div>
+          )}
         </React.Fragment>
       );
     }
