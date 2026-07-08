@@ -437,16 +437,14 @@
     }
     .wcard.review { border-color: #e7d3ad; background: #fffdf6; }
     .wcard.mastered { border-color: var(--good); background: #f4faf6; }
-    .wcard .learntoggle {
-      border: 1px solid var(--hair); background: none; border-radius: 999px;
-      padding: 3px 10px; font-size: 11px; cursor: pointer; color: var(--muted);
-      font-family: "IBM Plex Mono", "Pretendard", monospace;
-    }
-    .wcard .learntoggle.due { background: var(--amber); color: #fff; border-color: var(--amber); font-weight: 600; }
     .wcard .stagenote {
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px; color: var(--faint);
     }
     .wcard .stagenote.done { color: var(--good); }
+    .wcard .stagenote.due {
+      color: #8a5a12; background: var(--amber-soft); border-radius: 999px;
+      padding: 2px 8px; font-weight: 600;
+    }
 
     .empty {
       text-align: center; color: var(--faint); padding: 40px 20px; white-space: pre-line;
@@ -578,6 +576,11 @@
       return Math.round((db - da) / 86400000);
     }
 
+    // Spaced-repetition timing (days).
+    const REVIEW_DUE_DAYS = 3;   // 복습중 → becomes due for the 복습하기 session
+    const REVIEW_MAX_DAYS = 7;   // 복습중 not reviewed by now → reverts to 미암기
+    const MASTERED_TTL_DAYS = 7; // 장기완료 → auto-removed after this
+
     /* ------------------------------------------------------------------ */
     /* Lemma / word-form normalization for glossary lookup                 */
     /* ------------------------------------------------------------------ */
@@ -697,16 +700,23 @@
         return () => saveTimer.current && clearTimeout(saveTimer.current);
       }, [wordbank, reads, streak, session]);
 
-      // Once on load: drop mastered words that have sat in "장기완료" for 7+ days.
+      // Once on load: (1) drop mastered words sat in "장기완료" past their TTL,
+      // and (2) revert "복습중" words that were never reviewed in time back to
+      // "미암기" so an unreviewed word doesn't stay stuck in review forever.
       useEffect(() => {
         setWordbank((prev) => {
           const today = kstToday();
           const next = {};
           let changed = false;
           for (const [w, v] of Object.entries(prev)) {
-            if ((v.stage || (v.learned ? "review" : "new")) === "mastered" &&
-                v.masteredSince && daysBetween(v.masteredSince, today) >= 7) {
+            const stage = v.stage || (v.learned ? "review" : "new");
+            if (stage === "mastered" && v.masteredSince && daysBetween(v.masteredSince, today) >= MASTERED_TTL_DAYS) {
               changed = true; continue; // expired → remove
+            }
+            if (stage === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_MAX_DAYS) {
+              const { reviewSince, ...rest } = v;
+              next[w] = { ...rest, stage: "new", learned: false }; // not reviewed in time → 미암기
+              changed = true; continue;
             }
             next[w] = v;
           }
@@ -1411,6 +1421,7 @@
       const [filter, setFilter] = useState("all"); // all | new | review | mastered
       const [flipped, setFlipped] = useState({});
       const [studying, setStudying] = useState(false);
+      const [studyMode, setStudyMode] = useState("new"); // "new" (미암기) | "review" (복습)
       const [deck, setDeck] = useState([]);
       const [idx, setIdx] = useState(0);
       const [cardFlip, setCardFlip] = useState(false);
@@ -1432,7 +1443,7 @@
         }));
       }, []);
 
-      const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= 3;
+      const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_DUE_DAYS;
 
       const entries = useMemo(() => {
         return Object.entries(wordbank)
@@ -1450,7 +1461,14 @@
       const counts = { new: 0, review: 0, mastered: 0 };
       Object.values(wordbank).forEach((v) => { counts[stageOf(v)]++; });
 
-      // Flashcard study pool = 미암기(new) words only, regardless of the grid filter.
+      // Study pool = 미암기(new) words; review pool = 복습중 words that are now due.
+      const toCard = (word, v) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" });
+      const reviewPool = useMemo(
+        () => Object.entries(wordbank)
+          .filter(([, v]) => reviewDue(v))
+          .map(([word, v]) => toCard(word, v)),
+        [wordbank, today]
+      );
       const newPool = useMemo(
         () => Object.entries(wordbank)
           .filter(([, v]) => stageOf(v) === "new")
@@ -1462,8 +1480,6 @@
         ev && ev.stopPropagation();
         setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], ...p } }));
       };
-      const toReview = (word, ev) => patch(word, { stage: "review", reviewSince: today, learned: true }, ev);
-      const toMastered = (word, ev) => patch(word, { stage: "mastered", masteredSince: today }, ev);
       const removeWord = (word, ev) => {
         ev.stopPropagation();
         if (!window.confirm(`"${word}" 단어를 단어장에서 삭제할까요?`)) return;
@@ -1480,23 +1496,26 @@
         }
         return a;
       };
-      const startStudy = () => {
-        if (!newPool.length) return;
-        const d = shuffle(newPool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
-        setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
+      const startStudy = (mode = "new") => {
+        const pool = mode === "review" ? reviewPool : newPool;
+        if (!pool.length) return;
+        const d = shuffle(pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
+        setStudyMode(mode); setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
       const advance = () => { setCardFlip(false); setIdx((i) => i + 1); };
-      // "알아요" → advance the word one SRS stage (미암기→복습중→장기완료).
+      // "알아요" → advance one SRS stage.
+      //   미암기 session: 미암기 → 복습중.   복습 session: 복습중 → 장기완료.
       const know = () => {
         const w = deck[idx].word;
-        const st = stageOf(wordbank[w] || {});
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: false }]);
-        if (st === "new") patch(w, { stage: "review", reviewSince: today, learned: true });
-        else if (st === "review") patch(w, { stage: "mastered", masteredSince: today });
+        if (studyMode === "review") patch(w, { stage: "mastered", masteredSince: today, reviewSince: undefined });
+        else patch(w, { stage: "review", reviewSince: today, learned: true });
         advance();
       };
-      // "몰라요" → keep the stage, mark for the repeat round.
+      // "몰라요" → keep the stage, just repeat this round. A 복습중 word that's
+      // never successfully reviewed reverts to 미암기 on its own via the
+      // time-based sweep (REVIEW_MAX_DAYS), not from a single wrong answer.
       const dontKnow = () => {
         const w = deck[idx].word;
         const wasIn = missed.includes(w);
@@ -1592,16 +1611,16 @@
         { id: "mastered", label: `완료 ${counts.mastered}` },
       ];
 
+      // Grid cards show status only — memorizing/reviewing happens in the
+      // 단어 외우기 / 복습하기 sessions, not per word.
       const actionFor = (e) => {
-        if (e.stage === "new")
-          return <button className="learntoggle" onClick={(ev) => toReview(e.word, ev)}>암기</button>;
+        if (e.stage === "new") return <span className="stagenote">미암기</span>;
         if (e.stage === "review") {
-          if (reviewDue(e))
-            return <button className="learntoggle due" onClick={(ev) => toMastered(e.word, ev)}>복습하기</button>;
-          const d = Math.max(1, 3 - daysBetween(e.reviewSince || today, today));
+          if (reviewDue(e)) return <span className="stagenote due">복습 가능</span>;
+          const d = Math.max(1, REVIEW_DUE_DAYS - daysBetween(e.reviewSince || today, today));
           return <span className="stagenote">복습 D-{d}</span>;
         }
-        const left = Math.max(0, 7 - daysBetween(e.masteredSince || today, today));
+        const left = Math.max(0, MASTERED_TTL_DAYS - daysBetween(e.masteredSince || today, today));
         return <span className="stagenote done">완료 · 삭제 D-{left}</span>;
       };
 
@@ -1654,7 +1673,7 @@
           <React.Fragment>
             <div className="studyhead mono">
               <button className="chip" onClick={undo} disabled={!history.length} title="방금 넘긴 카드로 돌아가기">← 되돌리기</button>
-              <span>단어 외우기 · {idx + 1} / {deck.length}</span>
+              <span>{studyMode === "review" ? "복습하기" : "단어 외우기"} · {idx + 1} / {deck.length}</span>
               <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
             </div>
             <div className={"flashcard" + (cardFlip ? " flipped" : "") + (dragX > SWIPE_TH ? " yes" : dragX < -SWIPE_TH ? " no" : "")}
@@ -1697,9 +1716,14 @@
           </div>
 
           {total > 0 && (
-            <button className="btn primary studybtn" onClick={startStudy} disabled={!newPool.length}>
-              🎴 단어 외우기 · 미암기 {newPool.length}개
-            </button>
+            <React.Fragment>
+              <button className="btn primary studybtn" onClick={() => startStudy("new")} disabled={!newPool.length}>
+                🎴 단어 외우기 · 미암기 {newPool.length}개
+              </button>
+              <button className="btn ghost studybtn" onClick={() => startStudy("review")} disabled={!reviewPool.length}>
+                🔁 복습하기 · 복습 {reviewPool.length}개
+              </button>
+            </React.Fragment>
           )}
 
           <div className="toolbar">
