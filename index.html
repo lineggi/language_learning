@@ -332,6 +332,7 @@
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; letter-spacing: .06em;
     }
     .chip.active { background: var(--amber-soft); color: #8a5a12; border-color: var(--amber-soft); }
+    .chip:disabled { opacity: .38; cursor: not-allowed; }
 
     .streak {
       display: flex; align-items: center; justify-content: space-between;
@@ -1414,6 +1415,7 @@
       const [idx, setIdx] = useState(0);
       const [cardFlip, setCardFlip] = useState(false);
       const [missed, setMissed] = useState([]);
+      const [history, setHistory] = useState([]); // for undoing an accidental swipe
       const [dragX, setDragX] = useState(0);
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
@@ -1481,7 +1483,7 @@
       const startStudy = () => {
         if (!newPool.length) return;
         const d = shuffle(newPool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
-        setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setStudying(true);
+        setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
       const advance = () => { setCardFlip(false); setIdx((i) => i + 1); };
@@ -1489,6 +1491,7 @@
       const know = () => {
         const w = deck[idx].word;
         const st = stageOf(wordbank[w] || {});
+        setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: false }]);
         if (st === "new") patch(w, { stage: "review", reviewSince: today, learned: true });
         else if (st === "review") patch(w, { stage: "mastered", masteredSince: today });
         advance();
@@ -1496,12 +1499,28 @@
       // "몰라요" → keep the stage, mark for the repeat round.
       const dontKnow = () => {
         const w = deck[idx].word;
-        setMissed((m) => (m.includes(w) ? m : [...m, w]));
+        const wasIn = missed.includes(w);
+        setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: !wasIn }]);
+        setMissed((m) => (wasIn ? m : [...m, w]));
         advance();
+      };
+      // Undo the last swipe: step back a card and revert its SRS change.
+      const undo = () => {
+        if (!history.length) return;
+        const last = history[history.length - 1];
+        setHistory((h) => h.slice(0, -1));
+        setWordbank((prev) => {
+          const n = { ...prev };
+          if (last.prevEntry) n[last.word] = last.prevEntry; else delete n[last.word];
+          return n;
+        });
+        if (last.addedToMissed) setMissed((m) => m.filter((x) => x !== last.word));
+        setIdx((i) => Math.max(0, i - 1));
+        setCardFlip(false); setDragX(0);
       };
       const restartMissed = () => {
         const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "", example: (wordbank[w] || {}).example || "", meaningKo: (wordbank[w] || {}).meaningKo || "" })));
-        setDeck(d); setMissed([]); setIdx(0); setCardFlip(false);
+        setDeck(d); setMissed([]); setHistory([]); setIdx(0); setCardFlip(false);
       };
 
       // Backfill a missing example AND Korean gloss for the current study card
@@ -1594,6 +1613,7 @@
           return (
             <React.Fragment>
               <div className="studyhead mono">
+                <button className="chip" onClick={undo} disabled={!history.length} title="방금 넘긴 카드로 돌아가기">← 되돌리기</button>
                 <span>라운드 완료</span>
                 <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
               </div>
@@ -1633,6 +1653,7 @@
         return (
           <React.Fragment>
             <div className="studyhead mono">
+              <button className="chip" onClick={undo} disabled={!history.length} title="방금 넘긴 카드로 돌아가기">← 되돌리기</button>
               <span>단어 외우기 · {idx + 1} / {deck.length}</span>
               <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
             </div>
