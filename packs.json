@@ -1,5 +1,562 @@
 [
   {
+    "id": "cd-2026-07-10-1",
+    "date": "2026-07-10",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "뉴햄프셔주가 비트코인 채권 발행 계획을 철회했습니다. 규제 환경이 토큰화 프로젝트에 어떤 영향을 미치는지 살펴보세요.",
+    "url": "https://www.coindesk.com/policy/2026/07/09/new-hampshire-snuffs-out-trailblazing-bitcoin-municipal-bond-effort",
+    "title": "New Hampshire Rejects Pioneering Bitcoin State Bond",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "New Hampshire recently rejected a plan to issue state bonds denominated in Bitcoin. This pioneering effort aimed to allow investors to buy government debt using the cryptocurrency. The state's executive council voted 3-2 against the proposal, effectively ending the initiative. Supporters believed it would attract new investors and showcase innovation in public finance. Opponents raised concerns about Bitcoin's volatility and regulatory uncertainties. This decision highlights the ongoing challenges for integrating digital assets into traditional financial systems. It also underscores the cautious approach many governments take towards novel crypto applications. For fintech product managers, this case illustrates real-world regulatory hurdles for tokenization projects. Understanding such rejections is crucial for developing compliant and successful blockchain solutions. The outcome reflects a broader debate on balancing innovation with financial stability and investor protection.",
+    "sentences": [
+      {
+        "en": "New Hampshire recently rejected a plan to issue state bonds denominated in Bitcoin.",
+        "ko": "뉴햄프셔주는 최근 비트코인으로 표시되는 주 채권 발행 계획을 거부했습니다."
+      },
+      {
+        "en": "This pioneering effort aimed to allow investors to buy government debt using the cryptocurrency.",
+        "ko": "이 선구적인 노력은 투자자들이 암호화폐를 사용하여 정부 부채를 구매할 수 있도록 하는 것을 목표로 했습니다."
+      },
+      {
+        "en": "The state's executive council voted 3-2 against the proposal, effectively ending the initiative.",
+        "ko": "주 행정 위원회는 이 제안에 대해 3대 2로 반대표를 던져, 이 계획을 사실상 종료시켰습니다."
+      },
+      {
+        "en": "Supporters believed it would attract new investors and showcase innovation in public finance.",
+        "ko": "지지자들은 이것이 새로운 투자자들을 유치하고 공공 금융의 혁신을 보여줄 것이라고 믿었습니다."
+      },
+      {
+        "en": "Opponents raised concerns about Bitcoin's volatility and regulatory uncertainties.",
+        "ko": "반대자들은 비트코인의 변동성과 규제 불확실성에 대한 우려를 제기했습니다."
+      },
+      {
+        "en": "This decision highlights the ongoing challenges for integrating digital assets into traditional financial systems.",
+        "ko": "이 결정은 디지털 자산을 전통 금융 시스템에 통합하는 데 있어 지속적인 과제를 부각합니다."
+      },
+      {
+        "en": "It also underscores the cautious approach many governments take towards novel crypto applications.",
+        "ko": "또한 많은 정부가 새로운 암호화폐 애플리케이션에 대해 취하는 신중한 접근 방식을 강조합니다."
+      },
+      {
+        "en": "For fintech product managers, this case illustrates real-world regulatory hurdles for tokenization projects.",
+        "ko": "핀테크 제품 관리자에게 이 사례는 토큰화 프로젝트의 실제 규제 장애물을 보여줍니다."
+      },
+      {
+        "en": "Understanding such rejections is crucial for developing compliant and successful blockchain solutions.",
+        "ko": "이러한 거부 사례를 이해하는 것은 규정을 준수하고 성공적인 블록체인 솔루션을 개발하는 데 중요합니다."
+      },
+      {
+        "en": "The outcome reflects a broader debate on balancing innovation with financial stability and investor protection.",
+        "ko": "그 결과는 혁신과 금융 안정성, 투자자 보호 사이의 균형에 대한 더 넓은 논쟁을 반영합니다."
+      }
+    ],
+    "glossary": {
+      "rejected": "refused to accept or approve something that was proposed.",
+      "issue": "to officially make something available, like a bond or a statement.",
+      "denominated": "expressed in a specific unit of currency or value.",
+      "pioneering": "being among the first to do something new and important.",
+      "aimed": "intended or directed towards a particular goal.",
+      "debt": "an amount of money that is owed to someone.",
+      "executive": "relating to the part of a government responsible for putting laws into effect.",
+      "council": "a group of people chosen to make rules, laws, or decisions.",
+      "proposal": "a formal suggestion or plan that is presented for consideration.",
+      "effectively": "in a way that produces a desired result, or in practice.",
+      "initiative": "a new plan or process to achieve something.",
+      "attract": "to make someone interested in something and want to be involved.",
+      "showcase": "to present something in an impressive way to show its best qualities.",
+      "innovation": "the introduction of new ideas, methods, or devices.",
+      "volatility": "the quality of being likely to change suddenly and unexpectedly.",
+      "uncertainties": "situations where something is not known or fixed.",
+      "integrating": "combining different things so they work together as one.",
+      "traditional": "following long-established customs or practices.",
+      "underscores": "emphasizes the importance of something.",
+      "cautious": "careful to avoid potential problems or dangers.",
+      "novel": "new and unusual, often in an interesting way.",
+      "hurdles": "difficulties or obstacles that prevent progress.",
+      "compliant": "following rules or standards.",
+      "outcome": "the result or effect of an action or event."
+    },
+    "questions": [
+      "Q1: What was the main reason the New Hampshire executive council rejected the bitcoin bond proposal?",
+      "Q2: In the context of the article, what does \"pioneering effort\" mean for the bitcoin bond project, and why might it face \"regulatory uncertainties\"?",
+      "Q3: How might this decision influence other states or countries considering similar tokenized government bonds, and what lessons can fintech PMs draw from it?"
+    ],
+    "modelAnswers": [
+      "A1: The New Hampshire executive council rejected the bitcoin bond proposal due to concerns about Bitcoin's volatility and general regulatory uncertainties surrounding digital assets.",
+      "A2: \"Pioneering effort\" refers to the project being one of the first of its kind, attempting a novel approach to public finance. It might face \"regulatory uncertainties\" because existing laws and frameworks often don't clearly address new digital asset applications.",
+      "A3: This decision might make other governments more cautious about tokenized bonds, encouraging them to wait for clearer regulatory guidance. Fintech PMs should learn that even innovative projects need strong regulatory alignment and clear risk mitigation strategies to succeed."
+    ]
+  },
+  {
+    "id": "cd-2026-07-10-2",
+    "date": "2026-07-10",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 암호화폐 시장 구조 법안의 새 버전이 곧 공개될 예정입니다. 규제 명확성이 시장에 어떤 변화를 가져올지 주목하세요.",
+    "url": "https://www.coindesk.com/policy/2026/07/09/newest-version-of-crypto-clarity-act-may-drop-as-soon-as-next-week-sources-say",
+    "title": "New Crypto Clarity Act Draft Expected Soon",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A new version of the U.S. crypto market structure bill, the \"Clarity Act,\" is anticipated soon. This legislation aims to provide much-needed regulatory clarity for the digital asset industry. Insiders suggest a new draft could emerge as early as next week. This push indicates a final effort for action by late July. However, the bill still reportedly lacks sufficient bipartisan support. This lack of consensus could hinder its passage through Congress. The crypto industry has long called for clear rules to foster innovation and protect investors. A comprehensive framework would define which assets are securities and which are commodities. Such clarity is vital for exchanges, stablecoin issuers, and other crypto businesses. For product managers, understanding this evolving regulatory landscape is critical. It directly impacts product development, compliance strategies, and market entry.",
+    "sentences": [
+      {
+        "en": "A new version of the U.S. crypto market structure bill, the \"Clarity Act,\" is anticipated soon.",
+        "ko": "미국 암호화폐 시장 구조 법안인 '명확성 법안'의 새 버전이 곧 나올 것으로 예상됩니다."
+      },
+      {
+        "en": "This legislation aims to provide much-needed regulatory clarity for the digital asset industry.",
+        "ko": "이 법안은 디지털 자산 산업에 절실히 필요한 규제 명확성을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Insiders suggest a new draft could emerge as early as next week.",
+        "ko": "내부자들은 다음 주 초에 새 초안이 나올 수 있다고 제안합니다."
+      },
+      {
+        "en": "This push indicates a final effort for action by late July.",
+        "ko": "이러한 추진은 7월 말까지 조치를 취하려는 마지막 노력을 시사합니다."
+      },
+      {
+        "en": "However, the bill still reportedly lacks sufficient bipartisan support.",
+        "ko": "하지만 이 법안은 여전히 충분한 초당적 지지를 받지 못하고 있다고 전해집니다."
+      },
+      {
+        "en": "This lack of consensus could hinder its passage through Congress.",
+        "ko": "이러한 합의 부족은 의회를 통한 법안 통과를 방해할 수 있습니다."
+      },
+      {
+        "en": "The crypto industry has long called for clear rules to foster innovation and protect investors.",
+        "ko": "암호화폐 산업은 혁신을 촉진하고 투자자를 보호하기 위한 명확한 규칙을 오랫동안 요구해 왔습니다."
+      },
+      {
+        "en": "A comprehensive framework would define which assets are securities and which are commodities.",
+        "ko": "포괄적인 프레임워크는 어떤 자산이 증권이고 어떤 자산이 상품인지 정의할 것입니다."
+      },
+      {
+        "en": "Such clarity is vital for exchanges, stablecoin issuers, and other crypto businesses.",
+        "ko": "이러한 명확성은 거래소, 스테이블코인 발행자 및 기타 암호화폐 사업에 매우 중요합니다."
+      },
+      {
+        "en": "For product managers, understanding this evolving regulatory landscape is critical.",
+        "ko": "제품 관리자에게는 이렇게 변화하는 규제 환경을 이해하는 것이 중요합니다."
+      },
+      {
+        "en": "It directly impacts product development, compliance strategies, and market entry.",
+        "ko": "이는 제품 개발, 규정 준수 전략 및 시장 진입에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "anticipated": "expected to happen.",
+      "legislation": "a law or set of laws made by a government.",
+      "aims": "intends or plans to achieve something.",
+      "regulatory": "relating to an official rule or law that controls how something is done.",
+      "clarity": "the quality of being easy to understand; clearness.",
+      "industry": "the group of businesses that produce a particular type of goods or services.",
+      "insiders": "people who have special knowledge about a company or organization.",
+      "emerge": "to appear or become known.",
+      "push": "a strong effort to achieve something.",
+      "indicates": "shows or points out something.",
+      "effort": "physical or mental activity needed to achieve something.",
+      "reportedly": "according to what some people say, though not necessarily proven.",
+      "sufficient": "enough for a particular purpose.",
+      "bipartisan": "involving two political parties.",
+      "consensus": "general agreement among a group of people.",
+      "hinder": "to make it difficult for someone to do something or for something to happen.",
+      "passage": "the process of being approved by a parliament or congress.",
+      "foster": "to encourage the development or growth of something.",
+      "comprehensive": "including or dealing with all or nearly all elements or aspects of something.",
+      "framework": "a basic structure underlying a system, concept, or text.",
+      "define": "to state or describe exactly the nature, scope, or meaning of something.",
+      "securities": "financial instruments that can be traded, such as stocks and bonds.",
+      "commodities": "raw materials or primary agricultural products that can be bought and sold.",
+      "vital": "absolutely necessary or important."
+    },
+    "questions": [
+      "Q1: What is the primary goal of the \"Clarity Act\" concerning the crypto market?",
+      "Q2: Explain what \"bipartisan support\" means in the context of this bill and why its absence could \"hinder its passage.\"",
+      "Q3: As a fintech PM, how would the eventual passage of a clear regulatory framework, like the Clarity Act, impact your approach to developing new crypto products or services?"
+    ],
+    "modelAnswers": [
+      "A1: The primary goal of the \"Clarity Act\" is to provide much-needed regulatory clarity for the digital asset industry, helping define which assets are securities and which are commodities.",
+      "A2: \"Bipartisan support\" means that both major political parties agree on and back the bill. Its absence could \"hinder its passage\" because it would struggle to gain enough votes to become law without agreement from both sides.",
+      "A3: A clear regulatory framework would significantly streamline product development by reducing legal uncertainties. It would allow me to design compliant products more efficiently, understand market boundaries better, and potentially accelerate market entry for new services."
+    ]
+  },
+  {
+    "id": "cd-2026-07-10-3",
+    "date": "2026-07-10",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "SWIFT가 17개 글로벌 은행과 함께 블록체인 기반 결제 시스템을 시범 운영합니다. 토큰화된 자산의 미래를 엿보세요.",
+    "url": "https://www.coindesk.com/business/2026/07/09/swift-rolls-out-24-7-blockchain-payment-systems-with-17-global-banks-across-six-continents",
+    "title": "SWIFT Pilots Blockchain for Tokenized Assets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "SWIFT is launching a new blockchain ledger for 24/7 banking operations. This initiative involves 17 global banks, including HSBC, UBS, and Citi. They are preparing to pilot live transactions using tokenized digital assets. The new platform aims to revolutionize international payments and settlements. It will enable faster, more efficient, and always-available financial services. This move signifies a major step towards integrating blockchain into mainstream finance. It highlights the growing interest of traditional financial institutions in tokenization. For product managers, this development offers significant insights into future payment systems. It suggests a world where tokenized assets are seamlessly transferred across borders. Understanding SWIFT's role in this evolution is crucial for fintech professionals. This pilot could pave the way for widespread adoption of digital asset infrastructure.",
+    "sentences": [
+      {
+        "en": "SWIFT is launching a new blockchain ledger for 24/7 banking operations.",
+        "ko": "SWIFT는 24시간 연중무휴 은행 업무를 위한 새로운 블록체인 원장을 출시합니다."
+      },
+      {
+        "en": "This initiative involves 17 global banks, including HSBC, UBS, and Citi.",
+        "ko": "이 이니셔티브에는 HSBC, UBS, 씨티를 포함한 17개 글로벌 은행이 참여합니다."
+      },
+      {
+        "en": "They are preparing to pilot live transactions using tokenized digital assets.",
+        "ko": "이들은 토큰화된 디지털 자산을 사용하여 실제 거래를 시범 운영할 준비를 하고 있습니다."
+      },
+      {
+        "en": "The new platform aims to revolutionize international payments and settlements.",
+        "ko": "새로운 플랫폼은 국제 결제 및 정산을 혁신하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It will enable faster, more efficient, and always-available financial services.",
+        "ko": "이는 더 빠르고 효율적이며 항상 이용 가능한 금융 서비스를 가능하게 할 것입니다."
+      },
+      {
+        "en": "This move signifies a major step towards integrating blockchain into mainstream finance.",
+        "ko": "이러한 움직임은 블록체인을 주류 금융에 통합하는 중요한 단계를 의미합니다."
+      },
+      {
+        "en": "It highlights the growing interest of traditional financial institutions in tokenization.",
+        "ko": "이는 전통 금융 기관의 토큰화에 대한 증가하는 관심을 부각합니다."
+      },
+      {
+        "en": "For product managers, this development offers significant insights into future payment systems.",
+        "ko": "제품 관리자에게 이 개발은 미래 결제 시스템에 대한 중요한 통찰력을 제공합니다."
+      },
+      {
+        "en": "It suggests a world where tokenized assets are seamlessly transferred across borders.",
+        "ko": "이는 토큰화된 자산이 국경을 넘어 원활하게 이전되는 세상을 암시합니다."
+      },
+      {
+        "en": "Understanding SWIFT's role in this evolution is crucial for fintech professionals.",
+        "ko": "이러한 진화에서 SWIFT의 역할을 이해하는 것은 핀테크 전문가에게 중요합니다."
+      },
+      {
+        "en": "This pilot could pave the way for widespread adoption of digital asset infrastructure.",
+        "ko": "이 시범 운영은 디지털 자산 인프라의 광범위한 채택을 위한 길을 열 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "launching": "starting or introducing something new.",
+      "ledger": "a book or system of accounts that records financial transactions.",
+      "operations": "the activities involved in running a business or organization.",
+      "initiative": "a new plan or process to achieve something.",
+      "involves": "includes something as a necessary part.",
+      "global": "relating to the whole world.",
+      "pilot": "to test something new before introducing it generally.",
+      "transactions": "instances of buying or selling something, or exchanging money.",
+      "tokenized": "converted into a digital token on a blockchain.",
+      "digital": "relating to computer technology, especially the internet.",
+      "assets": "things of value owned by a person or company.",
+      "platform": "a system that allows different types of computer programs to run.",
+      "revolutionize": "to completely change the way something is done.",
+      "international": "involving two or more countries.",
+      "payments": "amounts of money paid.",
+      "settlements": "arrangements to pay money owed.",
+      "enable": "to make it possible for something to happen.",
+      "efficient": "achieving maximum productivity with minimum wasted effort or expense.",
+      "signifies": "means or represents something.",
+      "integrating": "combining different things so they work together as one.",
+      "mainstream": "the ideas, attitudes, or activities that are regarded as normal or conventional.",
+      "highlights": "draws special attention to something.",
+      "institutions": "established organizations, especially ones providing a public service.",
+      "insights": "a deep understanding of something."
+    },
+    "questions": [
+      "Q1: Which major global financial institutions are participating in SWIFT's new blockchain ledger pilot?",
+      "Q2: What does \"tokenized digital assets\" mean in the context of SWIFT's new platform, and how does it aim to \"revolutionize international payments\"?",
+      "Q3: Considering SWIFT's traditional role in global finance, what is the long-term significance of this blockchain initiative for the future of cross-border transactions and tokenization?"
+    ],
+    "modelAnswers": [
+      "A1: Major global financial institutions participating in SWIFT's pilot include HSBC, UBS, Wells Fargo, and Citi, among a total of 17 banks.",
+      "A2: \"Tokenized digital assets\" refers to converting traditional assets into digital tokens on a blockchain for easier transfer. It aims to \"revolutionize international payments\" by making them faster, more efficient, and available 24/7.",
+      "A3: This initiative signifies a strong move by traditional finance towards blockchain adoption and tokenization. It could fundamentally change cross-border transactions by making them more seamless and efficient, potentially setting a new standard for global financial infrastructure."
+    ]
+  },
+  {
+    "id": "ec-2026-07-10-1",
+    "date": "2026-07-10",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "중국의 물가 지수와 생산자 물가 상승률을 통해 중국 경제의 현재 상황과 장기적인 특징을 이해할 수 있습니다.",
+    "url": "https://www.cnbc.com/2026/07/09/china-cpi-ppi-june-inflation-iran-war-.html",
+    "title": "China's Dual Inflation: Consumer Prices Weaken, Producer Prices Rise",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China's economy presented a complex and varied picture in June. Consumer price growth notably weakened, indicating soft domestic demand among its population. This indicates that people were spending less on goods and services. Conversely, producer inflation climbed significantly, reaching a near four-year high. This rise suggests robust activity within the country's factories and a strong performance in exports. Investors are increasingly recognizing this phenomenon as \"two-speed growth.\" One speed is driven by strong exports, fueling industrial production and increasing prices for goods made in factories. The other speed, however, sees internal consumer spending remaining quite sluggish. This dual trend is becoming a defining long-term characteristic of the Chinese economy. It poses significant challenges for policymakers who are tasked with managing overall economic stability. Understanding these distinct economic dynamics is crucial for global financial markets and businesses worldwide.",
+    "sentences": [
+      {
+        "en": "China's economy presented a complex and varied picture in June.",
+        "ko": "중국 경제는 6월에 복잡하고 다양한 모습을 보였습니다."
+      },
+      {
+        "en": "Consumer price growth notably weakened, indicating soft domestic demand among its population.",
+        "ko": "소비자 물가 상승률은 눈에 띄게 약화되어 국내 수요가 부진함을 나타냈습니다."
+      },
+      {
+        "en": "This indicates that people were spending less on goods and services.",
+        "ko": "이는 사람들이 상품과 서비스에 덜 지출했음을 보여줍니다."
+      },
+      {
+        "en": "Conversely, producer inflation climbed significantly, reaching a near four-year high.",
+        "ko": "반대로, 생산자 물가는 크게 상승하여 거의 4년 만에 최고치를 기록했습니다."
+      },
+      {
+        "en": "This rise suggests robust activity within the country's factories and a strong performance in exports.",
+        "ko": "이러한 상승은 국내 공장의 활발한 활동과 수출의 강력한 성과를 시사합니다."
+      },
+      {
+        "en": "Investors are increasingly recognizing this phenomenon as \"two-speed growth.\"",
+        "ko": "투자자들은 이러한 현상을 '두 가지 속도의 성장'으로 점점 더 인식하고 있습니다."
+      },
+      {
+        "en": "One speed is driven by strong exports, fueling industrial production and increasing prices for goods made in factories.",
+        "ko": "한 가지 속도는 강력한 수출에 의해 주도되며, 산업 생산을 촉진하고 공장에서 생산되는 상품 가격을 상승시킵니다."
+      },
+      {
+        "en": "The other speed, however, sees internal consumer spending remaining quite sluggish.",
+        "ko": "하지만 다른 속도는 내부 소비자 지출이 상당히 부진한 상태를 보입니다."
+      },
+      {
+        "en": "This dual trend is becoming a defining long-term characteristic of the Chinese economy.",
+        "ko": "이러한 이중 추세는 중국 경제의 장기적인 특징으로 자리 잡고 있습니다."
+      },
+      {
+        "en": "It poses significant challenges for policymakers who are tasked with managing overall economic stability.",
+        "ko": "이는 전반적인 경제 안정을 관리해야 하는 정책 입안자들에게 상당한 도전을 제기합니다."
+      },
+      {
+        "en": "Understanding these distinct economic dynamics is crucial for global financial markets and businesses worldwide.",
+        "ko": "이러한 독특한 경제 역학을 이해하는 것은 전 세계 금융 시장과 기업에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "weakened": "became less strong or intense.",
+      "indicating": "showing or pointing out something.",
+      "soft": "not strong or robust; weak.",
+      "domestic": "relating to a country's own internal affairs.",
+      "demand": "the amount of a product or service that people want to buy.",
+      "conversely": "in a way that is the opposite of something else.",
+      "producer": "a person or company that makes goods.",
+      "inflation": "a general increase in prices and fall in the purchasing value of money.",
+      "climbed": "rose or increased in amount.",
+      "significantly": "in an important or noticeable way.",
+      "robust": "strong and healthy.",
+      "activity": "the state of being active or busy.",
+      "exports": "goods or services sold to another country.",
+      "phenomenon": "a fact or situation that is observed to exist.",
+      "two-speed": "developing or progressing at different rates.",
+      "driven": "caused or influenced by something.",
+      "industrial": "relating to industry, especially manufacturing.",
+      "sluggish": "slow-moving or inactive.",
+      "dual": "having two parts or aspects.",
+      "defining": "clearly showing what something is.",
+      "characteristic": "a typical or noticeable quality of someone or something.",
+      "policymakers": "people who make official rules and plans.",
+      "stability": "the state of being stable and not changing.",
+      "dynamics": "the forces or properties that stimulate growth or change.",
+      "crucial": "extremely important."
+    },
+    "questions": [
+      "Q1: What does the weakening of consumer price growth in China suggest about its domestic economy in June?",
+      "Q2: What is \"two-speed growth\" in the context of the Chinese economy, and what factors are driving each speed?",
+      "Q3: How might this dual economic trend in China impact global trade and investment strategies for fintech companies, and why?"
+    ],
+    "modelAnswers": [
+      "A1: The weakening consumer price growth in China suggests that domestic demand within the country remains soft. This indicates that Chinese consumers are spending less or that prices for goods and services they typically buy are not rising quickly.",
+      "A2: \"Two-speed growth\" describes China's economy developing at different rates. Robust exports and strong factory activity drive the faster speed, while sluggish internal consumer spending represents the slower speed. This dual trend is becoming a long-term characteristic.",
+      "A3: This dual trend could lead to increased focus on export-oriented businesses, potentially boosting cross-border payment solutions for fintech firms. However, slow domestic demand might reduce opportunities for fintechs targeting internal consumption or services, requiring them to adapt their market strategies."
+    ]
+  },
+  {
+    "id": "ec-2026-07-10-2",
+    "date": "2026-07-10",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "연준의 금리 결정 과정에서 벌어지는 내부 논쟁을 통해 미국 통화 정책의 복잡한 면모를 엿볼 수 있습니다.",
+    "url": "https://www.cnbc.com/2026/07/08/with-minutes-due-feds-family-fight-over-interest-rates-could-drag-on.html",
+    "title": "Fed's Internal Disagreement on Interest Rates Continues",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Federal Reserve's latest meeting minutes are highly anticipated by financial markets. These minutes are expected to reveal ongoing internal disagreements among officials regarding interest rates. This internal \"family fight\" clearly highlights the differing views within the central bank. Some policymakers might strongly favor further rate hikes, believing it necessary to combat persistent inflation. Conversely, others may advocate for pausing any rate increases to carefully assess their economic impacts. Such a significant policy squabble could potentially persist for an extended period, creating market uncertainty. Historically, the Fed rarely makes only a single interest rate adjustment, suggesting a pattern of multiple moves. This implies either a series of adjustments or a prolonged and complex debate among its members. The ultimate outcome of this discussion will significantly influence market expectations and investor confidence. Furthermore, it will undoubtedly shape future economic conditions for businesses and consumers alike.",
+    "sentences": [
+      {
+        "en": "The Federal Reserve's latest meeting minutes are highly anticipated by financial markets.",
+        "ko": "연방준비제도(Fed)의 최근 회의록은 금융 시장에서 큰 기대를 모으고 있습니다."
+      },
+      {
+        "en": "These minutes are expected to reveal ongoing internal disagreements among officials regarding interest rates.",
+        "ko": "이 회의록은 금리에 대한 관계자들 간의 지속적인 내부 이견을 드러낼 것으로 예상됩니다."
+      },
+      {
+        "en": "This internal \"family fight\" clearly highlights the differing views within the central bank.",
+        "ko": "이러한 내부 '가족 싸움'은 중앙은행 내의 서로 다른 견해들을 명확히 보여줍니다."
+      },
+      {
+        "en": "Some policymakers might strongly favor further rate hikes, believing it necessary to combat persistent inflation.",
+        "ko": "일부 정책 입안자들은 지속적인 인플레이션에 맞서기 위해 추가 금리 인상을 강력히 선호할 수 있습니다."
+      },
+      {
+        "en": "Conversely, others may advocate for pausing any rate increases to carefully assess their economic impacts.",
+        "ko": "반대로, 다른 이들은 경제적 영향을 신중하게 평가하기 위해 금리 인상을 중단할 것을 주장할 수 있습니다."
+      },
+      {
+        "en": "Such a significant policy squabble could potentially persist for an extended period, creating market uncertainty.",
+        "ko": "이러한 중대한 정책 논쟁은 잠재적으로 장기간 지속되어 시장 불확실성을 초래할 수 있습니다."
+      },
+      {
+        "en": "Historically, the Fed rarely makes only a single interest rate adjustment, suggesting a pattern of multiple moves.",
+        "ko": "역사적으로 연준은 단 한 번의 금리 조정만 하는 경우가 드물었으며, 이는 여러 차례의 움직임 패턴을 시사합니다."
+      },
+      {
+        "en": "This implies either a series of adjustments or a prolonged and complex debate among its members.",
+        "ko": "이는 일련의 조정 또는 구성원들 간의 길고 복잡한 논쟁을 의미합니다."
+      },
+      {
+        "en": "The ultimate outcome of this discussion will significantly influence market expectations and investor confidence.",
+        "ko": "이 논의의 최종 결과는 시장 기대치와 투자자 신뢰에 상당한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "Furthermore, it will undoubtedly shape future economic conditions for businesses and consumers alike.",
+        "ko": "더 나아가, 이는 기업과 소비자 모두에게 미래 경제 상황을 의심할 여지 없이 형성할 것입니다."
+      }
+    ],
+    "glossary": {
+      "anticipated": "expected or looked forward to.",
+      "reveal": "to make something known that was previously secret.",
+      "ongoing": "continuing to happen or exist.",
+      "internal": "existing or occurring within an organization.",
+      "disagreements": "differences of opinion.",
+      "highlights": "draws special attention to something.",
+      "differing": "not the same; distinct.",
+      "policymakers": "people who make official rules and plans.",
+      "favor": "to support or prefer something.",
+      "hikes": "increases, especially in prices or rates.",
+      "combat": "to fight against or prevent something.",
+      "advocate": "to publicly support a particular policy or way of doing things.",
+      "pausing": "stopping for a short time.",
+      "assess": "to evaluate or estimate the nature, ability, or quality of something.",
+      "significant": "important or notable.",
+      "squabble": "a noisy quarrel about something trivial.",
+      "persist": "to continue to exist or happen, especially for a long time.",
+      "adjustment": "a small change or modification.",
+      "prolonged": "continuing for a long time.",
+      "outcome": "the result or effect of an action.",
+      "influence": "to have an effect on the character, development, or behavior of someone or something.",
+      "expectations": "beliefs about what will happen.",
+      "shape": "to determine the nature or character of something."
+    },
+    "questions": [
+      "Q1: According to the article, what are the Federal Reserve's meeting minutes expected to reveal regarding interest rates?",
+      "Q2: Explain the significance of the \"family fight\" within the Fed and why it might \"drag on for a while.\"",
+      "Q3: As a fintech PM, how would ongoing uncertainty about the Fed's interest rate policy affect your company's strategic planning or product development, and what measures might you consider?"
+    ],
+    "modelAnswers": [
+      "A1: The Federal Reserve's latest meeting minutes are expected to reveal ongoing internal disagreements among officials regarding the direction of interest rates. This highlights differing views within the central bank.",
+      "A2: The \"family fight\" is significant because it shows deep divisions on crucial monetary policy decisions. It might \"drag on\" because historical patterns suggest the Fed rarely makes just one rate move, implying a sustained debate or series of adjustments.",
+      "A3: Ongoing uncertainty would make financial forecasting difficult for a fintech company, impacting lending rates, investment returns, and user behavior. I might focus on developing flexible products, enhancing data analytics for scenario planning, and hedging against interest rate volatility."
+    ]
+  },
+  {
+    "id": "ec-2026-07-10-3",
+    "date": "2026-07-10",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "예상보다 적게 증가한 민간 고용 수치를 통해 미국 노동 시장의 최근 동향과 경제 전반에 미치는 영향을 파악할 수 있습니다.",
+    "url": "https://www.cnbc.com/2026/07/01/private-payrolls-rose-by-98000-in-june-less-than-expected-adp-reports.html",
+    "title": "US Private Payrolls Miss Estimates, Healthcare Leads Hiring",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "US private sector payrolls increased by 98,000 in June. This reported figure was notably less than what economists had predicted. The ADP report indicates a significant cooling in the overall labor market. Companies added fewer workers than previously forecast for the month. However, hiring focused heavily on healthcare-related sectors, showing specific areas of strength. This pattern suggests that overall job creation is slowing down across the nation. Such a trend could directly influence the Federal Reserve's future policy decisions. Slower job growth might potentially ease inflationary pressures by reducing wage demands. Furthermore, it could also signal a broader economic deceleration, raising concerns. Businesses and analysts will now closely watch upcoming official jobs data. These comprehensive reports provide crucial insights into the nation's economic health and direction.",
+    "sentences": [
+      {
+        "en": "US private sector payrolls increased by 98,000 in June.",
+        "ko": "미국 민간 부문 급여는 6월에 9만 8천 개 증가했습니다."
+      },
+      {
+        "en": "This reported figure was notably less than what economists had predicted.",
+        "ko": "이 보고된 수치는 경제학자들이 예측했던 것보다 현저히 적었습니다."
+      },
+      {
+        "en": "The ADP report indicates a significant cooling in the overall labor market.",
+        "ko": "ADP 보고서는 전반적인 노동 시장의 상당한 냉각을 나타냅니다."
+      },
+      {
+        "en": "Companies added fewer workers than previously forecast for the month.",
+        "ko": "기업들은 이달에 이전에 예측했던 것보다 적은 인력을 추가했습니다."
+      },
+      {
+        "en": "However, hiring focused heavily on healthcare-related sectors, showing specific areas of strength.",
+        "ko": "하지만 고용은 의료 관련 부문에 집중되어 특정 분야의 강세를 보였습니다."
+      },
+      {
+        "en": "This pattern suggests that overall job creation is slowing down across the nation.",
+        "ko": "이러한 양상은 전반적인 일자리 창출이 전국적으로 둔화되고 있음을 시사합니다."
+      },
+      {
+        "en": "Such a trend could directly influence the Federal Reserve's future policy decisions.",
+        "ko": "이러한 추세는 연방준비제도(Fed)의 향후 정책 결정에 직접적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Slower job growth might potentially ease inflationary pressures by reducing wage demands.",
+        "ko": "느린 일자리 증가는 임금 인상 요구를 줄여 인플레이션 압력을 잠재적으로 완화할 수 있습니다."
+      },
+      {
+        "en": "Furthermore, it could also signal a broader economic deceleration, raising concerns.",
+        "ko": "더 나아가, 이는 더 광범위한 경제 둔화를 시사하며 우려를 불러일으킬 수도 있습니다."
+      },
+      {
+        "en": "Businesses and analysts will now closely watch upcoming official jobs data.",
+        "ko": "기업과 분석가들은 이제 곧 발표될 공식 일자리 데이터를 면밀히 주시할 것입니다."
+      },
+      {
+        "en": "These comprehensive reports provide crucial insights into the nation's economic health and direction.",
+        "ko": "이러한 포괄적인 보고서는 국가 경제의 건전성과 방향에 대한 중요한 통찰력을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "payrolls": "the total amount of wages paid by a company or government.",
+      "figure": "a number, especially one that is part of a statistic.",
+      "notably": "in a way that is clearly noticeable or important.",
+      "predicted": "said that a specified thing will happen in the future.",
+      "indicates": "points out or shows.",
+      "cooling": "becoming less active or intense.",
+      "labor": "work, especially physical work.",
+      "market": "the area of economic activity in which goods and services are bought and sold.",
+      "forecast": "a prediction or estimate of future events.",
+      "heavily": "to a great degree or extent.",
+      "healthcare": "the organized provision of medical care by individuals or institutions.",
+      "suggests": "puts forward an idea or possibility.",
+      "strength": "the quality or state of being strong.",
+      "overall": "taking everything into account.",
+      "creation": "the act of making or producing something.",
+      "slowing": "becoming less fast or quick.",
+      "trend": "a general direction in which something is developing.",
+      "influence": "to have an effect on the character, development, or behavior of someone or something.",
+      "ease": "to make something less severe, difficult, or unpleasant.",
+      "inflationary": "relating to or causing inflation.",
+      "pressures": "the use of persuasion, influence, or intimidation to make someone do something.",
+      "signal": "to indicate the existence or presence of something.",
+      "deceleration": "a reduction in the speed of something.",
+      "crucial": "extremely important.",
+      "insights": "a deep understanding of a person or thing."
+    },
+    "questions": [
+      "Q1: How did the June private payrolls figure compare to economists' predictions, and what sector showed strong hiring?",
+      "Q2: What does the ADP report's finding of slower job growth suggest about the US labor market and its potential impact on inflation?",
+      "Q3: If you were a fintech company offering services to small businesses, how would this report influence your strategy regarding staffing, lending, or product development, and why?"
+    ],
+    "modelAnswers": [
+      "A1: Private payrolls increased by 98,000 in June, which was less than economists had predicted. Hiring was particularly strong in healthcare-related sectors, indicating specific areas of economic strength.",
+      "A2: The slower job growth suggests a cooling US labor market. This trend could potentially ease inflationary pressures, as a less tight job market might lead to slower wage growth. It might also signal a broader economic deceleration.",
+      "A3: This report would make me more cautious about small business lending, as slower job growth could indicate weaker business health and higher default risks. For product development, I might focus on tools that help businesses manage costs or optimize existing staff rather than those supporting rapid expansion."
+    ]
+  },
+  {
     "id": "cd-2026-07-09-1",
     "date": "2026-07-09",
     "rank": 1,
