@@ -546,16 +546,41 @@
     }
 
     // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
-    function speak(text) {
+    function speak(text, lang) {
       try {
         const synth = window.speechSynthesis;
         if (!synth || !text) return;
         synth.cancel();
         const u = new SpeechSynthesisUtterance(String(text));
-        u.lang = "en-US";
-        u.rate = 0.95;
+        u.lang = lang || "en-US";
+        u.rate = lang === "ko-KR" ? 1.0 : 0.95;
         synth.speak(u);
       } catch (e) {}
+    }
+    // Speak a sequence of {text, lang} parts back-to-back (word → then meaning),
+    // queueing utterances so they play in order without cutting each other off.
+    function speakSeq(parts) {
+      try {
+        const synth = window.speechSynthesis;
+        if (!synth) return;
+        synth.cancel();
+        (parts || []).forEach((p) => {
+          if (!p || !p.text) return;
+          const u = new SpeechSynthesisUtterance(String(p.text));
+          u.lang = p.lang || "en-US";
+          u.rate = p.lang === "ko-KR" ? 1.0 : 0.95;
+          synth.speak(u);
+        });
+      } catch (e) {}
+    }
+    // Pronounce a word and then its meaning (Korean gloss if we have it, else
+    // the English definition).
+    function speakCard(c) {
+      if (!c) return;
+      speakSeq([
+        { text: c.word, lang: "en-US" },
+        c.meaningKo ? { text: c.meaningKo, lang: "ko-KR" } : { text: c.meaning, lang: "en-US" },
+      ]);
     }
 
     function load(key, fallback) {
@@ -1502,7 +1527,7 @@
         const d = shuffle(pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
         setStudyMode(mode); setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
-      const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speak(deck[idx].word); };
+      const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speakCard(deck[idx]); };
       const advance = () => { setCardFlip(false); setIdx((i) => i + 1); };
       // "알아요" → advance one SRS stage.
       //   미암기 session: 미암기 → 복습중.   복습 session: 복습중 → 장기완료.
@@ -1581,7 +1606,11 @@
       const onCardDown = (e) => {
         swipeRef.current = { down: true, startX: e.clientX, dx: 0, moved: false, long: false };
         clearLong();
-        longTimer.current = setTimeout(() => { swipeRef.current.long = true; setKoPeek(true); }, LONG_MS);
+        longTimer.current = setTimeout(() => {
+          swipeRef.current.long = true; setKoPeek(true);
+          const c = deck[idx];
+          if (c && c.meaningKo) speak(c.meaningKo, "ko-KR"); // pronounce the Korean 뜻
+        }, LONG_MS);
       };
       const onCardMove = (e) => {
         if (!swipeRef.current.down) return;
@@ -1681,7 +1710,7 @@
               onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
               <span className="swipe-tag no" style={{ opacity: dragX < 0 ? Math.min(1, -dragX / SWIPE_TH) : 0 }}>✕ 몰라요</span>
               <span className="swipe-tag yes" style={{ opacity: dragX > 0 ? Math.min(1, dragX / SWIPE_TH) : 0 }}>알아요 ✓</span>
-              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speak(cur.word); }} title="발음 듣기">🔊</button>
+              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speakCard(cur); }} title="단어·뜻 발음 듣기">🔊</button>
               {cardFlip
                 ? <React.Fragment>
                     <div className="fc-word fraunces">{cur.word}</div>
@@ -1742,9 +1771,9 @@
           ) : (
             <div className="wgrid">
               {entries.map((e) => (
-                <div key={e.word} className={"wcard " + e.stage} onClick={() => { flip(e.word); speak(e.word); }}>
+                <div key={e.word} className={"wcard " + e.stage} onClick={() => { flip(e.word); speakCard(e); }}>
                   <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
-                  <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speak(e.word); }} aria-label="발음 듣기" title="발음 듣기">🔊</button>
+                  <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speakCard(e); }} aria-label="단어·뜻 발음 듣기" title="단어·뜻 발음 듣기">🔊</button>
                   <div className="cardbody">
                     {flipped[e.word]
                       ? <div className="front fraunces">{e.word}</div>
