@@ -573,13 +573,14 @@
         });
       } catch (e) {}
     }
-    // Pronounce a word and then its English example sentence, for listening
-    // practice. The Korean gloss stays a visual-only long-press peek.
+    // Pronounce the word's English definition (the meaning shown on the front
+    // of the card). The Korean gloss stays a visual-only long-press peek.
     function speakCard(c) {
-      if (!c) return;
-      const parts = [{ text: c.word, lang: "en-US" }];
-      if (c.example) parts.push({ text: c.example, lang: "en-US" });
-      speakSeq(parts);
+      if (c && c.meaning) speak(c.meaning, "en-US");
+    }
+    // Stop any pronunciation currently playing (used when flipping/advancing).
+    function stopSpeech() {
+      try { const s = window.speechSynthesis; if (s) s.cancel(); } catch (e) {}
     }
 
     function load(key, fallback) {
@@ -1526,8 +1527,8 @@
         const d = shuffle(pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
         setStudyMode(mode); setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
-      const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); if (nf && deck[idx]) speakCard(deck[idx]); };
-      const advance = () => { setCardFlip(false); setIdx((i) => i + 1); };
+      const flipCard = () => { stopSpeech(); setCardFlip((f) => !f); }; // flipping stops audio
+      const advance = () => { stopSpeech(); setCardFlip(false); setIdx((i) => i + 1); };
       // "알아요" → advance one SRS stage.
       //   미암기 session: 미암기 → 복습중.   복습 session: 복습중 → 장기완료.
       const know = () => {
@@ -1550,6 +1551,7 @@
       // Undo the last swipe: step back a card and revert its SRS change.
       const undo = () => {
         if (!history.length) return;
+        stopSpeech();
         const last = history[history.length - 1];
         setHistory((h) => h.slice(0, -1));
         setWordbank((prev) => {
@@ -1562,6 +1564,7 @@
         setCardFlip(false); setDragX(0);
       };
       const restartMissed = () => {
+        stopSpeech();
         const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "", example: (wordbank[w] || {}).example || "", meaningKo: (wordbank[w] || {}).meaningKo || "" })));
         setDeck(d); setMissed([]); setHistory([]); setIdx(0); setCardFlip(false);
       };
@@ -1615,6 +1618,7 @@
         if (!swipeRef.current.long) setDragX(dx);
       };
       const answerSwipe = (dir) => {
+        stopSpeech(); // moving to the next card stops any playing pronunciation
         setDragX(dir === "no" ? -520 : 520);
         setTimeout(() => { if (dir === "no") dontKnow(); else know(); setDragX(0); }, 160);
       };
@@ -1660,7 +1664,7 @@
               <div className="studyhead mono">
                 <button className="chip" onClick={undo} disabled={!history.length} title="방금 넘긴 카드로 돌아가기">← 되돌리기</button>
                 <span>라운드 완료</span>
-                <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
+                <button className="chip" onClick={() => { stopSpeech(); setStudying(false); }}>닫기 ✕</button>
               </div>
               <div className="studydone">
                 <div className="donestats">
@@ -1689,7 +1693,7 @@
                     </React.Fragment>
                   )}
                 <button className="btn ghost" onClick={startStudy}>처음부터 다시</button>
-                <button className="btn ghost" onClick={() => setStudying(false)}>단어장으로</button>
+                <button className="btn ghost" onClick={() => { stopSpeech(); setStudying(false); }}>단어장으로</button>
               </div>
             </React.Fragment>
           );
@@ -1700,14 +1704,14 @@
             <div className="studyhead mono">
               <button className="chip" onClick={undo} disabled={!history.length} title="방금 넘긴 카드로 돌아가기">← 되돌리기</button>
               <span>{studyMode === "review" ? "복습하기" : "단어 외우기"} · {idx + 1} / {deck.length}</span>
-              <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
+              <button className="chip" onClick={() => { stopSpeech(); setStudying(false); }}>닫기 ✕</button>
             </div>
             <div className={"flashcard" + (cardFlip ? " flipped" : "") + (dragX > SWIPE_TH ? " yes" : dragX < -SWIPE_TH ? " no" : "")}
               style={{ transform: `translateX(${dragX}px) rotate(${dragX * 0.04}deg)`, transition: swipeRef.current.down ? "none" : "transform .18s ease" }}
               onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
               <span className="swipe-tag no" style={{ opacity: dragX < 0 ? Math.min(1, -dragX / SWIPE_TH) : 0 }}>✕ 몰라요</span>
               <span className="swipe-tag yes" style={{ opacity: dragX > 0 ? Math.min(1, dragX / SWIPE_TH) : 0 }}>알아요 ✓</span>
-              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speakCard(cur); }} title="단어·뜻 발음 듣기">🔊</button>
+              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speakCard(cur); }} title="영문 뜻 발음 듣기">🔊</button>
               {cardFlip
                 ? <React.Fragment>
                     <div className="fc-word fraunces">{cur.word}</div>
@@ -1768,7 +1772,7 @@
           ) : (
             <div className="wgrid">
               {entries.map((e) => (
-                <div key={e.word} className={"wcard " + e.stage} onClick={() => { flip(e.word); speakCard(e); }}>
+                <div key={e.word} className={"wcard " + e.stage} onClick={() => { stopSpeech(); flip(e.word); }}>
                   <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
                   <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speakCard(e); }} aria-label="단어·뜻 발음 듣기" title="단어·뜻 발음 듣기">🔊</button>
                   <div className="cardbody">
