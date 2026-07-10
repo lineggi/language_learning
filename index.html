@@ -573,14 +573,13 @@
         });
       } catch (e) {}
     }
-    // Pronounce a word and then its meaning — both in English (the English
-    // definition), for listening practice. The Korean gloss stays visual-only.
+    // Pronounce a word and then its English example sentence, for listening
+    // practice. The Korean gloss stays a visual-only long-press peek.
     function speakCard(c) {
       if (!c) return;
-      speakSeq([
-        { text: c.word, lang: "en-US" },
-        { text: c.meaning, lang: "en-US" },
-      ]);
+      const parts = [{ text: c.word, lang: "en-US" }];
+      if (c.example) parts.push({ text: c.example, lang: "en-US" });
+      speakSeq(parts);
     }
 
     function load(key, fallback) {
