@@ -573,13 +573,13 @@
         });
       } catch (e) {}
     }
-    // Pronounce a word and then its meaning (Korean gloss if we have it, else
-    // the English definition).
+    // Pronounce a word and then its meaning — both in English (the English
+    // definition), for listening practice. The Korean gloss stays visual-only.
     function speakCard(c) {
       if (!c) return;
       speakSeq([
         { text: c.word, lang: "en-US" },
-        c.meaningKo ? { text: c.meaningKo, lang: "ko-KR" } : { text: c.meaning, lang: "en-US" },
+        { text: c.meaning, lang: "en-US" },
       ]);
     }
 
@@ -1606,11 +1606,7 @@
       const onCardDown = (e) => {
         swipeRef.current = { down: true, startX: e.clientX, dx: 0, moved: false, long: false };
         clearLong();
-        longTimer.current = setTimeout(() => {
-          swipeRef.current.long = true; setKoPeek(true);
-          const c = deck[idx];
-          if (c && c.meaningKo) speak(c.meaningKo, "ko-KR"); // pronounce the Korean 뜻
-        }, LONG_MS);
+        longTimer.current = setTimeout(() => { swipeRef.current.long = true; setKoPeek(true); }, LONG_MS);
       };
       const onCardMove = (e) => {
         if (!swipeRef.current.down) return;
@@ -1625,8 +1621,10 @@
       };
       const onCardUp = () => {
         const { dx, moved, long } = swipeRef.current;
+        const wasDown = swipeRef.current.down;
         swipeRef.current.down = false;
         clearLong();
+        if (!wasDown) return; // press didn't start on the card (e.g. the 🔊 button) → ignore
         if (long) { setKoPeek(false); setDragX(0); return; } // was a long-press peek
         if (dx <= -SWIPE_TH) answerSwipe("no");
         else if (dx >= SWIPE_TH) answerSwipe("yes");
