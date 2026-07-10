@@ -1527,7 +1527,11 @@
         const d = shuffle(pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
         setStudyMode(mode); setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
-      const flipCard = () => { stopSpeech(); setCardFlip((f) => !f); }; // flipping stops audio
+      // Speak whichever side of a card is showing: the word, or its English
+      // definition. (Both English; the Korean gloss stays a visual peek.)
+      const speakVisible = (c, showWord) => { if (c) speak(showWord ? c.word : c.meaning, "en-US"); };
+      // Each flip pronounces the side now shown; speak() cancels any prior audio.
+      const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); speakVisible(deck[idx], nf); };
       const advance = () => { stopSpeech(); setCardFlip(false); setIdx((i) => i + 1); };
       // "알아요" → advance one SRS stage.
       //   미암기 session: 미암기 → 복습중.   복습 session: 복습중 → 장기완료.
@@ -1711,7 +1715,7 @@
               onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
               <span className="swipe-tag no" style={{ opacity: dragX < 0 ? Math.min(1, -dragX / SWIPE_TH) : 0 }}>✕ 몰라요</span>
               <span className="swipe-tag yes" style={{ opacity: dragX > 0 ? Math.min(1, dragX / SWIPE_TH) : 0 }}>알아요 ✓</span>
-              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speakCard(cur); }} title="영문 뜻 발음 듣기">🔊</button>
+              <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speakVisible(cur, cardFlip); }} title="발음 듣기">🔊</button>
               {cardFlip
                 ? <React.Fragment>
                     <div className="fc-word fraunces">{cur.word}</div>
@@ -1772,9 +1776,9 @@
           ) : (
             <div className="wgrid">
               {entries.map((e) => (
-                <div key={e.word} className={"wcard " + e.stage} onClick={() => { stopSpeech(); flip(e.word); }}>
+                <div key={e.word} className={"wcard " + e.stage} onClick={() => { const showWord = !flipped[e.word]; flip(e.word); speakVisible(e, showWord); }}>
                   <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
-                  <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speakCard(e); }} aria-label="단어·뜻 발음 듣기" title="단어·뜻 발음 듣기">🔊</button>
+                  <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speakVisible(e, !!flipped[e.word]); }} aria-label="발음 듣기" title="발음 듣기">🔊</button>
                   <div className="cardbody">
                     {flipped[e.word]
                       ? <div className="front fraunces">{e.word}</div>
