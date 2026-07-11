@@ -1,5 +1,575 @@
 [
   {
+    "id": "cd-2026-07-12-1",
+    "date": "2026-07-12",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 발행사 서클이 미국 신탁 은행 승인을 받아 규제 금융 시스템으로 통합되는 중요한 단계를 밟았습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/10/circle-secures-u-s-trust-bank-approval-in-crypto-expansion",
+    "title": "Circle Gains Trust Bank Status, Boosting Stablecoin Regulation.",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Circle, the issuer of the USDC stablecoin, recently secured U.S. trust bank approval. This significant step allows Circle to operate more like a traditional financial institution. The approval highlights a growing trend among crypto firms. Many are now seeking federal banking licenses. This move signifies the crypto industry's shift. It is integrating into the regulated financial system. For a fintech PM, this news is crucial. It shows how stablecoins are becoming mainstream. It also indicates future regulatory directions. This development enhances trust and stability. It could attract more institutional adoption.",
+    "sentences": [
+      {
+        "en": "Circle, the issuer of the USDC stablecoin, recently secured U.S. trust bank approval.",
+        "ko": "서클은 USDC 스테이블코인의 발행사이며, 최근 미국 신탁 은행 승인을 받았습니다."
+      },
+      {
+        "en": "This significant step allows Circle to operate more like a traditional financial institution.",
+        "ko": "이 중요한 단계는 서클이 전통적인 금융 기관처럼 운영될 수 있도록 합니다."
+      },
+      {
+        "en": "The approval highlights a growing trend among crypto firms.",
+        "ko": "이 승인은 암호화폐 기업들 사이에서 증가하는 추세를 보여줍니다."
+      },
+      {
+        "en": "Many are now seeking federal banking licenses.",
+        "ko": "많은 기업들이 이제 연방 은행 라이선스를 찾고 있습니다."
+      },
+      {
+        "en": "This move signifies the crypto industry's shift.",
+        "ko": "이러한 움직임은 암호화폐 산업의 변화를 의미합니다."
+      },
+      {
+        "en": "It is integrating into the regulated financial system.",
+        "ko": "이는 규제된 금융 시스템으로 통합되고 있습니다."
+      },
+      {
+        "en": "For a fintech PM, this news is crucial.",
+        "ko": "핀테크 PM에게 이 소식은 매우 중요합니다."
+      },
+      {
+        "en": "It shows how stablecoins are becoming mainstream.",
+        "ko": "이는 스테이블코인이 어떻게 주류가 되고 있는지를 보여줍니다."
+      },
+      {
+        "en": "It also indicates future regulatory directions.",
+        "ko": "또한 미래의 규제 방향을 나타냅니다."
+      },
+      {
+        "en": "This development enhances trust and stability.",
+        "ko": "이러한 발전은 신뢰와 안정성을 높입니다."
+      },
+      {
+        "en": "It could attract more institutional adoption.",
+        "ko": "이는 더 많은 기관의 채택을 유도할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "issuer": "A company or organization that produces and officially releases something, like a financial product.",
+      "secured": "Successfully obtained or acquired something, often after some effort or process.",
+      "trust": "A legal arrangement where assets are held by one party for the benefit of another.",
+      "approval": "Official permission or agreement for something to happen or be done.",
+      "operate": "To function or work in a particular way, often referring to a business or system.",
+      "traditional": "Following long-established customs or beliefs, often contrasting with new or modern approaches.",
+      "financial": "Relating to money, banking, investment, and how money is managed.",
+      "institution": "A large and important organization, such as a bank or university.",
+      "highlights": "Draws attention to something important or makes it stand out.",
+      "trend": "A general direction in which something is developing or changing.",
+      "firms": "Companies or businesses, especially professional ones like law or accounting firms.",
+      "seeking": "Trying to find or obtain something, often with a specific goal in mind.",
+      "federal": "Relating to the central government, rather than to the government of a region or state.",
+      "licenses": "Official documents or permits giving permission to do, use, or own something.",
+      "signifies": "Is a sign of something, or means something important.",
+      "integrating": "Combining or bringing together different parts into a whole.",
+      "regulated": "Controlled or governed by rules or laws, often by an official body.",
+      "crucial": "Extremely important or essential for the success or outcome of something.",
+      "mainstream": "The ideas, attitudes, or activities that are regarded as normal or conventional.",
+      "indicates": "Shows or points out something, often a future possibility or direction.",
+      "directions": "The way in which something is developing or changing, or a plan for action.",
+      "enhances": "Improves the quality, value, or attractiveness of something.",
+      "stability": "The state of being firm, not likely to change or fail, and reliably balanced.",
+      "adoption": "The act of formally accepting or beginning to use something new."
+    },
+    "questions": [
+      "Q1: What specific type of approval did Circle recently obtain, and what does it allow them to do?",
+      "Q2: In the context of the article, what does \"mainstream\" imply about the future of stablecoins?",
+      "Q3: How do you think increased regulatory approval, like Circle's, will impact the overall growth and perception of the crypto industry among traditional investors?"
+    ],
+    "modelAnswers": [
+      "A1: Circle recently obtained U.S. trust bank approval, which allows them to operate more like a traditional financial institution.",
+      "A2: \"Mainstream\" implies that stablecoins are becoming widely accepted and used by a broader audience, similar to traditional financial products.",
+      "A3: I believe increased regulatory approval will significantly boost confidence among traditional investors. It will likely lead to more institutional capital flowing into crypto and improve the industry's public image."
+    ]
+  },
+  {
+    "id": "cd-2026-07-12-2",
+    "date": "2026-07-12",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "폴리마켓이 미국 고객에게 마진 거래를 제공하기 위한 승인을 요청하면서 암호화폐 규제의 중요한 진전을 보여줍니다.",
+    "url": "https://www.coindesk.com/markets/2026/07/10/polymarket-seeks-approval-to-bring-margin-trading-to-u-s-customers",
+    "title": "Polymarket Seeks U.S. Approval for Margin Trading.",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Polymarket, a prediction market platform, is seeking U.S. regulatory approval. They aim to offer margin trading to their customers. Margin trading allows users to take positions not fully collateralized. This means they can trade with borrowed funds. Rival platform Kalshi already received similar authorization in March. This development shows a growing trend in crypto. Crypto firms are expanding their financial product offerings. They are also navigating complex regulatory landscapes. For a fintech PM, understanding this is key. It highlights the evolving relationship between crypto and traditional finance. It also points to future opportunities in regulated derivatives.",
+    "sentences": [
+      {
+        "en": "Polymarket, a prediction market platform, is seeking U.S. regulatory approval.",
+        "ko": "예측 시장 플랫폼인 폴리마켓은 미국 규제 승인을 요청하고 있습니다."
+      },
+      {
+        "en": "They aim to offer margin trading to their customers.",
+        "ko": "그들은 고객에게 마진 거래를 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Margin trading allows users to take positions not fully collateralized.",
+        "ko": "마진 거래는 사용자가 완전히 담보되지 않은 포지션을 취할 수 있도록 합니다."
+      },
+      {
+        "en": "This means they can trade with borrowed funds.",
+        "ko": "이는 그들이 빌린 자금으로 거래할 수 있다는 것을 의미합니다."
+      },
+      {
+        "en": "Rival platform Kalshi already received similar authorization in March.",
+        "ko": "경쟁 플랫폼인 칼쉬는 이미 3월에 유사한 승인을 받았습니다."
+      },
+      {
+        "en": "This development shows a growing trend in crypto.",
+        "ko": "이러한 발전은 암호화폐의 성장 추세를 보여줍니다."
+      },
+      {
+        "en": "Crypto firms are expanding their financial product offerings.",
+        "ko": "암호화폐 기업들은 금융 상품 제공을 확대하고 있습니다."
+      },
+      {
+        "en": "They are also navigating complex regulatory landscapes.",
+        "ko": "그들은 또한 복잡한 규제 환경을 헤쳐나가고 있습니다."
+      },
+      {
+        "en": "For a fintech PM, understanding this is key.",
+        "ko": "핀테크 PM에게 이를 이해하는 것은 중요합니다."
+      },
+      {
+        "en": "It highlights the evolving relationship between crypto and traditional finance.",
+        "ko": "이는 암호화폐와 전통 금융 간의 진화하는 관계를 강조합니다."
+      },
+      {
+        "en": "It also points to future opportunities in regulated derivatives.",
+        "ko": "또한 규제된 파생상품의 미래 기회를 시사합니다."
+      }
+    ],
+    "glossary": {
+      "prediction": "A statement about what you think will happen in the future.",
+      "platform": "A system or service that allows people to interact or perform specific tasks.",
+      "regulatory": "Relating to an official body that controls or governs an activity or industry.",
+      "approval": "Official permission or agreement for something to happen or be done.",
+      "aim": "To have a goal or intention; to direct one's efforts towards something.",
+      "offer": "To present something for someone to accept or reject.",
+      "margin": "The difference between the cost and selling price of something.",
+      "trading": "The activity of buying and selling goods, services, or financial assets.",
+      "positions": "A specific investment or financial commitment, either long or short, in a market.",
+      "collateralized": "Secured by assets that a borrower pledges to a lender to guarantee repayment.",
+      "borrowed": "Taken something with the intention of returning it after a period of time.",
+      "funds": "Amounts of money available for a specific purpose.",
+      "rival": "A person or organization competing with another for the same objective.",
+      "authorization": "Official permission or power to do something.",
+      "development": "A new event, trend, or advance in a particular situation.",
+      "expanding": "Becoming larger or more extensive, increasing in size or scope.",
+      "offerings": "Products or services provided by a company.",
+      "navigating": "Finding one's way through a complex or difficult situation.",
+      "complex": "Consisting of many different and connected parts, and therefore difficult to understand.",
+      "landscapes": "The overall environment or situation in which something exists or operates.",
+      "evolving": "Developing gradually, especially from a simple to a more complex form.",
+      "relationship": "The way in which two or more people or things are connected.",
+      "traditional": "Following long-established customs or beliefs, often contrasting with new or modern approaches.",
+      "derivatives": "Financial contracts whose value is derived from an underlying asset or group of assets.",
+      "opportunities": "Sets of circumstances that make it possible to do something."
+    },
+    "questions": [
+      "Q1: What specific type of trading does Polymarket want to offer, and what characteristic defines it?",
+      "Q2: Explain what \"collateralized\" means in the context of margin trading and why it's important.",
+      "Q3: How might the expansion of regulated margin trading in crypto affect market volatility and investor participation?"
+    ],
+    "modelAnswers": [
+      "A1: Polymarket wants to offer margin trading, which is characterized by users taking positions that are not fully collateralized.",
+      "A2: \"Collateralized\" means that assets are pledged to secure a loan. In margin trading, it's important because it reduces risk for the lender by ensuring there's a backup if the borrower defaults.",
+      "A3: Regulated margin trading could increase market liquidity and attract more sophisticated investors, potentially leading to more efficient price discovery. However, it might also amplify price swings if not managed carefully."
+    ]
+  },
+  {
+    "id": "cd-2026-07-12-3",
+    "date": "2026-07-12",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "헤데라 네트워크에서 발생한 9백만 달러 규모의 오라클 익스플로잇으로 본조 렌딩 프로토콜이 크게 손실을 입었습니다.",
+    "url": "https://www.coindesk.com/web3/2026/07/11/lending-protocol-bonzo-loses-77-of-value-locked-as-usd9-million-oracle-exploit-rattles-hedera",
+    "title": "Bonzo Lending Protocol Hit by $9M Oracle Exploit.",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Bonzo Lend protocol recently suffered a significant loss. Approximately $9.05 million was lost due to an oracle exploit. This attack occurred on the Hedera network. Attackers exploited a verification flaw in a third-party Supra oracle contract. An oracle feeds external data into a blockchain. If the oracle data is compromised, protocols can be exploited. This incident caused Bonzo Lend to lose 77% of its total value locked. Such security breaches highlight critical risks in decentralized finance (DeFi). For a fintech PM, understanding these vulnerabilities is essential. It emphasizes the need for robust security measures. It also shows the importance of thorough smart contract audits.",
+    "sentences": [
+      {
+        "en": "The Bonzo Lend protocol recently suffered a significant loss.",
+        "ko": "본조 렌딩 프로토콜은 최근 상당한 손실을 입었습니다."
+      },
+      {
+        "en": "Approximately $9.05 million was lost due to an oracle exploit.",
+        "ko": "약 905만 달러가 오라클 익스플로잇으로 인해 손실되었습니다."
+      },
+      {
+        "en": "This attack occurred on the Hedera network.",
+        "ko": "이 공격은 헤데라 네트워크에서 발생했습니다."
+      },
+      {
+        "en": "Attackers exploited a verification flaw in a third-party Supra oracle contract.",
+        "ko": "공격자들은 제3자 수프라 오라클 계약의 검증 결함을 악용했습니다."
+      },
+      {
+        "en": "An oracle feeds external data into a blockchain.",
+        "ko": "오라클은 외부 데이터를 블록체인으로 공급합니다."
+      },
+      {
+        "en": "If the oracle data is compromised, protocols can be exploited.",
+        "ko": "오라클 데이터가 손상되면 프로토콜이 악용될 수 있습니다."
+      },
+      {
+        "en": "This incident caused Bonzo Lend to lose 77% of its total value locked.",
+        "ko": "이 사건으로 인해 본조 렌딩은 총 예치 자산의 77%를 잃었습니다."
+      },
+      {
+        "en": "Such security breaches highlight critical risks in decentralized finance (DeFi).",
+        "ko": "이러한 보안 침해는 분산 금융(DeFi)의 심각한 위험을 강조합니다."
+      },
+      {
+        "en": "For a fintech PM, understanding these vulnerabilities is essential.",
+        "ko": "핀테크 PM에게 이러한 취약점을 이해하는 것은 필수적입니다."
+      },
+      {
+        "en": "It emphasizes the need for robust security measures.",
+        "ko": "이는 강력한 보안 조치의 필요성을 강조합니다."
+      },
+      {
+        "en": "It also shows the importance of thorough smart contract audits.",
+        "ko": "또한 철저한 스마트 계약 감사의 중요성을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "protocol": "A set of rules that allow two or more computers or systems to communicate and exchange information.",
+      "suffered": "Experienced something bad or unpleasant, often a loss or difficulty.",
+      "significant": "Important or noticeable, having a great impact or influence.",
+      "approximately": "Close to a particular number or amount, but not exactly.",
+      "oracle": "A mechanism that feeds real-world data from outside a blockchain into smart contracts.",
+      "exploit": "To take advantage of a weakness or flaw in a system for personal gain.",
+      "occurred": "Happened or took place, often referring to an event or incident.",
+      "network": "A system of connected computers or devices that can share information.",
+      "attackers": "Individuals or groups who intentionally cause harm or damage to a system.",
+      "exploited": "Used a weakness or vulnerability in a system to achieve an unauthorized outcome.",
+      "verification": "The process of checking or proving that something is true or accurate.",
+      "flaw": "A fault, defect, or weakness, especially one that makes something imperfect.",
+      "third-party": "A person or group involved in a situation in addition to the two main ones.",
+      "contract": "A formal agreement between two or more parties, often legally binding.",
+      "feeds": "Supplies or provides something, often continuously or regularly.",
+      "external": "Coming from outside a particular entity or system.",
+      "compromised": "Made vulnerable or exposed to risk, often through a security breach.",
+      "breaches": "Acts of breaking a rule, agreement, or security system.",
+      "highlight": "To draw attention to something important or make it stand out.",
+      "critical": "Extremely important or serious, often involving a risk of failure.",
+      "decentralized": "Operating without a central authority or control, distributed among participants.",
+      "finance": "The management of large amounts of money, especially by governments or companies.",
+      "vulnerabilities": "Weaknesses or flaws in a system that can be exploited by attackers.",
+      "essential": "Absolutely necessary or important.",
+      "robust": "Strong and healthy; able to withstand difficult conditions.",
+      "measures": "Actions taken to achieve a particular purpose.",
+      "thorough": "Complete and careful attention to every detail.",
+      "audits": "Official examinations of accounts or records to check their accuracy."
+    },
+    "questions": [
+      "Q1: What was the primary cause of the $9.05 million loss for the Bonzo Lend protocol?",
+      "Q2: According to the article, what is the function of an \"oracle\" in a blockchain context, and why is its security crucial?",
+      "Q3: What steps do you think DeFi projects should prioritize to prevent oracle exploits and enhance overall security?"
+    ],
+    "modelAnswers": [
+      "A1: The primary cause was an oracle exploit that leveraged a verification flaw in a third-party Supra oracle contract on the Hedera network.",
+      "A2: An oracle feeds external, real-world data into a blockchain. Its security is crucial because compromised oracle data can lead to serious vulnerabilities and financial exploits for protocols.",
+      "A3: DeFi projects should prioritize rigorous smart contract audits, use multiple decentralized oracle providers, and implement robust monitoring systems to detect anomalies. Regular security reviews and bug bounty programs are also vital."
+    ]
+  },
+  {
+    "id": "ec-2026-07-12-1",
+    "date": "2026-07-12",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준의 새 태스크포스 구성은 향후 통화 정책 방향을 이해하는 데 중요합니다.",
+    "url": "https://www.cnbc.com/2026/07/09/kevin-warsh-names-members-of-his-federal-reserve-task-forces-including-marc-andreessen-doug-mcmillon.html",
+    "title": "Federal Reserve Forms Task Forces to Review Operations",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Federal Reserve Chairman Kevin Warsh recently announced the formation of several new task forces. These expert groups will thoroughly examine the central bank's extensive operations. The Fed aims to enhance its overall effectiveness and adapt to evolving economic challenges. Five distinct task forces have been specifically established for this crucial review process. Prominent individuals from diverse professional fields are joining these important committees. Marc Andreessen, a highly respected tech investor, is one notable appointee. Doug McMillon, the influential CEO of Walmart, also contributes valuable business insight. Their collective expertise is expected to bring fresh, innovative perspectives to the Fed's work. The comprehensive findings from these reviews could significantly influence future monetary policy. This strategic initiative underscores the Federal Reserve's deep commitment to continuous improvement. It further reflects a proactive approach to ensuring strong economic governance and stability.",
+    "sentences": [
+      {
+        "en": "Federal Reserve Chairman Kevin Warsh recently announced the formation of several new task forces.",
+        "ko": "연방준비제도 이사회 의장 케빈 워시가 최근 여러 새로운 태스크포스의 구성을 발표했습니다."
+      },
+      {
+        "en": "These expert groups will thoroughly examine the central bank's extensive operations.",
+        "ko": "이 전문가 그룹들은 중앙은행의 광범위한 운영을 철저히 검토할 것입니다."
+      },
+      {
+        "en": "The Fed aims to enhance its overall effectiveness and adapt to evolving economic challenges.",
+        "ko": "연준은 전반적인 효율성을 높이고 변화하는 경제적 도전에 적응하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Five distinct task forces have been specifically established for this crucial review process.",
+        "ko": "이 중요한 검토 과정을 위해 다섯 개의 개별 태스크포스가 특별히 설립되었습니다."
+      },
+      {
+        "en": "Prominent individuals from diverse professional fields are joining these important committees.",
+        "ko": "다양한 전문 분야의 저명한 인사들이 이 중요한 위원회에 합류하고 있습니다."
+      },
+      {
+        "en": "Marc Andreessen, a highly respected tech investor, is one notable appointee.",
+        "ko": "매우 존경받는 기술 투자자인 마크 앤드리슨이 한 명의 주목할 만한 임명자입니다."
+      },
+      {
+        "en": "Doug McMillon, the influential CEO of Walmart, also contributes valuable business insight.",
+        "ko": "월마트의 영향력 있는 CEO인 더그 맥밀런 또한 귀중한 비즈니스 통찰력을 제공합니다."
+      },
+      {
+        "en": "Their collective expertise is expected to bring fresh, innovative perspectives to the Fed's work.",
+        "ko": "그들의 집단적 전문성은 연준의 업무에 신선하고 혁신적인 관점을 가져올 것으로 기대됩니다."
+      },
+      {
+        "en": "The comprehensive findings from these reviews could significantly influence future monetary policy.",
+        "ko": "이 검토의 포괄적인 결과는 향후 통화 정책에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "This strategic initiative underscores the Federal Reserve's deep commitment to continuous improvement.",
+        "ko": "이 전략적 이니셔티브는 지속적인 개선에 대한 연방준비제도의 깊은 헌신을 강조합니다."
+      },
+      {
+        "en": "It further reflects a proactive approach to ensuring strong economic governance and stability.",
+        "ko": "이는 강력한 경제 거버넌스와 안정을 보장하기 위한 선제적 접근 방식을 더욱 반영합니다."
+      }
+    ],
+    "glossary": {
+      "chairman": "The person leading a committee or organization, like the Federal Reserve.",
+      "announced": "Made something known publicly or officially for the first time.",
+      "formation": "The process of creating or bringing something into existence.",
+      "expert": "A person with deep knowledge or skill in a particular subject.",
+      "thoroughly": "Done with great attention to detail and completeness.",
+      "examine": "To inspect something carefully and in detail to understand it.",
+      "extensive": "Covering a large area or having a wide range of details.",
+      "operations": "The activities or processes involved in managing an organization.",
+      "enhance": "To improve the quality, value, or attractiveness of something.",
+      "effectiveness": "The degree to which something successfully produces a desired result.",
+      "evolving": "Developing gradually, especially adapting to new conditions.",
+      "challenges": "Difficult situations or problems that require effort to overcome.",
+      "distinct": "Clearly separate and different from others of the same type.",
+      "established": "Set up on a firm or permanent basis.",
+      "prominent": "Important, famous, or easily noticeable.",
+      "diverse": "Showing a great variety of different types.",
+      "appointee": "A person chosen for a specific job or position.",
+      "contributes": "Gives something, such as ideas or effort, to a common purpose.",
+      "insight": "The ability to understand the true nature of something.",
+      "collective": "Done or shared by all members of a group.",
+      "innovative": "Featuring new methods or ideas; original and creative.",
+      "commitment": "A firm promise or dedication to a cause or action."
+    },
+    "questions": [
+      "Who are two prominent individuals named by Kevin Warsh to join the Federal Reserve's new task forces?",
+      "The passage mentions that the task forces will \"examine the central bank's extensive operations.\" What does \"operations\" refer to in this context, and why is it important for the Fed to examine them?",
+      "Why do you think it is beneficial for the Federal Reserve to include individuals with diverse backgrounds, such as a tech investor and a CEO, on its task forces? What potential challenges might arise from such diverse membership?"
+    ],
+    "modelAnswers": [
+      "Marc Andreessen, a tech investor, and Doug McMillon, Walmart's CEO, are two prominent individuals named to join the Federal Reserve's new task forces.",
+      "In this context, \"operations\" refers to the Federal Reserve's various functions and activities, including its monetary policy implementation, financial supervision, and payment system management. It is important for the Fed to examine them to ensure efficiency, transparency, and adaptability to economic changes.",
+      "Including diverse backgrounds on Fed task forces can bring fresh perspectives and real-world insights from different sectors. However, potential challenges might include managing conflicting viewpoints or ensuring that specialized economic expertise remains central to the discussions."
+    ]
+  },
+  {
+    "id": "ec-2026-07-12-2",
+    "date": "2026-07-12",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "영국 인플레이션율이 안정적인 모습을 보여주며 중앙은행의 통화 정책 결정에 관심이 쏠리고 있습니다.",
+    "url": "https://www.cnbc.com/2026/06/17/inflation-uk-cpi-interest-rates-bank-of-england.html",
+    "title": "UK Inflation Stable, Bank of England Eyes Policy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The United Kingdom's inflation rate remained notably steady in May. It held firm at 2.8%, precisely matching previous market expectations. This consistent stability serves as a crucial economic indicator for the nation. It strongly suggests that broader price increases are not currently accelerating. The Bank of England, the country's central bank, closely monitors these figures. Its primary and ongoing goal is the vital task of maintaining price stability. The central bank is scheduled to update its monetary policy framework very soon. This significant policy decision will be officially announced on Thursday. Adjusting interest rates remains a common and powerful tool for the Bank. Such stable inflation might strongly influence a more cautious policy approach. Policymakers must carefully weigh various complex economic factors before deciding. Their ultimate actions significantly impact overall consumer spending and business investment.",
+    "sentences": [
+      {
+        "en": "The United Kingdom's inflation rate remained notably steady in May.",
+        "ko": "영국의 인플레이션율이 5월에 눈에 띄게 안정적인 상태를 유지했습니다."
+      },
+      {
+        "en": "It held firm at 2.8%, precisely matching previous market expectations.",
+        "ko": "이는 2.8%로 견고하게 유지되었으며, 이전 시장 예상치와 정확히 일치했습니다."
+      },
+      {
+        "en": "This consistent stability serves as a crucial economic indicator for the nation.",
+        "ko": "이러한 꾸준한 안정성은 국가의 중요한 경제 지표 역할을 합니다."
+      },
+      {
+        "en": "It strongly suggests that broader price increases are not currently accelerating.",
+        "ko": "이는 광범위한 물가 상승이 현재 가속화되지 않고 있음을 강력히 시사합니다."
+      },
+      {
+        "en": "The Bank of England, the country's central bank, closely monitors these figures.",
+        "ko": "영국 중앙은행인 영란은행은 이 수치들을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Its primary and ongoing goal is the vital task of maintaining price stability.",
+        "ko": "그들의 주요하고 지속적인 목표는 물가 안정을 유지하는 중요한 과업입니다."
+      },
+      {
+        "en": "The central bank is scheduled to update its monetary policy framework very soon.",
+        "ko": "중앙은행은 곧 통화 정책 프레임워크를 업데이트할 예정입니다."
+      },
+      {
+        "en": "This significant policy decision will be officially announced on Thursday.",
+        "ko": "이 중요한 정책 결정은 목요일에 공식적으로 발표될 것입니다."
+      },
+      {
+        "en": "Adjusting interest rates remains a common and powerful tool for the Bank.",
+        "ko": "금리 조정은 여전히 은행의 일반적이고 강력한 도구입니다."
+      },
+      {
+        "en": "Such stable inflation might strongly influence a more cautious policy approach.",
+        "ko": "이러한 안정적인 인플레이션은 더 신중한 정책 접근 방식에 강하게 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Policymakers must carefully weigh various complex economic factors before deciding.",
+        "ko": "정책 입안자들은 결정하기 전에 다양한 복잡한 경제적 요인들을 신중하게 고려해야 합니다."
+      },
+      {
+        "en": "Their ultimate actions significantly impact overall consumer spending and business investment.",
+        "ko": "그들의 최종적인 행동은 전반적인 소비 지출과 기업 투자에 중대한 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "remained": "Stayed in a particular place or condition.",
+      "notably": "Especially or particularly, in a way that is important.",
+      "steady": "Not changing or moving; stable and consistent.",
+      "firm": "Not likely to change or move; stable.",
+      "precisely": "Exactly; with high accuracy.",
+      "matching": "Being equal or similar to something else.",
+      "expectations": "Beliefs about what will happen in the future.",
+      "consistent": "Always happening in the same way; unchanging.",
+      "crucial": "Extremely important or necessary for success.",
+      "indicator": "A sign that shows the condition or existence of something.",
+      "suggests": "Points to an idea or possibility; indicates.",
+      "accelerating": "Increasing in speed or rate.",
+      "monitors": "Observes and checks the progress or quality of something.",
+      "primary": "Most important; main.",
+      "maintaining": "Keeping something in a proper or existing state.",
+      "scheduled": "Planned to happen at a particular time.",
+      "framework": "A basic structure underlying a system or concept.",
+      "significant": "Large or important enough to be worthy of attention.",
+      "adjusting": "Changing something slightly to make it more suitable.",
+      "influence": "The power to have an effect on something.",
+      "cautious": "Avoiding potential dangers or risks.",
+      "policymakers": "People responsible for making official policy.",
+      "impact": "To have a strong effect on something."
+    },
+    "questions": [
+      "What was the UK's inflation rate in May, and how did it compare to expectations?",
+      "The passage mentions \"monetary policy\" and \"interest rate changes.\" Explain what monetary policy is and how interest rate changes are used as a tool within it.",
+      "How might stable inflation affect the Bank of England's decision-making regarding interest rates? What are the potential benefits or drawbacks of a \"cautious approach\" in this situation?"
+    ],
+    "modelAnswers": [
+      "The UK's inflation rate in May was 2.8%, which remained steady and matched previous expectations.",
+      "Monetary policy refers to actions taken by a central bank to manage the money supply and credit conditions to influence economic activity. Interest rate changes are a key tool within monetary policy; raising rates can slow inflation, while lowering them can stimulate growth.",
+      "Stable inflation might encourage the Bank of England to maintain current interest rates or adopt a cautious approach, avoiding drastic changes. Benefits of caution include preventing market shocks, but drawbacks could be missing an opportunity to address underlying economic issues or support growth more actively."
+    ]
+  },
+  {
+    "id": "ec-2026-07-12-3",
+    "date": "2026-07-12",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "골드만삭스가 대규모 자산 운용 계약을 수주하며 치열한 시장 경쟁 속에서 입지를 다지고 있습니다.",
+    "url": "https://www.cnbc.com/2026/07/09/goldman-sachs-asset-management-deals-verizon-lockheed-martin.html",
+    "title": "Goldman Sachs Secures Major Asset Management Deals",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Goldman Sachs recently secured a series of highly significant asset management deals. The prominent financial firm successfully won $70 billion in new agreements. These substantial deals involve major corporate clients, including Verizon. Lockheed Martin, a defense giant, is another prominent client in these agreements. This impressive success highlights the fierce competition within the financial market. The multitrillion-dollar retirement assets sector is currently highly contested. Numerous asset managers aggressively compete for these lucrative contracts. BlackRock stands as a key rival, often dominating this competitive space. Russell Investments and Mercer also actively contend for valuable market share. Goldman Sachs's substantial win significantly strengthens its overall market position. It clearly demonstrates the firm's robust and compelling capabilities in asset management. This achievement reflects continued strong growth in its specialized financial services.",
+    "sentences": [
+      {
+        "en": "Goldman Sachs recently secured a series of highly significant asset management deals.",
+        "ko": "골드만삭스가 최근 일련의 매우 중요한 자산 운용 계약들을 확보했습니다."
+      },
+      {
+        "en": "The prominent financial firm successfully won $70 billion in new agreements.",
+        "ko": "이 저명한 금융 회사는 새로운 계약으로 700억 달러를 성공적으로 수주했습니다."
+      },
+      {
+        "en": "These substantial deals involve major corporate clients, including Verizon.",
+        "ko": "이러한 상당한 규모의 계약에는 버라이즌을 포함한 주요 기업 고객들이 포함됩니다."
+      },
+      {
+        "en": "Lockheed Martin, a defense giant, is another prominent client in these agreements.",
+        "ko": "방위 산업 대기업인 록히드 마틴은 이 계약들에서 또 다른 저명한 고객입니다."
+      },
+      {
+        "en": "This impressive success highlights the fierce competition within the financial market.",
+        "ko": "이 인상적인 성공은 금융 시장 내의 치열한 경쟁을 부각시킵니다."
+      },
+      {
+        "en": "The multitrillion-dollar retirement assets sector is currently highly contested.",
+        "ko": "수조 달러 규모의 퇴직 자산 부문은 현재 매우 경쟁이 치열합니다."
+      },
+      {
+        "en": "Numerous asset managers aggressively compete for these lucrative contracts.",
+        "ko": "수많은 자산 관리자들이 이러한 수익성 높은 계약들을 위해 적극적으로 경쟁합니다."
+      },
+      {
+        "en": "BlackRock stands as a key rival, often dominating this competitive space.",
+        "ko": "블랙록은 주요 경쟁사로, 이 경쟁적인 분야를 종종 지배하고 있습니다."
+      },
+      {
+        "en": "Russell Investments and Mercer also actively contend for valuable market share.",
+        "ko": "러셀 인베스트먼트와 머서 또한 귀중한 시장 점유율을 위해 적극적으로 다투고 있습니다."
+      },
+      {
+        "en": "Goldman Sachs's substantial win significantly strengthens its overall market position.",
+        "ko": "골드만삭스의 상당한 수주는 전반적인 시장 지위를 크게 강화합니다."
+      },
+      {
+        "en": "It clearly demonstrates the firm's robust and compelling capabilities in asset management.",
+        "ko": "이는 자산 운용 분야에서 회사의 강력하고 설득력 있는 역량을 명확히 보여줍니다."
+      },
+      {
+        "en": "This achievement reflects continued strong growth in its specialized financial services.",
+        "ko": "이 성과는 전문화된 금융 서비스 분야에서 지속적인 강력한 성장을 반영합니다."
+      }
+    ],
+    "glossary": {
+      "secured": "Obtained something, especially after considerable effort.",
+      "series": "A number of similar things coming one after another.",
+      "highly": "To a great degree; very.",
+      "significant": "Important or noticeable.",
+      "prominent": "Important, famous, or easily noticed.",
+      "successfully": "Achieving a desired aim or result.",
+      "agreements": "Formal arrangements or decisions between parties.",
+      "substantial": "Of considerable importance, size, or worth.",
+      "corporate": "Relating to a large company or group.",
+      "clients": "People or organizations using professional services.",
+      "impressive": "Causing admiration through size, quality, or skill.",
+      "highlights": "Draws special attention to something important.",
+      "fierce": "Intense and very competitive.",
+      "competition": "The rivalry among businesses trying to achieve goals.",
+      "sector": "A distinct part of an economy or society.",
+      "contested": "Competed for by many people or groups.",
+      "lucrative": "Producing a great deal of profit.",
+      "rival": "A person or company competing with another.",
+      "contend": "To compete or struggle to achieve something.",
+      "robust": "Strong and healthy; able to withstand difficult conditions."
+    },
+    "questions": [
+      "How much money did Goldman Sachs win in new asset management deals, and which two major companies were mentioned as clients?",
+      "The passage describes the retirement assets sector as \"highly contested.\" What does \"highly contested\" mean in this business context, and why might it be the case for retirement assets?",
+      "For a fintech PM, what opportunities or challenges do you see in a \"fiercely competitive\" asset management market, especially with large traditional players like Goldman Sachs?"
+    ],
+    "modelAnswers": [
+      "Goldman Sachs won $70 billion in new asset management deals, with Verizon and Lockheed Martin mentioned as major clients.",
+      "\"Highly contested\" means there is intense competition among many firms vying for the same business. The retirement assets sector is likely highly contested because it involves managing vast sums of money for long periods, offering lucrative, stable revenue streams for asset managers.",
+      "For a fintech PM, a fiercely competitive asset management market presents opportunities for innovation in areas like personalized investment tools, AI-driven advice, and cost-effective digital platforms. However, challenges include needing significant capital to compete with established firms, navigating complex regulations, and building trust with clients."
+    ]
+  },
+  {
     "id": "cd-2026-07-11-1",
     "date": "2026-07-11",
     "rank": 1,
