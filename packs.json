@@ -1,5 +1,554 @@
 [
   {
+    "id": "cd-2026-07-14-1",
+    "date": "2026-07-14",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 USDC의 성장에 대한 주요 투자은행의 회의적인 시각과 경쟁 구도를 분석합니다.",
+    "url": "https://www.coindesk.com/business/2026/07/13/mizuho-says-circle-bank-approval-doesn-t-solve-usdc-growth-stablecoin-competition-risks",
+    "title": "Mizuho Questions USDC Growth Amid Stablecoin Competition",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Mizuho, a Japanese investment bank, recently maintained its neutral rating on Circle. Circle is the issuer of the USDC stablecoin. The bank acknowledged Circle's approval for a national trust bank charter. However, Mizuho believes this approval will not solve key challenges. They cite slowing growth for USDC as a major concern. Increased competition from other stablecoins also poses risks. This suggests regulatory approval alone cannot guarantee market dominance. Mizuho's stance highlights the intense competitive environment for stablecoins. It also points to the need for continuous innovation beyond regulatory milestones.",
+    "sentences": [
+      {
+        "en": "Mizuho, a Japanese investment bank, recently maintained its neutral rating on Circle.",
+        "ko": "일본 투자은행 미즈호는 최근 서클에 대한 중립 등급을 유지했습니다."
+      },
+      {
+        "en": "Circle is the issuer of the USDC stablecoin.",
+        "ko": "서클은 USDC 스테이블코인의 발행사입니다."
+      },
+      {
+        "en": "The bank acknowledged Circle's approval for a national trust bank charter.",
+        "ko": "은행은 서클의 국영 신탁은행 인가 승인을 인정했습니다."
+      },
+      {
+        "en": "However, Mizuho believes this approval will not solve key challenges.",
+        "ko": "하지만 미즈호는 이 승인이 주요 과제를 해결하지 못할 것이라고 보고 있습니다."
+      },
+      {
+        "en": "They cite slowing growth for USDC as a major concern.",
+        "ko": "그들은 USDC의 성장 둔화를 주요 우려 사항으로 언급합니다."
+      },
+      {
+        "en": "Increased competition from other stablecoins also poses risks.",
+        "ko": "다른 스테이블코인과의 경쟁 심화도 위험을 제기합니다."
+      },
+      {
+        "en": "This suggests regulatory approval alone cannot guarantee market dominance.",
+        "ko": "이는 규제 승인만으로는 시장 지배력을 보장할 수 없음을 시사합니다."
+      },
+      {
+        "en": "Mizuho's stance highlights the intense competitive environment for stablecoins.",
+        "ko": "미즈호의 입장은 스테이블코인 시장의 치열한 경쟁 환경을 부각합니다."
+      },
+      {
+        "en": "It also points to the need for continuous innovation beyond regulatory milestones.",
+        "ko": "이는 규제 이정표를 넘어 지속적인 혁신의 필요성도 지적합니다."
+      }
+    ],
+    "glossary": {
+      "maintained": "to keep something in the same state or condition over time.",
+      "neutral": "not supporting either side in a dispute or controversy.",
+      "rating": "an assessment of the quality or standing of something, often by a financial institution.",
+      "issuer": "a company or entity that creates and distributes a financial instrument, like a stablecoin.",
+      "acknowledged": "to accept or admit the existence or truth of something.",
+      "charter": "a written grant by a legislative or sovereign power defining the rights and privileges of a company.",
+      "solve": "to find an answer or explanation for a problem or difficulty.",
+      "challenges": "difficulties that need to be overcome.",
+      "cite": "to refer to something as evidence or justification for an argument.",
+      "concern": "a matter of interest or importance to someone.",
+      "poses": "to present or constitute a problem or danger.",
+      "risks": "situations involving exposure to danger, harm, or loss.",
+      "regulatory": "relating to an authority or body that controls an industry or activity.",
+      "guarantee": "a formal promise or assurance that certain conditions will be fulfilled.",
+      "dominance": "power and influence over others.",
+      "stance": "the attitude of a person or organization toward something; a point of view.",
+      "highlights": "to draw special attention to something.",
+      "intense": "of extreme force or degree.",
+      "environment": "the conditions or surroundings in which a person, animal, or plant lives or operates.",
+      "milestones": "significant stages or events in the development of something."
+    },
+    "questions": [
+      "Q1: What did Mizuho recently state about Circle's national trust bank approval and its impact on USDC growth?",
+      "Q2: In the passage, what does \"market dominance\" refer to regarding stablecoins, and what factors might hinder it according to Mizuho?",
+      "Q3: Do you think regulatory approval is the most critical factor for a stablecoin's success, or are other elements like innovation and competition more important? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: Mizuho maintained a neutral rating on Circle, stating that the national trust bank approval does not address slowing USDC growth or rising competition from other stablecoins.",
+      "A2: \"Market dominance\" refers to a stablecoin's ability to hold the greatest power and influence in the market. According to Mizuho, slowing growth and intense competition from other stablecoins might hinder it.",
+      "A3: While regulatory approval is crucial for legitimacy and trust, I believe innovation and competition are equally, if not more, important. Without continuous development and a strong competitive edge, even a regulated stablecoin might struggle to gain widespread adoption and maintain market share."
+    ]
+  },
+  {
+    "id": "cd-2026-07-14-2",
+    "date": "2026-07-14",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "영국 재무부 보고서가 토큰화 로드맵을 발표하며 리플을 긍정적인 모델로 언급한 배경을 알아봅니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
+    "title": "UK Treasury Backs Tokenization, Cites Ripple",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The UK Treasury has released a significant report on tokenization. This report outlines a strategic plan for digital assets. It aims to put traditional financial instruments on the blockchain. Specifically, repo agreements, gilts, and funds are targeted. The goal is to achieve this within the next two years. The report also shows a positive view towards permissionless networks. These networks are being developed by companies like Ripple. Ripple is highlighted as a model for this convergence. This indicates growing governmental interest in blockchain innovation. It also suggests a potential shift towards broader crypto adoption in finance.",
+    "sentences": [
+      {
+        "en": "The UK Treasury has released a significant report on tokenization.",
+        "ko": "영국 재무부가 토큰화에 대한 중요한 보고서를 발표했습니다."
+      },
+      {
+        "en": "This report outlines a strategic plan for digital assets.",
+        "ko": "이 보고서는 디지털 자산에 대한 전략적 계획을 제시합니다."
+      },
+      {
+        "en": "It aims to put traditional financial instruments on the blockchain.",
+        "ko": "이는 전통적인 금융 상품을 블록체인에 올리는 것을 목표로 합니다."
+      },
+      {
+        "en": "Specifically, repo agreements, gilts, and funds are targeted.",
+        "ko": "특히, 환매 조건부 채권, 영국 국채 및 펀드가 대상입니다."
+      },
+      {
+        "en": "The goal is to achieve this within the next two years.",
+        "ko": "목표는 향후 2년 이내에 이를 달성하는 것입니다."
+      },
+      {
+        "en": "The report also shows a positive view towards permissionless networks.",
+        "ko": "이 보고서는 또한 무허가형 네트워크에 대해 긍정적인 시각을 보여줍니다."
+      },
+      {
+        "en": "These networks are being developed by companies like Ripple.",
+        "ko": "이러한 네트워크는 리플과 같은 회사들이 개발하고 있습니다."
+      },
+      {
+        "en": "Ripple is highlighted as a model for this convergence.",
+        "ko": "리플은 이러한 융합의 모델로 강조됩니다."
+      },
+      {
+        "en": "This indicates growing governmental interest in blockchain innovation.",
+        "ko": "이는 블록체인 혁신에 대한 정부의 관심이 커지고 있음을 나타냅니다."
+      },
+      {
+        "en": "It also suggests a potential shift towards broader crypto adoption in finance.",
+        "ko": "이는 또한 금융 분야에서 더 광범위한 암호화폐 채택으로의 잠재적 전환을 시사합니다."
+      }
+    ],
+    "glossary": {
+      "released": "to make something available to the public.",
+      "significant": "important and deserving of attention.",
+      "outlines": "to give a general description of something, providing the main points.",
+      "strategic": "relating to the identification of long-term aims and interests.",
+      "aims": "to have the intention of achieving something.",
+      "traditional": "existing in or as part of a tradition; long-established.",
+      "instruments": "a formal legal document, often used in finance.",
+      "blockchain": "a decentralized, distributed ledger technology that records transactions across many computers.",
+      "repo": "a repurchase agreement, a form of short-term borrowing for dealers in government securities.",
+      "gilts": "a bond issued by the British government, considered very safe.",
+      "targeted": "to select something as the object of an action or interest.",
+      "achieve": "to successfully bring about or reach a desired objective or result.",
+      "permissionless": "a type of blockchain network where anyone can participate without needing approval.",
+      "networks": "a group or system of interconnected people or things.",
+      "developed": "to create something new or more advanced.",
+      "highlighted": "to draw special attention to something.",
+      "convergence": "the process or state of coming together or merging.",
+      "indicates": "to point out or show something.",
+      "governmental": "relating to or characteristic of a government.",
+      "innovation": "the introduction of new ideas, methods, or devices.",
+      "potential": "having or showing the capacity to become something in the future.",
+      "shift": "a slight change in position, direction, or tendency.",
+      "broader": "covering a large number of subjects or areas.",
+      "adoption": "the action of taking on or embracing something new."
+    },
+    "questions": [
+      "Q1: What types of traditional financial instruments does the UK Treasury report aim to put on the blockchain within two years?",
+      "Q2: Explain what \"permissionless networks\" mean in the context of the passage and why the UK Treasury might view them positively.",
+      "Q3: How do you think the UK Treasury's positive stance on tokenization and companies like Ripple could impact the future of traditional finance?"
+    ],
+    "modelAnswers": [
+      "A1: The UK Treasury report aims to put repo agreements, gilts (British government bonds), and funds on the blockchain within the next two years.",
+      "A2: \"Permissionless networks\" are blockchain systems where anyone can participate without needing special approval. The UK Treasury might view them positively because they offer transparency, efficiency, and potentially greater accessibility for tokenized assets.",
+      "A3: This stance could significantly accelerate the integration of blockchain technology into traditional finance, making processes more efficient and transparent. It might also encourage other governments to explore similar tokenization strategies, potentially legitimizing and expanding the role of crypto companies like Ripple in the financial sector."
+    ]
+  },
+  {
+    "id": "cd-2026-07-14-3",
+    "date": "2026-07-14",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "볼리비아가 국가 결제 시스템에 테더(USDT)를 추가하는 방안을 검토하며 스테이블코인의 실제 활용 사례를 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/07/13/bolivia-weighs-adding-tether-s-usdt-to-its-national-payments-system",
+    "title": "Bolivia Considers Adding Tether USDT to National Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Bolivia is currently exploring the integration of Tether's USDT. This stablecoin could be added to its national payments system. The country has seen a remarkable surge in crypto usage. Transaction volumes reached $430 million in the past year. This spike occurred after the central bank removed restrictions. The restrictions were lifted in mid-2024. Adding USDT would allow for more efficient digital transactions. It could also offer greater financial stability for citizens. This move highlights the growing global acceptance of stablecoins. It also demonstrates their potential for mainstream financial systems.",
+    "sentences": [
+      {
+        "en": "Bolivia is currently exploring the integration of Tether's USDT.",
+        "ko": "볼리비아는 현재 테더의 USDT 통합을 모색하고 있습니다."
+      },
+      {
+        "en": "This stablecoin could be added to its national payments system.",
+        "ko": "이 스테이블코인은 국가 결제 시스템에 추가될 수 있습니다."
+      },
+      {
+        "en": "The country has seen a remarkable surge in crypto usage.",
+        "ko": "이 나라는 암호화폐 사용량이 눈에 띄게 급증했습니다."
+      },
+      {
+        "en": "Transaction volumes reached $430 million in the past year.",
+        "ko": "지난 한 해 동안 거래량은 4억 3천만 달러에 달했습니다."
+      },
+      {
+        "en": "This spike occurred after the central bank removed restrictions.",
+        "ko": "이 급증은 중앙은행이 규제를 해제한 후에 발생했습니다."
+      },
+      {
+        "en": "The restrictions were lifted in mid-2024.",
+        "ko": "규제는 2024년 중반에 해제되었습니다."
+      },
+      {
+        "en": "Adding USDT would allow for more efficient digital transactions.",
+        "ko": "USDT를 추가하면 더 효율적인 디지털 거래가 가능해질 것입니다."
+      },
+      {
+        "en": "It could also offer greater financial stability for citizens.",
+        "ko": "이는 또한 시민들에게 더 큰 금융 안정성을 제공할 수 있습니다."
+      },
+      {
+        "en": "This move highlights the growing global acceptance of stablecoins.",
+        "ko": "이러한 움직임은 스테이블코인에 대한 전 세계적인 수용이 증가하고 있음을 보여줍니다."
+      },
+      {
+        "en": "It also demonstrates their potential for mainstream financial systems.",
+        "ko": "또한 주류 금융 시스템에서 스테이블코인의 잠재력을 입증합니다."
+      }
+    ],
+    "glossary": {
+      "exploring": "to investigate or discuss something in detail.",
+      "integration": "the act of combining two or more things so that they work together effectively.",
+      "stablecoin": "a cryptocurrency designed to maintain a stable value, typically pegged to a fiat currency.",
+      "national": "relating to a nation; common to a whole nation.",
+      "payments": "an amount paid or payable.",
+      "remarkable": "worthy of attention; striking.",
+      "surge": "a sudden powerful forward or upward movement.",
+      "usage": "the action of using something or the state of being used.",
+      "transaction": "an instance of buying or selling something; a business deal.",
+      "volumes": "the amount or quantity of something, especially when great.",
+      "reached": "to arrive at a particular stage or level.",
+      "spike": "a sharp, sudden increase in the intensity or amount of something.",
+      "occurred": "to happen; take place.",
+      "central": "of the greatest importance or influence.",
+      "bank": "a financial institution that accepts deposits and makes loans.",
+      "removed": "to take something away or off from the position it occupies.",
+      "restrictions": "a limiting condition or measure, especially a legal one.",
+      "lifted": "to remove a restriction or ban.",
+      "efficient": "achieving maximum productivity with minimum wasted effort or expense.",
+      "digital": "relating to or using computer technology.",
+      "stability": "the state of being stable and not subject to change or fluctuation.",
+      "citizens": "a legally recognized subject or national of a state or commonwealth.",
+      "acceptance": "the action of consenting to receive or undertake something offered.",
+      "demonstrates": "to clearly show the existence or truth of something by giving proof or evidence.",
+      "mainstream": "the ideas, attitudes, or activities that are regarded as normal or conventional."
+    },
+    "questions": [
+      "Q1: What was the approximate transaction volume for crypto in Bolivia in the year after the central bank lifted restrictions?",
+      "Q2: How does the passage describe the potential benefits of adding USDT to Bolivia's national payments system?",
+      "Q3: Do you believe integrating stablecoins like USDT into national payment systems is a positive development for emerging economies? Discuss the potential advantages and disadvantages."
+    ],
+    "modelAnswers": [
+      "A1: Crypto transaction volumes in Bolivia reached $430 million in the year after the central bank removed restrictions.",
+      "A2: The passage suggests that adding USDT could allow for more efficient digital transactions and offer greater financial stability for citizens.",
+      "A3: Yes, I believe it can be a positive development. Advantages include faster, cheaper cross-border payments, and potentially greater financial inclusion for unbanked populations. However, disadvantages might involve risks related to the stablecoin's reserves, potential for illicit activities, and challenges in maintaining monetary sovereignty."
+    ]
+  },
+  {
+    "id": "ec-2026-07-14-1",
+    "date": "2026-07-14",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 중앙은행의 금리 인상 가능성이 커지고 있습니다. 당신의 투자에 어떤 영향을 미칠까요?",
+    "url": "https://www.cnbc.com/2026/07/13/-a-july-rate-hike-from-the-fed-the-odds-are-rising.html",
+    "title": "Fed Rate Hike Odds Rise Amid Market Volatility",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Speculation is growing about a potential interest rate hike by the Federal Reserve. Financial markets are now pricing in a higher probability for a July increase. This change follows recent developments in the Strait of Hormuz. Oil prices have jumped significantly due to these geopolitical tensions. Higher energy costs often contribute to inflationary pressures. The Fed uses interest rate adjustments to manage inflation. Raising rates makes borrowing more expensive for businesses and consumers. This can slow economic growth but helps cool down prices. Investors are closely watching economic data and Fed officials' statements. Such decisions have broad implications for various asset classes. Fintech companies also need to adapt to changing monetary policies.",
+    "sentences": [
+      {
+        "en": "Speculation is growing about a potential interest rate hike by the Federal Reserve.",
+        "ko": "연방준비제도(Fed)의 잠재적인 금리 인상에 대한 추측이 커지고 있습니다."
+      },
+      {
+        "en": "Financial markets are now pricing in a higher probability for a July increase.",
+        "ko": "금융 시장은 이제 7월 인상 가능성을 더 높게 보고 있습니다."
+      },
+      {
+        "en": "This change follows recent developments in the Strait of Hormuz.",
+        "ko": "이러한 변화는 호르무즈 해협의 최근 사태에 따른 것입니다."
+      },
+      {
+        "en": "Oil prices have jumped significantly due to these geopolitical tensions.",
+        "ko": "이러한 지정학적 긴장으로 인해 유가가 크게 상승했습니다."
+      },
+      {
+        "en": "Higher energy costs often contribute to inflationary pressures.",
+        "ko": "더 높은 에너지 비용은 종종 인플레이션 압력에 기여합니다."
+      },
+      {
+        "en": "The Fed uses interest rate adjustments to manage inflation.",
+        "ko": "연준은 인플레이션을 관리하기 위해 금리 조정을 사용합니다."
+      },
+      {
+        "en": "Raising rates makes borrowing more expensive for businesses and consumers.",
+        "ko": "금리를 인상하면 기업과 소비자의 대출 비용이 증가합니다."
+      },
+      {
+        "en": "This can slow economic growth but helps cool down prices.",
+        "ko": "이는 경제 성장을 둔화시키지만 물가를 진정시키는 데 도움이 됩니다."
+      },
+      {
+        "en": "Investors are closely watching economic data and Fed officials' statements.",
+        "ko": "투자자들은 경제 데이터와 연준 관계자들의 발언을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Such decisions have broad implications for various asset classes.",
+        "ko": "이러한 결정은 다양한 자산 등급에 광범위한 영향을 미칩니다."
+      },
+      {
+        "en": "Fintech companies also need to adapt to changing monetary policies.",
+        "ko": "핀테크 기업들도 변화하는 통화 정책에 적응해야 합니다."
+      }
+    ],
+    "glossary": {
+      "speculation": "The act of forming opinions or theories without firm evidence.",
+      "potential": "Possible when the necessary conditions exist.",
+      "federal": "Relating to a system of government in which several states form a unity.",
+      "reserve": "A supply of something kept available for future use.",
+      "pricing": "The process of determining what to charge for a product or service.",
+      "probability": "The likelihood of something happening or being the case.",
+      "increase": "To make something larger in amount or number.",
+      "developments": "Events that constitute a new stage in a changing situation.",
+      "strait": "A narrow passage of water connecting two seas or two large areas of water.",
+      "hormuz": "A strategically important strait connecting the Persian Gulf with the Arabian Sea.",
+      "geopolitical": "Relating to politics, especially international relations, as influenced by geographical factors.",
+      "tensions": "A state of mental or emotional strain or unease.",
+      "contribute": "To give something, especially money or time, to help achieve or provide something.",
+      "inflationary": "Relating to or tending to cause inflation.",
+      "pressures": "The use of persuasion, influence, or intimidation to make someone do something.",
+      "adjustments": "A small alteration or movement made to achieve a desired fit.",
+      "manage": "To be in charge of or to control something.",
+      "borrowing": "Taking and using something with the intention of returning it.",
+      "expensive": "Costing a lot of money.",
+      "consumers": "People who buy goods and services for their own use.",
+      "implications": "The conclusion that can be drawn from something although it is not explicitly stated.",
+      "asset": "An item of property owned by a person or company, regarded as having value.",
+      "monetary": "Relating to money or currency."
+    },
+    "questions": [
+      "What recent geopolitical event is mentioned as a factor contributing to the rising odds of a Fed rate hike?",
+      "In the context of this article, what does \"pricing in\" mean when referring to financial markets and the probability of a rate increase?",
+      "How might a potential Fed rate hike influence investment strategies or product development for a fintech company?"
+    ],
+    "modelAnswers": [
+      "The rising odds of a Fed rate hike are attributed to recent developments in the Strait of Hormuz, which have led to a significant jump in oil prices.",
+      "\"Pricing in\" means that financial markets have already incorporated the expectation of a higher probability of a rate increase into current asset valuations and trading decisions.",
+      "A Fed rate hike could make borrowing more expensive, potentially increasing loan costs for fintech lending products. It might also shift investor interest towards less risky assets, impacting fintech investment platforms."
+    ]
+  },
+  {
+    "id": "ec-2026-07-14-2",
+    "date": "2026-07-14",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "주요 은행들이 기록적인 수익을 올릴 것으로 예상됩니다. 이들이 어떻게 돈을 벌고 있는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/13/bank-earnings-jpmorgan-chase-goldman-sachs-bank-of-america.html",
+    "title": "Major Banks Anticipate Strong Q2 Earnings",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Leading financial institutions are preparing to announce robust second-quarter revenues. These strong results are driven by several key market events. The SpaceX initial public offering (IPO) generated significant activity. It boosted investment banking fees for participating firms. Volatility from the Iran war also created trading opportunities. Banks with strong trading desks capitalized on these market swings. Furthermore, a rebound in commercial lending contributed to profits. This indicates improving economic conditions for businesses. Wall Street is experiencing what some analysts call a \"sweet spot.\" High-profile IPOs and market instability can both fuel bank earnings. Fintech companies often partner with or compete against these large banks.",
+    "sentences": [
+      {
+        "en": "Leading financial institutions are preparing to announce robust second-quarter revenues.",
+        "ko": "주요 금융 기관들이 견조한 2분기 수익을 발표할 준비를 하고 있습니다."
+      },
+      {
+        "en": "These strong results are driven by several key market events.",
+        "ko": "이러한 강력한 실적은 몇 가지 주요 시장 사건에 의해 주도됩니다."
+      },
+      {
+        "en": "The SpaceX initial public offering (IPO) generated significant activity.",
+        "ko": "스페이스X 기업공개(IPO)는 상당한 활동을 창출했습니다."
+      },
+      {
+        "en": "It boosted investment banking fees for participating firms.",
+        "ko": "이는 참여 기업들의 투자 은행 수수료를 증가시켰습니다."
+      },
+      {
+        "en": "Volatility from the Iran war also created trading opportunities.",
+        "ko": "이란 전쟁으로 인한 변동성 또한 거래 기회를 만들었습니다."
+      },
+      {
+        "en": "Banks with strong trading desks capitalized on these market swings.",
+        "ko": "강력한 트레이딩 데스크를 가진 은행들은 이러한 시장 변동을 활용했습니다."
+      },
+      {
+        "en": "Furthermore, a rebound in commercial lending contributed to profits.",
+        "ko": "더욱이, 상업 대출의 회복이 이익에 기여했습니다."
+      },
+      {
+        "en": "This indicates improving economic conditions for businesses.",
+        "ko": "이는 기업들의 경제 상황이 개선되고 있음을 나타냅니다."
+      },
+      {
+        "en": "Wall Street is experiencing what some analysts call a \"sweet spot.\"",
+        "ko": "월스트리트는 일부 분석가들이 \"스위트 스팟\"이라고 부르는 시기를 경험하고 있습니다."
+      },
+      {
+        "en": "High-profile IPOs and market instability can both fuel bank earnings.",
+        "ko": "유명 IPO와 시장 불안정성 모두 은행 수익을 촉진할 수 있습니다."
+      },
+      {
+        "en": "Fintech companies often partner with or compete against these large banks.",
+        "ko": "핀테크 기업들은 종종 이러한 대형 은행들과 협력하거나 경쟁합니다."
+      }
+    ],
+    "glossary": {
+      "leading": "Most important or most successful.",
+      "institutions": "Large and important organizations such as banks or universities.",
+      "robust": "Strong and healthy.",
+      "revenues": "The income that a business has from its normal business activities.",
+      "driven": "Caused by or resulting from something.",
+      "initial": "Of or at the beginning.",
+      "offering": "A thing offered, especially as a gift or contribution.",
+      "generated": "Produced or created something.",
+      "significant": "Sufficiently great or important to be worthy of attention.",
+      "activity": "The condition in which things are happening or being done.",
+      "boosted": "Helped to improve something or make it more successful.",
+      "investment": "The action or process of investing money for profit.",
+      "banking": "The business of operating a bank.",
+      "participating": "Taking part in an activity or event.",
+      "volatility": "The tendency of a market or price to change rapidly and unpredictably.",
+      "trading": "The activity of buying and selling goods or services.",
+      "desks": "Sections of a financial company that deal with specific types of transactions.",
+      "capitalized": "Took the opportunity to gain an advantage from.",
+      "swings": "Sudden or significant changes or fluctuations.",
+      "furthermore": "In addition; besides.",
+      "rebound": "A recovery in price, value, or strength after a previous decline.",
+      "commercial": "Concerned with or engaged in commerce.",
+      "lending": "The activity of lending money.",
+      "contributed": "Helped to cause or bring about.",
+      "indicating": "Pointing out or showing something.",
+      "improving": "Becoming better.",
+      "analysts": "People who examine and explain things in detail.",
+      "instability": "The state of being unstable or prone to change.",
+      "fuel": "To supply with fuel, or to provide energy for."
+    },
+    "questions": [
+      "According to the article, what two main factors contributed to the booming revenues for big banks in the second quarter?",
+      "Explain what \"volatility\" means in the context of the Iran war and how banks might \"capitalize\" on it.",
+      "How might the strong performance of large banks influence the competitive landscape or partnership opportunities for fintech startups?"
+    ],
+    "modelAnswers": [
+      "The two main factors contributing to the booming revenues were the SpaceX IPO, which boosted investment banking fees, and the volatility from the Iran war, which created trading opportunities.",
+      "\"Volatility\" refers to rapid and unpredictable market changes due to the Iran war. Banks with strong trading desks could \"capitalize\" by making profitable trades during these price swings and uncertainties.",
+      "Strong bank performance could intensify competition for fintechs, as banks have more resources for innovation. However, it might also create partnership opportunities, with banks seeking fintech solutions to maintain their growth and efficiency."
+    ]
+  },
+  {
+    "id": "ec-2026-07-14-3",
+    "date": "2026-07-14",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "인도의 인플레이션이 예상치를 뛰어넘으며 8개월 연속 상승했습니다. 이 소식은 세계 경제에 어떤 의미가 있을까요?",
+    "url": "https://www.cnbc.com/2026/07/13/india-june-inflation-oil-food-iran-war.html",
+    "title": "India's Inflation Exceeds Forecasts, Driven by Food and Energy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "India's inflation rate accelerated to 4.38% in June, surpassing expert forecasts. This marks the eighth consecutive month of rising prices in the country. The primary drivers are increasing food and energy costs. The ongoing Iran war has pushed global oil prices higher. Additionally, deficient rainfall has impacted agricultural output. This has led to higher food prices for Indian consumers. Central banks often raise interest rates to combat inflation. However, such measures can also slow down economic growth. Managing this balance is a critical challenge for policymakers. High inflation erodes purchasing power and affects household budgets. Global economic stability can be impacted by inflation in large economies.",
+    "sentences": [
+      {
+        "en": "India's inflation rate accelerated to 4.38% in June, surpassing expert forecasts.",
+        "ko": "인도의 6월 인플레이션율이 4.38%로 가속화되어 전문가 예측치를 넘어섰습니다."
+      },
+      {
+        "en": "This marks the eighth consecutive month of rising prices in the country.",
+        "ko": "이는 인도에서 물가 상승이 8개월 연속 이어진 것을 의미합니다."
+      },
+      {
+        "en": "The primary drivers are increasing food and energy costs.",
+        "ko": "주요 원인은 식량 및 에너지 비용 상승입니다."
+      },
+      {
+        "en": "The ongoing Iran war has pushed global oil prices higher.",
+        "ko": "진행 중인 이란 전쟁이 국제 유가를 끌어올렸습니다."
+      },
+      {
+        "en": "Additionally, deficient rainfall has impacted agricultural output.",
+        "ko": "게다가, 불충분한 강우량이 농업 생산량에 영향을 미쳤습니다."
+      },
+      {
+        "en": "This has led to higher food prices for Indian consumers.",
+        "ko": "이는 인도 소비자들의 식량 가격 상승으로 이어졌습니다."
+      },
+      {
+        "en": "Central banks often raise interest rates to combat inflation.",
+        "ko": "중앙은행은 인플레이션에 맞서기 위해 종종 금리를 인상합니다."
+      },
+      {
+        "en": "However, such measures can also slow down economic growth.",
+        "ko": "그러나 이러한 조치는 경제 성장을 둔화시킬 수도 있습니다."
+      },
+      {
+        "en": "Managing this balance is a critical challenge for policymakers.",
+        "ko": "이러한 균형을 관리하는 것은 정책 입안자들에게 중요한 과제입니다."
+      },
+      {
+        "en": "High inflation erodes purchasing power and affects household budgets.",
+        "ko": "높은 인플레이션은 구매력을 약화시키고 가계 예산에 영향을 미칩니다."
+      },
+      {
+        "en": "Global economic stability can be impacted by inflation in large economies.",
+        "ko": "세계 경제 안정은 대규모 경제국의 인플레이션에 의해 영향을 받을 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "accelerated": "Increased in speed or rate.",
+      "surpassing": "Exceeding or going beyond something.",
+      "forecasts": "Predictions about what will happen in the future.",
+      "consecutive": "Following one after another in an unbroken sequence.",
+      "primary": "Of chief importance; principal.",
+      "drivers": "Factors that cause something to happen or develop.",
+      "ongoing": "Continuing; still in progress.",
+      "pushed": "Moved something with force, or caused something to increase.",
+      "global": "Relating to the whole world.",
+      "additionally": "In addition; as an extra item or circumstance.",
+      "deficient": "Not having enough of a specified quality or ingredient.",
+      "rainfall": "The amount of rain that falls in a particular area.",
+      "impacted": "Had a strong effect on someone or something.",
+      "agricultural": "Relating to agriculture or farming.",
+      "output": "The amount of something produced by a person, machine, or industry.",
+      "erodes": "Gradually wears away or destroys something.",
+      "purchasing": "The action of buying something.",
+      "power": "The ability to do something or act in a particular way.",
+      "household": "A house and its occupants regarded as a unit.",
+      "budgets": "An estimate of income and expenditure for a set period of time.",
+      "stability": "The state of being stable and not likely to change or fail.",
+      "economies": "The system of how money is made and used within a particular country or region.",
+      "measures": "Plans or courses of action taken to achieve a particular purpose.",
+      "policymakers": "People who make plans or courses of action for a government, political party, or business."
+    },
+    "questions": [
+      "What two specific factors are identified as the primary causes for India's accelerating inflation in June?",
+      "In the context of this article, what does \"deficient rainfall\" imply for India's economy and consumers?",
+      "How might persistent high inflation in a large emerging economy like India affect global financial markets or supply chains?"
+    ],
+    "modelAnswers": [
+      "The primary causes for India's accelerating inflation are increasing food costs, due to deficient rainfall, and rising energy costs, influenced by the ongoing Iran war.",
+      "\"Deficient rainfall\" implies insufficient rain, which negatively impacts agricultural output. This leads to reduced harvests and higher food prices for Indian consumers.",
+      "Persistent high inflation in India could lead to tighter monetary policies, potentially slowing its economic growth. This might reduce demand for global goods and services, affecting international trade and supply chains."
+    ]
+  },
+  {
     "id": "cd-2026-07-13-1",
     "date": "2026-07-13",
     "rank": 1,
