@@ -292,6 +292,21 @@
     .grade .gwhy { color: var(--muted); font-size: 13px; margin-top: 2px; }
     .grade .grevised { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--hair); font-size: 15px; line-height: 1.55; }
     .grade .grevised .mono { font-size: 10px; color: var(--good); letter-spacing: .1em; text-transform: uppercase; margin-right: 6px; }
+    /* Overall assessment (총평) */
+    .overall {
+      margin-top: 16px; padding: 18px 16px; border: 1px solid var(--amber-soft);
+      background: #fffaf1; border-radius: 14px;
+    }
+    .overall-title { font-size: 18px; font-weight: 700; color: var(--ink); margin-bottom: 10px; }
+    .overall-loading { color: var(--muted); font-size: 13px; }
+    .overall-body { font-size: 15px; line-height: 1.65; color: var(--ink); }
+    .overall-sec { margin-top: 14px; }
+    .overall-h {
+      font-size: 11px; letter-spacing: .1em; color: #8a5a12; font-weight: 600;
+      text-transform: uppercase; margin-bottom: 6px;
+    }
+    .overall-sec ul { margin: 0; padding-left: 18px; }
+    .overall-sec li { font-size: 14px; line-height: 1.6; color: var(--ink); margin-bottom: 4px; }
     .gerr { margin-top: 8px; color: #b23b3b; font-size: 12px; }
 
     /* Auth / sync bar */
@@ -1280,22 +1295,26 @@
       const [grades, setGrades] = useState(() => stored.grades || {}); // idx -> result | {error} | {skipped}
       const [grading, setGrading] = useState(false);
       const [confirmReset, setConfirmReset] = useState(false);
+      const [overall, setOverall] = useState(() => stored.overall || null); // 총평 + 아이디어
+      const [overallLoading, setOverallLoading] = useState(false);
 
       const endpoint = (window.DBW_CONFIG || {}).GRADE_ENDPOINT;
+      const overallEndpoint = (window.DBW_CONFIG || {}).OVERALL_ENDPOINT || "/api/overall";
 
       // Persist answers + grades per pack so they aren't lost on navigation.
       useEffect(() => {
         const all = load(KEY.writing, {});
         const hasContent = inputs.some((v) => v && v.trim()) || Object.keys(grades).length > 0 || revealed;
-        if (hasContent) all[pack.id] = { inputs, grades, revealed };
+        if (hasContent) all[pack.id] = { inputs, grades, revealed, overall };
         else delete all[pack.id];
         save(KEY.writing, all);
-      }, [inputs, grades, revealed, pack.id]);
+      }, [inputs, grades, revealed, overall, pack.id]);
 
       const doReset = () => {
         setInputs(qs.map(() => ""));
         setGrades({});
         setRevealed(false);
+        setOverall(null);
         setConfirmReset(false);
         const all = load(KEY.writing, {});
         delete all[pack.id];
@@ -1334,6 +1353,32 @@
           setGrades({ ...acc });
         }
         setGrading(false);
+        fetchOverall(acc); // then build the overall 총평 across all answers
+      };
+
+      // Overall assessment (총평 + 개선 포인트 + 학습 아이디어) across the 3 answers.
+      const fetchOverall = async (gradeMap) => {
+        const gm = gradeMap || grades;
+        const items = qs.map((q, i) => ({
+          question: q,
+          userAnswer: (inputs[i] || "").trim(),
+          score: gm[i] && typeof gm[i].score === "number" ? gm[i].score : null,
+          summary: gm[i] && gm[i].summary ? gm[i].summary : "",
+        })).filter((it) => it.userAnswer);
+        if (!items.length) return;
+        setOverallLoading(true);
+        try {
+          const r = await fetch(overallEndpoint, {
+            method: "POST", headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ items }),
+          });
+          const data = await r.json();
+          if (r.ok && data && data.overall) setOverall(data);
+          else setOverall({ error: (data && data.error) || ("HTTP " + r.status) });
+        } catch (e) {
+          setOverall({ error: String((e && e.message) || e) });
+        }
+        setOverallLoading(false);
       };
 
       return (
@@ -1385,10 +1430,44 @@
             <button className="btn ghost" onClick={() => setRevealed(true)}>
               {revealed ? "모범답안 표시됨" : "모범답안 보기"}
             </button>
+            {Object.keys(grades).length > 0 && !overall && !overallLoading && (
+              <button className="btn ghost" onClick={() => fetchOverall()}>총평 보기</button>
+            )}
             {hasWork && (
               <button className="btn ghost" onClick={() => setConfirmReset(true)}>다시 작성하기</button>
             )}
           </div>
+
+          {(overallLoading || overall) && (
+            <div className="overall">
+              <div className="overall-title fraunces">📋 총평 · 다음 단계</div>
+              {overallLoading && !overall && <div className="overall-loading mono">총평을 작성하는 중…</div>}
+              {overall && overall.error && <div className="gerr mono">총평 실패: {overall.error}</div>}
+              {overall && !overall.error && (
+                <React.Fragment>
+                  <div className="overall-body">{overall.overall}</div>
+                  {overall.strengths && overall.strengths.length > 0 && (
+                    <div className="overall-sec">
+                      <div className="overall-h mono">잘한 점</div>
+                      <ul>{overall.strengths.map((t, i) => <li key={i}>{t}</li>)}</ul>
+                    </div>
+                  )}
+                  {overall.improvements && overall.improvements.length > 0 && (
+                    <div className="overall-sec">
+                      <div className="overall-h mono">다음에 개선할 점</div>
+                      <ul>{overall.improvements.map((t, i) => <li key={i}>{t}</li>)}</ul>
+                    </div>
+                  )}
+                  {overall.ideas && overall.ideas.length > 0 && (
+                    <div className="overall-sec">
+                      <div className="overall-h mono">영작 실력 키우는 법</div>
+                      <ul>{overall.ideas.map((t, i) => <li key={i}>{t}</li>)}</ul>
+                    </div>
+                  )}
+                </React.Fragment>
+              )}
+            </div>
+          )}
 
           {confirmReset && (
             <div className="sheet-backdrop" onClick={() => setConfirmReset(false)}>
@@ -1622,9 +1701,14 @@
         if (!swipeRef.current.long) setDragX(dx);
       };
       const answerSwipe = (dir) => {
+        if (swipeRef.current.animating) return; // guard against double-trigger (rapid keys)
+        swipeRef.current.animating = true;
         stopSpeech(); // moving to the next card stops any playing pronunciation
         setDragX(dir === "no" ? -520 : 520);
-        setTimeout(() => { if (dir === "no") dontKnow(); else know(); setDragX(0); }, 160);
+        setTimeout(() => {
+          if (dir === "no") dontKnow(); else know();
+          setDragX(0); swipeRef.current.animating = false;
+        }, 160);
       };
       const onCardUp = () => {
         const { dx, moved, long } = swipeRef.current;
@@ -1637,6 +1721,22 @@
         else if (dx >= SWIPE_TH) answerSwipe("yes");
         else { if (!moved) flipCard(); setDragX(0); }
       };
+
+      // Keyboard on PC: ← = 몰라요, → = 알아요 (same as swiping); Space/↑/↓ flips.
+      // A ref keeps the handler reading the latest state without re-binding.
+      const keyRef = useRef({});
+      keyRef.current = { active: studying && idx < deck.length, answerSwipe, flipCard };
+      useEffect(() => {
+        const onKey = (e) => {
+          const k = keyRef.current;
+          if (!k.active) return;
+          if (e.key === "ArrowLeft") { e.preventDefault(); k.answerSwipe("no"); }
+          else if (e.key === "ArrowRight") { e.preventDefault(); k.answerSwipe("yes"); }
+          else if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); k.flipCard(); }
+        };
+        window.addEventListener("keydown", onKey);
+        return () => window.removeEventListener("keydown", onKey);
+      }, []);
 
       const CHIPS = [
         { id: "all", label: `전체 ${total}` },
@@ -1732,6 +1832,7 @@
               )}
             </div>
             <div className="fc-sub mono">← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기 · 꾸욱 누르면 한국어 뜻</div>
+            <div className="fc-sub mono">PC 키보드: ← 몰라요 · → 알아요 · Space 뒤집기</div>
           </React.Fragment>
         );
       }
