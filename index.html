@@ -400,16 +400,37 @@
     .btn.fc-yes { background: var(--good); color: #fff; }
     .btn.fc-no { background: #fff; color: #b23b3b; border: 1px solid #e6bcbc; }
     .fc-sub { text-align: center; color: var(--faint); font-size: 10px; margin-top: 10px; letter-spacing: .04em; }
-    .fc-help { display: flex; flex-direction: column; align-items: center; margin-top: 12px; }
+    .fc-help { display: flex; flex-direction: column; align-items: center; margin-top: 14px; }
     .fc-help-btn {
-      width: 24px; height: 24px; border-radius: 999px; border: 1px solid var(--hair);
-      background: var(--card); color: var(--muted); cursor: pointer; font-size: 13px;
-      font-family: "IBM Plex Mono", "Pretendard", monospace; line-height: 1; padding: 0;
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 7px 14px; border-radius: 999px; border: 1px solid var(--hair);
+      background: var(--card); color: var(--muted); cursor: pointer;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; font-weight: 600;
+      letter-spacing: .04em;
     }
     .fc-help-btn:hover { color: var(--ink); border-color: var(--muted); }
+    .fc-help-btn.open { background: var(--amber-soft); color: #8a5a12; border-color: var(--amber-soft); }
+    .fc-help-ic { font-size: 12px; }
+    .fc-help-caret { font-size: 9px; opacity: .8; }
     .fc-help-panel {
-      margin-top: 8px; text-align: center; color: var(--faint); font-size: 10px;
-      letter-spacing: .04em; line-height: 1.7;
+      margin-top: 10px; width: 100%; background: var(--card); border: 1px solid var(--hair);
+      border-radius: 12px; padding: 12px 14px;
+    }
+    .fc-help-row {
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; color: var(--muted);
+      line-height: 1.9;
+    }
+    .fc-help-row + .fc-help-row { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--hair); }
+    .fc-help-key {
+      display: inline-block; min-width: 18px; text-align: center; padding: 1px 6px;
+      background: var(--bg); border: 1px solid var(--hair); border-radius: 5px;
+      color: var(--ink); font-size: 11px; font-weight: 600;
+    }
+    .fc-help-sep { color: var(--faint); }
+    .fc-help-badge {
+      background: var(--amber-soft); color: #8a5a12; border-radius: 999px;
+      padding: 2px 8px; font-size: 10px; font-weight: 600; letter-spacing: .06em;
     }
     .studydone { text-align: center; padding: 24px 8px; }
     .studydone .donestats { display: flex; justify-content: center; gap: 36px; margin-bottom: 22px; }
@@ -1844,11 +1865,28 @@
               )}
             </div>
             <div className="fc-help">
-              <button className="fc-help-btn" onClick={() => setShowHelp((h) => !h)} aria-label="사용법" title="사용법">?</button>
+              <button className={"fc-help-btn" + (showHelp ? " open" : "")} onClick={() => setShowHelp((h) => !h)}>
+                <span className="fc-help-ic">ⓘ</span> 사용법 <span className="fc-help-caret">{showHelp ? "▴" : "▾"}</span>
+              </button>
               {showHelp && (
-                <div className="fc-help-panel mono">
-                  <div>← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기 · 꾸욱 누르면 한국어 뜻</div>
-                  <div>PC 키보드: ← 몰라요 · → 알아요 · Space 뒤집기</div>
+                <div className="fc-help-panel">
+                  <div className="fc-help-row">
+                    <span className="fc-help-key">←</span> 몰라요
+                    <span className="fc-help-sep">·</span>
+                    <span className="fc-help-key">→</span> 알아요
+                    <span className="fc-help-sep">·</span>
+                    탭하면 뒤집기
+                    <span className="fc-help-sep">·</span>
+                    꾸욱 누르면 한국어 뜻
+                  </div>
+                  <div className="fc-help-row">
+                    <span className="fc-help-badge">PC 키보드</span>
+                    <span className="fc-help-key">←</span> 몰라요
+                    <span className="fc-help-sep">·</span>
+                    <span className="fc-help-key">→</span> 알아요
+                    <span className="fc-help-sep">·</span>
+                    <span className="fc-help-key">Space</span> 뒤집기
+                  </div>
                 </div>
               )}
             </div>
