@@ -400,6 +400,17 @@
     .btn.fc-yes { background: var(--good); color: #fff; }
     .btn.fc-no { background: #fff; color: #b23b3b; border: 1px solid #e6bcbc; }
     .fc-sub { text-align: center; color: var(--faint); font-size: 10px; margin-top: 10px; letter-spacing: .04em; }
+    .fc-help { display: flex; flex-direction: column; align-items: center; margin-top: 12px; }
+    .fc-help-btn {
+      width: 24px; height: 24px; border-radius: 999px; border: 1px solid var(--hair);
+      background: var(--card); color: var(--muted); cursor: pointer; font-size: 13px;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; line-height: 1; padding: 0;
+    }
+    .fc-help-btn:hover { color: var(--ink); border-color: var(--muted); }
+    .fc-help-panel {
+      margin-top: 8px; text-align: center; color: var(--faint); font-size: 10px;
+      letter-spacing: .04em; line-height: 1.7;
+    }
     .studydone { text-align: center; padding: 24px 8px; }
     .studydone .donestats { display: flex; justify-content: center; gap: 36px; margin-bottom: 22px; }
     .studydone .donestat .num { font-size: 40px; font-weight: 700; line-height: 1; }
@@ -1531,6 +1542,7 @@
       const [cardFlip, setCardFlip] = useState(false);
       const [missed, setMissed] = useState([]);
       const [history, setHistory] = useState([]); // for undoing an accidental swipe
+      const [showHelp, setShowHelp] = useState(false); // usage tips behind a "?" button
       const [dragX, setDragX] = useState(0);
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
@@ -1831,8 +1843,15 @@
                 </div>
               )}
             </div>
-            <div className="fc-sub mono">← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기 · 꾸욱 누르면 한국어 뜻</div>
-            <div className="fc-sub mono">PC 키보드: ← 몰라요 · → 알아요 · Space 뒤집기</div>
+            <div className="fc-help">
+              <button className="fc-help-btn" onClick={() => setShowHelp((h) => !h)} aria-label="사용법" title="사용법">?</button>
+              {showHelp && (
+                <div className="fc-help-panel mono">
+                  <div>← 밀면 몰라요 · 알아요 밀면 → · 탭하면 뒤집기 · 꾸욱 누르면 한국어 뜻</div>
+                  <div>PC 키보드: ← 몰라요 · → 알아요 · Space 뒤집기</div>
+                </div>
+              )}
+            </div>
           </React.Fragment>
         );
       }
