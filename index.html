@@ -938,11 +938,16 @@
       const [email, setEmail] = useState("");
       const [sent, setSent] = useState(false);
 
+      // A clean redirect target — no hash/query — so a leftover #access_token or
+      // #error fragment from a previous (failed) attempt can't pollute the next
+      // login and cause "OAuth state not found or expired".
+      const cleanRedirect = () => window.location.origin + window.location.pathname;
+
       const sendLink = async () => {
         if (!email.trim()) return;
         const { error } = await SB.auth.signInWithOtp({
           email: email.trim(),
-          options: { emailRedirectTo: window.location.href },
+          options: { emailRedirectTo: cleanRedirect() },
         });
         if (error) showToast("로그인 링크 전송 실패: " + error.message);
         else { setSent(true); showToast("메일로 로그인 링크를 보냈어요"); }
@@ -951,7 +956,7 @@
       const googleLogin = async () => {
         const { error } = await SB.auth.signInWithOAuth({
           provider: "google",
-          options: { redirectTo: window.location.href },
+          options: { redirectTo: cleanRedirect() },
         });
         if (error) showToast("구글 로그인 실패: " + error.message);
       };
