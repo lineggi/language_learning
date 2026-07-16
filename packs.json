@@ -1,5 +1,602 @@
 [
   {
+    "id": "cd-2026-07-17-1",
+    "date": "2026-07-17",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "미국 정부의 제재로 인해 테더가 이란 관련 계좌를 동결했습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/16/u-s-adds-four-iran-central-bank-crypto-wallets-to-sanctions-tether-freezes-usd131-million-of-contents",
+    "title": "US Sanctions Lead Tether to Freeze Iranian Crypto Funds",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. government recently imposed sanctions on Iran's central bank. These actions specifically targeted four crypto wallets linked to the bank. Consequently, Tether, the leading stablecoin issuer, froze a significant amount of funds. Approximately $131 million held in these TRON-based addresses became inaccessible. This move highlights the growing influence of stablecoins in global finance. It also clearly demonstrates how regulatory bodies can enforce compliance. The incident underscores the critical importance of adhering to international sanctions. It shows that even assets perceived as decentralized can be subject to central control. This sets a precedent for how stablecoins might be regulated in the future. Such actions have broad implications for their adoption and perceived stability worldwide. The event reinforces the need for robust compliance frameworks across the crypto industry. This helps prevent illicit financial activities on blockchain networks.",
+    "sentences": [
+      {
+        "en": "The U.S. government recently imposed sanctions on Iran's central bank.",
+        "ko": "미국 정부는 최근 이란 중앙은행에 대한 제재를 부과했습니다."
+      },
+      {
+        "en": "These actions specifically targeted four crypto wallets linked to the bank.",
+        "ko": "이 조치들은 특히 은행과 연결된 네 개의 암호화폐 지갑을 겨냥했습니다."
+      },
+      {
+        "en": "Consequently, Tether, the leading stablecoin issuer, froze a significant amount of funds.",
+        "ko": "결과적으로, 선도적인 스테이블코인 발행사인 테더는 상당한 양의 자금을 동결했습니다."
+      },
+      {
+        "en": "Approximately $131 million held in these TRON-based addresses became inaccessible.",
+        "ko": "이 트론 기반 주소에 보관된 약 1억 3천1백만 달러가 접근 불가능하게 되었습니다."
+      },
+      {
+        "en": "This move highlights the growing influence of stablecoins in global finance.",
+        "ko": "이러한 움직임은 글로벌 금융에서 스테이블코인의 영향력이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "It also clearly demonstrates how regulatory bodies can enforce compliance.",
+        "ko": "또한 규제 기관이 규정 준수를 어떻게 강제할 수 있는지 명확히 보여줍니다."
+      },
+      {
+        "en": "The incident underscores the critical importance of adhering to international sanctions.",
+        "ko": "이 사건은 국제 제재를 준수하는 것의 중대한 중요성을 강조합니다."
+      },
+      {
+        "en": "It shows that even assets perceived as decentralized can be subject to central control.",
+        "ko": "이는 분산된 것으로 인식되는 자산조차도 중앙 통제의 대상이 될 수 있음을 보여줍니다."
+      },
+      {
+        "en": "This sets a precedent for how stablecoins might be regulated in the future.",
+        "ko": "이는 미래에 스테이블코인이 어떻게 규제될지에 대한 선례를 만듭니다."
+      },
+      {
+        "en": "Such actions have broad implications for their adoption and perceived stability worldwide.",
+        "ko": "이러한 조치들은 전 세계적으로 스테이블코인의 채택과 인식되는 안정성에 광범위한 영향을 미칩니다."
+      },
+      {
+        "en": "The event reinforces the need for robust compliance frameworks across the crypto industry.",
+        "ko": "이 사건은 암호화폐 산업 전반에 걸쳐 강력한 규정 준수 프레임워크의 필요성을 강화합니다."
+      },
+      {
+        "en": "This helps prevent illicit financial activities on blockchain networks.",
+        "ko": "이는 블록체인 네트워크에서 불법 금융 활동을 방지하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "imposed": "Officially forced a new rule, tax, or punishment on someone or something.",
+      "sanctions": "Official orders or laws that limit trade or financial activities with a country as a punishment.",
+      "targeted": "Directed a specific action or attack at a particular person, group, or thing.",
+      "linked": "Connected or associated with someone or something else.",
+      "consequently": "As a result of a particular action or situation; therefore.",
+      "issuer": "A company or organization that officially produces and distributes something, such as a stablecoin.",
+      "froze": "Made an account or asset temporarily unavailable so it cannot be used or moved.",
+      "significant": "Important, noticeable, or large enough to have an effect or be considered.",
+      "approximately": "Close to a particular amount or number, but not exactly.",
+      "inaccessible": "Impossible to reach, enter, or get hold of.",
+      "assets": "Valuable items owned by an individual or company that can be converted into cash.",
+      "primarily": "Mainly; mostly; for the most part.",
+      "highlights": "Draws attention to something important or makes it stand out.",
+      "influence": "The power to affect how someone thinks or behaves, or how something develops.",
+      "demonstrates": "Clearly shows the existence or truth of something by giving proof or evidence.",
+      "regulatory": "Relating to a government agency or organization that controls an industry or activity.",
+      "enforce": "To make people obey a law or rule, often by using authority.",
+      "compliance": "The act of obeying a rule, law, or request.",
+      "underscores": "Emphasizes the importance of something or makes it very clear.",
+      "adhering": "Following a rule, belief, or agreement strictly and consistently.",
+      "decentralized": "Not controlled by a single person, company, or government authority.",
+      "precedent": "An earlier event or action that is regarded as an example or guide for future similar circumstances.",
+      "implications": "The possible future effects or results of a plan, action, or event.",
+      "robust": "Strong and healthy; able to withstand difficult conditions or challenges."
+    },
+    "questions": [
+      "Q1: What specific action did the U.S. government take regarding Iran's central bank, and what was Tether's response?",
+      "Q2: In the context of this passage, what does it mean for an asset to be \"subject to central control\" even if \"perceived as decentralized\"? Why is this distinction important for stablecoin users?",
+      "Q3: Do you believe stablecoin issuers should have the authority to freeze user funds under government sanctions? Discuss the ethical considerations and practical challenges of such power. Indicate if you think this power is ultimately beneficial or detrimental to the crypto ecosystem."
+    ],
+    "modelAnswers": [
+      "A1: The U.S. government imposed sanctions on Iran's central bank, specifically targeting four crypto wallets. In response, Tether froze approximately $131 million held in these TRON-based addresses.",
+      "A2: It means that despite stablecoins often being seen as decentralized, their issuers can still be compelled by governments to control or restrict access to funds. This distinction is important because it affects user trust, perceived autonomy, and the overall security of their assets against external intervention.",
+      "A3: Granting issuers this power can aid in combating illicit finance and enforcing global security, which may legitimize crypto. However, it raises concerns about censorship and central authority, potentially undermining the core decentralized ethos of crypto. I believe this power is a necessary evil for mainstream adoption, as it allows stablecoins to operate within existing legal frameworks, but strong governance and transparency are crucial to prevent abuse."
+    ]
+  },
+  {
+    "id": "cd-2026-07-17-2",
+    "date": "2026-07-17",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "테더가 아르헨티나 핀테크 기업에 투자하며 라틴 아메리카 시장 확장을 모색합니다.",
+    "url": "https://www.coindesk.com/business/2026/07/16/tether-invests-usd20-million-in-argentine-neobank-uala-as-it-expands-latin-america-push",
+    "title": "Tether Invests in Argentine Neobank Ualá for LatAm Expansion",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Tether recently announced a significant $20 million investment. The recipient is Ualá, a prominent neobank based in Argentina. This strategic move marks Tether's expansion into the Latin American market. Ualá offers various financial services, including digital payments and credit. The investment aims to foster fintech innovation in the region. However, Ualá's CEO clarified Tether acts solely as a financial investor. Current regional regulations prevent immediate integration of USDT. This means Ualá cannot yet directly offer Tether's stablecoin to its users. The investment highlights Tether's broader strategy beyond just stablecoin issuance. It shows interest in supporting promising fintech companies globally. The future could still see USDT integration if regulations change. This deal signifies a growing intersection between traditional finance and crypto.",
+    "sentences": [
+      {
+        "en": "Tether recently announced a significant $20 million investment.",
+        "ko": "테더는 최근 2천만 달러 규모의 중요한 투자를 발표했습니다."
+      },
+      {
+        "en": "The recipient is Ualá, a prominent neobank based in Argentina.",
+        "ko": "투자 대상은 아르헨티나에 본사를 둔 유명한 네오뱅크인 Ualá입니다."
+      },
+      {
+        "en": "This strategic move marks Tether's expansion into the Latin American market.",
+        "ko": "이 전략적 움직임은 테더가 라틴 아메리카 시장으로 확장하는 것을 의미합니다."
+      },
+      {
+        "en": "Ualá offers various financial services, including digital payments and credit.",
+        "ko": "Ualá는 디지털 결제 및 신용을 포함한 다양한 금융 서비스를 제공합니다."
+      },
+      {
+        "en": "The investment aims to foster fintech innovation in the region.",
+        "ko": "이번 투자는 이 지역의 핀테크 혁신을 촉진하는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, Ualá's CEO clarified Tether acts solely as a financial investor.",
+        "ko": "하지만 Ualá의 CEO는 테더가 순전히 금융 투자자로서만 활동한다고 명확히 밝혔습니다."
+      },
+      {
+        "en": "Current regional regulations prevent immediate integration of USDT.",
+        "ko": "현재 지역 규정은 USDT의 즉각적인 통합을 막고 있습니다."
+      },
+      {
+        "en": "This means Ualá cannot yet directly offer Tether's stablecoin to its users.",
+        "ko": "이는 Ualá가 아직 테더의 스테이블코인을 사용자에게 직접 제공할 수 없다는 것을 의미합니다."
+      },
+      {
+        "en": "The investment highlights Tether's broader strategy beyond just stablecoin issuance.",
+        "ko": "이번 투자는 스테이블코인 발행을 넘어선 테더의 더 넓은 전략을 강조합니다."
+      },
+      {
+        "en": "It shows interest in supporting promising fintech companies globally.",
+        "ko": "이는 전 세계적으로 유망한 핀테크 기업을 지원하는 데 관심을 보여줍니다."
+      },
+      {
+        "en": "The future could still see USDT integration if regulations change.",
+        "ko": "규제가 변경되면 미래에는 여전히 USDT 통합이 가능할 수 있습니다."
+      },
+      {
+        "en": "This deal signifies a growing intersection between traditional finance and crypto.",
+        "ko": "이 거래는 전통 금융과 암호화폐 간의 교차점이 커지고 있음을 나타냅니다."
+      }
+    ],
+    "glossary": {
+      "announced": "Made something known publicly or officially for the first time.",
+      "significant": "Important or noticeable enough to be worthy of attention.",
+      "recipient": "A person or organization that receives something.",
+      "prominent": "Important, well-known, and easily recognized.",
+      "neobank": "A bank that operates entirely online without any physical branches.",
+      "strategic": "Carefully planned to achieve a specific goal or purpose.",
+      "expansion": "The act of increasing in size, amount, or scope.",
+      "various": "Different kinds of things; many different types.",
+      "foster": "To encourage the development or growth of something good.",
+      "innovation": "The introduction of new ideas, methods, or products.",
+      "clarified": "Made something clearer or easier to understand.",
+      "solely": "Only; not involving anyone or anything else.",
+      "financial": "Relating to money or the management of money.",
+      "investor": "A person or organization that puts money into a company or project to make a profit.",
+      "regional": "Relating to a particular area or part of a country.",
+      "regulations": "Official rules or laws that control how things are done.",
+      "prevent": "To stop something from happening or stop someone from doing something.",
+      "immediate": "Happening or done without delay; instant.",
+      "integration": "The process of combining two or more things so they work together effectively.",
+      "issuance": "The act of officially making something available or distributing it.",
+      "highlights": "Draws attention to something important or makes it stand out.",
+      "promising": "Showing signs of being good or successful in the future.",
+      "globally": "Throughout the whole world; worldwide.",
+      "signifies": "Is a sign of something; indicates or means something."
+    },
+    "questions": [
+      "Q1: What is the main purpose of Tether's $20 million investment in the Argentine neobank Ualá?",
+      "Q2: Explain why Ualá cannot immediately integrate USDT into its services, according to the passage.",
+      "Q3: How might such investments by stablecoin issuers in traditional fintech companies impact the broader adoption of crypto in emerging markets? Consider both positive and negative potential effects."
+    ],
+    "modelAnswers": [
+      "A1: Tether's investment aims to expand its presence in the Latin American market and foster fintech innovation in the region through Ualá.",
+      "A2: Ualá cannot immediately integrate USDT because current regional regulations prevent it. Therefore, Tether is acting solely as a financial investor for now.",
+      "A3: These investments can bridge traditional finance and crypto, potentially increasing trust and accessibility, which is positive for adoption. However, they might also lead to increased regulatory scrutiny and centralisation concerns, which could be negative for the crypto ethos."
+    ]
+  },
+  {
+    "id": "cd-2026-07-17-3",
+    "date": "2026-07-17",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "AI 봇을 위한 개방형 금융 시스템을 구축하려는 새로운 이니셔티브가 시작되었습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/16/ai-payments-have-a-new-open-standards-body-its-aim-is-to-reinvent-the-internet",
+    "title": "New Foundation Aims to Build Open Financial System for AI",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A new initiative, the x402 Foundation, has recently been formed. Its primary goal is to create an open financial system specifically for AI bots. This foundation acts as a neutral space, bringing together various competitors. It aims to establish open standards for AI agentic commerce. The vision is to allow AI agents to conduct transactions seamlessly and efficiently. This could fundamentally reinvent how AI interacts with digital payments and services. It involves different payment methods working together in a unified ecosystem. The foundation seeks to ensure interoperability, security, and fairness for AI transactions. This development could unlock vast new economic opportunities for AI applications. It also addresses the growing need for secure and efficient payment solutions for AI. Such a system would allow AI bots to autonomously pay for services or data access. This represents a crucial step towards a more robust and autonomous AI economy.",
+    "sentences": [
+      {
+        "en": "A new initiative, the x402 Foundation, has recently been formed.",
+        "ko": "새로운 이니셔티브인 x402 재단이 최근 설립되었습니다."
+      },
+      {
+        "en": "Its primary goal is to create an open financial system specifically for AI bots.",
+        "ko": "주요 목표는 AI 봇을 위한 개방형 금융 시스템을 만드는 것입니다."
+      },
+      {
+        "en": "This foundation acts as a neutral space, bringing together various competitors.",
+        "ko": "이 재단은 중립적인 공간으로, 다양한 경쟁사들을 한자리에 모읍니다."
+      },
+      {
+        "en": "It aims to establish open standards for AI agentic commerce.",
+        "ko": "이는 AI 에이전트 커머스를 위한 개방형 표준을 확립하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The vision is to allow AI agents to conduct transactions seamlessly and efficiently.",
+        "ko": "그 비전은 AI 에이전트가 원활하고 효율적으로 거래를 수행하도록 하는 것입니다."
+      },
+      {
+        "en": "This could fundamentally reinvent how AI interacts with digital payments and services.",
+        "ko": "이는 AI가 디지털 결제 및 서비스와 상호작용하는 방식을 근본적으로 재창조할 수 있습니다."
+      },
+      {
+        "en": "It involves different payment methods working together in a unified ecosystem.",
+        "ko": "이는 통합된 생태계에서 다양한 결제 방식이 함께 작동하는 것을 포함합니다."
+      },
+      {
+        "en": "The foundation seeks to ensure interoperability, security, and fairness for AI transactions.",
+        "ko": "재단은 AI 거래의 상호 운용성, 보안 및 공정성을 보장하고자 합니다."
+      },
+      {
+        "en": "This development could unlock vast new economic opportunities for AI applications.",
+        "ko": "이러한 발전은 AI 애플리케이션을 위한 방대한 새로운 경제적 기회를 열 수 있습니다."
+      },
+      {
+        "en": "It also addresses the growing need for secure and efficient payment solutions for AI.",
+        "ko": "또한 AI를 위한 안전하고 효율적인 결제 솔루션에 대한 증가하는 요구를 해결합니다."
+      },
+      {
+        "en": "Such a system would allow AI bots to autonomously pay for services or data access.",
+        "ko": "이러한 시스템은 AI 봇이 서비스나 데이터 접근에 대해 자율적으로 비용을 지불할 수 있도록 할 것입니다."
+      },
+      {
+        "en": "This represents a crucial step towards a more robust and autonomous AI economy.",
+        "ko": "이는 보다 강력하고 자율적인 AI 경제를 향한 중요한 단계를 나타냅니다."
+      }
+    ],
+    "glossary": {
+      "initiative": "A new plan or process to achieve a particular aim or to solve a problem.",
+      "foundation": "An organization that has been created to provide money for a cause or project.",
+      "primary": "Most important; main or principal.",
+      "goal": "The aim or objective of a person or organization.",
+      "neutral": "Not supporting or helping either side in a conflict or disagreement.",
+      "competitors": "People or companies that are trying to be more successful than others in the same field.",
+      "establish": "To set up or create something on a firm or permanent basis.",
+      "standards": "A level of quality or a set of rules that are used as a basis for judgment.",
+      "agentic": "Relating to an agent, especially an autonomous one capable of independent action.",
+      "commerce": "The activity of buying and selling goods and services.",
+      "vision": "An idea or mental image of what something could be like in the future.",
+      "conduct": "To organize and carry out an activity or a transaction.",
+      "transactions": "Business deals or exchanges of money, goods, or services.",
+      "seamlessly": "Smoothly and continuously, without any breaks, problems, or difficulties.",
+      "efficiently": "In a way that achieves maximum productivity with minimum wasted effort or expense.",
+      "fundamentally": "In a basic and important way; at a deep level.",
+      "reinvent": "To change something so much that it appears to be entirely new or different.",
+      "interacts": "Communicates with or reacts to another person or thing.",
+      "interoperability": "The ability of computer systems or software to exchange and make use of information.",
+      "fairness": "The quality of treating people equally or in a way that is morally right.",
+      "unlock": "To make something available or possible that was previously inaccessible.",
+      "economic": "Relating to trade, industry, and the management of money.",
+      "addresses": "Deals with or tries to solve a problem or issue.",
+      "autonomous": "Having the freedom to govern itself or control its own affairs without external influence."
+    },
+    "questions": [
+      "Q1: What is the primary objective of the newly formed x402 Foundation?",
+      "Q2: In the context of AI agentic commerce, what does \"open standards\" mean, and why is it crucial for the x402 Foundation's vision?",
+      "Q3: How might an open financial system designed for AI bots impact future business models and the overall digital economy? Consider potential benefits and challenges."
+    ],
+    "modelAnswers": [
+      "A1: The primary objective of the x402 Foundation is to create an open financial system specifically for AI bots and to establish open standards for AI agentic commerce.",
+      "A2: \"Open standards\" refer to publicly available rules that enable different AI systems and payment methods to work together seamlessly. This is crucial for ensuring interoperability, security, and fairness within the AI economy, fostering broad adoption.",
+      "A3: Such a system could enable new AI-driven services and micro-transactions, fostering innovation and efficiency. It might lead to more autonomous business models and a significant transformation of the digital economy by allowing AI to engage directly in commerce. Challenges could include security risks and regulatory complexities."
+    ]
+  },
+  {
+    "id": "ec-2026-07-17-1",
+    "date": "2026-07-17",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준의 금리 인상 기조가 계속될지, 아니면 인플레이션이 정점을 찍었을지 궁금하다면 이 기사를 읽어보세요.",
+    "url": "https://www.cnbc.com/2026/07/16/dallas-fed-president-logan-calls-for-modestly-higher-interest-rates.html",
+    "title": "Dallas Fed President Advocates for Higher Rates",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Dallas Federal Reserve President Lorie Logan recently suggested that interest rates might need to rise further. She stated that recent positive inflation news was not sufficient. This indicates her concern about persistent inflationary pressures in the economy. The Federal Reserve aims to bring inflation down to its target level. Higher interest rates are a primary tool to achieve this goal. Such a move would make borrowing more expensive for businesses and consumers. This can slow down economic activity and curb price increases. Logan's comments highlight the ongoing debate within the Fed. Policymakers are weighing the risks of overtightening against persistent inflation. Her stance suggests a cautious approach to monetary policy adjustments.",
+    "sentences": [
+      {
+        "en": "Dallas Federal Reserve President Lorie Logan recently suggested that interest rates might need to rise further.",
+        "ko": "댈러스 연방준비은행 총재 로리 로건은 최근 금리가 더 오를 필요가 있을 수 있다고 시사했습니다."
+      },
+      {
+        "en": "She stated that recent positive inflation news was not sufficient.",
+        "ko": "그녀는 최근의 긍정적인 인플레이션 소식이 충분하지 않다고 말했습니다."
+      },
+      {
+        "en": "This indicates her concern about persistent inflationary pressures in the economy.",
+        "ko": "이는 그녀가 경제의 지속적인 인플레이션 압력에 대해 우려하고 있음을 나타냅s니다."
+      },
+      {
+        "en": "The Federal Reserve aims to bring inflation down to its target level.",
+        "ko": "연방준비은행은 인플레이션을 목표 수준으로 낮추는 것을 목표로 합니다."
+      },
+      {
+        "en": "Higher interest rates are a primary tool to achieve this goal.",
+        "ko": "더 높은 금리는 이 목표를 달성하기 위한 주요 수단입니다."
+      },
+      {
+        "en": "Such a move would make borrowing more expensive for businesses and consumers.",
+        "ko": "이러한 움직임은 기업과 소비자에게 대출 비용을 더 비싸게 만들 것입니다."
+      },
+      {
+        "en": "This can slow down economic activity and curb price increases.",
+        "ko": "이는 경제 활동을 둔화시키고 물가 상승을 억제할 수 있습니다."
+      },
+      {
+        "en": "Logan's comments highlight the ongoing debate within the Fed.",
+        "ko": "로건의 발언은 연준 내의 지속적인 논쟁을 강조합니다."
+      },
+      {
+        "en": "Policymakers are weighing the risks of overtightening against persistent inflation.",
+        "ko": "정책 입안자들은 지속적인 인플레이션에 맞서 과도한 긴축의 위험을 저울질하고 있습니다."
+      },
+      {
+        "en": "Her stance suggests a cautious approach to monetary policy adjustments.",
+        "ko": "그녀의 입장은 통화 정책 조정에 대한 신중한 접근 방식을 시사합니다."
+      }
+    ],
+    "glossary": {
+      "suggested": "gave an idea or opinion for consideration.",
+      "interest": "the cost of borrowing money or the return on savings.",
+      "rates": "the cost of borrowing money or the return on savings.",
+      "sufficient": "enough for a particular purpose.",
+      "persistent": "continuing to exist or occur over a prolonged period.",
+      "inflationary": "relating to or causing an increase in prices and a fall in the purchasing value of money.",
+      "pressures": "forces or influences that may cause changes or difficulties.",
+      "federal": "relating to the central government of a country rather than to individual states.",
+      "reserve": "a central banking system responsible for monetary policy.",
+      "target": "a desired goal or objective to be achieved.",
+      "primary": "main or most important.",
+      "tool": "a means used to perform an operation or achieve a goal.",
+      "borrowing": "taking money from a bank or person with an agreement to pay it back.",
+      "curb": "to restrain or control something.",
+      "highlight": "to draw special attention to something.",
+      "ongoing": "continuing to happen or develop.",
+      "debate": "a formal discussion on a particular topic.",
+      "policymakers": "individuals or groups responsible for making official decisions.",
+      "weighing": "considering the relative importance of different factors.",
+      "risks": "possibilities of something bad happening.",
+      "overtightening": "making monetary policy too restrictive, potentially harming economic growth.",
+      "stance": "the attitude or position adopted by an individual or group.",
+      "cautious": "showing careful thought to avoid danger or mistakes.",
+      "monetary": "relating to money or currency.",
+      "policy": "a course or principle of action adopted or proposed by a government or party.",
+      "adjustments": "small changes or modifications made to improve something."
+    },
+    "questions": [
+      "Q1: What did Dallas Federal Reserve President Lorie Logan recently suggest regarding interest rates?",
+      "Q2: What does the term \"overtightening\" refer to in the context of monetary policy, and why might policymakers be concerned about it?",
+      "Q3: Do you think central banks should prioritize bringing inflation down quickly, even if it risks slowing economic growth, or should they take a more gradual approach? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: Dallas Federal Reserve President Lorie Logan recently suggested that interest rates might need to rise further, indicating that recent positive inflation news was not sufficient to alleviate her concerns.",
+      "A2: \"Overtightening\" refers to making monetary policy too restrictive, which could potentially harm economic growth. Policymakers are concerned about it because it could lead to a recession or job losses if the economy slows down too much.",
+      "A3: I believe a gradual approach is generally better. While controlling inflation is crucial, rapidly increasing rates can cause significant economic shock, leading to job losses and reduced investment. A measured pace allows businesses and consumers to adapt, minimizing severe negative impacts."
+    ]
+  },
+  {
+    "id": "ec-2026-07-17-2",
+    "date": "2026-07-17",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "연준 고위 관계자가 인플레이션이 정점에 달했으며 현재 금리가 적절하다고 말한 이유를 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/15/new-york-fed-president-williams-says-inflation-has-peaked-rates-well-positioned.html",
+    "title": "New York Fed President: Inflation Peaked, Rates 'Well Positioned'",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "John Williams, the New York Fed President, recently expressed optimism about the current economic situation. He believes that inflation has now peaked. Williams also stated that current interest rates are \"well positioned\". This suggests that further significant rate hikes might not be necessary. His remarks contrast slightly with other Fed officials' more hawkish views. However, he cited five specific reasons for his optimistic outlook. These reasons support his expectation that price surges have run their course. A stable interest rate environment can provide more certainty for businesses. It can also encourage investment and consumer spending. Williams' perspective offers a more dovish outlook on future monetary policy.",
+    "sentences": [
+      {
+        "en": "John Williams, the New York Fed President, recently expressed optimism about the current economic situation.",
+        "ko": "뉴욕 연준 총재 존 윌리엄스는 최근 현재 경제 상황에 대해 낙관론을 표명했습니다."
+      },
+      {
+        "en": "He believes that inflation has now peaked.",
+        "ko": "그는 인플레이션이 이제 정점을 찍었다고 믿습니다."
+      },
+      {
+        "en": "Williams also stated that current interest rates are \"well positioned\".",
+        "ko": "윌리엄스는 또한 현재 금리가 \"적절한 위치에 있다\"고 말했습니다."
+      },
+      {
+        "en": "This suggests that further significant rate hikes might not be necessary.",
+        "ko": "이는 추가적인 상당한 금리 인상이 필요하지 않을 수도 있음을 시사합니다."
+      },
+      {
+        "en": "His remarks contrast slightly with other Fed officials' more hawkish views.",
+        "ko": "그의 발언은 다른 연준 관계자들의 더 매파적인 견해와 약간 대조됩니다."
+      },
+      {
+        "en": "However, he cited five specific reasons for his optimistic outlook.",
+        "ko": "그러나 그는 자신의 낙관적인 전망에 대한 다섯 가지 구체적인 이유를 언급했습니다."
+      },
+      {
+        "en": "These reasons support his expectation that price surges have run their course.",
+        "ko": "이러한 이유들은 물가 급등이 끝났다는 그의 예상을 뒷받침합니다."
+      },
+      {
+        "en": "A stable interest rate environment can provide more certainty for businesses.",
+        "ko": "안정적인 금리 환경은 기업에 더 많은 확실성을 제공할 수 있습니다."
+      },
+      {
+        "en": "It can also encourage investment and consumer spending.",
+        "ko": "이는 또한 투자와 소비자 지출을 장려할 수 있습니다."
+      },
+      {
+        "en": "Williams' perspective offers a more dovish outlook on future monetary policy.",
+        "ko": "윌리엄스의 관점은 미래 통화 정책에 대한 더 비둘기파적인 전망을 제시합니다."
+      }
+    ],
+    "glossary": {
+      "expressed": "conveyed a thought or feeling.",
+      "optimism": "a feeling of hope and confidence about the future.",
+      "peaked": "reached its highest point or maximum level.",
+      "well": "in a good or satisfactory way.",
+      "positioned": "placed or arranged in a particular way.",
+      "significant": "large or important enough to have an effect.",
+      "rate": "a measure, quantity, or frequency, typically one measured against another quantity or measure.",
+      "hikes": "increases in interest rates.",
+      "contrast": "to show a striking difference when compared.",
+      "hawkish": "aggressive in policy, especially regarding inflation and interest rates.",
+      "cited": "mentioned as an example or reason.",
+      "outlook": "a person's point of view or general attitude to life.",
+      "support": "to provide evidence for something.",
+      "expectation": "a strong belief that something will happen.",
+      "surges": "sudden, strong increases.",
+      "run": "to come to a natural end or conclusion.",
+      "their": "belonging to or associated with the people or things previously mentioned.",
+      "course": "the path or direction that something takes.",
+      "stable": "not likely to change or fail.",
+      "certainty": "the state of being definite or true.",
+      "encourage": "to give support, confidence, or hope to someone.",
+      "investment": "the action or process of investing money for profit.",
+      "consumer": "a person who purchases goods and services for personal use.",
+      "spending": "the action of paying money for something.",
+      "perspective": "a particular attitude toward or way of regarding something.",
+      "dovish": "preferring to avoid conflict, especially in monetary policy, favoring lower interest rates.",
+      "monetary": "relating to money or currency.",
+      "policy": "a course or principle of action adopted or proposed by a government or party."
+    },
+    "questions": [
+      "Q1: What did New York Fed President John Williams state about inflation and current interest rates?",
+      "Q2: Explain the terms \"hawkish\" and \"dovish\" in the context of central bank monetary policy. How do Williams' remarks relate to these terms?",
+      "Q3: If you were a central bank policymaker, what key economic indicators would you prioritize when deciding whether to raise, lower, or maintain interest rates, and why?"
+    ],
+    "modelAnswers": [
+      "A1: New York Fed President John Williams stated his belief that inflation has peaked and that current interest rates are \"well positioned,\" suggesting that further significant rate hikes might not be necessary.",
+      "A2: \"Hawkish\" refers to a stance favoring aggressive measures to control inflation, often through higher interest rates. \"Dovish\" refers to a stance favoring lower interest rates to stimulate economic growth, even if it risks slightly higher inflation. Williams' remarks are dovish because he suggests current rates are sufficient and further hikes might be unnecessary.",
+      "A3: I would prioritize inflation rates, unemployment figures, and GDP growth. Inflation indicates price stability, unemployment shows labor market health, and GDP growth reflects overall economic activity. Balancing these three provides a comprehensive view for monetary policy decisions."
+    ]
+  },
+  {
+    "id": "ec-2026-07-17-3",
+    "date": "2026-07-17",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "워렌 버핏이 오늘날의 주식 시장을 '도박'에 비유하며 가치 투자가 어렵다고 말한 이유를 들어보세요.",
+    "url": "https://www.cnbc.com/2026/07/15/warren-buffett-on-the-market-today-its-tough-to-find-values-when-everybody-is-preferring-gambling.html",
+    "title": "Buffett Criticizes Market's Speculative 'Gambling'",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Legendary investor Warren Buffett recently shared his views on the current stock market. He expressed concern that it is increasingly defined by speculative trading. Buffett believes that many participants are preferring \"gambling\" over long-term investing. This makes it challenging to find true value in companies. His philosophy emphasizes buying fundamentally strong businesses at reasonable prices. He then holds these investments for many years. Buffett's comments highlight a shift in market behavior. Investors are often chasing quick gains rather than intrinsic value. This trend can lead to increased market volatility. It also poses risks for those focused on sustainable growth. His remarks serve as a caution for those navigating today's financial landscape.",
+    "sentences": [
+      {
+        "en": "Legendary investor Warren Buffett recently shared his views on the current stock market.",
+        "ko": "전설적인 투자자 워렌 버핏은 최근 현재 주식 시장에 대한 자신의 견해를 밝혔습니다."
+      },
+      {
+        "en": "He expressed concern that it is increasingly defined by speculative trading.",
+        "ko": "그는 시장이 투기적 거래로 점점 더 정의되고 있다는 우려를 표명했습니다."
+      },
+      {
+        "en": "Buffett believes that many participants are preferring \"gambling\" over long-term investing.",
+        "ko": "버핏은 많은 참여자들이 장기 투자보다 \"도박\"을 선호하고 있다고 믿습니다."
+      },
+      {
+        "en": "This makes it challenging to find true value in companies.",
+        "ko": "이는 기업에서 진정한 가치를 찾기 어렵게 만듭니다."
+      },
+      {
+        "en": "His philosophy emphasizes buying fundamentally strong businesses at reasonable prices.",
+        "ko": "그의 철학은 근본적으로 강한 기업을 합리적인 가격에 사는 것을 강조합니다."
+      },
+      {
+        "en": "He then holds these investments for many years.",
+        "ko": "그리고 그는 이 투자를 수년 동안 보유합니다."
+      },
+      {
+        "en": "Buffett's comments highlight a shift in market behavior.",
+        "ko": "버핏의 발언은 시장 행동의 변화를 강조합니다."
+      },
+      {
+        "en": "Investors are often chasing quick gains rather than intrinsic value.",
+        "ko": "투자자들은 내재 가치보다는 빠른 수익을 쫓는 경우가 많습니다."
+      },
+      {
+        "en": "This trend can lead to increased market volatility.",
+        "ko": "이러한 추세는 시장 변동성 증가로 이어질 수 있습니다."
+      },
+      {
+        "en": "It also poses risks for those focused on sustainable growth.",
+        "ko": "이는 또한 지속 가능한 성장에 집중하는 사람들에게 위험을 초래합니다."
+      },
+      {
+        "en": "His remarks serve as a caution for those navigating today's financial landscape.",
+        "ko": "그의 발언은 오늘날의 금융 환경을 탐색하는 사람들에게 경고의 역할을 합니다."
+      }
+    ],
+    "glossary": {
+      "legendary": "very famous and admired.",
+      "investor": "a person or organization that puts money into financial schemes.",
+      "expressed": "conveyed a thought or feeling.",
+      "concern": "a feeling of worry or anxiety.",
+      "increasingly": "to an increasing extent; more and more.",
+      "defined": "characterized or described precisely.",
+      "speculative": "involving a high risk of loss in the hope of making a quick profit.",
+      "trading": "the activity of buying and selling goods or services.",
+      "participants": "people who take part in an activity.",
+      "preferring": "liking one thing better than another.",
+      "gambling": "taking risky action in the hope of a desired result.",
+      "challenging": "difficult to do.",
+      "philosophy": "a set of beliefs or principles.",
+      "emphasizes": "gives special importance or value to something.",
+      "buying": "the action of acquiring something in exchange for money.",
+      "fundamentally": "in a basic and important way.",
+      "strong": "having the power to withstand force or pressure.",
+      "businesses": "organizations or enterprises engaged in commercial, industrial, or professional activities.",
+      "reasonable": "fair and sensible.",
+      "prices": "the amount of money expected, required, or given in payment for something.",
+      "holds": "keeps possession of something.",
+      "investments": "the action or process of investing money for profit.",
+      "years": "periods of 365 days.",
+      "highlight": "to draw special attention to something.",
+      "shift": "a slight change in position, direction, or tendency.",
+      "market": "a regular gathering of people for the purchase and sale of provisions, livestock, and other commodities.",
+      "behavior": "the way in which one acts or conducts oneself.",
+      "chasing": "pursuing in order to catch or attain.",
+      "gains": "increases in wealth, profit, or value.",
+      "rather": "used to indicate one's preference in a particular matter.",
+      "intrinsic": "belonging naturally; essential.",
+      "value": "the regard that something is held to deserve; the importance, worth, or usefulness of something.",
+      "trend": "a general direction in which something is developing or changing.",
+      "lead": "to guide or direct someone or something.",
+      "increased": "having become greater in size, amount, or intensity.",
+      "volatility": "the tendency of a market or price to change rapidly and unpredictably.",
+      "poses": "presents a problem or difficulty.",
+      "risks": "possibilities of something bad happening.",
+      "focused": "giving all your attention to something.",
+      "sustainable": "able to be maintained at a certain rate or level.",
+      "growth": "the process of increasing in size, amount, or degree.",
+      "remarks": "comments or statements.",
+      "serve": "to fulfill a purpose or function.",
+      "caution": "a warning to be careful.",
+      "navigating": "planning and directing the course of a journey.",
+      "financial": "relating to finance.",
+      "landscape": "the overall environment of financial markets and institutions."
+    },
+    "questions": [
+      "Q1: According to Warren Buffett, what is increasingly defining the current stock market?",
+      "Q2: What is \"speculative trading,\" and how does it differ from Warren Buffett's typical \"long-term investing\" philosophy?",
+      "Q3: As a fintech PM, how do you think the rise of speculative trading, possibly fueled by easy access to trading apps, impacts the financial ecosystem and investor behavior?"
+    ],
+    "modelAnswers": [
+      "A1: Warren Buffett believes the current stock market is increasingly defined by speculative trading, with many participants preferring \"gambling\" over traditional long-term investing.",
+      "A2: \"Speculative trading\" involves taking high risks for quick profits, often based on short-term market movements rather than a company's fundamental value. This differs from Buffett's \"long-term investing,\" which focuses on buying fundamentally strong businesses at reasonable prices and holding them for many years.",
+      "A3: The rise of speculative trading, driven by accessible apps, significantly impacts the financial ecosystem by increasing market volatility and potentially detaching asset prices from intrinsic values. For investor behavior, it cultivates a short-term mindset, focusing on quick gains rather than disciplined, long-term wealth creation, posing challenges for financial stability and education."
+    ]
+  },
+  {
     "id": "cd-2026-07-16-1",
     "date": "2026-07-16",
     "rank": 1,
