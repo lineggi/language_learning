@@ -593,6 +593,46 @@
     }
 
     // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
+    // The Web Speech default voice differs per OS (macOS may pick a male or
+    // low-quality novelty voice, while iOS/Windows default to a female one), so
+    // we explicitly choose a female English voice for a consistent sound. Known
+    // male/novelty voices are avoided when no preferred name is present.
+    let _enVoice = null;
+    const FEMALE_EN = [
+      "Samantha", "Google US English", "Microsoft Zira", "Microsoft Aria", "Microsoft Jenny",
+      "Karen", "Moira", "Tessa", "Victoria", "Fiona", "Serena", "Allison", "Susan",
+      "Ava", "Google UK English Female", "Zira",
+    ];
+    const MALE_OR_NOVELTY = /david|mark|guy|fred|alex|daniel|thomas|oliver|arthur|george|aaron|albert|male|jorge|diego|rishi|junior|ralph|bad news|bahh|bells|boing|bubbles|cellos|deranged|good news|hysterical|pipe|trinoids|whisper|wobble|zarvox|organ|superstar/i;
+    function pickEnVoice() {
+      try {
+        const synth = window.speechSynthesis;
+        const voices = (synth && synth.getVoices && synth.getVoices()) || [];
+        if (!voices.length) return null;
+        const en = voices.filter((v) => /^en(-|_|$)/i.test(v.lang) || /english/i.test(v.name));
+        if (!en.length) return null;
+        for (const name of FEMALE_EN) {
+          const hit = en.find((v) => v.name === name) || en.find((v) => v.name.toLowerCase().includes(name.toLowerCase()));
+          if (hit) return hit;
+        }
+        return en.find((v) => !MALE_OR_NOVELTY.test(v.name)) || en[0];
+      } catch (e) { return null; }
+    }
+    function refreshEnVoice() { const v = pickEnVoice(); if (v) _enVoice = v; }
+    try {
+      if (window.speechSynthesis) {
+        refreshEnVoice();
+        window.speechSynthesis.onvoiceschanged = refreshEnVoice; // voices load async in some browsers
+      }
+    } catch (e) {}
+    function applyVoice(u, lang) {
+      // Only override for English; leave other languages to their platform voice.
+      if ((lang || "en-US").toLowerCase().indexOf("en") === 0) {
+        const v = _enVoice || pickEnVoice();
+        if (v) u.voice = v;
+      }
+    }
+
     function speak(text, lang) {
       try {
         const synth = window.speechSynthesis;
@@ -600,6 +640,7 @@
         synth.cancel();
         const u = new SpeechSynthesisUtterance(String(text));
         u.lang = lang || "en-US";
+        applyVoice(u, u.lang);
         u.rate = lang === "ko-KR" ? 1.0 : 0.95;
         synth.speak(u);
       } catch (e) {}
@@ -615,6 +656,7 @@
           if (!p || !p.text) return;
           const u = new SpeechSynthesisUtterance(String(p.text));
           u.lang = p.lang || "en-US";
+          applyVoice(u, u.lang);
           u.rate = p.lang === "ko-KR" ? 1.0 : 0.95;
           synth.speak(u);
         });
