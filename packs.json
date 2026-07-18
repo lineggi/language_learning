@@ -1,5 +1,594 @@
 [
   {
+    "id": "cd-2026-07-19-1",
+    "date": "2026-07-19",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "브라질에서 달러 스테이블코인이 빠르게 확산하며 미국 달러 패권에 미칠 영향에 대해 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/07/18/trump-targets-brazil-s-payments-system-while-dollar-stablecoins-quietly-dominate-country-s-payments",
+    "title": "Brazil's Payments Shift: Stablecoins Challenge Dollar Dominance",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. government expresses growing concern over Brazil's rapidly evolving payment landscape. Brazil actively promotes non-dollar payment channels, including its highly successful instant payment system, Pix. Simultaneously, dollar-linked stablecoins are achieving significant widespread traction within the country's financial ecosystem. These digital currencies now largely dominate Brazil's overall cryptocurrency transaction volume, showing substantial adoption. They currently account for approximately 90% of all crypto activity, demonstrating their critical role. Washington views this development as a direct and potential threat to its global economic influence. It could potentially undermine the U.S. dollar's long-standing dominance in international trade. This scenario highlights increasing geopolitical tension surrounding national financial sovereignty. Many nations are actively seeking viable alternatives to established dollar-centric financial systems. Stablecoins provide a novel pathway for facilitating international commerce, remittances, and cross-border payments. Such a fundamental shift could profoundly reshape global financial power dynamics and international relationships. It also presents considerable challenges for existing traditional economic structures and regulatory frameworks worldwide.",
+    "sentences": [
+      {
+        "en": "The U.S. government expresses growing concern over Brazil's rapidly evolving payment landscape.",
+        "ko": "미국 정부는 브라질의 빠르게 변화하는 결제 환경에 대해 우려를 표하고 있습니다."
+      },
+      {
+        "en": "Brazil actively promotes non-dollar payment channels, including its highly successful instant payment system, Pix.",
+        "ko": "브라질은 매우 성공적인 즉시 결제 시스템인 Pix를 포함하여 비달러 결제 채널을 적극적으로 장려하고 있습니다."
+      },
+      {
+        "en": "Simultaneously, dollar-linked stablecoins are achieving significant widespread traction within the country's financial ecosystem.",
+        "ko": "동시에, 달러 연동 스테이블코인이 브라질 금융 생태계 내에서 상당한 인기를 얻고 있습니다."
+      },
+      {
+        "en": "These digital currencies now largely dominate Brazil's overall cryptocurrency transaction volume, showing substantial adoption.",
+        "ko": "이러한 디지털 통화는 현재 브라질의 전체 암호화폐 거래량을 대부분 차지하며 상당한 채택률을 보입니다."
+      },
+      {
+        "en": "They currently account for approximately 90% of all crypto activity, demonstrating their critical role.",
+        "ko": "이들은 현재 전체 암호화폐 활동의 약 90%를 차지하며 중요한 역할을 입증합니다."
+      },
+      {
+        "en": "Washington views this development as a direct and potential threat to its global economic influence.",
+        "ko": "워싱턴은 이러한 발전을 자국의 세계 경제적 영향력에 대한 직접적이고 잠재적인 위협으로 간주합니다."
+      },
+      {
+        "en": "It could potentially undermine the U.S. dollar's long-standing dominance in international trade.",
+        "ko": "이는 국제 무역에서 미국 달러의 오랜 지배력을 잠재적으로 약화시킬 수 있습니다."
+      },
+      {
+        "en": "This scenario highlights increasing geopolitical tension surrounding national financial sovereignty.",
+        "ko": "이 시나리오는 국가 금융 주권을 둘러싼 지정학적 긴장 증가를 부각합니다."
+      },
+      {
+        "en": "Many nations are actively seeking viable alternatives to established dollar-centric financial systems.",
+        "ko": "많은 국가들이 기존의 달러 중심 금융 시스템에 대한 실행 가능한 대안을 적극적으로 찾고 있습니다."
+      },
+      {
+        "en": "Stablecoins provide a novel pathway for facilitating international commerce, remittances, and cross-border payments.",
+        "ko": "스테이블코인은 국제 상거래, 송금 및 국경 간 결제를 용이하게 하는 새로운 경로를 제공합니다."
+      },
+      {
+        "en": "Such a fundamental shift could profoundly reshape global financial power dynamics and international relationships.",
+        "ko": "이러한 근본적인 변화는 글로벌 금융 권력 역학 및 국제 관계를 심오하게 재편할 수 있습니다."
+      },
+      {
+        "en": "It also presents considerable challenges for existing traditional economic structures and regulatory frameworks worldwide.",
+        "ko": "또한 전 세계적으로 기존의 전통적인 경제 구조와 규제 프레임워크에 상당한 도전을 제기합니다."
+      }
+    ],
+    "glossary": {
+      "expresses": "to make a feeling or idea known to others by words or actions",
+      "evolving": "changing or developing gradually over time into a different or more complex form",
+      "landscape": "the overall environment or situation related to a particular activity or system",
+      "promotes": "to actively support or encourage the cause, development, or adoption of something",
+      "channels": "ways or systems used to communicate or distribute something, like payments",
+      "successful": "achieving wealth, respect, or fame; accomplishing an aim or purpose",
+      "simultaneously": "at the same time; concurrently or synchronously with something else",
+      "achieving": "successfully bringing about or reaching a desired objective or result",
+      "traction": "the quality of being popular or accepted, allowing progress or advancement",
+      "ecosystem": "a complex network or interconnected system, often referring to financial networks",
+      "dominate": "to have control or a very strong influence over something or someone",
+      "volume": "the amount or quantity of something, especially when great",
+      "substantial": "of considerable importance, size, or worth; significant or strong",
+      "adoption": "the action or fact of choosing to take up, follow, or use something",
+      "account": "to form or constitute a specified proportion or amount of something",
+      "critical": "of crucial importance; essential or vital for something to happen",
+      "potential": "having or showing the capacity to develop into something in the future",
+      "undermine": "to make something weaker or less effective, often in a subtle or gradual way",
+      "dominance": "power and influence over others; control or supremacy",
+      "highlights": "to draw special attention to something, making it more noticeable",
+      "geopolitical": "relating to politics, especially international relations, as influenced by geographical factors",
+      "sovereignty": "supreme power or authority, especially of a state to govern itself",
+      "viable": "capable of working successfully; feasible or practical to use",
+      "alternatives": "other possibilities or choices that can be used instead of something else",
+      "centric": "having a specified thing as its center or main focus",
+      "facilitating": "making an action or process easier or simpler to achieve",
+      "remittances": "sums of money sent, especially by mail, in payment for goods or services",
+      "profoundly": "to a great depth or extent; deeply or intensely affecting something",
+      "reshape": "to form something into a new or different shape or structure",
+      "dynamics": "the forces or properties that stimulate growth, development, or change within a system",
+      "presents": "to offer something for consideration or decision; to introduce a problem",
+      "considerable": "notably large in size, amount, or extent; significant",
+      "regulatory": "relating to the supervision or control of a system or industry by rules",
+      "frameworks": "a basic structure underlying a system, concept, or text"
+    },
+    "questions": [
+      "Q1: What percentage of Brazil's crypto transactions are accounted for by dollar-linked stablecoins, and what is the U.S. government's concern regarding this trend?",
+      "Q2: In the context of the passage, explain what \"geopolitical tension\" refers to and how Brazil's actions are contributing to it.",
+      "Q3: Do you believe the rise of dollar-linked stablecoins in countries like Brazil will ultimately strengthen or weaken the U.S. dollar's global dominance? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: Dollar-linked stablecoins account for about 90% of Brazil's crypto transactions. The U.S. government is concerned this trend, along with Brazil's promotion of non-dollar payment channels, could threaten the dollar's global trade influence.",
+      "A2: \"Geopolitical tension\" here refers to the growing strain between nations due to political and geographical factors. Brazil's promotion of non-dollar payments and the rise of stablecoins are seen by the U.S. as a challenge to its economic power, contributing to this tension.",
+      "A3: I believe it could weaken the dollar's global dominance in the long term. While these are dollar-linked, their widespread adoption creates an alternative payment rail outside traditional banking, potentially reducing reliance on the U.S. financial system for international transactions."
+    ]
+  },
+  {
+    "id": "cd-2026-07-19-2",
+    "date": "2026-07-19",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "금융 기업들이 자산 토큰화를 어떻게 전략적으로 활용하고 있는지 핵심 동향을 파악하세요.",
+    "url": "https://www.coindesk.com/business/2026/07/16/tokenization-has-become-a-strategic-priority-for-84-of-financial-firms",
+    "title": "Financial Firms Prioritize Tokenization for Future Assets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A recent industry survey clearly reveals a strong and growing interest in asset tokenization. Most major financial firms now consider tokenization a top strategic priority for future growth. Approximately 84% of these firms are actively accelerating their tokenization development efforts. Wall Street institutions, in particular, are pushing forward with significant tokenization initiatives. They are strategically betting on the emergence of innovative 'hybrid markets' in the near future. These new markets will seamlessly blend digital assets with traditional financial instruments. Tokenization promises to unlock new efficiencies, enhance market liquidity, and reduce operational costs. It allows real-world assets, from real estate to art, to be accurately represented on blockchains. This could fundamentally transform how assets are owned, managed, and traded across the globe. Firms expect significant operational improvements, leading to more streamlined processes. They also anticipate broader access to a wider range of diverse investment opportunities. This trend clearly signals a major paradigm shift in the global financial infrastructure.",
+    "sentences": [
+      {
+        "en": "A recent industry survey clearly reveals a strong and growing interest in asset tokenization.",
+        "ko": "최근 업계 설문조사에 따르면 자산 토큰화에 대한 강력하고 증가하는 관심이 명확히 드러났습니다."
+      },
+      {
+        "en": "Most major financial firms now consider tokenization a top strategic priority for future growth.",
+        "ko": "대부분의 주요 금융 기업들은 이제 토큰화를 미래 성장을 위한 최우선 전략적 과제로 여깁니다."
+      },
+      {
+        "en": "Approximately 84% of these firms are actively accelerating their tokenization development efforts.",
+        "ko": "이들 기업의 약 84%는 토큰화 개발 노력을 적극적으로 가속화하고 있습니다."
+      },
+      {
+        "en": "Wall Street institutions, in particular, are pushing forward with significant tokenization initiatives.",
+        "ko": "특히 월스트리트 기관들은 중요한 토큰화 이니셔티브를 추진하고 있습니다."
+      },
+      {
+        "en": "They are strategically betting on the emergence of innovative 'hybrid markets' in the near future.",
+        "ko": "그들은 가까운 미래에 혁신적인 '하이브리드 시장'의 출현에 전략적으로 베팅하고 있습니다."
+      },
+      {
+        "en": "These new markets will seamlessly blend digital assets with traditional financial instruments.",
+        "ko": "이 새로운 시장들은 디지털 자산과 전통적인 금융 상품을 매끄럽게 결합할 것입니다."
+      },
+      {
+        "en": "Tokenization promises to unlock new efficiencies, enhance market liquidity, and reduce operational costs.",
+        "ko": "토큰화는 새로운 효율성을 발휘하고, 시장 유동성을 높이며, 운영 비용을 절감할 것을 약속합니다."
+      },
+      {
+        "en": "It allows real-world assets, from real estate to art, to be accurately represented on blockchains.",
+        "ko": "이는 부동산부터 예술품까지 실제 자산을 블록체인에 정확하게 표현할 수 있게 합니다."
+      },
+      {
+        "en": "This could fundamentally transform how assets are owned, managed, and traded across the globe.",
+        "ko": "이는 전 세계적으로 자산이 소유되고, 관리되고, 거래되는 방식을 근본적으로 변화시킬 수 있습니다."
+      },
+      {
+        "en": "Firms expect significant operational improvements, leading to more streamlined processes.",
+        "ko": "기업들은 상당한 운영 개선을 기대하며, 이는 더욱 간소화된 프로세스로 이어질 것입니다."
+      },
+      {
+        "en": "They also anticipate broader access to a wider range of diverse investment opportunities.",
+        "ko": "그들은 또한 더 광범위하고 다양한 투자 기회에 대한 접근성 확대를 예상합니다."
+      },
+      {
+        "en": "This trend clearly signals a major paradigm shift in the global financial infrastructure.",
+        "ko": "이러한 추세는 글로벌 금융 인프라의 주요 패러다임 변화를 명확히 시사합니다."
+      }
+    ],
+    "glossary": {
+      "reveals": "to make known or show something that was previously hidden or secret",
+      "strategic": "relating to a plan of action designed to achieve a major or overall aim",
+      "priority": "something that is regarded as more important than others and needs to be dealt with first",
+      "approximately": "close to a particular number or amount, but not exactly; roughly",
+      "accelerating": "increasing in speed or rate of progress, causing something to happen faster",
+      "initiatives": "new plans or processes to achieve something or solve a problem",
+      "betting": "to take a risk in the hope of gaining an advantage or success",
+      "emergence": "the process of coming into existence or becoming known or prominent",
+      "innovative": "introducing new ideas, methods, or products; original and creative",
+      "hybrid": "something made by combining two different elements, often to create something new",
+      "seamlessly": "smoothly and continuously, without any breaks or interruptions",
+      "blend": "to mix or combine different things together so that they form one substance or unit",
+      "instruments": "financial assets that can be traded, or a formal legal document",
+      "promises": "to give an assurance that one will do something or that something will happen",
+      "unlock": "to make something accessible or possible to use, often referring to potential",
+      "efficiencies": "the state or quality of being efficient, achieving maximum productivity with minimum wasted effort",
+      "enhance": "to improve the quality, value, or extent of something; to make better",
+      "liquidity": "the availability of liquid assets to a market or company, making them easily convertible to cash",
+      "operational": "relating to the way a system or process works or is managed",
+      "accurately": "in a way that is correct in all details; precisely or exactly",
+      "represented": "to show or describe something or someone in a particular way",
+      "fundamentally": "in a basic or essential way; at a foundational level",
+      "transform": "to make a thorough or dramatic change in the form, appearance, or character of something",
+      "streamlined": "designed or organized to be more efficient and simpler to operate",
+      "anticipate": "to regard as probable; expect or predict something to happen",
+      "broader": "covering a large number and wide scope of subjects or areas",
+      "diverse": "showing a great deal of variety; very different kinds of things or people",
+      "opportunities": "sets of circumstances that make it possible to do something",
+      "signals": "indicates or communicates something, often indirectly, about a future event or state",
+      "paradigm": "a typical example or pattern of something; a model or framework",
+      "infrastructure": "the basic physical and organizational structures and facilities needed for the operation of a society or enterprise"
+    },
+    "questions": [
+      "Q1: According to the survey, what percentage of financial firms consider tokenization a strategic priority, and what kind of markets are they betting on?",
+      "Q2: Explain the concept of \"hybrid markets\" as described in the passage and why tokenization is key to their development.",
+      "Q3: What potential benefits and challenges do you foresee for financial firms as they accelerate their tokenization efforts?"
+    ],
+    "modelAnswers": [
+      "A1: Approximately 84% of financial firms consider tokenization a strategic priority. They are betting on the emergence of \"hybrid markets\" that will blend digital and traditional assets.",
+      "A2: \"Hybrid markets\" refer to financial environments where digital assets and traditional assets coexist and are traded together. Tokenization is key because it allows real-world assets to be represented on blockchains, enabling them to be integrated into these new digital-traditional blended markets.",
+      "A3: Benefits include increased efficiencies, greater liquidity, and broader investment access. Challenges might involve regulatory uncertainties, interoperability issues between different blockchains, and the need for robust security measures to protect tokenized assets."
+    ]
+  },
+  {
+    "id": "cd-2026-07-19-3",
+    "date": "2026-07-19",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "로빈후드가 수백만 명의 일반 사용자를 분산 금융(DeFi)으로 유도하려는 전략과 그 도전을 살펴보세요.",
+    "url": "https://www.coindesk.com/business/2026/07/17/inside-robinhood-s-high-stakes-bet-to-onboard-10-million-casual-investors-onto-decentralized-finance",
+    "title": "Robinhood's High-Stakes Bet on Mainstream DeFi Adoption",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Robinhood is making a significant and ambitious move into the decentralized finance (DeFi) space. The company specifically aims to onboard millions of casual, everyday users onto blockchain networks. Their core strategy focuses on bringing retail customers directly on-chain, bypassing traditional intermediaries. Robinhood firmly believes this direct, simplified access offers a key competitive advantage in the market. However, initial activity on their platform reveals a somewhat different, unexpected trend. Much of the early user engagement is currently dominated by speculative memecoins, not utility tokens. Their original vision for widespread asset tokenization adoption remains relatively small. This indicates existing challenges in effectively driving broader, sustainable DeFi utility for mainstream users. Successfully onboarding mainstream users into complex DeFi ecosystems is inherently challenging. It requires overcoming significant hurdles, including improving user experience and providing extensive education. Robinhood's potential success could profoundly impact the future growth and adoption of DeFi. It may effectively bridge the existing gap between traditional finance and decentralized finance.",
+    "sentences": [
+      {
+        "en": "Robinhood is making a significant and ambitious move into the decentralized finance (DeFi) space.",
+        "ko": "로빈후드는 분산 금융(DeFi) 분야로 중요하고 야심찬 움직임을 보이고 있습니다."
+      },
+      {
+        "en": "The company specifically aims to onboard millions of casual, everyday users onto blockchain networks.",
+        "ko": "이 회사는 수백만 명의 일반 사용자를 블록체인 네트워크에 온보딩하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Their core strategy focuses on bringing retail customers directly on-chain, bypassing traditional intermediaries.",
+        "ko": "그들의 핵심 전략은 소매 고객을 전통적인 중개자를 거치지 않고 직접 온체인으로 유도하는 데 중점을 둡니다."
+      },
+      {
+        "en": "Robinhood firmly believes this direct, simplified access offers a key competitive advantage in the market.",
+        "ko": "로빈후드는 이러한 직접적이고 간소화된 접근 방식이 시장에서 핵심적인 경쟁 우위를 제공한다고 굳게 믿습니다."
+      },
+      {
+        "en": "However, initial activity on their platform reveals a somewhat different, unexpected trend.",
+        "ko": "그러나 그들의 플랫폼에서의 초기 활동은 다소 다르고 예상치 못한 추세를 보여줍니다."
+      },
+      {
+        "en": "Much of the early user engagement is currently dominated by speculative memecoins, not utility tokens.",
+        "ko": "초기 사용자 참여의 대부분은 현재 유틸리티 토큰이 아닌 투기성 밈코인에 의해 지배되고 있습니다."
+      },
+      {
+        "en": "Their original vision for widespread asset tokenization adoption remains relatively small.",
+        "ko": "광범위한 자산 토큰화 채택에 대한 그들의 원래 비전은 상대적으로 작습니다."
+      },
+      {
+        "en": "This indicates existing challenges in effectively driving broader, sustainable DeFi utility for mainstream users.",
+        "ko": "이는 주류 사용자들을 위한 더 넓고 지속 가능한 DeFi 유틸리티를 효과적으로 추진하는 데 있어 기존의 과제를 시사합니다."
+      },
+      {
+        "en": "Successfully onboarding mainstream users into complex DeFi ecosystems is inherently challenging.",
+        "ko": "주류 사용자를 복잡한 DeFi 생태계에 성공적으로 온보딩하는 것은 본질적으로 도전적입니다."
+      },
+      {
+        "en": "It requires overcoming significant hurdles, including improving user experience and providing extensive education.",
+        "ko": "이는 사용자 경험 개선 및 광범위한 교육 제공을 포함한 상당한 장애물을 극복해야 합니다."
+      },
+      {
+        "en": "Robinhood's potential success could profoundly impact the future growth and adoption of DeFi.",
+        "ko": "로빈후드의 잠재적 성공은 DeFi의 미래 성장과 채택에 깊이 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It may effectively bridge the existing gap between traditional finance and decentralized finance.",
+        "ko": "이는 전통 금융과 분산 금융 사이의 기존 격차를 효과적으로 연결할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "significant": "sufficiently great or important to be worthy of attention; notable or meaningful",
+      "ambitious": "having or showing a strong desire and determination to succeed",
+      "decentralized": "not controlled by a single authority or central system; distributed among participants",
+      "aims": "intends to achieve something; has a purpose or goal",
+      "onboard": "to integrate new users or customers into a system or service, often with training",
+      "casual": "not serious or deeply involved; informal or occasional users",
+      "strategy": "a plan of action designed to achieve a long-term or overall aim",
+      "focuses": "directs attention or effort towards a specific point or goal",
+      "retail": "relating to the sale of goods directly to consumers, usually in small quantities",
+      "on-chain": "directly recorded and processed on a blockchain network, visible to all participants",
+      "bypassing": "going around or avoiding something, often to save time or effort",
+      "intermediaries": "people or organizations that act as a link between parties, such as banks",
+      "firmly": "in a way that is not subject to change or revocation; securely or strongly",
+      "simplified": "made easier to understand or do; less complicated",
+      "access": "the means or opportunity to approach or enter a place or system",
+      "competitive": "relating to or characterized by competition; having an advantage over rivals",
+      "advantage": "a condition or circumstance that puts one in a favorable or superior position",
+      "reveals": "to make something known or visible to others that was previously hidden",
+      "initial": "existing or occurring at the beginning; first or earliest",
+      "engagement": "involvement or participation in an activity or interaction",
+      "dominated": "to have control or a very strong influence over something or someone",
+      "speculative": "based on conjecture rather than knowledge; involving high risk for potential gain",
+      "memecoins": "cryptocurrencies inspired by internet memes, often lacking serious fundamental utility",
+      "utility": "the state of being useful, profitable, or beneficial, especially for a specific purpose",
+      "original": "existing at the beginning; first or earliest of its kind",
+      "widespread": "found or distributed over a large area or among many people",
+      "adoption": "the action or fact of choosing to take up, follow, or use something",
+      "remains": "continues to be in a particular state or condition; stays the same",
+      "indicates": "points out or shows something, often suggesting a fact or situation",
+      "driving": "causing or influencing the movement or progress of something, often a trend",
+      "sustainable": "able to be maintained at a certain rate or level; able to last",
+      "inherently": "in a permanent, essential, or characteristic way; by nature",
+      "overcoming": "succeeding in dealing with a problem or difficulty; surmounting obstacles",
+      "hurdles": "difficulties or obstacles that need to be overcome",
+      "extensive": "covering a large area; considerable in amount or degree",
+      "profoundly": "to a great depth or extent; deeply or intensely affecting something",
+      "bridge": "to connect or span something, often metaphorically, to close a gap"
+    },
+    "questions": [
+      "Q1: What is Robinhood's main strategy for bringing retail customers into DeFi, and what unexpected trend has been observed in early user activity?",
+      "Q2: In the context of the passage, explain what \"on-chain\" means and why Robinhood believes direct access to it is a key advantage.",
+      "Q3: What are the biggest challenges Robinhood might face in achieving its vision of widespread mainstream DeFi adoption, and how might they overcome them?"
+    ],
+    "modelAnswers": [
+      "A1: Robinhood's main strategy is to bring retail customers directly on-chain, bypassing traditional intermediaries. However, early user activity shows that much of the initial engagement is dominated by speculative memecoins, not utility tokens.",
+      "A2: \"On-chain\" refers to transactions and activities directly recorded and processed on a blockchain network. Robinhood believes direct access to it is a key advantage because it offers users simplified, direct participation in decentralized finance without traditional financial system bottlenecks.",
+      "A3: The biggest challenges include improving user experience for complex DeFi products, providing extensive education to casual users, and shifting focus from speculative memecoins to sustainable utility. They could overcome these by simplifying interfaces, offering in-app educational tools, and curating access to more stable DeFi opportunities."
+    ]
+  },
+  {
+    "id": "ec-2026-07-19-1",
+    "date": "2026-07-19",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "인플레이션의 주요 지표인 도매 물가 하락이 경제에 어떤 의미를 가지는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/15/wholesale-inflation-june-2026-.html",
+    "title": "Wholesale Prices Fall, Signaling Easing Inflation",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The latest report showed an unexpected decline in wholesale prices during June. This 0.3% drop was primarily driven by a significant decrease in gasoline costs. The index, which tracks producer prices, benefited from easing energy expenses. Oil prices fell due to a temporary reduction in tensions between the U.S. and Iran. This trend mirrors a similar cooling observed in consumer prices recently. A sustained decrease in wholesale inflation could signal broader economic relief. It might also influence future decisions by central banks regarding interest rates. Businesses could see reduced input costs, potentially affecting consumer prices positively. This development offers a hopeful sign for the overall economic outlook. Such shifts are closely watched by market analysts.",
+    "sentences": [
+      {
+        "en": "The latest report showed an unexpected decline in wholesale prices during June.",
+        "ko": "최신 보고서에 따르면 6월 도매 물가가 예상치 못하게 하락했습니다."
+      },
+      {
+        "en": "This 0.3% drop was primarily driven by a significant decrease in gasoline costs.",
+        "ko": "이 0.3% 하락은 주로 휘발유 가격의 상당한 감소에 의해 주도되었습니다."
+      },
+      {
+        "en": "The index, which tracks producer prices, benefited from easing energy expenses.",
+        "ko": "생산자 물가를 추적하는 이 지수는 에너지 비용 완화로 이득을 보았습니다."
+      },
+      {
+        "en": "Oil prices fell due to a temporary reduction in tensions between the U.S. and Iran.",
+        "ko": "미국과 이란 간의 긴장 완화로 인해 유가가 일시적으로 하락했습니다."
+      },
+      {
+        "en": "This trend mirrors a similar cooling observed in consumer prices recently.",
+        "ko": "이러한 추세는 최근 소비자 물가에서 관찰된 비슷한 냉각 현상을 반영합니다."
+      },
+      {
+        "en": "A sustained decrease in wholesale inflation could signal broader economic relief.",
+        "ko": "도매 인플레이션의 지속적인 감소는 더 광범위한 경제적 안정을 알릴 수 있습니다."
+      },
+      {
+        "en": "It might also influence future decisions by central banks regarding interest rates.",
+        "ko": "이는 또한 중앙은행의 향후 금리 결정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Businesses could see reduced input costs, potentially affecting consumer prices positively.",
+        "ko": "기업은 투입 비용 감소를 경험하여 잠재적으로 소비자 물가에 긍정적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "This development offers a hopeful sign for the overall economic outlook.",
+        "ko": "이러한 발전은 전반적인 경제 전망에 희망적인 신호를 제공합니다."
+      },
+      {
+        "en": "Such shifts are closely watched by market analysts.",
+        "ko": "이러한 변화는 시장 분석가들에 의해 면밀히 주시됩니다."
+      }
+    ],
+    "glossary": {
+      "unexpectedly": "in a way that was not predicted or foreseen.",
+      "decline": "a gradual and continuous loss of strength, numbers, or value.",
+      "wholesale": "relating to the sale of goods in large quantities at lower prices.",
+      "primarily": "for the most part; mainly.",
+      "driven": "caused or influenced by a particular factor.",
+      "significant": "large or important enough to have an effect or be noticed.",
+      "decrease": "to become smaller or less in size, amount, or extent.",
+      "index": "a statistical measure showing changes in the value of something over time.",
+      "producer": "a person, company, or country that makes, grows, or supplies goods.",
+      "benefited": "received an advantage or profit from something.",
+      "easing": "becoming less severe, difficult, or unpleasant.",
+      "expenses": "the cost required for something; the money spent on something.",
+      "temporary": "lasting for only a limited period of time; not permanent.",
+      "reduction": "the action or fact of making something smaller or less in amount.",
+      "tensions": "a state of hostility or strain between individuals or groups.",
+      "mirrors": "reflects or shows a close resemblance to something else.",
+      "cooling": "becoming less intense or active, often referring to economic activity.",
+      "sustained": "continuing for an extended period without interruption.",
+      "broader": "covering a wider range of subjects or areas.",
+      "signal": "to indicate or convey information about something.",
+      "influence": "to have an effect on the character, development, or behavior of someone or something.",
+      "regarding": "concerning; with respect to.",
+      "input": "the raw materials or components used in the production process.",
+      "positively": "in a good or favorable way.",
+      "outlook": "the likely future prospects or expectations for something."
+    },
+    "questions": [
+      "Q1: What was the main reason cited for the unexpected decline in wholesale prices in June?",
+      "Q2: Explain how \"easing energy expenses\" contributed to the decline in the wholesale price index.",
+      "Q3: If wholesale prices continue to decline, how might this impact central bank policies and consumer spending in the coming months?"
+    ],
+    "modelAnswers": [
+      "A1: The primary reason for the unexpected decline in wholesale prices in June was a significant drop in gasoline costs.",
+      "A2: Easing energy expenses, especially lower oil prices due to reduced U.S.-Iran tensions, directly lowered the costs for producers. Since the wholesale price index tracks these producer costs, the decrease in energy inputs led to an overall decline in the index.",
+      "A3: A sustained decline in wholesale prices could lead central banks to consider pausing or even cutting interest rates, as inflation pressure lessens. Consumers might benefit from lower prices for goods, potentially increasing their purchasing power and stimulating spending."
+    ]
+  },
+  {
+    "id": "ec-2026-07-19-2",
+    "date": "2026-07-19",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "연준의 소통 방식 변화에 월스트리트가 어떻게 대응하고 있는지, AI는 어떤 역할을 하는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/18/warshgpt-federal-reserve-communications-task-force-warsh.html",
+    "title": "Wall Street Adapts to Fed's New Communication Era",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Wall Street is preparing for a new era in Federal Reserve communication. Investment firms anticipate less public commentary from the U.S. central bank. This shift means investors will have fewer direct signals from Fed officials. Consequently, financial markets must find new ways to interpret policy intentions. Some firms are now turning to artificial intelligence, nicknamed \"WarshGPT,\" for an advantage. These AI tools analyze vast amounts of data to predict Fed actions. They aim to uncover subtle cues from official statements and economic reports. This technological adaptation reflects the increasing importance of data analytics in finance. It highlights how Wall Street is innovating to maintain its competitive edge. The move could reshape how monetary policy is understood and reacted to by markets.",
+    "sentences": [
+      {
+        "en": "Wall Street is preparing for a new era in Federal Reserve communication.",
+        "ko": "월스트리트는 연방준비제도(Fed)의 새로운 소통 시대에 대비하고 있습니다."
+      },
+      {
+        "en": "Investment firms anticipate less public commentary from the U.S. central bank.",
+        "ko": "투자 회사들은 미국 중앙은행의 공개적인 논평이 줄어들 것으로 예상합니다."
+      },
+      {
+        "en": "This shift means investors will have fewer direct signals from Fed officials.",
+        "ko": "이러한 변화는 투자자들이 연준 관계자들로부터 직접적인 신호를 덜 받게 됨을 의미합니다."
+      },
+      {
+        "en": "Consequently, financial markets must find new ways to interpret policy intentions.",
+        "ko": "결과적으로 금융 시장은 정책 의도를 해석할 새로운 방법을 찾아야 합니다."
+      },
+      {
+        "en": "Some firms are now turning to artificial intelligence, nicknamed \"WarshGPT,\" for an advantage.",
+        "ko": "일부 기업들은 이제 'WarshGPT'라는 별명의 인공지능을 활용하여 이점을 얻고 있습니다."
+      },
+      {
+        "en": "These AI tools analyze vast amounts of data to predict Fed actions.",
+        "ko": "이러한 AI 도구들은 방대한 양의 데이터를 분석하여 연준의 행동을 예측합니다."
+      },
+      {
+        "en": "They aim to uncover subtle cues from official statements and economic reports.",
+        "ko": "이들은 공식 성명과 경제 보고서에서 미묘한 단서를 찾아내는 것을 목표로 합니다."
+      },
+      {
+        "en": "This technological adaptation reflects the increasing importance of data analytics in finance.",
+        "ko": "이러한 기술적 적응은 금융 분야에서 데이터 분석의 중요성이 커지고 있음을 반영합니다."
+      },
+      {
+        "en": "It highlights how Wall Street is innovating to maintain its competitive edge.",
+        "ko": "이는 월스트리트가 경쟁 우위를 유지하기 위해 어떻게 혁신하고 있는지를 보여줍니다."
+      },
+      {
+        "en": "The move could reshape how monetary policy is understood and reacted to by markets.",
+        "ko": "이러한 움직임은 시장이 통화 정책을 이해하고 반응하는 방식을 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "era": "a long and distinct period of history with a particular feature.",
+      "preparing": "making something ready for use or for a future event.",
+      "anticipate": "regard as probable; expect or predict.",
+      "commentary": "an expression of opinions or explanations about an event.",
+      "shift": "a slight change in position, direction, or tendency.",
+      "consequently": "as a result; therefore.",
+      "interpret": "explain the meaning of information or actions.",
+      "intentions": "plans or aims.",
+      "turning": "moving in a different direction; using a different approach.",
+      "artificial": "made or produced by human beings rather than occurring naturally.",
+      "advantage": "a condition or circumstance that puts one in a favorable position.",
+      "analyze": "examine methodically and in detail for purposes of explanation.",
+      "predict": "say or estimate that a specified thing will happen in the future.",
+      "uncover": "discover something previously hidden or unknown.",
+      "subtle": "so delicate or precise as to be difficult to analyze or describe.",
+      "cues": "signals for action; indications.",
+      "technological": "relating to or using technology.",
+      "innovation": "the action or process of inventing new methods, ideas, or products.",
+      "competitive": "relating to or characterized by competition.",
+      "reshape": "shape something in a different way or form.",
+      "monetary": "relating to money or currency."
+    },
+    "questions": [
+      "Q1: According to the article, what is the anticipated change in Federal Reserve communication that Wall Street is preparing for?",
+      "Q2: How are some investment firms using \"WarshGPT\" to adapt to the Fed's new communication era, and what is its purpose?",
+      "Q3: What are the potential benefits and drawbacks of financial markets relying more on AI tools rather than direct commentary from central bank officials?"
+    ],
+    "modelAnswers": [
+      "A1: Wall Street anticipates less public commentary from the U.S. central bank, meaning fewer direct signals from Federal Reserve officials.",
+      "A2: Some investment firms are using \"WarshGPT,\" an artificial intelligence tool, to analyze vast amounts of data. Its purpose is to predict Fed actions and uncover subtle cues from official statements and economic reports.",
+      "A3: A benefit is potentially faster, more objective analysis of data, leading to quicker market reactions. A drawback could be missing nuanced human judgment or the inability of AI to fully grasp unforeseen geopolitical or social factors influencing policy decisions."
+    ]
+  },
+  {
+    "id": "ec-2026-07-19-3",
+    "date": "2026-07-19",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "올해 인도 최대 규모 IPO의 성공 요인과 시장에 미치는 영향을 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/17/indias-biggest-ipo-this-year-rakes-in-bids-worth-31-billion-powered-by-institutional-frenzy.html",
+    "title": "India's Largest IPO Attracts Massive Investment",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "India recently witnessed its largest Initial Public Offering (IPO) of the year. This significant event drew an astounding $31 billion in bids from investors. The IPO involved India's biggest asset manager, closing successfully on Thursday. Institutional investors showed particularly keen interest, driving much of the frenzy. Their strong participation underscores confidence in India's financial markets. This level of investment highlights the growing appeal of emerging market opportunities. It also signals robust liquidity and investor appetite within the region. Such a successful IPO can boost overall market sentiment and attract further capital. For fintech professionals, this demonstrates the vibrant potential in Asian financial hubs. It also provides valuable insights into global capital allocation trends.",
+    "sentences": [
+      {
+        "en": "India recently witnessed its largest Initial Public Offering (IPO) of the year.",
+        "ko": "인도는 최근 올해 최대 규모의 기업공개(IPO)를 목격했습니다."
+      },
+      {
+        "en": "This significant event drew an astounding $31 billion in bids from investors.",
+        "ko": "이 중요한 행사는 투자자들로부터 무려 310억 달러의 입찰을 끌어냈습니다."
+      },
+      {
+        "en": "The IPO involved India's biggest asset manager, closing successfully on Thursday.",
+        "ko": "이번 IPO는 인도의 최대 자산운용사와 관련되어 있으며, 목요일에 성공적으로 마감되었습니다."
+      },
+      {
+        "en": "Institutional investors showed particularly keen interest, driving much of the frenzy.",
+        "ko": "기관 투자자들은 특히 열띤 관심을 보였고, 이러한 열풍의 상당 부분을 주도했습니다."
+      },
+      {
+        "en": "Their strong participation underscores confidence in India's financial markets.",
+        "ko": "그들의 강력한 참여는 인도 금융 시장에 대한 신뢰를 강조합니다."
+      },
+      {
+        "en": "This level of investment highlights the growing appeal of emerging market opportunities.",
+        "ko": "이러한 투자 수준은 신흥 시장 기회의 증가하는 매력을 부각시킵니다."
+      },
+      {
+        "en": "It also signals robust liquidity and investor appetite within the region.",
+        "ko": "이는 또한 이 지역 내의 강력한 유동성과 투자자들의 욕구를 나타냅니다."
+      },
+      {
+        "en": "Such a successful IPO can boost overall market sentiment and attract further capital.",
+        "ko": "이러한 성공적인 IPO는 전반적인 시장 심리를 고양시키고 추가 자본을 유치할 수 있습니다."
+      },
+      {
+        "en": "For fintech professionals, this demonstrates the vibrant potential in Asian financial hubs.",
+        "ko": "핀테크 전문가들에게 이것은 아시아 금융 허브의 활기찬 잠재력을 보여줍니다."
+      },
+      {
+        "en": "It also provides valuable insights into global capital allocation trends.",
+        "ko": "또한 글로벌 자본 배분 동향에 대한 귀중한 통찰력을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "witnessed": "saw something happen or be present at an event.",
+      "astounding": "surprisingly impressive or notable.",
+      "bids": "offers to buy something, typically at a specified price.",
+      "institutional": "relating to a large organization or system.",
+      "keen": "having or showing strong interest or enthusiasm.",
+      "frenzy": "a state or period of uncontrolled excitement or wild behavior.",
+      "underscores": "emphasizes the importance of something.",
+      "confidence": "the feeling or belief that one can rely on someone or something.",
+      "highlights": "draws special attention to something.",
+      "appeal": "the quality of being attractive or interesting.",
+      "emerging": "coming into existence or prominence.",
+      "robust": "strong and healthy.",
+      "liquidity": "the availability of liquid assets to a market or company.",
+      "appetite": "a strong desire or liking for something.",
+      "sentiment": "a feeling or emotion.",
+      "attract": "draw, entice, or allure.",
+      "capital": "wealth in the form of money or other assets.",
+      "hubs": "the effective center of an activity, region, or network.",
+      "insights": "the capacity to gain an accurate and deep understanding of a person or thing.",
+      "allocation": "the action or process of distributing something.",
+      "trends": "a general direction in which something is developing or changing."
+    },
+    "questions": [
+      "Q1: How much money in bids did India's largest IPO of the year attract, and which type of investors were particularly active?",
+      "Q2: What does the \"institutional frenzy\" surrounding this IPO suggest about India's financial markets and emerging market opportunities?",
+      "Q3: From a fintech PM's perspective, what key takeaways can be drawn from the success of this large IPO in an emerging market like India?"
+    ],
+    "modelAnswers": [
+      "A1: India's largest IPO attracted an astounding $31 billion in bids. Institutional investors showed particularly keen interest and were very active.",
+      "A2: The institutional frenzy suggests strong confidence in India's financial markets and highlights the growing appeal of emerging market opportunities globally. It also indicates robust liquidity and investor appetite in the region.",
+      "A3: A fintech PM can learn about the vibrant potential in Asian financial hubs and the increasing capital flow into emerging markets. It offers insights into investor behavior, market sentiment, and global capital allocation trends, which are crucial for strategic planning and product development."
+    ]
+  },
+  {
     "id": "cd-2026-07-18-1",
     "date": "2026-07-18",
     "rank": 1,
