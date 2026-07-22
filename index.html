@@ -1873,6 +1873,18 @@
         return <button className="restudybtn" onClick={(ev) => backToReview(e.word, ev)}>다시 외우기</button>;
       };
 
+      // The wordbank is per-account: when a backend is configured but the user
+      // isn't signed in, show only the login prompt — no words, streak, or study.
+      if (SB && !session) {
+        return (
+          <div className="loginprompt">
+            <div className="loginprompt-title fraunces">로그인해 주세요</div>
+            <div className="loginprompt-desc">단어장은 계정마다 다릅니다. 로그인하면 외운 단어를 PC·모바일 어디서나 볼 수 있어요.</div>
+            <GoogleButton onClick={() => googleSignIn(showToast)} className="wide" />
+          </div>
+        );
+      }
+
       // Flashcard study session (replaces the grid while active).
       if (studying) {
         // Round finished → summary + repeat-missed / restart.
@@ -1978,13 +1990,6 @@
 
       return (
         <React.Fragment>
-          {SB && !session && (
-            <div className="loginprompt">
-              <div className="loginprompt-title fraunces">로그인해 주세요</div>
-              <div className="loginprompt-desc">로그인하면 외운 단어를 PC·모바일 어디서나 볼 수 있어요.</div>
-              <GoogleButton onClick={() => googleSignIn(showToast)} className="wide" />
-            </div>
-          )}
           <div className="streak">
             <div>
               <div className="big fraunces">🔥 {streak.count || 0}일</div>
