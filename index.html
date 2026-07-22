@@ -327,6 +327,20 @@
     }
     .authbar .authbtn.google { background: #fff; color: #3c4043; border-color: #dadce0; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; }
     .authbar .authbtn.google .gicon { width: 15px; height: 15px; display: block; }
+    /* Login prompt shown in the wordbank when signed out */
+    .loginprompt {
+      border: 1px solid var(--amber-soft); background: #fffaf1; border-radius: 14px;
+      padding: 18px 16px; margin-bottom: 14px; text-align: center;
+    }
+    .loginprompt-title { font-size: 18px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+    .loginprompt-desc { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 14px; }
+    .loginprompt .authbtn.google {
+      background: #fff; color: #3c4043; border: 1px solid #dadce0; font-weight: 600;
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer;
+      border-radius: 8px; padding: 11px 16px; font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 13px;
+    }
+    .loginprompt .authbtn.google .gicon { width: 17px; height: 17px; display: block; }
+    .loginprompt .authbtn.google.wide { width: 100%; }
     .authmsg {
       margin: -8px 0 14px; padding: 6px 10px; border-radius: 8px; background: #fdecec;
       color: #b23b3b; font-size: 11px; font-family: "IBM Plex Mono", "Pretendard", monospace;
@@ -919,7 +933,7 @@
       } else if (tab === "archive") {
         body = <Archive packs={sorted} reads={reads} setReads={setReads} onOpen={setOpenId} />;
       } else {
-        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} />;
+        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} session={session} showToast={showToast} />;
       }
 
       return (
@@ -934,14 +948,36 @@
     /* ------------------------------------------------------------------ */
     /* AuthBar: magic-link login + sync status (only when SB configured)   */
     /* ------------------------------------------------------------------ */
+    // A clean redirect target — no hash/query — so a leftover #access_token or
+    // #error fragment from a previous (failed) attempt can't pollute the next
+    // login and cause "OAuth state not found or expired".
+    function cleanRedirect() { return window.location.origin + window.location.pathname; }
+    async function googleSignIn(showToast) {
+      if (!SB) return;
+      const { error } = await SB.auth.signInWithOAuth({
+        provider: "google",
+        options: { redirectTo: cleanRedirect() },
+      });
+      if (error && showToast) showToast("구글 로그인 실패: " + error.message);
+    }
+    // A reusable Google button (used in the auth bar and the wordbank prompt).
+    function GoogleButton({ onClick, className }) {
+      return (
+        <button className={"authbtn google" + (className ? " " + className : "")} onClick={onClick} title="Google로 로그인">
+          <svg className="gicon" viewBox="0 0 48 48" aria-hidden="true">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg>
+          구글 로그인
+        </button>
+      );
+    }
+
     function AuthBar({ session, syncMsg, showToast }) {
       const [email, setEmail] = useState("");
       const [sent, setSent] = useState(false);
-
-      // A clean redirect target — no hash/query — so a leftover #access_token or
-      // #error fragment from a previous (failed) attempt can't pollute the next
-      // login and cause "OAuth state not found or expired".
-      const cleanRedirect = () => window.location.origin + window.location.pathname;
 
       const sendLink = async () => {
         if (!email.trim()) return;
@@ -953,13 +989,7 @@
         else { setSent(true); showToast("메일로 로그인 링크를 보냈어요"); }
       };
 
-      const googleLogin = async () => {
-        const { error } = await SB.auth.signInWithOAuth({
-          provider: "google",
-          options: { redirectTo: cleanRedirect() },
-        });
-        if (error) showToast("구글 로그인 실패: " + error.message);
-      };
+      const googleLogin = () => googleSignIn(showToast);
 
       if (session) {
         return (
@@ -972,15 +1002,7 @@
       return (
         <React.Fragment>
           <div className="authbar">
-            <button className="authbtn google" onClick={googleLogin} title="Google로 로그인">
-              <svg className="gicon" viewBox="0 0 48 48" aria-hidden="true">
-                <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
-                <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
-                <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/>
-                <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
-              </svg>
-              구글 로그인
-            </button>
+            <GoogleButton onClick={googleLogin} />
             <input className="authinput mono" type="email" placeholder="또는 이메일"
               value={email} onChange={(e) => setEmail(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && sendLink()} />
@@ -1599,7 +1621,7 @@
     // Spaced-repetition stage of a word (with legacy 'learned' migration).
     function stageOf(v) { return v.stage || (v.learned ? "review" : "new"); }
 
-    function Wordbank({ wordbank, setWordbank, streak }) {
+    function Wordbank({ wordbank, setWordbank, streak, session, showToast }) {
       const [query, setQuery] = useState("");
       const [filter, setFilter] = useState("all"); // all | new | review | mastered
       const [flipped, setFlipped] = useState({});
@@ -1943,6 +1965,13 @@
 
       return (
         <React.Fragment>
+          {SB && !session && (
+            <div className="loginprompt">
+              <div className="loginprompt-title fraunces">로그인해 주세요</div>
+              <div className="loginprompt-desc">로그인하면 외운 단어를 PC·모바일 어디서나 볼 수 있어요.</div>
+              <GoogleButton onClick={() => googleSignIn(showToast)} className="wide" />
+            </div>
+          )}
           <div className="streak">
             <div>
               <div className="big fraunces">🔥 {streak.count || 0}일</div>
