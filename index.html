@@ -600,10 +600,16 @@
       const put = (k, v) => {
         const key = String(k || "").toLowerCase().trim();
         if (!key || !v) return;
-        out[key] = out[key] ? { ...out[key], ...v, example: out[key].example || v.example || "" } : v;
+        const cur = out[key];
+        if (!cur) { out[key] = v; return; }
+        // Last-write-wins per word by updatedAt so devices converge on the most
+        // recent stage change (tie → keep the one already there = remote, since
+        // remote is merged first). An example is kept if either side has one.
+        const win = (v.updatedAt || 0) > (cur.updatedAt || 0) ? v : cur;
+        out[key] = { ...win, example: cur.example || v.example || win.example || "" };
       };
-      for (const [k, v] of Object.entries(remote || {})) put(k, v);
-      for (const [k, v] of Object.entries(local || {})) put(k, v); // local overrides remote
+      for (const [k, v] of Object.entries(remote || {})) put(k, v); // remote first
+      for (const [k, v] of Object.entries(local || {})) put(k, v);  // then local
       return out;
     }
     function mergeReads(local, remote) { return { ...(remote || {}), ...(local || {}) }; }
@@ -799,38 +805,71 @@
         return () => sub.subscription.unsubscribe();
       }, []);
 
-      // On sign-in: pull the remote row and merge it into local state.
+      // Pull the remote row and merge it into local state (last-write-wins).
+      // Returns nothing; setState uses the same reference when unchanged so it
+      // doesn't cause a needless push.
+      const pullRemote = useCallback(async () => {
+        if (!SB || !session) return;
+        const { data, error } = await SB.from("user_state").select("*")
+          .eq("user_id", session.user.id).maybeSingle();
+        if (error || !data) return;
+        const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+        setWordbank((loc) => { const m = mergeWordbank(loc, data.wordbank); return same(m, loc) ? loc : m; });
+        setReads((loc) => { const m = mergeReads(loc, data.reads); return same(m, loc) ? loc : m; });
+        setStreak((loc) => pickStreak(loc, data.streak));
+      }, [session]);
+
+      // On sign-in: pull + merge, then allow pushing.
       useEffect(() => {
         if (!SB || !session) { hydratedRef.current = false; return; }
         let cancelled = false;
         (async () => {
           setSyncMsg("동기화 중…");
-          const { data, error } = await SB.from("user_state").select("*")
-            .eq("user_id", session.user.id).maybeSingle();
+          await pullRemote();
           if (cancelled) return;
-          if (error) { setSyncMsg("동기화 오류"); return; }
-          if (data) {
-            setWordbank((loc) => mergeWordbank(loc, data.wordbank));
-            setReads((loc) => mergeReads(loc, data.reads));
-            setStreak((loc) => pickStreak(loc, data.streak));
-          }
           hydratedRef.current = true;
           setSyncMsg("동기화됨");
           setTimeout(() => setSyncMsg(""), 1500);
         })();
         return () => { cancelled = true; };
-      }, [session]);
+      }, [session, pullRemote]);
 
-      // Push local changes up (debounced) once hydrated.
+      // Re-pull when the tab regains focus, so switching back to a device picks
+      // up changes made on another device (no realtime channel needed).
+      useEffect(() => {
+        if (!SB || !session) return;
+        const onVisible = () => { if (document.visibilityState === "visible" && hydratedRef.current) pullRemote(); };
+        window.addEventListener("focus", onVisible);
+        document.addEventListener("visibilitychange", onVisible);
+        return () => {
+          window.removeEventListener("focus", onVisible);
+          document.removeEventListener("visibilitychange", onVisible);
+        };
+      }, [session, pullRemote]);
+
+      // Push local changes up (debounced) once hydrated. Read-merge-write so a
+      // push never clobbers a newer per-word change made on another device.
       useEffect(() => {
         if (!SB || !session || !hydratedRef.current) return;
         if (saveTimer.current) clearTimeout(saveTimer.current);
-        saveTimer.current = setTimeout(() => {
-          SB.from("user_state").upsert({
-            user_id: session.user.id, wordbank, reads, streak,
-            updated_at: new Date().toISOString(),
-          }).then(({ error }) => { if (error) setSyncMsg("저장 오류"); });
-        }, 1000);
+        saveTimer.current = setTimeout(async () => {
+          try {
+            const { data } = await SB.from("user_state").select("*")
+              .eq("user_id", session.user.id).maybeSingle();
+            const wb = data ? mergeWordbank(wordbank, data.wordbank) : wordbank;
+            const rd = data ? mergeReads(reads, data.reads) : reads;
+            const st = data ? pickStreak(streak, data.streak) : streak;
+            const { error } = await SB.from("user_state").upsert({
+              user_id: session.user.id, wordbank: wb, reads: rd, streak: st,
+              updated_at: new Date().toISOString(),
+            });
+            if (error) { setSyncMsg("저장 오류"); return; }
+            // Reflect the merged result locally (guarded so it can't loop).
+            const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
+            setWordbank((loc) => (same(wb, loc) ? loc : wb));
+            setReads((loc) => (same(rd, loc) ? loc : rd));
+          } catch (e) { setSyncMsg("저장 오류"); }
+        }, 1200);
         return () => saveTimer.current && clearTimeout(saveTimer.current);
       }, [wordbank, reads, streak, session]);
 
@@ -849,7 +888,7 @@
             }
             if (stage === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_MAX_DAYS) {
               const { reviewSince, ...rest } = v;
-              next[w] = { ...rest, stage: "new", learned: false }; // not reviewed in time → 미암기
+              next[w] = { ...rest, stage: "new", learned: false, updatedAt: Date.now() }; // not reviewed in time → 미암기
               changed = true; continue;
             }
             next[w] = v;
@@ -895,10 +934,10 @@
             if (!norm) continue;
             const existing = lcIndex[norm];
             if (!existing) {
-              next[norm] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "" };
+              next[norm] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "", updatedAt: Date.now() };
               lcIndex[norm] = norm;
             } else if (example && !next[existing].example) {
-              next[existing] = { ...next[existing], example }; // backfill an example onto an existing word
+              next[existing] = { ...next[existing], example, updatedAt: Date.now() }; // backfill an example onto an existing word
             }
           }
           return next;
@@ -1690,7 +1729,7 @@
 
       const patch = (word, p, ev) => {
         ev && ev.stopPropagation();
-        setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], ...p } }));
+        setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], ...p, updatedAt: Date.now() } }));
       };
       const removeWord = (word, ev) => {
         ev.stopPropagation();
@@ -1701,7 +1740,7 @@
       const backToReview = (word, ev) => {
         ev && ev.stopPropagation();
         setWordbank((prev) => prev[word]
-          ? { ...prev, [word]: { ...prev[word], stage: "review", reviewSince: today, masteredSince: undefined, learned: true } }
+          ? { ...prev, [word]: { ...prev[word], stage: "review", reviewSince: today, masteredSince: undefined, learned: true, updatedAt: Date.now() } }
           : prev);
         if (showToast) showToast(`"${word}" 다시 복습중으로 옮겼어요`);
       };
