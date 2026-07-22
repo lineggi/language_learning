@@ -506,6 +506,12 @@
       color: #8a5a12; background: var(--amber-soft); border-radius: 999px;
       padding: 2px 8px; font-weight: 600;
     }
+    .wcard .restudybtn {
+      border: 1px solid var(--hair); background: none; color: var(--good); cursor: pointer;
+      border-radius: 999px; padding: 3px 10px; font-size: 11px; font-weight: 600;
+      font-family: "IBM Plex Mono", "Pretendard", monospace;
+    }
+    .wcard .restudybtn:hover { background: #eef6f0; border-color: var(--good); }
 
     .empty {
       text-align: center; color: var(--faint); padding: 40px 20px; white-space: pre-line;
@@ -1691,6 +1697,14 @@
         if (!window.confirm(`"${word}" 단어를 단어장에서 삭제할까요?`)) return;
         setWordbank((prev) => { const n = { ...prev }; delete n[word]; return n; });
       };
+      // 완료(장기완료) 단어를 다시 복습중으로 되돌린다 (자동 삭제 예약도 해제).
+      const backToReview = (word, ev) => {
+        ev && ev.stopPropagation();
+        setWordbank((prev) => prev[word]
+          ? { ...prev, [word]: { ...prev[word], stage: "review", reviewSince: today, masteredSince: undefined, learned: true } }
+          : prev);
+        if (showToast) showToast(`"${word}" 다시 복습중으로 옮겼어요`);
+      };
       const flip = (word) => setFlipped((p) => ({ ...p, [word]: !p[word] }));
 
       // Flashcard study: random order, meaning first, tap to flip to the word.
@@ -1856,8 +1870,7 @@
           const d = Math.max(1, REVIEW_DUE_DAYS - daysBetween(e.reviewSince || today, today));
           return <span className="stagenote">복습 D-{d}</span>;
         }
-        const left = Math.max(0, MASTERED_TTL_DAYS - daysBetween(e.masteredSince || today, today));
-        return <span className="stagenote done">완료 · 삭제 D-{left}</span>;
+        return <button className="restudybtn" onClick={(ev) => backToReview(e.word, ev)}>다시 외우기</button>;
       };
 
       // Flashcard study session (replaces the grid while active).
