@@ -1,5 +1,519 @@
 [
   {
+    "id": "cd-2026-07-26-1",
+    "date": "2026-07-26",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "토큰화된 실물 자산(RWA)의 성장이 가속화되고 있으며, 로빈후드 체인의 급증이 이를 잘 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/07/25/robinhood-chain-s-real-world-assets-jump-fivefold-as-tokenized-stocks-start-trading-in-bigger-size",
+    "title": "Robinhood Chain Sees Massive Growth in Tokenized Real-World Assets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Robinhood Chain is experiencing significant growth in tokenized real-world assets. The chain, specifically designed for putting equities on-chain, has impressively tripled in size since mid-July. This indicates a substantial increase in its operational capacity and user base. Tokenized stocks are now actively trading in much larger daily volumes. For instance, a dozen different tokenized stocks are each clearing over $500,000 every single day. This rapid expansion clearly highlights the increasing adoption of RWA within the broader crypto space. While memecoins and stablecoins still primarily dominate the chain's overall activity, the consistent RWA growth is extremely notable. This emerging trend strongly suggests a maturing market where traditional financial assets are increasingly integrated with blockchain technology. For fintech product managers, this development presents exciting new opportunities in innovative digital asset management. It also points to potential future integrations between established traditional finance systems and the rapidly evolving crypto ecosystem.",
+    "sentences": [
+      {
+        "en": "Robinhood Chain is experiencing significant growth in tokenized real-world assets.",
+        "ko": "로빈후드 체인은 토큰화된 실물 자산에서 상당한 성장을 경험하고 있습니다."
+      },
+      {
+        "en": "The chain, specifically designed for putting equities on-chain, has impressively tripled in size since mid-July.",
+        "ko": "주식을 온체인에 올리기 위해 특별히 설계된 이 체인은 7월 중순 이후 규모가 놀랍게도 세 배로 커졌습니다."
+      },
+      {
+        "en": "This indicates a substantial increase in its operational capacity and user base.",
+        "ko": "이는 운영 능력과 사용자 기반이 크게 증가했음을 나타냅니다."
+      },
+      {
+        "en": "Tokenized stocks are now actively trading in much larger daily volumes.",
+        "ko": "토큰화된 주식은 이제 훨씬 더 큰 일일 거래량으로 활발하게 거래되고 있습니다."
+      },
+      {
+        "en": "For instance, a dozen different tokenized stocks are each clearing over $500,000 every single day.",
+        "ko": "예를 들어, 12가지 다른 토큰화된 주식 각각이 매일 50만 달러 이상을 처리하고 있습니다."
+      },
+      {
+        "en": "This rapid expansion clearly highlights the increasing adoption of RWA within the broader crypto space.",
+        "ko": "이러한 빠른 확장은 더 넓은 암호화폐 공간에서 RWA의 채택이 증가하고 있음을 명확히 보여줍니다."
+      },
+      {
+        "en": "While memecoins and stablecoins still primarily dominate the chain's overall activity, the consistent RWA growth is extremely notable.",
+        "ko": "밈코인과 스테이블코인이 여전히 체인 활동의 대부분을 차지하지만, 지속적인 RWA 성장은 매우 주목할 만합니다."
+      },
+      {
+        "en": "This emerging trend strongly suggests a maturing market where traditional financial assets are increasingly integrated with blockchain technology.",
+        "ko": "이러한 새로운 추세는 전통 금융 자산이 블록체인 기술과 점점 더 통합되는 시장의 성숙을 강력히 시사합니다."
+      },
+      {
+        "en": "For fintech product managers, this development presents exciting new opportunities in innovative digital asset management.",
+        "ko": "핀테크 제품 관리자에게 이 발전은 혁신적인 디지털 자산 관리에서 흥미로운 새로운 기회를 제공합니다."
+      },
+      {
+        "en": "It also points to potential future integrations between established traditional finance systems and the rapidly evolving crypto ecosystem.",
+        "ko": "또한 기존 전통 금융 시스템과 빠르게 진화하는 암호화폐 생태계 간의 잠재적인 미래 통합을 시사합니다."
+      }
+    ],
+    "glossary": {
+      "tokenized": "converted into a digital token on a blockchain representing ownership of an asset.",
+      "equities": "shares of ownership in a company, often traded on stock exchanges.",
+      "on-chain": "referring to data or transactions that are recorded and processed directly on a blockchain.",
+      "tripled": "increased to three times its original size or amount.",
+      "volumes": "the total amount of a specific asset or currency traded over a given period.",
+      "clearing": "the process of settling transactions and exchanging funds between buyers and sellers.",
+      "expansion": "the act of increasing in size, scope, or extent.",
+      "highlights": "draws special attention to something important or noteworthy.",
+      "adoption": "the act of starting to use something new or different.",
+      "memecoins": "cryptocurrencies inspired by internet memes, often lacking serious utility.",
+      "stablecoins": "cryptocurrencies designed to maintain a stable value relative to a fiat currency or other assets.",
+      "dominate": "to have a commanding influence or control over something.",
+      "notable": "worthy of attention or notice; remarkable.",
+      "trend": "a general direction in which something is developing or changing.",
+      "maturing": "becoming fully developed or more sophisticated over time.",
+      "traditional": "relating to long-established customs, practices, or beliefs.",
+      "integrated": "combined different systems or components into a unified whole.",
+      "blockchain": "a decentralized, distributed ledger technology used to record transactions across many computers.",
+      "fintech": "technology that aims to improve and automate the delivery and use of financial services.",
+      "opportunities": "circumstances that make it possible to do something advantageous."
+    },
+    "questions": [
+      "Q1: According to the passage, what specific type of assets is experiencing significant growth on Robinhood Chain, and how has the chain's size changed since mid-July?",
+      "Q2: Explain what \"tokenized stocks\" are in the context of this article, and how their increased \"volumes\" signify a shift in the market.",
+      "Q3: As a fintech product manager, what opportunities or challenges do you foresee with the increasing tokenization of real-world assets on platforms like Robinhood Chain?"
+    ],
+    "modelAnswers": [
+      "A1: Tokenized real-world assets are growing significantly on Robinhood Chain. The chain, which is designed for equities, has tripled in size since mid-July.",
+      "A2: Tokenized stocks are traditional company shares converted into digital tokens on a blockchain, allowing for easier trading. Increased volumes mean more people are actively buying and selling these digital representations, showing growing market acceptance.",
+      "A3: I foresee opportunities in creating new investment products and improving liquidity for illiquid assets. Challenges include regulatory clarity, ensuring security of underlying assets, and integrating with existing financial infrastructure seamlessly."
+    ]
+  },
+  {
+    "id": "cd-2026-07-26-2",
+    "date": "2026-07-26",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "유럽연합이 러시아에 대한 새로운 제재 패키지를 발표했으며, 암호화폐 서비스 제공업체에 대한 규제 조치가 포함되어 있습니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/24/eu-hits-russia-with-massive-21st-sanctions-package-targeting-usd120b-crypto-network",
+    "title": "EU Sanctions Target Russian Crypto Network, Third-Country Providers",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The European Union has officially introduced its 21st package of comprehensive sanctions against Russia. This significant new measure specifically targets a vast $120 billion crypto network, aiming to cut off funding. For the very first time, the EU is now actively considering a strict ban on third-country crypto service providers. The package explicitly names 14 specific crypto companies slated for immediate sanctions. However, for strategic reasons, these particular companies have not yet been publicly identified or disclosed. This bold move significantly escalates existing financial pressure on Russia's economy. Moreover, it clearly signals a broader regulatory reach for crypto services across the globe. Fintech product managers must closely watch how these sanctions impact cross-border crypto operations and compliance. Understanding these continuously evolving regulations is absolutely crucial for strategic planning and ensuring market participation.",
+    "sentences": [
+      {
+        "en": "The European Union has officially introduced its 21st package of comprehensive sanctions against Russia.",
+        "ko": "유럽연합은 러시아에 대한 21번째 종합 제재 패키지를 공식적으로 도입했습니다."
+      },
+      {
+        "en": "This significant new measure specifically targets a vast $120 billion crypto network, aiming to cut off funding.",
+        "ko": "이 중요한 새로운 조치는 1,200억 달러 규모의 거대한 암호화폐 네트워크를 구체적으로 목표로 하며, 자금 조달을 차단하는 것을 목표로 합니다."
+      },
+      {
+        "en": "For the very first time, the EU is now actively considering a strict ban on third-country crypto service providers.",
+        "ko": "처음으로 EU는 이제 역외 암호화폐 서비스 제공업체에 대한 엄격한 금지를 적극적으로 고려하고 있습니다."
+      },
+      {
+        "en": "The package explicitly names 14 specific crypto companies slated for immediate sanctions.",
+        "ko": "이 패키지는 즉각적인 제재 대상이 될 14개 특정 암호화폐 회사를 명시적으로 지목합니다."
+      },
+      {
+        "en": "However, for strategic reasons, these particular companies have not yet been publicly identified or disclosed.",
+        "ko": "하지만 전략적인 이유로 이들 특정 회사들은 아직 공개적으로 확인되거나 공개되지 않았습니다."
+      },
+      {
+        "en": "This bold move significantly escalates existing financial pressure on Russia's economy.",
+        "ko": "이러한 대담한 움직임은 러시아 경제에 대한 기존의 금융 압박을 크게 강화합니다."
+      },
+      {
+        "en": "Moreover, it clearly signals a broader regulatory reach for crypto services across the globe.",
+        "ko": "더욱이, 이는 전 세계 암호화폐 서비스에 대한 더 넓은 규제 범위를 명확히 시사합니다."
+      },
+      {
+        "en": "Fintech product managers must closely watch how these sanctions impact cross-border crypto operations and compliance.",
+        "ko": "핀테크 제품 관리자들은 이러한 제재가 국경 간 암호화폐 운영 및 규정 준수에 어떻게 영향을 미치는지 면밀히 주시해야 합니다."
+      },
+      {
+        "en": "Understanding these continuously evolving regulations is absolutely crucial for strategic planning and ensuring market participation.",
+        "ko": "이러한 끊임없이 진화하는 규정을 이해하는 것은 전략적 계획 및 시장 참여 보장에 절대적으로 중요합니다."
+      }
+    ],
+    "glossary": {
+      "introduced": "brought something into use or operation for the first time.",
+      "comprehensive": "including or dealing with all or nearly all elements or aspects of something.",
+      "sanctions": "official orders or laws stopping trade or communication with a country as a punishment.",
+      "targets": "aims at a specific object, group, or objective.",
+      "vast": "of very great extent or quantity; huge.",
+      "network": "a group or system of interconnected people or things.",
+      "considering": "thinking carefully about something, typically before making a decision.",
+      "ban": "an official or legal prohibition of something.",
+      "providers": "companies or individuals that supply a product or service.",
+      "explicitly": "in a clear and detailed manner, leaving no room for confusion.",
+      "slated": "planned or scheduled to happen or be done.",
+      "disclosed": "made secret or new information known to the public.",
+      "escalates": "increases rapidly in intensity or magnitude.",
+      "financial": "relating to money or how money is managed.",
+      "signals": "indicates or suggests that something is happening or will happen.",
+      "broader": "covering a wider range of subjects or areas.",
+      "regulatory": "relating to the control or supervision of a system or industry.",
+      "reach": "the extent or range of something.",
+      "impact": "to have a strong effect on someone or something.",
+      "cross-border": "involving or concerning movement across national boundaries.",
+      "compliance": "the act of obeying an order, rule, or request.",
+      "crucial": "extremely important, especially because it will determine the success or failure of something."
+    },
+    "questions": [
+      "Q1: What is noteworthy about the EU's 21st sanctions package regarding crypto services, and how many companies are specifically targeted?",
+      "Q2: In the context of the article, explain what \"third-country crypto service providers\" refers to and why a potential \"ban\" on them is significant.",
+      "Q3: How might these new EU sanctions influence global crypto exchanges and their strategies for dealing with international regulatory environments?"
+    ],
+    "modelAnswers": [
+      "A1: The EU's 21st sanctions package is noteworthy because it considers banning third-country crypto service providers for the first time. It specifically targets 14 crypto companies.",
+      "A2: \"Third-country crypto service providers\" refers to companies offering crypto services that are based outside of the EU. A potential ban is significant as it extends the EU's regulatory power beyond its borders, impacting global crypto businesses.",
+      "A3: These sanctions could force global crypto exchanges to re-evaluate their client onboarding and transaction monitoring processes to ensure compliance. They might also lead to stricter geographical restrictions and require exchanges to adapt their legal structures to avoid being categorized as third-country providers."
+    ]
+  },
+  {
+    "id": "cd-2026-07-26-3",
+    "date": "2026-07-26",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "러시아 최대 은행 스베르방크가 새로운 규제 속에서 암호화폐 거래 인프라를 구축할 계획입니다.",
+    "url": "https://www.coindesk.com/business/2026/07/25/russia-s-largest-bank-sberbank-plans-crypto-trading-infrastructure-by-december",
+    "title": "Russia's Sberbank to Build Crypto Trading Infrastructure",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Sberbank, Russia's largest and most influential financial institution, plans to actively develop its own crypto trading infrastructure. This ambitious new initiative is currently expected to become fully operational by December of this year. Crucially, new comprehensive regulations for crypto trading, custody, and settlement are simultaneously taking effect in Russia. These foundational regulations will officially begin on September 1st, setting a new standard for the market. Furthermore, specific stringent requirements for licensed intermediaries will apply from July 2027, ensuring long-term compliance. Sberbank's strategic move strongly signals increasing institutional interest and confidence in digital assets. It also vividly highlights how major traditional banks are proactively adapting to the rapidly evolving crypto landscape. For fintech product managers, this demonstrates the growing convergence of traditional finance with the innovative crypto sector. Understanding these significant regulatory shifts is absolutely key for future product development and successful market entry strategies.",
+    "sentences": [
+      {
+        "en": "Sberbank, Russia's largest and most influential financial institution, plans to actively develop its own crypto trading infrastructure.",
+        "ko": "러시아의 가장 크고 영향력 있는 금융 기관인 스베르방크는 자체 암호화폐 거래 인프라를 적극적으로 개발할 계획입니다."
+      },
+      {
+        "en": "This ambitious new initiative is currently expected to become fully operational by December of this year.",
+        "ko": "이 야심찬 새로운 이니셔티브는 올해 12월까지 완전히 운영될 것으로 현재 예상됩니다."
+      },
+      {
+        "en": "Crucially, new comprehensive regulations for crypto trading, custody, and settlement are simultaneously taking effect in Russia.",
+        "ko": "결정적으로, 암호화폐 거래, 보관 및 결제에 대한 새로운 포괄적인 규제가 러시아에서 동시에 발효되고 있습니다."
+      },
+      {
+        "en": "These foundational regulations will officially begin on September 1st, setting a new standard for the market.",
+        "ko": "이러한 기본적인 규제는 9월 1일부터 공식적으로 시작되어 시장에 새로운 기준을 제시할 것입니다."
+      },
+      {
+        "en": "Furthermore, specific stringent requirements for licensed intermediaries will apply from July 2027, ensuring long-term compliance.",
+        "ko": "더 나아가, 인가된 중개인에 대한 특정 엄격한 요건은 2027년 7월부터 적용되어 장기적인 규정 준수를 보장할 것입니다."
+      },
+      {
+        "en": "Sberbank's strategic move strongly signals increasing institutional interest and confidence in digital assets.",
+        "ko": "스베르방크의 전략적 움직임은 디지털 자산에 대한 기관의 관심과 신뢰가 증가하고 있음을 강력히 시사합니다."
+      },
+      {
+        "en": "It also vividly highlights how major traditional banks are proactively adapting to the rapidly evolving crypto landscape.",
+        "ko": "또한 주요 전통 은행들이 빠르게 진화하는 암호화폐 환경에 어떻게 적극적으로 적응하고 있는지를 생생하게 보여줍니다."
+      },
+      {
+        "en": "For fintech product managers, this demonstrates the growing convergence of traditional finance with the innovative crypto sector.",
+        "ko": "핀테크 제품 관리자에게 이는 전통 금융과 혁신적인 암호화폐 부문의 융합이 심화되고 있음을 보여줍니다."
+      },
+      {
+        "en": "Understanding these significant regulatory shifts is absolutely key for future product development and successful market entry strategies.",
+        "ko": "이러한 중요한 규제 변화를 이해하는 것은 미래 제품 개발 및 성공적인 시장 진입 전략에 절대적으로 중요합니다."
+      }
+    ],
+    "glossary": {
+      "financial": "relating to money or how money is managed.",
+      "institution": "a large and important organization, such as a bank or university.",
+      "develop": "to create something new or to improve existing things.",
+      "infrastructure": "the basic physical and organizational structures needed for the operation of a society or enterprise.",
+      "ambitious": "having or showing a strong desire and determination to succeed.",
+      "initiative": "an important new plan or process to achieve a particular aim.",
+      "operational": "ready to be used; able to function.",
+      "crucially": "in a way that is of great importance or extremely vital.",
+      "regulations": "official rules or laws controlling how something is done.",
+      "custody": "the act of holding or keeping something, usually referring to assets.",
+      "settlement": "the process of completing a transaction by exchanging assets or funds.",
+      "taking": "starting to be implemented or become effective.",
+      "foundational": "providing the basis or groundwork for something.",
+      "stringent": "strict, precise, and exacting rules or conditions.",
+      "licensed": "having official permission to do something.",
+      "intermediaries": "people or organizations that act as a link between parties.",
+      "compliance": "the act of obeying an order, rule, or request.",
+      "signals": "indicates or suggests that something is happening or will happen.",
+      "institutional": "relating to a large organization or system.",
+      "adapting": "changing to suit different conditions or a new environment.",
+      "evolving": "developing gradually, especially from a simple to a more complex form.",
+      "convergence": "the process or state of coming together from different directions.",
+      "shifts": "small changes in position, direction, or tendency.",
+      "key": "extremely important or crucial."
+    },
+    "questions": [
+      "Q1: What is Sberbank planning to do, and by when is this initiative expected to be operational?",
+      "Q2: Explain the significance of \"licensed intermediaries\" in the context of Russia's new crypto regulations taking effect from September 1st.",
+      "Q3: How might the entry of large traditional banks like Sberbank into crypto trading infrastructure impact the broader crypto market and its perception by mainstream investors?"
+    ],
+    "modelAnswers": [
+      "A1: Sberbank plans to develop crypto trading infrastructure. This initiative is expected to be operational by December.",
+      "A2: \"Licensed intermediaries\" are authorized entities that will facilitate crypto trading, custody, and settlement under Russia's new regulations. Their requirements, starting in 2027, ensure that crypto operations adhere to official standards and enhance market legitimacy.",
+      "A3: The entry of traditional banks like Sberbank can significantly boost mainstream adoption and legitimacy for crypto. It might lead to increased liquidity and more regulated products, potentially attracting conservative investors while also increasing regulatory scrutiny on the entire market."
+    ]
+  },
+  {
+    "id": "ec-2026-07-26-1",
+    "date": "2026-07-26",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "트럼프 전 대통령의 의약품 관세 계획이 미국 제조업 부활 노력에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/22/trump-generic-drugs-tariffs-medicine-trade-.html",
+    "title": "Trump's Tariff Plan: Generic Drugs and US Onshoring",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Former President Trump plans to impose tariffs on generic drugs. These tariffs would begin in 2028, after a two-year delay. The goal is to encourage drug manufacturing to return to the U.S. This policy is known as 'onshoring' or 'reshoring' production. However, displacing current major suppliers like India will be challenging. India is a dominant global producer of low-cost generic medicines. The delay period aims to give companies time to adjust. It also allows for testing the viability of U.S. production. This move highlights ongoing debates about global supply chains. It also raises concerns about drug affordability and availability.",
+    "sentences": [
+      {
+        "en": "Former President Trump plans to impose tariffs on generic drugs.",
+        "ko": "트럼프 전 대통령은 제네릭 의약품에 관세를 부과할 계획입니다."
+      },
+      {
+        "en": "These tariffs would begin in 2028, after a two-year delay.",
+        "ko": "이 관세는 2년의 유예 기간을 거쳐 2028년에 시작될 것입니다."
+      },
+      {
+        "en": "The goal is to encourage drug manufacturing to return to the U.S.",
+        "ko": "목표는 의약품 제조를 미국으로 다시 가져오도록 장려하는 것입니다."
+      },
+      {
+        "en": "This policy is known as 'onshoring' or 'reshoring' production.",
+        "ko": "이 정책은 생산의 '온쇼어링' 또는 '리쇼어링'으로 알려져 있습니다."
+      },
+      {
+        "en": "However, displacing current major suppliers like India will be challenging.",
+        "ko": "하지만 인도와 같은 현재의 주요 공급업체를 대체하는 것은 어려울 것입니다."
+      },
+      {
+        "en": "India is a dominant global producer of low-cost generic medicines.",
+        "ko": "인도는 저렴한 제네릭 의약품의 지배적인 세계 생산국입니다."
+      },
+      {
+        "en": "The delay period aims to give companies time to adjust.",
+        "ko": "유예 기간은 기업들이 적응할 시간을 주기 위함입니다."
+      },
+      {
+        "en": "It also allows for testing the viability of U.S. production.",
+        "ko": "또한 미국 생산의 실행 가능성을 시험할 수 있게 합니다."
+      },
+      {
+        "en": "This move highlights ongoing debates about global supply chains.",
+        "ko": "이러한 움직임은 글로벌 공급망에 대한 지속적인 논쟁을 부각합니다."
+      },
+      {
+        "en": "It also raises concerns about drug affordability and availability.",
+        "ko": "또한 의약품의 경제성과 가용성에 대한 우려를 제기합니다."
+      }
+    ],
+    "glossary": {
+      "impose": "To officially force a rule or tax to be put in place by authority.",
+      "tariffs": "Taxes that governments charge on goods coming into a country from abroad.",
+      "generic": "Describing a drug that is not protected by a brand name and is usually cheaper.",
+      "delay": "A period of time when something is postponed or put off until later.",
+      "onshoring": "The practice of bringing a company's production or services back to its home country.",
+      "displacing": "Taking the place of something or someone, especially if they are weaker or less important.",
+      "suppliers": "Companies or people that provide goods or services to others for a price.",
+      "dominant": "More important, powerful, or successful than most others in a particular area.",
+      "viability": "The ability of something to work successfully or to be practical and sustainable.",
+      "highlights": "Draws special attention to something important, making it more noticeable.",
+      "debates": "Discussions about a subject where people express different opinions and arguments.",
+      "supply": "The amount of goods or resources available to be used or obtained.",
+      "chains": "A series of interconnected things or events, often referring to processes.",
+      "affordability": "The degree to which something is inexpensive enough for people to buy and use.",
+      "availability": "The state of being able to be used or obtained when needed.",
+      "production": "The process of making or growing goods or materials in a factory or farm.",
+      "encourage": "To give support, confidence, or hope to someone or something to do better.",
+      "current": "Happening or existing now; belonging to the present time or moment.",
+      "challenging": "Difficult in an interesting or enjoyable way, requiring effort to succeed.",
+      "adjust": "To change something slightly to make it more suitable or effective for a new situation."
+    },
+    "questions": [
+      "Q1: What is the main purpose of the proposed tariffs on generic drugs?",
+      "Q2: Explain the term \"onshoring\" in the context of the article. Why might it be challenging for the U.S. to achieve this goal in the generic drug industry?",
+      "Q3: Do you think tariffs are an effective way to boost domestic manufacturing and create jobs? What potential drawbacks might they have for consumers or international trade relations?"
+    ],
+    "modelAnswers": [
+      "A1: The primary goal of the proposed tariffs is to incentivize drug manufacturing to return to the United States. This aims to boost domestic production of generic drugs.",
+      "A2: \"Onshoring\" refers to the practice of bringing a company's production or services back to its home country. It might be challenging for the U.S. in the generic drug industry because established suppliers like India are dominant global producers of low-cost medicines.",
+      "A3: Tariffs can protect domestic industries and potentially create jobs. However, they might increase costs for consumers and lead to retaliatory tariffs from other countries, harming international trade relations."
+    ]
+  },
+  {
+    "id": "ec-2026-07-26-2",
+    "date": "2026-07-26",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "스페이스X에 대한 공매도 증가가 일론 머스크의 경고에도 불구하고 금융 시장에 어떤 의미인지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/21/bets-against-spacex-grow-to-32percent-of-float-as-elon-musk-warns-short-sellers-wont-survive.html",
+    "title": "SpaceX Short Selling Surges Amid Musk's Warnings",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Short interest in SpaceX shares has significantly increased. About 32% of the company's publicly tradable float is now sold short. This represents approximately 206 million SpaceX shares. Short selling is a bet that a stock's price will fall. Investors borrow shares, sell them, and hope to buy them back cheaper. Elon Musk, SpaceX's CEO, has issued warnings to short sellers. He suggests that they will not survive this strategy. The growing bets indicate some investors doubt SpaceX's future valuation. This activity reflects differing market expectations for the company. It also highlights the risks involved in speculative trading practices.",
+    "sentences": [
+      {
+        "en": "Short interest in SpaceX shares has significantly increased.",
+        "ko": "스페이스X 주식에 대한 공매도 관심이 크게 증가했습니다."
+      },
+      {
+        "en": "About 32% of the company's publicly tradable float is now sold short.",
+        "ko": "현재 회사 공개 거래 가능 주식의 약 32%가 공매도되었습니다."
+      },
+      {
+        "en": "This represents approximately 206 million SpaceX shares.",
+        "ko": "이는 약 2억 6백만 주의 스페이스X 주식에 해당합니다."
+      },
+      {
+        "en": "Short selling is a bet that a stock's price will fall.",
+        "ko": "공매도는 주식 가격이 하락할 것이라는 예측에 기반한 투자입니다."
+      },
+      {
+        "en": "Investors borrow shares, sell them, and hope to buy them back cheaper.",
+        "ko": "투자자들은 주식을 빌려 팔고, 더 싸게 되사기를 기대합니다."
+      },
+      {
+        "en": "Elon Musk, SpaceX's CEO, has issued warnings to short sellers.",
+        "ko": "스페이스X의 CEO인 일론 머스크는 공매도 투자자들에게 경고를 보냈습니다."
+      },
+      {
+        "en": "He suggests that they will not survive this strategy.",
+        "ko": "그는 그들이 이 전략에서 살아남지 못할 것이라고 시사했습니다."
+      },
+      {
+        "en": "The growing bets indicate some investors doubt SpaceX's future valuation.",
+        "ko": "증가하는 베팅은 일부 투자자들이 스페이스X의 미래 가치 평가를 의심한다는 것을 나타냅니다."
+      },
+      {
+        "en": "This activity reflects differing market expectations for the company.",
+        "ko": "이러한 활동은 회사에 대한 시장의 다른 기대를 반영합니다."
+      },
+      {
+        "en": "It also highlights the risks involved in speculative trading practices.",
+        "ko": "또한 투기적 거래 관행에 수반되는 위험을 부각합니다."
+      }
+    ],
+    "glossary": {
+      "interest": "The amount of money investors gain or lose from a financial product or position.",
+      "significantly": "In a sufficiently great or important way as to be worthy of attention.",
+      "float": "The number of shares a company has issued that are available for public trading.",
+      "borrow": "To take and use something belonging to someone else with the intention of returning it.",
+      "represents": "Stands for or is a sign of something, often indicating quantity or value.",
+      "bet": "An act of risking money on the outcome of an event, often in financial markets.",
+      "issued": "Officially supplied or provided something, such as a statement or shares.",
+      "suggests": "Puts forward for consideration or indicates something indirectly.",
+      "valuation": "The process of estimating the monetary worth of something, like a company or asset.",
+      "reflects": "Shows or is an indication of something, often an underlying condition or belief.",
+      "differing": "Not the same as each other; unlike or showing variety.",
+      "expectations": "Strong beliefs that something will happen or be the case in the future.",
+      "highlights": "Draws special attention to something important, making it more noticeable.",
+      "speculative": "Involving a high risk of loss in the hope of making a profit, often in investments.",
+      "trading": "The activity of buying and selling goods or financial products, usually for profit.",
+      "practices": "The actual application or use of an idea, method, or belief in real situations.",
+      "strategy": "A plan of action or policy designed to achieve a major or overall aim.",
+      "doubt": "A feeling of uncertainty or lack of conviction about something.",
+      "involved": "Affected by or included in an activity, event, or situation.",
+      "publicly": "In a way that is open or visible to everyone, not privately."
+    },
+    "questions": [
+      "Q1: What percentage of SpaceX's publicly tradable float is currently sold short?",
+      "Q2: Define \"short selling\" and explain why investors engage in this practice.",
+      "Q3: How do you think a CEO's public warnings to short sellers might impact market sentiment or trading activity for their company's stock?"
+    ],
+    "modelAnswers": [
+      "A1: Approximately 32% of SpaceX's publicly tradable float is currently sold short. This figure represents about 206 million SpaceX shares.",
+      "A2: \"Short selling\" is an investment strategy where an investor borrows shares of a stock and sells them, hoping to buy them back later at a lower price. Investors engage in this practice when they believe a stock's price will decline, allowing them to profit from the difference.",
+      "A3: A CEO's public warnings might create uncertainty, potentially discouraging some short sellers or attracting new investors who support the company. However, it could also be seen as a sign of desperation, possibly emboldening short sellers if they perceive weakness."
+    ]
+  },
+  {
+    "id": "ec-2026-07-26-3",
+    "date": "2026-07-26",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국-이란 분쟁이 다시 격화될 때 주식 시장과 경제가 어떻게 영향을 받을 수 있는지 분석해 보세요.",
+    "url": "https://www.cnbc.com/2026/07/21/iran-war-economy-markets-trump.html",
+    "title": "US-Iran Conflict: Economic and Market Impact",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The conflict between the U.S. and Iran is escalating again. This renewed tension raises concerns for global markets. Investors and economists are now assessing the potential impact. They are deliberating effects on the broader economy. Increased hostilities could disrupt oil supplies from the Middle East. This would likely lead to higher energy prices worldwide. Such price hikes can fuel inflation and slow economic growth. Specific sectors, like defense and energy, might see significant shifts. Geopolitical instability often causes market volatility. Companies with international operations could face supply chain issues.",
+    "sentences": [
+      {
+        "en": "The conflict between the U.S. and Iran is escalating again.",
+        "ko": "미국과 이란 간의 분쟁이 다시 격화되고 있습니다."
+      },
+      {
+        "en": "This renewed tension raises concerns for global markets.",
+        "ko": "이러한 새로운 긴장은 글로벌 시장에 우려를 제기합니다."
+      },
+      {
+        "en": "Investors and economists are now assessing the potential impact.",
+        "ko": "투자자들과 경제학자들은 이제 잠재적 영향을 평가하고 있습니다."
+      },
+      {
+        "en": "They are deliberating effects on the broader economy.",
+        "ko": "그들은 더 광범위한 경제에 미칠 영향을 숙고하고 있습니다."
+      },
+      {
+        "en": "Increased hostilities could disrupt oil supplies from the Middle East.",
+        "ko": "적대 행위 증가는 중동의 석유 공급을 방해할 수 있습니다."
+      },
+      {
+        "en": "This would likely lead to higher energy prices worldwide.",
+        "ko": "이는 전 세계적으로 에너지 가격 상승을 초래할 가능성이 있습니다."
+      },
+      {
+        "en": "Such price hikes can fuel inflation and slow economic growth.",
+        "ko": "이러한 가격 인상은 인플레이션을 부추기고 경제 성장을 둔화시킬 수 있습니다."
+      },
+      {
+        "en": "Specific sectors, like defense and energy, might see significant shifts.",
+        "ko": "국방 및 에너지와 같은 특정 부문에서 상당한 변화가 있을 수 있습니다."
+      },
+      {
+        "en": "Geopolitical instability often causes market volatility.",
+        "ko": "지정학적 불안정은 종종 시장 변동성을 유발합니다."
+      },
+      {
+        "en": "Companies with international operations could face supply chain issues.",
+        "ko": "국제적으로 사업을 운영하는 기업들은 공급망 문제에 직면할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "escalating": "Increasing rapidly in intensity or magnitude, often in a negative way.",
+      "renewed": "Having been restarted or re-established after a period of inactivity.",
+      "tension": "A state of mental or emotional strain; also, political strain between countries.",
+      "concerns": "Feelings of worry or apprehension about a situation or event.",
+      "assessing": "Evaluating or estimating the nature, ability, or quality of something carefully.",
+      "potential": "Having or showing the capacity to become something in the future, but not yet actual.",
+      "deliberating": "Engaging in long and careful consideration or discussion about a decision.",
+      "broader": "More general and including more things or aspects than a narrow scope.",
+      "hostilities": "Acts of warfare or aggression between opposing sides in a conflict.",
+      "disrupt": "To interrupt an event, activity, or process by causing a problem or disturbance.",
+      "supplies": "Quantities of goods or resources provided or made available for use.",
+      "hikes": "Sudden, large increases in prices or costs, often unexpected.",
+      "fuel": "To supply with fuel; also, to stimulate or intensify a feeling or situation.",
+      "inflation": "A general increase in prices and fall in the purchasing value of money.",
+      "sectors": "Areas or parts, especially of an economy or society, with common characteristics.",
+      "shifts": "Slight changes in position, direction, or tendency, often in markets or opinions.",
+      "instability": "The state of being unstable; prone to change or collapse, lacking steadiness.",
+      "volatility": "The tendency of a market or price to change suddenly and unexpectedly.",
+      "operations": "The activities of a business or organization, especially in a specific area.",
+      "issues": "Important topics or problems for debate or discussion, often difficult to solve."
+    },
+    "questions": [
+      "Q1: According to the summary, who is currently deliberating the economic impacts of the U.S.-Iran conflict?",
+      "Q2: What is \"market volatility,\" and how can geopolitical instability contribute to it?",
+      "Q3: As a fintech PM, how might escalating geopolitical conflicts influence your strategic decisions regarding investment products or risk management for clients?"
+    ],
+    "modelAnswers": [
+      "A1: Investors and economists are currently deliberating the potential impacts of the U.S.-Iran conflict on the broader economy.",
+      "A2: \"Market volatility\" refers to the tendency of financial markets or prices to change suddenly and unpredictably. Geopolitical instability can contribute to it by creating uncertainty, leading investors to react quickly to news and events, causing rapid price swings.",
+      "A3: Escalating conflicts would require me to closely monitor global markets, especially energy prices and supply chains, for potential impacts on fintech products. I would advise clients on diversification strategies and consider offering risk management tools to mitigate potential losses from increased market volatility."
+    ]
+  },
+  {
     "id": "cd-2026-07-25-1",
     "date": "2026-07-25",
     "rank": 1,
