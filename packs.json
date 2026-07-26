@@ -1,5 +1,559 @@
 [
   {
+    "id": "cd-2026-07-27-1",
+    "date": "2026-07-27",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "유럽의 엄격한 암호화폐 규제가 산업 재편과 인수합병을 촉진할 수 있다는 소식입니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/26/europe-s-high-regulatory-bar-could-spark-new-crypto-industry-m-and-a-wave",
+    "title": "EU Regulations May Drive Crypto M&A Wave",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Europe is actively implementing stringent new cryptocurrency regulations. These comprehensive rules, such as MiCA, aim to foster a secure and transparent digital asset market. However, meeting these compliance demands requires significant resources from crypto firms. Consequently, many smaller companies may struggle to adapt to these elevated regulatory standards. This situation is expected to trigger a notable wave of mergers and acquisitions across the industry. Larger, financially robust firms might strategically acquire smaller, less-resourced competitors. Furthermore, traditional banks and established financial institutions could actively seek new partnerships. They aim to leverage innovative crypto technology while ensuring strict regulatory adherence. This emerging trend signals a significant consolidation within the European crypto landscape. It clearly highlights the increasing maturity and institutionalization of the crypto sector. Ultimately, robust regulation is fundamentally reshaping market structures and long-term business strategies.",
+    "sentences": [
+      {
+        "en": "Europe is actively implementing stringent new cryptocurrency regulations.",
+        "ko": "유럽은 엄격한 새로운 암호화폐 규제를 적극적으로 시행하고 있습니다."
+      },
+      {
+        "en": "These comprehensive rules, such as MiCA, aim to foster a secure and transparent digital asset market.",
+        "ko": "MiCA와 같은 이러한 포괄적인 규정들은 안전하고 투명한 디지털 자산 시장을 조성하는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, meeting these compliance demands requires significant resources from crypto firms.",
+        "ko": "하지만 이러한 규제 준수 요구사항을 충족하려면 암호화폐 기업들에게 상당한 자원이 필요합니다."
+      },
+      {
+        "en": "Consequently, many smaller companies may struggle to adapt to these elevated regulatory standards.",
+        "ko": "결과적으로 많은 소규모 기업들이 이러한 높아진 규제 기준에 적응하는 데 어려움을 겪을 수 있습니다."
+      },
+      {
+        "en": "This situation is expected to trigger a notable wave of mergers and acquisitions across the industry.",
+        "ko": "이러한 상황은 업계 전반에 걸쳐 주목할 만한 인수합병 물결을 촉발할 것으로 예상됩니다."
+      },
+      {
+        "en": "Larger, financially robust firms might strategically acquire smaller, less-resourced competitors.",
+        "ko": "재정적으로 튼튼한 대기업들은 자원이 부족한 소규모 경쟁사들을 전략적으로 인수할 수 있습니다."
+      },
+      {
+        "en": "Furthermore, traditional banks and established financial institutions could actively seek new partnerships.",
+        "ko": "더 나아가 전통 은행과 기존 금융 기관들도 새로운 파트너십을 적극적으로 모색할 수 있습니다."
+      },
+      {
+        "en": "They aim to leverage innovative crypto technology while ensuring strict regulatory adherence.",
+        "ko": "이들은 엄격한 규제 준수를 보장하면서 혁신적인 암호화폐 기술을 활용하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This emerging trend signals a significant consolidation within the European crypto landscape.",
+        "ko": "이러한 새로운 추세는 유럽 암호화폐 시장 내에서 상당한 통합을 예고합니다."
+      },
+      {
+        "en": "It clearly highlights the increasing maturity and institutionalization of the crypto sector.",
+        "ko": "이는 암호화폐 부문의 성숙도와 제도화가 증가하고 있음을 분명히 보여줍니다."
+      },
+      {
+        "en": "Ultimately, robust regulation is fundamentally reshaping market structures and long-term business strategies.",
+        "ko": "궁극적으로 강력한 규제는 시장 구조와 장기적인 사업 전략을 근본적으로 재편하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "actively": "doing something with effort and purpose, rather than passively.",
+      "implementing": "putting a decision, plan, or agreement into effect.",
+      "stringent": "very strict and demanding, often referring to rules or standards.",
+      "comprehensive": "including or dealing with all or nearly all elements or aspects of something.",
+      "foster": "to encourage the development of something good or desirable.",
+      "transparent": "easy to understand and open, with no hidden information.",
+      "compliance": "the act of obeying an order, rule, or request.",
+      "demands": "strong requirements or needs for something.",
+      "resources": "supplies of money, materials, staff, and other assets an organization has.",
+      "consequently": "as a result of a particular action or situation.",
+      "adapt": "to change in order to become suitable for a new situation.",
+      "elevated": "higher or more intense than usual, often referring to standards.",
+      "trigger": "to cause an event or situation to happen or begin.",
+      "notable": "worthy of attention or notice; important.",
+      "mergers": "the combining of two or more commercial companies into one.",
+      "acquisitions": "the act of buying or taking over another company or part of it.",
+      "robust": "strong and healthy, referring to an organization or system.",
+      "strategically": "in a way that relates to the identification of long-term goals.",
+      "leverage": "to use something to maximum advantage.",
+      "adherence": "the act of sticking to a rule, belief, or custom.",
+      "consolidation": "the process of combining a number of things into a single more effective whole.",
+      "landscape": "the overall environment or situation for a particular activity.",
+      "maturity": "the state of being fully developed or adult.",
+      "institutionalization": "the process by which a concept becomes formally embedded in an organization or system."
+    },
+    "questions": [
+      "What specific European regulation is mentioned as a driver for potential M&A in the crypto industry?",
+      "The passage mentions \"leveraging innovative crypto technology\" and \"ensuring strict regulatory adherence.\" Explain what these phrases mean for traditional financial institutions.",
+      "Do you think stringent regulations are ultimately beneficial or detrimental for the long-term growth and innovation of the crypto industry? Explain your perspective with examples."
+    ],
+    "modelAnswers": [
+      "The specific European regulation mentioned as a driver for potential M&A is MiCA (Markets in Crypto-Assets).",
+      "\"Leveraging innovative crypto technology\" means utilizing advanced blockchain and digital asset solutions. \"Ensuring strict regulatory adherence\" means making sure all operations fully comply with established laws and rules.",
+      "Stringent regulations can be both. While they might initially slow innovation due to compliance costs, they can also build trust and attract institutional investment, leading to more sustainable growth and wider adoption. For example, clear rules reduce scams and foster legitimate businesses."
+    ]
+  },
+  {
+    "id": "cd-2026-07-27-2",
+    "date": "2026-07-27",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 상원의 '암호화폐 명확성' 법안 통과가 임박했습니다. 규제 환경에 어떤 변화가 있을지 주목하세요.",
+    "url": "https://www.coindesk.com/policy/2026/07/26/2-weeks-left-for-clarity-state-of-crypto",
+    "title": "US Senate Nears Crypto Regulatory Bill",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The US Senate has a short window to advance key crypto legislation. Lawmakers are actively working on a bill to provide regulatory clarity for digital assets. This legislation aims to define which government agencies oversee different crypto products. Currently, a significant lack of clear rules creates much uncertainty for businesses. The crypto industry urgently seeks definitive guidance to foster innovation and investment. Passing this crucial bill before the Senate recesses is vital for industry progress. It could establish a foundational framework for future crypto development in the nation. This legislative move reflects a growing recognition of crypto's economic significance. However, achieving consensus among politicians on specific details remains quite challenging. The outcome will significantly impact how crypto operations function across the United States. It could also set important precedents for global regulatory approaches moving forward.",
+    "sentences": [
+      {
+        "en": "The US Senate has a short window to advance key crypto legislation.",
+        "ko": "미국 상원에는 중요한 암호화폐 법안을 진전시킬 짧은 시간이 있습니다."
+      },
+      {
+        "en": "Lawmakers are actively working on a bill to provide regulatory clarity for digital assets.",
+        "ko": "의원들은 디지털 자산에 대한 규제 명확성을 제공하기 위한 법안을 적극적으로 추진하고 있습니다."
+      },
+      {
+        "en": "This legislation aims to define which government agencies oversee different crypto products.",
+        "ko": "이 법안은 어떤 정부 기관이 다양한 암호화폐 상품을 감독할지 정의하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Currently, a significant lack of clear rules creates much uncertainty for businesses.",
+        "ko": "현재 명확한 규정의 상당한 부재는 기업들에게 많은 불확실성을 초래합니다."
+      },
+      {
+        "en": "The crypto industry urgently seeks definitive guidance to foster innovation and investment.",
+        "ko": "암호화폐 업계는 혁신과 투자를 촉진하기 위한 명확한 지침을 시급히 찾고 있습니다."
+      },
+      {
+        "en": "Passing this crucial bill before the Senate recesses is vital for industry progress.",
+        "ko": "상원이 휴회하기 전에 이 중요한 법안을 통과시키는 것은 산업 발전에 필수적입니다."
+      },
+      {
+        "en": "It could establish a foundational framework for future crypto development in the nation.",
+        "ko": "이는 국내 암호화폐 개발을 위한 기초적인 틀을 마련할 수 있습니다."
+      },
+      {
+        "en": "This legislative move reflects a growing recognition of crypto's economic significance.",
+        "ko": "이러한 입법 조치는 암호화폐의 경제적 중요성에 대한 인식이 커지고 있음을 반영합니다."
+      },
+      {
+        "en": "However, achieving consensus among politicians on specific details remains quite challenging.",
+        "ko": "하지만 구체적인 세부 사항에 대한 정치인들 간의 합의를 이루는 것은 여전히 상당히 어렵습니다."
+      },
+      {
+        "en": "The outcome will significantly impact how crypto operations function across the United States.",
+        "ko": "그 결과는 미국 전역에서 암호화폐 운영이 어떻게 기능할지에 중대한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "It could also set important precedents for global regulatory approaches moving forward.",
+        "ko": "이는 또한 앞으로의 글로벌 규제 접근 방식에 중요한 선례를 남길 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "advance": "to make progress or move something forward.",
+      "legislation": "a law or a set of laws made by a government.",
+      "regulatory": "relating to the rules or laws that control an activity or industry.",
+      "clarity": "the state of being clear and easy to understand.",
+      "define": "to state or describe exactly the nature, scope, or meaning of something.",
+      "agencies": "government departments or organizations responsible for a specific function.",
+      "oversee": "to supervise someone or something, especially in an official capacity.",
+      "uncertainty": "the state of being unsure or not certain.",
+      "urgently": "in a way that requires immediate action or attention.",
+      "definitive": "conclusive and authoritative, not open to question.",
+      "guidance": "advice or information aimed at resolving a problem or difficulty.",
+      "foster": "to encourage the development of something good or desirable.",
+      "recesses": "a period of time when a parliament or court is not meeting.",
+      "vital": "absolutely necessary or important.",
+      "foundational": "serving as a basis for something; fundamental.",
+      "framework": "a basic structure underlying a system, concept, or text.",
+      "recognition": "the act of acknowledging something's existence, validity, or legality.",
+      "significance": "the importance of something, especially its effect or meaning.",
+      "consensus": "general agreement among a group of people.",
+      "challenging": "difficult to achieve or overcome.",
+      "impact": "to have a strong effect on someone or something.",
+      "precedents": "an earlier event or action that is regarded as an example or guide.",
+      "approaches": "ways of dealing with something or someone."
+    },
+    "questions": [
+      "What is the main goal of the crypto legislation currently being discussed in the US Senate?",
+      "The passage mentions \"a foundational framework for future crypto development.\" What does \"foundational framework\" imply in this context, and why is it important for the industry?",
+      "If you were a US crypto business owner, what specific aspects of regulatory clarity would be most important to you, and why?"
+    ],
+    "modelAnswers": [
+      "The main goal of the crypto legislation is to provide regulatory clarity for digital assets by defining which government agencies oversee different crypto products.",
+      "A \"foundational framework\" implies a basic, essential structure of rules and definitions upon which future policies and innovations can be built. It is important for the industry because it creates stability and predictability, encouraging long-term investment and growth.",
+      "As a crypto business owner, clarity on asset classification (e.g., security vs. commodity) and clear licensing requirements would be most important. This certainty allows me to design compliant products and operate without constant fear of regulatory enforcement actions."
+    ]
+  },
+  {
+    "id": "cd-2026-07-27-3",
+    "date": "2026-07-27",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "암호화폐 거래소 BitMart가 폐쇄되며 관련 토큰이 급락했습니다. 이는 시장의 위험성을 다시 한번 상기시켜줍니다.",
+    "url": "https://www.coindesk.com/markets/2026/07/26/crypto-exchange-bitmart-to-shut-down-after-nine-years-bmx-token-crashes-58",
+    "title": "BitMart Exchange Shuts Down, Token Crashes",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Crypto exchange BitMart has officially announced its unexpected closure after nine years. This concerning news caused its native token, BMX, to crash significantly by 58%. Users now have a limited month to close all trades and six months to withdraw their funds. The exchange did not provide any specific reason or explanation for its sudden shutdown. This event starkly highlights the inherent risks present in the volatile crypto market. It underscores the critical importance of choosing reputable and financially stable platforms. Such abrupt exchange closures can unfortunately lead to significant financial losses for users. Investors should always remain vigilant about the operational health of their chosen exchanges. Diversifying digital asset holdings across multiple secure platforms can effectively mitigate some risks. This incident serves as a cautionary tale for all participants in the crypto ecosystem. It heavily emphasizes the need for thorough due diligence and robust risk management strategies.",
+    "sentences": [
+      {
+        "en": "Crypto exchange BitMart has officially announced its unexpected closure after nine years.",
+        "ko": "암호화폐 거래소 BitMart가 9년 만에 예기치 않은 폐쇄를 공식 발표했습니다."
+      },
+      {
+        "en": "This concerning news caused its native token, BMX, to crash significantly by 58%.",
+        "ko": "이 우려스러운 소식은 자체 토큰인 BMX가 58% 급락하는 원인이 되었습니다."
+      },
+      {
+        "en": "Users now have a limited month to close all trades and six months to withdraw their funds.",
+        "ko": "사용자들은 이제 모든 거래를 마감할 한 달과 자금을 인출할 6개월의 제한된 시간을 갖게 됩니다."
+      },
+      {
+        "en": "The exchange did not provide any specific reason or explanation for its sudden shutdown.",
+        "ko": "거래소는 갑작스러운 폐쇄에 대한 어떠한 구체적인 이유나 설명도 제공하지 않았습니다."
+      },
+      {
+        "en": "This event starkly highlights the inherent risks present in the volatile crypto market.",
+        "ko": "이 사건은 변동성이 큰 암호화폐 시장에 내재된 위험을 극명하게 보여줍니다."
+      },
+      {
+        "en": "It underscores the critical importance of choosing reputable and financially stable platforms.",
+        "ko": "이는 평판이 좋고 재정적으로 안정적인 플랫폼을 선택하는 것의 결정적인 중요성을 강조합니다."
+      },
+      {
+        "en": "Such abrupt exchange closures can unfortunately lead to significant financial losses for users.",
+        "ko": "이러한 갑작스러운 거래소 폐쇄는 불행히도 사용자들에게 상당한 재정적 손실을 초래할 수 있습니다."
+      },
+      {
+        "en": "Investors should always remain vigilant about the operational health of their chosen exchanges.",
+        "ko": "투자자들은 항상 자신이 선택한 거래소의 운영 건전성에 대해 경계를 늦추지 않아야 합니다."
+      },
+      {
+        "en": "Diversifying digital asset holdings across multiple secure platforms can effectively mitigate some risks.",
+        "ko": "여러 보안 플랫폼에 걸쳐 디지털 자산 보유를 다각화하는 것은 일부 위험을 효과적으로 완화할 수 있습니다."
+      },
+      {
+        "en": "This incident serves as a cautionary tale for all participants in the crypto ecosystem.",
+        "ko": "이 사건은 암호화폐 생태계의 모든 참여자들에게 경고의 교훈이 됩니다."
+      },
+      {
+        "en": "It heavily emphasizes the need for thorough due diligence and robust risk management strategies.",
+        "ko": "이는 철저한 실사 및 강력한 위험 관리 전략의 필요성을 강하게 강조합니다."
+      }
+    ],
+    "glossary": {
+      "officially": "in a formal and authorized way.",
+      "unexpected": "not anticipated or predicted.",
+      "closure": "the act of closing or shutting down.",
+      "concerning": "causing worry or anxiety.",
+      "crash": "to fall or decline suddenly and drastically.",
+      "significantly": "to a notable or considerable extent.",
+      "withdraw": "to take money out of an account or remove funds.",
+      "specific": "clearly defined or identified.",
+      "shutdown": "the act of closing a factory, business, or system.",
+      "starkly": "in a way that is clear, plain, or striking.",
+      "inherent": "existing in something as a permanent, essential attribute.",
+      "volatile": "liable to change rapidly and unpredictably.",
+      "underscores": "emphasizes or highlights the importance of something.",
+      "critical": "extremely important or essential.",
+      "reputable": "having a good reputation; respected.",
+      "vigilant": "keeping careful watch for possible danger or difficulties.",
+      "diversifying": "spreading investments across various assets to reduce risk.",
+      "mitigate": "to make something less severe, serious, or painful.",
+      "robust": "strong and healthy, referring to an organization or system."
+    },
+    "questions": [
+      "How long do BitMart users have to withdraw their funds after the exchange announced its closure?",
+      "The passage states that the incident \"underscores the critical importance of choosing reputable and financially stable platforms.\" What does \"underscores\" mean here, and why are \"reputable and financially stable platforms\" crucial for crypto users?",
+      "What measures do you personally take, or would you recommend, to protect your digital assets when using a centralized crypto exchange? Discuss at least two strategies."
+    ],
+    "modelAnswers": [
+      "BitMart users have six months to withdraw their funds after the exchange announced its closure.",
+      "\"Underscores\" means to emphasize or highlight. Reputable and financially stable platforms are crucial for crypto users because they offer better security, reliability, and liquidity, significantly reducing the risk of sudden closures or asset loss.",
+      "I would recommend enabling strong two-factor authentication (2FA) on all exchange accounts and avoiding keeping large amounts of assets on a single exchange. Diversifying holdings across multiple trusted platforms or using a hardware wallet for long-term storage are also wise strategies."
+    ]
+  },
+  {
+    "id": "ec-2026-07-27-1",
+    "date": "2026-07-27",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "이번 월드컵이 미국 고용 보고서에 미칠 예상치 못한 경제적 영향을 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/01/world-cup-could-boost-the-june-jobs-report-by-40000-goldman-estimates.html",
+    "title": "World Cup Expected to Boost US Jobs Report",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The upcoming World Cup is predicted to significantly influence the U.S. jobs report for June. Goldman Sachs analysts estimate that the event could add approximately 40,000 jobs. This unexpected boost primarily comes from temporary hiring in hospitality and retail sectors. Restaurants, bars, and merchandise stores often increase staff to handle higher demand. The official nonfarm payrolls report is a crucial economic indicator. It tracks the total number of paid U.S. workers, excluding farm employees. Economists widely watch this data for insights into the labor market's health. A stronger jobs report could signal robust economic activity. However, this World Cup effect might be a short-term anomaly. Policymakers consider such temporary factors when assessing economic trends.",
+    "sentences": [
+      {
+        "en": "The upcoming World Cup is predicted to significantly influence the U.S. jobs report for June.",
+        "ko": "다가오는 월드컵이 6월 미국 고용 보고서에 상당한 영향을 미칠 것으로 예측됩니다."
+      },
+      {
+        "en": "Goldman Sachs analysts estimate that the event could add approximately 40,000 jobs.",
+        "ko": "골드만삭스 분석가들은 이 행사가 약 4만 개의 일자리를 추가할 수 있다고 추정합니다."
+      },
+      {
+        "en": "This unexpected boost primarily comes from temporary hiring in hospitality and retail sectors.",
+        "ko": "이러한 예상치 못한 증가는 주로 접객업과 소매업 부문의 임시 고용에서 비롯됩니다."
+      },
+      {
+        "en": "Restaurants, bars, and merchandise stores often increase staff to handle higher demand.",
+        "ko": "레스토랑, 바, 상품 매장들은 더 높은 수요를 처리하기 위해 직원을 늘리는 경우가 많습니다."
+      },
+      {
+        "en": "The official nonfarm payrolls report is a crucial economic indicator.",
+        "ko": "공식 비농업 고용 보고서는 중요한 경제 지표입니다."
+      },
+      {
+        "en": "It tracks the total number of paid U.S. workers, excluding farm employees.",
+        "ko": "이는 농업 종사자를 제외한 유급 미국 근로자의 총수를 추적합니다."
+      },
+      {
+        "en": "Economists widely watch this data for insights into the labor market's health.",
+        "ko": "경제학자들은 노동 시장의 건전성에 대한 통찰력을 얻기 위해 이 데이터를 광범위하게 주시합니다."
+      },
+      {
+        "en": "A stronger jobs report could signal robust economic activity.",
+        "ko": "더 강한 고용 보고서는 견고한 경제 활동을 나타낼 수 있습니다."
+      },
+      {
+        "en": "However, this World Cup effect might be a short-term anomaly.",
+        "ko": "하지만 이러한 월드컵 효과는 단기적인 이례 현상일 수 있습니다."
+      },
+      {
+        "en": "Policymakers consider such temporary factors when assessing economic trends.",
+        "ko": "정책 입안자들은 경제 동향을 평가할 때 이러한 일시적인 요인들을 고려합니다."
+      }
+    ],
+    "glossary": {
+      "predicted": "expected to happen in the future based on current information or evidence.",
+      "significantly": "in a way that is large or important enough to have an effect.",
+      "influence": "to affect or change how someone or something develops, behaves, or thinks.",
+      "analysts": "people who examine details of a situation or problem very carefully.",
+      "estimate": "to guess or calculate the cost, size, or value of something.",
+      "approximately": "close to a particular number or amount, but not exactly that number.",
+      "boost": "to improve or increase something, making it stronger or more successful.",
+      "primarily": "mainly; for the most part; most importantly.",
+      "hospitality": "the business of providing food, drink, and accommodation to customers.",
+      "retail": "the activity of selling goods directly to customers, usually in small quantities.",
+      "sectors": "distinct parts of a country's economy or society.",
+      "merchandise": "goods that are bought and sold, especially in a business.",
+      "official": "agreed to or approved by a person or group in authority.",
+      "nonfarm": "referring to jobs or economic activities not related to agriculture.",
+      "payrolls": "the total amount of money paid by a company to its employees.",
+      "crucial": "extremely important, because it will affect other things.",
+      "indicator": "a sign that shows you what something is like or what is happening.",
+      "tracks": "to follow or monitor the progress or development of something.",
+      "excluding": "intentionally not including something or someone.",
+      "insights": "a clear, deep, and sometimes sudden understanding of a complicated problem or situation.",
+      "robust": "strong and healthy, or not likely to fail or weaken.",
+      "signal": "to show or indicate something, often implicitly.",
+      "anomaly": "something that is unusual or unexpected, especially in a way that is not normal.",
+      "policymakers": "people responsible for making important decisions in a government or organization."
+    },
+    "questions": [
+      "What specific type of economic activity is expected to drive the job growth estimated by Goldman Sachs?",
+      "Explain the significance of the \"nonfarm payrolls report\" as an economic indicator, based on the passage.",
+      "Do you think temporary events like the World Cup should be heavily considered by policymakers when making long-term economic decisions? Why or why not?"
+    ],
+    "modelAnswers": [
+      "The job growth is expected to be driven primarily by temporary hiring in the hospitality and retail sectors, as businesses prepare for increased demand during the World Cup.",
+      "The nonfarm payrolls report is a crucial economic indicator because it tracks the total number of paid U.S. workers, excluding farm employees, providing insights into the labor market's overall health.",
+      "While temporary events offer a short-term boost, policymakers should focus more on underlying structural factors for long-term decisions. Overemphasizing temporary anomalies might lead to misjudgments about sustainable economic trends."
+    ]
+  },
+  {
+    "id": "ec-2026-07-27-2",
+    "date": "2026-07-27",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "중동의 주요 해상 운송로인 호르무즈 해협의 회복과 불안정한 신뢰에 대해 알아보세요.",
+    "url": "https://www.cnbc.com/2026/06/26/strait-of-hormuz-shipping-oil-us-iran.html",
+    "title": "Hormuz Shipping Rebounds Amid Fragile Confidence",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Shipping traffic is recovering in the Strait of Hormuz following a U.S.-Iran interim peace deal. This strait is a strategically vital waterway for global oil shipments. A significant portion of the world's oil supply passes through this narrow channel. The recent agreement initially brought a sense of relief to the markets. However, confidence in the region's stability remains fragile. Concerns persist about potential disruptions despite the diplomatic breakthrough. Any instability here can cause oil price volatility and supply chain issues. This directly impacts global energy markets and economic growth. Businesses need reliable shipping routes to maintain operations. The situation underscores how geopolitics influences international trade. Therefore, monitoring this area is essential for global economic forecasts.",
+    "sentences": [
+      {
+        "en": "Shipping traffic is recovering in the Strait of Hormuz following a U.S.-Iran interim peace deal.",
+        "ko": "미국과 이란의 잠정 평화 협정 이후 호르무즈 해협의 해상 운송량이 회복되고 있습니다."
+      },
+      {
+        "en": "This strait is a strategically vital waterway for global oil shipments.",
+        "ko": "이 해협은 전 세계 석유 운송에 전략적으로 매우 중요한 수로입니다."
+      },
+      {
+        "en": "A significant portion of the world's oil supply passes through this narrow channel.",
+        "ko": "세계 석유 공급량의 상당 부분이 이 좁은 해협을 통과합니다."
+      },
+      {
+        "en": "The recent agreement initially brought a sense of relief to the markets.",
+        "ko": "최근 합의는 처음에는 시장에 안도감을 가져다주었습니다."
+      },
+      {
+        "en": "However, confidence in the region's stability remains fragile.",
+        "ko": "하지만 이 지역의 안정성에 대한 신뢰는 여전히 취약합니다."
+      },
+      {
+        "en": "Concerns persist about potential disruptions despite the diplomatic breakthrough.",
+        "ko": "외교적 돌파구에도 불구하고 잠재적인 혼란에 대한 우려가 지속되고 있습니다."
+      },
+      {
+        "en": "Any instability here can cause oil price volatility and supply chain issues.",
+        "ko": "이곳의 불안정성은 유가 변동성과 공급망 문제를 유발할 수 있습니다."
+      },
+      {
+        "en": "This directly impacts global energy markets and economic growth.",
+        "ko": "이는 글로벌 에너지 시장과 경제 성장에 직접적인 영향을 미칩니다."
+      },
+      {
+        "en": "Businesses need reliable shipping routes to maintain operations.",
+        "ko": "기업들은 운영을 유지하기 위해 신뢰할 수 있는 해상 운송로가 필요합니다."
+      },
+      {
+        "en": "The situation underscores how geopolitics influences international trade.",
+        "ko": "이 상황은 지정학이 국제 무역에 어떻게 영향을 미치는지 강조합니다."
+      },
+      {
+        "en": "Therefore, monitoring this area is essential for global economic forecasts.",
+        "ko": "따라서 이 지역을 주시하는 것은 글로벌 경제 예측에 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "recovering": "returning to a normal state after a period of difficulty or decline.",
+      "strait": "a narrow passage of water connecting two large areas of water.",
+      "interim": "temporary and intended to be used or accepted until something permanent is found.",
+      "strategically": "in a way that is carefully planned to achieve a particular goal or advantage.",
+      "vital": "extremely important and necessary for something to succeed or exist.",
+      "waterway": "a river, canal, or other route by water for boats or ships.",
+      "shipments": "processes of sending goods from one place to another, often by sea.",
+      "significant": "large or important enough to have an effect or be noticed.",
+      "portion": "a part of something larger; a share or amount of something.",
+      "channel": "a narrow body of water that connects two larger bodies of water.",
+      "agreement": "a formal decision or statement that two or more people or groups have made.",
+      "relief": "a feeling of comfort when something difficult or unpleasant has ended or been avoided.",
+      "markets": "systems or places where goods and services are bought and sold.",
+      "confidence": "the belief that something will happen or that something is true.",
+      "stability": "the state of being firm or not likely to change or move.",
+      "fragile": "easily broken or damaged, or not very strong or dependable.",
+      "persist": "to continue to exist or happen, especially for a long time.",
+      "disruptions": "interruptions in the normal course or continuation of something.",
+      "diplomatic": "relating to the management of relationships between countries.",
+      "breakthrough": "an important discovery or event that helps to achieve a goal.",
+      "volatility": "the quality of being likely to change suddenly and unexpectedly.",
+      "underscores": "emphasizes the importance of something; highlights a point.",
+      "geopolitics": "the study of how geography and economics affect politics and international relations.",
+      "forecasts": "statements about what you think will happen in the future."
+    },
+    "questions": [
+      "What is the primary significance of the Strait of Hormuz to global trade, according to the passage?",
+      "How does \"fragile confidence\" relate to the economic recovery in the Strait of Hormuz?",
+      "In your opinion, what measures could be taken to ensure long-term stability in critical global shipping routes like the Strait of Hormuz?"
+    ],
+    "modelAnswers": [
+      "The Strait of Hormuz is primarily significant because it is a strategically vital waterway through which a significant portion of the world's oil supply passes.",
+      "Fragile confidence means that despite the initial recovery following the peace deal, concerns about potential disruptions still persist. This lack of strong confidence threatens the full and stable recovery of shipping.",
+      "To ensure long-term stability, international cooperation, consistent diplomatic efforts, and clear maritime security protocols are essential. Economic incentives for regional stability could also play a significant role in reducing tensions."
+    ]
+  },
+  {
+    "id": "ec-2026-07-27-3",
+    "date": "2026-07-27",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "핀테크 전문가로서 개방형 AI의 보안과 국제 협력에 대한 중요성을 이해해 보세요.",
+    "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
+    "title": "Nations Support Secure Open-Source AI at Summit",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. and other nations have endorsed open-source AI. They emphasized the need for strong security at a China summit. This APEC statement marks a significant step in international technology policy. It is the first time open-source cooperation has been included at a ministerial level. Open-source AI models are publicly available for developers to use and modify. They foster innovation and accelerate technological advancements across industries. However, ensuring robust security for these models is paramount. Vulnerabilities in AI systems could lead to data breaches or misuse. For fintech, secure AI is critical for protecting sensitive financial information. International collaboration is crucial for setting global standards and best practices. This initiative aims to balance innovation with necessary safeguards.",
+    "sentences": [
+      {
+        "en": "The U.S. and other nations have endorsed open-source AI.",
+        "ko": "미국을 비롯한 여러 국가들이 개방형 AI를 지지했습니다."
+      },
+      {
+        "en": "They emphasized the need for strong security at a China summit.",
+        "ko": "이들은 중국 정상회담에서 강력한 보안의 필요성을 강조했습니다."
+      },
+      {
+        "en": "This APEC statement marks a significant step in international technology policy.",
+        "ko": "이 APEC 성명은 국제 기술 정책에서 중요한 진전을 의미합니다."
+      },
+      {
+        "en": "It is the first time open-source cooperation has been included at a ministerial level.",
+        "ko": "장관급 회의에서 개방형 협력이 포함된 것은 이번이 처음입니다."
+      },
+      {
+        "en": "Open-source AI models are publicly available for developers to use and modify.",
+        "ko": "개방형 AI 모델은 개발자들이 사용하고 수정할 수 있도록 공개적으로 제공됩니다."
+      },
+      {
+        "en": "They foster innovation and accelerate technological advancements across industries.",
+        "ko": "이는 혁신을 촉진하고 다양한 산업 분야에서 기술 발전을 가속화합니다."
+      },
+      {
+        "en": "However, ensuring robust security for these models is paramount.",
+        "ko": "하지만 이러한 모델에 대한 견고한 보안을 보장하는 것이 무엇보다 중요합니다."
+      },
+      {
+        "en": "Vulnerabilities in AI systems could lead to data breaches or misuse.",
+        "ko": "AI 시스템의 취약점은 데이터 유출이나 오용으로 이어질 수 있습니다."
+      },
+      {
+        "en": "For fintech, secure AI is critical for protecting sensitive financial information.",
+        "ko": "핀테크 분야에서 안전한 AI는 민감한 금융 정보를 보호하는 데 매우 중요합니다."
+      },
+      {
+        "en": "International collaboration is crucial for setting global standards and best practices.",
+        "ko": "국제 협력은 글로벌 표준 및 모범 사례를 설정하는 데 필수적입니다."
+      },
+      {
+        "en": "This initiative aims to balance innovation with necessary safeguards.",
+        "ko": "이 이니셔티브는 혁신과 필요한 안전장치 사이의 균형을 맞추는 것을 목표로 합니다."
+      }
+    ],
+    "glossary": {
+      "endorsed": "publicly stated support or approval for something, especially a policy or idea.",
+      "emphasized": "gave special importance or attention to something in speaking or writing.",
+      "open-source": "relating to software whose original code is freely available to others.",
+      "security": "the state of being protected from danger, threat, or harm.",
+      "summit": "a formal meeting between leaders of governments from different countries.",
+      "statement": "an official announcement or declaration, often made by a group or government.",
+      "significant": "important or noticeable, often indicating a notable impact or meaning.",
+      "ministerial": "relating to a government minister or to the work of a government department.",
+      "cooperation": "the act of working together with another person or group to achieve something.",
+      "available": "able to be used or obtained; accessible to people.",
+      "developers": "people who create new products, especially computer software or applications.",
+      "modify": "to change something slightly, especially to improve it or make it more acceptable.",
+      "foster": "to encourage the development or growth of something positive.",
+      "innovation": "the introduction of new ideas, methods, or products.",
+      "accelerate": "to happen or make something happen at a faster rate.",
+      "advancements": "developments or improvements in a particular area, often technological.",
+      "robust": "strong and healthy, or not likely to fail or weaken.",
+      "paramount": "more important than anything else; of supreme importance.",
+      "vulnerabilities": "weaknesses that could allow someone or something to be harmed or exploited.",
+      "breaches": "acts of breaking a law, promise, or agreement, often involving security.",
+      "misuse": "the act of using something in an unsuitable or wrong way.",
+      "critical": "extremely important or necessary for something to succeed.",
+      "sensitive": "needing to be treated with care or secrecy because it could cause problems.",
+      "safeguards": "measures taken to protect someone or something from harm or danger."
+    },
+    "questions": [
+      "What is the main purpose of the APEC statement regarding open-source AI, according to the passage?",
+      "Explain why \"robust security\" is paramount for open-source AI, especially in sectors like fintech.",
+      "How do you think international collaboration on AI security standards could benefit the global fintech industry?"
+    ],
+    "modelAnswers": [
+      "The main purpose of the APEC statement is to endorse open-source AI while emphasizing the importance of strong security measures. It marks a significant step in international technology policy.",
+      "Robust security is paramount for open-source AI because vulnerabilities could lead to data breaches or misuse. For fintech, this is critical for protecting sensitive financial information from harm.",
+      "International collaboration on AI security standards could benefit fintech by establishing common best practices and trust frameworks. This would help prevent cross-border security incidents and foster safer global innovation and adoption of AI in financial services."
+    ]
+  },
+  {
     "id": "cd-2026-07-26-1",
     "date": "2026-07-26",
     "rank": 1,
