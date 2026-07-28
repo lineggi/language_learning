@@ -255,6 +255,15 @@
       text-transform: uppercase; color: var(--amber); margin-bottom: 8px;
     }
     .qcard .qtext { font-size: 19px; line-height: 1.55; margin-bottom: 12px; }
+    .qcard .frames { margin-bottom: 12px; }
+    .qcard .frames-label { font-size: 10px; color: var(--faint); letter-spacing: .08em; margin-bottom: 6px; }
+    .qcard .frames-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .qcard .frame-chip {
+      border: 1px dashed var(--amber-soft); background: #fffaf1; color: #8a5a12; cursor: pointer;
+      border-radius: 8px; padding: 5px 9px; font-family: "Newsreader", "Pretendard", serif;
+      font-size: 13px; font-style: italic; line-height: 1.3;
+    }
+    .qcard .frame-chip:hover { background: var(--amber-soft); }
     .qcard textarea {
       width: 100%; min-height: 84px; resize: vertical; border: 1px solid var(--hair);
       border-radius: 10px; padding: 12px; font-family: "Newsreader", "Pretendard", serif; font-size: 18px;
@@ -944,20 +953,26 @@
         });
       }, []);
 
+      // Record any learning activity for today (reading, word study, or writing)
+      // and advance the day-streak. Called multiple times a day is a no-op after
+      // the first — the streak only bumps once per new day, resets after a gap.
+      const recordActivity = useCallback(() => {
+        setStreak((prev) => {
+          const today = kstToday();
+          if (prev.lastDate === today) return prev;
+          if (prev.lastDate && daysBetween(prev.lastDate, today) === 1)
+            return { count: (prev.count || 0) + 1, lastDate: today };
+          return { count: 1, lastDate: today };
+        });
+      }, []);
+
       const markRead = useCallback((articleId) => {
         setReads((prev) => {
           if (prev[articleId]) return prev;
           return { ...prev, [articleId]: { readAt: Date.now(), completed: true } };
         });
-        // streak update
-        setStreak((prev) => {
-          const today = kstToday();
-          if (prev.lastDate === today) return prev;
-          if (prev.lastDate && daysBetween(prev.lastDate, today) === 1)
-            return { count: prev.count + 1, lastDate: today };
-          return { count: 1, lastDate: today };
-        });
-      }, []);
+        recordActivity();
+      }, [recordActivity]);
 
       if (err) return <Shell tab={tab} setTab={setTab}><div className="empty">packs.json을 불러오지 못했습니다.<br/>{err}</div></Shell>;
       if (!packs) return <Shell tab={tab} setTab={setTab}><div className="empty">불러오는 중…</div></Shell>;
@@ -972,13 +987,14 @@
           onComplete={markRead}
           onAddWords={addWords}
           showToast={showToast}
+          onActivity={recordActivity}
         />;
       } else if (tab === "today") {
         body = <Today picks={todaysPicks} date={latestDate} reads={reads} onOpen={setOpenId} />;
       } else if (tab === "archive") {
         body = <Archive packs={sorted} reads={reads} setReads={setReads} onOpen={setOpenId} />;
       } else {
-        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} session={session} showToast={showToast} />;
+        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} session={session} showToast={showToast} onActivity={recordActivity} />;
       }
 
       return (
@@ -1163,7 +1179,7 @@
       return (text || "").split(/(\s+|[^\w'\-]+)/).filter((t) => t.length);
     }
 
-    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast }) {
+    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onActivity }) {
       const alreadyRead = !!reads[pack.id];
       // Restore any highlighted words for this article so they survive leaving
       // and re-opening the page (kept per pack id in localStorage).
@@ -1417,7 +1433,7 @@
               </div>
 
               <div className="divider" />
-              <Writing pack={pack} showToast={showToast} />
+              <Writing pack={pack} showToast={showToast} onActivity={onActivity} />
             </React.Fragment>
           )}
         </div>
@@ -1427,10 +1443,16 @@
     /* ------------------------------------------------------------------ */
     /* Writing: 3 prompts, self-graded model answers                       */
     /* ------------------------------------------------------------------ */
-    function Writing({ pack, showToast }) {
+    function Writing({ pack, showToast, onActivity }) {
       const qs = pack.questions || [];
       const ans = pack.modelAnswers || [];
       const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
+      // Sentence frames to scaffold an answer, by question type. Tap to insert.
+      const FRAMES = [
+        ["The main ~ is that ...", "According to the article, ...", "One key point is that ..."],
+        ["In this context, ~ means ...", "Here, ~ refers to ...", "This is done through ..."],
+        ["In my view, ...", "One benefit is ..., but one risk is ...", "I think ~ because ..."],
+      ];
       // Restore any answers + AI feedback saved for this article so they survive
       // leaving and re-opening the page (kept per pack id in localStorage).
       const initRef = useRef(null);
@@ -1499,6 +1521,7 @@
           setGrades({ ...acc });
         }
         setGrading(false);
+        if (onActivity) onActivity(); // writing practice counts toward the day-streak
         fetchOverall(acc); // then build the overall 총평 across all answers
       };
 
@@ -1536,6 +1559,19 @@
             <div className="qcard" key={i}>
               <div className="qlabel mono">{labels[i] || "Q" + (i + 1)}</div>
               <div className="qtext">{q}</div>
+              {FRAMES[i] && (
+                <div className="frames">
+                  <div className="frames-label mono">추천 표현 · 탭하면 넣기</div>
+                  <div className="frames-chips">
+                    {FRAMES[i].map((f, fi) => (
+                      <button key={fi} type="button" className="frame-chip"
+                        onClick={() => setInputs((prev) => prev.map((v, j) => (j === i ? (v && v.trim() ? v.replace(/\s*$/, " ") + f : f) : v)))}>
+                        {f}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
               <textarea
                 value={inputs[i]}
                 placeholder="여기에 영어로 답을 써보세요…"
@@ -1666,7 +1702,7 @@
     // Spaced-repetition stage of a word (with legacy 'learned' migration).
     function stageOf(v) { return v.stage || (v.learned ? "review" : "new"); }
 
-    function Wordbank({ wordbank, setWordbank, streak, session, showToast }) {
+    function Wordbank({ wordbank, setWordbank, streak, session, showToast, onActivity }) {
       const [query, setQuery] = useState("");
       const [filter, setFilter] = useState("all"); // all | new | review | mastered
       const [flipped, setFlipped] = useState({});
@@ -1774,6 +1810,7 @@
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: false }]);
         if (studyMode === "review") patch(w, { stage: "mastered", masteredSince: today, reviewSince: undefined });
         else patch(w, { stage: "review", reviewSince: today, learned: true });
+        if (onActivity) onActivity(); // studying counts toward the day-streak
         advance();
       };
       // "몰라요" → keep the stage, just repeat this round. A 복습중 word that's
@@ -1784,6 +1821,7 @@
         const wasIn = missed.includes(w);
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: !wasIn }]);
         setMissed((m) => (wasIn ? m : [...m, w]));
+        if (onActivity) onActivity(); // studying counts toward the day-streak
         advance();
       };
       // Undo the last swipe: step back a card and revert its SRS change.
