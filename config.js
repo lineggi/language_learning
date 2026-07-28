@@ -9,4 +9,5 @@ window.DBW_CONFIG = {
   GRADE_ENDPOINT: "/api/grade",   // Vercel serverless function; leave as-is
   DEFINE_ENDPOINT: "/api/define", // on-demand meaning for words not in the article glossary
   OVERALL_ENDPOINT: "/api/overall", // overall 총평 + writing-improvement ideas after grading
+  DRILL_ENDPOINT: "/api/drill",     // verb/article/plural fill-in-the-blank grammar drills
 };

@@ -316,6 +316,23 @@
     }
     .overall-sec ul { margin: 0; padding-left: 18px; }
     .overall-sec li { font-size: 14px; line-height: 1.6; color: var(--ink); margin-bottom: 4px; }
+    /* 문법 미니 드릴 */
+    .drillbox {
+      border: 1px solid var(--amber-soft); background: #fffaf1; border-radius: 14px; padding: 16px;
+    }
+    .drill-title { font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 6px; }
+    .drill-desc { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 12px; }
+    .drill-head { font-size: 11px; color: var(--muted); letter-spacing: .06em; margin-bottom: 10px; }
+    .drill-sentence { font-family: "Newsreader", "Pretendard", serif; font-size: 19px; line-height: 1.6; color: var(--ink); }
+    .drill-blank { color: var(--amber); font-weight: 700; border-bottom: 2px solid var(--amber); padding: 0 4px; }
+    .drill-hint { font-size: 11px; color: var(--faint); margin-top: 8px; }
+    .drill-input {
+      width: 100%; border: 1px solid var(--hair); border-radius: 10px; padding: 11px; margin: 12px 0 10px;
+      font-family: "Newsreader", "Pretendard", serif; font-size: 18px; background: #fff; color: var(--ink);
+    }
+    .drill-verdict { font-family: "IBM Plex Mono","Pretendard",monospace; font-size: 13px; margin: 4px 0 10px; }
+    .drill-verdict.good { color: var(--good); }
+    .drill-verdict.bad { color: #b23b3b; }
     /* 오답 노트 */
     .errcard {
       background: var(--card); border: 1px solid var(--hair); border-radius: 16px;
@@ -1502,7 +1519,90 @@
               </div>
 
               <div className="divider" />
+              <Drill pack={pack} onActivity={onActivity} />
+              <div className="divider" />
               <Writing pack={pack} showToast={showToast} onActivity={onActivity} onAddErrors={onAddErrors} />
+            </React.Fragment>
+          )}
+        </div>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* Grammar drill: verb/article/plural fill-in-the-blanks from the article */
+    /* ------------------------------------------------------------------ */
+    function Drill({ pack, onActivity }) {
+      const [items, setItems] = useState(null);
+      const [loading, setLoading] = useState(false);
+      const [errMsg, setErrMsg] = useState("");
+      const [idx, setIdx] = useState(0);
+      const [typed, setTyped] = useState("");
+      const [revealed, setRevealed] = useState(false);
+      const [right, setRight] = useState(0);
+      const endpoint = (window.DBW_CONFIG || {}).DRILL_ENDPOINT || "/api/drill";
+
+      const load = async () => {
+        setLoading(true); setErrMsg("");
+        try {
+          const r = await fetch(endpoint, {
+            method: "POST", headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ passage: pack.passage }),
+          });
+          const data = await r.json();
+          if (r.ok && data && Array.isArray(data.items) && data.items.length) {
+            setItems(data.items); setIdx(0); setTyped(""); setRevealed(false); setRight(0);
+            if (onActivity) onActivity();
+          } else setErrMsg((data && data.error) || "드릴을 불러오지 못했어요");
+        } catch (e) { setErrMsg(String((e && e.message) || e)); }
+        setLoading(false);
+      };
+
+      const cur = items && items[idx];
+      const correct = revealed && cur && normText(typed) === normText(cur.answer);
+      const next = () => {
+        if (correct) setRight((n) => n + 1);
+        setTyped(""); setRevealed(false); setIdx((i) => i + 1);
+      };
+
+      if (!items) {
+        return (
+          <div className="drillbox">
+            <div className="drill-title fraunces">문법 미니 드릴</div>
+            <div className="drill-desc">기사 문장으로 동사·관사·복수·전치사 빈칸 채우기 6문제.</div>
+            <button className="btn ghost" onClick={load} disabled={loading}>{loading ? "만드는 중…" : "드릴 시작"}</button>
+            {errMsg && <div className="gerr mono">{errMsg}</div>}
+          </div>
+        );
+      }
+      if (idx >= items.length) {
+        return (
+          <div className="drillbox">
+            <div className="drill-title fraunces">드릴 완료 · {right} / {items.length}</div>
+            <button className="btn ghost" onClick={load} disabled={loading}>{loading ? "만드는 중…" : "새 드릴"}</button>
+          </div>
+        );
+      }
+      const parts = cur.sentence.split("___");
+      return (
+        <div className="drillbox">
+          <div className="drill-head mono">문법 드릴 · {idx + 1} / {items.length}</div>
+          <div className="drill-sentence">
+            {parts[0]}<span className="drill-blank">{revealed ? cur.answer : "____"}</span>{parts[1] || ""}
+          </div>
+          {cur.hint && <div className="drill-hint mono">힌트 · {cur.hint}</div>}
+          {!revealed ? (
+            <React.Fragment>
+              <input className="drill-input" value={typed} placeholder="빈칸에 들어갈 단어"
+                onChange={(e) => setTyped(e.target.value)}
+                onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); setRevealed(true); } }} />
+              <button className="btn primary" onClick={() => setRevealed(true)}>확인</button>
+            </React.Fragment>
+          ) : (
+            <React.Fragment>
+              <div className={"drill-verdict " + (correct ? "good" : "bad")}>
+                {correct ? "정답이에요 ✓" : `정답: ${cur.answer}`}
+              </div>
+              <button className="btn primary" onClick={next}>다음</button>
             </React.Fragment>
           )}
         </div>
