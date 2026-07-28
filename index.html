@@ -316,6 +316,49 @@
     }
     .overall-sec ul { margin: 0; padding-left: 18px; }
     .overall-sec li { font-size: 14px; line-height: 1.6; color: var(--ink); margin-bottom: 4px; }
+    /* 오답 노트 */
+    .errcard {
+      background: var(--card); border: 1px solid var(--hair); border-radius: 16px;
+      padding: 18px 16px; box-shadow: var(--shadow); position: relative;
+    }
+    .errcard .errcat {
+      display: inline-block; background: var(--amber-soft); color: #8a5a12; border-radius: 999px;
+      padding: 3px 10px; font-size: 10px; font-weight: 600; letter-spacing: .06em; margin-bottom: 12px;
+    }
+    .errcard .errq, .errcard .errask { font-size: 10px; color: var(--faint); letter-spacing: .08em; margin-bottom: 4px; }
+    .errcard .errask { margin-top: 14px; }
+    .errcard .errbefore {
+      font-family: "Newsreader", "Pretendard", serif; font-size: 18px; color: #b23b3b;
+      text-decoration: line-through; line-height: 1.5;
+    }
+    .errcard .errinput {
+      width: 100%; min-height: 64px; resize: vertical; border: 1px solid var(--hair);
+      border-radius: 10px; padding: 11px; font-family: "Newsreader", "Pretendard", serif; font-size: 18px;
+      background: #fffdf9; color: var(--ink); margin-bottom: 10px;
+    }
+    .errcard .errverdict { font-family: "IBM Plex Mono","Pretendard",monospace; font-size: 12px; margin: 6px 0 8px; }
+    .errcard .errverdict.good { color: var(--good); }
+    .errcard .errverdict.bad { color: #b23b3b; }
+    .errcard .errafter {
+      font-family: "Newsreader", "Pretendard", serif; font-size: 18px; color: var(--good); font-weight: 600; line-height: 1.5;
+    }
+    .errcard .errafter .mono { font-size: 10px; color: var(--good); letter-spacing: .1em; text-transform: uppercase; margin-right: 6px; }
+    .errcard .errwhy { font-size: 13px; color: var(--muted); line-height: 1.55; margin-top: 8px; }
+    .errcard .errbtns { display: flex; gap: 10px; margin-top: 14px; }
+    .errcard .errbtns .btn { flex: 1; width: auto; }
+    .errgroup { margin-top: 14px; }
+    .errgroup-h { font-size: 11px; color: #8a5a12; font-weight: 600; letter-spacing: .06em; margin-bottom: 6px; }
+    .errrow {
+      display: flex; gap: 10px; align-items: flex-start; padding: 10px 2px;
+      border-bottom: 1px solid var(--hair);
+    }
+    .errrow-body { flex: 1; min-width: 0; font-size: 15px; line-height: 1.5; }
+    .errrow .errbefore-sm { color: #b23b3b; text-decoration: line-through; }
+    .errrow .errafter-sm { color: var(--good); font-weight: 600; }
+    .errrow .errwhy-sm { color: var(--muted); font-size: 12px; margin-top: 2px; }
+    .errrow-side { display: flex; align-items: center; gap: 6px; flex: none; }
+    .errrow .errdel { border: 0; background: none; color: var(--faint); cursor: pointer; font-size: 16px; line-height: 1; padding: 2px 4px; border-radius: 6px; }
+    .errrow .errdel:hover { color: #b23b3b; background: var(--hair); }
     .gerr { margin-top: 8px; color: #b23b3b; font-size: 12px; }
 
     /* Auth / sync bar */
@@ -579,7 +622,7 @@
     /* ------------------------------------------------------------------ */
     /* Storage helpers (localStorage, prefix dbw:)                         */
     /* ------------------------------------------------------------------ */
-    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks", writing: "dbw:writing" };
+    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks", writing: "dbw:writing", errors: "dbw:errors" };
 
     /* Optional backend: Supabase (sync) + /api/grade (AI grading). If SUPABASE_URL
        is empty the client is null and the app stays fully local. */
@@ -784,6 +827,7 @@
       const [wordbank, setWordbank] = useState(() => mergeWordbank(load(KEY.wordbank, {}), {}));
       const [reads, setReads] = useState(() => load(KEY.reads, {}));
       const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null }));
+      const [errors, setErrors] = useState(() => load(KEY.errors, {})); // 오답 노트 (grammar SRS)
       const [toast, setToast] = useState(null);
       const [session, setSession] = useState(null);
       const [syncMsg, setSyncMsg] = useState("");
@@ -793,6 +837,7 @@
       useEffect(() => save(KEY.wordbank, wordbank), [wordbank]);
       useEffect(() => save(KEY.reads, reads), [reads]);
       useEffect(() => save(KEY.streak, streak), [streak]);
+      useEffect(() => save(KEY.errors, errors), [errors]);
 
       // Track Supabase auth session (only when a backend is configured).
       useEffect(() => {
@@ -966,6 +1011,26 @@
         });
       }, []);
 
+      // Save AI corrections into the 오답 노트 (deduped by before→after).
+      const addErrors = useCallback((corrections, packId) => {
+        setErrors((prev) => {
+          const next = { ...prev };
+          for (const c of corrections || []) {
+            const before = String((c && c.before) || "").trim();
+            const after = String((c && c.after) || "").trim();
+            if (!before || !after || before.toLowerCase() === after.toLowerCase()) continue;
+            const id = (before + "→" + after).toLowerCase().replace(/\s+/g, " ");
+            if (next[id]) continue; // already noted
+            next[id] = {
+              before, after, why: String((c && c.why) || "").trim(),
+              category: String((c && c.category) || "기타").trim(),
+              packId, addedDate: kstToday(), stage: "new", updatedAt: Date.now(),
+            };
+          }
+          return next;
+        });
+      }, []);
+
       const markRead = useCallback((articleId) => {
         setReads((prev) => {
           if (prev[articleId]) return prev;
@@ -988,11 +1053,14 @@
           onAddWords={addWords}
           showToast={showToast}
           onActivity={recordActivity}
+          onAddErrors={addErrors}
         />;
       } else if (tab === "today") {
         body = <Today picks={todaysPicks} date={latestDate} reads={reads} onOpen={setOpenId} />;
       } else if (tab === "archive") {
         body = <Archive packs={sorted} reads={reads} setReads={setReads} onOpen={setOpenId} />;
+      } else if (tab === "errors") {
+        body = <ErrorNotes errors={errors} setErrors={setErrors} showToast={showToast} onActivity={recordActivity} />;
       } else {
         body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} session={session} showToast={showToast} onActivity={recordActivity} />;
       }
@@ -1082,6 +1150,7 @@
         { id: "today", label: "오늘", glyph: "◆" },
         { id: "archive", label: "보관함", glyph: "▤" },
         { id: "wordbank", label: "단어장", glyph: "✦" },
+        { id: "errors", label: "오답노트", glyph: "✎" },
       ];
       return (
         <React.Fragment>
@@ -1179,7 +1248,7 @@
       return (text || "").split(/(\s+|[^\w'\-]+)/).filter((t) => t.length);
     }
 
-    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onActivity }) {
+    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onActivity, onAddErrors }) {
       const alreadyRead = !!reads[pack.id];
       // Restore any highlighted words for this article so they survive leaving
       // and re-opening the page (kept per pack id in localStorage).
@@ -1433,7 +1502,7 @@
               </div>
 
               <div className="divider" />
-              <Writing pack={pack} showToast={showToast} onActivity={onActivity} />
+              <Writing pack={pack} showToast={showToast} onActivity={onActivity} onAddErrors={onAddErrors} />
             </React.Fragment>
           )}
         </div>
@@ -1443,7 +1512,7 @@
     /* ------------------------------------------------------------------ */
     /* Writing: 3 prompts, self-graded model answers                       */
     /* ------------------------------------------------------------------ */
-    function Writing({ pack, showToast, onActivity }) {
+    function Writing({ pack, showToast, onActivity, onAddErrors }) {
       const qs = pack.questions || [];
       const ans = pack.modelAnswers || [];
       const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
@@ -1517,6 +1586,7 @@
             });
             const data = await r.json();
             acc[i] = r.ok ? data : { error: data.error || ("HTTP " + r.status) };
+            if (r.ok && data && onAddErrors) onAddErrors(data.corrections, pack.id); // save to 오답 노트
           } catch (e) { acc[i] = { error: String((e && e.message) || e) }; }
           setGrades({ ...acc });
         }
@@ -1692,6 +1762,147 @@
                       aria-label="삭제" title="보관함에서 삭제">×</button>
             </div>
           ))}
+        </React.Fragment>
+      );
+    }
+
+    /* ------------------------------------------------------------------ */
+    /* 오답 노트: grammar SRS built from AI writing corrections            */
+    /* ------------------------------------------------------------------ */
+    function normText(s) {
+      return String(s || "").toLowerCase().trim().replace(/\s+/g, " ").replace(/[.,!?;:'"()]/g, "");
+    }
+    function ErrorNotes({ errors, setErrors, showToast, onActivity }) {
+      const [studying, setStudying] = useState(false);
+      const [deck, setDeck] = useState([]);
+      const [idx, setIdx] = useState(0);
+      const [typed, setTyped] = useState("");
+      const [revealed, setRevealed] = useState(false);
+      const [known, setKnown] = useState(0);
+      const [missed, setMissed] = useState(0);
+      const [filter, setFilter] = useState("all");
+
+      const list = Object.entries(errors).map(([id, v]) => ({ id, ...v, stage: v.stage || "new" }));
+      const counts = { new: 0, review: 0, mastered: 0 };
+      list.forEach((e) => { counts[e.stage] = (counts[e.stage] || 0) + 1; });
+      const total = list.length;
+      const duePool = list.filter((e) => e.stage !== "mastered");
+      const filtered = (filter === "all" ? list : list.filter((e) => e.stage === filter))
+        .sort((a, b) => (b.addedDate || "").localeCompare(a.addedDate || ""));
+      const byCat = {};
+      filtered.forEach((e) => { (byCat[e.category || "기타"] = byCat[e.category || "기타"] || []).push(e); });
+
+      const patchError = (id, p) => setErrors((prev) => prev[id] ? ({ ...prev, [id]: { ...prev[id], ...p, updatedAt: Date.now() } }) : prev);
+      const removeError = (id) => { if (!window.confirm("이 오답을 삭제할까요?")) return; setErrors((prev) => { const n = { ...prev }; delete n[id]; return n; }); };
+
+      const shuffle = (a) => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); const t = r[i]; r[i] = r[j]; r[j] = t; } return r; };
+      const start = () => {
+        if (!duePool.length) return;
+        setDeck(shuffle(duePool)); setIdx(0); setTyped(""); setRevealed(false); setKnown(0); setMissed(0); setStudying(true);
+      };
+      const cur = deck[idx];
+      const matched = revealed && cur && normText(typed) === normText(cur.after);
+      const grade = (correct) => {
+        const st = (cur.stage || "new");
+        if (correct) { patchError(cur.id, { stage: st === "new" ? "review" : "mastered" }); setKnown((k) => k + 1); }
+        else { patchError(cur.id, { stage: "new" }); setMissed((m) => m + 1); }
+        if (onActivity) onActivity();
+        setTyped(""); setRevealed(false); setIdx((i) => i + 1);
+      };
+
+      const CHIPS = [
+        { id: "all", label: `전체 ${total}` },
+        { id: "new", label: `복습 필요 ${counts.new || 0}` },
+        { id: "review", label: `한 번 맞춤 ${counts.review || 0}` },
+        { id: "mastered", label: `완료 ${counts.mastered || 0}` },
+      ];
+
+      if (studying) {
+        if (idx >= deck.length) {
+          return (
+            <React.Fragment>
+              <div className="studyhead mono">
+                <span>오답 복습 완료</span>
+                <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
+              </div>
+              <div className="studydone">
+                <div className="donestats">
+                  <div className="donestat"><div className="num fraunces">{known}</div><div className="lbl mono">맞은 오답</div></div>
+                  <div className="donestat"><div className="num fraunces">{missed}</div><div className="lbl mono">더 볼 오답</div></div>
+                </div>
+                <button className="btn ghost" onClick={start}>다시 복습</button>
+                <button className="btn ghost" onClick={() => setStudying(false)}>오답노트로</button>
+              </div>
+            </React.Fragment>
+          );
+        }
+        return (
+          <React.Fragment>
+            <div className="studyhead mono">
+              <span>오답 복습 · {idx + 1} / {deck.length}</span>
+              <button className="chip" onClick={() => setStudying(false)}>닫기 ✕</button>
+            </div>
+            <div className="errcard">
+              <span className="errcat mono">{cur.category || "기타"}</span>
+              <div className="errq mono">틀린 문장</div>
+              <div className="errbefore">{cur.before}</div>
+              <div className="errask mono">올바르게 고쳐 써 보세요</div>
+              <textarea className="errinput" value={typed} placeholder="여기에 영어로…"
+                onChange={(e) => setTyped(e.target.value)}
+                onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); if (!revealed) setRevealed(true); } }} />
+              {!revealed
+                ? <button className="btn primary" onClick={() => setRevealed(true)}>확인</button>
+                : (
+                  <React.Fragment>
+                    <div className={"errverdict " + (matched ? "good" : "bad")}>{matched ? "정답과 일치해요 ✓" : "정답과 달라요"}</div>
+                    <div className="errafter"><span className="mono">정답</span> {cur.after}</div>
+                    {cur.why && <div className="errwhy">{cur.why}</div>}
+                    <div className="errbtns">
+                      <button className="btn ghost" onClick={() => grade(false)}>더 볼래요</button>
+                      <button className="btn primary" onClick={() => grade(true)}>외웠어요</button>
+                    </div>
+                  </React.Fragment>
+                )}
+            </div>
+          </React.Fragment>
+        );
+      }
+
+      if (!total) {
+        return <div className="empty">아직 오답이 없습니다.{"\n"}영작 문항을 AI 채점하면 교정 내용이 여기에 쌓입니다.</div>;
+      }
+      return (
+        <React.Fragment>
+          <div className="section-label mono">오답 노트 · {total}개</div>
+          <button className="btn primary studybtn" onClick={start} disabled={!duePool.length}>
+            ✎ 오답 복습 · {duePool.length}개
+          </button>
+          <div className="toolbar">
+            {CHIPS.map((c) => (
+              <button key={c.id} className={"chip" + (filter === c.id ? " active" : "")} onClick={() => setFilter(c.id)}>{c.label}</button>
+            ))}
+          </div>
+          {Object.keys(byCat).length === 0
+            ? <div className="empty">조건에 맞는 오답이 없습니다.</div>
+            : Object.entries(byCat).map(([cat, items]) => (
+              <div className="errgroup" key={cat}>
+                <div className="errgroup-h mono">{cat} · {items.length}</div>
+                {items.map((e) => (
+                  <div className="errrow" key={e.id}>
+                    <div className="errrow-body">
+                      <div><span className="errbefore-sm">{e.before}</span> <span className="garrow">→</span> <span className="errafter-sm">{e.after}</span></div>
+                      {e.why && <div className="errwhy-sm">{e.why}</div>}
+                    </div>
+                    <div className="errrow-side">
+                      <span className={"stagenote" + (e.stage === "mastered" ? " done" : "")}>
+                        {e.stage === "mastered" ? "완료" : e.stage === "review" ? "1/2" : "복습"}
+                      </span>
+                      <button className="errdel" onClick={() => removeError(e.id)} aria-label="삭제" title="삭제">×</button>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            ))}
         </React.Fragment>
       );
     }

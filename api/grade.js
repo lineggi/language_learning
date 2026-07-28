@@ -15,8 +15,9 @@ const GRADE_SCHEMA = {
           before: { type: "string" },
           after: { type: "string" },
           why: { type: "string" },
+          category: { type: "string" },
         },
-        required: ["before", "after", "why"],
+        required: ["before", "after", "why", "category"],
       },
     },
     revised: { type: "string" },
@@ -45,11 +46,14 @@ Write ALL feedback text (summary and "why") in KOREAN, but keep the corrected En
 For "corrections", list the learner's actual wrong or awkward phrases and how to fix them —
 be concrete ("이 부분을 이렇게 바꾸세요"). If the answer is basically empty or off-topic, score it low and say why.
 
+For each correction also give a "category" — the type of mistake — chosen from EXACTLY one of:
+"동사 형태", "관사·복수", "주어-동사 일치", "문장 구조", "단어 선택", "전치사", "철자", "기타".
+
 Return JSON:
 {
   "score": <integer 0-100>,
   "summary": "<one or two Korean sentences: overall assessment>",
-  "corrections": [ { "before": "<learner's phrase>", "after": "<corrected English>", "why": "<short Korean reason>" } ],
+  "corrections": [ { "before": "<learner's phrase>", "after": "<corrected English>", "why": "<short Korean reason>", "category": "<one of the categories above>" } ],
   "revised": "<a clean, natural corrected version of the learner's whole answer, in English>"
 }`;
 }
