@@ -2234,9 +2234,11 @@
         const onKey = (e) => {
           const k = keyRef.current;
           if (!k.active) return;
+          const t = e.target;
+          if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA")) return; // don't hijack typing
           if (e.key === "ArrowLeft") { e.preventDefault(); k.answerSwipe("no"); }
           else if (e.key === "ArrowRight") { e.preventDefault(); k.answerSwipe("yes"); }
-          else if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); k.flipCard(); }
+          else if (e.key === " " || e.key === "Enter" || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); k.flipCard(); }
         };
         window.addEventListener("keydown", onKey);
         return () => window.removeEventListener("keydown", onKey);
@@ -2367,7 +2369,7 @@
                     <span className="fc-help-sep">·</span>
                     <span className="fc-help-key">→</span> 알아요
                     <span className="fc-help-sep">·</span>
-                    <span className="fc-help-key">Space</span> 뒤집기
+                    <span className="fc-help-key">Space</span>·<span className="fc-help-key">Enter</span> 뒤집기
                   </div>
                 </div>
               )}
