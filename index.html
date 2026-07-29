@@ -2229,19 +2229,24 @@
       // Keyboard on PC: ← = 몰라요, → = 알아요 (same as swiping); Space/↑/↓ flips.
       // A ref keeps the handler reading the latest state without re-binding.
       const keyRef = useRef({});
-      keyRef.current = { active: studying && idx < deck.length, answerSwipe, flipCard };
+      keyRef.current = { active: studying && idx < deck.length, answerSwipe, flipCard, setKoPeek };
       useEffect(() => {
+        const isTyping = (t) => t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA");
         const onKey = (e) => {
           const k = keyRef.current;
-          if (!k.active) return;
-          const t = e.target;
-          if (t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA")) return; // don't hijack typing
+          if (!k.active || isTyping(e.target)) return;
           if (e.key === "ArrowLeft") { e.preventDefault(); k.answerSwipe("no"); }
           else if (e.key === "ArrowRight") { e.preventDefault(); k.answerSwipe("yes"); }
-          else if (e.key === " " || e.key === "Enter" || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); k.flipCard(); }
+          else if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); k.flipCard(); }
+          else if (e.key === "Enter") { e.preventDefault(); k.setKoPeek(true); } // hold Enter = Korean 뜻 peek
+        };
+        const onKeyUp = (e) => {
+          const k = keyRef.current;
+          if (e.key === "Enter") k.setKoPeek(false);
         };
         window.addEventListener("keydown", onKey);
-        return () => window.removeEventListener("keydown", onKey);
+        window.addEventListener("keyup", onKeyUp);
+        return () => { window.removeEventListener("keydown", onKey); window.removeEventListener("keyup", onKeyUp); };
       }, []);
 
       const CHIPS = [
@@ -2369,7 +2374,9 @@
                     <span className="fc-help-sep">·</span>
                     <span className="fc-help-key">→</span> 알아요
                     <span className="fc-help-sep">·</span>
-                    <span className="fc-help-key">Space</span>·<span className="fc-help-key">Enter</span> 뒤집기
+                    <span className="fc-help-key">Space</span> 뒤집기
+                    <span className="fc-help-sep">·</span>
+                    <span className="fc-help-key">Enter</span> 한국어 뜻
                   </div>
                 </div>
               )}
