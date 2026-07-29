@@ -35,10 +35,34 @@ Rules:
 - Put exactly ONE blank, written literally as "___", where the target word goes.
 - The blank must test a verb form, an article, a plural, or a preposition — NOT content vocabulary.
 - "answer" is the single missing word only.
+- CRITICAL: the word(s) immediately before or after "___" must NOT share the same root as
+  "answer" — e.g. never write "Many business ___" with answer "businesses" (that duplicates
+  "business"). If the sentence already contains the word right next to the blank, rewrite the
+  sentence so the blank is the ONLY occurrence of that word/stem.
 - "hint" is a SHORT Korean hint about the grammar point (e.g. "동사: 3인칭 단수 현재", "관사: 처음 언급", "복수형", "전치사").
 - Vary the point types across the 6 items.
 
 Return JSON: { "items": [ { "sentence": "This ___ flexibility.", "answer": "offers", "hint": "동사: 3인칭 단수 현재" } ] }`;
+}
+
+// Two words are "the same root" if one is a prefix of the other (catches
+// business/businesses, offer/offers, sign/signed) — a plain suffix-stripper
+// misses cases like business→busines vs businesses→business, which don't
+// converge to the same stem. Short words require an exact match to avoid
+// false positives (e.g. "is" being a prefix of "island").
+function sameRoot(a, b) {
+  const x = String(a || "").toLowerCase().replace(/[^a-z]/g, "");
+  const y = String(b || "").toLowerCase().replace(/[^a-z]/g, "");
+  if (!x || !y) return false;
+  if (Math.min(x.length, y.length) < 4) return x === y;
+  return x === y || x.startsWith(y) || y.startsWith(x);
+}
+// Reject a drill if the word touching the blank shares a root with the answer
+// (e.g. "Many business ___" / answer "businesses" duplicates "business").
+function blankIsClean(sentence, answer) {
+  const before = sentence.split("___")[0].trim().split(/\s+/).pop() || "";
+  const after = (sentence.split("___")[1] || "").trim().split(/\s+/)[0] || "";
+  return !sameRoot(before, answer) && !sameRoot(after, answer);
 }
 
 module.exports = async function handler(req, res) {
@@ -74,6 +98,9 @@ module.exports = async function handler(req, res) {
         hint: String((it && it.hint) || "").trim(),
       }))
       .filter((it) => it.sentence.includes("___") && it.answer)
+      // Drop items where the answer would duplicate the word next to the blank
+      // (a model slip, e.g. "Many business ___" answered "businesses").
+      .filter((it) => blankIsClean(it.sentence, it.answer))
       .slice(0, 8);
     res.status(200).json({ items });
   } catch (err) {
