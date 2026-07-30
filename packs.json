@@ -1,5 +1,536 @@
 [
   {
+    "id": "cd-2026-07-31-1",
+    "date": "2026-07-31",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "글로벌 은행들이 토큰화된 돈을 이용한 국경 간 결제를 시험하며 금융 혁신을 주도하고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/30/global-banks-test-tokenized-money-for-cross-border-payments-in-usd1-million-bis-pilot",
+    "title": "Major Banks Pilot Tokenized Money for Cross-Border Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Twenty-eight major global banks recently participated in a significant pilot project, showcasing innovations in financial technology. This groundbreaking initiative, led by the Bank for International Settlements (BIS), rigorously tested the use of tokenized money. The $1 million live experiment specifically focused on improving the efficiency and speed of international payments. Prominent financial institutions like JPMorgan, Citi, and UBS successfully moved actual funds across various national borders. They utilized advanced blockchain-based settlement systems to process these complex cross-border transactions seamlessly. This pilot clearly demonstrates a major step towards modernizing and enhancing the resilience of global financial infrastructure. Tokenization holds immense potential to make cross-border payments significantly faster, cheaper, and more transparent for all participants. It also strongly highlights the growing institutional interest and confidence in blockchain technology's transformative capabilities. Such collaborative developments are truly crucial for shaping the future landscape of global finance and international commerce. This project could pave the way for broader adoption of digital assets within the traditional banking sector worldwide.",
+    "sentences": [
+      {
+        "en": "Twenty-eight major global banks recently participated in a significant pilot project, showcasing innovations in financial technology.",
+        "ko": "28개의 주요 글로벌 은행들이 최근 금융 기술 혁신을 선보이는 중요한 시범 프로젝트에 참여했습니다."
+      },
+      {
+        "en": "This groundbreaking initiative, led by the Bank for International Settlements (BIS), rigorously tested the use of tokenized money.",
+        "ko": "국제결제은행(BIS)이 주도한 이 획기적인 프로젝트는 토큰화된 돈의 사용을 엄격하게 시험했습니다."
+      },
+      {
+        "en": "The $1 million live experiment specifically focused on improving the efficiency and speed of international payments.",
+        "ko": "100만 달러 규모의 이 실제 실험은 특히 국제 결제의 효율성과 속도를 개선하는 데 중점을 두었습니다."
+      },
+      {
+        "en": "Prominent financial institutions like JPMorgan, Citi, and UBS successfully moved actual funds across various national borders.",
+        "ko": "JP모건, 씨티, UBS와 같은 저명한 금융 기관들은 실제 자금을 다양한 국경을 넘어 성공적으로 이동시켰습니다."
+      },
+      {
+        "en": "They utilized advanced blockchain-based settlement systems to process these complex cross-border transactions seamlessly.",
+        "ko": "이들은 이러한 복잡한 국경 간 거래를 원활하게 처리하기 위해 첨단 블록체인 기반의 결제 시스템을 활용했습니다."
+      },
+      {
+        "en": "This pilot clearly demonstrates a major step towards modernizing and enhancing the resilience of global financial infrastructure.",
+        "ko": "이 시범 프로젝트는 글로벌 금융 인프라를 현대화하고 복원력을 강화하는 중요한 진전을 명확히 보여줍니다."
+      },
+      {
+        "en": "Tokenization holds immense potential to make cross-border payments significantly faster, cheaper, and more transparent for all participants.",
+        "ko": "토큰화는 모든 참여자에게 국경 간 결제를 훨씬 더 빠르고, 저렴하며, 투명하게 만들 엄청난 잠재력을 가지고 있습니다."
+      },
+      {
+        "en": "It also strongly highlights the growing institutional interest and confidence in blockchain technology's transformative capabilities.",
+        "ko": "이는 또한 블록체인 기술의 변혁적인 역량에 대한 기관들의 커지는 관심과 신뢰를 강력히 강조합니다."
+      },
+      {
+        "en": "Such collaborative developments are truly crucial for shaping the future landscape of global finance and international commerce.",
+        "ko": "이러한 협력적인 발전은 글로벌 금융 및 국제 상업의 미래 지형을 형성하는 데 정말 중요합니다."
+      },
+      {
+        "en": "This project could pave the way for broader adoption of digital assets within the traditional banking sector worldwide.",
+        "ko": "이 프로젝트는 전 세계 전통 은행 부문 내에서 디지털 자산의 더 넓은 채택을 위한 길을 열 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "participated": "took part in an activity or event with others.",
+      "significant": "important or notable, having a strong impact or meaning.",
+      "pilot": "a small-scale test or experiment conducted to evaluate a new idea or system.",
+      "initiative": "a new plan or process to achieve a particular aim or to solve a problem.",
+      "tokenized": "converted into a digital representation, often on a blockchain, to allow for easier transfer.",
+      "international": "involving two or more countries, or happening between nations.",
+      "experiment": "a scientific procedure undertaken to make a discovery or test a hypothesis.",
+      "funds": "sums of money saved or made available for a particular purpose.",
+      "borders": "the lines separating one country or state from another.",
+      "blockchain-based": "relying on a distributed, decentralized ledger technology for recording transactions.",
+      "settlement": "the official process of completing a financial transaction by exchanging assets.",
+      "transactions": "instances of buying or selling something, or exchanging money.",
+      "demonstrates": "clearly shows the existence or truth of something by giving proof or evidence.",
+      "modernizing": "making something more modern or up-to-date, improving its efficiency.",
+      "financial": "relating to money or the management of money.",
+      "infrastructure": "the basic physical and organizational structures needed for the operation of a society or enterprise.",
+      "efficient": "achieving maximum productivity with minimum wasted effort or expense.",
+      "highlights": "draws special attention to something, making it stand out.",
+      "institutional": "relating to a large and important organization, such as a bank or university.",
+      "crucial": "extremely important, as a decision or action."
+    },
+    "questions": [
+      "Q1: Which organizations and types of institutions were involved in the BIS pilot project for cross-border payments?",
+      "Q2: What does \"tokenized money\" mean in the context of cross-border payments, and why is it considered a significant advancement?",
+      "Q3: How do you think the widespread adoption of tokenized money for international transactions could change global commerce and financial systems?"
+    ],
+    "modelAnswers": [
+      "A1: The BIS pilot project involved 28 major global banks, including JPMorgan, Citi, and UBS. The Bank for International Settlements (BIS) led this initiative.",
+      "A2: \"Tokenized money\" refers to digital representations of traditional currencies or assets on a blockchain. It is significant because it promises to make cross-border payments faster, more efficient, and potentially cheaper by using blockchain-based settlement systems.",
+      "A3: Widespread adoption could dramatically streamline global commerce by reducing transaction times and costs. It might also increase financial inclusion and transparency, potentially reshaping the roles of traditional intermediaries and national currencies in international trade."
+    ]
+  },
+  {
+    "id": "cd-2026-07-31-2",
+    "date": "2026-07-31",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "월스트리트의 참여가 암호화폐 시장을 안정시키며 기관 투자자들의 거래 비중이 사상 최고치를 기록했습니다.",
+    "url": "https://www.coindesk.com/markets/2026/07/30/institutional-trading-hits-a-record-72-as-wall-street-quietens-down-crypto-s-wild-swings",
+    "title": "Institutions Now Dominate Crypto Trading, Calming Volatility",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A recent report from market maker Wintermute reveals a major shift in the crypto market dynamics. Institutional investors now account for a record 72% of all crypto trading volume. This growing involvement from Wall Street firms is significantly stabilizing the volatile market. It directly contributes to lower price volatility, making crypto assets more predictable for participants. The report also notes selective altcoin flows and substantial growth in tokenized assets. This trend clearly indicates increasing market maturity and broader mainstream acceptance of digital assets. Institutional capital brings greater liquidity, enhanced stability, and professional oversight to the ecosystem. Such developments are absolutely vital for ensuring crypto's long-term sustainability and growth potential. This fundamental shift benefits both individual and institutional investors, strengthening the broader financial ecosystem. It signals a future where digital assets play a more integrated role in global finance.",
+    "sentences": [
+      {
+        "en": "A recent report from market maker Wintermute reveals a major shift in the crypto market dynamics.",
+        "ko": "시장 조성자 Wintermute의 최근 보고서는 암호화폐 시장 역학에 큰 변화가 있음을 보여줍니다."
+      },
+      {
+        "en": "Institutional investors now account for a record 72% of all crypto trading volume.",
+        "ko": "기관 투자자들이 이제 전체 암호화폐 거래량의 사상 최고치인 72%를 차지합니다."
+      },
+      {
+        "en": "This growing involvement from Wall Street firms is significantly stabilizing the volatile market.",
+        "ko": "월스트리트 기업들의 이러한 증가하는 참여는 변동성이 큰 시장을 상당히 안정시키고 있습니다."
+      },
+      {
+        "en": "It directly contributes to lower price volatility, making crypto assets more predictable for participants.",
+        "ko": "이는 가격 변동성을 직접적으로 낮춰 암호화폐 자산을 참여자들에게 더 예측 가능하게 만듭니다."
+      },
+      {
+        "en": "The report also notes selective altcoin flows and substantial growth in tokenized assets.",
+        "ko": "이 보고서는 또한 선별적인 알트코인 흐름과 토큰화된 자산의 상당한 성장을 언급합니다."
+      },
+      {
+        "en": "This trend clearly indicates increasing market maturity and broader mainstream acceptance of digital assets.",
+        "ko": "이러한 추세는 시장의 성숙도가 높아지고 디지털 자산에 대한 주류 수용이 확대되고 있음을 명확히 나타냅니다."
+      },
+      {
+        "en": "Institutional capital brings greater liquidity, enhanced stability, and professional oversight to the ecosystem.",
+        "ko": "기관 자본은 생태계에 더 큰 유동성, 향상된 안정성, 그리고 전문적인 감독을 가져옵니다."
+      },
+      {
+        "en": "Such developments are absolutely vital for ensuring crypto's long-term sustainability and growth potential.",
+        "ko": "이러한 발전은 암호화폐의 장기적인 지속 가능성과 성장 잠재력을 보장하는 데 절대적으로 필수적입니다."
+      },
+      {
+        "en": "This fundamental shift benefits both individual and institutional investors, strengthening the broader financial ecosystem.",
+        "ko": "이러한 근본적인 변화는 개인 투자자와 기관 투자자 모두에게 이로우며, 더 넓은 금융 생태계를 강화합니다."
+      },
+      {
+        "en": "It signals a future where digital assets play a more integrated role in global finance.",
+        "ko": "이는 디지털 자산이 글로벌 금융에서 더욱 통합된 역할을 하는 미래를 시사합니다."
+      }
+    ],
+    "glossary": {
+      "shift": "a slight change in position, direction, or tendency.",
+      "institutional": "relating to a large and important organization, such as a bank or investment fund.",
+      "investors": "people or organizations who put money into financial schemes, expecting to gain a profit.",
+      "record": "the best or most extreme level ever reached.",
+      "trading": "the activity of buying and selling goods or services, or stocks and shares.",
+      "involvement": "the act of taking part in an activity or event.",
+      "stabilizing": "making something less likely to change or fail, keeping it steady.",
+      "contributes": "helps to cause or bring about something.",
+      "volatility": "the tendency of a market or price to change rapidly and unpredictably.",
+      "predictable": "able to be foreseen or declared in advance, behaving as expected.",
+      "selective": "careful in choosing, choosing only a small number of things.",
+      "altcoin": "any cryptocurrency other than Bitcoin.",
+      "tokenized": "converted into a digital representation, often on a blockchain.",
+      "indicates": "points out or shows, suggesting a certain state or condition.",
+      "maturity": "the state of being fully developed or grown, showing advanced characteristics.",
+      "mainstream": "the ideas, attitudes, or activities that are regarded as normal or conventional.",
+      "acceptance": "the action of consenting to receive or undertake something offered.",
+      "capital": "wealth in the form of money or other assets owned by a person or organization.",
+      "liquidity": "the availability of liquid assets to a market or company, ease of converting assets to cash.",
+      "oversight": "the action of supervising someone or something.",
+      "vital": "absolutely necessary or important, essential.",
+      "sustainability": "the ability to be maintained at a certain rate or level over time."
+    },
+    "questions": [
+      "Q1: According to the report, what percentage of crypto trading is now attributed to institutional investors?",
+      "Q2: How does the increasing involvement of institutional investors affect market volatility, and what other trends are noted in the report?",
+      "Q3: As a PM, how might you leverage the trend of increasing institutional adoption and tokenized asset growth in developing new crypto products or services?"
+    ],
+    "modelAnswers": [
+      "A1: The report states that institutional investors now account for a record 72% of all crypto trading.",
+      "A2: The increasing involvement of institutional investors helps stabilize the market, contributing to lower volatility. The report also notes selective altcoin flows and growth in tokenized assets.",
+      "A3: I would focus on creating products that cater to institutional needs, such as secure custody solutions for tokenized assets, compliant DeFi protocols, or data analytics tools for sophisticated trading strategies. Exploring partnerships with traditional financial institutions could also be a key strategy."
+    ]
+  },
+  {
+    "id": "cd-2026-07-31-3",
+    "date": "2026-07-31",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "JP모건은 Clarity Act 통과 가능성이 희박해지면서 암호화폐 시장 전망이 불확실해지고 있다고 분석했습니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/30/jpmorgan-says-fading-clarity-act-odds-weigh-on-crypto-outlook",
+    "title": "JPMorgan: Fading Clarity Act Hurts Crypto Outlook",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "JPMorgan recently shared its comprehensive perspective on the evolving crypto market outlook. The prominent bank noted the significantly fading prospects for the U.S. Clarity Act. This crucial market structure legislation was widely seen as a key catalyst for digital assets' growth. Its diminishing chances now remove a significant source of positive regulatory momentum. This regulatory uncertainty negatively impacts the overall crypto market sentiment and investor confidence. However, JPMorgan simultaneously acknowledged ongoing advances in the field of tokenization. Institutional adoption of various digital assets continues to grow steadily across different sectors. These contrasting factors suggest a mixed but continuously evolving landscape for the crypto industry. Achieving clear regulatory frameworks remains absolutely essential for ensuring long-term industry stability and innovation. This highlights the ongoing tension between market innovation and the need for government oversight.",
+    "sentences": [
+      {
+        "en": "JPMorgan recently shared its comprehensive perspective on the evolving crypto market outlook.",
+        "ko": "JP모건은 최근 진화하는 암호화폐 시장 전망에 대한 포괄적인 견해를 공유했습니다."
+      },
+      {
+        "en": "The prominent bank noted the significantly fading prospects for the U.S. Clarity Act.",
+        "ko": "이 저명한 은행은 미국의 Clarity Act 통과 가능성이 상당히 희박해지고 있다고 언급했습니다."
+      },
+      {
+        "en": "This crucial market structure legislation was widely seen as a key catalyst for digital assets' growth.",
+        "ko": "이 중요한 시장 구조 법안은 디지털 자산 성장의 주요 촉매제로 널리 인식되었습니다."
+      },
+      {
+        "en": "Its diminishing chances now remove a significant source of positive regulatory momentum.",
+        "ko": "통과 가능성이 줄어들면서 이제 중요한 긍정적 규제 모멘텀의 원천이 사라졌습니다."
+      },
+      {
+        "en": "This regulatory uncertainty negatively impacts the overall crypto market sentiment and investor confidence.",
+        "ko": "이러한 규제 불확실성은 전반적인 암호화폐 시장 심리와 투자자 신뢰에 부정적인 영향을 미칩니다."
+      },
+      {
+        "en": "However, JPMorgan simultaneously acknowledged ongoing advances in the field of tokenization.",
+        "ko": "하지만 JP모건은 동시에 토큰화 분야의 지속적인 발전을 인정했습니다."
+      },
+      {
+        "en": "Institutional adoption of various digital assets continues to grow steadily across different sectors.",
+        "ko": "다양한 디지털 자산의 기관 채택은 여러 부문에서 꾸준히 증가하고 있습니다."
+      },
+      {
+        "en": "These contrasting factors suggest a mixed but continuously evolving landscape for the crypto industry.",
+        "ko": "이러한 대조적인 요소들은 암호화폐 산업이 혼합적이지만 지속적으로 진화하는 환경임을 시사합니다."
+      },
+      {
+        "en": "Achieving clear regulatory frameworks remains absolutely essential for ensuring long-term industry stability and innovation.",
+        "ko": "명확한 규제 프레임워크를 확보하는 것은 장기적인 산업 안정과 혁신을 보장하는 데 절대적으로 필수적입니다."
+      },
+      {
+        "en": "This highlights the ongoing tension between market innovation and the need for government oversight.",
+        "ko": "이는 시장 혁신과 정부 감독 필요성 사이의 지속적인 긴장을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "perspective": "a particular attitude toward or way of regarding something; a point of view.",
+      "outlook": "the likely future prospects or situation.",
+      "fading": "gradually growing fainter or less clear, losing strength.",
+      "prospects": "the possibility or likelihood of some future event occurring.",
+      "legislation": "laws, considered collectively.",
+      "catalyst": "a person or thing that precipitates an event or change.",
+      "assets": "items of property owned by a person or company, regarded as having value.",
+      "diminishing": "becoming less or smaller.",
+      "momentum": "the impetus gained by a moving object, or the force that keeps something moving.",
+      "uncertainty": "the state of being uncertain, doubt.",
+      "negatively": "in a bad or harmful way.",
+      "sentiment": "a feeling or opinion, especially one based on emotion rather than reason.",
+      "acknowledged": "accepted or admitted the existence or truth of something.",
+      "advances": "a forward movement, progress in development.",
+      "tokenization": "the process of converting an asset into a digital token on a blockchain.",
+      "institutional": "relating to a large and important organization, such as a bank or investment fund.",
+      "adoption": "the action of choosing to take up, follow, or use something.",
+      "landscape": "the characteristic features of a particular area, often used metaphorically for a field of activity.",
+      "regulatory": "relating to the supervision and control of a system or industry.",
+      "clarity": "the quality of being clear, easy to understand.",
+      "essential": "absolutely necessary or important.",
+      "stability": "the state of being stable and not subject to change or fluctuation."
+    },
+    "questions": [
+      "Q1: What is JPMorgan's main concern regarding the U.S. Clarity Act, and how does it affect the crypto market outlook?",
+      "Q2: Despite the concerns about the Clarity Act, what two positive developments does JPMorgan acknowledge in the crypto space?",
+      "Q3: From a PM's perspective, how crucial is regulatory clarity for the long-term success of new crypto products, and what challenges might arise without it?"
+    ],
+    "modelAnswers": [
+      "A1: JPMorgan is concerned about the fading prospects for the U.S. Clarity Act, which was seen as a key catalyst. This diminishing chance removes positive momentum and negatively impacts overall crypto market sentiment.",
+      "A2: JPMorgan acknowledges ongoing advances in tokenization and the steady growth of institutional adoption of digital assets. These areas continue to show progress despite regulatory uncertainties.",
+      "A3: Regulatory clarity is extremely crucial. Without it, new crypto products face legal uncertainties, compliance risks, and slower adoption from institutional players who require clear guidelines. This lack of clarity can stifle innovation and hinder market growth."
+    ]
+  },
+  {
+    "id": "ec-2026-07-31-1",
+    "date": "2026-07-31",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "이번 주 연준 회의의 주요 결과와 시장에 미칠 영향에 대해 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/29/here-are-the-five-big-takeaways-from-this-weeks-fed-meeting.html",
+    "title": "Five Key Insights from the Latest Fed Meeting",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Federal Reserve recently concluded its policy meeting. As expected, interest rates remained unchanged. However, a divided board revealed differing opinions. Some members favored an immediate rate hike. Others preferred to wait for more economic data. This split suggests a potential hike in the near future. Investors are now closely watching for upcoming signals. Market participants are adjusting their strategies accordingly. The Fed's next moves will greatly influence financial markets.",
+    "sentences": [
+      {
+        "en": "The Federal Reserve recently concluded its policy meeting.",
+        "ko": "연방준비제도(Fed)는 최근 통화 정책 회의를 마쳤습니다."
+      },
+      {
+        "en": "As expected, interest rates remained unchanged.",
+        "ko": "예상대로 금리는 변동 없이 유지되었습니다."
+      },
+      {
+        "en": "However, a divided board revealed differing opinions.",
+        "ko": "하지만 분열된 이사회는 서로 다른 의견을 드러냈습니다."
+      },
+      {
+        "en": "Some members favored an immediate rate hike.",
+        "ko": "일부 위원들은 즉각적인 금리 인상을 선호했습니다."
+      },
+      {
+        "en": "Others preferred to wait for more economic data.",
+        "ko": "다른 위원들은 더 많은 경제 데이터를 기다리기를 원했습니다."
+      },
+      {
+        "en": "This split suggests a potential hike in the near future.",
+        "ko": "이러한 분열은 가까운 미래에 금리 인상이 있을 수 있음을 시사합니다."
+      },
+      {
+        "en": "Investors are now closely watching for upcoming signals.",
+        "ko": "투자자들은 이제 다가오는 신호들을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Market participants are adjusting their strategies accordingly.",
+        "ko": "시장 참여자들은 그에 따라 전략을 조정하고 있습니다."
+      },
+      {
+        "en": "The Fed's next moves will greatly influence financial markets.",
+        "ko": "연준의 다음 움직임은 금융 시장에 큰 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "concluded": "It means to bring something to an end or to finish it.",
+      "policy": "This refers to a set of rules or plans made by a government or organization.",
+      "unchanged": "It means something has stayed the same and has not been altered.",
+      "divided": "This describes a group of people who have different opinions or are in disagreement.",
+      "revealed": "It means to make something known or visible that was previously secret or hidden.",
+      "favored": "It means to support or prefer a particular idea, person, or plan over others.",
+      "immediate": "This means happening or done without any delay or at once.",
+      "hike": "It refers to an increase in the amount or level of something, such as prices or rates.",
+      "preferred": "It means to like one thing better than another, or to choose it over others.",
+      "split": "This refers to a division or disagreement within a group of people or an organization.",
+      "suggests": "It means to put forward an idea or plan for consideration, or to indicate something indirectly.",
+      "potential": "This describes the possibility that something will happen or develop in the future.",
+      "near": "It means not far away in distance, time, or relationship.",
+      "future": "This refers to the time that is yet to come, after the present.",
+      "closely": "It means paying careful attention to something or watching it with great detail.",
+      "watching": "It means to look at someone or something for a period of time, often to observe.",
+      "signals": "This refers to an action or event that conveys information or indicates a future event.",
+      "participants": "These are people who take part in an activity or are involved in something.",
+      "adjusting": "It means to change something slightly to make it more suitable or effective.",
+      "strategies": "These are plans of action designed to achieve a long-term or overall aim.",
+      "accordingly": "It means in a way that is appropriate to the particular circumstances.",
+      "influence": "It means the capacity to have an effect on the character, development, or behavior of someone or something.",
+      "financial": "This relates to money or the management of money and investments.",
+      "markets": "These are places or systems where goods or services are bought and sold."
+    },
+    "questions": [
+      "What was the Federal Reserve's decision regarding interest rates at its latest meeting?",
+      "In the context of the passage, what does \"divided board\" imply about the Federal Reserve's members?",
+      "How do you think a potential future interest rate hike might impact your industry or personal financial planning?"
+    ],
+    "modelAnswers": [
+      "The Federal Reserve decided to keep interest rates unchanged at its latest policy meeting.",
+      "A \"divided board\" implies that the members of the Federal Reserve's policy-making committee had different opinions on whether to raise interest rates immediately or wait for more economic data.",
+      "A future interest rate hike could impact my industry by increasing borrowing costs for companies, potentially slowing down investment in new fintech projects. Personally, it might mean higher interest on loans or better returns on savings."
+    ]
+  },
+  {
+    "id": "ec-2026-07-31-2",
+    "date": "2026-07-31",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국 경제 성장률 둔화와 인플레이션 수치를 통해 최신 거시 경제 동향을 파악하세요.",
+    "url": "https://www.cnbc.com/2026/07/30/us-economy-slowed-to-1point5percent-growth-rate-in-q2-june-core-inflation-at-3point3percent.html",
+    "title": "U.S. Economic Growth Slows, Inflation Persists",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. economy experienced slower growth in the second quarter. The Gross Domestic Product (GDP) expanded by 1.5%. This figure was below previous market expectations. Core inflation for June also stood at 3.3%. This indicates that price pressures remain persistent. The slowdown was partly due to reduced government spending. A decline in business inventories also contributed. These factors suggest a cooling economic environment. Policymakers will consider these trends for future decisions.",
+    "sentences": [
+      {
+        "en": "The U.S. economy experienced slower growth in the second quarter.",
+        "ko": "미국 경제는 2분기에 성장 둔화를 겪었습니다."
+      },
+      {
+        "en": "The Gross Domestic Product (GDP) expanded by 1.5%.",
+        "ko": "국내총생산(GDP)은 1.5% 성장했습니다."
+      },
+      {
+        "en": "This figure was below previous market expectations.",
+        "ko": "이 수치는 이전 시장 기대치보다 낮았습니다."
+      },
+      {
+        "en": "Core inflation for June also stood at 3.3%.",
+        "ko": "6월 근원 인플레이션 또한 3.3%를 기록했습니다."
+      },
+      {
+        "en": "This indicates that price pressures remain persistent.",
+        "ko": "이는 물가 압력이 지속되고 있음을 나타냅니다."
+      },
+      {
+        "en": "The slowdown was partly due to reduced government spending.",
+        "ko": "성장 둔화는 부분적으로 정부 지출 감소 때문이었습니다."
+      },
+      {
+        "en": "A decline in business inventories also contributed.",
+        "ko": "기업 재고 감소도 영향을 미쳤습니다."
+      },
+      {
+        "en": "These factors suggest a cooling economic environment.",
+        "ko": "이러한 요인들은 경제 환경이 냉각되고 있음을 시사합니다."
+      },
+      {
+        "en": "Policymakers will consider these trends for future decisions.",
+        "ko": "정책 입안자들은 향후 결정을 위해 이러한 추세를 고려할 것입니다."
+      }
+    ],
+    "glossary": {
+      "experienced": "It means to undergo or live through an event or situation.",
+      "slower": "It means moving or operating at a reduced speed or pace.",
+      "growth": "This refers to the process of increasing in size, amount, or development.",
+      "quarter": "It means one of four equal parts into which a year is divided.",
+      "expanded": "It means to increase in size, volume, or significance.",
+      "figure": "This refers to a number, especially one that is part of an official report or statistic.",
+      "previous": "It means existing or happening before the present time.",
+      "expectations": "These are strong beliefs that something will happen or be the case.",
+      "core": "This refers to the most important or central part of something, often excluding volatile items.",
+      "inflation": "It is the rate at which the general level of prices for goods and services is rising.",
+      "stood": "It means to be at a particular level or amount, or to remain in a certain state.",
+      "indicates": "It means to point out or show something, or to be a sign of something.",
+      "pressures": "These are forces or influences that make it difficult to achieve something, like stable prices.",
+      "persistent": "It means continuing firmly or obstinately in an opinion or course of action despite difficulty.",
+      "partly": "It means to some extent, but not completely.",
+      "reduced": "It means made smaller or less in amount, degree, or size.",
+      "spending": "This refers to the action of paying money for goods or services.",
+      "decline": "It means a gradual and continuous loss of strength, numbers, or value.",
+      "inventories": "These are complete lists of items such as property, goods in stock, or the contents of a building.",
+      "contributed": "It means to help to cause or bring about something.",
+      "cooling": "It means becoming less intense, active, or enthusiastic.",
+      "environment": "This refers to the conditions that surround someone or something.",
+      "policymakers": "These are individuals or groups responsible for creating or enacting policies.",
+      "trends": "These are general directions in which something is developing or changing."
+    },
+    "questions": [
+      "What was the U.S. GDP growth rate in the second quarter, and how did it compare to expectations?",
+      "Explain what \"core inflation\" means in the context of economic reporting.",
+      "How might a slowdown in GDP growth and persistent inflation affect consumer confidence and investment decisions in the fintech sector?"
+    ],
+    "modelAnswers": [
+      "The U.S. GDP growth rate in the second quarter was 1.5%, which was below previous market expectations.",
+      "In economic reporting, \"core inflation\" typically refers to the increase in prices of goods and services, excluding volatile items like food and energy, to show underlying price trends.",
+      "A slowdown in GDP growth and persistent inflation could reduce consumer confidence, making people less likely to spend or invest. For fintech, this might lead to slower adoption of new services or reduced funding for startups, as investors become more cautious."
+    ]
+  },
+  {
+    "id": "ec-2026-07-31-3",
+    "date": "2026-07-31",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국과 중국 간의 인공지능(AI) 경쟁이 아시아 시장에서 어떻게 전개되고 있는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/30/us-wants-asia-to-use-its-ai-but-china-dominates-cheaper-models.html",
+    "title": "U.S. and China Vie for AI Dominance in Asia",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Asia is becoming a central battleground for AI competition. The U.S. aims for Asian countries to adopt its advanced AI. These models often offer high performance and security. However, China dominates the market for more affordable AI. Chinese AI models are often accessible to a wider range of users. This creates a significant challenge for U.S. expansion. Geopolitical tensions also influence technology choices. Nations weigh economic benefits against strategic alliances. The outcome will shape future global technological landscapes.",
+    "sentences": [
+      {
+        "en": "Asia is becoming a central battleground for AI competition.",
+        "ko": "아시아는 AI 경쟁의 중심 전장이 되고 있습니다."
+      },
+      {
+        "en": "The U.S. aims for Asian countries to adopt its advanced AI.",
+        "ko": "미국은 아시아 국가들이 자국의 선진 AI를 채택하기를 목표로 합니다."
+      },
+      {
+        "en": "These models often offer high performance and security.",
+        "ko": "이러한 모델들은 종종 높은 성능과 보안을 제공합니다."
+      },
+      {
+        "en": "However, China dominates the market for more affordable AI.",
+        "ko": "하지만 중국은 더 저렴한 AI 시장을 장악하고 있습니다."
+      },
+      {
+        "en": "Chinese AI models are often accessible to a wider range of users.",
+        "ko": "중국 AI 모델은 더 광범위한 사용자들이 접근할 수 있습니다."
+      },
+      {
+        "en": "This creates a significant challenge for U.S. expansion.",
+        "ko": "이는 미국의 확장에 상당한 어려움을 만듭니다."
+      },
+      {
+        "en": "Geopolitical tensions also influence technology choices.",
+        "ko": "지정학적 긴장 또한 기술 선택에 영향을 미칩니다."
+      },
+      {
+        "en": "Nations weigh economic benefits against strategic alliances.",
+        "ko": "국가들은 경제적 이익과 전략적 동맹을 비교합니다."
+      },
+      {
+        "en": "The outcome will shape future global technological landscapes.",
+        "ko": "그 결과는 미래의 글로벌 기술 지형을 형성할 것입니다."
+      }
+    ],
+    "glossary": {
+      "central": "It means forming the most important or essential part of something.",
+      "battleground": "This refers to an area where a conflict or competition is being fought.",
+      "competition": "It is a situation in which people or organizations try to be more successful than others.",
+      "aims": "It means to point or direct a goal or purpose towards something.",
+      "adopt": "It means to take on or start to use a particular method or idea.",
+      "advanced": "This describes something that is highly developed or at a higher level.",
+      "models": "These are simplified representations or designs of a system or product.",
+      "often": "It means frequently or on many occasions.",
+      "performance": "This refers to how well a person, machine, or product functions.",
+      "security": "It means the state of being free from danger or threat.",
+      "dominates": "It means to have a commanding influence or control over something.",
+      "market": "This refers to the area of economic activity where goods and services are bought and sold.",
+      "affordable": "It means inexpensive enough for most people to buy.",
+      "accessible": "It means able to be reached or entered, or easy to use and understand.",
+      "wider": "It means having a greater extent from side to side than usual.",
+      "range": "This refers to the scope or extent of something, or a set of varied things.",
+      "users": "These are people who use a particular product or service.",
+      "creates": "It means to bring something into existence, or to cause something to happen.",
+      "significant": "It means important, noteworthy, or having a great effect.",
+      "challenge": "This refers to a difficult task or problem that tests someone's ability.",
+      "expansion": "It means the action of becoming larger or more extensive.",
+      "geopolitical": "This relates to politics, especially international relations, as influenced by geographical factors.",
+      "tensions": "These are states of being stretched tight, or situations of strained relations.",
+      "influence": "It means to have an effect on the character, development, or behavior of someone or something.",
+      "choices": "These are acts of choosing between two or more possibilities.",
+      "nations": "These are large groups of people united by common descent, history, culture, or language, inhabiting a particular country or territory.",
+      "weigh": "It means to consider or assess the relative importance of something.",
+      "benefits": "These are advantages or profits gained from something.",
+      "strategic": "This relates to the identification of long-term or overall aims and interests.",
+      "alliances": "These are unions or associations formed for mutual benefit, especially between countries or organizations.",
+      "outcome": "It means the way a thing turns out, or a consequence.",
+      "shape": "It means to determine the nature of something, or to influence its development.",
+      "global": "This refers to something relating to the whole world.",
+      "technological": "This relates to or involves technology.",
+      "landscapes": "These are the distinctive characteristics of an area, or the overall situation."
+    },
+    "questions": [
+      "What is Asia's role in the global competition between the U.S. and China regarding AI?",
+      "In the context of the passage, what does \"dominates the market\" mean for China's AI models?",
+      "How do you think the competition for AI dominance in Asia might affect the development and adoption of fintech solutions in the region?"
+    ],
+    "modelAnswers": [
+      "Asia is becoming a central battleground for AI competition between the U.S. and China.",
+      "In the passage, \"dominates the market\" means that China has a commanding influence and control over the market for more affordable AI models, making them widely available and adopted.",
+      "The competition for AI dominance in Asia could lead to faster innovation and more diverse fintech solutions, as both U.S. and Chinese companies vie for market share. It might also result in more affordable AI-powered fintech products from China, increasing accessibility, while U.S. offerings might focus on advanced, secure, and high-performance solutions for specific segments."
+    ]
+  },
+  {
     "id": "cd-2026-07-30-1",
     "date": "2026-07-30",
     "rank": 1,
