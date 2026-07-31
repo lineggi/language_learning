@@ -1,5 +1,600 @@
 [
   {
+    "id": "cd-2026-08-01-1",
+    "date": "2026-08-01",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "USDC 발행사인 Circle이 뉴욕 신탁 인가를 획득하며 규제 준수와 서비스 확장에 중요한 발걸음을 내디뎠습니다.",
+    "url": "https://www.coindesk.com/policy/2026/07/31/circle-secures-new-york-trust-charter-as-crypto-regulatory-push-accelerates",
+    "title": "Circle Gains NY Trust Charter, Expands Services",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Circle, the company behind the USDC stablecoin, has secured a New York trust charter. This significant approval allows Circle to legally offer fiduciary and custody services. It marks a crucial step in the accelerating regulatory landscape for crypto companies. The charter permits Circle to operate more securely under New York's banking laws. Fiduciary services mean Circle can now manage assets and act in clients' best interests. Custody services involve securely holding digital assets on behalf of users. This development enhances confidence in USDC and the broader stablecoin market. It also demonstrates that regulators are establishing clearer pathways for crypto businesses. Such regulatory clarity is essential for increasing institutional adoption of digital assets. The charter strengthens Circle's position as a compliant and reliable financial technology firm. This sets an important precedent for other crypto firms seeking similar operational licenses. Overall, it helps integrate digital assets further into the traditional financial system.",
+    "sentences": [
+      {
+        "en": "Circle, the company behind the USDC stablecoin, has secured a New York trust charter.",
+        "ko": "USDC 스테이블코인 발행사인 Circle은 뉴욕 신탁 인가를 획득했습니다."
+      },
+      {
+        "en": "This significant approval allows Circle to legally offer fiduciary and custody services.",
+        "ko": "이 중요한 승인으로 Circle은 법적으로 수탁 및 보관 서비스를 제공할 수 있게 되었습니다."
+      },
+      {
+        "en": "It marks a crucial step in the accelerating regulatory landscape for crypto companies.",
+        "ko": "이는 암호화폐 기업에 대한 규제 환경이 가속화되는 과정에서 중요한 발걸음입니다."
+      },
+      {
+        "en": "The charter permits Circle to operate more securely under New York's banking laws.",
+        "ko": "이 인가는 Circle이 뉴욕의 은행법에 따라 더 안전하게 운영되도록 허용합니다."
+      },
+      {
+        "en": "Fiduciary services mean Circle can now manage assets and act in clients' best interests.",
+        "ko": "수탁 서비스는 Circle이 이제 고객의 최선의 이익을 위해 자산을 관리할 수 있음을 의미합니다."
+      },
+      {
+        "en": "Custody services involve securely holding digital assets on behalf of users.",
+        "ko": "보관 서비스는 사용자를 대신하여 디지털 자산을 안전하게 보유하는 것을 포함합니다."
+      },
+      {
+        "en": "This development enhances confidence in USDC and the broader stablecoin market.",
+        "ko": "이러한 발전은 USDC와 더 넓은 스테이블코인 시장에 대한 신뢰를 높입니다."
+      },
+      {
+        "en": "It also demonstrates that regulators are establishing clearer pathways for crypto businesses.",
+        "ko": "또한 규제 당국이 암호화폐 사업을 위한 더 명확한 경로를 구축하고 있음을 보여줍니다."
+      },
+      {
+        "en": "Such regulatory clarity is essential for increasing institutional adoption of digital assets.",
+        "ko": "이러한 규제 명확성은 디지털 자산의 기관 채택을 늘리는 데 필수적입니다."
+      },
+      {
+        "en": "The charter strengthens Circle's position as a compliant and reliable financial technology firm.",
+        "ko": "이 인가는 Circle이 규정을 준수하고 신뢰할 수 있는 핀테크 기업으로서의 입지를 강화합니다."
+      },
+      {
+        "en": "This sets an important precedent for other crypto firms seeking similar operational licenses.",
+        "ko": "이는 유사한 운영 라이선스를 찾는 다른 암호화폐 기업들에게 중요한 선례가 됩니다."
+      },
+      {
+        "en": "Overall, it helps integrate digital assets further into the traditional financial system.",
+        "ko": "전반적으로 이는 디지털 자산을 전통 금융 시스템에 더 깊이 통합하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "secured": "successfully obtained something after effort or negotiation.",
+      "charter": "an official document granting rights or permissions to an organization.",
+      "approval": "the act of officially agreeing to something or allowing it.",
+      "fiduciary": "involving trust, especially with managing assets for another person.",
+      "custody": "the act of holding and protecting assets or property for others.",
+      "accelerating": "increasing in speed, rate, or progress.",
+      "regulatory": "related to rules or laws set by a government authority.",
+      "landscape": "the overall environment or situation in a particular field.",
+      "permits": "officially allows or gives authorization for something to happen.",
+      "operate": "to function or conduct business activities.",
+      "banking": "concerning the business of financial institutions that handle money.",
+      "assets": "items of value owned by an individual or company.",
+      "securely": "in a way that is safe, protected, and free from risk.",
+      "enhances": "improves the quality, value, or attractiveness of something.",
+      "confidence": "a feeling of trust or belief in someone or something.",
+      "broader": "covering a wider range of subjects or things.",
+      "demonstrates": "clearly shows the existence, truth, or quality of something.",
+      "establishing": "setting up or creating something on a firm or permanent basis.",
+      "institutional": "relating to large, established organizations like banks or funds.",
+      "adoption": "the act of starting to use or accept something new or different.",
+      "compliant": "acting in accordance with a rule, regulation, or request.",
+      "precedent": "an earlier event or action that is regarded as an example."
+    },
+    "questions": [
+      "What specific types of services can Circle now offer due to its New York trust charter?",
+      "Explain the difference between \"fiduciary services\" and \"custody services\" in the context of this article.",
+      "How might increased regulatory clarity, like Circle's new charter, influence the future adoption of digital assets by traditional financial institutions?"
+    ],
+    "modelAnswers": [
+      "Circle can now legally offer fiduciary and custody services thanks to its New York trust charter.",
+      "Fiduciary services involve managing assets while acting in clients' best interests. Custody services mean securely holding digital assets on behalf of users.",
+      "Regulatory clarity builds trust and reduces risk for traditional institutions. This could encourage more banks and investment firms to engage with digital assets, leading to wider adoption."
+    ]
+  },
+  {
+    "id": "cd-2026-08-01-2",
+    "date": "2026-08-01",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "세계 최대 스테이블코인 발행사인 Tether가 2분기에 15억 달러의 영업 이익을 기록하며 재정 건전성을 입증했습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/31/tether-posts-usd1-5-billion-operating-profit-in-q2-as-reserve-buffer-falls-by-half",
+    "title": "Tether Reports Strong Q2 Operating Profit",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Tether, the largest stablecoin issuer globally, reported a significant operating profit. The company achieved $1.5 billion in profit during the second quarter. This strong financial performance demonstrates Tether's continued robust health. However, its reserve buffer, an extra safety net, decreased by half. Despite this reduction, the company added substantial assets to its reserves. Tether acquired 14 metric tons of gold, diversifying its holdings. It also purchased approximately 1,800 Bitcoin for its reserve portfolio. These additions strengthen the backing of its USDT stablecoin. The profit mostly came from interest earned on its extensive U.S. Treasury holdings. This news is important for investor confidence in the stablecoin market. It highlights the profitability potential of stablecoin operations. Understanding Tether's financial health is key for the wider crypto ecosystem.",
+    "sentences": [
+      {
+        "en": "Tether, the largest stablecoin issuer globally, reported a significant operating profit.",
+        "ko": "전 세계 최대 스테이블코인 발행사인 Tether가 상당한 영업 이익을 보고했습니다."
+      },
+      {
+        "en": "The company achieved $1.5 billion in profit during the second quarter.",
+        "ko": "이 회사는 2분기에 15억 달러의 이익을 달성했습니다."
+      },
+      {
+        "en": "This strong financial performance demonstrates Tether's continued robust health.",
+        "ko": "이러한 강력한 재무 성과는 Tether의 지속적인 견고한 건전성을 보여줍니다."
+      },
+      {
+        "en": "However, its reserve buffer, an extra safety net, decreased by half.",
+        "ko": "하지만 추가적인 안전망인 준비금 완충액은 절반으로 줄었습니다."
+      },
+      {
+        "en": "Despite this reduction, the company added substantial assets to its reserves.",
+        "ko": "이러한 감소에도 불구하고, 회사는 상당한 자산을 준비금에 추가했습니다."
+      },
+      {
+        "en": "Tether acquired 14 metric tons of gold, diversifying its holdings.",
+        "ko": "Tether는 14톤의 금을 인수하여 보유 자산을 다각화했습니다."
+      },
+      {
+        "en": "It also purchased approximately 1,800 Bitcoin for its reserve portfolio.",
+        "ko": "또한 약 1,800개의 비트코인을 준비금 포트폴리오에 매입했습니다."
+      },
+      {
+        "en": "These additions strengthen the backing of its USDT stablecoin.",
+        "ko": "이러한 추가는 USDT 스테이블코인의 담보를 강화합니다."
+      },
+      {
+        "en": "The profit mostly came from interest earned on its extensive U.S. Treasury holdings.",
+        "ko": "이 이익은 주로 방대한 미국 국채 보유를 통해 얻은 이자에서 나왔습니다."
+      },
+      {
+        "en": "This news is important for investor confidence in the stablecoin market.",
+        "ko": "이 소식은 스테이블코인 시장에 대한 투자자 신뢰에 중요합니다."
+      },
+      {
+        "en": "It highlights the profitability potential of stablecoin operations.",
+        "ko": "이는 스테이블코인 운영의 수익성 잠재력을 강조합니다."
+      },
+      {
+        "en": "Understanding Tether's financial health is key for the wider crypto ecosystem.",
+        "ko": "Tether의 재무 건전성을 이해하는 것은 더 넓은 암호화폐 생태계에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "issuer": "a company or entity that creates and distributes something, like a stablecoin.",
+      "reported": "gave an account of something, often officially or publicly.",
+      "significant": "large or important enough to be noticed or considered.",
+      "operating": "relating to the regular activities of a business or organization.",
+      "profit": "financial gain, especially the difference between revenue and costs.",
+      "achieved": "successfully gained or obtained something after effort.",
+      "robust": "strong and healthy; not likely to fail or be weak.",
+      "buffer": "something that reduces the impact of a shock or protects against difficulties.",
+      "decreased": "became less in size, amount, or extent.",
+      "reduction": "the act of making something smaller or less in amount.",
+      "substantial": "of considerable importance, size, or worth.",
+      "acquired": "obtained or bought something, often a large asset or company.",
+      "diversifying": "spreading investments across different assets to reduce risk.",
+      "holdings": "financial assets or property owned by an individual or company.",
+      "purchased": "bought something; acquired by paying money.",
+      "portfolio": "a collection of financial investments owned by an individual or company.",
+      "strengthen": "to make something stronger or more effective.",
+      "backing": "financial support or guarantees for a currency or asset.",
+      "extensive": "covering a large area or range; very thorough.",
+      "treasury": "a government department managing public revenue and finances.",
+      "confidence": "a feeling of trust or belief in someone or something.",
+      "profitability": "the ability of a business or activity to make a profit.",
+      "ecosystem": "a complex network or interconnected system, often in a business context."
+    },
+    "questions": [
+      "How much operating profit did Tether report in the second quarter, and what happened to its reserve buffer?",
+      "What does \"diversifying its holdings\" mean in the context of Tether's asset acquisitions?",
+      "Why is Tether's financial health and the composition of its reserves particularly important for the broader crypto market?"
+    ],
+    "modelAnswers": [
+      "Tether reported $1.5 billion in operating profit, while its reserve buffer decreased by half.",
+      "Diversifying holdings means Tether added different types of assets, like gold and Bitcoin, to its reserves instead of relying on just one kind. This reduces risk.",
+      "Tether's stability is crucial because USDT is widely used in crypto trading. Its financial health directly impacts investor confidence and the perceived safety of the entire stablecoin market."
+    ]
+  },
+  {
+    "id": "cd-2026-08-01-3",
+    "date": "2026-08-01",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "두바이에 기반을 둔 암호화폐 거래소가 이란의 40억 달러 규모 제재 회피 네트워크와 연루되어 규제 준수 문제를 부각했습니다.",
+    "url": "https://www.coindesk.com/business/2026/07/31/dubai-based-crypto-exchange-tied-to-usd4-billion-iran-sanctioned-evasion-network-reuters",
+    "title": "Dubai Exchange Linked to Iran Sanctions Evasion",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A Dubai-based crypto exchange, Shelbit, is allegedly involved in a massive sanctions evasion network. This network is reportedly linked to Iran and totals $4 billion. Shelbit supposedly sent hundreds of millions of dollars to major crypto exchanges. These included well-known platforms like Binance. The exchange connected gambling sites and sanctioned Iranian entities. It linked them to global crypto markets, bypassing international rules. This incident highlights significant regulatory compliance challenges within the crypto industry. It raises serious questions about the effectiveness of current oversight. Exchanges must implement robust anti-money laundering (AML) controls. They need to prevent illicit financial activities on their platforms. Such revelations can damage trust in the entire crypto ecosystem. Regulators worldwide are increasing scrutiny on exchanges to prevent similar schemes. This case underscores the ongoing need for stronger global crypto regulations.",
+    "sentences": [
+      {
+        "en": "A Dubai-based crypto exchange, Shelbit, is allegedly involved in a massive sanctions evasion network.",
+        "ko": "두바이에 기반을 둔 암호화폐 거래소 Shelbit이 대규모 제재 회피 네트워크에 연루되었다고 알려졌습니다."
+      },
+      {
+        "en": "This network is reportedly linked to Iran and totals $4 billion.",
+        "ko": "이 네트워크는 이란과 연관되어 있으며 총 40억 달러 규모로 보고되었습니다."
+      },
+      {
+        "en": "Shelbit supposedly sent hundreds of millions of dollars to major crypto exchanges.",
+        "ko": "Shelbit은 수억 달러를 주요 암호화폐 거래소로 보냈다고 추정됩니다."
+      },
+      {
+        "en": "These included well-known platforms like Binance.",
+        "ko": "여기에는 바이낸스와 같은 잘 알려진 플랫폼이 포함되었습니다."
+      },
+      {
+        "en": "The exchange connected gambling sites and sanctioned Iranian entities.",
+        "ko": "이 거래소는 도박 사이트와 제재 대상 이란 기관들을 연결했습니다."
+      },
+      {
+        "en": "It linked them to global crypto markets, bypassing international rules.",
+        "ko": "이는 국제 규칙을 우회하여 글로벌 암호화폐 시장에 이들을 연결했습니다."
+      },
+      {
+        "en": "This incident highlights significant regulatory compliance challenges within the crypto industry.",
+        "ko": "이 사건은 암호화폐 산업 내에서 상당한 규제 준수 문제를 부각합니다."
+      },
+      {
+        "en": "It raises serious questions about the effectiveness of current oversight.",
+        "ko": "이는 현재 감독의 효과성에 대한 심각한 의문을 제기합니다."
+      },
+      {
+        "en": "Exchanges must implement robust anti-money laundering (AML) controls.",
+        "ko": "거래소는 강력한 자금세탁 방지(AML) 통제를 시행해야 합니다."
+      },
+      {
+        "en": "They need to prevent illicit financial activities on their platforms.",
+        "ko": "그들은 플랫폼에서 불법 금융 활동을 막아야 합니다."
+      },
+      {
+        "en": "Such revelations can damage trust in the entire crypto ecosystem.",
+        "ko": "이러한 폭로는 전체 암호화폐 생태계에 대한 신뢰를 손상시킬 수 있습니다."
+      },
+      {
+        "en": "Regulators worldwide are increasing scrutiny on exchanges to prevent similar schemes.",
+        "ko": "전 세계 규제 당국은 유사한 계획을 막기 위해 거래소에 대한 감시를 강화하고 있습니다."
+      },
+      {
+        "en": "This case underscores the ongoing need for stronger global crypto regulations.",
+        "ko": "이 사례는 더 강력한 글로벌 암호화폐 규제의 지속적인 필요성을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "allegedly": "stated to have happened, but not yet proven as fact.",
+      "involved": "participating in an activity or situation, often one that is complex or illicit.",
+      "massive": "extremely large or extensive in size, amount, or degree.",
+      "sanctions": "official orders or laws limiting trade or contact with a country or entity.",
+      "evasion": "the act of avoiding something, especially a rule, law, or tax, often illegally.",
+      "network": "a group of interconnected people or organizations working together.",
+      "reportedly": "according to what some people say or what has been reported.",
+      "linked": "connected or associated with something else, often implying a relationship.",
+      "supposedly": "according to what is generally believed, but perhaps not true.",
+      "major": "very large or important compared to others of its kind.",
+      "platforms": "systems or services that allow users to interact digitally or conduct transactions.",
+      "entities": "things with distinct existence, such as organizations, businesses, or governments.",
+      "bypassing": "going around or avoiding an obstacle, authority, or rule.",
+      "highlights": "draws attention to something important or makes it stand out.",
+      "compliance": "the act of obeying rules, laws, or requests, especially by a company.",
+      "challenges": "difficulties that need to be overcome to achieve a goal.",
+      "oversight": "the action of supervising someone or something to ensure rules are followed.",
+      "implement": "to put a decision, plan, or system into effect.",
+      "robust": "strong and healthy; not likely to fail or be easily broken.",
+      "illicit": "forbidden by law, rules, or custom; illegal.",
+      "revelations": "surprising and previously unknown facts that are made public.",
+      "damage": "to harm or spoil something, reducing its value or effectiveness.",
+      "scrutiny": "critical observation or examination of something.",
+      "underscores": "emphasizes something or shows that it is important."
+    },
+    "questions": [
+      "Which crypto exchange is allegedly involved in the Iran sanctions evasion network, and what was the estimated value of this network?",
+      "What does \"sanctions evasion\" mean, and why is it a significant concern in the crypto industry?",
+      "In your opinion, what measures can crypto exchanges take to prevent being used for illicit activities like sanctions evasion?"
+    ],
+    "modelAnswers": [
+      "The Dubai-based crypto exchange Shelbit is allegedly involved in a $4 billion Iran sanctions evasion network.",
+      "Sanctions evasion means illegally avoiding restrictions placed on trade or finance with certain entities or countries. It's a concern because it undermines global financial security and can lead to severe penalties for involved platforms.",
+      "Exchanges can implement stricter KYC/AML checks, use advanced transaction monitoring tools, and enhance cooperation with international regulators. They also need to conduct regular audits to ensure compliance."
+    ]
+  },
+  {
+    "id": "ec-2026-08-01-1",
+    "date": "2026-08-01",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준의 금리 인상 가능성과 투자자들에게 미칠 영향에 대해 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html",
+    "title": "Divided Fed Signals Potential Rate Hike",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Federal Reserve recently concluded a key policy meeting. Officials were reportedly divided on the path forward for interest rates. Despite this division, Wall Street analysts have a clear expectation. They anticipate a rate hike is highly probable in the near future. This reflects ongoing concerns about persistent inflation. A divided Fed suggests differing views on economic conditions. Some policymakers prioritize controlling price increases. Others may worry about potential impacts on economic growth. Investors are closely watching for further signals. Future Fed decisions will significantly shape market sentiment. This uncertainty requires careful investment strategies. Understanding the Fed's stance is vital for financial planning.",
+    "sentences": [
+      {
+        "en": "The Federal Reserve recently concluded a key policy meeting.",
+        "ko": "연방준비제도(Fed)는 최근 중요한 정책 회의를 마쳤습니다."
+      },
+      {
+        "en": "Officials were reportedly divided on the path forward for interest rates.",
+        "ko": "관계자들은 금리 인상 방향에 대해 의견이 나뉜 것으로 알려졌습니다."
+      },
+      {
+        "en": "Despite this division, Wall Street analysts have a clear expectation.",
+        "ko": "이러한 의견 차이에도 불구하고, 월스트리트 분석가들은 분명한 예상을 하고 있습니다."
+      },
+      {
+        "en": "They anticipate a rate hike is highly probable in the near future.",
+        "ko": "그들은 가까운 시일 내에 금리 인상이 매우 유력하다고 예상합니다."
+      },
+      {
+        "en": "This reflects ongoing concerns about persistent inflation.",
+        "ko": "이는 지속적인 인플레이션에 대한 계속되는 우려를 반영합니다."
+      },
+      {
+        "en": "A divided Fed suggests differing views on economic conditions.",
+        "ko": "연준의 분열은 경제 상황에 대한 다양한 견해를 시사합니다."
+      },
+      {
+        "en": "Some policymakers prioritize controlling price increases.",
+        "ko": "일부 정책 입안자들은 물가 상승 억제를 최우선으로 생각합니다."
+      },
+      {
+        "en": "Others may worry about potential impacts on economic growth.",
+        "ko": "다른 이들은 경제 성장에 미칠 잠재적 영향을 우려할 수 있습니다."
+      },
+      {
+        "en": "Investors are closely watching for further signals.",
+        "ko": "투자자들은 추가적인 신호를 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Future Fed decisions will significantly shape market sentiment.",
+        "ko": "미래 연준의 결정은 시장 심리에 큰 영향을 미칠 것입니다."
+      },
+      {
+        "en": "This uncertainty requires careful investment strategies.",
+        "ko": "이러한 불확실성에는 신중한 투자 전략이 필요합니다."
+      },
+      {
+        "en": "Understanding the Fed's stance is vital for financial planning.",
+        "ko": "연준의 입장을 이해하는 것은 재정 계획에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "concluded": "To bring something to an end or finish, like a meeting or discussion.",
+      "policy": "A set of rules or plans chosen by a government or organization to guide decisions.",
+      "reportedly": "According to what some people say, though not necessarily confirmed as true.",
+      "divided": "Having different opinions or disagreements among members of a group.",
+      "path": "A particular course of action or a way that something is developing.",
+      "interest": "The cost of borrowing money or the return on an investment, expressed as a percentage.",
+      "analysts": "People who examine information in detail to explain it or make predictions.",
+      "anticipate": "To expect that something will happen and prepare for it.",
+      "probable": "Likely to happen or be true, but not certain.",
+      "reflects": "To show or be a sign of a particular situation, feeling, or quality.",
+      "ongoing": "Continuing to exist or progress; not yet finished.",
+      "persistent": "Continuing to exist or happen for a long time, often in an annoying way.",
+      "inflation": "A general increase in prices and fall in the purchasing value of money.",
+      "suggests": "To indicate or show something indirectly, rather than stating it clearly.",
+      "differing": "Being unlike or distinct; having different opinions or characteristics.",
+      "policymakers": "Individuals or groups responsible for making official rules or plans.",
+      "prioritize": "To arrange or deal with things in order of importance.",
+      "impacts": "The strong effects or influences that something has on a situation.",
+      "sentiment": "A general feeling or opinion among a group of people about a situation.",
+      "uncertainty": "The state of being unsure or not knowing what will happen.",
+      "strategies": "Careful plans or methods for achieving a particular goal.",
+      "stance": "The way in which someone stands or holds themselves, or their attitude towards something.",
+      "vital": "Absolutely necessary or important for life or success."
+    },
+    "questions": [
+      "What is the main takeaway from the recent Federal Reserve meeting, according to Wall Street analysts?",
+      "The article mentions 'a divided Fed.' What does this phrase mean in the context of central bank policymaking, and why might it create uncertainty for investors?",
+      "How might a potential interest rate hike by the Federal Reserve influence your personal financial decisions or investment strategies?"
+    ],
+    "modelAnswers": [
+      "Wall Street analysts believe that despite internal divisions, a Federal Reserve interest rate hike is highly probable in the near future.",
+      "'A divided Fed' means that policymakers within the Federal Reserve have differing opinions on the best course of action, particularly regarding interest rates. This division can create uncertainty for investors because it makes future policy decisions less predictable, complicating investment planning.",
+      "A potential interest rate hike would likely increase borrowing costs for loans like mortgages and credit cards. For investments, it might make bonds more attractive relative to stocks, and I would consider adjusting my portfolio to reflect these changing market dynamics."
+    ]
+  },
+  {
+    "id": "ec-2026-08-01-2",
+    "date": "2026-08-01",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "금리 불확실성 속에서 채권 시장의 핵심 투자 전략을 배워보세요.",
+    "url": "https://www.cnbc.com/2026/07/31/top-investment-ideas-as-interest-rate-uncertainty-grips-market-.html",
+    "title": "Yield Curve Focus Amid Rate Uncertainty",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Interest rate uncertainty is currently gripping financial markets. Bond market investors are seeking clear guidance. Experts suggest focusing on the front end of the yield curve. This strategy comes from Allspring Global Investments’ Noah Wise. The yield curve illustrates bond yields across different maturities. The 'front end' refers to short-term bonds, typically one to three years. These short-term bonds are more sensitive to immediate Fed actions. The Federal Reserve's upcoming meetings are highly anticipated. Their decisions will directly influence short-term interest rates. Investors can adjust portfolios based on these expectations. Understanding yield curve dynamics is crucial for fixed-income investors. This approach helps manage risk in a volatile rate environment.",
+    "sentences": [
+      {
+        "en": "Interest rate uncertainty is currently gripping financial markets.",
+        "ko": "현재 금리 불확실성이 금융 시장을 뒤흔들고 있습니다."
+      },
+      {
+        "en": "Bond market investors are seeking clear guidance.",
+        "ko": "채권 시장 투자자들은 명확한 지침을 찾고 있습니다."
+      },
+      {
+        "en": "Experts suggest focusing on the front end of the yield curve.",
+        "ko": "전문가들은 수익률 곡선의 단기 부분에 집중할 것을 제안합니다."
+      },
+      {
+        "en": "This strategy comes from Allspring Global Investments’ Noah Wise.",
+        "ko": "이 전략은 Allspring Global Investments의 Noah Wise로부터 나왔습니다."
+      },
+      {
+        "en": "The yield curve illustrates bond yields across different maturities.",
+        "ko": "수익률 곡선은 만기별 채권 수익률을 보여줍니다."
+      },
+      {
+        "en": "The 'front end' refers to short-term bonds, typically one to three years.",
+        "ko": "'단기 부분'은 일반적으로 1년에서 3년 만기의 단기 채권을 의미합니다."
+      },
+      {
+        "en": "These short-term bonds are more sensitive to immediate Fed actions.",
+        "ko": "이러한 단기 채권은 연준의 즉각적인 조치에 더 민감합니다."
+      },
+      {
+        "en": "The Federal Reserve's upcoming meetings are highly anticipated.",
+        "ko": "연방준비제도(Fed)의 다가오는 회의는 매우 기대됩니다."
+      },
+      {
+        "en": "Their decisions will directly influence short-term interest rates.",
+        "ko": "그들의 결정은 단기 금리에 직접적인 영향을 미칠 것입니다."
+      },
+      {
+        "en": "Investors can adjust portfolios based on these expectations.",
+        "ko": "투자자들은 이러한 예상에 따라 포트폴리오를 조정할 수 있습니다."
+      },
+      {
+        "en": "Understanding yield curve dynamics is crucial for fixed-income investors.",
+        "ko": "수익률 곡선 역학을 이해하는 것은 고정 수입 투자자에게 중요합니다."
+      },
+      {
+        "en": "This approach helps manage risk in a volatile rate environment.",
+        "ko": "이러한 접근 방식은 변동성이 큰 금리 환경에서 위험을 관리하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "uncertainty": "The state of not knowing what will happen or what the future holds.",
+      "gripping": "Holding someone's attention or affecting a situation strongly and continuously.",
+      "seeking": "Trying to find or obtain something, often with effort.",
+      "guidance": "Help and advice about how to do something or deal with problems.",
+      "experts": "People who have a lot of special knowledge or skill in a particular area.",
+      "suggest": "To put forward an idea or plan for consideration.",
+      "focusing": "Directing one's attention or efforts towards a particular object or subject.",
+      "yield": "The income return on an investment, expressed as a percentage.",
+      "curve": "A graphic representation showing the relationship between two changing quantities.",
+      "illustrates": "To explain or make something clear by using examples, diagrams, or pictures.",
+      "maturities": "The dates when a financial instrument, like a bond, becomes due for payment.",
+      "typically": "In most cases; usually or normally.",
+      "sensitive": "Quick to detect or respond to slight changes, signals, or influences.",
+      "immediate": "Happening or done without delay; instant.",
+      "anticipated": "Regarded as likely to happen; expected.",
+      "influence": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+      "adjust": "To alter or move something slightly in order to achieve a desired fit or result.",
+      "portfolios": "Collections of financial investments held by an individual or organization.",
+      "expectations": "Strong beliefs that something will happen or be the case.",
+      "dynamics": "The forces or properties that stimulate growth or development within a system.",
+      "crucial": "Extremely important, because it will affect other things.",
+      "fixed-income": "Referring to investments that provide a regular, predetermined return.",
+      "volatile": "Likely to change rapidly and unpredictably, especially for the worse."
+    },
+    "questions": [
+      "What specific part of the yield curve do experts recommend investors focus on, and who made this recommendation?",
+      "Explain what the 'front end of the yield curve' refers to and why it is particularly relevant for investors given the current interest rate uncertainty.",
+      "How does understanding the yield curve help investors make decisions, especially in times of economic uncertainty?"
+    ],
+    "modelAnswers": [
+      "Experts, specifically Noah Wise from Allspring Global Investments, recommend that bond market investors focus on the front end of the yield curve.",
+      "The 'front end of the yield curve' refers to short-term bonds, usually with maturities of one to three years. It is relevant because these bonds are highly sensitive to immediate Federal Reserve actions and short-term interest rate changes, which are uncertain currently.",
+      "Understanding the yield curve helps investors anticipate future interest rate movements and economic conditions. By observing its shape, investors can adjust their bond portfolios to manage risk and optimize returns, especially when the economic outlook is unclear."
+    ]
+  },
+  {
+    "id": "ec-2026-08-01-3",
+    "date": "2026-08-01",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "핀테크 플랫폼이 거대 AI 기업의 비상장 주식에 투자할 기회를 어떻게 제공하는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/07/31/clear-street-pre-ipo-platform-databricks.html",
+    "title": "Fintech Offers Pre-IPO Access to AI Giant",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Fintech brokerage Clear Street is launching a new platform. This platform focuses on private markets for investors. Their first offering involves stakes in Databricks. Databricks is a significant artificial intelligence company. It is currently valued at an impressive $188 billion. This move provides investors with greater access. They can now invest in late-stage startups before their IPO. Traditionally, such opportunities were limited to large institutions. Fintech firms are democratizing access to private capital. This trend is reshaping the investment landscape. It allows individual investors to participate earlier. Investing in private companies carries unique risks and rewards. This innovation highlights the evolving role of fintech. It connects more capital with promising technology companies.",
+    "sentences": [
+      {
+        "en": "Fintech brokerage Clear Street is launching a new platform.",
+        "ko": "핀테크 증권사 Clear Street가 새로운 플랫폼을 출시합니다."
+      },
+      {
+        "en": "This platform focuses on private markets for investors.",
+        "ko": "이 플랫폼은 투자자들을 위한 비상장 시장에 중점을 둡니다."
+      },
+      {
+        "en": "Their first offering involves stakes in Databricks.",
+        "ko": "그들의 첫 제안은 Databricks의 지분을 포함합니다."
+      },
+      {
+        "en": "Databricks is a significant artificial intelligence company.",
+        "ko": "Databricks는 중요한 인공지능 기업입니다."
+      },
+      {
+        "en": "It is currently valued at an impressive $188 billion.",
+        "ko": "이 회사는 현재 1,880억 달러라는 인상적인 가치로 평가됩니다."
+      },
+      {
+        "en": "This move provides investors with greater access.",
+        "ko": "이러한 움직임은 투자자들에게 더 큰 접근성을 제공합니다."
+      },
+      {
+        "en": "They can now invest in late-stage startups before their IPO.",
+        "ko": "이제 투자자들은 IPO 전에 후기 단계 스타트업에 투자할 수 있습니다."
+      },
+      {
+        "en": "Traditionally, such opportunities were limited to large institutions.",
+        "ko": "전통적으로 이러한 기회는 대형 기관에 한정되었습니다."
+      },
+      {
+        "en": "Fintech firms are democratizing access to private capital.",
+        "ko": "핀테크 기업들은 비상장 자본에 대한 접근을 민주화하고 있습니다."
+      },
+      {
+        "en": "This trend is reshaping the investment landscape.",
+        "ko": "이러한 추세는 투자 환경을 재편하고 있습니다."
+      },
+      {
+        "en": "It allows individual investors to participate earlier.",
+        "ko": "이는 개인 투자자들이 더 일찍 참여할 수 있도록 합니다."
+      },
+      {
+        "en": "Investing in private companies carries unique risks and rewards.",
+        "ko": "비상장 기업에 투자하는 것은 독특한 위험과 보상을 수반합니다."
+      },
+      {
+        "en": "This innovation highlights the evolving role of fintech.",
+        "ko": "이 혁신은 핀테크의 진화하는 역할을 부각합니다."
+      },
+      {
+        "en": "It connects more capital with promising technology companies.",
+        "ko": "이는 더 많은 자본을 유망한 기술 기업과 연결합니다."
+      }
+    ],
+    "glossary": {
+      "fintech": "Technology that aims to improve and automate the delivery and use of financial services.",
+      "brokerage": "A company that buys and sells stocks, bonds, and other investments for customers.",
+      "launching": "Starting or introducing a new product, service, or platform to the public.",
+      "platform": "A system that provides a foundation for developing or running applications and services.",
+      "private": "Not publicly traded on a stock exchange; owned by individuals or small groups.",
+      "markets": "Places or systems where financial products and services are bought and sold.",
+      "offering": "Something that is presented or proposed for acceptance or rejection.",
+      "stakes": "Shares or interests in a company, often representing ownership.",
+      "significant": "Important, noteworthy, or having a great effect or influence.",
+      "valued": "Assessed at a certain monetary worth or price.",
+      "impressive": "Evoking admiration through size, quality, or skill.",
+      "provides": "To make available or supply something to someone.",
+      "access": "The means or opportunity to approach or enter a place or situation.",
+      "late-stage": "Referring to companies that are more developed and closer to an IPO or acquisition.",
+      "startups": "Newly established businesses, especially those that are innovative or tech-focused.",
+      "ipo": "Initial Public Offering, when a private company first offers its shares to the public.",
+      "traditionally": "According to tradition; in a way that has been done for a long time.",
+      "limited": "Restricted in size, amount, or extent; confined to a specific group.",
+      "institutions": "Large and established organizations, especially financial ones like banks or funds.",
+      "democratizing": "Making something accessible to everyone, not just a select few.",
+      "capital": "Financial assets or the value of assets, used to fund a business.",
+      "reshaping": "Changing the form, structure, or nature of something significantly.",
+      "landscape": "The overall context or environment in which an event or activity occurs.",
+      "evolving": "Developing gradually, especially from a simple to a more complex form."
+    },
+    "questions": [
+      "Which fintech company is launching a new private markets platform, and what is its first major offering?",
+      "The article mentions 'democratizing access to private capital.' What does this phrase mean in the context of fintech platforms and investing in late-stage startups?",
+      "As a fintech PM, what potential benefits and challenges do you see in platforms offering pre-IPO access to private companies like Databricks?"
+    ],
+    "modelAnswers": [
+      "Fintech brokerage Clear Street is launching a new private markets platform, and its first major offering involves stakes in the AI giant Databricks.",
+      "'Democratizing access to private capital' means making investment opportunities in private companies, traditionally available only to large institutions, accessible to a wider range of investors, including individuals, through fintech platforms.",
+      "Benefits include increased liquidity for startups, new revenue streams for fintechs, and diversification for investors. Challenges involve regulatory complexities, valuation difficulties, and ensuring transparency for less experienced investors in illiquid private markets."
+    ]
+  },
+  {
     "id": "cd-2026-07-31-1",
     "date": "2026-07-31",
     "rank": 1,
