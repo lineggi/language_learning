@@ -1,5 +1,574 @@
 [
   {
+    "id": "cd-2026-08-02-1",
+    "date": "2026-08-02",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "이탈리아 중앙은행의 연구 결과는 스테이블코인이 송금 비용을 줄이는 데 항상 효과적인 것은 아니라는 점을 시사합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/01/bank-of-italy-research-suggests-stablecoins-aren-t-necessarily-cheaper-for-remittances",
+    "title": "Stablecoins Not Always Cheaper for Remittances",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Research from the Bank of Italy questions a common belief about stablecoins. Many assume stablecoins offer cheaper international money transfers. A \"mystery shopping\" experiment was conducted to test this assumption. They compared stablecoin transactions with traditional remittance services. The study found that stablecoins often did not significantly reduce costs. Exchange fees, foreign exchange spreads, and banking rails contributed to expenses. These findings challenge the narrative of stablecoins as inherently low-cost. This could influence how regulators and users view stablecoin utility for remittances. It suggests that underlying infrastructure costs still play a major role. Fintech product managers should consider these real-world cost factors. This nuanced perspective is vital for developing effective blockchain-based financial services.",
+    "sentences": [
+      {
+        "en": "Research from the Bank of Italy questions a common belief about stablecoins.",
+        "ko": "이탈리아 중앙은행의 연구는 스테이블코인에 대한 일반적인 믿음에 의문을 제기합니다."
+      },
+      {
+        "en": "Many assume stablecoins offer cheaper international money transfers.",
+        "ko": "많은 사람들은 스테이블코인이 더 저렴한 국제 송금을 제공한다고 가정합니다."
+      },
+      {
+        "en": "A \"mystery shopping\" experiment was conducted to test this assumption.",
+        "ko": "이러한 가정을 시험하기 위해 '미스터리 쇼핑' 실험이 수행되었습니다."
+      },
+      {
+        "en": "They compared stablecoin transactions with traditional remittance services.",
+        "ko": "그들은 스테이블코인 거래를 전통적인 송금 서비스와 비교했습니다."
+      },
+      {
+        "en": "The study found that stablecoins often did not significantly reduce costs.",
+        "ko": "연구 결과 스테이블코인이 비용을 크게 절감하지 못하는 경우가 많다는 것을 발견했습니다."
+      },
+      {
+        "en": "Exchange fees, foreign exchange spreads, and banking rails contributed to expenses.",
+        "ko": "환전 수수료, 외환 스프레드, 그리고 은행 시스템이 비용 증가에 기여했습니다."
+      },
+      {
+        "en": "These findings challenge the narrative of stablecoins as inherently low-cost.",
+        "ko": "이러한 결과는 스테이블코인이 본질적으로 저비용이라는 주장에 이의를 제기합니다."
+      },
+      {
+        "en": "This could influence how regulators and users view stablecoin utility for remittances.",
+        "ko": "이는 규제 당국과 사용자들이 송금에 대한 스테이블코인의 유용성을 어떻게 바라볼지에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It suggests that underlying infrastructure costs still play a major role.",
+        "ko": "이는 기반 인프라 비용이 여전히 중요한 역할을 한다는 것을 시사합니다."
+      },
+      {
+        "en": "Fintech product managers should consider these real-world cost factors.",
+        "ko": "핀테크 제품 관리자들은 이러한 실제 비용 요소를 고려해야 합니다."
+      },
+      {
+        "en": "This nuanced perspective is vital for developing effective blockchain-based financial services.",
+        "ko": "이러한 미묘한 관점은 효과적인 블록체인 기반 금융 서비스를 개발하는 데 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "research": "Careful study to discover new facts or information about a topic.",
+      "stablecoins": "Cryptocurrencies designed to maintain a stable value, often pegged to a fiat currency like the US dollar.",
+      "remittances": "Money sent by someone working abroad to their family or dependents in their home country.",
+      "assume": "To believe something to be true without definite proof or evidence.",
+      "transfers": "Movements of money from one person or account to another, typically electronically.",
+      "conducted": "Organized and carried out an activity or experiment in a planned way.",
+      "experiment": "A scientific procedure undertaken to make a discovery, test a hypothesis, or demonstrate a known fact.",
+      "transactions": "Instances of buying, selling, or exchanging money or goods between parties.",
+      "traditional": "Following or belonging to a long-established method or custom, rather than a new one.",
+      "significantly": "In an important or noticeable way, often implying a large difference.",
+      "reduce": "To make something smaller or less in amount, degree, or size.",
+      "exchange": "The act of giving one thing and receiving another, especially money for another currency.",
+      "fees": "Payments made to a professional person or organization for services or advice.",
+      "spreads": "The difference between two prices, rates, or yields, such as buying and selling prices.",
+      "rails": "The underlying systems or networks that facilitate financial transactions and money movement.",
+      "contributed": "Helped to cause or bring about something, often as one of several factors.",
+      "expenses": "The cost required for something; the money spent on something.",
+      "challenge": "To question the truth, validity, or authority of something, often requiring proof.",
+      "narrative": "A way of presenting or understanding a situation or series of events.",
+      "inherently": "In a permanent, essential, or characteristic way, as an intrinsic part of something.",
+      "utility": "The state of being useful, profitable, or beneficial for a particular purpose.",
+      "underlying": "Forming the basis or foundation of something, though not always obvious.",
+      "infrastructure": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+      "nuanced": "Characterized by subtle shades of meaning or expression, not simple or straightforward."
+    },
+    "questions": [
+      "What did the Bank of Italy's research conclude about stablecoins and remittance costs?",
+      "Explain what \"banking rails\" refer to in the context of financial transactions, and why they might add to remittance expenses.",
+      "From a fintech PM's perspective, what challenges might these findings present for designing stablecoin-based remittance products, and how could they be addressed?"
+    ],
+    "modelAnswers": [
+      "The research concluded that stablecoins often did not significantly reduce the costs associated with international money transfers compared to traditional methods.",
+      "\"Banking rails\" refer to the fundamental systems and networks, like SWIFT or ACH, that enable money movement between banks. They add to expenses through processing fees, compliance costs, and the time required for settlement.",
+      "These findings challenge the core value proposition of cost savings. A PM might address this by exploring new on-chain settlement mechanisms, partnering with providers offering lower FX spreads, or focusing on other benefits like speed and transparency over pure cost."
+    ]
+  },
+  {
+    "id": "cd-2026-08-02-2",
+    "date": "2026-08-02",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "SEC가 나스닥의 비트코인 옵션 승인을 재검토하기로 결정하면서 암호화폐 규제 관할권에 대한 논쟁이 다시 불붙었습니다.",
+    "url": "https://www.coindesk.com/policy/2026/08/01/sec-to-review-nasdaq-bitcoin-options-approval-after-cme-challenge",
+    "title": "SEC Reviews Nasdaq Bitcoin Options Approval",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The SEC has decided to review Nasdaq's approval for listing bitcoin options. This decision follows a formal challenge from the CME Group. The core of the dispute centers on regulatory jurisdiction. CME asserts that bitcoin is a commodity, not a security. Therefore, options on bitcoin should fall under CFTC authority. The SEC typically regulates securities and associated derivatives. This battle highlights ongoing tensions between different US regulators. It also affects how digital assets are classified and overseen. A clear regulatory framework is crucial for market development. This review creates further uncertainty for crypto derivatives markets. The outcome will likely set precedents for future crypto product approvals.",
+    "sentences": [
+      {
+        "en": "The SEC has decided to review Nasdaq's approval for listing bitcoin options.",
+        "ko": "SEC는 나스닥의 비트코인 옵션 상장 승인을 재검토하기로 결정했습니다."
+      },
+      {
+        "en": "This decision follows a formal challenge from the CME Group.",
+        "ko": "이 결정은 CME 그룹의 공식적인 이의 제기에 따른 것입니다."
+      },
+      {
+        "en": "The core of the dispute centers on regulatory jurisdiction.",
+        "ko": "분쟁의 핵심은 규제 관할권에 있습니다."
+      },
+      {
+        "en": "CME asserts that bitcoin is a commodity, not a security.",
+        "ko": "CME는 비트코인이 증권이 아닌 상품이라고 주장합니다."
+      },
+      {
+        "en": "Therefore, options on bitcoin should fall under CFTC authority.",
+        "ko": "따라서 비트코인 옵션은 CFTC의 권한 아래에 있어야 합니다."
+      },
+      {
+        "en": "The SEC typically regulates securities and associated derivatives.",
+        "ko": "SEC는 일반적으로 증권 및 관련 파생상품을 규제합니다."
+      },
+      {
+        "en": "This battle highlights ongoing tensions between different US regulators.",
+        "ko": "이 싸움은 미국 내 여러 규제 기관 간의 지속적인 긴장을 부각합니다."
+      },
+      {
+        "en": "It also affects how digital assets are classified and overseen.",
+        "ko": "이는 또한 디지털 자산이 어떻게 분류되고 감독되는지에 영향을 미칩니다."
+      },
+      {
+        "en": "A clear regulatory framework is crucial for market development.",
+        "ko": "명확한 규제 프레임워크는 시장 발전에 매우 중요합니다."
+      },
+      {
+        "en": "This review creates further uncertainty for crypto derivatives markets.",
+        "ko": "이 재검토는 암호화폐 파생상품 시장에 더 큰 불확실성을 야기합니다."
+      },
+      {
+        "en": "The outcome will likely set precedents for future crypto product approvals.",
+        "ko": "그 결과는 미래의 암호화폐 상품 승인에 대한 선례를 세울 가능성이 큽니다."
+      }
+    ],
+    "glossary": {
+      "review": "To examine or assess something formally with the intention of making changes if needed.",
+      "approval": "The action of agreeing to something, or official permission for something to happen.",
+      "listing": "The act of making a security or financial product available for trading on an exchange.",
+      "options": "Financial derivatives that give the buyer the right, but not the obligation, to buy or sell an asset.",
+      "formal": "Done in accordance with rules or customs, often implying an official procedure.",
+      "challenge": "A call to prove or justify something, or an objection to a decision or action.",
+      "dispute": "A disagreement, argument, or debate, often involving legal or official matters.",
+      "regulatory": "Relating to the supervision and control of a system or industry by rules.",
+      "jurisdiction": "The official power to make legal decisions and judgments within a specific area.",
+      "asserts": "States a fact or belief confidently and forcefully, often without proof.",
+      "commodity": "A raw material or primary agricultural product that can be bought and sold, like oil or gold.",
+      "security": "A financial instrument that represents an ownership position or a creditor relationship.",
+      "authority": "The power or right to give orders, make decisions, and enforce rules.",
+      "regulates": "Controls or supervises something, especially by means of rules or laws.",
+      "derivatives": "Financial contracts whose value is derived from an underlying asset, like stocks or commodities.",
+      "highlights": "Draws special attention to something, making it stand out.",
+      "tensions": "A state of strained relations or hostility between opposing parties.",
+      "classified": "Arranged in classes or categories according to shared qualities or characteristics.",
+      "overseen": "Supervised or managed by someone in authority, ensuring proper execution.",
+      "framework": "A basic structure underlying a system, concept, or text, providing guidance.",
+      "crucial": "Extremely important, because it will affect other things or determine success.",
+      "uncertainty": "The state of being unsure or doubtful, making future outcomes unpredictable.",
+      "precedents": "Earlier events or actions that are regarded as examples or guides for future situations."
+    },
+    "questions": [
+      "What is the main point of contention between the SEC and CME regarding bitcoin options?",
+      "Explain the difference between a \"commodity\" and a \"security\" in the context of financial regulation. Why is this distinction important for bitcoin?",
+      "How might a PM at a crypto exchange like OKX be impacted by this ongoing regulatory dispute, and what strategies could they employ to navigate such uncertainties?"
+    ],
+    "modelAnswers": [
+      "The main contention is regulatory jurisdiction: CME believes bitcoin is a commodity, placing its options under CFTC authority, while Nasdaq's approval by the SEC implies it might be treated as a security.",
+      "A commodity is a raw material that can be bought and sold, like oil. A security is a financial instrument representing ownership or debt, like stocks. This distinction is crucial because different US regulators (CFTC for commodities, SEC for securities) have jurisdiction.",
+      "A PM might face delays in launching new derivatives products or increased compliance costs. Strategies could include engaging with regulators, diversifying product offerings across jurisdictions, and closely monitoring legal developments to adapt quickly."
+    ]
+  },
+  {
+    "id": "cd-2026-08-02-3",
+    "date": "2026-08-02",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "지난 7월 토큰화된 주식 거래량이 크게 증가했지만, 특정 QQQ 토큰 하나가 대부분의 성장을 이끌었습니다.",
+    "url": "https://www.coindesk.com/markets/2026/08/01/tokenized-stock-trading-surged-288-in-july-but-one-qqq-token-drove-most-of-it",
+    "title": "QQQ Token Drives Tokenized Stock Surge",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Tokenized stock trading volume saw a significant surge in July. The trading volume increased by an impressive 288% during the month. However, one specific QQQ token, QQQB, was the primary driver. Without QQQB, the overall volume would have been much lower. It would have actually been about 30% below June's total volume. This highlights the concentrated nature of growth in this sector. Reliance on a single token suggests a lack of broad market participation. Yet, it demonstrates strong demand for specific tokenized assets. Fintech PMs should analyze what makes certain tokens successful. Diversification of popular tokenized assets will be key for sustained growth. The potential for tokenization remains clear, but market maturity is evolving.",
+    "sentences": [
+      {
+        "en": "Tokenized stock trading volume saw a significant surge in July.",
+        "ko": "지난 7월 토큰화된 주식 거래량이 크게 급증했습니다."
+      },
+      {
+        "en": "The trading volume increased by an impressive 288% during the month.",
+        "ko": "한 달 동안 거래량은 무려 288% 증가했습니다."
+      },
+      {
+        "en": "However, one specific QQQ token, QQQB, was the primary driver.",
+        "ko": "하지만 QQQB라는 특정 QQQ 토큰 하나가 주요 동력이었습니다."
+      },
+      {
+        "en": "Without QQQB, the overall volume would have been much lower.",
+        "ko": "QQQB가 없었다면 전체 거래량은 훨씬 낮았을 것입니다."
+      },
+      {
+        "en": "It would have actually been about 30% below June's total volume.",
+        "ko": "실제로 6월 총 거래량보다 약 30% 낮은 수치였을 것입니다."
+      },
+      {
+        "en": "This highlights the concentrated nature of growth in this sector.",
+        "ko": "이는 이 분야 성장의 집중된 특성을 부각합니다."
+      },
+      {
+        "en": "Reliance on a single token suggests a lack of broad market participation.",
+        "ko": "단일 토큰에 대한 의존은 광범위한 시장 참여가 부족함을 시사합니다."
+      },
+      {
+        "en": "Yet, it demonstrates strong demand for specific tokenized assets.",
+        "ko": "하지만 이는 특정 토큰화된 자산에 대한 강력한 수요를 보여줍니다."
+      },
+      {
+        "en": "Fintech PMs should analyze what makes certain tokens successful.",
+        "ko": "핀테크 제품 관리자들은 특정 토큰을 성공으로 이끄는 요소를 분석해야 합니다."
+      },
+      {
+        "en": "Diversification of popular tokenized assets will be key for sustained growth.",
+        "ko": "인기 있는 토큰화된 자산의 다양화는 지속적인 성장을 위한 핵심이 될 것입니다."
+      },
+      {
+        "en": "The potential for tokenization remains clear, but market maturity is evolving.",
+        "ko": "토큰화의 잠재력은 여전히 명확하지만, 시장 성숙도는 진화하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "tokenized": "Converted into a digital token on a blockchain, representing ownership of an asset.",
+      "stock": "A share of ownership in a company, representing a claim on its earnings and assets.",
+      "trading": "The activity of buying and selling financial instruments, such as stocks or tokens.",
+      "volume": "The total quantity of a security or commodity traded during a specific period.",
+      "significant": "Important and noticeable, often implying a large or meaningful change.",
+      "surge": "A sudden and powerful increase, especially in a quantity or amount.",
+      "impressive": "Evoking admiration through size, quality, or skill, making a strong impact.",
+      "specific": "Clearly defined or identified, rather than general or vague.",
+      "primary": "Of chief importance or main influence, being the most significant.",
+      "driver": "A factor that causes or influences a particular phenomenon or development.",
+      "highlights": "Draws special attention to something, making it stand out or be noticed.",
+      "concentrated": "Focused or gathered in one place or on one thing, not spread out.",
+      "nature": "The essential qualities or characteristics of something, its fundamental identity.",
+      "reliance": "Dependence on or trust in someone or something, often for support.",
+      "participation": "The action of taking part in something, such as a market or activity.",
+      "demonstrates": "Clearly shows the existence or truth of something by giving proof or evidence.",
+      "demand": "The desire of consumers for a good or service, indicating willingness to buy.",
+      "assets": "Items of property owned by a person or company, regarded as having value.",
+      "diversification": "The process of spreading investments across various assets to reduce risk.",
+      "sustained": "Continuing for an extended period or without interruption, maintaining momentum.",
+      "potential": "Having or showing the capacity to develop into something in the future, latent ability.",
+      "maturity": "The state of being fully developed or grown, reaching a stable and advanced stage.",
+      "evolving": "Developing gradually, especially from a simple to a more complex form."
+    },
+    "questions": [
+      "What was the main reason for the surge in tokenized stock trading volume in July?",
+      "In the context of tokenized assets, what does \"diversification\" mean, and why is it important for \"sustained growth\"?",
+      "As a fintech PM, how would you approach developing new tokenized stock products given this concentrated market activity? What factors would you prioritize?"
+    ],
+    "modelAnswers": [
+      "The surge was primarily driven by one specific QQQ token, QQQB; without it, the overall volume would have been significantly lower than the previous month.",
+      "Diversification means spreading market activity or investments across a variety of different tokenized assets, rather than relying on just one. It's important for sustained growth to reduce risk and ensure broader market participation.",
+      "I would analyze QQQB's success factors, such as liquidity, underlying asset popularity, and platform accessibility. I'd prioritize creating products for high-demand, well-known stocks or indices, ensuring robust regulatory compliance, and focusing on user experience to attract broader participation beyond a single token."
+    ]
+  },
+  {
+    "id": "ec-2026-08-02-1",
+    "date": "2026-08-02",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연방준비제도(Fed)의 인플레이션 대응 압박 속에서, 헤드라인 수치와 다른 새로운 지표들이 인플레이션이 몇 년 만에 최저 수준임을 보여주고 있습니다.",
+    "url": "https://www.cnbc.com/2026/07/31/these-fed-alternative-indicators-show-inflation-is-at-lowest-in-years.html",
+    "title": "New Measures Suggest Inflation Nears Multi-Year Lows",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Federal Reserve is under significant pressure to control inflation. However, new economic indicators suggest a more optimistic trend. These \"trimmed mean\" measures exclude extreme price fluctuations. They reveal that underlying inflation has reached its lowest point in years. This analysis offers a different perspective from headline inflation figures. Headline numbers often include volatile components like energy and food prices. Such alternative metrics provide a clearer view of long-term price stability. Policymakers rely on diverse data to make critical monetary policy decisions. For a fintech PM, understanding these varied indicators is crucial. This comprehensive data helps in accurately forecasting market behavior. It also supports the strategic development of financial technologies. The Fed's future actions will be shaped by how it interprets these complex signals.",
+    "sentences": [
+      {
+        "en": "The Federal Reserve is under significant pressure to control inflation.",
+        "ko": "연방준비제도(Fed)는 인플레이션을 통제해야 한다는 상당한 압박을 받고 있습니다."
+      },
+      {
+        "en": "However, new economic indicators suggest a more optimistic trend.",
+        "ko": "하지만 새로운 경제 지표들은 더 낙관적인 추세를 시사합니다."
+      },
+      {
+        "en": "These \"trimmed mean\" measures exclude extreme price fluctuations.",
+        "ko": "이러한 \"트림드 민(trimmed mean)\" 측정치는 극심한 가격 변동을 제외합니다."
+      },
+      {
+        "en": "They reveal that underlying inflation has reached its lowest point in years.",
+        "ko": "이는 근원 인플레이션이 수년 만에 최저 수준에 도달했음을 보여줍니다."
+      },
+      {
+        "en": "This analysis offers a different perspective from headline inflation figures.",
+        "ko": "이 분석은 헤드라인 인플레이션 수치와는 다른 관점을 제공합니다."
+      },
+      {
+        "en": "Headline numbers often include volatile components like energy and food prices.",
+        "ko": "헤드라인 수치에는 에너지 및 식품 가격과 같은 변동성이 큰 구성 요소가 자주 포함됩니다."
+      },
+      {
+        "en": "Such alternative metrics provide a clearer view of long-term price stability.",
+        "ko": "이러한 대안적 지표들은 장기적인 물가 안정에 대한 더 명확한 시각을 제공합니다."
+      },
+      {
+        "en": "Policymakers rely on diverse data to make critical monetary policy decisions.",
+        "ko": "정책 입안자들은 중요한 통화 정책 결정을 내리기 위해 다양한 데이터에 의존합니다."
+      },
+      {
+        "en": "For a fintech PM, understanding these varied indicators is crucial.",
+        "ko": "핀테크 PM에게는 이러한 다양한 지표를 이해하는 것이 중요합니다."
+      },
+      {
+        "en": "This comprehensive data helps in accurately forecasting market behavior.",
+        "ko": "이 포괄적인 데이터는 시장 행동을 정확하게 예측하는 데 도움이 됩니다."
+      },
+      {
+        "en": "It also supports the strategic development of financial technologies.",
+        "ko": "또한 금융 기술의 전략적 개발을 지원합니다."
+      },
+      {
+        "en": "The Fed's future actions will be shaped by how it interprets these complex signals.",
+        "ko": "연준의 미래 조치는 이러한 복잡한 신호들을 어떻게 해석하는지에 따라 결정될 것입니다."
+      }
+    ],
+    "glossary": {
+      "federal": "Pertaining to a central government, especially one consisting of states.",
+      "reserve": "A central bank that manages a nation's currency and monetary policy.",
+      "significant": "Large or important enough to have an effect or be noticed.",
+      "inflation": "A general increase in prices and fall in the purchasing value of money.",
+      "economic": "Relating to the economy or the production and distribution of wealth.",
+      "indicators": "Statistics or data points that show the general state of the economy.",
+      "optimistic": "Hopeful and confident about the future or the success of something.",
+      "trend": "A general direction in which something is developing or changing.",
+      "trimmed": "Reduced or cut down, often to remove outliers or extreme values.",
+      "mean": "An average value, calculated by adding numbers and dividing by their count.",
+      "exclude": "To keep something out or prevent it from being included.",
+      "fluctuations": "Irregular up-and-down movements or changes in value or level.",
+      "reveal": "To make something known or visible that was previously hidden.",
+      "underlying": "Forming the basis or foundation of something, not immediately obvious.",
+      "headline": "Referring to the main, most prominent figures or news reports.",
+      "volatile": "Likely to change rapidly and unpredictably, especially for the worse.",
+      "components": "Parts or elements that make up a larger whole.",
+      "metrics": "A set of measurements or methods for evaluating something.",
+      "policymakers": "Individuals or groups responsible for making official policies.",
+      "monetary": "Relating to money or currency, especially its supply and control.",
+      "forecasting": "Predicting or estimating a future event or trend.",
+      "strategic": "Relating to a plan of action designed to achieve a major goal."
+    },
+    "questions": [
+      "What are \"trimmed mean\" measures, and how do they differ from headline inflation figures according to the passage?",
+      "The passage states that \"policymakers rely on diverse data to make critical monetary policy decisions.\" Explain what \"monetary policy\" refers to and why \"diverse data\" is important for such decisions.",
+      "As a fintech PM, how might understanding various inflation indicators influence your product development or strategic decisions, especially if these indicators offer conflicting signals?"
+    ],
+    "modelAnswers": [
+      "\"Trimmed mean\" measures are economic indicators that filter out extreme price changes. They differ from headline inflation figures by providing a clearer view of underlying inflation, as headline numbers often include volatile items like energy and food.",
+      "Monetary policy refers to actions taken by a central bank, like the Federal Reserve, to control the money supply and credit conditions to influence economic activity. Diverse data is important because it provides a more comprehensive and nuanced understanding of economic trends, helping policymakers make more informed and balanced decisions.",
+      "Understanding various inflation indicators, especially conflicting ones, would be crucial for me. It would help me anticipate market volatility and adjust financial product features or risk models accordingly. This insight allows for more resilient and adaptable fintech solutions in uncertain economic environments."
+    ]
+  },
+  {
+    "id": "ec-2026-08-02-2",
+    "date": "2026-08-02",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "한때 450억 달러 규모였던 AI 헤지펀드가 며칠 만에 대부분의 자산을 잃으며 시장의 예측 불가능성과 위험 관리의 중요성을 극명하게 보여주었습니다.",
+    "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+    "title": "AI Hedge Fund Crashes After Rapid Rise",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Leopold Aschenbrenner, a former OpenAI researcher, launched an ambitious AI-focused hedge fund. His fund, Situational Awareness, rapidly swelled to an impressive $45 billion valuation. However, it suffered a catastrophic and dramatic decline within a few days this week. The fund was compelled to drastically reduce its public stock holdings. This action came after a historic and unexpected market momentum reversal. The sudden shift triggered substantial margin calls from its creditors. Aschenbrenner's fund consequently lost the majority of its substantial value very quickly. This implosion vividly illustrates the extreme volatility inherent in financial markets. It also underscores the significant risks linked to highly leveraged investment strategies. Even advanced AI models are not entirely immune to unforeseen market shocks. Fintech PMs should carefully analyze such rapid and significant market failures. Robust risk management frameworks are absolutely paramount in the investment industry.",
+    "sentences": [
+      {
+        "en": "Leopold Aschenbrenner, a former OpenAI researcher, launched an ambitious AI-focused hedge fund.",
+        "ko": "전 OpenAI 연구원인 레오폴드 아셴브레너는 야심 찬 AI 중심 헤지펀드를 시작했습니다."
+      },
+      {
+        "en": "His fund, Situational Awareness, rapidly swelled to an impressive $45 billion valuation.",
+        "ko": "그의 펀드인 Situational Awareness는 빠르게 성장하여 450억 달러라는 인상적인 가치에 도달했습니다."
+      },
+      {
+        "en": "However, it suffered a catastrophic and dramatic decline within a few days this week.",
+        "ko": "하지만 이번 주 며칠 만에 치명적이고 극적인 하락을 겪었습니다."
+      },
+      {
+        "en": "The fund was compelled to drastically reduce its public stock holdings.",
+        "ko": "이 펀드는 공공 주식 보유량을 대폭 줄여야만 했습니다."
+      },
+      {
+        "en": "This action came after a historic and unexpected market momentum reversal.",
+        "ko": "이 조치는 역사적이고 예상치 못한 시장 모멘텀 반전 이후에 이루어졌습니다."
+      },
+      {
+        "en": "The sudden shift triggered substantial margin calls from its creditors.",
+        "ko": "갑작스러운 변화는 채권자들로부터 상당한 마진콜을 촉발했습니다."
+      },
+      {
+        "en": "Aschenbrenner's fund consequently lost the majority of its substantial value very quickly.",
+        "ko": "결과적으로 아셴브레너의 펀드는 상당한 가치의 대부분을 매우 빠르게 잃었습니다."
+      },
+      {
+        "en": "This implosion vividly illustrates the extreme volatility inherent in financial markets.",
+        "ko": "이러한 붕괴는 금융 시장에 내재된 극심한 변동성을 생생하게 보여줍니다."
+      },
+      {
+        "en": "It also underscores the significant risks linked to highly leveraged investment strategies.",
+        "ko": "또한 고도로 레버리지된 투자 전략과 관련된 상당한 위험을 강조합니다."
+      },
+      {
+        "en": "Even advanced AI models are not entirely immune to unforeseen market shocks.",
+        "ko": "심지어 발전된 AI 모델도 예측 불가능한 시장 충격에 완전히 면역되지 않습니다."
+      },
+      {
+        "en": "Fintech PMs should carefully analyze such rapid and significant market failures.",
+        "ko": "핀테크 PM들은 이러한 급격하고 중대한 시장 실패 사례를 신중하게 분석해야 합니다."
+      },
+      {
+        "en": "Robust risk management frameworks are absolutely paramount in the investment industry.",
+        "ko": "견고한 위험 관리 프레임워크는 투자 산업에서 절대적으로 가장 중요합니다."
+      }
+    ],
+    "glossary": {
+      "ambitious": "Having a strong desire for success, or requiring great effort.",
+      "hedge": "An investment fund that uses various strategies to earn active returns for its investors.",
+      "swelled": "Increased in size, amount, or intensity.",
+      "valuation": "The process of estimating the worth or value of a company or asset.",
+      "catastrophic": "Involving or causing sudden great damage or suffering.",
+      "decline": "A gradual and continuous loss of strength, numbers, or value.",
+      "compelled": "Forced or obliged to do something.",
+      "drastically": "Severely or extremely, in a way that has a strong effect.",
+      "holdings": "The property, investments, or assets owned by an individual or company.",
+      "momentum": "The impetus gained by a moving object, or by a series of events.",
+      "reversal": "A change to an opposite direction, course, or position.",
+      "triggered": "Caused an event or process to begin or happen.",
+      "substantial": "Of considerable importance, size, or worth.",
+      "margin": "Money borrowed from a broker to purchase securities.",
+      "creditors": "Persons or entities to whom money is owed.",
+      "implosion": "A sudden and dramatic collapse or failure from within.",
+      "vividly": "In a clear, powerful, or very detailed way.",
+      "volatility": "The tendency of a market or asset to change rapidly and unpredictably.",
+      "inherent": "Existing in something as a permanent, essential, or characteristic attribute.",
+      "underscores": "Emphasizes or highlights the importance of something.",
+      "leveraged": "Using borrowed capital for an investment, expecting higher returns.",
+      "immune": "Protected or exempt from something, especially something unwelcome.",
+      "paramount": "More important than anything else; supreme."
+    },
+    "questions": [
+      "What specific financial event led to the rapid decline of Leopold Aschenbrenner's hedge fund, and what was its original valuation?",
+      "The passage mentions that \"The sudden shift triggered substantial margin calls from its creditors.\" Explain what \"margin calls\" are and why they might be \"substantial\" in such a situation.",
+      "Given that even advanced AI models are not immune to market shocks, what lessons can fintech PMs draw regarding the reliance on AI for investment strategies and risk management?"
+    ],
+    "modelAnswers": [
+      "The rapid decline of Leopold Aschenbrenner's hedge fund was caused by a historic market momentum reversal, which triggered massive margin calls. The fund had rapidly grown to an impressive $45 billion valuation.",
+      "Margin calls are demands from a broker for an investor to deposit additional money or securities to cover potential losses in a leveraged account. They might be substantial in this situation because a dramatic market reversal can cause significant losses on highly leveraged positions, requiring large amounts of capital to prevent forced selling.",
+      "Fintech PMs should learn that while AI can enhance investment strategies, it's not a foolproof solution against market shocks. They must prioritize building robust risk management frameworks that combine AI insights with human oversight and stress testing for extreme scenarios. Over-reliance on AI without understanding its limitations can lead to catastrophic failures."
+    ]
+  },
+  {
+    "id": "ec-2026-08-02-3",
+    "date": "2026-08-02",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "세계 경제의 중요한 축인 중국의 공장 활동이 예상치 못하게 위축되면서 글로벌 수요와 무역 흐름에 대한 우려가 커지고 있습니다.",
+    "url": "https://www.cnbc.com/2026/07/31/china-pmi-factory-activity-economic-growth-exports-.html",
+    "title": "China Factory Activity Shrinks Amid Weak Demand",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China's factory activity unexpectedly contracted in July, signaling a challenging period. This downturn marks a significant shift for the world's manufacturing powerhouse. The contraction indicates a slump in both internal consumption and export orders. Severe typhoons further disrupted production schedules and supply chain operations. This slowdown comes after a brief economic rebound in the second quarter. That earlier recovery was primarily fueled by a surge in export demand. However, this positive momentum now appears to be fading quickly. Weakening global demand is a primary driver behind the current decline. This development raises serious concerns for the stability of the world economy. China plays an indispensable role in global supply chains and trade. A sustained contraction could significantly impact international commerce and growth. Fintech PMs must closely track these global economic shifts for strategic planning.",
+    "sentences": [
+      {
+        "en": "China's factory activity unexpectedly contracted in July, signaling a challenging period.",
+        "ko": "중국의 7월 공장 활동이 예상치 못하게 위축되어 어려운 시기를 예고했습니다."
+      },
+      {
+        "en": "This downturn marks a significant shift for the world's manufacturing powerhouse.",
+        "ko": "이러한 침체는 세계의 제조 강국에 있어 중요한 변화를 의미합니다."
+      },
+      {
+        "en": "The contraction indicates a slump in both internal consumption and export orders.",
+        "ko": "이 위축은 국내 소비와 수출 주문 모두에서 부진을 나타냅니다."
+      },
+      {
+        "en": "Severe typhoons further disrupted production schedules and supply chain operations.",
+        "ko": "심각한 태풍은 생산 일정과 공급망 운영을 더욱 방해했습니다."
+      },
+      {
+        "en": "This slowdown comes after a brief economic rebound in the second quarter.",
+        "ko": "이러한 둔화는 2분기의 짧은 경제 반등 이후에 찾아왔습니다."
+      },
+      {
+        "en": "That earlier recovery was primarily fueled by a surge in export demand.",
+        "ko": "그 이전의 회복은 주로 수출 수요의 급증에 의해 촉진되었습니다."
+      },
+      {
+        "en": "However, this positive momentum now appears to be fading quickly.",
+        "ko": "하지만 이러한 긍정적인 모멘텀은 이제 빠르게 사라지고 있는 것으로 보입니다."
+      },
+      {
+        "en": "Weakening global demand is a primary driver behind the current decline.",
+        "ko": "약화되는 세계 수요는 현재의 하락세 뒤에 있는 주요 동인입니다."
+      },
+      {
+        "en": "This development raises serious concerns for the stability of the world economy.",
+        "ko": "이러한 전개는 세계 경제의 안정성에 대한 심각한 우려를 불러일으킵니다."
+      },
+      {
+        "en": "China plays an indispensable role in global supply chains and trade.",
+        "ko": "중국은 글로벌 공급망과 무역에서 필수적인 역할을 합니다."
+      },
+      {
+        "en": "A sustained contraction could significantly impact international commerce and growth.",
+        "ko": "지속적인 위축은 국제 상업과 성장에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Fintech PMs must closely track these global economic shifts for strategic planning.",
+        "ko": "핀테크 PM들은 전략적 계획을 위해 이러한 글로벌 경제 변화를 면밀히 추적해야 합니다."
+      }
+    ],
+    "glossary": {
+      "contracted": "Decreased in size, number, or extent, indicating a decline.",
+      "signaling": "Indicating or giving a sign of something, often a future event.",
+      "downturn": "A decline in economic activity or a business cycle.",
+      "powerhouse": "A country, organization, or person with great power or energy.",
+      "slump": "A sudden severe or prolonged fall in the price, value, or amount of something.",
+      "consumption": "The act of buying and using goods and services by consumers.",
+      "export": "To send goods or services to another country for sale.",
+      "disrupted": "Interrupted an event, activity, or process by causing a disturbance.",
+      "schedules": "Plans for carrying out a process or activities, specifying times and places.",
+      "rebound": "A recovery in price, value, or amount after a decline.",
+      "primarily": "For the most part, mainly, or chiefly.",
+      "fueled": "Supplied with something that stimulates or supports a process.",
+      "surge": "A sudden powerful forward or upward movement, a rapid increase.",
+      "momentum": "The impetus gained by a moving object, or by a series of events.",
+      "fading": "Gradually growing faint, weak, or disappear.",
+      "driver": "A factor that causes or influences a particular process or situation.",
+      "decline": "A gradual and continuous loss of strength, numbers, or value.",
+      "stability": "The state of being stable and not subject to change or disruption.",
+      "indispensable": "Absolutely necessary or essential, cannot be done without.",
+      "sustained": "Continuing for an extended period without interruption.",
+      "commerce": "The activity of buying and selling, especially on a large scale.",
+      "strategic": "Relating to a plan of action designed to achieve a major goal."
+    },
+    "questions": [
+      "What were the main reasons cited in the passage for the contraction of China's factory activity in July?",
+      "The passage mentions that China is an \"indispensable role in global supply chains.\" Explain what \"global supply chains\" are and why China's role is considered \"indispensable\" in this context.",
+      "How might a sustained contraction in China's factory activity affect fintech companies operating in areas like international trade finance or cross-border payments?"
+    ],
+    "modelAnswers": [
+      "The contraction in China's factory activity in July was mainly due to a slump in both internal consumption and export orders. Additionally, severe typhoons disrupted production schedules and supply chain operations.",
+      "Global supply chains refer to the worldwide network of organizations, people, activities, information, and resources involved in moving a product or service from supplier to customer. China's role is indispensable because it is a massive manufacturing powerhouse and a crucial hub for sourcing and producing goods for the entire world.",
+      "A sustained contraction would likely reduce transaction volumes in international trade finance and cross-border payments. Fintech companies in these areas might face decreased revenue and increased credit risks for their clients. They would need to adapt by diversifying services or focusing on resilient sectors to mitigate these impacts."
+    ]
+  },
+  {
     "id": "cd-2026-08-01-1",
     "date": "2026-08-01",
     "rank": 1,
