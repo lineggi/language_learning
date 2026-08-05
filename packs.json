@@ -1,5 +1,556 @@
 [
   {
+    "id": "cd-2026-08-06-1",
+    "date": "2026-08-06",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "아프리카 핀테크 기업 옐로우카드가 은행과 스테이블코인 연동을 위해 4천만 달러를 유치했습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/05/yellow-card-raises-usd40-million-to-link-banks-to-stablecoin-processing",
+    "title": "Yellow Card Secures Funding to Bridge Banks and Stablecoins",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Yellow Card, an African fintech company, recently raised a significant $40 million in funding. This substantial investment aims to connect traditional banks directly with stablecoin processing capabilities. The company's core mission is to make stablecoins much more accessible across the African continent. Stablecoins offer users a remarkably reliable and efficient way to send and receive money. They effectively help overcome significant challenges associated with local currency volatility and inflation. This latest funding round boosts Yellow Card's total financing to well over $120 million. It clearly highlights the growing global interest in developing robust stablecoin infrastructure. Such innovative platforms are absolutely crucial for broader cryptocurrency adoption worldwide. They also significantly promote financial inclusion for underserved populations. This strategic move could profoundly impact cross-border payments and remittances in the region. It demonstrates the potential for digital assets to revolutionize financial services.",
+    "sentences": [
+      {
+        "en": "Yellow Card, an African fintech company, recently raised a significant $40 million in funding.",
+        "ko": "아프리카 핀테크 기업 옐로우카드가 최근 4천만 달러의 상당한 자금을 유치했습니다."
+      },
+      {
+        "en": "This substantial investment aims to connect traditional banks directly with stablecoin processing capabilities.",
+        "ko": "이 대규모 투자는 전통 은행들을 스테이블코인 처리 기능과 직접 연결하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The company's core mission is to make stablecoins much more accessible across the African continent.",
+        "ko": "이 회사의 핵심 임무는 아프리카 대륙 전역에서 스테이블코인을 훨씬 더 쉽게 접근할 수 있도록 하는 것입니다."
+      },
+      {
+        "en": "Stablecoins offer users a remarkably reliable and efficient way to send and receive money.",
+        "ko": "스테이블코인은 사용자에게 돈을 보내고 받는 매우 안정적이고 효율적인 방법을 제공합니다."
+      },
+      {
+        "en": "They effectively help overcome significant challenges associated with local currency volatility and inflation.",
+        "ko": "이들은 지역 통화의 변동성과 인플레이션과 관련된 중대한 문제들을 효과적으로 극복하는 데 도움을 줍니다."
+      },
+      {
+        "en": "This latest funding round boosts Yellow Card's total financing to well over $120 million.",
+        "ko": "이번 최신 자금 조달 라운드로 옐로우카드의 총 자금은 1억 2천만 달러를 훨씬 넘어섰습니다."
+      },
+      {
+        "en": "It clearly highlights the growing global interest in developing robust stablecoin infrastructure.",
+        "ko": "이는 견고한 스테이블코인 인프라 개발에 대한 전 세계적인 관심 증가를 분명히 보여줍니다."
+      },
+      {
+        "en": "Such innovative platforms are absolutely crucial for broader cryptocurrency adoption worldwide.",
+        "ko": "이러한 혁신적인 플랫폼은 전 세계적으로 광범위한 암호화폐 채택에 절대적으로 중요합니다."
+      },
+      {
+        "en": "They also significantly promote financial inclusion for underserved populations.",
+        "ko": "또한 소외된 계층을 위한 금융 포용을 크게 촉진합니다."
+      },
+      {
+        "en": "This strategic move could profoundly impact cross-border payments and remittances in the region.",
+        "ko": "이러한 전략적 움직임은 이 지역의 국경 간 결제 및 송금에 지대한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It demonstrates the potential for digital assets to revolutionize financial services.",
+        "ko": "이는 디지털 자산이 금융 서비스를 혁신할 잠재력을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "fintech": "a new technology aiming to improve and automate the delivery and use of financial services.",
+      "raised": "collected or gathered money, especially for a specific purpose like business expansion.",
+      "funding": "money provided, especially by an organization or government, for a particular purpose.",
+      "investment": "the action or process of investing money for profit or material result.",
+      "connect": "to join or link together two or more things.",
+      "traditional": "existing in or as part of a tradition; long-established.",
+      "processing": "performing a series of mechanical or chemical operations on something in order to change or preserve it.",
+      "accessible": "able to be reached or entered, or easy to use or understand.",
+      "continent": "one of the earth's large landmasses, such as Asia, Africa, or Europe.",
+      "reliable": "consistently good in quality or performance; able to be trusted.",
+      "efficient": "achieving maximum productivity with minimum wasted effort or expense.",
+      "overcome": "to succeed in dealing with a problem or difficulty.",
+      "challenges": "difficulties that need to be dealt with or overcome.",
+      "local": "relating or restricted to a particular area or one's neighborhood.",
+      "currency": "a system of money in general use in a particular country.",
+      "volatility": "the tendency of a price or value to change rapidly and unpredictably.",
+      "inflation": "a general increase in prices and fall in the purchasing value of money.",
+      "boosts": "improves or increases the amount or level of something.",
+      "robust": "strong and healthy, or able to withstand difficult conditions.",
+      "infrastructure": "the basic physical and organizational structures and facilities needed for society.",
+      "crucial": "extremely important, because it will affect other things.",
+      "adoption": "the action or fact of adopting or being adopted.",
+      "inclusion": "the action or state of including or of being included within a group or structure.",
+      "remittances": "money sent by someone to pay for goods or services or as a gift."
+    },
+    "questions": [
+      "Q1: What is the main purpose of the $40 million funding Yellow Card recently secured?",
+      "Q2: In the context of the passage, why are stablecoins considered a \"reliable\" way for people to send and receive money, and what challenges do they help \"overcome\"?",
+      "Q3: How do you think increased stablecoin adoption, facilitated by companies like Yellow Card, could change the landscape of international remittances and financial services in emerging markets?"
+    ],
+    "modelAnswers": [
+      "A1: The primary goal of the $40 million funding is to connect traditional banks with stablecoin processing, making stablecoins more accessible across Africa.",
+      "A2: Stablecoins are reliable because they offer a consistent value, unlike local currencies which can suffer from volatility. They help overcome challenges related to unstable local currency values and inflation.",
+      "A3: Increased stablecoin adoption could significantly lower transaction costs and speed up international remittances. This would provide more affordable and efficient financial services, fostering greater financial inclusion in emerging markets."
+    ]
+  },
+  {
+    "id": "cd-2026-08-06-2",
+    "date": "2026-08-06",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화된 자산 전문 기업 온도 파이낸스가 전 블록체인닷컴 CFO를 영입하며 온체인 자본 시장 사업 확장에 나섭니다.",
+    "url": "https://www.coindesk.com/business/2026/08/05/ondo-finance-hires-former-blockchain-com-cfo-adam-schlisman",
+    "title": "Ondo Finance Expands Onchain Capital with New CFO",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Ondo Finance, a prominent firm specializing in tokenized real-world assets, has recently appointed Adam Schlisman. Schlisman will serve as the company's new Chief Financial Officer, bringing extensive experience. He previously held CFO positions at Blockchain.com and Monashee, respected names in the crypto space. This strategic hire is designed to significantly strengthen Ondo's senior leadership team. The company is actively expanding its innovative onchain capital markets business globally. Tokenization involves converting tangible real-world assets into digital tokens on a blockchain. This transformative process can make various assets far more liquid and widely accessible. It opens these opportunities to a much broader investor base than traditional methods. Ondo Finance aims to seamlessly bridge the gap between traditional finance and decentralized finance. This key appointment clearly signals a strong commitment to sustained growth in the tokenized assets sector. Such forward-thinking initiatives are vital for the overall maturity of blockchain technology. They also greatly contribute to its eventual mainstream adoption across industries.",
+    "sentences": [
+      {
+        "en": "Ondo Finance, a prominent firm specializing in tokenized real-world assets, has recently appointed Adam Schlisman.",
+        "ko": "토큰화된 실물 자산 전문 기업인 온도 파이낸스가 최근 아담 슐리스만을 임명했습니다."
+      },
+      {
+        "en": "Schlisman will serve as the company's new Chief Financial Officer, bringing extensive experience.",
+        "ko": "슐리스만은 회사의 새로운 최고 재무 책임자로 재직하며 광범위한 경험을 가져올 것입니다."
+      },
+      {
+        "en": "He previously held CFO positions at Blockchain.com and Monashee, respected names in the crypto space.",
+        "ko": "그는 이전에 블록체인닷컴과 모나시에서 CFO를 역임했으며, 이들은 암호화폐 분야에서 존경받는 이름들입니다."
+      },
+      {
+        "en": "This strategic hire is designed to significantly strengthen Ondo's senior leadership team.",
+        "ko": "이 전략적 채용은 온도의 고위 리더십 팀을 크게 강화하기 위해 고안되었습니다."
+      },
+      {
+        "en": "The company is actively expanding its innovative onchain capital markets business globally.",
+        "ko": "회사는 혁신적인 온체인 자본 시장 사업을 전 세계적으로 적극적으로 확장하고 있습니다."
+      },
+      {
+        "en": "Tokenization involves converting tangible real-world assets into digital tokens on a blockchain.",
+        "ko": "토큰화는 유형의 실물 자산을 블록체인의 디지털 토큰으로 변환하는 것을 포함합니다."
+      },
+      {
+        "en": "This transformative process can make various assets far more liquid and widely accessible.",
+        "ko": "이 변혁적인 과정은 다양한 자산을 훨씬 더 유동적이고 널리 접근 가능하게 만들 수 있습니다."
+      },
+      {
+        "en": "It opens these opportunities to a much broader investor base than traditional methods.",
+        "ko": "이는 전통적인 방법보다 훨씬 더 광범위한 투자자 기반에 이러한 기회를 제공합니다."
+      },
+      {
+        "en": "Ondo Finance aims to seamlessly bridge the gap between traditional finance and decentralized finance.",
+        "ko": "온도 파이낸스는 전통 금융과 탈중앙화 금융 사이의 격차를 원활하게 연결하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This key appointment clearly signals a strong commitment to sustained growth in the tokenized assets sector.",
+        "ko": "이 중요한 임명은 토큰화된 자산 부문에서 지속적인 성장에 대한 강력한 의지를 분명히 보여줍니다."
+      },
+      {
+        "en": "Such forward-thinking initiatives are vital for the overall maturity of blockchain technology.",
+        "ko": "이러한 미래 지향적인 이니셔티브는 블록체인 기술의 전반적인 성숙에 필수적입니다."
+      },
+      {
+        "en": "They also greatly contribute to its eventual mainstream adoption across industries.",
+        "ko": "또한 여러 산업 전반에 걸쳐 궁극적인 주류 채택에 크게 기여합니다."
+      }
+    ],
+    "glossary": {
+      "prominent": "important or famous.",
+      "firm": "a business organization, especially one providing professional services.",
+      "specializing": "concentrating on a particular activity or product.",
+      "tokenized": "converted into a digital token on a blockchain.",
+      "assets": "items of property owned by a person or company, regarded as having value.",
+      "appointed": "assigned a job or position to someone.",
+      "chief": "highest in rank or importance.",
+      "financial": "relating to money or how it is managed.",
+      "officer": "a person holding a position of authority or trust.",
+      "extensive": "covering a large area; great in amount or degree.",
+      "previously": "at a previous or earlier time; before.",
+      "respected": "admired by many people for their achievements or qualities.",
+      "strategic": "relating to the identification of long-term or overall aims and interests.",
+      "strengthen": "to make or become stronger.",
+      "leadership": "the action of leading a group of people or an organization.",
+      "expanding": "becoming or making something larger or more extensive.",
+      "onchain": "referring to transactions or activities recorded directly on a blockchain.",
+      "capital": "wealth in the form of money or other assets owned by a person or organization.",
+      "converting": "changing the form, character, or function of something.",
+      "tangible": "perceptible by touch, or clear and definite.",
+      "liquid": "easily converted into cash without significant loss of value.",
+      "accessible": "able to be reached or entered, or easy to use or understand.",
+      "seamlessly": "smoothly and continuously, without apparent breaks or difficulties.",
+      "mainstream": "the ideas, attitudes, or activities that are regarded as normal or conventional."
+    },
+    "questions": [
+      "Q1: What is Adam Schlisman's new role at Ondo Finance, and what did he do previously?",
+      "Q2: Explain \"tokenization\" and \"onchain capital markets business\" in the context of Ondo Finance's activities. How do these concepts relate to bridging traditional and decentralized finance?",
+      "Q3: What are the potential benefits and challenges for traditional finance firms looking to enter the tokenized assets sector, especially regarding regulatory compliance and technological integration?"
+    ],
+    "modelAnswers": [
+      "A1: Adam Schlisman is the new Chief Financial Officer (CFO) at Ondo Finance. He previously served as CFO for Blockchain.com and Monashee.",
+      "A2: Tokenization means converting real-world assets into digital tokens on a blockchain, making them more liquid. Ondo's onchain capital markets business leverages this by facilitating financial activities using these digital assets, bridging traditional finance with decentralized systems.",
+      "A3: Benefits include increased liquidity and a broader investor base. Challenges involve navigating complex regulatory landscapes for digital assets and integrating new blockchain technologies with existing financial systems while ensuring security."
+    ]
+  },
+  {
+    "id": "cd-2026-08-06-3",
+    "date": "2026-08-06",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "바이낸스가 고객 유치 관련 소송을 제기하자, 암호화폐 기업 RedotPay가 강력히 방어하겠다고 밝혔습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/05/binance-sues-redotpay-for-usd470-million-claiming-it-diverted-users",
+    "title": "RedotPay Vows Strong Defense Against Binance Lawsuit",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Binance, a leading global cryptocurrency exchange, recently filed a significant lawsuit against RedotPay. The legal action, initiated in Hong Kong, alleges that RedotPay illicitly poached Binance customers. Binance specifically claims RedotPay actively diverted users away from its established platform. In response, RedotPay has publicly declared its firm intention to defend itself \"vigorously.\" This high-profile legal dispute clearly underscores the intense competition prevalent within the crypto industry. It also raises critical questions regarding fair user acquisition practices and business ethics. Such complex cases frequently involve intricate legal interpretations of digital asset operations. The ultimate outcome of this lawsuit could potentially set important precedents for the entire sector. These precedents would influence how exchanges manage sensitive customer data. They might also shape future marketing strategies and competitive conduct in the crypto space. Regulatory bodies will likely watch this development closely for its broader implications.",
+    "sentences": [
+      {
+        "en": "Binance, a leading global cryptocurrency exchange, recently filed a significant lawsuit against RedotPay.",
+        "ko": "선도적인 글로벌 암호화폐 거래소 바이낸스가 최근 RedotPay를 상대로 중대한 소송을 제기했습니다."
+      },
+      {
+        "en": "The legal action, initiated in Hong Kong, alleges that RedotPay illicitly poached Binance customers.",
+        "ko": "홍콩에서 시작된 이 법적 조치는 RedotPay가 바이낸스 고객을 불법적으로 빼돌렸다고 주장합니다."
+      },
+      {
+        "en": "Binance specifically claims RedotPay actively diverted users away from its established platform.",
+        "ko": "바이낸스는 RedotPay가 자사의 기존 플랫폼에서 사용자를 적극적으로 이탈시켰다고 구체적으로 주장합니다."
+      },
+      {
+        "en": "In response, RedotPay has publicly declared its firm intention to defend itself \"vigorously.\"",
+        "ko": "이에 대해 RedotPay는 자신을 \"강력하게\" 방어할 확고한 의사를 공개적으로 밝혔습니다."
+      },
+      {
+        "en": "This high-profile legal dispute clearly underscores the intense competition prevalent within the crypto industry.",
+        "ko": "이 고위급 법적 분쟁은 암호화폐 산업 내에 만연한 치열한 경쟁을 분명히 강조합니다."
+      },
+      {
+        "en": "It also raises critical questions regarding fair user acquisition practices and business ethics.",
+        "ko": "또한 공정한 사용자 유치 관행과 비즈니스 윤리에 대한 중요한 질문을 제기합니다."
+      },
+      {
+        "en": "Such complex cases frequently involve intricate legal interpretations of digital asset operations.",
+        "ko": "이러한 복잡한 사건들은 종종 디지털 자산 운영에 대한 복잡한 법적 해석을 수반합니다."
+      },
+      {
+        "en": "The ultimate outcome of this lawsuit could potentially set important precedents for the entire sector.",
+        "ko": "이 소송의 최종 결과는 전체 부문에 중요한 선례를 남길 가능성이 있습니다."
+      },
+      {
+        "en": "These precedents would influence how exchanges manage sensitive customer data.",
+        "ko": "이러한 선례는 거래소가 민감한 고객 데이터를 관리하는 방식에 영향을 미칠 것입니다."
+      },
+      {
+        "en": "They might also shape future marketing strategies and competitive conduct in the crypto space.",
+        "ko": "또한 암호화폐 공간에서 미래 마케팅 전략과 경쟁 행동을 형성할 수도 있습니다."
+      },
+      {
+        "en": "Regulatory bodies will likely watch this development closely for its broader implications.",
+        "ko": "규제 기관들은 더 넓은 의미의 영향을 위해 이 전개를 면밀히 주시할 것입니다."
+      }
+    ],
+    "glossary": {
+      "leading": "most important; foremost.",
+      "global": "relating to the whole world; worldwide.",
+      "cryptocurrency": "a digital currency in which transactions are verified and records maintained by a decentralized system.",
+      "exchange": "a place where people can buy and sell cryptocurrencies.",
+      "filed": "officially submitted a document, such as a lawsuit, to a court.",
+      "lawsuit": "a claim or dispute brought to a court of law for adjudication.",
+      "initiated": "caused a process or action to begin.",
+      "alleges": "claims or asserts that someone has done something illegal or wrong, typically without proof.",
+      "illicitly": "in a manner forbidden by law, rules, or custom; illegally.",
+      "poached": "illegally taken or stolen, especially customers or employees from a rival.",
+      "diverted": "caused someone or something to change course or direction.",
+      "established": "having been in existence for a long time and therefore recognized and respected.",
+      "publicly": "in a way that is open and visible to everyone.",
+      "declared": "stated something definitely or clearly, especially officially.",
+      "intention": "a plan or aim.",
+      "defend": "to resist an attack made on someone or something.",
+      "vigorously": "in a way that involves physical strength, effort, or energy; strongly.",
+      "allegations": "claims or assertions that someone has done something illegal or wrong.",
+      "underscores": "emphasizes the importance of something.",
+      "intense": "of extreme force, degree, or strength.",
+      "competition": "the rivalry among businesses selling similar products or services.",
+      "prevalent": "widespread in a particular area or at a particular time.",
+      "ethics": "moral principles that govern a person's or group's behavior.",
+      "intricate": "very complicated or detailed."
+    },
+    "questions": [
+      "Q1: Where was the lawsuit filed, and what does Binance allege RedotPay did?",
+      "Q2: In the context of the passage, what does \"poached customers\" mean, and why might this legal dispute \"set precedents\" for the crypto industry?",
+      "Q3: How important do you think clear regulations are for preventing such disputes between crypto exchanges, especially concerning user data and marketing practices?"
+    ],
+    "modelAnswers": [
+      "A1: The lawsuit was filed in Hong Kong. Binance alleges that RedotPay poached customers by diverting users away from Binance's established platform.",
+      "A2: \"Poached customers\" means RedotPay allegedly stole or unfairly attracted customers away from Binance. This dispute could set precedents by establishing legal guidelines for how crypto exchanges can compete for and handle customer data.",
+      "A3: Clear regulations are very important to prevent disputes by setting defined rules for competition and data handling. They would provide legal clarity and fairness, reducing the likelihood of exchanges resorting to lawsuits over marketing and user acquisition tactics."
+    ]
+  },
+  {
+    "id": "ec-2026-08-06-1",
+    "date": "2026-08-06",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 중앙은행의 금리 인상 가능성에 대한 최신 소식을 통해 인플레이션과 통화 정책의 연관성을 이해해 보세요.",
+    "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+    "title": "Fed Official Signals Further Rate Hikes Ahead",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Federal Reserve Governor Lisa Cook recently indicated a readiness to raise interest rates. This action aims to combat persistent inflation within the economy. Her statement follows a vote last week by the central bank. The Federal Open Market Committee decided to maintain the benchmark borrowing rate. Currently, this rate stands between 3.5% and 3.75%. However, Cook was part of the majority supporting this decision. Her comments suggest that future rate hikes remain a strong possibility. The Fed uses these rate adjustments to influence economic activity. Higher rates can slow spending and ultimately cool inflation. This ongoing strategy is crucial for maintaining price stability.",
+    "sentences": [
+      {
+        "en": "Federal Reserve Governor Lisa Cook recently indicated a readiness to raise interest rates.",
+        "ko": "연방준비제도 이사 리사 쿡은 최근 금리 인상 준비가 되어 있음을 시사했습니다."
+      },
+      {
+        "en": "This action aims to combat persistent inflation within the economy.",
+        "ko": "이러한 조치는 경제 내 지속적인 인플레이션에 대처하기 위한 것입니다."
+      },
+      {
+        "en": "Her statement follows a vote last week by the central bank.",
+        "ko": "그녀의 발언은 지난주 중앙은행의 투표 이후에 나왔습니다."
+      },
+      {
+        "en": "The Federal Open Market Committee decided to maintain the benchmark borrowing rate.",
+        "ko": "연방공개시장위원회는 기준 대출 금리를 유지하기로 결정했습니다."
+      },
+      {
+        "en": "Currently, this rate stands between 3.5% and 3.75%.",
+        "ko": "현재 이 금리는 3.5%에서 3.75% 사이입니다."
+      },
+      {
+        "en": "However, Cook was part of the majority supporting this decision.",
+        "ko": "하지만 쿡은 이 결정을 지지한 다수파에 속했습니다."
+      },
+      {
+        "en": "Her comments suggest that future rate hikes remain a strong possibility.",
+        "ko": "그녀의 발언은 향후 금리 인상이 여전히 강력한 가능성으로 남아 있음을 시사합니다."
+      },
+      {
+        "en": "The Fed uses these rate adjustments to influence economic activity.",
+        "ko": "연준은 이러한 금리 조정을 통해 경제 활동에 영향을 미칩니다."
+      },
+      {
+        "en": "Higher rates can slow spending and ultimately cool inflation.",
+        "ko": "금리 인상은 지출을 둔화시키고 궁극적으로 인플레이션을 진정시킬 수 있습니다."
+      },
+      {
+        "en": "This ongoing strategy is crucial for maintaining price stability.",
+        "ko": "이러한 지속적인 전략은 물가 안정을 유지하는 데 중요합니다."
+      }
+    ],
+    "glossary": {
+      "governor": "A member of the board that oversees the operations and policies of the Federal Reserve System.",
+      "indicated": "Showed or expressed something, often indirectly or briefly.",
+      "readiness": "The state of being fully prepared for something.",
+      "raise": "To increase the level or amount of something, such as interest rates.",
+      "combat": "To fight against something, like a problem or a negative trend.",
+      "persistent": "Continuing to exist or happen, especially for a long time.",
+      "inflation": "A general increase in prices and fall in the purchasing value of money.",
+      "maintain": "To keep something in its current state or at its current level.",
+      "benchmark": "A standard or point of reference against which things may be compared.",
+      "majority": "The greater number, or more than half, of a group.",
+      "suggest": "To put forward an idea or a plan for consideration.",
+      "possibility": "A thing that may happen or be the case.",
+      "adjustments": "Small changes or modifications made to achieve a desired result.",
+      "influence": "To have an effect on the character, development, or behavior of someone or something.",
+      "spending": "The action of using money to buy goods or services.",
+      "cool": "To reduce the intensity or level of something, such as inflation.",
+      "ongoing": "Continuing to happen or develop.",
+      "strategy": "A plan of action designed to achieve a long-term or overall aim.",
+      "crucial": "Extremely important or essential."
+    },
+    "questions": [
+      "What is the current range of the benchmark borrowing rate mentioned in the article?",
+      "What does the phrase \"combat persistent inflation\" mean in the context of the Federal Reserve's actions?",
+      "How might a fintech PM prepare for potential future interest rate hikes, and what impact could this have on the fintech industry?"
+    ],
+    "modelAnswers": [
+      "The article states that the current benchmark borrowing rate stands between 3.5% and 3.75%.",
+      "\"Combat persistent inflation\" means the Federal Reserve is actively working to fight or reduce the ongoing, high rate of price increases in the economy, typically through monetary policy tools like raising interest rates.",
+      "A fintech PM might prepare by analyzing how higher borrowing costs affect customer loan demand, investment in new technologies, and startup valuations. This could lead to a focus on cost-efficiency, diversifying funding sources, or developing products that thrive in a higher interest rate environment, such as savings tools."
+    ]
+  },
+  {
+    "id": "ec-2026-08-06-2",
+    "date": "2026-08-06",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "7월 민간 기업 고용 수치가 예상치를 밑돌며 노동 시장의 둔화 조짐을 보여주는 이 기사를 읽어보세요.",
+    "url": "https://www.cnbc.com/2026/08/05/private-companies-added-just-44000-workers-in-july-below-expectations-adp-reports.html",
+    "title": "Private Sector Job Growth Slows in July",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Private companies in the US added fewer workers than expected in July. A recent report by ADP showed only 44,000 new jobs. This figure falls significantly below economists' predictions. The data suggests a considerable slowdown in the pace of hiring. Most of the recorded job growth occurred in the healthcare sector. This indicates unevenness across different industries. Slower job creation can signal a cooling labor market. It might also reflect broader economic softening. Such trends are closely watched by central banks. They use this information to guide monetary policy decisions. A weaker job market could influence future interest rate strategies.",
+    "sentences": [
+      {
+        "en": "Private companies in the US added fewer workers than expected in July.",
+        "ko": "미국 민간 기업들은 7월에 예상보다 적은 수의 직원을 고용했습니다."
+      },
+      {
+        "en": "A recent report by ADP showed only 44,000 new jobs.",
+        "ko": "ADP의 최근 보고서에 따르면 신규 일자리는 44,000개에 불과했습니다."
+      },
+      {
+        "en": "This figure falls significantly below economists' predictions.",
+        "ko": "이 수치는 경제학자들의 예측보다 훨씬 낮습니다."
+      },
+      {
+        "en": "The data suggests a considerable slowdown in the pace of hiring.",
+        "ko": "이 데이터는 고용 속도가 상당히 둔화되었음을 시사합니다."
+      },
+      {
+        "en": "Most of the recorded job growth occurred in the healthcare sector.",
+        "ko": "기록된 일자리 증가는 대부분 의료 부문에서 발생했습니다."
+      },
+      {
+        "en": "This indicates unevenness across different industries.",
+        "ko": "이는 여러 산업 전반에 걸쳐 불균형이 있음을 나타냅니다."
+      },
+      {
+        "en": "Slower job creation can signal a cooling labor market.",
+        "ko": "느린 일자리 창출은 노동 시장의 냉각을 시사할 수 있습니다."
+      },
+      {
+        "en": "It might also reflect broader economic softening.",
+        "ko": "이는 또한 더 광범위한 경제 연착륙을 반영할 수도 있습니다."
+      },
+      {
+        "en": "Such trends are closely watched by central banks.",
+        "ko": "이러한 추세는 중앙은행들이 면밀히 주시합니다."
+      },
+      {
+        "en": "They use this information to guide monetary policy decisions.",
+        "ko": "그들은 이 정보를 사용하여 통화 정책 결정을 안내합니다."
+      },
+      {
+        "en": "A weaker job market could influence future interest rate strategies.",
+        "ko": "약화된 고용 시장은 미래의 금리 전략에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "added": "Increased the number of something, in this case, workers.",
+      "expected": "Considered likely to happen or arrive.",
+      "adp": "A company providing human resources management software and services, known for employment reports.",
+      "figure": "A number, especially one that is part of a statistic or calculation.",
+      "significantly": "In a way that is large or important enough to have an effect.",
+      "predictions": "Statements about what will happen in the future.",
+      "slowdown": "A reduction in the speed or rate of something.",
+      "pace": "The speed at which someone or something moves or does something.",
+      "hiring": "The process of employing people for a job.",
+      "recorded": "Registered or documented something in writing or on another medium.",
+      "indicates": "Points out or shows something.",
+      "unevenness": "The quality of not being regular or consistent.",
+      "signal": "To indicate or convey information.",
+      "cooling": "Becoming less intense or active, often referring to economic growth.",
+      "reflect": "To show or be a sign of something.",
+      "softening": "Becoming less severe, strong, or harsh.",
+      "trends": "General directions in which something is developing or changing.",
+      "guide": "To show or indicate the way to someone or something.",
+      "influence": "To have an effect on something.",
+      "strategies": "Plans of action designed to achieve a long-term goal."
+    },
+    "questions": [
+      "How many private sector jobs were added in July, according to the ADP report?",
+      "What does it mean for a labor market to be \"cooling,\" and why might central banks watch this trend?",
+      "As a fintech PM, how might a significant slowdown in job growth impact your company's product development or marketing strategies?"
+    ],
+    "modelAnswers": [
+      "According to the ADP report, private companies added only 44,000 new jobs in July.",
+      "A \"cooling\" labor market means that job creation is slowing down, and there might be fewer job openings or less competition for workers. Central banks watch this trend because it can indicate a broader economic slowdown, which might influence their decisions on interest rates and monetary policy to manage inflation or support growth.",
+      "A slowdown in job growth could reduce consumer confidence and spending, impacting demand for fintech products like personal loans or investment apps. As a PM, I might pivot to products that help users save money, manage debt, or focus on B2B fintech solutions that assist businesses struggling with economic softening, adjusting marketing to emphasize value and financial resilience."
+    ]
+  },
+  {
+    "id": "ec-2026-08-06-3",
+    "date": "2026-08-06",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "최근 헤지펀드 붕괴가 레버리지 시장에 던지는 경고의 의미를 분석하며 금융 시장의 위험 관리에 대해 생각해 보세요.",
+    "url": "https://www.cnbc.com/2026/08/05/bofa-brian-moynihan-situational-awareness-meltdown-was-a-warning-shot.html",
+    "title": "Hedge Fund Meltdown Signals Market Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Bank of America's CEO recently commented on a significant hedge fund meltdown. The fund, named Situational Awareness, faced a severe crisis. This event serves as a critical \"warning shot\" for leveraged markets. Leveraged markets involve using borrowed money to amplify returns. Such practices also increase the potential for substantial losses. Bank of America acted as a prime broker for the struggling hedge fund. Prime brokers offer services like financing and securities lending. The CEO's remarks highlight the inherent risks in financial markets. They underscore the interconnectedness of major financial institutions. This situation emphasizes the need for robust risk management. It also suggests potential for broader market instability.",
+    "sentences": [
+      {
+        "en": "Bank of America's CEO recently commented on a significant hedge fund meltdown.",
+        "ko": "뱅크 오브 아메리카 CEO는 최근 한 중요한 헤지펀드 붕괴에 대해 언급했습니다."
+      },
+      {
+        "en": "The fund, named Situational Awareness, faced a severe crisis.",
+        "ko": "Situational Awareness라는 이름의 펀드는 심각한 위기에 직면했습니다."
+      },
+      {
+        "en": "This event serves as a critical \"warning shot\" for leveraged markets.",
+        "ko": "이 사건은 레버리지 시장에 대한 중요한 \"경고 사격\" 역할을 합니다."
+      },
+      {
+        "en": "Leveraged markets involve using borrowed money to amplify returns.",
+        "ko": "레버리지 시장은 수익을 증폭시키기 위해 빌린 돈을 사용하는 것을 포함합니다."
+      },
+      {
+        "en": "Such practices also increase the potential for substantial losses.",
+        "ko": "이러한 관행은 또한 상당한 손실 가능성을 높입니다."
+      },
+      {
+        "en": "Bank of America acted as a prime broker for the struggling hedge fund.",
+        "ko": "뱅크 오브 아메리카는 어려움을 겪는 이 헤지펀드의 프라임 브로커 역할을 했습니다."
+      },
+      {
+        "en": "Prime brokers offer services like financing and securities lending.",
+        "ko": "프라임 브로커는 자금 조달 및 증권 대여와 같은 서비스를 제공합니다."
+      },
+      {
+        "en": "The CEO's remarks highlight the inherent risks in financial markets.",
+        "ko": "CEO의 발언은 금융 시장에 내재된 위험을 강조합니다."
+      },
+      {
+        "en": "They underscore the interconnectedness of major financial institutions.",
+        "ko": "이는 주요 금융 기관들의 상호 연결성을 강조합니다."
+      },
+      {
+        "en": "This situation emphasizes the need for robust risk management.",
+        "ko": "이 상황은 강력한 위험 관리의 필요성을 강조합니다."
+      },
+      {
+        "en": "It also suggests potential for broader market instability.",
+        "ko": "또한 더 광범위한 시장 불안정의 가능성을 시사합니다."
+      }
+    ],
+    "glossary": {
+      "ceo": "Chief Executive Officer, the highest-ranking executive in a company.",
+      "commented": "Expressed an opinion or reaction.",
+      "significant": "Important or notable.",
+      "meltdown": "A disastrous collapse or breakdown, especially in a financial context.",
+      "faced": "Was confronted with or had to deal with something difficult.",
+      "severe": "Very great; intense.",
+      "crisis": "A time of intense difficulty, trouble, or danger.",
+      "serves": "Functions or acts as something.",
+      "critical": "Extremely important or decisive.",
+      "amplify": "To increase the volume, scope, or intensity of something.",
+      "returns": "The profit or income generated from an investment.",
+      "substantial": "Of considerable importance, size, or worth.",
+      "losses": "The amount of money lost by a business or organization.",
+      "struggling": "Experiencing difficulty or making a strenuous effort.",
+      "financing": "The provision of money for a particular purpose.",
+      "highlight": "To emphasize or draw attention to something.",
+      "underscore": "To emphasize something.",
+      "interconnectedness": "The state of being connected with each other.",
+      "robust": "Strong and healthy; able to withstand difficult conditions.",
+      "instability": "The state of being unstable or prone to change."
+    },
+    "questions": [
+      "What is the name of the hedge fund that experienced a \"meltdown\" according to the article?",
+      "Explain what \"leveraged markets\" are and why the hedge fund's situation serves as a \"warning shot\" for them.",
+      "As a fintech PM working on investment platforms, how might this hedge fund meltdown influence the features you prioritize for risk disclosure or user education?"
+    ],
+    "modelAnswers": [
+      "The hedge fund that experienced a \"meltdown\" is named Situational Awareness.",
+      "\"Leveraged markets\" are financial markets where investors use borrowed money to make investments, aiming to amplify their potential returns. The hedge fund's meltdown serves as a \"warning shot\" because it demonstrates the severe risks and potential for substantial losses when these amplified investments go wrong, signaling that similar dangers exist across other leveraged markets.",
+      "This meltdown would make me prioritize clearer, more prominent risk disclosures on investment platforms, especially for products involving leverage or complex strategies. I would also focus on developing better user education tools, such as interactive modules explaining market volatility, the concept of leverage, and the potential for significant losses, to help users make more informed decisions."
+    ]
+  },
+  {
     "id": "cd-2026-08-05-1",
     "date": "2026-08-05",
     "rank": 1,
