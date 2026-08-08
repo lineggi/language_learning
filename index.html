@@ -2065,6 +2065,7 @@
       const total = Object.keys(wordbank).length;
       const counts = { new: 0, review: 0, mastered: 0 };
       Object.values(wordbank).forEach((v) => { counts[stageOf(v)]++; });
+      const filterLabel = { new: "미암기", review: "복습중", mastered: "완료" }[filter] || "전체";
 
       // Study pool = 미암기(new) words; review pool = 복습중 words that are now due.
       const toCard = (word, v) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" });
@@ -2090,10 +2091,18 @@
         if (!window.confirm(`"${word}" 단어를 단어장에서 삭제할까요?`)) return;
         setWordbank((prev) => { const n = { ...prev }; delete n[word]; return n; });
       };
-      const clearAllWords = () => {
-        setWordbank({});
+      // Delete only what's currently shown (respects the stage filter/search),
+      // e.g. tapping 완료 then deleting removes only 완료 words, not everything.
+      const clearFiltered = () => {
+        const ids = new Set(entries.map((e) => e.word));
+        setWordbank((prev) => {
+          if (ids.size >= Object.keys(prev).length) return {}; // nothing filtered out → full clear
+          const next = { ...prev };
+          for (const id of ids) delete next[id];
+          return next;
+        });
         setConfirmClearAll(false);
-        if (showToast) showToast("단어장을 모두 삭제했어요");
+        if (showToast) showToast(`${ids.size}개 단어를 삭제했어요`);
       };
       // 완료(장기완료) 단어를 다시 복습중으로 되돌린다 (자동 삭제 예약도 해제).
       const backToReview = (word, ev) => {
@@ -2428,19 +2437,27 @@
             ))}
           </div>
 
-          {total > 0 && (
-            <button className="clearallbtn" onClick={() => setConfirmClearAll(true)}>단어장 전체 삭제</button>
+          {entries.length > 0 && (
+            <button className="clearallbtn" onClick={() => setConfirmClearAll(true)}>
+              {filter === "all" && !query ? "단어장 전체 삭제" : `${filterLabel} 삭제`}
+            </button>
           )}
 
           {confirmClearAll && (
             <div className="sheet-backdrop" onClick={() => setConfirmClearAll(false)}>
               <div className="sheet" onClick={(e) => e.stopPropagation()}>
                 <div className="sheet-grip" />
-                <div className="sheet-title fraunces">단어장을 전체 삭제할까요?</div>
-                <div className="sheet-desc">모은 단어 {total}개와 학습 진행 상황이 모두 삭제됩니다. 되돌릴 수 없어요.</div>
+                <div className="sheet-title fraunces">
+                  {filter === "all" && !query ? "단어장을 전체 삭제할까요?" : `${filterLabel} 단어를 삭제할까요?`}
+                </div>
+                <div className="sheet-desc">
+                  {filter === "all" && !query
+                    ? `모은 단어 ${total}개와 학습 진행 상황이 모두 삭제됩니다. 되돌릴 수 없어요.`
+                    : `현재 목록에 보이는 ${entries.length}개 단어만 삭제됩니다 (${filterLabel}). 되돌릴 수 없어요.`}
+                </div>
                 <div className="sheet-actions">
                   <button className="btn ghost" onClick={() => setConfirmClearAll(false)}>취소</button>
-                  <button className="btn danger" onClick={clearAllWords}>전체 삭제</button>
+                  <button className="btn danger" onClick={clearFiltered}>삭제</button>
                 </div>
               </div>
             </div>
