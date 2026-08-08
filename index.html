@@ -418,6 +418,12 @@
 
     /* Wordbank */
     .toolbar { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; align-items: center; }
+    .clearallbtn {
+      display: block; margin: 0 0 14px auto; border: 0; background: none; cursor: pointer;
+      color: var(--faint); font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px;
+      letter-spacing: .04em; text-decoration: underline; padding: 2px 0;
+    }
+    .clearallbtn:hover { color: #b23b3b; }
     .search {
       flex: 1; min-width: 140px; border: 1px solid var(--hair); border-radius: 10px;
       padding: 10px 12px; font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 13px;
@@ -2025,6 +2031,7 @@
       const [missed, setMissed] = useState([]);
       const [history, setHistory] = useState([]); // for undoing an accidental swipe
       const [showHelp, setShowHelp] = useState(false); // usage tips behind a "?" button
+      const [confirmClearAll, setConfirmClearAll] = useState(false);
       const [dragX, setDragX] = useState(0);
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
@@ -2082,6 +2089,11 @@
         ev.stopPropagation();
         if (!window.confirm(`"${word}" 단어를 단어장에서 삭제할까요?`)) return;
         setWordbank((prev) => { const n = { ...prev }; delete n[word]; return n; });
+      };
+      const clearAllWords = () => {
+        setWordbank({});
+        setConfirmClearAll(false);
+        if (showToast) showToast("단어장을 모두 삭제했어요");
       };
       // 완료(장기완료) 단어를 다시 복습중으로 되돌린다 (자동 삭제 예약도 해제).
       const backToReview = (word, ev) => {
@@ -2415,6 +2427,24 @@
               <button key={c.id} className={"chip" + (filter === c.id ? " active" : "")} onClick={() => setFilter(c.id)}>{c.label}</button>
             ))}
           </div>
+
+          {total > 0 && (
+            <button className="clearallbtn" onClick={() => setConfirmClearAll(true)}>단어장 전체 삭제</button>
+          )}
+
+          {confirmClearAll && (
+            <div className="sheet-backdrop" onClick={() => setConfirmClearAll(false)}>
+              <div className="sheet" onClick={(e) => e.stopPropagation()}>
+                <div className="sheet-grip" />
+                <div className="sheet-title fraunces">단어장을 전체 삭제할까요?</div>
+                <div className="sheet-desc">모은 단어 {total}개와 학습 진행 상황이 모두 삭제됩니다. 되돌릴 수 없어요.</div>
+                <div className="sheet-actions">
+                  <button className="btn ghost" onClick={() => setConfirmClearAll(false)}>취소</button>
+                  <button className="btn danger" onClick={clearAllWords}>전체 삭제</button>
+                </div>
+              </div>
+            </div>
+          )}
 
           {entries.length === 0 ? (
             <div className="empty">
