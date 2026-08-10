@@ -1,5 +1,562 @@
 [
   {
+    "id": "cd-2026-08-11-1",
+    "date": "2026-08-11",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "영국 금융당국이 토큰화된 금을 규제하려는 움직임은 런던의 금융 허브 위상을 유지하고 토큰화 시장의 미래를 엿볼 수 있게 합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/10/why-the-uk-financial-watchdog-is-drafting-new-rules-for-tokenized-gold",
+    "title": "UK Regulator Drafts Rules for Tokenized Gold",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The UK's Financial Conduct Authority (FCA) is developing new rules. These rules specifically target tokenized gold products. This initiative aims to solidify London's position as a leading bullion hub. Tokenization involves converting real-world assets into digital tokens on a blockchain. The FCA recognizes the growing importance of this technology. They believe clear regulations are crucial for market integrity. This move could set a precedent for other tokenized assets. It signals a proactive approach to integrating traditional finance with blockchain. Such regulatory clarity could attract more institutional investors. It also provides enhanced protection for consumers. The FCA plans to announce more details about its broader tokenization strategy. This step highlights the increasing mainstream acceptance of blockchain technology.",
+    "sentences": [
+      {
+        "en": "The UK's Financial Conduct Authority (FCA) is developing new rules.",
+        "ko": "영국 금융감독청(FCA)이 새로운 규정을 개발하고 있습니다."
+      },
+      {
+        "en": "These rules specifically target tokenized gold products.",
+        "ko": "이 규정들은 특히 토큰화된 금 상품을 대상으로 합니다."
+      },
+      {
+        "en": "This initiative aims to solidify London's position as a leading bullion hub.",
+        "ko": "이러한 조치는 런던의 선도적인 금 거래 허브로서의 입지를 확고히 하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Tokenization involves converting real-world assets into digital tokens on a blockchain.",
+        "ko": "토큰화는 실물 자산을 블록체인 상의 디지털 토큰으로 변환하는 과정을 포함합니다."
+      },
+      {
+        "en": "The FCA recognizes the growing importance of this technology.",
+        "ko": "FCA는 이 기술의 중요성이 커지고 있음을 인지하고 있습니다."
+      },
+      {
+        "en": "They believe clear regulations are crucial for market integrity.",
+        "ko": "그들은 명확한 규제가 시장의 건전성을 위해 중요하다고 믿습니다."
+      },
+      {
+        "en": "This move could set a precedent for other tokenized assets.",
+        "ko": "이러한 움직임은 다른 토큰화된 자산에 대한 선례를 만들 수 있습니다."
+      },
+      {
+        "en": "It signals a proactive approach to integrating traditional finance with blockchain.",
+        "ko": "이는 전통 금융과 블록체인을 통합하려는 선제적인 접근 방식을 시사합니다."
+      },
+      {
+        "en": "Such regulatory clarity could attract more institutional investors.",
+        "ko": "이러한 규제 명확성은 더 많은 기관 투자자를 유치할 수 있습니다."
+      },
+      {
+        "en": "It also provides enhanced protection for consumers.",
+        "ko": "또한 소비자에게 향상된 보호를 제공합니다."
+      },
+      {
+        "en": "The FCA plans to announce more details about its broader tokenization strategy.",
+        "ko": "FCA는 더 광범위한 토큰화 전략에 대한 추가 세부 사항을 발표할 계획입니다."
+      },
+      {
+        "en": "This step highlights the increasing mainstream acceptance of blockchain technology.",
+        "ko": "이 단계는 블록체인 기술의 주류 수용이 증가하고 있음을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "authority": "An official organization or government department that has the power to make decisions.",
+      "developing": "The process of creating something new or improving something that already exists.",
+      "specifically": "In a precise and exact way, for a particular purpose or item.",
+      "target": "To aim at a particular object or group, or to focus on something.",
+      "initiative": "A new plan or process to achieve something or solve a problem.",
+      "solidify": "To make something stronger or more definite and secure.",
+      "leading": "The most important or successful among a group of similar things.",
+      "bullion": "Gold or silver in the form of bars or ingots, rather than coins.",
+      "tokenization": "The process of converting rights to an asset into a digital token on a blockchain.",
+      "converting": "To change something from one form or use to another.",
+      "real-world": "Existing in or relating to actual life and experience, not just theory.",
+      "recognizes": "To accept or understand that something is true or important.",
+      "crucial": "Extremely important or necessary for the success of something.",
+      "integrity": "The quality of being honest and having strong moral principles, or being whole and undivided.",
+      "precedent": "An earlier event or action that is regarded as an example or guide.",
+      "signals": "An action or event that shows what is happening or what might happen.",
+      "proactive": "Taking action by causing change rather than reacting to change.",
+      "integrating": "To combine two or more things so that they work together effectively.",
+      "clarity": "The quality of being easy to understand or see.",
+      "attract": "To cause someone or something to come to a place or to be interested.",
+      "institutional": "Relating to a large organization or system, especially a financial one.",
+      "enhanced": "Improved or increased in quality, value, or extent.",
+      "protection": "The act of keeping someone or something safe from harm.",
+      "mainstream": "The most common or widely accepted ideas, activities, or beliefs."
+    },
+    "questions": [
+      "Q1: What specific type of asset is the UK's FCA developing new regulations for, and what is the primary goal of this initiative?",
+      "Q2: In the context of the passage, explain what \"tokenization\" means and why \"regulatory clarity\" is considered crucial for its growth.",
+      "Q3: Do you believe that regulating tokenized real-world assets will encourage or hinder innovation in the blockchain space? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: The UK's FCA is developing new regulations for tokenized gold products. The primary goal is to solidify London's position as a leading bullion hub.",
+      "A2: Tokenization means converting real-world assets into digital tokens on a blockchain. Regulatory clarity is crucial because it provides certainty, attracts institutional investors, and ensures market integrity.",
+      "A3: I believe regulation will largely encourage innovation. While initial rules might seem restrictive, they provide a framework that fosters trust and attracts mainstream adoption, leading to more sophisticated and compliant products."
+    ]
+  },
+  {
+    "id": "cd-2026-08-11-2",
+    "date": "2026-08-11",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "암호화폐 거래소 해킹 사건은 디지털 자산 플랫폼의 보안 취약성과 리스크 관리가 얼마나 중요한지 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/08/10/crypto-exchange-coinsbuy-loses-usd8-million-in-coordinated-two-blockchain-attack",
+    "title": "Crypto Exchange Coinsbuy Suffers $8 Million Attack",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Crypto exchange Coinsbuy recently experienced a significant security breach. The platform lost $8 million in a coordinated attack. This incident spanned across two major blockchains, TRON and Ethereum. Onchain forensics identified a single actor responsible for the exploit. Most of the stolen funds were routed through FixedFloat, a crypto exchange service. The exact method or \"attack vector\" used remains unknown. This event highlights ongoing security challenges within the crypto industry. Exchanges must continuously strengthen their defenses against sophisticated threats. For users, understanding these risks is essential for protecting their assets. Such attacks can erode trust in digital asset platforms. They also underscore the critical need for robust security measures. This incident serves as a reminder of potential vulnerabilities in the ecosystem.",
+    "sentences": [
+      {
+        "en": "Crypto exchange Coinsbuy recently experienced a significant security breach.",
+        "ko": "암호화폐 거래소 코인스바이(Coinsbuy)가 최근 상당한 보안 침해를 겪었습니다."
+      },
+      {
+        "en": "The platform lost $8 million in a coordinated attack.",
+        "ko": "이 플랫폼은 조직적인 공격으로 800만 달러를 잃었습니다."
+      },
+      {
+        "en": "This incident spanned across two major blockchains, TRON and Ethereum.",
+        "ko": "이 사건은 트론(TRON)과 이더리움(Ethereum)이라는 두 주요 블록체인에 걸쳐 발생했습니다."
+      },
+      {
+        "en": "Onchain forensics identified a single actor responsible for the exploit.",
+        "ko": "온체인 포렌식은 이 익스플로잇에 책임이 있는 단일 행위자를 식별했습니다."
+      },
+      {
+        "en": "Most of the stolen funds were routed through FixedFloat, a crypto exchange service.",
+        "ko": "도난당한 자금의 대부분은 암호화폐 교환 서비스인 픽스드플로트(FixedFloat)를 통해 라우팅되었습니다."
+      },
+      {
+        "en": "The exact method or \"attack vector\" used remains unknown.",
+        "ko": "사용된 정확한 방법 또는 '공격 벡터'는 여전히 알려지지 않았습니다."
+      },
+      {
+        "en": "This event highlights ongoing security challenges within the crypto industry.",
+        "ko": "이 사건은 암호화폐 산업 내에서 지속되는 보안 문제를 강조합니다."
+      },
+      {
+        "en": "Exchanges must continuously strengthen their defenses against sophisticated threats.",
+        "ko": "거래소는 정교한 위협에 맞서 방어력을 지속적으로 강화해야 합니다."
+      },
+      {
+        "en": "For users, understanding these risks is essential for protecting their assets.",
+        "ko": "사용자에게는 자산을 보호하기 위해 이러한 위험을 이해하는 것이 필수적입니다."
+      },
+      {
+        "en": "Such attacks can erode trust in digital asset platforms.",
+        "ko": "이러한 공격은 디지털 자산 플랫폼에 대한 신뢰를 약화시킬 수 있습니다."
+      },
+      {
+        "en": "They also underscore the critical need for robust security measures.",
+        "ko": "또한 견고한 보안 조치의 중요성을 강조합니다."
+      },
+      {
+        "en": "This incident serves as a reminder of potential vulnerabilities in the ecosystem.",
+        "ko": "이 사건은 생태계의 잠재적 취약점에 대한 경고 역할을 합니다."
+      }
+    ],
+    "glossary": {
+      "exchange": "A platform or marketplace where cryptocurrencies can be bought and sold.",
+      "experienced": "To undergo or encounter something, often an event or situation.",
+      "significant": "Important or noticeable, having a great impact or meaning.",
+      "breach": "A break in security, privacy, or a violation of a rule or agreement.",
+      "coordinated": "Organized and managed to work together effectively, often by one group.",
+      "incident": "An event or occurrence, often one that is unpleasant or unusual.",
+      "spanned": "To extend across a period of time or a range of things.",
+      "blockchains": "Decentralized, distributed ledger technology that records transactions across many computers.",
+      "forensics": "The scientific methods used to investigate crimes and collect evidence.",
+      "identified": "To recognize or establish who or what someone or something is.",
+      "actor": "An individual or entity that performs an action, especially in a negative context.",
+      "responsible": "Being the cause of something, or having control over something.",
+      "exploit": "A clever or skillful act, especially one that takes advantage of a weakness.",
+      "routed": "To send or direct something along a particular path or course.",
+      "service": "A system or organization that provides for a public need or a particular purpose.",
+      "vector": "The specific method or pathway used to carry out an attack.",
+      "remains": "To continue to be in a particular state or condition.",
+      "highlights": "To draw special attention to something, making it more noticeable.",
+      "ongoing": "Continuing to happen or exist, not yet finished.",
+      "strengthen": "To make something stronger or more effective.",
+      "defenses": "Measures taken to protect against attack or harm.",
+      "sophisticated": "Complex or advanced in design or operation, often implying skill.",
+      "threats": "A statement or action that indicates harm might be caused.",
+      "protecting": "To keep safe from harm or injury."
+    },
+    "questions": [
+      "Q1: How much money did Coinsbuy lose in the recent security breach, and what two blockchains were involved in the attack?",
+      "Q2: Explain what \"onchain forensics\" refers to in this context and why the \"attack vector\" being unknown is a significant concern for the exchange.",
+      "Q3: As a PM for a crypto exchange, what are two immediate steps you would recommend to prevent similar attacks and restore user trust?"
+    ],
+    "modelAnswers": [
+      "A1: Coinsbuy lost $8 million in the recent security breach. The attack spanned across the TRON and Ethereum blockchains.",
+      "A2: Onchain forensics refers to analyzing blockchain transaction data to trace stolen funds and identify perpetrators. The unknown attack vector is significant because it means the vulnerability might still exist, leaving the exchange open to future exploits.",
+      "A3: I would recommend a comprehensive security audit by an external firm and implementing multi-factor authentication for all critical operations. Additionally, transparent communication with users about enhanced security measures would be crucial."
+    ]
+  },
+  {
+    "id": "cd-2026-08-11-3",
+    "date": "2026-08-11",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "솔라나 기반 대출 플랫폼 주피터의 새로운 기능은 자본 효율성을 극대화하여 DeFi 생태계의 혁신적인 발전을 보여줍니다.",
+    "url": "https://www.coindesk.com/markets/2026/08/10/solana-lending-giant-jupiter-now-lets-the-same-dollar-earn-twice",
+    "title": "Jupiter Enables Double Yield on Solana Deposits",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Jupiter, a major lending platform on Solana, launched a new product. This innovation, Lend v2, allows users to earn double yield. Typically, deposited assets are locked in one function. Jupiter's new system turns both deposited and borrowed assets into trading liquidity. This means the same capital can generate returns from multiple sources. Higher returns depend on Jupiter's router directing enough swap flow. This flow goes to the new liquidity vaults. The product significantly enhances capital efficiency within DeFi. It offers advanced strategies for users seeking greater profits. This development showcases Solana's growing DeFi ecosystem. It also highlights the continuous innovation in decentralized finance. Such advancements could attract more participants to the Solana network.",
+    "sentences": [
+      {
+        "en": "Jupiter, a major lending platform on Solana, launched a new product.",
+        "ko": "솔라나 기반의 주요 대출 플랫폼인 주피터(Jupiter)가 새로운 상품을 출시했습니다."
+      },
+      {
+        "en": "This innovation, Lend v2, allows users to earn double yield.",
+        "ko": "이 혁신적인 Lend v2는 사용자가 두 배의 수익을 얻을 수 있도록 합니다."
+      },
+      {
+        "en": "Typically, deposited assets are locked in one function.",
+        "ko": "일반적으로 예치된 자산은 하나의 기능에 고정됩니다."
+      },
+      {
+        "en": "Jupiter's new system turns both deposited and borrowed assets into trading liquidity.",
+        "ko": "주피터의 새로운 시스템은 예치된 자산과 빌린 자산 모두를 거래 유동성으로 전환합니다."
+      },
+      {
+        "en": "This means the same capital can generate returns from multiple sources.",
+        "ko": "이는 동일한 자본으로 여러 출처에서 수익을 창출할 수 있음을 의미합니다."
+      },
+      {
+        "en": "Higher returns depend on Jupiter's router directing enough swap flow.",
+        "ko": "더 높은 수익은 주피터의 라우터가 충분한 스왑 흐름을 지시하는지에 달려 있습니다."
+      },
+      {
+        "en": "This flow goes to the new liquidity vaults.",
+        "ko": "이 흐름은 새로운 유동성 금고로 이동합니다."
+      },
+      {
+        "en": "The product significantly enhances capital efficiency within DeFi.",
+        "ko": "이 상품은 DeFi 내에서 자본 효율성을 크게 향상시킵니다."
+      },
+      {
+        "en": "It offers advanced strategies for users seeking greater profits.",
+        "ko": "이는 더 큰 수익을 추구하는 사용자에게 고급 전략을 제공합니다."
+      },
+      {
+        "en": "This development showcases Solana's growing DeFi ecosystem.",
+        "ko": "이러한 발전은 솔라나의 성장하는 DeFi 생태계를 보여줍니다."
+      },
+      {
+        "en": "It also highlights the continuous innovation in decentralized finance.",
+        "ko": "또한 탈중앙화 금융의 지속적인 혁신을 강조합니다."
+      },
+      {
+        "en": "Such advancements could attract more participants to the Solana network.",
+        "ko": "이러한 발전은 더 많은 참여자를 솔라나 네트워크로 유치할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "major": "Very important or significant compared to others of its type.",
+      "platform": "A system or environment that allows users to perform specific functions.",
+      "launched": "To start or introduce something new, such as a product or service.",
+      "innovation": "A new idea, method, or device, or the process of creating them.",
+      "allows": "To let someone do something, or to make something possible.",
+      "yield": "The amount of profit or income produced by an investment.",
+      "typically": "In a way that is usual or characteristic of a particular type.",
+      "deposited": "To put money or assets into an account or a specific place.",
+      "locked": "Held securely and unable to be moved or accessed.",
+      "function": "The purpose or role that something performs.",
+      "borrowed": "To take and use something belonging to someone else with the intention of returning it.",
+      "liquidity": "The availability of liquid assets to a market or company; ease of conversion to cash.",
+      "generate": "To produce or create something, especially energy or income.",
+      "capital": "Wealth in the form of money or other assets owned by a person or organization.",
+      "returns": "The profit from an investment or business venture.",
+      "multiple": "Consisting of many parts or elements.",
+      "directing": "To control or manage someone or something, or to send something in a specific way.",
+      "flow": "The continuous movement of something, like data or money.",
+      "vaults": "Secure storage places, often for valuable items or digital assets.",
+      "significantly": "In an important or noticeable way.",
+      "enhances": "To improve the quality, amount, or strength of something.",
+      "efficiency": "The state or quality of being efficient, using resources well.",
+      "advanced": "Highly developed or complex, beyond a basic level.",
+      "strategies": "Plans of action designed to achieve a long-term or overall aim."
+    },
+    "questions": [
+      "Q1: What is the name of Jupiter's new product, and what unique feature does it offer users regarding their assets?",
+      "Q2: In the context of DeFi, explain what \"capital efficiency\" means and how Jupiter's Lend v2 aims to enhance it.",
+      "Q3: Do you think products like Jupiter's Lend v2, which offer double yield, will become a standard in the DeFi space? What are the potential benefits and risks?"
+    ],
+    "modelAnswers": [
+      "A1: Jupiter's new product is called Lend v2. It allows users to earn double yield by turning both deposited and borrowed assets into trading liquidity.",
+      "A2: Capital efficiency in DeFi refers to maximizing the returns generated from a given amount of capital. Lend v2 enhances it by enabling the same capital to generate returns from multiple sources simultaneously, rather than being locked in a single function.",
+      "A3: Products offering double yield could become more common as DeFi seeks innovation. Benefits include higher returns for users and increased liquidity for platforms. However, risks involve greater complexity, potential for cascading liquidations, and smart contract vulnerabilities."
+    ]
+  },
+  {
+    "id": "ec-2026-08-11-1",
+    "date": "2026-08-11",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 7월 고용 지표가 예상과 달리 하락하며 경제에 대한 엇갈린 신호를 보내 투자자들에게 중요한 통찰을 제공합니다.",
+    "url": "https://www.cnbc.com/2026/08/07/here-are-three-key-takeaways-from-the-disappointing-july-jobs-report.html",
+    "title": "U.S. July Jobs Report: Mixed Signals for Economy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. economy unexpectedly lost 23,000 nonfarm payrolls in July. This decline surprised analysts who had predicted job growth. Simultaneously, the unemployment rate also decreased. This combination left investors with mixed signals about economic health. A lower unemployment rate usually suggests a stronger labor market. However, fewer new jobs can indicate slowing economic activity. Policymakers will carefully examine these conflicting data points. They need to assess the underlying trends for future decisions. These reports are crucial for understanding the broader economic outlook. Investors must interpret them to adjust their market strategies.",
+    "sentences": [
+      {
+        "en": "The U.S. economy unexpectedly lost 23,000 nonfarm payrolls in July.",
+        "ko": "미국 경제는 7월에 예상을 깨고 23,000개의 비농업 일자리를 잃었습니다."
+      },
+      {
+        "en": "This decline surprised analysts who had predicted job growth.",
+        "ko": "이러한 감소는 일자리 증가를 예측했던 분석가들을 놀라게 했습니다."
+      },
+      {
+        "en": "Simultaneously, the unemployment rate also decreased.",
+        "ko": "동시에 실업률도 감소했습니다."
+      },
+      {
+        "en": "This combination left investors with mixed signals about economic health.",
+        "ko": "이러한 조합은 투자자들에게 경제 건전성에 대한 엇갈린 신호를 주었습니다."
+      },
+      {
+        "en": "A lower unemployment rate usually suggests a stronger labor market.",
+        "ko": "낮은 실업률은 일반적으로 더 강력한 노동 시장을 시사합니다."
+      },
+      {
+        "en": "However, fewer new jobs can indicate slowing economic activity.",
+        "ko": "하지만 새로운 일자리 감소는 경제 활동 둔화를 나타낼 수 있습니다."
+      },
+      {
+        "en": "Policymakers will carefully examine these conflicting data points.",
+        "ko": "정책 입안자들은 이러한 상충되는 데이터 포인트를 신중하게 검토할 것입니다."
+      },
+      {
+        "en": "They need to assess the underlying trends for future decisions.",
+        "ko": "그들은 미래 결정을 위해 근본적인 추세를 평가해야 합니다."
+      },
+      {
+        "en": "These reports are crucial for understanding the broader economic outlook.",
+        "ko": "이러한 보고서는 더 넓은 경제 전망을 이해하는 데 중요합니다."
+      },
+      {
+        "en": "Investors must interpret them to adjust their market strategies.",
+        "ko": "투자자들은 시장 전략을 조정하기 위해 이를 해석해야 합니다."
+      }
+    ],
+    "glossary": {
+      "unexpectedly": "In a way that was not predicted or planned, causing surprise.",
+      "nonfarm": "Relating to jobs or industries that are not in agriculture.",
+      "payrolls": "The total number of people employed by companies or the government.",
+      "decline": "To decrease in quantity, importance, or strength.",
+      "analysts": "People who study and examine data to understand a situation and make predictions.",
+      "simultaneously": "Happening or existing at the same time as something else.",
+      "unemployment": "The state of not having a job but actively looking for one.",
+      "mixed": "Containing a combination of different or opposing qualities or elements.",
+      "signals": "Information or indications that suggest a particular situation or trend.",
+      "economic": "Relating to the production, distribution, and consumption of goods and services.",
+      "labor": "Work, especially hard physical work, or the people who do it.",
+      "slowing": "Becoming less fast or active, indicating a decrease in momentum.",
+      "policymakers": "Individuals or groups responsible for creating and implementing government policies.",
+      "conflicting": "Being in opposition or disagreement, making it difficult to reconcile.",
+      "underlying": "Basic or fundamental, forming the foundation of something.",
+      "trends": "General directions in which something is developing or changing.",
+      "crucial": "Extremely important or necessary for a successful outcome.",
+      "broader": "More general or extensive in scope, covering a wider range.",
+      "outlook": "The likely future situation or prospects for a particular economy or market.",
+      "interpret": "To explain the meaning of information or actions to understand them."
+    },
+    "questions": [
+      "What were the two main, seemingly contradictory, outcomes of the July U.S. jobs report?",
+      "Explain what \"mixed signals\" means in the context of economic data. Why might investors find this challenging?",
+      "How might a fintech PM interpret these mixed signals when considering investment strategies or market trends?"
+    ],
+    "modelAnswers": [
+      "The July U.S. jobs report showed an unexpected loss of 23,000 nonfarm payrolls, but simultaneously, the unemployment rate also decreased. These two outcomes appear contradictory.",
+      "Mixed signals in economic data refer to conflicting indicators that do not point clearly in one direction, such as job losses alongside a falling unemployment rate. Investors find this challenging because it creates uncertainty about the true health and future direction of the economy, making it harder to make informed decisions.",
+      "A fintech PM might interpret these mixed signals cautiously, perhaps focusing on how technology solutions can help clients navigate uncertainty. They might explore products that offer diversification, risk management, or real-time data analytics to adapt to volatile market conditions, rather than committing to aggressive growth or defensive strategies prematurely."
+    ]
+  },
+  {
+    "id": "ec-2026-08-11-2",
+    "date": "2026-08-11",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "연준 이사가 인플레이션 대응을 위한 금리 인상 의지를 밝히며 향후 통화 정책 방향을 가늠할 중요한 단서를 제공합니다.",
+    "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
+    "title": "Fed Governor Prepared to Hike Rates Amid Inflation",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Federal Reserve Governor Cook stated her readiness to act on a rate hike. This statement addresses ongoing concerns about inflation. The central bank's benchmark borrowing rate currently sits between 3.5%-3.75%. A rate hike would increase the cost of borrowing money. Such a move aims to cool down an overheating economy. It also helps to bring persistent inflation under control. Policymakers are carefully watching economic indicators for guidance. This hawkish stance signals potential future monetary policy tightening. Financial markets will closely anticipate the Fed's next steps. These decisions significantly impact investment and economic stability.",
+    "sentences": [
+      {
+        "en": "Federal Reserve Governor Cook stated her readiness to act on a rate hike.",
+        "ko": "연방준비제도 이사 쿡은 금리 인상에 나설 준비가 되어 있다고 밝혔습니다."
+      },
+      {
+        "en": "This statement addresses ongoing concerns about inflation.",
+        "ko": "이 발언은 인플레이션에 대한 지속적인 우려를 다루고 있습니다."
+      },
+      {
+        "en": "The central bank's benchmark borrowing rate currently sits between 3.5%-3.75%.",
+        "ko": "중앙은행의 기준 대출 금리는 현재 3.5%-3.75% 사이입니다."
+      },
+      {
+        "en": "A rate hike would increase the cost of borrowing money.",
+        "ko": "금리 인상은 돈을 빌리는 비용을 증가시킬 것입니다."
+      },
+      {
+        "en": "Such a move aims to cool down an overheating economy.",
+        "ko": "이러한 조치는 과열된 경제를 진정시키는 것을 목표로 합니다."
+      },
+      {
+        "en": "It also helps to bring persistent inflation under control.",
+        "ko": "또한 지속적인 인플레이션을 통제하는 데 도움이 됩니다."
+      },
+      {
+        "en": "Policymakers are carefully watching economic indicators for guidance.",
+        "ko": "정책 입안자들은 지침을 얻기 위해 경제 지표를 신중하게 주시하고 있습니다."
+      },
+      {
+        "en": "This hawkish stance signals potential future monetary policy tightening.",
+        "ko": "이러한 매파적 입장은 잠재적인 미래 통화 정책 긴축을 시사합니다."
+      },
+      {
+        "en": "Financial markets will closely anticipate the Fed's next steps.",
+        "ko": "금융 시장은 연준의 다음 조치를 면밀히 예상할 것입니다."
+      },
+      {
+        "en": "These decisions significantly impact investment and economic stability.",
+        "ko": "이러한 결정은 투자와 경제 안정성에 중대한 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "federal": "Relating to the central government of a country, rather than regional governments.",
+      "reserve": "A central bank that manages a nation's money supply and banking system.",
+      "governor": "A member of the board that manages a central bank, like the Federal Reserve.",
+      "readiness": "The state of being fully prepared for something to happen or to do something.",
+      "rate": "A charge or payment calculated in relation to a particular amount or period.",
+      "hike": "An increase, especially in prices, taxes, or interest rates.",
+      "addresses": "Deals with or discusses a problem or issue directly.",
+      "concerns": "Feelings of worry or anxiety about a particular situation.",
+      "inflation": "A general increase in prices and fall in the purchasing value of money.",
+      "central": "Of the greatest importance or influence, forming the core of something.",
+      "benchmark": "A standard or point of reference against which things may be compared or assessed.",
+      "borrowing": "The act of taking money from a bank or lender with the intention of returning it.",
+      "overheating": "A situation where an economy grows too quickly, leading to inflation.",
+      "persistent": "Continuing firmly or obstinately in a course of action in spite of difficulty.",
+      "policymakers": "Individuals or groups responsible for creating and implementing government policies.",
+      "hawkish": "Advocating an aggressive or warlike policy, especially in economics to fight inflation.",
+      "stance": "The way in which someone stands, or their attitude towards something.",
+      "monetary": "Relating to money or currency, especially central bank policy.",
+      "tightening": "Making something stricter or more restrictive, like monetary policy.",
+      "anticipate": "To regard as probable; expect or predict something.",
+      "significantly": "In a sufficiently great or important way as to be worthy of attention.",
+      "impact": "The strong effect that something has on a situation or person.",
+      "stability": "The state of being stable and not subject to sudden change or disruption."
+    },
+    "questions": [
+      "According to the report, what is Governor Cook's stance regarding a potential interest rate hike?",
+      "What is the \"benchmark borrowing rate,\" and how does the Federal Reserve use it to influence the economy?",
+      "If you were a financial analyst, what would you advise clients about the potential impact of a Fed rate hike on their investments?"
+    ],
+    "modelAnswers": [
+      "Governor Cook has expressed her readiness to act on an interest rate hike to address ongoing concerns about inflation.",
+      "The benchmark borrowing rate is the interest rate set by the central bank that influences all other interest rates in the economy. The Federal Reserve uses it to make borrowing more expensive, which can cool down an overheating economy and control inflation by reducing spending.",
+      "As a financial analyst, I would advise clients to review their portfolios for interest-rate sensitive assets. This might include reducing exposure to highly leveraged companies or long-duration bonds, and considering investments in sectors that perform well during periods of higher rates, like certain financials or value stocks, while emphasizing diversification and risk management."
+    ]
+  },
+  {
+    "id": "ec-2026-08-11-3",
+    "date": "2026-08-11",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "엔비디아가 5천억 달러 규모의 자금 조달을 추진하며 AI 붐을 위한 민간 자본의 중요성이 커지고 있음을 보여줍니다.",
+    "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
+    "title": "Nvidia Secures $500 Billion for AI Expansion",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Nvidia is securing a massive $500 billion in financing. This capital package will fuel the artificial intelligence boom. CEO Jensen Huang calls his company's chips an \"investable asset.\" This highlights the growing role of private capital. Private funds are increasingly financing AI infrastructure and innovation. Traditional funding sources cannot always meet this demand. The investment underscores AI's pivotal role in the future economy. It also reflects strong investor confidence in Nvidia's technology. This trend could accelerate further technological advancements. Fintech professionals should observe these shifts in capital allocation.",
+    "sentences": [
+      {
+        "en": "Nvidia is securing a massive $500 billion in financing.",
+        "ko": "엔비디아는 5천억 달러 규모의 막대한 자금을 조달하고 있습니다."
+      },
+      {
+        "en": "This capital package will fuel the artificial intelligence boom.",
+        "ko": "이 자본 패키지는 인공지능 붐에 박차를 가할 것입니다."
+      },
+      {
+        "en": "CEO Jensen Huang calls his company's chips an \"investable asset.\"",
+        "ko": "젠슨 황 CEO는 자사 칩을 \"투자 가능한 자산\"이라고 부릅니다."
+      },
+      {
+        "en": "This highlights the growing role of private capital.",
+        "ko": "이는 민간 자본의 증가하는 역할을 강조합니다."
+      },
+      {
+        "en": "Private funds are increasingly financing AI infrastructure and innovation.",
+        "ko": "민간 자금은 AI 인프라와 혁신에 점점 더 많이 투자되고 있습니다."
+      },
+      {
+        "en": "Traditional funding sources cannot always meet this demand.",
+        "ko": "전통적인 자금원은 항상 이러한 수요를 충족시킬 수 없습니다."
+      },
+      {
+        "en": "The investment underscores AI's pivotal role in the future economy.",
+        "ko": "이 투자는 미래 경제에서 AI의 핵심적인 역할을 강조합니다."
+      },
+      {
+        "en": "It also reflects strong investor confidence in Nvidia's technology.",
+        "ko": "또한 엔비디아 기술에 대한 투자자들의 강한 신뢰를 반영합니다."
+      },
+      {
+        "en": "This trend could accelerate further technological advancements.",
+        "ko": "이러한 추세는 추가적인 기술 발전을 가속화할 수 있습니다."
+      },
+      {
+        "en": "Fintech professionals should observe these shifts in capital allocation.",
+        "ko": "핀테크 전문가들은 이러한 자본 배분 변화를 주시해야 합니다."
+      }
+    ],
+    "glossary": {
+      "securing": "Obtaining something, especially after a lot of effort or negotiation.",
+      "massive": "Extremely large, heavy, or powerful, much bigger than usual.",
+      "financing": "The act of providing money for a large project or purchase.",
+      "capital": "Money or assets available for investment or starting a company.",
+      "package": "A set of proposals or items offered or agreed upon as a whole.",
+      "fuel": "To supply with material that can be burned to produce energy or power.",
+      "artificial": "Made or produced by human beings rather than occurring naturally.",
+      "intelligence": "The ability to acquire and apply knowledge and skills, often by machines.",
+      "boom": "A period of rapid economic growth or increased activity.",
+      "investable": "Suitable for investment, offering a good return or being financially sound.",
+      "asset": "A useful or valuable thing, person, or quality, especially property owned.",
+      "highlights": "Draws special attention to something, emphasizing its importance.",
+      "private": "Belonging to or for the use of one particular person or group.",
+      "funds": "A sum of money saved or made available for a particular purpose.",
+      "infrastructure": "The basic physical and organizational structures needed for a society to operate.",
+      "innovation": "The introduction of new ideas, methods, or products.",
+      "traditional": "Existing in or as part of a tradition; long-established.",
+      "underscores": "Emphasizes the importance of something, making it more noticeable.",
+      "pivotal": "Of crucial importance in relation to the development or success of something.",
+      "reflects": "Shows or indicates something, serving as evidence of a situation.",
+      "confidence": "The feeling or belief that one can rely on someone or something.",
+      "accelerate": "To increase in rate, amount, or extent, making something happen faster."
+    },
+    "questions": [
+      "What is the primary purpose of the $500 billion financing Nvidia is lining up?",
+      "Explain the significance of private capital in financing large-scale technological booms like AI.",
+      "As a fintech PM, how might you leverage the growing trend of private capital financing for AI in your product development or investment strategies?"
+    ],
+    "modelAnswers": [
+      "Nvidia is lining up $500 billion in financing primarily to fuel the ongoing artificial intelligence boom, supporting the expansion of AI infrastructure and innovation.",
+      "Private capital is significant because it provides large, flexible funding that traditional sources might not offer, enabling rapid development and scaling of technologies like AI. It can take on higher risks and move more quickly to capitalize on emerging opportunities, which is crucial for fast-evolving tech sectors.",
+      "As a fintech PM, I would leverage this trend by developing platforms that connect AI startups with private capital investors, or create tools for investors to analyze AI market potential and risks. I might also explore AI-powered investment products that identify promising private AI companies or help manage the unique risks associated with AI investments, focusing on efficiency and access for both sides."
+    ]
+  },
+  {
     "id": "cd-2026-08-10-1",
     "date": "2026-08-10",
     "rank": 1,
