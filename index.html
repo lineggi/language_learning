@@ -687,7 +687,22 @@
       for (const [k, v] of Object.entries(local || {})) put(k, v);  // then local
       return out;
     }
-    function mergeReads(local, remote) { return { ...(remote || {}), ...(local || {}) }; }
+    // Last-write-wins per article, same as mergeWordbank — needed so a delete
+    // (a soft-delete write with a fresh updatedAt) actually wins over a stale
+    // remote copy instead of the old blind-spread letting remote resurrect it.
+    function mergeReads(local, remote) {
+      const out = {};
+      const put = (k, v) => {
+        if (!k || !v) return;
+        const cur = out[k];
+        if (!cur) { out[k] = v; return; }
+        const stamp = (x) => x.updatedAt || x.readAt || 0;
+        out[k] = stamp(v) > stamp(cur) ? v : cur;
+      };
+      for (const [k, v] of Object.entries(remote || {})) put(k, v);
+      for (const [k, v] of Object.entries(local || {})) put(k, v);
+      return out;
+    }
     function pickStreak(local, remote) {
       const cl = (local && local.count) || 0, cr = (remote && remote.count) || 0;
       return cl >= cr ? (local || { count: 0, lastDate: null }) : remote;
@@ -828,7 +843,7 @@
         if (glossary && glossary[f]) return { base: f, def: glossary[f], source: "gloss" };
       }
       for (const f of forms) {
-        if (wordbank && wordbank[f]) return { base: f, def: wordbank[f].meaning, source: "bank" };
+        if (wordbank && wordbank[f] && !wordbank[f].deleted) return { base: f, def: wordbank[f].meaning, source: "bank" };
       }
       // last resort: whole phrase key present verbatim
       const lc = word.toLowerCase();
@@ -861,6 +876,18 @@
       useEffect(() => save(KEY.reads, reads), [reads]);
       useEffect(() => save(KEY.streak, streak), [streak]);
       useEffect(() => save(KEY.errors, errors), [errors]);
+
+      // If a day was missed (no word marked 외웠음 yesterday or today), the
+      // streak is broken — reflect that as 0 right away instead of waiting
+      // for the next word, so a stale count is never shown after opening the
+      // app post-gap.
+      useEffect(() => {
+        setStreak((prev) => {
+          if (!prev.lastDate || !prev.count) return prev;
+          const gap = daysBetween(prev.lastDate, kstToday());
+          return gap > 1 ? { count: 0, lastDate: prev.lastDate } : prev;
+        });
+      }, []);
 
       // Track Supabase auth session (only when a backend is configured).
       useEffect(() => {
@@ -951,14 +978,23 @@
       }, [wordbank, reads, streak, session]);
 
       // Once on load: (1) drop mastered words sat in "장기완료" past their TTL,
-      // and (2) revert "복습중" words that were never reviewed in time back to
-      // "미암기" so an unreviewed word doesn't stay stuck in review forever.
+      // (2) revert "복습중" words that were never reviewed in time back to
+      // "미암기" so an unreviewed word doesn't stay stuck in review forever,
+      // and (3) permanently purge soft-deleted words once their tombstone is
+      // old enough to have safely propagated to every device (deletion has
+      // already won any sync merge by then, so keeping the tombstone forever
+      // would just grow the stored blob for no reason).
+      const TOMBSTONE_TTL_MS = 30 * 86400000;
       useEffect(() => {
         setWordbank((prev) => {
           const today = kstToday();
           const next = {};
           let changed = false;
           for (const [w, v] of Object.entries(prev)) {
+            if (v.deleted) {
+              if (Date.now() - (v.updatedAt || 0) >= TOMBSTONE_TTL_MS) { changed = true; continue; }
+              next[w] = v; continue;
+            }
             const stage = v.stage || (v.learned ? "review" : "new");
             if (stage === "mastered" && v.masteredSince && daysBetween(v.masteredSince, today) >= MASTERED_TTL_DAYS) {
               changed = true; continue; // expired → remove
@@ -969,6 +1005,15 @@
               changed = true; continue;
             }
             next[w] = v;
+          }
+          return changed ? next : prev;
+        });
+        setReads((prev) => {
+          const next = {};
+          let changed = false;
+          for (const [id, v] of Object.entries(prev)) {
+            if (v.deleted && Date.now() - (v.updatedAt || 0) >= TOMBSTONE_TTL_MS) { changed = true; continue; }
+            next[id] = v;
           }
           return changed ? next : prev;
         });
@@ -1010,9 +1055,11 @@
             const norm = String(base || "").toLowerCase().trim();
             if (!norm) continue;
             const existing = lcIndex[norm];
-            if (!existing) {
-              next[norm] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "", updatedAt: Date.now() };
-              lcIndex[norm] = norm;
+            // No entry, or the existing one was soft-deleted → (re)collect fresh.
+            if (!existing || next[existing].deleted) {
+              const key = existing || norm;
+              next[key] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "", updatedAt: Date.now() };
+              lcIndex[norm] = key;
             } else if (example && !next[existing].example) {
               next[existing] = { ...next[existing], example, updatedAt: Date.now() }; // backfill an example onto an existing word
             }
@@ -1021,10 +1068,11 @@
         });
       }, []);
 
-      // Record any learning activity for today (reading, word study, or writing)
-      // and advance the day-streak. Called multiple times a day is a no-op after
-      // the first — the streak only bumps once per new day, resets after a gap.
-      const recordActivity = useCallback(() => {
+      // Record that at least one word was marked 외웠음 (알아요) today, and
+      // advance the day-streak. Called multiple times a day is a no-op after
+      // the first — the streak only bumps once per new day, and only for
+      // actually memorizing a word (not reading, writing, or 몰라요).
+      const recordWordLearned = useCallback(() => {
         setStreak((prev) => {
           const today = kstToday();
           if (prev.lastDate === today) return prev;
@@ -1056,11 +1104,11 @@
 
       const markRead = useCallback((articleId) => {
         setReads((prev) => {
-          if (prev[articleId]) return prev;
-          return { ...prev, [articleId]: { readAt: Date.now(), completed: true } };
+          if (prev[articleId] && !prev[articleId].deleted) return prev;
+          return { ...prev, [articleId]: { readAt: Date.now(), completed: true, updatedAt: Date.now() } };
         });
-        recordActivity();
-      }, [recordActivity]);
+        // Reading alone no longer bumps the streak — only memorizing a word does.
+      }, []);
 
       if (err) return <Shell tab={tab} setTab={setTab}><div className="empty">packs.json을 불러오지 못했습니다.<br/>{err}</div></Shell>;
       if (!packs) return <Shell tab={tab} setTab={setTab}><div className="empty">불러오는 중…</div></Shell>;
@@ -1075,7 +1123,6 @@
           onComplete={markRead}
           onAddWords={addWords}
           showToast={showToast}
-          onActivity={recordActivity}
           onAddErrors={addErrors}
         />;
       } else if (tab === "today") {
@@ -1083,9 +1130,9 @@
       } else if (tab === "archive") {
         body = <Archive packs={sorted} reads={reads} setReads={setReads} onOpen={setOpenId} />;
       } else if (tab === "errors") {
-        body = <ErrorNotes errors={errors} setErrors={setErrors} showToast={showToast} onActivity={recordActivity} />;
+        body = <ErrorNotes errors={errors} setErrors={setErrors} showToast={showToast} />;
       } else {
-        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} session={session} showToast={showToast} onActivity={recordActivity} />;
+        body = <Wordbank wordbank={wordbank} setWordbank={setWordbank} streak={streak} session={session} showToast={showToast} onActivity={recordWordLearned} />;
       }
 
       return (
@@ -1201,7 +1248,7 @@
     /* Today: recommended 3                                                */
     /* ------------------------------------------------------------------ */
     function RecCard({ p, reads, onOpen, badge }) {
-      const isRead = !!reads[p.id];
+      const isRead = !!(reads[p.id] && !reads[p.id].deleted);
       return (
         <button className={"rec" + (isRead ? " read" : "")} onClick={() => onOpen(p.id)}>
           <div className="rank mono">
@@ -1271,8 +1318,8 @@
       return (text || "").split(/(\s+|[^\w'\-]+)/).filter((t) => t.length);
     }
 
-    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onActivity, onAddErrors }) {
-      const alreadyRead = !!reads[pack.id];
+    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onAddErrors }) {
+      const alreadyRead = !!(reads[pack.id] && !reads[pack.id].deleted);
       // Restore any highlighted words for this article so they survive leaving
       // and re-opening the page (kept per pack id in localStorage).
       const [picked, setPicked] = useState(() => (load(KEY.picks, {})[pack.id]) || {}); // index -> word
@@ -1525,9 +1572,9 @@
               </div>
 
               <div className="divider" />
-              <Drill pack={pack} onActivity={onActivity} />
+              <Drill pack={pack} />
               <div className="divider" />
-              <Writing pack={pack} showToast={showToast} onActivity={onActivity} onAddErrors={onAddErrors} />
+              <Writing pack={pack} showToast={showToast} onAddErrors={onAddErrors} />
             </React.Fragment>
           )}
         </div>
@@ -1537,7 +1584,7 @@
     /* ------------------------------------------------------------------ */
     /* Grammar drill: verb/article/plural fill-in-the-blanks from the article */
     /* ------------------------------------------------------------------ */
-    function Drill({ pack, onActivity }) {
+    function Drill({ pack }) {
       const [items, setItems] = useState(null);
       const [loading, setLoading] = useState(false);
       const [errMsg, setErrMsg] = useState("");
@@ -1557,7 +1604,6 @@
           const data = await r.json();
           if (r.ok && data && Array.isArray(data.items) && data.items.length) {
             setItems(data.items); setIdx(0); setTyped(""); setRevealed(false); setRight(0);
-            if (onActivity) onActivity();
           } else setErrMsg((data && data.error) || "드릴을 불러오지 못했어요");
         } catch (e) { setErrMsg(String((e && e.message) || e)); }
         setLoading(false);
@@ -1618,7 +1664,7 @@
     /* ------------------------------------------------------------------ */
     /* Writing: 3 prompts, self-graded model answers                       */
     /* ------------------------------------------------------------------ */
-    function Writing({ pack, showToast, onActivity, onAddErrors }) {
+    function Writing({ pack, showToast, onAddErrors }) {
       const qs = pack.questions || [];
       const ans = pack.modelAnswers || [];
       const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
@@ -1697,7 +1743,7 @@
           setGrades({ ...acc });
         }
         setGrading(false);
-        if (onActivity) onActivity(); // writing practice counts toward the day-streak
+        // Writing practice no longer bumps the streak — only memorizing a word does.
         fetchOverall(acc); // then build the overall 총평 across all answers
       };
 
@@ -1849,10 +1895,13 @@
     /* ------------------------------------------------------------------ */
     function Archive({ packs, reads, setReads, onOpen }) {
       // Only articles the user has finished reading, newest first.
-      const rows = [...packs].reverse().filter((p) => reads[p.id]);
+      const rows = [...packs].reverse().filter((p) => reads[p.id] && !reads[p.id].deleted);
       if (!rows.length) return <div className="empty">아직 읽은 기사가 없습니다.{"\n"}오늘 탭에서 기사를 완독하면 여기에 쌓입니다.</div>;
+      // Soft-delete: keep the record but mark it deleted with a fresh
+      // timestamp, so cross-device sync (last-write-wins) actually removes it
+      // everywhere instead of a stale remote copy silently bringing it back.
       const removeRead = (id) => {
-        setReads((prev) => { const next = { ...prev }; delete next[id]; return next; });
+        setReads((prev) => (prev[id] ? { ...prev, [id]: { ...prev[id], deleted: true, updatedAt: Date.now() } } : prev));
       };
       return (
         <React.Fragment>
@@ -1862,7 +1911,7 @@
               <button className="aopen" onClick={() => onOpen(p.id)}>
                 <span className="adate mono">{p.date} #{p.rank || 1}</span>
                 <span className="atitle fraunces">{p.title}</span>
-                {reads[p.id] && <span className="readpill">READ</span>}
+                <span className="readpill">READ</span>
               </button>
               <button className="adelete" onClick={() => removeRead(p.id)}
                       aria-label="삭제" title="보관함에서 삭제">×</button>
@@ -1878,7 +1927,7 @@
     function normText(s) {
       return String(s || "").toLowerCase().trim().replace(/\s+/g, " ").replace(/[.,!?;:'"()]/g, "");
     }
-    function ErrorNotes({ errors, setErrors, showToast, onActivity }) {
+    function ErrorNotes({ errors, setErrors, showToast }) {
       const [studying, setStudying] = useState(false);
       const [deck, setDeck] = useState([]);
       const [idx, setIdx] = useState(0);
@@ -1912,7 +1961,7 @@
         const st = (cur.stage || "new");
         if (correct) { patchError(cur.id, { stage: st === "new" ? "review" : "mastered" }); setKnown((k) => k + 1); }
         else { patchError(cur.id, { stage: "new" }); setMissed((m) => m + 1); }
-        if (onActivity) onActivity();
+        // 오답노트 review doesn't bump the streak — only memorizing a word does.
         setTyped(""); setRevealed(false); setIdx((i) => i + 1);
       };
 
@@ -2050,8 +2099,13 @@
 
       const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_DUE_DAYS;
 
+      // Soft-deleted words (a delete write with a fresh updatedAt, kept as a
+      // tombstone) must be excluded from every view — grid, counts, and study
+      // pools — so they never show up, even though the raw wordbank object
+      // still contains them until garbage-collected.
       const entries = useMemo(() => {
         return Object.entries(wordbank)
+          .filter(([, v]) => v && !v.deleted)
           .map(([word, v]) => ({ word, ...v, stage: stageOf(v) }))
           .filter((e) => {
             if (filter !== "all" && e.stage !== filter) return false;
@@ -2062,47 +2116,51 @@
           .sort((a, b) => (b.addedDate || "").localeCompare(a.addedDate || "") || a.word.localeCompare(b.word));
       }, [wordbank, query, filter, today]);
 
-      const total = Object.keys(wordbank).length;
+      const aliveWords = useMemo(() => Object.entries(wordbank).filter(([, v]) => v && !v.deleted), [wordbank]);
+      const total = aliveWords.length;
       const counts = { new: 0, review: 0, mastered: 0 };
-      Object.values(wordbank).forEach((v) => { counts[stageOf(v)]++; });
+      aliveWords.forEach(([, v]) => { counts[stageOf(v)]++; });
       const filterLabel = { new: "미암기", review: "복습중", mastered: "완료" }[filter] || "전체";
 
       // Study pool = 미암기(new) words; review pool = 복습중 words that are now due.
       const toCard = (word, v) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" });
       const reviewPool = useMemo(
-        () => Object.entries(wordbank)
-          .filter(([, v]) => reviewDue(v))
-          .map(([word, v]) => toCard(word, v)),
-        [wordbank, today]
+        () => aliveWords.filter(([, v]) => reviewDue(v)).map(([word, v]) => toCard(word, v)),
+        [aliveWords, today]
       );
       const newPool = useMemo(
-        () => Object.entries(wordbank)
+        () => aliveWords
           .filter(([, v]) => stageOf(v) === "new")
           .map(([word, v]) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" })),
-        [wordbank]
+        [aliveWords]
       );
 
       const patch = (word, p, ev) => {
         ev && ev.stopPropagation();
         setWordbank((prev) => ({ ...prev, [word]: { ...prev[word], ...p, updatedAt: Date.now() } }));
       };
+      // Soft-delete: keep the entry but mark it deleted with a fresh
+      // updatedAt, instead of removing the key outright. A hard delete has no
+      // timestamp to win a merge with, so cross-device sync (last-write-wins
+      // by updatedAt) would just pull the old copy back from the server on the
+      // very next sync. Deleted entries are filtered out of every view above
+      // and garbage-collected after they're old enough (see the load sweep).
       const removeWord = (word, ev) => {
         ev.stopPropagation();
         if (!window.confirm(`"${word}" 단어를 단어장에서 삭제할까요?`)) return;
-        setWordbank((prev) => { const n = { ...prev }; delete n[word]; return n; });
+        setWordbank((prev) => (prev[word] ? { ...prev, [word]: { ...prev[word], deleted: true, updatedAt: Date.now() } } : prev));
       };
       // Delete only what's currently shown (respects the stage filter/search),
       // e.g. tapping 완료 then deleting removes only 완료 words, not everything.
       const clearFiltered = () => {
-        const ids = new Set(entries.map((e) => e.word));
+        const ids = entries.map((e) => e.word);
         setWordbank((prev) => {
-          if (ids.size >= Object.keys(prev).length) return {}; // nothing filtered out → full clear
           const next = { ...prev };
-          for (const id of ids) delete next[id];
+          for (const id of ids) if (next[id]) next[id] = { ...next[id], deleted: true, updatedAt: Date.now() };
           return next;
         });
         setConfirmClearAll(false);
-        if (showToast) showToast(`${ids.size}개 단어를 삭제했어요`);
+        if (showToast) showToast(`${ids.length}개 단어를 삭제했어요`);
       };
       // 완료(장기완료) 단어를 다시 복습중으로 되돌린다 (자동 삭제 예약도 해제).
       const backToReview = (word, ev) => {
@@ -2135,17 +2193,18 @@
       // Each flip pronounces the side now shown; speak() cancels any prior audio.
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); speakVisible(deck[idx], nf); };
       const advance = () => { stopSpeech(); setCardFlip(false); setIdx((i) => i + 1); };
-      // "알아요" → advance one SRS stage.
+      // "알아요" → advance one SRS stage, and mark today's word-learned streak.
       //   미암기 session: 미암기 → 복습중.   복습 session: 복습중 → 장기완료.
       const know = () => {
         const w = deck[idx].word;
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: false }]);
         if (studyMode === "review") patch(w, { stage: "mastered", masteredSince: today, reviewSince: undefined });
         else patch(w, { stage: "review", reviewSince: today, learned: true });
-        if (onActivity) onActivity(); // studying counts toward the day-streak
+        if (onActivity) onActivity(); // marking a word 외웠음 is the only thing that bumps the streak
         advance();
       };
-      // "몰라요" → keep the stage, just repeat this round. A 복습중 word that's
+      // "몰라요" → keep the stage, just repeat this round. Does NOT count toward
+      // the streak (only actually memorizing a word does). A 복습중 word that's
       // never successfully reviewed reverts to 미암기 on its own via the
       // time-based sweep (REVIEW_MAX_DAYS), not from a single wrong answer.
       const dontKnow = () => {
@@ -2153,7 +2212,6 @@
         const wasIn = missed.includes(w);
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: !wasIn }]);
         setMissed((m) => (wasIn ? m : [...m, w]));
-        if (onActivity) onActivity(); // studying counts toward the day-streak
         advance();
       };
       // Undo the last swipe: step back a card and revert its SRS change.
