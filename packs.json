@@ -1,5 +1,610 @@
 [
   {
+    "id": "cd-2026-08-12-1",
+    "date": "2026-08-12",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "코인베이스가 토큰화된 자산 시장 확장을 위해 아부다비를 선택한 이유를 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/11/coinbase-picks-abu-dhabi-for-its-global-tokenized-asset-push",
+    "title": "Coinbase Expands Tokenized Assets in Abu Dhabi",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Coinbase, a major crypto exchange, has secured regulatory approval in Abu Dhabi. This approval allows Coinbase to offer tokenized securities globally. Abu Dhabi is actively promoting on-chain finance and digital assets. The emirate aims to become a leading hub for the crypto industry. This move highlights the growing trend of traditional assets becoming tokenized. Tokenization can improve efficiency and accessibility for investors. Regulatory clarity is crucial for the adoption of these new financial products. Coinbase's expansion demonstrates confidence in Abu Dhabi's framework. This partnership could attract more institutional investment into crypto. It also signals a strategic shift towards regulated digital asset offerings. This development is significant for the future of global finance. For fintech PMs, this shows how exchanges are adapting to regulatory demands. It also reveals new opportunities in tokenized asset markets. Understanding these trends is key for product development in the space.",
+    "sentences": [
+      {
+        "en": "Coinbase, a major crypto exchange, has secured regulatory approval in Abu Dhabi.",
+        "ko": "코인베이스는 주요 암호화폐 거래소로, 아부다비에서 규제 승인을 확보했습니다."
+      },
+      {
+        "en": "This approval allows Coinbase to offer tokenized securities globally.",
+        "ko": "이 승인으로 코인베이스는 전 세계적으로 토큰화된 증권을 제공할 수 있게 되었습니다."
+      },
+      {
+        "en": "Abu Dhabi is actively promoting on-chain finance and digital assets.",
+        "ko": "아부다비는 온체인 금융과 디지털 자산을 적극적으로 육성하고 있습니다."
+      },
+      {
+        "en": "The emirate aims to become a leading hub for the crypto industry.",
+        "ko": "이 에미리트는 암호화폐 산업의 선도적인 허브가 되는 것을 목표로 합니다."
+      },
+      {
+        "en": "This move highlights the growing trend of traditional assets becoming tokenized.",
+        "ko": "이번 움직임은 전통 자산이 토큰화되는 증가하는 추세를 보여줍니다."
+      },
+      {
+        "en": "Tokenization can improve efficiency and accessibility for investors.",
+        "ko": "토큰화는 투자자들에게 효율성과 접근성을 향상시킬 수 있습니다."
+      },
+      {
+        "en": "Regulatory clarity is crucial for the adoption of these new financial products.",
+        "ko": "규제 명확성은 이러한 새로운 금융 상품의 채택에 중요합니다."
+      },
+      {
+        "en": "Coinbase's expansion demonstrates confidence in Abu Dhabi's framework.",
+        "ko": "코인베이스의 확장은 아부다비의 프레임워크에 대한 신뢰를 보여줍니다."
+      },
+      {
+        "en": "This partnership could attract more institutional investment into crypto.",
+        "ko": "이 파트너십은 암호화폐 분야로 더 많은 기관 투자를 유치할 수 있습니다."
+      },
+      {
+        "en": "It also signals a strategic shift towards regulated digital asset offerings.",
+        "ko": "또한 규제된 디지털 자산 제공으로의 전략적 전환을 나타냅니다."
+      },
+      {
+        "en": "This development is significant for the future of global finance.",
+        "ko": "이러한 발전은 글로벌 금융의 미래에 중요합니다."
+      },
+      {
+        "en": "For fintech PMs, this shows how exchanges are adapting to regulatory demands.",
+        "ko": "핀테크 PM들에게 이것은 거래소들이 규제 요구에 어떻게 적응하고 있는지를 보여줍니다."
+      },
+      {
+        "en": "It also reveals new opportunities in tokenized asset markets.",
+        "ko": "또한 토큰화된 자산 시장에서의 새로운 기회를 드러냅니다."
+      },
+      {
+        "en": "Understanding these trends is key for product development in the space.",
+        "ko": "이러한 추세를 이해하는 것은 이 분야의 제품 개발에 핵심입니다."
+      }
+    ],
+    "glossary": {
+      "secured": "successfully obtained something important after effort.",
+      "regulatory": "related to rules or laws made by an official authority.",
+      "approval": "official permission or agreement for something to happen.",
+      "tokenized": "converted into digital tokens on a blockchain.",
+      "securities": "financial assets that can be traded, like stocks or bonds.",
+      "globally": "all over the world; worldwide.",
+      "promoting": "actively supporting or encouraging something to develop.",
+      "on-chain": "referring to transactions or activities recorded on a blockchain.",
+      "emirate": "a political territory ruled by an emir, like Abu Dhabi.",
+      "hub": "a central and important place for a particular activity.",
+      "highlights": "draws special attention to something important.",
+      "trend": "a general direction in which something is developing or changing.",
+      "efficiency": "the ability to do a task well without wasting time or resources.",
+      "accessibility": "the quality of being easily reached, used, or understood.",
+      "clarity": "the quality of being clear and easy to understand.",
+      "adoption": "the act of starting to use something new.",
+      "expansion": "the process of increasing in size or scope.",
+      "demonstrates": "clearly shows the existence or truth of something.",
+      "framework": "a basic structure underlying a system or concept.",
+      "partnership": "an arrangement where two or more parties work together.",
+      "institutional": "relating to a large organization, like a bank or investment firm.",
+      "strategic": "related to a plan or method for achieving a specific goal.",
+      "regulated": "controlled or supervised by an official rule or law.",
+      "offerings": "things that are offered or provided, especially products or services."
+    },
+    "questions": [
+      "What kind of approval did Coinbase secure in Abu Dhabi, and what does it allow them to do?",
+      "Explain what \"tokenized securities\" are in your own words, and why \"regulatory clarity\" is important for their \"adoption.\"",
+      "How might Coinbase's expansion into Abu Dhabi impact the global crypto market and traditional finance? What opportunities or challenges do you foresee for fintech product managers?"
+    ],
+    "modelAnswers": [
+      "Coinbase secured regulatory approval in Abu Dhabi. This approval enables the crypto exchange to offer tokenized securities to customers worldwide.",
+      "Tokenized securities are traditional financial assets, like stocks, represented as digital tokens on a blockchain. Regulatory clarity, meaning clear rules, is crucial for their adoption because it builds trust and ensures legal compliance for both investors and companies.",
+      "This move could boost institutional investment in crypto and accelerate the tokenization of traditional assets globally. Fintech PMs might find new opportunities in developing compliant tokenization platforms or digital asset management tools. Challenges could include navigating diverse global regulations and ensuring interoperability."
+    ]
+  },
+  {
+    "id": "cd-2026-08-12-2",
+    "date": "2026-08-12",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "브라질 최대 은행 Itaú가 토큰화 분야에 심화 진출하는 소식을 통해 전통 금융의 변화를 확인하세요.",
+    "url": "https://www.coindesk.com/business/2026/08/11/brazil-s-largest-lender-itau-is-stepping-deeper-into-the-tokenization",
+    "title": "Itaú Deepens Tokenization Efforts in Brazil",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Itaú Unibanco, Brazil's largest bank, is advancing its tokenization initiatives. The bank partnered with OpenAssets, a tokenization specialist. They are testing tokenized bonds and funds in a new pilot program. Brazil's financial watchdog, ANBIMA, is overseeing this pilot run. This collaboration signifies a major step for traditional finance into blockchain. Tokenization can make financial products more accessible and efficient. It allows for fractional ownership of high-value assets. This development could reshape how bonds and funds are traded globally. Regulatory bodies are increasingly exploring these innovative financial technologies. For fintech PMs, this highlights the growing integration of blockchain in banking. It also demonstrates the importance of regulatory sandboxes for innovation. Such projects create new opportunities for product development in tokenized finance.",
+    "sentences": [
+      {
+        "en": "Itaú Unibanco, Brazil's largest bank, is advancing its tokenization initiatives.",
+        "ko": "브라질 최대 은행인 Itaú Unibanco가 토큰화 이니셔티브를 추진하고 있습니다."
+      },
+      {
+        "en": "The bank partnered with OpenAssets, a tokenization specialist.",
+        "ko": "이 은행은 토큰화 전문 기업인 OpenAssets와 협력했습니다."
+      },
+      {
+        "en": "They are testing tokenized bonds and funds in a new pilot program.",
+        "ko": "그들은 새로운 파일럿 프로그램에서 토큰화된 채권과 펀드를 테스트하고 있습니다."
+      },
+      {
+        "en": "Brazil's financial watchdog, ANBIMA, is overseeing this pilot run.",
+        "ko": "브라질 금융 감독 기관인 ANBIMA가 이 파일럿 운영을 감독하고 있습니다."
+      },
+      {
+        "en": "This collaboration signifies a major step for traditional finance into blockchain.",
+        "ko": "이 협력은 전통 금융이 블록체인으로 나아가는 중요한 단계를 의미합니다."
+      },
+      {
+        "en": "Tokenization can make financial products more accessible and efficient.",
+        "ko": "토큰화는 금융 상품을 더 접근하기 쉽고 효율적으로 만들 수 있습니다."
+      },
+      {
+        "en": "It allows for fractional ownership of high-value assets.",
+        "ko": "이는 고가 자산의 부분 소유를 가능하게 합니다."
+      },
+      {
+        "en": "This development could reshape how bonds and funds are traded globally.",
+        "ko": "이러한 발전은 채권과 펀드가 전 세계적으로 거래되는 방식을 재편할 수 있습니다."
+      },
+      {
+        "en": "Regulatory bodies are increasingly exploring these innovative financial technologies.",
+        "ko": "규제 기관들은 이러한 혁신적인 금융 기술을 점점 더 많이 탐색하고 있습니다."
+      },
+      {
+        "en": "For fintech PMs, this highlights the growing integration of blockchain in banking.",
+        "ko": "핀테크 PM들에게 이것은 은행 업무에서 블록체인의 통합이 증가하고 있음을 보여줍니다."
+      },
+      {
+        "en": "It also demonstrates the importance of regulatory sandboxes for innovation.",
+        "ko": "또한 혁신을 위한 규제 샌드박스의 중요성을 보여줍니다."
+      },
+      {
+        "en": "Such projects create new opportunities for product development in tokenized finance.",
+        "ko": "이러한 프로젝트는 토큰화된 금융에서 제품 개발을 위한 새로운 기회를 창출합니다."
+      }
+    ],
+    "glossary": {
+      "lender": "a person or organization that lends money.",
+      "advancing": "making progress or moving forward.",
+      "initiatives": "new plans or processes to achieve a goal.",
+      "partnered": "worked together with another person or group.",
+      "specialist": "a person who has particular knowledge or skill in a specific area.",
+      "testing": "trying something out to see if it works or is effective.",
+      "tokenized": "converted into digital tokens on a blockchain.",
+      "bonds": "financial instruments representing a loan made by an investor to a borrower.",
+      "funds": "sums of money saved or invested for a particular purpose.",
+      "pilot": "a trial or test project before full implementation.",
+      "watchdog": "an organization responsible for making sure companies obey rules.",
+      "overseeing": "supervising or managing a project or activity.",
+      "collaboration": "the act of working together with others.",
+      "signifies": "indicates or means something important.",
+      "reshape": "to change the shape or structure of something.",
+      "fractional": "forming a part or proportion of a whole.",
+      "ownership": "the state of possessing something.",
+      "innovative": "introducing new ideas or methods.",
+      "technologies": "methods or systems used in practical applications.",
+      "integration": "the process of combining things into a whole.",
+      "banking": "the business of operating a bank.",
+      "sandboxes": "controlled environments for testing new products or services.",
+      "innovation": "the introduction of new ideas, methods, or products.",
+      "create": "to bring something into existence."
+    },
+    "questions": [
+      "Which Brazilian bank is involved in this tokenization pilot, and who is overseeing it?",
+      "Based on the passage, what are two key benefits of \"tokenization\" for financial products, and what does a \"regulatory sandbox\" refer to?",
+      "How might the tokenization of traditional assets by major banks like Itaú change the landscape for fintech startups and their product strategies?"
+    ],
+    "modelAnswers": [
+      "Itaú Unibanco, Brazil's largest bank, is involved in this tokenization pilot. Brazil's financial watchdog, ANBIMA, is overseeing the program.",
+      "Tokenization can make financial products more accessible and efficient. A regulatory sandbox is a controlled environment that allows businesses to test innovative products under a regulator's supervision, reducing risks.",
+      "This trend could lead fintech startups to focus more on providing infrastructure for tokenization or specialized services for tokenized assets. They might need to form partnerships with traditional financial institutions to navigate regulatory complexities and gain market access."
+    ]
+  },
+  {
+    "id": "cd-2026-08-12-3",
+    "date": "2026-08-12",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "호주 규제 당국이 Cryptolink를 정지시킨 사례를 통해 암호화폐 규제 준수의 중요성을 이해하세요.",
+    "url": "https://www.coindesk.com/policy/2026/08/11/australian-watchdog-suspends-cryptolink-forcing-96-atms-offline",
+    "title": "Australian Regulator Suspends Crypto ATM Operator",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "An Australian financial watchdog has suspended Cryptolink, a crypto ATM operator. This action has forced 96 Cryptolink ATMs across Australia offline. The regulator cited missing transaction reports as a primary reason. Cryptolink also failed to respond to an information request. This incident highlights the strict regulatory environment for crypto businesses. Compliance with anti-money laundering (AML) rules is essential. Financial services providers must report suspicious activities. Failure to do so can lead to severe penalties, including suspension. This case serves as a warning to other crypto operators worldwide. Regulators are increasing their oversight of the digital asset space. For fintech PMs, understanding compliance requirements is critical. Product designs must incorporate robust reporting and data management systems. Ensuring regulatory adherence protects both the company and its users.",
+    "sentences": [
+      {
+        "en": "An Australian financial watchdog has suspended Cryptolink, a crypto ATM operator.",
+        "ko": "호주 금융 감독 기관이 암호화폐 ATM 운영업체인 Cryptolink를 정지시켰습니다."
+      },
+      {
+        "en": "This action has forced 96 Cryptolink ATMs across Australia offline.",
+        "ko": "이 조치로 호주 전역의 Cryptolink ATM 96대가 오프라인 상태가 되었습니다."
+      },
+      {
+        "en": "The regulator cited missing transaction reports as a primary reason.",
+        "ko": "규제 당국은 누락된 거래 보고서를 주요 이유로 언급했습니다."
+      },
+      {
+        "en": "Cryptolink also failed to respond to an information request.",
+        "ko": "Cryptolink는 정보 요청에 응답하지도 않았습니다."
+      },
+      {
+        "en": "This incident highlights the strict regulatory environment for crypto businesses.",
+        "ko": "이 사건은 암호화폐 사업에 대한 엄격한 규제 환경을 강조합니다."
+      },
+      {
+        "en": "Compliance with anti-money laundering (AML) rules is essential.",
+        "ko": "자금세탁방지(AML) 규정 준수는 필수적입니다."
+      },
+      {
+        "en": "Financial services providers must report suspicious activities.",
+        "ko": "금융 서비스 제공업체는 의심스러운 활동을 보고해야 합니다."
+      },
+      {
+        "en": "Failure to do so can lead to severe penalties, including suspension.",
+        "ko": "그렇지 않을 경우 정지를 포함한 심각한 처벌을 받을 수 있습니다."
+      },
+      {
+        "en": "This case serves as a warning to other crypto operators worldwide.",
+        "ko": "이 사례는 전 세계 다른 암호화폐 운영업체들에게 경고 역할을 합니다."
+      },
+      {
+        "en": "Regulators are increasing their oversight of the digital asset space.",
+        "ko": "규제 당국은 디지털 자산 공간에 대한 감독을 강화하고 있습니다."
+      },
+      {
+        "en": "For fintech PMs, understanding compliance requirements is critical.",
+        "ko": "핀테크 PM들에게 규제 준수 요건을 이해하는 것은 매우 중요합니다."
+      },
+      {
+        "en": "Product designs must incorporate robust reporting and data management systems.",
+        "ko": "제품 설계는 강력한 보고 및 데이터 관리 시스템을 포함해야 합니다."
+      },
+      {
+        "en": "Ensuring regulatory adherence protects both the company and its users.",
+        "ko": "규제 준수를 보장하는 것은 회사와 사용자 모두를 보호합니다."
+      }
+    ],
+    "glossary": {
+      "watchdog": "an organization that makes sure companies obey rules.",
+      "suspended": "officially stopped something from continuing for a period of time.",
+      "operator": "a person or company that runs a business or service.",
+      "forced": "made someone or something do something unwillingly.",
+      "offline": "not connected to a computer network or the internet.",
+      "cited": "mentioned something as a reason, example, or source of information.",
+      "missing": "not present or unable to be found.",
+      "transaction": "a business deal or an instance of buying or selling something.",
+      "primary": "being the most important or main thing.",
+      "failed": "did not succeed in achieving a goal or performing an action.",
+      "respond": "to say or do something in reply.",
+      "request": "an act of politely asking for something to be given or done.",
+      "incident": "an event or occurrence, often a negative one.",
+      "highlights": "draws special attention to an important fact or detail.",
+      "environment": "the conditions that affect how something operates.",
+      "compliance": "the act of obeying rules or laws.",
+      "providers": "companies or people that supply a service or product.",
+      "suspicious": "causing a feeling that something is wrong or bad.",
+      "penalties": "punishments for breaking a law or rule.",
+      "oversight": "the action of supervising or managing a project or activity.",
+      "incorporate": "to include something as part of something else.",
+      "robust": "strong and healthy; able to withstand difficult conditions.",
+      "adherence": "the act of sticking to a rule or belief."
+    },
+    "questions": [
+      "What were the two main reasons the Australian financial watchdog suspended Cryptolink?",
+      "Explain the term \"anti-money laundering (AML) rules\" and why \"compliance\" with them is \"essential\" for crypto businesses.",
+      "If you were a fintech product manager for a crypto ATM company, what specific features or processes would you prioritize to ensure regulatory compliance and prevent similar suspensions?"
+    ],
+    "modelAnswers": [
+      "The Australian financial watchdog suspended Cryptolink primarily because of missing transaction reports and the company's failure to respond to an information request.",
+      "Anti-money laundering (AML) rules are regulations designed to prevent illegal activities like terrorism financing through financial systems. Compliance with these rules is essential for crypto businesses to maintain legal operation, build trust, and avoid severe penalties.",
+      "I would prioritize automated, real-time transaction reporting systems that integrate directly with regulatory bodies. I'd also implement a robust customer identification (KYC) process and a clear internal protocol for responding promptly to all regulatory inquiries."
+    ]
+  },
+  {
+    "id": "ec-2026-08-12-1",
+    "date": "2026-08-12",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "다가오는 물가 지표가 연방준비제도(Fed)의 통화 정책 결정에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/11/an-inflation-report-wednesday-should-be-a-big-deal-for-the-fed-heres-what-to-expect.html",
+    "title": "Upcoming Inflation Report Crucial for Fed Decisions",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. consumer price index (CPI) report for July is highly anticipated. Economists expect only a modest increase in inflation figures. This data is crucial for the Federal Reserve's next policy meeting. A lower-than-expected rise could influence interest rate decisions. The Fed has been actively working to bring inflation down. Their goal is to achieve price stability in the economy. Slower inflation might suggest their efforts are succeeding. This could lead to a pause in further rate hikes. However, stronger inflation could prompt more aggressive actions. Financial markets are closely watching for any new signals. The report will provide key insights into economic trends.",
+    "sentences": [
+      {
+        "en": "The U.S. consumer price index (CPI) report for July is highly anticipated.",
+        "ko": "7월 미국 소비자물가지수(CPI) 보고서가 큰 기대를 모으고 있습니다."
+      },
+      {
+        "en": "Economists expect only a modest increase in inflation figures.",
+        "ko": "경제학자들은 물가 수치에서 완만한 상승만을 예상합니다."
+      },
+      {
+        "en": "This data is crucial for the Federal Reserve's next policy meeting.",
+        "ko": "이 데이터는 연방준비제도(Fed)의 다음 정책 회의에 매우 중요합니다."
+      },
+      {
+        "en": "A lower-than-expected rise could influence interest rate decisions.",
+        "ko": "예상보다 낮은 상승률은 금리 결정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "The Fed has been actively working to bring inflation down.",
+        "ko": "연준은 인플레이션을 낮추기 위해 적극적으로 노력해왔습니다."
+      },
+      {
+        "en": "Their goal is to achieve price stability in the economy.",
+        "ko": "그들의 목표는 경제에서 물가 안정을 달성하는 것입니다."
+      },
+      {
+        "en": "Slower inflation might suggest their efforts are succeeding.",
+        "ko": "더딘 인플레이션은 그들의 노력이 성공하고 있음을 시사할 수 있습니다."
+      },
+      {
+        "en": "This could lead to a pause in further rate hikes.",
+        "ko": "이는 추가 금리 인상 중단으로 이어질 수 있습니다."
+      },
+      {
+        "en": "However, stronger inflation could prompt more aggressive actions.",
+        "ko": "하지만 더 강력한 인플레이션은 더 공격적인 조치를 촉발할 수 있습니다."
+      },
+      {
+        "en": "Financial markets are closely watching for any new signals.",
+        "ko": "금융 시장은 새로운 신호를 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "The report will provide key insights into economic trends.",
+        "ko": "이 보고서는 경제 동향에 대한 주요 통찰력을 제공할 것입니다."
+      }
+    ],
+    "glossary": {
+      "consumer": "A person who buys goods and services for their own use.",
+      "price": "The amount of money that you have to pay for something.",
+      "index": "A list of numbers or prices that shows how much they change over time.",
+      "anticipated": "Expected or looked forward to with eagerness or pleasure.",
+      "modest": "Not very large, important, or extreme; moderate.",
+      "increase": "A rise in the amount, number, or size of something.",
+      "inflation": "The rate at which the general level of prices for goods and services is rising.",
+      "figures": "Numbers, especially those referring to an amount of money.",
+      "crucial": "Extremely important or necessary.",
+      "federal": "Relating to the central government rather than to the governments of separate states.",
+      "reserve": "A supply of something kept available for future use.",
+      "policy": "A course or principle of action adopted or proposed by a government or party.",
+      "influence": "To have an effect on the character, development, or behavior of someone or something.",
+      "interest": "Money paid regularly at a particular rate for the use of money lent.",
+      "actively": "In an energetic and involved manner.",
+      "succeeding": "Achieving the desired aim or result.",
+      "pause": "A temporary stop or rest.",
+      "hikes": "Increases in the interest rate set by a central bank.",
+      "prompt": "To cause or bring about an action or feeling.",
+      "aggressive": "Characterized by forceful and energetic action.",
+      "financial": "Relating to money or how money is managed.",
+      "signals": "Actions or events that indicate something.",
+      "insights": "Deep understanding of a person or thing.",
+      "trends": "General directions in which the economy is developing or changing."
+    },
+    "questions": [
+      "What specific economic report is mentioned as highly anticipated, and what is its expected outcome for July?",
+      "In the context of the passage, explain what \"price stability\" means and why it is a goal for the Federal Reserve.",
+      "How do you think a fintech PM might use information from an inflation report to inform their product development or investment strategies?"
+    ],
+    "modelAnswers": [
+      "The highly anticipated report is the U.S. consumer price index (CPI) for July. Economists expect only a modest increase in the inflation figures.",
+      "\"Price stability\" refers to a state where the overall level of prices for goods and services in an economy changes slowly. It is a goal for the Federal Reserve because stable prices help maintain purchasing power, reduce economic uncertainty, and foster sustainable growth.",
+      "A fintech PM could use inflation data to adjust lending rates for financial products, anticipate shifts in consumer spending habits, or develop new tools for inflation-hedging investments. Understanding these trends helps in designing more resilient and relevant financial solutions."
+    ]
+  },
+  {
+    "id": "ec-2026-08-12-2",
+    "date": "2026-08-12",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "AI 컴퓨팅 파워가 새로운 거래 가능한 자산으로 떠오르며 선물 계약이 출시되는 소식을 확인하세요.",
+    "url": "https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html",
+    "title": "AI Compute Power Becomes New Tradable Asset",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Artificial intelligence computing power is now emerging as a tradable asset. The Chicago Mercantile Exchange (CME) is launching new financial products. They are partnering with Silicon Data for this innovative venture. Two compute futures contracts will be introduced on October 5. This marks a significant development in financial markets. It allows investors to speculate on or hedge against the cost of AI compute. Such contracts provide a standardized way to trade this resource. The move reflects the growing importance of AI infrastructure. It also highlights the demand for new financial instruments. This could help stabilize prices and improve resource allocation. The launch is pending regulatory review and approval. This new asset class represents a frontier in financial innovation.",
+    "sentences": [
+      {
+        "en": "Artificial intelligence computing power is now emerging as a tradable asset.",
+        "ko": "인공지능 컴퓨팅 파워가 이제 거래 가능한 자산으로 부상하고 있습니다."
+      },
+      {
+        "en": "The Chicago Mercantile Exchange (CME) is launching new financial products.",
+        "ko": "시카고상업거래소(CME)가 새로운 금융 상품을 출시합니다."
+      },
+      {
+        "en": "They are partnering with Silicon Data for this innovative venture.",
+        "ko": "그들은 이 혁신적인 사업을 위해 실리콘 데이터와 협력하고 있습니다."
+      },
+      {
+        "en": "Two compute futures contracts will be introduced on October 5.",
+        "ko": "두 가지 컴퓨팅 선물 계약이 10월 5일에 도입될 예정입니다."
+      },
+      {
+        "en": "This marks a significant development in financial markets.",
+        "ko": "이는 금융 시장에서 중요한 발전을 의미합니다."
+      },
+      {
+        "en": "It allows investors to speculate on or hedge against the cost of AI compute.",
+        "ko": "이는 투자자들이 AI 컴퓨팅 비용에 대해 투기하거나 헤지할 수 있게 합니다."
+      },
+      {
+        "en": "Such contracts provide a standardized way to trade this resource.",
+        "ko": "이러한 계약은 이 자원을 거래하는 표준화된 방법을 제공합니다."
+      },
+      {
+        "en": "The move reflects the growing importance of AI infrastructure.",
+        "ko": "이러한 움직임은 AI 인프라의 중요성이 커지고 있음을 반영합니다."
+      },
+      {
+        "en": "It also highlights the demand for new financial instruments.",
+        "ko": "또한 새로운 금융 상품에 대한 수요를 강조합니다."
+      },
+      {
+        "en": "This could help stabilize prices and improve resource allocation.",
+        "ko": "이는 가격을 안정시키고 자원 배분을 개선하는 데 도움이 될 수 있습니다."
+      },
+      {
+        "en": "The launch is pending regulatory review and approval.",
+        "ko": "출시는 규제 검토 및 승인을 기다리고 있습니다."
+      },
+      {
+        "en": "This new asset class represents a frontier in financial innovation.",
+        "ko": "이 새로운 자산군은 금융 혁신의 최전선을 나타냅s니다."
+      }
+    ],
+    "glossary": {
+      "artificial": "Made or produced by human beings rather than occurring naturally.",
+      "intelligence": "The ability to acquire and apply knowledge and skills.",
+      "computing": "The use or operation of computers.",
+      "emerging": "Becoming apparent or prominent.",
+      "tradable": "Capable of being bought and sold.",
+      "asset": "An item of property owned by a person or company, regarded as having value.",
+      "mercantile": "Relating to trade or commerce; commercial.",
+      "exchange": "A place where people buy and sell foreign money, shares, or goods.",
+      "launching": "Starting or introducing something new.",
+      "financial": "Relating to money or how money is managed.",
+      "partnering": "Collaborating with another entity to achieve a common goal.",
+      "innovative": "Introducing new ideas, methods, or products.",
+      "venture": "A business enterprise or project, typically one that involves risk.",
+      "futures": "Financial contracts obligating the buyer to purchase an asset at a predetermined price on a future date.",
+      "contracts": "Formal written agreements that are legally binding.",
+      "introduced": "Brought into existence or use for the first time.",
+      "significant": "Important or notable.",
+      "speculate": "To form a theory or conjecture about a subject without firm evidence, often with financial risk.",
+      "hedge": "To protect oneself against financial loss or other adverse circumstances.",
+      "standardized": "Made to conform to a standard; regularized.",
+      "resource": "A stock or supply of money, materials, staff, and other assets that can be drawn on.",
+      "reflects": "Shows or indicates something.",
+      "infrastructure": "The basic physical and organizational structures needed for the operation of an enterprise.",
+      "highlights": "Draws special attention to something.",
+      "demand": "The desire of consumers for a good or service.",
+      "instruments": "Any contract that gives rise to a financial asset of one entity and a financial liability of another.",
+      "stabilize": "To make or become unlikely to change, fail, or decline.",
+      "allocation": "The action or process of distributing something.",
+      "pending": "Awaiting decision or settlement.",
+      "regulatory": "Relating to the supervision of a particular industry or activity.",
+      "approval": "The action of officially agreeing to something.",
+      "frontier": "An undeveloped area or field of study; the extreme limit.",
+      "innovation": "The action or process of innovating."
+    },
+    "questions": [
+      "Which major exchange is launching new financial products related to AI computing power, and what specific type of contract will be introduced?",
+      "Based on the passage, what are two main purposes for which investors might use these new compute futures contracts?",
+      "As a fintech PM, how might the emergence of AI computing power as a tradable asset influence the development of new financial technologies or platforms?"
+    ],
+    "modelAnswers": [
+      "The Chicago Mercantile Exchange (CME) is launching new financial products related to AI computing power. They will introduce two compute futures contracts.",
+      "Investors might use these new compute futures contracts to speculate on the future cost of AI compute or to hedge against potential price fluctuations. This allows them to either profit from anticipated changes or protect themselves from adverse movements.",
+      "The emergence of AI compute as a tradable asset could drive the development of specialized trading platforms and real-time pricing models for digital infrastructure. Fintech PMs might explore creating new indices, risk management tools, or even tokenized representations of compute capacity to facilitate broader market access and liquidity."
+    ]
+  },
+  {
+    "id": "ec-2026-08-12-3",
+    "date": "2026-08-12",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "엔비디아의 획기적인 AI 자금 조달 계획과 중국 관련 주요 위험 요소를 살펴보세요.",
+    "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
+    "title": "Nvidia's Bold AI Funding Plan Faces China Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Nvidia CEO Jensen Huang is proposing a massive AI financing plan. He aims to unlock $500 billion in funding for AI development. The unique strategy involves using advanced GPUs as collateral. These graphics processing units would secure long-term loans. However, this plan faces significant risks, especially from China. U.S. export restrictions could limit chip sales to China. This might reduce the value of Nvidia's GPUs over time. The core question is how quickly these high-tech chips depreciate. Technological advancements make older GPUs less valuable rapidly. If collateral value drops, lenders face higher risks. This innovative financing model is being closely watched. It could reshape how future AI infrastructure is funded globally.",
+    "sentences": [
+      {
+        "en": "Nvidia CEO Jensen Huang is proposing a massive AI financing plan.",
+        "ko": "엔비디아 CEO 젠슨 황이 대규모 AI 자금 조달 계획을 제안하고 있습니다."
+      },
+      {
+        "en": "He aims to unlock $500 billion in funding for AI development.",
+        "ko": "그는 AI 개발을 위해 5천억 달러의 자금을 확보하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The unique strategy involves using advanced GPUs as collateral.",
+        "ko": "이 독특한 전략은 첨단 GPU를 담보로 활용하는 것입니다."
+      },
+      {
+        "en": "These graphics processing units would secure long-term loans.",
+        "ko": "이러한 그래픽 처리 장치가 장기 대출을 확보할 것입니다."
+      },
+      {
+        "en": "However, this plan faces significant risks, especially from China.",
+        "ko": "하지만 이 계획은 특히 중국으로부터 상당한 위험에 직면해 있습니다."
+      },
+      {
+        "en": "U.S. export restrictions could limit chip sales to China.",
+        "ko": "미국의 수출 제한은 중국으로의 칩 판매를 제한할 수 있습니다."
+      },
+      {
+        "en": "This might reduce the value of Nvidia's GPUs over time.",
+        "ko": "이는 시간이 지남에 따라 엔비디아 GPU의 가치를 하락시킬 수 있습니다."
+      },
+      {
+        "en": "The core question is how quickly these high-tech chips depreciate.",
+        "ko": "핵심 질문은 이러한 첨단 칩이 얼마나 빨리 감가상각되는가입니다."
+      },
+      {
+        "en": "Technological advancements make older GPUs less valuable rapidly.",
+        "ko": "기술 발전은 오래된 GPU의 가치를 빠르게 떨어뜨립니다."
+      },
+      {
+        "en": "If collateral value drops, lenders face higher risks.",
+        "ko": "담보 가치가 하락하면 대출 기관은 더 높은 위험에 직면합니다."
+      },
+      {
+        "en": "This innovative financing model is being closely watched.",
+        "ko": "이 혁신적인 자금 조달 모델은 면밀히 주시되고 있습니다."
+      },
+      {
+        "en": "It could reshape how future AI infrastructure is funded globally.",
+        "ko": "이는 미래 AI 인프라가 전 세계적으로 자금을 조달하는 방식을 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "proposing": "Suggesting a plan or idea for consideration.",
+      "massive": "Very large, extensive, or imposing.",
+      "financing": "The act of providing funds for a business or project.",
+      "unlock": "To release or make available something that was previously restricted.",
+      "funding": "Money provided, especially by an organization or government, for a particular purpose.",
+      "strategy": "A plan of action designed to achieve a long-term or overall aim.",
+      "advanced": "Highly developed or sophisticated.",
+      "gpus": "Graphics processing units, specialized electronic circuits for fast image manipulation.",
+      "collateral": "Property or goods pledged by a borrower to a lender to secure a loan.",
+      "secure": "To obtain or guarantee something, often a loan, by providing collateral.",
+      "long-term": "Relating to a period of many years.",
+      "significant": "Sufficiently great or important to be worthy of attention.",
+      "export": "To send goods or services to another country for sale.",
+      "restrictions": "Limiting conditions or measures.",
+      "limit": "To restrict the size, amount, or extent of something.",
+      "reduce": "To make something smaller or less in amount, degree, or size.",
+      "depreciate": "To diminish in value over a period of time.",
+      "technological": "Relating to or using technology.",
+      "advancements": "Progress or improvements in technology.",
+      "lenders": "People or organizations that lend money.",
+      "innovative": "Featuring new methods; advanced and original.",
+      "model": "A system or example for imitation or comparison.",
+      "reshape": "To give a new or different shape or form to something.",
+      "infrastructure": "The basic physical and organizational structures needed for the operation of a society or enterprise.",
+      "globally": "Throughout the world."
+    },
+    "questions": [
+      "What is Jensen Huang's unique proposal for securing $500 billion in AI funding, and what is the primary asset used as collateral?",
+      "Explain the concept of \"depreciate\" in the context of Nvidia's GPUs and why it poses a risk to lenders.",
+      "If you were a fintech PM, how would you assess the risks and opportunities of a financing model that uses rapidly evolving technology as collateral?"
+    ],
+    "modelAnswers": [
+      "Jensen Huang proposes securing $500 billion in AI funding by using advanced GPUs (graphics processing units) as long-term collateral for loans. These specialized chips are the primary asset.",
+      "\"Depreciate\" means to diminish in value over time. For Nvidia's GPUs, rapid technological advancements can quickly make older chips less powerful and thus less valuable. This poses a risk to lenders because if the collateral's value drops significantly, it might not fully cover the loan amount if the borrower defaults.",
+      "As a fintech PM, I would assess the rapid depreciation rate of the technology, market demand volatility, and geopolitical risks that could impact collateral value. The opportunity lies in creating innovative financing structures, like tokenized collateral or dynamic valuation models, to mitigate risks and unlock new capital for high-growth sectors."
+    ]
+  },
+  {
     "id": "cd-2026-08-11-1",
     "date": "2026-08-11",
     "rank": 1,
