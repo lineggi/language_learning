@@ -156,11 +156,6 @@
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; letter-spacing: .08em;
       padding: 4px 0; margin-bottom: 8px;
     }
-    .progresswrap {
-      position: sticky; top: 0; z-index: 10; height: 3px; background: var(--hair);
-      border-radius: 3px; overflow: hidden; margin-bottom: 4px;
-    }
-    .progressbar { height: 100%; background: var(--amber); width: 0%; transition: width .08s linear; }
     .holdnote {
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--amber);
       letter-spacing: .06em; height: 16px; margin: 2px 0 6px;
@@ -1323,22 +1318,12 @@
       // Restore any highlighted words for this article so they survive leaving
       // and re-opening the page (kept per pack id in localStorage).
       const [picked, setPicked] = useState(() => (load(KEY.picks, {})[pack.id]) || {}); // index -> word
-      const [progress, setProgress] = useState(alreadyRead ? 1 : 0);
       const [completed, setCompleted] = useState(alreadyRead);
       const [openSent, setOpenSent] = useState(null); // expanded sentence index (study mode)
       const savedRef = useRef(false);
       const doneRef = useRef(alreadyRead);
 
       const tokens = useMemo(() => tokenize(pack.passage), [pack.passage]);
-
-      // Track scroll depth for the progress bar only. Completion is no longer
-      // automatic — the reader must tap the 완독 button below the article.
-      const evaluate = useCallback(() => {
-        const el = document.scrollingElement || document.documentElement;
-        const denom = el.scrollHeight - el.clientHeight;
-        const ratio = denom > 2 ? Math.min(1, el.scrollTop / denom) : 1;
-        setProgress(ratio);
-      }, []);
 
       // Mark the article read (only via the 완독 button / click).
       const finish = useCallback(() => {
@@ -1351,16 +1336,7 @@
 
       useEffect(() => {
         if (!alreadyRead) window.scrollTo(0, 0);
-        window.addEventListener("scroll", evaluate, { passive: true });
-        window.addEventListener("resize", evaluate);
-        const t1 = setTimeout(evaluate, 300);
-        const t2 = setTimeout(evaluate, 1200);
-        return () => {
-          window.removeEventListener("scroll", evaluate);
-          window.removeEventListener("resize", evaluate);
-          clearTimeout(t1); clearTimeout(t2);
-        };
-      }, [evaluate, alreadyRead]);
+      }, [alreadyRead]);
 
       const togglePick = (idx, word) => {
         setPicked((prev) => {
@@ -1515,7 +1491,6 @@
       return (
         <div className="reader">
           <button className="backbtn mono" onClick={onBack}>← 목록으로</button>
-          <div className="progresswrap"><div className="progressbar" style={{ width: (progress * 100).toFixed(1) + "%" }} /></div>
           <div className="holdnote mono">
             {completed ? "✓ 완독 · 문장을 탭하면 뜻이 보여요" : ""}
           </div>
