@@ -348,6 +348,17 @@
       border-radius: 10px; padding: 11px; font-family: "Newsreader", "Pretendard", serif; font-size: 18px;
       background: #fffdf9; color: var(--ink); margin-bottom: 10px;
     }
+    .errcard .mcloading { font-size: 13px; color: var(--muted); margin-top: 8px; }
+    .errcard .mcchoices { display: flex; flex-direction: column; gap: 8px; }
+    .errcard .mcopt {
+      width: 100%; text-align: left; border: 1px solid var(--hair); background: #fffdf9;
+      border-radius: 10px; padding: 11px 13px; cursor: pointer;
+      font-family: "Newsreader", "Pretendard", serif; font-size: 16px; color: var(--ink); line-height: 1.4;
+    }
+    .errcard .mcopt:hover:not(:disabled) { border-color: var(--amber); background: #fff8ec; }
+    .errcard .mcopt:disabled { cursor: default; opacity: .55; }
+    .errcard .mcopt.correct { opacity: 1; border-color: var(--good); background: #eef6f0; color: var(--good); font-weight: 600; }
+    .errcard .mcopt.wrong { opacity: 1; border-color: #b23b3b; background: #fdecec; color: #b23b3b; text-decoration: line-through; }
     .errcard .errverdict { font-family: "IBM Plex Mono","Pretendard",monospace; font-size: 12px; margin: 6px 0 8px; }
     .errcard .errverdict.good { color: var(--good); }
     .errcard .errverdict.bad { color: #b23b3b; }
@@ -1911,6 +1922,11 @@
       const [known, setKnown] = useState(0);
       const [missed, setMissed] = useState(0);
       const [filter, setFilter] = useState("all");
+      // Multiple-choice state: pick the right fix instead of typing blind.
+      const [choices, setChoices] = useState(null);   // shuffled [after, ...distractors] or null
+      const [selected, setSelected] = useState(null); // chosen option text
+      const [mcLoading, setMcLoading] = useState(false);
+      const [mcUnavailable, setMcUnavailable] = useState(false); // → falls back to typing
 
       const list = Object.entries(errors).map(([id, v]) => ({ id, ...v, stage: v.stage || "new" }));
       const counts = { new: 0, review: 0, mastered: 0 };
@@ -1932,12 +1948,47 @@
       };
       const cur = deck[idx];
       const matched = revealed && cur && normText(typed) === normText(cur.after);
+
+      // Get (or generate) multiple-choice distractors for the current card so
+      // reviewing means recognizing the right fix, not guessing blind at what
+      // to type. Distractors are cached onto the error entry once generated.
+      useEffect(() => {
+        if (!studying || !cur) return;
+        let cancelled = false;
+        setChoices(null); setSelected(null); setMcUnavailable(false); setTyped(""); setRevealed(false);
+        (async () => {
+          if (Array.isArray(cur.options) && cur.options.length >= 1) {
+            if (!cancelled) setChoices(shuffle([cur.after, ...cur.options]));
+            return;
+          }
+          const endpoint = (window.DBW_CONFIG || {}).ERRMC_ENDPOINT;
+          if (!endpoint) { if (!cancelled) setMcUnavailable(true); return; }
+          setMcLoading(true);
+          try {
+            const r = await fetch(endpoint, {
+              method: "POST", headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ before: cur.before, after: cur.after, category: cur.category, why: cur.why }),
+            });
+            const data = await r.json();
+            if (cancelled) return;
+            if (r.ok && data && Array.isArray(data.distractors) && data.distractors.length >= 1) {
+              patchError(cur.id, { options: data.distractors });
+              setChoices(shuffle([cur.after, ...data.distractors]));
+            } else setMcUnavailable(true);
+          } catch (e) { if (!cancelled) setMcUnavailable(true); }
+          if (!cancelled) setMcLoading(false);
+        })();
+        return () => { cancelled = true; };
+      }, [studying, idx]);
+
+      const revealedNow = !!selected || (mcUnavailable && revealed);
+      const isCorrectNow = selected ? selected === cur.after : matched;
       const grade = (correct) => {
         const st = (cur.stage || "new");
         if (correct) { patchError(cur.id, { stage: st === "new" ? "review" : "mastered" }); setKnown((k) => k + 1); }
         else { patchError(cur.id, { stage: "new" }); setMissed((m) => m + 1); }
         // 오답노트 review doesn't bump the streak — only memorizing a word does.
-        setTyped(""); setRevealed(false); setIdx((i) => i + 1);
+        setTyped(""); setRevealed(false); setSelected(null); setChoices(null); setIdx((i) => i + 1);
       };
 
       const CHIPS = [
@@ -1976,23 +2027,50 @@
               <span className="errcat mono">{cur.category || "기타"}</span>
               <div className="errq mono">틀린 문장</div>
               <div className="errbefore">{cur.before}</div>
-              <div className="errask mono">올바르게 고쳐 써 보세요</div>
-              <textarea className="errinput" value={typed} placeholder="여기에 영어로…"
-                onChange={(e) => setTyped(e.target.value)}
-                onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); if (!revealed) setRevealed(true); } }} />
-              {!revealed
-                ? <button className="btn primary" onClick={() => setRevealed(true)}>확인</button>
-                : (
-                  <React.Fragment>
-                    <div className={"errverdict " + (matched ? "good" : "bad")}>{matched ? "정답과 일치해요 ✓" : "정답과 달라요"}</div>
-                    <div className="errafter"><span className="mono">정답</span> {cur.after}</div>
-                    {cur.why && <div className="errwhy">{cur.why}</div>}
-                    <div className="errbtns">
-                      <button className="btn ghost" onClick={() => grade(false)}>더 볼래요</button>
-                      <button className="btn primary" onClick={() => grade(true)}>외웠어요</button>
-                    </div>
-                  </React.Fragment>
-                )}
+
+              {mcLoading && <div className="mcloading mono">선택지를 만드는 중…</div>}
+
+              {!mcLoading && choices && (
+                <React.Fragment>
+                  <div className="errask mono">올바르게 고친 표현을 선택하세요</div>
+                  <div className="mcchoices">
+                    {choices.map((opt, i) => {
+                      const isAnswer = opt === cur.after;
+                      const cls = "mcopt"
+                        + (selected ? (isAnswer ? " correct" : (opt === selected ? " wrong" : "")) : "");
+                      return (
+                        <button key={i} className={cls} disabled={!!selected} onClick={() => setSelected(opt)}>
+                          {opt}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </React.Fragment>
+              )}
+
+              {!mcLoading && !choices && mcUnavailable && (
+                <React.Fragment>
+                  <div className="errask mono">올바르게 고쳐 써 보세요</div>
+                  <textarea className="errinput" value={typed} placeholder="여기에 영어로…"
+                    onChange={(e) => setTyped(e.target.value)}
+                    onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); if (!revealed) setRevealed(true); } }} />
+                  {!revealed && <button className="btn primary" onClick={() => setRevealed(true)}>확인</button>}
+                </React.Fragment>
+              )}
+
+              {revealedNow && (
+                <React.Fragment>
+                  <div className={"errverdict " + (isCorrectNow ? "good" : "bad")}>
+                    {isCorrectNow ? "정답이에요 ✓" : "정답과 달라요"}
+                  </div>
+                  <div className="errafter"><span className="mono">정답</span> {cur.after}</div>
+                  {cur.why && <div className="errwhy">{cur.why}</div>}
+                  <div className="errbtns">
+                    <button className="btn ghost" onClick={() => grade(false)}>더 볼래요</button>
+                    <button className="btn primary" onClick={() => grade(true)}>외웠어요</button>
+                  </div>
+                </React.Fragment>
+              )}
             </div>
           </React.Fragment>
         );

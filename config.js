@@ -10,4 +10,5 @@ window.DBW_CONFIG = {
   DEFINE_ENDPOINT: "/api/define", // on-demand meaning for words not in the article glossary
   OVERALL_ENDPOINT: "/api/overall", // overall 총평 + writing-improvement ideas after grading
   DRILL_ENDPOINT: "/api/drill",     // verb/article/plural fill-in-the-blank grammar drills
+  ERRMC_ENDPOINT: "/api/errmc",     // multiple-choice distractors for 오답노트 review
 };
