@@ -1,5 +1,543 @@
 [
   {
+    "id": "cd-2026-08-13-1",
+    "date": "2026-08-13",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "자본 이동의 속도가 시장에 미치는 영향을 분석하며 스테이블코인과 토큰화의 중요성을 깊이 있게 다룹니다.",
+    "url": "https://www.coindesk.com/coindesk-indices/2026/08/12/crypto-long-and-short",
+    "title": "Stablecoins and Tokenization Streamline Capital Movement",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Financial markets frequently encounter difficulties when capital movement is slow. This lack of speed generates significant inefficiencies, especially during periods of rapid price changes. Traditional financial systems are often burdened by lengthy settlement cycles. These delays effectively trap capital, hindering its optimal deployment where it is most needed. Such structural issues can ultimately contribute to market breakdowns and heightened risk. The article clearly identifies stablecoins as a crucial and modern solution to these challenges. They facilitate nearly instantaneous value transfers efficiently across international borders. Furthermore, tokenization converts various assets into easily manageable digital forms. This process dramatically increases asset liquidity and transferability within the ecosystem. Collectively, stablecoins and tokenization function as vital new financial infrastructure. This innovative \"plumbing\" allows money to flow rapidly, keeping pace with evolving market risks. Ultimately, these advancements profoundly enhance overall market efficiency and resilience.",
+    "sentences": [
+      {
+        "en": "Financial markets frequently encounter difficulties when capital movement is slow.",
+        "ko": "금융 시장은 자본 이동이 느릴 때 종종 어려움을 겪습니다."
+      },
+      {
+        "en": "This lack of speed generates significant inefficiencies, especially during periods of rapid price changes.",
+        "ko": "이러한 속도 부족은 특히 급격한 가격 변동 시기에 상당한 비효율성을 초래합니다."
+      },
+      {
+        "en": "Traditional financial systems are often burdened by lengthy settlement cycles.",
+        "ko": "전통적인 금융 시스템은 종종 긴 결제 주기로 인해 부담을 겪습니다."
+      },
+      {
+        "en": "These delays effectively trap capital, hindering its optimal deployment where it is most needed.",
+        "ko": "이러한 지연은 자본을 효과적으로 묶어두어 가장 필요한 곳에 최적으로 배치되는 것을 방해합니다."
+      },
+      {
+        "en": "Such structural issues can ultimately contribute to market breakdowns and heightened risk.",
+        "ko": "이러한 구조적 문제는 궁극적으로 시장 붕괴와 위험 증가에 기여할 수 있습니다."
+      },
+      {
+        "en": "The article clearly identifies stablecoins as a crucial and modern solution to these challenges.",
+        "ko": "이 기사는 스테이블코인을 이러한 문제에 대한 중요하고 현대적인 해결책으로 명확히 제시합니다."
+      },
+      {
+        "en": "They facilitate nearly instantaneous value transfers efficiently across international borders.",
+        "ko": "스테이블코인은 국제 국경을 넘어 거의 즉각적인 가치 이전을 효율적으로 촉진합니다."
+      },
+      {
+        "en": "Furthermore, tokenization converts various assets into easily manageable digital forms.",
+        "ko": "더 나아가, 토큰화는 다양한 자산을 쉽게 관리할 수 있는 디지털 형태로 변환합니다."
+      },
+      {
+        "en": "This process dramatically increases asset liquidity and transferability within the ecosystem.",
+        "ko": "이 과정은 생태계 내에서 자산의 유동성과 이전 가능성을 극적으로 증가시킵니다."
+      },
+      {
+        "en": "Collectively, stablecoins and tokenization function as vital new financial infrastructure.",
+        "ko": "종합적으로, 스테이블코인과 토큰화는 필수적인 새로운 금융 인프라 역할을 합니다."
+      },
+      {
+        "en": "This innovative \"plumbing\" allows money to flow rapidly, keeping pace with evolving market risks.",
+        "ko": "이 혁신적인 '배관'은 자금이 빠르게 흐르도록 하여 진화하는 시장 위험에 보조를 맞춥니다."
+      },
+      {
+        "en": "Ultimately, these advancements profoundly enhance overall market efficiency and resilience.",
+        "ko": "궁극적으로 이러한 발전은 전반적인 시장 효율성과 회복력을 심오하게 향상시킵니다."
+      }
+    ],
+    "glossary": {
+      "capital": "Money or assets used for investment or to start a business, often referring to large sums.",
+      "inefficiencies": "Situations where things are not done in the best or quickest way, leading to wasted effort or resources.",
+      "rapid": "Happening or moving with great speed; very fast.",
+      "burdened": "To be heavily loaded or troubled with a responsibility, difficulty, or expense.",
+      "settlement": "The official completion of a financial transaction, usually by transferring funds or ownership.",
+      "cycles": "A series of events that are regularly repeated in the same order or pattern.",
+      "trap": "To hold something in a place, making it unable to move or escape.",
+      "hindering": "Making it difficult for someone to do something or for something to happen.",
+      "optimal": "The best or most favorable possible result or condition for a particular situation.",
+      "deployment": "The action of bringing resources or forces into effective action or use.",
+      "structural": "Relating to the way in which something is built, arranged, or organized.",
+      "contribute": "To give something, especially money or time, to help achieve or provide something.",
+      "heightened": "Made more intense, severe, or noticeable; increased.",
+      "crucial": "Extremely important or necessary for success or for something to happen.",
+      "facilitate": "To make an action or a process easier or more likely to happen.",
+      "instantaneous": "Happening immediately or very quickly, without any delay.",
+      "tokenization": "The process of converting rights to an asset into a digital token on a blockchain.",
+      "liquidity": "The availability of liquid assets to a market or company, meaning they can be easily converted to cash.",
+      "transferability": "The quality of being able to be moved or given from one person or place to another.",
+      "infrastructure": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+      "plumbing": "The system of pipes and fixtures for water or gas in a building, used here as a metaphor for financial systems.",
+      "resilience": "The capacity to recover quickly from difficulties; toughness or adaptability."
+    },
+    "questions": [
+      "According to the article, what is one major problem caused by slow capital movement in markets?",
+      "In the context of this article, explain how \"plumbing\" is used to describe stablecoins and tokenization.",
+      "Do you believe the rapid movement of capital facilitated by stablecoins and tokenization always leads to market stability, or could it introduce new risks? Explain your perspective."
+    ],
+    "modelAnswers": [
+      "Slow capital movement leads to market inefficiencies and breakdowns, especially during rapid price changes, because capital gets trapped and cannot be optimally deployed.",
+      "\"Plumbing\" refers to the fundamental infrastructure that allows money to flow efficiently, suggesting stablecoins and tokenization are essential systems for fast and effective financial transactions.",
+      "While it boosts efficiency, rapid capital movement could also amplify market volatility if not properly managed, potentially introducing new risks like flash crashes or faster contagion across interconnected markets."
+    ]
+  },
+  {
+    "id": "cd-2026-08-13-2",
+    "date": "2026-08-13",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "영국 중앙은행이 스테이블코인과 디지털 통화를 활용한 국경 간 금융 혁신을 모색하는 중요한 시도를 소개합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/12/bank-of-england-to-test-stablecoin-digital-currency-use-in-cross-border-finance",
+    "title": "Bank of England Explores Stablecoins for Cross-Border Finance",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Bank of England is embarking on a significant new initiative. This project will thoroughly test stablecoins and digital currencies for various cross-border finance applications. The comprehensive work is being carried out within their dedicated Digital Pound Lab. A core aim is to substantially improve the efficiency of international trade finance interoperability. One key scenario involves exporters receiving payments directly in stablecoins. Simultaneously, importers would settle their transactions using a potential digital pound. This innovative setup could profoundly streamline complex global transactions, reducing friction. It also clearly highlights central banks' growing strategic interest in digital assets and their potential. The initiative actively explores tangible, practical applications for these new financial technologies. Its success could establish a crucial precedent for other nations' digital currency strategies worldwide. Ultimately, this comprehensive effort aims to make cross-border payments much faster, cheaper, and more secure.",
+    "sentences": [
+      {
+        "en": "The Bank of England is embarking on a significant new initiative.",
+        "ko": "영국 중앙은행은 중요한 새 이니셔티브를 시작하고 있습니다."
+      },
+      {
+        "en": "This project will thoroughly test stablecoins and digital currencies for various cross-border finance applications.",
+        "ko": "이 프로젝트는 다양한 국경 간 금융 애플리케이션을 위해 스테이블코인과 디지털 통화를 철저히 테스트할 것입니다."
+      },
+      {
+        "en": "The comprehensive work is being carried out within their dedicated Digital Pound Lab.",
+        "ko": "이 포괄적인 작업은 전담 디지털 파운드 연구소 내에서 수행되고 있습니다."
+      },
+      {
+        "en": "A core aim is to substantially improve the efficiency of international trade finance interoperability.",
+        "ko": "핵심 목표는 국제 무역 금융 상호운용성의 효율성을 실질적으로 개선하는 것입니다."
+      },
+      {
+        "en": "One key scenario involves exporters receiving payments directly in stablecoins.",
+        "ko": "하나의 주요 시나리오는 수출업자가 스테이블코인으로 직접 대금을 받는 것을 포함합니다."
+      },
+      {
+        "en": "Simultaneously, importers would settle their transactions using a potential digital pound.",
+        "ko": "동시에 수입업자는 잠재적인 디지털 파운드를 사용하여 거래를 결제할 것입니다."
+      },
+      {
+        "en": "This innovative setup could profoundly streamline complex global transactions, reducing friction.",
+        "ko": "이 혁신적인 설정은 복잡한 글로벌 거래를 심오하게 간소화하여 마찰을 줄일 수 있습니다."
+      },
+      {
+        "en": "It also clearly highlights central banks' growing strategic interest in digital assets and their potential.",
+        "ko": "또한 중앙은행들이 디지털 자산과 그 잠재력에 대한 전략적 관심을 키우고 있음을 명확히 보여줍니다."
+      },
+      {
+        "en": "The initiative actively explores tangible, practical applications for these new financial technologies.",
+        "ko": "이 이니셔티브는 이러한 새로운 금융 기술에 대한 실질적이고 실제적인 적용 방안을 적극적으로 탐색합니다."
+      },
+      {
+        "en": "Its success could establish a crucial precedent for other nations' digital currency strategies worldwide.",
+        "ko": "그 성공은 전 세계 다른 국가들의 디지털 통화 전략에 중요한 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "Ultimately, this comprehensive effort aims to make cross-border payments much faster, cheaper, and more secure.",
+        "ko": "궁극적으로 이 포괄적인 노력은 국경 간 결제를 훨씬 더 빠르고 저렴하며 안전하게 만드는 것을 목표로 합니다."
+      }
+    ],
+    "glossary": {
+      "embarking": "To begin a course of action, especially one that is important or difficult.",
+      "initiative": "An important new plan or process to achieve a particular aim or objective.",
+      "thoroughly": "In a complete and careful way, leaving no part undone or unexamined.",
+      "stablecoins": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+      "currencies": "The system of money used in a particular country or economic region.",
+      "cross-border": "Involving or concerning movements or operations across a border between two countries.",
+      "comprehensive": "Including or dealing with all or nearly all elements or aspects of something.",
+      "dedicated": "Devoted to a task or purpose; specifically designed for a particular use.",
+      "substantially": "To a great or significant extent; considerably.",
+      "interoperability": "The ability of different computer systems or software to exchange and make use of information.",
+      "scenario": "A possible sequence of events; a situation that could potentially happen.",
+      "exporters": "People or companies that sell goods or services to another country.",
+      "receiving": "To be given, presented with, or paid something.",
+      "simultaneously": "At the same time; concurrently.",
+      "importers": "People or companies that buy goods or services from another country.",
+      "settle": "To pay money that is owed for a transaction or debt.",
+      "profoundly": "To a great depth; intensely or deeply.",
+      "streamline": "To make an organization or system more efficient and effective by making it simpler.",
+      "friction": "Resistance or difficulty caused by one thing rubbing against another, used here to mean obstacles.",
+      "highlights": "To draw special attention to something or emphasize its importance.",
+      "strategic": "Relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+      "tangible": "Perceptible by touch; clear and definite; real.",
+      "precedent": "An earlier event or action that is regarded as an example or guide for future situations.",
+      "ultimately": "In the end; finally or fundamentally."
+    },
+    "questions": [
+      "What is the main goal of the Bank of England's Digital Pound Lab initiative regarding cross-border finance?",
+      "Explain the term \"interoperability\" in the context of trade finance as described in the article.",
+      "How might the success of this initiative impact the global adoption of central bank digital currencies (CBDCs) and stablecoins for international trade?"
+    ],
+    "modelAnswers": [
+      "The main goal is to thoroughly test stablecoins and digital currencies to improve the efficiency of international trade finance interoperability, ultimately making cross-border payments faster, cheaper, and more secure.",
+      "\"Interoperability\" here refers to the ability for different digital currency systems, such as stablecoins and a potential digital pound, to work together seamlessly and efficiently for international trade settlements.",
+      "Success could establish a crucial precedent, encouraging other nations to develop similar CBDC and stablecoin strategies, accelerating their integration into global trade and potentially setting new standards for international financial transactions."
+    ]
+  },
+  {
+    "id": "cd-2026-08-13-3",
+    "date": "2026-08-13",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "스탠다드차타드가 주도하는 홍콩 달러 스테이블코인 출시 소식은 아시아 시장의 디지털 자산 발전에 중요한 이정표가 됩니다.",
+    "url": "https://www.coindesk.com/business/2026/08/12/standard-chartered-led-anchorpoint-launches-hong-kong-dollar-stablecoin",
+    "title": "Standard Chartered Leads Launch of HKD Stablecoin",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Standard Chartered is actively leading a significant new digital asset venture. Their specialized firm, Anchorpoint, has successfully launched a Hong Kong dollar stablecoin. This innovative new token, named HKDAP, is now available in the market. Its introduction marks a substantial development for the entire Asian crypto market. Prominent entities like HashKey Exchange and OSL Group serve as authorized distributors. These distributors will empower institutional investors to mint and redeem HKDAP tokens. Professional investors are also granted access to this important new digital currency. The stablecoin's primary goal is to offer a reliable digital equivalent of the HKD. This strategic initiative greatly enhances liquidity within the broader digital asset ecosystem. It furthermore strongly supports the expansion of regulated crypto services in Hong Kong. Projects like HKDAP are crucial for bridging traditional finance with the evolving crypto space.",
+    "sentences": [
+      {
+        "en": "Standard Chartered is actively leading a significant new digital asset venture.",
+        "ko": "스탠다드차타드는 중요한 새로운 디지털 자산 벤처를 적극적으로 주도하고 있습니다."
+      },
+      {
+        "en": "Their specialized firm, Anchorpoint, has successfully launched a Hong Kong dollar stablecoin.",
+        "ko": "그들의 전문 기업인 앵커포인트는 홍콩 달러 스테이블코인을 성공적으로 출시했습니다."
+      },
+      {
+        "en": "This innovative new token, named HKDAP, is now available in the market.",
+        "ko": "HKDAP라는 이름의 이 혁신적인 새 토큰은 이제 시장에서 이용 가능합니다."
+      },
+      {
+        "en": "Its introduction marks a substantial development for the entire Asian crypto market.",
+        "ko": "그 도입은 전체 아시아 암호화폐 시장에 상당한 발전을 의미합니다."
+      },
+      {
+        "en": "Prominent entities like HashKey Exchange and OSL Group serve as authorized distributors.",
+        "ko": "해시키 거래소와 OSL 그룹과 같은 저명한 기관들이 공인된 유통업체로 활동합니다."
+      },
+      {
+        "en": "These distributors will empower institutional investors to mint and redeem HKDAP tokens.",
+        "ko": "이 유통업체들은 기관 투자자들이 HKDAP 토큰을 발행하고 상환할 수 있도록 할 것입니다."
+      },
+      {
+        "en": "Professional investors are also granted access to this important new digital currency.",
+        "ko": "전문 투자자들도 이 중요한 새 디지털 통화에 접근할 수 있습니다."
+      },
+      {
+        "en": "The stablecoin's primary goal is to offer a reliable digital equivalent of the HKD.",
+        "ko": "이 스테이블코인의 주요 목표는 홍콩 달러의 신뢰할 수 있는 디지털 등가물을 제공하는 것입니다."
+      },
+      {
+        "en": "This strategic initiative greatly enhances liquidity within the broader digital asset ecosystem.",
+        "ko": "이 전략적 이니셔티브는 더 넓은 디지털 자산 생태계 내에서 유동성을 크게 향상시킵니다."
+      },
+      {
+        "en": "It furthermore strongly supports the expansion of regulated crypto services in Hong Kong.",
+        "ko": "이는 또한 홍콩의 규제된 암호화폐 서비스 확장을 강력하게 지원합니다."
+      },
+      {
+        "en": "Projects like HKDAP are crucial for bridging traditional finance with the evolving crypto space.",
+        "ko": "HKDAP와 같은 프로젝트는 전통 금융과 진화하는 암호화폐 공간을 연결하는 데 중요합니다."
+      }
+    ],
+    "glossary": {
+      "actively": "Engaging or participating in something with energy and enthusiasm.",
+      "venture": "A business enterprise or project, typically one that is new and involves risk.",
+      "specialized": "Concentrating on a particular activity, product, or area of study.",
+      "firm": "A business concern, especially one offering professional services like banking or law.",
+      "launched": "Started or introduced a new product, service, or project to the public.",
+      "stablecoin": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+      "innovative": "Featuring new ideas, methods, or devices; original and creative.",
+      "token": "A digital unit of value issued on a blockchain, often representing an asset or utility.",
+      "introduction": "The action of bringing something into use or existence for the first time.",
+      "substantial": "Of considerable importance, size, or worth; significant.",
+      "development": "The process of developing or being developed, often implying growth or progress.",
+      "prominent": "Important, famous, or easily noticeable; standing out.",
+      "entities": "Things with distinct and independent existence, such as organizations or companies.",
+      "authorized": "Having official permission or approval to do something.",
+      "distributors": "Companies or individuals that supply goods or services to stores or other businesses.",
+      "empower": "To give someone the authority or power to do something.",
+      "institutional": "Relating to a large and important organization, such as a bank, university, or investment fund.",
+      "mint": "To create new digital tokens, often in exchange for underlying assets like fiat currency.",
+      "redeem": "To exchange a token, voucher, or digital asset for money or goods.",
+      "equivalent": "Equal in value, amount, function, meaning, or significance.",
+      "strategic": "Relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+      "liquidity": "The availability of liquid assets to a market or company, meaning they can be easily converted to cash.",
+      "ecosystem": "A complex network or interconnected system, especially of businesses or technologies.",
+      "bridging": "Connecting or making a link between two things, often to overcome a gap or difference."
+    },
+    "questions": [
+      "What is the name of the new Hong Kong dollar stablecoin launched by Anchorpoint?",
+      "How do \"mint\" and \"redeem\" functions apply to institutional investors in the context of the HKDAP stablecoin?",
+      "In what ways do projects like the HKDAP stablecoin contribute to the broader integration of traditional finance and the crypto market, especially for a PM in fintech?"
+    ],
+    "modelAnswers": [
+      "The new Hong Kong dollar stablecoin launched by Anchorpoint is called HKDAP, signifying a notable development in the Asian crypto market.",
+      "Institutional investors can \"mint\" new HKDAP tokens by providing fiat HKD, and \"redeem\" them by exchanging HKDAP tokens back for fiat HKD, facilitating digital asset management.",
+      "Projects like HKDAP create a regulated, stable digital medium that builds trust and enhances liquidity between fiat and crypto, accelerating mainstream institutional adoption and fostering financial innovation for fintech PMs."
+    ]
+  },
+  {
+    "id": "ec-2026-08-13-1",
+    "date": "2026-08-13",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "인공지능(AI) 기술 발전이 예상과 달리 인플레이션을 가속화하여 중앙은행의 통화 정책 결정에 어떤 영향을 미치는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/12/ais-costly-buildout-complicates-the-feds-inflation-fight.html",
+    "title": "AI Investment Challenges Fed's Inflation Battle",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The significant investment in artificial intelligence (AI) infrastructure is creating unexpected economic challenges. Developing AI requires massive expenditures on data centers and advanced computing power. These costs are currently contributing to inflationary pressures across various sectors. The Federal Reserve, America's central bank, is working hard to control inflation. However, the rising expenses of AI build-out complicate its efforts to maintain price stability. Initially, many believed AI would lead to lower costs and increased efficiency eventually. Yet, the short-term demand for resources is driving up prices significantly. This situation forces policymakers to rethink their strategies for economic management. Balancing technological progress with economic stability becomes a crucial task.",
+    "sentences": [
+      {
+        "en": "The significant investment in artificial intelligence (AI) infrastructure is creating unexpected economic challenges.",
+        "ko": "인공지능(AI) 인프라에 대한 막대한 투자가 예상치 못한 경제적 과제를 야기하고 있습니다."
+      },
+      {
+        "en": "Developing AI requires massive expenditures on data centers and advanced computing power.",
+        "ko": "AI를 개발하려면 데이터 센터와 첨단 컴퓨팅 성능에 막대한 비용을 지출해야 합니다."
+      },
+      {
+        "en": "These costs are currently contributing to inflationary pressures across various sectors.",
+        "ko": "이러한 비용은 현재 다양한 부문에서 인플레이션 압력에 기여하고 있습니다."
+      },
+      {
+        "en": "The Federal Reserve, America's central bank, is working hard to control inflation.",
+        "ko": "미국의 중앙은행인 연방준비제도(Fed)는 인플레이션을 통제하기 위해 노력하고 있습니다."
+      },
+      {
+        "en": "However, the rising expenses of AI build-out complicate its efforts to maintain price stability.",
+        "ko": "하지만 AI 구축 비용 증가는 물가 안정을 유지하려는 Fed의 노력을 복잡하게 만듭니다."
+      },
+      {
+        "en": "Initially, many believed AI would lead to lower costs and increased efficiency eventually.",
+        "ko": "처음에 많은 사람들은 AI가 궁극적으로 비용 절감과 효율성 증가로 이어질 것이라고 믿었습니다."
+      },
+      {
+        "en": "Yet, the short-term demand for resources is driving up prices significantly.",
+        "ko": "하지만 단기적인 자원 수요는 가격을 상당히 끌어올리고 있습니다."
+      },
+      {
+        "en": "This situation forces policymakers to rethink their strategies for economic management.",
+        "ko": "이러한 상황은 정책 입안자들이 경제 관리를 위한 전략을 다시 생각하게 합니다."
+      },
+      {
+        "en": "Balancing technological progress with economic stability becomes a crucial task.",
+        "ko": "기술 발전과 경제 안정의 균형을 맞추는 것이 중요한 과제가 됩니다."
+      }
+    ],
+    "glossary": {
+      "infrastructure": "The basic physical and organizational structures needed for the operation of a society or enterprise.",
+      "expenditures": "The action of spending funds, or the total amount of money spent.",
+      "computing": "The use or operation of computers, especially in a professional or academic capacity.",
+      "inflationary": "Relating to or causing a general increase in prices and fall in the purchasing value of money.",
+      "sectors": "A distinct part of an economy, society, or area of activity.",
+      "federal": "Relating to or denoting a system of government in which several states form a unity.",
+      "reserve": "A central bank that manages a state's currency, money supply, and interest rates.",
+      "complicate": "To make something more difficult or complex to deal with, understand, or explain.",
+      "maintain": "To keep something in a particular state or condition, or to keep it going.",
+      "stability": "The state of being stable, meaning not likely to change or fail.",
+      "initially": "At the beginning, or at first, before other developments occur.",
+      "efficiency": "The state or quality of being efficient, meaning achieving maximum productivity with minimum wasted effort.",
+      "eventually": "In the end, especially after a long delay, dispute, or series of problems.",
+      "short-term": "Relating to or for a short period of time, not expected to last long.",
+      "resources": "A stock or supply of money, materials, staff, and other assets that can be drawn on by a person or organization.",
+      "significantly": "In a sufficiently great or important way as to be worthy of attention.",
+      "policymakers": "People responsible for making official policy, especially in government or business.",
+      "rethink": "To think again about something, especially with a view to changing it.",
+      "strategies": "Plans of action designed to achieve a long-term or overall aim.",
+      "balancing": "To give equal importance to two or more things, or to make them equal.",
+      "progress": "Forward or onward movement toward a destination or goal.",
+      "crucial": "Of great importance, especially in deciding the success or failure of something."
+    },
+    "questions": [
+      "What is one way AI's development might complicate the Federal Reserve's efforts to control inflation?",
+      "In the context of the passage, what does \"price stability\" refer to, and why is it important for a central bank?",
+      "How do you think the long-term deflationary potential of AI technology might eventually outweigh its short-term inflationary pressures?"
+    ],
+    "modelAnswers": [
+      "The significant investment in AI infrastructure, such as data centers and computing power, leads to increased costs. These rising expenditures contribute to inflationary pressures, making it harder for the Federal Reserve to achieve its goal of controlling inflation.",
+      "\"Price stability\" refers to keeping the general level of prices for goods and services from changing too much over time. It is important for a central bank because it helps maintain the purchasing power of money, encourages economic growth, and provides certainty for businesses and consumers.",
+      "I believe AI's long-term deflationary potential could outweigh short-term inflationary pressures by dramatically improving productivity and efficiency across industries. Automation, optimized supply chains, and new innovations might significantly reduce production costs and consumer prices in the future, even if initial development is expensive."
+    ]
+  },
+  {
+    "id": "ec-2026-08-13-2",
+    "date": "2026-08-13",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "7월 소비자물가지수(CPI)가 예상치와 부합하며 연간 인플레이션율이 3.4%를 기록했습니다. 이 수치가 경제에 어떤 의미인지 파악해 보세요.",
+    "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+    "title": "July Consumer Prices Rise Modestly, Meeting Forecasts",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Consumer Price Index (CPI) showed a modest increase of 0.1% in July. This monthly rise was precisely what economic analysts had anticipated. Consequently, the annual inflation rate now stands at 3.4%. Meeting these forecasts suggests a predictable economic environment. This data is crucial for the Federal Reserve when making monetary policy decisions. Stable inflation readings might influence future interest rate adjustments. Consumers often watch CPI reports to understand changes in their purchasing power. Businesses also use this information for pricing strategies and operational planning. Overall, the report indicates a relatively controlled inflationary trend. This could reassure markets about the effectiveness of current economic policies.",
+    "sentences": [
+      {
+        "en": "The Consumer Price Index (CPI) showed a modest increase of 0.1% in July.",
+        "ko": "소비자물가지수(CPI)는 7월에 0.1%의 완만한 상승을 보였습니다."
+      },
+      {
+        "en": "This monthly rise was precisely what economic analysts had anticipated.",
+        "ko": "이러한 월별 상승은 경제 분석가들이 정확히 예상했던 수준이었습니다."
+      },
+      {
+        "en": "Consequently, the annual inflation rate now stands at 3.4%.",
+        "ko": "결과적으로 연간 인플레이션율은 이제 3.4%를 기록했습니다."
+      },
+      {
+        "en": "Meeting these forecasts suggests a predictable economic environment.",
+        "ko": "이러한 예측에 부합하는 것은 예측 가능한 경제 환경을 시사합니다."
+      },
+      {
+        "en": "This data is crucial for the Federal Reserve when making monetary policy decisions.",
+        "ko": "이 데이터는 연방준비제도가 통화 정책 결정을 내릴 때 매우 중요합니다."
+      },
+      {
+        "en": "Stable inflation readings might influence future interest rate adjustments.",
+        "ko": "안정적인 인플레이션 수치는 향후 금리 조정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Consumers often watch CPI reports to understand changes in their purchasing power.",
+        "ko": "소비자들은 종종 CPI 보고서를 통해 구매력의 변화를 파악합니다."
+      },
+      {
+        "en": "Businesses also use this information for pricing strategies and operational planning.",
+        "ko": "기업 또한 이 정보를 가격 전략과 운영 계획에 활용합니다."
+      },
+      {
+        "en": "Overall, the report indicates a relatively controlled inflationary trend.",
+        "ko": "전반적으로 이 보고서는 비교적 통제된 인플레이션 추세를 나타냅니다."
+      },
+      {
+        "en": "This could reassure markets about the effectiveness of current economic policies.",
+        "ko": "이는 현재 경제 정책의 효과에 대해 시장을 안심시킬 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "index": "A statistical measure showing changes in the value of something over time.",
+      "modest": "Not very large, impressive, or expensive, suggesting a moderate amount.",
+      "precisely": "In an exact and accurate way, without any deviation.",
+      "analysts": "People who examine something in detail, typically for purposes of explanation and interpretation.",
+      "anticipated": "Regarded as probable or expected, or looked forward to.",
+      "consequently": "As a result of something previously mentioned, or therefore.",
+      "annual": "Occurring once every year, or relating to a period of one year.",
+      "forecasts": "Predictions or estimations of future events or trends.",
+      "predictable": "Able to be foreseen or declared in advance, often implying a lack of surprise.",
+      "crucial": "Of great importance, especially in deciding the success or failure of something.",
+      "monetary": "Relating to money or currency, or the financial system of a country.",
+      "stable": "Not likely to change or fail, firmly established, or in a state of balance.",
+      "readings": "The indications or values shown on a measuring instrument or in a report.",
+      "influence": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+      "adjustments": "Small changes or alterations made to achieve a particular result.",
+      "purchasing": "The action of buying something, or the ability to buy goods and services.",
+      "strategies": "Plans of action designed to achieve a long-term or overall aim.",
+      "operational": "Relating to the normal functioning or activity of a business or organization.",
+      "indicates": "Points out or shows something, or is a sign or symptom of something.",
+      "reassure": "To say or do something to remove the doubts or fears of someone.",
+      "effectiveness": "The degree to which something is successful in producing a desired result.",
+      "policies": "Courses or principles of action adopted or proposed by a government, party, business, or individual."
+    },
+    "questions": [
+      "What was the monthly increase in consumer prices for July, and what was the annual inflation rate?",
+      "Explain why the phrase \"meeting forecasts\" is significant when discussing economic data like the CPI.",
+      "How might a consistent, moderate rise in the CPI influence your personal financial planning or investment decisions?"
+    ],
+    "modelAnswers": [
+      "In July, consumer prices saw a modest monthly increase of 0.1%. This brought the annual inflation rate to 3.4%, which was consistent with economic expectations.",
+      "\"Meeting forecasts\" is significant because it suggests economic stability and predictability. When data aligns with expectations, it reduces market uncertainty, helps policymakers plan effectively, and indicates that current economic trends are largely understood and manageable.",
+      "A consistent, moderate CPI rise would encourage me to consider investments that historically perform well during inflation, such as real estate or inflation-protected securities. It would also prompt me to review my budget to ensure my purchasing power is not significantly eroded, potentially adjusting spending or saving habits."
+    ]
+  },
+  {
+    "id": "ec-2026-08-13-3",
+    "date": "2026-08-13",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "뉴욕 시의회가 예측 시장 플랫폼의 마케팅 전략에 대한 조사를 시작했습니다. 핀테크 산업의 규제 환경 변화에 대해 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/12/new-york-city-council-probes-prediction-markets-marketing-strategies.html",
+    "title": "NYC Probes Prediction Market Marketing Tactics",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The New York City Council has launched an investigation into prediction market platforms. This probe specifically targets their marketing strategies and overall operational transparency. City Council Speaker Julie Menin expressed concerns about consumer protection and fair practices. Prediction markets allow users to bet on future events, like elections or economic trends. The council is actively considering new legislation to address these emerging issues. This action highlights a growing trend of regulatory scrutiny in the fintech sector. Platforms must ensure their promotional activities comply with existing and new laws. The investigation could lead to stricter rules for financial products and services. This development is important for fintech companies operating or planning to operate in New York.",
+    "sentences": [
+      {
+        "en": "The New York City Council has launched an investigation into prediction market platforms.",
+        "ko": "뉴욕 시의회가 예측 시장 플랫폼에 대한 조사를 시작했습니다."
+      },
+      {
+        "en": "This probe specifically targets their marketing strategies and overall operational transparency.",
+        "ko": "이번 조사는 특히 이들의 마케팅 전략과 전반적인 운영 투명성을 목표로 합니다."
+      },
+      {
+        "en": "City Council Speaker Julie Menin expressed concerns about consumer protection and fair practices.",
+        "ko": "줄리 메닌 시의회 의장은 소비자 보호와 공정한 관행에 대한 우려를 표명했습니다."
+      },
+      {
+        "en": "Prediction markets allow users to bet on future events, like elections or economic trends.",
+        "ko": "예측 시장은 사용자들이 선거나 경제 동향과 같은 미래 사건에 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "The council is actively considering new legislation to address these emerging issues.",
+        "ko": "시의회는 이러한 새로운 문제들을 다루기 위한 새로운 법안을 적극적으로 검토하고 있습니다."
+      },
+      {
+        "en": "This action highlights a growing trend of regulatory scrutiny in the fintech sector.",
+        "ko": "이러한 조치는 핀테크 부문에서 규제 감독이 강화되는 추세를 보여줍니다."
+      },
+      {
+        "en": "Platforms must ensure their promotional activities comply with existing and new laws.",
+        "ko": "플랫폼은 홍보 활동이 기존 법률 및 새로운 법률을 준수하는지 확인해야 합니다."
+      },
+      {
+        "en": "The investigation could lead to stricter rules for financial products and services.",
+        "ko": "이번 조사는 금융 상품 및 서비스에 대한 더 엄격한 규칙으로 이어질 수 있습니다."
+      },
+      {
+        "en": "This development is important for fintech companies operating or planning to operate in New York.",
+        "ko": "이러한 발전은 뉴욕에서 운영 중이거나 운영할 계획인 핀테크 기업에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "launched": "Started or set in motion an activity, program, or product.",
+      "investigation": "A formal inquiry or systematic examination to discover and examine facts.",
+      "probe": "A thorough inquiry into a matter, often a difficult or complex one.",
+      "targets": "Aims at a specific goal or objective, often referring to a particular group or area.",
+      "operational": "Relating to the normal functioning or activity of a business or organization.",
+      "transparency": "The quality of being open, honest, and easily understood, especially in business.",
+      "expressed": "Conveyed a thought or feeling in words or by gestures and conduct.",
+      "concerns": "Feelings of worry or anxiety, or matters of interest or importance.",
+      "protection": "The action of protecting or the state of being protected.",
+      "practices": "The actual application or use of an idea, belief, or method, as opposed to theories.",
+      "emerging": "Becoming apparent or prominent, or coming into existence.",
+      "highlights": "Draws special attention to something, making it stand out.",
+      "regulatory": "Relating to the supervision or control of a system or industry.",
+      "scrutiny": "Critical observation or examination, often implying close and careful inspection.",
+      "fintech": "Technology that aims to improve and automate the delivery and use of financial services.",
+      "promotional": "Relating to the publicizing of a product, organization, or venture to increase sales or public awareness.",
+      "comply": "To act in accordance with a wish or command, or to meet specified standards.",
+      "legislation": "Laws, collectively, or the process of making laws.",
+      "stricter": "More rigorous or severe in terms of rules or requirements.",
+      "development": "The process of developing or being developed, or a new stage in a changing situation."
+    },
+    "questions": [
+      "Which entity initiated the investigation into prediction market platforms' marketing strategies?",
+      "In the context of this story, what does \"regulatory oversight\" mean for prediction market platforms?",
+      "Do you believe increased regulatory scrutiny on fintech platforms, like prediction markets, ultimately benefits or harms innovation in the long run?"
+    ],
+    "modelAnswers": [
+      "The New York City Council initiated the investigation into prediction market platforms' marketing strategies. Specifically, City Council Speaker Julie Menin expressed concerns that led to the probe.",
+      "For prediction market platforms, \"regulatory oversight\" means that governing bodies, like the New York City Council, are actively monitoring and examining their operations and marketing practices. This is to ensure consumer protection, fair play, and compliance with existing or new laws.",
+      "I believe increased regulatory scrutiny on fintech platforms ultimately benefits innovation in the long run. While it might initially slow down some developments, it fosters trust, ensures ethical practices, and creates a more stable environment. This stability can attract more users and investors, leading to sustainable innovation rather than risky, unregulated growth."
+    ]
+  },
+  {
     "id": "cd-2026-08-12-1",
     "date": "2026-08-12",
     "rank": 1,
