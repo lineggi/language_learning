@@ -1,5 +1,538 @@
 [
   {
+    "id": "cd-2026-08-14-1",
+    "date": "2026-08-14",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "1800억 달러 규모의 USDT 발행사 테더가 빅4 회계법인의 재무 감사를 완료하며 스테이블코인 투명성에 대한 의구심을 해소했습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/13/tether-says-it-completed-long-promised-big-four-audit-of-finances-behind-usd180-billion-usdt-stablecoin",
+    "title": "Tether Completes Big Four Audit for USDT",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Tether, the issuer of the world's largest stablecoin USDT, has completed a full financial audit. This audit was conducted by KPMG U.S., a prestigious \"Big Four\" accounting firm. The firm examined Tether's financial records and verified its gold bar holdings. This marks a significant step towards greater transparency for the stablecoin. For years, Tether faced criticism for not providing a full audit of its reserves. Such an audit is crucial for investor confidence in stablecoins. The stablecoin market relies on trust that digital assets are fully backed. This development could set a new standard for other stablecoin issuers. It also addresses regulatory concerns about market stability. A verified reserve strengthens USDT's position in the global crypto economy.",
+    "sentences": [
+      {
+        "en": "Tether, the issuer of the world's largest stablecoin USDT, has completed a full financial audit.",
+        "ko": "테더는 세계 최대 스테이블코인 USDT의 발행사로, 완전한 재무 감사를 완료했습니다."
+      },
+      {
+        "en": "This audit was conducted by KPMG U.S., a prestigious \"Big Four\" accounting firm.",
+        "ko": "이 감사는 명망 있는 '빅4' 회계법인인 KPMG U.S.에 의해 수행되었습니다."
+      },
+      {
+        "en": "The firm examined Tether's financial records and verified its gold bar holdings.",
+        "ko": "회계법인은 테더의 재무 기록을 조사하고 금괴 보유량을 확인했습니다."
+      },
+      {
+        "en": "This marks a significant step towards greater transparency for the stablecoin.",
+        "ko": "이는 스테이블코인의 투명성을 높이는 데 중요한 진전입니다."
+      },
+      {
+        "en": "For years, Tether faced criticism for not providing a full audit of its reserves.",
+        "ko": "수년 동안 테더는 준비금에 대한 완전한 감사를 제공하지 않아 비판을 받았습니다."
+      },
+      {
+        "en": "Such an audit is crucial for investor confidence in stablecoins.",
+        "ko": "이러한 감사는 스테이블코인에 대한 투자자 신뢰에 매우 중요합니다."
+      },
+      {
+        "en": "The stablecoin market relies on trust that digital assets are fully backed.",
+        "ko": "스테이블코인 시장은 디지털 자산이 완전히 담보되어 있다는 신뢰에 의존합니다."
+      },
+      {
+        "en": "This development could set a new standard for other stablecoin issuers.",
+        "ko": "이러한 발전은 다른 스테이블코인 발행사들에게 새로운 기준을 제시할 수 있습니다."
+      },
+      {
+        "en": "It also addresses regulatory concerns about market stability.",
+        "ko": "또한 시장 안정성에 대한 규제 당국의 우려를 해소합니다."
+      },
+      {
+        "en": "A verified reserve strengthens USDT's position in the global crypto economy.",
+        "ko": "확인된 준비금은 글로벌 암호화폐 경제에서 USDT의 입지를 강화합니다."
+      }
+    ],
+    "glossary": {
+      "issuer": "A company or organization that produces and distributes something, like a financial product or currency.",
+      "stablecoin": "A cryptocurrency designed to maintain a stable value, often pegged to a fiat currency like the US dollar.",
+      "audit": "An official inspection of an organization's accounts, typically by an independent body, to verify accuracy.",
+      "prestigious": "Highly respected and admired, usually because of quality, importance, or high status.",
+      "accounting": "The process or work of keeping financial accounts and reporting financial information accurately.",
+      "firm": "A business organization, especially one providing professional services such as legal or accounting work.",
+      "examined": "Inspected something thoroughly and carefully to determine its nature, condition, or accuracy.",
+      "verified": "Made sure that something is true, accurate, or justified through investigation or evidence.",
+      "holdings": "Property, such as land, investments, or assets, that is owned by someone or an organization.",
+      "transparency": "The quality of being open, honest, and easy to understand, especially in business dealings.",
+      "criticism": "The expression of disapproval of someone or something based on perceived faults or shortcomings.",
+      "reserves": "A supply of a commodity, funds, or assets kept available for future use or to back liabilities.",
+      "crucial": "Extremely important or essential for the success or outcome of something.",
+      "confidence": "The feeling or belief that one can rely on someone or something, or that something is good.",
+      "relies": "Depends on someone or something for support, help, or information to function.",
+      "backed": "Supported or guaranteed by something else, often referring to financial assets or collateral.",
+      "development": "A new event, discovery, or invention that changes a situation or creates progress.",
+      "standard": "A level of quality or attainment that is considered acceptable, desirable, or required.",
+      "addresses": "Deals with or approaches a problem or issue directly to find a solution.",
+      "regulatory": "Relating to an authority's control over an industry or system, often through rules and laws.",
+      "stability": "The state of being firm, steady, and not likely to change or fail suddenly.",
+      "strengthens": "Makes something stronger, more powerful, or more resilient against challenges.",
+      "position": "The way in which someone or something is placed, arranged, or regarded relative to others.",
+      "economy": "The system by which goods and services are produced, sold, and bought in a country or region."
+    },
+    "questions": [
+      "Q1: According to the passage, which accounting firm conducted the financial audit for Tether, and what did they verify?",
+      "Q2: What does the term \"stablecoin\" mean in the context of this article, and why is an audit considered \"crucial\" for it?",
+      "Q3: How might this audit by a \"Big Four\" firm impact the broader stablecoin market and its relationship with regulators?"
+    ],
+    "modelAnswers": [
+      "A1: KPMG U.S., a \"Big Four\" accounting firm, conducted Tether's financial audit. They examined Tether's financial records and verified its gold bar holdings.",
+      "A2: In this article, a \"stablecoin\" refers to a cryptocurrency designed to maintain a stable value, typically backed by assets like fiat currency or gold. An audit is \"crucial\" because it builds investor confidence and trust that the digital assets are fully backed, which is essential for market stability.",
+      "A3: This audit could significantly boost trust in Tether and potentially set a new transparency standard for other stablecoin issuers. It might also encourage regulators to view stablecoins more favorably, fostering greater adoption and integration into traditional finance by addressing key concerns about backing and stability."
+    ]
+  },
+  {
+    "id": "cd-2026-08-14-2",
+    "date": "2026-08-14",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화에 집중하는 대출 플랫폼 Figure가 블록체인 기반 대출 시장의 급성장으로 매출이 두 배 증가했다고 발표했습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/13/figure-revenue-doubles-as-blockchain-loan-marketplace-volumes-surge",
+    "title": "Figure's Revenue Soars on Tokenized Loans",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Figure, a leading blockchain-focused lender, has reported a significant revenue increase. Its quarterly revenue doubled, reaching $226 million. This growth is attributed to a surge in its blockchain loan marketplace volume. The volume on its marketplace jumped to an impressive $4.3 billion. Figure specializes in tokenization, converting real-world assets into digital tokens. This process makes assets more liquid and efficient to trade. The company's success highlights the growing adoption of blockchain technology. It demonstrates blockchain's potential to transform traditional finance. Tokenized loans offer new opportunities for investors and borrowers. This trend suggests a future where more financial products are on-chain.",
+    "sentences": [
+      {
+        "en": "Figure, a leading blockchain-focused lender, has reported a significant revenue increase.",
+        "ko": "블록체인 기반 대출의 선두 주자인 Figure는 상당한 매출 증가를 보고했습니다."
+      },
+      {
+        "en": "Its quarterly revenue doubled, reaching $226 million.",
+        "ko": "분기별 매출은 두 배 증가하여 2억 2천6백만 달러에 달했습니다."
+      },
+      {
+        "en": "This growth is attributed to a surge in its blockchain loan marketplace volume.",
+        "ko": "이러한 성장은 블록체인 대출 시장 규모의 급증에 기인합니다."
+      },
+      {
+        "en": "The volume on its marketplace jumped to an impressive $4.3 billion.",
+        "ko": "시장 규모는 인상적인 43억 달러로 급증했습니다."
+      },
+      {
+        "en": "Figure specializes in tokenization, converting real-world assets into digital tokens.",
+        "ko": "Figure는 실물 자산을 디지털 토큰으로 전환하는 토큰화에 특화되어 있습니다."
+      },
+      {
+        "en": "This process makes assets more liquid and efficient to trade.",
+        "ko": "이 과정은 자산을 더 유동적이고 효율적으로 거래할 수 있게 만듭니다."
+      },
+      {
+        "en": "The company's success highlights the growing adoption of blockchain technology.",
+        "ko": "이 회사의 성공은 블록체인 기술의 확산이 증가하고 있음을 보여줍니다."
+      },
+      {
+        "en": "It demonstrates blockchain's potential to transform traditional finance.",
+        "ko": "이는 블록체인이 전통 금융을 변화시킬 잠재력을 입증합니다."
+      },
+      {
+        "en": "Tokenized loans offer new opportunities for investors and borrowers.",
+        "ko": "토큰화된 대출은 투자자와 대출자에게 새로운 기회를 제공합니다."
+      },
+      {
+        "en": "This trend suggests a future where more financial products are on-chain.",
+        "ko": "이러한 추세는 더 많은 금융 상품이 온체인에 존재할 미래를 시사합니다."
+      }
+    ],
+    "glossary": {
+      "lender": "An organization or person that lends money to others, typically expecting it back with interest.",
+      "reported": "Gave a spoken or written account of something observed, heard, or investigated.",
+      "significant": "Important, large, or noticeable enough to be worthy of attention.",
+      "revenue": "The income that a business has from its normal business activities, before expenses.",
+      "quarterly": "Occurring, done, or paid every three months, or relating to a three-month period.",
+      "attributed": "Regarded something as being caused by or belonging to someone or something.",
+      "surge": "A sudden powerful forward or upward movement, often referring to a rapid increase in quantity.",
+      "marketplace": "An open area or a platform where a market is held, or where goods and services are bought and sold.",
+      "volume": "The amount or quantity of something, often referring to the total trading activity or transactions.",
+      "impressive": "Evoking admiration through size, quality, skill, or achievement.",
+      "specializes": "Concentrates on and becomes expert in a particular subject, skill, or field of business.",
+      "tokenization": "The process of converting rights to an asset into a digital token stored on a blockchain network.",
+      "converting": "Changing the form, character, or function of something from one state to another.",
+      "assets": "Property owned by a person or company, regarded as having value and available to meet debts.",
+      "liquid": "Easily converted into cash without significant loss of value, making it readily available.",
+      "efficient": "Achieving maximum productivity with minimum wasted effort, expense, or time.",
+      "highlights": "Draws special attention to something, making it more prominent or noticeable.",
+      "adoption": "The action or fact of choosing to take up, follow, or use something new or different.",
+      "demonstrates": "Clearly shows the existence or truth of something by giving proof or evidence.",
+      "potential": "Having or showing the capacity to develop into something in the future, possibly great.",
+      "transform": "Make a thorough or dramatic change in the form, appearance, or character of something.",
+      "traditional": "Existing in or as part of a tradition; long-established, customary, or conventional.",
+      "opportunities": "A set of circumstances that makes it possible to do something, often favorable.",
+      "borrowers": "People or organizations that take money from a lender with the intention of returning it.",
+      "trend": "A general direction in which something is developing or changing, a prevailing tendency.",
+      "on-chain": "Referring to data or transactions that are recorded directly on a blockchain and verified by the network."
+    },
+    "questions": [
+      "Q1: What financial milestone did Figure achieve, and what key factor contributed to this success according to the passage?",
+      "Q2: Explain \"tokenization\" based on the article's description. How does this process benefit assets?",
+      "Q3: As a fintech PM, what future implications do Figure's success and the growth of tokenized loans suggest for the broader financial industry?"
+    ],
+    "modelAnswers": [
+      "A1: Figure doubled its quarterly revenue to $226 million. This success was primarily contributed by a surge in its blockchain loan marketplace volume, which jumped to $4.3 billion.",
+      "A2: Tokenization, as described, is the process of converting real-world assets into digital tokens on a blockchain. This process benefits assets by making them more liquid and efficient to trade, opening new opportunities for financial products.",
+      "A3: Figure's success suggests a strong future for blockchain technology in transforming traditional finance. It indicates that tokenized loans could become a significant part of the financial landscape, offering new liquidity and efficiency. This trend implies that more financial products will likely move on-chain, creating new opportunities for innovation and market expansion for fintech PMs."
+    ]
+  },
+  {
+    "id": "cd-2026-08-14-3",
+    "date": "2026-08-14",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "일본 최대 은행 중 하나인 MUFG가 일본 국채 거래에 블록체인 기반 실시간 결제를 시험하며 토큰화와 전통 금융의 융합을 탐색합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/13/mufg-to-test-real-time-blockchain-settlement-for-japanese-government-bond-trades",
+    "title": "MUFG Explores Blockchain for Bond Settlement",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "MUFG, a major Japanese bank, is exploring blockchain technology for bond trades. They are developing a proof-of-concept for real-time settlement of Japanese government bonds (JGBs). This initiative uses the Canton network, a blockchain platform. The project aims to enhance efficiency and reduce settlement risks. Traditional bond settlements can be slow and complex. Blockchain offers immediate and secure transaction finality. This move by MUFG highlights the growing interest from traditional finance. It shows their commitment to adopting innovative digital asset solutions. Successful implementation could pave the way for broader tokenization. This includes other government securities and financial instruments. Such advancements are crucial for modernizing global financial markets. It connects the crypto and traditional finance worlds.",
+    "sentences": [
+      {
+        "en": "MUFG, a major Japanese bank, is exploring blockchain technology for bond trades.",
+        "ko": "일본의 주요 은행인 MUFG는 채권 거래를 위해 블록체인 기술을 탐색하고 있습니다."
+      },
+      {
+        "en": "They are developing a proof-of-concept for real-time settlement of Japanese government bonds (JGBs).",
+        "ko": "그들은 일본 국채(JGB)의 실시간 결제를 위한 개념 증명(PoC)을 개발하고 있습니다."
+      },
+      {
+        "en": "This initiative uses the Canton network, a blockchain platform.",
+        "ko": "이 이니셔티브는 블록체인 플랫폼인 Canton 네트워크를 사용합니다."
+      },
+      {
+        "en": "The project aims to enhance efficiency and reduce settlement risks.",
+        "ko": "이 프로젝트는 효율성을 높이고 결제 위험을 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "Traditional bond settlements can be slow and complex.",
+        "ko": "전통적인 채권 결제는 느리고 복잡할 수 있습니다."
+      },
+      {
+        "en": "Blockchain offers immediate and secure transaction finality.",
+        "ko": "블록체인은 즉각적이고 안전한 거래 완결성을 제공합니다."
+      },
+      {
+        "en": "This move by MUFG highlights the growing interest from traditional finance.",
+        "ko": "MUFG의 이러한 움직임은 전통 금융 부문의 증가하는 관심을 강조합니다."
+      },
+      {
+        "en": "It shows their commitment to adopting innovative digital asset solutions.",
+        "ko": "이는 혁신적인 디지털 자산 솔루션을 채택하려는 그들의 의지를 보여줍니다."
+      },
+      {
+        "en": "Successful implementation could pave the way for broader tokenization.",
+        "ko": "성공적인 구현은 더 광범위한 토큰화를 위한 길을 열 수 있습니다."
+      },
+      {
+        "en": "This includes other government securities and financial instruments.",
+        "ko": "여기에는 다른 국채 및 금융 상품이 포함됩니다."
+      },
+      {
+        "en": "Such advancements are crucial for modernizing global financial markets.",
+        "ko": "이러한 발전은 글로벌 금융 시장을 현대화하는 데 중요합니다."
+      },
+      {
+        "en": "It connects the crypto and traditional finance worlds.",
+        "ko": "이는 암호화폐와 전통 금융 세계를 연결합니다."
+      }
+    ],
+    "glossary": {
+      "major": "Very important, large, or significant in scope or influence.",
+      "exploring": "Investigating or discussing something in detail to discover more about it.",
+      "bond": "A certificate of debt issued by a government or company, promising to pay back borrowed money with interest.",
+      "trades": "Acts of buying and selling goods, services, or financial assets in a market.",
+      "developing": "Growing or causing to grow and become more advanced, complex, or mature.",
+      "proof-of-concept": "Evidence, typically derived from an experiment, that demonstrates a design idea is feasible.",
+      "real-time": "Relating to a system in which input is processed immediately, providing instant results.",
+      "settlement": "The official agreement and completion of a financial transaction or payment process.",
+      "initiative": "An important act or statement that is intended to solve a problem or start something new.",
+      "platform": "A raised flat surface, or a system that enables the running of various applications or services.",
+      "enhance": "Intensify, increase, or further improve the quality, value, or extent of something.",
+      "efficiency": "The state or quality of being efficient, achieving maximum productivity with minimum wasted effort.",
+      "reduce": "Make something smaller or less in amount, degree, or size.",
+      "risks": "Situations involving exposure to danger, harm, or loss.",
+      "complex": "Consisting of many different and connected parts, making it difficult to understand or analyze.",
+      "immediate": "Occurring or done at once, without any delay or hesitation.",
+      "secure": "Fixed or fastened so as not to give way, become loose, or be lost; protected from threat.",
+      "finality": "The state or quality of being final, complete, or irreversible.",
+      "highlights": "Draws special attention to something, making it more prominent or noticeable.",
+      "commitment": "The state or quality of being dedicated to a cause, activity, or person.",
+      "adopting": "Taking up or starting to use or follow something new, often a method or approach.",
+      "innovative": "Featuring new methods, ideas, or products; introducing new ways of doing things.",
+      "solutions": "Means of solving a problem or dealing with a difficult situation successfully.",
+      "implementation": "The process of putting a decision, plan, or agreement into effect.",
+      "pave": "Create the circumstances or conditions for something to happen or develop.",
+      "broader": "Covering a large number of subjects or a wide area; more general.",
+      "securities": "Financial instruments that can be traded, such as stocks, bonds, and options.",
+      "instruments": "Formal documents or tools used in finance to represent value or an agreement.",
+      "advancements": "Developments or improvements in a particular area, leading to progress.",
+      "modernizing": "Adapting something to modern needs or habits, making it more current and efficient."
+    },
+    "questions": [
+      "Q1: Which financial institution is exploring blockchain for bond trades, and what specific type of bond are they focusing on for real-time settlement?",
+      "Q2: What is a \"proof-of-concept\" in the context of this article, and what are the main benefits MUFG hopes to achieve with blockchain settlement?",
+      "Q3: Considering your interest in tokenization, how significant is MUFG's initiative for the future integration of blockchain into traditional financial markets globally?"
+    ],
+    "modelAnswers": [
+      "A1: MUFG, a major Japanese bank, is exploring blockchain technology for bond trades. They are focusing on Japanese government bonds (JGBs) for real-time settlement.",
+      "A2: A \"proof-of-concept\" refers to an experiment or pilot project designed to demonstrate that a particular idea or design is feasible. MUFG hopes to enhance efficiency and reduce settlement risks in bond trades by using blockchain.",
+      "A3: MUFG's initiative is highly significant. It shows a major traditional financial institution directly embracing tokenization for a core financial product like government bonds. This could accelerate the modernization of global financial markets, proving blockchain's practical utility beyond cryptocurrencies and paving the way for wider adoption of tokenized securities across the industry."
+    ]
+  },
+  {
+    "id": "ec-2026-08-14-1",
+    "date": "2026-08-14",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 도매물가 상승률이 예상치를 하회하며 인플레이션 압력이 완화될 수 있다는 신호를 보여주고 있습니다.",
+    "url": "https://www.cnbc.com/2026/08/13/wholesale-prices-were-flat-in-july-below-expectations-for-0point2percent-increase.html",
+    "title": "Wholesale Prices Flat, Easing Inflationary Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Wholesale prices in the U.S. remained unchanged in July. This result was below economists' expectations for a slight increase. The Producer Price Index (PPI) measures average changes in selling prices. These prices are received by domestic producers for their output. A flat PPI suggests that inflationary pressures might be easing. Businesses are not facing higher costs for goods and services. This could lead to stable consumer prices in the future. The data may influence the Federal Reserve's interest rate decisions. Lower inflation could reduce the need for further rate hikes. This news offers some relief for the overall economy.",
+    "sentences": [
+      {
+        "en": "Wholesale prices in the U.S. remained unchanged in July.",
+        "ko": "미국의 도매물가는 7월에 변동이 없었습니다."
+      },
+      {
+        "en": "This result was below economists' expectations for a slight increase.",
+        "ko": "이 결과는 경제학자들의 소폭 상승 예상치보다 낮았습니다."
+      },
+      {
+        "en": "The Producer Price Index (PPI) measures average changes in selling prices.",
+        "ko": "생산자 물가 지수(PPI)는 판매 가격의 평균 변화를 측정합니다."
+      },
+      {
+        "en": "These prices are received by domestic producers for their output.",
+        "ko": "이 가격은 국내 생산자들이 자신들의 생산물에 대해 받는 것입니다."
+      },
+      {
+        "en": "A flat PPI suggests that inflationary pressures might be easing.",
+        "ko": "변동 없는 PPI는 인플레이션 압력이 완화될 수 있음을 시사합니다."
+      },
+      {
+        "en": "Businesses are not facing higher costs for goods and services.",
+        "ko": "기업들은 상품과 서비스에 대해 더 높은 비용에 직면하지 않고 있습니다."
+      },
+      {
+        "en": "This could lead to stable consumer prices in the future.",
+        "ko": "이는 미래에 안정적인 소비자 물가로 이어질 수 있습니다."
+      },
+      {
+        "en": "The data may influence the Federal Reserve's interest rate decisions.",
+        "ko": "이 데이터는 연방준비제도(Fed)의 금리 결정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Lower inflation could reduce the need for further rate hikes.",
+        "ko": "낮은 인플레이션은 추가 금리 인상의 필요성을 줄일 수 있습니다."
+      },
+      {
+        "en": "This news offers some relief for the overall economy.",
+        "ko": "이 소식은 전반적인 경제에 어느 정도 안도감을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "unchanged": "staying the same and not showing any difference.",
+      "economists": "people who study how economies work and make predictions.",
+      "expectations": "beliefs about what will happen or what should be the case.",
+      "measures": "finds out the size, amount, or degree of something using a standard unit.",
+      "output": "the amount of something that a person, machine, or industry produces.",
+      "easing": "becoming less severe or intense.",
+      "facing": "having to deal with a difficult situation or problem.",
+      "stable": "not likely to change or fail; firmly established.",
+      "influence": "to have an effect on the way someone or something develops, behaves, or thinks.",
+      "reduce": "to make something smaller in amount, size, or degree.",
+      "relief": "a feeling of comfort when something difficult or unpleasant stops or becomes less severe."
+    },
+    "questions": [
+      "Q1: What does a flat Producer Price Index (PPI) suggest about inflationary pressures, according to the article?",
+      "Q2: Explain what \"rate hikes\" refer to in the context of the Federal Reserve's actions and why lower inflation might reduce the need for them.",
+      "Q3: How might a fintech PM use information about the Producer Price Index (PPI) in their role, and what other economic indicators do you think are crucial for their work?"
+    ],
+    "modelAnswers": [
+      "Q1: A flat Producer Price Index (PPI) suggests that inflationary pressures might be easing because businesses are not facing higher costs for goods and services, which could lead to stable consumer prices.",
+      "Q2: \"Rate hikes\" refer to increases in interest rates by the Federal Reserve, making borrowing more expensive. Lower inflation could reduce the need for rate hikes because the central bank's primary goal of controlling price increases would be less urgent.",
+      "Q3: A fintech PM might use PPI data to anticipate future consumer spending trends or to assess the cost of goods for businesses their products serve. Other crucial indicators include the Consumer Price Index (CPI), unemployment rates, and GDP growth figures, as these directly impact market conditions and financial product demand."
+    ]
+  },
+  {
+    "id": "ec-2026-08-14-2",
+    "date": "2026-08-14",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국 재정 적자가 7월에 급증하며 재정 건전성에 대한 우려를 다시 불러일으키고 있습니다.",
+    "url": "https://www.cnbc.com/2026/08/12/us-budget-deficit-surged-in-july-to-highest-level-since-march-2021.html",
+    "title": "US Budget Deficit Surges, Raising Fiscal Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. budget deficit significantly increased in July. It reached its highest level since March 2021. This jump adds to the country's growing fiscal challenges. The budget deficit occurs when government spending exceeds revenue. For the first ten months of the fiscal year, the deficit neared $1.8 trillion. This amount is higher than the same period in the previous year. Such large deficits can lead to increased national debt. This may raise concerns about long-term economic stability. High debt levels can impact government borrowing costs. They can also affect future investments and economic growth. Policymakers face pressure to address these financial imbalances.",
+    "sentences": [
+      {
+        "en": "The U.S. budget deficit significantly increased in July.",
+        "ko": "미국의 재정 적자가 7월에 크게 증가했습니다."
+      },
+      {
+        "en": "It reached its highest level since March 2021.",
+        "ko": "이는 2021년 3월 이후 최고 수준에 달했습니다."
+      },
+      {
+        "en": "This jump adds to the country's growing fiscal challenges.",
+        "ko": "이러한 급증은 국가의 증가하는 재정적 어려움을 가중시킵니다."
+      },
+      {
+        "en": "The budget deficit occurs when government spending exceeds revenue.",
+        "ko": "재정 적자는 정부 지출이 수입을 초과할 때 발생합니다."
+      },
+      {
+        "en": "For the first ten months of the fiscal year, the deficit neared $1.8 trillion.",
+        "ko": "회계연도 첫 10개월 동안 적자는 거의 1조 8천억 달러에 달했습니다."
+      },
+      {
+        "en": "This amount is higher than the same period in the previous year.",
+        "ko": "이 금액은 전년도 같은 기간보다 더 높습니다."
+      },
+      {
+        "en": "Such large deficits can lead to increased national debt.",
+        "ko": "이러한 큰 적자는 국가 부채 증가로 이어질 수 있습니다."
+      },
+      {
+        "en": "This may raise concerns about long-term economic stability.",
+        "ko": "이는 장기적인 경제 안정성에 대한 우려를 불러일으킬 수 있습니다."
+      },
+      {
+        "en": "High debt levels can impact government borrowing costs.",
+        "ko": "높은 부채 수준은 정부의 차입 비용에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "They can also affect future investments and economic growth.",
+        "ko": "또한 미래 투자와 경제 성장에도 영향을 줄 수 있습니다."
+      },
+      {
+        "en": "Policymakers face pressure to address these financial imbalances.",
+        "ko": "정책 입안자들은 이러한 재정 불균형을 해결해야 하는 압력에 직면합니다."
+      }
+    ],
+    "glossary": {
+      "significantly": "in an important or noticeable way.",
+      "reached": "arrived at a particular point or level.",
+      "occurs": "happens or takes place.",
+      "exceeds": "is greater than a particular amount or number.",
+      "revenue": "the income that a government or company receives regularly.",
+      "neared": "came close to a particular amount or level.",
+      "long-term": "continuing for a long period of time into the future.",
+      "impact": "to have a strong effect on someone or something.",
+      "policymakers": "people who are responsible for making official policy, especially in government.",
+      "pressure": "the force or influence that one person or group uses to make another person or group do something.",
+      "address": "to deal with a problem or issue."
+    },
+    "questions": [
+      "Q1: What is the primary definition of a budget deficit, as explained in the article?",
+      "Q2: In the context of the U.S. budget deficit, explain what \"fiscal year\" means and why the deficit \"neared $1.8 trillion\" over its first ten months.",
+      "Q3: Discuss potential long-term consequences of a persistently high national debt for a country's economy. How might this affect different sectors or individuals?"
+    ],
+    "modelAnswers": [
+      "Q1: A budget deficit occurs when the government's total spending is greater than the total revenue it collects over a specific period.",
+      "Q2: A \"fiscal year\" is a 12-month accounting period for financial reporting, which may not align with the calendar year. The deficit neared $1.8 trillion over its first ten months because government spending significantly exceeded its income during that period.",
+      "Q3: A persistently high national debt can lead to higher government borrowing costs, potentially crowding out private investment and slowing economic growth. It might also increase the tax burden on future generations or reduce the government's ability to respond to future crises, affecting public services and individual prosperity."
+    ]
+  },
+  {
+    "id": "ec-2026-08-14-3",
+    "date": "2026-08-14",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "7월 소비자 물가 지수(CPI) 보고서가 발표되었으며, 이는 인플레이션 추세와 소비자의 구매력에 대한 중요한 통찰력을 제공합니다.",
+    "url": "https://www.cnbc.com/2026/08/12/here-are-five-key-takeaways-from-the-july-cpi-inflation-report.html",
+    "title": "July CPI Report: Inflation Meets Expectations",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The July Consumer Price Index (CPI) report has been released. It provides important data on prices for goods and services. These are the prices that consumers pay directly. The readings for July largely met market expectations. This suggests that inflation is behaving as anticipated. The CPI is a key indicator of inflation in the economy. It influences central bank policy decisions, like interest rates. Stable CPI figures can reassure markets and consumers. They indicate that purchasing power is not eroding too quickly. However, specific sectors might still show price volatility. Understanding CPI helps businesses plan future strategies. It also guides individual financial planning effectively.",
+    "sentences": [
+      {
+        "en": "The July Consumer Price Index (CPI) report has been released.",
+        "ko": "7월 소비자 물가 지수(CPI) 보고서가 발표되었습니다."
+      },
+      {
+        "en": "It provides important data on prices for goods and services.",
+        "ko": "이 보고서는 상품과 서비스 가격에 대한 중요한 데이터를 제공합니다."
+      },
+      {
+        "en": "These are the prices that consumers pay directly.",
+        "ko": "이는 소비자들이 직접 지불하는 가격입니다."
+      },
+      {
+        "en": "The readings for July largely met market expectations.",
+        "ko": "7월 수치는 시장 예상치에 대체로 부합했습니다."
+      },
+      {
+        "en": "This suggests that inflation is behaving as anticipated.",
+        "ko": "이는 인플레이션이 예상대로 움직이고 있음을 시사합니다."
+      },
+      {
+        "en": "The CPI is a key indicator of inflation in the economy.",
+        "ko": "CPI는 경제의 인플레이션을 나타내는 핵심 지표입니다."
+      },
+      {
+        "en": "It influences central bank policy decisions, like interest rates.",
+        "ko": "이는 금리와 같은 중앙은행 정책 결정에 영향을 미칩니다."
+      },
+      {
+        "en": "Stable CPI figures can reassure markets and consumers.",
+        "ko": "안정적인 CPI 수치는 시장과 소비자를 안심시킬 수 있습니다."
+      },
+      {
+        "en": "They indicate that purchasing power is not eroding too quickly.",
+        "ko": "이는 구매력이 너무 빨리 약화되지 않고 있음을 나타냅니다."
+      },
+      {
+        "en": "However, specific sectors might still show price volatility.",
+        "ko": "하지만 특정 부문에서는 여전히 가격 변동성을 보일 수 있습니다."
+      },
+      {
+        "en": "Understanding CPI helps businesses plan future strategies.",
+        "ko": "CPI를 이해하는 것은 기업이 미래 전략을 계획하는 데 도움이 됩니다."
+      },
+      {
+        "en": "It also guides individual financial planning effectively.",
+        "ko": "또한 개인의 재정 계획을 효과적으로 안내합니다."
+      }
+    ],
+    "glossary": {
+      "provides": "gives something to someone or makes it available.",
+      "directly": "in a clear and immediate way.",
+      "readings": "the values or amounts shown on a measuring instrument or report.",
+      "largely": "almost entirely; mostly.",
+      "suggests": "puts forward an idea or plan for consideration.",
+      "behaving": "acting or functioning in a particular way.",
+      "anticipated": "expected or predicted to happen.",
+      "influences": "has an effect on the way someone or something develops, behaves, or thinks.",
+      "stable": "not likely to change or fail; firmly established.",
+      "reassure": "to make someone feel less worried about something.",
+      "eroding": "gradually destroying or reducing something.",
+      "quickly": "at a fast speed; rapidly.",
+      "strategies": "plans of action designed to achieve a long-term or overall aim.",
+      "guides": "shows or points out the way for someone or something.",
+      "effectively": "in a way that is successful and achieves what you want."
+    },
+    "questions": [
+      "Q1: What does the Consumer Price Index (CPI) measure, and what did the July report indicate about this measure?",
+      "Q2: Explain why the CPI is considered a \"key indicator of inflation\" and how \"stable CPI figures can reassure markets and consumers.\"",
+      "Q3: As a fintech PM, how would you use the CPI report to inform product development or strategic decisions for your company? Provide a specific example."
+    ],
+    "modelAnswers": [
+      "Q1: The Consumer Price Index (CPI) measures the average change over time in the prices that consumers pay for a basket of goods and services. The July report indicated that these readings largely met market expectations, suggesting inflation is behaving as anticipated.",
+      "Q2: The CPI is a key indicator of inflation because it directly reflects changes in consumer purchasing costs, influencing central bank policies like interest rates. Stable CPI figures reassure markets and consumers by indicating that purchasing power is not eroding too quickly, fostering economic confidence.",
+      "Q3: As a fintech PM, I would use the CPI report to assess market conditions for lending or investment products. For example, if CPI shows rising inflation, I might develop tools to help users find inflation-protected assets or adjust loan interest rates to reflect changing economic value."
+    ]
+  },
+  {
     "id": "cd-2026-08-13-1",
     "date": "2026-08-13",
     "rank": 1,
