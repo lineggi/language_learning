@@ -709,9 +709,22 @@
       for (const [k, v] of Object.entries(local || {})) put(k, v);
       return out;
     }
+    // A streak is "broken" once more than 1 day has passed since its
+    // lastDate with no word learned — normalize it to 0 (keeping lastDate)
+    // so a stale copy doesn't read as still active.
+    function normalizeStreak(s) {
+      const v = s || { count: 0, lastDate: null };
+      if (!v.lastDate || !v.count) return v;
+      return daysBetween(v.lastDate, kstToday()) > 1 ? { count: 0, lastDate: v.lastDate } : v;
+    }
+    // Both sides are normalized against TODAY before comparing. Without this,
+    // a genuinely broken local streak (correctly decayed to 0) would lose to
+    // a stale remote copy that still holds an old higher count from before it
+    // broke — "prefer the bigger number" is wrong once one side is stale.
     function pickStreak(local, remote) {
-      const cl = (local && local.count) || 0, cr = (remote && remote.count) || 0;
-      return cl >= cr ? (local || { count: 0, lastDate: null }) : remote;
+      const l = normalizeStreak(local), r = normalizeStreak(remote);
+      if ((l.count || 0) !== (r.count || 0)) return (l.count || 0) > (r.count || 0) ? l : r;
+      return (l.lastDate || "") >= (r.lastDate || "") ? l : r; // tie → more recent lastDate
     }
 
     // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
@@ -875,7 +888,11 @@
       const [toast, setToast] = useState(null);
       const [session, setSession] = useState(null);
       const [syncMsg, setSyncMsg] = useState("");
-      const hydratedRef = useRef(false);
+      // Reactive (not a ref) so flipping it reliably retriggers the push
+      // effect below in the correct order — a ref flip doesn't itself cause
+      // any effect to re-run, which could otherwise race a post-pull repair
+      // push against the flag not yet being set.
+      const [hydrated, setHydrated] = useState(false);
       const saveTimer = useRef(null);
 
       useEffect(() => save(KEY.wordbank, wordbank), [wordbank]);
@@ -887,13 +904,7 @@
       // streak is broken — reflect that as 0 right away instead of waiting
       // for the next word, so a stale count is never shown after opening the
       // app post-gap.
-      useEffect(() => {
-        setStreak((prev) => {
-          if (!prev.lastDate || !prev.count) return prev;
-          const gap = daysBetween(prev.lastDate, kstToday());
-          return gap > 1 ? { count: 0, lastDate: prev.lastDate } : prev;
-        });
-      }, []);
+      useEffect(() => { setStreak((prev) => normalizeStreak(prev)); }, []);
 
       // Track Supabase auth session (only when a backend is configured).
       useEffect(() => {
@@ -929,15 +940,18 @@
         setStreak((loc) => pickStreak(loc, data.streak));
       }, [session]);
 
-      // On sign-in: pull + merge, then allow pushing.
+      // On sign-in: pull + merge, then allow pushing. Flipping `hydrated`
+      // (state, not a ref) is itself what wakes the push effect below, so a
+      // post-pull repair push (e.g. a locally-corrected streak that the
+      // stale server copy hasn't seen yet) reliably fires once, in order.
       useEffect(() => {
-        if (!SB || !session) { hydratedRef.current = false; return; }
+        if (!SB || !session) { setHydrated(false); return; }
         let cancelled = false;
         (async () => {
           setSyncMsg("동기화 중…");
           await pullRemote();
           if (cancelled) return;
-          hydratedRef.current = true;
+          setHydrated(true);
           setSyncMsg("동기화됨");
           setTimeout(() => setSyncMsg(""), 1500);
         })();
@@ -948,19 +962,23 @@
       // up changes made on another device (no realtime channel needed).
       useEffect(() => {
         if (!SB || !session) return;
-        const onVisible = () => { if (document.visibilityState === "visible" && hydratedRef.current) pullRemote(); };
+        const onVisible = () => { if (document.visibilityState === "visible" && hydrated) pullRemote(); };
         window.addEventListener("focus", onVisible);
         document.addEventListener("visibilitychange", onVisible);
         return () => {
           window.removeEventListener("focus", onVisible);
           document.removeEventListener("visibilitychange", onVisible);
         };
-      }, [session, pullRemote]);
+      }, [session, pullRemote, hydrated]);
 
       // Push local changes up (debounced) once hydrated. Read-merge-write so a
       // push never clobbers a newer per-word change made on another device.
+      // `hydrated` flipping true after a pull is itself enough to trigger this
+      // (even if wordbank/reads/streak didn't otherwise change), so a value
+      // silently corrected during merge — like a decayed streak — gets written
+      // back instead of only self-healing on the next unrelated edit.
       useEffect(() => {
-        if (!SB || !session || !hydratedRef.current) return;
+        if (!SB || !session || !hydrated) return;
         if (saveTimer.current) clearTimeout(saveTimer.current);
         saveTimer.current = setTimeout(async () => {
           try {
@@ -978,10 +996,11 @@
             const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
             setWordbank((loc) => (same(wb, loc) ? loc : wb));
             setReads((loc) => (same(rd, loc) ? loc : rd));
+            setStreak((loc) => (same(st, loc) ? loc : st));
           } catch (e) { setSyncMsg("저장 오류"); }
         }, 1200);
         return () => saveTimer.current && clearTimeout(saveTimer.current);
-      }, [wordbank, reads, streak, session]);
+      }, [wordbank, reads, streak, session, hydrated]);
 
       // Once on load: (1) drop mastered words sat in "장기완료" past their TTL,
       // (2) revert "복습중" words that were never reviewed in time back to
