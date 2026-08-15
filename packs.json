@@ -1,5 +1,565 @@
 [
   {
+    "id": "cd-2026-08-16-1",
+    "date": "2026-08-16",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "SEC의 지연으로 토큰화 관련 주식이 하락하면서 월스트리트의 암호화폐 추진에 어떤 영향이 있을지 알아보세요.",
+    "url": "https://www.coindesk.com/markets/2026/08/14/tokenization-stocks-slip-as-sec-delay-puts-speed-bump-in-crypto-s-wall-street-push",
+    "title": "SEC Delay Slows Wall Street's Tokenization Push",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Securities and Exchange Commission (SEC) recently postponed decisions on key tokenization proposals. This regulatory delay caused a noticeable dip in the stock prices of companies focused on tokenization. Firms like Bullish, Coinbase, and Circle experienced declines on Friday. The market interprets this as a \"speed bump\" for Wall Street's ambition in digital assets. Tokenization involves converting real-world assets into digital tokens on a blockchain. Many financial institutions see this as the future of capital markets. However, regulatory clarity is essential for widespread adoption. The SEC's cautious approach highlights ongoing uncertainties in the crypto space. This setback could prompt firms to re-evaluate their timelines and strategies. It underscores the critical role of regulation in shaping the industry's growth.",
+    "sentences": [
+      {
+        "en": "The U.S. Securities and Exchange Commission (SEC) recently postponed decisions on key tokenization proposals.",
+        "ko": "미국 증권거래위원회(SEC)는 최근 주요 토큰화 제안에 대한 결정을 연기했습니다."
+      },
+      {
+        "en": "This regulatory delay caused a noticeable dip in the stock prices of companies focused on tokenization.",
+        "ko": "이러한 규제 지연은 토큰화에 중점을 둔 기업들의 주가에 눈에 띄는 하락을 불러왔습니다."
+      },
+      {
+        "en": "Firms like Bullish, Coinbase, and Circle experienced declines on Friday.",
+        "ko": "Bullish, Coinbase, 그리고 Circle과 같은 회사들은 금요일에 하락을 겪었습니다."
+      },
+      {
+        "en": "The market interprets this as a \"speed bump\" for Wall Street's ambition in digital assets.",
+        "ko": "시장은 이를 월스트리트의 디지털 자산 야망에 대한 \"속도 방지턱\"으로 해석하고 있습니다."
+      },
+      {
+        "en": "Tokenization involves converting real-world assets into digital tokens on a blockchain.",
+        "ko": "토큰화는 실물 자산을 블록체인 상의 디지털 토큰으로 변환하는 것을 포함합니다."
+      },
+      {
+        "en": "Many financial institutions see this as the future of capital markets.",
+        "ko": "많은 금융 기관들은 이것을 자본 시장의 미래로 보고 있습니다."
+      },
+      {
+        "en": "However, regulatory clarity is essential for widespread adoption.",
+        "ko": "하지만, 광범위한 채택을 위해서는 규제 명확성이 필수적입니다."
+      },
+      {
+        "en": "The SEC's cautious approach highlights ongoing uncertainties in the crypto space.",
+        "ko": "SEC의 신중한 접근 방식은 암호화폐 분야의 지속적인 불확실성을 강조합니다."
+      },
+      {
+        "en": "This setback could prompt firms to re-evaluate their timelines and strategies.",
+        "ko": "이러한 차질은 기업들이 자신들의 일정과 전략을 재평가하도록 촉구할 수 있습니다."
+      },
+      {
+        "en": "It underscores the critical role of regulation in shaping the industry's growth.",
+        "ko": "이는 산업 성장을 형성하는 데 있어 규제의 결정적인 역할을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "postponed": "put off to a later time; delayed action on a decision or event.",
+      "proposals": "formal suggestions or plans put forward for consideration or discussion by an authority.",
+      "regulatory": "relating to the supervision and control of an industry or activity by rules and laws.",
+      "dip": "a sudden, temporary decrease in value or amount, often in financial markets.",
+      "tokenization": "the process of converting rights to an asset into a digital token on a blockchain.",
+      "declines": "reductions in the amount, number, or value of something, such as stock prices.",
+      "interprets": "explains the meaning of information, words, or actions to understand their significance.",
+      "ambition": "a strong desire to do or achieve something significant, often requiring effort.",
+      "converting": "changing the form, character, or function of something from one state to another.",
+      "assets": "items of value owned by a company or individual that can be used to produce wealth.",
+      "institutions": "large, important organizations such as banks or universities that serve a public purpose.",
+      "capital": "wealth in the form of money or other assets owned by a person or organization.",
+      "clarity": "the quality of being clear, easy to understand, or certain, especially for rules.",
+      "essential": "absolutely necessary or important, without which something cannot function properly.",
+      "widespread": "found or distributed over a large area or among many people.",
+      "adoption": "the action of formally taking or receiving something, often a new technology or idea.",
+      "cautious": "careful to avoid potential problems or dangers, showing prudence.",
+      "uncertainties": "situations in which something is not known or is not definite, causing doubt.",
+      "setback": "a reversal or delay in progress, hindering an advance or achievement.",
+      "re-evaluate": "assess something again or differently, often due to new information or circumstances.",
+      "underscores": "emphasizes or highlights the importance of something, drawing attention to it.",
+      "shaping": "influencing the development of something, giving it a particular form or direction."
+    },
+    "questions": [
+      "What specific action by the SEC led to the decline in tokenization stocks, and which companies were mentioned as being affected?",
+      "In the context of the article, what does \"speed bump\" mean for Wall Street's digital asset ambitions, and why is regulatory clarity considered \"essential\" for widespread adoption of tokenization?",
+      "How do you think regulatory delays, like the one discussed, impact innovation in the fintech and crypto space, especially for PMs trying to launch new tokenization products?"
+    ],
+    "modelAnswers": [
+      "The SEC postponed decisions on key tokenization proposals, which caused a decline in tokenization stocks. Companies like Bullish, Coinbase, and Circle were mentioned as being affected by this regulatory delay.",
+      "A \"speed bump\" refers to a temporary obstacle or delay that slows down progress. For Wall Street's digital asset ambitions, it means a slowdown in their push towards tokenization. Regulatory clarity is essential because clear rules provide legal certainty and build trust, which are crucial for attracting broader investment and enabling mainstream use of tokenized assets.",
+      "Regulatory delays can stifle innovation by creating uncertainty and increasing compliance costs for fintech and crypto PMs. It makes it harder to plan product roadmaps and secure funding. However, it can also force PMs to build more robust and compliant solutions from the outset, potentially leading to more sustainable innovation in the long run."
+    ]
+  },
+  {
+    "id": "cd-2026-08-16-2",
+    "date": "2026-08-16",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "2026년 대규모 자금 조달이 암호화폐의 '무허가' 시대에 종말을 고한 이유를 분석하며 업계의 변화를 이해하세요.",
+    "url": "https://www.coindesk.com/business/2026/08/15/the-usd11-2-billion-in-2026-funding-that-killed-crypto-s-permissionless-era",
+    "title": "Billions in Funding End Crypto's Permissionless Era",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Crypto firms received an impressive $11.2 billion in funding during the first half of 2026. However, this significant investment marked a turning point for the industry. Much of this capital flowed into regulated companies. Major traditional financial players, like BlackRock and Goldman, contributed significantly. Sovereign wealth funds from the Persian Gulf also invested heavily. This trend suggests a shift away from crypto's original \"permissionless\" ideals. The era of completely open and unregulated crypto development seems to be ending. Instead, the industry is moving towards more controlled and compliant structures. This evolution reflects the growing influence of institutional money. It also highlights the increasing demand for regulatory oversight. For crypto and fintech PMs, understanding this shift is crucial for future strategy.",
+    "sentences": [
+      {
+        "en": "Crypto firms received an impressive $11.2 billion in funding during the first half of 2026.",
+        "ko": "암호화폐 기업들은 2026년 상반기에 무려 112억 달러의 자금을 유치했습니다."
+      },
+      {
+        "en": "However, this significant investment marked a turning point for the industry.",
+        "ko": "하지만, 이 상당한 투자는 업계의 전환점이 되었습니다."
+      },
+      {
+        "en": "Much of this capital flowed into regulated companies.",
+        "ko": "이 자본의 대부분은 규제 대상 기업으로 흘러들어갔습니다."
+      },
+      {
+        "en": "Major traditional financial players, like BlackRock and Goldman, contributed significantly.",
+        "ko": "BlackRock과 Goldman 같은 주요 전통 금융 플레이어들이 상당한 기여를 했습니다."
+      },
+      {
+        "en": "Sovereign wealth funds from the Persian Gulf also invested heavily.",
+        "ko": "페르시아만 국부펀드 또한 대규모로 투자했습니다."
+      },
+      {
+        "en": "This trend suggests a shift away from crypto's original \"permissionless\" ideals.",
+        "ko": "이러한 추세는 암호화폐의 원래 \"무허가\" 이상에서 벗어나고 있음을 시사합니다."
+      },
+      {
+        "en": "The era of completely open and unregulated crypto development seems to be ending.",
+        "ko": "완전히 개방되고 규제되지 않은 암호화폐 개발 시대는 끝나가는 것으로 보입니다."
+      },
+      {
+        "en": "Instead, the industry is moving towards more controlled and compliant structures.",
+        "ko": "대신, 업계는 더욱 통제되고 규제를 준수하는 구조로 이동하고 있습니다."
+      },
+      {
+        "en": "This evolution reflects the growing influence of institutional money.",
+        "ko": "이러한 진화는 기관 자금의 증가하는 영향력을 반영합니다."
+      },
+      {
+        "en": "It also highlights the increasing demand for regulatory oversight.",
+        "ko": "이는 또한 규제 감독에 대한 증가하는 수요를 강조합니다."
+      },
+      {
+        "en": "For crypto and fintech PMs, understanding this shift is crucial for future strategy.",
+        "ko": "암호화폐 및 핀테크 PM에게 이러한 변화를 이해하는 것은 미래 전략에 결정적입니다."
+      }
+    ],
+    "glossary": {
+      "impressive": "evoking admiration through size, quality, or skill, often due to being large or remarkable.",
+      "funding": "money provided, especially by an organization or government, for a particular purpose or project.",
+      "significant": "important, noteworthy, or considerable in amount or effect.",
+      "investment": "the action or process of investing money for profit or material result.",
+      "turning": "a time at which a decisive change in a situation occurs, marking a new direction.",
+      "point": "a specific moment or stage in time or in a process.",
+      "capital": "wealth in the form of money or other assets owned by a person or organization.",
+      "regulated": "controlled or supervised by rules or laws set by an authority.",
+      "traditional": "existing in or as part of a tradition; long-established and conventional.",
+      "contributed": "gave something, especially money or time, to a common purpose or fund.",
+      "sovereign": "possessing supreme or ultimate power, often referring to a state or its funds.",
+      "wealth": "an abundance of valuable possessions or money, indicating prosperity.",
+      "persian": "relating to Persia, an ancient kingdom in western Asia, now Iran.",
+      "gulf": "a deep inlet of the sea almost surrounded by land with a narrow mouth.",
+      "trend": "a general direction in which something is developing or changing.",
+      "permissionless": "without requiring official authorization or permission to participate or access.",
+      "ideals": "principles or goals that a person or group tries to achieve, often high standards.",
+      "unregulated": "not subject to regulation or control by an authority.",
+      "structures": "the arrangement of and relations between the parts of something complex, like an organization.",
+      "evolution": "the gradual development of something, especially from a simple to a more complex form.",
+      "influence": "the capacity to have an effect on the character, development, or behavior of someone or something.",
+      "institutional": "relating to a large and established organization or institution, often financial.",
+      "oversight": "the action of overseeing something; supervision by an authority.",
+      "crucial": "extremely important, because it will affect other things or determine success."
+    },
+    "questions": [
+      "How much funding did crypto firms receive in the first half of 2026, and which types of investors were noted for contributing significantly to this capital?",
+      "What does the article mean by \"crypto's permissionless era,\" and how does the recent funding trend suggest this era is ending?",
+      "As a crypto/fintech PM, how would this shift towards more regulated and compliant structures influence your product development strategy and market entry considerations?"
+    ],
+    "modelAnswers": [
+      "Crypto firms received $11.2 billion in funding during the first half of 2026. Major traditional financial players like BlackRock and Goldman, along with sovereign wealth funds from the Persian Gulf, were noted for contributing significantly to this capital.",
+      "\"Crypto's permissionless era\" refers to a period where crypto development and activity were largely open, decentralized, and unregulated, without requiring official authorization. The funding trend suggests this era is ending because much of the recent capital has flowed into regulated companies and compliant structures, indicating a move away from unregulated and completely open systems towards more controlled environments.",
+      "This shift would significantly influence my product development strategy. I would prioritize building products with robust compliance features from the outset, focusing on regulatory frameworks like KYC/AML. Market entry would also involve thorough legal counsel and engagement with regulators, targeting jurisdictions with clearer guidelines. This approach ensures long-term viability and attracts institutional partners."
+    ]
+  },
+  {
+    "id": "cd-2026-08-16-3",
+    "date": "2026-08-16",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "월스트리트의 '프라이빗 블록체인' 집착이 왜 '바닥을 향한 경쟁'이 될 수 있는지에 대한 이더리움 옹호자의 경고를 들어보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/15/wall-street-s-private-blockchain-obsession-is-a-race-to-the-bottom-ethereum-advocate-raman-warns",
+    "title": "Private Blockchains: A \"Race to the Bottom\"?",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "An Ethereum advocate, Raman, has issued a stark warning about Wall Street's focus on private blockchains. He describes this trend as a potential \"race to the bottom.\" Private, permission-only networks are controlled by a limited group. Raman acknowledges their role in traditional finance. However, he argues they miss the core benefits of blockchain technology. True blockchain advantages, like transparency, require an open and public base. Without this, private chains risk becoming mere databases with extra steps. This perspective is crucial for understanding the future of tokenization. It questions whether Wall Street is truly leveraging blockchain's disruptive potential. PMs must consider these foundational differences. This is especially true when designing new tokenization systems.",
+    "sentences": [
+      {
+        "en": "An Ethereum advocate, Raman, has issued a stark warning about Wall Street's focus on private blockchains.",
+        "ko": "이더리움 옹호자인 라만은 월스트리트의 프라이빗 블록체인 집착에 대해 날카로운 경고를 발표했습니다."
+      },
+      {
+        "en": "He describes this trend as a potential \"race to the bottom.\"",
+        "ko": "그는 이러한 추세를 잠재적인 \"바닥을 향한 경쟁\"으로 묘사합니다."
+      },
+      {
+        "en": "Private, permission-only networks are controlled by a limited group.",
+        "ko": "프라이빗, 허가된 네트워크는 제한된 그룹에 의해 통제됩니다."
+      },
+      {
+        "en": "Raman acknowledges their role in traditional finance.",
+        "ko": "라만은 전통 금융에서 이들의 역할을 인정합니다."
+      },
+      {
+        "en": "However, he argues they miss the core benefits of blockchain technology.",
+        "ko": "하지만 그는 이들이 블록체인 기술의 핵심 이점을 놓치고 있다고 주장합니다."
+      },
+      {
+        "en": "True blockchain advantages, like transparency, require an open and public base.",
+        "ko": "투명성과 같은 진정한 블록체인 이점은 개방적이고 공개적인 기반을 필요로 합니다."
+      },
+      {
+        "en": "Without this, private chains risk becoming mere databases with extra steps.",
+        "ko": "이것 없이는 프라이빗 체인은 추가 단계가 있는 단순한 데이터베이스가 될 위험이 있습니다."
+      },
+      {
+        "en": "This perspective is crucial for understanding the future of tokenization.",
+        "ko": "이러한 관점은 토큰화의 미래를 이해하는 데 중요합니다."
+      },
+      {
+        "en": "It questions whether Wall Street is truly leveraging blockchain's disruptive potential.",
+        "ko": "이는 월스트리트가 블록체인의 파괴적인 잠재력을 진정으로 활용하고 있는지 의문을 제기합니다."
+      },
+      {
+        "en": "PMs must consider these foundational differences.",
+        "ko": "PM은 이러한 근본적인 차이점을 고려해야 합니다."
+      },
+      {
+        "en": "This is especially true when designing new tokenization systems.",
+        "ko": "이는 새로운 토큰화 시스템을 설계할 때 특히 그렇습니다."
+      }
+    ],
+    "glossary": {
+      "advocate": "a person who publicly supports or recommends a particular cause or policy.",
+      "issued": "formally sent out or made known, often referring to a statement or warning.",
+      "stark": "severe or bare in appearance or outline; sharply clear and harsh.",
+      "obsession": "the state of being completely preoccupied with someone or something, often to an unhealthy degree.",
+      "potential": "having or showing the capacity to develop into something in the future.",
+      "permission-only": "requiring specific authorization to access or participate, not open to everyone.",
+      "networks": "groups of interconnected people or things, often referring to computer systems.",
+      "controlled": "regulated or restrained by a person or system, not free or open.",
+      "limited": "restricted in size, amount, or extent, not widespread or numerous.",
+      "acknowledges": "accepts or admits the existence or truth of something, often formally.",
+      "traditional": "existing in or as part of a tradition; long-established and conventional.",
+      "finance": "the management of large amounts of money, especially by governments or large companies.",
+      "argues": "gives reasons or evidence in support of an idea, action, or theory.",
+      "core": "the central or most important part of something, forming its essence.",
+      "benefits": "advantages or profits gained from something, providing positive outcomes.",
+      "transparency": "the condition of being transparent; openness and clarity, especially in processes.",
+      "require": "need for a particular purpose or as a necessary condition.",
+      "public": "relating to or concerning the people as a whole, open to everyone.",
+      "base": "the fundamental principle or groundwork from which something develops.",
+      "risk": "a situation involving exposure to danger, harm, or loss.",
+      "mere": "just enough; no more than, emphasizing insignificance or simplicity.",
+      "disruptive": "causing or tending to cause disruption; innovative or groundbreaking in a revolutionary way.",
+      "leveraging": "using something to maximum advantage, especially a resource or opportunity.",
+      "foundational": "relating to or forming the foundation of something, providing a basis."
+    },
+    "questions": [
+      "Who is Raman, and what is his main concern regarding Wall Street's approach to blockchain technology?",
+      "Explain what \"race to the bottom\" means in the context of private blockchains, and why Raman believes they might miss the \"core benefits of blockchain technology.\"",
+      "If you were a PM designing a tokenization platform for a large financial institution, how would you balance the need for control and privacy (as offered by private blockchains) with the benefits of transparency and openness emphasized by Raman?"
+    ],
+    "modelAnswers": [
+      "Raman is an Ethereum advocate. His main concern is that Wall Street's obsession with private, permission-only blockchains could become a \"race to the bottom,\" meaning they might fail to leverage the true, disruptive potential of blockchain technology.",
+      "A \"race to the bottom\" in this context implies that financial institutions might compromise on the fundamental advantages of blockchain, like transparency and decentralization, by opting for private, controlled versions. Raman believes they miss core benefits because private chains, unlike public ones, lack inherent transparency and openness, potentially reducing them to complex databases rather than truly transformative systems.",
+      "I would propose a hybrid approach. For sensitive institutional data requiring privacy, a permissioned layer could be used. However, for asset issuance and broader market interaction, elements of a public blockchain could be leveraged, perhaps through interoperability solutions. This way, we maintain control where necessary while still tapping into the transparency and network effects of open systems, carefully balancing regulatory needs with blockchain's inherent strengths."
+    ]
+  },
+  {
+    "id": "ec-2026-08-16-1",
+    "date": "2026-08-16",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "핀테크 PM으로서, 예측 시장에 대한 규제 당국의 강화된 조사를 이해하는 것은 매우 중요합니다.",
+    "url": "https://www.cnbc.com/2026/08/14/prediction-markets-scrutiny-mounts-from-regulators-and-banks.html",
+    "title": "Regulators Intensify Scrutiny of Prediction Markets",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Financial regulators are increasing their oversight of prediction markets. These platforms allow users to bet on future events. The Commodity Futures Trading Commission (CFTC) is especially concerned. They are investigating certain \"mention markets.\" These markets let users speculate on specific statements or words. Banks are also growing cautious about their involvement. The primary worry is potential market manipulation. There are also concerns about illegal gambling activities. This trend highlights the challenges of regulating new financial tools. Fintech companies must navigate these evolving regulatory landscapes carefully. Understanding these rules is crucial for future innovation.",
+    "sentences": [
+      {
+        "en": "Financial regulators are increasing their oversight of prediction markets.",
+        "ko": "금융 규제 당국이 예측 시장에 대한 감독을 강화하고 있습니다."
+      },
+      {
+        "en": "These platforms allow users to bet on future events.",
+        "ko": "이러한 플랫폼은 사용자들이 미래 사건에 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "The Commodity Futures Trading Commission (CFTC) is especially concerned.",
+        "ko": "상품선물거래위원회(CFTC)가 특히 우려하고 있습니다."
+      },
+      {
+        "en": "They are investigating certain \"mention markets.\"",
+        "ko": "그들은 특정 \"멘션 시장\"을 조사하고 있습니다."
+      },
+      {
+        "en": "These markets let users speculate on specific statements or words.",
+        "ko": "이 시장들은 사용자들이 특정 진술이나 단어에 대해 투기하도록 합니다."
+      },
+      {
+        "en": "Banks are also growing cautious about their involvement.",
+        "ko": "은행들도 참여에 대해 점점 더 신중해지고 있습니다."
+      },
+      {
+        "en": "The primary worry is potential market manipulation.",
+        "ko": "주된 우려는 잠재적인 시장 조작입니다."
+      },
+      {
+        "en": "There are also concerns about illegal gambling activities.",
+        "ko": "불법 도박 활동에 대한 우려도 있습니다."
+      },
+      {
+        "en": "This trend highlights the challenges of regulating new financial tools.",
+        "ko": "이러한 추세는 새로운 금융 도구를 규제하는 데 따르는 어려움을 강조합니다."
+      },
+      {
+        "en": "Fintech companies must navigate these evolving regulatory landscapes carefully.",
+        "ko": "핀테크 기업들은 이러한 진화하는 규제 환경을 신중하게 탐색해야 합니다."
+      },
+      {
+        "en": "Understanding these rules is crucial for future innovation.",
+        "ko": "이러한 규칙을 이해하는 것은 미래 혁신에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "regulators": "official organizations that control an activity or industry and make sure it follows rules.",
+      "oversight": "the process of supervising or watching something to ensure it is done correctly and legally.",
+      "platforms": "digital systems or services that allow users to interact or conduct various transactions.",
+      "bet": "to risk money on the result of a game, competition, or future event.",
+      "concerned": "worried or anxious about something or a situation that might be problematic.",
+      "investigating": "officially examining a problem or claim to discover all the facts and details.",
+      "mention": "a reference or specific allusion to something, often a particular word or statement.",
+      "speculate": "to form opinions about something without having full knowledge or complete proof.",
+      "cautious": "careful to avoid potential problems or dangers, acting with prudence.",
+      "involvement": "the act or state of taking part in an activity or being connected with it.",
+      "primary": "most important, main, or fundamental among several options.",
+      "potential": "existing in possibility, capable of developing into actuality in the future.",
+      "manipulation": "the act of controlling or influencing something skillfully, often unfairly or dishonestly.",
+      "illegal": "not allowed by law or against the official rules.",
+      "gambling": "the activity of playing games of chance for money or betting on events.",
+      "highlights": "draws special attention to something or emphasizes its importance.",
+      "challenges": "difficult tasks or problems that test one's ability or resources.",
+      "regulating": "controlling an activity or process, especially by means of official rules or laws.",
+      "navigate": "to find the right way to deal with a difficult or complex situation successfully.",
+      "evolving": "developing gradually, especially from a simple to a more complex form.",
+      "landscapes": "the overall situation or environment in which something operates or exists.",
+      "crucial": "extremely important, essential, or critical for success or a desired outcome.",
+      "innovation": "the introduction of new ideas, methods, or products into use."
+    },
+    "questions": [
+      "Q1: Which specific U.S. regulatory body is mentioned as investigating prediction markets?",
+      "Q2: What are the two main concerns regulators and banks have regarding prediction markets, according to the passage?",
+      "Q3: As a fintech PM, how might increased regulatory scrutiny on prediction markets impact your approach to developing new financial products or features?"
+    ],
+    "modelAnswers": [
+      "A1: The Commodity Futures Trading Commission (CFTC) is specifically mentioned as investigating prediction markets.",
+      "A2: Regulators and banks are primarily concerned about potential market manipulation and illegal gambling activities associated with prediction markets.",
+      "A3: Increased scrutiny would necessitate a more cautious approach, prioritizing compliance and legal reviews early in development. It would also mean designing products with transparency and consumer protection built-in from the start."
+    ]
+  },
+  {
+    "id": "ec-2026-08-16-2",
+    "date": "2026-08-16",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "워렌 버핏의 버크셔 해서웨이가 포트폴리오를 어떻게 조정하는지 살펴보며, 주요 기업 투자 동향을 파악하세요.",
+    "url": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
+    "title": "Berkshire Hathaway Increases Alphabet, Delta Holdings",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Berkshire Hathaway significantly increased its investment in Alphabet. Alphabet is now one of its top three largest holdings. This move was revealed in a recent regulatory filing. The filing provides details on the company's stock portfolio. Berkshire also boosted its stakes in Delta Air Lines. Furthermore, it increased its investments in housing-related companies. These decisions reflect the firm's current investment strategy. Warren Buffett's company often makes long-term value bets. Investors closely watch these portfolio adjustments. They seek insights into market trends and economic outlooks. Such moves can influence broader market sentiment.",
+    "sentences": [
+      {
+        "en": "Berkshire Hathaway significantly increased its investment in Alphabet.",
+        "ko": "버크셔 해서웨이가 알파벳에 대한 투자를 크게 늘렸습니다."
+      },
+      {
+        "en": "Alphabet is now one of its top three largest holdings.",
+        "ko": "알파벳은 이제 버크셔 해서웨이의 세 번째로 큰 보유 주식 중 하나입니다."
+      },
+      {
+        "en": "This move was revealed in a recent regulatory filing.",
+        "ko": "이러한 움직임은 최근 규제 당국 제출 서류에서 공개되었습니다."
+      },
+      {
+        "en": "The filing provides details on the company's stock portfolio.",
+        "ko": "이 서류는 회사의 주식 포트폴리오에 대한 세부 정보를 제공합니다."
+      },
+      {
+        "en": "Berkshire also boosted its stakes in Delta Air Lines.",
+        "ko": "버크셔는 또한 델타 항공의 지분도 늘렸습니다."
+      },
+      {
+        "en": "Furthermore, it increased its investments in housing-related companies.",
+        "ko": "게다가, 주택 관련 회사들에 대한 투자도 늘렸습니다."
+      },
+      {
+        "en": "These decisions reflect the firm's current investment strategy.",
+        "ko": "이러한 결정들은 회사의 현재 투자 전략을 반영합니다."
+      },
+      {
+        "en": "Warren Buffett's company often makes long-term value bets.",
+        "ko": "워렌 버핏의 회사는 종종 장기적인 가치 투자를 합니다."
+      },
+      {
+        "en": "Investors closely watch these portfolio adjustments.",
+        "ko": "투자자들은 이러한 포트폴리오 조정을 면밀히 주시합니다."
+      },
+      {
+        "en": "They seek insights into market trends and economic outlooks.",
+        "ko": "그들은 시장 동향과 경제 전망에 대한 통찰력을 찾습니다."
+      },
+      {
+        "en": "Such moves can influence broader market sentiment.",
+        "ko": "그러한 움직임은 더 넓은 시장 심리에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "significantly": "in an important or noticeable way, indicating a large degree of change.",
+      "increased": "made something larger in amount, extent, or degree than it was before.",
+      "investment": "the act of putting money or effort into something to make a profit or gain benefit.",
+      "holdings": "the stocks, bonds, or other property owned by an individual or an organization.",
+      "revealed": "made something known to others, especially something previously secret or unknown.",
+      "regulatory": "relating to an official rule or law that controls how something is done or organized.",
+      "filing": "an official document or record that is given to a court or other authority.",
+      "provides": "makes something available or supplies it to someone.",
+      "details": "small pieces of information about something that help to describe it fully.",
+      "portfolio": "a collection of financial investments owned by an individual or an organization.",
+      "boosted": "helped to improve or increase something, making it stronger or more effective.",
+      "stakes": "shares or interest in a business, plan, or venture, often referring to financial ownership.",
+      "furthermore": "in addition to what has just been stated, introducing extra information.",
+      "related": "connected in some way, often by shared characteristics, origin, or purpose.",
+      "reflect": "to show or be a sign of something, indicating its nature or condition.",
+      "strategy": "a plan of action designed to achieve a long-term or overall aim.",
+      "often": "many times, frequently, or on numerous occasions.",
+      "value": "the importance, worth, or usefulness of something, often in financial terms.",
+      "closely": "in a careful, thorough, or attentive manner, paying great attention.",
+      "adjustments": "small changes or modifications made to improve something or make it suitable.",
+      "seek": "to try to find or obtain something, often by searching or requesting.",
+      "insights": "a deep understanding of a person or thing, offering clarity.",
+      "outlook": "a person's point of view or general attitude to life, or a likely future situation.",
+      "influence": "the capacity to have an effect on the character, development, or behavior of someone or something.",
+      "sentiment": "a general feeling, attitude, or opinion about something, especially among a group of people."
+    },
+    "questions": [
+      "Q1: Which company did Berkshire Hathaway make one of its top three largest holdings?",
+      "Q2: What kind of information does a regulatory filing provide regarding a company's investments?",
+      "Q3: Why do investors closely watch the portfolio adjustments made by firms like Berkshire Hathaway, and how might this influence market behavior?"
+    ],
+    "modelAnswers": [
+      "A1: Berkshire Hathaway made Alphabet one of its top three largest holdings.",
+      "A2: A regulatory filing provides detailed information about a company's stock portfolio, showing their investments and changes.",
+      "A3: Investors watch these adjustments for insights into market trends and economic outlooks from experienced firms. Such moves can signal confidence or caution, potentially influencing broader market sentiment and investment decisions."
+    ]
+  },
+  {
+    "id": "ec-2026-08-16-3",
+    "date": "2026-08-16",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "'빅 쇼트' 투자자가 분석한 AI 산업의 잠재적 약점을 통해 기술 시장의 중요한 위험 요소를 파악하세요.",
+    "url": "https://www.cnbc.com/2026/08/13/big-short-investor-steve-eisman-sees-an-achilles-heel-in-the-ai-boom.html",
+    "title": "'Big Short' Investor Warns of AI Weakness",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Famous investor Steve Eisman has issued a warning. He is known from \"The Big Short\" movie. Eisman sees a significant vulnerability in the current AI boom. He believes the AI industry relies too heavily on two companies. These are OpenAI and Anthropic, key players in the field. This creates a concentrated risk for the entire sector. If these two firms face issues, the broader AI market could suffer. Such dependency makes the market potentially unstable. Eisman's perspective offers a critical view for investors. It encourages careful consideration of market concentration. This warning is especially relevant for tech-focused portfolios.",
+    "sentences": [
+      {
+        "en": "Famous investor Steve Eisman has issued a warning.",
+        "ko": "유명 투자자 스티브 아이스만이 경고를 발표했습니다."
+      },
+      {
+        "en": "He is known from \"The Big Short\" movie.",
+        "ko": "그는 영화 \"빅 쇼트\"로 알려져 있습니다."
+      },
+      {
+        "en": "Eisman sees a significant vulnerability in the current AI boom.",
+        "ko": "아이스만은 현재 AI 붐에서 중요한 취약점을 보고 있습니다."
+      },
+      {
+        "en": "He believes the AI industry relies too heavily on two companies.",
+        "ko": "그는 AI 산업이 두 회사에 너무 많이 의존한다고 믿습니다."
+      },
+      {
+        "en": "These are OpenAI and Anthropic, key players in the field.",
+        "ko": "이들은 해당 분야의 주요 기업인 OpenAI와 Anthropic입니다."
+      },
+      {
+        "en": "This creates a concentrated risk for the entire sector.",
+        "ko": "이는 전체 부문에 집중된 위험을 만듭니다."
+      },
+      {
+        "en": "If these two firms face issues, the broader AI market could suffer.",
+        "ko": "만약 이 두 회사가 문제에 직면하면, 더 넓은 AI 시장이 어려움을 겪을 수 있습니다."
+      },
+      {
+        "en": "Such dependency makes the market potentially unstable.",
+        "ko": "이러한 의존성은 시장을 잠재적으로 불안정하게 만듭니다."
+      },
+      {
+        "en": "Eisman's perspective offers a critical view for investors.",
+        "ko": "아이스만의 관점은 투자자들에게 비판적인 시각을 제공합니다."
+      },
+      {
+        "en": "It encourages careful consideration of market concentration.",
+        "ko": "이는 시장 집중도에 대한 신중한 고려를 장려합니다."
+      },
+      {
+        "en": "This warning is especially relevant for tech-focused portfolios.",
+        "ko": "이 경고는 특히 기술 중심 포트폴리오에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "famous": "known about by many people, widely recognized for something.",
+      "issued": "officially made something available or known, like a statement or a warning.",
+      "warning": "a statement or event that tells someone about a possible danger or problem.",
+      "vulnerability": "the state of being exposed to the possibility of being attacked or harmed.",
+      "boom": "a period of great prosperity or rapid economic growth in a particular industry.",
+      "believes": "accepts that something is true or exists, holding it as an opinion.",
+      "relies": "depends on someone or something for support, help, or information.",
+      "heavily": "to a great degree or extent, often implying a strong dependence.",
+      "players": "important or powerful people or organizations involved in a particular activity or industry.",
+      "field": "a particular area of activity or knowledge, such as the AI field.",
+      "creates": "brings something into existence, causing it to happen or be made.",
+      "concentrated": "focused or gathered in one place or on one thing, not spread out.",
+      "risk": "a situation involving exposure to danger, harm, or loss, usually financial.",
+      "entire": "with no part left out, whole or complete.",
+      "sector": "a distinct part of an economy, society, or area of activity, like the tech sector.",
+      "suffer": "experience something bad or unpleasant, such as a decline or loss.",
+      "dependency": "the state of relying on or being controlled by someone or something else.",
+      "potentially": "with the possibility of becoming actual, but not yet certain.",
+      "unstable": "likely to change or fail, not firm or steady, prone to fluctuations.",
+      "perspective": "a particular attitude toward or way of regarding something, a point of view.",
+      "critical": "expressing adverse or disapproving comments or judgments, often involving careful analysis.",
+      "encourages": "gives support, confidence, or hope to someone, promoting an action.",
+      "consideration": "careful thought, typically over a period of time, given to a matter.",
+      "concentration": "the action or power of focusing all one's attention, or the density of something.",
+      "relevant": "closely connected or appropriate to what is being considered or discussed.",
+      "portfolios": "collections of financial investments owned by an individual or organization."
+    },
+    "questions": [
+      "Q1: Which two companies does Steve Eisman believe the AI industry relies too heavily on?",
+      "Q2: What is the main problem Steve Eisman identifies with the AI industry's heavy reliance on just two companies?",
+      "Q3: As an investor or a fintech PM, what steps might you take to mitigate the risks associated with market concentration in a rapidly growing sector like AI?"
+    ],
+    "modelAnswers": [
+      "A1: Steve Eisman believes the AI industry relies too heavily on OpenAI and Anthropic.",
+      "A2: The main problem Eisman identifies is that this heavy reliance creates a concentrated risk for the entire AI sector, making it potentially unstable if those two firms face issues.",
+      "A3: To mitigate risks, I would diversify investments across various AI sub-sectors and companies. I'd also closely monitor emerging competitors and regulatory changes, and consider investing in foundational technologies that support multiple AI players rather than just a few."
+    ]
+  },
+  {
     "id": "cd-2026-08-15-1",
     "date": "2026-08-15",
     "rank": 1,
