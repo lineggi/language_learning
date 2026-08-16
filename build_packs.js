@@ -36,6 +36,12 @@ const ECON_FEEDS = [
   "https://feeds.bbci.co.uk/news/business/economy/rss.xml", // BBC Economy
   "https://www.theguardian.com/business/economics/rss",  // Guardian Economics
   "https://www.theguardian.com/uk/business/rss",         // Guardian Business
+  // Bloomberg discontinued its own public RSS feeds years ago, so this uses
+  // Google News RSS scoped to bloomberg.com — the <link> is a Google News
+  // redirect URL that resolves to the real Bloomberg article (not a direct
+  // bloomberg.com URL), but it's the only free, reliably-live way to surface
+  // Bloomberg stories with real article links.
+  "https://news.google.com/rss/search?q=site%3Abloomberg.com&hl=en-US&gl=US&ceid=US%3Aen", // Bloomberg (via Google News)
 ];
 const UA = "DaybreakWire/1.0 (+github actions)";
 
@@ -48,19 +54,25 @@ function kstDateString(d = new Date()) {
   return kst.toISOString().slice(0, 10);
 }
 
-function stripTags(s) {
-  return String(s || "")
-    .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
-    .replace(/<[^>]+>/g, "")
-    .replace(/&amp;/g, "&")
+function unescapeEntities(s) {
+  return s
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
     .replace(/&quot;/g, '"')
     .replace(/&#0?39;|&apos;/g, "'")
     .replace(/&#x27;/gi, "'")
     .replace(/&nbsp;/g, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+    .replace(/&amp;/g, "&");
+}
+function stripTags(s) {
+  let v = String(s || "").replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1");
+  // Unescape HTML entities BEFORE stripping tags — some feeds (e.g. Google
+  // News RSS) HTML-escape their <description>, so raw "<a>"/"<font>" tags
+  // only appear after unescaping, and Google News even double-escapes some
+  // entities (e.g. "&amp;nbsp;" for "&nbsp;"), so run it twice.
+  v = unescapeEntities(v);
+  v = unescapeEntities(v);
+  return v.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 }
 
 async function fetchWithRetry(url, opts = {}, tries = 3) {
