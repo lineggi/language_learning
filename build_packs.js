@@ -199,7 +199,9 @@ async function fetchRss(feeds, cap = 15) {
   for (const feed of feeds) {
     try {
       const res = await fetchWithRetry(feed, { headers: { "User-Agent": UA } });
-      items.push(...parseRss(await res.text()));
+      const got = parseRss(await res.text());
+      console.log(`  ${feed} -> ${got.length} items`);
+      items.push(...got);
     } catch (err) {
       console.warn(`RSS feed failed ${feed}: ${err.message}`);
     }
