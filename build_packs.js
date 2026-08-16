@@ -194,19 +194,34 @@ function parseRss(xml) {
   return items;
 }
 
-async function fetchRss(feeds, cap = 15) {
-  let items = [];
+// perFeedCap caps how many items EACH feed contributes before combining.
+// Items are then round-robin interleaved across feeds (one from each feed
+// per round) instead of concatenated in array order, so the final
+// slice(0, cap) can't be dominated by whichever feeds happen to be listed
+// first or return the most items — e.g. Bloomberg's feed alone often
+// returns ~100 items, which would otherwise crowd out every feed after it
+// (and even per-feed capping isn't enough on its own: concatenating capped
+// lists in order and then slicing still starves later feeds once the
+// combined total exceeds cap).
+async function fetchRss(feeds, cap = 15, perFeedCap = cap) {
+  const perFeed = [];
   for (const feed of feeds) {
     try {
       const res = await fetchWithRetry(feed, { headers: { "User-Agent": UA } });
       const got = parseRss(await res.text());
       console.log(`  ${feed} -> ${got.length} items`);
-      items.push(...got);
+      perFeed.push(got.slice(0, perFeedCap));
     } catch (err) {
       console.warn(`RSS feed failed ${feed}: ${err.message}`);
+      perFeed.push([]);
     }
   }
-  return dedupeByUrl(items).slice(0, cap);
+  const maxLen = Math.max(0, ...perFeed.map((a) => a.length));
+  const interleaved = [];
+  for (let i = 0; i < maxLen; i++) {
+    for (const arr of perFeed) if (arr[i]) interleaved.push(arr[i]);
+  }
+  return dedupeByUrl(interleaved).slice(0, cap);
 }
 
 // Normalize a URL for comparison (drop query/hash and trailing slash).
@@ -246,9 +261,12 @@ async function collectCrypto() {
   }
 }
 
-// Economy candidates: CNBC Economy + BBC Business RSS.
+// Economy candidates: CNBC/BBC/Guardian/Bloomberg RSS. perFeedCap=12 keeps
+// this fair across sources — otherwise a big feed (Bloomberg often returns
+// ~100 items) crowds out every feed listed after it once the combined pool
+// exceeds the 40 cap.
 async function collectEconomy() {
-  const rss = await fetchRss(ECON_FEEDS, 40);
+  const rss = await fetchRss(ECON_FEEDS, 40, 12);
   console.log(`Economy: ${rss.length} candidates.`);
   return { candidates: rss, label: "Economy", ranked: false };
 }
