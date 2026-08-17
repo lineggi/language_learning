@@ -1,5 +1,614 @@
 [
   {
+    "id": "cd-2026-08-18-1",
+    "date": "2026-08-18",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "미국 재무부가 스테이블코인 규제에 대한 중요한 법안을 제안했습니다.",
+    "url": "https://www.coindesk.com/policy/2026/08/17/u-s-treasury-department-proposes-genius-act-stablecoin-rule",
+    "title": "US Treasury Proposes New Stablecoin Regulations",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Treasury Department has introduced a new proposal for stablecoin regulation. This move follows the GENIUS Act, a comprehensive law passed by Congress last year. The proposal aims to clarify core definitions and establish clear jurisdictions. It will define which entities oversee different aspects of stablecoin operations. This clarity is crucial for the crypto industry's growth and stability. Without clear rules, innovation can be hindered by legal uncertainties. For fintech product managers, understanding these regulations is vital. It impacts how new stablecoin products can be developed and launched. The proposal also seeks to protect consumers and prevent financial instability. It highlights the government's commitment to creating a safer crypto ecosystem. This development marks a significant step towards a regulated stablecoin market. It could set a precedent for other nations considering similar frameworks.",
+    "sentences": [
+      {
+        "en": "The U.S. Treasury Department has introduced a new proposal for stablecoin regulation.",
+        "ko": "미국 재무부가 스테이블코인 규제에 대한 새로운 제안을 발표했습니다."
+      },
+      {
+        "en": "This move follows the GENIUS Act, a comprehensive law passed by Congress last year.",
+        "ko": "이 조치는 작년에 의회를 통과한 포괄적인 법률인 GENIUS 법안에 따른 것입니다."
+      },
+      {
+        "en": "The proposal aims to clarify core definitions and establish clear jurisdictions.",
+        "ko": "이 제안은 핵심 정의를 명확히 하고 명확한 관할권을 확립하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It will define which entities oversee different aspects of stablecoin operations.",
+        "ko": "이는 스테이블코인 운영의 다양한 측면을 어떤 주체가 감독할지 정의할 것입니다."
+      },
+      {
+        "en": "This clarity is crucial for the crypto industry's growth and stability.",
+        "ko": "이러한 명확성은 암호화폐 산업의 성장과 안정성에 매우 중요합니다."
+      },
+      {
+        "en": "Without clear rules, innovation can be hindered by legal uncertainties.",
+        "ko": "명확한 규칙이 없으면 법적 불확실성으로 인해 혁신이 저해될 수 있습니다."
+      },
+      {
+        "en": "For fintech product managers, understanding these regulations is vital.",
+        "ko": "핀테크 제품 관리자에게는 이러한 규정을 이해하는 것이 필수적입니다."
+      },
+      {
+        "en": "It impacts how new stablecoin products can be developed and launched.",
+        "ko": "이는 새로운 스테이블코인 제품이 어떻게 개발되고 출시될 수 있는지에 영향을 미칩니다."
+      },
+      {
+        "en": "The proposal also seeks to protect consumers and prevent financial instability.",
+        "ko": "이 제안은 또한 소비자를 보호하고 금융 불안정을 방지하고자 합니다."
+      },
+      {
+        "en": "It highlights the government's commitment to creating a safer crypto ecosystem.",
+        "ko": "이는 더 안전한 암호화폐 생태계를 조성하려는 정부의 의지를 강조합니다."
+      },
+      {
+        "en": "This development marks a significant step towards a regulated stablecoin market.",
+        "ko": "이러한 발전은 규제된 스테이블코인 시장을 향한 중요한 발걸음입니다."
+      },
+      {
+        "en": "It could set a precedent for other nations considering similar frameworks.",
+        "ko": "이는 유사한 프레임워크를 고려하는 다른 국가들에게 선례를 남길 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "treasury": "A government department responsible for managing public money and finances.",
+      "proposal": "A formal suggestion or plan, especially one put forward for consideration.",
+      "regulation": "An official rule or law that controls how something is done.",
+      "stablecoin": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+      "act": "A law passed by a legislative body, like a parliament or congress.",
+      "comprehensive": "Including or dealing with all or nearly all elements or aspects of something.",
+      "passed": "Approved or accepted by a legislative body, making it a law.",
+      "clarify": "To make something clearer or easier to understand.",
+      "core": "The central, most important, or most essential part of something.",
+      "definitions": "Statements of the exact meaning of a word or concept.",
+      "establish": "To set up or create something on a firm or permanent basis.",
+      "jurisdictions": "The official power to make legal decisions and judgments.",
+      "entities": "Things with distinct existence, often referring to organizations or bodies.",
+      "oversee": "To supervise someone or something and make sure that things are done correctly.",
+      "aspects": "Particular parts or features of something.",
+      "crucial": "Extremely important or necessary.",
+      "stability": "The state of being stable and not likely to change or fail.",
+      "hindered": "Made it more difficult for someone to do something or for something to happen.",
+      "uncertainties": "Situations or facts that are not known or certain.",
+      "vital": "Absolutely necessary or important; essential.",
+      "impacts": "Has a strong effect on someone or something.",
+      "launched": "Started or introduced a new product or service.",
+      "prevent": "To stop something from happening or stop someone from doing something.",
+      "instability": "The state of being prone to change or collapse."
+    },
+    "questions": [
+      "What is the primary goal of the U.S. Treasury's new stablecoin proposal?",
+      "How might unclear regulations typically affect innovation in the crypto industry?",
+      "As a fintech PM, what immediate steps would you take to adapt your product strategy to new stablecoin regulations?"
+    ],
+    "modelAnswers": [
+      "The primary goal is to clarify core definitions and establish clear jurisdictions for stablecoin operations, following the GENIUS Act.",
+      "Unclear regulations can hinder innovation by creating legal uncertainties and making it difficult for companies to develop and launch new products.",
+      "I would analyze the proposal's specifics to identify compliance requirements, assess impacts on existing products, and explore new opportunities for regulated stablecoin offerings."
+    ]
+  },
+  {
+    "id": "cd-2026-08-18-2",
+    "date": "2026-08-18",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "유럽의 주요 암호화폐 규제인 MiCA가 처음으로 시행된 사례를 확인하세요.",
+    "url": "https://www.coindesk.com/business/2026/08/17/bitpanda-fined-eur70-000-in-austria-s-first-published-mica-enforcement-case",
+    "title": "Bitpanda Fined in First MiCA Enforcement Case",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Bitpanda, a major crypto platform, received a 70,000 euro fine in Austria. This marks the first public enforcement case under the new MiCA regulation. MiCA stands for Markets in Crypto-Assets, a comprehensive EU regulatory framework. The fine was issued because Bitpanda failed to submit a mandatory white paper. This document should have been provided 20 days before its publication. Additionally, Bitpanda omitted required disclosures in its marketing materials. This case highlights the strict compliance expectations of MiCA. It signals that European regulators are serious about enforcing these rules. Crypto exchanges and platforms must adhere to all new regulatory requirements. For product managers, this means prioritizing regulatory compliance in product design. It underscores the importance of transparent communication with users. This ruling sets a precedent for how MiCA will be applied across the EU.",
+    "sentences": [
+      {
+        "en": "Bitpanda, a major crypto platform, received a 70,000 euro fine in Austria.",
+        "ko": "주요 암호화폐 플랫폼인 비트판다가 오스트리아에서 7만 유로의 벌금을 부과받았습니다."
+      },
+      {
+        "en": "This marks the first public enforcement case under the new MiCA regulation.",
+        "ko": "이는 새로운 MiCA 규제에 따른 첫 번째 공개 집행 사례입니다."
+      },
+      {
+        "en": "MiCA stands for Markets in Crypto-Assets, a comprehensive EU regulatory framework.",
+        "ko": "MiCA는 암호화 자산 시장(Markets in Crypto-Assets)을 의미하며, 포괄적인 EU 규제 프레임워크입니다."
+      },
+      {
+        "en": "The fine was issued because Bitpanda failed to submit a mandatory white paper.",
+        "ko": "비트판다가 의무적인 백서를 제출하지 않아 벌금이 부과되었습니다."
+      },
+      {
+        "en": "This document should have been provided 20 days before its publication.",
+        "ko": "이 문서는 발행 20일 전에 제공되었어야 했습니다."
+      },
+      {
+        "en": "Additionally, Bitpanda omitted required disclosures in its marketing materials.",
+        "ko": "또한, 비트판다는 마케팅 자료에서 필수 공개 사항을 누락했습니다."
+      },
+      {
+        "en": "This case highlights the strict compliance expectations of MiCA.",
+        "ko": "이 사례는 MiCA의 엄격한 준수 기대를 강조합니다."
+      },
+      {
+        "en": "It signals that European regulators are serious about enforcing these rules.",
+        "ko": "이는 유럽 규제 기관이 이러한 규칙을 엄격히 집행할 의지가 있음을 시사합니다."
+      },
+      {
+        "en": "Crypto exchanges and platforms must adhere to all new regulatory requirements.",
+        "ko": "암호화폐 거래소와 플랫폼은 모든 새로운 규제 요구사항을 준수해야 합니다."
+      },
+      {
+        "en": "For product managers, this means prioritizing regulatory compliance in product design.",
+        "ko": "제품 관리자에게는 제품 설계 시 규제 준수를 최우선으로 해야 함을 의미합니다."
+      },
+      {
+        "en": "It underscores the importance of transparent communication with users.",
+        "ko": "이는 사용자들과의 투명한 소통의 중요성을 강조합니다."
+      },
+      {
+        "en": "This ruling sets a precedent for how MiCA will be applied across the EU.",
+        "ko": "이 판결은 MiCA가 EU 전역에 어떻게 적용될지에 대한 선례를 세웁니다."
+      }
+    ],
+    "glossary": {
+      "fine": "A sum of money exacted as a penalty for an offense.",
+      "enforcement": "The act of compelling observance of or compliance with a law, rule, or obligation.",
+      "regulation": "An official rule or law that controls how something is done.",
+      "framework": "A basic structure underlying a system, concept, or text.",
+      "issued": "Officially supplied or provided something.",
+      "failed": "Did not succeed in achieving something.",
+      "submit": "To formally present a document or proposal for consideration.",
+      "mandatory": "Required by law or rules; compulsory.",
+      "provided": "Made something available for use; supplied.",
+      "publication": "The act of making information available to the general public.",
+      "omitted": "Left out or excluded someone or something, either intentionally or forgetfully.",
+      "required": "Officially necessary or compulsory.",
+      "disclosures": "The action of making new or secret information known.",
+      "marketing": "The action or business of promoting and selling products or services.",
+      "highlights": "Draws special attention to something.",
+      "compliance": "The act of obeying an order, rule, or request.",
+      "expectations": "Strong beliefs that something will happen or be the case.",
+      "signals": "Indicates or conveys something, often without words.",
+      "regulators": "Government agencies or bodies responsible for supervising an industry.",
+      "adhere": "To stick to a rule or belief.",
+      "prioritizing": "Treating something as more important than other things.",
+      "transparent": "Open and honest, without secrets."
+    },
+    "questions": [
+      "What specific failures led to Bitpanda's fine under the MiCA regulation?",
+      "In the context of this article, what does \"white paper\" refer to, and why is it mandatory?",
+      "How does this MiCA enforcement case influence your perspective on building crypto products for the European market?"
+    ],
+    "modelAnswers": [
+      "Bitpanda was fined for failing to submit a mandatory white paper 20 days before publication and for omitting required disclosures in its marketing materials.",
+      "A \"white paper\" in this context is an authoritative document that provides detailed information about a crypto-asset or project. It is mandatory to ensure transparency and inform potential investors.",
+      "This case reinforces the critical need for strict regulatory compliance from the outset. Product development for the EU market must embed MiCA requirements, especially regarding disclosures and documentation, to avoid penalties."
+    ]
+  },
+  {
+    "id": "cd-2026-08-18-3",
+    "date": "2026-08-18",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "DeFi 선구자 Compound가 기관 투자자 유치를 위해 전략을 전환합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/17/compound-bets-usd52-million-new-leadership-team-in-switch-to-institutional-focus",
+    "title": "Compound Shifts to Institutional DeFi Lending",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Compound, a pioneering decentralized finance (DeFi) protocol, is undergoing a major strategic shift. The protocol is investing $52 million and introducing a new leadership team. Its goal is to attract institutional clients, moving away from retail traders. Compound once led DeFi lending, reaching peak assets five years ago. However, its total value locked (TVL) has significantly decreased since then. Retail interest in the protocol has reportedly waned over time. This pivot reflects a broader trend in the crypto space. Many DeFi projects are now seeking to bridge the gap with traditional finance. Attracting institutions can bring more capital and long-term stability. For fintech PMs, this highlights the evolving landscape of DeFi. It suggests a need to design products that cater to sophisticated institutional needs. The move could revitalize Compound and set a new direction for DeFi adoption.",
+    "sentences": [
+      {
+        "en": "Compound, a pioneering decentralized finance (DeFi) protocol, is undergoing a major strategic shift.",
+        "ko": "선구적인 탈중앙화 금융(DeFi) 프로토콜인 Compound가 주요 전략적 전환을 겪고 있습니다."
+      },
+      {
+        "en": "The protocol is investing $52 million and introducing a new leadership team.",
+        "ko": "이 프로토콜은 5,200만 달러를 투자하고 새로운 리더십 팀을 도입합니다."
+      },
+      {
+        "en": "Its goal is to attract institutional clients, moving away from retail traders.",
+        "ko": "그 목표는 개인 투자자로부터 벗어나 기관 고객을 유치하는 것입니다."
+      },
+      {
+        "en": "Compound once led DeFi lending, reaching peak assets five years ago.",
+        "ko": "Compound는 한때 DeFi 대출을 주도하며 5년 전 자산 최고치를 기록했습니다."
+      },
+      {
+        "en": "However, its total value locked (TVL) has significantly decreased since then.",
+        "ko": "하지만 그 이후로 총 예치 자산(TVL)은 크게 감소했습니다."
+      },
+      {
+        "en": "Retail interest in the protocol has reportedly waned over time.",
+        "ko": "이 프로토콜에 대한 개인 투자자들의 관심은 시간이 지나면서 시들해진 것으로 알려졌습니다."
+      },
+      {
+        "en": "This pivot reflects a broader trend in the crypto space.",
+        "ko": "이러한 전환은 암호화폐 공간의 더 넓은 추세를 반영합니다."
+      },
+      {
+        "en": "Many DeFi projects are now seeking to bridge the gap with traditional finance.",
+        "ko": "많은 DeFi 프로젝트들이 이제 전통 금융과의 격차를 해소하려 합니다."
+      },
+      {
+        "en": "Attracting institutions can bring more capital and long-term stability.",
+        "ko": "기관을 유치하면 더 많은 자본과 장기적인 안정성을 가져올 수 있습니다."
+      },
+      {
+        "en": "For fintech PMs, this highlights the evolving landscape of DeFi.",
+        "ko": "핀테크 PM에게 이것은 DeFi의 진화하는 환경을 강조합니다."
+      },
+      {
+        "en": "It suggests a need to design products that cater to sophisticated institutional needs.",
+        "ko": "이는 정교한 기관의 요구를 충족시키는 제품을 설계할 필요가 있음을 시사합니다."
+      },
+      {
+        "en": "The move could revitalize Compound and set a new direction for DeFi adoption.",
+        "ko": "이러한 움직임은 Compound를 활성화하고 DeFi 채택의 새로운 방향을 제시할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "pioneering": "Involving new ideas or methods; being the first to do something.",
+      "decentralized": "Not controlled by a single authority; distributed among multiple participants.",
+      "protocol": "A set of rules that govern the way data is formatted and transmitted.",
+      "strategic": "Relating to the identification of long-term or overall aims and interests.",
+      "shift": "A sudden or significant change in position, direction, or tendency.",
+      "investing": "Putting money into financial schemes with the expectation of achieving a profit.",
+      "leadership": "The action of leading a group of people or an organization.",
+      "institutional": "Relating to a large and important organization, such as a bank or university.",
+      "clients": "People or organizations using the services of a professional person or company.",
+      "traders": "People who buy and sell goods or assets.",
+      "lending": "The action of allowing someone to use something temporarily, on condition that it is returned.",
+      "peak": "The point of highest activity, quality, or achievement.",
+      "significantly": "In a sufficiently great or important way as to be worthy of attention.",
+      "decreased": "Became smaller or less in size, amount, or degree.",
+      "waned": "Decreased in vigor, power, or extent; became weaker.",
+      "pivot": "A sudden or significant change in strategy or direction.",
+      "trend": "A general direction in which something is developing or changing.",
+      "bridge": "To connect or make a transition between two things.",
+      "finance": "The management of large amounts of money, especially by governments or large companies.",
+      "stability": "The state of being stable and not likely to change or fail.",
+      "landscape": "The visible features of an area of land; often used metaphorically for a field of activity.",
+      "cater": "To provide what is needed or wanted by a particular person or group.",
+      "sophisticated": "Developed to a high degree of complexity; having a great deal of worldly experience and knowledge."
+    },
+    "questions": [
+      "What is Compound's new strategic focus, and what resources are being allocated to this change?",
+      "What does \"retail interest has reportedly waned\" imply about the previous user base of Compound?",
+      "Considering this shift, what new product features or services might be essential for Compound to attract institutional clients successfully?"
+    ],
+    "modelAnswers": [
+      "Compound's new strategic focus is to attract institutional clients for its DeFi lending services. It is allocating $52 million and a new leadership team to this initiative.",
+      "It implies that individual, non-professional investors who previously used Compound have become less engaged or have moved away from the protocol.",
+      "To attract institutional clients, Compound might need features like enhanced compliance tools, robust security audits, dedicated institutional support, and customizable lending pools that meet specific risk profiles and regulatory requirements."
+    ]
+  },
+  {
+    "id": "ec-2026-08-18-1",
+    "date": "2026-08-18",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "주요 경제국들의 차입 비용이 2008년 금융 위기 이후 최고치를 기록하며 글로벌 경제에 대한 우려가 커지고 있습니다.",
+    "url": "https://www.theguardian.com/business/2026/aug/17/government-borrowing-costs-highs-inflation-france-germany-us-japan-uk-bond-yields",
+    "title": "Global Borrowing Costs Soar to Post-2008 Highs",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Government borrowing costs in major economies have reached their highest levels since the 2008 financial crisis. This includes the US, UK, France, Germany, and Japan. Investors are demanding higher returns for buying government bonds. This trend is pushing up bond yields significantly. Concerns about ongoing inflation are a primary driver. Geopolitical tensions, like the Iran war, are also contributing. The war pushes up oil and energy prices. Higher energy costs can fuel inflationary pressures further. Central banks might respond with tighter monetary policies. This could mean higher interest rates for businesses and consumers. Increased borrowing costs could slow global economic growth. It also makes managing national debts more challenging for governments.",
+    "sentences": [
+      {
+        "en": "Government borrowing costs in major economies have reached their highest levels since the 2008 financial crisis.",
+        "ko": "주요 경제국들의 정부 차입 비용이 2008년 금융 위기 이후 최고 수준에 도달했습니다."
+      },
+      {
+        "en": "This includes the US, UK, France, Germany, and Japan.",
+        "ko": "여기에는 미국, 영국, 프랑스, 독일, 일본 등이 포함됩니다."
+      },
+      {
+        "en": "Investors are demanding higher returns for buying government bonds.",
+        "ko": "투자자들은 국채 매입에 대해 더 높은 수익률을 요구하고 있습니다."
+      },
+      {
+        "en": "This trend is pushing up bond yields significantly.",
+        "ko": "이러한 추세는 채권 수익률을 크게 밀어 올리고 있습니다."
+      },
+      {
+        "en": "Concerns about ongoing inflation are a primary driver.",
+        "ko": "지속적인 인플레이션에 대한 우려가 주요 원인입니다."
+      },
+      {
+        "en": "Geopolitical tensions, like the Iran war, are also contributing.",
+        "ko": "이란 전쟁과 같은 지정학적 긴장도 기여하고 있습니다."
+      },
+      {
+        "en": "The war pushes up oil and energy prices.",
+        "ko": "전쟁은 원유 및 에너지 가격을 상승시킵니다."
+      },
+      {
+        "en": "Higher energy costs can fuel inflationary pressures further.",
+        "ko": "높은 에너지 비용은 인플레이션 압력을 더욱 부채질할 수 있습니다."
+      },
+      {
+        "en": "Central banks might respond with tighter monetary policies.",
+        "ko": "중앙은행들은 더 엄격한 통화 정책으로 대응할 수 있습니다."
+      },
+      {
+        "en": "This could mean higher interest rates for businesses and consumers.",
+        "ko": "이는 기업과 소비자에게 더 높은 금리를 의미할 수 있습니다."
+      },
+      {
+        "en": "Increased borrowing costs could slow global economic growth.",
+        "ko": "증가된 차입 비용은 세계 경제 성장을 둔화시킬 수 있습니다."
+      },
+      {
+        "en": "It also makes managing national debts more challenging for governments.",
+        "ko": "또한 정부가 국가 부채를 관리하는 것을 더 어렵게 만듭니다."
+      }
+    ],
+    "glossary": {
+      "borrowing": "Getting money from someone with the promise to pay it back later.",
+      "costs": "The amount of money that must be spent to get or do something.",
+      "major": "Very important or large in scope or effect.",
+      "economies": "The system by which a country's money, industry, and trade are organized.",
+      "reached": "Arrived at a particular level, stage, or position.",
+      "financial": "Relating to money, banking, or investments.",
+      "crisis": "A time of intense difficulty, trouble, or danger.",
+      "investors": "People or organizations who put money into a financial scheme, expecting to get a profit.",
+      "demanding": "Asking for something forcefully, not accepting refusal.",
+      "returns": "The profit from an investment.",
+      "bonds": "A certificate issued by a government or company promising to pay back money with interest.",
+      "trend": "A general direction in which something is developing or changing.",
+      "pushing": "Causing something to move or increase in a particular direction.",
+      "yields": "The income return on an investment, usually expressed as an annual percentage.",
+      "inflation": "A general increase in prices and fall in the purchasing value of money.",
+      "primary": "Most important or fundamental.",
+      "driver": "A factor that causes something to happen or develop.",
+      "geopolitical": "Relating to politics, especially international relations, as influenced by geographical factors.",
+      "tensions": "A state of hostility or strain between countries or groups.",
+      "contributing": "Helping to cause or bring about something.",
+      "fuel": "To increase or support something, making it stronger or more intense.",
+      "monetary": "Relating to money or currency.",
+      "policies": "A course or principle of action adopted or proposed by a government or organization.",
+      "managing": "Dealing with or controlling something, like a budget or a situation."
+    },
+    "questions": [
+      "Q1: What are two main factors contributing to the rise in government borrowing costs?",
+      "Q2: Explain the meaning of \"bond yields\" in the context of this article and why investors are demanding higher ones.",
+      "Q3: How might sustained high government borrowing costs impact a country's long-term economic stability and its citizens?"
+    ],
+    "modelAnswers": [
+      "A1: Two main factors are ongoing inflation concerns and geopolitical tensions, such as the Iran war, which pushes up energy prices.",
+      "A2: \"Bond yields\" refer to the return investors get from buying government bonds. Investors demand higher yields to compensate for increased risk, especially from inflation or economic uncertainty.",
+      "A3: Sustained high borrowing costs could lead to governments spending more on debt repayment, leaving less for public services. This might also necessitate higher taxes or further borrowing, potentially slowing economic growth and reducing citizens' purchasing power."
+    ]
+  },
+  {
+    "id": "ec-2026-08-18-2",
+    "date": "2026-08-18",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "중국 경제가 예상보다 더 오랜 침체 조짐을 보이며 전 세계 경제에 중요한 영향을 미칠 수 있습니다.",
+    "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending",
+    "title": "China's Economy Shows Prolonged Slowdown Signs",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China's economy is showing signs of a prolonged slowdown. Recent data indicates a slump in industrial output. Retail sales also experienced a significant decline in July. This follows one of the country's weakest quarterly growth rates. These indicators suggest a challenging economic period. The property sector remains a major concern for Beijing. Weak consumer confidence is also hindering recovery efforts. Authorities are now under increased pressure to intervene. They might introduce new measures to support economic activity. A sustained slowdown in China could impact global trade. It would also affect international supply chains. Many countries rely on China's manufacturing and consumer market.",
+    "sentences": [
+      {
+        "en": "China's economy is showing signs of a prolonged slowdown.",
+        "ko": "중국 경제가 장기적인 둔화 조짐을 보이고 있습니다."
+      },
+      {
+        "en": "Recent data indicates a slump in industrial output.",
+        "ko": "최근 데이터는 산업 생산량의 급락을 나타냅니다."
+      },
+      {
+        "en": "Retail sales also experienced a significant decline in July.",
+        "ko": "소매 판매 또한 7월에 상당한 감소를 겪었습니다."
+      },
+      {
+        "en": "This follows one of the country's weakest quarterly growth rates.",
+        "ko": "이는 중국의 가장 약한 분기별 성장률 중 하나에 뒤이은 것입니다."
+      },
+      {
+        "en": "These indicators suggest a challenging economic period.",
+        "ko": "이러한 지표들은 어려운 경제 시기를 시사합니다."
+      },
+      {
+        "en": "The property sector remains a major concern for Beijing.",
+        "ko": "부동산 부문은 베이징에 여전히 주요 우려 사항입니다."
+      },
+      {
+        "en": "Weak consumer confidence is also hindering recovery efforts.",
+        "ko": "약한 소비자 신뢰 또한 회복 노력을 방해하고 있습니다."
+      },
+      {
+        "en": "Authorities are now under increased pressure to intervene.",
+        "ko": "당국은 이제 개입해야 한다는 압력을 받고 있습니다."
+      },
+      {
+        "en": "They might introduce new measures to support economic activity.",
+        "ko": "그들은 경제 활동을 지원하기 위한 새로운 조치들을 도입할 수 있습니다."
+      },
+      {
+        "en": "A sustained slowdown in China could impact global trade.",
+        "ko": "중국의 지속적인 둔화는 세계 무역에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It would also affect international supply chains.",
+        "ko": "이는 국제 공급망에도 영향을 줄 것입니다."
+      },
+      {
+        "en": "Many countries rely on China's manufacturing and consumer market.",
+        "ko": "많은 국가들이 중국의 제조 및 소비 시장에 의존하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "prolonged": "Continuing for a long time or longer than usual.",
+      "slowdown": "A reduction in the speed or rate of something.",
+      "signs": "Indications that something is happening or will happen.",
+      "recent": "Having happened, begun, or been done not long ago.",
+      "data": "Facts and statistics collected together for reference or analysis.",
+      "indicates": "Points out or shows something.",
+      "slump": "A sudden severe or prolonged fall in the price, value, or amount of something.",
+      "industrial": "Relating to industry, manufacturing, or factories.",
+      "output": "The amount of something produced by a person, machine, or industry.",
+      "retail": "The sale of goods to the public in relatively small quantities for use or consumption.",
+      "sales": "The exchange of a commodity for money.",
+      "experienced": "Underwent or felt something.",
+      "significant": "Sufficiently great or important to be worthy of attention.",
+      "decline": "A gradual and continuous loss of strength, numbers, or value.",
+      "follows": "Comes after or as a result of something.",
+      "quarterly": "Occurring or due every three months.",
+      "growth": "The process of increasing in size, amount, or degree.",
+      "indicators": "A thing, especially a trend or fact, that indicates the state or level of something.",
+      "challenging": "Difficult in an interesting or enjoyable way.",
+      "property": "Buildings and land, especially when considered as a financial asset.",
+      "sector": "A distinct part of an economy, society, or area of activity.",
+      "concern": "A matter of interest or importance to someone.",
+      "consumer": "A person who purchases goods and services for personal use.",
+      "confidence": "The feeling or belief that one can rely on someone or something.",
+      "hindering": "Making it difficult for someone to do something or for something to happen.",
+      "recovery": "A return to a normal state of health, mind, or strength.",
+      "authorities": "The power or right to give orders, make decisions, and enforce obedience.",
+      "intervene": "To take action to improve or help a situation.",
+      "measures": "A plan or course of action taken to achieve a particular purpose.",
+      "support": "To give assistance to, especially financially.",
+      "activity": "The condition in which things are happening or being done.",
+      "impact": "Have a strong effect on someone or something.",
+      "global": "Relating to the whole world; worldwide.",
+      "trade": "The action of buying and selling goods and services.",
+      "rely": "Depend on with full trust or confidence.",
+      "manufacturing": "The making of articles on a large scale using machinery."
+    },
+    "questions": [
+      "Q1: What are two specific economic indicators mentioned that point to China's current slowdown?",
+      "Q2: What does \"consumer confidence\" mean in the context of economic recovery, and why is it important?",
+      "Q3: In your opinion, what are the most significant global implications if China's economic slowdown continues for an extended period?"
+    ],
+    "modelAnswers": [
+      "A1: Two specific indicators are a slump in industrial output and a significant decline in retail sales in July.",
+      "A2: \"Consumer confidence\" refers to how optimistic consumers are about the state of the economy. It's important because confident consumers are more likely to spend, driving demand and economic recovery.",
+      "A3: If China's slowdown continues, it could significantly disrupt global supply chains and reduce demand for goods from other countries. This might lead to slower economic growth worldwide and increased volatility in international markets."
+    ]
+  },
+  {
+    "id": "ec-2026-08-18-3",
+    "date": "2026-08-18",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "아마존과 월마트의 신용카드 발행사인 Synchrony가 OpenAI와 손잡고 ChatGPT 쇼핑 경험을 혁신합니다.",
+    "url": "https://www.cnbc.com/2026/08/17/synchrony-openai-chatgpt-shopping.html",
+    "title": "Fintech Giant Synchrony Teams with OpenAI for AI Shopping",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Synchrony, a major credit issuer, is partnering with OpenAI. This collaboration aims to integrate payments into ChatGPT. Synchrony issues cards for retail giants like Amazon and Walmart. The goal is to enable seamless shopping experiences through AI. Customers could soon make purchases directly via ChatGPT. This initiative represents a significant step in fintech innovation. The full integration is expected to take six to twelve months. Such partnerships highlight the growing role of AI in finance. It also shows how AI is reshaping consumer transactions. Maran Nalluswami, Synchrony's chief strategy officer, confirmed the plans. This move could transform how people shop online. It also demonstrates the competitive drive for AI adoption in payments.",
+    "sentences": [
+      {
+        "en": "Synchrony, a major credit issuer, is partnering with OpenAI.",
+        "ko": "주요 신용카드 발행사인 Synchrony가 OpenAI와 협력합니다."
+      },
+      {
+        "en": "This collaboration aims to integrate payments into ChatGPT.",
+        "ko": "이 협력은 결제를 ChatGPT에 통합하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Synchrony issues cards for retail giants like Amazon and Walmart.",
+        "ko": "Synchrony는 아마존과 월마트 같은 거대 소매 기업의 카드를 발행합니다."
+      },
+      {
+        "en": "The goal is to enable seamless shopping experiences through AI.",
+        "ko": "목표는 AI를 통해 원활한 쇼핑 경험을 가능하게 하는 것입니다."
+      },
+      {
+        "en": "Customers could soon make purchases directly via ChatGPT.",
+        "ko": "고객들은 곧 ChatGPT를 통해 직접 구매할 수 있게 될 것입니다."
+      },
+      {
+        "en": "This initiative represents a significant step in fintech innovation.",
+        "ko": "이 이니셔티브는 핀테크 혁신에 있어 중요한 단계입니다."
+      },
+      {
+        "en": "The full integration is expected to take six to twelve months.",
+        "ko": "완전한 통합은 6개월에서 12개월이 걸릴 것으로 예상됩니다."
+      },
+      {
+        "en": "Such partnerships highlight the growing role of AI in finance.",
+        "ko": "이러한 파트너십은 금융 분야에서 AI의 커지는 역할을 강조합니다."
+      },
+      {
+        "en": "It also shows how AI is reshaping consumer transactions.",
+        "ko": "또한 AI가 소비자 거래를 어떻게 재편하고 있는지도 보여줍니다."
+      },
+      {
+        "en": "Maran Nalluswami, Synchrony's chief strategy officer, confirmed the plans.",
+        "ko": "Synchrony의 최고 전략 책임자인 Maran Nalluswami가 이 계획을 확인했습니다."
+      },
+      {
+        "en": "This move could transform how people shop online.",
+        "ko": "이러한 움직임은 사람들이 온라인으로 쇼핑하는 방식을 변화시킬 수 있습니다."
+      },
+      {
+        "en": "It also demonstrates the competitive drive for AI adoption in payments.",
+        "ko": "또한 결제 분야에서 AI 도입을 위한 경쟁적인 추진력을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "credit": "A contractual agreement in which a borrower receives something of value now and agrees to repay the lender at a later date.",
+      "issuer": "A company or organization that creates and distributes something, such as credit cards.",
+      "partnering": "Working together with another person or group to achieve something.",
+      "collaboration": "The action of working with someone to produce or create something.",
+      "aims": "Has the intention or goal of doing something.",
+      "integrate": "To combine one thing with another so that they become a whole.",
+      "giants": "Very large or successful companies.",
+      "enable": "To make it possible for someone to do something or for something to happen.",
+      "seamless": "Smooth and continuous, without apparent breaks or transitions.",
+      "shopping": "The activity of buying things from stores or online.",
+      "experiences": "The process of doing and seeing things and how they affect one.",
+      "purchases": "The action of buying something.",
+      "directly": "In a straight line or course; without deviation.",
+      "via": "By way of; through.",
+      "initiative": "An important new plan or process to achieve a particular aim.",
+      "represents": "Is a symbol or sign for something.",
+      "significant": "Important and noticeable.",
+      "step": "An action or measure taken to achieve a particular purpose.",
+      "fintech": "Technology that aims to improve and automate the delivery and use of financial services.",
+      "innovation": "The introduction of new ideas, methods, or products.",
+      "full": "Complete, entire, or maximum.",
+      "integration": "The act of combining things to form a complete whole.",
+      "expected": "Regarded as likely to happen.",
+      "highlight": "To draw special attention to something.",
+      "growing": "Increasing in size, amount, or intensity.",
+      "role": "The function or part that someone or something performs.",
+      "reshaping": "Changing the form or structure of something.",
+      "consumer": "A person who buys goods and services for their own use.",
+      "transactions": "An instance of buying or selling something; a business deal.",
+      "officer": "A person holding a position of authority or trust, especially in a company.",
+      "confirmed": "Stated that something is true.",
+      "transform": "To make a thorough or dramatic change in the form, appearance, or character of something.",
+      "demonstrates": "Clearly shows the existence or truth of something by giving proof or evidence.",
+      "competitive": "Relating to or characterized by competition.",
+      "drive": "A strong desire or effort to achieve something.",
+      "adoption": "The action or fact of choosing to take up, follow, or use something."
+    },
+    "questions": [
+      "Q1: Which two retail giants are mentioned as having credit cards issued by Synchrony?",
+      "Q2: What does \"fintech innovation\" mean in the context of this partnership, and why is it important for the financial industry?",
+      "Q3: How do you think AI-powered shopping experiences, like the one proposed by Synchrony and OpenAI, might change consumer behavior in the future?"
+    ],
+    "modelAnswers": [
+      "A1: Amazon and Walmart are the two retail giants mentioned.",
+      "A2: \"Fintech innovation\" here means using new technology, specifically AI, to create improved financial services, like integrating payments into a chatbot. It's important for the financial industry because it drives efficiency, creates new customer experiences, and fosters competition.",
+      "A3: AI-powered shopping could make purchasing much more convenient and personalized, potentially reducing the need to visit multiple websites or apps. This might lead to more impulsive buying and a stronger reliance on AI for product discovery and transaction completion."
+    ]
+  },
+  {
     "id": "cd-2026-08-17-1",
     "date": "2026-08-17",
     "rank": 1,
