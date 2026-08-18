@@ -1,5 +1,565 @@
 [
   {
+    "id": "cd-2026-08-19-1",
+    "date": "2026-08-19",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "미국 증권거래위원회(SEC)가 암호화폐에 대한 첫 번째 주요 규제안을 발표했습니다.",
+    "url": "https://www.coindesk.com/policy/2026/08/18/r",
+    "title": "SEC Proposes Landmark Crypto Regulation",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Securities and Exchange Commission (SEC) recently introduced a significant new regulatory proposal. This initiative, named \"Regulation Crypto,\" marks a pivotal moment for the industry. It represents the agency's first major crypto-specific rule set. The announcement was surprising, especially after a scheduled voting meeting was abruptly canceled. This proposal aims to establish comprehensive guidelines for digital assets. It seeks to enhance investor protection and market integrity. The new rules could profoundly reshape how crypto businesses operate in the U.S. Industry stakeholders are closely examining the details for potential impacts. While some welcome the clarity, others worry about potential overreach or stifling innovation. This action underscores the SEC's commitment to regulating the evolving digital asset space. The crypto community will engage in a public comment period before finalization. This landmark development sets a new precedent for future crypto governance.",
+    "sentences": [
+      {
+        "en": "The U.S. Securities and Exchange Commission (SEC) recently introduced a significant new regulatory proposal.",
+        "ko": "미국 증권거래위원회(SEC)가 최근 중요한 새 규제 제안을 발표했습니다."
+      },
+      {
+        "en": "This initiative, named \"Regulation Crypto,\" marks a pivotal moment for the industry.",
+        "ko": "이 \"암호화폐 규제\"라는 이름의 계획은 업계에 중요한 전환점입니다."
+      },
+      {
+        "en": "It represents the agency's first major crypto-specific rule set.",
+        "ko": "이는 기관의 첫 번째 주요 암호화폐 특정 규제 세트를 나타냅니다."
+      },
+      {
+        "en": "The announcement was surprising, especially after a scheduled voting meeting was abruptly canceled.",
+        "ko": "특히 예정된 투표 회의가 갑작스럽게 취소된 후 발표는 놀라웠습니다."
+      },
+      {
+        "en": "This proposal aims to establish comprehensive guidelines for digital assets.",
+        "ko": "이 제안은 디지털 자산에 대한 포괄적인 지침을 수립하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It seeks to enhance investor protection and market integrity.",
+        "ko": "이는 투자자 보호와 시장 무결성을 강화하고자 합니다."
+      },
+      {
+        "en": "The new rules could profoundly reshape how crypto businesses operate in the U.S.",
+        "ko": "새로운 규칙은 미국 내 암호화폐 사업 운영 방식을 크게 재편할 수 있습니다."
+      },
+      {
+        "en": "Industry stakeholders are closely examining the details for potential impacts.",
+        "ko": "업계 이해관계자들은 잠재적 영향을 위해 세부 사항을 면밀히 검토하고 있습니다."
+      },
+      {
+        "en": "While some welcome the clarity, others worry about potential overreach or stifling innovation.",
+        "ko": "일부는 명확성을 환영하지만, 다른 일부는 잠재적인 과도한 규제나 혁신 저해를 우려합니다."
+      },
+      {
+        "en": "This action underscores the SEC's commitment to regulating the evolving digital asset space.",
+        "ko": "이러한 조치는 진화하는 디지털 자산 공간을 규제하려는 SEC의 의지를 강조합니다."
+      },
+      {
+        "en": "The crypto community will engage in a public comment period before finalization.",
+        "ko": "암호화폐 커뮤니티는 최종화 전에 공개 의견 수렴 기간에 참여할 것입니다."
+      },
+      {
+        "en": "This landmark development sets a new precedent for future crypto governance.",
+        "ko": "이 획기적인 발전은 미래 암호화폐 거버넌스를 위한 새로운 선례를 세웁니다."
+      }
+    ],
+    "glossary": {
+      "securities": "Financial assets like stocks or bonds that can be traded, representing ownership or debt.",
+      "commission": "An official group charged with a specific function, often governmental oversight.",
+      "proposal": "A formal plan or suggestion put forward for consideration or discussion.",
+      "initiative": "A new plan or process designed to achieve a particular aim or solve a problem.",
+      "pivotal": "Of crucial importance, significantly influencing the development or success of something.",
+      "specific": "Clearly defined or identified, not general or vague, referring to a particular item.",
+      "abruptly": "Suddenly and unexpectedly, often without warning or prior indication.",
+      "comprehensive": "Including or dealing with all or nearly all elements or aspects of a subject.",
+      "guidelines": "General rules, principles, or advice intended to regulate behavior or procedure.",
+      "enhance": "To improve the quality, amount, or strength of something, making it better.",
+      "integrity": "The quality of being honest and having strong moral principles, moral uprightness.",
+      "profoundly": "To a great depth or extent, having a deep and significant impact.",
+      "reshape": "To shape something again or differently, often indicating a fundamental change.",
+      "stakeholders": "Individuals or groups who have an interest or concern in a particular organization or project.",
+      "overreach": "To go too far or beyond the proper limits, especially in terms of authority.",
+      "stifling": "Preventing something from developing or growing, often by suppressing it.",
+      "innovation": "The action or process of introducing new ideas, devices, or methods.",
+      "underscores": "Emphasizes the importance of something or highlights a particular fact.",
+      "commitment": "The state or quality of being dedicated to a cause, activity, or person.",
+      "evolving": "Developing gradually over time, especially from a simple to a more complex form.",
+      "commentary": "An expression of opinion or explanation about an event or situation.",
+      "finalization": "The act of completing or bringing something to a definitive conclusion.",
+      "landmark": "An important stage or turning point in something, a very significant event."
+    },
+    "questions": [
+      "What is the name of the new regulatory proposal introduced by the U.S. SEC, and what is its main goal?",
+      "In the passage, what does \"stakeholders\" refer to, and why are they \"examining the details\" of the proposal?",
+      "How do you think this new SEC proposal might affect innovation in the crypto industry? Do you believe strict regulation is necessary for market stability, or could it hinder progress?"
+    ],
+    "modelAnswers": [
+      "The new proposal is called \"Regulation Crypto.\" Its main goal is to establish comprehensive guidelines for digital assets, enhancing investor protection and market integrity.",
+      "\"Stakeholders\" refers to individuals or groups who have an interest in the crypto industry, such as businesses, investors, and developers. They are examining the details to understand the potential impacts on their operations and investments.",
+      "Strict regulation could ensure market stability and protect investors, which might foster long-term growth. However, it might also hinder innovation if the rules are too restrictive or do not adapt quickly to new technologies."
+    ]
+  },
+  {
+    "id": "cd-2026-08-19-2",
+    "date": "2026-08-19",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "홍콩의 첫 규제 스테이블코인이 보험 및 무역 거래에 사용되며 실제 활용 사례를 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/08/18/hashkey-taps-hong-kong-s-first-regulated-stablecoin-to-settle-insurance-and-trade-deals",
+    "title": "Hong Kong's Regulated Stablecoin Used for Deals",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Hong Kong has introduced its first regulated stablecoin, a significant step for the region. This HKD-pegged asset is now being used for real-world applications. HashKey, a major crypto exchange, is utilizing it for various transactions. Specifically, it settles insurance and trade deals. This follows successful institutional trials, demonstrating its reliability. The stablecoin aims to capture a portion of Hong Kong's trade corridor. This corridor connects Hong Kong with the United Arab Emirates. The total trade volume in this corridor is approximately $49 billion. Using a regulated stablecoin offers efficiency and transparency for cross-border payments. It also showcases the potential for digital currencies in traditional finance. This development could set a precedent for other regions considering similar initiatives. It highlights Hong Kong's ambition to become a leading crypto hub.",
+    "sentences": [
+      {
+        "en": "Hong Kong has introduced its first regulated stablecoin, a significant step for the region.",
+        "ko": "홍콩이 이 지역에 중요한 진전인 첫 규제 스테이블코인을 도입했습니다."
+      },
+      {
+        "en": "This HKD-pegged asset is now being used for real-world applications.",
+        "ko": "이 홍콩 달러 페그 자산은 이제 실제 응용 분야에 사용되고 있습니다."
+      },
+      {
+        "en": "HashKey, a major crypto exchange, is utilizing it for various transactions.",
+        "ko": "주요 암호화폐 거래소인 해시키(HashKey)는 이를 다양한 거래에 활용하고 있습니다."
+      },
+      {
+        "en": "Specifically, it settles insurance and trade deals.",
+        "ko": "특히 보험 및 무역 거래를 정산합니다."
+      },
+      {
+        "en": "This follows successful institutional trials, demonstrating its reliability.",
+        "ko": "이는 성공적인 기관 시험 이후 이루어졌으며, 신뢰성을 입증합니다."
+      },
+      {
+        "en": "The stablecoin aims to capture a portion of Hong Kong's trade corridor.",
+        "ko": "이 스테이블코인은 홍콩의 무역 통로 중 일부를 확보하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This corridor connects Hong Kong with the United Arab Emirates.",
+        "ko": "이 통로는 홍콩과 아랍에미리트를 연결합니다."
+      },
+      {
+        "en": "The total trade volume in this corridor is approximately $49 billion.",
+        "ko": "이 통로의 총 무역량은 약 490억 달러에 달합니다."
+      },
+      {
+        "en": "Using a regulated stablecoin offers efficiency and transparency for cross-border payments.",
+        "ko": "규제 스테이블코인을 사용하는 것은 국경 간 결제에 효율성과 투명성을 제공합니다."
+      },
+      {
+        "en": "It also showcases the potential for digital currencies in traditional finance.",
+        "ko": "또한 전통 금융에서 디지털 통화의 잠재력을 보여줍니다."
+      },
+      {
+        "en": "This development could set a precedent for other regions considering similar initiatives.",
+        "ko": "이러한 발전은 유사한 계획을 고려하는 다른 지역에 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "It highlights Hong Kong's ambition to become a leading crypto hub.",
+        "ko": "이는 선도적인 암호화폐 허브가 되려는 홍콩의 야망을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "regulated": "Controlled or governed by rules or laws set by an authority.",
+      "stablecoin": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+      "hkd-pegged": "Directly linked in value to the Hong Kong Dollar, ensuring price stability.",
+      "asset": "An item of property owned by a person or company, regarded as having value.",
+      "utilizing": "Making practical and effective use of something, employing it for a purpose.",
+      "transactions": "Instances of buying or selling something, or exchanging money.",
+      "settles": "Completes a financial transaction by paying or receiving money.",
+      "insurance": "A contract where one party agrees to pay for potential future losses of another.",
+      "institutional": "Relating to a large and important organization, such as a bank or university.",
+      "trials": "Tests of the performance, qualities, or suitability of something.",
+      "reliability": "The quality of being trustworthy or performing consistently well.",
+      "capture": "To take control of something, often a market share or opportunity.",
+      "portion": "A part of a larger whole, a share.",
+      "corridor": "A strip of land or a route that allows passage or connection between two areas.",
+      "efficiency": "The state of achieving maximum productivity with minimum wasted effort or expense.",
+      "transparency": "The condition of being open, honest, and easily understood, with nothing hidden.",
+      "cross-border": "Involving or concerning two or more countries, especially in trade or finance.",
+      "showcases": "Displays or exhibits something to its best advantage, presenting its qualities.",
+      "potential": "Having or showing the capacity to develop into something in the future.",
+      "precedent": "An earlier event or action that serves as an example or guide for future situations.",
+      "initiatives": "Important new plans or processes designed to achieve a particular aim.",
+      "ambition": "A strong desire to do or achieve something, typically requiring determination.",
+      "hub": "A central point around which other things revolve or from which they emanate."
+    },
+    "questions": [
+      "What is the primary function of Hong Kong's new regulated stablecoin, and which entity is using it for transactions?",
+      "The passage mentions the stablecoin aims to \"capture a portion of Hong Kong's trade corridor.\" What does \"trade corridor\" mean in this context, and why is capturing a portion of it significant?",
+      "Do you think regulated stablecoins like this will accelerate the integration of digital currencies into traditional finance, or do significant barriers still remain? Explain your view."
+    ],
+    "modelAnswers": [
+      "Hong Kong's regulated stablecoin is primarily used to settle insurance and trade deals. HashKey, a major crypto exchange, is utilizing it for these transactions.",
+      "A \"trade corridor\" refers to a specific route or channel through which a significant volume of trade occurs between two regions, in this case, Hong Kong and the UAE. Capturing a portion of it is significant because it means the stablecoin is being adopted for substantial real-world economic activity.",
+      "Regulated stablecoins will likely accelerate integration by providing a trusted bridge between crypto and traditional finance. However, challenges like global regulatory harmonization and overcoming traditional financial institutions' inertia still remain significant barriers."
+    ]
+  },
+  {
+    "id": "cd-2026-08-19-3",
+    "date": "2026-08-19",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "와이오밍 주가 보안상의 이유로 블록체인 인프라를 교체하며 주 발행 스테이블코인으로 전환했습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move",
+    "title": "Wyoming Launches State Stablecoin on Security Grounds",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Wyoming has become the first U.S. government entity to replace its blockchain infrastructure. This decision was made specifically due to security concerns. The state is moving towards adopting its own stablecoin. This move involves an exodus from LayerZero, a prominent cross-chain protocol. The departure from LayerZero impacts a significant $15 billion ecosystem. Wyoming's action highlights growing concerns about blockchain security. It also showcases a state's proactive approach to digital asset management. The state stablecoin aims to provide a more secure and controlled environment. This could set a new precedent for other states considering similar solutions. It demonstrates a shift towards bespoke or state-controlled blockchain systems. Such developments are crucial for the future of regulated digital currencies.",
+    "sentences": [
+      {
+        "en": "Wyoming has become the first U.S. government entity to replace its blockchain infrastructure.",
+        "ko": "와이오밍 주는 블록체인 인프라를 교체한 최초의 미국 정부 기관이 되었습니다."
+      },
+      {
+        "en": "This decision was made specifically due to security concerns.",
+        "ko": "이 결정은 특히 보안 문제 때문에 내려졌습니다."
+      },
+      {
+        "en": "The state is moving towards adopting its own stablecoin.",
+        "ko": "주는 자체 스테이블코인을 채택하는 방향으로 나아가고 있습니다."
+      },
+      {
+        "en": "This move involves an exodus from LayerZero, a prominent cross-chain protocol.",
+        "ko": "이러한 움직임은 유명한 크로스체인 프로토콜인 레이어제로(LayerZero)로부터의 이탈을 포함합니다."
+      },
+      {
+        "en": "The departure from LayerZero impacts a significant $15 billion ecosystem.",
+        "ko": "레이어제로로부터의 이탈은 150억 달러 규모의 중요한 생태계에 영향을 미칩니다."
+      },
+      {
+        "en": "Wyoming's action highlights growing concerns about blockchain security.",
+        "ko": "와이오밍의 조치는 블록체인 보안에 대한 증가하는 우려를 강조합니다."
+      },
+      {
+        "en": "It also showcases a state's proactive approach to digital asset management.",
+        "ko": "이는 또한 디지털 자산 관리에 대한 주의 선제적인 접근 방식을 보여줍니다."
+      },
+      {
+        "en": "The state stablecoin aims to provide a more secure and controlled environment.",
+        "ko": "주 스테이블코인은 더 안전하고 통제된 환경을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This could set a new precedent for other states considering similar solutions.",
+        "ko": "이는 유사한 해결책을 고려하는 다른 주들에게 새로운 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "It demonstrates a shift towards bespoke or state-controlled blockchain systems.",
+        "ko": "이는 맞춤형 또는 주가 통제하는 블록체인 시스템으로의 전환을 보여줍니다."
+      },
+      {
+        "en": "Such developments are crucial for the future of regulated digital currencies.",
+        "ko": "이러한 발전은 규제된 디지털 통화의 미래에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "entity": "A thing with distinct and independent existence, often an organization or government body.",
+      "replace": "To take the place of something, or to provide a substitute for it.",
+      "infrastructure": "The basic physical and organizational structures and facilities needed for operations.",
+      "specifically": "In a precise or exact manner, for a particular reason.",
+      "concerns": "Feelings of worry or anxiety about something.",
+      "adopting": "Choosing to take up, follow, or use something new.",
+      "exodus": "A mass departure of people, or in this context, a significant withdrawal from a platform.",
+      "prominent": "Important, famous, or well-known, standing out from others.",
+      "cross-chain": "Referring to technologies that enable interoperability and communication between different blockchains.",
+      "protocol": "A set of rules governing the format of data sent between computers or systems.",
+      "departure": "The action of leaving, or a deviation from what is typical.",
+      "impacts": "Has a strong effect on someone or something.",
+      "ecosystem": "A complex network or interconnected system, often referring to a digital platform and its users.",
+      "highlights": "Draws special attention to something, emphasizing it.",
+      "proactive": "Creating or controlling a situation rather than just responding to it after it has happened.",
+      "management": "The process of dealing with or controlling things or people.",
+      "controlled": "Regulated or restrained, often by a specific authority.",
+      "environment": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+      "precedent": "An earlier event or action that is regarded as an example or guide for future situations.",
+      "bespoke": "Made to order for a particular customer, or custom-made.",
+      "shift": "A slight change in position, direction, or tendency.",
+      "crucial": "Extremely important, vital for the success or failure of something.",
+      "regulated": "Controlled or governed by rules or laws set by an authority."
+    },
+    "questions": [
+      "Why did Wyoming decide to replace its blockchain infrastructure, and what type of digital asset is the state adopting?",
+      "The passage mentions Wyoming's \"exodus from LayerZero.\" What does \"exodus\" imply about the nature of this departure, and what is \"LayerZero\" in this context?",
+      "Do you think state-issued stablecoins, like the one Wyoming is adopting, could become a common trend in the U.S., or will federal regulation eventually centralize such efforts? Discuss the pros and cons."
+    ],
+    "modelAnswers": [
+      "Wyoming decided to replace its blockchain infrastructure primarily due to security concerns. The state is adopting its own stablecoin.",
+      "\"Exodus\" implies a mass or significant departure from LayerZero. LayerZero is described as a \"prominent cross-chain protocol,\" meaning it's a well-known system enabling communication between different blockchains.",
+      "State-issued stablecoins offer local control and tailored solutions, which are pros. However, federal regulation might eventually centralize efforts to ensure nationwide consistency and prevent a fragmented financial system. It's uncertain which approach will prevail."
+    ]
+  },
+  {
+    "id": "ec-2026-08-19-1",
+    "date": "2026-08-19",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "전 세계 정부의 차입 비용이 수십 년 만에 최고치를 기록하며 채권 시장의 중요성을 보여줍니다.",
+    "url": "https://www.theguardian.com/business/2026/aug/18/governments-borrowing-costs-us-iran-bond-yields-trump",
+    "title": "Global Borrowing Costs Soar as Geopolitical Tensions Rise",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "This story discusses how government borrowing costs have reached multi-decade highs. Bond yields in major economies like the US, UK, Germany, France, and Japan increased significantly. This surge is partly due to fading hopes for peace in the US-Iran conflict. Geopolitical instability often leads to higher risk premiums for investors. Central banks might also adjust monetary policies in response to these global pressures. Higher borrowing costs for governments can eventually impact businesses and consumers. Companies may face increased interest rates on loans, slowing investment. Individuals could see higher mortgage rates, affecting housing markets. This situation highlights the interconnectedness of global finance and international relations. Understanding these trends is vital for financial professionals, including fintech PMs.",
+    "sentences": [
+      {
+        "en": "This story discusses how government borrowing costs have reached multi-decade highs.",
+        "ko": "이 기사는 정부의 차입 비용이 수십 년 만에 최고치를 기록했음을 다룹니다."
+      },
+      {
+        "en": "Bond yields in major economies like the US, UK, Germany, France, and Japan increased significantly.",
+        "ko": "미국, 영국, 독일, 프랑스, 일본 등 주요 경제국의 채권 수익률이 크게 상승했습니다."
+      },
+      {
+        "en": "This surge is partly due to fading hopes for peace in the US-Iran conflict.",
+        "ko": "이러한 급등은 부분적으로 미국-이란 분쟁의 평화에 대한 희망이 사라진 데 기인합니다."
+      },
+      {
+        "en": "Geopolitical instability often leads to higher risk premiums for investors.",
+        "ko": "지정학적 불안정은 종종 투자자들에게 더 높은 위험 프리미엄으로 이어집니다."
+      },
+      {
+        "en": "Central banks might also adjust monetary policies in response to these global pressures.",
+        "ko": "중앙은행들은 이러한 글로벌 압력에 대응하여 통화 정책을 조정할 수도 있습니다."
+      },
+      {
+        "en": "Higher borrowing costs for governments can eventually impact businesses and consumers.",
+        "ko": "정부의 높은 차입 비용은 결국 기업과 소비자에게 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Companies may face increased interest rates on loans, slowing investment.",
+        "ko": "기업들은 대출 이자율 상승에 직면하여 투자를 둔화시킬 수 있습니다."
+      },
+      {
+        "en": "Individuals could see higher mortgage rates, affecting housing markets.",
+        "ko": "개인들은 더 높은 주택담보대출 금리를 보게 되어 주택 시장에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "This situation highlights the interconnectedness of global finance and international relations.",
+        "ko": "이러한 상황은 글로벌 금융과 국제 관계의 상호 연결성을 강조합니다."
+      },
+      {
+        "en": "Understanding these trends is vital for financial professionals, including fintech PMs.",
+        "ko": "이러한 추세를 이해하는 것은 핀테크 PM을 포함한 금융 전문가들에게 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "borrowing": "Getting money from a bank or person with the agreement to pay it back later.",
+      "multi-decade": "Lasting for several decades, meaning many ten-year periods.",
+      "highs": "Peak levels or maximum points that have been reached.",
+      "fading": "Gradually disappearing or becoming less strong over time.",
+      "hopes": "Feelings of expectation and desire for a certain thing to happen.",
+      "bond": "A formal agreement to lend money to a government or company that pays interest.",
+      "yields": "The income return on an investment, usually expressed as an annual percentage.",
+      "economies": "The system of how money is made and used within a particular country or region.",
+      "surge": "A sudden powerful forward or upward movement.",
+      "geopolitical": "Relating to the influence of geography on politics and international relations.",
+      "instability": "The state of being likely to change or fail, lacking stability.",
+      "premiums": "Additional amounts of money paid for something, often for insurance or a financial product.",
+      "investors": "People or entities who put money into financial schemes, shares, or property.",
+      "central": "Relating to the main or most important part of something.",
+      "monetary": "Relating to money or currency, especially central bank policy.",
+      "policies": "Courses of action or principles adopted by a government, party, or business.",
+      "consumers": "People who buy goods and services for their own use.",
+      "interest": "Money paid regularly at a particular rate for the use of money lent.",
+      "loans": "Amounts of money borrowed that are expected to be paid back with interest.",
+      "investment": "The action or process of investing money for profit or material result.",
+      "mortgage": "A legal agreement by which a bank lends money at interest in exchange for taking title of the debtor's property.",
+      "highlights": "Draws special attention to something.",
+      "interconnectedness": "The state of being connected with each other."
+    },
+    "questions": [
+      "According to the article, what specific factors are contributing to the rise in government borrowing costs?",
+      "What does the term \"bond yields\" mean in the context of this story, and why are they significant for global economies?",
+      "How might the current trend of rising borrowing costs impact a fintech company, especially one focused on lending or investment platforms?"
+    ],
+    "modelAnswers": [
+      "The article states that fading hopes for peace in the US-Iran conflict and geopolitical instability are contributing to the rise in government borrowing costs.",
+      "\"Bond yields\" refer to the return investors receive on government bonds. They are significant because they indicate the cost of borrowing for governments and influence interest rates across the economy.",
+      "Rising borrowing costs could increase the cost of capital for fintech companies, making it more expensive to fund loans or develop new platforms. This might lead to higher interest rates for their customers or slower growth."
+    ]
+  },
+  {
+    "id": "ec-2026-08-19-2",
+    "date": "2026-08-19",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "예상치 못한 미국 고용 감소 소식은 경제 회복세와 고용 시장의 미래에 대한 의문을 제기합니다.",
+    "url": "https://www.bbc.co.uk/news/articles/c20j5rle717o",
+    "title": "US Job Market Sees Unexpected Decline in July",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US experienced a surprising decline in job numbers last month. Analysts had predicted an increase, but instead, 23,000 roles were lost in July. This unexpected fall suggests a slowdown in the summer job market. A robust job market is crucial for economic stability and consumer confidence. This data could influence the Federal Reserve's decisions on interest rates. A weaker labor market might lead the central bank to consider pausing rate hikes. Businesses might also reassess their hiring plans in response to these trends. For fintech, this could mean potential shifts in consumer spending and loan demand. Understanding job market health is vital for financial planning and strategy. Fintech PMs must adapt their products to changing economic conditions.",
+    "sentences": [
+      {
+        "en": "The US experienced a surprising decline in job numbers last month.",
+        "ko": "미국은 지난달 일자리 수가 예상치 못하게 감소했습니다."
+      },
+      {
+        "en": "Analysts had predicted an increase, but instead, 23,000 roles were lost in July.",
+        "ko": "분석가들은 증가를 예측했지만, 대신 7월에 23,000개의 일자리가 사라졌습니다."
+      },
+      {
+        "en": "This unexpected fall suggests a slowdown in the summer job market.",
+        "ko": "이러한 예상치 못한 감소는 여름 고용 시장의 둔화를 시사합니다."
+      },
+      {
+        "en": "A robust job market is crucial for economic stability and consumer confidence.",
+        "ko": "견고한 고용 시장은 경제 안정과 소비자 신뢰에 매우 중요합니다."
+      },
+      {
+        "en": "This data could influence the Federal Reserve's decisions on interest rates.",
+        "ko": "이 데이터는 연방준비제도의 금리 결정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "A weaker labor market might lead the central bank to consider pausing rate hikes.",
+        "ko": "약화된 노동 시장은 중앙은행이 금리 인상을 중단하는 것을 고려하게 할 수 있습니다."
+      },
+      {
+        "en": "Businesses might also reassess their hiring plans in response to these trends.",
+        "ko": "기업들도 이러한 추세에 대응하여 채용 계획을 재평가할 수 있습니다."
+      },
+      {
+        "en": "For fintech, this could mean potential shifts in consumer spending and loan demand.",
+        "ko": "핀테크에게 이는 소비자 지출 및 대출 수요의 잠재적 변화를 의미할 수 있습니다."
+      },
+      {
+        "en": "Understanding job market health is vital for financial planning and strategy.",
+        "ko": "고용 시장의 건전성을 이해하는 것은 재무 계획 및 전략에 필수적입니다."
+      },
+      {
+        "en": "Fintech PMs must adapt their products to changing economic conditions.",
+        "ko": "핀테크 PM은 변화하는 경제 상황에 맞춰 제품을 조정해야 합니다."
+      }
+    ],
+    "glossary": {
+      "experienced": "Had a particular event or emotion happen to one.",
+      "surprising": "Causing a feeling of wonder or astonishment.",
+      "decline": "A gradual and continuous loss of strength, numbers, or value.",
+      "analysts": "People who examine and explain information, especially financial data.",
+      "predicted": "Stated that a particular event would happen in the future.",
+      "robust": "Strong and healthy; able to withstand difficult conditions.",
+      "crucial": "Extremely important, essential for success.",
+      "stability": "The state of being stable and not subject to change.",
+      "consumer": "A person who buys goods and services for personal use.",
+      "confidence": "A feeling of self-assurance arising from an appreciation of one's own abilities.",
+      "influence": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+      "federal": "Relating to a system of government in which several states form a unity.",
+      "reserve": "An amount of something kept back for future use or a special purpose.",
+      "pausing": "Temporarily stopping an action or activity.",
+      "hikes": "Increases, especially in prices or taxes.",
+      "reassess": "Consider or estimate something again, especially with a view to making changes.",
+      "hiring": "Employing someone for wages.",
+      "fintech": "Technology used to improve and automate the delivery and use of financial services.",
+      "potential": "Having or showing the capacity to become something in the future.",
+      "shifts": "Changes in position, direction, or tendency.",
+      "demand": "The desire of consumers for a particular commodity or service.",
+      "vital": "Absolutely necessary or important; essential.",
+      "strategy": "A plan of action designed to achieve a long-term or overall aim.",
+      "adapt": "Make something suitable for a new use or purpose; modify."
+    },
+    "questions": [
+      "What was the unexpected outcome regarding US job numbers last month, and how did it differ from analysts' predictions?",
+      "The article mentions that a \"robust job market is crucial for economic stability.\" Explain what a robust job market entails and why it is considered crucial.",
+      "As a fintech PM, how might this unexpected job decline influence your company's product development or marketing strategy, particularly for services targeting individual consumers?"
+    ],
+    "modelAnswers": [
+      "Last month, US job numbers surprisingly declined by 23,000 roles, contrary to analysts' predictions of an increase.",
+      "A robust job market means strong employment with many available jobs and good wage growth. It's crucial because it supports consumer spending, confidence, and overall economic stability.",
+      "This decline might suggest decreased consumer spending power or loan demand. My company might need to adjust marketing to emphasize affordability or shift product focus towards savings and financial resilience rather than credit."
+    ]
+  },
+  {
+    "id": "ec-2026-08-19-3",
+    "date": "2026-08-19",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "신용카드 발행사 Synchrony가 OpenAI와 협력하여 핀테크 분야에서 AI의 중요성을 강조합니다.",
+    "url": "https://www.cnbc.com/2026/08/17/synchrony-openai.html",
+    "title": "Synchrony Partners with OpenAI for Fintech Innovation",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Credit card issuer Synchrony has announced a significant partnership with OpenAI. This collaboration is still in its early stages of development. The goal is to enhance online shopping experiences for Synchrony customers. AI technology will likely be used to create smoother and more personalized interactions. For a fintech company, integrating AI can lead to improved fraud detection. It can also offer more tailored financial advice and product recommendations. This move highlights the growing importance of artificial intelligence in the financial sector. Fintech firms are increasingly leveraging AI to gain a competitive edge. This partnership could set a new standard for customer service and operational efficiency. It demonstrates how traditional financial services are evolving with advanced technology. This trend is crucial for fintech PMs to monitor closely.",
+    "sentences": [
+      {
+        "en": "Credit card issuer Synchrony has announced a significant partnership with OpenAI.",
+        "ko": "신용카드 발행사 Synchrony가 OpenAI와의 중요한 파트너십을 발표했습니다."
+      },
+      {
+        "en": "This collaboration is still in its early stages of development.",
+        "ko": "이 협력은 아직 초기 개발 단계에 있습니다."
+      },
+      {
+        "en": "The goal is to enhance online shopping experiences for Synchrony customers.",
+        "ko": "목표는 Synchrony 고객을 위한 온라인 쇼핑 경험을 향상시키는 것입니다."
+      },
+      {
+        "en": "AI technology will likely be used to create smoother and more personalized interactions.",
+        "ko": "AI 기술은 더 부드럽고 개인화된 상호작용을 만드는 데 사용될 가능성이 높습니다."
+      },
+      {
+        "en": "For a fintech company, integrating AI can lead to improved fraud detection.",
+        "ko": "핀테크 기업의 경우, AI 통합은 사기 탐지 개선으로 이어질 수 있습니다."
+      },
+      {
+        "en": "It can also offer more tailored financial advice and product recommendations.",
+        "ko": "또한 더 맞춤화된 금융 조언과 제품 추천을 제공할 수 있습니다."
+      },
+      {
+        "en": "This move highlights the growing importance of artificial intelligence in the financial sector.",
+        "ko": "이러한 움직임은 금융 부문에서 인공지능의 중요성이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "Fintech firms are increasingly leveraging AI to gain a competitive edge.",
+        "ko": "핀테크 기업들은 경쟁 우위를 확보하기 위해 AI를 점점 더 활용하고 있습니다."
+      },
+      {
+        "en": "This partnership could set a new standard for customer service and operational efficiency.",
+        "ko": "이 파트너십은 고객 서비스 및 운영 효율성에 대한 새로운 표준을 정할 수 있습니다."
+      },
+      {
+        "en": "It demonstrates how traditional financial services are evolving with advanced technology.",
+        "ko": "이는 전통적인 금융 서비스가 첨단 기술과 함께 어떻게 발전하고 있는지를 보여줍니다."
+      },
+      {
+        "en": "This trend is crucial for fintech PMs to monitor closely.",
+        "ko": "이러한 추세는 핀테크 PM이 면밀히 주시해야 할 중요한 부분입니다."
+      }
+    ],
+    "glossary": {
+      "issuer": "A company or organization that supplies or produces something for others.",
+      "announced": "Made a public and formal declaration about a fact, occurrence, or intention.",
+      "significant": "Sufficiently great or important to be worthy of attention.",
+      "partnership": "A business or company owned by two or more people.",
+      "collaboration": "The action of working with someone to produce or create something.",
+      "stages": "Particular phases or periods in a process or development.",
+      "enhance": "Intensify, increase, or further improve the quality, value, or extent of.",
+      "personalized": "Designed or produced to meet someone's individual requirements.",
+      "interactions": "Mutual or reciprocal actions or influences.",
+      "integrating": "Combining one thing with another so that they become a whole.",
+      "improved": "Made or became better.",
+      "fraud": "Wrongful or criminal deception intended to result in financial or personal gain.",
+      "detection": "The action or process of identifying the presence of something.",
+      "tailored": "Made or adapted for a particular purpose or person.",
+      "highlights": "Draws special attention to something.",
+      "growing": "Increasing in size, amount, or intensity.",
+      "importance": "The state or fact of being of great significance or value.",
+      "artificial": "Made or produced by human beings rather than occurring naturally.",
+      "intelligence": "The ability to acquire and apply knowledge and skills.",
+      "sector": "A distinct part of an economy, society, or area of activity.",
+      "leveraging": "Using something to maximum advantage.",
+      "competitive": "Relating to or characterized by competition.",
+      "standard": "A level of quality or attainment.",
+      "operational": "Relating to the regular functioning of a system or process."
+    },
+    "questions": [
+      "What is the main objective of the partnership between Synchrony and OpenAI, according to the article?",
+      "The passage mentions AI can lead to \"improved fraud detection.\" Explain why this is particularly valuable for financial institutions and how AI helps achieve it.",
+      "As a fintech PM, how do you foresee AI partnerships like this one shaping the future of digital banking and consumer finance over the next five years?"
+    ],
+    "modelAnswers": [
+      "The main objective of the partnership is to enhance online shopping experiences for Synchrony customers using AI technology.",
+      "Improved fraud detection is valuable because it protects both the institution and customers from financial losses. AI helps by rapidly analyzing vast amounts of transaction data to identify unusual patterns indicative of fraud.",
+      "I foresee AI partnerships driving hyper-personalization in digital banking, offering predictive financial advice, and automating many customer service functions. This will create more seamless and secure consumer finance experiences."
+    ]
+  },
+  {
     "id": "cd-2026-08-18-1",
     "date": "2026-08-18",
     "rank": 1,
