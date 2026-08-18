@@ -2149,7 +2149,8 @@
       const [filter, setFilter] = useState("all"); // all | new | review | mastered
       const [flipped, setFlipped] = useState({});
       const [studying, setStudying] = useState(false);
-      const [studyMode, setStudyMode] = useState("new"); // "new" (미암기) | "review" (복습)
+      const [studyLabel, setStudyLabel] = useState("단어 외우기"); // heading shown during a study session
+      const [deckSource, setDeckSource] = useState([]); // unshuffled cards for the active session, so "처음부터 다시" replays the same set
       const [deck, setDeck] = useState([]);
       const [idx, setIdx] = useState(0);
       const [cardFlip, setCardFlip] = useState(false);
@@ -2199,16 +2200,24 @@
       const filterLabel = { new: "미암기", review: "복습중", mastered: "완료" }[filter] || "전체";
 
       // Study pool = 미암기(new) words; review pool = 복습중 words that are now due.
-      const toCard = (word, v) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" });
+      // Each card carries its own `stage`, so a mixed-stage deck (e.g. the
+      // filter-driven "학습하기" session below) can advance each word
+      // correctly without a single global mode.
+      const toCard = (word, v) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) });
       const reviewPool = useMemo(
         () => aliveWords.filter(([, v]) => reviewDue(v)).map(([word, v]) => toCard(word, v)),
         [aliveWords, today]
       );
       const newPool = useMemo(
-        () => aliveWords
-          .filter(([, v]) => stageOf(v) === "new")
-          .map(([word, v]) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "" })),
+        () => aliveWords.filter(([, v]) => stageOf(v) === "new").map(([word, v]) => toCard(word, v)),
         [aliveWords]
+      );
+      // Filter-driven pool: whatever the 전체/미암기/복습중/완료 chip (+ search)
+      // currently shows, studyable as-is — including 완료, which otherwise had
+      // no way to be reviewed again except resetting one word at a time.
+      const filteredPool = useMemo(
+        () => entries.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage })),
+        [entries]
       );
 
       const patch = (word, p, ev) => {
@@ -2257,11 +2266,11 @@
         }
         return a;
       };
-      const startStudy = (mode = "new") => {
-        const pool = mode === "review" ? reviewPool : newPool;
+      const startStudy = (pool, label) => {
         if (!pool.length) return;
-        const d = shuffle(pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "" })));
-        setStudyMode(mode); setDeck(d); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
+        const cards = pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage }));
+        setStudyLabel(label); setDeckSource(cards);
+        setDeck(shuffle(cards)); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
       // Speak whichever side of a card is showing: the word, or its English
       // definition. (Both English; the Korean gloss stays a visual peek.)
@@ -2270,24 +2279,34 @@
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); speakVisible(deck[idx], nf); };
       const advance = () => { stopSpeech(); setCardFlip(false); setIdx((i) => i + 1); };
       // "알아요" → advance one SRS stage, and mark today's word-learned streak.
-      //   미암기 session: 미암기 → 복습중.   복습 session: 복습중 → 장기완료.
+      //   미암기 → 복습중.   복습중 → 장기완료.   장기완료 → stays 완료 (just a
+      //   refresh; the deck mixes stages now that study sessions can be
+      //   started from any filter chip, so each card advances off its own
+      //   stage instead of a single session-wide mode).
       const know = () => {
-        const w = deck[idx].word;
+        const cur = deck[idx];
+        const w = cur.word;
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: false }]);
-        if (studyMode === "review") patch(w, { stage: "mastered", masteredSince: today, reviewSince: undefined });
+        if (cur.stage === "mastered") patch(w, { masteredSince: today });
+        else if (cur.stage === "review") patch(w, { stage: "mastered", masteredSince: today, reviewSince: undefined });
         else patch(w, { stage: "review", reviewSince: today, learned: true });
         if (onActivity) onActivity(); // marking a word 외웠음 is the only thing that bumps the streak
         advance();
       };
-      // "몰라요" → keep the stage, just repeat this round. Does NOT count toward
-      // the streak (only actually memorizing a word does). A 복습중 word that's
-      // never successfully reviewed reverts to 미암기 on its own via the
-      // time-based sweep (REVIEW_MAX_DAYS), not from a single wrong answer.
+      // "몰라요" → keep the stage, just repeat this round, EXCEPT a 완료 word
+      // being forgotten drops it back into 복습중 (same as the per-card "다시
+      // 외우기" button) so it re-enters the review cycle. Does NOT count
+      // toward the streak (only actually memorizing a word does). A 복습중
+      // word that's never successfully reviewed reverts to 미암기 on its own
+      // via the time-based sweep (REVIEW_MAX_DAYS), not from a single wrong
+      // answer.
       const dontKnow = () => {
-        const w = deck[idx].word;
+        const cur = deck[idx];
+        const w = cur.word;
         const wasIn = missed.includes(w);
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: !wasIn }]);
         setMissed((m) => (wasIn ? m : [...m, w]));
+        if (cur.stage === "mastered") patch(w, { stage: "review", reviewSince: today, masteredSince: undefined });
         advance();
       };
       // Undo the last swipe: step back a card and revert its SRS change.
@@ -2307,7 +2326,10 @@
       };
       const restartMissed = () => {
         stopSpeech();
-        const d = shuffle(missed.map((w) => ({ word: w, meaning: (wordbank[w] || {}).meaning || "", example: (wordbank[w] || {}).example || "", meaningKo: (wordbank[w] || {}).meaningKo || "" })));
+        const d = shuffle(missed.map((w) => {
+          const v = wordbank[w] || {};
+          return { word: w, meaning: v.meaning || "", example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) };
+        }));
         setDeck(d); setMissed([]); setHistory([]); setIdx(0); setCardFlip(false);
       };
 
@@ -2473,7 +2495,7 @@
                       </div>
                     </React.Fragment>
                   )}
-                <button className="btn ghost" onClick={startStudy}>처음부터 다시</button>
+                <button className="btn ghost" onClick={() => startStudy(deckSource, studyLabel)}>처음부터 다시</button>
                 <button className="btn ghost" onClick={() => { stopSpeech(); setStudying(false); }}>단어장으로</button>
               </div>
             </React.Fragment>
@@ -2484,7 +2506,7 @@
           <React.Fragment>
             <div className="studyhead mono">
               <button className="chip" onClick={undo} disabled={!history.length} title="방금 넘긴 카드로 돌아가기">← 되돌리기</button>
-              <span>{studyMode === "review" ? "복습하기" : "단어 외우기"} · {idx + 1} / {deck.length}</span>
+              <span>{studyLabel} · {idx + 1} / {deck.length}</span>
               <button className="chip" onClick={() => { stopSpeech(); setStudying(false); }}>닫기 ✕</button>
             </div>
             <div className={"flashcard" + (cardFlip ? " flipped" : "") + (dragX > SWIPE_TH ? " yes" : dragX < -SWIPE_TH ? " no" : "")}
@@ -2554,10 +2576,10 @@
 
           {total > 0 && (
             <React.Fragment>
-              <button className="btn primary studybtn" onClick={() => startStudy("new")} disabled={!newPool.length}>
+              <button className="btn primary studybtn" onClick={() => startStudy(newPool, "단어 외우기")} disabled={!newPool.length}>
                 🎴 단어 외우기 · 미암기 {newPool.length}개
               </button>
-              <button className="btn ghost studybtn" onClick={() => startStudy("review")} disabled={!reviewPool.length}>
+              <button className="btn ghost studybtn" onClick={() => startStudy(reviewPool, "복습하기")} disabled={!reviewPool.length}>
                 🔁 복습하기 · 복습 {reviewPool.length}개
               </button>
             </React.Fragment>
@@ -2569,6 +2591,12 @@
               <button key={c.id} className={"chip" + (filter === c.id ? " active" : "")} onClick={() => setFilter(c.id)}>{c.label}</button>
             ))}
           </div>
+
+          {entries.length > 0 && (
+            <button className="btn ghost studybtn" onClick={() => startStudy(filteredPool, `${filterLabel} 학습`)}>
+              🎴 {filterLabel} 학습하기 · {entries.length}개
+            </button>
+          )}
 
           {entries.length > 0 && (
             <button className="clearallbtn" onClick={() => setConfirmClearAll(true)}>
