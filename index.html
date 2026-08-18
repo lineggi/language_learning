@@ -936,6 +936,18 @@
       if (glossary && glossary[lc]) return { base: lc, def: glossary[lc], source: "gloss" };
       return null;
     }
+    // Classify a word about to be added against the current wordbank, so the
+    // caller can tell the user what actually happened instead of a generic
+    // "담았어요" every time: "new" (not present, gets added), "exists"
+    // (already 미암기/복습중, left untouched — no duplicate), or "mastered"
+    // (already 완료 — addWords sends it back to 미암기 since seeing it again
+    // means it wasn't actually remembered).
+    function classifyWord(wordbank, base) {
+      const norm = String(base || "").toLowerCase().trim();
+      const cur = wordbank && wordbank[norm];
+      if (!cur || cur.deleted) return "new";
+      return stageOf(cur) === "mastered" ? "mastered" : "exists";
+    }
 
     /* ------------------------------------------------------------------ */
     /* App root                                                            */
@@ -1147,13 +1159,22 @@
             const norm = String(base || "").toLowerCase().trim();
             if (!norm) continue;
             const existing = lcIndex[norm];
+            const cur = existing ? next[existing] : null;
             // No entry, or the existing one was soft-deleted → (re)collect fresh.
-            if (!existing || next[existing].deleted) {
+            if (!cur || cur.deleted) {
               const key = existing || norm;
               next[key] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "", updatedAt: Date.now() };
               lcIndex[norm] = key;
-            } else if (example && !next[existing].example) {
-              next[existing] = { ...next[existing], example, updatedAt: Date.now() }; // backfill an example onto an existing word
+            } else if (stageOf(cur) === "mastered") {
+              // Running into an already-완료 word again means it wasn't actually
+              // remembered — send it back to 미암기 instead of leaving it
+              // mastered (and never as a second, duplicate entry).
+              next[existing] = {
+                ...cur, stage: "new", learned: false, masteredSince: undefined, reviewSince: undefined,
+                meaning: def || cur.meaning, example: cur.example || example || "", articleId, updatedAt: Date.now(),
+              };
+            } else if (example && !cur.example) {
+              next[existing] = { ...cur, example, updatedAt: Date.now() }; // backfill an example onto an existing word
             }
           }
           return next;
@@ -1564,8 +1585,20 @@
           }
           const all = [...withDef, ...fetched];
           if (all.length) {
+            const cls = all.map((e) => classifyWord(wordbank, e.base));
+            const newCount = cls.filter((c) => c === "new").length;
+            const masteredCount = cls.filter((c) => c === "mastered").length;
+            const existsCount = all.length - newCount - masteredCount;
             onAddWords(all, pack.id);
-            showToast(all.length + "개 단어를 단어장에 담았어요");
+            if (!masteredCount && !existsCount) {
+              showToast(all.length + "개 단어를 단어장에 담았어요");
+            } else {
+              const parts = [];
+              if (newCount) parts.push(`${newCount}개 새로 담음`);
+              if (masteredCount) parts.push(`${masteredCount}개는 다시 미암기로`);
+              if (existsCount) parts.push(`${existsCount}개는 이미 있는 단어`);
+              showToast(parts.join(" · "));
+            }
           }
         })();
       }, [completed]);
@@ -1580,8 +1613,11 @@
 
       const addOne = (g, ev) => {
         ev.stopPropagation();
+        const cls = classifyWord(wordbank, g.base);
         onAddWords([{ base: g.base, def: g.def }], pack.id);
-        showToast(`"${g.base}" 단어장에 담았어요`);
+        if (cls === "mastered") showToast(`"${g.base}" 완료했던 단어예요 · 다시 미암기로 이동했어요`);
+        else if (cls === "exists") showToast(`"${g.base}" 이미 단어장에 있는 단어예요`);
+        else showToast(`"${g.base}" 단어장에 담았어요`);
       };
 
       const pickedCount = Object.keys(picked).length;
