@@ -455,6 +455,43 @@
       font-family: "Fraunces", "Pretendard", serif; font-weight: 700; font-size: 17px;
       white-space: nowrap; line-height: 1.3;
     }
+    .streaktext-btn {
+      background: none; border: 0; padding: 0; margin: 0; cursor: pointer; text-align: left;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .streaktext-btn .streakhint {
+      display: block; font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px;
+      color: var(--faint); margin-top: 2px; letter-spacing: .04em;
+    }
+
+    /* Streak calendar modal */
+    .calsheet { max-width: 420px; }
+    .cal-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+    .cal-title { font-size: 17px; font-weight: 700; color: var(--ink); }
+    .cal-navbtn {
+      border: 1px solid var(--hair); background: var(--card); color: var(--muted);
+      border-radius: 999px; width: 30px; height: 30px; cursor: pointer; font-size: 15px; line-height: 1;
+    }
+    .cal-dow {
+      display: grid; grid-template-columns: repeat(7, 1fr); text-align: center;
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--faint); margin-bottom: 6px;
+    }
+    .calgrid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+    .calcell {
+      aspect-ratio: 1; display: flex; flex-direction: column; align-items: center; justify-content: center;
+      border-radius: 10px; border: 1.5px solid transparent; position: relative;
+    }
+    .calcell.empty { visibility: hidden; }
+    .calcell.today { border-color: var(--amber); }
+    .calcell.fire { background: var(--amber-soft); }
+    .calcell .caldate {
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 11px; color: var(--muted);
+    }
+    .calcell.fire .caldate { color: #8a5a12; }
+    .calcell .calfire { font-size: 13px; line-height: 1; margin-top: 1px; }
+    .cal-total {
+      text-align: center; font-size: 13px; color: var(--muted); margin: 14px 0 16px;
+    }
 
     /* Flashcard study */
     .studybtn { margin-bottom: 14px; }
@@ -715,20 +752,28 @@
     }
     // A streak is "broken" once more than 1 day has passed since its
     // lastDate with no word learned — normalize it to 0 (keeping lastDate)
-    // so a stale copy doesn't read as still active.
+    // so a stale copy doesn't read as still active. `days` (every date a
+    // word was ever learned, for the streak calendar) is a pure history log
+    // and is never reset by a broken streak.
     function normalizeStreak(s) {
-      const v = s || { count: 0, lastDate: null };
-      if (!v.lastDate || !v.count) return v;
-      return daysBetween(v.lastDate, kstToday()) > 1 ? { count: 0, lastDate: v.lastDate } : v;
+      const v = s || { count: 0, lastDate: null, days: [] };
+      const days = v.days || [];
+      if (!v.lastDate || !v.count) return { ...v, days };
+      return daysBetween(v.lastDate, kstToday()) > 1 ? { count: 0, lastDate: v.lastDate, days } : { ...v, days };
     }
     // Both sides are normalized against TODAY before comparing. Without this,
     // a genuinely broken local streak (correctly decayed to 0) would lose to
     // a stale remote copy that still holds an old higher count from before it
     // broke — "prefer the bigger number" is wrong once one side is stale.
+    // `days` is unioned from both sides regardless of which one wins the
+    // count/lastDate comparison, since it's a log, not a last-write field.
     function pickStreak(local, remote) {
       const l = normalizeStreak(local), r = normalizeStreak(remote);
-      if ((l.count || 0) !== (r.count || 0)) return (l.count || 0) > (r.count || 0) ? l : r;
-      return (l.lastDate || "") >= (r.lastDate || "") ? l : r; // tie → more recent lastDate
+      const days = Array.from(new Set([...(l.days || []), ...(r.days || [])])).sort();
+      const winner = (l.count || 0) !== (r.count || 0)
+        ? ((l.count || 0) > (r.count || 0) ? l : r)
+        : ((l.lastDate || "") >= (r.lastDate || "") ? l : r); // tie → more recent lastDate
+      return { ...winner, days };
     }
 
     // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
@@ -828,6 +873,21 @@
       const db = new Date(b + "T00:00:00Z").getTime();
       return Math.round((db - da) / 86400000);
     }
+    // Calendar helpers for the streak history modal — "YYYY-MM" in, list of
+    // "YYYY-MM-DD" (or null for a leading blank cell) or a shifted "YYYY-MM" out.
+    function monthDays(ym) {
+      const [y, m] = ym.split("-").map(Number);
+      const startDow = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+      const daysInMonth = new Date(Date.UTC(y, m, 0)).getUTCDate();
+      const cells = new Array(startDow).fill(null);
+      for (let d = 1; d <= daysInMonth; d++) cells.push(`${ym}-${String(d).padStart(2, "0")}`);
+      return cells;
+    }
+    function shiftMonth(ym, delta) {
+      const [y, m] = ym.split("-").map(Number);
+      const d = new Date(Date.UTC(y, m - 1 + delta, 1));
+      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
+    }
 
     // Spaced-repetition timing (days).
     const REVIEW_DUE_DAYS = 3;   // 복습중 → becomes due for the 복습하기 session
@@ -887,7 +947,7 @@
       // (e.g. "Vanguard" and "vanguard") collapse into one right away.
       const [wordbank, setWordbank] = useState(() => mergeWordbank(load(KEY.wordbank, {}), {}));
       const [reads, setReads] = useState(() => load(KEY.reads, {}));
-      const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null }));
+      const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null, days: [] }));
       const [errors, setErrors] = useState(() => load(KEY.errors, {})); // 오답 노트 (grammar SRS)
       const [toast, setToast] = useState(null);
       const [session, setSession] = useState(null);
@@ -1104,10 +1164,11 @@
       const recordWordLearned = useCallback(() => {
         setStreak((prev) => {
           const today = kstToday();
-          if (prev.lastDate === today) return prev;
+          const days = (prev.days || []).includes(today) ? (prev.days || []) : [...(prev.days || []), today];
+          if (prev.lastDate === today) return { ...prev, days };
           if (prev.lastDate && daysBetween(prev.lastDate, today) === 1)
-            return { count: (prev.count || 0) + 1, lastDate: today };
-          return { count: 1, lastDate: today };
+            return { count: (prev.count || 0) + 1, lastDate: today, days };
+          return { count: 1, lastDate: today, days };
         });
       }, []);
 
@@ -2158,6 +2219,8 @@
       const [history, setHistory] = useState([]); // for undoing an accidental swipe
       const [showHelp, setShowHelp] = useState(false); // usage tips behind a "?" button
       const [confirmClearAll, setConfirmClearAll] = useState(false);
+      const [showCal, setShowCal] = useState(false);
+      const [calMonth, setCalMonth] = useState(() => kstToday().slice(0, 7));
       const [dragX, setDragX] = useState(0);
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
@@ -2565,14 +2628,48 @@
       return (
         <React.Fragment>
           <div className="streak">
-            <div>
+            <button
+              className="streaktext-btn"
+              onClick={() => { setCalMonth(kstToday().slice(0, 7)); setShowCal(true); }}
+              title="학습 캘린더 보기"
+            >
               <div className="streaktext">🔥 {streak.count || 0}일 연속 학습 중</div>
-            </div>
+              <span className="streakhint">탭하면 캘린더 보기</span>
+            </button>
             <div style={{ textAlign: "right" }}>
               <div className="big fraunces">{counts.mastered}/{total}</div>
               <div className="lbl mono">장기완료 / 전체</div>
             </div>
           </div>
+
+          {showCal && (
+            <div className="sheet-backdrop" onClick={() => setShowCal(false)}>
+              <div className="sheet calsheet" onClick={(e) => e.stopPropagation()}>
+                <div className="sheet-grip" />
+                <div className="cal-head">
+                  <button className="cal-navbtn" onClick={() => setCalMonth((m) => shiftMonth(m, -1))} aria-label="이전 달">‹</button>
+                  <div className="cal-title fraunces">{Number(calMonth.slice(0, 4))}년 {Number(calMonth.slice(5, 7))}월</div>
+                  <button className="cal-navbtn" onClick={() => setCalMonth((m) => shiftMonth(m, 1))} aria-label="다음 달">›</button>
+                </div>
+                <div className="cal-dow">
+                  {["일", "월", "화", "수", "목", "금", "토"].map((d) => <span key={d}>{d}</span>)}
+                </div>
+                <div className="calgrid">
+                  {monthDays(calMonth).map((d, i) => {
+                    const learned = d && (streak.days || []).includes(d);
+                    return (
+                      <div key={i} className={"calcell" + (!d ? " empty" : "") + (d === today ? " today" : "") + (learned ? " fire" : "")}>
+                        {d && <span className="caldate">{Number(d.slice(-2))}</span>}
+                        {learned && <span className="calfire">🔥</span>}
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="cal-total mono">지금까지 총 {(streak.days || []).length}일 단어를 외웠어요</div>
+                <button className="btn ghost" onClick={() => setShowCal(false)}>닫기</button>
+              </div>
+            </div>
+          )}
 
           {total > 0 && (
             <React.Fragment>
