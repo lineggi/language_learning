@@ -757,7 +757,10 @@
     // and is never reset by a broken streak.
     function normalizeStreak(s) {
       const v = s || { count: 0, lastDate: null, days: [] };
-      const days = v.days || [];
+      // Backfill: lastDate always means "a word was learned that day", so
+      // make sure it's in days even for streak records saved before the
+      // days log existed (or any other reason it went missing).
+      const days = v.lastDate && !(v.days || []).includes(v.lastDate) ? [...(v.days || []), v.lastDate] : (v.days || []);
       if (!v.lastDate || !v.count) return { ...v, days };
       return daysBetween(v.lastDate, kstToday()) > 1 ? { count: 0, lastDate: v.lastDate, days } : { ...v, days };
     }
