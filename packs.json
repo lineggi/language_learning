@@ -1,5 +1,933 @@
 [
   {
+    "id": "cd-2026-08-21-1",
+    "date": "2026-08-21",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "미국 규제 당국이 암호화폐에 대한 명확한 규칙을 만들 준비를 하고 있으며, 이는 시장에 큰 영향을 미칠 수 있습니다.",
+    "url": "https://www.coindesk.com/policy/2026/08/20/u-s-cftc-chief-puts-staff-on-notice-to-create-crypto-regulations-if-clarity-act-fails",
+    "title": "CFTC Prepares Crypto Rules Amidst Clarity Act Uncertainty",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Commodity Futures Trading Commission (CFTC) is actively preparing new crypto regulations. Chairman Mike Selig instructed staff to develop these rules. This action comes as the future of the proposed Clarity Act remains uncertain. The Clarity Act aims to define which agency oversees specific digital assets. Selig emphasized that the CFTC will not wait idly for legislative action. His statement highlights the urgency for clear regulatory frameworks. This proactive approach could prevent market instability and protect investors. It also signals a strong intent to assert the CFTC's jurisdiction over the crypto space. Businesses in the crypto sector should closely monitor these developments. New rules will significantly impact how digital assets are traded and managed in the U.S.",
+    "sentences": [
+      {
+        "en": "The U.S. Commodity Futures Trading Commission (CFTC) is actively preparing new crypto regulations.",
+        "ko": "미국 상품선물거래위원회(CFTC)는 새로운 암호화폐 규제를 적극적으로 준비하고 있습니다."
+      },
+      {
+        "en": "Chairman Mike Selig instructed staff to develop these rules.",
+        "ko": "마이크 셀리그 위원장은 직원들에게 이 규칙들을 개발하도록 지시했습니다."
+      },
+      {
+        "en": "This action comes as the future of the proposed Clarity Act remains uncertain.",
+        "ko": "이러한 조치는 제안된 투명성 법안의 미래가 불확실한 가운데 이루어졌습니다."
+      },
+      {
+        "en": "The Clarity Act aims to define which agency oversees specific digital assets.",
+        "ko": "투명성 법안은 특정 디지털 자산을 어떤 기관이 감독할지 정의하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Selig emphasized that the CFTC will not wait idly for legislative action.",
+        "ko": "셀리그 위원장은 CFTC가 입법 조치를 마냥 기다리지 않을 것이라고 강조했습니다."
+      },
+      {
+        "en": "His statement highlights the urgency for clear regulatory frameworks.",
+        "ko": "그의 발언은 명확한 규제 프레임워크의 시급성을 부각시킵니다."
+      },
+      {
+        "en": "This proactive approach could prevent market instability and protect investors.",
+        "ko": "이러한 선제적 접근 방식은 시장 불안정을 방지하고 투자자를 보호할 수 있습니다."
+      },
+      {
+        "en": "It also signals a strong intent to assert the CFTC's jurisdiction over the crypto space.",
+        "ko": "이는 또한 암호화폐 영역에 대한 CFTC의 관할권을 주장하려는 강력한 의지를 나타냅니다."
+      },
+      {
+        "en": "Businesses in the crypto sector should closely monitor these developments.",
+        "ko": "암호화폐 부문의 기업들은 이러한 진전을 면밀히 주시해야 합니다."
+      },
+      {
+        "en": "New rules will significantly impact how digital assets are traded and managed in the U.S.",
+        "ko": "새로운 규칙은 미국에서 디지털 자산이 거래되고 관리되는 방식에 중대한 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "commodity": {
+        "meaning": "a raw material or primary agricultural product that can be bought and sold, such as copper or coffee.",
+        "pos": "noun"
+      },
+      "futures": {
+        "meaning": "financial contracts obligating the buyer to purchase an asset or the seller to sell an asset at a predetermined future date and price.",
+        "pos": "noun"
+      },
+      "commission": {
+        "meaning": "an official group of people who have been given responsibility to control something or find out about something.",
+        "pos": "noun"
+      },
+      "actively": {
+        "meaning": "in a way that involves doing something rather than just thinking or talking about it.",
+        "pos": "adverb"
+      },
+      "regulations": {
+        "meaning": "official rules or laws that control how things are done or how people behave.",
+        "pos": "noun"
+      },
+      "chairman": {
+        "meaning": "the person who is in charge of a meeting or committee or who heads an organization.",
+        "pos": "noun"
+      },
+      "instructed": {
+        "meaning": "gave someone an order or direction, especially officially or formally.",
+        "pos": "verb"
+      },
+      "proposed": {
+        "meaning": "suggested or put forward for consideration or discussion.",
+        "pos": "adjective"
+      },
+      "clarity": {
+        "meaning": "the quality of being clear, easy to understand, or certain.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "the state of being unsure or not knowing what will happen.",
+        "pos": "noun"
+      },
+      "define": {
+        "meaning": "to state or describe exactly the nature, scope, or meaning of something.",
+        "pos": "verb"
+      },
+      "oversees": {
+        "meaning": "supervises or manages an activity, ensuring it is done correctly.",
+        "pos": "verb"
+      },
+      "emphasized": {
+        "meaning": "gave special importance or attention to something in speaking or writing.",
+        "pos": "verb"
+      },
+      "idly": {
+        "meaning": "without purpose or effect; doing nothing or being inactive.",
+        "pos": "adverb"
+      },
+      "legislative": {
+        "meaning": "relating to the process of making laws, or to the laws themselves.",
+        "pos": "adjective"
+      },
+      "urgency": {
+        "meaning": "the quality or state of being very important and needing immediate attention.",
+        "pos": "noun"
+      },
+      "frameworks": {
+        "meaning": "basic structures underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "proactive": {
+        "meaning": "acting in advance to deal with an anticipated difficulty or situation.",
+        "pos": "adjective"
+      },
+      "instability": {
+        "meaning": "the state of being unpredictable or prone to change or collapse.",
+        "pos": "noun"
+      },
+      "jurisdiction": {
+        "meaning": "the official power to make legal decisions and judgments.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "Q1: According to the article, what is the main reason CFTC Chairman Mike Selig instructed his staff to prepare new crypto regulations?",
+      "Q2: What does the term \"Clarity Act\" refer to in the context of this news story, and why is its future relevant?",
+      "Q3: In your opinion, how might clearer cryptocurrency regulations from authorities like the CFTC benefit or harm the broader crypto market? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: CFTC Chairman Mike Selig instructed his staff to prepare new crypto regulations because the agency will not wait idly for legislative action, especially if the proposed Clarity Act fails to pass.",
+      "A2: The \"Clarity Act\" is a proposed legislation intended to define which specific U.S. agency will oversee different types of digital assets. Its future is relevant because its failure would necessitate the CFTC creating its own rules to fill that regulatory void.",
+      "A3: Clearer regulations could benefit the market by increasing investor confidence and attracting traditional financial institutions, leading to greater adoption. However, overly strict regulations might stifle innovation and push some crypto activities offshore, potentially harming growth."
+    ]
+  },
+  {
+    "id": "cd-2026-08-21-2",
+    "date": "2026-08-21",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "X(구 트위터)가 인플루언서와 콘텐츠 제공자에게 스테이블코인으로 비용을 지불하는 방안을 모색 중입니다.",
+    "url": "https://www.coindesk.com/business/2026/08/20/elon-musk-s-x-is-exploring-stablecoins-to-pay-influencers-and-content-providers",
+    "title": "X Explores Stablecoins for Creator Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Elon Musk's social media platform, X, is investigating the use of stablecoins. The company plans to pay influencers and content providers with these digital assets. This initiative shows X's growing interest in integrating cryptocurrency payments. Discussions are currently underway with various social media platforms. These platforms are also testing stablecoins for similar payment purposes. Using stablecoins could offer faster and more efficient global transactions. It might also reduce traditional banking fees for creators worldwide. This move could significantly boost the adoption and utility of stablecoins. It represents a notable step towards mainstream crypto integration. Such a system could transform how digital content creators are compensated.",
+    "sentences": [
+      {
+        "en": "Elon Musk's social media platform, X, is investigating the use of stablecoins.",
+        "ko": "일론 머스크의 소셜 미디어 플랫폼 X가 스테이블코인 사용을 검토하고 있습니다."
+      },
+      {
+        "en": "The company plans to pay influencers and content providers with these digital assets.",
+        "ko": "이 회사는 인플루언서와 콘텐츠 제공자에게 이 디지털 자산으로 비용을 지불할 계획입니다."
+      },
+      {
+        "en": "This initiative shows X's growing interest in integrating cryptocurrency payments.",
+        "ko": "이러한 이니셔티브는 암호화폐 결제 통합에 대한 X의 증가하는 관심을 보여줍니다."
+      },
+      {
+        "en": "Discussions are currently underway with various social media platforms.",
+        "ko": "현재 다양한 소셜 미디어 플랫폼과 논의가 진행 중입니다."
+      },
+      {
+        "en": "These platforms are also testing stablecoins for similar payment purposes.",
+        "ko": "이 플랫폼들 역시 유사한 결제 목적을 위해 스테이블코인을 시험하고 있습니다."
+      },
+      {
+        "en": "Using stablecoins could offer faster and more efficient global transactions.",
+        "ko": "스테이블코인을 사용하면 더 빠르고 효율적인 글로벌 거래를 제공할 수 있습니다."
+      },
+      {
+        "en": "It might also reduce traditional banking fees for creators worldwide.",
+        "ko": "이는 또한 전 세계 크리에이터들의 전통적인 은행 수수료를 줄일 수 있습니다."
+      },
+      {
+        "en": "This move could significantly boost the adoption and utility of stablecoins.",
+        "ko": "이러한 움직임은 스테이블코인의 채택과 유용성을 크게 증진시킬 수 있습니다."
+      },
+      {
+        "en": "It represents a notable step towards mainstream crypto integration.",
+        "ko": "이는 주류 암호화폐 통합을 향한 주목할 만한 단계입니다."
+      },
+      {
+        "en": "Such a system could transform how digital content creators are compensated.",
+        "ko": "이러한 시스템은 디지털 콘텐츠 제작자들이 보상받는 방식을 변화시킬 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "investigating": {
+        "meaning": "carrying out a systematic or formal inquiry to discover and examine the facts of an incident.",
+        "pos": "verb"
+      },
+      "stablecoins": {
+        "meaning": "cryptocurrencies designed to minimize price volatility, usually by being pegged to a stable asset like fiat currency.",
+        "pos": "noun"
+      },
+      "influencers": {
+        "meaning": "people who have the power to affect the purchasing decisions of others because of their authority or audience.",
+        "pos": "noun"
+      },
+      "content": {
+        "meaning": "information or experiences directed towards an end-user or audience, such as articles or videos.",
+        "pos": "noun"
+      },
+      "providers": {
+        "meaning": "people or organizations that supply something to others.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "an important new plan or process to achieve a particular aim or to solve a particular problem.",
+        "pos": "noun"
+      },
+      "integrating": {
+        "meaning": "combining or bringing things together so that they work effectively as a whole.",
+        "pos": "verb"
+      },
+      "cryptocurrency": {
+        "meaning": "a digital currency in which transactions are verified and records maintained by a decentralized system.",
+        "pos": "noun"
+      },
+      "payments": {
+        "meaning": "amounts of money paid or received for goods or services.",
+        "pos": "noun"
+      },
+      "underway": {
+        "meaning": "continuing or in progress; happening now.",
+        "pos": "adjective"
+      },
+      "efficient": {
+        "meaning": "achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "adjective"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something; business dealings.",
+        "pos": "noun"
+      },
+      "banking": {
+        "meaning": "the business of operating a bank; dealing with money and financial services.",
+        "pos": "noun"
+      },
+      "boost": {
+        "meaning": "to help improve or increase something.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the action of formally choosing to take up or follow something.",
+        "pos": "noun"
+      },
+      "utility": {
+        "meaning": "the state of being useful, profitable, or beneficial.",
+        "pos": "noun"
+      },
+      "mainstream": {
+        "meaning": "the ideas, attitudes, or activities that are regarded as normal or conventional.",
+        "pos": "noun"
+      },
+      "integration": {
+        "meaning": "the action or process of combining two or more things to form an effective whole.",
+        "pos": "noun"
+      },
+      "transform": {
+        "meaning": "to make a thorough or dramatic change in the form, appearance, or character of something.",
+        "pos": "verb"
+      },
+      "compensated": {
+        "meaning": "given something, typically money, in recognition of loss, suffering, or injury.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What is X, formerly known as Twitter, reportedly exploring to pay its influencers and content providers?",
+      "Q2: What are \"stablecoins,\" and how might their use by a platform like X benefit content creators?",
+      "Q3: Do you think large social media platforms using stablecoins for payments will accelerate mainstream crypto adoption? Why or why not?"
+    ],
+    "modelAnswers": [
+      "A1: X, the social media platform founded by Elon Musk, is reportedly exploring the use of stablecoins to pay its influencers and content providers.",
+      "A2: Stablecoins are cryptocurrencies designed to maintain a stable value, often pegged to fiat currencies like the US dollar. Their use could offer creators faster, more efficient global transactions and potentially reduce traditional banking fees.",
+      "A3: Yes, I believe large social media platforms using stablecoins would significantly accelerate mainstream crypto adoption. This would expose millions of users and creators to crypto payments, demonstrating practical utility and building trust in digital assets beyond speculative trading."
+    ]
+  },
+  {
+    "id": "cd-2026-08-21-3",
+    "date": "2026-08-21",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "은행들이 온체인 토큰화된 예금을 어떻게 활용하고 있는지, 그리고 그 이면에 있는 중요한 이유들을 알아보세요.",
+    "url": "https://www.coindesk.com/coindesk-indices/2026/08/20/crypto-for-advisors-what-are-tokenized-deposits",
+    "title": "Understanding Tokenized Deposits: Banks' On-Chain Approach",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Banks are increasingly exploring tokenized deposits, a new form of digital money. These deposits move traditional bank funds onto blockchain systems. However, banks are using permissioned blockchains for this purpose. This means access and participation are restricted to authorized entities. They are not opting for open, public blockchain networks. Privacy concerns and regulatory compliance are key drivers for this choice. Permissioned systems allow banks to control data visibility and user identity. This approach ensures adherence to strict financial regulations. Tokenized deposits offer potential benefits like faster settlements and reduced costs. They could also enable innovative financial products and services. This development signifies a cautious but important step for traditional finance into blockchain technology.",
+    "sentences": [
+      {
+        "en": "Banks are increasingly exploring tokenized deposits, a new form of digital money.",
+        "ko": "은행들은 새로운 형태의 디지털 화폐인 토큰화된 예금을 점점 더 많이 탐색하고 있습니다."
+      },
+      {
+        "en": "These deposits move traditional bank funds onto blockchain systems.",
+        "ko": "이러한 예금은 전통적인 은행 자금을 블록체인 시스템으로 옮깁니다."
+      },
+      {
+        "en": "However, banks are using permissioned blockchains for this purpose.",
+        "ko": "하지만 은행들은 이러한 목적을 위해 허가형 블록체인을 사용하고 있습니다."
+      },
+      {
+        "en": "This means access and participation are restricted to authorized entities.",
+        "ko": "이는 접근 및 참여가 승인된 주체로 제한된다는 것을 의미합니다."
+      },
+      {
+        "en": "They are not opting for open, public blockchain networks.",
+        "ko": "그들은 개방형, 공공 블록체인 네트워크를 선택하지 않고 있습니다."
+      },
+      {
+        "en": "Privacy concerns and regulatory compliance are key drivers for this choice.",
+        "ko": "개인 정보 보호 문제와 규제 준수가 이러한 선택의 주요 동인입니다."
+      },
+      {
+        "en": "Permissioned systems allow banks to control data visibility and user identity.",
+        "ko": "허가형 시스템은 은행이 데이터 가시성과 사용자 신원을 통제할 수 있도록 합니다."
+      },
+      {
+        "en": "This approach ensures adherence to strict financial regulations.",
+        "ko": "이러한 접근 방식은 엄격한 금융 규제 준수를 보장합니다."
+      },
+      {
+        "en": "Tokenized deposits offer potential benefits like faster settlements and reduced costs.",
+        "ko": "토큰화된 예금은 더 빠른 결제와 비용 절감과 같은 잠재적인 이점을 제공합니다."
+      },
+      {
+        "en": "They could also enable innovative financial products and services.",
+        "ko": "또한 혁신적인 금융 상품 및 서비스를 가능하게 할 수 있습니다."
+      },
+      {
+        "en": "This development signifies a cautious but important step for traditional finance into blockchain technology.",
+        "ko": "이러한 발전은 전통 금융이 블록체인 기술로 나아가는 신중하지만 중요한 단계를 의미합니다."
+      }
+    ],
+    "glossary": {
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing ownership or value.",
+        "pos": "adjective"
+      },
+      "deposits": {
+        "meaning": "sums of money placed in a bank or other financial institution.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "funds": {
+        "meaning": "sums of money saved or made available for a particular purpose.",
+        "pos": "noun"
+      },
+      "blockchain": {
+        "meaning": "a decentralized, distributed ledger technology that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "permissioned": {
+        "meaning": "requiring authorization or permission to access or participate.",
+        "pos": "adjective"
+      },
+      "restricted": {
+        "meaning": "limited in extent, number, scope, or action.",
+        "pos": "adjective"
+      },
+      "authorized": {
+        "meaning": "given official permission to do something.",
+        "pos": "adjective"
+      },
+      "entities": {
+        "meaning": "things with distinct and independent existence.",
+        "pos": "noun"
+      },
+      "opting": {
+        "meaning": "making a choice from a range of possibilities.",
+        "pos": "verb"
+      },
+      "privacy": {
+        "meaning": "the state or condition of being free from public attention.",
+        "pos": "noun"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system or industry.",
+        "pos": "adjective"
+      },
+      "compliance": {
+        "meaning": "the act or process of meeting requirements or standards.",
+        "pos": "noun"
+      },
+      "drivers": {
+        "meaning": "factors that cause a particular process or phenomenon to happen or develop.",
+        "pos": "noun"
+      },
+      "visibility": {
+        "meaning": "the state of being able to be seen.",
+        "pos": "noun"
+      },
+      "adherence": {
+        "meaning": "obedience to a rule, law, or custom.",
+        "pos": "noun"
+      },
+      "strict": {
+        "meaning": "demanding that rules be obeyed exactly.",
+        "pos": "adjective"
+      },
+      "settlements": {
+        "meaning": "the official agreements or arrangements that end a dispute or complete a business transaction.",
+        "pos": "noun"
+      },
+      "innovative": {
+        "meaning": "featuring new methods, ideas, or products; original and creative.",
+        "pos": "adjective"
+      },
+      "signifies": {
+        "meaning": "is an indication of something.",
+        "pos": "verb"
+      },
+      "cautious": {
+        "meaning": "careful to avoid potential problems or dangers.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What is the main characteristic that distinguishes the blockchain systems used for tokenized deposits from open, public blockchain networks?",
+      "Q2: In the context of tokenized deposits, what do \"privacy concerns\" and \"regulatory compliance\" refer to for banks?",
+      "Q3: How might the adoption of tokenized deposits impact the traditional banking sector and its services in the long term?"
+    ],
+    "modelAnswers": [
+      "A1: The main characteristic is that blockchain systems for tokenized deposits are \"permissioned,\" meaning access and participation are restricted to authorized entities, unlike open, public networks where anyone can participate.",
+      "A2: \"Privacy concerns\" refer to banks needing to control data visibility to protect customer information. \"Regulatory compliance\" refers to their need to adhere to strict financial laws and standards, which permissioned systems facilitate.",
+      "A3: The adoption of tokenized deposits could significantly modernize traditional banking by enabling faster, cheaper settlements and new financial products. However, it might also require substantial infrastructure upgrades and adaptation to new operational models, potentially challenging existing business structures."
+    ]
+  },
+  {
+    "id": "ec-2026-08-21-1",
+    "date": "2026-08-21",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 국가 부채가 40조 달러를 돌파하며 경제에 미칠 장기적 영향을 이해하는 데 필수적인 기사입니다.",
+    "url": "https://www.bbc.co.uk/news/articles/c70gp8252ejo",
+    "title": "US National Debt Exceeds $40 Trillion Mark",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The United States national debt has now surpassed an unprecedented $40 trillion. This alarming figure represents a doubling of the total debt in just the past decade. Such rapid growth raises significant concerns about the nation's long-term fiscal health. High government borrowing costs are a major contributing factor to this substantial increase. The interest rate on 30-year bonds, for instance, recently hit a near two-decade high. This substantial debt burden could potentially hinder future economic growth and stability. It also places greater pressure on the federal budget through increasingly higher interest payments. Policymakers face difficult choices regarding government spending and taxation to address this critical issue. Economists warn that unchecked debt accumulation may lead to long-term economic instability. This escalating debt trend is a critical indicator for global investors and financial professionals.",
+    "sentences": [
+      {
+        "en": "The United States national debt has now surpassed an unprecedented $40 trillion.",
+        "ko": "미국 국가 부채가 현재 전례 없는 40조 달러를 넘어섰습니다."
+      },
+      {
+        "en": "This alarming figure represents a doubling of the total debt in just the past decade.",
+        "ko": "이 놀라운 수치는 지난 10년 만에 총 부채가 두 배로 증가했음을 나타냅니다."
+      },
+      {
+        "en": "Such rapid growth raises significant concerns about the nation's long-term fiscal health.",
+        "ko": "이러한 급격한 증가는 국가의 장기적인 재정 건전성에 대한 심각한 우려를 제기합니다."
+      },
+      {
+        "en": "High government borrowing costs are a major contributing factor to this substantial increase.",
+        "ko": "높은 정부 차입 비용이 이러한 상당한 증가의 주요 원인입니다."
+      },
+      {
+        "en": "The interest rate on 30-year bonds, for instance, recently hit a near two-decade high.",
+        "ko": "예를 들어, 30년 만기 채권의 이자율은 최근 거의 20년 만에 최고치를 기록했습니다."
+      },
+      {
+        "en": "This substantial debt burden could potentially hinder future economic growth and stability.",
+        "ko": "이러한 상당한 부채 부담은 미래의 경제 성장과 안정성을 잠재적으로 저해할 수 있습니다."
+      },
+      {
+        "en": "It also places greater pressure on the federal budget through increasingly higher interest payments.",
+        "ko": "또한 점점 더 높아지는 이자 지급으로 인해 연방 예산에 더 큰 압박을 가합니다."
+      },
+      {
+        "en": "Policymakers face difficult choices regarding government spending and taxation to address this critical issue.",
+        "ko": "정책 입안자들은 이 중요한 문제를 해결하기 위해 정부 지출과 세금에 대한 어려운 선택에 직면해 있습니다."
+      },
+      {
+        "en": "Economists warn that unchecked debt accumulation may lead to long-term economic instability.",
+        "ko": "경제학자들은 통제되지 않는 부채 축적이 장기적인 경제 불안정으로 이어질 수 있다고 경고합니다."
+      },
+      {
+        "en": "This escalating debt trend is a critical indicator for global investors and financial professionals.",
+        "ko": "이러한 부채 증가 추세는 전 세계 투자자와 금융 전문가에게 중요한 지표입니다."
+      }
+    ],
+    "glossary": {
+      "surpassed": {
+        "meaning": "to become greater than a particular amount or level that was expected or achieved before.",
+        "pos": "verb"
+      },
+      "unprecedented": {
+        "meaning": "never having happened or existed before, making it very unusual or remarkable.",
+        "pos": "adjective"
+      },
+      "alarming": {
+        "meaning": "causing worry or fear about a possible problem or danger in the future.",
+        "pos": "adjective"
+      },
+      "figure": {
+        "meaning": "a number representing an amount, especially an official one used in statistics or reports.",
+        "pos": "noun"
+      },
+      "doubling": {
+        "meaning": "the act or process of making something twice as large, twice as much, or twice as numerous.",
+        "pos": "noun"
+      },
+      "decade": {
+        "meaning": "a period of ten years, often used when discussing historical or economic trends.",
+        "pos": "noun"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, and public spending or national debt.",
+        "pos": "adjective"
+      },
+      "contributing": {
+        "meaning": "helping to cause or bring about something, often as one of several factors.",
+        "pos": "adjective"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth, indicating a significant amount.",
+        "pos": "adjective"
+      },
+      "burden": {
+        "meaning": "a heavy load or responsibility that is difficult to carry or deal with.",
+        "pos": "noun"
+      },
+      "hinder": {
+        "meaning": "to make it difficult for someone to do something or for something to happen or develop.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "the state of being steady and not changing or being disturbed, especially in an economy.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "people who make decisions and plans, especially in government or business, that affect many others.",
+        "pos": "noun"
+      },
+      "taxation": {
+        "meaning": "the system by which a government collects money from people and businesses to pay for public services.",
+        "pos": "noun"
+      },
+      "address": {
+        "meaning": "to deal with a problem or issue directly and try to find a solution.",
+        "pos": "verb"
+      },
+      "unchecked": {
+        "meaning": "not controlled or limited, often leading to undesirable consequences.",
+        "pos": "adjective"
+      },
+      "accumulation": {
+        "meaning": "the acquisition or gradual gathering of something, often over a period of time.",
+        "pos": "noun"
+      },
+      "instability": {
+        "meaning": "the state of being likely to change or fail, causing uncertainty or problems.",
+        "pos": "noun"
+      },
+      "indicator": {
+        "meaning": "a sign that shows the condition or existence of something, often used in economic analysis.",
+        "pos": "noun"
+      },
+      "professionals": {
+        "meaning": "people who have a job that requires special education, training, or skill.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific milestone did the US national debt recently reach, and how quickly has it grown over the past decade?",
+      "Explain the meaning of \"fiscal health\" in the context of a nation's economy, and why the current debt level raises concerns about it.",
+      "In your opinion, what are the most significant long-term risks of a rapidly increasing national debt, and what potential solutions could policymakers consider?"
+    ],
+    "modelAnswers": [
+      "The US national debt recently surpassed $40 trillion. This figure indicates that the debt has doubled in just the last ten years.",
+      "\"Fiscal health\" refers to a nation's financial well-being, specifically its government's ability to manage its finances sustainably. The current debt level raises concerns because high borrowing costs and increasing interest payments could strain the federal budget and hinder future economic growth.",
+      "Significant long-term risks include reduced economic growth, higher inflation, and potential financial instability. Policymakers could consider solutions like reducing government spending, increasing taxes, or implementing policies to boost economic productivity to generate more revenue."
+    ]
+  },
+  {
+    "id": "ec-2026-08-21-2",
+    "date": "2026-08-21",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "유가, AI, 인플레이션 등 다양한 요인이 전 세계 차입 비용을 사상 최고치로 끌어올리는 복합적인 경제 상황을 분석합니다.",
+    "url": "https://www.bbc.co.uk/news/articles/c1k1x1zdywdo",
+    "title": "Global Borrowing Costs Surge Amid Economic Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Global borrowing costs have recently soared to unprecedented levels. Interest rates on long-term government debt in major economies are at fresh highs. This surge affects countries like the US, UK, Germany, and Japan. Several factors are contributing to this significant economic shift. Rising oil prices are a key driver, increasing production and transport costs. Concerns about persistent inflation are also pushing rates higher. Furthermore, the booming artificial intelligence (AI) sector plays an unexpected role. Massive investments in AI technology are driving up demand for capital. Central banks worldwide face pressure to manage inflation without stifling growth. Higher borrowing costs impact governments, businesses, and consumers alike. Companies find it more expensive to expand, potentially slowing investment. Consumers face higher mortgage rates and loan payments, affecting spending.",
+    "sentences": [
+      {
+        "en": "Global borrowing costs have recently soared to unprecedented levels.",
+        "ko": "전 세계 차입 비용이 최근 전례 없는 수준으로 치솟았습니다."
+      },
+      {
+        "en": "Interest rates on long-term government debt in major economies are at fresh highs.",
+        "ko": "주요 경제국들의 장기 국채 이자율이 새로운 최고치를 기록하고 있습니다."
+      },
+      {
+        "en": "This surge affects countries like the US, UK, Germany, and Japan.",
+        "ko": "이러한 급등은 미국, 영국, 독일, 일본과 같은 국가에 영향을 미칩니다."
+      },
+      {
+        "en": "Several factors are contributing to this significant economic shift.",
+        "ko": "여러 요인이 이러한 중요한 경제적 변화에 기여하고 있습니다."
+      },
+      {
+        "en": "Rising oil prices are a key driver, increasing production and transport costs.",
+        "ko": "유가 상승은 생산 및 운송 비용을 증가시키는 주요 원동력입니다."
+      },
+      {
+        "en": "Concerns about persistent inflation are also pushing rates higher.",
+        "ko": "지속적인 인플레이션에 대한 우려 또한 금리를 상승시키고 있습니다."
+      },
+      {
+        "en": "Furthermore, the booming artificial intelligence (AI) sector plays an unexpected role.",
+        "ko": "게다가, 급성장하는 인공지능(AI) 부문이 예상치 못한 역할을 합니다."
+      },
+      {
+        "en": "Massive investments in AI technology are driving up demand for capital.",
+        "ko": "AI 기술에 대한 막대한 투자가 자본 수요를 끌어올리고 있습니다."
+      },
+      {
+        "en": "Central banks worldwide face pressure to manage inflation without stifling growth.",
+        "ko": "전 세계 중앙은행들은 성장을 저해하지 않으면서 인플레이션을 관리해야 하는 압력에 직면해 있습니다."
+      },
+      {
+        "en": "Higher borrowing costs impact governments, businesses, and consumers alike.",
+        "ko": "높은 차입 비용은 정부, 기업, 소비자 모두에게 영향을 미칩니다."
+      },
+      {
+        "en": "Companies find it more expensive to expand, potentially slowing investment.",
+        "ko": "기업들은 확장에 더 많은 비용을 들여야 하여 잠재적으로 투자를 늦추게 됩니다."
+      },
+      {
+        "en": "Consumers face higher mortgage rates and loan payments, affecting spending.",
+        "ko": "소비자들은 더 높은 주택담보대출 금리와 대출 상환액에 직면하여 지출에 영향을 받습니다."
+      }
+    ],
+    "glossary": {
+      "soared": {
+        "meaning": "increased rapidly to a very high level, indicating a sudden and significant rise.",
+        "pos": "verb"
+      },
+      "unprecedented": {
+        "meaning": "never having happened or existed before, making it very unusual or remarkable.",
+        "pos": "adjective"
+      },
+      "debt": {
+        "meaning": "money that is owed or due to another party, often as a result of borrowing.",
+        "pos": "noun"
+      },
+      "major": {
+        "meaning": "very important or serious, often referring to large or influential economies.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "a sudden and great increase in amount, number, or intensity.",
+        "pos": "noun"
+      },
+      "affects": {
+        "meaning": "produces a change in someone or something, influencing its state or condition.",
+        "pos": "verb"
+      },
+      "contributing": {
+        "meaning": "helping to cause or bring about something, often as one of several factors.",
+        "pos": "verb"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency, indicating a new trend.",
+        "pos": "noun"
+      },
+      "driver": {
+        "meaning": "a main cause of something, often a significant force behind a trend or development.",
+        "pos": "noun"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or happen, especially for longer than desirable or expected.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "booming": {
+        "meaning": "experiencing a period of rapid growth and success, indicating strong economic activity.",
+        "pos": "adjective"
+      },
+      "sector": {
+        "meaning": "a part of an economy or society that can be separately identified.",
+        "pos": "noun"
+      },
+      "investments": {
+        "meaning": "the act of putting money into something with the expectation of making a profit.",
+        "pos": "noun"
+      },
+      "demand": {
+        "meaning": "the amount of a product or service that people want, often indicating market interest.",
+        "pos": "noun"
+      },
+      "capital": {
+        "meaning": "money or assets owned by a person or organization, available for investment or starting a business.",
+        "pos": "noun"
+      },
+      "stifling": {
+        "meaning": "preventing something from happening or developing normally, often by imposing restrictions.",
+        "pos": "verb"
+      },
+      "impact": {
+        "meaning": "to have a strong effect on someone or something, causing changes or consequences.",
+        "pos": "verb"
+      },
+      "alike": {
+        "meaning": "in the same or a similar way, indicating that something applies equally to multiple parties.",
+        "pos": "adverb"
+      },
+      "expand": {
+        "meaning": "to increase in size, number, or importance, often referring to business growth.",
+        "pos": "verb"
+      },
+      "potentially": {
+        "meaning": "possibly, when the necessary conditions exist, indicating a likely outcome.",
+        "pos": "adverb"
+      },
+      "mortgage": {
+        "meaning": "a legal agreement by which a bank or other organization lends money to buy a house.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Which major economies are experiencing a surge in long-term government debt interest rates, and what are the main factors mentioned as contributing to this trend?",
+      "Define \"stifling growth\" in the context of central bank policy. How might higher borrowing costs lead to this outcome for businesses?",
+      "As a fintech professional, how do you think these rising global borrowing costs will specifically influence innovation and investment decisions within the fintech sector?"
+    ],
+    "modelAnswers": [
+      "Major economies like the US, UK, Germany, and Japan are experiencing this surge. The main contributing factors are rising oil prices, persistent inflation concerns, and massive investments in the artificial intelligence (AI) sector.",
+      "\"Stifling growth\" means preventing economic expansion or development. For businesses, higher borrowing costs make it more expensive to secure loans for expansion, research, and development, potentially slowing their investment and overall growth.",
+      "Rising borrowing costs could make it harder for fintech startups to secure venture capital or debt financing, potentially slowing innovation. Established fintech firms might also re-evaluate investment in new projects, prioritizing profitability over aggressive expansion due to increased capital costs."
+    ]
+  },
+  {
+    "id": "ec-2026-08-21-3",
+    "date": "2026-08-21",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "전 세계적인 채권 금리 급등 속에서 중국이 낮은 금리를 유지하며 투자자들에게 매력적인 다각화 기회를 제공하는 이유를 살펴봅니다.",
+    "url": "https://www.cnbc.com/2026/08/20/china-defies-global-bond-yield-surge-safe-haven.html",
+    "title": "China's Low Bond Yields Offer Diversification",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Chinese government bond yields have remained notably low in recent times. This trend significantly defies the global surge in bond yields seen elsewhere. Many other major economies are currently experiencing significantly higher borrowing costs. China's unique domestic economic situation contributes to this notable divergence. The People's Bank of China has adopted a more accommodative monetary policy. This strategic approach aims to actively support domestic economic growth and stability. Consequently, lower yields make Chinese bonds an increasingly attractive option for global investors. They offer valuable diversification benefits, especially in today's volatile global market. Investors can balance higher-yielding, potentially riskier assets with stable Chinese government debt. This careful strategy helps to effectively reduce overall portfolio risk and enhance returns. However, potential investors must carefully consider geopolitical factors and regulatory risks. Understanding China's distinct bond market is crucial for successful international investment strategies.",
+    "sentences": [
+      {
+        "en": "Chinese government bond yields have remained notably low in recent times.",
+        "ko": "최근 중국 국채 금리는 눈에 띄게 낮은 수준을 유지하고 있습니다."
+      },
+      {
+        "en": "This trend significantly defies the global surge in bond yields seen elsewhere.",
+        "ko": "이러한 추세는 다른 곳에서 볼 수 있는 전 세계적인 채권 금리 급등과는 크게 다릅니다."
+      },
+      {
+        "en": "Many other major economies are currently experiencing significantly higher borrowing costs.",
+        "ko": "다른 많은 주요 경제국들은 현재 상당히 높은 차입 비용을 겪고 있습니다."
+      },
+      {
+        "en": "China's unique domestic economic situation contributes to this notable divergence.",
+        "ko": "중국의 독특한 국내 경제 상황이 이러한 현저한 차이에 기여합니다."
+      },
+      {
+        "en": "The People's Bank of China has adopted a more accommodative monetary policy.",
+        "ko": "중국 인민은행은 보다 완화적인 통화 정책을 채택했습니다."
+      },
+      {
+        "en": "This strategic approach aims to actively support domestic economic growth and stability.",
+        "ko": "이러한 전략적 접근 방식은 국내 경제 성장과 안정을 적극적으로 지원하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Consequently, lower yields make Chinese bonds an increasingly attractive option for global investors.",
+        "ko": "결과적으로 낮은 금리는 중국 채권을 글로벌 투자자들에게 점점 더 매력적인 옵션으로 만듭니다."
+      },
+      {
+        "en": "They offer valuable diversification benefits, especially in today's volatile global market.",
+        "ko": "특히 오늘날의 변동성이 큰 세계 시장에서 귀중한 분산 투자 이점을 제공합니다."
+      },
+      {
+        "en": "Investors can balance higher-yielding, potentially riskier assets with stable Chinese government debt.",
+        "ko": "투자자들은 수익률이 높고 잠재적으로 위험한 자산과 안정적인 중국 국채의 균형을 맞출 수 있습니다."
+      },
+      {
+        "en": "This careful strategy helps to effectively reduce overall portfolio risk and enhance returns.",
+        "ko": "이 신중한 전략은 전반적인 포트폴리오 위험을 효과적으로 줄이고 수익을 높이는 데 도움이 됩니다."
+      },
+      {
+        "en": "However, potential investors must carefully consider geopolitical factors and regulatory risks.",
+        "ko": "그러나 잠재적 투자자들은 지정학적 요인과 규제 위험을 신중하게 고려해야 합니다."
+      },
+      {
+        "en": "Understanding China's distinct bond market is crucial for successful international investment strategies.",
+        "ko": "중국의 독특한 채권 시장을 이해하는 것은 성공적인 국제 투자 전략에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "yields": {
+        "meaning": "the income return on an investment, usually expressed as a percentage of the initial cost.",
+        "pos": "noun"
+      },
+      "notably": {
+        "meaning": "in a way that is significant or remarkable, drawing attention to something important.",
+        "pos": "adverb"
+      },
+      "defies": {
+        "meaning": "resists or refuses to obey, often going against an expected trend or rule.",
+        "pos": "verb"
+      },
+      "surge": {
+        "meaning": "a sudden and great increase in amount, number, or intensity, like a rapid rise.",
+        "pos": "noun"
+      },
+      "major": {
+        "meaning": "very important or serious, often referring to large or influential economies or countries.",
+        "pos": "adjective"
+      },
+      "divergence": {
+        "meaning": "the process or state of separating or moving in different directions, creating a clear difference.",
+        "pos": "noun"
+      },
+      "adopted": {
+        "meaning": "to formally accept or choose something, such as a policy or a strategy.",
+        "pos": "verb"
+      },
+      "accommodative": {
+        "meaning": "describing monetary policy designed to stimulate economic growth by keeping interest rates low.",
+        "pos": "adjective"
+      },
+      "policy": {
+        "meaning": "a course or principle of action adopted or proposed by a government, party, or business.",
+        "pos": "noun"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "domestic": {
+        "meaning": "relating to one's own country or a specific country, rather than foreign ones.",
+        "pos": "adjective"
+      },
+      "economic": {
+        "meaning": "relating to the economy, the system of producing, distributing, and consuming goods and services.",
+        "pos": "adjective"
+      },
+      "stability": {
+        "meaning": "the state of being steady and not changing or being disturbed, especially in an economy.",
+        "pos": "noun"
+      },
+      "consequently": {
+        "meaning": "as a result; therefore, indicating a direct outcome of a previous action or event.",
+        "pos": "adverb"
+      },
+      "attractive": {
+        "meaning": "pleasing or appealing to someone, making it desirable for investment or purchase.",
+        "pos": "adjective"
+      },
+      "diversification": {
+        "meaning": "the process of spreading investments across various assets to reduce overall risk.",
+        "pos": "noun"
+      },
+      "benefits": {
+        "meaning": "advantages or profits gained from something, often referring to positive outcomes.",
+        "pos": "noun"
+      },
+      "volatile": {
+        "meaning": "liable to change rapidly and unpredictably, especially for the worse, indicating market uncertainty.",
+        "pos": "adjective"
+      },
+      "balance": {
+        "meaning": "to give equal importance to two or more things, ensuring equilibrium or stability.",
+        "pos": "verb"
+      },
+      "assets": {
+        "meaning": "property owned by a person or company, regarded as having value and available to meet debts.",
+        "pos": "noun"
+      },
+      "portfolio": {
+        "meaning": "a collection of financial investments held by an individual or organization.",
+        "pos": "noun"
+      },
+      "geopolitical": {
+        "meaning": "relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system or industry, often by government rules.",
+        "pos": "adjective"
+      },
+      "enhance": {
+        "meaning": "to intensify, increase, or further improve the quality, value, or extent of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the current trend of Chinese government bond yields compared to other major economies, and what specific policy has the People's Bank of China adopted?",
+      "Explain the concept of \"diversification benefits\" in investing. How do low Chinese bond yields offer these benefits to global investors?",
+      "Considering the unique position of China's bond market, what do you think are the primary risks and opportunities for a fintech company looking to invest or operate in this market?"
+    ],
+    "modelAnswers": [
+      "Chinese government bond yields have remained notably low, defying the global surge seen in other major economies. The People's Bank of China has adopted a more accommodative monetary policy.",
+      "\"Diversification benefits\" refer to reducing overall investment risk by combining different types of assets. Low Chinese bond yields offer these benefits by providing a stable, lower-risk option that can balance higher-yielding, more volatile assets in a global portfolio.",
+      "Primary risks include geopolitical tensions, regulatory changes, and potential capital controls. Opportunities could involve leveraging China's stable debt market for funding, developing platforms for cross-border investment, or offering wealth management solutions that include Chinese assets to international clients."
+    ]
+  },
+  {
     "id": "cd-2026-08-20-1",
     "date": "2026-08-20",
     "rank": 1,
