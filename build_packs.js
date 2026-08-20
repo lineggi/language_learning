@@ -309,8 +309,9 @@ const PACK_SCHEMA = {
               properties: {
                 word: { type: "string" },
                 meaning: { type: "string" },
+                pos: { type: "string" },
               },
-              required: ["word", "meaning"],
+              required: ["word", "meaning", "pos"],
             },
           },
           questions: { type: "array", items: { type: "string" } },
@@ -358,7 +359,7 @@ Choose exactly 3 stories. For EACH chosen story produce an object with:
 - hook: ONE short sentence in KOREAN explaining why this story is worth reading today.
 - title: a short English headline (max ~10 words). Rewrite it; do not copy verbatim.
 - sentences: write an ORIGINAL 130–170 word explanation of the story in B2–C1 English (context, why it matters; DO NOT copy sentences from the source). Keep each sentence SHORT and clear — about 10 to 18 words, one idea per sentence, avoiding long clause-heavy sentences. Return it as an ARRAY split by sentence, each item { "en": "<one short English sentence>", "ko": "<a natural, accurate KOREAN translation of that sentence>" }. Keep 8–12 sentences.
-- glossary: a list of ~20–24 objects, each { "word": <a SINGLE lowercase word (one token, no spaces or phrases) that appears in YOUR passage>, "meaning": <a clear, specific definition written in simple English — a short sentence of about 8 to 16 words that explains what the word means IN THIS PASSAGE'S CONTEXT, enough for a learner to really understand it, not just a one-word synonym. ENGLISH ONLY (never Korean). Do not use hard words inside the definition.> }. Choose single words a B2–C1 learner might still find tricky.
+- glossary: a list of ~20–24 objects, each { "word": <a SINGLE lowercase word (one token, no spaces or phrases) that appears in YOUR passage>, "meaning": <a clear, specific definition written in simple English — a short sentence of about 8 to 16 words that explains what the word means IN THIS PASSAGE'S CONTEXT, enough for a learner to really understand it, not just a one-word synonym. ENGLISH ONLY (never Korean). Do not use hard words inside the definition.>, "pos": <the word's part of speech AS USED in this passage — exactly one of: "noun", "verb", "adjective", "adverb", "preposition", "conjunction", "pronoun", "determiner", "interjection", "phrase" (use "phrase" only if it is genuinely a multi-word chunk)> }. Choose single words a B2–C1 learner might still find tricky.
 - questions: exactly 3 English writing prompts — Q1 a fact-check question, Q2 a context-vocabulary question, Q3 an opinion question (2–3 sentences).
 - modelAnswers: exactly 3 short model answers, one per question.
 
@@ -421,21 +422,28 @@ function tidyMeaning(s) {
   return v;
 }
 
-// Accepts either the array form [{word, meaning}] (from the schema) or a plain
-// {word: meaning} object, and returns a lowercase-keyed map the app expects.
-// Only SINGLE words are kept — the app collects one token per click, so
+const VALID_POS = new Set([
+  "noun", "verb", "adjective", "adverb", "preposition",
+  "conjunction", "pronoun", "determiner", "interjection", "phrase",
+]);
+
+// Accepts either the array form [{word, meaning, pos}] (from the schema) or a
+// plain {word: meaning} object (legacy fallback, no pos), and returns a
+// lowercase-keyed map the app expects: { word: { meaning, pos } }. Only
+// SINGLE words are kept — the app collects one token per click, so
 // multi-word phrases in the glossary could never be surfaced.
 function normalizeGlossary(g) {
   const out = {};
-  const add = (word, meaning) => {
+  const add = (word, meaning, pos) => {
     const key = String(word || "").toLowerCase().trim();
     const val = tidyMeaning(meaning);
-    if (key && val && !/\s/.test(key)) out[key] = val;
+    const p = String(pos || "").toLowerCase().trim();
+    if (key && val && !/\s/.test(key)) out[key] = { meaning: val, pos: VALID_POS.has(p) ? p : null };
   };
   if (Array.isArray(g)) {
-    g.forEach((item) => item && add(item.word, item.meaning));
+    g.forEach((item) => item && add(item.word, item.meaning, item.pos));
   } else if (g && typeof g === "object") {
-    for (const [k, v] of Object.entries(g)) add(k, v);
+    for (const [k, v] of Object.entries(g)) add(k, v, null);
   }
   return out;
 }

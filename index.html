@@ -623,6 +623,15 @@
     .wcard .stagenote {
       font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px; color: var(--faint);
     }
+    /* Part-of-speech badge (동사/명사/...) shown on wordbank entries. */
+    .poschip {
+      display: inline-block; font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 10px;
+      color: var(--muted); background: var(--bg); border: 1px solid var(--hair);
+      border-radius: 5px; padding: 1px 6px; letter-spacing: .02em; white-space: nowrap;
+    }
+    .wcard .poschip { margin-bottom: 5px; }
+    .flashcard .poschip { margin-bottom: 8px; }
+    .sbrow .poschip { margin-right: 6px; }
     .wcard .stagenote.done { color: var(--good); }
     .wcard .stagenote.due {
       color: #8a5a12; background: var(--amber-soft); border-radius: 999px;
@@ -726,9 +735,9 @@
         if (!cur) { out[key] = v; return; }
         // Last-write-wins per word by updatedAt so devices converge on the most
         // recent stage change (tie → keep the one already there = remote, since
-        // remote is merged first). An example is kept if either side has one.
+        // remote is merged first). An example/pos is kept if either side has one.
         const win = (v.updatedAt || 0) > (cur.updatedAt || 0) ? v : cur;
-        out[key] = { ...win, example: cur.example || v.example || win.example || "" };
+        out[key] = { ...win, example: cur.example || v.example || win.example || "", pos: cur.pos || v.pos || win.pos || null };
       };
       for (const [k, v] of Object.entries(remote || {})) put(k, v); // remote first
       for (const [k, v] of Object.entries(local || {})) put(k, v);  // then local
@@ -923,17 +932,29 @@
       }
       return Array.from(forms);
     }
+    // A glossary entry is either a plain string (legacy packs, no pos) or
+    // { meaning, pos } (current packs) — normalize both to the same shape.
+    function glossVal(v) {
+      if (v == null) return null;
+      return typeof v === "string" ? { meaning: v, pos: null } : { meaning: v.meaning || "", pos: v.pos || null };
+    }
     function lookupGloss(word, glossary, wordbank) {
       const forms = candidateForms(word);
       for (const f of forms) {
-        if (glossary && glossary[f]) return { base: f, def: glossary[f], source: "gloss" };
+        if (glossary && glossary[f]) {
+          const gv = glossVal(glossary[f]);
+          return { base: f, def: gv.meaning, pos: gv.pos, source: "gloss" };
+        }
       }
       for (const f of forms) {
-        if (wordbank && wordbank[f] && !wordbank[f].deleted) return { base: f, def: wordbank[f].meaning, source: "bank" };
+        if (wordbank && wordbank[f] && !wordbank[f].deleted) return { base: f, def: wordbank[f].meaning, pos: wordbank[f].pos || null, source: "bank" };
       }
       // last resort: whole phrase key present verbatim
       const lc = word.toLowerCase();
-      if (glossary && glossary[lc]) return { base: lc, def: glossary[lc], source: "gloss" };
+      if (glossary && glossary[lc]) {
+        const gv = glossVal(glossary[lc]);
+        return { base: lc, def: gv.meaning, pos: gv.pos, source: "gloss" };
+      }
       return null;
     }
     // Classify a word about to be added against the current wordbank, so the
@@ -948,6 +969,13 @@
       if (!cur || cur.deleted) return "new";
       return stageOf(cur) === "mastered" ? "mastered" : "exists";
     }
+    // Part-of-speech tag shown on wordbank entries — canonical English key
+    // (from the glossary/definition data) mapped to its Korean label for display.
+    const POS_KO = {
+      noun: "명사", verb: "동사", adjective: "형용사", adverb: "부사",
+      preposition: "전치사", conjunction: "접속사", pronoun: "대명사",
+      determiner: "한정사", interjection: "감탄사", phrase: "구",
+    };
 
     /* ------------------------------------------------------------------ */
     /* App root                                                            */
@@ -1155,7 +1183,7 @@
           // different casing/spacing (e.g. "Vanguard" vs "vanguard").
           const lcIndex = {};
           for (const k of Object.keys(next)) lcIndex[k.toLowerCase()] = k;
-          for (const { base, def, example } of entries) {
+          for (const { base, def, pos, example } of entries) {
             const norm = String(base || "").toLowerCase().trim();
             if (!norm) continue;
             const existing = lcIndex[norm];
@@ -1163,7 +1191,7 @@
             // No entry, or the existing one was soft-deleted → (re)collect fresh.
             if (!cur || cur.deleted) {
               const key = existing || norm;
-              next[key] = { meaning: def, addedDate: kstToday(), learned: false, articleId, example: example || "", updatedAt: Date.now() };
+              next[key] = { meaning: def, pos: pos || null, addedDate: kstToday(), learned: false, articleId, example: example || "", updatedAt: Date.now() };
               lcIndex[norm] = key;
             } else if (stageOf(cur) === "mastered") {
               // Running into an already-완료 word again means it wasn't actually
@@ -1171,10 +1199,10 @@
               // mastered (and never as a second, duplicate entry).
               next[existing] = {
                 ...cur, stage: "new", learned: false, masteredSince: undefined, reviewSince: undefined,
-                meaning: def || cur.meaning, example: cur.example || example || "", articleId, updatedAt: Date.now(),
+                meaning: def || cur.meaning, pos: pos || cur.pos || null, example: cur.example || example || "", articleId, updatedAt: Date.now(),
               };
-            } else if (example && !cur.example) {
-              next[existing] = { ...cur, example, updatedAt: Date.now() }; // backfill an example onto an existing word
+            } else if ((example && !cur.example) || (pos && !cur.pos)) {
+              next[existing] = { ...cur, example: cur.example || example, pos: cur.pos || pos, updatedAt: Date.now() }; // backfill example/pos onto an existing word
             }
           }
           return next;
@@ -1513,6 +1541,7 @@
             surface: word,
             base: found ? found.base : word.toLowerCase(),
             def: found ? found.def : null,
+            pos: found ? found.pos : null,
             fromBank: found ? found.source === "bank" : false,
           });
         });
@@ -1535,7 +1564,7 @@
               const found = lookupGloss(t, pack.glossary, wordbank);
               if (found && found.def && !seen.has(found.base)) {
                 seen.add(found.base);
-                glosses.push({ surface: t, base: found.base, def: found.def });
+                glosses.push({ surface: t, base: found.base, def: found.def, pos: found.pos });
               }
             }
           });
@@ -1565,7 +1594,7 @@
         if (!completed || savedRef.current) return;
         savedRef.current = true;
         (async () => {
-          const withDef = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def, example: sentenceContaining(e.surface) }));
+          const withDef = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def, pos: e.pos, example: sentenceContaining(e.surface) }));
           const noDef = glossEntries.filter((e) => !e.def);
           const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
           let fetched = [];
@@ -1578,7 +1607,7 @@
                 });
                 if (!r.ok) return null;
                 const d = await r.json();
-                return d && d.meaning ? { base: (d.word || e.base), def: d.meaning, example: d.example || sentenceContaining(e.surface) } : null;
+                return d && d.meaning ? { base: (d.word || e.base), def: d.meaning, pos: d.pos || null, example: d.example || sentenceContaining(e.surface) } : null;
               } catch { return null; }
             }));
             fetched = results.filter(Boolean);
@@ -1614,7 +1643,7 @@
       const addOne = (g, ev) => {
         ev.stopPropagation();
         const cls = classifyWord(wordbank, g.base);
-        onAddWords([{ base: g.base, def: g.def }], pack.id);
+        onAddWords([{ base: g.base, def: g.def, pos: g.pos }], pack.id);
         if (cls === "mastered") showToast(`"${g.base}" 완료했던 단어예요 · 다시 미암기로 이동했어요`);
         else if (cls === "exists") showToast(`"${g.base}" 이미 단어장에 있는 단어예요`);
         else showToast(`"${g.base}" 단어장에 담았어요`);
@@ -1671,6 +1700,7 @@
                           : <span className="sbrow muted">번역은 다음 갱신부터 표시됩니다</span>}
                         {s.glosses.map((g, gi) => (
                           <span className="sbrow" key={gi} onClick={(ev) => addOne(g, ev)}>
+                            {g.pos && <span className="poschip">{POS_KO[g.pos] || g.pos}</span>}
                             <b>{g.surface}</b> — {g.def} <span className="sbadd">+ 담기</span>
                           </span>
                         ))}
@@ -2305,7 +2335,7 @@
       // Each card carries its own `stage`, so a mixed-stage deck (e.g. the
       // filter-driven "학습하기" session below) can advance each word
       // correctly without a single global mode.
-      const toCard = (word, v) => ({ word, meaning: v.meaning, example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) });
+      const toCard = (word, v) => ({ word, meaning: v.meaning, pos: v.pos || null, example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) });
       const reviewPool = useMemo(
         () => aliveWords.filter(([, v]) => reviewDue(v)).map(([word, v]) => toCard(word, v)),
         [aliveWords, today]
@@ -2318,7 +2348,7 @@
       // currently shows, studyable as-is — including 완료, which otherwise had
       // no way to be reviewed again except resetting one word at a time.
       const filteredPool = useMemo(
-        () => entries.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage })),
+        () => entries.map((e) => ({ word: e.word, meaning: e.meaning, pos: e.pos || null, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage })),
         [entries]
       );
 
@@ -2370,7 +2400,7 @@
       };
       const startStudy = (pool, label) => {
         if (!pool.length) return;
-        const cards = pool.map((e) => ({ word: e.word, meaning: e.meaning, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage }));
+        const cards = pool.map((e) => ({ word: e.word, meaning: e.meaning, pos: e.pos || null, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage }));
         setStudyLabel(label); setDeckSource(cards);
         setDeck(shuffle(cards)); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
@@ -2430,17 +2460,19 @@
         stopSpeech();
         const d = shuffle(missed.map((w) => {
           const v = wordbank[w] || {};
-          return { word: w, meaning: v.meaning || "", example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) };
+          return { word: w, meaning: v.meaning || "", pos: v.pos || null, example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) };
         }));
         setDeck(d); setMissed([]); setHistory([]); setIdx(0); setCardFlip(false);
       };
 
-      // Backfill a missing example AND Korean gloss for the current study card
-      // via /api/define, so a long-press can show the Korean meaning instantly.
+      // Backfill a missing example, Korean gloss, AND part-of-speech tag for
+      // the current study card via /api/define — covers words added before
+      // pos existed, so a long-press still shows the Korean meaning instantly
+      // and the POS badge fills in as each word comes up in study.
       useEffect(() => {
         if (!studying || idx >= deck.length) return;
         const cur = deck[idx];
-        if (!cur || (cur.example && cur.meaningKo)) return;
+        if (!cur || (cur.example && cur.meaningKo && cur.pos)) return;
         const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
         if (!endpoint) return;
         let cancelled = false;
@@ -2456,6 +2488,7 @@
             const patch = {};
             if (d.example && !cur.example) patch.example = d.example;
             if (d.ko && !cur.meaningKo) patch.meaningKo = d.ko;
+            if (d.pos && !cur.pos) patch.pos = d.pos;
             if (!Object.keys(patch).length) return;
             setDeck((dk) => dk.map((it, i) => (i === idx ? { ...it, ...patch } : it)));
             setWordbank((prev) => (prev[cur.word] ? { ...prev, [cur.word]: { ...prev[cur.word], ...patch } } : prev));
@@ -2619,6 +2652,7 @@
               <button className="fc-speak" onPointerDown={(ev) => ev.stopPropagation()} onClick={(ev) => { ev.stopPropagation(); speakVisible(cur, cardFlip); }} title="발음 듣기">🔊</button>
               {cardFlip
                 ? <React.Fragment>
+                    {cur.pos && <span className="poschip">{POS_KO[cur.pos] || cur.pos}</span>}
                     <div className="fc-word fraunces">{cur.word}</div>
                     {cur.example && <div className="fc-ex">{cur.example}</div>}
                   </React.Fragment>
@@ -2773,6 +2807,7 @@
                   <button className="wdelete" onClick={(ev) => removeWord(e.word, ev)} aria-label="삭제" title="삭제">×</button>
                   <button className="wspeak" onClick={(ev) => { ev.stopPropagation(); speakVisible(e, !!flipped[e.word]); }} aria-label="발음 듣기" title="발음 듣기">🔊</button>
                   <div className="cardbody">
+                    {e.pos && <span className="poschip">{POS_KO[e.pos] || e.pos}</span>}
                     {flipped[e.word]
                       ? <div className="front fraunces">{e.word}</div>
                       : <div className="backdef">{e.meaning}</div>}

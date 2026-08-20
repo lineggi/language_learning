@@ -8,8 +8,9 @@ const DEFINE_SCHEMA = {
     meaning: { type: "string" },
     ko: { type: "string" },
     example: { type: "string" },
+    pos: { type: "string" },
   },
-  required: ["word", "meaning", "ko", "example"],
+  required: ["word", "meaning", "ko", "example", "pos"],
 };
 
 module.exports = async function handler(req, res) {
@@ -37,7 +38,8 @@ Return JSON: {
   "word": "<base/dictionary form of the word, lowercase>",
   "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words.>",
   "ko": "<the word's meaning in KOREAN — a short, natural Korean gloss (e.g. 정당성, 합법성 / 완화하다). Korean only, a few words, no English.>",
-  "example": "<one short, natural English example sentence (max ~14 words) that uses the word \\"${word}\\" itself>"
+  "example": "<one short, natural English example sentence (max ~14 words) that uses the word \\"${word}\\" itself>",
+  "pos": "<its part of speech in this sense — exactly one of: noun, verb, adjective, adverb, preposition, conjunction, pronoun, determiner, interjection, phrase>"
 }`;
 
   try {
@@ -54,10 +56,16 @@ Return JSON: {
     const data = await r.json();
     const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "{}";
     let out; try { out = JSON.parse(text); } catch { res.status(502).json({ error: "parse", raw: text.slice(0, 200) }); return; }
+    const VALID_POS = new Set([
+      "noun", "verb", "adjective", "adverb", "preposition",
+      "conjunction", "pronoun", "determiner", "interjection", "phrase",
+    ]);
     out.word = String(out.word || word).toLowerCase().trim();
     out.meaning = String(out.meaning || "").trim();
     out.ko = String(out.ko || "").trim();
     out.example = String(out.example || "").trim();
+    const pos = String(out.pos || "").toLowerCase().trim();
+    out.pos = VALID_POS.has(pos) ? pos : null;
     res.status(200).json(out);
   } catch (err) {
     res.status(500).json({ error: String((err && err.message) || err) });
