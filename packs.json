@@ -1,5 +1,945 @@
 [
   {
+    "id": "cd-2026-08-22-1",
+    "date": "2026-08-22",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "암호화폐 규제 법안인 Clarity Act가 오히려 업계 발전을 저해할 수 있다는 비판적 시각을 알아보세요.",
+    "url": "https://www.coindesk.com/opinion/2026/08/21/the-hard-truth-is-that-the-clarity-act-is-an-anti-crypto-bill",
+    "title": "Clarity Act: A Deceptive Regulatory Trap for Crypto?",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The crypto industry has long sought clear regulatory guidelines. Many hoped that new comprehensive legislation would bring much-needed certainty. However, some experts now argue the proposed Clarity Act is problematic. They believe it could actually hinder innovation and growth within the sector. The bill, despite its name, might create more confusion than clarity. Critics suggest it could become a political trap for the industry. It might force crypto firms into an unfavorable regulatory framework. Understanding these opposing views is crucial for industry stakeholders. This debate highlights the complexity of crafting effective crypto regulation. A well-informed perspective is essential for navigating future policy changes.",
+    "sentences": [
+      {
+        "en": "The crypto industry has long sought clear regulatory guidelines.",
+        "ko": "암호화폐 산업은 오랫동안 명확한 규제 지침을 요구해왔습니다."
+      },
+      {
+        "en": "Many hoped that new comprehensive legislation would bring much-needed certainty.",
+        "ko": "많은 사람들은 새로운 포괄적인 법안이 절실히 필요한 확실성을 가져올 것이라고 기대했습니다."
+      },
+      {
+        "en": "However, some experts now argue the proposed Clarity Act is problematic.",
+        "ko": "그러나 일부 전문가들은 현재 제안된 Clarity Act가 문제가 있다고 주장합니다."
+      },
+      {
+        "en": "They believe it could actually hinder innovation and growth within the sector.",
+        "ko": "그들은 이 법안이 실제로 암호화폐 부문의 혁신과 성장을 저해할 수 있다고 생각합니다."
+      },
+      {
+        "en": "The bill, despite its name, might create more confusion than clarity.",
+        "ko": "이 법안은 이름과 달리 명확성보다는 더 많은 혼란을 야기할 수 있습니다."
+      },
+      {
+        "en": "Critics suggest it could become a political trap for the industry.",
+        "ko": "비판론자들은 이 법안이 업계에 정치적 함정이 될 수 있다고 말합니다."
+      },
+      {
+        "en": "It might force crypto firms into an unfavorable regulatory framework.",
+        "ko": "이는 암호화폐 기업들을 불리한 규제 프레임워크로 강제할 수 있습니다."
+      },
+      {
+        "en": "Understanding these opposing views is crucial for industry stakeholders.",
+        "ko": "이러한 상반된 견해를 이해하는 것은 산업 이해관계자들에게 매우 중요합니다."
+      },
+      {
+        "en": "This debate highlights the complexity of crafting effective crypto regulation.",
+        "ko": "이 논쟁은 효과적인 암호화폐 규제 법안을 만드는 것의 복잡성을 보여줍니다."
+      },
+      {
+        "en": "A well-informed perspective is essential for navigating future policy changes.",
+        "ko": "미래 정책 변화에 대처하기 위해서는 잘 알려진 관점이 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "sought": {
+        "meaning": "This is the past tense of 'seek', meaning to try to find or obtain something, often with effort.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "This adjective describes something related to the rules or laws that control an industry or activity.",
+        "pos": "adjective"
+      },
+      "guidelines": {
+        "meaning": "These are general rules, principles, or advice for how to do something correctly or safely.",
+        "pos": "noun"
+      },
+      "comprehensive": {
+        "meaning": "This adjective means including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "legislation": {
+        "meaning": "This refers to a law or a set of laws made by a government or law-making body.",
+        "pos": "noun"
+      },
+      "certainty": {
+        "meaning": "This is the state of being free from doubt or knowing something for sure without question.",
+        "pos": "noun"
+      },
+      "proposed": {
+        "meaning": "This adjective describes something that has been suggested for consideration or discussion.",
+        "pos": "adjective"
+      },
+      "problematic": {
+        "meaning": "This means constituting or presenting a problem, making something difficult to deal with.",
+        "pos": "adjective"
+      },
+      "hinder": {
+        "meaning": "This verb means to make it difficult for someone to do something or for something to happen.",
+        "pos": "verb"
+      },
+      "innovation": {
+        "meaning": "This is the introduction of new ideas, methods, or devices that are often more effective.",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "This refers to a particular area or part of the economy, industry, or society.",
+        "pos": "noun"
+      },
+      "critics": {
+        "meaning": "These are people who express an unfavorable opinion of something, often pointing out flaws.",
+        "pos": "noun"
+      },
+      "suggest": {
+        "meaning": "This verb means to put forward an idea or plan for consideration by others.",
+        "pos": "verb"
+      },
+      "political": {
+        "meaning": "This adjective describes something relating to the government or public affairs of a country.",
+        "pos": "adjective"
+      },
+      "trap": {
+        "meaning": "This refers to a difficult or dangerous situation from which it is hard to escape.",
+        "pos": "noun"
+      },
+      "unfavorable": {
+        "meaning": "This adjective means not helpful or positive; something that is disadvantageous or negative.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "This is a basic structure underlying a system, concept, or text, providing support.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "This adjective means extremely important or necessary, often determining success or failure.",
+        "pos": "adjective"
+      },
+      "stakeholders": {
+        "meaning": "These are people or groups who have an interest or concern in something, like a business.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "This verb means to draw special attention to something, making it stand out.",
+        "pos": "verb"
+      },
+      "complexity": {
+        "meaning": "This is the state of being intricate or complicated, having many interconnected parts.",
+        "pos": "noun"
+      },
+      "crafting": {
+        "meaning": "This verb means making or inventing something with skill and careful attention to detail.",
+        "pos": "verb"
+      },
+      "effective": {
+        "meaning": "This adjective means successful in producing a desired or intended result, working well.",
+        "pos": "adjective"
+      },
+      "perspective": {
+        "meaning": "This is a particular way of considering something; a point of view or outlook.",
+        "pos": "noun"
+      },
+      "navigating": {
+        "meaning": "This verb means finding the way through a complex or difficult situation, often with skill.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the main concern raised by experts regarding the Clarity Act, according to the passage?",
+      "In the context of the passage, what does \"political trap\" imply for the crypto industry?",
+      "Do you think comprehensive regulation is always beneficial for emerging industries like crypto, or can it sometimes stifle innovation? Explain your view."
+    ],
+    "modelAnswers": [
+      "Experts are concerned that the Clarity Act, despite its name, might actually hinder innovation and growth in the crypto sector and create more confusion.",
+      "A \"political trap\" in this context implies that the Clarity Act could force crypto firms into an unfavorable regulatory framework, potentially making it difficult for them to operate or grow due to restrictive policies.",
+      "While comprehensive regulation can bring certainty and protect consumers, it can also stifle innovation if it's too rigid or poorly designed. For emerging industries, a balance is needed to allow for experimentation while mitigating significant risks."
+    ]
+  },
+  {
+    "id": "cd-2026-08-22-2",
+    "date": "2026-08-22",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "리플이 새로운 기관용 대출 상품에 RLUSD 스테이블코인을 활용하며 토큰화와 기관 금융의 미래를 엿보세요.",
+    "url": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months",
+    "title": "Ripple Supports New Institutional Stablecoin Lending Fund",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Ripple is actively supporting a new credit fund focused on institutional lending. This initiative involves Clearpool and Cicada Partners. The fund will utilize RLUSD, a new stablecoin, for its operations. This development marks a significant step towards bridging traditional finance with crypto. Institutional lending products are crucial for expanding crypto's utility. They offer regulated and transparent options for large-scale investors. The underlying XRP Ledger features supporting RLUSD are pending activation. This highlights the ongoing evolution of blockchain infrastructure. Such projects demonstrate the growing appetite for tokenized assets. A successful launch could attract more institutional capital to the ecosystem.",
+    "sentences": [
+      {
+        "en": "Ripple is actively supporting a new credit fund focused on institutional lending.",
+        "ko": "리플은 기관 대출에 초점을 맞춘 새로운 신용 펀드를 적극적으로 지원하고 있습니다."
+      },
+      {
+        "en": "This initiative involves Clearpool and Cicada Partners.",
+        "ko": "이 이니셔티브에는 Clearpool과 Cicada Partners가 참여합니다."
+      },
+      {
+        "en": "The fund will utilize RLUSD, a new stablecoin, for its operations.",
+        "ko": "이 펀드는 운영을 위해 새로운 스테이블코인인 RLUSD를 활용할 것입니다."
+      },
+      {
+        "en": "This development marks a significant step towards bridging traditional finance with crypto.",
+        "ko": "이러한 발전은 전통 금융과 암호화폐를 연결하는 중요한 발걸음입니다."
+      },
+      {
+        "en": "Institutional lending products are crucial for expanding crypto's utility.",
+        "ko": "기관 대출 상품은 암호화폐의 유용성을 확장하는 데 중요합니다."
+      },
+      {
+        "en": "They offer regulated and transparent options for large-scale investors.",
+        "ko": "이들은 대규모 투자자들에게 규제되고 투명한 옵션을 제공합니다."
+      },
+      {
+        "en": "The underlying XRP Ledger features supporting RLUSD are pending activation.",
+        "ko": "RLUSD를 지원하는 기본 XRP Ledger 기능은 활성화를 기다리고 있습니다."
+      },
+      {
+        "en": "This highlights the ongoing evolution of blockchain infrastructure.",
+        "ko": "이는 블록체인 인프라의 지속적인 발전을 보여줍니다."
+      },
+      {
+        "en": "Such projects demonstrate the growing appetite for tokenized assets.",
+        "ko": "이러한 프로젝트들은 토큰화된 자산에 대한 증가하는 수요를 입증합니다."
+      },
+      {
+        "en": "A successful launch could attract more institutional capital to the ecosystem.",
+        "ko": "성공적인 출시는 더 많은 기관 자본을 생태계로 유치할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "actively": {
+        "meaning": "This adverb means doing something with energy and enthusiasm, participating fully.",
+        "pos": "adverb"
+      },
+      "supporting": {
+        "meaning": "This verb means giving help, approval, or encouragement to someone or something.",
+        "pos": "verb"
+      },
+      "institutional": {
+        "meaning": "This adjective describes something related to a large and established organization, like a bank.",
+        "pos": "adjective"
+      },
+      "initiative": {
+        "meaning": "This refers to an important new plan or program that has been started.",
+        "pos": "noun"
+      },
+      "utilize": {
+        "meaning": "This verb means to make practical and effective use of something available.",
+        "pos": "verb"
+      },
+      "stablecoin": {
+        "meaning": "This is a type of cryptocurrency designed to maintain a stable price, often pegged to a fiat currency.",
+        "pos": "noun"
+      },
+      "operations": {
+        "meaning": "These are the activities involved in running a business or organization on a daily basis.",
+        "pos": "noun"
+      },
+      "bridging": {
+        "meaning": "This verb means connecting two things or groups, often by reducing a gap between them.",
+        "pos": "verb"
+      },
+      "utility": {
+        "meaning": "This is the quality of being useful, practical, or effective for a specific purpose.",
+        "pos": "noun"
+      },
+      "regulated": {
+        "meaning": "This adjective means controlled or supervised by rules or laws, ensuring compliance.",
+        "pos": "adjective"
+      },
+      "transparent": {
+        "meaning": "This means allowing people to see the truth easily and clearly, without hidden motives.",
+        "pos": "adjective"
+      },
+      "options": {
+        "meaning": "These are choices or possibilities that are available to someone.",
+        "pos": "noun"
+      },
+      "underlying": {
+        "meaning": "This adjective means forming the basis or foundation of something, though not always obvious.",
+        "pos": "adjective"
+      },
+      "ledger": {
+        "meaning": "This is a record-keeping system, often used in blockchain technology for transactions.",
+        "pos": "noun"
+      },
+      "features": {
+        "meaning": "These are distinctive attributes or characteristics of something, often making it unique.",
+        "pos": "noun"
+      },
+      "pending": {
+        "meaning": "This adjective means waiting to be decided or dealt with; not yet completed or settled.",
+        "pos": "adjective"
+      },
+      "activation": {
+        "meaning": "This is the process of making something active or operational, bringing it into use.",
+        "pos": "noun"
+      },
+      "evolution": {
+        "meaning": "This is the gradual development of something, often from a simple to a more complex form.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "This refers to the basic physical and organizational structures needed for an operation.",
+        "pos": "noun"
+      },
+      "demonstrate": {
+        "meaning": "This verb means to clearly show the existence or truth of something by giving proof or evidence.",
+        "pos": "verb"
+      },
+      "appetite": {
+        "meaning": "This refers to a strong desire or liking for something, a craving.",
+        "pos": "noun"
+      },
+      "ecosystem": {
+        "meaning": "This refers to a complex network or interconnected system, especially of businesses or technologies.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the main purpose of the new credit fund supported by Ripple, and which entities are involved in its creation?",
+      "How does the term \"tokenized assets\" relate to the RLUSD stablecoin and the overall goal of this project?",
+      "In your opinion, what are the biggest challenges for stablecoins to gain widespread adoption in institutional lending, and how might projects like this address them?"
+    ],
+    "modelAnswers": [
+      "The new credit fund, supported by Ripple and developed by Clearpool and Cicada Partners, aims to facilitate institutional lending using the RLUSD stablecoin.",
+      "\"Tokenized assets\" refers to real-world assets represented on a blockchain. RLUSD is a stablecoin, a type of tokenized asset, used in this project to enable institutional lending, thus tokenizing the lending process itself.",
+      "Challenges include regulatory uncertainty, liquidity issues, and trust in the underlying collateral. Projects like this address them by focusing on institutional clients, leveraging established partners, and aiming for transparent, regulated products within existing blockchain frameworks."
+    ]
+  },
+  {
+    "id": "cd-2026-08-22-3",
+    "date": "2026-08-22",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "노무라가 지원하는 Laser Digital이 일본에서 4년 만에 첫 암호화폐 승인을 받으며 기관 시장의 새로운 지평을 엽니다.",
+    "url": "https://www.coindesk.com/policy/2026/08/21/nomura-backed-laser-digital-wins-japan-s-first-crypto-approval-in-four-years",
+    "title": "Nomura-Backed Laser Digital Secures Japan Crypto Approval",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Nomura-backed Laser Digital has achieved a significant regulatory milestone in Japan. They secured the first crypto approval in the country in four years. This approval allows Laser Digital Japan to provide liquidity services. These services will cater to domestic crypto providers initially. The company also plans to introduce institutional trading services. This move indicates a growing appetite for crypto assets in Japan. It signals a potential shift in Japan's cautious regulatory stance. For crypto PMs, this presents new opportunities for market expansion. Such institutional entries can significantly bolster market maturity. Understanding global regulatory shifts is vital for strategic planning.",
+    "sentences": [
+      {
+        "en": "Nomura-backed Laser Digital has achieved a significant regulatory milestone in Japan.",
+        "ko": "노무라가 지원하는 Laser Digital은 일본에서 중요한 규제 이정표를 달성했습니다."
+      },
+      {
+        "en": "They secured the first crypto approval in the country in four years.",
+        "ko": "그들은 4년 만에 일본에서 첫 암호화폐 승인을 확보했습니다."
+      },
+      {
+        "en": "This approval allows Laser Digital Japan to provide liquidity services.",
+        "ko": "이 승인은 Laser Digital Japan이 유동성 서비스를 제공할 수 있도록 허용합니다."
+      },
+      {
+        "en": "These services will cater to domestic crypto providers initially.",
+        "ko": "이 서비스는 초기에는 국내 암호화폐 제공업체들을 대상으로 할 것입니다."
+      },
+      {
+        "en": "The company also plans to introduce institutional trading services.",
+        "ko": "이 회사는 또한 기관 거래 서비스를 도입할 계획입니다."
+      },
+      {
+        "en": "This move indicates a growing appetite for crypto assets in Japan.",
+        "ko": "이러한 움직임은 일본에서 암호화폐 자산에 대한 수요가 증가하고 있음을 나타냅니다."
+      },
+      {
+        "en": "It signals a potential shift in Japan's cautious regulatory stance.",
+        "ko": "이는 일본의 신중한 규제 입장에 잠재적인 변화를 알리는 신호입니다."
+      },
+      {
+        "en": "For crypto PMs, this presents new opportunities for market expansion.",
+        "ko": "암호화폐 PM들에게는 시장 확장을 위한 새로운 기회를 제공합니다."
+      },
+      {
+        "en": "Such institutional entries can significantly bolster market maturity.",
+        "ko": "이러한 기관의 진입은 시장 성숙도를 크게 강화할 수 있습니다."
+      },
+      {
+        "en": "Understanding global regulatory shifts is vital for strategic planning.",
+        "ko": "글로벌 규제 변화를 이해하는 것은 전략적 계획에 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "backed": {
+        "meaning": "This adjective describes something supported or financed by someone or something, often a larger entity.",
+        "pos": "adjective"
+      },
+      "achieved": {
+        "meaning": "This verb means successfully brought about or reached a desired result, often through effort.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "This adjective means important or noteworthy, having a notable effect or meaning.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "This adjective describes something related to the rules or laws that control an industry or activity.",
+        "pos": "adjective"
+      },
+      "milestone": {
+        "meaning": "This refers to an important event in the development or progress of something.",
+        "pos": "noun"
+      },
+      "secured": {
+        "meaning": "This verb means obtained something, especially after a lot of effort or negotiation.",
+        "pos": "verb"
+      },
+      "approval": {
+        "meaning": "This is official permission or agreement for something to happen or be done.",
+        "pos": "noun"
+      },
+      "provide": {
+        "meaning": "This verb means to make something available for use or supply it to someone.",
+        "pos": "verb"
+      },
+      "domestic": {
+        "meaning": "This adjective describes something relating to one's own country or home.",
+        "pos": "adjective"
+      },
+      "initially": {
+        "meaning": "This adverb means at the beginning; at first, before other things happen.",
+        "pos": "adverb"
+      },
+      "introduce": {
+        "meaning": "This verb means to bring something new into use or existence for the first time.",
+        "pos": "verb"
+      },
+      "indicates": {
+        "meaning": "This verb means to point out or show something, often indirectly or as a sign.",
+        "pos": "verb"
+      },
+      "appetite": {
+        "meaning": "This refers to a strong desire or liking for something, like a market's demand.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "This verb means to convey information or an instruction by means of a gesture or action.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "This adjective means having or showing the capacity to develop into something in the future.",
+        "pos": "adjective"
+      },
+      "cautious": {
+        "meaning": "This adjective means careful to avoid potential problems or dangers, acting with prudence.",
+        "pos": "adjective"
+      },
+      "stance": {
+        "meaning": "This refers to a way of thinking or feeling about something, especially a person's attitude.",
+        "pos": "noun"
+      },
+      "presents": {
+        "meaning": "This verb means to offer something for consideration or to make it available.",
+        "pos": "verb"
+      },
+      "opportunities": {
+        "meaning": "These are sets of circumstances that make it possible or favorable to do something.",
+        "pos": "noun"
+      },
+      "bolster": {
+        "meaning": "This verb means to support or strengthen something, to give it a boost.",
+        "pos": "verb"
+      },
+      "maturity": {
+        "meaning": "This is the state of being fully developed or adult, often implying stability and experience.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What significant event has Laser Digital achieved in Japan, and what services will it initially offer?",
+      "What does Laser Digital's approval in Japan suggest about the country's approach to crypto, and how might it impact the market?",
+      "How important do you think regulatory clarity and institutional participation are for the long-term growth and mainstream adoption of crypto?"
+    ],
+    "modelAnswers": [
+      "Laser Digital, backed by Nomura, has secured Japan's first crypto approval in four years. Initially, it will provide liquidity services to domestic crypto providers.",
+      "The approval suggests a potential shift in Japan's previously cautious regulatory stance, indicating a growing appetite for crypto assets. This could lead to new opportunities for market expansion and bolster market maturity.",
+      "Regulatory clarity and institutional participation are extremely important. Clarity provides a safe environment for businesses and investors, while institutional involvement brings capital, expertise, and legitimacy, which are crucial for mainstream adoption and long-term stability."
+    ]
+  },
+  {
+    "id": "ec-2026-08-22-1",
+    "date": "2026-08-22",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 재무부의 채권 전략이 시장을 진정시키려 했으나, 오히려 인플레이션 우려를 키우고 있다는 소식입니다.",
+    "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html",
+    "title": "Treasury Bond Strategy Fuels Inflation Fears",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. Treasury recently attempted to stabilize financial markets. Treasury Secretary Bessent introduced a strategy involving bond buybacks. This initiative aimed to reduce volatility and improve market liquidity. However, this action unexpectedly led to heightened inflation concerns. A key indicator, the breakeven rate, reached its highest level in months. This rate reflects investor expectations for future inflation. Market participants interpreted the buybacks as a sign of future government spending. Such spending could potentially drive up consumer prices. The Treasury's efforts to calm markets thus had an inverse effect. This situation highlights the complex interplay of policy and market sentiment.",
+    "sentences": [
+      {
+        "en": "The U.S. Treasury recently attempted to stabilize financial markets.",
+        "ko": "미국 재무부가 최근 금융 시장을 안정시키려 시도했습니다."
+      },
+      {
+        "en": "Treasury Secretary Bessent introduced a strategy involving bond buybacks.",
+        "ko": "베센트 재무장관은 채권 환매를 포함하는 전략을 발표했습니다."
+      },
+      {
+        "en": "This initiative aimed to reduce volatility and improve market liquidity.",
+        "ko": "이 조치는 변동성을 줄이고 시장 유동성을 개선하는 것을 목표로 했습니다."
+      },
+      {
+        "en": "However, this action unexpectedly led to heightened inflation concerns.",
+        "ko": "그러나 이 조치는 예상치 못하게 인플레이션 우려를 증폭시켰습니다."
+      },
+      {
+        "en": "A key indicator, the breakeven rate, reached its highest level in months.",
+        "ko": "핵심 지표인 손익분기 인플레이션율은 수개월 만에 최고 수준에 도달했습니다."
+      },
+      {
+        "en": "This rate reflects investor expectations for future inflation.",
+        "ko": "이 비율은 투자자들이 예상하는 미래 인플레이션을 반영합니다."
+      },
+      {
+        "en": "Market participants interpreted the buybacks as a sign of future government spending.",
+        "ko": "시장 참여자들은 환매를 미래 정부 지출의 신호로 해석했습니다."
+      },
+      {
+        "en": "Such spending could potentially drive up consumer prices.",
+        "ko": "그러한 지출은 잠재적으로 소비자 물가를 상승시킬 수 있습니다."
+      },
+      {
+        "en": "The Treasury's efforts to calm markets thus had an inverse effect.",
+        "ko": "따라서 재무부의 시장 진정 노력은 역효과를 냈습니다."
+      },
+      {
+        "en": "This situation highlights the complex interplay of policy and market sentiment.",
+        "ko": "이러한 상황은 정책과 시장 심리의 복잡한 상호작용을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "treasury": {
+        "meaning": "The government department in charge of managing public money and national debt.",
+        "pos": "noun"
+      },
+      "stabilize": {
+        "meaning": "To make something firm or steady, or to stop it from changing.",
+        "pos": "verb"
+      },
+      "strategy": {
+        "meaning": "A detailed plan for achieving success in situations such as business or war.",
+        "pos": "noun"
+      },
+      "bond": {
+        "meaning": "A certificate issued by a government or company promising to pay back borrowed money with interest.",
+        "pos": "noun"
+      },
+      "buybacks": {
+        "meaning": "The repurchase of bonds or shares by the issuer, often to reduce outstanding amounts.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "An important new plan or process to achieve a particular aim.",
+        "pos": "noun"
+      },
+      "volatility": {
+        "meaning": "The tendency of a market or price to change rapidly and unpredictably.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "The ease with which an asset or security can be converted into ready cash without affecting its market price.",
+        "pos": "noun"
+      },
+      "heightened": {
+        "meaning": "Made more intense or increased in degree.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "indicator": {
+        "meaning": "A sign or symptom that shows the state or level of something.",
+        "pos": "noun"
+      },
+      "breakeven": {
+        "meaning": "A point at which gains are equal to losses, often referring to inflation expectations.",
+        "pos": "adjective"
+      },
+      "rate": {
+        "meaning": "A measure, quantity, or frequency, typically one measured against another quantity or standard.",
+        "pos": "noun"
+      },
+      "reflects": {
+        "meaning": "Shows or represents something, especially an attitude or state of affairs.",
+        "pos": "verb"
+      },
+      "investor": {
+        "meaning": "A person or organization that puts money into financial schemes, property, or a business with the expectation of achieving a profit.",
+        "pos": "noun"
+      },
+      "expectations": {
+        "meaning": "Strong beliefs that something will happen or be the case.",
+        "pos": "noun"
+      },
+      "interpreted": {
+        "meaning": "Explained the meaning of information or actions.",
+        "pos": "verb"
+      },
+      "participants": {
+        "meaning": "People involved in an activity or event, such as a market.",
+        "pos": "noun"
+      },
+      "potentially": {
+        "meaning": "With the possibility of becoming actual or real.",
+        "pos": "adverb"
+      },
+      "interplay": {
+        "meaning": "The way in which two or more things influence each other.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "A general feeling or opinion among a group of people.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific action did Treasury Secretary Bessent take that led to increased inflation concerns?",
+      "Q2: Explain what the \"breakeven rate\" signifies in the context of this article and why its rise is significant.",
+      "Q3: Do you think government interventions aimed at stabilizing markets always carry the risk of unintended consequences? Why or why not?"
+    ],
+    "modelAnswers": [
+      "A1: Treasury Secretary Bessent introduced a strategy involving bond buybacks, which was aimed at reducing market volatility and improving liquidity.",
+      "A2: The breakeven rate is a key indicator that reflects investor expectations for future inflation. Its rise is significant because it suggests that market participants anticipate higher inflation ahead, despite efforts to calm markets.",
+      "A3: Yes, government interventions often carry risks of unintended consequences because markets are complex systems influenced by many factors, including investor psychology. A policy designed for one outcome might inadvertently trigger others."
+    ]
+  },
+  {
+    "id": "ec-2026-08-22-2",
+    "date": "2026-08-22",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "세계적인 투자자 레이 달리오가 임박한 부채 위기에 대비해 채권을 팔고 금과 비트코인을 매수하라고 조언했습니다.",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOOFNlaXRxVm9ULW11VjZ0VXNpLXNBYy1tVTVsUDNQQndtZW0zNjJ6TzBZUTNJT2hEeUI0OHZZQkh0QWlEd0tJbVFjck1paXRkaE9WUy1aT3IzaWNpOVNFRWhKRzd5VXNuXzNpX3VkVll6T05Sb3NhY01IV1MtdkNvWDkzNW9oN1FqaWJiRks5WTlLaDhvMGpkTXRUVHFocmptTHZwSzFXZjBJRGh4bDJB",
+    "title": "Dalio Advises Selling Bonds, Buying Gold and Bitcoin",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Renowned investor Ray Dalio has issued a significant warning. He suggests a looming debt crisis could impact global markets. Dalio advises investors to adjust their portfolios accordingly. Specifically, he recommends selling traditional bonds. Instead, he advocates for investments in gold and Bitcoin. These assets are often considered hedges against inflation and currency devaluation. His perspective stems from concerns about increasing government debt levels. He also worries about the potential for central banks to print more money. Such actions could further erode the value of fiat currencies. Dalio's advice reflects a growing shift towards alternative assets. This is especially true in an uncertain economic environment.",
+    "sentences": [
+      {
+        "en": "Renowned investor Ray Dalio has issued a significant warning.",
+        "ko": "저명한 투자자 레이 달리오는 중요한 경고를 발표했습니다."
+      },
+      {
+        "en": "He suggests a looming debt crisis could impact global markets.",
+        "ko": "그는 임박한 부채 위기가 전 세계 시장에 영향을 미칠 수 있다고 말했습니다."
+      },
+      {
+        "en": "Dalio advises investors to adjust their portfolios accordingly.",
+        "ko": "달리오는 투자자들에게 그에 맞춰 포트폴리오를 조정하라고 조언합니다."
+      },
+      {
+        "en": "Specifically, he recommends selling traditional bonds.",
+        "ko": "구체적으로 그는 전통적인 채권을 매도할 것을 권장합니다."
+      },
+      {
+        "en": "Instead, he advocates for investments in gold and Bitcoin.",
+        "ko": "대신 그는 금과 비트코인 투자를 옹호합니다."
+      },
+      {
+        "en": "These assets are often considered hedges against inflation and currency devaluation.",
+        "ko": "이 자산들은 종종 인플레이션과 통화 가치 하락에 대한 헤지 수단으로 간주됩니다."
+      },
+      {
+        "en": "His perspective stems from concerns about increasing government debt levels.",
+        "ko": "그의 관점은 증가하는 정부 부채 수준에 대한 우려에서 비롯됩니다."
+      },
+      {
+        "en": "He also worries about the potential for central banks to print more money.",
+        "ko": "그는 또한 중앙은행이 더 많은 돈을 찍어낼 가능성에 대해 우려합니다."
+      },
+      {
+        "en": "Such actions could further erode the value of fiat currencies.",
+        "ko": "그러한 조치는 법정 화폐의 가치를 더욱 침식할 수 있습니다."
+      },
+      {
+        "en": "Dalio's advice reflects a growing shift towards alternative assets.",
+        "ko": "달리오의 조언은 대체 자산으로의 전환이 증가하고 있음을 반영합니다."
+      },
+      {
+        "en": "This is especially true in an uncertain economic environment.",
+        "ko": "이는 불확실한 경제 환경에서 특히 그렇습니다."
+      }
+    ],
+    "glossary": {
+      "renowned": {
+        "meaning": "Known or talked about by many people; famous.",
+        "pos": "adjective"
+      },
+      "investor": {
+        "meaning": "A person or organization that puts money into financial schemes, property, or a business with the expectation of achieving a profit.",
+        "pos": "noun"
+      },
+      "issued": {
+        "meaning": "Made something available officially, especially a statement or warning.",
+        "pos": "verb"
+      },
+      "looming": {
+        "meaning": "Appearing as a shadowy form, especially one that is large or threatening.",
+        "pos": "adjective"
+      },
+      "crisis": {
+        "meaning": "A time of intense difficulty, trouble, or danger.",
+        "pos": "noun"
+      },
+      "adjust": {
+        "meaning": "To alter or move something slightly in order to achieve a desired fit, appearance, or result.",
+        "pos": "verb"
+      },
+      "portfolios": {
+        "meaning": "A range of investments held by a person or organization.",
+        "pos": "noun"
+      },
+      "accordingly": {
+        "meaning": "In a way that is appropriate to the particular circumstances.",
+        "pos": "adverb"
+      },
+      "recommends": {
+        "meaning": "Suggests or praises someone or something as being suitable for a particular purpose or role.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "Existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "advocates": {
+        "meaning": "Publicly recommends or supports a particular cause or policy.",
+        "pos": "verb"
+      },
+      "assets": {
+        "meaning": "Items of value owned by a person or company, which can be converted into cash.",
+        "pos": "noun"
+      },
+      "hedges": {
+        "meaning": "Investments made to reduce the risk of adverse price movements in an asset.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "currency": {
+        "meaning": "A system of money in general use in a particular country.",
+        "pos": "noun"
+      },
+      "devaluation": {
+        "meaning": "The official lowering of the value of a country's currency in relation to other currencies.",
+        "pos": "noun"
+      },
+      "perspective": {
+        "meaning": "A particular attitude toward or way of regarding something; a point of view.",
+        "pos": "noun"
+      },
+      "stems": {
+        "meaning": "Originated from or was caused by something.",
+        "pos": "verb"
+      },
+      "erode": {
+        "meaning": "Gradually destroy or be destroyed.",
+        "pos": "verb"
+      },
+      "fiat": {
+        "meaning": "(Of currency) intrinsically worthless but declared by a government to be legal tender.",
+        "pos": "adjective"
+      },
+      "alternative": {
+        "meaning": "Available as another possibility or choice.",
+        "pos": "adjective"
+      },
+      "uncertain": {
+        "meaning": "Not known or definite.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific investment advice did Ray Dalio give regarding bonds, gold, and Bitcoin?",
+      "Q2: Explain why Dalio considers gold and Bitcoin to be \"hedges\" in the context of his warning.",
+      "Q3: Do you agree with Dalio's advice to sell traditional bonds and invest in alternative assets like gold and Bitcoin during times of economic uncertainty? Why or why not?"
+    ],
+    "modelAnswers": [
+      "A1: Ray Dalio advised investors to sell traditional bonds and instead invest in gold and Bitcoin.",
+      "A2: Dalio considers gold and Bitcoin as hedges because they are often seen as stores of value that can protect against inflation and currency devaluation, which he fears could happen due to increasing government debt and money printing.",
+      "A3: While Dalio's advice has merit given his concerns about debt and inflation, it's also highly speculative. Traditional bonds offer stability, and alternative assets like Bitcoin are volatile. Diversification is key, and individual risk tolerance should guide investment decisions."
+    ]
+  },
+  {
+    "id": "ec-2026-08-22-3",
+    "date": "2026-08-22",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "애플이 시리, 비전 프로 몰입형 비디오 및 게이밍 팀에서 인력을 감축하며 기술 업계의 변화를 보여주고 있습니다.",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQOEY0T0xmU2N1UmtxZHFIaXRVb2Q1bmhiaG1KR1RyYlBRTjZ3TnN3ZWlLZjFvTDNrMnJIYS1qcnU4ak0zMk5lUDV3T1NaRUVyZ2tRUktYODVTSnBUOG1vZEV5MkRKeFowdjhjTlp0Vm0wbkhKUzlOVEVlUjFZTkc4ZG84Q2I4RVliZEx6UUtWWnQ0LTdYYWlpZ3Y2RVRIbnVuVmRfNzFLM2JsOEhmYzJqU0RVeDBKdmloakE",
+    "title": "Apple Reduces Staff in Key Tech Divisions",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Apple, a leading technology giant, has announced job cuts. These reductions are impacting several key divisions. Teams working on Siri, Vision Pro immersive video, and gaming are affected. This move signals a strategic shift within the company. It might reflect a reprioritization of its vast resources. The tech industry is currently navigating a period of adjustment. Many companies are optimizing operations and focusing on core strengths. Such workforce changes can indicate broader market trends. They might also suggest evolving consumer demand for certain technologies. For fintech professionals, understanding these shifts is crucial. It helps in anticipating future technological landscapes and investment opportunities.",
+    "sentences": [
+      {
+        "en": "Apple, a leading technology giant, has announced job cuts.",
+        "ko": "선도적인 기술 대기업 애플이 인력 감축을 발표했습니다."
+      },
+      {
+        "en": "These reductions are impacting several key divisions.",
+        "ko": "이러한 감축은 여러 핵심 부서에 영향을 미치고 있습니다."
+      },
+      {
+        "en": "Teams working on Siri, Vision Pro immersive video, and gaming are affected.",
+        "ko": "시리, 비전 프로 몰입형 비디오, 그리고 게이밍 팀이 영향을 받았습니다."
+      },
+      {
+        "en": "This move signals a strategic shift within the company.",
+        "ko": "이러한 움직임은 회사 내부의 전략적 변화를 시사합니다."
+      },
+      {
+        "en": "It might reflect a reprioritization of its vast resources.",
+        "ko": "이는 방대한 자원의 재배치를 반영할 수 있습니다."
+      },
+      {
+        "en": "The tech industry is currently navigating a period of adjustment.",
+        "ko": "기술 산업은 현재 조정 기간을 거치고 있습니다."
+      },
+      {
+        "en": "Many companies are optimizing operations and focusing on core strengths.",
+        "ko": "많은 회사들이 운영을 최적화하고 핵심 강점에 집중하고 있습니다."
+      },
+      {
+        "en": "Such workforce changes can indicate broader market trends.",
+        "ko": "이러한 인력 변화는 더 넓은 시장 동향을 나타낼 수 있습니다."
+      },
+      {
+        "en": "They might also suggest evolving consumer demand for certain technologies.",
+        "ko": "또한 특정 기술에 대한 소비자 수요의 변화를 시사할 수도 있습니다."
+      },
+      {
+        "en": "For fintech professionals, understanding these shifts is crucial.",
+        "ko": "핀테크 전문가들에게 이러한 변화를 이해하는 것은 매우 중요합니다."
+      },
+      {
+        "en": "It helps in anticipating future technological landscapes and investment opportunities.",
+        "ko": "이는 미래 기술 환경과 투자 기회를 예측하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "leading": {
+        "meaning": "Most important or successful.",
+        "pos": "adjective"
+      },
+      "giant": {
+        "meaning": "A very large and powerful organization or company.",
+        "pos": "noun"
+      },
+      "announced": {
+        "meaning": "Made a public statement about a fact or intention.",
+        "pos": "verb"
+      },
+      "reductions": {
+        "meaning": "Acts of making something smaller or less in amount, degree, or size.",
+        "pos": "noun"
+      },
+      "impacting": {
+        "meaning": "Having a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "divisions": {
+        "meaning": "Separate parts of a large organization.",
+        "pos": "noun"
+      },
+      "immersive": {
+        "meaning": "Appearing to surround the user, as in virtual reality.",
+        "pos": "adjective"
+      },
+      "affected": {
+        "meaning": "Influenced or changed by something.",
+        "pos": "adjective"
+      },
+      "signals": {
+        "meaning": "Indicates or conveys information about something.",
+        "pos": "verb"
+      },
+      "strategic": {
+        "meaning": "Relating to the identification of long-term or overall aims and interests.",
+        "pos": "adjective"
+      },
+      "shift": {
+        "meaning": "A slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "reflect": {
+        "meaning": "Show or be a sign of something.",
+        "pos": "verb"
+      },
+      "reprioritization": {
+        "meaning": "The act of changing the order of importance for tasks or goals.",
+        "pos": "noun"
+      },
+      "resources": {
+        "meaning": "A stock or supply of money, materials, staff, and other assets that can be drawn on by a person or organization.",
+        "pos": "noun"
+      },
+      "navigating": {
+        "meaning": "Moving through or handling a difficult situation successfully.",
+        "pos": "verb"
+      },
+      "adjustment": {
+        "meaning": "A small alteration or movement made to achieve a desired fit, appearance, or result.",
+        "pos": "noun"
+      },
+      "optimizing": {
+        "meaning": "Making the best or most effective use of a situation, opportunity, or resource.",
+        "pos": "verb"
+      },
+      "workforce": {
+        "meaning": "All the people working or available to work, as in a company or country.",
+        "pos": "noun"
+      },
+      "broader": {
+        "meaning": "Covering a large number of subjects or a wide scope.",
+        "pos": "adjective"
+      },
+      "evolving": {
+        "meaning": "Developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "Of great importance.",
+        "pos": "adjective"
+      },
+      "anticipating": {
+        "meaning": "Regard as probable; expect or predict.",
+        "pos": "verb"
+      },
+      "landscapes": {
+        "meaning": "All the visible features of an area of land, often used metaphorically for a field of activity.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Which specific teams or divisions within Apple were mentioned as being affected by job cuts?",
+      "Q2: How might these job cuts in a major tech company like Apple indicate \"broader market trends\" or \"evolving consumer demand\"?",
+      "Q3: As a fintech PM, why is it crucial to understand strategic shifts and workforce changes in major technology companies?"
+    ],
+    "modelAnswers": [
+      "A1: The job cuts at Apple affected teams working on Siri, Vision Pro immersive video, and gaming.",
+      "A2: These job cuts can indicate broader market trends like a general slowdown in tech hiring or a shift away from certain speculative projects. They might also suggest evolving consumer demand, where Apple is reallocating resources to areas with higher growth potential or stronger current demand.",
+      "A3: For a fintech PM, understanding these shifts is crucial because the fintech industry is deeply intertwined with broader tech trends. Changes at major tech companies can signal shifts in underlying technologies, consumer behavior, and investment focus, all of which directly impact fintech product development and market strategy."
+    ]
+  },
+  {
     "id": "cd-2026-08-21-1",
     "date": "2026-08-21",
     "rank": 1,
