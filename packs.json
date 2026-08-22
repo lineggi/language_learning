@@ -1,5 +1,981 @@
 [
   {
+    "id": "cd-2026-08-23-1",
+    "date": "2026-08-23",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "일론 머스크의 X가 크리에이터들에게 스테이블코인으로 보상하려 한다는 소식과 함께 최근 암호화폐 시장의 주요 동향을 살펴보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/22/bitcoin-and-ether-bears-get-decimated-amid-squeeze-led-rally-and-musk-s-x-wants-to-pay-creators-in-stablecoins-crypto-week-in-5-stories",
+    "title": "X Explores Stablecoin Payments Amid Crypto Rally",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Elon Musk's X is reportedly considering stablecoin payments for its content creators. This move could significantly boost stablecoin adoption in mainstream applications. Meanwhile, the crypto market recently experienced its strongest rally in months. Several factors contributed to this sudden market surge. Treasury intervention played a key role in the upward trend. New regulatory developments also influenced investor sentiment. A historic short squeeze caught many bearish traders off guard. This forced liquidation of short positions fueled rapid price increases. Banks and technology companies are increasingly exploring stablecoin integration. This indicates a growing institutional interest in digital currencies.",
+    "sentences": [
+      {
+        "en": "Elon Musk's X is reportedly considering stablecoin payments for its content creators.",
+        "ko": "일론 머스크의 X는 콘텐츠 크리에이터들에게 스테이블코인 결제를 고려 중인 것으로 알려졌습니다."
+      },
+      {
+        "en": "This move could significantly boost stablecoin adoption in mainstream applications.",
+        "ko": "이러한 움직임은 주류 애플리케이션에서 스테이블코인 채택을 크게 촉진할 수 있습니다."
+      },
+      {
+        "en": "Meanwhile, the crypto market recently experienced its strongest rally in months.",
+        "ko": "한편, 암호화폐 시장은 최근 몇 달 만에 가장 강력한 랠리를 경험했습니다."
+      },
+      {
+        "en": "Several factors contributed to this sudden market surge.",
+        "ko": "여러 요인이 이러한 갑작스러운 시장 급등에 기여했습니다."
+      },
+      {
+        "en": "Treasury intervention played a key role in the upward trend.",
+        "ko": "재무부의 개입은 상승 추세에 중요한 역할을 했습니다."
+      },
+      {
+        "en": "New regulatory developments also influenced investor sentiment.",
+        "ko": "새로운 규제 개발 또한 투자자 심리에 영향을 미쳤습니다."
+      },
+      {
+        "en": "A historic short squeeze caught many bearish traders off guard.",
+        "ko": "역사적인 숏 스퀴즈는 많은 하락론자들을 당황하게 만들었습니다."
+      },
+      {
+        "en": "This forced liquidation of short positions fueled rapid price increases.",
+        "ko": "이러한 숏 포지션 강제 청산은 급격한 가격 상승을 부추겼습니다."
+      },
+      {
+        "en": "Banks and technology companies are increasingly exploring stablecoin integration.",
+        "ko": "은행과 기술 기업들은 스테이블코인 통합을 점점 더 모색하고 있습니다."
+      },
+      {
+        "en": "This indicates a growing institutional interest in digital currencies.",
+        "ko": "이는 디지털 통화에 대한 기관의 관심이 커지고 있음을 나타냅니다."
+      }
+    ],
+    "glossary": {
+      "reportedly": {
+        "meaning": "used to say that something has been stated or reported by others, often without direct confirmation.",
+        "pos": "adverb"
+      },
+      "considering": {
+        "meaning": "thinking carefully about something, especially before making a decision or plan.",
+        "pos": "verb"
+      },
+      "creators": {
+        "meaning": "people who make or produce original content, such as videos, music, or art.",
+        "pos": "noun"
+      },
+      "boost": {
+        "meaning": "to help something to increase, improve, or become more successful.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use or accept something new, like a technology or a product.",
+        "pos": "noun"
+      },
+      "mainstream": {
+        "meaning": "the ideas, attitudes, or activities that are regarded as normal or conventional by most people.",
+        "pos": "adjective"
+      },
+      "rally": {
+        "meaning": "a period of renewed strength or recovery, especially in financial markets after a decline.",
+        "pos": "noun"
+      },
+      "surge": {
+        "meaning": "a sudden, strong increase in something, such as prices or activity.",
+        "pos": "noun"
+      },
+      "intervention": {
+        "meaning": "the act of becoming involved in a situation to influence its outcome, often by a government or authority.",
+        "pos": "noun"
+      },
+      "regulatory": {
+        "meaning": "relating to the rules or laws that control an activity or process.",
+        "pos": "adjective"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion about something, often reflecting public mood or investor confidence.",
+        "pos": "noun"
+      },
+      "historic": {
+        "meaning": "very important or famous in history, or likely to be considered so in the future.",
+        "pos": "adjective"
+      },
+      "squeeze": {
+        "meaning": "a situation where a lot of people are forced to buy something because its price is increasing rapidly.",
+        "pos": "noun"
+      },
+      "bearish": {
+        "meaning": "expecting prices to fall in a financial market, or characterized by a pessimistic outlook.",
+        "pos": "adjective"
+      },
+      "traders": {
+        "meaning": "people who buy and sell goods or assets, often for profit, especially on financial markets.",
+        "pos": "noun"
+      },
+      "liquidation": {
+        "meaning": "the process of converting assets into cash, often occurring when a position is forcibly closed.",
+        "pos": "noun"
+      },
+      "fueled": {
+        "meaning": "supplied with something that makes it stronger or increases its power or speed.",
+        "pos": "verb"
+      },
+      "integration": {
+        "meaning": "the process of combining different things so they can work together effectively.",
+        "pos": "noun"
+      },
+      "indicates": {
+        "meaning": "points out or shows something, often suggesting a trend or situation.",
+        "pos": "verb"
+      },
+      "institutional": {
+        "meaning": "relating to a large and important organization, such as a bank or university.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What major tech company is reportedly exploring stablecoin payments for creators?",
+      "In the context of the article, what does \"short squeeze\" refer to, and how did it impact the crypto market?",
+      "Do you think major tech companies adopting stablecoins for payments will significantly accelerate their mainstream use? What challenges might they face?"
+    ],
+    "modelAnswers": [
+      "Elon Musk's X is reportedly considering stablecoin payments for its content creators.",
+      "A \"short squeeze\" refers to a situation where many bearish traders are forced to buy assets to cover their positions as prices rise, leading to rapid price increases. This fueled the recent crypto market rally.",
+      "Yes, I believe major tech companies adopting stablecoins could greatly accelerate their mainstream use by exposing them to a wider audience. However, they might face challenges like regulatory uncertainty, scalability issues, and user education regarding digital assets."
+    ]
+  },
+  {
+    "id": "cd-2026-08-23-2",
+    "date": "2026-08-23",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화된 주식이 1960년대 월스트리트의 '페이퍼 위기'를 반복할 수 있다는 경고를 통해 토큰화의 잠재적 위험을 이해하세요.",
+    "url": "https://www.coindesk.com/tech/2026/08/22/tokenized-stocks-risk-repeating-wall-street-s-1960s-paper-crisis-fairmint-ceo-says",
+    "title": "Tokenized Stocks Warned of 'Paper Crisis' Risk",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Fairmint CEO Joris Delanoue recently warned about tokenized stocks. He suggests they risk repeating Wall Street's 1960s \"paper crisis.\" The original crisis involved overwhelming amounts of physical paperwork. This led to significant operational backlogs and inefficiencies. Delanoue argues tokenized stocks could face similar issues. The core problem is the proliferation of fragmented systems. A lack of unified standards across platforms exacerbates this risk. Without clear interoperability, managing these assets becomes complex. This fragmentation could hinder efficient settlement and reconciliation. It might also create regulatory challenges for oversight bodies. Establishing robust, standardized infrastructure is crucial for tokenization's success.",
+    "sentences": [
+      {
+        "en": "Fairmint CEO Joris Delanoue recently warned about tokenized stocks.",
+        "ko": "페어민트 CEO 조리스 들라누는 최근 토큰화된 주식에 대해 경고했습니다."
+      },
+      {
+        "en": "He suggests they risk repeating Wall Street's 1960s \"paper crisis.\"",
+        "ko": "그는 토큰화된 주식이 1960년대 월스트리트의 '페이퍼 위기'를 반복할 위험이 있다고 말합니다."
+      },
+      {
+        "en": "The original crisis involved overwhelming amounts of physical paperwork.",
+        "ko": "원래의 위기는 압도적인 양의 물리적 서류 작업과 관련이 있었습니다."
+      },
+      {
+        "en": "This led to significant operational backlogs and inefficiencies.",
+        "ko": "이는 상당한 운영 적체와 비효율성을 초래했습니다."
+      },
+      {
+        "en": "Delanoue argues tokenized stocks could face similar issues.",
+        "ko": "들라누는 토큰화된 주식도 비슷한 문제에 직면할 수 있다고 주장합니다."
+      },
+      {
+        "en": "The core problem is the proliferation of fragmented systems.",
+        "ko": "핵심 문제는 파편화된 시스템의 확산입니다."
+      },
+      {
+        "en": "A lack of unified standards across platforms exacerbates this risk.",
+        "ko": "플랫폼 전반에 걸친 통일된 표준의 부족이 이러한 위험을 악화시킵니다."
+      },
+      {
+        "en": "Without clear interoperability, managing these assets becomes complex.",
+        "ko": "명확한 상호운용성 없이는 이러한 자산을 관리하는 것이 복잡해집니다."
+      },
+      {
+        "en": "This fragmentation could hinder efficient settlement and reconciliation.",
+        "ko": "이러한 파편화는 효율적인 결제 및 조정 작업을 방해할 수 있습니다."
+      },
+      {
+        "en": "It might also create regulatory challenges for oversight bodies.",
+        "ko": "이는 또한 감독 기관에 규제 문제를 야기할 수 있습니다."
+      },
+      {
+        "en": "Establishing robust, standardized infrastructure is crucial for tokenization's success.",
+        "ko": "견고하고 표준화된 인프라를 구축하는 것이 토큰화 성공에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "warned": {
+        "meaning": "gave notice to someone about a possible danger, problem, or unpleasant situation.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing ownership or value.",
+        "pos": "adjective"
+      },
+      "repeating": {
+        "meaning": "doing or saying something again, or happening again.",
+        "pos": "verb"
+      },
+      "crisis": {
+        "meaning": "a time of intense difficulty or danger, or a turning point when a decision must be made.",
+        "pos": "noun"
+      },
+      "overwhelming": {
+        "meaning": "very great in amount, extent, or intensity, making it difficult to deal with.",
+        "pos": "adjective"
+      },
+      "physical": {
+        "meaning": "relating to things that are real and tangible, rather than digital or abstract.",
+        "pos": "adjective"
+      },
+      "paperwork": {
+        "meaning": "routine work involving written documents, such as forms, reports, or letters.",
+        "pos": "noun"
+      },
+      "operational": {
+        "meaning": "relating to the way a system or organization works or is managed.",
+        "pos": "adjective"
+      },
+      "backlogs": {
+        "meaning": "accumulations of uncompleted work or orders, often causing delays.",
+        "pos": "noun"
+      },
+      "inefficiencies": {
+        "meaning": "situations where resources are not used in the most effective way, leading to waste.",
+        "pos": "noun"
+      },
+      "argues": {
+        "meaning": "gives reasons or evidence in support of an idea, action, or theory.",
+        "pos": "verb"
+      },
+      "proliferation": {
+        "meaning": "a rapid increase in the number or amount of something.",
+        "pos": "noun"
+      },
+      "fragmented": {
+        "meaning": "broken into small, separate, or incomplete parts.",
+        "pos": "adjective"
+      },
+      "unified": {
+        "meaning": "made into or combined into a single, cohesive whole.",
+        "pos": "adjective"
+      },
+      "exacerbates": {
+        "meaning": "makes a problem, bad situation, or negative feeling worse.",
+        "pos": "verb"
+      },
+      "interoperability": {
+        "meaning": "the ability of different computer systems or software to exchange and make use of information.",
+        "pos": "noun"
+      },
+      "hinder": {
+        "meaning": "to make it difficult for someone to do something or for something to happen.",
+        "pos": "verb"
+      },
+      "settlement": {
+        "meaning": "the process of completing a financial transaction, typically by exchanging assets or payments.",
+        "pos": "noun"
+      },
+      "reconciliation": {
+        "meaning": "the process of making two different financial records or accounts consistent with each other.",
+        "pos": "noun"
+      },
+      "oversight": {
+        "meaning": "the action of supervising someone or something, especially officially.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy, or able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "standardized": {
+        "meaning": "made to conform to a standard or set of uniform criteria.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Who issued the warning about tokenized stocks repeating a 1960s crisis?",
+      "What does the term \"fragmented systems\" mean in the context of tokenized stocks, and why is it a concern?",
+      "Do you believe the risks associated with tokenized stocks are manageable with proper regulation, or do they pose fundamental challenges to traditional finance?"
+    ],
+    "modelAnswers": [
+      "Fairmint CEO Joris Delanoue issued the warning about tokenized stocks.",
+      "\"Fragmented systems\" refers to many separate and uncoordinated platforms or technologies used for tokenized stocks. This is a concern because it hinders interoperability and makes managing these assets complex, potentially leading to operational backlogs.",
+      "While proper regulation can mitigate some risks, tokenized stocks might still pose fundamental challenges due to the inherent complexity of integrating decentralized technologies with traditional financial systems. Clear, unified standards are essential."
+    ]
+  },
+  {
+    "id": "cd-2026-08-23-3",
+    "date": "2026-08-23",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "'Clarity Act' 통과를 둘러싼 논쟁을 통해 미국 암호화폐 규제 환경의 복잡성을 이해하세요.",
+    "url": "https://www.coindesk.com/opinion/2026/08/21/pass-the-clarity-act",
+    "title": "Clarity Act Faces Crucial Vote Hurdle",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The \"Clarity Act\" is a key piece of proposed legislation for crypto. It aims to provide much-needed regulatory certainty for digital assets. However, a specific provision is now causing significant debate. Reopening this previously settled part could jeopardize the entire bill. This is happening just weeks before a crucial vote. Summer Mersinger, CEO of the Blockchain Association, voiced concerns. She argues that this action would effectively sink the legislation. Passing this act is vital for the crypto industry's growth and stability. It would establish clearer rules for market participants. The legislative process often involves delicate political balances. Its failure could prolong regulatory uncertainty in the sector.",
+    "sentences": [
+      {
+        "en": "The \"Clarity Act\" is a key piece of proposed legislation for crypto.",
+        "ko": "'Clarity Act'는 암호화폐를 위한 중요한 제안된 법안입니다."
+      },
+      {
+        "en": "It aims to provide much-needed regulatory certainty for digital assets.",
+        "ko": "이는 디지털 자산에 필요한 규제 확실성을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, a specific provision is now causing significant debate.",
+        "ko": "하지만, 특정 조항이 현재 상당한 논쟁을 불러일으키고 있습니다."
+      },
+      {
+        "en": "Reopening this previously settled part could jeopardize the entire bill.",
+        "ko": "이전에 합의된 부분을 재개하는 것은 전체 법안을 위태롭게 할 수 있습니다."
+      },
+      {
+        "en": "This is happening just weeks before a crucial vote.",
+        "ko": "이는 중요한 투표를 몇 주 앞두고 발생하고 있습니다."
+      },
+      {
+        "en": "Summer Mersinger, CEO of the Blockchain Association, voiced concerns.",
+        "ko": "블록체인 협회 CEO인 서머 머싱거는 우려를 표명했습니다."
+      },
+      {
+        "en": "She argues that this action would effectively sink the legislation.",
+        "ko": "그녀는 이러한 행동이 사실상 법안을 좌초시킬 것이라고 주장합니다."
+      },
+      {
+        "en": "Passing this act is vital for the crypto industry's growth and stability.",
+        "ko": "이 법안의 통과는 암호화폐 산업의 성장과 안정성에 필수적입니다."
+      },
+      {
+        "en": "It would establish clearer rules for market participants.",
+        "ko": "이는 시장 참여자들을 위한 더 명확한 규칙을 확립할 것입니다."
+      },
+      {
+        "en": "The legislative process often involves delicate political balances.",
+        "ko": "입법 과정은 종종 섬세한 정치적 균형을 수반합니다."
+      },
+      {
+        "en": "Its failure could prolong regulatory uncertainty in the sector.",
+        "ko": "법안 실패는 해당 부문의 규제 불확실성을 장기화할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "proposed": {
+        "meaning": "suggested for consideration, discussion, or acceptance.",
+        "pos": "adjective"
+      },
+      "legislation": {
+        "meaning": "laws or a set of laws made by a government.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "intends or plans to achieve a particular purpose or objective.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "relating to the rules or laws that control an activity or process.",
+        "pos": "adjective"
+      },
+      "certainty": {
+        "meaning": "the state of being definite or known for sure.",
+        "pos": "noun"
+      },
+      "provision": {
+        "meaning": "a clause or condition in a legal document or law.",
+        "pos": "noun"
+      },
+      "debate": {
+        "meaning": "a formal discussion on a particular matter, often with opposing arguments.",
+        "pos": "noun"
+      },
+      "reopening": {
+        "meaning": "the act of starting again or reconsidering something that was previously closed or settled.",
+        "pos": "verb"
+      },
+      "settled": {
+        "meaning": "officially decided or agreed upon, often after discussion or negotiation.",
+        "pos": "adjective"
+      },
+      "jeopardize": {
+        "meaning": "to put someone or something into a situation in which there is a danger of loss, harm, or failure.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important, especially because it will affect other things.",
+        "pos": "adjective"
+      },
+      "voiced": {
+        "meaning": "expressed in words or sounds, often publicly.",
+        "pos": "verb"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or anxiety about something.",
+        "pos": "noun"
+      },
+      "argues": {
+        "meaning": "gives reasons or evidence in support of an idea, action, or theory.",
+        "pos": "verb"
+      },
+      "effectively": {
+        "meaning": "in a way that achieves the desired result, or almost completely.",
+        "pos": "adverb"
+      },
+      "sink": {
+        "meaning": "to cause something to fail or be destroyed.",
+        "pos": "verb"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "establish": {
+        "meaning": "to set up or create something, such as a system, rule, or organization.",
+        "pos": "verb"
+      },
+      "participants": {
+        "meaning": "people who take part in an activity or event.",
+        "pos": "noun"
+      },
+      "delicate": {
+        "meaning": "needing careful and sensitive handling.",
+        "pos": "adjective"
+      },
+      "balances": {
+        "meaning": "situations in which different elements are in the correct or desired proportions.",
+        "pos": "noun"
+      },
+      "prolong": {
+        "meaning": "to extend the duration of something; to make something last longer.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "According to the article, what action risks sinking the Clarity Act bill?",
+      "What does \"reopening a settled provision\" mean in the context of legislation, and why is it considered problematic here?",
+      "How important is it for the crypto industry to have clear regulatory frameworks like the proposed Clarity Act? What are the potential consequences if such legislation fails?"
+    ],
+    "modelAnswers": [
+      "Reopening a previously settled provision risks sinking the Clarity Act bill.",
+      "\"Reopening a settled provision\" means reconsidering or debating a specific part of a law that was already agreed upon. It's problematic because it could disrupt the legislative consensus and cause the entire bill to fail, especially so close to a vote.",
+      "Clear regulatory frameworks are vital for the crypto industry as they provide certainty, foster innovation, and encourage institutional adoption. If such legislation fails, it could prolong uncertainty, deter investment, and hinder the industry's ability to grow and mature."
+    ]
+  },
+  {
+    "id": "ec-2026-08-23-1",
+    "date": "2026-08-23",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "트럼프 행정부의 정책이 글로벌 채권 시장에 어떤 파장을 일으키는지 알아보세요.",
+    "url": "https://www.theguardian.com/business/2026/aug/20/why-us-bond-market-turmoil-hitting-governments-worldwide",
+    "title": "Trump's Policies Stir Global Bond Market Turmoil",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US bond market is experiencing significant turmoil. This instability is largely attributed to the Trump administration's policies. Government borrowing costs have surged to multi-decade highs. This rise affects not only the US but also economies worldwide. Experts point to increased US national debt as a primary factor. Trump's fiscal policies, including tax cuts and spending, expanded the deficit. Higher deficits often lead to more government borrowing. This increased borrowing pushes up demand for bonds. Consequently, bond yields rise, making it more expensive for governments to borrow. This global impact is felt in Europe, the UK, and Japan. Higher borrowing costs can slow economic growth globally. Consumers and businesses face increased loan rates and financial strain. Understanding these dynamics is crucial for economic stability.",
+    "sentences": [
+      {
+        "en": "The US bond market is experiencing significant turmoil.",
+        "ko": "미국 채권 시장은 상당한 혼란을 겪고 있습니다."
+      },
+      {
+        "en": "This instability is largely attributed to the Trump administration's policies.",
+        "ko": "이 불안정성은 주로 트럼프 행정부의 정책 때문입니다."
+      },
+      {
+        "en": "Government borrowing costs have surged to multi-decade highs.",
+        "ko": "정부의 차입 비용이 수십 년 만에 최고치로 급등했습니다."
+      },
+      {
+        "en": "This rise affects not only the US but also economies worldwide.",
+        "ko": "이러한 상승은 미국뿐만 아니라 전 세계 경제에 영향을 미칩니다."
+      },
+      {
+        "en": "Experts point to increased US national debt as a primary factor.",
+        "ko": "전문가들은 미국 국가 부채 증가를 주요 요인으로 지적합니다."
+      },
+      {
+        "en": "Trump's fiscal policies, including tax cuts and spending, expanded the deficit.",
+        "ko": "트럼프의 재정 정책은 감세와 지출을 포함하여 적자를 확대했습니다."
+      },
+      {
+        "en": "Higher deficits often lead to more government borrowing.",
+        "ko": "더 높은 적자는 종종 더 많은 정부 차입으로 이어집니다."
+      },
+      {
+        "en": "This increased borrowing pushes up demand for bonds.",
+        "ko": "이러한 차입 증가는 채권 수요를 밀어 올립니다."
+      },
+      {
+        "en": "Consequently, bond yields rise, making it more expensive for governments to borrow.",
+        "ko": "결과적으로 채권 수익률이 상승하여 정부가 자금을 빌리는 것이 더 비싸집니다."
+      },
+      {
+        "en": "This global impact is felt in Europe, the UK, and Japan.",
+        "ko": "이러한 세계적인 영향은 유럽, 영국, 일본에서 느껴집니다."
+      },
+      {
+        "en": "Higher borrowing costs can slow economic growth globally.",
+        "ko": "더 높은 차입 비용은 전 세계 경제 성장을 둔화시킬 수 있습니다."
+      },
+      {
+        "en": "Consumers and businesses face increased loan rates and financial strain.",
+        "ko": "소비자와 기업은 증가된 대출 금리와 재정적 부담에 직면합니다."
+      },
+      {
+        "en": "Understanding these dynamics is crucial for economic stability.",
+        "ko": "이러한 역학 관계를 이해하는 것은 경제 안정을 위해 중요합니다."
+      }
+    ],
+    "glossary": {
+      "turmoil": {
+        "meaning": "a state of great confusion, disorder, or uncertainty.",
+        "pos": "noun"
+      },
+      "attributed": {
+        "meaning": "regarded as belonging to or caused by someone or something.",
+        "pos": "verb"
+      },
+      "surged": {
+        "meaning": "moved suddenly and powerfully forward or upward.",
+        "pos": "verb"
+      },
+      "multi-decade": {
+        "meaning": "lasting for several decades, or periods of ten years.",
+        "pos": "adjective"
+      },
+      "primary": {
+        "meaning": "main, most important, or fundamental.",
+        "pos": "adjective"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, and spending.",
+        "pos": "adjective"
+      },
+      "expanded": {
+        "meaning": "made or became larger or more extensive.",
+        "pos": "verb"
+      },
+      "deficit": {
+        "meaning": "the amount by which something, especially money, is too small.",
+        "pos": "noun"
+      },
+      "consequently": {
+        "meaning": "as a result; therefore.",
+        "pos": "adverb"
+      },
+      "yields": {
+        "meaning": "the income returned on an investment, typically expressed as an annual percentage.",
+        "pos": "noun"
+      },
+      "strain": {
+        "meaning": "a force or influence that stretches, pulls, or puts pressure on something.",
+        "pos": "noun"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential.",
+        "pos": "adjective"
+      },
+      "stability": {
+        "meaning": "the state of being firm, not likely to change or fail.",
+        "pos": "noun"
+      },
+      "instability": {
+        "meaning": "the state of not being stable or predictable.",
+        "pos": "noun"
+      },
+      "policies": {
+        "meaning": "a course or principle of action adopted or proposed by a government, party, business, or individual.",
+        "pos": "noun"
+      },
+      "economies": {
+        "meaning": "the system by which a country's money and goods are produced and used.",
+        "pos": "noun"
+      },
+      "factor": {
+        "meaning": "a circumstance, fact, or influence that contributes to a result.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money with an agreement to pay it back later.",
+        "pos": "noun"
+      },
+      "loan": {
+        "meaning": "a sum of money that is borrowed and expected to be paid back with interest.",
+        "pos": "noun"
+      },
+      "rate": {
+        "meaning": "a measure, quantity, or frequency, typically one measured against another quantity or measure.",
+        "pos": "noun"
+      },
+      "increased": {
+        "meaning": "became greater in size, amount, or intensity.",
+        "pos": "adjective"
+      },
+      "pushed": {
+        "meaning": "moved with force in a specified direction.",
+        "pos": "verb"
+      },
+      "expensive": {
+        "meaning": "costing a lot of money.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, what is identified as a primary factor contributing to the current turmoil in the US bond market?",
+      "Q2: Explain what \"bond yields rise\" means in the context of government borrowing and its impact on the economy.",
+      "Q3: How might global economic stability be affected if major economies continue to experience surging government borrowing costs?"
+    ],
+    "modelAnswers": [
+      "A1: The passage identifies increased US national debt, stemming from Trump's fiscal policies like tax cuts and spending, as a primary factor. These policies expanded the deficit, requiring more government borrowing.",
+      "A2: When \"bond yields rise,\" it means the return investors get on bonds increases. This makes it more expensive for governments to borrow money, as they must offer higher interest rates to attract investors, leading to higher loan rates for consumers and businesses.",
+      "A3: If major economies face consistently high borrowing costs, global economic stability could weaken. It would make public and private sector projects more expensive, potentially slowing investment, reducing consumer spending, and increasing the risk of recessions worldwide."
+    ]
+  },
+  {
+    "id": "ec-2026-08-23-2",
+    "date": "2026-08-23",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국과 캐나다 간의 무역 분쟁이 어떻게 고조되고 있는지, 그리고 이것이 경제에 미칠 영향은 무엇인지 살펴보세요.",
+    "url": "https://www.theguardian.com/world/2026/aug/22/canada-tariffs-trump-trade-deal-talks-fail",
+    "title": "US-Canada Trade War Escalates with Tariffs",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A significant trade dispute is escalating between the United States and Canada. The US recently imposed steep 50% tariffs on certain Canadian goods. Canada has vowed a \"dollar for dollar\" retaliatory response. This means Canada will impose equivalent tariffs on US products. The collapse of trade talks preceded this move. Such trade friction often leads to negative economic consequences. Businesses in both countries could face higher costs for imported materials. Consumers might see increased prices for goods. Analysts predict potential job losses in affected sectors. The biggest impact, however, is expected to be political. This trade row marks a major rupture between close allies. It highlights the challenges of protectionist trade policies. Understanding trade dynamics is vital for global economic health.",
+    "sentences": [
+      {
+        "en": "A significant trade dispute is escalating between the United States and Canada.",
+        "ko": "미국과 캐나다 사이에 상당한 무역 분쟁이 고조되고 있습니다."
+      },
+      {
+        "en": "The US recently imposed steep 50% tariffs on certain Canadian goods.",
+        "ko": "미국은 최근 특정 캐나다산 제품에 대해 50%의 높은 관세를 부과했습니다."
+      },
+      {
+        "en": "Canada has vowed a \"dollar for dollar\" retaliatory response.",
+        "ko": "캐나다는 '동등한 보복' 대응을 맹세했습니다."
+      },
+      {
+        "en": "This means Canada will impose equivalent tariffs on US products.",
+        "ko": "이는 캐나다가 미국산 제품에 동등한 관세를 부과할 것임을 의미합니다."
+      },
+      {
+        "en": "The collapse of trade talks preceded this move.",
+        "ko": "무역 협상 결렬이 이러한 조치에 앞서 있었습니다."
+      },
+      {
+        "en": "Such trade friction often leads to negative economic consequences.",
+        "ko": "이러한 무역 마찰은 종종 부정적인 경제적 결과를 초래합니다."
+      },
+      {
+        "en": "Businesses in both countries could face higher costs for imported materials.",
+        "ko": "양국의 기업들은 수입 원자재에 대해 더 높은 비용에 직면할 수 있습니다."
+      },
+      {
+        "en": "Consumers might see increased prices for goods.",
+        "ko": "소비자들은 상품 가격 인상을 경험할 수 있습니다."
+      },
+      {
+        "en": "Analysts predict potential job losses in affected sectors.",
+        "ko": "분석가들은 영향을 받는 부문에서 잠재적인 일자리 손실을 예측합니다."
+      },
+      {
+        "en": "The biggest impact, however, is expected to be political.",
+        "ko": "그러나 가장 큰 영향은 정치적일 것으로 예상됩니다."
+      },
+      {
+        "en": "This trade row marks a major rupture between close allies.",
+        "ko": "이 무역 분쟁은 가까운 동맹국들 사이의 큰 단절을 의미합니다."
+      },
+      {
+        "en": "It highlights the challenges of protectionist trade policies.",
+        "ko": "이는 보호주의 무역 정책의 어려움을 부각합니다."
+      },
+      {
+        "en": "Understanding trade dynamics is vital for global economic health.",
+        "ko": "무역 역학을 이해하는 것은 세계 경제 건전성에 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "dispute": {
+        "meaning": "a disagreement, argument, or debate.",
+        "pos": "noun"
+      },
+      "escalating": {
+        "meaning": "increasing rapidly in intensity or magnitude.",
+        "pos": "verb"
+      },
+      "imposed": {
+        "meaning": "forced something to be accepted or put in place.",
+        "pos": "verb"
+      },
+      "tariffs": {
+        "meaning": "taxes or duties to be paid on a particular class of imports or exports.",
+        "pos": "noun"
+      },
+      "vowed": {
+        "meaning": "solemnly promised to do a specified thing.",
+        "pos": "verb"
+      },
+      "retaliatory": {
+        "meaning": "characterized by an action taken in return for an injury or offense.",
+        "pos": "adjective"
+      },
+      "equivalent": {
+        "meaning": "equal in value, amount, function, meaning, etc.",
+        "pos": "adjective"
+      },
+      "preceded": {
+        "meaning": "came before something in time or position.",
+        "pos": "verb"
+      },
+      "friction": {
+        "meaning": "resistance to movement; here, conflict or animosity.",
+        "pos": "noun"
+      },
+      "consequences": {
+        "meaning": "results or effects of an action or condition.",
+        "pos": "noun"
+      },
+      "imported": {
+        "meaning": "brought goods or services into a country from abroad for sale.",
+        "pos": "adjective"
+      },
+      "predict": {
+        "meaning": "say or estimate that a specified thing will happen in the future.",
+        "pos": "verb"
+      },
+      "rupture": {
+        "meaning": "a break or disruption in friendly relations.",
+        "pos": "noun"
+      },
+      "allies": {
+        "meaning": "states or individuals cooperating with each other for a common purpose.",
+        "pos": "noun"
+      },
+      "protectionist": {
+        "meaning": "relating to the policy of protecting domestic industries from foreign competition.",
+        "pos": "adjective"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "sectors": {
+        "meaning": "a distinct part of an economy or society.",
+        "pos": "noun"
+      },
+      "materials": {
+        "meaning": "the matter from which a thing is or can be made.",
+        "pos": "noun"
+      },
+      "increased": {
+        "meaning": "became greater in size, amount, or intensity.",
+        "pos": "adjective"
+      },
+      "prices": {
+        "meaning": "the amount of money expected, required, or given in payment for something.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "difficulties that need to be dealt with.",
+        "pos": "noun"
+      },
+      "health": {
+        "meaning": "the state of being free from illness or injury; here, overall well-being.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific action did Canada vow to take in response to the US imposing tariffs, according to the passage?",
+      "Q2: In the context of trade, what does \"protectionist trade policies\" refer to, and how might they lead to \"trade friction\"?",
+      "Q3: If you were a business owner whose products were subject to these new tariffs, what strategies might you consider to mitigate the negative impacts?"
+    ],
+    "modelAnswers": [
+      "A1: Canada vowed a \"dollar for dollar\" retaliatory response, meaning it will impose equivalent tariffs on US products in return.",
+      "A2: \"Protectionist trade policies\" involve a country protecting its domestic industries from foreign competition, often through tariffs or quotas. They can lead to \"trade friction\" when other countries retaliate, escalating disputes and harming international relations and trade.",
+      "A3: As a business owner, I might explore diversifying my supply chain to source materials domestically or from other countries. I could also seek new markets for my products not affected by the tariffs, or adjust pricing and production to absorb some costs, if feasible."
+    ]
+  },
+  {
+    "id": "ec-2026-08-23-3",
+    "date": "2026-08-23",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "AI 관련 고등급 채권이 높은 수익률로 정크 본드 투자자들을 끌어들이는 현상에 대해 알아보세요.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdGM4LVl5N1E4Y1FCemMwQ19KTkpHVnFBVHhCSUpPQklwQVFvdmtZS0gzY2xHb2NQd0FxR19US0wyS0VRRlpNNE1IUS1DVE80TkJhTEVWMWNiV3VOYjRkYnlfYjdvZ2toOV92TEozaklsNXNmNjFfMzl3N3B3aDZQd1FTQXNORXYxZFRDVmVpY0FaTU1Gdmh3VmtjTDlOeFZmcjBBVlllRlN2azRKSlNpUnhjNA",
+    "title": "AI Debt Attracts Junk Bond Investors",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The bond market is currently seeing an interesting phenomenon. High-grade debt associated with artificial intelligence (AI) is offering attractive yields. These \"juicy yields\" are drawing a new type of investor. They are attracting what analysts call \"junk bond tourists.\" Junk bond investors typically seek higher returns from riskier assets. However, AI-related debt is generally considered higher quality. This suggests a unique opportunity for investors seeking yield. It allows them to gain higher returns with comparatively lower risk. The booming AI sector is driving this demand for financing. Companies need capital for research, development, and expansion. The influx of these \"tourist\" investors can impact market dynamics. It could potentially compress yields on other high-grade bonds. This trend highlights the intersection of technology and finance.",
+    "sentences": [
+      {
+        "en": "The bond market is currently seeing an interesting phenomenon.",
+        "ko": "채권 시장은 현재 흥미로운 현상을 목격하고 있습니다."
+      },
+      {
+        "en": "High-grade debt associated with artificial intelligence (AI) is offering attractive yields.",
+        "ko": "인공지능(AI) 관련 고등급 채권이 매력적인 수익률을 제공하고 있습니다."
+      },
+      {
+        "en": "These \"juicy yields\" are drawing a new type of investor.",
+        "ko": "이러한 '매력적인 수익률'은 새로운 유형의 투자자를 끌어들이고 있습니다."
+      },
+      {
+        "en": "They are attracting what analysts call \"junk bond tourists.\"",
+        "ko": "이들은 분석가들이 '정크 본드 관광객'이라고 부르는 투자자들을 유치하고 있습니다."
+      },
+      {
+        "en": "Junk bond investors typically seek higher returns from riskier assets.",
+        "ko": "정크 본드 투자자들은 일반적으로 더 위험한 자산에서 더 높은 수익을 추구합니다."
+      },
+      {
+        "en": "However, AI-related debt is generally considered higher quality.",
+        "ko": "그러나 AI 관련 채권은 일반적으로 더 높은 품질로 간주됩니다."
+      },
+      {
+        "en": "This suggests a unique opportunity for investors seeking yield.",
+        "ko": "이는 수익을 추구하는 투자자들에게 독특한 기회를 시사합니다."
+      },
+      {
+        "en": "It allows them to gain higher returns with comparatively lower risk.",
+        "ko": "이는 비교적 낮은 위험으로 더 높은 수익을 얻을 수 있게 해줍니다."
+      },
+      {
+        "en": "The booming AI sector is driving this demand for financing.",
+        "ko": "급성장하는 AI 부문이 이러한 자금 조달 수요를 주도하고 있습니다."
+      },
+      {
+        "en": "Companies need capital for research, development, and expansion.",
+        "ko": "기업들은 연구, 개발 및 확장을 위한 자본이 필요합니다."
+      },
+      {
+        "en": "The influx of these \"tourist\" investors can impact market dynamics.",
+        "ko": "이러한 '관광객' 투자자들의 유입은 시장 역학에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It could potentially compress yields on other high-grade bonds.",
+        "ko": "이는 잠재적으로 다른 고등급 채권의 수익률을 압축할 수 있습니다."
+      },
+      {
+        "en": "This trend highlights the intersection of technology and finance.",
+        "ko": "이러한 추세는 기술과 금융의 교차점을 부각합니다."
+      }
+    ],
+    "glossary": {
+      "phenomenon": {
+        "meaning": "a fact or situation that is observed to exist or happen, especially one whose cause or explanation is in question.",
+        "pos": "noun"
+      },
+      "associated": {
+        "meaning": "connected with something else.",
+        "pos": "adjective"
+      },
+      "attractive": {
+        "meaning": "pleasing or appealing to the senses or mind.",
+        "pos": "adjective"
+      },
+      "yields": {
+        "meaning": "the income returned on an investment, typically expressed as an annual percentage.",
+        "pos": "noun"
+      },
+      "drawing": {
+        "meaning": "attracting or pulling something towards itself.",
+        "pos": "verb"
+      },
+      "typically": {
+        "meaning": "usually; in most cases.",
+        "pos": "adverb"
+      },
+      "riskier": {
+        "meaning": "involving a greater degree of risk or danger.",
+        "pos": "adjective"
+      },
+      "assets": {
+        "meaning": "property owned by a person or company, regarded as having value and available to meet debts, commitments, or legacies.",
+        "pos": "noun"
+      },
+      "comparatively": {
+        "meaning": "in comparison with something else; relatively.",
+        "pos": "adverb"
+      },
+      "booming": {
+        "meaning": "experiencing a period of great prosperity or rapid growth.",
+        "pos": "adjective"
+      },
+      "sector": {
+        "meaning": "a distinct part of an economy or society.",
+        "pos": "noun"
+      },
+      "driving": {
+        "meaning": "providing the power to make something move or operate.",
+        "pos": "verb"
+      },
+      "financing": {
+        "meaning": "the provision of money for a particular purpose.",
+        "pos": "noun"
+      },
+      "capital": {
+        "meaning": "wealth in the form of money or other assets owned by a person or organization.",
+        "pos": "noun"
+      },
+      "expansion": {
+        "meaning": "the action of becoming larger or more extensive.",
+        "pos": "noun"
+      },
+      "influx": {
+        "meaning": "an arrival or entry of large numbers of people or things.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "a strong effect or influence on someone or something.",
+        "pos": "verb"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system.",
+        "pos": "noun"
+      },
+      "compress": {
+        "meaning": "reduce in size or volume by pressure; here, to reduce.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "intersection": {
+        "meaning": "a point or area where two or more things meet or cross.",
+        "pos": "noun"
+      },
+      "technology": {
+        "meaning": "the application of scientific knowledge for practical purposes.",
+        "pos": "noun"
+      },
+      "finance": {
+        "meaning": "the management of large amounts of money, especially by governments or large companies.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific characteristic of AI-related debt is attracting \"junk bond tourists,\" according to the passage?",
+      "Q2: Explain the typical investment strategy of \"junk bond investors\" and why their interest in high-grade AI debt is considered a \"unique opportunity.\"",
+      "Q3: As a fintech PM, how might this trend of \"junk bond tourists\" investing in high-grade AI debt influence your product development or market strategy?"
+    ],
+    "modelAnswers": [
+      "A1: High-grade AI-related debt is attracting \"junk bond tourists\" because it is offering \"juicy yields,\" which are attractive returns for investors.",
+      "A2: Junk bond investors typically seek higher returns from riskier assets. Their interest in high-grade AI debt is unique because it allows them to potentially achieve higher returns with comparatively lower risk than traditional junk bonds, combining yield with quality.",
+      "A3: This trend suggests strong market interest in AI-related financial products. As a fintech PM, I might explore developing platforms for AI-backed securities, tools for analyzing AI debt yields, or products that facilitate cross-segment investment, catering to both traditional and \"tourist\" investors."
+    ]
+  },
+  {
     "id": "cd-2026-08-22-1",
     "date": "2026-08-22",
     "rank": 1,
