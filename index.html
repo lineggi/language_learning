@@ -904,7 +904,6 @@
     // Spaced-repetition timing (days).
     const REVIEW_DUE_DAYS = 3;   // 복습중 → becomes due for the 복습하기 session
     const REVIEW_MAX_DAYS = 7;   // 복습중 not reviewed by now → reverts to 미암기
-    const MASTERED_TTL_DAYS = 7; // 장기완료 → auto-removed after this
 
     /* ------------------------------------------------------------------ */
     /* Lemma / word-form normalization for glossary lookup                 */
@@ -1109,13 +1108,18 @@
         return () => saveTimer.current && clearTimeout(saveTimer.current);
       }, [wordbank, reads, streak, session, hydrated]);
 
-      // Once on load: (1) drop mastered words sat in "장기완료" past their TTL,
-      // (2) revert "복습중" words that were never reviewed in time back to
-      // "미암기" so an unreviewed word doesn't stay stuck in review forever,
-      // and (3) permanently purge soft-deleted words once their tombstone is
-      // old enough to have safely propagated to every device (deletion has
-      // already won any sync merge by then, so keeping the tombstone forever
-      // would just grow the stored blob for no reason).
+      // Once on load: (1) revert "복습중" words that were never reviewed in
+      // time back to "미암기" so an unreviewed word doesn't stay stuck in
+      // review forever, and (2) permanently purge soft-deleted words once
+      // their tombstone is old enough to have safely propagated to every
+      // device (deletion has already won any sync merge by then, so keeping
+      // the tombstone forever would just grow the stored blob for no
+      // reason). 완료(mastered) words are NOT auto-removed — once a word is
+      // actually mastered it stays that way until the user deletes it;
+      // silently expiring it after a short TTL just sent it back through
+      // the entire 미암기→복습중 cycle from scratch the next time it turned
+      // up in an article, which looked exactly like "words I already
+      // reviewed keep reappearing in 복습중."
       const TOMBSTONE_TTL_MS = 30 * 86400000;
       useEffect(() => {
         setWordbank((prev) => {
@@ -1128,9 +1132,6 @@
               next[w] = v; continue;
             }
             const stage = v.stage || (v.learned ? "review" : "new");
-            if (stage === "mastered" && v.masteredSince && daysBetween(v.masteredSince, today) >= MASTERED_TTL_DAYS) {
-              changed = true; continue; // expired → remove
-            }
             if (stage === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_MAX_DAYS) {
               const { reviewSince, ...rest } = v;
               next[w] = { ...rest, stage: "new", learned: false, updatedAt: Date.now() }; // not reviewed in time → 미암기
@@ -2379,7 +2380,7 @@
         setConfirmClearAll(false);
         if (showToast) showToast(`${ids.length}개 단어를 삭제했어요`);
       };
-      // 완료(장기완료) 단어를 다시 복습중으로 되돌린다 (자동 삭제 예약도 해제).
+      // 완료(장기완료) 단어를 다시 복습중으로 되돌린다.
       const backToReview = (word, ev) => {
         ev && ev.stopPropagation();
         setWordbank((prev) => prev[word]
