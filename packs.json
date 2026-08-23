@@ -1,5 +1,997 @@
 [
   {
+    "id": "cd-2026-08-24-1",
+    "date": "2026-08-24",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "암호화폐 규제는 더 이상 먼 미래의 이야기가 아닙니다. SEC의 최신 제안이 어떻게 업계에 영향을 미칠지 알아보세요.",
+    "url": "https://www.coindesk.com/policy/2026/08/23/regulation-crypto-is-here-state-of-crypto",
+    "title": "SEC Proposes New Crypto Regulations",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The SEC recently published its Reg Crypto proposal. This initiates a 60-day public comment period. This move signifies a major step towards formal crypto regulation. The proposal aims to establish a clear regulatory framework. Industry stakeholders are now invited to provide their feedback. Such feedback is crucial for shaping future policies. This development highlights the growing mainstream attention on digital assets. It also underscores the need for compliance in this evolving sector. Clear rules can foster greater stability and adoption. Businesses must adapt to these upcoming regulatory changes. This is a critical moment for the entire crypto ecosystem. It will influence how digital assets are perceived globally.",
+    "sentences": [
+      {
+        "en": "The SEC recently published its Reg Crypto proposal.",
+        "ko": "SEC는 최근 암호화폐 규제 제안을 발표했습니다."
+      },
+      {
+        "en": "This initiates a 60-day public comment period.",
+        "ko": "이는 60일간의 공개 의견 수렴 기간을 시작합니다."
+      },
+      {
+        "en": "This move signifies a major step towards formal crypto regulation.",
+        "ko": "이 조치는 공식적인 암호화폐 규제를 향한 중요한 진전을 의미합니다."
+      },
+      {
+        "en": "The proposal aims to establish a clear regulatory framework.",
+        "ko": "이 제안은 명확한 규제 프레임워크를 구축하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Industry stakeholders are now invited to provide their feedback.",
+        "ko": "이제 업계 이해관계자들이 의견을 제공하도록 요청받고 있습니다."
+      },
+      {
+        "en": "Such feedback is crucial for shaping future policies.",
+        "ko": "이러한 피드백은 미래 정책을 형성하는 데 중요합니다."
+      },
+      {
+        "en": "This development highlights the growing mainstream attention on digital assets.",
+        "ko": "이러한 발전은 디지털 자산에 대한 주류의 관심이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "It also underscores the need for compliance in this evolving sector.",
+        "ko": "또한 이 진화하는 부문에서 규정 준수의 필요성을 강조합니다."
+      },
+      {
+        "en": "Clear rules can foster greater stability and adoption.",
+        "ko": "명확한 규칙은 더 큰 안정성과 채택을 촉진할 수 있습니다."
+      },
+      {
+        "en": "Businesses must adapt to these upcoming regulatory changes.",
+        "ko": "기업들은 이러한 다가오는 규제 변화에 적응해야 합니다."
+      },
+      {
+        "en": "This is a critical moment for the entire crypto ecosystem.",
+        "ko": "이는 전체 암호화폐 생태계에 중요한 순간입니다."
+      },
+      {
+        "en": "It will influence how digital assets are perceived globally.",
+        "ko": "이는 디지털 자산이 전 세계적으로 어떻게 인식되는지에 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "sec": {
+        "meaning": "The U.S. government agency that protects investors and maintains fair markets.",
+        "pos": "noun"
+      },
+      "published": {
+        "meaning": "Made information available to the public, often in written form.",
+        "pos": "verb"
+      },
+      "proposal": {
+        "meaning": "A formal plan or suggestion put forward for consideration.",
+        "pos": "noun"
+      },
+      "initiates": {
+        "meaning": "Causes something to begin or start.",
+        "pos": "verb"
+      },
+      "comment": {
+        "meaning": "An expression of opinion or reaction to something.",
+        "pos": "noun"
+      },
+      "signifies": {
+        "meaning": "Is a sign of something; indicates.",
+        "pos": "verb"
+      },
+      "formal": {
+        "meaning": "Done in accordance with rules or customs; official.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "A basic structure underlying a system or concept.",
+        "pos": "noun"
+      },
+      "stakeholders": {
+        "meaning": "People or groups with an interest or concern in something.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or essential.",
+        "pos": "adjective"
+      },
+      "shaping": {
+        "meaning": "Influencing the form or development of something.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to something.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "The ideas, attitudes, or activities that are considered normal.",
+        "pos": "adjective"
+      },
+      "underscores": {
+        "meaning": "Emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "compliance": {
+        "meaning": "The act of obeying rules, laws, or requests.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "Developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "foster": {
+        "meaning": "Encourage the development of something good.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "The state of being stable and not likely to change.",
+        "pos": "noun"
+      },
+      "adoption": {
+        "meaning": "The act of formally taking on or accepting something.",
+        "pos": "noun"
+      },
+      "adapt": {
+        "meaning": "To change something to suit new conditions or purposes.",
+        "pos": "verb"
+      },
+      "ecosystem": {
+        "meaning": "A complex network or interconnected system, often in business.",
+        "pos": "noun"
+      },
+      "perceived": {
+        "meaning": "Understood or interpreted in a particular way.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the main action the SEC took last week regarding crypto, and how long is the public comment period?",
+      "What does \"regulatory framework\" mean in the context of governing digital assets, and why is its establishment considered a major step?",
+      "How do you think increased regulation will impact the innovation and growth of the crypto industry in the long term? Consider both potential benefits and drawbacks."
+    ],
+    "modelAnswers": [
+      "The SEC published its Reg Crypto proposal last week, initiating a 60-day public comment period.",
+      "A \"regulatory framework\" refers to a system of rules and guidelines that govern an industry. Its establishment is a major step because it provides clarity and structure for digital asset operations.",
+      "Increased regulation could bring more institutional trust and mainstream adoption, fostering stability. However, it might also stifle innovation by imposing strict rules and high compliance costs on smaller projects."
+    ]
+  },
+  {
+    "id": "cd-2026-08-24-2",
+    "date": "2026-08-24",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "스테이블코인이 이제 일상생활에서 10억 달러 이상 사용되고 있습니다. 이 트렌드가 PM으로서 당신에게 어떤 의미인지 확인해 보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+    "title": "Stablecoins Drive Billion-Dollar Card Spending",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Crypto card spending has now exceeded one billion dollars. This tracked volume more than tripled in just one year. Stablecoins are largely fueling this significant increase. USDC and USDT fund over seventy percent of all spending. Users are increasingly paying for common everyday items. These include groceries, ride-sharing services, and subscriptions. This trend shows stablecoins moving into practical utility. They are transforming into a viable payment method. This shift indicates growing mainstream adoption of digital currencies. It highlights their potential for real-world applications. Fintech product managers should note this evolving landscape. It presents new opportunities for payment solutions.",
+    "sentences": [
+      {
+        "en": "Crypto card spending has now exceeded one billion dollars.",
+        "ko": "암호화폐 카드 지출이 이제 10억 달러를 넘어섰습니다."
+      },
+      {
+        "en": "This tracked volume more than tripled in just one year.",
+        "ko": "추적된 이 금액은 단 1년 만에 세 배 이상 증가했습니다."
+      },
+      {
+        "en": "Stablecoins are largely fueling this significant increase.",
+        "ko": "스테이블코인이 이러한 상당한 증가를 주로 촉진하고 있습니다."
+      },
+      {
+        "en": "USDC and USDT fund over seventy percent of all spending.",
+        "ko": "USDC와 USDT는 전체 지출의 70% 이상을 지원합니다."
+      },
+      {
+        "en": "Users are increasingly paying for common everyday items.",
+        "ko": "사용자들은 점점 더 흔한 일상 품목에 비용을 지불하고 있습니다."
+      },
+      {
+        "en": "These include groceries, ride-sharing services, and subscriptions.",
+        "ko": "여기에는 식료품, 차량 공유 서비스 및 구독이 포함됩니다."
+      },
+      {
+        "en": "This trend shows stablecoins moving into practical utility.",
+        "ko": "이 추세는 스테이블코인이 실용적인 유용성으로 나아가고 있음을 보여줍니다."
+      },
+      {
+        "en": "They are transforming into a viable payment method.",
+        "ko": "스테이블코인은 실행 가능한 결제 수단으로 변화하고 있습니다."
+      },
+      {
+        "en": "This shift indicates growing mainstream adoption of digital currencies.",
+        "ko": "이러한 변화는 디지털 통화의 주류 채택이 증가하고 있음을 나타냅니다."
+      },
+      {
+        "en": "It highlights their potential for real-world applications.",
+        "ko": "이는 실제 적용 가능성에 대한 잠재력을 강조합니다."
+      },
+      {
+        "en": "Fintech product managers should note this evolving landscape.",
+        "ko": "핀테크 제품 관리자들은 이 진화하는 환경에 주목해야 합니다."
+      },
+      {
+        "en": "It presents new opportunities for payment solutions.",
+        "ko": "이는 결제 솔루션을 위한 새로운 기회를 제시합니다."
+      }
+    ],
+    "glossary": {
+      "exceeded": {
+        "meaning": "Went beyond a particular limit or amount.",
+        "pos": "verb"
+      },
+      "tracked": {
+        "meaning": "Monitored or followed over a period of time.",
+        "pos": "adjective"
+      },
+      "volume": {
+        "meaning": "The amount or quantity of something, especially transactions.",
+        "pos": "noun"
+      },
+      "tripled": {
+        "meaning": "Increased by three times the original amount.",
+        "pos": "verb"
+      },
+      "fueling": {
+        "meaning": "Supplying energy or support to something.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important, noteworthy, or having a great effect.",
+        "pos": "adjective"
+      },
+      "fund": {
+        "meaning": "To provide money for something.",
+        "pos": "verb"
+      },
+      "common": {
+        "meaning": "Occurring, found, or done often; not rare.",
+        "pos": "adjective"
+      },
+      "items": {
+        "meaning": "Individual articles or pieces, especially of merchandise.",
+        "pos": "noun"
+      },
+      "groceries": {
+        "meaning": "Food and household supplies bought from a store.",
+        "pos": "noun"
+      },
+      "ride-sharing": {
+        "meaning": "Referring to a service that arranges car journeys.",
+        "pos": "adjective"
+      },
+      "subscriptions": {
+        "meaning": "Payments made regularly for access to a service.",
+        "pos": "noun"
+      },
+      "utility": {
+        "meaning": "The state of being useful, profitable, or beneficial.",
+        "pos": "noun"
+      },
+      "transforming": {
+        "meaning": "Making a thorough or dramatic change in form.",
+        "pos": "verb"
+      },
+      "viable": {
+        "meaning": "Capable of working successfully; feasible.",
+        "pos": "adjective"
+      },
+      "shift": {
+        "meaning": "A slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "indicates": {
+        "meaning": "Points out or shows something.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "The act of formally taking on or accepting something.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to something.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Latent qualities or abilities that may be developed.",
+        "pos": "noun"
+      },
+      "applications": {
+        "meaning": "Practical uses or purposes.",
+        "pos": "noun"
+      },
+      "landscape": {
+        "meaning": "The overall situation or environment of a particular area.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the total crypto card spending volume, and by how much did it increase in one year?",
+      "What does \"practical utility\" mean for stablecoins, and how does increased card spending demonstrate this concept?",
+      "What are some potential challenges or opportunities for fintech PMs as stablecoins become more integrated into everyday payment systems?"
+    ],
+    "modelAnswers": [
+      "Crypto card spending topped $1 billion, and its tracked volume more than tripled in a year.",
+      "\"Practical utility\" means stablecoins are being used for real-world, everyday purposes. Increased card spending for groceries and subscriptions clearly shows this.",
+      "Opportunities include developing new payment rails and loyalty programs. Challenges might involve regulatory compliance, user education, and managing volatile crypto-to-fiat conversions."
+    ]
+  },
+  {
+    "id": "cd-2026-08-24-3",
+    "date": "2026-08-24",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "AI 에이전트가 다음 암호화폐 사용자 층이 될 수 있습니다. 스테이블코인이 이 미래에 어떤 역할을 할지 상상해 보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/23/crypto-s-next-billion-users-might-be-ai-agents-and-they-re-paying-with-stablecoins",
+    "title": "AI Agents: Crypto's Next Billion Users",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Coinbase’s head of AI product suggests a fascinating future. AI agents could become crypto’s next billion users. These agents would utilize stablecoins for their payments. We are currently in the \"Napster/LimeWire era\" for agentic payments. This implies an early, experimental stage of development. Significant growth and evolution are still expected. Such a development could vastly expand the crypto ecosystem. It opens new possibilities for automated digital transactions. Stablecoins are ideal for these machine-to-machine payments. They offer stability and efficiency for automated systems. Fintech PMs should consider this innovative future landscape. It presents unique challenges and opportunities for product design.",
+    "sentences": [
+      {
+        "en": "Coinbase’s head of AI product suggests a fascinating future.",
+        "ko": "코인베이스의 AI 제품 책임자가 흥미로운 미래를 제안합니다."
+      },
+      {
+        "en": "AI agents could become crypto’s next billion users.",
+        "ko": "AI 에이전트가 암호화폐의 다음 10억 명의 사용자가 될 수 있습니다."
+      },
+      {
+        "en": "These agents would utilize stablecoins for their payments.",
+        "ko": "이 에이전트들은 결제를 위해 스테이블코인을 활용할 것입니다."
+      },
+      {
+        "en": "We are currently in the \"Napster/LimeWire era\" for agentic payments.",
+        "ko": "우리는 현재 에이전트 결제에 있어 \"냅스터/라임와이어 시대\"에 있습니다."
+      },
+      {
+        "en": "This implies an early, experimental stage of development.",
+        "ko": "이는 초기 실험적인 개발 단계를 의미합니다."
+      },
+      {
+        "en": "Significant growth and evolution are still expected.",
+        "ko": "상당한 성장과 진화가 여전히 예상됩니다."
+      },
+      {
+        "en": "Such a development could vastly expand the crypto ecosystem.",
+        "ko": "이러한 발전은 암호화폐 생태계를 크게 확장할 수 있습니다."
+      },
+      {
+        "en": "It opens new possibilities for automated digital transactions.",
+        "ko": "이는 자동화된 디지털 거래를 위한 새로운 가능성을 엽니다."
+      },
+      {
+        "en": "Stablecoins are ideal for these machine-to-machine payments.",
+        "ko": "스테이블코인은 이러한 기계 간 결제에 이상적입니다."
+      },
+      {
+        "en": "They offer stability and efficiency for automated systems.",
+        "ko": "스테이블코인은 자동화된 시스템에 안정성과 효율성을 제공합니다."
+      },
+      {
+        "en": "Fintech PMs should consider this innovative future landscape.",
+        "ko": "핀테크 제품 관리자들은 이 혁신적인 미래 환경을 고려해야 합니다."
+      },
+      {
+        "en": "It presents unique challenges and opportunities for product design.",
+        "ko": "이는 제품 설계를 위한 고유한 도전과 기회를 제시합니다."
+      }
+    ],
+    "glossary": {
+      "suggests": {
+        "meaning": "Puts forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "fascinating": {
+        "meaning": "Extremely interesting or attractive.",
+        "pos": "adjective"
+      },
+      "agents": {
+        "meaning": "Computer programs designed to perform specific tasks.",
+        "pos": "noun"
+      },
+      "billion": {
+        "meaning": "A thousand million; a very large number.",
+        "pos": "noun"
+      },
+      "utilize": {
+        "meaning": "Make practical and effective use of something.",
+        "pos": "verb"
+      },
+      "payments": {
+        "meaning": "The action or process of paying someone or something.",
+        "pos": "noun"
+      },
+      "currently": {
+        "meaning": "At the present time.",
+        "pos": "adverb"
+      },
+      "era": {
+        "meaning": "A long and distinct period of history.",
+        "pos": "noun"
+      },
+      "agentic": {
+        "meaning": "Relating to or characteristic of an agent, especially an AI agent.",
+        "pos": "adjective"
+      },
+      "implies": {
+        "meaning": "Strongly suggests the truth or existence of something.",
+        "pos": "verb"
+      },
+      "experimental": {
+        "meaning": "Based on untested ideas or techniques.",
+        "pos": "adjective"
+      },
+      "evolution": {
+        "meaning": "The gradual development of something.",
+        "pos": "noun"
+      },
+      "vastly": {
+        "meaning": "To a very great extent; immensely.",
+        "pos": "adverb"
+      },
+      "expand": {
+        "meaning": "To become or make larger or more extensive.",
+        "pos": "verb"
+      },
+      "ecosystem": {
+        "meaning": "A complex network or interconnected system.",
+        "pos": "noun"
+      },
+      "automated": {
+        "meaning": "Operated by machines or computers, without human control.",
+        "pos": "adjective"
+      },
+      "transactions": {
+        "meaning": "Instances of buying or selling something.",
+        "pos": "noun"
+      },
+      "ideal": {
+        "meaning": "Exactly right for a particular purpose.",
+        "pos": "adjective"
+      },
+      "efficiency": {
+        "meaning": "The state of achieving maximum productivity with minimum wasted effort.",
+        "pos": "noun"
+      },
+      "innovative": {
+        "meaning": "Featuring new ideas, methods, or devices.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "The overall situation or environment.",
+        "pos": "noun"
+      },
+      "unique": {
+        "meaning": "Being the only one of its kind; unusual or special.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "According to the Coinbase head of AI product, what kind of entities might become crypto's next billion users, and what would they use for payments?",
+      "What does referring to the current stage of agentic payments as the \"Napster/LimeWire era\" imply about its development?",
+      "If AI agents become major users of stablecoins, what new product opportunities or challenges might arise for fintech companies, and how might this change human interaction with financial services?"
+    ],
+    "modelAnswers": [
+      "AI agents might become crypto's next billion users, and they would primarily use stablecoins for their payments.",
+      "This analogy implies that agentic payments are in an early, foundational, and somewhat chaotic stage, similar to early internet file-sharing, with significant potential for future growth and formalization.",
+      "New opportunities could include developing AI-specific payment protocols or micro-transaction services. Challenges might involve ensuring security, managing complex AI-driven liquidity, and designing interfaces for human oversight. This could lead to less direct human interaction for routine financial tasks."
+    ]
+  },
+  {
+    "id": "ec-2026-08-24-1",
+    "date": "2026-08-24",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국의 국가 부채가 40조 달러를 넘어서며 경제에 미칠 영향과 미래 전망을 이해하는 데 필수적인 기사입니다.",
+    "url": "https://www.cnbc.com/2026/08/19/us-government-debt-passes-40-trillion-mark-for-the-first-time.html",
+    "title": "US National Debt Exceeds $40 Trillion Mark",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The United States government debt recently surpassed $40 trillion for the first time. This significant milestone marks a staggering doubling of the national debt in just one decade. Such rapid and sustained growth raises serious concerns among many economists and policymakers globally. High debt levels can significantly increase the government's borrowing costs in financial markets. This means a larger portion of taxpayer money must be allocated toward interest payments. Consequently, it potentially limits future government spending on crucial public services and investments. The rising national debt may also contribute to higher inflation over an extended period. Furthermore, it could weaken the dollar's international value, impacting global trade balances. For fintech professionals, understanding this critical trend is absolutely crucial for strategic planning. It directly influences investment strategies, currency valuations, and overall market stability worldwide. The long-term implications for sustainable economic growth and fiscal health are still actively debated.",
+    "sentences": [
+      {
+        "en": "The United States government debt recently surpassed $40 trillion for the first time.",
+        "ko": "미국 정부 부채가 최근 처음으로 40조 달러를 넘어섰습니다."
+      },
+      {
+        "en": "This significant milestone marks a staggering doubling of the national debt in just one decade.",
+        "ko": "이 중요한 이정표는 국가 부채가 단 10년 만에 엄청나게 두 배로 증가했음을 나타냅니다."
+      },
+      {
+        "en": "Such rapid and sustained growth raises serious concerns among many economists and policymakers globally.",
+        "ko": "이러한 급격하고 지속적인 증가는 전 세계 많은 경제학자와 정책 입안자들 사이에서 심각한 우려를 낳습니다."
+      },
+      {
+        "en": "High debt levels can significantly increase the government's borrowing costs in financial markets.",
+        "ko": "높은 부채 수준은 금융 시장에서 정부의 차입 비용을 크게 증가시킬 수 있습니다."
+      },
+      {
+        "en": "This means a larger portion of taxpayer money must be allocated toward interest payments.",
+        "ko": "이는 더 많은 납세자 돈이 이자 상환에 할당되어야 함을 의미합니다."
+      },
+      {
+        "en": "Consequently, it potentially limits future government spending on crucial public services and investments.",
+        "ko": "결과적으로, 이는 필수적인 공공 서비스 및 투자에 대한 미래 정부 지출을 잠재적으로 제한합니다."
+      },
+      {
+        "en": "The rising national debt may also contribute to higher inflation over an extended period.",
+        "ko": "증가하는 국가 부채는 또한 장기간에 걸쳐 더 높은 인플레이션에 기여할 수 있습니다."
+      },
+      {
+        "en": "Furthermore, it could weaken the dollar's international value, impacting global trade balances.",
+        "ko": "더 나아가, 이는 달러의 국제적 가치를 약화시켜 글로벌 무역 균형에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "For fintech professionals, understanding this critical trend is absolutely crucial for strategic planning.",
+        "ko": "핀테크 전문가들에게 이 중요한 추세를 이해하는 것은 전략적 계획에 절대적으로 중요합니다."
+      },
+      {
+        "en": "It directly influences investment strategies, currency valuations, and overall market stability worldwide.",
+        "ko": "이는 전 세계적으로 투자 전략, 통화 평가 및 전반적인 시장 안정성에 직접적인 영향을 미칩니다."
+      },
+      {
+        "en": "The long-term implications for sustainable economic growth and fiscal health are still actively debated.",
+        "ko": "지속 가능한 경제 성장과 재정 건전성에 대한 장기적인 영향은 여전히 활발히 논의되고 있습니다."
+      }
+    ],
+    "glossary": {
+      "surpassed": {
+        "meaning": "To go beyond a particular limit or amount, becoming more than it.",
+        "pos": "verb"
+      },
+      "trillion": {
+        "meaning": "A very large number, representing one thousand billion or 1,000,000,000,000.",
+        "pos": "noun"
+      },
+      "milestone": {
+        "meaning": "A very important event or stage in the development of something.",
+        "pos": "noun"
+      },
+      "staggering": {
+        "meaning": "So great or shocking that it is difficult to believe or comprehend.",
+        "pos": "adjective"
+      },
+      "doubling": {
+        "meaning": "The act of becoming twice as large or twice as much.",
+        "pos": "noun"
+      },
+      "decade": {
+        "meaning": "A period of ten years, often used to describe a significant time frame.",
+        "pos": "noun"
+      },
+      "sustained": {
+        "meaning": "Continuing for an extended period without interruption or weakening.",
+        "pos": "adjective"
+      },
+      "raises": {
+        "meaning": "To cause something to increase or become higher.",
+        "pos": "verb"
+      },
+      "economists": {
+        "meaning": "People who study the production, distribution, and consumption of goods and services.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "Individuals or groups responsible for creating and implementing government rules and strategies.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "In a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank or person with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "allocated": {
+        "meaning": "To set apart or designate for a special purpose; to distribute according to a plan.",
+        "pos": "verb"
+      },
+      "taxpayer": {
+        "meaning": "A person who pays money to the government, often based on income or property.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important, especially because it will affect other things.",
+        "pos": "adjective"
+      },
+      "investments": {
+        "meaning": "The act of putting money into something with the expectation of making a profit.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "weaken": {
+        "meaning": "To make something less strong, powerful, or effective.",
+        "pos": "verb"
+      },
+      "impacting": {
+        "meaning": "Having a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "valuations": {
+        "meaning": "Assessments of how much something is worth.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "The state of being firm and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "implications": {
+        "meaning": "The possible results or effects of an action or decision.",
+        "pos": "noun"
+      },
+      "sustainable": {
+        "meaning": "Able to be maintained at a certain rate or level without depletion.",
+        "pos": "adjective"
+      },
+      "fiscal": {
+        "meaning": "Relating to government revenue, especially taxes, or public debt.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What recent financial milestone did the United States government debt reach, and how quickly has it grown to this point?",
+      "In the passage, what does \"borrowing costs\" refer to, and why might high debt levels cause them to increase?",
+      "How do you think a rising national debt might affect an individual's personal financial planning or investment decisions in the long term?"
+    ],
+    "modelAnswers": [
+      "The United States government debt recently surpassed $40 trillion. This amount has more than doubled in just one decade, indicating a very rapid increase.",
+      "\"Borrowing costs\" refers to the interest and fees a government must pay when it borrows money. High debt levels can make lenders demand higher interest rates due to increased risk, thus raising these costs.",
+      "A rising national debt could lead to higher taxes, inflation, or a weaker currency, reducing purchasing power. Individuals might adjust investments towards assets that perform well during inflation or or consider international diversification."
+    ]
+  },
+  {
+    "id": "ec-2026-08-24-2",
+    "date": "2026-08-24",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "영국의 인플레이션 상승과 에너지 요금의 연관성을 통해 경제 지표와 가계 재정에 미치는 영향을 심층적으로 이해할 수 있습니다.",
+    "url": "https://www.bbc.co.uk/news/articles/cdrv7jr8n74o",
+    "title": "UK Inflation Rises Due to Soaring Energy Bills",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "UK inflation has recently reached its highest rate in four months, surprising some analysts. This significant increase is primarily driven by a sharp rise in household energy bills. Families across the nation are now facing much higher costs for both electricity and gas consumption. Energy prices represent a major and influential component of the Consumer Price Index calculations. Therefore, when these essential costs rise, overall inflation tends to follow suit quickly. The ongoing conflict in Iran was specifically cited as a key factor impacting global energy prices. This geopolitical event severely disrupts international energy supply chains and distribution networks. Such widespread disruptions inevitably lead to increased wholesale energy costs for providers. Central banks, like the Bank of England, monitor inflation closely to guide their monetary policy decisions. Persistently high inflation might prompt the Bank of England to consider raising interest rates further. This proactive move would aim to cool down the overheated economy and stabilize prices. For ordinary consumers, rising inflation consistently reduces their purchasing power significantly over time.",
+    "sentences": [
+      {
+        "en": "UK inflation has recently reached its highest rate in four months, surprising some analysts.",
+        "ko": "영국 인플레이션이 최근 4개월 만에 최고치를 기록하여 일부 분석가들을 놀라게 했습니다."
+      },
+      {
+        "en": "This significant increase is primarily driven by a sharp rise in household energy bills.",
+        "ko": "이러한 상당한 증가는 주로 가계 에너지 요금의 급격한 상승에 의해 주도됩니다."
+      },
+      {
+        "en": "Families across the nation are now facing much higher costs for both electricity and gas consumption.",
+        "ko": "전국적으로 가정들은 전기와 가스 소비 모두에 대해 훨씬 더 높은 비용에 직면하고 있습니다."
+      },
+      {
+        "en": "Energy prices represent a major and influential component of the Consumer Price Index calculations.",
+        "ko": "에너지 가격은 소비자 물가 지수 계산에서 주요하고 영향력 있는 구성 요소를 차지합니다."
+      },
+      {
+        "en": "Therefore, when these essential costs rise, overall inflation tends to follow suit quickly.",
+        "ko": "따라서 이러한 필수 비용이 상승하면 전반적인 인플레이션도 빠르게 뒤따르는 경향이 있습니다."
+      },
+      {
+        "en": "The ongoing conflict in Iran was specifically cited as a key factor impacting global energy prices.",
+        "ko": "이란에서 진행 중인 분쟁은 글로벌 에너지 가격에 영향을 미치는 핵심 요인으로 특별히 언급되었습니다."
+      },
+      {
+        "en": "This geopolitical event severely disrupts international energy supply chains and distribution networks.",
+        "ko": "이 지정학적 사건은 국제 에너지 공급망과 유통망을 심각하게 교란합니다."
+      },
+      {
+        "en": "Such widespread disruptions inevitably lead to increased wholesale energy costs for providers.",
+        "ko": "이러한 광범위한 교란은 공급업체의 도매 에너지 비용 증가로 필연적으로 이어집니다."
+      },
+      {
+        "en": "Central banks, like the Bank of England, monitor inflation closely to guide their monetary policy decisions.",
+        "ko": "영란은행과 같은 중앙은행은 통화 정책 결정을 안내하기 위해 인플레이션을 면밀히 모니터링합니다."
+      },
+      {
+        "en": "Persistently high inflation might prompt the Bank of England to consider raising interest rates further.",
+        "ko": "지속적으로 높은 인플레이션은 영란은행이 금리를 추가 인상하는 것을 고려하도록 유도할 수 있습니다."
+      },
+      {
+        "en": "This proactive move would aim to cool down the overheated economy and stabilize prices.",
+        "ko": "이러한 선제적 조치는 과열된 경제를 진정시키고 물가를 안정시키는 것을 목표로 할 것입니다."
+      },
+      {
+        "en": "For ordinary consumers, rising inflation consistently reduces their purchasing power significantly over time.",
+        "ko": "일반 소비자들에게 인플레이션 상승은 시간이 지남에 따라 구매력을 지속적으로 상당히 감소시킵니다."
+      }
+    ],
+    "glossary": {
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "reached": {
+        "meaning": "To arrive at a particular level or amount.",
+        "pos": "verb"
+      },
+      "primarily": {
+        "meaning": "For the most part; mainly.",
+        "pos": "adverb"
+      },
+      "driven": {
+        "meaning": "Caused or influenced by something; propelled.",
+        "pos": "verb"
+      },
+      "soaring": {
+        "meaning": "Rising very quickly to a high level.",
+        "pos": "adjective"
+      },
+      "bills": {
+        "meaning": "Statements of money owed for goods or services.",
+        "pos": "noun"
+      },
+      "households": {
+        "meaning": "All the people living together in one house or dwelling.",
+        "pos": "noun"
+      },
+      "facing": {
+        "meaning": "To be confronted with or have to deal with a difficult situation.",
+        "pos": "verb"
+      },
+      "component": {
+        "meaning": "A part or element of a larger whole.",
+        "pos": "noun"
+      },
+      "consumer": {
+        "meaning": "A person who buys goods and services for personal use.",
+        "pos": "noun"
+      },
+      "index": {
+        "meaning": "A system that shows how the value of something changes over time.",
+        "pos": "noun"
+      },
+      "essential": {
+        "meaning": "Completely necessary or important, fundamental.",
+        "pos": "adjective"
+      },
+      "conflict": {
+        "meaning": "A serious disagreement or argument, often leading to fighting.",
+        "pos": "noun"
+      },
+      "cited": {
+        "meaning": "To refer to something as an example or explanation.",
+        "pos": "verb"
+      },
+      "geopolitical": {
+        "meaning": "Relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "disrupts": {
+        "meaning": "To interrupt an event, activity, or process by causing a problem.",
+        "pos": "verb"
+      },
+      "supply": {
+        "meaning": "An amount of something available for use.",
+        "pos": "noun"
+      },
+      "wholesale": {
+        "meaning": "The business of selling goods in large quantities to be retailed by others.",
+        "pos": "adjective"
+      },
+      "monitor": {
+        "meaning": "To watch, observe, listen to, or check something for a special purpose over a period of time.",
+        "pos": "verb"
+      },
+      "monetary": {
+        "meaning": "Relating to money or currency.",
+        "pos": "adjective"
+      },
+      "prompt": {
+        "meaning": "To make or cause someone to do something.",
+        "pos": "verb"
+      },
+      "overheated": {
+        "meaning": "Having become too hot or too active, especially an economy experiencing rapid growth.",
+        "pos": "adjective"
+      },
+      "stabilize": {
+        "meaning": "To make or become unlikely to change or fail; to keep steady.",
+        "pos": "verb"
+      },
+      "purchasing": {
+        "meaning": "The act of buying something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is identified as the primary reason for the recent rise in UK inflation, and what global event is linked to this cause?",
+      "Based on the passage, explain what \"monetary policy\" refers to and how central banks use it in response to high inflation.",
+      "In your opinion, what are some practical steps individuals or governments can take to mitigate the impact of soaring energy bills on households?"
+    ],
+    "modelAnswers": [
+      "Soaring energy bills are identified as the primary reason for the recent rise in UK inflation. The conflict in Iran is linked to this cause, as it disrupts global energy supply chains.",
+      "\"Monetary policy\" refers to actions taken by a central bank to control the money supply and credit conditions to influence the economy. In response to high inflation, central banks might raise interest rates to cool down economic activity.",
+      "Individuals can reduce energy consumption or seek better energy deals. Governments could offer subsidies for energy-efficient upgrades, implement price caps, or invest in renewable energy sources to reduce reliance on volatile global markets."
+    ]
+  },
+  {
+    "id": "ec-2026-08-24-3",
+    "date": "2026-08-24",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국과 캐나다 간 무역 협상 실패가 전 세계 국가들에 주는 교훈과 국제 무역 환경의 변화를 분석합니다.",
+    "url": "https://www.theguardian.com/us-news/2026/aug/23/canada-us-collapsed-trade-talks-negotiation-breakdown-analysis",
+    "title": "US-Canada Trade Talks Collapse, Raising Futility Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Recent trade negotiations between Canada and the United States have unfortunately collapsed completely. This significant breakdown has prompted a stark warning for many nations worldwide. The incident strongly suggests that international trade negotiation may often prove to be futile. Washington now clearly prioritizes its own national interests above any semblance of shared economic ground. This fundamental shift marks a significant change in established global trade dynamics and diplomacy. The abrupt collapse has already swiftly triggered the start of a new trade war. Both countries are now actively imposing retaliatory tariffs on a wide range of various goods. Such protectionist measures can severely harm domestic industries and burden consumers with higher prices. They often lead to overall higher prices for goods and substantially reduced trade volumes. For fintech professionals, understanding these escalating trade tensions is absolutely key. These geopolitical events directly impact currency exchange rates, global supply chains, and market sentiment. Businesses must quickly adapt to increased economic uncertainty in volatile international markets.",
+    "sentences": [
+      {
+        "en": "Recent trade negotiations between Canada and the United States have unfortunately collapsed completely.",
+        "ko": "최근 캐나다와 미국 간의 무역 협상이 안타깝게도 완전히 결렬되었습니다."
+      },
+      {
+        "en": "This significant breakdown has prompted a stark warning for many nations worldwide.",
+        "ko": "이 중요한 파탄은 전 세계 많은 국가들에게 엄중한 경고를 촉발했습니다."
+      },
+      {
+        "en": "The incident strongly suggests that international trade negotiation may often prove to be futile.",
+        "ko": "이 사건은 국제 무역 협상이 종종 무익하다는 것을 강력히 시사합니다."
+      },
+      {
+        "en": "Washington now clearly prioritizes its own national interests above any semblance of shared economic ground.",
+        "ko": "워싱턴은 이제 공유된 경제적 기반의 어떤 모습보다 자국의 국익을 분명히 우선시합니다."
+      },
+      {
+        "en": "This fundamental shift marks a significant change in established global trade dynamics and diplomacy.",
+        "ko": "이러한 근본적인 변화는 확립된 글로벌 무역 역학 및 외교에 중대한 변화를 나타냅니다."
+      },
+      {
+        "en": "The abrupt collapse has already swiftly triggered the start of a new trade war.",
+        "ko": "갑작스러운 결렬은 이미 새로운 무역 전쟁의 시작을 빠르게 촉발했습니다."
+      },
+      {
+        "en": "Both countries are now actively imposing retaliatory tariffs on a wide range of various goods.",
+        "ko": "양국은 이제 다양한 상품에 대해 보복 관세를 적극적으로 부과하고 있습니다."
+      },
+      {
+        "en": "Such protectionist measures can severely harm domestic industries and burden consumers with higher prices.",
+        "ko": "이러한 보호주의 조치는 국내 산업에 심각한 해를 끼치고 소비자에게 더 높은 가격으로 부담을 줄 수 있습니다."
+      },
+      {
+        "en": "They often lead to overall higher prices for goods and substantially reduced trade volumes.",
+        "ko": "이는 종종 상품 가격의 전반적인 상승과 실질적으로 감소된 무역량으로 이어집니다."
+      },
+      {
+        "en": "For fintech professionals, understanding these escalating trade tensions is absolutely key.",
+        "ko": "핀테크 전문가들에게 이러한 고조되는 무역 긴장을 이해하는 것은 절대적으로 중요합니다."
+      },
+      {
+        "en": "These geopolitical events directly impact currency exchange rates, global supply chains, and market sentiment.",
+        "ko": "이러한 지정학적 사건들은 환율, 글로벌 공급망 및 시장 심리에 직접적인 영향을 미칩니다."
+      },
+      {
+        "en": "Businesses must quickly adapt to increased economic uncertainty in volatile international markets.",
+        "ko": "기업들은 변동성이 큰 국제 시장의 증가하는 경제적 불확실성에 빠르게 적응해야 합니다."
+      }
+    ],
+    "glossary": {
+      "negotiations": {
+        "meaning": "Formal discussions between people who are trying to reach an agreement.",
+        "pos": "noun"
+      },
+      "collapsed": {
+        "meaning": "To suddenly fail or stop existing.",
+        "pos": "verb"
+      },
+      "breakdown": {
+        "meaning": "A failure of a relationship or system.",
+        "pos": "noun"
+      },
+      "prompted": {
+        "meaning": "To make or cause someone to do something; to encourage an action.",
+        "pos": "verb"
+      },
+      "stark": {
+        "meaning": "Unpleasantly clear and impossible to avoid; very noticeable.",
+        "pos": "adjective"
+      },
+      "nations": {
+        "meaning": "Countries considered as a group or political entity.",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "To put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "futile": {
+        "meaning": "Having no useful purpose; pointless or ineffective.",
+        "pos": "adjective"
+      },
+      "prioritizes": {
+        "meaning": "To treat something as more important than other things.",
+        "pos": "verb"
+      },
+      "interests": {
+        "meaning": "The things that are important to someone or something.",
+        "pos": "noun"
+      },
+      "semblance": {
+        "meaning": "The outward appearance or apparent form of something, especially when the reality is different.",
+        "pos": "noun"
+      },
+      "dynamics": {
+        "meaning": "The forces or properties that stimulate growth or change within a system.",
+        "pos": "noun"
+      },
+      "abrupt": {
+        "meaning": "Sudden and unexpected, often in an unpleasant way.",
+        "pos": "adjective"
+      },
+      "triggered": {
+        "meaning": "To cause something to start or happen.",
+        "pos": "verb"
+      },
+      "imposing": {
+        "meaning": "To officially force a rule, tax, or punishment to be obeyed or paid.",
+        "pos": "verb"
+      },
+      "retaliatory": {
+        "meaning": "Done as a punishment or revenge for an injury or offense.",
+        "pos": "adjective"
+      },
+      "tariffs": {
+        "meaning": "Taxes that are paid on goods coming into or going out of a country.",
+        "pos": "noun"
+      },
+      "protectionist": {
+        "meaning": "Relating to the policy of protecting domestic industries from foreign competition.",
+        "pos": "adjective"
+      },
+      "burden": {
+        "meaning": "To cause someone or something to have a heavy responsibility or difficulty.",
+        "pos": "verb"
+      },
+      "volumes": {
+        "meaning": "The amount or quantity of something, especially when great.",
+        "pos": "noun"
+      },
+      "escalating": {
+        "meaning": "Increasing rapidly in intensity or magnitude.",
+        "pos": "verb"
+      },
+      "geopolitical": {
+        "meaning": "Relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "currency": {
+        "meaning": "The system of money used in a particular country.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or not knowing what will happen.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What key lesson does the passage suggest other nations can learn from the collapse of US-Canada trade talks?",
+      "Explain what \"protectionist measures\" are, as mentioned in the passage, and how they can negatively affect industries and consumers.",
+      "How might the collapse of significant trade talks and the start of a trade war influence a fintech company's strategy for international expansion or product development?"
+    ],
+    "modelAnswers": [
+      "The passage suggests that the incident serves as a warning that international trade negotiation may often prove to be futile, especially when one nation prioritizes its own interests above shared economic ground.",
+      "\"Protectionist measures\" are government policies, like tariffs, designed to protect domestic industries from foreign competition. They can harm industries by limiting access to foreign markets and burden consumers with higher prices due to reduced competition.",
+      "A fintech company might reassess international expansion plans, focusing on less volatile markets. Product development could shift towards services that mitigate currency risks or facilitate trade under new tariff regimes, adapting to increased economic uncertainty."
+    ]
+  },
+  {
     "id": "cd-2026-08-23-1",
     "date": "2026-08-23",
     "rank": 1,
