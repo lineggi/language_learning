@@ -1,5 +1,977 @@
 [
   {
+    "id": "cd-2026-08-25-1",
+    "date": "2026-08-25",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스탠다드차타드 은행이 홍콩 달러 스테이블코인 배포를 시작하며 전통 금융과 암호화폐의 융합을 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/08/24/standard-chartered-first-bank-to-distribute-anchorpoint-s-hong-kong-dollar-stablecoin",
+    "title": "Standard Chartered Pioneers HKD Stablecoin Distribution",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Standard Chartered Bank has become the first major bank to distribute a Hong Kong dollar stablecoin. This move signals a significant step for traditional finance entering the crypto space. The bank will distribute HKDAP, a stablecoin from Anchorpoint, to its eligible clients. HKDAP is pegged to the Hong Kong dollar, aiming for price stability. This initiative highlights the growing acceptance of digital assets within established financial systems. It also demonstrates how banks are exploring new blockchain-based services. The distribution will initially target corporate clients and partners. This development could pave the way for broader adoption of stablecoins in regulated environments. It represents a notable example of tokenization bridging fiat currencies and blockchain technology. Such collaborations are crucial for mainstream crypto integration. This action by Standard Chartered sets a precedent for other global banks.",
+    "sentences": [
+      {
+        "en": "Standard Chartered Bank has become the first major bank to distribute a Hong Kong dollar stablecoin.",
+        "ko": "스탠다드차타드 은행이 홍콩 달러 스테이블코인을 배포하는 최초의 주요 은행이 되었습니다."
+      },
+      {
+        "en": "This move signals a significant step for traditional finance entering the crypto space.",
+        "ko": "이 움직임은 전통 금융이 암호화폐 분야로 진입하는 중요한 단계를 의미합니다."
+      },
+      {
+        "en": "The bank will distribute HKDAP, a stablecoin from Anchorpoint, to its eligible clients.",
+        "ko": "은행은 앵커포인트의 스테이블코인인 HKDAP를 적격 고객에게 배포할 예정입니다."
+      },
+      {
+        "en": "HKDAP is pegged to the Hong Kong dollar, aiming for price stability.",
+        "ko": "HKDAP는 홍콩 달러에 고정되어 가격 안정성을 목표로 합니다."
+      },
+      {
+        "en": "This initiative highlights the growing acceptance of digital assets within established financial systems.",
+        "ko": "이 이니셔티브는 기존 금융 시스템 내에서 디지털 자산의 수용이 증가하고 있음을 강조합니다."
+      },
+      {
+        "en": "It also demonstrates how banks are exploring new blockchain-based services.",
+        "ko": "또한 은행들이 새로운 블록체인 기반 서비스를 어떻게 탐색하고 있는지를 보여줍니다."
+      },
+      {
+        "en": "The distribution will initially target corporate clients and partners.",
+        "ko": "배포는 초기에는 기업 고객과 파트너를 대상으로 할 것입니다."
+      },
+      {
+        "en": "This development could pave the way for broader adoption of stablecoins in regulated environments.",
+        "ko": "이러한 발전은 규제된 환경에서 스테이블코인 사용을 더 넓게 확산시킬 수 있습니다."
+      },
+      {
+        "en": "It represents a notable example of tokenization bridging fiat currencies and blockchain technology.",
+        "ko": "이는 명목 화폐와 블록체인 기술을 연결하는 토큰화의 주목할 만한 예시입니다."
+      },
+      {
+        "en": "Such collaborations are crucial for mainstream crypto integration.",
+        "ko": "이러한 협력은 주류 암호화폐 통합에 중요합니다."
+      },
+      {
+        "en": "This action by Standard Chartered sets a precedent for other global banks.",
+        "ko": "스탠다드차타드의 이러한 조치는 다른 글로벌 은행들에게 선례를 남깁니다."
+      }
+    ],
+    "glossary": {
+      "distribute": {
+        "meaning": "to give out or supply something to a number of people or places.",
+        "pos": "verb"
+      },
+      "stablecoin": {
+        "meaning": "a type of cryptocurrency designed to maintain a stable price, often by being pegged to a fiat currency.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or suggests that something is happening or will happen.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "relating to customs, beliefs, or methods that have existed for a long time without changing.",
+        "pos": "adjective"
+      },
+      "finance": {
+        "meaning": "the management of large amounts of money, especially by governments or large companies.",
+        "pos": "noun"
+      },
+      "entering": {
+        "meaning": "to come or go into a place or a particular situation.",
+        "pos": "verb"
+      },
+      "eligible": {
+        "meaning": "having the right to do or obtain something; satisfying the appropriate conditions.",
+        "pos": "adjective"
+      },
+      "clients": {
+        "meaning": "people or organizations that use the services of a professional person or company.",
+        "pos": "noun"
+      },
+      "pegged": {
+        "meaning": "fixed at a particular level or rate, especially by a government or organization.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "the state of being stable and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a problem.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something important or significant.",
+        "pos": "verb"
+      },
+      "acceptance": {
+        "meaning": "the act of agreeing to receive something or believe something is true.",
+        "pos": "noun"
+      },
+      "established": {
+        "meaning": "having been in existence for a long time and therefore recognized and respected.",
+        "pos": "adjective"
+      },
+      "systems": {
+        "meaning": "a set of connected things or parts forming a complex whole.",
+        "pos": "noun"
+      },
+      "exploring": {
+        "meaning": "to travel over new territory for discovery or investigation.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the act of taking on or starting to use something new.",
+        "pos": "noun"
+      },
+      "regulated": {
+        "meaning": "controlled or governed by rules or laws.",
+        "pos": "adjective"
+      },
+      "environments": {
+        "meaning": "the conditions or surroundings in which a person, animal, or plant lives or operates.",
+        "pos": "noun"
+      },
+      "tokenization": {
+        "meaning": "the process of converting rights to an asset into a digital token on a blockchain.",
+        "pos": "noun"
+      },
+      "bridging": {
+        "meaning": "making a connection or transition between two things.",
+        "pos": "verb"
+      },
+      "fiat": {
+        "meaning": "a currency that a government has declared to be legal tender, but is not backed by a physical commodity.",
+        "pos": "adjective"
+      },
+      "collaborations": {
+        "meaning": "the action of working with someone to produce or create something.",
+        "pos": "noun"
+      },
+      "precedent": {
+        "meaning": "an earlier event or action that is regarded as an example or guide for subsequent similar circumstances.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Which major bank is distributing the Hong Kong dollar stablecoin, and what is the stablecoin's ticker symbol?",
+      "In the context of the article, what does \"pave the way\" mean for stablecoins in regulated environments?",
+      "Do you think traditional banks distributing stablecoins like HKDAP will significantly accelerate mainstream crypto adoption? Why or why not?"
+    ],
+    "modelAnswers": [
+      "Standard Chartered Bank is distributing the Hong Kong dollar stablecoin, which has the ticker symbol HKDAP.",
+      "\"Pave the way\" means to create the conditions or circumstances that make it easier for something to happen. For stablecoins, it implies this action by Standard Chartered could make it easier for stablecoins to be widely accepted and used within regulated financial systems.",
+      "Yes, I believe traditional banks distributing stablecoins will accelerate mainstream adoption. Their involvement adds credibility, trust, and regulatory compliance, which are crucial for attracting institutional and retail users who might be hesitant about unregulated crypto."
+    ]
+  },
+  {
+    "id": "cd-2026-08-25-2",
+    "date": "2026-08-25",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "코인베이스가 자체 네트워크인 Base에서 토큰화된 주식을 출시하며, 블록체인 기반 주식 시장 경쟁에 뛰어듭니다.",
+    "url": "https://www.coindesk.com/business/2026/08/24/coinbase-debuts-tokenized-stocks-on-base-network-joining-race-to-bring-equities-on-blockchain",
+    "title": "Coinbase Launches Tokenized Stocks on Base",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Coinbase has launched tokenized versions of major company stocks on its Base network. This move marks the exchange's entry into the growing trend of bringing traditional equities onto the blockchain. Initially, the offerings include tokenized shares of Apple, Nvidia, Meta, and Alphabet. These tokenized assets are issued under Coinbase's new regulatory framework in Abu Dhabi. Tokenization can make stock trading more accessible globally and improve settlement efficiency. It allows for fractional ownership and 24/7 trading, unlike traditional markets. Coinbase is competing with other platforms exploring similar blockchain-based equity solutions. This initiative could attract more institutional investors to the crypto ecosystem. It also demonstrates the expanding utility of blockchain technology beyond cryptocurrencies. The project aligns with the broader vision of tokenizing real-world assets. Such innovations are key to bridging the gap between traditional finance and decentralized systems.",
+    "sentences": [
+      {
+        "en": "Coinbase has launched tokenized versions of major company stocks on its Base network.",
+        "ko": "코인베이스가 주요 기업 주식의 토큰화 버전을 자체 Base 네트워크에 출시했습니다."
+      },
+      {
+        "en": "This move marks the exchange's entry into the growing trend of bringing traditional equities onto the blockchain.",
+        "ko": "이 움직임은 거래소가 전통적인 주식을 블록체인으로 가져오는 성장하는 추세에 진입했음을 알립니다."
+      },
+      {
+        "en": "Initially, the offerings include tokenized shares of Apple, Nvidia, Meta, and Alphabet.",
+        "ko": "초기에는 애플, 엔비디아, 메타, 알파벳의 토큰화된 주식이 포함됩니다."
+      },
+      {
+        "en": "These tokenized assets are issued under Coinbase's new regulatory framework in Abu Dhabi.",
+        "ko": "이러한 토큰화된 자산은 아부다비에 있는 코인베이스의 새로운 규제 프레임워크에 따라 발행됩니다."
+      },
+      {
+        "en": "Tokenization can make stock trading more accessible globally and improve settlement efficiency.",
+        "ko": "토큰화는 주식 거래를 전 세계적으로 더 접근하기 쉽게 만들고 결제 효율성을 향상시킬 수 있습니다."
+      },
+      {
+        "en": "It allows for fractional ownership and 24/7 trading, unlike traditional markets.",
+        "ko": "이는 전통 시장과 달리 부분 소유권과 24시간 연중무휴 거래를 가능하게 합니다."
+      },
+      {
+        "en": "Coinbase is competing with other platforms exploring similar blockchain-based equity solutions.",
+        "ko": "코인베이스는 유사한 블록체인 기반 주식 솔루션을 탐색하는 다른 플랫폼들과 경쟁하고 있습니다."
+      },
+      {
+        "en": "This initiative could attract more institutional investors to the crypto ecosystem.",
+        "ko": "이 이니셔티브는 더 많은 기관 투자자들을 암호화폐 생태계로 끌어들일 수 있습니다."
+      },
+      {
+        "en": "It also demonstrates the expanding utility of blockchain technology beyond cryptocurrencies.",
+        "ko": "또한 암호화폐를 넘어 블록체인 기술의 확장되는 유용성을 보여줍니다."
+      },
+      {
+        "en": "The project aligns with the broader vision of tokenizing real-world assets.",
+        "ko": "이 프로젝트는 실물 자산을 토큰화하려는 더 넓은 비전과 일치합니다."
+      },
+      {
+        "en": "Such innovations are key to bridging the gap between traditional finance and decentralized systems.",
+        "ko": "이러한 혁신은 전통 금융과 탈중앙화 시스템 간의 격차를 해소하는 데 중요합니다."
+      }
+    ],
+    "glossary": {
+      "launched": {
+        "meaning": "started or set in motion an activity, product, or plan.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing ownership or rights.",
+        "pos": "adjective"
+      },
+      "versions": {
+        "meaning": "a particular form of something differing in certain respects from an earlier form or other forms of the same type.",
+        "pos": "noun"
+      },
+      "major": {
+        "meaning": "very large or important, especially when compared with others of a similar type.",
+        "pos": "adjective"
+      },
+      "stocks": {
+        "meaning": "shares of ownership in a company, typically sold in units.",
+        "pos": "noun"
+      },
+      "entry": {
+        "meaning": "the act of going into or becoming part of a place or organization.",
+        "pos": "noun"
+      },
+      "equities": {
+        "meaning": "the value of shares issued by a company; refers to stocks.",
+        "pos": "noun"
+      },
+      "initially": {
+        "meaning": "at the beginning; at first.",
+        "pos": "adverb"
+      },
+      "offerings": {
+        "meaning": "things that are offered, sold, or provided, often as goods or services.",
+        "pos": "noun"
+      },
+      "issued": {
+        "meaning": "officially made available or provided.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "relating to the control of an activity or process, especially by rules.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "a basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "accessible": {
+        "meaning": "able to be reached or entered easily.",
+        "pos": "adjective"
+      },
+      "globally": {
+        "meaning": "throughout the world; worldwide.",
+        "pos": "adverb"
+      },
+      "settlement": {
+        "meaning": "the official arrangement and payment of an agreement or debt.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being efficient; achieving maximum productivity with minimum wasted effort.",
+        "pos": "noun"
+      },
+      "fractional": {
+        "meaning": "relating to a part or a division of a whole.",
+        "pos": "adjective"
+      },
+      "ownership": {
+        "meaning": "the act, state, or right of possessing something.",
+        "pos": "noun"
+      },
+      "competing": {
+        "meaning": "striving to gain or win something by defeating or establishing superiority over others.",
+        "pos": "verb"
+      },
+      "solutions": {
+        "meaning": "means of solving a problem or dealing with a difficult situation.",
+        "pos": "noun"
+      },
+      "attract": {
+        "meaning": "to draw attention or interest.",
+        "pos": "verb"
+      },
+      "ecosystem": {
+        "meaning": "a complex network or interconnected system.",
+        "pos": "noun"
+      },
+      "utility": {
+        "meaning": "the state of being useful, profitable, or beneficial.",
+        "pos": "noun"
+      },
+      "bridging": {
+        "meaning": "connecting or making a link between two things.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "On which network did Coinbase launch its tokenized stocks, and under which regulatory framework are these assets issued?",
+      "What does \"fractional ownership\" imply for investors interested in tokenized stocks, according to the passage?",
+      "How do you think the tokenization of traditional assets like stocks might change the global financial landscape in the next five to ten years?"
+    ],
+    "modelAnswers": [
+      "Coinbase launched its tokenized stocks on its Base network. These assets are issued under Coinbase's new regulatory framework in Abu Dhabi.",
+      "\"Fractional ownership\" means investors can own a small portion or fraction of a stock, rather than needing to buy a whole share. This makes expensive stocks more accessible to a wider range of investors.",
+      "The tokenization of traditional assets could democratize investment by lowering barriers to entry and enabling 24/7 global trading. It might lead to increased liquidity and efficiency, potentially forcing traditional exchanges to adapt or integrate blockchain technology, thereby transforming the financial landscape significantly."
+    ]
+  },
+  {
+    "id": "cd-2026-08-25-3",
+    "date": "2026-08-25",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "파키스탄이 암호화폐 기업에 대한 라이선스 제도를 시작하며 규제 프레임워크를 구축하는 국가 대열에 합류합니다.",
+    "url": "https://www.coindesk.com/policy/2026/08/24/pakistan-kicks-off-crypto-licensing-regime-with-sept-5-registration-deadline",
+    "title": "Pakistan Initiates Crypto Licensing Regime",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Pakistan has officially launched a new crypto licensing regime. This initiative requires all crypto companies operating in the country to register. Companies have until September 5th to submit their applications. Failure to apply will result in a mandate to cease operations. The Pakistan Virtual Assets Regulatory Authority (PVARA) is overseeing this process. This move signifies Pakistan's commitment to regulating its digital asset sector. Many countries are now developing comprehensive frameworks for cryptocurrencies. Such regulations aim to protect investors and prevent illicit financial activities. A clear regulatory environment can also foster innovation and growth. This development is crucial for integrating crypto into the mainstream economy. It provides legal clarity for businesses and consumers alike.",
+    "sentences": [
+      {
+        "en": "Pakistan has officially launched a new crypto licensing regime.",
+        "ko": "파키스탄이 새로운 암호화폐 라이선스 제도를 공식적으로 시작했습니다."
+      },
+      {
+        "en": "This initiative requires all crypto companies operating in the country to register.",
+        "ko": "이 이니셔티브는 국내에서 운영되는 모든 암호화폐 기업이 등록하도록 요구합니다."
+      },
+      {
+        "en": "Companies have until September 5th to submit their applications.",
+        "ko": "기업들은 9월 5일까지 신청서를 제출해야 합니다."
+      },
+      {
+        "en": "Failure to apply will result in a mandate to cease operations.",
+        "ko": "신청하지 않으면 운영을 중단해야 합니다."
+      },
+      {
+        "en": "The Pakistan Virtual Assets Regulatory Authority (PVARA) is overseeing this process.",
+        "ko": "파키스탄 가상자산 규제 당국(PVARA)이 이 과정을 감독하고 있습니다."
+      },
+      {
+        "en": "This move signifies Pakistan's commitment to regulating its digital asset sector.",
+        "ko": "이러한 움직임은 파키스탄이 디지털 자산 부문을 규제하려는 의지를 보여줍니다."
+      },
+      {
+        "en": "Many countries are now developing comprehensive frameworks for cryptocurrencies.",
+        "ko": "많은 국가들이 현재 암호화폐에 대한 포괄적인 프레임워크를 개발하고 있습니다."
+      },
+      {
+        "en": "Such regulations aim to protect investors and prevent illicit financial activities.",
+        "ko": "이러한 규제는 투자자를 보호하고 불법 금융 활동을 방지하는 것을 목표로 합니다."
+      },
+      {
+        "en": "A clear regulatory environment can also foster innovation and growth.",
+        "ko": "명확한 규제 환경은 또한 혁신과 성장을 촉진할 수 있습니다."
+      },
+      {
+        "en": "This development is crucial for integrating crypto into the mainstream economy.",
+        "ko": "이러한 발전은 암호화폐를 주류 경제에 통합하는 데 중요합니다."
+      },
+      {
+        "en": "It provides legal clarity for businesses and consumers alike.",
+        "ko": "이는 기업과 소비자 모두에게 법적 명확성을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "officially": {
+        "meaning": "in a formal and authorized manner.",
+        "pos": "adverb"
+      },
+      "launched": {
+        "meaning": "started or introduced a new plan or system.",
+        "pos": "verb"
+      },
+      "regime": {
+        "meaning": "a system or planned way of doing things, especially one imposed by a government.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a problem.",
+        "pos": "noun"
+      },
+      "requires": {
+        "meaning": "needs something; makes something necessary.",
+        "pos": "verb"
+      },
+      "operating": {
+        "meaning": "controlling the way a business or system works.",
+        "pos": "verb"
+      },
+      "submit": {
+        "meaning": "to formally present a document or proposal for consideration.",
+        "pos": "verb"
+      },
+      "applications": {
+        "meaning": "formal requests for something, such as a job or a license.",
+        "pos": "noun"
+      },
+      "failure": {
+        "meaning": "a lack of success in doing something.",
+        "pos": "noun"
+      },
+      "mandate": {
+        "meaning": "an official order or commission to do something.",
+        "pos": "noun"
+      },
+      "cease": {
+        "meaning": "to stop happening or existing; to bring to an end.",
+        "pos": "verb"
+      },
+      "overseeing": {
+        "meaning": "supervising someone or something and making sure that things are done correctly.",
+        "pos": "verb"
+      },
+      "signifies": {
+        "meaning": "means or indicates something.",
+        "pos": "verb"
+      },
+      "commitment": {
+        "meaning": "the state or quality of being dedicated to a cause, activity, or policy.",
+        "pos": "noun"
+      },
+      "regulating": {
+        "meaning": "controlling or supervising something by means of rules and regulations.",
+        "pos": "verb"
+      },
+      "sector": {
+        "meaning": "a part or division, especially of an economy or a society.",
+        "pos": "noun"
+      },
+      "comprehensive": {
+        "meaning": "including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "frameworks": {
+        "meaning": "basic structures underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "prevent": {
+        "meaning": "to stop something from happening or someone from doing something.",
+        "pos": "verb"
+      },
+      "illicit": {
+        "meaning": "forbidden by law, rules, or custom.",
+        "pos": "adjective"
+      },
+      "foster": {
+        "meaning": "to encourage the development of something good.",
+        "pos": "verb"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "integrating": {
+        "meaning": "combining one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "clarity": {
+        "meaning": "the quality of being clear and easy to understand.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the deadline for crypto companies in Pakistan to submit their licensing applications, and what is the consequence of not doing so?",
+      "What does \"foster innovation and growth\" mean in the context of a clear regulatory environment for cryptocurrencies?",
+      "Do you believe strict crypto licensing regimes, like the one in Pakistan, are ultimately beneficial or detrimental for the global crypto industry's long-term development? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "Crypto companies in Pakistan must submit their licensing applications by September 5th. If they fail to do so, they will be required to cease operations.",
+      "\"Foster innovation and growth\" means that a well-defined and predictable set of rules helps businesses to operate with confidence, invest, and develop new products and services without fear of sudden legal changes, thereby encouraging progress and expansion in the industry.",
+      "While strict, such regimes are often beneficial in the long term. They provide legal certainty, protect consumers, and build trust, which can attract institutional investment and facilitate mainstream adoption. Although they might hinder some speculative activities, they create a stable foundation for sustainable growth."
+    ]
+  },
+  {
+    "id": "ec-2026-08-25-1",
+    "date": "2026-08-25",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "새로운 연준 의장이 인플레이션 우려가 커지는 가운데 잭슨홀 회의에서 중요한 시험대에 오릅니다.",
+    "url": "https://www.theguardian.com/business/2026/aug/24/fed-chair-kevin-warsh-faces-critical-test-jackson-hole-inflation-fears-mount",
+    "title": "New Fed Chair Faces Inflation Test at Jackson Hole",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The new US Federal Reserve Chair, Kevin Warsh, faces a significant challenge. He will address the annual Jackson Hole meeting of central bankers. Investors are currently worried about rising inflation. There is also anxiety in the government bond markets. Donald Trump's tax and spending plans are contributing to these concerns. Markets hope Warsh will offer reassurance to calm these fears. His speech is crucial for setting expectations. It will indicate the Fed's future monetary policy direction. This event is watched closely by global financial markets. It often signals major shifts in economic strategy.",
+    "sentences": [
+      {
+        "en": "The new US Federal Reserve Chair, Kevin Warsh, faces a significant challenge.",
+        "ko": "새로운 미국 연방준비제도 이사회 의장인 케빈 워시가 중요한 과제에 직면합니다."
+      },
+      {
+        "en": "He will address the annual Jackson Hole meeting of central bankers.",
+        "ko": "그는 중앙은행가들의 연례 잭슨홀 회의에서 연설할 예정입니다."
+      },
+      {
+        "en": "Investors are currently worried about rising inflation.",
+        "ko": "투자자들은 현재 인플레이션 상승에 대해 우려하고 있습니다."
+      },
+      {
+        "en": "There is also anxiety in the government bond markets.",
+        "ko": "또한 국채 시장에도 불안감이 있습니다."
+      },
+      {
+        "en": "Donald Trump's tax and spending plans are contributing to these concerns.",
+        "ko": "도널드 트럼프의 세금 및 지출 계획이 이러한 우려에 기여하고 있습니다."
+      },
+      {
+        "en": "Markets hope Warsh will offer reassurance to calm these fears.",
+        "ko": "시장은 워시가 이러한 두려움을 진정시키기 위한 안심을 제공하기를 바랍니다."
+      },
+      {
+        "en": "His speech is crucial for setting expectations.",
+        "ko": "그의 연설은 기대를 설정하는 데 매우 중요합니다."
+      },
+      {
+        "en": "It will indicate the Fed's future monetary policy direction.",
+        "ko": "이는 연준의 향후 통화 정책 방향을 나타낼 것입니다."
+      },
+      {
+        "en": "This event is watched closely by global financial markets.",
+        "ko": "이 행사는 전 세계 금융 시장에서 면밀히 주시됩니다."
+      },
+      {
+        "en": "It often signals major shifts in economic strategy.",
+        "ko": "이는 종종 경제 전략의 주요 변화를 알립니다."
+      }
+    ],
+    "glossary": {
+      "chair": {
+        "meaning": "the person who is in charge of a meeting or committee.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "large or important enough to have an effect or be noticed.",
+        "pos": "adjective"
+      },
+      "challenge": {
+        "meaning": "a new or difficult task that tests someone's ability.",
+        "pos": "noun"
+      },
+      "address": {
+        "meaning": "to make a formal speech to a group of people.",
+        "pos": "verb"
+      },
+      "annual": {
+        "meaning": "happening once every year.",
+        "pos": "adjective"
+      },
+      "investors": {
+        "meaning": "people or organizations that put money into a financial scheme, property, or business with the expectation of achieving a profit.",
+        "pos": "noun"
+      },
+      "worried": {
+        "meaning": "feeling anxious or troubled about actual or potential problems.",
+        "pos": "adjective"
+      },
+      "rising": {
+        "meaning": "increasing in amount, number, or strength.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "the rate at which the general level of prices for goods and services is rising.",
+        "pos": "noun"
+      },
+      "anxiety": {
+        "meaning": "a feeling of worry, nervousness, or unease about something with an uncertain outcome.",
+        "pos": "noun"
+      },
+      "contributing": {
+        "meaning": "helping to cause or bring about something.",
+        "pos": "verb"
+      },
+      "reassurance": {
+        "meaning": "the action of giving comfort or confidence to someone.",
+        "pos": "noun"
+      },
+      "calm": {
+        "meaning": "to make someone or something quiet and peaceful.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "expectations": {
+        "meaning": "beliefs about what will happen or what something will be like.",
+        "pos": "noun"
+      },
+      "indicate": {
+        "meaning": "to show or point out something.",
+        "pos": "verb"
+      },
+      "direction": {
+        "meaning": "the way in which something is developing or changing.",
+        "pos": "noun"
+      },
+      "shifts": {
+        "meaning": "changes in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "strategy": {
+        "meaning": "a plan of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific financial event is the new Fed Chair, Kevin Warsh, preparing to address, and what are the main concerns surrounding it?",
+      "Q2: Explain the term \"monetary policy\" in the context of a central bank's role as discussed in the passage.",
+      "Q3: Why do you think global financial markets pay such close attention to speeches by central bank leaders like the Fed Chair?"
+    ],
+    "modelAnswers": [
+      "A1: Kevin Warsh is preparing to address the annual Jackson Hole meeting of central bankers. The main concerns are rising inflation and anxiety in government bond markets, partly due to Donald Trump's tax and spending plans.",
+      "A2: Monetary policy refers to the actions a central bank takes to manage the money supply, interest rates, and credit conditions. Its goal is to promote economic growth and stability, often by controlling inflation and unemployment.",
+      "A3: Global financial markets closely watch central bank leaders' speeches because they provide critical insights into future economic policies. These policies, especially concerning interest rates and money supply, directly impact investment decisions, currency values, and overall market stability worldwide."
+    ]
+  },
+  {
+    "id": "ec-2026-08-25-2",
+    "date": "2026-08-25",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "AI가 은행원의 추론 능력을 대체하는 것에 대한 잠재적 위험을 경고하는 골드만삭스 파트너의 의견을 들어보세요.",
+    "url": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html",
+    "title": "Goldman Sachs Warns AI Weakens Banker Skills",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Goldman Sachs is actively adopting artificial intelligence. However, a senior technology leader has issued a warning. He highlights a significant, unintended risk with AI integration. The concern is that AI could weaken bankers' reasoning skills. Future financial professionals might rely too much on automation. This over-reliance could hinder their critical thinking development. While AI offers efficiency, human judgment remains vital in finance. Complex financial scenarios often require nuanced human insight. The bank aims to leverage AI's benefits without losing core human capabilities. This balance is crucial for maintaining robust financial markets.",
+    "sentences": [
+      {
+        "en": "Goldman Sachs is actively adopting artificial intelligence.",
+        "ko": "골드만삭스는 인공지능을 적극적으로 도입하고 있습니다."
+      },
+      {
+        "en": "However, a senior technology leader has issued a warning.",
+        "ko": "하지만 한 고위 기술 책임자가 경고를 발령했습니다."
+      },
+      {
+        "en": "He highlights a significant, unintended risk with AI integration.",
+        "ko": "그는 AI 통합으로 인한 중요한, 의도치 않은 위험을 강조합니다."
+      },
+      {
+        "en": "The concern is that AI could weaken bankers' reasoning skills.",
+        "ko": "우려는 AI가 은행원들의 추론 능력을 약화시킬 수 있다는 것입니다."
+      },
+      {
+        "en": "Future financial professionals might rely too much on automation.",
+        "ko": "미래의 금융 전문가들은 자동화에 너무 많이 의존할 수 있습니다."
+      },
+      {
+        "en": "This over-reliance could hinder their critical thinking development.",
+        "ko": "이러한 과도한 의존은 그들의 비판적 사고 발달을 방해할 수 있습니다."
+      },
+      {
+        "en": "While AI offers efficiency, human judgment remains vital in finance.",
+        "ko": "AI가 효율성을 제공하지만, 금융에서는 인간의 판단이 여전히 중요합니다."
+      },
+      {
+        "en": "Complex financial scenarios often require nuanced human insight.",
+        "ko": "복잡한 금융 시나리오는 종종 미묘한 인간적 통찰력을 필요로 합니다."
+      },
+      {
+        "en": "The bank aims to leverage AI's benefits without losing core human capabilities.",
+        "ko": "은행은 핵심적인 인간의 능력을 잃지 않으면서 AI의 이점을 활용하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This balance is crucial for maintaining robust financial markets.",
+        "ko": "이러한 균형은 견고한 금융 시장을 유지하는 데 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "adopting": {
+        "meaning": "beginning to use or follow something, such as a new method or technology.",
+        "pos": "verb"
+      },
+      "issued": {
+        "meaning": "formally sent out or made known.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important and deserving attention.",
+        "pos": "adjective"
+      },
+      "unintended": {
+        "meaning": "not planned or meant.",
+        "pos": "adjective"
+      },
+      "integration": {
+        "meaning": "the action or process of combining two or more things in an effective way.",
+        "pos": "noun"
+      },
+      "weaken": {
+        "meaning": "to make something less strong or effective.",
+        "pos": "verb"
+      },
+      "professionals": {
+        "meaning": "people who do a job that requires special training, education, or skill.",
+        "pos": "noun"
+      },
+      "rely": {
+        "meaning": "to depend on someone or something with full trust or confidence.",
+        "pos": "verb"
+      },
+      "automation": {
+        "meaning": "the use of largely automatic equipment in a system of manufacturing or other production process.",
+        "pos": "noun"
+      },
+      "over-reliance": {
+        "meaning": "the state of depending too much on someone or something.",
+        "pos": "noun"
+      },
+      "hinder": {
+        "meaning": "to make it difficult for someone to do something or for something to happen.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being efficient, which is achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "judgment": {
+        "meaning": "the ability to make considered decisions or come to sensible conclusions.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "scenarios": {
+        "meaning": "a projected or imagined sequence of events.",
+        "pos": "noun"
+      },
+      "nuanced": {
+        "meaning": "characterized by subtle shades of meaning or expression.",
+        "pos": "adjective"
+      },
+      "insight": {
+        "meaning": "the ability to gain an accurate and deep understanding of someone or something.",
+        "pos": "noun"
+      },
+      "leverage": {
+        "meaning": "to use something to maximum advantage.",
+        "pos": "verb"
+      },
+      "capabilities": {
+        "meaning": "the ability or power to do something.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to the Goldman Sachs leader, what is the specific danger of relying too much on AI in banking?",
+      "Q2: What is meant by \"human judgment remains vital in finance\" in the context of AI adoption?",
+      "Q3: How do you think financial institutions can balance the benefits of AI with the need to maintain human reasoning skills among their employees?"
+    ],
+    "modelAnswers": [
+      "A1: The specific danger is that relying too much on AI could weaken bankers' reasoning skills. This might lead future financial professionals to depend excessively on automation, hindering their critical thinking development.",
+      "A2: This phrase means that despite AI's capabilities, human bankers still need to use their own discretion, experience, and nuanced understanding to make complex financial decisions. AI can assist, but the ultimate decision-making and ethical considerations often require human insight.",
+      "A3: Financial institutions can balance AI benefits with human skills by using AI as a tool to augment, rather than replace, human intelligence. This means training employees to work with AI, focusing on higher-level strategic thinking, and ensuring that critical decisions always involve human oversight and ethical review."
+    ]
+  },
+  {
+    "id": "ec-2026-08-25-3",
+    "date": "2026-08-25",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국 재무부가 채권 시장 안정화를 위해 고군분투하는 가운데, 미국이 안전자산으로서의 지위를 잃을 수 있을지 탐구합니다.",
+    "url": "https://www.theguardian.com/business/2026/aug/24/treasury-bonds-trump-administration-debt",
+    "title": "US Treasury Bond Mess Raises Safe Haven Doubts",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US bond market is currently facing significant challenges. The Trump administration is attempting to influence it. Treasury Secretary Scott Bessent announced increased bond purchases. The goal is to raise bond prices and lower their yields. However, these efforts have not been successful so far. The bond market situation is causing frustration for the administration. This raises questions about the US's long-standing status. Traditionally, US Treasury bonds are considered a global safe haven. Investors seek them during times of economic uncertainty. The current instability could undermine this perception. Concerns about US debt levels are also growing. This \"mess\" might signal a shift in global financial trust.",
+    "sentences": [
+      {
+        "en": "The US bond market is currently facing significant challenges.",
+        "ko": "미국 채권 시장은 현재 상당한 어려움에 직면해 있습니다."
+      },
+      {
+        "en": "The Trump administration is attempting to influence it.",
+        "ko": "트럼프 행정부는 이를 영향력을 행사하려 시도하고 있습니다."
+      },
+      {
+        "en": "Treasury Secretary Scott Bessent announced increased bond purchases.",
+        "ko": "스콧 베센트 재무장관은 채권 매입을 늘릴 것이라고 발표했습니다."
+      },
+      {
+        "en": "The goal is to raise bond prices and lower their yields.",
+        "ko": "목표는 채권 가격을 올리고 수익률을 낮추는 것입니다."
+      },
+      {
+        "en": "However, these efforts have not been successful so far.",
+        "ko": "하지만 이러한 노력은 지금까지 성공적이지 못했습니다."
+      },
+      {
+        "en": "The bond market situation is causing frustration for the administration.",
+        "ko": "채권 시장 상황은 행정부에 좌절감을 안겨주고 있습니다."
+      },
+      {
+        "en": "This raises questions about the US's long-standing status.",
+        "ko": "이는 미국의 오랜 지위에 대한 의문을 제기합니다."
+      },
+      {
+        "en": "Traditionally, US Treasury bonds are considered a global safe haven.",
+        "ko": "전통적으로 미국 국채는 글로벌 안전자산으로 여겨집니다."
+      },
+      {
+        "en": "Investors seek them during times of economic uncertainty.",
+        "ko": "투자자들은 경제적 불확실성 시기에 이를 찾습니다."
+      },
+      {
+        "en": "The current instability could undermine this perception.",
+        "ko": "현재의 불안정성은 이러한 인식을 약화시킬 수 있습니다."
+      },
+      {
+        "en": "Concerns about US debt levels are also growing.",
+        "ko": "미국 부채 수준에 대한 우려 또한 커지고 있습니다."
+      },
+      {
+        "en": "This \"mess\" might signal a shift in global financial trust.",
+        "ko": "이러한 '혼란'은 글로벌 금융 신뢰의 변화를 나타낼 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "currently": {
+        "meaning": "at the present time.",
+        "pos": "adverb"
+      },
+      "facing": {
+        "meaning": "confronted with or experiencing something difficult or unpleasant.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "challenges": {
+        "meaning": "difficult situations or tasks that test abilities.",
+        "pos": "noun"
+      },
+      "attempting": {
+        "meaning": "making an effort to achieve or complete something difficult.",
+        "pos": "verb"
+      },
+      "influence": {
+        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "announced": {
+        "meaning": "made a public statement about a fact, occurrence, or intention.",
+        "pos": "verb"
+      },
+      "increased": {
+        "meaning": "made greater in size, amount, or intensity.",
+        "pos": "adjective"
+      },
+      "purchases": {
+        "meaning": "acts of buying something.",
+        "pos": "noun"
+      },
+      "goal": {
+        "meaning": "the object of a person's ambition or effort; an aim or desired result.",
+        "pos": "noun"
+      },
+      "raise": {
+        "meaning": "to increase the amount, level, or strength of something.",
+        "pos": "verb"
+      },
+      "yields": {
+        "meaning": "the income returned on an investment, such as the interest received from a bond.",
+        "pos": "noun"
+      },
+      "successful": {
+        "meaning": "accomplishing an aim or purpose.",
+        "pos": "adjective"
+      },
+      "frustration": {
+        "meaning": "the feeling of being upset or annoyed, especially because of an inability to change or achieve something.",
+        "pos": "noun"
+      },
+      "raises": {
+        "meaning": "brings up for discussion or consideration.",
+        "pos": "verb"
+      },
+      "long-standing": {
+        "meaning": "having existed for a long time.",
+        "pos": "adjective"
+      },
+      "status": {
+        "meaning": "the relative social or professional standing of someone or something.",
+        "pos": "noun"
+      },
+      "traditionally": {
+        "meaning": "according to or by tradition.",
+        "pos": "adverb"
+      },
+      "considered": {
+        "meaning": "regarded as having a specified quality or status.",
+        "pos": "verb"
+      },
+      "global": {
+        "meaning": "relating to the whole world; worldwide.",
+        "pos": "adjective"
+      },
+      "uncertainty": {
+        "meaning": "the state of being uncertain; doubt.",
+        "pos": "noun"
+      },
+      "instability": {
+        "meaning": "the state of being unstable; lack of stability.",
+        "pos": "noun"
+      },
+      "undermine": {
+        "meaning": "to lessen the effectiveness, power, or ability of, especially gradually or insidiously.",
+        "pos": "verb"
+      },
+      "perception": {
+        "meaning": "the way in which something is regarded, understood, or interpreted.",
+        "pos": "noun"
+      },
+      "signal": {
+        "meaning": "to indicate or convey information about something.",
+        "pos": "verb"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "trust": {
+        "meaning": "firm belief in the reliability, truth, ability, or strength of someone or something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific action did Treasury Secretary Scott Bessent announce to address the bond market situation, and what was its intended outcome?",
+      "Q2: Explain what \"safe haven\" means in the context of US Treasury bonds, and why investors traditionally seek them.",
+      "Q3: If the US were to lose its status as a global safe haven, what potential impacts could this have on international finance and trade?"
+    ],
+    "modelAnswers": [
+      "A1: Treasury Secretary Scott Bessent announced increased bond purchases by the government. The intended outcome was to raise bond prices and consequently lower their yields, aiming to stabilize the bond market.",
+      "A2: A \"safe haven\" refers to an investment that is expected to retain or increase in value during times of market turbulence. US Treasury bonds are traditionally considered a safe haven because they are backed by the US government, making them low-risk and reliable for investors seeking security during economic uncertainty.",
+      "A3: Losing safe haven status could lead to increased volatility in global financial markets, higher borrowing costs for the US government, and a potential devaluation of the US dollar. It might also encourage investors to seek alternative assets or currencies, shifting the balance of power in international finance and trade."
+    ]
+  },
+  {
     "id": "cd-2026-08-24-1",
     "date": "2026-08-24",
     "rank": 1,
