@@ -902,8 +902,7 @@
     }
 
     // Spaced-repetition timing (days).
-    const REVIEW_DUE_DAYS = 3;   // 복습중 → becomes due for the 복습하기 session
-    const REVIEW_MAX_DAYS = 7;   // 복습중 not reviewed by now → reverts to 미암기
+    const REVIEW_DUE_DAYS = 3;   // 복습중 → becomes due for the 복습하기 session (and stays due until reviewed)
 
     /* ------------------------------------------------------------------ */
     /* Lemma / word-form normalization for glossary lookup                 */
@@ -1108,35 +1107,29 @@
         return () => saveTimer.current && clearTimeout(saveTimer.current);
       }, [wordbank, reads, streak, session, hydrated]);
 
-      // Once on load: (1) revert "복습중" words that were never reviewed in
-      // time back to "미암기" so an unreviewed word doesn't stay stuck in
-      // review forever, and (2) permanently purge soft-deleted words once
-      // their tombstone is old enough to have safely propagated to every
-      // device (deletion has already won any sync merge by then, so keeping
-      // the tombstone forever would just grow the stored blob for no
-      // reason). 완료(mastered) words are NOT auto-removed — once a word is
-      // actually mastered it stays that way until the user deletes it;
-      // silently expiring it after a short TTL just sent it back through
-      // the entire 미암기→복습중 cycle from scratch the next time it turned
-      // up in an article, which looked exactly like "words I already
-      // reviewed keep reappearing in 복습중."
+      // Once on load: permanently purge soft-deleted entries whose tombstone
+      // is old enough to have safely propagated to every device (deletion has
+      // already won any sync merge by then, so keeping the tombstone forever
+      // would just grow the stored blob for no reason).
+      //
+      // Nothing else is swept. A word's stage only ever changes through an
+      // explicit user action. Two time-based demotions used to live here and
+      // both did the same damage — silently throwing away progress the user
+      // had earned, then making the word climb the whole 미암기→복습중→완료
+      // ladder again:
+      //   · 완료 words were deleted outright 7 days after being mastered.
+      //   · 복습중 words not reviewed within 7 days fell all the way back to
+      //     미암기, so 단어 외우기 kept refilling with words already learned.
+      // An overdue 복습중 word was never actually "stuck" — reviewDue() has no
+      // upper bound, so it simply stays due in 복습하기 until it's reviewed,
+      // which is where a lapsed word belongs.
       const TOMBSTONE_TTL_MS = 30 * 86400000;
       useEffect(() => {
         setWordbank((prev) => {
-          const today = kstToday();
           const next = {};
           let changed = false;
           for (const [w, v] of Object.entries(prev)) {
-            if (v.deleted) {
-              if (Date.now() - (v.updatedAt || 0) >= TOMBSTONE_TTL_MS) { changed = true; continue; }
-              next[w] = v; continue;
-            }
-            const stage = v.stage || (v.learned ? "review" : "new");
-            if (stage === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_MAX_DAYS) {
-              const { reviewSince, ...rest } = v;
-              next[w] = { ...rest, stage: "new", learned: false, updatedAt: Date.now() }; // not reviewed in time → 미암기
-              changed = true; continue;
-            }
+            if (v.deleted && Date.now() - (v.updatedAt || 0) >= TOMBSTONE_TTL_MS) { changed = true; continue; }
             next[w] = v;
           }
           return changed ? next : prev;
@@ -2430,9 +2423,8 @@
       // being forgotten drops it back into 복습중 (same as the per-card "다시
       // 외우기" button) so it re-enters the review cycle. Does NOT count
       // toward the streak (only actually memorizing a word does). A 복습중
-      // word that's never successfully reviewed reverts to 미암기 on its own
-      // via the time-based sweep (REVIEW_MAX_DAYS), not from a single wrong
-      // answer.
+      // word answered wrong keeps its reviewSince, so it simply stays due in
+      // 복습하기 rather than being demoted back to 미암기.
       const dontKnow = () => {
         const cur = deck[idx];
         const w = cur.word;
