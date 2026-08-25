@@ -1,5 +1,989 @@
 [
   {
+    "id": "cd-2026-08-26-1",
+    "date": "2026-08-26",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "한국 무역 대기업 포스코가 어발란체 블록체인에 무역 채권을 토큰화했습니다. 한국 기업의 실제 자산(RWA) 토큰화 사례를 확인해 보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/25/south-korea-trade-giant-posco-brings-trade-receivables-to-avalanche-in-latest-tokenization-move",
+    "title": "POSCO Tokenizes Trade Receivables on Avalanche Blockchain",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "POSCO, a major South Korean trading company, recently tokenized its trade receivables. This move marks a significant step for real-world asset (RWA) tokenization in the region. The transaction was carried out in collaboration with Olea and Intain. They successfully brought traditional financial assets onto the Avalanche blockchain. This follows a previous pilot project with LG CNS on the Injective blockchain. Tokenization aims to enhance the liquidity and efficiency of these assets. It allows for fractional ownership and easier transferability. This growing trend reflects increasing institutional interest in blockchain technology. Such developments have the potential to transform global trade finance. Digital assets are making traditional financial instruments more accessible. This partnership highlights South Korea's active role in digital innovation.",
+    "sentences": [
+      {
+        "en": "POSCO, a major South Korean trading company, recently tokenized its trade receivables.",
+        "ko": "한국의 주요 무역 회사인 포스코가 최근 무역 채권을 토큰화했습니다."
+      },
+      {
+        "en": "This move marks a significant step for real-world asset (RWA) tokenization in the region.",
+        "ko": "이러한 움직임은 이 지역에서 실제 자산(RWA) 토큰화에 중요한 진전을 나타냅니다."
+      },
+      {
+        "en": "The transaction was carried out in collaboration with Olea and Intain.",
+        "ko": "이 거래는 Olea 및 Intain과의 협력을 통해 이루어졌습니다."
+      },
+      {
+        "en": "They successfully brought traditional financial assets onto the Avalanche blockchain.",
+        "ko": "그들은 전통적인 금융 자산을 어발란체 블록체인으로 성공적으로 가져왔습니다."
+      },
+      {
+        "en": "This follows a previous pilot project with LG CNS on the Injective blockchain.",
+        "ko": "이는 인젝티브 블록체인에서 LG CNS와 진행했던 이전 파일럿 프로젝트에 이은 것입니다."
+      },
+      {
+        "en": "Tokenization aims to enhance the liquidity and efficiency of these assets.",
+        "ko": "토큰화는 이러한 자산의 유동성과 효율성을 높이는 것을 목표로 합니다."
+      },
+      {
+        "en": "It allows for fractional ownership and easier transferability.",
+        "ko": "이는 부분 소유권과 더 쉬운 양도를 가능하게 합니다."
+      },
+      {
+        "en": "This growing trend reflects increasing institutional interest in blockchain technology.",
+        "ko": "이러한 성장 추세는 블록체인 기술에 대한 기관의 관심이 증가하고 있음을 반영합니다."
+      },
+      {
+        "en": "Such developments have the potential to transform global trade finance.",
+        "ko": "이러한 발전은 글로벌 무역 금융을 변화시킬 잠재력을 가지고 있습니다."
+      },
+      {
+        "en": "Digital assets are making traditional financial instruments more accessible.",
+        "ko": "디지털 자산은 전통적인 금융 상품을 더 쉽게 접근할 수 있도록 만들고 있습니다."
+      },
+      {
+        "en": "This partnership highlights South Korea's active role in digital innovation.",
+        "ko": "이 파트너십은 디지털 혁신에서 한국의 적극적인 역할을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "tokenized": {
+        "meaning": "Converted into a digital token on a blockchain, representing ownership or rights to an underlying asset.",
+        "pos": "verb"
+      },
+      "receivables": {
+        "meaning": "Amounts of money owed to a business by customers or other debtors for goods or services.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "Important or notable, indicating a substantial impact or meaning.",
+        "pos": "adjective"
+      },
+      "real-world": {
+        "meaning": "Referring to actual physical assets or traditional financial instruments existing outside the blockchain.",
+        "pos": "adjective"
+      },
+      "transaction": {
+        "meaning": "An instance of buying or selling something, or a business deal.",
+        "pos": "noun"
+      },
+      "collaboration": {
+        "meaning": "The act of working together with another person or group to achieve something.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "Relating to long-established customs, practices, or financial systems that are not new or modern.",
+        "pos": "adjective"
+      },
+      "financial": {
+        "meaning": "Relating to money, banking, or investments.",
+        "pos": "adjective"
+      },
+      "blockchain": {
+        "meaning": "A decentralized, distributed ledger technology that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "pilot": {
+        "meaning": "A small-scale, experimental project or test run before full implementation.",
+        "pos": "adjective"
+      },
+      "enhance": {
+        "meaning": "To improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "liquidity": {
+        "meaning": "The ease with which an asset can be converted into cash without affecting its market price.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "The state or quality of being able to accomplish something with the least waste of time and effort.",
+        "pos": "noun"
+      },
+      "fractional": {
+        "meaning": "Relating to a small part or proportion of something, allowing ownership of a portion.",
+        "pos": "adjective"
+      },
+      "ownership": {
+        "meaning": "The act, state, or right of possessing something.",
+        "pos": "noun"
+      },
+      "transferability": {
+        "meaning": "The ability for an asset or right to be moved or given to another person.",
+        "pos": "noun"
+      },
+      "institutional": {
+        "meaning": "Relating to large organizations or established systems, like banks or investment firms.",
+        "pos": "adjective"
+      },
+      "potential": {
+        "meaning": "Having or showing the capacity to develop into something in the future.",
+        "pos": "noun"
+      },
+      "transform": {
+        "meaning": "To make a thorough or dramatic change in the form, appearance, or character of something.",
+        "pos": "verb"
+      },
+      "instruments": {
+        "meaning": "Formal legal documents or financial tools used to create, modify, or terminate rights and obligations.",
+        "pos": "noun"
+      },
+      "accessible": {
+        "meaning": "Able to be reached or entered, or easy to use and understand.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific type of asset did POSCO tokenize, and on which blockchain?",
+      "Q2: The passage mentions 'real-world asset (RWA) tokenization.' In your own words, explain what RWA tokenization means and why it might be beneficial for traditional finance.",
+      "Q3: Do you believe tokenization will fundamentally change global trade finance within the next five years? Why or why not?"
+    ],
+    "modelAnswers": [
+      "A1: POSCO tokenized its trade receivables on the Avalanche blockchain.",
+      "A2: RWA tokenization involves converting tangible or intangible assets from the traditional financial world, like real estate or invoices, into digital tokens on a blockchain. This can offer benefits such as increased liquidity, fractional ownership, and more efficient transfer processes for these assets.",
+      "A3: Yes, I believe tokenization will significantly change global trade finance. It offers greater transparency, reduces intermediaries, and speeds up settlement times. This efficiency can unlock new capital and streamline complex international transactions, making it increasingly adopted."
+    ]
+  },
+  {
+    "id": "cd-2026-08-26-2",
+    "date": "2026-08-26",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "유럽의 MiCA 규제가 암호화폐 시장을 어떻게 변화시켰는지, 그리고 이로 인해 폴란드와 같은 일부 국가들이 겪고 있는 어려움은 무엇인지 알아보세요.",
+    "url": "https://www.coindesk.com/opinion/2026/08/24/mica-revolutionised-european-crypto-and-left-poland-licking-its-wounds",
+    "title": "MiCA Transforms European Crypto, Posing Challenges for Poland",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The European Union's MiCA regulation has significantly reshaped the crypto market. This comprehensive framework aims to bring clarity and stability to digital assets. While intended to foster growth, its implementation has created hurdles for some nations. Poland, a country with strong ambitions in crypto, is experiencing these effects. The strict new rules have led to operational adjustments for many firms. Some businesses are finding it challenging to adapt to the compliance burden. This situation highlights the complex impact of regulation on innovation. It shows how different nations react to new legal frameworks. MiCA represents a maturing phase for the European crypto industry. However, it also underscores potential regional disparities in adoption. The future will reveal its full long-term consequences across Europe.",
+    "sentences": [
+      {
+        "en": "The European Union's MiCA regulation has significantly reshaped the crypto market.",
+        "ko": "유럽연합의 MiCA 규제는 암호화폐 시장을 크게 재편했습니다."
+      },
+      {
+        "en": "This comprehensive framework aims to bring clarity and stability to digital assets.",
+        "ko": "이 포괄적인 프레임워크는 디지털 자산에 명확성과 안정성을 가져다주는 것을 목표로 합니다."
+      },
+      {
+        "en": "While intended to foster growth, its implementation has created hurdles for some nations.",
+        "ko": "성장을 촉진하기 위한 것이었지만, 그 시행은 일부 국가에 장애물을 만들었습니다."
+      },
+      {
+        "en": "Poland, a country with strong ambitions in crypto, is experiencing these effects.",
+        "ko": "암호화폐 분야에서 강한 야망을 가진 폴란드가 이러한 영향을 겪고 있습니다."
+      },
+      {
+        "en": "The strict new rules have led to operational adjustments for many firms.",
+        "ko": "엄격한 새 규칙은 많은 기업들에게 운영상의 조정을 요구했습니다."
+      },
+      {
+        "en": "Some businesses are finding it challenging to adapt to the compliance burden.",
+        "ko": "일부 기업들은 규제 준수 부담에 적응하는 것을 어려워하고 있습니다."
+      },
+      {
+        "en": "This situation highlights the complex impact of regulation on innovation.",
+        "ko": "이러한 상황은 혁신에 대한 규제의 복잡한 영향을 강조합니다."
+      },
+      {
+        "en": "It shows how different nations react to new legal frameworks.",
+        "ko": "이는 각기 다른 국가들이 새로운 법적 프레임워크에 어떻게 반응하는지를 보여줍니다."
+      },
+      {
+        "en": "MiCA represents a maturing phase for the European crypto industry.",
+        "ko": "MiCA는 유럽 암호화폐 산업의 성숙 단계를 나타냅니다."
+      },
+      {
+        "en": "However, it also underscores potential regional disparities in adoption.",
+        "ko": "그러나 이는 또한 채택에 있어서 잠재적인 지역적 불균형을 강조합니다."
+      },
+      {
+        "en": "The future will reveal its full long-term consequences across Europe.",
+        "ko": "미래는 유럽 전역에서 MiCA의 완전한 장기적 결과를 보여줄 것입니다."
+      }
+    ],
+    "glossary": {
+      "regulation": {
+        "meaning": "A rule or law made by a government or authority to control activity.",
+        "pos": "noun"
+      },
+      "reshaped": {
+        "meaning": "Changed the form or structure of something significantly.",
+        "pos": "verb"
+      },
+      "comprehensive": {
+        "meaning": "Including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "A basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "clarity": {
+        "meaning": "The quality of being clear, easy to understand, or transparent.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "The state of being steady and not changing or being disturbed.",
+        "pos": "noun"
+      },
+      "foster": {
+        "meaning": "To encourage the development or growth of something.",
+        "pos": "verb"
+      },
+      "implementation": {
+        "meaning": "The process of putting a decision or plan into effect.",
+        "pos": "noun"
+      },
+      "hurdles": {
+        "meaning": "Difficulties or obstacles that need to be overcome.",
+        "pos": "noun"
+      },
+      "ambitions": {
+        "meaning": "A strong desire to do or achieve something, often requiring determination and hard work.",
+        "pos": "noun"
+      },
+      "operational": {
+        "meaning": "Relating to the normal functioning or running of a business or system.",
+        "pos": "adjective"
+      },
+      "adjustments": {
+        "meaning": "Small changes or modifications made to improve something or make it suitable.",
+        "pos": "noun"
+      },
+      "challenging": {
+        "meaning": "Testing one's abilities; demanding or difficult.",
+        "pos": "adjective"
+      },
+      "adapt": {
+        "meaning": "To adjust to new conditions or requirements.",
+        "pos": "verb"
+      },
+      "compliance": {
+        "meaning": "The act of obeying rules, laws, or requests.",
+        "pos": "noun"
+      },
+      "burden": {
+        "meaning": "A heavy load or responsibility that is difficult to carry or deal with.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "frameworks": {
+        "meaning": "Basic structures underlying a system, concept, or text, often legal or organizational.",
+        "pos": "noun"
+      },
+      "maturing": {
+        "meaning": "Reaching a stage of full development or becoming more sophisticated.",
+        "pos": "adjective"
+      },
+      "underscores": {
+        "meaning": "Emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "disparities": {
+        "meaning": "Great differences or inequalities.",
+        "pos": "noun"
+      },
+      "consequences": {
+        "meaning": "Results or effects of an action or condition.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the primary goal of the MiCA regulation in the European crypto market?",
+      "Q2: The passage states that MiCA's implementation has created 'hurdles' and a 'compliance burden.' Explain what these terms mean in the context of new regulations for crypto businesses.",
+      "Q3: Do you think strict regulations like MiCA are ultimately beneficial or detrimental for the long-term growth and innovation of the crypto industry? Justify your opinion."
+    ],
+    "modelAnswers": [
+      "A1: The primary goal of the MiCA regulation is to bring clarity and stability to the European digital asset market.",
+      "A2: 'Hurdles' refer to difficulties or obstacles crypto businesses face, such as adapting operations or meeting new legal requirements. A 'compliance burden' is the heavy responsibility and cost associated with ensuring all activities adhere to these new rules, often requiring significant resources for legal and technical adjustments.",
+      "A3: I believe strict regulations like MiCA are ultimately beneficial. While they pose initial challenges, they establish a clear legal framework that fosters investor confidence and reduces illicit activities. This stability can attract more institutional investment and promote sustainable innovation, even if it slows down some short-term growth."
+    ]
+  },
+  {
+    "id": "cd-2026-08-26-3",
+    "date": "2026-08-26",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "프랭클린 템플턴과 해시키가 아시아에 토큰화된 미국 머니 마켓 펀드를 출시했습니다. 기관 투자자들이 토큰화에 어떻게 참여하고 있는지 확인해 보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/25/franklin-templeton-and-hashkey-roll-out-u-s-tokenized-money-fund-in-asia",
+    "title": "Franklin Templeton Launches Tokenized US Money Fund in Asia",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Franklin Templeton and Hashkey have jointly launched a tokenized U.S. money fund in Asia. This initiative integrates traditional financial products with blockchain technology. Tokenized U.S. treasuries and money market funds are rapidly expanding. They represent one of the fastest-growing sectors in digital assets. Their growth has surged fifteenfold in just two years. This trend highlights increasing institutional confidence in tokenization. It offers novel ways to access secure, yield-bearing investments. Investors can now gain exposure to U.S. government securities on-chain. This makes traditional finance more accessible and efficient for many. The move signifies a major step towards mainstream adoption of digital assets. Such funds provide enhanced liquidity and transparency for participants. It also broadens investment opportunities across various Asian markets.",
+    "sentences": [
+      {
+        "en": "Franklin Templeton and Hashkey have jointly launched a tokenized U.S. money fund in Asia.",
+        "ko": "프랭클린 템플턴과 해시키가 아시아에 토큰화된 미국 머니 마켓 펀드를 공동으로 출시했습니다."
+      },
+      {
+        "en": "This initiative integrates traditional financial products with blockchain technology.",
+        "ko": "이 이니셔티브는 전통적인 금융 상품을 블록체인 기술과 통합합니다."
+      },
+      {
+        "en": "Tokenized U.S. treasuries and money market funds are rapidly expanding.",
+        "ko": "토큰화된 미국 국채 및 머니 마켓 펀드는 빠르게 확장되고 있습니다."
+      },
+      {
+        "en": "They represent one of the fastest-growing sectors in digital assets.",
+        "ko": "이들은 디지털 자산 분야에서 가장 빠르게 성장하는 부문 중 하나입니다."
+      },
+      {
+        "en": "Their growth has surged fifteenfold in just two years.",
+        "ko": "이들의 성장은 단 2년 만에 15배 증가했습니다."
+      },
+      {
+        "en": "This trend highlights increasing institutional confidence in tokenization.",
+        "ko": "이러한 추세는 토큰화에 대한 기관의 신뢰가 증가하고 있음을 강조합니다."
+      },
+      {
+        "en": "It offers novel ways to access secure, yield-bearing investments.",
+        "ko": "이는 안전하고 수익을 창출하는 투자에 접근할 수 있는 새로운 방법을 제공합니다."
+      },
+      {
+        "en": "Investors can now gain exposure to U.S. government securities on-chain.",
+        "ko": "투자자들은 이제 온체인에서 미국 정부 증권에 대한 노출을 얻을 수 있습니다."
+      },
+      {
+        "en": "This makes traditional finance more accessible and efficient for many.",
+        "ko": "이는 많은 사람들에게 전통 금융을 더 접근하기 쉽고 효율적으로 만듭니다."
+      },
+      {
+        "en": "The move signifies a major step towards mainstream adoption of digital assets.",
+        "ko": "이러한 움직임은 디지털 자산의 주류 채택을 향한 중요한 단계를 의미합니다."
+      },
+      {
+        "en": "Such funds provide enhanced liquidity and transparency for participants.",
+        "ko": "이러한 펀드는 참가자들에게 향상된 유동성과 투명성을 제공합니다."
+      },
+      {
+        "en": "It also broadens investment opportunities across various Asian markets.",
+        "ko": "또한 다양한 아시아 시장 전반에 걸쳐 투자 기회를 확대합니다."
+      }
+    ],
+    "glossary": {
+      "jointly": {
+        "meaning": "In a way that involves two or more people or groups working together.",
+        "pos": "adverb"
+      },
+      "launched": {
+        "meaning": "Started or introduced a new product, service, or initiative.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "Converted into a digital token on a blockchain, representing ownership or rights to an underlying asset.",
+        "pos": "adjective"
+      },
+      "initiative": {
+        "meaning": "An important new plan or program, often designed to solve a problem.",
+        "pos": "noun"
+      },
+      "integrates": {
+        "meaning": "Combines one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "Referring to long-established financial systems or products that are not new or modern.",
+        "pos": "adjective"
+      },
+      "blockchain": {
+        "meaning": "A decentralized, distributed ledger technology that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "expanding": {
+        "meaning": "Becoming larger or more extensive in scope or size.",
+        "pos": "verb"
+      },
+      "sectors": {
+        "meaning": "Distinct parts or subdivisions of an economy or society.",
+        "pos": "noun"
+      },
+      "surged": {
+        "meaning": "Increased suddenly and powerfully.",
+        "pos": "verb"
+      },
+      "fifteenfold": {
+        "meaning": "By fifteen times the original amount or number.",
+        "pos": "adverb"
+      },
+      "institutional": {
+        "meaning": "Relating to large organizations or established systems, like banks or investment firms.",
+        "pos": "adjective"
+      },
+      "confidence": {
+        "meaning": "A feeling of trust or belief in someone or something.",
+        "pos": "noun"
+      },
+      "novel": {
+        "meaning": "New and original, often in an interesting or unusual way.",
+        "pos": "adjective"
+      },
+      "yield-bearing": {
+        "meaning": "Producing income or a return on an investment.",
+        "pos": "adjective"
+      },
+      "exposure": {
+        "meaning": "The state of being subject to a risk or having access to something.",
+        "pos": "noun"
+      },
+      "securities": {
+        "meaning": "Financial instruments that represent an ownership position in a publicly-traded corporation, a creditor relationship with a governmental…",
+        "pos": "noun"
+      },
+      "on-chain": {
+        "meaning": "Referring to transactions or data recorded and verified directly on a blockchain.",
+        "pos": "adverb"
+      },
+      "accessible": {
+        "meaning": "Easy to approach, reach, or use.",
+        "pos": "adjective"
+      },
+      "signifies": {
+        "meaning": "Is an indication of something, or means something.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "The ideas, attitudes, or activities that are regarded as normal or conventional.",
+        "pos": "adjective"
+      },
+      "transparency": {
+        "meaning": "The quality of being open, honest, and easily understood, especially in business.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Which two entities collaborated to launch the tokenized U.S. money fund in Asia?",
+      "Q2: The passage mentions 'yield-bearing investments' and 'exposure to U.S. government securities on-chain.' Explain what these phrases mean and why they are attractive to investors.",
+      "Q3: How do you think the increasing institutional confidence in tokenization, as highlighted in the article, will impact the broader financial markets in Asia over the next few years?"
+    ],
+    "modelAnswers": [
+      "A1: Franklin Templeton and Hashkey collaborated to launch the tokenized U.S. money fund in Asia.",
+      "A2: 'Yield-bearing investments' are assets that generate income or returns, like interest. 'Exposure to U.S. government securities on-chain' means investors can access U.S. treasury bonds or similar instruments directly through blockchain technology. These are attractive because they offer potentially stable returns and the efficiencies of blockchain.",
+      "A3: Increasing institutional confidence in tokenization will likely lead to greater integration of digital assets into traditional finance in Asia. This could result in more efficient capital markets, increased liquidity for various asset classes, and the development of new financial products. It may also spur regulatory clarity and attract more diverse investors to the digital asset space."
+    ]
+  },
+  {
+    "id": "ec-2026-08-26-1",
+    "date": "2026-08-26",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 재무부가 채권 시장 안정화를 위해 어떤 강력한 수단을 고려하고 있는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html",
+    "title": "Treasury May Use $1 Trillion Account for Bond Buybacks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. Treasury Department is considering a significant move. It might use its General Account to influence bond markets. This account holds nearly a trillion dollars. The goal is to conduct bond buybacks. This action would aim to reduce long-term borrowing costs. Treasury Secretary Scott Bessent faces skepticism about his current strategies. Critics doubt his ability to lower bond yields effectively. Using the Treasury General Account (TGA) provides immense financial power. It could significantly impact market sentiment and yields. This move highlights the government's efforts to manage national debt. It also shows attempts to stabilize the broader economy. Financial markets are closely watching for any official announcement.",
+    "sentences": [
+      {
+        "en": "The U.S. Treasury Department is considering a significant move.",
+        "ko": "미국 재무부가 중대한 조치를 고려하고 있습니다."
+      },
+      {
+        "en": "It might use its General Account to influence bond markets.",
+        "ko": "재무부는 채권 시장에 영향을 미치기 위해 일반 계정을 사용할 수 있습니다."
+      },
+      {
+        "en": "This account holds nearly a trillion dollars.",
+        "ko": "이 계정에는 거의 1조 달러가 있습니다."
+      },
+      {
+        "en": "The goal is to conduct bond buybacks.",
+        "ko": "목표는 채권 환매를 실시하는 것입니다."
+      },
+      {
+        "en": "This action would aim to reduce long-term borrowing costs.",
+        "ko": "이 조치는 장기 차입 비용을 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "Treasury Secretary Scott Bessent faces skepticism about his current strategies.",
+        "ko": "스콧 베센트 재무장관은 현재 전략에 대한 회의론에 직면해 있습니다."
+      },
+      {
+        "en": "Critics doubt his ability to lower bond yields effectively.",
+        "ko": "비평가들은 그가 채권 수익률을 효과적으로 낮출 수 있을지에 대해 의심합니다."
+      },
+      {
+        "en": "Using the Treasury General Account (TGA) provides immense financial power.",
+        "ko": "재무부 일반 계정(TGA)을 사용하면 막대한 재정적 힘을 제공합니다."
+      },
+      {
+        "en": "It could significantly impact market sentiment and yields.",
+        "ko": "이는 시장 심리와 수익률에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "This move highlights the government's efforts to manage national debt.",
+        "ko": "이러한 움직임은 국가 부채를 관리하려는 정부의 노력을 강조합니다."
+      },
+      {
+        "en": "It also shows attempts to stabilize the broader economy.",
+        "ko": "또한 광범위한 경제를 안정화하려는 시도를 보여줍니다."
+      },
+      {
+        "en": "Financial markets are closely watching for any official announcement.",
+        "ko": "금융 시장은 공식 발표를 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "treasury": {
+        "meaning": "The government department in charge of managing public money and national finances.",
+        "pos": "noun"
+      },
+      "considering": {
+        "meaning": "Thinking carefully about something, especially before making a decision.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important or noticeable, having a great impact or influence.",
+        "pos": "adjective"
+      },
+      "influence": {
+        "meaning": "To affect or change how someone or something develops, behaves, or thinks.",
+        "pos": "verb"
+      },
+      "bond": {
+        "meaning": "A formal agreement to lend money to a government or company, which pays interest.",
+        "pos": "noun"
+      },
+      "account": {
+        "meaning": "A record of money received or spent, often held by a bank or financial institution.",
+        "pos": "noun"
+      },
+      "nearly": {
+        "meaning": "Almost, very close to a particular amount or time.",
+        "pos": "adverb"
+      },
+      "trillion": {
+        "meaning": "The number 1,000,000,000,000, indicating a very large amount.",
+        "pos": "noun"
+      },
+      "conduct": {
+        "meaning": "To organize and carry out a particular activity or process.",
+        "pos": "verb"
+      },
+      "buybacks": {
+        "meaning": "The act of a company or government repurchasing its own shares or bonds from the market.",
+        "pos": "noun"
+      },
+      "reduce": {
+        "meaning": "To make something smaller in amount, size, or degree.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank or person with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "costs": {
+        "meaning": "The amount of money needed or spent to get or do something.",
+        "pos": "noun"
+      },
+      "secretary": {
+        "meaning": "A high-ranking official in a government department.",
+        "pos": "noun"
+      },
+      "skepticism": {
+        "meaning": "An attitude of doubt about whether something is true or useful.",
+        "pos": "noun"
+      },
+      "strategies": {
+        "meaning": "Plans of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "critics": {
+        "meaning": "People who express an unfavorable opinion about something.",
+        "pos": "noun"
+      },
+      "doubt": {
+        "meaning": "To feel uncertain about something, especially about its truth or likelihood.",
+        "pos": "verb"
+      },
+      "lower": {
+        "meaning": "To make something less in amount, degree, or value.",
+        "pos": "verb"
+      },
+      "yields": {
+        "meaning": "The income generated by an investment, usually expressed as a percentage.",
+        "pos": "noun"
+      },
+      "immense": {
+        "meaning": "Extremely large or great, especially in scale or degree.",
+        "pos": "adjective"
+      },
+      "impact": {
+        "meaning": "To have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "sentiment": {
+        "meaning": "A general feeling or opinion among a group of people.",
+        "pos": "noun"
+      },
+      "stabilize": {
+        "meaning": "To make something firm or steady, or to keep it from changing.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific financial tool is the U.S. Treasury reportedly considering to influence bond markets?",
+      "Q2: Explain the term \"bond buybacks\" in the context of the U.S. Treasury's potential actions and why they might perform them.",
+      "Q3: Do you think governments should actively intervene in financial markets like the bond market, or should they let market forces determine yields? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: The U.S. Treasury is reportedly considering using its Treasury General Account (TGA), which holds nearly a trillion dollars, to influence bond markets.",
+      "A2: Bond buybacks involve the Treasury repurchasing its own outstanding bonds from the market. They might do this to reduce the supply of bonds, which can push down long-term borrowing costs and stabilize market yields.",
+      "A3: Government intervention can stabilize markets during crises and manage national debt. However, some argue it distorts natural market forces and could lead to unintended consequences or moral hazard."
+    ]
+  },
+  {
+    "id": "ec-2026-08-26-2",
+    "date": "2026-08-26",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국과 캐나다 간 무역 전쟁이 격화되면서 캐나다 달러가 어떻게 영향을 받고 있는지 살펴보세요.",
+    "url": "https://www.cnbc.com/2026/08/24/canada-us-trade-war-deal.html",
+    "title": "Trade War Escalation Weakens Canadian Dollar",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A trade dispute between Canada and the United States is intensifying. This conflict involves new tariffs imposed by both nations. Canada announced retaliatory tariffs on various U.S. goods. These actions follow collapsed trade negotiations. Economists are concerned about the wider economic impact. The Canadian dollar has already seen a decline in value. Experts suggest Canada, as a smaller economy, has more to lose. An escalating trade war creates uncertainty for businesses. It disrupts established supply chains and increases costs. This situation could lead to higher prices for consumers. It also affects investment decisions and economic growth. The ongoing tensions highlight the fragility of international trade relations.",
+    "sentences": [
+      {
+        "en": "A trade dispute between Canada and the United States is intensifying.",
+        "ko": "캐나다와 미국 간의 무역 분쟁이 격화되고 있습니다."
+      },
+      {
+        "en": "This conflict involves new tariffs imposed by both nations.",
+        "ko": "이 갈등은 양국이 부과한 새로운 관세와 관련이 있습니다."
+      },
+      {
+        "en": "Canada announced retaliatory tariffs on various U.S. goods.",
+        "ko": "캐나다는 다양한 미국 상품에 대한 보복 관세를 발표했습니다."
+      },
+      {
+        "en": "These actions follow collapsed trade negotiations.",
+        "ko": "이러한 조치는 무역 협상이 결렬된 후에 이루어졌습니다."
+      },
+      {
+        "en": "Economists are concerned about the wider economic impact.",
+        "ko": "경제학자들은 더 넓은 경제적 영향에 대해 우려하고 있습니다."
+      },
+      {
+        "en": "The Canadian dollar has already seen a decline in value.",
+        "ko": "캐나다 달러는 이미 가치 하락을 겪었습니다."
+      },
+      {
+        "en": "Experts suggest Canada, as a smaller economy, has more to lose.",
+        "ko": "전문가들은 캐나다가 더 작은 경제로서 잃을 것이 더 많다고 제안합니다."
+      },
+      {
+        "en": "An escalating trade war creates uncertainty for businesses.",
+        "ko": "무역 전쟁의 심화는 기업에 불확실성을 초래합니다."
+      },
+      {
+        "en": "It disrupts established supply chains and increases costs.",
+        "ko": "이는 기존 공급망을 교란하고 비용을 증가시킵니다."
+      },
+      {
+        "en": "This situation could lead to higher prices for consumers.",
+        "ko": "이러한 상황은 소비자 물가 상승으로 이어질 수 있습니다."
+      },
+      {
+        "en": "It also affects investment decisions and economic growth.",
+        "ko": "또한 투자 결정과 경제 성장에 영향을 미칩니다."
+      },
+      {
+        "en": "The ongoing tensions highlight the fragility of international trade relations.",
+        "ko": "계속되는 긴장은 국제 무역 관계의 취약성을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "dispute": {
+        "meaning": "A disagreement or argument between people, groups, or countries.",
+        "pos": "noun"
+      },
+      "intensifying": {
+        "meaning": "Becoming more forceful, extreme, or serious.",
+        "pos": "verb"
+      },
+      "conflict": {
+        "meaning": "A serious disagreement or argument, often protracted.",
+        "pos": "noun"
+      },
+      "tariffs": {
+        "meaning": "Taxes imposed by a government on imported goods.",
+        "pos": "noun"
+      },
+      "imposed": {
+        "meaning": "To force an unwelcome decision or policy on someone.",
+        "pos": "verb"
+      },
+      "retaliatory": {
+        "meaning": "Done in return for an injury or offense.",
+        "pos": "adjective"
+      },
+      "various": {
+        "meaning": "Different kinds of something, many and diverse.",
+        "pos": "adjective"
+      },
+      "negotiations": {
+        "meaning": "Formal discussions between people who are trying to reach an agreement.",
+        "pos": "noun"
+      },
+      "collapsed": {
+        "meaning": "To fail suddenly and completely, losing value or strength.",
+        "pos": "verb"
+      },
+      "economists": {
+        "meaning": "People who study the production, distribution, and consumption of goods and services.",
+        "pos": "noun"
+      },
+      "concerned": {
+        "meaning": "Worried or anxious about something.",
+        "pos": "adjective"
+      },
+      "wider": {
+        "meaning": "Including a greater range of things or people.",
+        "pos": "adjective"
+      },
+      "decline": {
+        "meaning": "A continuous decrease in the number, quality, or value of something.",
+        "pos": "noun"
+      },
+      "value": {
+        "meaning": "The monetary worth of something, or its importance.",
+        "pos": "noun"
+      },
+      "suggest": {
+        "meaning": "To put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "smaller": {
+        "meaning": "Of a size that is less than normal or usual.",
+        "pos": "adjective"
+      },
+      "escalating": {
+        "meaning": "Increasing rapidly in intensity or magnitude.",
+        "pos": "verb"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or not knowing what will happen.",
+        "pos": "noun"
+      },
+      "disrupts": {
+        "meaning": "To interrupt an event, activity, or process by causing a problem.",
+        "pos": "verb"
+      },
+      "established": {
+        "meaning": "Having been in existence for a long time and recognized.",
+        "pos": "adjective"
+      },
+      "supply": {
+        "meaning": "An amount of something that is available for use.",
+        "pos": "noun"
+      },
+      "chains": {
+        "meaning": "A series of connected things, like a supply chain.",
+        "pos": "noun"
+      },
+      "tensions": {
+        "meaning": "A state of unfriendliness or opposition between countries or groups.",
+        "pos": "noun"
+      },
+      "fragility": {
+        "meaning": "The quality of being easily broken or damaged, or not strong.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific actions have both Canada and the U.S. taken that are intensifying their trade dispute?",
+      "Q2: How does an \"escalating trade war\" affect businesses and consumers, according to the passage?",
+      "Q3: In your opinion, what are the potential long-term consequences for smaller economies like Canada when engaging in trade disputes with larger partners like the U.S.?"
+    ],
+    "modelAnswers": [
+      "A1: Both Canada and the U.S. have imposed new tariffs on each other's goods, with Canada announcing retaliatory tariffs after trade negotiations failed.",
+      "A2: An escalating trade war creates business uncertainty, disrupts supply chains, increases costs, and can lead to higher consumer prices. It also negatively impacts investment and economic growth.",
+      "A3: Smaller economies often have more to lose in trade disputes due to their greater reliance on trade and less diversified economic structures. Long-term consequences could include reduced economic growth, higher inflation, and a weakened currency."
+    ]
+  },
+  {
+    "id": "ec-2026-08-26-3",
+    "date": "2026-08-26",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "거대 기술 기업 알리바바가 AI 투자 자금을 마련하기 위해 대규모 주식 매각을 발표하자 주가가 폭락한 이유를 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/24/alibaba-share-placement-drop-ai-hong-kong.html",
+    "title": "Alibaba Shares Plunge After $10.2 Billion AI Fundraise",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Alibaba's shares recently experienced a significant drop. This occurred after the tech giant announced a major share placement. The company plans to raise $10.2 billion. These funds are intended for its expanding artificial intelligence investments. Despite the long-term potential of AI, investors reacted negatively. The share placement dilutes existing shareholder value. Many view such a large offering as a sign of financial strain. Alibaba aims to remain competitive in the rapidly evolving AI sector. However, the immediate market response highlights investor concerns. They worry about the cost of AI development and future profitability. This event shows the challenges large companies face funding innovation. Balancing growth strategies with shareholder interests is crucial.",
+    "sentences": [
+      {
+        "en": "Alibaba's shares recently experienced a significant drop.",
+        "ko": "알리바바 주가가 최근 크게 하락했습니다."
+      },
+      {
+        "en": "This occurred after the tech giant announced a major share placement.",
+        "ko": "이는 거대 기술 기업이 대규모 주식 매각을 발표한 후에 발생했습니다."
+      },
+      {
+        "en": "The company plans to raise $10.2 billion.",
+        "ko": "회사는 102억 달러를 조달할 계획입니다."
+      },
+      {
+        "en": "These funds are intended for its expanding artificial intelligence investments.",
+        "ko": "이 자금은 확장하는 인공지능 투자를 위한 것입니다."
+      },
+      {
+        "en": "Despite the long-term potential of AI, investors reacted negatively.",
+        "ko": "AI의 장기적인 잠재력에도 불구하고 투자자들은 부정적으로 반응했습니다."
+      },
+      {
+        "en": "The share placement dilutes existing shareholder value.",
+        "ko": "주식 매각은 기존 주주의 가치를 희석시킵니다."
+      },
+      {
+        "en": "Many view such a large offering as a sign of financial strain.",
+        "ko": "많은 이들이 이러한 대규모 공모를 재정적 압박의 신호로 봅니다."
+      },
+      {
+        "en": "Alibaba aims to remain competitive in the rapidly evolving AI sector.",
+        "ko": "알리바바는 빠르게 발전하는 AI 분야에서 경쟁력을 유지하고자 합니다."
+      },
+      {
+        "en": "However, the immediate market response highlights investor concerns.",
+        "ko": "그러나 즉각적인 시장 반응은 투자자들의 우려를 강조합니다."
+      },
+      {
+        "en": "They worry about the cost of AI development and future profitability.",
+        "ko": "그들은 AI 개발 비용과 미래 수익성에 대해 걱정합니다."
+      },
+      {
+        "en": "This event shows the challenges large companies face funding innovation.",
+        "ko": "이 사건은 대기업이 혁신 자금을 조달하는 데 직면하는 어려움을 보여줍니다."
+      },
+      {
+        "en": "Balancing growth strategies with shareholder interests is crucial.",
+        "ko": "성장 전략과 주주 이익의 균형을 맞추는 것이 중요합니다."
+      }
+    ],
+    "glossary": {
+      "shares": {
+        "meaning": "Units of ownership in a company that are sold to investors.",
+        "pos": "noun"
+      },
+      "experienced": {
+        "meaning": "To feel or undergo something, especially an emotion or sensation.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important or noticeable, having a great impact or influence.",
+        "pos": "adjective"
+      },
+      "drop": {
+        "meaning": "A sudden fall in value, amount, or level.",
+        "pos": "noun"
+      },
+      "occurred": {
+        "meaning": "To happen or take place, especially without being planned.",
+        "pos": "verb"
+      },
+      "giant": {
+        "meaning": "A very large and powerful company or organization.",
+        "pos": "noun"
+      },
+      "announced": {
+        "meaning": "To make a public statement about a fact or intention.",
+        "pos": "verb"
+      },
+      "placement": {
+        "meaning": "The act of offering shares or bonds for sale to investors.",
+        "pos": "noun"
+      },
+      "plans": {
+        "meaning": "To decide in advance how something will be done.",
+        "pos": "verb"
+      },
+      "raise": {
+        "meaning": "To collect money for a particular purpose.",
+        "pos": "verb"
+      },
+      "funds": {
+        "meaning": "A sum of money saved or made available for a particular purpose.",
+        "pos": "noun"
+      },
+      "intended": {
+        "meaning": "Planned or meant for a particular purpose or person.",
+        "pos": "adjective"
+      },
+      "expanding": {
+        "meaning": "Becoming larger or more extensive.",
+        "pos": "verb"
+      },
+      "artificial": {
+        "meaning": "Made or produced by human beings rather than occurring naturally.",
+        "pos": "adjective"
+      },
+      "intelligence": {
+        "meaning": "The ability to acquire and apply knowledge and skills.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "The possibility of something happening or developing in a particular way.",
+        "pos": "noun"
+      },
+      "negatively": {
+        "meaning": "In an unfavorable or pessimistic way.",
+        "pos": "adverb"
+      },
+      "dilutes": {
+        "meaning": "To make a liquid weaker by adding water or another liquid; here, to reduce value per share.",
+        "pos": "verb"
+      },
+      "existing": {
+        "meaning": "Present or in operation at the current time.",
+        "pos": "adjective"
+      },
+      "shareholder": {
+        "meaning": "An owner of shares in a company.",
+        "pos": "noun"
+      },
+      "value": {
+        "meaning": "The monetary worth of something, or its importance.",
+        "pos": "noun"
+      },
+      "offering": {
+        "meaning": "A quantity of shares or bonds offered for sale.",
+        "pos": "noun"
+      },
+      "strain": {
+        "meaning": "A state of tension or difficulty, especially financial difficulty.",
+        "pos": "noun"
+      },
+      "competitive": {
+        "meaning": "Relating to or characterized by competition.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: How much money did Alibaba aim to raise through its share placement, and for what primary purpose?",
+      "Q2: What does \"dilutes existing shareholder value\" mean in the context of Alibaba's share placement, and why might shareholders be concerned?",
+      "Q3: Do you believe that investing heavily in AI is a necessary strategy for large tech companies, even if it causes a temporary dip in stock price? Justify your stance."
+    ],
+    "modelAnswers": [
+      "A1: Alibaba aimed to raise $10.2 billion through its share placement. The primary purpose was to fund its expanding investments in artificial intelligence.",
+      "A2: \"Dilutes existing shareholder value\" means that by issuing new shares, the ownership percentage and earnings per share of current shareholders decrease. They might be concerned because their individual stake in the company becomes less valuable.",
+      "A3: Yes, I believe heavy AI investment is necessary for tech companies. While it might cause short-term stock dips due to dilution or expenditure, AI is crucial for future competitiveness and innovation. Not investing could lead to being left behind."
+    ]
+  },
+  {
     "id": "cd-2026-08-25-1",
     "date": "2026-08-25",
     "rank": 1,
