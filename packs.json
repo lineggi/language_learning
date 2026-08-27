@@ -1,5 +1,941 @@
 [
   {
+    "id": "cd-2026-08-27-1",
+    "date": "2026-08-27",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "한국 금융 대기업이 비자와 손잡고 스테이블코인 발행과 B2B 결제 테스트에 나선다는 소식은 한국 핀테크 PM에게 특히 중요합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/26/south-korea-s-shinhan-financial-joins-visa-to-build-stablecoin-infrastructure",
+    "title": "Shinhan Financial Partners with Visa for Stablecoin Pilot",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "South Korea's Shinhan Financial Group is actively collaborating with global payments giant Visa. Their joint project focuses on testing stablecoin issuance and business-to-business (B2B) settlements. This significant partnership fully leverages Visa's advanced digital currency platform for execution. Shinhan's primary goal is to thoroughly explore and develop innovative new payment models. These cutting-edge models will integrate sophisticated AI-powered features, enhancing efficiency and user experience. The comprehensive initiative specifically includes testing secure remittance services and quick redemption processes for stablecoins. This strategic move clearly signals a growing institutional interest in digital currencies and blockchain solutions globally. It also strongly highlights the immense potential for blockchain technology within traditional finance sectors. Such robust collaborations between established financial players and crypto platforms could significantly accelerate mainstream crypto adoption. Ultimately, these developments might fundamentally reshape future global payment landscapes and the broader financial services industry.",
+    "sentences": [
+      {
+        "en": "South Korea's Shinhan Financial Group is actively collaborating with global payments giant Visa.",
+        "ko": "한국의 신한금융그룹은 글로벌 결제 대기업 비자와 적극적으로 협력하고 있습니다."
+      },
+      {
+        "en": "Their joint project focuses on testing stablecoin issuance and business-to-business (B2B) settlements.",
+        "ko": "이들의 공동 프로젝트는 스테이블코인 발행과 기업 간(B2B) 결제 테스트에 중점을 둡니다."
+      },
+      {
+        "en": "This significant partnership fully leverages Visa's advanced digital currency platform for execution.",
+        "ko": "이 중요한 파트너십은 비자의 첨단 디지털 통화 플랫폼을 최대한 활용하여 실행됩니다."
+      },
+      {
+        "en": "Shinhan's primary goal is to thoroughly explore and develop innovative new payment models.",
+        "ko": "신한의 주요 목표는 혁신적인 새로운 결제 모델을 철저히 탐색하고 개발하는 것입니다."
+      },
+      {
+        "en": "These cutting-edge models will integrate sophisticated AI-powered features, enhancing efficiency and user experience.",
+        "ko": "이러한 최첨단 모델은 정교한 AI 기반 기능을 통합하여 효율성과 사용자 경험을 향상시킬 것입니다."
+      },
+      {
+        "en": "The comprehensive initiative specifically includes testing secure remittance services and quick redemption processes for stablecoins.",
+        "ko": "이 포괄적인 이니셔티브는 특히 안전한 송금 서비스와 스테이블코인의 빠른 상환 프로세스 테스트를 포함합니다."
+      },
+      {
+        "en": "This strategic move clearly signals a growing institutional interest in digital currencies and blockchain solutions globally.",
+        "ko": "이러한 전략적 움직임은 전 세계적으로 디지털 통화 및 블록체인 솔루션에 대한 기관의 관심이 증가하고 있음을 분명히 보여줍니다."
+      },
+      {
+        "en": "It also strongly highlights the immense potential for blockchain technology within traditional finance sectors.",
+        "ko": "이는 또한 전통 금융 부문 내 블록체인 기술의 엄청난 잠재력을 강력하게 강조합니다."
+      },
+      {
+        "en": "Such robust collaborations between established financial players and crypto platforms could significantly accelerate mainstream crypto adoption.",
+        "ko": "기존 금융권과 암호화폐 플랫폼 간의 이러한 견고한 협력은 주류 암호화폐 채택을 크게 가속화할 수 있습니다."
+      },
+      {
+        "en": "Ultimately, these developments might fundamentally reshape future global payment landscapes and the broader financial services industry.",
+        "ko": "궁극적으로 이러한 발전은 미래의 글로벌 결제 환경과 더 넓은 금융 서비스 산업을 근본적으로 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "collaborating": {
+        "meaning": "working together with someone to produce or achieve something.",
+        "pos": "verb"
+      },
+      "issuance": {
+        "meaning": "the act of officially giving or producing something, like a new currency or document.",
+        "pos": "noun"
+      },
+      "b2b": {
+        "meaning": "a type of commerce transaction that occurs between two businesses, not between a business and a consumer.",
+        "pos": "noun"
+      },
+      "settlements": {
+        "meaning": "the official arrangement of an argument or debt, or the process of paying money owed.",
+        "pos": "noun"
+      },
+      "leverages": {
+        "meaning": "uses something to maximum advantage.",
+        "pos": "verb"
+      },
+      "platform": {
+        "meaning": "a system or service that allows people to create, share, or use information and applications.",
+        "pos": "noun"
+      },
+      "explore": {
+        "meaning": "to travel through an unfamiliar area to learn about it, or to examine something thoroughly.",
+        "pos": "verb"
+      },
+      "innovative": {
+        "meaning": "introducing new ideas, methods, or products.",
+        "pos": "adjective"
+      },
+      "integrate": {
+        "meaning": "to combine two or more things so that they work together effectively.",
+        "pos": "verb"
+      },
+      "ai-powered": {
+        "meaning": "describes a system or device that uses artificial intelligence technology.",
+        "pos": "adjective"
+      },
+      "enhancing": {
+        "meaning": "improving the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "initiative": {
+        "meaning": "an important new plan or process to achieve a particular aim or to solve a particular problem.",
+        "pos": "noun"
+      },
+      "remittance": {
+        "meaning": "money sent by someone to another person, often to a different country.",
+        "pos": "noun"
+      },
+      "redemption": {
+        "meaning": "the act of exchanging a token or digital asset for its underlying value or a different asset.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or communicates something, often indirectly.",
+        "pos": "verb"
+      },
+      "institutional": {
+        "meaning": "relating to a large and important organization, such as a bank or university.",
+        "pos": "adjective"
+      },
+      "blockchain": {
+        "meaning": "a digital database containing information that can be simultaneously used and shared within a large decentralized public network.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "accelerate": {
+        "meaning": "to happen or make something happen at a faster rate.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "regarded as normal, typical, or conventional by the majority of people.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use a new idea, method, or product.",
+        "pos": "noun"
+      },
+      "reshape": {
+        "meaning": "to change the shape or form of something, or to change its nature or character.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific payment models is Shinhan Financial Group aiming to explore with Visa's platform?",
+      "Q2: In the context of the article, what does \"B2B settlements\" refer to, and why is it significant for financial institutions?",
+      "Q3: How do you think collaborations between traditional financial groups and crypto platforms will impact the future of global payments?"
+    ],
+    "modelAnswers": [
+      "A1: Shinhan Financial Group is aiming to explore new payment models that integrate AI-powered features, alongside testing stablecoin issuance, remittance, and redemption.",
+      "A2: \"B2B settlements\" refers to business-to-business transactions where payments are made between companies. It's significant for financial institutions because it streamlines corporate payments, reducing costs and increasing efficiency.",
+      "A3: Such collaborations will likely accelerate the mainstream adoption of digital currencies by building trust and leveraging existing infrastructure. They could also drive innovation in payment systems, making cross-border transactions faster and cheaper."
+    ]
+  },
+  {
+    "id": "cd-2026-08-27-2",
+    "date": "2026-08-27",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 증권거래위원회(SEC)가 암호화폐 수탁 규칙을 다시 추진하고 있으며, 이는 암호화폐 투자 자문사들에게 중요한 규제 변화를 의미합니다.",
+    "url": "https://www.coindesk.com/news-analysis/2026/08/26/sec-resurrecting-u-s-crypto-custody-rule-the-previous-administration-failed-to-land",
+    "title": "SEC Revives Crypto Custody Rule Efforts",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Securities and Exchange Commission (SEC) is actively revisiting its proposed crypto custody rule. This important regulation aims to specifically restrict where investment advisers can securely hold client crypto assets. A previous regulatory attempt in 2023 faced considerable challenges and ultimately did not pass. The SEC's current new approach for this rule remains largely undisclosed to the public. This rule is absolutely crucial for thoroughly protecting investor assets within the crypto market. It also significantly impacts how various crypto firms operate and manage funds across the U.S. Investment advisers will need to strictly comply with very precise and detailed guidelines. These stringent guidelines are designed to ensure maximum asset security and complete transparency. The SEC's renewed focus clearly signals ongoing and intense regulatory scrutiny for the digital asset space. This significant development could fundamentally shape the crypto industry's future operational framework and growth.",
+    "sentences": [
+      {
+        "en": "The U.S. Securities and Exchange Commission (SEC) is actively revisiting its proposed crypto custody rule.",
+        "ko": "미국 증권거래위원회(SEC)는 제안된 암호화폐 수탁 규칙을 적극적으로 재검토하고 있습니다."
+      },
+      {
+        "en": "This important regulation aims to specifically restrict where investment advisers can securely hold client crypto assets.",
+        "ko": "이 중요한 규제는 투자 자문사가 고객의 암호화폐 자산을 안전하게 보관할 수 있는 장소를 구체적으로 제한하는 것을 목표로 합니다."
+      },
+      {
+        "en": "A previous regulatory attempt in 2023 faced considerable challenges and ultimately did not pass.",
+        "ko": "2023년의 이전 규제 시도는 상당한 도전에 직면했으며 결국 통과되지 못했습니다."
+      },
+      {
+        "en": "The SEC's current new approach for this rule remains largely undisclosed to the public.",
+        "ko": "이 규칙에 대한 SEC의 현재 새로운 접근 방식은 대중에게 거의 공개되지 않고 있습니다."
+      },
+      {
+        "en": "This rule is absolutely crucial for thoroughly protecting investor assets within the crypto market.",
+        "ko": "이 규칙은 암호화폐 시장 내에서 투자자 자산을 철저히 보호하는 데 절대적으로 중요합니다."
+      },
+      {
+        "en": "It also significantly impacts how various crypto firms operate and manage funds across the U.S.",
+        "ko": "이는 또한 다양한 암호화폐 기업이 미국 전역에서 운영되고 자금을 관리하는 방식에 상당한 영향을 미칩니다."
+      },
+      {
+        "en": "Investment advisers will need to strictly comply with very precise and detailed guidelines.",
+        "ko": "투자 자문사는 매우 정확하고 상세한 지침을 엄격히 준수해야 할 것입니다."
+      },
+      {
+        "en": "These stringent guidelines are designed to ensure maximum asset security and complete transparency.",
+        "ko": "이러한 엄격한 지침은 최대 자산 보안과 완전한 투명성을 보장하도록 설계되었습니다."
+      },
+      {
+        "en": "The SEC's renewed focus clearly signals ongoing and intense regulatory scrutiny for the digital asset space.",
+        "ko": "SEC의 재강조된 초점은 디지털 자산 공간에 대한 지속적이고 강도 높은 규제 조사를 분명히 시사합니다."
+      },
+      {
+        "en": "This significant development could fundamentally shape the crypto industry's future operational framework and growth.",
+        "ko": "이 중요한 발전은 암호화폐 산업의 미래 운영 프레임워크와 성장을 근본적으로 형성할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "revisiting": {
+        "meaning": "to consider or discuss something again, especially after a period of time.",
+        "pos": "verb"
+      },
+      "proposed": {
+        "meaning": "suggested as a plan or course of action.",
+        "pos": "adjective"
+      },
+      "custody": {
+        "meaning": "the legal right or duty to care for someone or something, especially a child or valuable asset.",
+        "pos": "noun"
+      },
+      "regulation": {
+        "meaning": "an official rule or law that controls how something is done.",
+        "pos": "noun"
+      },
+      "restrict": {
+        "meaning": "to limit the amount, scope, or freedom of something.",
+        "pos": "verb"
+      },
+      "advisers": {
+        "meaning": "people who give advice, especially in a professional capacity.",
+        "pos": "noun"
+      },
+      "assets": {
+        "meaning": "things of value, especially property, owned by a person or company.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "difficulties that test one's abilities or resources.",
+        "pos": "noun"
+      },
+      "undisclosed": {
+        "meaning": "not revealed or made known to others.",
+        "pos": "adjective"
+      },
+      "crucial": {
+        "meaning": "extremely important, essential.",
+        "pos": "adjective"
+      },
+      "impacts": {
+        "meaning": "has a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "operate": {
+        "meaning": "to function or work in a particular way.",
+        "pos": "verb"
+      },
+      "comply": {
+        "meaning": "to act in accordance with a wish, command, or rule.",
+        "pos": "verb"
+      },
+      "precise": {
+        "meaning": "marked by exactness and accuracy of detail.",
+        "pos": "adjective"
+      },
+      "guidelines": {
+        "meaning": "general rules, principles, or advice.",
+        "pos": "noun"
+      },
+      "stringent": {
+        "meaning": "strict, precise, and exacting.",
+        "pos": "adjective"
+      },
+      "ensure": {
+        "meaning": "to make certain that something will happen or be the case.",
+        "pos": "verb"
+      },
+      "security": {
+        "meaning": "the state of being free from danger or threat.",
+        "pos": "noun"
+      },
+      "transparency": {
+        "meaning": "the quality of being open, honest, and easy to understand.",
+        "pos": "noun"
+      },
+      "renewed": {
+        "meaning": "having been restarted or re-established.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system or industry.",
+        "pos": "adjective"
+      },
+      "scrutiny": {
+        "meaning": "critical observation or examination.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was the main goal of the SEC's initial attempt to implement a crypto custody rule in 2023?",
+      "Q2: Explain what \"regulatory scrutiny\" means in the context of the SEC's actions and why it is significant for the crypto industry.",
+      "Q3: Do you think stricter custody rules benefit or hinder the growth of the crypto industry in the long run? Justify your opinion."
+    ],
+    "modelAnswers": [
+      "A1: The main goal of the SEC's initial attempt was to narrowly restrict the places where investment advisers could park their clients' crypto assets, aiming to enhance investor protection.",
+      "A2: \"Regulatory scrutiny\" refers to the close and careful examination by regulators, like the SEC, of an industry's practices. It is significant because it indicates increased oversight, potentially leading to new rules and enforcement actions that shape how crypto businesses can operate.",
+      "A3: Stricter custody rules could initially hinder growth by increasing compliance costs and complexity for firms. However, in the long run, they might benefit the industry by building greater investor trust and attracting more institutional capital, fostering sustainable growth."
+    ]
+  },
+  {
+    "id": "cd-2026-08-27-3",
+    "date": "2026-08-27",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "댈러스 연방준비은행이 토큰화된 예금이 은행 대출 역량을 크게 감소시킬 수 있다고 경고했으며, 이는 핀테크 PM에게 토큰화의 잠재적 위험을 이해하는 데 중요합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/26/dallas-fed-warns-tokenized-deposits-could-strip-usd700-billion-from-u-s-banks-lending-capacity",
+    "title": "Tokenized Deposits Could Harm Bank Lending",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Dallas Federal Reserve has recently issued a significant warning regarding tokenized deposits. They project these digital assets could substantially reduce U.S. banks' crucial lending capacity. Specifically, the warning estimates a potential strip of $700 billion from traditional banking institutions. Programmable deposits inherently allow instant, automated bank switching capabilities for users seeking better terms. Advanced AI agents could further facilitate these rapid and seamless fund transfers between various financial institutions. This swift movement of funds typically seeks out higher yields and more attractive returns for depositors. Such dynamic activity would inevitably increase banks' overall funding costs significantly, impacting their profitability. Consequently, traditional banks might then struggle to offer competitively priced loans to their diverse customer base. This potential scenario highlights a major and evolving challenge for the entire traditional finance sector globally. It strongly underscores the profound disruptive potential of tokenization within the future global financial system.",
+    "sentences": [
+      {
+        "en": "The Dallas Federal Reserve has recently issued a significant warning regarding tokenized deposits.",
+        "ko": "댈러스 연방준비은행은 최근 토큰화된 예금에 대해 중요한 경고를 발표했습니다."
+      },
+      {
+        "en": "They project these digital assets could substantially reduce U.S. banks' crucial lending capacity.",
+        "ko": "이들은 이러한 디지털 자산이 미국 은행의 핵심 대출 역량을 실질적으로 감소시킬 수 있다고 예상합니다."
+      },
+      {
+        "en": "Specifically, the warning estimates a potential strip of $700 billion from traditional banking institutions.",
+        "ko": "특히, 이 경고는 전통 은행 기관에서 잠재적으로 7천억 달러가 유출될 수 있다고 추정합니다."
+      },
+      {
+        "en": "Programmable deposits inherently allow instant, automated bank switching capabilities for users seeking better terms.",
+        "ko": "프로그래밍 가능한 예금은 본질적으로 더 나은 조건을 찾는 사용자를 위해 즉각적이고 자동화된 은행 전환 기능을 허용합니다."
+      },
+      {
+        "en": "Advanced AI agents could further facilitate these rapid and seamless fund transfers between various financial institutions.",
+        "ko": "첨단 AI 에이전트는 다양한 금융 기관 간의 이러한 빠르고 원활한 자금 이체를 더욱 용이하게 할 수 있습니다."
+      },
+      {
+        "en": "This swift movement of funds typically seeks out higher yields and more attractive returns for depositors.",
+        "ko": "이러한 신속한 자금 이동은 일반적으로 예금자를 위해 더 높은 수익률과 더 매력적인 수익을 추구합니다."
+      },
+      {
+        "en": "Such dynamic activity would inevitably increase banks' overall funding costs significantly, impacting their profitability.",
+        "ko": "이러한 역동적인 활동은 필연적으로 은행의 전반적인 자금 조달 비용을 크게 증가시켜 수익성에 영향을 미칠 것입니다."
+      },
+      {
+        "en": "Consequently, traditional banks might then struggle to offer competitively priced loans to their diverse customer base.",
+        "ko": "결과적으로, 전통 은행들은 다양한 고객층에게 경쟁력 있는 가격의 대출을 제공하는 데 어려움을 겪을 수 있습니다."
+      },
+      {
+        "en": "This potential scenario highlights a major and evolving challenge for the entire traditional finance sector globally.",
+        "ko": "이러한 잠재적 시나리오는 전 세계 전통 금융 부문 전체에 대한 주요하고 진화하는 도전을 강조합니다."
+      },
+      {
+        "en": "It strongly underscores the profound disruptive potential of tokenization within the future global financial system.",
+        "ko": "이는 미래 글로벌 금융 시스템 내 토큰화의 심오한 파괴적 잠재력을 강력히 강조합니다."
+      }
+    ],
+    "glossary": {
+      "issued": {
+        "meaning": "officially made something available or announced something.",
+        "pos": "verb"
+      },
+      "warning": {
+        "meaning": "a statement or event that tells you that something bad or unpleasant might happen.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "describes an asset that has been converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      },
+      "deposits": {
+        "meaning": "sums of money placed in a bank or other financial institution.",
+        "pos": "noun"
+      },
+      "reduce": {
+        "meaning": "to make something smaller or less in amount, degree, or size.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important, essential.",
+        "pos": "adjective"
+      },
+      "lending": {
+        "meaning": "the act of giving money to someone with the expectation that they will pay it back.",
+        "pos": "noun"
+      },
+      "capacity": {
+        "meaning": "the maximum amount that something can contain or produce.",
+        "pos": "noun"
+      },
+      "strip": {
+        "meaning": "to remove or take away something from someone or something.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "programmable": {
+        "meaning": "able to be instructed to operate in a particular way.",
+        "pos": "adjective"
+      },
+      "automated": {
+        "meaning": "operated by machines or computers, without human involvement.",
+        "pos": "adjective"
+      },
+      "switching": {
+        "meaning": "the act of changing from one thing to another.",
+        "pos": "noun"
+      },
+      "facilitate": {
+        "meaning": "to make an action or process easier.",
+        "pos": "verb"
+      },
+      "rapid": {
+        "meaning": "happening quickly or moving with great speed.",
+        "pos": "adjective"
+      },
+      "transfers": {
+        "meaning": "acts of moving something from one place to another.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the amount of profit, income, or return produced from an investment.",
+        "pos": "noun"
+      },
+      "funding": {
+        "meaning": "money provided, especially by an organization or government, for a particular purpose.",
+        "pos": "noun"
+      },
+      "struggle": {
+        "meaning": "to make forceful or violent efforts to get free of restraint or constriction.",
+        "pos": "verb"
+      },
+      "scenario": {
+        "meaning": "a possible sequence of events.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "disruptive": {
+        "meaning": "causing a disturbance or problem, or radically changing an industry or market.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to the Dallas Fed, how much money could be stripped from U.S. banks' lending capacity due to tokenized deposits?",
+      "Q2: What is meant by \"programmable deposits\" in the context of this warning, and how do they contribute to the problem?",
+      "Q3: As a fintech PM, how would you advise traditional banks to adapt to the potential challenges posed by tokenized deposits?"
+    ],
+    "modelAnswers": [
+      "A1: The Dallas Fed estimates that tokenized deposits could strip $700 billion from U.S. banks' lending capacity.",
+      "A2: \"Programmable deposits\" refer to digital deposits that can be automatically moved between banks based on predefined rules, often driven by AI agents. They contribute to the problem by enabling instantaneous bank switching for higher yields, which increases bank funding costs.",
+      "A3: I would advise traditional banks to innovate rapidly, perhaps by developing their own tokenized deposit offerings or partnering with fintech firms. They should focus on offering competitive yields and superior digital services to retain customers, and explore new revenue streams to offset potential lending capacity reductions."
+    ]
+  },
+  {
+    "id": "ec-2026-08-27-1",
+    "date": "2026-08-27",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 연준이 선호하는 인플레이션 지표를 통해 핵심 물가 상승률을 확인하고, 이것이 향후 금리 정책에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/26/feds-preferred-inflation-gauge-shows-core-prices-rose-3point3percent-annually-in-july.html",
+    "title": "US Core Inflation Rises, Fueling Rate Hike Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Personal Consumption Expenditures (PCE) price index is considered the Federal Reserve's most reliable measure for tracking inflation trends. Notably, the core PCE, which strategically excludes volatile food and energy prices, increased 3.3% annually in July. This recent figure was slightly higher than the 3.2% increase economists had generally anticipated for the month. The Federal Reserve maintains a long-term target of 2% inflation for promoting stable and sustainable economic growth. Consequently, this higher-than-expected inflation data could significantly influence the Fed's future monetary policy decisions. Central bank policymakers might now feel compelled to consider further interest rate adjustments to effectively curb persistent price increases. Such persistent inflationary pressures indicate ongoing challenges in achieving the Fed's desired economic stability. Financial markets and businesses are now closely monitoring these economic reports for clear indications of the future policy direction. Understanding these dynamics is crucial for strategic planning in a constantly evolving economic landscape.",
+    "sentences": [
+      {
+        "en": "The Personal Consumption Expenditures (PCE) price index is considered the Federal Reserve's most reliable measure for tracking inflation trends.",
+        "ko": "개인소비지출(PCE) 물가지수는 연방준비제도(Fed)가 인플레이션 추세를 추적하는 데 가장 신뢰할 수 있는 척도로 간주됩니다."
+      },
+      {
+        "en": "Notably, the core PCE, which strategically excludes volatile food and energy prices, increased 3.3% annually in July.",
+        "ko": "특히, 변동성이 큰 식품 및 에너지 가격을 전략적으로 제외한 근원 PCE는 7월에 연간 3.3% 상승했습니다."
+      },
+      {
+        "en": "This recent figure was slightly higher than the 3.2% increase economists had generally anticipated for the month.",
+        "ko": "이 최근 수치는 경제학자들이 그 달에 일반적으로 예상했던 3.2% 상승보다 약간 높았습니다."
+      },
+      {
+        "en": "The Federal Reserve maintains a long-term target of 2% inflation for promoting stable and sustainable economic growth.",
+        "ko": "연방준비제도(Fed)는 안정적이고 지속 가능한 경제 성장을 촉진하기 위해 2% 인플레이션이라는 장기 목표를 유지합니다."
+      },
+      {
+        "en": "Consequently, this higher-than-expected inflation data could significantly influence the Fed's future monetary policy decisions.",
+        "ko": "결과적으로, 이 예상보다 높은 인플레이션 데이터는 연준의 향후 통화 정책 결정에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Central bank policymakers might now feel compelled to consider further interest rate adjustments to effectively curb persistent price increases.",
+        "ko": "중앙은행 정책 입안자들은 이제 지속적인 물가 상승을 효과적으로 억제하기 위해 추가 금리 조정을 고려해야 할 의무를 느낄 수 있습니다."
+      },
+      {
+        "en": "Such persistent inflationary pressures indicate ongoing challenges in achieving the Fed's desired economic stability.",
+        "ko": "이러한 지속적인 인플레이션 압력은 연준이 원하는 경제 안정성을 달성하는 데 있어 지속적인 어려움을 나타냅니다."
+      },
+      {
+        "en": "Financial markets and businesses are now closely monitoring these economic reports for clear indications of the future policy direction.",
+        "ko": "금융 시장과 기업들은 이제 향후 정책 방향에 대한 명확한 신호를 얻기 위해 이러한 경제 보고서들을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Understanding these dynamics is crucial for strategic planning in a constantly evolving economic landscape.",
+        "ko": "끊임없이 변화하는 경제 환경에서 이러한 역학을 이해하는 것은 전략적 계획에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "preferred": {
+        "meaning": "liked more than others; chosen or favored over other options.",
+        "pos": "adjective"
+      },
+      "reliable": {
+        "meaning": "consistently good in quality or performance; able to be trusted.",
+        "pos": "adjective"
+      },
+      "tracking": {
+        "meaning": "following the progress or development of something over time.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "strategically": {
+        "meaning": "in a way that relates to the planning of overall goals or aims.",
+        "pos": "adverb"
+      },
+      "excludes": {
+        "meaning": "intentionally leaves out or does not include something.",
+        "pos": "verb"
+      },
+      "volatile": {
+        "meaning": "likely to change rapidly and unpredictably, especially for the worse.",
+        "pos": "adjective"
+      },
+      "annually": {
+        "meaning": "happening once every year or calculated for a period of one year.",
+        "pos": "adverb"
+      },
+      "figure": {
+        "meaning": "a number representing an amount, especially an official value or statistic.",
+        "pos": "noun"
+      },
+      "anticipated": {
+        "meaning": "regarded as probable; expected or predicted.",
+        "pos": "verb"
+      },
+      "target": {
+        "meaning": "an aim or a goal that someone is trying to achieve.",
+        "pos": "noun"
+      },
+      "promoting": {
+        "meaning": "supporting or actively encouraging the progress or existence of something.",
+        "pos": "verb"
+      },
+      "sustainable": {
+        "meaning": "able to be maintained at a certain rate or level for a long time.",
+        "pos": "adjective"
+      },
+      "consequently": {
+        "meaning": "as a result; therefore.",
+        "pos": "adverb"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "monetary": {
+        "meaning": "relating to money or currency, especially in connection with a country's economy.",
+        "pos": "adjective"
+      },
+      "compelled": {
+        "meaning": "forced or obliged to do something.",
+        "pos": "adjective"
+      },
+      "adjustments": {
+        "meaning": "small changes or alterations made to improve something or make it suitable.",
+        "pos": "noun"
+      },
+      "effectively": {
+        "meaning": "in a way that achieves a desired result.",
+        "pos": "adverb"
+      },
+      "curb": {
+        "meaning": "to restrain or control something that is undesirable or harmful.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "continuing firmly or obstinately in an opinion or a course of action.",
+        "pos": "adjective"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system or process.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What is the Federal Reserve's target inflation rate, and how does the recent core PCE figure compare to it?",
+      "In the passage, what does \"volatile\" mean when referring to food and energy prices, and why are they often excluded from core inflation measures?",
+      "How might persistent inflationary pressures impact a fintech PM's work, especially regarding investment strategies or product development?"
+    ],
+    "modelAnswers": [
+      "The Federal Reserve targets a 2% inflation rate. The recent core PCE figure of 3.3% annually in July is significantly higher than this target.",
+      "\"Volatile\" means prices that change rapidly and unpredictably. Food and energy prices are excluded from core inflation because their frequent and large fluctuations can obscure the underlying, longer-term inflation trends in the economy.",
+      "Persistent inflation could lead fintech PMs to consider products that hedge against inflation, like inflation-linked bonds or real estate investment platforms. It might also increase demand for budgeting tools as consumers manage rising costs, potentially shifting product development priorities."
+    ]
+  },
+  {
+    "id": "ec-2026-08-27-2",
+    "date": "2026-08-27",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "아마존과 엔비디아의 대규모 칩 거래를 통해 인공지능(AI) 인프라 시장의 폭발적인 성장을 이해하고, 주요 기술 기업들의 전략적 움직임을 파악해 보세요.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWRaaWRtT256MVBJRTBWSWVCMW1rZE5ENE5GSmVDYks4X3lWNEp5a21KZVRMT3ViTVhGY212czRhXzhFVzh2R0x1cVNEckh4ZFlkQV9kc3RLVjdLWnkxWlJLY19KemJ1VGtnWVRiZkFfSkZ3TU1KdEV2ZGlXLWpzakh5d2NOS240aFMtQ2FqRDlRZlYzd0JrSlM1Z0ZvVUh6OWQtUm9WaE4zX2l4TTFNR0JLUQ",
+    "title": "Amazon Buys Millions of Nvidia Chips for AI Expansion",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Amazon is making a truly significant strategic investment in its burgeoning artificial intelligence infrastructure. The prominent tech giant has unveiled plans to acquire an astonishing two million specialized chips from Nvidia. These immensely powerful processing units are absolutely essential for constructing and operating advanced data centers. This massive acquisition will specifically bolster Amazon's leading cloud computing division, Amazon Web Services (AWS). The global demand for cutting-edge AI computing power is currently surging across nearly all industries. Nvidia firmly maintains its position as the dominant global supplier of highly specialized AI hardware components. This substantial deal vividly highlights the intense and rapidly escalating competition within the AI development landscape. Major companies are now proactively expanding their computational capabilities to decisively meet future AI needs. Such large-scale purchases unequivocally reflect strong commercial confidence in the transformative future of AI technology.",
+    "sentences": [
+      {
+        "en": "Amazon is making a truly significant strategic investment in its burgeoning artificial intelligence infrastructure.",
+        "ko": "아마존은 급성장하는 인공지능 인프라에 진정으로 중요한 전략적 투자를 하고 있습니다."
+      },
+      {
+        "en": "The prominent tech giant has unveiled plans to acquire an astonishing two million specialized chips from Nvidia.",
+        "ko": "이 저명한 기술 대기업은 엔비디아로부터 놀라운 2백만 개의 특수 칩을 구매할 계획을 발표했습니다."
+      },
+      {
+        "en": "These immensely powerful processing units are absolutely essential for constructing and operating advanced data centers.",
+        "ko": "이 엄청나게 강력한 처리 장치들은 첨단 데이터 센터를 구축하고 운영하는 데 절대적으로 필수적입니다."
+      },
+      {
+        "en": "This massive acquisition will specifically bolster Amazon's leading cloud computing division, Amazon Web Services (AWS).",
+        "ko": "이 대규모 인수는 아마존의 선도적인 클라우드 컴퓨팅 부문인 아마존 웹 서비스(AWS)를 특히 강화할 것입니다."
+      },
+      {
+        "en": "The global demand for cutting-edge AI computing power is currently surging across nearly all industries.",
+        "ko": "최첨단 AI 컴퓨팅 능력에 대한 전 세계적 수요는 현재 거의 모든 산업에서 급증하고 있습니다."
+      },
+      {
+        "en": "Nvidia firmly maintains its position as the dominant global supplier of highly specialized AI hardware components.",
+        "ko": "엔비디아는 고도로 전문화된 AI 하드웨어 부품의 지배적인 글로벌 공급업체로서의 위치를 확고히 유지하고 있습니다."
+      },
+      {
+        "en": "This substantial deal vividly highlights the intense and rapidly escalating competition within the AI development landscape.",
+        "ko": "이 상당한 거래는 AI 개발 환경 내에서 치열하고 빠르게 고조되는 경쟁을 생생하게 부각합니다."
+      },
+      {
+        "en": "Major companies are now proactively expanding their computational capabilities to decisively meet future AI needs.",
+        "ko": "주요 기업들은 이제 미래 AI 수요를 결정적으로 충족하기 위해 계산 능력을 선제적으로 확장하고 있습니다."
+      },
+      {
+        "en": "Such large-scale purchases unequivocally reflect strong commercial confidence in the transformative future of AI technology.",
+        "ko": "이러한 대규모 구매는 AI 기술의 혁신적인 미래에 대한 강력한 상업적 확신을 명백히 반영합니다."
+      }
+    ],
+    "glossary": {
+      "significant": {
+        "meaning": "important, large, or noticeable enough to be considered meaningful.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "burgeoning": {
+        "meaning": "beginning to grow or increase rapidly; flourishing.",
+        "pos": "adjective"
+      },
+      "artificial": {
+        "meaning": "made or produced by human beings rather than occurring naturally.",
+        "pos": "adjective"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important or famous; standing out so as to be easily seen.",
+        "pos": "adjective"
+      },
+      "acquire": {
+        "meaning": "to gain possession of something or obtain something.",
+        "pos": "verb"
+      },
+      "astonishing": {
+        "meaning": "extremely surprising or impressive; amazing.",
+        "pos": "adjective"
+      },
+      "specialized": {
+        "meaning": "concentrating on a particular area or product; having particular expertise.",
+        "pos": "adjective"
+      },
+      "immensely": {
+        "meaning": "to a great extent; extremely.",
+        "pos": "adverb"
+      },
+      "essential": {
+        "meaning": "absolutely necessary or important; fundamental.",
+        "pos": "adjective"
+      },
+      "constructing": {
+        "meaning": "building or erecting something, typically a large structure.",
+        "pos": "verb"
+      },
+      "bolster": {
+        "meaning": "to support or strengthen something.",
+        "pos": "verb"
+      },
+      "leading": {
+        "meaning": "most important; best; at the forefront.",
+        "pos": "adjective"
+      },
+      "computing": {
+        "meaning": "the use or operation of computers, especially in a professional or technical context.",
+        "pos": "noun"
+      },
+      "cutting-edge": {
+        "meaning": "highly advanced, innovative, or pioneering.",
+        "pos": "adjective"
+      },
+      "surging": {
+        "meaning": "increasing suddenly and powerfully, often in a large amount.",
+        "pos": "verb"
+      },
+      "dominant": {
+        "meaning": "most important, powerful, or influential.",
+        "pos": "adjective"
+      },
+      "components": {
+        "meaning": "parts or elements of a larger whole, especially of a machine or system.",
+        "pos": "noun"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "vividly": {
+        "meaning": "in a clear, powerful, or very detailed manner.",
+        "pos": "adverb"
+      },
+      "escalating": {
+        "meaning": "increasing rapidly in intensity or magnitude.",
+        "pos": "verb"
+      },
+      "proactively": {
+        "meaning": "by taking action to control a situation rather than just reacting to it.",
+        "pos": "adverb"
+      },
+      "unequivocally": {
+        "meaning": "in a way that leaves no doubt; unambiguously.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "How many chips is Amazon planning to buy from Nvidia, and for what primary purpose?",
+      "Explain the meaning of \"infrastructure\" in the context of AI, as used in the passage. Why is it important for tech giants like Amazon to invest in it?",
+      "How might this large-scale investment in AI infrastructure by Amazon impact the fintech industry, particularly for companies leveraging cloud services or developing AI-driven financial tools?"
+    ],
+    "modelAnswers": [
+      "Amazon plans to purchase two million chips from Nvidia. Their primary purpose is to build advanced data centers to support Amazon's cloud computing division, AWS, and expand AI capabilities.",
+      "In this context, \"infrastructure\" refers to the fundamental physical and organizational structures, like data centers and specialized hardware (chips), needed to develop and operate AI systems. It's crucial for tech giants to invest heavily to meet the surging demand for AI computing power and maintain a competitive edge.",
+      "This investment could benefit fintech by improving the speed and capacity of cloud services, enabling more sophisticated AI-driven financial tools. It might also intensify competition for AI talent and resources, pushing fintech firms to innovate faster or form strategic partnerships to leverage these advancements."
+    ]
+  },
+  {
+    "id": "ec-2026-08-27-3",
+    "date": "2026-08-27",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국 국채 시장을 둘러싼 재무부와 시장 전문가들의 대결을 통해 거시경제 정책과 금융 시장의 상호작용을 깊이 있게 탐구해 보세요.",
+    "url": "https://www.theguardian.com/business/2026/aug/25/us-treasury-scott-bessent-bond-buying-donald-trump-stanley-druckenmiller",
+    "title": "Treasury Faces Skepticism Over Bond Market Strategy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US Treasury Secretary, Scott Bessent, is currently undertaking significant efforts to influence the volatile bond markets. His primary objective is to successfully lower America's considerably high government borrowing costs. However, Stanley Druckenmiller, a prominent billionaire investor and Bessent's former mentor, remains highly critical. Druckenmiller firmly believes that Bessent's direct attempts to suppress bond yields are ultimately destined to fail. He strongly argues that the Treasury should instead prioritize cutting the nation's substantial budget deficit. This ongoing debate vividly highlights a fundamental and inherent tension between government fiscal policy and autonomous market forces. Financial markets frequently exhibit strong and often unpredictable reactions to perceived government interventions. The overall level of national debt and associated borrowing costs profoundly impacts the broader economy. Savvy investors are now closely monitoring this complex situation for crucial insights into future market direction.",
+    "sentences": [
+      {
+        "en": "The US Treasury Secretary, Scott Bessent, is currently undertaking significant efforts to influence the volatile bond markets.",
+        "ko": "스콧 베센트 미국 재무장관은 현재 변동성이 큰 채권 시장에 영향을 미치기 위해 상당한 노력을 기울이고 있습니다."
+      },
+      {
+        "en": "His primary objective is to successfully lower America's considerably high government borrowing costs.",
+        "ko": "그의 주요 목표는 미국의 상당히 높은 정부 차입 비용을 성공적으로 낮추는 것입니다."
+      },
+      {
+        "en": "However, Stanley Druckenmiller, a prominent billionaire investor and Bessent's former mentor, remains highly critical.",
+        "ko": "그러나 저명한 억만장자 투자자이자 베센트의 전 멘토인 스탠리 드러켄밀러는 여전히 매우 비판적입니다."
+      },
+      {
+        "en": "Druckenmiller firmly believes that Bessent's direct attempts to suppress bond yields are ultimately destined to fail.",
+        "ko": "드러켄밀러는 베센트의 채권 수익률 억제 시도가 궁극적으로 실패할 것이라고 확고히 믿습니다."
+      },
+      {
+        "en": "He strongly argues that the Treasury should instead prioritize cutting the nation's substantial budget deficit.",
+        "ko": "그는 재무부가 대신 국가의 상당한 예산 적자를 삭감하는 것을 우선시해야 한다고 강력히 주장합니다."
+      },
+      {
+        "en": "This ongoing debate vividly highlights a fundamental and inherent tension between government fiscal policy and autonomous market forces.",
+        "ko": "이 지속적인 논쟁은 정부 재정 정책과 자율적인 시장의 힘 사이의 근본적이고 내재된 긴장을 생생하게 부각합니다."
+      },
+      {
+        "en": "Financial markets frequently exhibit strong and often unpredictable reactions to perceived government interventions.",
+        "ko": "금융 시장은 인지된 정부 개입에 자주 강하고 종종 예측할 수 없는 반응을 보입니다."
+      },
+      {
+        "en": "The overall level of national debt and associated borrowing costs profoundly impacts the broader economy.",
+        "ko": "국가 부채의 전반적인 수준과 관련 차입 비용은 광범위한 경제에 심오한 영향을 미칩니다."
+      },
+      {
+        "en": "Savvy investors are now closely monitoring this complex situation for crucial insights into future market direction.",
+        "ko": "현명한 투자자들은 이제 향후 시장 방향에 대한 중요한 통찰력을 얻기 위해 이 복잡한 상황을 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "undertaking": {
+        "meaning": "making an effort to achieve or complete something difficult.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important, large, or noticeable enough to be considered meaningful.",
+        "pos": "adjective"
+      },
+      "influence": {
+        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "volatile": {
+        "meaning": "likely to change rapidly and unpredictably, especially for the worse.",
+        "pos": "adjective"
+      },
+      "bond": {
+        "meaning": "a certificate issued by a government or company promising to pay back money with interest.",
+        "pos": "noun"
+      },
+      "objective": {
+        "meaning": "a goal or aim that someone is trying to achieve.",
+        "pos": "noun"
+      },
+      "considerably": {
+        "meaning": "to a great or significant extent; greatly.",
+        "pos": "adverb"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money with the intention of returning it, usually with interest.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important or famous; standing out so as to be easily seen.",
+        "pos": "adjective"
+      },
+      "critical": {
+        "meaning": "expressing adverse or disapproving comments or judgments.",
+        "pos": "adjective"
+      },
+      "firmly": {
+        "meaning": "with determination or conviction; in a strong, steady way.",
+        "pos": "adverb"
+      },
+      "believes": {
+        "meaning": "accepts that something is true or exists.",
+        "pos": "verb"
+      },
+      "suppress": {
+        "meaning": "to forcibly put an end to something, or to prevent the development of something.",
+        "pos": "verb"
+      },
+      "yields": {
+        "meaning": "the income or profit arising from an investment, typically expressed as a percentage.",
+        "pos": "noun"
+      },
+      "destined": {
+        "meaning": "certain to happen or be used in a particular way in the future.",
+        "pos": "adjective"
+      },
+      "prioritize": {
+        "meaning": "to designate or treat something as more important than other things.",
+        "pos": "verb"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "deficit": {
+        "meaning": "the amount by which something, especially a sum of money, is too small.",
+        "pos": "noun"
+      },
+      "inherent": {
+        "meaning": "existing in something as a permanent, essential, or characteristic attribute.",
+        "pos": "adjective"
+      },
+      "tension": {
+        "meaning": "a state of being stretched tight, or a situation of conflict or disagreement.",
+        "pos": "noun"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, or public finances.",
+        "pos": "adjective"
+      },
+      "autonomous": {
+        "meaning": "acting independently or having the freedom to do so.",
+        "pos": "adjective"
+      },
+      "exhibit": {
+        "meaning": "to display or show (a quality or type of behavior).",
+        "pos": "verb"
+      },
+      "profoundly": {
+        "meaning": "to a great depth; intensely or deeply.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "What is Treasury Secretary Scott Bessent trying to achieve in the bond markets, and what is Stanley Druckenmiller's main criticism?",
+      "In the context of financial markets, what does \"suppress bond yields\" mean, and why would the Treasury want to do this?",
+      "As a fintech PM, how might uncertainty in bond markets, fueled by government intervention and expert disagreement, influence your company's financial planning or product offerings?"
+    ],
+    "modelAnswers": [
+      "Scott Bessent aims to lower America's borrowing costs by influencing bond markets and suppressing bond yields. Stanley Druckenmiller criticizes this, arguing that Bessent's efforts will fail and the Treasury should instead focus on cutting the budget deficit.",
+      "\"Suppress bond yields\" means to artificially push down the interest rates that investors earn on bonds. The Treasury would want to do this to reduce the cost of borrowing for the government, making it cheaper to finance national debt.",
+      "Uncertainty in bond markets could lead my company to adopt more conservative financial planning, possibly delaying major investments. For product offerings, it might increase interest in fixed-income products or alternative investment tools that are less sensitive to yield fluctuations, requiring us to adapt our fintech solutions."
+    ]
+  },
+  {
     "id": "cd-2026-08-26-1",
     "date": "2026-08-26",
     "rank": 1,
