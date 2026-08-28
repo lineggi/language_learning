@@ -1,5 +1,913 @@
 [
   {
+    "id": "cd-2026-08-28-1",
+    "date": "2026-08-28",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "한국 금융 대기업 미래에셋이 스테이블코인, RWA, STO를 포함한 1,090억 달러 규모의 암호화폐 사업 확장 계획을 발표했습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/27/mirae-asset-eyes-usd109-billion-crypto-empire-after-acquiring-digital-x",
+    "title": "Mirae Asset Plans $109B Crypto Expansion",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "South Korean financial giant Mirae Asset is making a big move into crypto. The company plans to build a $109 billion crypto empire. This ambition follows its recent acquisition of Digital X. Digital X was formerly known as Korbit, a major Korean crypto exchange. Mirae Asset founder Park Hyeon-joo shared his vision. He outlined plans for stablecoins, real-world assets (RWAs), and security token offerings (STOs). These initiatives aim to transform Digital X's operations. The strategy targets significant growth in the digital asset space. This move highlights increasing institutional interest in crypto. It also shows a focus on regulated and tokenized financial products. Such developments are crucial for the future of fintech. They demonstrate how traditional finance is embracing new technologies.",
+    "sentences": [
+      {
+        "en": "South Korean financial giant Mirae Asset is making a big move into crypto.",
+        "ko": "한국의 금융 대기업 미래에셋이 암호화폐 시장에 대대적으로 진출하고 있습니다."
+      },
+      {
+        "en": "The company plans to build a $109 billion crypto empire.",
+        "ko": "이 회사는 1,090억 달러 규모의 암호화폐 제국을 건설할 계획입니다."
+      },
+      {
+        "en": "This ambition follows its recent acquisition of Digital X.",
+        "ko": "이러한 야심은 최근 디지털 X를 인수한 데 따른 것입니다."
+      },
+      {
+        "en": "Digital X was formerly known as Korbit, a major Korean crypto exchange.",
+        "ko": "디지털 X는 이전에 한국의 주요 암호화폐 거래소인 코빗으로 알려졌습니다."
+      },
+      {
+        "en": "Mirae Asset founder Park Hyeon-joo shared his vision.",
+        "ko": "미래에셋 창업자 박현주 회장은 자신의 비전을 공유했습니다."
+      },
+      {
+        "en": "He outlined plans for stablecoins, real-world assets (RWAs), and security token offerings (STOs).",
+        "ko": "그는 스테이블코인, 실물자산(RWA), 증권형 토큰 발행(STO)에 대한 계획을 설명했습니다."
+      },
+      {
+        "en": "These initiatives aim to transform Digital X's operations.",
+        "ko": "이러한 계획들은 디지털 X의 운영을 변화시키는 것을 목표로 합니다."
+      },
+      {
+        "en": "The strategy targets significant growth in the digital asset space.",
+        "ko": "이 전략은 디지털 자산 분야에서 상당한 성장을 목표로 합니다."
+      },
+      {
+        "en": "This move highlights increasing institutional interest in crypto.",
+        "ko": "이번 움직임은 암호화폐에 대한 기관 투자자들의 관심이 증가하고 있음을 보여줍니다."
+      },
+      {
+        "en": "It also shows a focus on regulated and tokenized financial products.",
+        "ko": "또한 규제되고 토큰화된 금융 상품에 대한 집중을 나타냅니다."
+      },
+      {
+        "en": "Such developments are crucial for the future of fintech.",
+        "ko": "이러한 발전은 핀테크의 미래에 매우 중요합니다."
+      },
+      {
+        "en": "They demonstrate how traditional finance is embracing new technologies.",
+        "ko": "이는 전통 금융이 새로운 기술을 어떻게 수용하고 있는지 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "giant": {
+        "meaning": "A very large and powerful organization or company.",
+        "pos": "noun"
+      },
+      "empire": {
+        "meaning": "A large group of businesses or activities controlled by one powerful company.",
+        "pos": "noun"
+      },
+      "acquisition": {
+        "meaning": "The act of buying or taking control of another company or business.",
+        "pos": "noun"
+      },
+      "formerly": {
+        "meaning": "In the past, at an earlier time.",
+        "pos": "adverb"
+      },
+      "major": {
+        "meaning": "Very important or significant compared to others of its kind.",
+        "pos": "adjective"
+      },
+      "founder": {
+        "meaning": "A person who establishes an institution, business, or organization.",
+        "pos": "noun"
+      },
+      "outlined": {
+        "meaning": "Described the main facts or plans for something.",
+        "pos": "verb"
+      },
+      "vision": {
+        "meaning": "A clear idea or mental image of what something could be in the future.",
+        "pos": "noun"
+      },
+      "stablecoins": {
+        "meaning": "Cryptocurrencies designed to maintain a stable value, often pegged to a fiat currency.",
+        "pos": "noun"
+      },
+      "initiatives": {
+        "meaning": "New plans or processes intended to achieve a particular aim.",
+        "pos": "noun"
+      },
+      "transform": {
+        "meaning": "To change completely the appearance or character of something.",
+        "pos": "verb"
+      },
+      "operations": {
+        "meaning": "The activities involved in running a business or organization.",
+        "pos": "noun"
+      },
+      "strategy": {
+        "meaning": "A detailed plan for achieving success in a specific situation.",
+        "pos": "noun"
+      },
+      "targets": {
+        "meaning": "Aims for a particular result or goal.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important, noticeable, or having a special meaning.",
+        "pos": "adjective"
+      },
+      "institutional": {
+        "meaning": "Relating to a large and important organization, such as a bank or university.",
+        "pos": "adjective"
+      },
+      "regulated": {
+        "meaning": "Controlled or governed by rules or laws.",
+        "pos": "adjective"
+      },
+      "tokenized": {
+        "meaning": "Converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      },
+      "developments": {
+        "meaning": "The process of growing, progressing, or creating something new.",
+        "pos": "noun"
+      },
+      "embracing": {
+        "meaning": "Accepting a new idea, opinion, or way of doing things enthusiastically.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What specific types of digital assets did Mirae Asset's founder mention as key to their expansion plans for Digital X?",
+      "In the context of the article, what does \"RWA\" stand for, and why might a financial company like Mirae Asset be interested in them?",
+      "How do you think Mirae Asset's ambitious move into stablecoins, RWAs, and STOs might impact the broader adoption of digital assets in traditional finance, especially in South Korea?"
+    ],
+    "modelAnswers": [
+      "Mirae Asset's founder, Park Hyeon-joo, mentioned stablecoins, real-world assets (RWAs), and security token offerings (STOs) as key components of their expansion strategy for Digital X.",
+      "\"RWA\" stands for Real-World Assets. A financial company like Mirae Asset would be interested in RWAs because tokenizing physical assets on a blockchain can create new investment opportunities, improve liquidity, and streamline ownership transfer processes within a regulated framework.",
+      "Mirae Asset's venture into these areas could significantly boost digital asset adoption by bringing institutional credibility and resources. It might encourage other major financial players in South Korea and globally to explore similar tokenization and stablecoin initiatives, potentially accelerating the convergence of traditional and decentralized finance."
+    ]
+  },
+  {
+    "id": "cd-2026-08-28-2",
+    "date": "2026-08-28",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "스테이블코인 보상과 관련된 Clarity Act가 지역 은행에 불리하게 작용할 수 있다는 우려가 제기되었습니다.",
+    "url": "https://www.coindesk.com/opinion/2026/08/27/the-clarity-act-will-put-main-street-banks-at-a-disadvantage",
+    "title": "Clarity Act May Harm Community Banks",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A new opinion piece criticizes the proposed Clarity Act. This act includes language about stablecoin rewards. The Blockchain Association's Summer Mersinger defended these provisions. However, community banker Nate Franzén argues against them. He believes the act will disadvantage smaller \"Main Street\" banks. Specifically, he points to the stablecoin rewards language. This part of the act could create unfair competition. Large banks might benefit more from offering these rewards. Smaller banks may lack the resources to compete effectively. This debate highlights ongoing tensions in crypto regulation. Policymakers must consider impacts on all financial institutions. The goal is to foster innovation without harming existing structures.",
+    "sentences": [
+      {
+        "en": "A new opinion piece criticizes the proposed Clarity Act.",
+        "ko": "새로운 논평 기사가 제안된 Clarity Act를 비판하고 있습니다."
+      },
+      {
+        "en": "This act includes language about stablecoin rewards.",
+        "ko": "이 법안에는 스테이블코인 보상에 대한 문구가 포함되어 있습니다."
+      },
+      {
+        "en": "The Blockchain Association's Summer Mersinger defended these provisions.",
+        "ko": "블록체인 협회의 Summer Mersinger는 이 조항들을 옹호했습니다."
+      },
+      {
+        "en": "However, community banker Nate Franzén argues against them.",
+        "ko": "하지만 지역 은행가 Nate Franzén은 이에 반대하는 주장을 펼칩니다."
+      },
+      {
+        "en": "He believes the act will disadvantage smaller \"Main Street\" banks.",
+        "ko": "그는 이 법안이 소규모 \"메인 스트리트\" 은행에 불리하게 작용할 것이라고 믿습니다."
+      },
+      {
+        "en": "Specifically, he points to the stablecoin rewards language.",
+        "ko": "특히 그는 스테이블코인 보상 문구를 지적합니다."
+      },
+      {
+        "en": "This part of the act could create unfair competition.",
+        "ko": "이 법안의 이 부분은 불공정한 경쟁을 초래할 수 있습니다."
+      },
+      {
+        "en": "Large banks might benefit more from offering these rewards.",
+        "ko": "대형 은행들은 이러한 보상을 제공함으로써 더 많은 이점을 얻을 수 있습니다."
+      },
+      {
+        "en": "Smaller banks may lack the resources to compete effectively.",
+        "ko": "소규모 은행들은 효과적으로 경쟁할 자원이 부족할 수 있습니다."
+      },
+      {
+        "en": "This debate highlights ongoing tensions in crypto regulation.",
+        "ko": "이 논쟁은 암호화폐 규제에서 지속되는 긴장감을 부각시킵니다."
+      },
+      {
+        "en": "Policymakers must consider impacts on all financial institutions.",
+        "ko": "정책 입안자들은 모든 금융 기관에 미치는 영향을 고려해야 합니다."
+      },
+      {
+        "en": "The goal is to foster innovation without harming existing structures.",
+        "ko": "목표는 기존 구조를 해치지 않으면서 혁신을 촉진하는 것입니다."
+      }
+    ],
+    "glossary": {
+      "criticizes": {
+        "meaning": "Expresses disapproval of someone or something.",
+        "pos": "verb"
+      },
+      "proposed": {
+        "meaning": "Suggested or put forward for consideration.",
+        "pos": "adjective"
+      },
+      "act": {
+        "meaning": "A law passed by a legislative body.",
+        "pos": "noun"
+      },
+      "language": {
+        "meaning": "The specific words and phrasing used in a legal document or text.",
+        "pos": "noun"
+      },
+      "stablecoin": {
+        "meaning": "A type of cryptocurrency designed to maintain a stable value.",
+        "pos": "noun"
+      },
+      "rewards": {
+        "meaning": "Benefits or incentives offered for using a service or product.",
+        "pos": "noun"
+      },
+      "defended": {
+        "meaning": "Spoke or wrote in favor of something or someone.",
+        "pos": "verb"
+      },
+      "provisions": {
+        "meaning": "Conditions or clauses in a legal document or agreement.",
+        "pos": "noun"
+      },
+      "argues": {
+        "meaning": "Gives reasons or evidence to support an idea or action.",
+        "pos": "verb"
+      },
+      "disadvantage": {
+        "meaning": "To put someone in a less favorable position.",
+        "pos": "verb"
+      },
+      "specifically": {
+        "meaning": "In a precise or particular way.",
+        "pos": "adverb"
+      },
+      "unfair": {
+        "meaning": "Not based on principles of equality or justice.",
+        "pos": "adjective"
+      },
+      "competition": {
+        "meaning": "The rivalry among businesses for customers.",
+        "pos": "noun"
+      },
+      "benefit": {
+        "meaning": "To gain an advantage or profit from something.",
+        "pos": "verb"
+      },
+      "resources": {
+        "meaning": "The money, staff, or equipment available to an organization.",
+        "pos": "noun"
+      },
+      "effectively": {
+        "meaning": "In a way that achieves the desired result.",
+        "pos": "adverb"
+      },
+      "debate": {
+        "meaning": "A formal discussion on a particular topic.",
+        "pos": "noun"
+      },
+      "tensions": {
+        "meaning": "A situation in which there are opposing feelings or forces.",
+        "pos": "noun"
+      },
+      "regulation": {
+        "meaning": "Rules or laws imposed by an authority.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "People responsible for making official policy.",
+        "pos": "noun"
+      },
+      "foster": {
+        "meaning": "To encourage the development or growth of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Who is advocating against the stablecoin rewards language in the Clarity Act, and what is their primary concern?",
+      "Explain what \"Main Street banks\" refers to in this context and why the Clarity Act's stablecoin rewards might pose a unique challenge for them.",
+      "Do you believe it is possible for new crypto regulations like the Clarity Act to foster innovation while also protecting all types of financial institutions, including smaller community banks? Why or why not?"
+    ],
+    "modelAnswers": [
+      "Community banker Nate Franzén is advocating against the stablecoin rewards language in the Clarity Act. His primary concern is that these provisions will disadvantage smaller \"Main Street\" banks.",
+      "\"Main Street banks\" refers to smaller, local community banks that serve individuals and small businesses, as opposed to large national or international financial institutions. The Clarity Act's stablecoin rewards might challenge them because they may lack the extensive resources and infrastructure of larger banks to effectively compete in offering such incentives, potentially leading to an uneven playing field.",
+      "It is challenging but possible for new crypto regulations to balance innovation and protection. Regulations can set clear boundaries for new technologies, fostering trust and adoption, but they must be carefully crafted to avoid disproportionately burdening smaller entities. Tailored approaches or transitional periods for smaller institutions might help ensure they are not left behind while innovation progresses."
+    ]
+  },
+  {
+    "id": "cd-2026-08-28-3",
+    "date": "2026-08-28",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "월스트리트가 토큰화된 시장을 준비함에 따라, 청산 회사 RQD*가 디지털 자산 인프라 확장을 위해 7,400만 달러를 유치했습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/27/clearing-firm-rqd-raises-usd74-million-as-wall-street-prepares-for-tokenized-markets",
+    "title": "RQD* Secures $74M for Tokenized Markets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Clearing firm RQD* has successfully raised $74 million. This significant investment was led by Bain Capital. The funding will support RQD*'s expansion plans. It aims to build out its digital asset infrastructure. Wall Street is actively preparing for tokenized markets. This move by RQD* aligns with that broader trend. Tokenization involves representing real-world assets on blockchains. This technology promises increased efficiency and liquidity. RQD* focuses on clearing and custody services for these markets. Their work is crucial for integrating digital assets into traditional finance. The investment signals strong confidence in the future of tokenization. It underscores the growing demand for robust crypto infrastructure.",
+    "sentences": [
+      {
+        "en": "Clearing firm RQD* has successfully raised $74 million.",
+        "ko": "청산 회사 RQD*가 7,400만 달러를 성공적으로 유치했습니다."
+      },
+      {
+        "en": "This significant investment was led by Bain Capital.",
+        "ko": "이 중요한 투자는 베인 캐피털이 주도했습니다."
+      },
+      {
+        "en": "The funding will support RQD*'s expansion plans.",
+        "ko": "이 자금은 RQD*의 확장 계획을 지원할 것입니다."
+      },
+      {
+        "en": "It aims to build out its digital asset infrastructure.",
+        "ko": "이는 디지털 자산 인프라를 구축하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Wall Street is actively preparing for tokenized markets.",
+        "ko": "월스트리트는 토큰화된 시장을 적극적으로 준비하고 있습니다."
+      },
+      {
+        "en": "This move by RQD* aligns with that broader trend.",
+        "ko": "RQD*의 이러한 움직임은 더 넓은 추세와 일치합니다."
+      },
+      {
+        "en": "Tokenization involves representing real-world assets on blockchains.",
+        "ko": "토큰화는 블록체인에 실물자산을 나타내는 것을 포함합니다."
+      },
+      {
+        "en": "This technology promises increased efficiency and liquidity.",
+        "ko": "이 기술은 효율성과 유동성 증가를 약속합니다."
+      },
+      {
+        "en": "RQD* focuses on clearing and custody services for these markets.",
+        "ko": "RQD*는 이러한 시장을 위한 청산 및 수탁 서비스에 중점을 둡니다."
+      },
+      {
+        "en": "Their work is crucial for integrating digital assets into traditional finance.",
+        "ko": "그들의 작업은 디지털 자산을 전통 금융에 통합하는 데 중요합니다."
+      },
+      {
+        "en": "The investment signals strong confidence in the future of tokenization.",
+        "ko": "이번 투자는 토큰화의 미래에 대한 강한 신뢰를 보여줍니다."
+      },
+      {
+        "en": "It underscores the growing demand for robust crypto infrastructure.",
+        "ko": "이는 강력한 암호화폐 인프라에 대한 증가하는 수요를 강조합니다."
+      }
+    ],
+    "glossary": {
+      "raised": {
+        "meaning": "Obtained money, especially for a business or project.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Large or important enough to be noticed.",
+        "pos": "adjective"
+      },
+      "investment": {
+        "meaning": "The act of putting money into a business with the expectation of profit.",
+        "pos": "noun"
+      },
+      "funding": {
+        "meaning": "Money provided for a particular purpose.",
+        "pos": "noun"
+      },
+      "support": {
+        "meaning": "To provide money, resources, or help to someone or something.",
+        "pos": "verb"
+      },
+      "infrastructure": {
+        "meaning": "The basic systems and services that a country or organization needs.",
+        "pos": "noun"
+      },
+      "actively": {
+        "meaning": "In an energetic and involved way.",
+        "pos": "adverb"
+      },
+      "representing": {
+        "meaning": "Showing or symbolizing something.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "The state of achieving the maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "The ease with which an asset can be converted into cash without affecting its market price.",
+        "pos": "noun"
+      },
+      "integrating": {
+        "meaning": "Combining one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "signals": {
+        "meaning": "Indicates or suggests something.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "Strong and healthy; not likely to fail or weaken.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Which major investment firm led the funding round for RQD*, and what is RQD*'s primary business focus?",
+      "What does \"tokenized markets\" mean in the context of this article, and what benefits do they promise for Wall Street?",
+      "How important do you think the development of robust clearing and custody infrastructure is for the widespread adoption of tokenized assets in traditional finance?"
+    ],
+    "modelAnswers": [
+      "Bain Capital led the funding round for RQD*. RQD*'s primary business focus is providing clearing and custody services, particularly for digital assets and tokenized markets.",
+      "In this context, \"tokenized markets\" refer to financial markets where real-world assets or securities are represented as digital tokens on a blockchain. They promise increased efficiency, greater liquidity, and potentially faster settlement times for Wall Street.",
+      "The development of robust clearing and custody infrastructure is critically important for the widespread adoption of tokenized assets. Without reliable and secure systems for managing transactions and safeguarding digital assets, institutional investors and traditional financial firms will be hesitant to engage, limiting the potential for tokenization to integrate fully into mainstream finance."
+    ]
+  },
+  {
+    "id": "ec-2026-08-28-1",
+    "date": "2026-08-28",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준 관계자의 발언을 통해 인플레이션과 금리 인상에 대한 최신 경제 동향을 파악하세요.",
+    "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+    "title": "Fed Official Urges Rate Hike Amid Inflation Fight",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A prominent Federal Reserve official recently stated that the central bank must take decisive action soon. She strongly emphasized the urgent necessity to significantly raise benchmark interest rates. This crucial step is designed to effectively combat the persistent and damaging effects of inflation. Rising inflation continues to place immense financial strain on household budgets across the entire nation. Her public comments clearly highlight the deep and ongoing concerns among key economic policymakers. They are particularly worried about the overall economy's stability if inflation remains unchecked for long. Significantly higher interest rates are primarily aimed at cooling down excessive economic activity. This strategic move intends to reduce consumer demand and gradually slow down broad price increases. Such monetary policy shifts often directly impact borrowing costs for both consumers and various businesses. Consequently, investors are now closely watching for any clear indications of future policy adjustments.",
+    "sentences": [
+      {
+        "en": "A prominent Federal Reserve official recently stated that the central bank must take decisive action soon.",
+        "ko": "한 저명한 연방준비제도 관계자가 중앙은행이 조속히 단호한 조치를 취해야 한다고 최근 밝혔습니다."
+      },
+      {
+        "en": "She strongly emphasized the urgent necessity to significantly raise benchmark interest rates.",
+        "ko": "그녀는 기준 금리를 대폭 인상해야 할 시급한 필요성을 강력히 강조했습니다."
+      },
+      {
+        "en": "This crucial step is designed to effectively combat the persistent and damaging effects of inflation.",
+        "ko": "이 중요한 조치는 지속적이고 해로운 인플레이션의 영향에 효과적으로 맞서 싸우기 위해 고안되었습니다."
+      },
+      {
+        "en": "Rising inflation continues to place immense financial strain on household budgets across the entire nation.",
+        "ko": "치솟는 인플레이션은 전국적으로 가계 예산에 막대한 재정적 부담을 계속 주고 있습니다."
+      },
+      {
+        "en": "Her public comments clearly highlight the deep and ongoing concerns among key economic policymakers.",
+        "ko": "그녀의 공개 발언은 주요 경제 정책 입안자들 사이의 깊고 지속적인 우려를 명확히 보여줍니다."
+      },
+      {
+        "en": "They are particularly worried about the overall economy's stability if inflation remains unchecked for long.",
+        "ko": "그들은 인플레이션이 오랫동안 억제되지 않으면 전반적인 경제 안정성에 대해 특히 우려하고 있습니다."
+      },
+      {
+        "en": "Significantly higher interest rates are primarily aimed at cooling down excessive economic activity.",
+        "ko": "상당히 높은 금리는 주로 과도한 경제 활동을 진정시키는 것을 목표로 합니다."
+      },
+      {
+        "en": "This strategic move intends to reduce consumer demand and gradually slow down broad price increases.",
+        "ko": "이 전략적 움직임은 소비자 수요를 줄이고 광범위한 물가 상승을 점진적으로 늦추는 것을 의도합니다."
+      },
+      {
+        "en": "Such monetary policy shifts often directly impact borrowing costs for both consumers and various businesses.",
+        "ko": "이러한 통화 정책 변화는 종종 소비자와 다양한 기업의 차입 비용에 직접적으로 영향을 미칩니다."
+      },
+      {
+        "en": "Consequently, investors are now closely watching for any clear indications of future policy adjustments.",
+        "ko": "결과적으로 투자자들은 이제 향후 정책 조정에 대한 명확한 징후를 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "prominent": {
+        "meaning": "well-known and important, often standing out from others.",
+        "pos": "adjective"
+      },
+      "federal": {
+        "meaning": "relating to the central government of a country rather than to local governments.",
+        "pos": "adjective"
+      },
+      "reserve": {
+        "meaning": "a central bank that manages a country's money supply and interest rates.",
+        "pos": "noun"
+      },
+      "decisive": {
+        "meaning": "settling an issue or producing a definite result; making decisions quickly and effectively.",
+        "pos": "adjective"
+      },
+      "emphasized": {
+        "meaning": "gave special importance or attention to something in speaking or writing.",
+        "pos": "verb"
+      },
+      "necessity": {
+        "meaning": "the fact of being required or indispensable; something that is needed.",
+        "pos": "noun"
+      },
+      "benchmark": {
+        "meaning": "a standard or point of reference against which things may be compared or assessed.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary, especially for the success of something.",
+        "pos": "adjective"
+      },
+      "combat": {
+        "meaning": "to fight against something negative or harmful.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or happen for a long time, often in an annoying way.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "immense": {
+        "meaning": "extremely large or great, especially in scale or degree.",
+        "pos": "adjective"
+      },
+      "strain": {
+        "meaning": "to put a great deal of pressure or stress on something.",
+        "pos": "noun"
+      },
+      "highlight": {
+        "meaning": "to draw special attention to something.",
+        "pos": "verb"
+      },
+      "policymakers": {
+        "meaning": "individuals or groups responsible for making decisions about government policy.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "the state of being firm and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "unchecked": {
+        "meaning": "not controlled or limited.",
+        "pos": "adjective"
+      },
+      "excessive": {
+        "meaning": "more than is necessary, normal, or desirable; immoderate.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests.",
+        "pos": "adjective"
+      },
+      "monetary": {
+        "meaning": "relating to money or currency.",
+        "pos": "adjective"
+      },
+      "impact": {
+        "meaning": "to have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "consequently": {
+        "meaning": "as a result; therefore.",
+        "pos": "adverb"
+      },
+      "adjustments": {
+        "meaning": "small alterations or movements made to achieve a desired fit, appearance, or result.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the main reason the Federal Reserve official believes interest rates need to be raised?",
+      "Q2: In the passage, what does the phrase \"cool down excessive economic activity\" mean in the context of raising interest rates?",
+      "Q3: Do you think raising interest rates is always the best solution for controlling inflation, considering its potential impact on borrowing costs for businesses and consumers?"
+    ],
+    "modelAnswers": [
+      "A1: The Federal Reserve official believes interest rates need to be raised to effectively combat persistent and damaging inflation that places immense financial strain on household budgets.",
+      "A2: \"Cool down excessive economic activity\" refers to the goal of slowing the overall pace of the economy. By raising interest rates, borrowing becomes more expensive, which can reduce consumer spending and business investment, thereby decreasing demand and slowing price increases.",
+      "A3: Raising interest rates can be an effective tool against inflation, but it's not without drawbacks. It can indeed increase borrowing costs for businesses and consumers, potentially slowing investment, job creation, and overall economic growth. Policymakers must carefully weigh these trade-offs."
+    ]
+  },
+  {
+    "id": "ec-2026-08-28-2",
+    "date": "2026-08-28",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "엔비디아의 놀라운 실적을 통해 인공지능 시대의 주요 기술 기업 성장을 이해하고 시장 동향을 파악하세요.",
+    "url": "https://www.theguardian.com/technology/2026/aug/26/nvidia-quarterly-revenue",
+    "title": "Nvidia Revenue Soars, CEO Hails \"Golden Age\"",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Nvidia recently announced a truly remarkable doubling of its quarterly revenue results. The prominent tech giant's impressive revenue reached nearly $100 billion within a single year. This exceptional financial performance significantly exceeded all previous Wall Street expectations. Jensen Huang, Nvidia's visionary CEO, boldly declared a \"golden age\" for the innovative company. He specifically noted the accelerating and robust global demand for its advanced microchips. These powerful chips are absolutely vital for modern artificial intelligence development and deployment. The company's staggering market valuation now firmly stands at an astonishing $5 trillion. This extraordinary growth clearly underscores the immense and transformative impact of AI on the global economy. However, despite these incredibly strong results, the company's stock saw only modest gains. Many investors had likely already priced in much of this anticipated success beforehand.",
+    "sentences": [
+      {
+        "en": "Nvidia recently announced a truly remarkable doubling of its quarterly revenue results.",
+        "ko": "엔비디아는 최근 분기 매출이 정말 놀랍게도 두 배 증가했다고 발표했습니다."
+      },
+      {
+        "en": "The prominent tech giant's impressive revenue reached nearly $100 billion within a single year.",
+        "ko": "이 저명한 기술 대기업의 인상적인 매출은 1년 만에 거의 1,000억 달러에 달했습니다."
+      },
+      {
+        "en": "This exceptional financial performance significantly exceeded all previous Wall Street expectations.",
+        "ko": "이 탁월한 재무 실적은 이전의 모든 월스트리트 예상을 크게 뛰어넘었습니다."
+      },
+      {
+        "en": "Jensen Huang, Nvidia's visionary CEO, boldly declared a \"golden age\" for the innovative company.",
+        "ko": "엔비디아의 비전 있는 CEO 젠슨 황은 이 혁신적인 회사의 \"황금기\"를 대담하게 선언했습니다."
+      },
+      {
+        "en": "He specifically noted the accelerating and robust global demand for its advanced microchips.",
+        "ko": "그는 특히 첨단 마이크로칩에 대한 가속화되고 견고한 전 세계적 수요를 언급했습니다."
+      },
+      {
+        "en": "These powerful chips are absolutely vital for modern artificial intelligence development and deployment.",
+        "ko": "이 강력한 칩들은 현대 인공지능 개발 및 배포에 절대적으로 필수적입니다."
+      },
+      {
+        "en": "The company's staggering market valuation now firmly stands at an astonishing $5 trillion.",
+        "ko": "이 회사의 경이로운 시장 가치는 이제 확고하게 5조 달러에 달합니다."
+      },
+      {
+        "en": "This extraordinary growth clearly underscores the immense and transformative impact of AI on the global economy.",
+        "ko": "이 특별한 성장은 인공지능이 세계 경제에 미치는 엄청나고 혁신적인 영향을 명확하게 강조합니다."
+      },
+      {
+        "en": "However, despite these incredibly strong results, the company's stock saw only modest gains.",
+        "ko": "그러나 이러한 믿을 수 없을 정도로 강력한 실적에도 불구하고 회사의 주가는 소폭 상승에 그쳤습니다."
+      },
+      {
+        "en": "Many investors had likely already priced in much of this anticipated success beforehand.",
+        "ko": "많은 투자자들이 이러한 예상된 성공의 상당 부분을 이미 사전에 가격에 반영했을 것입니다."
+      }
+    ],
+    "glossary": {
+      "truly": {
+        "meaning": "in a true or genuine manner; genuinely or sincerely.",
+        "pos": "adverb"
+      },
+      "remarkable": {
+        "meaning": "unusual or surprising in a way that causes people to take notice.",
+        "pos": "adjective"
+      },
+      "quarterly": {
+        "meaning": "happening or produced once every three months.",
+        "pos": "adjective"
+      },
+      "revenue": {
+        "meaning": "the total income received by a business from its sales of goods or services.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "well-known and important, often standing out from others.",
+        "pos": "adjective"
+      },
+      "exceptional": {
+        "meaning": "unusually good; outstanding.",
+        "pos": "adjective"
+      },
+      "financial": {
+        "meaning": "relating to finance or money.",
+        "pos": "adjective"
+      },
+      "exceeded": {
+        "meaning": "went beyond what was expected or required.",
+        "pos": "verb"
+      },
+      "visionary": {
+        "meaning": "thinking about or planning the future with imagination or wisdom.",
+        "pos": "adjective"
+      },
+      "boldly": {
+        "meaning": "in a brave, confident, or audacious way.",
+        "pos": "adverb"
+      },
+      "innovative": {
+        "meaning": "introducing new ideas, methods, or products.",
+        "pos": "adjective"
+      },
+      "robust": {
+        "meaning": "strong and healthy; sturdy.",
+        "pos": "adjective"
+      },
+      "microchips": {
+        "meaning": "tiny electronic circuits on a small piece of semiconductor material, used in computers and other devices.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "deployment": {
+        "meaning": "the action of bringing resources into effective action.",
+        "pos": "noun"
+      },
+      "staggering": {
+        "meaning": "deeply shocking and astonishing.",
+        "pos": "adjective"
+      },
+      "valuation": {
+        "meaning": "the estimated worth or price of something.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "transformative": {
+        "meaning": "causing a marked change in someone or something.",
+        "pos": "adjective"
+      },
+      "modest": {
+        "meaning": "not large, impressive, or ambitious in amount or size.",
+        "pos": "adjective"
+      },
+      "gains": {
+        "meaning": "increases in amount, size, or value.",
+        "pos": "noun"
+      },
+      "anticipated": {
+        "meaning": "regarded as probable; expected or predicted.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, what specific technology is driving Nvidia's accelerating demand for its chips?",
+      "Q2: What does the term \"priced in\" suggest about how the stock market reacted to Nvidia's strong financial results?",
+      "Q3: Do you believe the current \"golden age\" for AI-related companies like Nvidia will continue indefinitely, or are there potential challenges ahead?"
+    ],
+    "modelAnswers": [
+      "A1: Artificial intelligence (AI) development and deployment are driving Nvidia's accelerating demand for its advanced microchips, as they are absolutely vital for this technology.",
+      "A2: \"Priced in\" suggests that investors had already anticipated Nvidia's success and factored it into the stock's value before the official announcement. Consequently, the actual news did not lead to a dramatic increase in stock price.",
+      "A3: While the \"golden age\" for AI companies is exciting, it's unlikely to continue indefinitely without challenges. Competition will intensify, regulatory hurdles may emerge, and market saturation could eventually slow growth. Innovation and adaptability will be key to sustained success."
+    ]
+  },
+  {
+    "id": "ec-2026-08-28-3",
+    "date": "2026-08-28",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "캐나다의 보복 관세 부과 소식을 통해 국제 무역 전쟁의 전개와 그 경제적 파급 효과를 분석해 보세요.",
+    "url": "https://www.theguardian.com/world/video/2026/aug/25/canada-tariffs-us-goods-mark-carney",
+    "title": "Canada Imposes Tariffs, Escalating Trade War",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Canada recently announced the implementation of significant retaliatory tariffs, escalating trade tensions. These new tariffs specifically target hundreds of various U.S. imports across multiple economic sectors. This aggressive move dramatically intensifies an already ongoing bilateral trade dispute between the nations. The Canadian government explicitly intends to impose substantial 50% duties on these affected goods. This measure will directly affect an estimated $20 billion worth of U.S. merchandise, impacting key industries. This action fulfills a previous public vow made by former Bank of Canada Governor Mark Carney. He had promised to precisely match U.S. tariffs \"dollar for dollar\" to protect Canadian interests. Such escalating trade wars can severely disrupt complex global supply chains and international commerce. They frequently lead to notably higher prices for end consumers worldwide, reducing purchasing power. Furthermore, businesses often face increased operational uncertainty and mounting production costs, affecting profitability.",
+    "sentences": [
+      {
+        "en": "Canada recently announced the implementation of significant retaliatory tariffs, escalating trade tensions.",
+        "ko": "캐나다는 최근 상당한 보복 관세 부과를 발표하며 무역 긴장을 고조시켰습니다."
+      },
+      {
+        "en": "These new tariffs specifically target hundreds of various U.S. imports across multiple economic sectors.",
+        "ko": "이 새로운 관세는 여러 경제 부문에 걸쳐 수백 가지 다양한 미국 수입품을 특히 대상으로 합니다."
+      },
+      {
+        "en": "This aggressive move dramatically intensifies an already ongoing bilateral trade dispute between the nations.",
+        "ko": "이 공격적인 움직임은 이미 진행 중인 양국 간 양자 무역 분쟁을 극적으로 격화시킵니다."
+      },
+      {
+        "en": "The Canadian government explicitly intends to impose substantial 50% duties on these affected goods.",
+        "ko": "캐나다 정부는 이러한 영향을 받는 상품에 대해 상당한 50%의 관세를 명시적으로 부과할 예정입니다."
+      },
+      {
+        "en": "This measure will directly affect an estimated $20 billion worth of U.S. merchandise, impacting key industries.",
+        "ko": "이 조치는 약 200억 달러 상당의 미국 상품에 직접적으로 영향을 미쳐 주요 산업에 영향을 미칠 것입니다."
+      },
+      {
+        "en": "This action fulfills a previous public vow made by former Bank of Canada Governor Mark Carney.",
+        "ko": "이 조치는 전 캐나다 중앙은행 총재 마크 카니가 이전에 공개적으로 한 맹세를 이행합니다."
+      },
+      {
+        "en": "He had promised to precisely match U.S. tariffs \"dollar for dollar\" to protect Canadian interests.",
+        "ko": "그는 캐나다의 이익을 보호하기 위해 미국 관세에 \"달러 대 달러\"로 정확히 맞설 것을 약속했습니다."
+      },
+      {
+        "en": "Such escalating trade wars can severely disrupt complex global supply chains and international commerce.",
+        "ko": "이러한 격화되는 무역 전쟁은 복잡한 글로벌 공급망과 국제 상거래를 심각하게 교란할 수 있습니다."
+      },
+      {
+        "en": "They frequently lead to notably higher prices for end consumers worldwide, reducing purchasing power.",
+        "ko": "이는 전 세계 최종 소비자들에게 눈에 띄게 더 높은 가격으로 이어져 구매력을 감소시키는 경우가 많습니다."
+      },
+      {
+        "en": "Furthermore, businesses often face increased operational uncertainty and mounting production costs, affecting profitability.",
+        "ko": "또한 기업들은 종종 증가하는 운영 불확실성과 늘어나는 생산 비용에 직면하여 수익성에 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "implementation": {
+        "meaning": "the process of putting a decision, plan, or agreement into effect.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "sufficiently great or important to be worthy of attention.",
+        "pos": "adjective"
+      },
+      "retaliatory": {
+        "meaning": "characterized by an action taken in return for an injury or offense.",
+        "pos": "adjective"
+      },
+      "tariffs": {
+        "meaning": "taxes or duties to be paid on a particular class of imports or exports.",
+        "pos": "noun"
+      },
+      "tensions": {
+        "meaning": "a state of strained relations between countries.",
+        "pos": "noun"
+      },
+      "target": {
+        "meaning": "to select something as an object of attention or attack.",
+        "pos": "verb"
+      },
+      "sectors": {
+        "meaning": "areas or parts of the economy, such as industries or businesses.",
+        "pos": "noun"
+      },
+      "aggressive": {
+        "meaning": "pursuing one's aims and interests forcefully, sometimes without regard for others.",
+        "pos": "adjective"
+      },
+      "intensifies": {
+        "meaning": "becomes or makes more intense or forceful.",
+        "pos": "verb"
+      },
+      "bilateral": {
+        "meaning": "involving two parties, especially countries.",
+        "pos": "adjective"
+      },
+      "dispute": {
+        "meaning": "a disagreement, argument, or debate.",
+        "pos": "noun"
+      },
+      "explicitly": {
+        "meaning": "in a clear and detailed manner, leaving no room for confusion or doubt.",
+        "pos": "adverb"
+      },
+      "impose": {
+        "meaning": "to force (an unwelcome decision or ruling) on someone.",
+        "pos": "verb"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "duties": {
+        "meaning": "taxes, especially on imported goods.",
+        "pos": "noun"
+      },
+      "merchandise": {
+        "meaning": "goods to be bought and sold.",
+        "pos": "noun"
+      },
+      "fulfills": {
+        "meaning": "brings to completion or reality; satisfies.",
+        "pos": "verb"
+      },
+      "governor": {
+        "meaning": "the head of a public institution, for example, a central bank.",
+        "pos": "noun"
+      },
+      "precisely": {
+        "meaning": "in exact terms; accurately.",
+        "pos": "adverb"
+      },
+      "disrupt": {
+        "meaning": "to interrupt an event, activity, or process by causing a disturbance or problem.",
+        "pos": "verb"
+      },
+      "commerce": {
+        "meaning": "the activity of buying and selling, especially on a large scale.",
+        "pos": "noun"
+      },
+      "operational": {
+        "meaning": "relating to the functioning or operating of an organization or system.",
+        "pos": "adjective"
+      },
+      "profitability": {
+        "meaning": "the state or condition of yielding a financial profit or gain.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific percentage of duties did the Canadian government announce it would impose on U.S. goods, and what value of merchandise is affected?",
+      "Q2: In the context of international trade, what are \"retaliatory tariffs,\" and why might a country choose to implement them?",
+      "Q3: How do you think an escalating trade war between two major economies like the U.S. and Canada might affect global businesses that rely on their supply chains and international commerce?"
+    ],
+    "modelAnswers": [
+      "A1: The Canadian government announced it would impose substantial 50% duties on U.S. goods, directly affecting an estimated $20 billion worth of U.S. merchandise.",
+      "A2: \"Retaliatory tariffs\" are taxes imposed by one country on another's imports in response to similar tariffs or trade barriers previously imposed by the other country. A country might implement them to exert pressure, protect domestic industries, or signal its resolve in a trade dispute.",
+      "A3: An escalating trade war between the U.S. and Canada could severely disrupt global businesses. They might face increased costs due to tariffs, forced restructuring of supply chains, and difficulty sourcing materials or selling products. This leads to higher operational uncertainty, reduced profitability, and potentially slower economic growth."
+    ]
+  },
+  {
     "id": "cd-2026-08-27-1",
     "date": "2026-08-27",
     "rank": 1,
