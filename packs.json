@@ -1,5 +1,989 @@
 [
   {
+    "id": "cd-2026-08-29-1",
+    "date": "2026-08-29",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "비자가 한국 최대 거래소 업비트 운영사와 협력하여 스테이블코인 결제를 확장하며 한국 시장에 대한 관심이 깊어지고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/08/28/visa-doubles-down-on-south-korea-with-upbit-operator-dunamu-on-stablecoin-payments",
+    "title": "Visa Partners Upbit for Korean Stablecoin Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Visa is significantly strengthening its presence within the dynamic South Korean market. The global payments giant is now collaborating directly with Dunamu, the operator of Upbit. Upbit is recognized as South Korea's largest and most influential cryptocurrency exchange platform. This new partnership specifically aims to develop innovative stablecoin payment solutions for users. The initiative seeks to integrate digital currencies more seamlessly into mainstream financial services. This strategic move follows a successful prior agreement Visa had established with Shinhan Financial. These actions underscore Visa's ambition to broaden its footprint across key Asian regions. The company particularly targets major crypto hubs, with South Korea serving as a prime example. Such collaborations are widely expected to accelerate the widespread adoption of digital assets. They also clearly signify traditional financial sectors actively embracing advanced crypto technologies. This pivotal development holds immense importance for the rapidly evolving landscape of global payments.",
+    "sentences": [
+      {
+        "en": "Visa is significantly strengthening its presence within the dynamic South Korean market.",
+        "ko": "비자는 역동적인 한국 시장 내에서 입지를 상당히 강화하고 있습니다."
+      },
+      {
+        "en": "The global payments giant is now collaborating directly with Dunamu, the operator of Upbit.",
+        "ko": "이 글로벌 결제 대기업은 이제 업비트 운영사인 두나무와 직접 협력하고 있습니다."
+      },
+      {
+        "en": "Upbit is recognized as South Korea's largest and most influential cryptocurrency exchange platform.",
+        "ko": "업비트는 한국에서 가장 크고 영향력 있는 암호화폐 거래소 플랫폼으로 인정받고 있습니다."
+      },
+      {
+        "en": "This new partnership specifically aims to develop innovative stablecoin payment solutions for users.",
+        "ko": "이 새로운 파트너십은 사용자들을 위한 혁신적인 스테이블코인 결제 솔루션 개발을 목표로 합니다."
+      },
+      {
+        "en": "The initiative seeks to integrate digital currencies more seamlessly into mainstream financial services.",
+        "ko": "이 이니셔티브는 디지털 통화를 주류 금융 서비스에 더욱 원활하게 통합하고자 합니다."
+      },
+      {
+        "en": "This strategic move follows a successful prior agreement Visa had established with Shinhan Financial.",
+        "ko": "이 전략적 움직임은 비자가 신한금융과 이전에 체결했던 성공적인 계약에 뒤이은 것입니다."
+      },
+      {
+        "en": "These actions underscore Visa's ambition to broaden its footprint across key Asian regions.",
+        "ko": "이러한 조치들은 비자가 아시아 주요 지역 전반에 걸쳐 발자취를 넓히려는 야망을 강조합니다."
+      },
+      {
+        "en": "The company particularly targets major crypto hubs, with South Korea serving as a prime example.",
+        "ko": "회사는 특히 주요 암호화폐 허브를 목표로 하며, 한국이 대표적인 사례입니다."
+      },
+      {
+        "en": "Such collaborations are widely expected to accelerate the widespread adoption of digital assets.",
+        "ko": "이러한 협력은 디지털 자산의 광범위한 채택을 가속화할 것으로 널리 예상됩니다."
+      },
+      {
+        "en": "They also clearly signify traditional financial sectors actively embracing advanced crypto technologies.",
+        "ko": "또한 이는 전통 금융 부문이 첨단 암호화폐 기술을 적극적으로 수용하고 있음을 명확히 보여줍니다."
+      },
+      {
+        "en": "This pivotal development holds immense importance for the rapidly evolving landscape of global payments.",
+        "ko": "이 중추적인 발전은 빠르게 진화하는 글로벌 결제 환경에 엄청난 중요성을 가집니다."
+      }
+    ],
+    "glossary": {
+      "strengthening": {
+        "meaning": "making something stronger or more effective.",
+        "pos": "verb"
+      },
+      "presence": {
+        "meaning": "the fact or state of existing or being present in a place.",
+        "pos": "noun"
+      },
+      "dynamic": {
+        "meaning": "characterized by constant change, activity, or progress.",
+        "pos": "adjective"
+      },
+      "collaborating": {
+        "meaning": "working jointly on an activity or project.",
+        "pos": "verb"
+      },
+      "operator": {
+        "meaning": "a person or company that manages or controls something.",
+        "pos": "noun"
+      },
+      "influential": {
+        "meaning": "having great influence on someone or something.",
+        "pos": "adjective"
+      },
+      "platform": {
+        "meaning": "an online system or service where people can interact or conduct business.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "intends to achieve a particular goal or purpose.",
+        "pos": "verb"
+      },
+      "innovative": {
+        "meaning": "featuring new methods, ideas, or products.",
+        "pos": "adjective"
+      },
+      "solutions": {
+        "meaning": "means of solving a problem or dealing with a difficult situation.",
+        "pos": "noun"
+      },
+      "integrate": {
+        "meaning": "to combine one thing with another to make a whole.",
+        "pos": "verb"
+      },
+      "seamlessly": {
+        "meaning": "smoothly and continuously, without interruption.",
+        "pos": "adverb"
+      },
+      "mainstream": {
+        "meaning": "the ideas, attitudes, or activities that are regarded as normal or conventional.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term aims and interests.",
+        "pos": "adjective"
+      },
+      "prior": {
+        "meaning": "existing or happening before something else.",
+        "pos": "adjective"
+      },
+      "underscore": {
+        "meaning": "to emphasize the importance of something.",
+        "pos": "verb"
+      },
+      "ambition": {
+        "meaning": "a strong desire to do or achieve something.",
+        "pos": "noun"
+      },
+      "footprint": {
+        "meaning": "the area of land or resources used by something, or its impact.",
+        "pos": "noun"
+      },
+      "hubs": {
+        "meaning": "centers of activity or interest.",
+        "pos": "noun"
+      },
+      "accelerate": {
+        "meaning": "to increase the speed or rate of something.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the action of choosing to take up, follow, or use something.",
+        "pos": "noun"
+      },
+      "signify": {
+        "meaning": "to be an indication of something.",
+        "pos": "verb"
+      },
+      "embracing": {
+        "meaning": "accepting or supporting something enthusiastically.",
+        "pos": "verb"
+      },
+      "pivotal": {
+        "meaning": "of crucial importance in relation to the development or success of something else.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific type of payment solution is Visa aiming to develop with Dunamu in South Korea?",
+      "Q2: In the passage, what does \"strengthening its presence\" mean in the context of Visa and the South Korean market?",
+      "Q3: How might partnerships between traditional payment giants like Visa and crypto exchanges like Upbit impact the broader acceptance and use of stablecoins globally?"
+    ],
+    "modelAnswers": [
+      "A1: Visa is aiming to develop innovative stablecoin payment solutions through its partnership with Dunamu.",
+      "A2: \"Strengthening its presence\" means Visa is increasing its involvement and investment in the South Korean market, showing a stronger dedication to its activities there.",
+      "A3: These partnerships could significantly boost stablecoin adoption by integrating them into familiar payment infrastructures. This integration makes stablecoins more accessible and trustworthy for everyday transactions, driving broader global acceptance."
+    ]
+  },
+  {
+    "id": "cd-2026-08-29-2",
+    "date": "2026-08-29",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "일본 SBI 그룹이 인도네시아 핀테크 기업에 투자하여 동남아시아에서 엔화 스테이블코인 결제 네트워크를 구축합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/28/sbi-stakes-usd270-million-in-ajaib-to-expand-yen-stablecoin-in-southeast-asia",
+    "title": "SBI Invests in Ajaib for Yen Stablecoin Expansion",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Japan's financial giant SBI Group is making a significant strategic investment. They are acquiring a substantial 20% stake in Indonesia's leading fintech firm, Ajaib. Ajaib is widely known as a prominent online brokerage company in the region. This substantial deal, aimed at future growth, is officially valued at $270 million. The primary objective of this acquisition is to expand SBI's proprietary yen stablecoin. SBI plans to establish a robust cross-border settlement network throughout Southeast Asia. This ambitious initiative specifically leverages blockchain technology for highly efficient transactions. The investment clearly highlights growing regional interest in stablecoin utilization for payments. It also demonstrates how traditional financial institutions are now leveraging crypto assets. Such forward-looking moves could significantly foster greater financial inclusion within the region. Ultimately, this creates new opportunities for widespread digital asset adoption and innovation.",
+    "sentences": [
+      {
+        "en": "Japan's financial giant SBI Group is making a significant strategic investment.",
+        "ko": "일본의 금융 대기업 SBI 그룹이 중요한 전략적 투자를 하고 있습니다."
+      },
+      {
+        "en": "They are acquiring a substantial 20% stake in Indonesia's leading fintech firm, Ajaib.",
+        "ko": "그들은 인도네시아의 선도적인 핀테크 기업인 아자입의 20% 지분을 상당량 인수하고 있습니다."
+      },
+      {
+        "en": "Ajaib is widely known as a prominent online brokerage company in the region.",
+        "ko": "아자입은 이 지역에서 저명한 온라인 증권사로 널리 알려져 있습니다."
+      },
+      {
+        "en": "This substantial deal, aimed at future growth, is officially valued at $270 million.",
+        "ko": "미래 성장을 목표로 하는 이 상당한 규모의 거래는 공식적으로 2억 7천만 달러로 평가됩니다."
+      },
+      {
+        "en": "The primary objective of this acquisition is to expand SBI's proprietary yen stablecoin.",
+        "ko": "이 인수의 주요 목표는 SBI의 독점적인 엔화 스테이블코인을 확장하는 것입니다."
+      },
+      {
+        "en": "SBI plans to establish a robust cross-border settlement network throughout Southeast Asia.",
+        "ko": "SBI는 동남아시아 전역에 걸쳐 견고한 국경 간 결제 네트워크를 구축할 계획입니다."
+      },
+      {
+        "en": "This ambitious initiative specifically leverages blockchain technology for highly efficient transactions.",
+        "ko": "이 야심찬 이니셔티브는 특히 매우 효율적인 거래를 위해 블록체인 기술을 활용합니다."
+      },
+      {
+        "en": "The investment clearly highlights growing regional interest in stablecoin utilization for payments.",
+        "ko": "이번 투자는 결제를 위한 스테이블코인 활용에 대한 지역적 관심이 증가하고 있음을 명확히 보여줍니다."
+      },
+      {
+        "en": "It also demonstrates how traditional financial institutions are now leveraging crypto assets.",
+        "ko": "또한 이는 전통 금융 기관들이 현재 어떻게 암호화폐 자산을 활용하고 있는지를 보여줍니다."
+      },
+      {
+        "en": "Such forward-looking moves could significantly foster greater financial inclusion within the region.",
+        "ko": "이러한 미래 지향적인 움직임은 역내 금융 포용성을 크게 증진시킬 수 있습니다."
+      },
+      {
+        "en": "Ultimately, this creates new opportunities for widespread digital asset adoption and innovation.",
+        "ko": "궁극적으로 이는 광범위한 디지털 자산 채택과 혁신을 위한 새로운 기회를 창출합니다."
+      }
+    ],
+    "glossary": {
+      "significant": {
+        "meaning": "sufficiently great or important to be worthy of attention.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests.",
+        "pos": "adjective"
+      },
+      "investment": {
+        "meaning": "the action or process of investing money for profit.",
+        "pos": "noun"
+      },
+      "acquiring": {
+        "meaning": "buying or obtaining an asset or object.",
+        "pos": "verb"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "stake": {
+        "meaning": "a share or interest in a business, especially a financial one.",
+        "pos": "noun"
+      },
+      "leading": {
+        "meaning": "most important, successful, or advanced.",
+        "pos": "adjective"
+      },
+      "fintech": {
+        "meaning": "technology that aims to improve and automate the delivery and use of financial services.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important, famous, or easily noticeable.",
+        "pos": "adjective"
+      },
+      "brokerage": {
+        "meaning": "a company that buys and sells stocks, bonds, etc., for customers.",
+        "pos": "noun"
+      },
+      "valued": {
+        "meaning": "considered to be worth a particular amount of money.",
+        "pos": "verb"
+      },
+      "objective": {
+        "meaning": "a goal or aim to be achieved.",
+        "pos": "noun"
+      },
+      "proprietary": {
+        "meaning": "relating to an owner or ownership; made and marketed by a person or company having the exclusive legal right to manufacture and sell it.",
+        "pos": "adjective"
+      },
+      "establish": {
+        "meaning": "to set up or found something.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "cross-border": {
+        "meaning": "involving or concerning more than one country.",
+        "pos": "adjective"
+      },
+      "settlement": {
+        "meaning": "the action of paying an amount of money owed.",
+        "pos": "noun"
+      },
+      "ambitious": {
+        "meaning": "having or showing a strong desire and determination to succeed.",
+        "pos": "adjective"
+      },
+      "leverages": {
+        "meaning": "uses something to maximum advantage.",
+        "pos": "verb"
+      },
+      "efficient": {
+        "meaning": "achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "adjective"
+      },
+      "utilization": {
+        "meaning": "the action of making practical and effective use of something.",
+        "pos": "noun"
+      },
+      "foster": {
+        "meaning": "to encourage the development of something good or desirable.",
+        "pos": "verb"
+      },
+      "inclusion": {
+        "meaning": "the action or state of including or being included within a group or structure.",
+        "pos": "noun"
+      },
+      "widespread": {
+        "meaning": "found or distributed over a large area or number of people.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What is the main purpose of SBI Group's investment in Indonesia's Ajaib?",
+      "Q2: Explain what \"cross-border settlement network\" means in the context of stablecoin expansion for SBI.",
+      "Q3: How might increased adoption of regional stablecoins, like SBI's yen stablecoin, impact traditional foreign exchange markets in Southeast Asia?"
+    ],
+    "modelAnswers": [
+      "A1: The main purpose is to expand SBI's proprietary yen stablecoin and build a cross-border settlement network in Southeast Asia using blockchain technology.",
+      "A2: A \"cross-border settlement network\" refers to a system that allows money or assets, specifically SBI's yen stablecoin, to be transferred and settled efficiently between different countries in Southeast Asia.",
+      "A3: Increased adoption of regional stablecoins could streamline international payments, potentially reducing costs and settlement times compared to traditional foreign exchange. This might lead to increased competition and innovation in the FX market."
+    ]
+  },
+  {
+    "id": "cd-2026-08-29-3",
+    "date": "2026-08-29",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "스테이블코인 발행사 이더나가 암호화폐를 넘어 주식 무기한 선물에서 수익을 창출하는 새로운 전략을 모색합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/28/ethena-looks-beyond-crypto-to-squeeze-yield-from-booming-equity-perpetuals",
+    "title": "Ethena Seeks Yield Beyond Crypto in Equity Perpetuals",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Ethena, the issuer of the USDe stablecoin, is actively exploring new strategies. They are looking beyond traditional crypto-native yield sources for sustainable growth. The company now aims to generate yield from booming equity perpetuals. These sophisticated financial instruments are derivatives based on real-world assets. Ethena anticipates these real-world asset perpetuals will grow significantly in importance. Within the next 12 to 24 months, they could potentially eclipse existing crypto derivatives. This strategic shift indicates a maturing stablecoin market, expanding its operational scope. It also demonstrates stablecoins increasingly integrating with broader traditional financial markets. The move could significantly enhance both the stability and scalability of USDe. It offers a more diversified and robust approach to yield generation and risk management. This innovative strategy is particularly notable for product managers in the fintech space.",
+    "sentences": [
+      {
+        "en": "Ethena, the issuer of the USDe stablecoin, is actively exploring new strategies.",
+        "ko": "USDe 스테이블코인 발행사 이더나는 새로운 전략을 적극적으로 모색하고 있습니다."
+      },
+      {
+        "en": "They are looking beyond traditional crypto-native yield sources for sustainable growth.",
+        "ko": "그들은 지속 가능한 성장을 위해 전통적인 암호화폐 기반 수익원 이상을 보고 있습니다."
+      },
+      {
+        "en": "The company now aims to generate yield from booming equity perpetuals.",
+        "ko": "이 회사는 이제 급성장하는 주식 무기한 선물에서 수익을 창출하는 것을 목표로 합니다."
+      },
+      {
+        "en": "These sophisticated financial instruments are derivatives based on real-world assets.",
+        "ko": "이러한 정교한 금융 상품들은 실제 자산을 기반으로 한 파생상품입니다."
+      },
+      {
+        "en": "Ethena anticipates these real-world asset perpetuals will grow significantly in importance.",
+        "ko": "이더나는 이러한 실제 자산 무기한 선물들이 중요성 면에서 크게 성장할 것으로 예상합니다."
+      },
+      {
+        "en": "Within the next 12 to 24 months, they could potentially eclipse existing crypto derivatives.",
+        "ko": "향후 12개월에서 24개월 이내에 이들은 기존 암호화폐 파생상품을 잠재적으로 능가할 수 있습니다."
+      },
+      {
+        "en": "This strategic shift indicates a maturing stablecoin market, expanding its operational scope.",
+        "ko": "이러한 전략적 변화는 스테이블코인 시장이 성숙해지면서 운영 범위를 확장하고 있음을 나타냅니다."
+      },
+      {
+        "en": "It also demonstrates stablecoins increasingly integrating with broader traditional financial markets.",
+        "ko": "또한 스테이블코인이 더욱 넓은 전통 금융 시장과 점차 통합되고 있음을 보여줍니다."
+      },
+      {
+        "en": "The move could significantly enhance both the stability and scalability of USDe.",
+        "ko": "이러한 움직임은 USDe의 안정성과 확장성을 모두 크게 향상시킬 수 있습니다."
+      },
+      {
+        "en": "It offers a more diversified and robust approach to yield generation and risk management.",
+        "ko": "이는 수익 창출 및 리스크 관리에 대한 보다 다각화되고 견고한 접근 방식을 제공합니다."
+      },
+      {
+        "en": "This innovative strategy is particularly notable for product managers in the fintech space.",
+        "ko": "이 혁신적인 전략은 핀테크 분야의 제품 관리자들에게 특히 주목할 만합니다."
+      }
+    ],
+    "glossary": {
+      "issuer": {
+        "meaning": "a person or company that supplies or provides something.",
+        "pos": "noun"
+      },
+      "exploring": {
+        "meaning": "inquiring into or discussing in detail.",
+        "pos": "verb"
+      },
+      "strategies": {
+        "meaning": "plans of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "beyond": {
+        "meaning": "at or to the further side of something.",
+        "pos": "preposition"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; conventional.",
+        "pos": "adjective"
+      },
+      "crypto-native": {
+        "meaning": "originating from or existing solely within the cryptocurrency ecosystem.",
+        "pos": "adjective"
+      },
+      "yield": {
+        "meaning": "the financial return or profit generated by an investment.",
+        "pos": "noun"
+      },
+      "sustainable": {
+        "meaning": "able to be maintained at a certain rate or level.",
+        "pos": "adjective"
+      },
+      "generate": {
+        "meaning": "to produce or create something.",
+        "pos": "verb"
+      },
+      "booming": {
+        "meaning": "experiencing a period of rapid growth and success.",
+        "pos": "adjective"
+      },
+      "equity": {
+        "meaning": "the value of a company's shares.",
+        "pos": "noun"
+      },
+      "perpetuals": {
+        "meaning": "financial derivatives that have no expiration date.",
+        "pos": "noun"
+      },
+      "sophisticated": {
+        "meaning": "developed to a high degree of complexity or advancement.",
+        "pos": "adjective"
+      },
+      "derivatives": {
+        "meaning": "financial contracts whose value is derived from an underlying asset.",
+        "pos": "noun"
+      },
+      "anticipates": {
+        "meaning": "regards something as likely to happen; expects.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "eclipse": {
+        "meaning": "to make something less important or popular by comparison.",
+        "pos": "verb"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "maturing": {
+        "meaning": "reaching a stage of full development.",
+        "pos": "verb"
+      },
+      "integrating": {
+        "meaning": "combining one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "enhance": {
+        "meaning": "to intensify, increase, or further improve the quality, value, or extent of.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "the state of being stable; resistance to change.",
+        "pos": "noun"
+      },
+      "scalability": {
+        "meaning": "the ability of a system to handle a growing amount of work.",
+        "pos": "noun"
+      },
+      "diversified": {
+        "meaning": "increased the range of products or activities of a company.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific type of financial instrument is Ethena aiming to use for yield generation beyond crypto?",
+      "Q2: How does the passage describe the relationship between \"equity perpetuals\" and \"real-world assets\"?",
+      "Q3: From a product management perspective, what are the potential benefits and risks for a stablecoin issuer like Ethena in diversifying its yield sources into traditional financial markets?"
+    ],
+    "modelAnswers": [
+      "A1: Ethena is aiming to use booming equity perpetuals, which are derivatives based on real-world assets, for yield generation.",
+      "A2: The passage states that equity perpetuals are sophisticated financial instruments that are derivatives based on real-world assets, meaning their value is derived from these tangible assets.",
+      "A3: Benefits include enhanced stability and scalability for the stablecoin due to diversified, potentially less volatile yield sources. Risks could involve increased regulatory scrutiny, operational complexities in bridging traditional and crypto finance, and exposure to new market risks."
+    ]
+  },
+  {
+    "id": "ec-2026-08-29-1",
+    "date": "2026-08-29",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "인플레이션이 지속되는 가운데, 연준 의장이 물가 안정을 최우선 과제로 강조한 이유를 알아보세요.",
+    "url": "https://www.theguardian.com/business/2026/aug/28/kevin-warsh-federal-reserve-inflation",
+    "title": "Fed Chair Vows to Tackle Stubborn Inflation",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US Federal Reserve Chairman, Kevin Warsh, recently delivered his first major speech. He emphasized the central bank's crucial role in achieving stable prices. This statement comes as inflation continues to be a persistent challenge for the economy. Warsh noted that the Fed is not yet finished with its efforts to control rising costs. His remarks suggest that policymakers are prepared to take further action if necessary. However, he did not specify whether interest rates would change in the immediate future. The speech signals a continued hawkish stance from the Fed leadership. Financial markets are closely watching for clues on future monetary policy. Businesses and consumers are hoping for relief from high prices. The Fed's commitment is vital for long-term economic stability.",
+    "sentences": [
+      {
+        "en": "The US Federal Reserve Chairman, Kevin Warsh, recently delivered his first major speech.",
+        "ko": "미국 연방준비제도 의장 케빈 워시가 최근 첫 주요 연설을 했습니다."
+      },
+      {
+        "en": "He emphasized the central bank's crucial role in achieving stable prices.",
+        "ko": "그는 중앙은행이 물가 안정을 달성하는 데 중요한 역할을 한다고 강조했습니다."
+      },
+      {
+        "en": "This statement comes as inflation continues to be a persistent challenge for the economy.",
+        "ko": "이 발언은 인플레이션이 경제에 지속적인 도전으로 남아있는 상황에서 나왔습니다."
+      },
+      {
+        "en": "Warsh noted that the Fed is not yet finished with its efforts to control rising costs.",
+        "ko": "워시 의장은 연준이 물가 상승을 통제하려는 노력을 아직 끝내지 않았다고 언급했습니다."
+      },
+      {
+        "en": "His remarks suggest that policymakers are prepared to take further action if necessary.",
+        "ko": "그의 발언은 정책 입안자들이 필요할 경우 추가 조치를 취할 준비가 되어 있음을 시사합니다."
+      },
+      {
+        "en": "However, he did not specify whether interest rates would change in the immediate future.",
+        "ko": "그러나 그는 가까운 미래에 금리가 변동될지는 명시하지 않았습니다."
+      },
+      {
+        "en": "The speech signals a continued hawkish stance from the Fed leadership.",
+        "ko": "이번 연설은 연준 지도부의 지속적인 매파적 입장을 나타냅니다."
+      },
+      {
+        "en": "Financial markets are closely watching for clues on future monetary policy.",
+        "ko": "금융 시장은 향후 통화 정책에 대한 단서를 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Businesses and consumers are hoping for relief from high prices.",
+        "ko": "기업과 소비자들은 높은 물가로부터의 안정을 기대하고 있습니다."
+      },
+      {
+        "en": "The Fed's commitment is vital for long-term economic stability.",
+        "ko": "연준의 약속은 장기적인 경제 안정에 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "chairman": {
+        "meaning": "the person who is in charge of a meeting or a committee or a large organization.",
+        "pos": "noun"
+      },
+      "delivered": {
+        "meaning": "gave a formal speech or a talk to an audience.",
+        "pos": "verb"
+      },
+      "emphasized": {
+        "meaning": "gave special importance or attention to something in speaking or writing.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary, often because it will affect other things.",
+        "pos": "adjective"
+      },
+      "achieving": {
+        "meaning": "successfully bringing about a desired result or plan.",
+        "pos": "verb"
+      },
+      "stable": {
+        "meaning": "not likely to change or fail; firmly established.",
+        "pos": "adjective"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or happen, especially for longer than is usual or desirable.",
+        "pos": "adjective"
+      },
+      "challenge": {
+        "meaning": "a new or difficult task that tests someone's ability and skill.",
+        "pos": "noun"
+      },
+      "efforts": {
+        "meaning": "serious attempts to do something, especially when it is difficult.",
+        "pos": "noun"
+      },
+      "control": {
+        "meaning": "to limit or manage something, especially to keep it from getting worse.",
+        "pos": "verb"
+      },
+      "rising": {
+        "meaning": "increasing in amount, size, or level.",
+        "pos": "adjective"
+      },
+      "remarks": {
+        "meaning": "comments or statements that someone makes about something.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "people who make decisions and create plans, especially in government or organizations.",
+        "pos": "noun"
+      },
+      "prepared": {
+        "meaning": "ready for something, often after making arrangements or planning.",
+        "pos": "adjective"
+      },
+      "further": {
+        "meaning": "additional or more, often referring to actions or steps.",
+        "pos": "adjective"
+      },
+      "specify": {
+        "meaning": "to state something clearly and exactly.",
+        "pos": "verb"
+      },
+      "immediate": {
+        "meaning": "happening or done without delay; at once.",
+        "pos": "adjective"
+      },
+      "signals": {
+        "meaning": "indicates or gives a sign of something that is likely to happen.",
+        "pos": "verb"
+      },
+      "hawkish": {
+        "meaning": "supporting aggressive policies, especially regarding interest rates or military action.",
+        "pos": "adjective"
+      },
+      "stance": {
+        "meaning": "the way in which someone stands; also, an attitude or position on an issue.",
+        "pos": "noun"
+      },
+      "leadership": {
+        "meaning": "the action of leading a group of people or an organization.",
+        "pos": "noun"
+      },
+      "monetary": {
+        "meaning": "relating to money or currency, especially central bank policy.",
+        "pos": "adjective"
+      },
+      "commitment": {
+        "meaning": "a promise or firm decision to do something.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What was the main message delivered by Federal Reserve Chairman Kevin Warsh in his recent speech?",
+      "In the context of the passage, what does a \"hawkish stance\" from the Fed leadership imply about future monetary policy?",
+      "As a fintech professional, how do you think the Fed's ongoing efforts to control inflation might influence investment decisions and market trends in the coming months?"
+    ],
+    "modelAnswers": [
+      "Federal Reserve Chairman Kevin Warsh emphasized the central bank's crucial role in achieving stable prices and stated that the Fed is not yet finished with its efforts to control persistent inflation.",
+      "A \"hawkish stance\" implies that the Fed leadership is inclined towards tighter monetary policy, likely involving higher interest rates or other measures to cool down the economy and bring inflation under control.",
+      "The Fed's hawkish stance could lead to continued interest rate hikes, potentially increasing borrowing costs for companies and slowing economic growth. This might encourage investors to shift towards less risky assets or sectors that are less sensitive to interest rate changes, impacting fintech investment strategies."
+    ]
+  },
+  {
+    "id": "ec-2026-08-29-2",
+    "date": "2026-08-29",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국과 베네수엘라 간의 '역사적인' 석유 거래가 두 나라 경제에 어떤 영향을 미칠지 살펴보세요.",
+    "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o",
+    "title": "US Secures Historic Venezuelan Oil Deal",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Former President Trump has announced a \"historic\" agreement with Venezuela's interim president. Under this unusual deal, the United States will gain control over a significant portion of Venezuela's vast oil reserves. Specifically, the agreement grants the U.S. majority control of 65 billion barrels of proven oil. This move is expected to have substantial implications for global energy markets. For Venezuela, the interim president stated that the deal would help revive the country's struggling economy. However, the exact terms and long-term viability of the agreement remain unclear. This development marks a notable shift in US foreign policy and energy strategy. It also highlights the complex political and economic landscape of Latin America. The deal could reshape regional power dynamics and oil production.",
+    "sentences": [
+      {
+        "en": "Former President Trump has announced a \"historic\" agreement with Venezuela's interim president.",
+        "ko": "도널드 트럼프 전 대통령이 베네수엘라 임시 대통령과 '역사적인' 합의를 발표했습니다."
+      },
+      {
+        "en": "Under this unusual deal, the United States will gain control over a significant portion of Venezuela's vast oil reserves.",
+        "ko": "이 이례적인 거래에 따라 미국은 베네수엘라의 방대한 석유 매장량 중 상당 부분을 통제하게 될 것입니다."
+      },
+      {
+        "en": "Specifically, the agreement grants the U.S. majority control of 65 billion barrels of proven oil.",
+        "ko": "구체적으로, 이 합의는 미국에 650억 배럴의 확인된 석유에 대한 다수 통제권을 부여합니다."
+      },
+      {
+        "en": "This move is expected to have substantial implications for global energy markets.",
+        "ko": "이러한 움직임은 세계 에너지 시장에 상당한 영향을 미칠 것으로 예상됩니다."
+      },
+      {
+        "en": "For Venezuela, the interim president stated that the deal would help revive the country's struggling economy.",
+        "ko": "베네수엘라의 경우, 임시 대통령은 이 거래가 자국의 어려움을 겪는 경제를 회생시키는 데 도움이 될 것이라고 밝혔습니다."
+      },
+      {
+        "en": "However, the exact terms and long-term viability of the agreement remain unclear.",
+        "ko": "하지만, 이 합의의 정확한 조건과 장기적인 실행 가능성은 여전히 불분명합니다."
+      },
+      {
+        "en": "This development marks a notable shift in US foreign policy and energy strategy.",
+        "ko": "이러한 진전은 미국의 외교 정책과 에너지 전략에 주목할 만한 변화를 의미합니다."
+      },
+      {
+        "en": "It also highlights the complex political and economic landscape of Latin America.",
+        "ko": "또한 라틴 아메리카의 복잡한 정치 및 경제 지형을 부각시킵니다."
+      },
+      {
+        "en": "The deal could reshape regional power dynamics and oil production.",
+        "ko": "이 거래는 지역 권력 역학 관계와 석유 생산을 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "announced": {
+        "meaning": "made a public statement about a fact, intention, or occurrence.",
+        "pos": "verb"
+      },
+      "historic": {
+        "meaning": "famous or important in history, or likely to be considered so.",
+        "pos": "adjective"
+      },
+      "agreement": {
+        "meaning": "a mutual understanding or arrangement between two or more parties.",
+        "pos": "noun"
+      },
+      "interim": {
+        "meaning": "temporary or provisional, existing only until something permanent is found.",
+        "pos": "adjective"
+      },
+      "unusual": {
+        "meaning": "not common, ordinary, or typical; surprising.",
+        "pos": "adjective"
+      },
+      "gain": {
+        "meaning": "to obtain or acquire something, especially something desirable.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable, having a great impact.",
+        "pos": "adjective"
+      },
+      "portion": {
+        "meaning": "a part of a larger whole; a share.",
+        "pos": "noun"
+      },
+      "vast": {
+        "meaning": "of very great extent or quantity; immense.",
+        "pos": "adjective"
+      },
+      "reserves": {
+        "meaning": "a supply of a resource that is available for future use.",
+        "pos": "noun"
+      },
+      "specifically": {
+        "meaning": "in a precise and detailed manner; exactly.",
+        "pos": "adverb"
+      },
+      "grants": {
+        "meaning": "formally agrees to give or allow something requested.",
+        "pos": "verb"
+      },
+      "proven": {
+        "meaning": "demonstrated or shown to be true or real.",
+        "pos": "adjective"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "implications": {
+        "meaning": "the possible results or effects of an action or a decision.",
+        "pos": "noun"
+      },
+      "revive": {
+        "meaning": "to restore to life or consciousness, or to bring back into use.",
+        "pos": "verb"
+      },
+      "struggling": {
+        "meaning": "experiencing great difficulty or making a strenuous effort.",
+        "pos": "adjective"
+      },
+      "viability": {
+        "meaning": "the ability to work successfully or to be practical.",
+        "pos": "noun"
+      },
+      "unclear": {
+        "meaning": "not easy to understand or distinguish; ambiguous.",
+        "pos": "adjective"
+      },
+      "development": {
+        "meaning": "a new event, change, or stage in a situation.",
+        "pos": "noun"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "strategy": {
+        "meaning": "a plan of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "reshape": {
+        "meaning": "to change the shape or form of something, or its structure.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the main outcome of the agreement announced by former President Trump regarding Venezuela?",
+      "Explain the term \"interim president\" in the context of this news story and its potential implications for the deal's stability.",
+      "Considering the global energy landscape, what are some potential benefits and risks for the US economy stemming from this oil deal?"
+    ],
+    "modelAnswers": [
+      "The main outcome is that the United States will gain majority control over 65 billion barrels of Venezuela's proven oil reserves through a new agreement.",
+      "An \"interim president\" is a temporary leader, suggesting that their authority might not be fully recognized or permanent. This could imply that the deal's long-term stability and enforceability might be uncertain if a new, permanent government takes power in Venezuela.",
+      "Potential benefits for the US include increased energy security and potentially lower oil prices. Risks could involve political instability in Venezuela, potential backlash from other oil-producing nations, or legal challenges regarding the legitimacy of the agreement."
+    ]
+  },
+  {
+    "id": "ec-2026-08-29-3",
+    "date": "2026-08-29",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "예측 시장에 대한 법원 판결이 핀테크 산업의 미래와 새로운 금융 상품 규제에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/28/appeals-court-rules-against-prediction-markets-tees-up-scotus-fight.html",
+    "title": "Court Rules Against Prediction Markets",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A significant legal ruling recently came from the 9th U.S. Circuit Court of Appeals. The court ruled that sports-related event contracts are not \"swaps\" under existing law. This decision contradicts an earlier ruling from a different circuit court. That previous ruling had classified similar contracts as swaps. The appeals court's decision creates regulatory uncertainty for prediction markets. These platforms allow users to bet on the outcome of future events. This legal conflict could potentially lead to a battle at the Supreme Court. Such a dispute would have major implications for the fintech industry. It would define how innovative financial products are regulated. This ruling highlights the ongoing challenge of adapting old laws to new technologies. The future of these unique markets now faces a critical juncture.",
+    "sentences": [
+      {
+        "en": "A significant legal ruling recently came from the 9th U.S. Circuit Court of Appeals.",
+        "ko": "최근 제9 미국 연방 항소법원에서 중요한 법적 판결이 나왔습니다."
+      },
+      {
+        "en": "The court ruled that sports-related event contracts are not \"swaps\" under existing law.",
+        "ko": "법원은 스포츠 관련 이벤트 계약이 현행법상 '스왑'이 아니라고 판결했습니다."
+      },
+      {
+        "en": "This decision contradicts an earlier ruling from a different circuit court.",
+        "ko": "이 결정은 다른 순회 법원의 이전 판결과 모순됩니다."
+      },
+      {
+        "en": "That previous ruling had classified similar contracts as swaps.",
+        "ko": "이전 판결은 유사한 계약을 스왑으로 분류했었습니다."
+      },
+      {
+        "en": "The appeals court's decision creates regulatory uncertainty for prediction markets.",
+        "ko": "항소법원의 결정은 예측 시장에 대한 규제 불확실성을 야기합니다."
+      },
+      {
+        "en": "These platforms allow users to bet on the outcome of future events.",
+        "ko": "이러한 플랫폼은 사용자들이 미래 사건의 결과에 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "This legal conflict could potentially lead to a battle at the Supreme Court.",
+        "ko": "이 법적 분쟁은 잠재적으로 대법원에서의 싸움으로 이어질 수 있습니다."
+      },
+      {
+        "en": "Such a dispute would have major implications for the fintech industry.",
+        "ko": "그러한 분쟁은 핀테크 산업에 중대한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "It would define how innovative financial products are regulated.",
+        "ko": "이는 혁신적인 금융 상품이 어떻게 규제되는지를 정의하게 될 것입니다."
+      },
+      {
+        "en": "This ruling highlights the ongoing challenge of adapting old laws to new technologies.",
+        "ko": "이 판결은 오래된 법률을 신기술에 적용하는 지속적인 과제를 부각시킵니다."
+      },
+      {
+        "en": "The future of these unique markets now faces a critical juncture.",
+        "ko": "이러한 독특한 시장의 미래는 이제 중대한 전환점에 직면했습니다."
+      }
+    ],
+    "glossary": {
+      "significant": {
+        "meaning": "important or noticeable, having a great impact.",
+        "pos": "adjective"
+      },
+      "legal": {
+        "meaning": "relating to the law or conforming to its rules.",
+        "pos": "adjective"
+      },
+      "ruling": {
+        "meaning": "an authoritative decision or pronouncement, especially one made by a court.",
+        "pos": "noun"
+      },
+      "appeals": {
+        "meaning": "requests for a higher court to review a decision made by a lower court.",
+        "pos": "noun"
+      },
+      "circuit": {
+        "meaning": "a judicial district or the court that serves it.",
+        "pos": "noun"
+      },
+      "ruled": {
+        "meaning": "made an official decision or judgment.",
+        "pos": "verb"
+      },
+      "contracts": {
+        "meaning": "written or spoken agreements that are intended to be enforceable by law.",
+        "pos": "noun"
+      },
+      "swaps": {
+        "meaning": "financial agreements where two parties exchange cash flows or liabilities from two different financial instruments.",
+        "pos": "noun"
+      },
+      "existing": {
+        "meaning": "present or in operation at the current time.",
+        "pos": "adjective"
+      },
+      "contradicts": {
+        "meaning": "is in conflict with or denies the truth of something.",
+        "pos": "verb"
+      },
+      "classified": {
+        "meaning": "arranged or assigned something to a particular group or category.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system or industry.",
+        "pos": "adjective"
+      },
+      "uncertainty": {
+        "meaning": "the state of being unsure or not definite.",
+        "pos": "noun"
+      },
+      "platforms": {
+        "meaning": "systems or services that allow people to do certain things online.",
+        "pos": "noun"
+      },
+      "outcome": {
+        "meaning": "the way a thing turns out; a consequence.",
+        "pos": "noun"
+      },
+      "potentially": {
+        "meaning": "with the possibility of becoming or happening.",
+        "pos": "adverb"
+      },
+      "battle": {
+        "meaning": "a prolonged and difficult struggle or conflict.",
+        "pos": "noun"
+      },
+      "dispute": {
+        "meaning": "a disagreement or argument, often formal or legal.",
+        "pos": "noun"
+      },
+      "implications": {
+        "meaning": "the possible results or effects of an action or a decision.",
+        "pos": "noun"
+      },
+      "innovative": {
+        "meaning": "featuring new methods, ideas, or products.",
+        "pos": "adjective"
+      },
+      "regulated": {
+        "meaning": "controlled or supervised by rules or laws.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "adapting": {
+        "meaning": "modifying or changing something to suit new conditions.",
+        "pos": "verb"
+      },
+      "juncture": {
+        "meaning": "a particular point in events or time, often critical.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the specific decision made by the 9th U.S. Circuit Court of Appeals regarding sports-related event contracts?",
+      "The passage mentions \"regulatory uncertainty\" for prediction markets. How does the conflicting court rulings contribute to this uncertainty, and why is it problematic for the fintech industry?",
+      "As a fintech PM, how do you think companies offering new financial products can best navigate a legal and regulatory environment characterized by conflicting interpretations and rapid technological change?"
+    ],
+    "modelAnswers": [
+      "The 9th U.S. Circuit Court of Appeals ruled that sports-related event contracts are not \"swaps\" under existing law, which contradicted a previous ruling from another circuit court.",
+      "Conflicting court rulings create \"regulatory uncertainty\" because different parts of the country or different legal interpretations classify the same financial products differently. This is problematic for fintech as it makes it difficult to establish consistent business models, comply with laws, and innovate without fear of legal challenges.",
+      "Fintech PMs can navigate this by proactively engaging with regulators, building products with adaptable compliance frameworks, and closely monitoring legal developments. They should also consider multi-jurisdictional legal advice and potentially advocate for clearer, harmonized regulations to reduce ambiguity."
+    ]
+  },
+  {
     "id": "cd-2026-08-28-1",
     "date": "2026-08-28",
     "rank": 1,
