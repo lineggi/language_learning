@@ -1,5 +1,949 @@
 [
   {
+    "id": "cd-2026-08-30-1",
+    "date": "2026-08-30",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "블록체인 기술이 전통 금융 시스템의 거인 SWIFT를 어떻게 변화시킬지 궁금하다면 이 기사를 읽어보세요.",
+    "url": "https://www.coindesk.com/business/2026/08/29/swift-s-usd1-5-quadrillion-network-faces-a-blockchain-test",
+    "title": "Blockchain Challenges Swift's Legacy Network",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The global financial network SWIFT handles an enormous volume of transactions daily. It processes over $1.5 quadrillion across its 11,500 member institutions. However, this traditional system now faces a significant challenge from blockchain technology. Crypto executives believe new blockchain infrastructure could make SWIFT obsolete. These new payment rails offer faster and more efficient cross-border transfers. Conversely, bankers argue that SWIFT's vast network provides a powerful advantage. They suggest SWIFT has the capacity to integrate and absorb blockchain innovations. This ongoing debate highlights the tension between established finance and emerging tech. For fintech product managers, understanding this dynamic is crucial for future development. The outcome will shape how global payments are conducted in the coming decades.",
+    "sentences": [
+      {
+        "en": "The global financial network SWIFT handles an enormous volume of transactions daily.",
+        "ko": "SWIFT는 매일 엄청난 양의 거래를 처리하는 글로벌 금융 네트워크입니다."
+      },
+      {
+        "en": "It processes over $1.5 quadrillion across its 11,500 member institutions.",
+        "ko": "이 네트워크는 11,500개 회원 기관에서 1.5경 달러 이상을 처리합니다."
+      },
+      {
+        "en": "However, this traditional system now faces a significant challenge from blockchain technology.",
+        "ko": "하지만 이 전통적인 시스템은 이제 블록체인 기술로부터 중대한 도전에 직면해 있습니다."
+      },
+      {
+        "en": "Crypto executives believe new blockchain infrastructure could make SWIFT obsolete.",
+        "ko": "암호화폐 경영진은 새로운 블록체인 인프라가 SWIFT를 쓸모없게 만들 수 있다고 믿습니다."
+      },
+      {
+        "en": "These new payment rails offer faster and more efficient cross-border transfers.",
+        "ko": "이러한 새로운 결제 레일은 더 빠르고 효율적인 국경 간 송금을 제공합니다."
+      },
+      {
+        "en": "Conversely, bankers argue that SWIFT's vast network provides a powerful advantage.",
+        "ko": "반대로, 은행가들은 SWIFT의 방대한 네트워크가 강력한 이점을 제공한다고 주장합니다."
+      },
+      {
+        "en": "They suggest SWIFT has the capacity to integrate and absorb blockchain innovations.",
+        "ko": "그들은 SWIFT가 블록체인 혁신을 통합하고 흡수할 능력이 있다고 제안합니다."
+      },
+      {
+        "en": "This ongoing debate highlights the tension between established finance and emerging tech.",
+        "ko": "이 지속적인 논쟁은 기존 금융과 신흥 기술 간의 긴장을 강조합니다."
+      },
+      {
+        "en": "For fintech product managers, understanding this dynamic is crucial for future development.",
+        "ko": "핀테크 제품 관리자에게는 이러한 역학 관계를 이해하는 것이 미래 개발에 매우 중요합니다."
+      },
+      {
+        "en": "The outcome will shape how global payments are conducted in the coming decades.",
+        "ko": "그 결과는 향후 수십 년 동안 글로벌 결제가 어떻게 이루어질지 결정할 것입니다."
+      }
+    ],
+    "glossary": {
+      "volume": {
+        "meaning": "a large amount of something, especially when discussed in terms of quantity.",
+        "pos": "noun"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "processes": {
+        "meaning": "performs a series of actions or steps to achieve a result.",
+        "pos": "verb"
+      },
+      "quadrillion": {
+        "meaning": "a very large number, representing one thousand million million (10^15).",
+        "pos": "noun"
+      },
+      "institutions": {
+        "meaning": "large and important organizations, such as banks or universities.",
+        "pos": "noun"
+      },
+      "challenge": {
+        "meaning": "a new or difficult task that tests one's ability and determination.",
+        "pos": "noun"
+      },
+      "blockchain": {
+        "meaning": "a digital database containing records linked by cryptography, making them secure.",
+        "pos": "noun"
+      },
+      "executives": {
+        "meaning": "people with senior managerial responsibility in a business organization.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "the basic structures and facilities needed for the operation of an enterprise.",
+        "pos": "noun"
+      },
+      "obsolete": {
+        "meaning": "no longer produced or used; out of date.",
+        "pos": "adjective"
+      },
+      "cross-border": {
+        "meaning": "involving or concerning different countries.",
+        "pos": "adjective"
+      },
+      "conversely": {
+        "meaning": "introducing a statement or idea that reverses a previous one.",
+        "pos": "adverb"
+      },
+      "vast": {
+        "meaning": "of very great extent or quantity; immense.",
+        "pos": "adjective"
+      },
+      "advantage": {
+        "meaning": "a condition or circumstance that puts one in a favorable position.",
+        "pos": "noun"
+      },
+      "integrate": {
+        "meaning": "combine one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "absorb": {
+        "meaning": "take in or soak up something, or incorporate it fully.",
+        "pos": "verb"
+      },
+      "innovations": {
+        "meaning": "new methods, ideas, or products.",
+        "pos": "noun"
+      },
+      "dynamic": {
+        "meaning": "a force or factor that causes change or growth within a system.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important, especially because it will determine success or failure.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What is the estimated total value of transactions SWIFT processes, and how many institutions are part of its network?",
+      "In the context of this article, what is meant by \"payment rails,\" and why are new ones relevant to blockchain technology?",
+      "Do you think traditional financial systems like SWIFT will ultimately be replaced by blockchain infrastructure, or will they successfully integrate the new technology? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "SWIFT processes over $1.5 quadrillion in transactions annually. Its network includes 11,500 member institutions worldwide.",
+      "\"Payment rails\" refer to the fundamental systems and networks that enable money transfers. New blockchain-based payment rails are relevant because they promise faster, more efficient, and potentially cheaper cross-border transactions than existing systems.",
+      "I believe traditional systems like SWIFT will likely integrate blockchain technology rather than being completely replaced. Their established network and regulatory relationships are massive advantages, making absorption of new tech a more probable outcome than total disruption."
+    ]
+  },
+  {
+    "id": "cd-2026-08-30-2",
+    "date": "2026-08-30",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화된 자산의 실제 활용도가 데이터에 나타난 것보다 훨씬 높다는 흥미로운 분석을 살펴보세요.",
+    "url": "https://www.coindesk.com/opinion/2026/08/29/tokenized-assets-are-busier-than-the-data-shows",
+    "title": "Tokenized Assets: Underestimated Utilization",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The true utilization of tokenized assets might be higher than current data suggests. Many analyses often misrepresent the full scope of their activity. Matthew Fisher from Katana argues for a more accurate assessment method. He proposes stripping out assets that were never intended for mobile use. Additionally, correcting for who holds what and why is crucial. This means distinguishing between active use and long-term holding. Furthermore, off-contract activities, not typically captured, should be included. When these adjustments are made, tokenized asset utilization approaches 20%. This figure is significantly higher than commonly reported numbers. For product managers, understanding actual usage helps in developing better solutions. It provides a clearer picture of market demand and potential growth.",
+    "sentences": [
+      {
+        "en": "The true utilization of tokenized assets might be higher than current data suggests.",
+        "ko": "토큰화된 자산의 실제 활용도는 현재 데이터가 보여주는 것보다 더 높을 수 있습니다."
+      },
+      {
+        "en": "Many analyses often misrepresent the full scope of their activity.",
+        "ko": "많은 분석들이 종종 자산 활동의 전체 범위를 잘못 나타냅니다."
+      },
+      {
+        "en": "Matthew Fisher from Katana argues for a more accurate assessment method.",
+        "ko": "카타나의 매튜 피셔는 더 정확한 평가 방법을 주장합니다."
+      },
+      {
+        "en": "He proposes stripping out assets that were never intended for mobile use.",
+        "ko": "그는 모바일 사용을 위해 만들어지지 않은 자산을 제외해야 한다고 제안합니다."
+      },
+      {
+        "en": "Additionally, correcting for who holds what and why is crucial.",
+        "ko": "또한, 누가 무엇을 어떤 이유로 보유하는지 수정하는 것이 중요합니다."
+      },
+      {
+        "en": "This means distinguishing between active use and long-term holding.",
+        "ko": "이는 활발한 사용과 장기 보유를 구분하는 것을 의미합니다."
+      },
+      {
+        "en": "Furthermore, off-contract activities, not typically captured, should be included.",
+        "ko": "나아가, 일반적으로 포착되지 않는 계약 외 활동도 포함되어야 합니다."
+      },
+      {
+        "en": "When these adjustments are made, tokenized asset utilization approaches 20%.",
+        "ko": "이러한 조정이 이루어지면, 토큰화된 자산 활용도는 20%에 가까워집니다."
+      },
+      {
+        "en": "This figure is significantly higher than commonly reported numbers.",
+        "ko": "이 수치는 일반적으로 보고되는 숫자보다 훨씬 높습니다."
+      },
+      {
+        "en": "For product managers, understanding actual usage helps in developing better solutions.",
+        "ko": "제품 관리자에게는 실제 사용량을 이해하는 것이 더 나은 솔루션을 개발하는 데 도움이 됩니다."
+      },
+      {
+        "en": "It provides a clearer picture of market demand and potential growth.",
+        "ko": "이는 시장 수요와 잠재적 성장에 대한 더 명확한 그림을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "utilization": {
+        "meaning": "the action of making practical and effective use of something.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      },
+      "assets": {
+        "meaning": "items of value owned by an individual or company.",
+        "pos": "noun"
+      },
+      "current": {
+        "meaning": "belonging to the present time; happening now.",
+        "pos": "adjective"
+      },
+      "suggests": {
+        "meaning": "puts forward for consideration; indicates.",
+        "pos": "verb"
+      },
+      "analyses": {
+        "meaning": "detailed examinations of the elements or structure of something.",
+        "pos": "noun"
+      },
+      "misrepresent": {
+        "meaning": "give a false or misleading account of something.",
+        "pos": "verb"
+      },
+      "scope": {
+        "meaning": "the extent of the area or subject matter that something deals with.",
+        "pos": "noun"
+      },
+      "accurate": {
+        "meaning": "correct in all details; exact.",
+        "pos": "adjective"
+      },
+      "assessment": {
+        "meaning": "the evaluation or estimation of the nature, quality, or ability of something.",
+        "pos": "noun"
+      },
+      "method": {
+        "meaning": "a particular procedure for accomplishing or approaching something.",
+        "pos": "noun"
+      },
+      "proposes": {
+        "meaning": "puts forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "intended": {
+        "meaning": "planned or meant.",
+        "pos": "adjective"
+      },
+      "additionally": {
+        "meaning": "in addition to what has been said or done.",
+        "pos": "adverb"
+      },
+      "correcting": {
+        "meaning": "making something right or accurate.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important.",
+        "pos": "adjective"
+      },
+      "distinguishing": {
+        "meaning": "recognizing or pointing out a difference between things.",
+        "pos": "verb"
+      },
+      "off-contract": {
+        "meaning": "referring to activities or agreements not formally recorded or part of a main contract.",
+        "pos": "adjective"
+      },
+      "typically": {
+        "meaning": "in most cases; usually.",
+        "pos": "adverb"
+      },
+      "captured": {
+        "meaning": "recorded or represented accurately.",
+        "pos": "verb"
+      },
+      "adjustments": {
+        "meaning": "small changes or modifications made to improve something.",
+        "pos": "noun"
+      },
+      "approaches": {
+        "meaning": "comes near or nearer to something in distance or time.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "According to Matthew Fisher, what percentage does tokenized asset utilization approach after making specific adjustments?",
+      "Explain what \"stripping out assets that were never intended for mobile use\" means in the context of analyzing tokenized asset utilization.",
+      "Why do you think it is important for fintech product managers to have a more accurate understanding of tokenized asset utilization, beyond just the commonly reported numbers?"
+    ],
+    "modelAnswers": [
+      "After making specific adjustments, tokenized asset utilization approaches 20%, which is significantly higher than commonly reported numbers.",
+      "\"Stripping out assets that were never intended for mobile use\" means removing data points for tokenized assets that were not designed to be used on mobile devices. This adjustment helps to get a more accurate picture of how actively assets meant for mobile interaction are truly being utilized.",
+      "An accurate understanding of tokenized asset utilization is crucial for PMs because it informs product strategy and development. Knowing the real usage patterns helps them identify genuine market demand, prioritize features, and allocate resources effectively, leading to more successful solutions rather than relying on potentially misleading general statistics."
+    ]
+  },
+  {
+    "id": "cd-2026-08-30-3",
+    "date": "2026-08-30",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "AI 시대에 새로운 형태의 화폐가 어떻게 등장할지, 그리고 스테이블코인이 아닌 다른 대안은 무엇인지 심층적으로 탐구합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/29/the-next-trillion-dollar-currency-may-not-be-a-stablecoin-it-might-not-even-have-a-name-yet",
+    "title": "AI Agents May Need New Digital Currency",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The rise of artificial intelligence agents presents a unique challenge for future currency. These AI agents will increasingly need to pay each other for services and data. Crypto executives generally agree on the problem but differ on the solution. One perspective suggests that existing stablecoins may not be suitable. Stablecoins are often designed for human-centric transactions and regulatory frameworks. Another view posits that the ideal currency for AI agents has not yet been invented. This new form of money would need to be highly autonomous and programmable. It would also require seamless integration into AI systems for micro-transactions. This discussion is vital for fintech product managers exploring future payment innovations. The development of such a currency could unlock new economic models for AI.",
+    "sentences": [
+      {
+        "en": "The rise of artificial intelligence agents presents a unique challenge for future currency.",
+        "ko": "인공지능 에이전트의 등장은 미래 화폐에 대한 독특한 도전을 제시합니다."
+      },
+      {
+        "en": "These AI agents will increasingly need to pay each other for services and data.",
+        "ko": "이 AI 에이전트들은 서비스와 데이터에 대해 서로에게 점점 더 비용을 지불해야 할 것입니다."
+      },
+      {
+        "en": "Crypto executives generally agree on the problem but differ on the solution.",
+        "ko": "암호화폐 경영진은 문제에 대해서는 대체로 동의하지만, 해결책에 대해서는 의견이 다릅니다."
+      },
+      {
+        "en": "One perspective suggests that existing stablecoins may not be suitable.",
+        "ko": "한 가지 관점은 기존 스테이블코인이 적합하지 않을 수 있다고 제안합니다."
+      },
+      {
+        "en": "Stablecoins are often designed for human-centric transactions and regulatory frameworks.",
+        "ko": "스테이블코인은 종종 인간 중심의 거래와 규제 프레임워크에 맞춰 설계됩니다."
+      },
+      {
+        "en": "Another view posits that the ideal currency for AI agents has not yet been invented.",
+        "ko": "또 다른 견해는 AI 에이전트를 위한 이상적인 화폐는 아직 발명되지 않았다고 가정합니다."
+      },
+      {
+        "en": "This new form of money would need to be highly autonomous and programmable.",
+        "ko": "이 새로운 형태의 돈은 고도로 자율적이고 프로그래밍 가능해야 할 것입니다."
+      },
+      {
+        "en": "It would also require seamless integration into AI systems for micro-transactions.",
+        "ko": "또한 마이크로 거래를 위해 AI 시스템에 원활하게 통합되어야 합니다."
+      },
+      {
+        "en": "This discussion is vital for fintech product managers exploring future payment innovations.",
+        "ko": "이 논의는 미래 결제 혁신을 탐구하는 핀테크 제품 관리자에게 매우 중요합니다."
+      },
+      {
+        "en": "The development of such a currency could unlock new economic models for AI.",
+        "ko": "그러한 화폐의 개발은 AI를 위한 새로운 경제 모델을 열 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "agents": {
+        "meaning": "software programs or automated entities that act on behalf of a user or program.",
+        "pos": "noun"
+      },
+      "presents": {
+        "meaning": "introduces or puts forward for consideration.",
+        "pos": "verb"
+      },
+      "unique": {
+        "meaning": "being the only one of its kind; unusual or special.",
+        "pos": "adjective"
+      },
+      "challenge": {
+        "meaning": "a new or difficult task that tests one's ability.",
+        "pos": "noun"
+      },
+      "currency": {
+        "meaning": "a system of money in general use in a particular country or among people.",
+        "pos": "noun"
+      },
+      "increasingly": {
+        "meaning": "to an increasing extent; more and more.",
+        "pos": "adverb"
+      },
+      "executives": {
+        "meaning": "people with senior managerial responsibility in a business organization.",
+        "pos": "noun"
+      },
+      "generally": {
+        "meaning": "in most cases; usually.",
+        "pos": "adverb"
+      },
+      "differ": {
+        "meaning": "be unlike or distinct from something else.",
+        "pos": "verb"
+      },
+      "perspective": {
+        "meaning": "a particular attitude toward or way of regarding something; a point of view.",
+        "pos": "noun"
+      },
+      "existing": {
+        "meaning": "in existence or operation at the present time.",
+        "pos": "adjective"
+      },
+      "stablecoins": {
+        "meaning": "cryptocurrencies designed to maintain a stable value relative to a specific asset or fiat currency.",
+        "pos": "noun"
+      },
+      "suitable": {
+        "meaning": "appropriate for a particular purpose or occasion.",
+        "pos": "adjective"
+      },
+      "human-centric": {
+        "meaning": "focused on human needs, interests, or capabilities.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system or industry.",
+        "pos": "adjective"
+      },
+      "frameworks": {
+        "meaning": "basic structures underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "posits": {
+        "meaning": "assumes as a fact or puts forward as a basis for argument.",
+        "pos": "verb"
+      },
+      "autonomous": {
+        "meaning": "having the freedom to govern itself or control its own affairs.",
+        "pos": "adjective"
+      },
+      "programmable": {
+        "meaning": "capable of being instructed to operate in a particular way.",
+        "pos": "adjective"
+      },
+      "seamless": {
+        "meaning": "smooth and continuous, without apparent breaks or transitions.",
+        "pos": "adjective"
+      },
+      "integration": {
+        "meaning": "the action or process of combining two or more things in an effective way.",
+        "pos": "noun"
+      },
+      "micro-transactions": {
+        "meaning": "very small financial transactions, typically for virtual goods or services.",
+        "pos": "noun"
+      },
+      "unlock": {
+        "meaning": "make something available or accessible.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the main problem identified by crypto executives regarding AI agents and future currency?",
+      "What does \"human-centric transactions and regulatory frameworks\" imply about current stablecoins, and why might this make them unsuitable for AI agents?",
+      "If a new currency specifically for AI agents were to be invented, what key features do you think it would need to possess to be successful, and why?"
+    ],
+    "modelAnswers": [
+      "The main problem identified is that AI agents will increasingly need to pay each other for services and data, and existing stablecoins may not be suitable for this purpose.",
+      "\"Human-centric transactions and regulatory frameworks\" implies that current stablecoins are designed with human users and existing financial regulations in mind. This might make them unsuitable for AI agents because AI requires highly autonomous, programmable money for micro-transactions, potentially without human intervention or traditional regulatory hurdles.",
+      "A successful AI agent currency would need extreme programmability for automated execution, very low transaction fees for micro-payments, and high scalability to handle a massive volume of agent-to-agent interactions. It would also need robust security and perhaps a degree of regulatory flexibility to function effectively within an AI ecosystem."
+    ]
+  },
+  {
+    "id": "ec-2026-08-30-1",
+    "date": "2026-08-30",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "경제 회복의 다양한 형태를 이해하고 현재 경제 논쟁의 핵심을 파악하세요.",
+    "url": "https://www.cnbc.com/2026/08/29/k-shaped-economy-c-shaped-e-shape.html",
+    "title": "Economists Debate Post-Pandemic Recovery Shapes",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Economists are currently debating the shape of the post-pandemic economic recovery. Initially, many agreed on a \"K-shaped\" recovery, where some sectors thrive while others struggle. This pattern indicates an uneven performance across different parts of the economy. However, this consensus has now started to evaporate, with new theories emerging. Each shape describes a unique economic trajectory after a significant downturn. Some suggest a \"C-shaped\" recovery, implying a prolonged period of stagnation. Others propose an \"E-shaped\" recovery, which could mean multiple ups and downs. These differing views highlight the complexity of today's economic dynamics. Understanding these patterns helps businesses anticipate future market conditions. It also aids policymakers in designing effective support measures for vulnerable segments. This discussion is crucial for investors and financial professionals. They need to adapt strategies to these evolving economic realities.",
+    "sentences": [
+      {
+        "en": "Economists are currently debating the shape of the post-pandemic economic recovery.",
+        "ko": "경제학자들은 현재 팬데믹 이후 경제 회복의 형태에 대해 논쟁하고 있습니다."
+      },
+      {
+        "en": "Initially, many agreed on a \"K-shaped\" recovery, where some sectors thrive while others struggle.",
+        "ko": "처음에는 많은 이들이 일부 부문은 번창하고 다른 부문은 어려움을 겪는 \"K자형\" 회복에 동의했습니다."
+      },
+      {
+        "en": "This pattern indicates an uneven performance across different parts of the economy.",
+        "ko": "이 패턴은 경제의 여러 부문에서 고르지 못한 성과를 나타냅니다."
+      },
+      {
+        "en": "However, this consensus has now started to evaporate, with new theories emerging.",
+        "ko": "하지만 이제 이러한 합의는 사라지기 시작했으며, 새로운 이론들이 등장하고 있습니다."
+      },
+      {
+        "en": "Each shape describes a unique economic trajectory after a significant downturn.",
+        "ko": "각 형태는 심각한 경기 침체 이후 독특한 경제 궤적을 설명합니다."
+      },
+      {
+        "en": "Some suggest a \"C-shaped\" recovery, implying a prolonged period of stagnation.",
+        "ko": "일부는 장기적인 침체를 의미하는 \"C자형\" 회복을 제안합니다."
+      },
+      {
+        "en": "Others propose an \"E-shaped\" recovery, which could mean multiple ups and downs.",
+        "ko": "또 다른 이들은 여러 차례의 상승과 하락을 의미할 수 있는 \"E자형\" 회복을 제시합니다."
+      },
+      {
+        "en": "These differing views highlight the complexity of today's economic dynamics.",
+        "ko": "이러한 다양한 견해는 오늘날 경제 역학의 복잡성을 강조합니다."
+      },
+      {
+        "en": "Understanding these patterns helps businesses anticipate future market conditions.",
+        "ko": "이러한 패턴을 이해하는 것은 기업이 미래 시장 상황을 예측하는 데 도움이 됩니다."
+      },
+      {
+        "en": "It also aids policymakers in designing effective support measures for vulnerable segments.",
+        "ko": "또한 정책 입안자들이 취약 계층을 위한 효과적인 지원책을 마련하는 데도 기여합니다."
+      },
+      {
+        "en": "This discussion is crucial for investors and financial professionals.",
+        "ko": "이 논의는 투자자와 금융 전문가에게 매우 중요합니다."
+      },
+      {
+        "en": "They need to adapt strategies to these evolving economic realities.",
+        "ko": "그들은 이러한 변화하는 경제 현실에 맞춰 전략을 조정해야 합니다."
+      }
+    ],
+    "glossary": {
+      "economists": {
+        "meaning": "people who study and analyze how an economy works and how money is made and used.",
+        "pos": "noun"
+      },
+      "debating": {
+        "meaning": "discussing a topic in a formal or informal way, often expressing different opinions.",
+        "pos": "verb"
+      },
+      "post-pandemic": {
+        "meaning": "referring to the period of time after a major global outbreak of a disease.",
+        "pos": "adjective"
+      },
+      "recovery": {
+        "meaning": "the process of returning to a normal or better state after a difficult period.",
+        "pos": "noun"
+      },
+      "initially": {
+        "meaning": "at the beginning or first, before other events or actions.",
+        "pos": "adverb"
+      },
+      "sectors": {
+        "meaning": "distinct parts or divisions of an economy, such as technology or manufacturing.",
+        "pos": "noun"
+      },
+      "thrive": {
+        "meaning": "to grow, develop, or be successful and healthy.",
+        "pos": "verb"
+      },
+      "struggle": {
+        "meaning": "to have difficulty or make a great effort to do something.",
+        "pos": "verb"
+      },
+      "pattern": {
+        "meaning": "a regular and repeated way in which something happens or is done.",
+        "pos": "noun"
+      },
+      "uneven": {
+        "meaning": "not regular or consistent; not equal in quality, amount, or speed.",
+        "pos": "adjective"
+      },
+      "performance": {
+        "meaning": "how well or badly someone or something functions or works.",
+        "pos": "noun"
+      },
+      "consensus": {
+        "meaning": "a general agreement among a group of people.",
+        "pos": "noun"
+      },
+      "evaporate": {
+        "meaning": "to disappear gradually or cease to exist.",
+        "pos": "verb"
+      },
+      "theories": {
+        "meaning": "sets of ideas that are intended to explain why something happens or exists.",
+        "pos": "noun"
+      },
+      "emerging": {
+        "meaning": "starting to exist or becoming known.",
+        "pos": "adjective"
+      },
+      "trajectory": {
+        "meaning": "the path or course that something takes.",
+        "pos": "noun"
+      },
+      "implying": {
+        "meaning": "suggesting something without stating it directly.",
+        "pos": "verb"
+      },
+      "stagnation": {
+        "meaning": "a situation where there is no growth or activity, especially in an economy.",
+        "pos": "noun"
+      },
+      "propose": {
+        "meaning": "to suggest an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "differing": {
+        "meaning": "being unlike or distinct from one another.",
+        "pos": "adjective"
+      },
+      "highlight": {
+        "meaning": "to draw attention to something important.",
+        "pos": "verb"
+      },
+      "complexity": {
+        "meaning": "the state of being complicated or having many connected parts.",
+        "pos": "noun"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system.",
+        "pos": "noun"
+      },
+      "anticipate": {
+        "meaning": "to expect something to happen and prepare for it.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What are some of the economic recovery shapes mentioned, and what do they generally represent?",
+      "Explain the term \"K-shaped recovery\" and why it suggests an uneven economic performance.",
+      "How might understanding different economic recovery patterns influence investment strategies or business decisions in the fintech sector?"
+    ],
+    "modelAnswers": [
+      "The article mentions K-shaped, C-shaped, and E-shaped recoveries. These generally represent different patterns of economic growth and distribution of wealth following a downturn.",
+      "A \"K-shaped recovery\" describes a situation where different parts of the economy recover at different rates. Some sectors or demographics experience robust growth, while others decline or stagnate, leading to an uneven economic performance.",
+      "For fintech, understanding recovery patterns is crucial. A K-shaped recovery, for instance, might highlight opportunities in services for affluent segments while indicating challenges for those serving vulnerable populations, influencing product development or market targeting."
+    ]
+  },
+  {
+    "id": "ec-2026-08-30-2",
+    "date": "2026-08-30",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "중앙은행의 인플레이션 대응과 금리 인상 가능성에 대한 최신 견해를 확인하세요.",
+    "url": "https://www.bbc.co.uk/news/articles/cy9zjgv9lgdo",
+    "title": "Fed May Raise Rates If Inflation Persists",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Former Federal Reserve official Kevin Warsh recently commented on the state of inflation. He suggested the Fed might need to act if price increases do not ease for Americans. This implies that interest rates could be increased to control rising costs. Central banks typically raise rates to cool down an overheating economy. Higher rates make borrowing more expensive, which can reduce consumer spending. This action aims to bring inflation back to the central bank's target level. Warsh's remarks highlight ongoing concerns among policymakers about persistent inflation. The Federal Reserve has a dual mandate: stable prices and maximum employment. Balancing these two goals often presents significant challenges. Investors and businesses closely watch such statements for future policy signals. These signals can heavily influence financial market expectations and decisions.",
+    "sentences": [
+      {
+        "en": "Former Federal Reserve official Kevin Warsh recently commented on the state of inflation.",
+        "ko": "전 연방준비제도 이사 케빈 워시가 최근 인플레이션 상황에 대해 언급했습니다."
+      },
+      {
+        "en": "He suggested the Fed might need to act if price increases do not ease for Americans.",
+        "ko": "그는 물가 상승이 미국인들에게 완화되지 않으면 연준이 조치를 취해야 할 수도 있다고 제안했습니다."
+      },
+      {
+        "en": "This implies that interest rates could be increased to control rising costs.",
+        "ko": "이는 물가 상승을 통제하기 위해 금리가 인상될 수 있음을 의미합니다."
+      },
+      {
+        "en": "Central banks typically raise rates to cool down an overheating economy.",
+        "ko": "중앙은행은 일반적으로 과열된 경제를 진정시키기 위해 금리를 인상합니다."
+      },
+      {
+        "en": "Higher rates make borrowing more expensive, which can reduce consumer spending.",
+        "ko": "금리가 높아지면 대출 비용이 증가하여 소비 지출을 줄일 수 있습니다."
+      },
+      {
+        "en": "This action aims to bring inflation back to the central bank's target level.",
+        "ko": "이러한 조치는 인플레이션을 중앙은행의 목표 수준으로 되돌리는 것을 목표로 합니다."
+      },
+      {
+        "en": "Warsh's remarks highlight ongoing concerns among policymakers about persistent inflation.",
+        "ko": "워시의 발언은 지속적인 인플레이션에 대한 정책 입안자들의 지속적인 우려를 강조합니다."
+      },
+      {
+        "en": "The Federal Reserve has a dual mandate: stable prices and maximum employment.",
+        "ko": "연방준비제도는 물가 안정과 최대 고용이라는 두 가지 책무를 가지고 있습니다."
+      },
+      {
+        "en": "Balancing these two goals often presents significant challenges.",
+        "ko": "이 두 가지 목표의 균형을 맞추는 것은 종종 상당한 도전을 제기합니다."
+      },
+      {
+        "en": "Investors and businesses closely watch such statements for future policy signals.",
+        "ko": "투자자와 기업은 미래 정책 신호를 얻기 위해 이러한 발언을 면밀히 주시합니다."
+      },
+      {
+        "en": "These signals can heavily influence financial market expectations and decisions.",
+        "ko": "이러한 신호는 금융 시장의 기대와 결정에 큰 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "official": {
+        "meaning": "a person holding a position of authority in an organization or government.",
+        "pos": "noun"
+      },
+      "commented": {
+        "meaning": "expressed an opinion or reaction.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "suggested": {
+        "meaning": "put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "ease": {
+        "meaning": "to become less severe, difficult, or unpleasant.",
+        "pos": "verb"
+      },
+      "implies": {
+        "meaning": "suggests something without stating it directly.",
+        "pos": "verb"
+      },
+      "control": {
+        "meaning": "to determine the behavior or supervise the running of something.",
+        "pos": "verb"
+      },
+      "typically": {
+        "meaning": "in most cases, usually.",
+        "pos": "adverb"
+      },
+      "overheating": {
+        "meaning": "describing an economy that is growing too quickly, leading to inflation.",
+        "pos": "adjective"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money with an agreement to pay it back.",
+        "pos": "noun"
+      },
+      "reduce": {
+        "meaning": "to make something smaller or less in amount, degree, or size.",
+        "pos": "verb"
+      },
+      "aims": {
+        "meaning": "intends to achieve a particular purpose or objective.",
+        "pos": "verb"
+      },
+      "remarks": {
+        "meaning": "comments or statements about something.",
+        "pos": "noun"
+      },
+      "highlight": {
+        "meaning": "to draw attention to something important.",
+        "pos": "verb"
+      },
+      "policymakers": {
+        "meaning": "individuals or groups responsible for creating and implementing policies.",
+        "pos": "noun"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or happen for a long time.",
+        "pos": "adjective"
+      },
+      "employment": {
+        "meaning": "the state of having a job or being employed.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indications or messages that convey information.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to Kevin Warsh, under what condition might the Federal Reserve need to take further action?",
+      "What does \"monetary policy\" refer to, and how do interest rate changes fit into it?",
+      "How might a potential interest rate hike by the Fed impact consumer spending and investment in the fintech industry?"
+    ],
+    "modelAnswers": [
+      "Kevin Warsh suggests the Federal Reserve has \"work to do\" if price increases do not ease for Americans, implying further action might be necessary to control inflation.",
+      "Monetary policy refers to actions taken by a central bank to control the money supply and credit conditions. Interest rate changes are a key tool, with increases aiming to slow economic growth and reduce inflation.",
+      "A Fed rate hike could increase borrowing costs for consumers and businesses, potentially slowing consumer spending and reducing the attractiveness of certain investments. Fintech companies might see reduced demand for loans or shifts in investment product preferences."
+    ]
+  },
+  {
+    "id": "ec-2026-08-30-3",
+    "date": "2026-08-30",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국의 제재에 맞서 중국이 어떻게 금융 시스템을 다각화하고 있는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/08/25/china-iran-us-sanctions-banks-cips.html",
+    "title": "China Diversifies Financial System Against US Sanctions",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China still relies heavily on the U.S. dollar for international transactions. This reliance gives the U.S. significant leverage through its financial system. Washington can pressure Chinese banks by restricting access to dollar-denominated services. This power is often used to enforce sanctions, particularly against countries like Iran. In response, Beijing is actively building alternatives to reduce its vulnerability. One key initiative is the Cross-Border Interbank Payment System, or CIPS. CIPS allows for international payments in yuan, bypassing the traditional SWIFT system. This move aims to lessen China's exposure to U.S. financial sanctions. It also enhances China's financial autonomy on the global stage. Such developments have significant implications for global trade and fintech. They encourage other nations to explore diverse payment infrastructures. The shift could reshape international finance and reduce dollar dominance over time.",
+    "sentences": [
+      {
+        "en": "China still relies heavily on the U.S. dollar for international transactions.",
+        "ko": "중국은 여전히 국제 거래에서 미국 달러에 크게 의존하고 있습니다."
+      },
+      {
+        "en": "This reliance gives the U.S. significant leverage through its financial system.",
+        "ko": "이러한 의존성은 미국에게 금융 시스템을 통한 상당한 영향력을 제공합니다."
+      },
+      {
+        "en": "Washington can pressure Chinese banks by restricting access to dollar-denominated services.",
+        "ko": "미국은 달러화 서비스 접근을 제한함으로써 중국 은행에 압력을 가할 수 있습니다."
+      },
+      {
+        "en": "This power is often used to enforce sanctions, particularly against countries like Iran.",
+        "ko": "이러한 힘은 종종 제재를 강제하는 데 사용되며, 특히 이란과 같은 국가에 대해 그러합니다."
+      },
+      {
+        "en": "In response, Beijing is actively building alternatives to reduce its vulnerability.",
+        "ko": "이에 대응하여 중국은 취약성을 줄이기 위해 적극적으로 대안을 구축하고 있습니다."
+      },
+      {
+        "en": "One key initiative is the Cross-Border Interbank Payment System, or CIPS.",
+        "ko": "한 가지 주요 이니셔티브는 국경 간 은행 간 결제 시스템(CIPS)입니다."
+      },
+      {
+        "en": "CIPS allows for international payments in yuan, bypassing the traditional SWIFT system.",
+        "ko": "CIPS는 위안화로 국제 결제를 가능하게 하여 기존 SWIFT 시스템을 우회합니다."
+      },
+      {
+        "en": "This move aims to lessen China's exposure to U.S. financial sanctions.",
+        "ko": "이러한 움직임은 미국의 금융 제재에 대한 중국의 노출을 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "It also enhances China's financial autonomy on the global stage.",
+        "ko": "또한 국제 무대에서 중국의 금융 자율성을 강화합니다."
+      },
+      {
+        "en": "Such developments have significant implications for global trade and fintech.",
+        "ko": "이러한 발전은 세계 무역과 핀테크에 상당한 영향을 미칩니다."
+      },
+      {
+        "en": "They encourage other nations to explore diverse payment infrastructures.",
+        "ko": "이는 다른 국가들이 다양한 결제 인프라를 탐색하도록 장려합니다."
+      },
+      {
+        "en": "The shift could reshape international finance and reduce dollar dominance over time.",
+        "ko": "이러한 변화는 시간이 지남에 따라 국제 금융을 재편하고 달러의 지배력을 약화시킬 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "relies": {
+        "meaning": "depends on someone or something.",
+        "pos": "verb"
+      },
+      "heavily": {
+        "meaning": "to a great degree or extent.",
+        "pos": "adverb"
+      },
+      "transactions": {
+        "meaning": "acts of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "reliance": {
+        "meaning": "the state of depending on someone or something.",
+        "pos": "noun"
+      },
+      "leverage": {
+        "meaning": "the power to influence a person or situation.",
+        "pos": "noun"
+      },
+      "restricting": {
+        "meaning": "putting a limit on something; controlling access to.",
+        "pos": "verb"
+      },
+      "dollar-denominated": {
+        "meaning": "expressed or calculated in U.S. dollars.",
+        "pos": "adjective"
+      },
+      "enforce": {
+        "meaning": "to make people obey a law or rule.",
+        "pos": "verb"
+      },
+      "sanctions": {
+        "meaning": "official orders that limit trade or contact with a country to make it obey international law.",
+        "pos": "noun"
+      },
+      "particularly": {
+        "meaning": "especially, more than usual.",
+        "pos": "adverb"
+      },
+      "response": {
+        "meaning": "an answer or reaction to something.",
+        "pos": "noun"
+      },
+      "actively": {
+        "meaning": "in a way that involves doing a lot of things or moving around a lot.",
+        "pos": "adverb"
+      },
+      "alternatives": {
+        "meaning": "other possibilities or choices.",
+        "pos": "noun"
+      },
+      "vulnerability": {
+        "meaning": "the state of being easily hurt, influenced, or attacked.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "an important new plan or process to achieve a particular aim.",
+        "pos": "noun"
+      },
+      "bypassing": {
+        "meaning": "going around or avoiding something.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "following or belonging to the customs or ways of behaving that have continued for a long time.",
+        "pos": "adjective"
+      },
+      "exposure": {
+        "meaning": "the state of being affected by something.",
+        "pos": "noun"
+      },
+      "enhances": {
+        "meaning": "improves the quality, amount, or strength of something.",
+        "pos": "verb"
+      },
+      "autonomy": {
+        "meaning": "the right or condition of self-government; independence.",
+        "pos": "noun"
+      },
+      "implications": {
+        "meaning": "possible results or effects of an action or a decision.",
+        "pos": "noun"
+      },
+      "encourage": {
+        "meaning": "to give support, confidence, or hope to someone.",
+        "pos": "verb"
+      },
+      "infrastructures": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "dominance": {
+        "meaning": "power and influence over others.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Why does China need US dollars, and what leverage does the US have over Chinese banks regarding sanctions?",
+      "What is CIPS, and how does it relate to China's strategy against US sanctions?",
+      "From a fintech perspective, what opportunities or challenges might arise if more countries develop alternative international payment systems to bypass traditional dollar-centric ones?"
+    ],
+    "modelAnswers": [
+      "China needs US dollars for international trade and financial transactions. The US can pressure Chinese banks over sanctions by controlling their access to the US financial system, which is crucial for dollar-denominated transactions.",
+      "CIPS stands for Cross-Border Interbank Payment System. It is China's alternative to the SWIFT system, designed to process yuan-denominated transactions internationally, thereby building a hedge against potential US sanctions.",
+      "Such developments could create new market opportunities for fintechs specializing in cross-border payments and alternative currencies. However, they might also introduce complexity with multiple competing systems and increased regulatory challenges in a fragmented global financial landscape."
+    ]
+  },
+  {
     "id": "cd-2026-08-29-1",
     "date": "2026-08-29",
     "rank": 1,
