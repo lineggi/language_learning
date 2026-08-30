@@ -1,5 +1,985 @@
 [
   {
+    "id": "cd-2026-08-31-1",
+    "date": "2026-08-31",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "명확한 규제 없이도 은행들이 암호화폐 관련 상품을 계속 개발하는 이유와 그 의미를 알아보세요.",
+    "url": "https://www.coindesk.com/opinion/2026/08/28/the-clarity-act-slipped-to-september-banks-are-building-anyway",
+    "title": "Banks Innovate Amidst Regulatory Delays",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Clarity Act, a crucial piece of U.S. crypto regulation, faces delays. Its passage has been postponed until September, creating significant market uncertainty. This delay means banks still lack clear legal rules for their crypto activities. Despite this regulatory ambiguity, traditional financial institutions are actively developing crypto products. They are investing heavily in blockchain technology and new digital asset services. This proactive approach shows their commitment to the evolving digital finance landscape. However, some critics argue that this uncertainty favors \"walled gardens\" in finance. These are closed systems controlled by a few large, dominant financial entities. Banks might build proprietary solutions without broad interoperability standards. This could potentially hinder wider innovation and fair competition in the crypto space. Clear, comprehensive regulations are essential for fostering an open and competitive market. Product managers should closely monitor how these regulatory gaps influence market structures. Understanding these evolving dynamics is crucial for successful future product development.",
+    "sentences": [
+      {
+        "en": "The Clarity Act, a crucial piece of U.S. crypto regulation, faces delays.",
+        "ko": "미국의 중요한 암호화폐 규제 법안인 Clarity Act의 통과가 지연되고 있습니다."
+      },
+      {
+        "en": "Its passage has been postponed until September, creating significant market uncertainty.",
+        "ko": "이 법안의 통과는 9월까지 미뤄졌으며, 이는 상당한 시장 불확실성을 야기합니다."
+      },
+      {
+        "en": "This delay means banks still lack clear legal rules for their crypto activities.",
+        "ko": "이러한 지연은 은행들이 암호화폐 활동에 대한 명확한 법적 규칙이 여전히 부족하다는 것을 의미합니다."
+      },
+      {
+        "en": "Despite this regulatory ambiguity, traditional financial institutions are actively developing crypto products.",
+        "ko": "이러한 규제 불확실성에도 불구하고, 전통 금융 기관들은 암호화폐 상품을 적극적으로 개발하고 있습니다."
+      },
+      {
+        "en": "They are investing heavily in blockchain technology and new digital asset services.",
+        "ko": "그들은 블록체인 기술과 새로운 디지털 자산 서비스에 막대한 투자를 하고 있습니다."
+      },
+      {
+        "en": "This proactive approach shows their commitment to the evolving digital finance landscape.",
+        "ko": "이러한 선제적 접근 방식은 진화하는 디지털 금융 환경에 대한 그들의 의지를 보여줍니다."
+      },
+      {
+        "en": "However, some critics argue that this uncertainty favors \"walled gardens\" in finance.",
+        "ko": "하지만 일부 비평가들은 이러한 불확실성이 금융 시장의 \"닫힌 생태계\"에 유리하다고 주장합니다."
+      },
+      {
+        "en": "These are closed systems controlled by a few large, dominant financial entities.",
+        "ko": "이들은 소수의 크고 지배적인 금융 주체들이 통제하는 폐쇄적인 시스템입니다."
+      },
+      {
+        "en": "Banks might build proprietary solutions without broad interoperability standards.",
+        "ko": "은행들은 광범위한 상호 운용성 표준 없이 독점적인 솔루션을 구축할 수 있습니다."
+      },
+      {
+        "en": "This could potentially hinder wider innovation and fair competition in the crypto space.",
+        "ko": "이는 암호화폐 분야의 광범위한 혁신과 공정한 경쟁을 잠재적으로 저해할 수 있습니다."
+      },
+      {
+        "en": "Clear, comprehensive regulations are essential for fostering an open and competitive market.",
+        "ko": "명확하고 포괄적인 규제는 개방적이고 경쟁적인 시장을 조성하는 데 필수적입니다."
+      },
+      {
+        "en": "Product managers should closely monitor how these regulatory gaps influence market structures.",
+        "ko": "제품 관리자들은 이러한 규제 공백이 시장 구조에 어떻게 영향을 미치는지 면밀히 주시해야 합니다."
+      },
+      {
+        "en": "Understanding these evolving dynamics is crucial for successful future product development.",
+        "ko": "이러한 진화하는 역학 관계를 이해하는 것은 성공적인 미래 제품 개발에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "clarity": {
+        "meaning": "The quality of being easy to understand and free from confusion or ambiguity in rules.",
+        "pos": "noun"
+      },
+      "act": {
+        "meaning": "A law passed by a legislative body, often defining specific rules or policies.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important, because it will affect other things significantly.",
+        "pos": "adjective"
+      },
+      "regulation": {
+        "meaning": "An official rule or law that controls how something is done.",
+        "pos": "noun"
+      },
+      "postponed": {
+        "meaning": "To arrange for an event or task to take place at a later time than originally planned.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important or noticeable, often indicating a large amount or effect.",
+        "pos": "adjective"
+      },
+      "uncertainty": {
+        "meaning": "A situation in which something is not known or not definite, causing doubt.",
+        "pos": "noun"
+      },
+      "ambiguity": {
+        "meaning": "The quality of being open to more than one interpretation; inexactness.",
+        "pos": "noun"
+      },
+      "institutions": {
+        "meaning": "Large and important organizations, such as banks, universities, or governments.",
+        "pos": "noun"
+      },
+      "actively": {
+        "meaning": "In a way that involves doing something, rather than just thinking about it.",
+        "pos": "adverb"
+      },
+      "developing": {
+        "meaning": "To create something new or to make something grow or become more advanced.",
+        "pos": "verb"
+      },
+      "investing": {
+        "meaning": "To put money into a financial scheme or property with the expectation of achieving a profit.",
+        "pos": "verb"
+      },
+      "commitment": {
+        "meaning": "A promise or firm decision to do something.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "Developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "The overall environment or situation in which an activity takes place.",
+        "pos": "noun"
+      },
+      "critics": {
+        "meaning": "People who express their disapproval of something or someone.",
+        "pos": "noun"
+      },
+      "walled": {
+        "meaning": "Describing a system or environment that is closed and restricted, like a garden with walls.",
+        "pos": "adjective"
+      },
+      "dominant": {
+        "meaning": "More important, powerful, or successful than most others.",
+        "pos": "adjective"
+      },
+      "proprietary": {
+        "meaning": "Relating to an owner or ownership; made and used only by a specific company.",
+        "pos": "adjective"
+      },
+      "interoperability": {
+        "meaning": "The ability of computer systems or software to exchange and make use of information.",
+        "pos": "noun"
+      },
+      "hinder": {
+        "meaning": "To make it difficult for someone to do something or for something to happen.",
+        "pos": "verb"
+      },
+      "fostering": {
+        "meaning": "To encourage the development or growth of something, especially good feelings or ideas.",
+        "pos": "verb"
+      },
+      "comprehensive": {
+        "meaning": "Including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "dynamics": {
+        "meaning": "The forces or properties that stimulate growth or change within a system or process.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific piece of U.S. crypto regulation is facing delays according to the passage?",
+      "Q2: The passage mentions \"walled gardens.\" In your own words, explain what this term means in the context of finance and why some argue the regulatory uncertainty favors them.",
+      "Q3: Do you think traditional financial institutions should wait for clear regulations before developing crypto products, or is it beneficial for them to innovate regardless? Discuss the potential benefits and risks of each approach."
+    ],
+    "modelAnswers": [
+      "A1: The Clarity Act, which is a crucial piece of U.S. crypto regulation, is currently facing delays in its passage.",
+      "A2: \"Walled gardens\" in finance refer to closed systems controlled by a few large entities, where interoperability is limited. Some argue regulatory uncertainty favors them because large banks might develop proprietary solutions without broad standards, thus cementing their control.",
+      "A3: Innovating despite regulatory uncertainty can offer first-mover advantages and drive market evolution. However, it carries risks of non-compliance and needing costly adjustments later. Waiting for clarity reduces regulatory risk but might mean missing out on early opportunities."
+    ]
+  },
+  {
+    "id": "cd-2026-08-31-2",
+    "date": "2026-08-31",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "예측 시장에 대한 주(州) 정부의 권한을 확인하는 법원 판결이 암호화폐 규제 환경에 어떤 영향을 미칠지 살펴보세요.",
+    "url": "https://www.coindesk.com/policy/2026/08/28/kalshi-takes-legal-blow-in-court-ruling-confirming-state-powers-over-prediction-markets",
+    "title": "Prediction Market Regulation: States Affirm Power",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Kalshi, a U.S. prediction market platform, recently suffered a legal setback. A U.S. appeals court ruling confirmed state powers over these specific prediction markets. This decision creates a significant regulatory rift between various federal courts. Different courts now hold conflicting legal views on the nature of event contracts. This jurisdictional inconsistency suggests the U.S. Supreme Court may need to intervene. The ruling highlights the complex and fragmented regulatory landscape for crypto-related platforms. Prediction markets often involve tokenized assets or utilize blockchain technology. Therefore, regulatory clarity is absolutely vital for their proper operation and growth. Product managers in fintech must understand these evolving jurisdictional challenges. Navigating diverse state and federal laws is a critical and ongoing task. This particular case could establish important precedents for other novel financial products. It clearly underscores the ongoing battle for regulatory control in the broader crypto space.",
+    "sentences": [
+      {
+        "en": "Kalshi, a U.S. prediction market platform, recently suffered a legal setback.",
+        "ko": "미국의 예측 시장 플랫폼인 Kalshi는 최근 법적 차질을 겪었습니다."
+      },
+      {
+        "en": "A U.S. appeals court ruling confirmed state powers over these specific prediction markets.",
+        "ko": "미국 항소 법원의 판결은 이러한 특정 예측 시장에 대한 주 정부의 권한을 확인했습니다."
+      },
+      {
+        "en": "This decision creates a significant regulatory rift between various federal courts.",
+        "ko": "이 결정은 다양한 연방 법원들 사이에 상당한 규제적 균열을 만듭니다."
+      },
+      {
+        "en": "Different courts now hold conflicting legal views on the nature of event contracts.",
+        "ko": "이제 다른 법원들은 이벤트 계약의 본질에 대해 상충되는 법적 견해를 가지고 있습니다."
+      },
+      {
+        "en": "This jurisdictional inconsistency suggests the U.S. Supreme Court may need to intervene.",
+        "ko": "이러한 관할권 불일치는 미국 대법원이 개입해야 할 수도 있음을 시사합니다."
+      },
+      {
+        "en": "The ruling highlights the complex and fragmented regulatory landscape for crypto-related platforms.",
+        "ko": "이 판결은 암호화폐 관련 플랫폼에 대한 복잡하고 분열된 규제 환경을 강조합니다."
+      },
+      {
+        "en": "Prediction markets often involve tokenized assets or utilize blockchain technology.",
+        "ko": "예측 시장은 종종 토큰화된 자산을 포함하거나 블록체인 기술을 활용합니다."
+      },
+      {
+        "en": "Therefore, regulatory clarity is absolutely vital for their proper operation and growth.",
+        "ko": "따라서 규제 명확성은 그들의 적절한 운영과 성장에 절대적으로 필수적입니다."
+      },
+      {
+        "en": "Product managers in fintech must understand these evolving jurisdictional challenges.",
+        "ko": "핀테크 분야의 제품 관리자들은 이러한 진화하는 관할권 문제를 이해해야 합니다."
+      },
+      {
+        "en": "Navigating diverse state and federal laws is a critical and ongoing task.",
+        "ko": "다양한 주 및 연방 법률을 탐색하는 것은 중요하고 지속적인 과제입니다."
+      },
+      {
+        "en": "This particular case could establish important precedents for other novel financial products.",
+        "ko": "이 특정 사례는 다른 새로운 금융 상품에 대한 중요한 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "It clearly underscores the ongoing battle for regulatory control in the broader crypto space.",
+        "ko": "이는 더 넓은 암호화폐 공간에서 규제 통제를 위한 지속적인 싸움을 명확하게 강조합니다."
+      }
+    ],
+    "glossary": {
+      "prediction": {
+        "meaning": "A statement about what will happen in the future or what is likely to be true.",
+        "pos": "noun"
+      },
+      "platform": {
+        "meaning": "A system that allows people to do a particular type of work or activity.",
+        "pos": "noun"
+      },
+      "suffered": {
+        "meaning": "To experience something unpleasant or difficult, such as a loss or defeat.",
+        "pos": "verb"
+      },
+      "setback": {
+        "meaning": "Something that delays or stops progress, or makes a situation worse.",
+        "pos": "noun"
+      },
+      "appeals": {
+        "meaning": "A legal proceeding where a case is reviewed by a higher court.",
+        "pos": "adjective"
+      },
+      "ruling": {
+        "meaning": "An official decision made by a judge or court.",
+        "pos": "noun"
+      },
+      "confirmed": {
+        "meaning": "To state or show that something is true or correct.",
+        "pos": "verb"
+      },
+      "powers": {
+        "meaning": "The legal authority or right to do something.",
+        "pos": "noun"
+      },
+      "regulatory": {
+        "meaning": "Relating to an official rule or law that controls how something is done.",
+        "pos": "adjective"
+      },
+      "rift": {
+        "meaning": "A serious disagreement or split between people or groups, or a crack.",
+        "pos": "noun"
+      },
+      "federal": {
+        "meaning": "Relating to the central government, rather than the governments of individual states.",
+        "pos": "adjective"
+      },
+      "conflicting": {
+        "meaning": "Opposing or disagreeing with each other, especially ideas or statements.",
+        "pos": "adjective"
+      },
+      "jurisdictional": {
+        "meaning": "Relating to the official power to make legal decisions and judgments.",
+        "pos": "adjective"
+      },
+      "inconsistency": {
+        "meaning": "The fact of not being the same or not matching, especially over time.",
+        "pos": "noun"
+      },
+      "intervene": {
+        "meaning": "To become involved in a situation in order to improve or help it.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "To draw special attention to something, making it more noticeable.",
+        "pos": "verb"
+      },
+      "fragmented": {
+        "meaning": "Broken into many pieces or parts, often disorganized or incomplete.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "The overall environment or situation in which an activity takes place.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "Converted into a digital token on a blockchain, representing ownership or value.",
+        "pos": "adjective"
+      },
+      "utilize": {
+        "meaning": "To make practical and effective use of something.",
+        "pos": "verb"
+      },
+      "vital": {
+        "meaning": "Extremely important or necessary for the success or continued existence of something.",
+        "pos": "adjective"
+      },
+      "navigating": {
+        "meaning": "To plan and direct the course or movement of something, especially through difficulty.",
+        "pos": "verb"
+      },
+      "precedents": {
+        "meaning": "Earlier events or actions that are regarded as examples or guides for future similar circumstances.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "To emphasize something or show that it is important.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific legal outcome did Kalshi experience, and what did the appeals court ruling confirm?",
+      "Q2: The passage states that the ruling creates a \"rift between federal courts.\" Explain what this means and why the U.S. Supreme Court might need to intervene.",
+      "Q3: How do you think conflicting state and federal regulations impact innovation and product development for fintech companies operating in prediction markets or similar crypto spaces? Discuss the challenges and potential strategies to overcome them."
+    ],
+    "modelAnswers": [
+      "A1: Kalshi suffered a legal setback. A U.S. appeals court ruling confirmed that individual states have powers over prediction markets.",
+      "A2: A \"rift\" means different federal courts now have conflicting views on how to regulate event contracts. The Supreme Court might intervene to provide a unified legal interpretation, resolving this inconsistency across jurisdictions.",
+      "A3: Conflicting regulations create significant legal uncertainty and increased compliance costs for fintech companies. Companies might adopt a conservative approach, limiting product scope, or focus on jurisdictions with clearer rules. A key strategy is actively engaging with regulators to advocate for comprehensive, harmonized frameworks."
+    ]
+  },
+  {
+    "id": "cd-2026-08-31-3",
+    "date": "2026-08-31",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "110만 달러 규모의 암호화폐 카드 해킹 사건이 네오뱅크 토큰에 미친 치명적인 영향을 분석하고, 핀테크 보안의 중요성을 되새겨보세요.",
+    "url": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49",
+    "title": "Neobank Token Crashes After Crypto Card Hack",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A significant security breach recently impacted a prominent neobank. Hackers successfully exploited a critical vulnerability in its crypto card system. This sophisticated exploit resulted in a substantial financial loss of $1.1 million. The incident caused the neobank's native token, AVICI, to plummet dramatically. AVICI's market value dropped sharply by 49% from its 24-hour high. It briefly hit a record low before managing to recover some of its losses. This event critically underscores the paramount importance of robust security measures. For all fintech product managers, security must consistently be a top priority. A single vulnerability can severely damage user trust and rapidly erode token value. Therefore, continuous security audits and thorough penetration testing are essential practices. Understanding all potential attack vectors is key to effective prevention. This hack serves as a stark reminder of crypto's inherent and persistent risks.",
+    "sentences": [
+      {
+        "en": "A significant security breach recently impacted a prominent neobank.",
+        "ko": "최근 상당한 보안 침해가 유명 네오뱅크에 영향을 미쳤습니다."
+      },
+      {
+        "en": "Hackers successfully exploited a critical vulnerability in its crypto card system.",
+        "ko": "해커들은 암호화폐 카드 시스템의 치명적인 취약점을 성공적으로 악용했습니다."
+      },
+      {
+        "en": "This sophisticated exploit resulted in a substantial financial loss of $1.1 million.",
+        "ko": "이 정교한 공격으로 110만 달러의 상당한 재정적 손실이 발생했습니다."
+      },
+      {
+        "en": "The incident caused the neobank's native token, AVICI, to plummet dramatically.",
+        "ko": "이 사건으로 네오뱅크의 자체 토큰인 AVICI가 급격히 폭락했습니다."
+      },
+      {
+        "en": "AVICI's market value dropped sharply by 49% from its 24-hour high.",
+        "ko": "AVICI의 시장 가치는 24시간 최고치에서 49% 급락했습니다."
+      },
+      {
+        "en": "It briefly hit a record low before managing to recover some of its losses.",
+        "ko": "일부 손실을 회복하기 전에 잠시 사상 최저치를 기록했습니다."
+      },
+      {
+        "en": "This event critically underscores the paramount importance of robust security measures.",
+        "ko": "이 사건은 강력한 보안 조치의 최고 중요성을 비판적으로 강조합니다."
+      },
+      {
+        "en": "For all fintech product managers, security must consistently be a top priority.",
+        "ko": "모든 핀테크 제품 관리자에게 보안은 지속적으로 최우선 순위여야 합니다."
+      },
+      {
+        "en": "A single vulnerability can severely damage user trust and rapidly erode token value.",
+        "ko": "단 하나의 취약점도 사용자 신뢰를 심각하게 손상시키고 토큰 가치를 빠르게 침식할 수 있습니다."
+      },
+      {
+        "en": "Therefore, continuous security audits and thorough penetration testing are essential practices.",
+        "ko": "따라서 지속적인 보안 감사와 철저한 침투 테스트는 필수적인 관행입니다."
+      },
+      {
+        "en": "Understanding all potential attack vectors is key to effective prevention.",
+        "ko": "모든 잠재적 공격 벡터를 이해하는 것이 효과적인 예방의 핵심입니다."
+      },
+      {
+        "en": "This hack serves as a stark reminder of crypto's inherent and persistent risks.",
+        "ko": "이 해킹은 암호화폐의 내재적이고 지속적인 위험을 극명하게 상기시켜 줍니다."
+      }
+    ],
+    "glossary": {
+      "prominent": {
+        "meaning": "Important, well-known, or easily seen and noticed.",
+        "pos": "adjective"
+      },
+      "neobank": {
+        "meaning": "A bank that operates exclusively online without traditional physical branches.",
+        "pos": "noun"
+      },
+      "exploited": {
+        "meaning": "To use something in a way that helps you, often unfairly or by taking advantage.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "Extremely important or necessary, especially for the success of something.",
+        "pos": "adjective"
+      },
+      "vulnerability": {
+        "meaning": "A weakness that makes someone or something susceptible to attack or harm.",
+        "pos": "noun"
+      },
+      "sophisticated": {
+        "meaning": "Developed to a high degree of complexity; advanced.",
+        "pos": "adjective"
+      },
+      "exploit": {
+        "meaning": "An act or action that uses a flaw or weakness to gain an advantage.",
+        "pos": "noun"
+      },
+      "substantial": {
+        "meaning": "Of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "plummet": {
+        "meaning": "To fall very quickly and suddenly.",
+        "pos": "verb"
+      },
+      "dramatically": {
+        "meaning": "In a sudden and noticeable way, often to a great extent.",
+        "pos": "adverb"
+      },
+      "sharply": {
+        "meaning": "Suddenly and by a large amount.",
+        "pos": "adverb"
+      },
+      "critically": {
+        "meaning": "In a way that involves careful judgment and evaluation; or in an extremely important way.",
+        "pos": "adverb"
+      },
+      "underscores": {
+        "meaning": "To emphasize something or show that it is important.",
+        "pos": "verb"
+      },
+      "paramount": {
+        "meaning": "More important than anything else; supreme.",
+        "pos": "adjective"
+      },
+      "robust": {
+        "meaning": "Strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "consistently": {
+        "meaning": "In a way that is always the same, especially over a period of time.",
+        "pos": "adverb"
+      },
+      "priority": {
+        "meaning": "Something that is regarded as more important than others.",
+        "pos": "noun"
+      },
+      "severely": {
+        "meaning": "Very seriously, or to a great degree.",
+        "pos": "adverb"
+      },
+      "erode": {
+        "meaning": "To gradually wear away or destroy something, often trust or value.",
+        "pos": "verb"
+      },
+      "audits": {
+        "meaning": "Official examinations of an organization's accounts, records, or systems.",
+        "pos": "noun"
+      },
+      "penetration": {
+        "meaning": "The act or process of entering or forcing a way into something.",
+        "pos": "noun"
+      },
+      "vectors": {
+        "meaning": "Directions or channels along which something moves; here, paths for attacks.",
+        "pos": "noun"
+      },
+      "inherent": {
+        "meaning": "Existing in something as a permanent, essential, or characteristic attribute.",
+        "pos": "adjective"
+      },
+      "persistent": {
+        "meaning": "Continuing to exist or happen, especially for longer than is usual or desirable.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: How much money was lost in the crypto card hack, and what was the immediate impact on the neobank's native token?",
+      "Q2: The passage states that \"security must be a top priority\" for fintech product managers. Based on the context, why is this especially true for products involving tokenized assets?",
+      "Q3: If you were a PM for a neobank offering crypto cards, what three immediate steps would you take to prevent similar hacks and rebuild user trust after such an incident?"
+    ],
+    "modelAnswers": [
+      "A1: The crypto card hack resulted in a loss of $1.1 million. The neobank's native token, AVICI, plummeted by 49% from its 24-hour high.",
+      "A2: Security is crucial because a single vulnerability can directly lead to significant financial losses for users and directly impact the value of the platform's native token, severely eroding trust.",
+      "A3: First, I would initiate an immediate, comprehensive security audit and penetration test. Second, I'd transparently communicate with users about the incident and the steps being taken. Third, I would implement multi-factor authentication and real-time anomaly detection for all transactions."
+    ]
+  },
+  {
+    "id": "ec-2026-08-31-1",
+    "date": "2026-08-31",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준의 금리 인상 가능성에 대한 시장의 반응과 채권 시장의 동향을 심층적으로 분석합니다.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEV4WGNSSk5rZVpZemdOckQzOFFUTEszd1gxSnBvTFNBNzdJR1pIbGFJenVhWlJ1R2R0ZlhYZWdOdXJNYVd2Y2xzYjlJcG4zQlc0QWFBdjhXeFZBWGJnQmlNRzlrVnNTdTlGelBEaDFuSlNiNzBYSkNhQkRXbkRwWEdLYldZQnU3WDFEMFpPazV2V05pamRRQ250NGpmTXZOdGZsY1JjQ0liVWtBdW5GVEhyWQ",
+    "title": "Fed Hike Fears Stir Bond Market Jitters",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Former Federal Reserve official Kevin Warsh recently gave a speech. His comments suggested the Fed might raise interest rates soon. This has made many bond investors nervous about their holdings. They are now betting on a higher chance of a rate hike. Such a move would typically cause bond prices to fall. Higher interest rates make newly issued bonds more attractive. This decreases the value of older, lower-yielding bonds. Investors are adjusting their portfolios to prepare for this shift. The market is closely watching for further signals from the Fed. This uncertainty highlights the sensitivity of financial markets. It shows how central bank communications impact investor confidence.",
+    "sentences": [
+      {
+        "en": "Former Federal Reserve official Kevin Warsh recently gave a speech.",
+        "ko": "전 연방준비제도 이사 케빈 워시가 최근 연설을 했습니다."
+      },
+      {
+        "en": "His comments suggested the Fed might raise interest rates soon.",
+        "ko": "그의 발언은 연준이 곧 금리를 인상할 수 있음을 시사했습니다."
+      },
+      {
+        "en": "This has made many bond investors nervous about their holdings.",
+        "ko": "이는 많은 채권 투자자들을 그들의 보유 자산에 대해 불안하게 만들었습니다."
+      },
+      {
+        "en": "They are now betting on a higher chance of a rate hike.",
+        "ko": "그들은 이제 금리 인상 가능성이 더 높다고 예상하고 있습니다."
+      },
+      {
+        "en": "Such a move would typically cause bond prices to fall.",
+        "ko": "그러한 움직임은 일반적으로 채권 가격을 하락시킬 것입니다."
+      },
+      {
+        "en": "Higher interest rates make newly issued bonds more attractive.",
+        "ko": "금리가 높아지면 새로 발행되는 채권이 더 매력적으로 보입니다."
+      },
+      {
+        "en": "This decreases the value of older, lower-yielding bonds.",
+        "ko": "이는 기존의 수익률이 낮은 채권의 가치를 떨어뜨립니다."
+      },
+      {
+        "en": "Investors are adjusting their portfolios to prepare for this shift.",
+        "ko": "투자자들은 이러한 변화에 대비하여 포트폴리오를 조정하고 있습니다."
+      },
+      {
+        "en": "The market is closely watching for further signals from the Fed.",
+        "ko": "시장은 연준으로부터의 추가 신호를 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "This uncertainty highlights the sensitivity of financial markets.",
+        "ko": "이러한 불확실성은 금융 시장의 민감성을 강조합니다."
+      },
+      {
+        "en": "It shows how central bank communications impact investor confidence.",
+        "ko": "이는 중앙은행의 소통이 투자자 신뢰에 어떻게 영향을 미치는지 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "official": {
+        "meaning": "a person who holds an important position in an organization or government.",
+        "pos": "noun"
+      },
+      "suggested": {
+        "meaning": "put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "raise": {
+        "meaning": "to increase the amount or level of something, such as interest rates.",
+        "pos": "verb"
+      },
+      "nervous": {
+        "meaning": "feeling worried or anxious about something that is going to happen.",
+        "pos": "adjective"
+      },
+      "holdings": {
+        "meaning": "the shares, property, or other investments owned by a person or company.",
+        "pos": "noun"
+      },
+      "betting": {
+        "meaning": "making a prediction about an outcome, often involving money or risk.",
+        "pos": "verb"
+      },
+      "hike": {
+        "meaning": "an increase in amount or level, especially of prices or rates.",
+        "pos": "noun"
+      },
+      "typically": {
+        "meaning": "in most cases; usually.",
+        "pos": "adverb"
+      },
+      "decrease": {
+        "meaning": "to make something smaller or less.",
+        "pos": "verb"
+      },
+      "value": {
+        "meaning": "the monetary worth of something.",
+        "pos": "noun"
+      },
+      "yielding": {
+        "meaning": "producing a financial return.",
+        "pos": "adjective"
+      },
+      "adjusting": {
+        "meaning": "changing something slightly to make it more suitable or effective.",
+        "pos": "verb"
+      },
+      "portfolios": {
+        "meaning": "a collection of financial investments owned by an individual or organization.",
+        "pos": "noun"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "the state of being unsure or not knowing what will happen.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "sensitivity": {
+        "meaning": "the quality or state of being easily affected by something.",
+        "pos": "noun"
+      },
+      "communications": {
+        "meaning": "the imparting or exchanging of information by speaking, writing, or using some other medium.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "to have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "confidence": {
+        "meaning": "the feeling or belief that one can rely on someone or something; firm trust.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What recent event has caused bond investors to become wary, according to the passage?",
+      "Explain how a rise in interest rates generally affects the value of existing bonds, using terms like \"newly issued bonds\" and \"lower-yielding bonds.\"",
+      "How do you think clear and consistent communication from central banks like the Federal Reserve influences the stability of financial markets?"
+    ],
+    "modelAnswers": [
+      "Bond investors became wary after former Federal Reserve official Kevin Warsh's speech, which suggested the possibility of the Fed raising interest rates soon.",
+      "When interest rates rise, newly issued bonds become more attractive because they offer higher yields. This typically decreases the value of older, lower-yielding bonds, as investors prefer the better returns from new issues.",
+      "Clear and consistent communication from central banks can enhance market stability by reducing uncertainty and guiding investor expectations. This helps prevent sudden market shocks and allows investors to make informed decisions."
+    ]
+  },
+  {
+    "id": "ec-2026-08-31-2",
+    "date": "2026-08-31",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "트럼프의 캐나다 무역 전쟁이 디트로이트 경제에 미치는 실제적인 영향을 통해 무역 정책의 파급 효과를 이해해 보세요.",
+    "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-canada-trade-war-detroit-michigan",
+    "title": "Trump's Trade War Hurts Detroit Economy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Donald Trump's trade policies are severely impacting Detroit, Michigan. The city heavily relies on trade with its Canadian neighbor, Windsor, Ontario. A significant volume of goods crosses the border daily between them. These two cities have historically operated as a single economic unit. New tariffs and trade barriers have disrupted this crucial relationship. Local businesses in Detroit are facing increased costs and reduced demand. This situation is causing widespread economic despair among residents. The trade war highlights the interconnectedness of North American economies. It also shows how political decisions can have immediate local consequences. Many fear the long-term damage to regional industries and employment. This issue is becoming a critical factor in upcoming midterm elections.",
+    "sentences": [
+      {
+        "en": "Donald Trump's trade policies are severely impacting Detroit, Michigan.",
+        "ko": "도널드 트럼프의 무역 정책이 미시간주 디트로이트에 심각한 영향을 미치고 있습니다."
+      },
+      {
+        "en": "The city heavily relies on trade with its Canadian neighbor, Windsor, Ontario.",
+        "ko": "이 도시는 캐나다 이웃 도시인 온타리오주 윈저와의 무역에 크게 의존합니다."
+      },
+      {
+        "en": "A significant volume of goods crosses the border daily between them.",
+        "ko": "매일 상당한 양의 물품이 두 도시 사이의 국경을 넘나듭니다."
+      },
+      {
+        "en": "These two cities have historically operated as a single economic unit.",
+        "ko": "이 두 도시는 역사적으로 단일 경제 단위처럼 기능해 왔습니다."
+      },
+      {
+        "en": "New tariffs and trade barriers have disrupted this crucial relationship.",
+        "ko": "새로운 관세와 무역 장벽이 이 중요한 관계를 교란했습니다."
+      },
+      {
+        "en": "Local businesses in Detroit are facing increased costs and reduced demand.",
+        "ko": "디트로이트의 지역 기업들은 비용 증가와 수요 감소에 직면하고 있습니다."
+      },
+      {
+        "en": "This situation is causing widespread economic despair among residents.",
+        "ko": "이러한 상황은 주민들 사이에 광범위한 경제적 절망감을 야기하고 있습니다."
+      },
+      {
+        "en": "The trade war highlights the interconnectedness of North American economies.",
+        "ko": "무역 전쟁은 북미 경제의 상호 연결성을 강조합니다."
+      },
+      {
+        "en": "It also shows how political decisions can have immediate local consequences.",
+        "ko": "또한 정치적 결정이 즉각적인 지역적 결과를 초래할 수 있음을 보여줍니다."
+      },
+      {
+        "en": "Many fear the long-term damage to regional industries and employment.",
+        "ko": "많은 이들이 지역 산업과 고용에 대한 장기적인 피해를 우려하고 있습니다."
+      },
+      {
+        "en": "This issue is becoming a critical factor in upcoming midterm elections.",
+        "ko": "이 문제는 다가오는 중간 선거에서 중요한 요인이 되고 있습니다."
+      }
+    ],
+    "glossary": {
+      "severely": {
+        "meaning": "to an undesirably great extent; very seriously.",
+        "pos": "adverb"
+      },
+      "impacting": {
+        "meaning": "having a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "relies": {
+        "meaning": "depends on someone or something with full trust or confidence.",
+        "pos": "verb"
+      },
+      "neighbor": {
+        "meaning": "a country, city, or region that is next to another.",
+        "pos": "noun"
+      },
+      "volume": {
+        "meaning": "the amount or quantity of something, especially when great.",
+        "pos": "noun"
+      },
+      "historically": {
+        "meaning": "in the past; relating to history.",
+        "pos": "adverb"
+      },
+      "operated": {
+        "meaning": "functioned or worked in a particular way.",
+        "pos": "verb"
+      },
+      "tariffs": {
+        "meaning": "taxes or duties to be paid on a particular class of imports or exports.",
+        "pos": "noun"
+      },
+      "disrupted": {
+        "meaning": "interrupted an event, activity, or process by causing a disturbance or problem.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "facing": {
+        "meaning": "confronting a difficult situation or problem.",
+        "pos": "verb"
+      },
+      "reduced": {
+        "meaning": "made smaller or less in amount, degree, or size.",
+        "pos": "adjective"
+      },
+      "despair": {
+        "meaning": "the complete loss or absence of hope.",
+        "pos": "noun"
+      },
+      "interconnectedness": {
+        "meaning": "the state of being connected with each other.",
+        "pos": "noun"
+      },
+      "consequences": {
+        "meaning": "results or effects of an action or condition.",
+        "pos": "noun"
+      },
+      "regional": {
+        "meaning": "relating to or characteristic of a region.",
+        "pos": "adjective"
+      },
+      "employment": {
+        "meaning": "the state of having paid work.",
+        "pos": "noun"
+      },
+      "factor": {
+        "meaning": "a circumstance, fact, or influence that contributes to a result.",
+        "pos": "noun"
+      },
+      "upcoming": {
+        "meaning": "approaching; happening soon.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "According to the passage, what specific economic activity is being negatively affected in Detroit due to Trump's trade policies?",
+      "Define \"tariffs\" and explain how they contribute to the \"disruption\" of the trade relationship between Detroit and Windsor.",
+      "In your opinion, what are the most significant long-term risks for regions that are highly dependent on cross-border trade when trade wars occur?"
+    ],
+    "modelAnswers": [
+      "The passage states that Detroit's reliance on trade with Windsor, Ontario, is being severely impacted, with new tariffs and trade barriers disrupting the significant volume of goods crossing the border daily.",
+      "Tariffs are taxes imposed on imported or exported goods. They disrupt trade relationships by increasing the cost of goods, making them less competitive, and thereby reducing the flow of commerce between regions like Detroit and Windsor.",
+      "The most significant long-term risks include the decline of regional industries, job losses, and a loss of economic competitiveness. Businesses may relocate, supply chains could be permanently altered, and consumer prices might increase, leading to sustained economic hardship."
+    ]
+  },
+  {
+    "id": "ec-2026-08-31-3",
+    "date": "2026-08-31",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "애플의 새로운 CEO가 인공지능(AI)을 최우선 과제로 삼는 이유와 그것이 기술 산업에 미칠 영향을 탐구해 보세요.",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeWVkYWE5Mm1rejhYdjlON0UzUlMwaHg1T0hmYkJReWZoN3NtSmZlYkpvTjVJRmMzd1FoRE5ZS3RSWllxRVpfdVkxNUlzdE9zcEg3UlVxaGZBNDU4bHp1emluc2kyeHRBczJScnY2Y045NWRRT21EVjcwY3dpVnFlSEZMUzR2SGNEV3FIcDllMHZCNUJLTTEtV2hkZ1M4MFJ4NWh6bnRHS3hnNC1aaEc1SXNvWFVCZHJvYll3",
+    "title": "Apple's New CEO Prioritizes AI",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Apple has named John Ternus as its new Chief Executive Officer. He is taking over leadership at a pivotal time for the tech giant. Ternus has declared Artificial Intelligence (AI) as his top priority. This strategic focus signals a major shift for Apple's future direction. The company aims to integrate advanced AI across its product ecosystem. This includes enhancing features in iPhones, Macs, and services. Apple faces strong competition in the rapidly evolving AI landscape. Many rival tech firms are already heavily invested in AI development. Ternus's appointment underscores the critical importance of AI innovation. His leadership will shape Apple's ability to compete in this new era. The success of this AI strategy will be crucial for Apple's market position.",
+    "sentences": [
+      {
+        "en": "Apple has named John Ternus as its new Chief Executive Officer.",
+        "ko": "애플이 존 터너스를 새로운 최고경영자(CEO)로 임명했습니다."
+      },
+      {
+        "en": "He is taking over leadership at a pivotal time for the tech giant.",
+        "ko": "그는 이 기술 거대 기업에게 중요한 시기에 리더십을 맡게 되었습니다."
+      },
+      {
+        "en": "Ternus has declared Artificial Intelligence (AI) as his top priority.",
+        "ko": "터너스는 인공지능(AI)을 그의 최우선 과제로 선언했습니다."
+      },
+      {
+        "en": "This strategic focus signals a major shift for Apple's future direction.",
+        "ko": "이러한 전략적 초점은 애플의 미래 방향에 큰 변화를 예고합니다."
+      },
+      {
+        "en": "The company aims to integrate advanced AI across its product ecosystem.",
+        "ko": "회사는 제품 생태계 전반에 걸쳐 고급 AI를 통합하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This includes enhancing features in iPhones, Macs, and services.",
+        "ko": "여기에는 아이폰, 맥, 서비스의 기능 향상이 포함됩니다."
+      },
+      {
+        "en": "Apple faces strong competition in the rapidly evolving AI landscape.",
+        "ko": "애플은 빠르게 진화하는 AI 환경에서 강력한 경쟁에 직면해 있습니다."
+      },
+      {
+        "en": "Many rival tech firms are already heavily invested in AI development.",
+        "ko": "많은 경쟁 기술 기업들은 이미 AI 개발에 막대한 투자를 했습니다."
+      },
+      {
+        "en": "Ternus's appointment underscores the critical importance of AI innovation.",
+        "ko": "터너스의 임명은 AI 혁신의 결정적인 중요성을 강조합니다."
+      },
+      {
+        "en": "His leadership will shape Apple's ability to compete in this new era.",
+        "ko": "그의 리더십은 이 새로운 시대에 애플이 경쟁할 능력을 형성할 것입니다."
+      },
+      {
+        "en": "The success of this AI strategy will be crucial for Apple's market position.",
+        "ko": "이 AI 전략의 성공은 애플의 시장 지위에 결정적인 역할을 할 것입니다."
+      }
+    ],
+    "glossary": {
+      "named": {
+        "meaning": "appointed someone to a particular position or job.",
+        "pos": "verb"
+      },
+      "pivotal": {
+        "meaning": "of crucial importance in relation to the development or success of something else.",
+        "pos": "adjective"
+      },
+      "declared": {
+        "meaning": "stated something in an emphatic or formal way.",
+        "pos": "verb"
+      },
+      "priority": {
+        "meaning": "a thing that is regarded as more important than others.",
+        "pos": "noun"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "focus": {
+        "meaning": "the center of interest or activity.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or communicates something, often non-verbally.",
+        "pos": "verb"
+      },
+      "shift": {
+        "meaning": "a fundamental change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "integrate": {
+        "meaning": "to combine one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "advanced": {
+        "meaning": "highly developed or complex.",
+        "pos": "adjective"
+      },
+      "ecosystem": {
+        "meaning": "a complex network or interconnected system, often referring to technology products and services.",
+        "pos": "noun"
+      },
+      "enhancing": {
+        "meaning": "improving the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "features": {
+        "meaning": "distinctive attributes or characteristics of a product.",
+        "pos": "noun"
+      },
+      "competition": {
+        "meaning": "the struggle among companies for customers.",
+        "pos": "noun"
+      },
+      "rapidly": {
+        "meaning": "very quickly; at a great rate.",
+        "pos": "adverb"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "landscape": {
+        "meaning": "the distinguishing features of a given area of activity.",
+        "pos": "noun"
+      },
+      "rival": {
+        "meaning": "competing with another for the same objective or superiority.",
+        "pos": "adjective"
+      },
+      "invested": {
+        "meaning": "put money or resources into something with the expectation of achieving a profit or advantage.",
+        "pos": "verb"
+      },
+      "appointment": {
+        "meaning": "the act of assigning a job or position to someone.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "shape": {
+        "meaning": "to determine the form or future development of something.",
+        "pos": "verb"
+      },
+      "era": {
+        "meaning": "a long and distinct period of history with a particular feature or characteristic.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Who has been named Apple's new CEO, and what is his declared top priority?",
+      "What does the passage mean by \"product ecosystem\" when discussing Apple's AI integration?",
+      "How do you think Apple's strong focus on AI under new leadership will affect its competitive standing in the global tech market?"
+    ],
+    "modelAnswers": [
+      "John Ternus has been named Apple's new CEO, and his declared top priority is Artificial Intelligence (AI).",
+      "Apple's \"product ecosystem\" refers to its interconnected range of devices, software, and services, such as iPhones, Macs, and various applications, which all work together seamlessly.",
+      "Apple's strong AI focus should enhance its competitive standing by improving product features and user experience, potentially attracting new customers and retaining existing ones. However, success depends on out-innovating rivals already heavily invested in AI."
+    ]
+  },
+  {
     "id": "cd-2026-08-30-1",
     "date": "2026-08-30",
     "rank": 1,
