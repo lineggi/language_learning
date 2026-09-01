@@ -1,5 +1,993 @@
 [
   {
+    "id": "cd-2026-09-02-1",
+    "date": "2026-09-02",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "주요 글로벌 은행들이 스테이블코인 벤처에 협력하여 디지털 자산 시장의 미래를 어떻게 형성할지 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/09/01/citi-goldman-other-global-banks-and-asset-managers-team-up-on-stablecoin-venture",
+    "title": "Global Banks Unite for Stablecoin Venture",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Major global financial institutions are actively collaborating on a new stablecoin project. Citi, Goldman Sachs, and other leading asset managers are significantly involved in this venture. This significant initiative aims to create a robust U.S. dollar-backed stablecoin for efficiency. Its primary focus is facilitating efficient payments and secure digital asset settlement processes. Plans for a euro-denominated token are already underway for future market expansion into Europe. This collaboration clearly signals growing institutional interest and confidence in digital currencies. It could significantly impact the broader global financial ecosystem, fostering innovation and growth. The project seeks to bridge traditional financial systems with advanced blockchain technology seamlessly. Such powerful collaborations often lead to greater clarity in global regulatory frameworks. This also promotes wider adoption of stablecoins for various corporate, institutional, and retail uses.",
+    "sentences": [
+      {
+        "en": "Major global financial institutions are actively collaborating on a new stablecoin project.",
+        "ko": "주요 글로벌 금융기관들이 새로운 스테이블코인 프로젝트에 적극적으로 협력하고 있습니다."
+      },
+      {
+        "en": "Citi, Goldman Sachs, and other leading asset managers are significantly involved in this venture.",
+        "ko": "씨티, 골드만삭스 및 다른 주요 자산 관리자들이 이 벤처에 중요하게 참여하고 있습니다."
+      },
+      {
+        "en": "This significant initiative aims to create a robust U.S. dollar-backed stablecoin for efficiency.",
+        "ko": "이 중요한 이니셔티브는 효율성을 위한 견고한 미국 달러 기반 스테이블코인을 만드는 것을 목표로 합니다."
+      },
+      {
+        "en": "Its primary focus is facilitating efficient payments and secure digital asset settlement processes.",
+        "ko": "주요 초점은 효율적인 결제 및 안전한 디지털 자산 정산 프로세스를 용이하게 하는 것입니다."
+      },
+      {
+        "en": "Plans for a euro-denominated token are already underway for future market expansion into Europe.",
+        "ko": "유로화 표시 토큰에 대한 계획은 미래 유럽 시장 확장을 위해 이미 진행 중입니다."
+      },
+      {
+        "en": "This collaboration clearly signals growing institutional interest and confidence in digital currencies.",
+        "ko": "이러한 협력은 디지털 통화에 대한 기관 투자자들의 관심과 신뢰가 커지고 있음을 분명히 나타냅니다."
+      },
+      {
+        "en": "It could significantly impact the broader global financial ecosystem, fostering innovation and growth.",
+        "ko": "이는 더 넓은 글로벌 금융 생태계에 상당한 영향을 미쳐 혁신과 성장을 촉진할 수 있습니다."
+      },
+      {
+        "en": "The project seeks to bridge traditional financial systems with advanced blockchain technology seamlessly.",
+        "ko": "이 프로젝트는 전통 금융 시스템과 고급 블록체인 기술을 원활하게 연결하고자 합니다."
+      },
+      {
+        "en": "Such powerful collaborations often lead to greater clarity in global regulatory frameworks.",
+        "ko": "이러한 강력한 협력은 글로벌 규제 프레임워크의 더 큰 명확성으로 이어지는 경우가 많습니다."
+      },
+      {
+        "en": "This also promotes wider adoption of stablecoins for various corporate, institutional, and retail uses.",
+        "ko": "이는 또한 다양한 기업, 기관 및 소매 용도로 스테이블코인의 더 넓은 채택을 촉진합니다."
+      }
+    ],
+    "glossary": {
+      "institutions": {
+        "meaning": "important organizations, such as banks or universities, that provide a public service.",
+        "pos": "noun"
+      },
+      "collaborating": {
+        "meaning": "working together with other people or groups to achieve a common goal.",
+        "pos": "verb"
+      },
+      "venture": {
+        "meaning": "a new business activity or project that involves risk but offers a chance of profit.",
+        "pos": "noun"
+      },
+      "leading": {
+        "meaning": "most important or most successful among a group of similar things or people.",
+        "pos": "adjective"
+      },
+      "significantly": {
+        "meaning": "in a way that is large or important enough to have an effect or be noticed.",
+        "pos": "adverb"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a particular problem.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "has a specific purpose or intention as its goal or objective.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions or challenges.",
+        "pos": "adjective"
+      },
+      "facilitating": {
+        "meaning": "making an action or process easier to accomplish or achieve.",
+        "pos": "verb"
+      },
+      "settlement": {
+        "meaning": "the process of officially completing a financial transaction or agreement.",
+        "pos": "noun"
+      },
+      "denominated": {
+        "meaning": "expressed in a particular unit of currency, such as dollars or euros.",
+        "pos": "adjective"
+      },
+      "underway": {
+        "meaning": "having started and still in progress; currently happening or being done.",
+        "pos": "adverb"
+      },
+      "expansion": {
+        "meaning": "the act of increasing in size, amount, or scope of something.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or shows that something is happening or will happen soon.",
+        "pos": "verb"
+      },
+      "institutional": {
+        "meaning": "relating to large, established organizations like banks or government bodies.",
+        "pos": "adjective"
+      },
+      "ecosystem": {
+        "meaning": "a complex network of interconnected elements, often used for economic or social systems.",
+        "pos": "noun"
+      },
+      "fostering": {
+        "meaning": "encouraging the development or growth of something positive or desirable.",
+        "pos": "verb"
+      },
+      "bridge": {
+        "meaning": "to connect two things or groups that are different or separate.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a long-established custom or practice.",
+        "pos": "adjective"
+      },
+      "seamlessly": {
+        "meaning": "smoothly and continuously, without any breaks or interruptions in the process.",
+        "pos": "adverb"
+      },
+      "clarity": {
+        "meaning": "the quality of being easy to understand or see clearly.",
+        "pos": "noun"
+      },
+      "promotes": {
+        "meaning": "helps to encourage the existence or development of something.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use or accept something new or different.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the primary goal of the stablecoin venture involving global financial institutions like Citi and Goldman Sachs?",
+      "In the context of this article, what does \"digital asset settlement\" refer to, and why is it important for a stablecoin project?",
+      "How might increased collaboration between traditional finance and blockchain technology, as described in the article, influence the future of stablecoin regulation and adoption?"
+    ],
+    "modelAnswers": [
+      "The primary goal of the stablecoin venture is to create a U.S. dollar-backed stablecoin for facilitating payments and digital asset settlement, with plans for a euro-denominated token later.",
+      "\"Digital asset settlement\" refers to the final and irreversible transfer of digital assets between parties. It is important for a stablecoin project because it ensures efficient and secure completion of transactions, reducing risks and delays.",
+      "Such collaborations could lead to more standardized and globally recognized regulatory frameworks for stablecoins. This might foster greater trust and accelerate wider adoption by both institutional and retail users, integrating stablecoins more deeply into the financial system."
+    ]
+  },
+  {
+    "id": "cd-2026-09-02-2",
+    "date": "2026-09-02",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "싱가포르의 새로운 스테이블코인 규제안이 시장에 어떤 영향을 미칠지 미리 살펴보세요.",
+    "url": "https://www.coindesk.com/policy/2026/09/01/singapore-proposes-100-reserves-and-a-ban-on-yields-for-stablecoin-issuers",
+    "title": "Singapore Proposes Strict Stablecoin Rules",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Singapore's financial watchdog has proposed significant new rules for stablecoin issuers. The key proposals include strictly requiring 100% reserves for all stablecoins in circulation. Issuers would also face a complete ban on offering any yields or interest to holders. These stringent regulations aim to enhance market stability and robust consumer protection standards. The proposed regulatory framework aligns closely with existing U.S. and EU standards for digital assets. This proactive move could set a global precedent for comprehensive stablecoin oversight and governance. It also paves the way for official recognition of compliant foreign stablecoins within Singapore's market. Such strict measures might significantly increase operational costs and compliance burdens for stablecoin issuers. However, they could ultimately boost overall investor confidence and safeguard market integrity. This development is crucial for shaping the future landscape of digital assets globally and regionally.",
+    "sentences": [
+      {
+        "en": "Singapore's financial watchdog has proposed significant new rules for stablecoin issuers.",
+        "ko": "싱가포르 금융 감독 당국이 스테이블코인 발행자에 대한 중요한 새 규칙을 제안했습니다."
+      },
+      {
+        "en": "The key proposals include strictly requiring 100% reserves for all stablecoins in circulation.",
+        "ko": "주요 제안에는 유통되는 모든 스테이블코인에 대해 100% 준비금을 엄격히 요구하는 내용이 포함됩니다."
+      },
+      {
+        "en": "Issuers would also face a complete ban on offering any yields or interest to holders.",
+        "ko": "발행자들은 또한 보유자에게 어떠한 수익이나 이자도 제공하는 것이 전면 금지될 것입니다."
+      },
+      {
+        "en": "These stringent regulations aim to enhance market stability and robust consumer protection standards.",
+        "ko": "이러한 엄격한 규제는 시장 안정성과 강력한 소비자 보호 기준을 강화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The proposed regulatory framework aligns closely with existing U.S. and EU standards for digital assets.",
+        "ko": "제안된 규제 프레임워크는 기존 미국 및 EU 디지털 자산 표준과 밀접하게 일치합니다."
+      },
+      {
+        "en": "This proactive move could set a global precedent for comprehensive stablecoin oversight and governance.",
+        "ko": "이러한 선제적인 움직임은 포괄적인 스테이블코인 감독 및 거버넌스를 위한 글로벌 선례를 만들 수 있습니다."
+      },
+      {
+        "en": "It also paves the way for official recognition of compliant foreign stablecoins within Singapore's market.",
+        "ko": "또한 싱가포르 시장 내에서 규정을 준수하는 외국 스테이블코인의 공식 인정을 위한 길을 닦습니다."
+      },
+      {
+        "en": "Such strict measures might significantly increase operational costs and compliance burdens for stablecoin issuers.",
+        "ko": "이러한 엄격한 조치는 스테이블코인 발행자의 운영 비용과 규제 준수 부담을 상당히 증가시킬 수 있습니다."
+      },
+      {
+        "en": "However, they could ultimately boost overall investor confidence and safeguard market integrity.",
+        "ko": "그러나 이는 궁극적으로 전반적인 투자자 신뢰를 높이고 시장 무결성을 보호할 수 있습니다."
+      },
+      {
+        "en": "This development is crucial for shaping the future landscape of digital assets globally and regionally.",
+        "ko": "이 발전은 전 세계적으로 그리고 지역적으로 디지털 자산의 미래 지형을 형성하는 데 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "watchdog": {
+        "meaning": "an organization or person responsible for making sure that companies or governments act legally.",
+        "pos": "noun"
+      },
+      "proposed": {
+        "meaning": "suggested something, such as a plan or idea, for people to consider seriously.",
+        "pos": "verb"
+      },
+      "issuers": {
+        "meaning": "companies or entities that create and distribute financial instruments like stablecoins.",
+        "pos": "noun"
+      },
+      "strictly": {
+        "meaning": "in a way that must be obeyed exactly, without any exceptions or leniency.",
+        "pos": "adverb"
+      },
+      "requiring": {
+        "meaning": "making it necessary for someone to do something; demanding something as essential.",
+        "pos": "verb"
+      },
+      "reserves": {
+        "meaning": "funds or assets held by a company or government to meet future liabilities.",
+        "pos": "noun"
+      },
+      "circulation": {
+        "meaning": "the movement or spread of something among a group of people or in an area.",
+        "pos": "noun"
+      },
+      "ban": {
+        "meaning": "an official order that prevents something from being done, sold, or used.",
+        "pos": "noun"
+      },
+      "offering": {
+        "meaning": "presenting something for acceptance or rejection; making available for use.",
+        "pos": "verb"
+      },
+      "yields": {
+        "meaning": "the financial returns or profits generated by an investment or asset.",
+        "pos": "noun"
+      },
+      "stringent": {
+        "meaning": "very strict and precise, often referring to rules or requirements.",
+        "pos": "adjective"
+      },
+      "regulations": {
+        "meaning": "official rules or laws that control how something is done.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "to improve the quality, value, or extent of something; to make better.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions or challenges.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "a basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "aligns": {
+        "meaning": "puts something into a straight line or in the correct relative position.",
+        "pos": "verb"
+      },
+      "precedent": {
+        "meaning": "an earlier event or action that is regarded as an example or guide.",
+        "pos": "noun"
+      },
+      "oversight": {
+        "meaning": "the action of supervising someone or something, especially officially.",
+        "pos": "noun"
+      },
+      "governance": {
+        "meaning": "the act or manner of governing or controlling a state, organization, or system.",
+        "pos": "noun"
+      },
+      "paves": {
+        "meaning": "prepares the way for something to happen or develop more easily.",
+        "pos": "verb"
+      },
+      "compliant": {
+        "meaning": "obeying rules or requests; meeting specified standards or regulations.",
+        "pos": "adjective"
+      },
+      "ultimately": {
+        "meaning": "in the end; finally; as a result of a long process or chain of events.",
+        "pos": "adverb"
+      },
+      "integrity": {
+        "meaning": "the quality of being honest and having strong moral principles; moral uprightness.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the article, what are the two main proposals Singapore's financial watchdog has put forward for stablecoin issuers?",
+      "The article states that \"The proposed framework aligns with U.S. and EU regulatory standards.\" What does \"aligns with\" mean in this context, and why is this alignment significant?",
+      "Do you think banning yields for stablecoin issuers is a necessary step for consumer protection, or could it hinder innovation and adoption? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "Singapore's financial watchdog proposes requiring 100% reserves for all stablecoins and implementing a ban on offering yields for stablecoin issuers.",
+      "\"Aligns with\" means that Singapore's proposed rules are consistent or in agreement with those already established or being developed in the U.S. and EU. This alignment is significant because it fosters regulatory harmony, potentially simplifying compliance for global stablecoin projects and promoting international recognition.",
+      "Banning yields could boost consumer protection by reducing risks associated with yield-generating activities, making stablecoins safer. However, it might also hinder innovation by removing a key incentive for users and developers, potentially slowing adoption compared to other DeFi products that offer returns."
+    ]
+  },
+  {
+    "id": "cd-2026-09-02-3",
+    "date": "2026-09-02",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "런던 증권 거래소가 주요 영국 주식의 온체인화를 추진하며 토큰화의 미래를 엿보세요.",
+    "url": "https://www.coindesk.com/markets/2026/09/01/london-stock-exchange-to-work-with-payward-to-bring-biggest-uk-stocks-onchain",
+    "title": "LSE Tokenizes UK Stocks Onchain",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The London Stock Exchange (LSE) is actively exploring a significant tokenization initiative. They are partnering with Payward, the prominent owner and operator of Kraken exchange. This strategic collaboration aims to bring top UK-listed stocks directly onto a blockchain. Payward specifically developed the innovative xStocks tokenized equities framework for this purpose. Tokenization converts traditional financial assets, like company stocks, into digital tokens. These tokens are then recorded and managed on a distributed ledger technology (DLT). This groundbreaking process can significantly enhance market liquidity and operational efficiency. It also allows for seamless fractional ownership of high-value underlying assets worldwide. The move signifies a growing and undeniable trend in global traditional finance integration. Major established exchanges are increasingly embracing advanced blockchain technology solutions. This transformation could revolutionize how securities are universally traded and settled globally.",
+    "sentences": [
+      {
+        "en": "The London Stock Exchange (LSE) is actively exploring a significant tokenization initiative.",
+        "ko": "런던 증권 거래소(LSE)가 중요한 토큰화 이니셔티브를 적극적으로 모색하고 있습니다."
+      },
+      {
+        "en": "They are partnering with Payward, the prominent owner and operator of Kraken exchange.",
+        "ko": "그들은 크라켄 거래소의 저명한 소유주이자 운영자인 페이워드와 협력하고 있습니다."
+      },
+      {
+        "en": "This strategic collaboration aims to bring top UK-listed stocks directly onto a blockchain.",
+        "ko": "이 전략적 협력은 주요 영국 상장 주식들을 블록체인 위로 직접 가져오는 것을 목표로 합니다."
+      },
+      {
+        "en": "Payward specifically developed the innovative xStocks tokenized equities framework for this purpose.",
+        "ko": "페이워드는 이 목적을 위해 혁신적인 xStocks 토큰화된 주식 프레임워크를 특별히 개발했습니다."
+      },
+      {
+        "en": "Tokenization converts traditional financial assets, like company stocks, into digital tokens.",
+        "ko": "토큰화는 회사 주식과 같은 전통적인 금융 자산을 디지털 토큰으로 변환합니다."
+      },
+      {
+        "en": "These tokens are then recorded and managed on a distributed ledger technology (DLT).",
+        "ko": "이 토큰들은 분산원장기술(DLT)에 기록되고 관리됩니다."
+      },
+      {
+        "en": "This groundbreaking process can significantly enhance market liquidity and operational efficiency.",
+        "ko": "이 획기적인 과정은 시장 유동성과 운영 효율성을 크게 향상시킬 수 있습니다."
+      },
+      {
+        "en": "It also allows for seamless fractional ownership of high-value underlying assets worldwide.",
+        "ko": "또한 전 세계적으로 고가 기본 자산의 원활한 부분 소유를 가능하게 합니다."
+      },
+      {
+        "en": "The move signifies a growing and undeniable trend in global traditional finance integration.",
+        "ko": "이러한 움직임은 전 세계 전통 금융 통합에서 증가하고 부인할 수 없는 추세를 나타냅s."
+      },
+      {
+        "en": "Major established exchanges are increasingly embracing advanced blockchain technology solutions.",
+        "ko": "주요 기존 거래소들은 고급 블록체인 기술 솔루션을 점점 더 수용하고 있습니다."
+      },
+      {
+        "en": "This transformation could revolutionize how securities are universally traded and settled globally.",
+        "ko": "이러한 변화는 전 세계적으로 증권이 보편적으로 거래되고 정산되는 방식을 혁신할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "exploring": {
+        "meaning": "examining or discussing something carefully to find out more about it.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable, often indicating a notable impact or meaning.",
+        "pos": "adjective"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a particular problem.",
+        "pos": "noun"
+      },
+      "partnering": {
+        "meaning": "collaborating or working together with another person or group.",
+        "pos": "verb"
+      },
+      "prominent": {
+        "meaning": "important, famous, or easily noticeable, often standing out from others.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term goals and how to achieve them.",
+        "pos": "adjective"
+      },
+      "collaboration": {
+        "meaning": "the act of working together with others to produce or create something.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "has a specific purpose or intention as its goal or objective.",
+        "pos": "verb"
+      },
+      "listed": {
+        "meaning": "included in an official list, especially on a stock exchange.",
+        "pos": "adjective"
+      },
+      "blockchain": {
+        "meaning": "a digital database that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "developed": {
+        "meaning": "created or brought into existence; designed and refined over time.",
+        "pos": "verb"
+      },
+      "innovative": {
+        "meaning": "featuring new ideas, methods, or devices; advanced and original.",
+        "pos": "adjective"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing an asset.",
+        "pos": "adjective"
+      },
+      "equities": {
+        "meaning": "shares of ownership in a company, typically stocks, that can be traded.",
+        "pos": "noun"
+      },
+      "framework": {
+        "meaning": "a basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "converts": {
+        "meaning": "changes the form, character, or function of something.",
+        "pos": "verb"
+      },
+      "assets": {
+        "meaning": "items of value owned by a person or company, that can be used to generate wealth.",
+        "pos": "noun"
+      },
+      "groundbreaking": {
+        "meaning": "innovative or pioneering; involving new methods or discoveries.",
+        "pos": "adjective"
+      },
+      "enhance": {
+        "meaning": "to improve the quality, value, or extent of something; to make better.",
+        "pos": "verb"
+      },
+      "liquidity": {
+        "meaning": "the ease with which an asset can be converted into cash without affecting its market price.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being able to accomplish something with the least waste of time and effort.",
+        "pos": "noun"
+      },
+      "fractional": {
+        "meaning": "relating to or denoting a small part, item, or amount.",
+        "pos": "adjective"
+      },
+      "ownership": {
+        "meaning": "the state of possessing something, or the legal right to have it.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the main goal of the collaboration between the London Stock Exchange and Payward?",
+      "The article mentions that \"Tokenization converts traditional assets into digital tokens.\" Explain in your own words what \"tokenization\" means and give an example of how it might work with UK-listed stocks.",
+      "How might the tokenization of major UK stocks impact global financial markets and the role of traditional exchanges in the future?"
+    ],
+    "modelAnswers": [
+      "The main goal of the collaboration is to bring top UK-listed stocks onchain by using Payward's xStocks tokenized equities framework.",
+      "Tokenization is the process of representing real-world assets, like company stocks, as digital tokens on a blockchain. For UK stocks, this could mean each share of a company like BP is represented by a unique digital token, allowing for easier, potentially fractional, and more transparent trading on a blockchain.",
+      "Tokenization could increase market accessibility and liquidity for global investors, making trading faster and more efficient. Traditional exchanges might evolve into hybrid platforms, integrating blockchain technology to offer both conventional and tokenized securities, potentially leading to a more interconnected and innovative global financial system."
+    ]
+  },
+  {
+    "id": "ec-2026-09-02-1",
+    "date": "2026-09-02",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "유로존 인플레이션 상승과 금리 인상 가능성에 대한 소식을 통해 주요 거시 경제 동향을 파악하고 관련 용어를 익혀보세요.",
+    "url": "https://www.cnbc.com/2026/09/01/euro-zone-inflation-rate-hike.html",
+    "title": "Euro Zone Inflation Surges, Rate Hikes Expected",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The euro zone's inflation rate has recently climbed above 3%, exceeding expectations. This unexpected increase presents a significant challenge for the European Central Bank (ECB). Energy costs are rising sharply across the region, partly due to the ongoing Iran war. These higher energy prices often translate into broader inflationary pressures on goods and services. Consequently, financial analysts now widely expect the ECB to raise its key interest rates in September. Raising rates is a primary tool central banks use to combat inflation effectively. The goal is to cool down economic activity by making borrowing more expensive for businesses and consumers. However, this necessary tightening of monetary policy could also slow down overall economic growth. Businesses may delay investments, and consumers might reduce spending due to increased costs. The ECB faces a delicate balancing act: stabilizing prices without triggering a recession. Their upcoming monetary policy decisions are critically important for the euro zone's future economic outlook. This situation demands careful monitoring by all market participants.",
+    "sentences": [
+      {
+        "en": "The euro zone's inflation rate has recently climbed above 3%, exceeding expectations.",
+        "ko": "유로존의 인플레이션율이 최근 3%를 넘어섰으며, 이는 예상치를 웃도는 수치입니다."
+      },
+      {
+        "en": "This unexpected increase presents a significant challenge for the European Central Bank (ECB).",
+        "ko": "이러한 예상치 못한 증가는 유럽중앙은행(ECB)에 중대한 과제를 안겨줍니다."
+      },
+      {
+        "en": "Energy costs are rising sharply across the region, partly due to the ongoing Iran war.",
+        "ko": "진행 중인 이란 전쟁의 영향으로 이 지역 전반에 걸쳐 에너지 비용이 급격히 상승하고 있습니다."
+      },
+      {
+        "en": "These higher energy prices often translate into broader inflationary pressures on goods and services.",
+        "ko": "이러한 높은 에너지 가격은 종종 상품 및 서비스에 대한 더 광범위한 인플레이션 압력으로 이어집니다."
+      },
+      {
+        "en": "Consequently, financial analysts now widely expect the ECB to raise its key interest rates in September.",
+        "ko": "결과적으로, 금융 분석가들은 이제 ECB가 9월에 주요 금리를 인상할 것으로 널리 예상하고 있습니다."
+      },
+      {
+        "en": "Raising rates is a primary tool central banks use to combat inflation effectively.",
+        "ko": "금리 인상은 중앙은행이 인플레이션에 효과적으로 대처하기 위해 사용하는 주요 수단입니다."
+      },
+      {
+        "en": "The goal is to cool down economic activity by making borrowing more expensive for businesses and consumers.",
+        "ko": "목표는 기업과 소비자의 대출 비용을 높여 경제 활동을 진정시키는 것입니다."
+      },
+      {
+        "en": "However, this necessary tightening of monetary policy could also slow down overall economic growth.",
+        "ko": "그러나 이러한 필수적인 통화 정책 긴축은 전반적인 경제 성장을 둔화시킬 수도 있습니다."
+      },
+      {
+        "en": "Businesses may delay investments, and consumers might reduce spending due to increased costs.",
+        "ko": "기업은 투자를 미룰 수 있고, 소비자는 비용 증가로 인해 지출을 줄일 수 있습니다."
+      },
+      {
+        "en": "The ECB faces a delicate balancing act: stabilizing prices without triggering a recession.",
+        "ko": "ECB는 경기 침체를 유발하지 않으면서 물가를 안정시키는 섬세한 균형점을 찾아야 합니다."
+      },
+      {
+        "en": "Their upcoming monetary policy decisions are critically important for the euro zone's future economic outlook.",
+        "ko": "그들의 다가오는 통화 정책 결정은 유로존의 미래 경제 전망에 매우 중요합니다."
+      },
+      {
+        "en": "This situation demands careful monitoring by all market participants.",
+        "ko": "이러한 상황은 모든 시장 참여자들의 신중한 모니터링을 요구합니다."
+      }
+    ],
+    "glossary": {
+      "zone": {
+        "meaning": "a specific area or region, often defined by a common characteristic or purpose.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "climbed": {
+        "meaning": "increased in amount or level, often steadily.",
+        "pos": "verb"
+      },
+      "exceeding": {
+        "meaning": "going beyond a particular amount, limit, or expectation.",
+        "pos": "verb"
+      },
+      "unexpected": {
+        "meaning": "not anticipated or predicted; surprising.",
+        "pos": "adjective"
+      },
+      "presents": {
+        "meaning": "to formally offer or make something known.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "challenge": {
+        "meaning": "a difficult task or problem that tests someone's ability.",
+        "pos": "noun"
+      },
+      "central": {
+        "meaning": "relating to the main or most important part of something.",
+        "pos": "adjective"
+      },
+      "rising": {
+        "meaning": "increasing in amount, level, or strength.",
+        "pos": "verb"
+      },
+      "sharply": {
+        "meaning": "quickly and suddenly, or in a very noticeable way.",
+        "pos": "adverb"
+      },
+      "ongoing": {
+        "meaning": "continuing to happen or exist; in progress.",
+        "pos": "adjective"
+      },
+      "translate": {
+        "meaning": "to change from one form or type to another.",
+        "pos": "verb"
+      },
+      "broader": {
+        "meaning": "covering a wide range of things; more general.",
+        "pos": "adjective"
+      },
+      "inflationary": {
+        "meaning": "relating to or tending to cause inflation.",
+        "pos": "adjective"
+      },
+      "consequently": {
+        "meaning": "as a result; therefore.",
+        "pos": "adverb"
+      },
+      "widely": {
+        "meaning": "by many people; extensively.",
+        "pos": "adverb"
+      },
+      "expect": {
+        "meaning": "to think or believe that something will happen.",
+        "pos": "verb"
+      },
+      "combat": {
+        "meaning": "to fight against something or try to prevent it.",
+        "pos": "verb"
+      },
+      "effectively": {
+        "meaning": "in a way that produces the intended or desired result.",
+        "pos": "adverb"
+      },
+      "cooling": {
+        "meaning": "reducing the level of economic activity to prevent overheating.",
+        "pos": "verb"
+      },
+      "monetary": {
+        "meaning": "relating to money, currency, or financial policy.",
+        "pos": "adjective"
+      },
+      "balancing": {
+        "meaning": "the act of giving equal importance to two or more things.",
+        "pos": "noun"
+      },
+      "critically": {
+        "meaning": "in a very important or decisive way.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "Q1: What specific factor is mentioned as a reason for the sharp rise in energy costs in the euro zone?",
+      "Q2: In the context of the passage, what does \"cooling economic activity\" mean, and why would a central bank aim to do this?",
+      "Q3: How might higher interest rates impact your personal financial decisions, such as saving, investing, or borrowing, if you were living in the euro zone?"
+    ],
+    "modelAnswers": [
+      "A1: The ongoing Iran war is specifically mentioned as a reason for the sharp rise in energy costs in the euro zone.",
+      "A2: \"Cooling economic activity\" means deliberately slowing down the economy. A central bank aims to do this to combat inflation by reducing overall demand and price pressures.",
+      "A3: Higher interest rates would make saving more attractive due to better returns. However, borrowing for loans or mortgages would become more expensive, potentially making me reconsider large purchases or new investments requiring debt."
+    ]
+  },
+  {
+    "id": "ec-2026-09-02-2",
+    "date": "2026-09-02",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "AI 기술이 금융 시스템에 미치는 잠재적 위험에 대한 경고를 통해 핀테크 분야의 중요 이슈와 관련 어휘를 학습하세요.",
+    "url": "https://www.cnbc.com/2026/08/31/bailey-frontier-ai-financial-stability-risk.html",
+    "title": "AI Models Pose Risk to Financial Stability",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Bank of England Governor, Andrew Bailey, recently issued a serious warning. He stated that advanced AI models could significantly threaten global financial stability. These cutting-edge \"frontier AI\" technologies introduce new and complex systemic risks. Specifically, Bailey highlighted a material increase in cyber risks to the financial system. Such dangers could stem from AI's potential for initiating highly sophisticated cyberattacks. They might also arise from an over-reliance on a limited number of dominant AI providers. This concentration of power could create severe systemic vulnerabilities across the market. Regulators and central banks worldwide are now closely examining these potential dangers. They aim to develop robust regulatory frameworks to effectively manage AI-related financial risks. Ensuring the fundamental resilience of financial institutions against evolving AI threats is crucial. The overarching goal is to harness AI's transformative benefits while carefully mitigating its significant downsides. This requires proactive collaboration between technology developers and financial supervisors.",
+    "sentences": [
+      {
+        "en": "The Bank of England Governor, Andrew Bailey, recently issued a serious warning.",
+        "ko": "영란은행 총재 앤드루 베일리가 최근 심각한 경고를 발표했습니다."
+      },
+      {
+        "en": "He stated that advanced AI models could significantly threaten global financial stability.",
+        "ko": "그는 고도화된 AI 모델이 글로벌 금융 안정성을 심각하게 위협할 수 있다고 밝혔습니다."
+      },
+      {
+        "en": "These cutting-edge \"frontier AI\" technologies introduce new and complex systemic risks.",
+        "ko": "이러한 최첨단 '프론티어 AI' 기술은 새롭고 복잡한 시스템적 위험을 초래합니다."
+      },
+      {
+        "en": "Specifically, Bailey highlighted a material increase in cyber risks to the financial system.",
+        "ko": "특히, 베일리는 금융 시스템에 대한 사이버 위험이 실질적으로 증가할 수 있음을 강조했습니다."
+      },
+      {
+        "en": "Such dangers could stem from AI's potential for initiating highly sophisticated cyberattacks.",
+        "ko": "이러한 위험은 AI가 고도로 정교한 사이버 공격을 시작할 수 있는 잠재력에서 비롯될 수 있습니다."
+      },
+      {
+        "en": "They might also arise from an over-reliance on a limited number of dominant AI providers.",
+        "ko": "또한 소수의 지배적인 AI 제공업체에 대한 과도한 의존에서 발생할 수도 있습니다."
+      },
+      {
+        "en": "This concentration of power could create severe systemic vulnerabilities across the market.",
+        "ko": "이러한 권력 집중은 시장 전반에 걸쳐 심각한 시스템적 취약점을 만들 수 있습니다."
+      },
+      {
+        "en": "Regulators and central banks worldwide are now closely examining these potential dangers.",
+        "ko": "전 세계의 규제 당국과 중앙은행들은 이제 이러한 잠재적 위험을 면밀히 조사하고 있습니다."
+      },
+      {
+        "en": "They aim to develop robust regulatory frameworks to effectively manage AI-related financial risks.",
+        "ko": "그들은 AI 관련 금융 위험을 효과적으로 관리하기 위한 강력한 규제 프레임워크를 개발하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Ensuring the fundamental resilience of financial institutions against evolving AI threats is crucial.",
+        "ko": "진화하는 AI 위협에 대한 금융 기관의 근본적인 회복력을 보장하는 것이 중요합니다."
+      },
+      {
+        "en": "The overarching goal is to harness AI's transformative benefits while carefully mitigating its significant downsides.",
+        "ko": "궁극적인 목표는 AI의 혁신적인 이점을 활용하면서도 그 심각한 단점을 신중하게 완화하는 것입니다."
+      },
+      {
+        "en": "This requires proactive collaboration between technology developers and financial supervisors.",
+        "ko": "이를 위해서는 기술 개발자와 금융 감독 당국 간의 선제적인 협력이 필요합니다."
+      }
+    ],
+    "glossary": {
+      "governor": {
+        "meaning": "the head of a public institution or a central bank.",
+        "pos": "noun"
+      },
+      "issued": {
+        "meaning": "formally sent out or made known.",
+        "pos": "verb"
+      },
+      "serious": {
+        "meaning": "important, not trivial, or causing concern.",
+        "pos": "adjective"
+      },
+      "advanced": {
+        "meaning": "highly developed or complex.",
+        "pos": "adjective"
+      },
+      "significantly": {
+        "meaning": "in an important or noticeable manner.",
+        "pos": "adverb"
+      },
+      "threaten": {
+        "meaning": "to be a danger to something or someone.",
+        "pos": "verb"
+      },
+      "global": {
+        "meaning": "relating to the whole world.",
+        "pos": "adjective"
+      },
+      "cutting-edge": {
+        "meaning": "highly advanced or innovative.",
+        "pos": "adjective"
+      },
+      "frontier": {
+        "meaning": "relating to the newest or most advanced area of development.",
+        "pos": "adjective"
+      },
+      "introduce": {
+        "meaning": "to bring something into use or existence for the first time.",
+        "pos": "verb"
+      },
+      "complex": {
+        "meaning": "consisting of many different and connected parts.",
+        "pos": "adjective"
+      },
+      "systemic": {
+        "meaning": "relating to a system as a whole, rather than to particular parts.",
+        "pos": "adjective"
+      },
+      "highlighted": {
+        "meaning": "drew attention to something important.",
+        "pos": "verb"
+      },
+      "material": {
+        "meaning": "significant or important enough to affect a decision.",
+        "pos": "adjective"
+      },
+      "cyber": {
+        "meaning": "relating to computers, information technology, and virtual reality.",
+        "pos": "adjective"
+      },
+      "initiating": {
+        "meaning": "causing something to begin.",
+        "pos": "verb"
+      },
+      "sophisticated": {
+        "meaning": "highly developed and intricate.",
+        "pos": "adjective"
+      },
+      "over-reliance": {
+        "meaning": "depending too much on a particular person or thing.",
+        "pos": "noun"
+      },
+      "dominant": {
+        "meaning": "more important, powerful, or successful than others.",
+        "pos": "adjective"
+      },
+      "vulnerabilities": {
+        "meaning": "weaknesses that could be exploited or harmed.",
+        "pos": "noun"
+      },
+      "regulators": {
+        "meaning": "official bodies that control an industry or system.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "resilience": {
+        "meaning": "the ability to recover quickly from difficulties.",
+        "pos": "noun"
+      },
+      "mitigating": {
+        "meaning": "making something less severe, serious, or painful.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: According to Andrew Bailey, what specific type of risk is materially increased by advanced AI models in the financial system?",
+      "Q2: Explain what \"systemic vulnerabilities\" means in the context of the passage, and why the concentration of AI providers could create them.",
+      "Q3: As a fintech professional, what do you think are the most critical steps financial institutions should take to address AI-related risks while still leveraging its benefits?"
+    ],
+    "modelAnswers": [
+      "A1: Andrew Bailey highlighted a material increase in cyber risks to the financial system due to advanced AI models.",
+      "A2: \"Systemic vulnerabilities\" refer to weaknesses that could affect the entire financial system if a single point of failure or attack is exploited. The concentration of AI providers could create these if many institutions rely on the same few systems, making them all susceptible to similar issues.",
+      "A3: Financial institutions should invest heavily in AI ethics and security research, establish clear regulatory guidelines for AI use, and promote diversification of AI models and providers to avoid over-reliance. Balancing innovation with robust risk management is key."
+    ]
+  },
+  {
+    "id": "ec-2026-09-02-3",
+    "date": "2026-09-02",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "핀테크 플랫폼 Kalshi와 Alpaca의 파트너십 소식을 통해 예측 시장과 글로벌 금융 인프라에 대한 이해를 넓혀보세요.",
+    "url": "https://www.cnbc.com/2026/08/31/kalshi-looks-international-partners-with-brokerage-alpaca.html",
+    "title": "Kalshi Partners Alpaca for Global Reach",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Kalshi, an innovative prediction market platform, is actively expanding its global reach. It has formed a strategic partnership with Alpaca, a prominent financial infrastructure and brokerage startup. This significant collaboration aims to bring Kalshi's unique event contracts to a wider international investor base. Prediction markets fundamentally allow users to speculate and bet on various real-world outcomes. These outcomes often include important economic data releases or significant political events. Alpaca's crucial role involves providing the necessary brokerage services for these transactions. They also offer the underlying technological and financial infrastructure that supports the platform. The partnership clearly signifies a rapidly growing trend within the dynamic fintech sector. It demonstrates a strong desire to democratize access to diverse and unconventional investment opportunities. This strategic move could introduce novel ways for international audiences to engage with financial markets. Moreover, it highlights the paramount importance of robust technological foundations in modern finance. Such innovations are reshaping how individuals participate in market predictions.",
+    "sentences": [
+      {
+        "en": "Kalshi, an innovative prediction market platform, is actively expanding its global reach.",
+        "ko": "혁신적인 예측 시장 플랫폼인 Kalshi가 전 세계적으로 영향력을 적극적으로 확대하고 있습니다."
+      },
+      {
+        "en": "It has formed a strategic partnership with Alpaca, a prominent financial infrastructure and brokerage startup.",
+        "ko": "이 회사는 저명한 금융 인프라 및 중개 스타트업인 Alpaca와 전략적 파트너십을 맺었습니다."
+      },
+      {
+        "en": "This significant collaboration aims to bring Kalshi's unique event contracts to a wider international investor base.",
+        "ko": "이 중요한 협력은 Kalshi의 독특한 이벤트 계약을 더 넓은 국제 투자자층에 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Prediction markets fundamentally allow users to speculate and bet on various real-world outcomes.",
+        "ko": "예측 시장은 기본적으로 사용자들이 다양한 실제 결과에 대해 투기하고 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "These outcomes often include important economic data releases or significant political events.",
+        "ko": "이러한 결과에는 종종 중요한 경제 데이터 발표나 중대한 정치적 사건들이 포함됩니다."
+      },
+      {
+        "en": "Alpaca's crucial role involves providing the necessary brokerage services for these transactions.",
+        "ko": "Alpaca의 핵심 역할은 이러한 거래에 필요한 중개 서비스를 제공하는 것입니다."
+      },
+      {
+        "en": "They also offer the underlying technological and financial infrastructure that supports the platform.",
+        "ko": "또한 Alpaca는 플랫폼을 지원하는 근본적인 기술 및 금융 인프라를 제공합니다."
+      },
+      {
+        "en": "The partnership clearly signifies a rapidly growing trend within the dynamic fintech sector.",
+        "ko": "이 파트너십은 역동적인 핀테크 부문 내에서 빠르게 성장하는 추세를 명확히 보여줍니다."
+      },
+      {
+        "en": "It demonstrates a strong desire to democratize access to diverse and unconventional investment opportunities.",
+        "ko": "이는 다양하고 비전통적인 투자 기회에 대한 접근을 민주화하려는 강한 의지를 보여줍니다."
+      },
+      {
+        "en": "This strategic move could introduce novel ways for international audiences to engage with financial markets.",
+        "ko": "이러한 전략적 움직임은 국제 청중이 금융 시장에 참여할 수 있는 새로운 방법을 제시할 수 있습니다."
+      },
+      {
+        "en": "Moreover, it highlights the paramount importance of robust technological foundations in modern finance.",
+        "ko": "더욱이, 이는 현대 금융에서 강력한 기술적 기반의 최고 중요성을 강조합니다."
+      },
+      {
+        "en": "Such innovations are reshaping how individuals participate in market predictions.",
+        "ko": "이러한 혁신은 개인이 시장 예측에 참여하는 방식을 재편하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "innovative": {
+        "meaning": "introducing new ideas or methods; original and creative.",
+        "pos": "adjective"
+      },
+      "platform": {
+        "meaning": "a system that allows users to access and interact with services.",
+        "pos": "noun"
+      },
+      "actively": {
+        "meaning": "in a way that involves doing something rather than just thinking or watching.",
+        "pos": "adverb"
+      },
+      "expanding": {
+        "meaning": "increasing in size, amount, or scope.",
+        "pos": "verb"
+      },
+      "strategic": {
+        "meaning": "relating to the planning and direction of operations.",
+        "pos": "adjective"
+      },
+      "partnership": {
+        "meaning": "an arrangement where two or more parties cooperate to advance their mutual interests.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important or well-known.",
+        "pos": "adjective"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "brokerage": {
+        "meaning": "the business of a broker; a company that buys and sells stocks, bonds, etc., for customers.",
+        "pos": "noun"
+      },
+      "collaboration": {
+        "meaning": "the action of working with someone to produce something.",
+        "pos": "noun"
+      },
+      "unique": {
+        "meaning": "being the only one of its kind; unusually special.",
+        "pos": "adjective"
+      },
+      "event": {
+        "meaning": "a planned public or social occasion.",
+        "pos": "noun"
+      },
+      "contracts": {
+        "meaning": "formal and legally binding agreements.",
+        "pos": "noun"
+      },
+      "investor": {
+        "meaning": "a person or organization that puts money into financial schemes with expected profit.",
+        "pos": "noun"
+      },
+      "fundamentally": {
+        "meaning": "in a basic and important way.",
+        "pos": "adverb"
+      },
+      "speculate": {
+        "meaning": "to form a theory or conjecture about a subject without firm evidence.",
+        "pos": "verb"
+      },
+      "outcomes": {
+        "meaning": "the way a thing turns out; a consequence.",
+        "pos": "noun"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something; business deals.",
+        "pos": "noun"
+      },
+      "dynamic": {
+        "meaning": "characterized by constant change, activity, or progress.",
+        "pos": "adjective"
+      },
+      "democratize": {
+        "meaning": "to make something accessible to everyone.",
+        "pos": "verb"
+      },
+      "diverse": {
+        "meaning": "showing a great deal of variety; very different.",
+        "pos": "adjective"
+      },
+      "unconventional": {
+        "meaning": "not based on or conforming to what is generally done or believed.",
+        "pos": "adjective"
+      },
+      "novel": {
+        "meaning": "new and unusual in an interesting way.",
+        "pos": "adjective"
+      },
+      "paramount": {
+        "meaning": "more important than anything else; supreme.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What type of financial instruments does Kalshi offer to investors, and what do they allow users to do?",
+      "Q2: What does \"democratize access to diverse investment opportunities\" mean in the context of this partnership, and how does it relate to the fintech sector?",
+      "Q3: As a fintech PM, what do you think are the main benefits and potential challenges of prediction markets becoming more widely accessible to global investors?"
+    ],
+    "modelAnswers": [
+      "A1: Kalshi offers \"event contracts\" which allow users to bet on real-world outcomes, such as economic data releases or political events.",
+      "A2: It means making a variety of investment options available to a broader range of people, not just institutional or wealthy investors. In fintech, this relates to using technology to lower barriers to entry for financial services.",
+      "A3: Benefits include increased market efficiency and new hedging tools. Challenges involve regulatory complexities across different jurisdictions, potential for manipulation, and ensuring investor protection, especially for less sophisticated global investors."
+    ]
+  },
+  {
     "id": "cd-2026-09-01-1",
     "date": "2026-09-01",
     "rank": 1,
