@@ -1,5 +1,889 @@
 [
   {
+    "id": "cd-2026-09-01-1",
+    "date": "2026-09-01",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "뉴욕증권거래소(NYSE)의 모기업 ICE가 토큰화된 증권 시장 확대를 위해 tZERO와 협력하며, 토큰화에 대한 PM의 관심사를 정확히 겨냥합니다.",
+    "url": "https://www.coindesk.com/business/2026/08/31/nyse-owner-ice-taps-tzero-for-tokenized-securities-push-takes-stake-in-firm",
+    "title": "NYSE Owner ICE Pushes Tokenized Securities with tZERO",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Intercontinental Exchange (ICE), owner of the NYSE, is advancing its tokenization strategy. ICE has partnered with tZERO, a leading platform for tokenized securities. This collaboration involves ICE acquiring a stake in tZERO. The goal is to build an NYSE-affiliated market for tokenized stocks. This deal will integrate transfer-agent and settlement infrastructure. Tokenization aims to make traditional assets more efficient and accessible. It leverages blockchain technology to streamline processes. This move signifies a major step for traditional finance into digital assets. Fintech product managers should observe this trend closely. It could reshape capital markets and investment opportunities.",
+    "sentences": [
+      {
+        "en": "Intercontinental Exchange (ICE), owner of the NYSE, is advancing its tokenization strategy.",
+        "ko": "뉴욕증권거래소(NYSE)의 소유주인 인터컨티넨탈 익스체인지(ICE)가 토큰화 전략을 추진하고 있습니다."
+      },
+      {
+        "en": "ICE has partnered with tZERO, a leading platform for tokenized securities.",
+        "ko": "ICE는 토큰화된 증권 분야의 선도적인 플랫폼인 tZERO와 파트너십을 맺었습니다."
+      },
+      {
+        "en": "This collaboration involves ICE acquiring a stake in tZERO.",
+        "ko": "이번 협력에는 ICE가 tZERO의 지분을 인수하는 것이 포함됩니다."
+      },
+      {
+        "en": "The goal is to build an NYSE-affiliated market for tokenized stocks.",
+        "ko": "목표는 토큰화된 주식을 위한 NYSE 계열 시장을 구축하는 것입니다."
+      },
+      {
+        "en": "This deal will integrate transfer-agent and settlement infrastructure.",
+        "ko": "이 거래는 양도 대행 및 결제 인프라를 통합할 것입니다."
+      },
+      {
+        "en": "Tokenization aims to make traditional assets more efficient and accessible.",
+        "ko": "토큰화는 전통 자산을 더욱 효율적이고 접근 가능하게 만드는 것을 목표로 합니다."
+      },
+      {
+        "en": "It leverages blockchain technology to streamline processes.",
+        "ko": "이는 블록체인 기술을 활용하여 프로세스를 간소화합니다."
+      },
+      {
+        "en": "This move signifies a major step for traditional finance into digital assets.",
+        "ko": "이러한 움직임은 전통 금융이 디지털 자산으로 나아가는 중요한 단계를 의미합니다."
+      },
+      {
+        "en": "Fintech product managers should observe this trend closely.",
+        "ko": "핀테크 제품 관리자들은 이 추세를 면밀히 관찰해야 합니다."
+      },
+      {
+        "en": "It could reshape capital markets and investment opportunities.",
+        "ko": "이는 자본 시장과 투자 기회를 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "advancing": {
+        "meaning": "making progress or developing towards a more modern or advanced state.",
+        "pos": "verb"
+      },
+      "tokenization": {
+        "meaning": "the process of converting a real-world asset into a digital token on a blockchain.",
+        "pos": "noun"
+      },
+      "strategy": {
+        "meaning": "a carefully planned long-term approach to achieve a specific goal.",
+        "pos": "noun"
+      },
+      "partnered": {
+        "meaning": "formed a collaboration or alliance with another person or group.",
+        "pos": "verb"
+      },
+      "leading": {
+        "meaning": "being the most important, successful, or advanced in a particular field.",
+        "pos": "adjective"
+      },
+      "platform": {
+        "meaning": "a digital system or service that allows users to interact and conduct transactions.",
+        "pos": "noun"
+      },
+      "collaboration": {
+        "meaning": "the action of working jointly with others to produce or create something.",
+        "pos": "noun"
+      },
+      "acquiring": {
+        "meaning": "the act of buying or obtaining an asset or object.",
+        "pos": "verb"
+      },
+      "stake": {
+        "meaning": "a financial interest or share in a business or enterprise.",
+        "pos": "noun"
+      },
+      "affiliated": {
+        "meaning": "officially connected or associated with a larger organization or group.",
+        "pos": "adjective"
+      },
+      "market": {
+        "meaning": "a place or system where goods, services, or securities are bought and sold.",
+        "pos": "noun"
+      },
+      "integrate": {
+        "meaning": "to combine one thing with another so that they become a complete whole.",
+        "pos": "verb"
+      },
+      "transfer-agent": {
+        "meaning": "a company responsible for recording changes of ownership of a company's shares.",
+        "pos": "noun"
+      },
+      "settlement": {
+        "meaning": "the process of officially completing a financial transaction, often involving payment and delivery.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures needed for the operation of a system.",
+        "pos": "noun"
+      },
+      "efficient": {
+        "meaning": "achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "adjective"
+      },
+      "accessible": {
+        "meaning": "easy to approach, enter, use, or understand.",
+        "pos": "adjective"
+      },
+      "leverages": {
+        "meaning": "uses something to maximum advantage or effect.",
+        "pos": "verb"
+      },
+      "blockchain": {
+        "meaning": "a decentralized, distributed ledger technology used for securely recording transactions.",
+        "pos": "noun"
+      },
+      "streamline": {
+        "meaning": "to make an organization or system more efficient and effective.",
+        "pos": "verb"
+      },
+      "signifies": {
+        "meaning": "to be an indication or symbol of something.",
+        "pos": "verb"
+      },
+      "reshape": {
+        "meaning": "to give a new or different form or structure to something.",
+        "pos": "verb"
+      },
+      "opportunities": {
+        "meaning": "favorable circumstances that make it possible to do something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Which company, owner of the NYSE, is partnering with tZERO, and what specific type of infrastructure will this deal integrate according to the passage?",
+      "Q2: The passage states that tokenization \"leverages blockchain technology to streamline processes.\" Explain what \"streamline processes\" means in this context and how blockchain contributes to it for traditional assets.",
+      "Q3: Do you believe tokenized securities will eventually replace traditional stocks and bonds, or will they coexist as a niche market? What are the biggest benefits or challenges you foresee for their widespread adoption? Answer in 2-3 sentences."
+    ],
+    "modelAnswers": [
+      "A1: Intercontinental Exchange (ICE), owner of the NYSE, is partnering with tZERO. This deal will integrate transfer-agent and settlement infrastructure.",
+      "A2: \"Streamline processes\" means making operations more efficient, faster, and simpler. Blockchain technology helps by providing a transparent, immutable ledger for ownership and transactions, reducing the need for intermediaries and manual reconciliation, thus speeding up settlement and reducing costs for traditional assets.",
+      "A3: Tokenized securities are more likely to coexist with traditional assets, at least initially, offering niche benefits like fractional ownership and increased liquidity for illiquid assets. The biggest challenges are regulatory clarity and interoperability with existing financial systems."
+    ]
+  },
+  {
+    "id": "cd-2026-09-01-2",
+    "date": "2026-09-01",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "러시아 최대 은행 스베르방크가 암호화폐 담보 대출에 이더리움과 USDT를 추가할 계획이며, 이는 스테이블코인과 규제 동향에 관심 있는 PM에게 중요한 소식입니다.",
+    "url": "https://www.coindesk.com/business/2026/08/31/sberbank-plans-to-add-ether-and-usdt-as-collateral-for-crypto-backed-loans",
+    "title": "Sberbank to Accept Ether, USDT as Loan Collateral",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Sberbank, Russia's largest bank, plans to expand its crypto-backed loan offerings. The bank intends to accept Ether (ETH) and USDT as collateral for these loans. USDT is a prominent stablecoin, pegged to the U.S. dollar. This move follows approval from the Bank of Russia. The central bank recently listed ETH and USDT for public trading on Russian exchanges. This development signifies increasing institutional adoption of digital assets. It also highlights the growing utility of stablecoins within traditional finance. Such integrations could bridge the gap between conventional banking and crypto. Regulatory clarity is crucial for the broader expansion of these services. This trend is important for fintech professionals monitoring market evolution.",
+    "sentences": [
+      {
+        "en": "Sberbank, Russia's largest bank, plans to expand its crypto-backed loan offerings.",
+        "ko": "러시아 최대 은행인 스베르방크가 암호화폐 담보 대출 상품을 확대할 계획입니다."
+      },
+      {
+        "en": "The bank intends to accept Ether (ETH) and USDT as collateral for these loans.",
+        "ko": "이 은행은 이러한 대출에 이더리움(ETH)과 USDT를 담보로 받아들일 예정입니다."
+      },
+      {
+        "en": "USDT is a prominent stablecoin, pegged to the U.S. dollar.",
+        "ko": "USDT는 미국 달러에 고정된 대표적인 스테이블코인입니다."
+      },
+      {
+        "en": "This move follows approval from the Bank of Russia.",
+        "ko": "이러한 움직임은 러시아 중앙은행의 승인에 따른 것입니다."
+      },
+      {
+        "en": "The central bank recently listed ETH and USDT for public trading on Russian exchanges.",
+        "ko": "중앙은행은 최근 러시아 거래소에서 ETH와 USDT의 공개 거래를 승인했습니다."
+      },
+      {
+        "en": "This development signifies increasing institutional adoption of digital assets.",
+        "ko": "이러한 발전은 디지털 자산의 기관 채택이 증가하고 있음을 의미합니다."
+      },
+      {
+        "en": "It also highlights the growing utility of stablecoins within traditional finance.",
+        "ko": "또한 전통 금융 내에서 스테이블코인의 유용성이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "Such integrations could bridge the gap between conventional banking and crypto.",
+        "ko": "이러한 통합은 기존 은행과 암호화폐 간의 격차를 해소할 수 있습니다."
+      },
+      {
+        "en": "Regulatory clarity is crucial for the broader expansion of these services.",
+        "ko": "이러한 서비스의 광범위한 확장을 위해서는 규제 명확성이 중요합니다."
+      },
+      {
+        "en": "This trend is important for fintech professionals monitoring market evolution.",
+        "ko": "이러한 추세는 시장 진화를 주시하는 핀테크 전문가들에게 중요합니다."
+      }
+    ],
+    "glossary": {
+      "sberbank": {
+        "meaning": "Russia's largest state-owned banking and financial services company.",
+        "pos": "noun"
+      },
+      "expand": {
+        "meaning": "to make something larger or more extensive in scope or size.",
+        "pos": "verb"
+      },
+      "offerings": {
+        "meaning": "the products or services provided by a company or organization.",
+        "pos": "noun"
+      },
+      "intends": {
+        "meaning": "has a plan or purpose in mind to do something.",
+        "pos": "verb"
+      },
+      "accept": {
+        "meaning": "to receive something willingly or agree to something.",
+        "pos": "verb"
+      },
+      "collateral": {
+        "meaning": "property or assets pledged as security for a loan to ensure repayment.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important, well-known, or easily noticeable.",
+        "pos": "adjective"
+      },
+      "stablecoin": {
+        "meaning": "a cryptocurrency designed to maintain a stable value, often pegged to fiat currency.",
+        "pos": "noun"
+      },
+      "pegged": {
+        "meaning": "fixed at a particular level or value, often in relation to another currency.",
+        "pos": "verb"
+      },
+      "approval": {
+        "meaning": "the act of officially agreeing to something or giving permission.",
+        "pos": "noun"
+      },
+      "listed": {
+        "meaning": "included in a register, directory, or official record.",
+        "pos": "verb"
+      },
+      "signifies": {
+        "meaning": "to be an indication or symbol of something.",
+        "pos": "verb"
+      },
+      "institutional": {
+        "meaning": "relating to a large, established organization, like a bank or investment firm.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "the action of formally choosing or taking up something new.",
+        "pos": "noun"
+      },
+      "utility": {
+        "meaning": "the state of being useful, practical, or beneficial.",
+        "pos": "noun"
+      },
+      "integrations": {
+        "meaning": "the process of combining two or more things into an effective whole.",
+        "pos": "noun"
+      },
+      "bridge": {
+        "meaning": "to connect or reduce the gap between two different things.",
+        "pos": "verb"
+      },
+      "conventional": {
+        "meaning": "based on or in accordance with what is generally done or believed.",
+        "pos": "adjective"
+      },
+      "clarity": {
+        "meaning": "the quality of being easy to understand or precise.",
+        "pos": "noun"
+      },
+      "broader": {
+        "meaning": "covering a large number of subjects or areas; more extensive.",
+        "pos": "adjective"
+      },
+      "monitoring": {
+        "meaning": "observing and checking the progress or quality of something over time.",
+        "pos": "verb"
+      },
+      "evolution": {
+        "meaning": "the gradual development of something, especially from a simple to a more complex form.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What two specific cryptocurrencies does Sberbank plan to accept as collateral for its crypto-backed loans, and which regulatory body approved their public trading in Russia?",
+      "Q2: Explain the significance of Sberbank accepting USDT as collateral. How does this action relate to the concept of \"institutional adoption\" and \"utility of stablecoins\" mentioned in the passage?",
+      "Q3: Do you believe that traditional banks integrating more digital assets, like Sberbank is doing, will ultimately lead to a more stable financial system or introduce new risks? Justify your answer in 2-3 sentences."
+    ],
+    "modelAnswers": [
+      "A1: Sberbank plans to accept Ether (ETH) and USDT as collateral. The Bank of Russia approved their public trading on Russian exchanges.",
+      "A2: Sberbank accepting USDT as collateral is significant because it shows increasing \"institutional adoption,\" meaning major financial institutions are integrating digital assets. It also highlights the \"utility of stablecoins\" by demonstrating their practical use in traditional banking products like loans, bridging conventional finance with crypto.",
+      "A3: While integration could bring efficiency and innovation by bridging traditional and digital finance, it also introduces new risks like market volatility and regulatory complexities. Careful risk management and clear regulatory frameworks will be essential to ensure stability."
+    ]
+  },
+  {
+    "id": "cd-2026-09-01-3",
+    "date": "2026-09-01",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "북한 해커들이 암호화폐 플랫폼을 이용해 수천만 달러를 이동시키고 있다는 소식과 함께 트럼프 전 대통령의 플랫폼 국내화 추진이 이목을 끕니다.",
+    "url": "https://www.coindesk.com/business/2026/08/31/north-korean-hackers-are-moving-tens-of-millions-on-hyperliquid-as-trump-pushes-to-onshore-the-crypto-platform",
+    "title": "North Korean Hackers Use Hyperliquid, Trump Pushes Onshoring",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Blockchain data reveals North Korean hackers are actively moving significant crypto funds. The Lazarus Group, tied to North Korea, recently sold over $30 million in Bitcoin. This activity occurred on Hyperliquid, a decentralized perpetuals trading platform. Such movements highlight the persistent challenge of illicit finance in crypto. Former President Trump is also advocating for crypto platforms to operate onshore. This political push aims to enhance oversight and national security. It creates pressure for platforms to improve their compliance measures. These events underscore the complex interplay of technology, crime, and regulation. The crypto industry faces ongoing scrutiny regarding its role in global finance. Stronger safeguards are essential to prevent misuse of digital assets.",
+    "sentences": [
+      {
+        "en": "Blockchain data reveals North Korean hackers are actively moving significant crypto funds.",
+        "ko": "블록체인 데이터에 따르면 북한 해커들이 상당한 암호화폐 자금을 활발히 이동시키고 있습니다."
+      },
+      {
+        "en": "The Lazarus Group, tied to North Korea, recently sold over $30 million in Bitcoin.",
+        "ko": "북한과 연관된 라자루스 그룹은 최근 3천만 달러 이상의 비트코인을 매각했습니다."
+      },
+      {
+        "en": "This activity occurred on Hyperliquid, a decentralized perpetuals trading platform.",
+        "ko": "이러한 활동은 탈중앙화 무기한 선물 거래 플랫폼인 하이퍼리퀴드에서 발생했습니다."
+      },
+      {
+        "en": "Such movements highlight the persistent challenge of illicit finance in crypto.",
+        "ko": "이러한 자금 이동은 암호화폐 분야의 불법 금융이라는 지속적인 과제를 강조합니다."
+      },
+      {
+        "en": "Former President Trump is also advocating for crypto platforms to operate onshore.",
+        "ko": "트럼프 전 대통령 역시 암호화폐 플랫폼이 국내에서 운영되도록 주장하고 있습니다."
+      },
+      {
+        "en": "This political push aims to enhance oversight and national security.",
+        "ko": "이러한 정치적 추진은 감독과 국가 안보를 강화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It creates pressure for platforms to improve their compliance measures.",
+        "ko": "이는 플랫폼이 규정 준수 조치를 개선하도록 압력을 가합니다."
+      },
+      {
+        "en": "These events underscore the complex interplay of technology, crime, and regulation.",
+        "ko": "이러한 사건들은 기술, 범죄, 규제 사이의 복잡한 상호작용을 강조합니다."
+      },
+      {
+        "en": "The crypto industry faces ongoing scrutiny regarding its role in global finance.",
+        "ko": "암호화폐 산업은 글로벌 금융에서의 역할에 대해 지속적인 조사를 받고 있습니다."
+      },
+      {
+        "en": "Stronger safeguards are essential to prevent misuse of digital assets.",
+        "ko": "디지털 자산의 오용을 방지하기 위해서는 더욱 강력한 안전장치가 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "hackers": {
+        "meaning": "individuals who gain unauthorized access to computer systems, often for illicit purposes.",
+        "pos": "noun"
+      },
+      "actively": {
+        "meaning": "in a busy or energetic way, involving direct participation.",
+        "pos": "adverb"
+      },
+      "significant": {
+        "meaning": "large or important enough to be worthy of attention.",
+        "pos": "adjective"
+      },
+      "funds": {
+        "meaning": "amounts of money available for a particular purpose or from a particular source.",
+        "pos": "noun"
+      },
+      "lazarus": {
+        "meaning": "a notorious North Korean state-sponsored hacking group.",
+        "pos": "noun"
+      },
+      "sold": {
+        "meaning": "exchanged something for money, past tense of sell.",
+        "pos": "verb"
+      },
+      "decentralized": {
+        "meaning": "having no single central authority or control point.",
+        "pos": "adjective"
+      },
+      "perpetuals": {
+        "meaning": "a type of futures contract in crypto that has no expiration date.",
+        "pos": "noun"
+      },
+      "trading": {
+        "meaning": "the activity of buying and selling goods or services.",
+        "pos": "noun"
+      },
+      "platform": {
+        "meaning": "a system or service that allows users to interact and conduct transactions.",
+        "pos": "noun"
+      },
+      "highlight": {
+        "meaning": "to draw special attention to something.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "continuing firmly or obstinately in a course of action in spite of difficulty.",
+        "pos": "adjective"
+      },
+      "illicit": {
+        "meaning": "forbidden by law, rules, or custom; illegal.",
+        "pos": "adjective"
+      },
+      "finance": {
+        "meaning": "the management of large amounts of money, especially by governments or large companies.",
+        "pos": "noun"
+      },
+      "advocating": {
+        "meaning": "publicly recommending or supporting a particular cause or policy.",
+        "pos": "verb"
+      },
+      "onshore": {
+        "meaning": "to move a business or process from a foreign country back to its home country.",
+        "pos": "verb"
+      },
+      "oversight": {
+        "meaning": "the action of overseeing something; supervision.",
+        "pos": "noun"
+      },
+      "compliance": {
+        "meaning": "the act of obeying an order, rule, or request.",
+        "pos": "noun"
+      },
+      "interplay": {
+        "meaning": "the way in which two or more things affect each other.",
+        "pos": "noun"
+      },
+      "scrutiny": {
+        "meaning": "critical observation or examination.",
+        "pos": "noun"
+      },
+      "misuse": {
+        "meaning": "the incorrect or improper use of something.",
+        "pos": "noun"
+      },
+      "assets": {
+        "meaning": "property owned by a person or company, regarded as having value.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, which specific group is linked to the recent movement of Bitcoin on Hyperliquid, and what was the approximate value of the Bitcoin sold?",
+      "Q2: The passage mentions \"illicit finance\" and \"compliance measures.\" Explain what these terms mean in the context of cryptocurrency platforms and why they are important for national security.",
+      "Q3: Do you think stricter regulations, like requiring crypto platforms to operate \"onshore,\" are effective in preventing illicit activities, or do they simply push bad actors to find other, less regulated avenues? Discuss your opinion in 2-3 sentences."
+    ],
+    "modelAnswers": [
+      "A1: The Lazarus Group, tied to North Korea, is linked to the recent movement of Bitcoin on Hyperliquid. They sold over $30 million in Bitcoin.",
+      "A2: \"Illicit finance\" refers to illegal money movements, such as money laundering or funding terrorism, using cryptocurrencies. \"Compliance measures\" are the rules and processes platforms implement to prevent such activities. These are crucial for national security to stop criminals and state-sponsored groups from using crypto for harmful purposes.",
+      "A3: While onshore regulations might increase oversight, they could also prompt bad actors to seek less regulated, offshore platforms or peer-to-peer methods. A global, coordinated regulatory approach might be more effective than isolated national efforts."
+    ]
+  },
+  {
+    "id": "ec-2026-09-01-1",
+    "date": "2026-09-01",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준 관계자의 금리 인상 시사 발언이 시장의 논쟁을 불러일으키고 있습니다.",
+    "url": "https://www.cnbc.com/2026/08/31/jackson-hole-fed-chair-kevin-warsh-hawkish-rate-hikes-analysts.html",
+    "title": "Fed Official Hints at Rate Hike, Stirring Market Debate",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Federal Reserve official Kevin Warsh recently delivered a speech at the influential Jackson Hole symposium. His remarks strongly suggested the possibility of an interest rate hike as early as September. This notably hawkish stance significantly reinforced market expectations for a tighter monetary policy approach. Consequently, investors are now very closely observing the upcoming Federal Open Market Committee meeting. Warsh also publicly emphasized the critical need for the central bank to adopt a \"quieter\" communication style. He expressed serious concerns regarding the persistent threat of rising inflation in the economy. However, not all financial analysts are entirely convinced that a September rate hike is absolutely guaranteed. They argue that the economic path toward such a significant monetary policy adjustment remains quite complicated. Furthermore, a swift rate hike could potentially place the Federal Reserve at odds with the Treasury Department's objectives. This complex situation clearly highlights the ongoing, crucial debate about the nation's economic stability and future direction.",
+    "sentences": [
+      {
+        "en": "Federal Reserve official Kevin Warsh recently delivered a speech at the influential Jackson Hole symposium.",
+        "ko": "연방준비제도 관계자 케빈 워시가 최근 영향력 있는 잭슨홀 심포지엄에서 연설했습니다."
+      },
+      {
+        "en": "His remarks strongly suggested the possibility of an interest rate hike as early as September.",
+        "ko": "그의 발언은 이르면 9월에 금리 인상이 있을 가능성을 강력히 시사했습니다."
+      },
+      {
+        "en": "This notably hawkish stance significantly reinforced market expectations for a tighter monetary policy approach.",
+        "ko": "이러한 매파적 입장은 더욱 긴축적인 통화 정책 접근 방식에 대한 시장의 기대를 크게 강화했습니다."
+      },
+      {
+        "en": "Consequently, investors are now very closely observing the upcoming Federal Open Market Committee meeting.",
+        "ko": "결과적으로 투자자들은 다가오는 연방공개시장위원회 회의를 매우 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Warsh also publicly emphasized the critical need for the central bank to adopt a \"quieter\" communication style.",
+        "ko": "워시는 또한 중앙은행이 \"더 조용한\" 소통 방식을 채택할 필요성을 공개적으로 강조했습니다."
+      },
+      {
+        "en": "He expressed serious concerns regarding the persistent threat of rising inflation in the economy.",
+        "ko": "그는 경제의 지속적인 인플레이션 상승 위협에 대해 심각한 우려를 표명했습니다."
+      },
+      {
+        "en": "However, not all financial analysts are entirely convinced that a September rate hike is absolutely guaranteed.",
+        "ko": "하지만 모든 금융 분석가들이 9월 금리 인상이 확실히 보장된다고 전적으로 확신하는 것은 아닙니다."
+      },
+      {
+        "en": "They argue that the economic path toward such a significant monetary policy adjustment remains quite complicated.",
+        "ko": "그들은 그러한 중요한 통화 정책 조정으로 가는 경제적 경로가 여전히 상당히 복잡하다고 주장합니다."
+      },
+      {
+        "en": "Furthermore, a swift rate hike could potentially place the Federal Reserve at odds with the Treasury Department's objectives.",
+        "ko": "더욱이 급격한 금리 인상은 연방준비제도를 재무부의 목표와 충돌하게 만들 수 있습니다."
+      },
+      {
+        "en": "This complex situation clearly highlights the ongoing, crucial debate about the nation's economic stability and future direction.",
+        "ko": "이 복잡한 상황은 국가의 경제 안정과 미래 방향에 대한 현재 진행 중인 중요한 논쟁을 명확히 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "official": {
+        "meaning": "A person holding a position of authority in a government or organization.",
+        "pos": "noun"
+      },
+      "symposium": {
+        "meaning": "A formal meeting where experts discuss a particular academic subject.",
+        "pos": "noun"
+      },
+      "suggested": {
+        "meaning": "To put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Possible to happen or develop in the future.",
+        "pos": "adjective"
+      },
+      "hike": {
+        "meaning": "A significant increase, especially in prices, taxes, or rates.",
+        "pos": "noun"
+      },
+      "hawkish": {
+        "meaning": "Advocating for an aggressive monetary policy to control inflation.",
+        "pos": "adjective"
+      },
+      "stance": {
+        "meaning": "A particular way of thinking or position on a certain issue.",
+        "pos": "noun"
+      },
+      "reinforced": {
+        "meaning": "To strengthen or give more support to an idea or belief.",
+        "pos": "verb"
+      },
+      "expectations": {
+        "meaning": "Strong beliefs about what will happen in the future.",
+        "pos": "noun"
+      },
+      "tighter": {
+        "meaning": "More restrictive or controlled, especially regarding money availability.",
+        "pos": "adjective"
+      },
+      "investors": {
+        "meaning": "Individuals or groups who put money into financial schemes to gain profit.",
+        "pos": "noun"
+      },
+      "closely": {
+        "meaning": "With careful attention or observation.",
+        "pos": "adverb"
+      },
+      "emphasized": {
+        "meaning": "To give special importance or prominence to something.",
+        "pos": "verb"
+      },
+      "quieter": {
+        "meaning": "Less active or less vocal in public statements or actions.",
+        "pos": "adjective"
+      },
+      "concerns": {
+        "meaning": "Feelings of worry or anxiety about a particular matter.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and a fall in purchasing power.",
+        "pos": "noun"
+      },
+      "analysts": {
+        "meaning": "Experts who examine data to understand trends or make predictions.",
+        "pos": "noun"
+      },
+      "convinced": {
+        "meaning": "Completely certain about an idea or situation.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What specific actions or statements by Kevin Warsh led to market expectations of a potential rate hike?",
+      "The passage mentions \"hawkish stance\" and \"tighter monetary policy.\" Explain what these terms mean in the context of central banking.",
+      "How might a potential conflict between the Federal Reserve and the Treasury Department, as hinted in the article, affect the broader economy or financial markets?"
+    ],
+    "modelAnswers": [
+      "Kevin Warsh's remarks at the Jackson Hole symposium strongly suggested the possibility of an interest rate hike in September. He also publicly emphasized the need for the central bank to be \"quieter\" and expressed concerns about rising inflation.",
+      "A \"hawkish stance\" refers to a central bank's aggressive policy approach, typically focused on combating inflation by raising interest rates. \"Tighter monetary policy\" means the central bank is reducing the money supply and making credit more expensive, usually to cool down an overheating economy.",
+      "A conflict could create uncertainty, making investors hesitant. It might lead to inconsistent economic signals and potentially hinder effective policy responses to economic challenges. This could result in market volatility or slower economic growth."
+    ]
+  },
+  {
+    "id": "ec-2026-09-01-2",
+    "date": "2026-09-01",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "영국 중앙은행 총재가 G20에 인공지능(AI) 관련 위험을 경고했습니다.",
+    "url": "https://www.theguardian.com/business/2026/aug/31/advanced-frontier-ai-financial-stability-andrew-bailey-g20",
+    "title": "Bank of England Warns G20 About AI Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Andrew Bailey, the esteemed Governor of the Bank of England, recently delivered a crucial address at the G20 summit. He issued a stark warning regarding the significant global risks potentially posed by advanced artificial intelligence technologies. Bailey specifically highlighted the inherent potential for sophisticated AI models to destabilize the entire financial system. His primary concerns encompass a broad range of issues, including heightened cyber risks and critical operational vulnerabilities. These highly advanced AI systems could unexpectedly generate severe \"volatility\" across various global financial markets. The Governor strongly emphasized the urgent need for robust international cooperation concerning comprehensive AI regulation. He stressed that financial stability watchdogs globally must adopt a much more proactive stance in addressing these new threats. This significant warning contributes to a rapidly growing chorus of expert voices expressing concerns about AI's broader societal impact. The technology's incredibly rapid development simultaneously presents both immense opportunities and complex regulatory challenges. Consequently, financial regulators worldwide are now actively grappling with the challenging task of effectively managing these emerging risks.",
+    "sentences": [
+      {
+        "en": "Andrew Bailey, the esteemed Governor of the Bank of England, recently delivered a crucial address at the G20 summit.",
+        "ko": "영국 중앙은행의 앤드루 베일리 총재가 최근 G20 정상회의에서 중요한 연설을 했습니다."
+      },
+      {
+        "en": "He issued a stark warning regarding the significant global risks potentially posed by advanced artificial intelligence technologies.",
+        "ko": "그는 고도화된 인공지능 기술이 초래할 수 있는 심각한 글로벌 위험에 대해 강력한 경고를 발표했습니다."
+      },
+      {
+        "en": "Bailey specifically highlighted the inherent potential for sophisticated AI models to destabilize the entire financial system.",
+        "ko": "베일리 총재는 특히 정교한 AI 모델이 전체 금융 시스템을 불안정하게 만들 수 있는 내재된 잠재력을 강조했습니다."
+      },
+      {
+        "en": "His primary concerns encompass a broad range of issues, including heightened cyber risks and critical operational vulnerabilities.",
+        "ko": "그의 주요 우려 사항에는 고조된 사이버 위험과 중요한 운영 취약성을 포함한 광범위한 문제들이 있습니다."
+      },
+      {
+        "en": "These highly advanced AI systems could unexpectedly generate severe \"volatility\" across various global financial markets.",
+        "ko": "이러한 고도로 발전된 AI 시스템은 다양한 글로벌 금융 시장에 예상치 못한 심각한 \"변동성\"을 유발할 수 있습니다."
+      },
+      {
+        "en": "The Governor strongly emphasized the urgent need for robust international cooperation concerning comprehensive AI regulation.",
+        "ko": "총재는 포괄적인 AI 규제와 관련하여 강력한 국제 협력이 시급히 필요하다고 강력히 강조했습니다."
+      },
+      {
+        "en": "He stressed that financial stability watchdogs globally must adopt a much more proactive stance in addressing these new threats.",
+        "ko": "그는 전 세계 금융 안정성 감시 기관들이 이러한 새로운 위협에 대처하는 데 훨씬 더 선제적인 입장을 취해야 한다고 역설했습니다."
+      },
+      {
+        "en": "This significant warning contributes to a rapidly growing chorus of expert voices expressing concerns about AI's broader societal impact.",
+        "ko": "이러한 중요한 경고는 AI의 더 넓은 사회적 영향에 대한 우려를 표명하는 전문가들의 목소리가 빠르게 커지는 데 기여합니다."
+      },
+      {
+        "en": "The technology's incredibly rapid development simultaneously presents both immense opportunities and complex regulatory challenges.",
+        "ko": "이 기술의 놀랍도록 빠른 발전은 동시에 엄청난 기회와 복잡한 규제 과제를 모두 제시합니다."
+      },
+      {
+        "en": "Consequently, financial regulators worldwide are now actively grappling with the challenging task of effectively managing these emerging risks.",
+        "ko": "결과적으로 전 세계 금융 규제 기관들은 이러한 새로운 위험을 효과적으로 관리하는 어려운 과제와 적극적으로 씨름하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "governor": {
+        "meaning": "The head of a public institution, such as a central bank.",
+        "pos": "noun"
+      },
+      "addressed": {
+        "meaning": "To formally speak to a group of people.",
+        "pos": "verb"
+      },
+      "g20": {
+        "meaning": "A major international forum for governments and central bank governors.",
+        "pos": "noun"
+      },
+      "summit": {
+        "meaning": "A high-level meeting between government leaders.",
+        "pos": "noun"
+      },
+      "warned": {
+        "meaning": "To tell someone about a potential danger or problem.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important, large, or notable.",
+        "pos": "adjective"
+      },
+      "risks": {
+        "meaning": "Situations involving exposure to danger or potential loss.",
+        "pos": "noun"
+      },
+      "posed": {
+        "meaning": "To present a problem or difficulty.",
+        "pos": "verb"
+      },
+      "advanced": {
+        "meaning": "Highly developed or complex.",
+        "pos": "adjective"
+      },
+      "destabilize": {
+        "meaning": "To make something unstable or cause it to lose balance.",
+        "pos": "verb"
+      },
+      "operational": {
+        "meaning": "Relating to the normal functioning of a business or system.",
+        "pos": "adjective"
+      },
+      "vulnerabilities": {
+        "meaning": "Weaknesses that could be exploited or harmed.",
+        "pos": "noun"
+      },
+      "volatility": {
+        "meaning": "The tendency of prices or markets to change rapidly.",
+        "pos": "noun"
+      },
+      "emphasized": {
+        "meaning": "To give special importance or prominence to something.",
+        "pos": "verb"
+      },
+      "cooperation": {
+        "meaning": "The process of working together to achieve a shared goal.",
+        "pos": "noun"
+      },
+      "regulation": {
+        "meaning": "Rules or laws made by an authority to control behavior.",
+        "pos": "noun"
+      },
+      "watchdogs": {
+        "meaning": "Groups that monitor activities to ensure fairness and legality.",
+        "pos": "noun"
+      },
+      "proactively": {
+        "meaning": "By taking action to prevent problems rather than reacting.",
+        "pos": "adverb"
+      },
+      "grappling": {
+        "meaning": "To struggle to deal with a problem or difficulty.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "According to Andrew Bailey, what are the primary risks that advanced AI technologies pose to the financial system?",
+      "Explain the significance of \"international cooperation\" and \"proactive stance\" in the context of regulating AI for financial stability.",
+      "As a fintech PM, how do you think your industry should balance the opportunities and challenges presented by rapid AI development?"
+    ],
+    "modelAnswers": [
+      "Andrew Bailey warned that advanced AI technologies could destabilize the financial system. His primary concerns include heightened cyber risks, critical operational vulnerabilities, and the potential for these systems to generate severe volatility across global financial markets.",
+      "\"International cooperation\" is crucial because AI risks, like cyber threats, transcend national borders, requiring a unified global approach to regulation. A \"proactive stance\" means anticipating potential problems and implementing safeguards before they cause significant harm, rather than reacting after a crisis.",
+      "Fintech should embrace AI's opportunities for innovation, efficiency, and personalized services, but integrate robust risk management frameworks from the outset. This includes investing in AI ethics, cybersecurity, and regulatory compliance, ensuring responsible development and deployment to maintain trust and stability."
+    ]
+  },
+  {
+    "id": "ec-2026-09-01-3",
+    "date": "2026-09-01",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "예측 시장 플랫폼인 폴리마켓이 210억 달러의 기업 가치로 투자를 유치했습니다.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcV9hUzdqVDFfemdTZFR6NFZrdlRNbUd6WjZvVENjZXhCWkQwbWs3bGdqNTFrOThrc2tLNTQ1cFg1RFl3bzBsNWl1bFk4a05ib09mWXpzTGpCRWhiV3p2cmVnWkNEWnoyMUZnV3dxR2UxQjdxbmJRNVFLYTUyWWw5OUZzLUxvMy1aU2N6MWE3am9RcjBZVlcwNGpMOXo3UFQwWTlNTEJMSW0xUGsxZXFwT04zYw",
+    "title": "Polymarket Raises $21 Billion Valuation in Funding",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Polymarket, a prominent prediction market platform, recently successfully concluded a significant funding round. This crucial investment round was notably spearheaded by the distinguished investment firm, 1789 Values. The substantial funding propelled Polymarket's valuation to an impressive and remarkable $21 billion. Essentially, prediction markets empower users to wager on the probabilistic outcomes of diverse future events. These events span a wide spectrum, encompassing everything from major political elections to volatile cryptocurrency prices. The platform's core objective is to render forecasting activities both more engaging for participants and transparent to all. This exceptionally high valuation vividly reflects a surging investor confidence in the nascent prediction market sector. It also powerfully highlights the accelerating mainstream acceptance and growing legitimacy of such innovative platforms. Fintech companies are consistently and actively exploring novel and innovative financial products to meet evolving demands. Polymarket's recent financial success strongly indicates robust market interest in decentralized finance (DeFi) tools and applications.",
+    "sentences": [
+      {
+        "en": "Polymarket, a prominent prediction market platform, recently successfully concluded a significant funding round.",
+        "ko": "주목할 만한 예측 시장 플랫폼인 폴리마켓이 최근 중요한 투자 유치 라운드를 성공적으로 마쳤습니다."
+      },
+      {
+        "en": "This crucial investment round was notably spearheaded by the distinguished investment firm, 1789 Values.",
+        "ko": "이 중요한 투자 라운드는 명망 있는 투자 회사 1789 Values가 주도했습니다."
+      },
+      {
+        "en": "The substantial funding propelled Polymarket's valuation to an impressive and remarkable $21 billion.",
+        "ko": "상당한 자금 조달로 폴리마켓의 기업 가치는 인상적이고 놀라운 210억 달러로 치솟았습니다."
+      },
+      {
+        "en": "Essentially, prediction markets empower users to wager on the probabilistic outcomes of diverse future events.",
+        "ko": "본질적으로 예측 시장은 사용자들이 다양한 미래 사건의 확률적 결과에 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "These events span a wide spectrum, encompassing everything from major political elections to volatile cryptocurrency prices.",
+        "ko": "이러한 사건들은 주요 정치 선거부터 변동성이 큰 암호화폐 가격에 이르기까지 광범위한 스펙트럼을 아우릅니다."
+      },
+      {
+        "en": "The platform's core objective is to render forecasting activities both more engaging for participants and transparent to all.",
+        "ko": "이 플랫폼의 핵심 목표는 예측 활동을 참가자들에게 더 매력적이고 모두에게 투명하게 만드는 것입니다."
+      },
+      {
+        "en": "This exceptionally high valuation vividly reflects a surging investor confidence in the nascent prediction market sector.",
+        "ko": "이처럼 이례적으로 높은 기업 가치는 신흥 예측 시장 분야에 대한 투자자 신뢰가 급증하고 있음을 생생하게 보여줍니다."
+      },
+      {
+        "en": "It also powerfully highlights the accelerating mainstream acceptance and growing legitimacy of such innovative platforms.",
+        "ko": "또한 이러한 혁신적인 플랫폼에 대한 주류의 수용과 합법성이 가속화되고 있음을 강력하게 강조합니다."
+      },
+      {
+        "en": "Fintech companies are consistently and actively exploring novel and innovative financial products to meet evolving demands.",
+        "ko": "핀테크 기업들은 진화하는 수요를 충족하기 위해 새롭고 혁신적인 금융 상품을 꾸준히 적극적으로 탐색하고 있습니다."
+      },
+      {
+        "en": "Polymarket's recent financial success strongly indicates robust market interest in decentralized finance (DeFi) tools and applications.",
+        "ko": "폴리마켓의 최근 재정적 성공은 분산형 금융(DeFi) 도구 및 애플리케이션에 대한 강력한 시장 관심을 나타냅니다."
+      }
+    ],
+    "glossary": {
+      "polymarket": {
+        "meaning": "A specific online platform for prediction markets.",
+        "pos": "noun"
+      },
+      "platform": {
+        "meaning": "A system that allows users to create or exchange services.",
+        "pos": "noun"
+      },
+      "led": {
+        "meaning": "To be in charge of or direct something.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important, large, or noticeable.",
+        "pos": "adjective"
+      },
+      "investment": {
+        "meaning": "The act of putting money into something to gain profit.",
+        "pos": "noun"
+      },
+      "valued": {
+        "meaning": "To estimate the monetary worth of something.",
+        "pos": "verb"
+      },
+      "impressive": {
+        "meaning": "Evoking admiration through size or quality.",
+        "pos": "adjective"
+      },
+      "users": {
+        "meaning": "People who use a product or service.",
+        "pos": "noun"
+      },
+      "bet": {
+        "meaning": "To risk money on the outcome of an event.",
+        "pos": "verb"
+      },
+      "outcomes": {
+        "meaning": "The way a situation turns out, or the final result.",
+        "pos": "noun"
+      },
+      "forecasting": {
+        "meaning": "The process of predicting future events or trends.",
+        "pos": "noun"
+      },
+      "engaging": {
+        "meaning": "Interesting and attracting people's attention.",
+        "pos": "adjective"
+      },
+      "transparent": {
+        "meaning": "Easy to understand and openly conducted.",
+        "pos": "adjective"
+      },
+      "valuation": {
+        "meaning": "An estimate of the monetary worth of something.",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "A part or division of an economy or industry.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "To draw special attention to something.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "Regarded as normal or conventional.",
+        "pos": "adjective"
+      },
+      "innovative": {
+        "meaning": "Featuring new ideas, methods, or original thinking.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Which entity led Polymarket's recent funding round, and what was the resulting valuation of the platform?",
+      "The passage mentions \"prediction markets\" and \"decentralized finance (DeFi) tools.\" Define both terms as they relate to Polymarket's business model.",
+      "From a fintech perspective, what are the potential benefits and drawbacks of platforms like Polymarket gaining mainstream acceptance?"
+    ],
+    "modelAnswers": [
+      "The investment firm 1789 Values spearheaded Polymarket's recent funding round. This round propelled Polymarket's valuation to an impressive $21 billion.",
+      "\"Prediction markets\" are platforms where users bet on the outcomes of future events, such as elections or prices, to forecast results. \"Decentralized finance (DeFi) tools\" are financial services built on blockchain technology, operating without traditional intermediaries, offering more transparency and accessibility.",
+      "Benefits include enhanced market efficiency for forecasting, increased engagement for users, and new avenues for capital formation. Drawbacks could involve regulatory ambiguities, potential for manipulation, and risks associated with speculative activities, which might challenge financial stability and consumer protection."
+    ]
+  },
+  {
     "id": "cd-2026-08-31-1",
     "date": "2026-08-31",
     "rank": 1,
