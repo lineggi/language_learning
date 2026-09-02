@@ -1,5 +1,941 @@
 [
   {
+    "id": "cd-2026-09-03-1",
+    "date": "2026-09-03",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 테더가 미국 당국의 정식 영장 없이 수천만 달러를 동결했다는 주장이 제기되어 논란이 되고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/02/tether-sued-over-usd42-4-million-usdt-freeze-allegedly-made-months-before-u-s-warrant",
+    "title": "Tether Sued for Freezing USDT Without Warrant",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A new lawsuit targets Tether, the issuer of the world's largest stablecoin, USDT. Plaintiffs allege Tether froze $42.4 million in USDT months before a U.S. warrant. They claim Tether acted on an informal request from U.S. law enforcement. This raises significant questions about the company's compliance procedures. It also highlights the broader regulatory challenges facing stablecoin issuers. The case could set a precedent for how stablecoins interact with legal authorities. Transparency and due process are crucial for maintaining user trust in crypto. This lawsuit will be closely watched by the entire digital asset industry.",
+    "sentences": [
+      {
+        "en": "A new lawsuit targets Tether, the issuer of the world's largest stablecoin, USDT.",
+        "ko": "세계 최대 스테이블코인 USDT 발행사인 테더를 상대로 새로운 소송이 제기되었습니다."
+      },
+      {
+        "en": "Plaintiffs allege Tether froze $42.4 million in USDT months before a U.S. warrant.",
+        "ko": "원고들은 테더가 미국 영장 발부 수개월 전에 4,240만 달러 상당의 USDT를 동결했다고 주장합니다."
+      },
+      {
+        "en": "They claim Tether acted on an informal request from U.S. law enforcement.",
+        "ko": "그들은 테더가 미국 사법 당국의 비공식적인 요청에 따라 행동했다고 주장합니다."
+      },
+      {
+        "en": "This raises significant questions about the company's compliance procedures.",
+        "ko": "이는 회사의 규정 준수 절차에 대한 중요한 의문을 제기합니다."
+      },
+      {
+        "en": "It also highlights the broader regulatory challenges facing stablecoin issuers.",
+        "ko": "또한 스테이블코인 발행사가 직면한 광범위한 규제 문제들을 부각시킵니다."
+      },
+      {
+        "en": "The case could set a precedent for how stablecoins interact with legal authorities.",
+        "ko": "이 사건은 스테이블코인이 사법 당국과 어떻게 상호 작용할지에 대한 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "Transparency and due process are crucial for maintaining user trust in crypto.",
+        "ko": "투명성과 적법 절차는 암호화폐에 대한 사용자 신뢰를 유지하는 데 매우 중요합니다."
+      },
+      {
+        "en": "This lawsuit will be closely watched by the entire digital asset industry.",
+        "ko": "이 소송은 전체 디지털 자산 산업에서 면밀히 주시될 것입니다."
+      }
+    ],
+    "glossary": {
+      "lawsuit": {
+        "meaning": "A legal case brought by a person or group against another in a court of law.",
+        "pos": "noun"
+      },
+      "targets": {
+        "meaning": "Aims or directs an action or attack towards a specific person or thing.",
+        "pos": "verb"
+      },
+      "issuer": {
+        "meaning": "A company or entity that officially creates and provides financial instruments, like stablecoins.",
+        "pos": "noun"
+      },
+      "stablecoin": {
+        "meaning": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+        "pos": "noun"
+      },
+      "plaintiffs": {
+        "meaning": "The people or groups who bring a case against another in a court of law.",
+        "pos": "noun"
+      },
+      "allege": {
+        "meaning": "To state or assert something is true, typically without proof.",
+        "pos": "verb"
+      },
+      "froze": {
+        "meaning": "Stopped an asset from being moved or accessed, usually by legal authority.",
+        "pos": "verb"
+      },
+      "warrant": {
+        "meaning": "A legal document issued by a judge that authorizes police to take action.",
+        "pos": "noun"
+      },
+      "informal": {
+        "meaning": "Not official or done according to strict rules or procedures.",
+        "pos": "adjective"
+      },
+      "enforcement": {
+        "meaning": "The act of making people obey a law or rule.",
+        "pos": "noun"
+      },
+      "raises": {
+        "meaning": "Brings up or causes something to be considered or discussed.",
+        "pos": "verb"
+      },
+      "compliance": {
+        "meaning": "The act of obeying or following rules, laws, or standards.",
+        "pos": "noun"
+      },
+      "procedures": {
+        "meaning": "Established or official ways of doing something.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to or emphasizes something important.",
+        "pos": "verb"
+      },
+      "broader": {
+        "meaning": "Wider in scope or general range, including more things.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "Related to rules or laws set by an authority to control an activity.",
+        "pos": "adjective"
+      },
+      "precedent": {
+        "meaning": "An earlier event or action that serves as an example for similar situations later.",
+        "pos": "noun"
+      },
+      "interact": {
+        "meaning": "To communicate or deal with others, especially in a particular way.",
+        "pos": "verb"
+      },
+      "transparency": {
+        "meaning": "The quality of being open, honest, and easy to understand.",
+        "pos": "noun"
+      },
+      "process": {
+        "meaning": "A series of actions or steps taken in order to achieve a particular end.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or necessary for the success or existence of something.",
+        "pos": "adjective"
+      },
+      "maintaining": {
+        "meaning": "Keeping something in good condition or at an appropriate level.",
+        "pos": "verb"
+      },
+      "trust": {
+        "meaning": "Firm belief in the reliability, truth, or ability of someone or something.",
+        "pos": "noun"
+      },
+      "industry": {
+        "meaning": "The group of companies or organizations involved in producing a particular type of goods or services.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the passage, what specific action is Tether accused of taking before a U.S. warrant was issued?",
+      "In the context of this article, what does \"compliance procedures\" refer to, and why are they important for Tether?",
+      "How might a ruling in this lawsuit impact the broader perception of stablecoins and their interaction with legal authorities?"
+    ],
+    "modelAnswers": [
+      "Tether is accused of freezing $42.4 million in USDT several months before an official U.S. warrant was issued. They allegedly acted based on an informal request from U.S. law enforcement.",
+      "\"Compliance procedures\" refer to the official rules and steps Tether follows to obey laws and regulations. They are important because they ensure the company acts legally and transparently, which builds user trust.",
+      "A ruling could establish a legal precedent, clarifying the boundaries of authority for stablecoin issuers when faced with law enforcement requests. This might either strengthen or weaken user confidence in stablecoins' security and legal standing."
+    ]
+  },
+  {
+    "id": "cd-2026-09-03-2",
+    "date": "2026-09-03",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화가 단순한 접근성 확대를 넘어 가치 창출과 소유 방식의 근본적인 변화를 가져올 것이라는 흥미로운 전망이 제시되었습니다.",
+    "url": "https://www.coindesk.com/opinion/2026/09/02/the-token-supercycle-everything-of-value-is-becoming-programmable",
+    "title": "Tokenization: A Fundamental Shift in Value",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "An opinion piece explores the concept of a \"token supercycle.\" It suggests that everything of value is becoming programmable. Tokenization represents more than just easier access to digital assets. It signifies a fundamental change in how value is created and owned. This includes financing and moving assets in new ways. The author, from the Solana Foundation, argues for this shift. This perspective highlights the transformative potential of blockchain technology. It reshapes traditional financial systems and asset management. Businesses and investors should understand these evolving dynamics. The future of finance could be deeply intertwined with tokenization.",
+    "sentences": [
+      {
+        "en": "An opinion piece explores the concept of a \"token supercycle.\"",
+        "ko": "한 오피니언 기사가 \"토큰 슈퍼사이클\"이라는 개념을 탐구합니다."
+      },
+      {
+        "en": "It suggests that everything of value is becoming programmable.",
+        "ko": "이는 가치 있는 모든 것이 프로그래밍 가능하게 되고 있음을 시사합니다."
+      },
+      {
+        "en": "Tokenization represents more than just easier access to digital assets.",
+        "ko": "토큰화는 디지털 자산에 대한 더 쉬운 접근성 그 이상을 의미합니다."
+      },
+      {
+        "en": "It signifies a fundamental change in how value is created and owned.",
+        "ko": "이는 가치가 창출되고 소유되는 방식의 근본적인 변화를 나타냅니다."
+      },
+      {
+        "en": "This includes financing and moving assets in new ways.",
+        "ko": "여기에는 새로운 방식으로 자산을 조달하고 이동하는 것이 포함됩니다."
+      },
+      {
+        "en": "The author, from the Solana Foundation, argues for this shift.",
+        "ko": "솔라나 재단의 저자는 이러한 변화를 주장합니다."
+      },
+      {
+        "en": "This perspective highlights the transformative potential of blockchain technology.",
+        "ko": "이 관점은 블록체인 기술의 혁신적인 잠재력을 강조합니다."
+      },
+      {
+        "en": "It reshapes traditional financial systems and asset management.",
+        "ko": "이는 전통적인 금융 시스템과 자산 관리를 재편합니다."
+      },
+      {
+        "en": "Businesses and investors should understand these evolving dynamics.",
+        "ko": "기업과 투자자는 이러한 진화하는 역학 관계를 이해해야 합니다."
+      },
+      {
+        "en": "The future of finance could be deeply intertwined with tokenization.",
+        "ko": "금융의 미래는 토큰화와 깊이 얽혀 있을 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "opinion": {
+        "meaning": "A belief or judgment about something, not necessarily based on fact.",
+        "pos": "noun"
+      },
+      "explores": {
+        "meaning": "Examines or investigates something thoroughly.",
+        "pos": "verb"
+      },
+      "concept": {
+        "meaning": "An abstract idea or a general notion.",
+        "pos": "noun"
+      },
+      "supercycle": {
+        "meaning": "A long period of unusually strong price growth for a commodity or asset.",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "Puts forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "programmable": {
+        "meaning": "Capable of being instructed to perform a series of operations.",
+        "pos": "adjective"
+      },
+      "represents": {
+        "meaning": "Stands for or is a symbol or equivalent of something.",
+        "pos": "verb"
+      },
+      "easier": {
+        "meaning": "More simple or less difficult.",
+        "pos": "adjective"
+      },
+      "signifies": {
+        "meaning": "Is an indication of something, or means something.",
+        "pos": "verb"
+      },
+      "fundamental": {
+        "meaning": "Forming a necessary base or core, of central importance.",
+        "pos": "adjective"
+      },
+      "financing": {
+        "meaning": "Providing or raising funds for a project or business.",
+        "pos": "verb"
+      },
+      "assets": {
+        "meaning": "Items of property owned by a person or company, regarded as having value.",
+        "pos": "noun"
+      },
+      "author": {
+        "meaning": "A writer of a book, article, or report.",
+        "pos": "noun"
+      },
+      "perspective": {
+        "meaning": "A particular attitude toward or way of regarding something.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to or emphasizes something important.",
+        "pos": "verb"
+      },
+      "transformative": {
+        "meaning": "Causing a marked change in someone or something.",
+        "pos": "adjective"
+      },
+      "potential": {
+        "meaning": "The possibility of something developing or happening in the future.",
+        "pos": "noun"
+      },
+      "reshapes": {
+        "meaning": "Changes the form or structure of something.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "Existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "systems": {
+        "meaning": "Sets of principles or procedures according to which something is done.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "Developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "dynamics": {
+        "meaning": "The forces or properties that stimulate growth, development, or change within a system.",
+        "pos": "noun"
+      },
+      "intertwined": {
+        "meaning": "Twisted or woven together; closely connected.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "According to the passage, what specific organization does the author of the opinion piece belong to?",
+      "What does the phrase \"transformative potential\" imply in the context of tokenization and blockchain technology?",
+      "How might the \"token supercycle\" described in the article affect the role of project managers in fintech or crypto companies?"
+    ],
+    "modelAnswers": [
+      "The author of the opinion piece is from the Solana Foundation.",
+      "\"Transformative potential\" implies that tokenization and blockchain technology have the capacity to cause significant and fundamental changes to existing financial systems and how value is managed.",
+      "Project managers might need to develop new skills in blockchain integration, smart contract development, and digital asset lifecycle management. They would also focus more on ensuring regulatory compliance in a tokenized economy."
+    ]
+  },
+  {
+    "id": "cd-2026-09-03-3",
+    "date": "2026-09-03",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "뉴저지주가 대법원에 예측 시장 규제에 대한 판단을 요청하며, 암호화폐 관련 금융 상품의 규제 불확실성이 다시 한번 부각되었습니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/02/new-jersey-becomes-first-state-to-ask-supreme-court-to-weigh-in-on-prediction-markets",
+    "title": "New Jersey Asks SCOTUS to Rule on Prediction Markets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "New Jersey is now the first state to ask the Supreme Court for a ruling. They seek clarity on regulating prediction markets. Multiple appeals courts have issued differing judgments on this issue. The core debate is whether states can prohibit prediction market sports products. This legal battle highlights the ongoing regulatory uncertainty in crypto-adjacent sectors. A Supreme Court decision could provide much-needed guidance. It might clarify how traditional laws apply to new digital financial products. This case is significant for the future of innovative market platforms.",
+    "sentences": [
+      {
+        "en": "New Jersey is now the first state to ask the Supreme Court for a ruling.",
+        "ko": "뉴저지주가 대법원에 판결을 요청한 최초의 주가 되었습니다."
+      },
+      {
+        "en": "They seek clarity on regulating prediction markets.",
+        "ko": "그들은 예측 시장 규제에 대한 명확성을 모색합니다."
+      },
+      {
+        "en": "Multiple appeals courts have issued differing judgments on this issue.",
+        "ko": "여러 항소 법원이 이 문제에 대해 다른 판결을 내렸습니다."
+      },
+      {
+        "en": "The core debate is whether states can prohibit prediction market sports products.",
+        "ko": "핵심 논쟁은 주정부가 예측 시장 스포츠 상품을 금지할 수 있는지 여부입니다."
+      },
+      {
+        "en": "This legal battle highlights the ongoing regulatory uncertainty in crypto-adjacent sectors.",
+        "ko": "이 법적 분쟁은 암호화폐 관련 부문에서의 지속적인 규제 불확실성을 강조합니다."
+      },
+      {
+        "en": "A Supreme Court decision could provide much-needed guidance.",
+        "ko": "대법원 판결은 절실히 필요한 지침을 제공할 수 있습니다."
+      },
+      {
+        "en": "It might clarify how traditional laws apply to new digital financial products.",
+        "ko": "이는 전통적인 법률이 새로운 디지털 금융 상품에 어떻게 적용되는지를 명확히 할 수 있습니다."
+      },
+      {
+        "en": "This case is significant for the future of innovative market platforms.",
+        "ko": "이 사건은 혁신적인 시장 플랫폼의 미래에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "state": {
+        "meaning": "A nation or territory considered as an organized political community.",
+        "pos": "noun"
+      },
+      "supreme": {
+        "meaning": "Highest in rank or authority.",
+        "pos": "adjective"
+      },
+      "ruling": {
+        "meaning": "An authoritative decision or pronouncement, especially one made by a judge.",
+        "pos": "noun"
+      },
+      "seek": {
+        "meaning": "Attempt to find something or obtain something.",
+        "pos": "verb"
+      },
+      "clarity": {
+        "meaning": "The quality of being clear, easy to understand.",
+        "pos": "noun"
+      },
+      "regulating": {
+        "meaning": "Controlling or supervising something by means of rules and laws.",
+        "pos": "verb"
+      },
+      "prediction": {
+        "meaning": "A forecast about what will happen in the future.",
+        "pos": "noun"
+      },
+      "markets": {
+        "meaning": "Systems or places where buyers and sellers meet to exchange goods or services.",
+        "pos": "noun"
+      },
+      "multiple": {
+        "meaning": "Consisting of more than one item or part.",
+        "pos": "adjective"
+      },
+      "appeals": {
+        "meaning": "Requests made to a higher court for a review of a lower court's decision.",
+        "pos": "noun"
+      },
+      "issued": {
+        "meaning": "Officially supplied or made available.",
+        "pos": "verb"
+      },
+      "differing": {
+        "meaning": "Not the same or identical; various.",
+        "pos": "adjective"
+      },
+      "judgments": {
+        "meaning": "Formal opinions or decisions made by a court of law.",
+        "pos": "noun"
+      },
+      "core": {
+        "meaning": "The central or most important part of something.",
+        "pos": "adjective"
+      },
+      "debate": {
+        "meaning": "A formal discussion on a particular topic in a public meeting.",
+        "pos": "noun"
+      },
+      "prohibit": {
+        "meaning": "Formally forbid something by law, rule, or authority.",
+        "pos": "verb"
+      },
+      "products": {
+        "meaning": "Items or services that are made or grown to be sold.",
+        "pos": "noun"
+      },
+      "legal": {
+        "meaning": "Relating to the law.",
+        "pos": "adjective"
+      },
+      "battle": {
+        "meaning": "A prolonged or intense struggle or conflict.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to or emphasizes something important.",
+        "pos": "verb"
+      },
+      "ongoing": {
+        "meaning": "Continuing; still in progress.",
+        "pos": "adjective"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or not definite.",
+        "pos": "noun"
+      },
+      "sectors": {
+        "meaning": "Distinct parts of an economy or society.",
+        "pos": "noun"
+      },
+      "guidance": {
+        "meaning": "Advice or information aimed at resolving a problem or difficulty.",
+        "pos": "noun"
+      },
+      "platforms": {
+        "meaning": "Systems that allow users to create, share, or access information or services.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Which U.S. state is mentioned as being the first to ask the Supreme Court for a ruling on prediction markets?",
+      "What does \"crypto-adjacent sectors\" mean in the context of this article, and why is regulatory uncertainty a concern for them?",
+      "If the Supreme Court provides clear guidance on prediction markets, how might this influence innovation in other emerging digital financial products?"
+    ],
+    "modelAnswers": [
+      "New Jersey is the first U.S. state mentioned as asking the Supreme Court for a ruling on prediction markets.",
+      "\"Crypto-adjacent sectors\" refers to areas like prediction markets that are not directly cryptocurrencies but share similar characteristics or regulatory challenges with digital assets. Regulatory uncertainty is a concern because it creates legal risks and hinders development for these innovative products.",
+      "Clear guidance from the Supreme Court could reduce legal risks and provide a framework for development, potentially accelerating innovation. Conversely, overly restrictive rulings might stifle new product development by creating a chilling effect."
+    ]
+  },
+  {
+    "id": "ec-2026-09-03-1",
+    "date": "2026-09-03",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국-이란 긴장이 고조되면서 전 세계 채권 시장에 어떤 영향을 미치고 인플레이션 우려를 어떻게 심화시키는지 알아보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/02/global-bond-sell-off-us-iran-tensions-inflation-fears",
+    "title": "Geopolitical Tensions Spark Global Bond Sell-off",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Global government bond markets recently experienced a significant sell-off. This drove up borrowing costs for countries worldwide. Escalating tensions between the United States and Iran fueled this market reaction. Investors became increasingly concerned about potential disruptions to oil supplies. Such disruptions often lead to higher energy prices. This situation intensifies existing fears of inflation spreading globally. Higher inflation could force central banks to maintain restrictive monetary policies. The UK's borrowing costs, for instance, climbed sharply. This presents new challenges for its government's financial planning. Policymakers globally are closely monitoring these market movements. They aim to mitigate economic instability caused by geopolitical events. The interconnectedness of global finance means local conflicts have wide-ranging impacts. Fintech professionals need to understand these complex dynamics.",
+    "sentences": [
+      {
+        "en": "Global government bond markets recently experienced a significant sell-off.",
+        "ko": "전 세계 국채 시장이 최근 상당한 매도세를 겪었습니다."
+      },
+      {
+        "en": "This drove up borrowing costs for countries worldwide.",
+        "ko": "이는 전 세계 국가들의 차입 비용을 증가시켰습니다."
+      },
+      {
+        "en": "Escalating tensions between the United States and Iran fueled this market reaction.",
+        "ko": "미국과 이란 간의 고조되는 긴장이 이러한 시장 반응을 부추겼습니다."
+      },
+      {
+        "en": "Investors became increasingly concerned about potential disruptions to oil supplies.",
+        "ko": "투자자들은 원유 공급에 대한 잠재적 차질에 대해 점점 더 우려했습니다."
+      },
+      {
+        "en": "Such disruptions often lead to higher energy prices.",
+        "ko": "그러한 차질은 종종 에너지 가격 상승으로 이어집니다."
+      },
+      {
+        "en": "This situation intensifies existing fears of inflation spreading globally.",
+        "ko": "이러한 상황은 전 세계적으로 인플레이션이 확산될 것이라는 기존의 우려를 심화시킵니다."
+      },
+      {
+        "en": "Higher inflation could force central banks to maintain restrictive monetary policies.",
+        "ko": "높은 인플레이션은 중앙은행들이 긴축 통화 정책을 유지하도록 강제할 수 있습니다."
+      },
+      {
+        "en": "The UK's borrowing costs, for instance, climbed sharply.",
+        "ko": "예를 들어, 영국의 차입 비용은 급격히 상승했습니다."
+      },
+      {
+        "en": "This presents new challenges for its government's financial planning.",
+        "ko": "이는 영국 정부의 재정 계획에 새로운 도전을 제시합니다."
+      },
+      {
+        "en": "Policymakers globally are closely monitoring these market movements.",
+        "ko": "전 세계 정책 입안자들은 이러한 시장 움직임을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "They aim to mitigate economic instability caused by geopolitical events.",
+        "ko": "그들은 지정학적 사건으로 인한 경제적 불안정성을 완화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The interconnectedness of global finance means local conflicts have wide-ranging impacts.",
+        "ko": "글로벌 금융의 상호 연결성은 지역 분쟁이 광범위한 영향을 미친다는 것을 의미합니다."
+      },
+      {
+        "en": "Fintech professionals need to understand these complex dynamics.",
+        "ko": "핀테크 전문가들은 이러한 복잡한 역학 관계를 이해해야 합니다."
+      }
+    ],
+    "glossary": {
+      "sell-off": {
+        "meaning": "a rapid sale of a large amount of something, especially shares or bonds, causing prices to fall.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money from a bank or lender with the agreement to pay it back later.",
+        "pos": "noun"
+      },
+      "costs": {
+        "meaning": "the expenses or amounts of money required to buy, make, or do something.",
+        "pos": "noun"
+      },
+      "escalating": {
+        "meaning": "increasing in intensity, size, or scope, becoming more serious.",
+        "pos": "adjective"
+      },
+      "tensions": {
+        "meaning": "a state of strained relations or political opposition between countries or groups.",
+        "pos": "noun"
+      },
+      "fueled": {
+        "meaning": "supplied with something that increases or sustains an activity or feeling.",
+        "pos": "verb"
+      },
+      "disruptions": {
+        "meaning": "interruptions or disturbances in the normal course of an activity or process.",
+        "pos": "noun"
+      },
+      "supplies": {
+        "meaning": "quantities of goods or resources available for use or sale.",
+        "pos": "noun"
+      },
+      "intensifies": {
+        "meaning": "makes or becomes more intense, stronger, or more extreme.",
+        "pos": "verb"
+      },
+      "globally": {
+        "meaning": "throughout the whole world, on an international scale.",
+        "pos": "adverb"
+      },
+      "restrictive": {
+        "meaning": "limiting freedom of action or development.",
+        "pos": "adjective"
+      },
+      "monetary": {
+        "meaning": "relating to money, currency, or the financial system of a country.",
+        "pos": "adjective"
+      },
+      "policies": {
+        "meaning": "courses of action or principles adopted or proposed by a government or party.",
+        "pos": "noun"
+      },
+      "climbed": {
+        "meaning": "increased in value or amount, often steadily.",
+        "pos": "verb"
+      },
+      "policymakers": {
+        "meaning": "people responsible for making or implementing policies, especially in government.",
+        "pos": "noun"
+      },
+      "monitoring": {
+        "meaning": "observing and checking the progress or quality of something over time.",
+        "pos": "verb"
+      },
+      "mitigate": {
+        "meaning": "make less severe, serious, or painful.",
+        "pos": "verb"
+      },
+      "instability": {
+        "meaning": "the state of being unstable, prone to change or collapse.",
+        "pos": "noun"
+      },
+      "interconnectedness": {
+        "meaning": "the state of being connected with each other, often in a complex way.",
+        "pos": "noun"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system or process.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific geopolitical event is mentioned as contributing to the global bond sell-off?",
+      "Q2: Explain how a bond sell-off is related to borrowing costs for governments.",
+      "Q3: How might geopolitical events like the one described impact the fintech sector, particularly regarding investment strategies or risk management?"
+    ],
+    "modelAnswers": [
+      "A1: The article mentions escalating tensions between the United States and Iran as a key factor contributing to the global bond sell-off.",
+      "A2: When there is a bond sell-off, bond prices fall, which means their yields (the return investors get) rise. Higher yields translate directly into higher borrowing costs for governments when they issue new debt.",
+      "A3: Geopolitical events can increase market volatility, impacting fintech investment platforms and requiring more robust risk management tools. They might also shift investor sentiment, leading to changes in capital allocation and demand for certain financial products."
+    ]
+  },
+  {
+    "id": "ec-2026-09-03-2",
+    "date": "2026-09-03",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "뉴욕 연은 총재가 최근 채권 수익률 급등을 강한 경제 전망의 신호로 해석하는 이유를 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/02/new-york-feds-williams-says-yield-surge-due-to-strong-economic-prospects.html",
+    "title": "Fed Official Sees Strong Economy Driving Yield Surge",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "New York Federal Reserve President John Williams recently commented on rising Treasury yields. He believes these higher yields reflect robust economic prospects. A stronger economy typically means businesses are growing and hiring more. This increased activity can lead to greater demand for capital. Such demand often pushes interest rates and bond yields upward. Williams is currently evaluating whether another interest rate hike is necessary. The Federal Reserve aims to manage inflation while supporting economic growth. High yields also make government bonds more attractive to investors. However, they can increase the government's cost of borrowing. Fintech platforms often rely on interest rate movements for various financial products. Understanding the Fed's perspective is vital for market participants. This commentary offers insight into future monetary policy decisions.",
+    "sentences": [
+      {
+        "en": "New York Federal Reserve President John Williams recently commented on rising Treasury yields.",
+        "ko": "존 윌리엄스 뉴욕 연방준비은행 총재가 최근 국채 수익률 상승에 대해 언급했습니다."
+      },
+      {
+        "en": "He believes these higher yields reflect robust economic prospects.",
+        "ko": "그는 이러한 높은 수익률이 견고한 경제 전망을 반영한다고 믿습니다."
+      },
+      {
+        "en": "A stronger economy typically means businesses are growing and hiring more.",
+        "ko": "강한 경제는 일반적으로 기업이 성장하고 더 많이 고용한다는 것을 의미합니다."
+      },
+      {
+        "en": "This increased activity can lead to greater demand for capital.",
+        "ko": "이러한 활동 증가는 자본 수요 증가로 이어질 수 있습니다."
+      },
+      {
+        "en": "Such demand often pushes interest rates and bond yields upward.",
+        "ko": "그러한 수요는 종종 이자율과 채권 수익률을 상승시킵니다."
+      },
+      {
+        "en": "Williams is currently evaluating whether another interest rate hike is necessary.",
+        "ko": "윌리엄스 총재는 현재 또 다른 금리 인상이 필요한지 여부를 평가하고 있습니다."
+      },
+      {
+        "en": "The Federal Reserve aims to manage inflation while supporting economic growth.",
+        "ko": "연방준비제도 이사회는 경제 성장을 지원하면서 인플레이션을 관리하는 것을 목표로 합니다."
+      },
+      {
+        "en": "High yields also make government bonds more attractive to investors.",
+        "ko": "높은 수익률은 또한 정부 채권을 투자자들에게 더 매력적으로 만듭니다."
+      },
+      {
+        "en": "However, they can increase the government's cost of borrowing.",
+        "ko": "그러나 이는 정부의 차입 비용을 증가시킬 수 있습니다."
+      },
+      {
+        "en": "Fintech platforms often rely on interest rate movements for various financial products.",
+        "ko": "핀테크 플랫폼은 종종 다양한 금융 상품에 대한 이자율 변동에 의존합니다."
+      },
+      {
+        "en": "Understanding the Fed's perspective is vital for market participants.",
+        "ko": "연준의 관점을 이해하는 것은 시장 참여자들에게 매우 중요합니다."
+      },
+      {
+        "en": "This commentary offers insight into future monetary policy decisions.",
+        "ko": "이 논평은 향후 통화 정책 결정에 대한 통찰력을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "federal": {
+        "meaning": "relating to a central government, rather than to separate states or provinces.",
+        "pos": "adjective"
+      },
+      "reserve": {
+        "meaning": "a supply of something kept available for future use.",
+        "pos": "noun"
+      },
+      "treasury": {
+        "meaning": "the government department responsible for the management of a country's revenue and expenditure.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the income return on an investment, typically expressed as an annual percentage.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy, not likely to fail or weaken.",
+        "pos": "adjective"
+      },
+      "prospects": {
+        "meaning": "the possibility or likelihood of some future event occurring.",
+        "pos": "noun"
+      },
+      "capital": {
+        "meaning": "financial assets, such as funds or property, used to generate income.",
+        "pos": "noun"
+      },
+      "upward": {
+        "meaning": "toward a higher place, point, or level.",
+        "pos": "adverb"
+      },
+      "evaluating": {
+        "meaning": "assessing the value, quality, or significance of something.",
+        "pos": "verb"
+      },
+      "hike": {
+        "meaning": "a sharp increase, especially in prices or taxes.",
+        "pos": "noun"
+      },
+      "manage": {
+        "meaning": "succeed in doing or dealing with something, especially something difficult.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "growth": {
+        "meaning": "the process of increasing in size, amount, or degree.",
+        "pos": "noun"
+      },
+      "rely": {
+        "meaning": "depend on with full trust or confidence.",
+        "pos": "verb"
+      },
+      "movements": {
+        "meaning": "changes in the position, value, or direction of something.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "participants": {
+        "meaning": "people who take part in an activity or event.",
+        "pos": "noun"
+      },
+      "commentary": {
+        "meaning": "an expression of opinions or an explanation about an event or situation.",
+        "pos": "noun"
+      },
+      "insight": {
+        "meaning": "the capacity to gain an accurate and deep understanding of someone or something.",
+        "pos": "noun"
+      },
+      "monetary": {
+        "meaning": "relating to money, currency, or the financial system of a country.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to John Williams, what is the primary reason for the recent surge in Treasury yields?",
+      "Q2: How do rising bond yields impact both investors and the government's financial situation?",
+      "Q3: As a fintech professional, how would you incorporate the Federal Reserve's stance on interest rates into developing new financial products or services?"
+    ],
+    "modelAnswers": [
+      "A1: John Williams stated that the recent surge in Treasury yields reflects strong economic prospects, indicating a robust and growing economy.",
+      "A2: Rising bond yields make government bonds more appealing to investors due to higher returns. However, for the government, these higher yields increase the cost of borrowing new funds.",
+      "A3: I would consider how interest rate changes affect demand for lending, saving, and investment products. For example, higher rates might boost demand for high-yield savings accounts or influence loan pricing models on a fintech platform."
+    ]
+  },
+  {
+    "id": "ec-2026-09-03-3",
+    "date": "2026-09-03",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "8월 민간 고용 증가세가 예상보다 적었던 이유와 이것이 미국 노동 시장의 전반적인 둔화를 어떻게 나타내는지 파악하세요.",
+    "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
+    "title": "Private Payrolls Slow Significantly in August",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Private sector payrolls in the United States increased by only 38,000 in August. This figure was significantly lower than economists' expectations. It represents the smallest monthly gain observed since January. The report signals a broader slowdown in the nation's labor market. While job creation remained positive, the pace has clearly decelerated. A cooling labor market can influence future monetary policy decisions. Central banks often monitor employment data closely for economic health. Slower job growth might reduce inflationary pressures over time. This could potentially lead to a less aggressive stance on interest rates. Businesses may also become more cautious about hiring new staff. Fintech companies offering payroll or HR solutions might observe shifting client needs. Understanding these employment trends helps anticipate broader economic shifts.",
+    "sentences": [
+      {
+        "en": "Private sector payrolls in the United States increased by only 38,000 in August.",
+        "ko": "미국 민간 부문 급여는 8월에 38,000개만 증가했습니다."
+      },
+      {
+        "en": "This figure was significantly lower than economists' expectations.",
+        "ko": "이 수치는 경제학자들의 예상보다 훨씬 낮았습니다."
+      },
+      {
+        "en": "It represents the smallest monthly gain observed since January.",
+        "ko": "이는 1월 이후 가장 작은 월별 증가를 나타냅니다."
+      },
+      {
+        "en": "The report signals a broader slowdown in the nation's labor market.",
+        "ko": "이 보고서는 미국 노동 시장의 전반적인 둔화를 시사합니다."
+      },
+      {
+        "en": "While job creation remained positive, the pace has clearly decelerated.",
+        "ko": "일자리 창출은 여전히 긍정적이었지만, 그 속도는 분명히 둔화되었습니다."
+      },
+      {
+        "en": "A cooling labor market can influence future monetary policy decisions.",
+        "ko": "냉각되는 노동 시장은 향후 통화 정책 결정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Central banks often monitor employment data closely for economic health.",
+        "ko": "중앙은행은 경제 건전성을 위해 고용 데이터를 면밀히 주시합니다."
+      },
+      {
+        "en": "Slower job growth might reduce inflationary pressures over time.",
+        "ko": "느린 일자리 성장은 시간이 지남에 따라 인플레이션 압력을 줄일 수 있습니다."
+      },
+      {
+        "en": "This could potentially lead to a less aggressive stance on interest rates.",
+        "ko": "이는 잠재적으로 금리 인상에 대한 덜 공격적인 입장으로 이어질 수 있습니다."
+      },
+      {
+        "en": "Businesses may also become more cautious about hiring new staff.",
+        "ko": "기업들도 새로운 직원을 고용하는 데 더 신중해질 수 있습니다."
+      },
+      {
+        "en": "Fintech companies offering payroll or HR solutions might observe shifting client needs.",
+        "ko": "급여 또는 HR 솔루션을 제공하는 핀테크 기업은 변화하는 고객 요구를 관찰할 수 있습니다."
+      },
+      {
+        "en": "Understanding these employment trends helps anticipate broader economic shifts.",
+        "ko": "이러한 고용 동향을 이해하는 것은 광범위한 경제 변화를 예측하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "private": {
+        "meaning": "belonging to or for the use of one particular person or group of people only.",
+        "pos": "adjective"
+      },
+      "payrolls": {
+        "meaning": "the total amount of wages and salaries paid by a company to its employees.",
+        "pos": "noun"
+      },
+      "increased": {
+        "meaning": "became greater in size, amount, or degree.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "economists": {
+        "meaning": "experts in economics, which is the study of how societies use resources.",
+        "pos": "noun"
+      },
+      "expectations": {
+        "meaning": "strong beliefs that something will happen or be the case.",
+        "pos": "noun"
+      },
+      "represents": {
+        "meaning": "constitutes, stands for, or is a symbol of something.",
+        "pos": "verb"
+      },
+      "signals": {
+        "meaning": "indicates or communicates something, often non-verbally.",
+        "pos": "verb"
+      },
+      "slowdown": {
+        "meaning": "a reduction in the speed or rate of something.",
+        "pos": "noun"
+      },
+      "labor": {
+        "meaning": "work, especially physical work, or the people who do it.",
+        "pos": "noun"
+      },
+      "decelerated": {
+        "meaning": "reduced the speed of, or slowed down.",
+        "pos": "verb"
+      },
+      "cooling": {
+        "meaning": "becoming less intense or active, especially in an economic context.",
+        "pos": "adjective"
+      },
+      "monitor": {
+        "meaning": "observe and check the progress or quality of something over a period of time.",
+        "pos": "verb"
+      },
+      "employment": {
+        "meaning": "the state of having a paid job.",
+        "pos": "noun"
+      },
+      "inflationary": {
+        "meaning": "relating to or tending to cause inflation.",
+        "pos": "adjective"
+      },
+      "potentially": {
+        "meaning": "with the possibility of becoming actual or real.",
+        "pos": "adverb"
+      },
+      "aggressive": {
+        "meaning": "determined and forceful, often in pursuit of a goal.",
+        "pos": "adjective"
+      },
+      "stance": {
+        "meaning": "a person's attitude or position on an issue.",
+        "pos": "noun"
+      },
+      "anticipate": {
+        "meaning": "regard as probable; expect or predict.",
+        "pos": "verb"
+      },
+      "shifts": {
+        "meaning": "small changes in position, direction, or tendency.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was the reported increase in private sector payrolls in the US for August, and how did it compare to expectations?",
+      "Q2: Explain the potential connection between a cooling labor market and monetary policy decisions.",
+      "Q3: How might fintech companies adapt their services or strategies in response to a significant slowdown in job growth?"
+    ],
+    "modelAnswers": [
+      "A1: Private sector payrolls increased by 38,000 in August, which was significantly lower than what economists had expected.",
+      "A2: A cooling labor market, with slower job growth, often reduces inflationary pressures. This could lead central banks to adopt a less aggressive monetary policy stance, potentially meaning fewer or no interest rate hikes.",
+      "A3: Fintech companies could focus on tools that help businesses manage costs more efficiently, such as optimized payroll processing or expense management. They might also develop solutions for workforce retraining or flexible employment models to support clients during economic slowdowns."
+    ]
+  },
+  {
     "id": "cd-2026-09-02-1",
     "date": "2026-09-02",
     "rank": 1,
