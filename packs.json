@@ -1,5 +1,957 @@
 [
   {
+    "id": "cd-2026-09-04-1",
+    "date": "2026-09-04",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "대형 은행이 기관 투자자를 위한 암호화폐 현물 거래 서비스를 출시하며 전통 금융과 암호화폐의 융합을 심화시키고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/03/standard-chartered-first-top-global-bank-to-offer-bitcoin-and-ether-trading-in-uae",
+    "title": "Standard Chartered Launches Institutional Spot Crypto Trading",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Standard Chartered is now offering spot crypto trading to institutional clients. This new service operates on its foreign exchange (FX) platform in Dubai. Institutional investors can directly trade Bitcoin and Ethereum. These digital assets are now alongside traditional fiat currencies like dollars and euros. This represents a significant step by a major global bank into the digital asset space. The bank leverages its established eFX infrastructure for these crypto transactions. This integration into existing financial rails simplifies access for large institutions. It also promises to enhance both liquidity and operational efficiency for trading. This development clearly reflects a rising institutional demand for crypto exposure. It further signals a strong convergence between traditional finance and crypto markets. Such pioneering initiatives are crucial for the broader mainstream adoption of cryptocurrencies. This move will likely encourage other global banks to follow suit in the future.",
+    "sentences": [
+      {
+        "en": "Standard Chartered is now offering spot crypto trading to institutional clients.",
+        "ko": "스탠다드차타드 은행이 이제 기관 고객들에게 암호화폐 현물 거래를 제공하고 있습니다."
+      },
+      {
+        "en": "This new service operates on its foreign exchange (FX) platform in Dubai.",
+        "ko": "이 새로운 서비스는 두바이에 있는 외환(FX) 플랫폼에서 운영됩니다."
+      },
+      {
+        "en": "Institutional investors can directly trade Bitcoin and Ethereum.",
+        "ko": "기관 투자자들은 비트코인과 이더리움을 직접 거래할 수 있습니다."
+      },
+      {
+        "en": "These digital assets are now alongside traditional fiat currencies like dollars and euros.",
+        "ko": "이러한 디지털 자산은 이제 달러와 유로 같은 전통적인 법정 화폐와 함께 취급됩니다."
+      },
+      {
+        "en": "This represents a significant step by a major global bank into the digital asset space.",
+        "ko": "이는 주요 글로벌 은행이 디지털 자산 분야로 진출하는 중요한 발걸음입니다."
+      },
+      {
+        "en": "The bank leverages its established eFX infrastructure for these crypto transactions.",
+        "ko": "은행은 이러한 암호화폐 거래를 위해 기존의 전자 외환(eFX) 인프라를 활용합니다."
+      },
+      {
+        "en": "This integration into existing financial rails simplifies access for large institutions.",
+        "ko": "기존 금융 시스템으로의 이러한 통합은 대형 기관의 접근을 간소화합니다."
+      },
+      {
+        "en": "It also promises to enhance both liquidity and operational efficiency for trading.",
+        "ko": "이는 또한 거래의 유동성과 운영 효율성을 모두 향상시킬 것으로 기대됩니다."
+      },
+      {
+        "en": "This development clearly reflects a rising institutional demand for crypto exposure.",
+        "ko": "이러한 발전은 암호화폐 노출에 대한 기관의 수요 증가를 명확히 반영합니다."
+      },
+      {
+        "en": "It further signals a strong convergence between traditional finance and crypto markets.",
+        "ko": "이는 전통 금융과 암호화폐 시장 간의 강력한 융합을 더욱 분명히 보여줍니다."
+      },
+      {
+        "en": "Such pioneering initiatives are crucial for the broader mainstream adoption of cryptocurrencies.",
+        "ko": "이러한 선구적인 이니셔티브는 암호화폐의 더 광범위한 주류 채택에 매우 중요합니다."
+      },
+      {
+        "en": "This move will likely encourage other global banks to follow suit in the future.",
+        "ko": "이러한 움직임은 미래에 다른 글로벌 은행들도 뒤따르도록 장려할 가능성이 높습니다."
+      }
+    ],
+    "glossary": {
+      "chartered": {
+        "meaning": "officially established by a government or organization, often with specific rights.",
+        "pos": "adjective"
+      },
+      "spot": {
+        "meaning": "describing a transaction for immediate delivery and payment, rather than for a future date.",
+        "pos": "adjective"
+      },
+      "institutional": {
+        "meaning": "relating to large organizations like banks or investment firms, rather than individual people.",
+        "pos": "adjective"
+      },
+      "clients": {
+        "meaning": "customers of a professional service or business, especially financial services.",
+        "pos": "noun"
+      },
+      "foreign": {
+        "meaning": "relating to or characteristic of a country or language other than one's own.",
+        "pos": "adjective"
+      },
+      "exchange": {
+        "meaning": "a marketplace where securities, commodities, or currencies are traded.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "following long-established customs or practices, not new or modern.",
+        "pos": "adjective"
+      },
+      "currencies": {
+        "meaning": "systems of money used in a particular country, like dollars or euros.",
+        "pos": "noun"
+      },
+      "assets": {
+        "meaning": "valuable items or property owned by a person or company that can be used to generate wealth.",
+        "pos": "noun"
+      },
+      "leverages": {
+        "meaning": "uses something to maximum advantage, often a resource or existing system.",
+        "pos": "verb"
+      },
+      "infrastructure": {
+        "meaning": "the fundamental facilities and systems needed for a country or organization to function effectively.",
+        "pos": "noun"
+      },
+      "integration": {
+        "meaning": "the action or process of combining one thing with another to make a whole.",
+        "pos": "noun"
+      },
+      "rails": {
+        "meaning": "the underlying system or framework that supports a particular type of transaction or operation.",
+        "pos": "noun"
+      },
+      "simplifies": {
+        "meaning": "makes something easier to understand, perform, or deal with by removing complexity.",
+        "pos": "verb"
+      },
+      "liquidity": {
+        "meaning": "the ease with which an asset can be converted into cash without affecting its market price.",
+        "pos": "noun"
+      },
+      "operational": {
+        "meaning": "relating to the practical functioning or running of a system or business.",
+        "pos": "adjective"
+      },
+      "efficiency": {
+        "meaning": "the state of achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "demand": {
+        "meaning": "the desire of consumers for a particular product or service, shown by their willingness to pay for it.",
+        "pos": "noun"
+      },
+      "exposure": {
+        "meaning": "the state of being subject to a particular risk or the chance of experiencing something.",
+        "pos": "noun"
+      },
+      "convergence": {
+        "meaning": "the process of two or more things coming together or becoming more similar.",
+        "pos": "noun"
+      },
+      "mainstream": {
+        "meaning": "regarded as normal, conventional, or dominant by the largest portion of a society.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use something new, like a product, technology, or idea.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is Standard Chartered offering to institutional clients in Dubai, and on what platform?",
+      "In the context of this article, what does \"eFX infrastructure\" refer to, and why is its use significant for crypto trading?",
+      "How might the convergence of traditional finance and crypto markets, as exemplified by Standard Chartered's move, impact the future role of fintech product managers?"
+    ],
+    "modelAnswers": [
+      "Standard Chartered is offering spot crypto trading for Bitcoin and Ethereum to institutional clients on its existing foreign exchange (FX) platform in Dubai.",
+      "\"eFX infrastructure\" refers to the bank's established electronic foreign exchange trading systems. Its use is significant because it integrates crypto trading into familiar, robust systems, enhancing efficiency and accessibility for institutional investors.",
+      "This convergence will likely require fintech PMs to have a deeper understanding of both traditional financial regulations and blockchain technology. They might focus on developing hybrid products that bridge these two worlds, ensuring compliance and seamless user experiences for institutional clients."
+    ]
+  },
+  {
+    "id": "cd-2026-09-04-2",
+    "date": "2026-09-04",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "호주가 엄격한 암호화폐 규제 마감일을 앞두고 있으며, 이는 전 세계 규제 동향에 중요한 시사점을 제공합니다.",
+    "url": "https://www.coindesk.com/business/2026/09/03/australia-is-cracking-down-on-crypto-businesses-as-its-strict-new-regulatory-deadline-nears",
+    "title": "Australia Tightens Crypto Regulations Ahead of Deadline",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Australia is actively implementing stricter regulations for crypto businesses. A critical new regulatory deadline is fast approaching for all firms operating there. Companies must fully comply to avoid severe penalties starting October 1st. Non-compliant firms could potentially face both civil and criminal charges. This significant crackdown aims primarily to protect investors and maintain market integrity. It also seeks to align the crypto industry more closely with traditional financial standards. Many nations globally are increasing their scrutiny on digital asset operations. This growing trend highlights a worldwide push for more robust crypto oversight frameworks. Such clear regulatory frameworks can effectively foster greater institutional confidence. However, these new rules also present considerable compliance challenges for many crypto companies. Businesses need to adapt quickly to avoid disruptions and ensure continued operation.",
+    "sentences": [
+      {
+        "en": "Australia is actively implementing stricter regulations for crypto businesses.",
+        "ko": "호주가 암호화폐 기업에 대한 더욱 엄격한 규제를 적극적으로 시행하고 있습니다."
+      },
+      {
+        "en": "A critical new regulatory deadline is fast approaching for all firms operating there.",
+        "ko": "그곳에서 운영되는 모든 기업에게 중요한 새로운 규제 마감일이 빠르게 다가오고 있습니다."
+      },
+      {
+        "en": "Companies must fully comply to avoid severe penalties starting October 1st.",
+        "ko": "기업들은 10월 1일부터 시작되는 심각한 처벌을 피하기 위해 완전히 준수해야 합니다."
+      },
+      {
+        "en": "Non-compliant firms could potentially face both civil and criminal charges.",
+        "ko": "규정을 준수하지 않는 기업은 민사 및 형사상의 고발에 직면할 수 있습니다."
+      },
+      {
+        "en": "This significant crackdown aims primarily to protect investors and maintain market integrity.",
+        "ko": "이러한 중요한 단속은 주로 투자자를 보호하고 시장의 무결성을 유지하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It also seeks to align the crypto industry more closely with traditional financial standards.",
+        "ko": "또한 암호화폐 산업을 전통 금융 표준에 더 가깝게 맞추려고 합니다."
+      },
+      {
+        "en": "Many nations globally are increasing their scrutiny on digital asset operations.",
+        "ko": "전 세계적으로 많은 국가들이 디지털 자산 운영에 대한 조사를 강화하고 있습니다."
+      },
+      {
+        "en": "This growing trend highlights a worldwide push for more robust crypto oversight frameworks.",
+        "ko": "이러한 증가하는 추세는 더욱 강력한 암호화폐 감독 체계를 위한 전 세계적인 노력을 강조합니다."
+      },
+      {
+        "en": "Such clear regulatory frameworks can effectively foster greater institutional confidence.",
+        "ko": "이러한 명확한 규제 체계는 기관의 신뢰를 효과적으로 높일 수 있습니다."
+      },
+      {
+        "en": "However, these new rules also present considerable compliance challenges for many crypto companies.",
+        "ko": "하지만 이러한 새로운 규칙은 많은 암호화폐 기업들에게 상당한 규제 준수 과제를 제시합니다."
+      },
+      {
+        "en": "Businesses need to adapt quickly to avoid disruptions and ensure continued operation.",
+        "ko": "기업들은 중단을 피하고 지속적인 운영을 보장하기 위해 빠르게 적응해야 합니다."
+      }
+    ],
+    "glossary": {
+      "implementing": {
+        "meaning": "putting a plan or decision into action, especially a new law or policy.",
+        "pos": "verb"
+      },
+      "stricter": {
+        "meaning": "more severe or demanding in rules or conditions, allowing less freedom.",
+        "pos": "adjective"
+      },
+      "regulations": {
+        "meaning": "official rules or laws created by an authority to control conduct or activities.",
+        "pos": "noun"
+      },
+      "deadline": {
+        "meaning": "a specific time by which a task or activity must be completed or submitted.",
+        "pos": "noun"
+      },
+      "comply": {
+        "meaning": "to act according to a rule, law, or request, or to meet specified standards.",
+        "pos": "verb"
+      },
+      "penalties": {
+        "meaning": "punishments imposed for breaking a law, rule, or contract, often involving fines.",
+        "pos": "noun"
+      },
+      "non-compliant": {
+        "meaning": "failing or refusing to act in accordance with rules, laws, or official requests.",
+        "pos": "adjective"
+      },
+      "civil": {
+        "meaning": "relating to private rights and legal disputes between citizens, not criminal matters.",
+        "pos": "adjective"
+      },
+      "criminal": {
+        "meaning": "involving illegal acts that are punishable by law, such as theft or fraud.",
+        "pos": "adjective"
+      },
+      "crackdown": {
+        "meaning": "a series of strict measures taken by an authority to stop undesirable activities.",
+        "pos": "noun"
+      },
+      "integrity": {
+        "meaning": "the quality of being honest and morally sound, especially in business practices.",
+        "pos": "noun"
+      },
+      "align": {
+        "meaning": "to bring into agreement or coherence with something else.",
+        "pos": "verb"
+      },
+      "scrutiny": {
+        "meaning": "close and careful examination or observation of something.",
+        "pos": "noun"
+      },
+      "operations": {
+        "meaning": "the activities involved in running a business or organization.",
+        "pos": "noun"
+      },
+      "trend": {
+        "meaning": "a general direction in which something is changing or developing.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "emphasizes or draws special attention to something important.",
+        "pos": "verb"
+      },
+      "global": {
+        "meaning": "worldwide or involving the entire world, not just one country.",
+        "pos": "adjective"
+      },
+      "robust": {
+        "meaning": "strong, healthy, and able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "oversight": {
+        "meaning": "the act of supervising someone or something, especially to ensure compliance.",
+        "pos": "noun"
+      },
+      "foster": {
+        "meaning": "to encourage the development or growth of something positive.",
+        "pos": "verb"
+      },
+      "confidence": {
+        "meaning": "a feeling of trust or belief in someone or something, or in one's own ability.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "difficult situations or tasks that require effort to overcome.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What are the potential consequences for crypto firms in Australia that fail to meet the new regulatory deadline?",
+      "Explain what the phrase \"align the crypto industry more closely with traditional financial standards\" means in the context of this article, and why it is important for regulators.",
+      "As a fintech PM, how would you prepare your company for similar strict regulatory changes, considering both the benefits and challenges they present?"
+    ],
+    "modelAnswers": [
+      "Crypto firms in Australia that fail to meet the new regulatory deadline could face both civil and criminal penalties starting from October 1st.",
+      "This phrase means making the crypto industry adhere to similar standards, rules, and oversight as established financial institutions. It's important for regulators to ensure investor protection, prevent illicit activities, and maintain overall financial stability.",
+      "I would start by conducting a thorough audit of our current operations against anticipated regulations. This would involve legal counsel, updating internal policies, and investing in compliance technology. While challenging, these changes can enhance trust and open doors to broader institutional adoption."
+    ]
+  },
+  {
+    "id": "cd-2026-09-04-3",
+    "date": "2026-09-04",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "크라켄과 소파이의 협력은 전통 금융과 암호화폐 시장의 경계가 모호해지며 새로운 금융 상품과 서비스가 등장하고 있음을 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/09/03/sofi-kraken-tie-up-as-crypto-and-banking-push-into-each-other-s-turf",
+    "title": "Kraken and SoFi Partner, Blurring Finance Boundaries",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Leading crypto exchange Kraken is officially partnering with fintech firm SoFi. This significant collaboration underscores a rapidly growing trend of convergence. Traditional banking services and crypto markets are increasingly intertwining globally. As part of this tie-up, Kraken will now join SoFi's established settlement network. Additionally, SoFiUSD, a stablecoin-like asset, will be listed directly on Kraken's platform. This strategic move aims to effectively bridge the gap between fiat and digital currencies. It offers users more convenient and seamless ways to manage their financial assets. The partnership significantly enhances both liquidity and accessibility for both platforms. Such deep integrations are vital for expanding crypto's practical utility in daily transactions. They also clearly demonstrate how innovative fintech companies are reshaping the financial landscape. This trend suggests a future where digital assets are more integrated into everyday finance.",
+    "sentences": [
+      {
+        "en": "Leading crypto exchange Kraken is officially partnering with fintech firm SoFi.",
+        "ko": "선도적인 암호화폐 거래소 크라켄이 핀테크 기업 소파이와 공식적으로 제휴하고 있습니다."
+      },
+      {
+        "en": "This significant collaboration underscores a rapidly growing trend of convergence.",
+        "ko": "이 중요한 협력은 빠르게 성장하는 융합 추세를 강조합니다."
+      },
+      {
+        "en": "Traditional banking services and crypto markets are increasingly intertwining globally.",
+        "ko": "전통적인 은행 서비스와 암호화폐 시장은 전 세계적으로 점점 더 얽히고 있습니다."
+      },
+      {
+        "en": "As part of this tie-up, Kraken will now join SoFi's established settlement network.",
+        "ko": "이 제휴의 일환으로 크라켄은 이제 소파이의 기존 결제 네트워크에 합류할 것입니다."
+      },
+      {
+        "en": "Additionally, SoFiUSD, a stablecoin-like asset, will be listed directly on Kraken's platform.",
+        "ko": "또한 스테이블코인과 유사한 자산인 SoFiUSD가 크라켄 플랫폼에 직접 상장될 예정입니다."
+      },
+      {
+        "en": "This strategic move aims to effectively bridge the gap between fiat and digital currencies.",
+        "ko": "이 전략적 움직임은 법정 화폐와 디지털 화폐 사이의 격차를 효과적으로 연결하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It offers users more convenient and seamless ways to manage their financial assets.",
+        "ko": "이는 사용자들에게 금융 자산을 관리할 수 있는 더욱 편리하고 원활한 방법을 제공합니다."
+      },
+      {
+        "en": "The partnership significantly enhances both liquidity and accessibility for both platforms.",
+        "ko": "이 파트너십은 양 플랫폼의 유동성과 접근성을 모두 크게 향상시킵니다."
+      },
+      {
+        "en": "Such deep integrations are vital for expanding crypto's practical utility in daily transactions.",
+        "ko": "이러한 심층적인 통합은 일상 거래에서 암호화폐의 실질적인 유용성을 확장하는 데 필수적입니다."
+      },
+      {
+        "en": "They also clearly demonstrate how innovative fintech companies are reshaping the financial landscape.",
+        "ko": "또한 혁신적인 핀테크 기업들이 금융 환경을 어떻게 재편하고 있는지를 명확히 보여줍니다."
+      },
+      {
+        "en": "This trend suggests a future where digital assets are more integrated into everyday finance.",
+        "ko": "이러한 추세는 디지털 자산이 일상 금융에 더욱 통합되는 미래를 시사합니다."
+      }
+    ],
+    "glossary": {
+      "exchange": {
+        "meaning": "a platform where users can buy, sell, or trade cryptocurrencies.",
+        "pos": "noun"
+      },
+      "partnering": {
+        "meaning": "forming a collaboration or alliance with another company to work together.",
+        "pos": "verb"
+      },
+      "fintech": {
+        "meaning": "the use of technology to improve and automate the delivery and use of financial services.",
+        "pos": "noun"
+      },
+      "firm": {
+        "meaning": "a business organization, especially one providing professional services like finance or law.",
+        "pos": "noun"
+      },
+      "collaboration": {
+        "meaning": "the act of working together with others to create or achieve something.",
+        "pos": "noun"
+      },
+      "convergence": {
+        "meaning": "the process of different things coming together or becoming more alike over time.",
+        "pos": "noun"
+      },
+      "intertwining": {
+        "meaning": "becoming closely connected or mixed together in a complex way.",
+        "pos": "verb"
+      },
+      "settlement": {
+        "meaning": "the completion of a financial transaction by transferring funds or assets between parties.",
+        "pos": "noun"
+      },
+      "network": {
+        "meaning": "a system of interconnected entities that can share resources or information.",
+        "pos": "noun"
+      },
+      "tie-up": {
+        "meaning": "a formal business agreement or partnership between two or more parties.",
+        "pos": "noun"
+      },
+      "listed": {
+        "meaning": "made available for trading on an exchange or platform, often publicly.",
+        "pos": "verb"
+      },
+      "stablecoin": {
+        "meaning": "a cryptocurrency designed to maintain a stable value, often pegged to a fiat currency.",
+        "pos": "noun"
+      },
+      "asset": {
+        "meaning": "something valuable owned by an individual or company that can be used to generate wealth.",
+        "pos": "noun"
+      },
+      "bridge": {
+        "meaning": "to create a connection or link between two different things or ideas.",
+        "pos": "verb"
+      },
+      "fiat": {
+        "meaning": "referring to government-issued currency that is not backed by a physical commodity.",
+        "pos": "adjective"
+      },
+      "seamless": {
+        "meaning": "smooth and continuous, without interruptions or difficulties in transition.",
+        "pos": "adjective"
+      },
+      "finances": {
+        "meaning": "the monetary resources and management of an individual or organization.",
+        "pos": "noun"
+      },
+      "enhances": {
+        "meaning": "improves the quality, value, or effectiveness of something.",
+        "pos": "verb"
+      },
+      "liquidity": {
+        "meaning": "the ease with which an asset can be converted into cash without affecting its market price.",
+        "pos": "noun"
+      },
+      "accessibility": {
+        "meaning": "the quality of being easily reached, used, or understood by many people.",
+        "pos": "noun"
+      },
+      "utility": {
+        "meaning": "the state of being useful, practical, or beneficial for a specific purpose.",
+        "pos": "noun"
+      },
+      "reshaping": {
+        "meaning": "changing the form, structure, or nature of something significantly.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What are the two main entities involved in this partnership, and what specific stablecoin-like asset is mentioned?",
+      "Explain what \"blurring finance boundaries\" means in the context of this article, and how this partnership contributes to it.",
+      "From a product management perspective, what new opportunities or challenges might arise for crypto exchanges and fintech firms due to such partnerships?"
+    ],
+    "modelAnswers": [
+      "The two main entities are crypto exchange Kraken and fintech firm SoFi. The specific stablecoin-like asset mentioned is SoFiUSD.",
+      "\"Blurring finance boundaries\" refers to the increasing integration and overlap between traditional banking and crypto markets. This partnership contributes by allowing Kraken to use SoFi's settlement network and listing SoFiUSD, effectively bridging fiat and digital currencies for users.",
+      "New opportunities include expanding user bases, increasing liquidity, and offering hybrid financial products that combine the best of both worlds. Challenges might involve navigating complex regulatory frameworks, ensuring interoperability between disparate systems, and managing user expectations across different financial paradigms."
+    ]
+  },
+  {
+    "id": "ec-2026-09-04-1",
+    "date": "2026-09-04",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "글로벌 채권 시장의 혼란 속에서 영국 주택담보대출 금리가 급등할 조짐을 보이고 있어 금융 시장의 주요 동향을 이해하는 데 도움이 될 것입니다.",
+    "url": "https://www.theguardian.com/money/2026/sep/03/uk-mortgage-borrowers-brace-for-rate-jump-global-bond-sell-off",
+    "title": "UK Mortgage Rates Jump as Global Bonds Sell Off",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "UK homeowners are facing higher mortgage rates. This rise is due to increasing inflation fears. Global bond markets are experiencing significant turmoil. Specifically, UK government borrowing costs have climbed sharply. These costs have reached their highest level in nearly three decades. Higher oil prices are fueling expectations of further inflation. This situation pushes up \"swap rates,\" which influence mortgage pricing. Lenders then pass these increased costs onto borrowers. The Bank of England might raise interest rates further. This move aims to control inflation in the economy. This trend highlights the interconnectedness of global financial markets. Fintech professionals should monitor such shifts closely.",
+    "sentences": [
+      {
+        "en": "UK homeowners are facing higher mortgage rates.",
+        "ko": "영국 주택 소유자들은 더 높은 주택담보대출 금리에 직면하고 있습니다."
+      },
+      {
+        "en": "This rise is due to increasing inflation fears.",
+        "ko": "이러한 상승은 인플레이션 우려 증가 때문입니다."
+      },
+      {
+        "en": "Global bond markets are experiencing significant turmoil.",
+        "ko": "글로벌 채권 시장은 상당한 혼란을 겪고 있습니다."
+      },
+      {
+        "en": "Specifically, UK government borrowing costs have climbed sharply.",
+        "ko": "특히, 영국 정부의 차입 비용이 급격히 상승했습니다."
+      },
+      {
+        "en": "These costs have reached their highest level in nearly three decades.",
+        "ko": "이 비용은 거의 30년 만에 최고 수준에 도달했습니다."
+      },
+      {
+        "en": "Higher oil prices are fueling expectations of further inflation.",
+        "ko": "유가 상승은 추가 인플레이션에 대한 기대를 부채질하고 있습니다."
+      },
+      {
+        "en": "This situation pushes up \"swap rates,\" which influence mortgage pricing.",
+        "ko": "이러한 상황은 주택담보대출 가격에 영향을 미치는 \"스왑 금리\"를 끌어올립니다."
+      },
+      {
+        "en": "Lenders then pass these increased costs onto borrowers.",
+        "ko": "대출 기관은 이러한 증가된 비용을 차입자에게 전가합니다."
+      },
+      {
+        "en": "The Bank of England might raise interest rates further.",
+        "ko": "영국 중앙은행은 금리를 추가로 인상할 수도 있습니다."
+      },
+      {
+        "en": "This move aims to control inflation in the economy.",
+        "ko": "이러한 움직임은 경제의 인플레이션을 통제하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This trend highlights the interconnectedness of global financial markets.",
+        "ko": "이러한 추세는 글로벌 금융 시장의 상호 연결성을 강조합니다."
+      },
+      {
+        "en": "Fintech professionals should monitor such shifts closely.",
+        "ko": "핀테크 전문가들은 이러한 변화를 면밀히 주시해야 합니다."
+      }
+    ],
+    "glossary": {
+      "homeowners": {
+        "meaning": "People who own their own houses or apartments.",
+        "pos": "noun"
+      },
+      "mortgage": {
+        "meaning": "A loan from a bank or building society to buy a house.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "turmoil": {
+        "meaning": "A state of great disturbance, confusion, or uncertainty.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "costs": {
+        "meaning": "The expenses incurred or required to do something.",
+        "pos": "noun"
+      },
+      "climbed": {
+        "meaning": "Increased in amount or intensity.",
+        "pos": "verb"
+      },
+      "decades": {
+        "meaning": "Periods of ten years.",
+        "pos": "noun"
+      },
+      "fueling": {
+        "meaning": "Causing something to increase or become more intense.",
+        "pos": "verb"
+      },
+      "expectations": {
+        "meaning": "Beliefs about what will happen in the future.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "Affect the way someone or something develops, behaves, or thinks.",
+        "pos": "verb"
+      },
+      "pricing": {
+        "meaning": "The process of setting a price for a product or service.",
+        "pos": "noun"
+      },
+      "lenders": {
+        "meaning": "Organizations or people that lend money.",
+        "pos": "noun"
+      },
+      "pass": {
+        "meaning": "To transfer something, like a cost, to someone else.",
+        "pos": "verb"
+      },
+      "borrowers": {
+        "meaning": "People who take money with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "control": {
+        "meaning": "To limit or manage something, often to prevent it from increasing too much.",
+        "pos": "verb"
+      },
+      "economy": {
+        "meaning": "The system by which a country's money and goods are produced and used.",
+        "pos": "noun"
+      },
+      "trend": {
+        "meaning": "A general direction in which something is developing or changing.",
+        "pos": "noun"
+      },
+      "interconnectedness": {
+        "meaning": "The state of being connected with each other.",
+        "pos": "noun"
+      },
+      "monitor": {
+        "meaning": "To observe and check the progress or quality of something over a period of time.",
+        "pos": "verb"
+      },
+      "shifts": {
+        "meaning": "Changes in position, direction, or tendency.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific financial market phenomenon is causing UK mortgage rates to rise?",
+      "Q2: In the context of the passage, what does \"swap rates\" refer to, and how do they impact homeowners?",
+      "Q3: How might rising mortgage rates affect the broader UK economy, and what measures could the Bank of England take in response?"
+    ],
+    "modelAnswers": [
+      "A1: UK mortgage rates are rising due to turmoil in global bond markets and increasing UK government borrowing costs, which have reached their highest level in nearly three decades.",
+      "A2: \"Swap rates\" are interest rates that banks use to price fixed-rate mortgage products. When these rates increase, lenders pass the higher costs onto homeowners through higher mortgage rates.",
+      "A3: Rising mortgage rates could slow consumer spending and potentially cool the housing market, impacting economic growth. The Bank of England might raise interest rates further to control inflation."
+    ]
+  },
+  {
+    "id": "ec-2026-09-04-2",
+    "date": "2026-09-04",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "AI 분야의 주요 인수합병 소식으로, 엔비디아가 Hugging Face를 인수하며 오픈 AI 모델 생태계에 미칠 영향이 주목됩니다.",
+    "url": "https://www.theguardian.com/technology/2026/sep/03/nvidia-to-buy-hugging-face-in-129bn-deal",
+    "title": "Nvidia Acquires Hugging Face in $12.9 Billion AI Deal",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Nvidia, a leading semiconductor company, is acquiring Hugging Face. This deal is valued at approximately $12.9 billion. Hugging Face is a popular platform for AI developers. It supports open AI models and machine learning tools. Nvidia's move signals a strong bet on the future of AI. The acquisition could help Nvidia expand its software ecosystem. This might also offset a potential slowdown in chip demand. Many companies are increasingly adopting AI technologies. Open-source AI models are becoming crucial for innovation. This acquisition strengthens Nvidia's position in the AI market. It provides a direct link to a vast developer community. Fintech companies often leverage AI for various applications.",
+    "sentences": [
+      {
+        "en": "Nvidia, a leading semiconductor company, is acquiring Hugging Face.",
+        "ko": "선도적인 반도체 회사인 엔비디아가 Hugging Face를 인수합니다."
+      },
+      {
+        "en": "This deal is valued at approximately $12.9 billion.",
+        "ko": "이 거래는 약 129억 달러의 가치를 가집니다."
+      },
+      {
+        "en": "Hugging Face is a popular platform for AI developers.",
+        "ko": "Hugging Face는 AI 개발자들에게 인기 있는 플랫폼입니다."
+      },
+      {
+        "en": "It supports open AI models and machine learning tools.",
+        "ko": "이것은 오픈 AI 모델과 머신러닝 도구를 지원합니다."
+      },
+      {
+        "en": "Nvidia's move signals a strong bet on the future of AI.",
+        "ko": "엔비디아의 움직임은 AI의 미래에 대한 강력한 베팅을 시사합니다."
+      },
+      {
+        "en": "The acquisition could help Nvidia expand its software ecosystem.",
+        "ko": "이번 인수는 엔비디아가 소프트웨어 생태계를 확장하는 데 도움이 될 수 있습니다."
+      },
+      {
+        "en": "This might also offset a potential slowdown in chip demand.",
+        "ko": "이는 또한 칩 수요의 잠재적인 둔화를 상쇄할 수 있습니다."
+      },
+      {
+        "en": "Many companies are increasingly adopting AI technologies.",
+        "ko": "많은 기업들이 AI 기술을 점점 더 많이 채택하고 있습니다."
+      },
+      {
+        "en": "Open-source AI models are becoming crucial for innovation.",
+        "ko": "오픈 소스 AI 모델은 혁신에 매우 중요해지고 있습니다."
+      },
+      {
+        "en": "This acquisition strengthens Nvidia's position in the AI market.",
+        "ko": "이번 인수는 AI 시장에서 엔비디아의 입지를 강화합니다."
+      },
+      {
+        "en": "It provides a direct link to a vast developer community.",
+        "ko": "이는 방대한 개발자 커뮤니티와의 직접적인 연결을 제공합니다."
+      },
+      {
+        "en": "Fintech companies often leverage AI for various applications.",
+        "ko": "핀테크 기업들은 다양한 애플리케이션에 AI를 자주 활용합니다."
+      }
+    ],
+    "glossary": {
+      "acquiring": {
+        "meaning": "Getting or buying something.",
+        "pos": "verb"
+      },
+      "valued": {
+        "meaning": "Estimated the monetary worth of something.",
+        "pos": "verb"
+      },
+      "approximately": {
+        "meaning": "Close to a particular number or amount but not exactly.",
+        "pos": "adverb"
+      },
+      "platform": {
+        "meaning": "A system that provides a foundation for developing or operating software.",
+        "pos": "noun"
+      },
+      "supports": {
+        "meaning": "Helps something to continue or be successful.",
+        "pos": "verb"
+      },
+      "open": {
+        "meaning": "Artificial intelligence systems whose code and data are freely accessible.",
+        "pos": "adjective"
+      },
+      "signals": {
+        "meaning": "Indicates something or gives a sign.",
+        "pos": "verb"
+      },
+      "bet": {
+        "meaning": "A strong belief or a calculated risk about a future event.",
+        "pos": "noun"
+      },
+      "expand": {
+        "meaning": "To increase in size, number, or importance.",
+        "pos": "verb"
+      },
+      "ecosystem": {
+        "meaning": "A complex network or interconnected system.",
+        "pos": "noun"
+      },
+      "offset": {
+        "meaning": "To counteract something by having an opposing effect.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Possible when the necessary conditions exist.",
+        "pos": "adjective"
+      },
+      "slowdown": {
+        "meaning": "A reduction in the speed or rate of something.",
+        "pos": "noun"
+      },
+      "demand": {
+        "meaning": "The desire of consumers for a good or service.",
+        "pos": "noun"
+      },
+      "adopting": {
+        "meaning": "Starting to use or follow something new.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "Extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "strengthens": {
+        "meaning": "Makes something stronger or more powerful.",
+        "pos": "verb"
+      },
+      "position": {
+        "meaning": "The place where someone or something is located or ranks.",
+        "pos": "noun"
+      },
+      "direct": {
+        "meaning": "A clear and immediate connection between two things.",
+        "pos": "adjective"
+      },
+      "vast": {
+        "meaning": "Of very great extent or quantity; immense.",
+        "pos": "adjective"
+      },
+      "leverage": {
+        "meaning": "To use something to maximum advantage.",
+        "pos": "verb"
+      },
+      "applications": {
+        "meaning": "Specific uses or purposes for which something is designed.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the main purpose of Nvidia's acquisition of Hugging Face, according to the passage?",
+      "Q2: Explain the significance of \"open AI models\" in the context of this deal and the broader AI industry.",
+      "Q3: How might this acquisition impact the competitive landscape within the AI and semiconductor industries?"
+    ],
+    "modelAnswers": [
+      "A1: Nvidia is acquiring Hugging Face to expand its software ecosystem, strengthen its position in the AI market, and potentially offset any slowdown in chip demand by betting on the future of AI.",
+      "A2: Open AI models are artificial intelligence systems with freely accessible code and data. Their increasing importance for innovation makes Hugging Face's platform, which supports them, a crucial acquisition for Nvidia.",
+      "A3: This acquisition could intensify competition in both AI software and hardware by giving Nvidia a stronger integrated offering. It might also encourage other tech giants to invest more in open-source AI platforms."
+    ]
+  },
+  {
+    "id": "ec-2026-09-04-3",
+    "date": "2026-09-04",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "다가오는 8월 고용 보고서는 연준의 인플레이션 대응에 중요한 영향을 미칠 것이므로, 노동 시장의 최신 동향을 파악하는 데 필수적입니다.",
+    "url": "https://www.cnbc.com/2026/09/03/august-2026-jobs-report-payrolls.html",
+    "title": "August Jobs Report: Labor Market Remains Subdued",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The August jobs report is highly anticipated. Economists expect a modest increase in nonfarm payrolls. Predictions suggest around 53,000 new jobs. This indicates a relatively subdued labor market. Such a market keeps the Federal Reserve focused on inflation. A slower job growth rate could ease wage pressure. This might help cool overall price increases. The Fed closely monitors employment data. Their decisions on interest rates depend on these figures. A soft landing for the economy remains the goal. This report will offer crucial insights into economic health. Fintech professionals should understand these macro indicators.",
+    "sentences": [
+      {
+        "en": "The August jobs report is highly anticipated.",
+        "ko": "8월 고용 보고서는 매우 기대됩니다."
+      },
+      {
+        "en": "Economists expect a modest increase in nonfarm payrolls.",
+        "ko": "경제학자들은 비농업 급여의 완만한 증가를 예상합니다."
+      },
+      {
+        "en": "Predictions suggest around 53,000 new jobs.",
+        "ko": "예측에 따르면 약 53,000개의 새로운 일자리가 창출될 것입니다."
+      },
+      {
+        "en": "This indicates a relatively subdued labor market.",
+        "ko": "이는 비교적 침체된 노동 시장을 나타냅니다."
+      },
+      {
+        "en": "Such a market keeps the Federal Reserve focused on inflation.",
+        "ko": "이러한 시장은 연방준비제도(Fed)가 인플레이션에 계속 집중하게 합니다."
+      },
+      {
+        "en": "A slower job growth rate could ease wage pressure.",
+        "ko": "느린 고용 성장률은 임금 압력을 완화할 수 있습니다."
+      },
+      {
+        "en": "This might help cool overall price increases.",
+        "ko": "이는 전반적인 물가 상승을 진정시키는 데 도움이 될 수 있습니다."
+      },
+      {
+        "en": "The Fed closely monitors employment data.",
+        "ko": "연준은 고용 데이터를 면밀히 모니터링합니다."
+      },
+      {
+        "en": "Their decisions on interest rates depend on these figures.",
+        "ko": "그들의 금리 결정은 이 수치들에 달려 있습니다."
+      },
+      {
+        "en": "A soft landing for the economy remains the goal.",
+        "ko": "경제의 연착륙이 여전히 목표입니다."
+      },
+      {
+        "en": "This report will offer crucial insights into economic health.",
+        "ko": "이 보고서는 경제 건전성에 대한 중요한 통찰력을 제공할 것입니다."
+      },
+      {
+        "en": "Fintech professionals should understand these macro indicators.",
+        "ko": "핀테크 전문가들은 이러한 거시 지표들을 이해해야 합니다."
+      }
+    ],
+    "glossary": {
+      "anticipated": {
+        "meaning": "Regarded as probable; expected.",
+        "pos": "adjective"
+      },
+      "economists": {
+        "meaning": "Experts who study the production, distribution, and consumption of goods and services.",
+        "pos": "noun"
+      },
+      "modest": {
+        "meaning": "Not large or excessive in size or amount.",
+        "pos": "adjective"
+      },
+      "predictions": {
+        "meaning": "Statements about what will happen in the future.",
+        "pos": "noun"
+      },
+      "suggest": {
+        "meaning": "To put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "indicates": {
+        "meaning": "Points out or shows something.",
+        "pos": "verb"
+      },
+      "subdued": {
+        "meaning": "Quieter and less intense than usual.",
+        "pos": "adjective"
+      },
+      "focused": {
+        "meaning": "Giving attention to one particular thing.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "ease": {
+        "meaning": "To make something less severe, difficult, or unpleasant.",
+        "pos": "verb"
+      },
+      "cool": {
+        "meaning": "To reduce the intensity or speed of something.",
+        "pos": "verb"
+      },
+      "overall": {
+        "meaning": "Taking everything into account; total.",
+        "pos": "adjective"
+      },
+      "monitors": {
+        "meaning": "Observes and checks the progress or quality of something over time.",
+        "pos": "verb"
+      },
+      "employment": {
+        "meaning": "Information and statistics related to jobs and workers.",
+        "pos": "noun"
+      },
+      "decisions": {
+        "meaning": "Choices made after considering options.",
+        "pos": "noun"
+      },
+      "figures": {
+        "meaning": "Numbers, especially those used in financial calculations.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "insights": {
+        "meaning": "Deep understanding of a person or thing.",
+        "pos": "noun"
+      },
+      "macro": {
+        "meaning": "Economic statistics that show the health and direction of a large economy.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What is the expected increase in nonfarm payrolls for August, and what does this number suggest about the labor market?",
+      "Q2: How does a \"subdued labor market\" relate to the Federal Reserve's focus on inflation?",
+      "Q3: In your opinion, what are the potential risks and benefits of a slower job growth rate for the overall economy?"
+    ],
+    "modelAnswers": [
+      "A1: Nonfarm payrolls are expected to increase by around 53,000 in August. This modest increase indicates a relatively subdued labor market.",
+      "A2: A subdued labor market implies slower job growth, which can ease wage pressure. This helps to cool overall price increases, aligning with the Federal Reserve's goal of controlling inflation.",
+      "A3: A slower job growth rate could benefit the economy by helping to control inflation without causing a recession. However, a risk is that it might lead to higher unemployment and reduced consumer spending if growth becomes too slow."
+    ]
+  },
+  {
     "id": "cd-2026-09-03-1",
     "date": "2026-09-03",
     "rank": 1,
