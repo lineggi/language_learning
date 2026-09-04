@@ -8,12 +8,28 @@
  *   2. Ask Gemini to pick the 3 best stories and rewrite each into a B1–B2
  *      English learning "pack". Gemini chooses by candidate NUMBER only — it
  *      never writes URLs, so the original link is always the real one we scraped.
- *   3. Prepend today's 3 packs to packs.json (accumulating feed).
+ *   3. Prepend today's packs to the feed, then re-shard it (see below).
+ *
+ * Storage layout — the feed is split so the app's first paint stays small no
+ * matter how many months of articles have accumulated:
+ *   · packs.json          the newest RECENT_DAYS days, in full. This is the
+ *                         only file the app fetches on load.
+ *   · archive/index.json  one small row per pack ever published (id, date,
+ *                         rank, category, title, source, url). Fetched lazily
+ *                         when the 보관함 tab is first opened.
+ *   · archive/YYYY-MM.json  full packs for older days, one shard per month,
+ *                         fetched only when an old article is actually opened.
  *
  * Requires Node 18+ (global fetch). Run in GitHub Actions daily.
  *
+ * Usage:
+ *   node build_packs.js            build today's packs, then re-shard
+ *   node build_packs.js --repack   re-shard what is already on disk (no API
+ *                                  calls) — used to migrate an old flat
+ *                                  packs.json, or after changing RECENT_DAYS
+ *
  * Env:
- *   GEMINI_API_KEY  (required)  — Google AI Studio key
+ *   GEMINI_API_KEY  (required, not for --repack)  — Google AI Studio key
  *   GEMINI_MODEL    (optional)  — defaults to "gemini-2.5-flash"
  */
 
@@ -23,6 +39,13 @@ const path = require("path");
 const API_KEY = process.env.GEMINI_API_KEY;
 const MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
 const PACKS_PATH = path.join(__dirname, "packs.json");
+const ARCHIVE_DIR = path.join(__dirname, "archive");
+const INDEX_PATH = path.join(ARCHIVE_DIR, "index.json");
+// How many of the most recent days stay in packs.json. Everything older moves
+// to a monthly shard. 14 days ≈ 84 packs ≈ 600KB — enough that "today" and the
+// last two weeks of re-reads never touch the network twice, small enough that
+// the app's first load does not grow without bound.
+const RECENT_DAYS = 14;
 
 const HOMEPAGE = "https://www.coindesk.com/";
 const RSS_FEEDS = ["https://www.coindesk.com/arc/outboundfeeds/rss/"];
@@ -395,17 +418,119 @@ async function callGemini(prompt) {
 // packs.json I/O
 // ---------------------------------------------------------------------------
 
-function loadPacks() {
-  if (!fs.existsSync(PACKS_PATH)) return [];
+function readJson(file, fallback) {
+  if (!fs.existsSync(file)) return fallback;
   try {
-    const raw = fs.readFileSync(PACKS_PATH, "utf8").trim();
-    if (!raw) return [];
-    const arr = JSON.parse(raw);
-    return Array.isArray(arr) ? arr : [];
+    const raw = fs.readFileSync(file, "utf8").trim();
+    if (!raw) return fallback;
+    return JSON.parse(raw);
   } catch (err) {
-    console.warn("packs.json unreadable, starting fresh:", err.message);
-    return [];
+    console.warn(`${path.basename(file)} unreadable, ignoring: ${err.message}`);
+    return fallback;
   }
+}
+
+function loadPacks() {
+  const arr = readJson(PACKS_PATH, []);
+  return Array.isArray(arr) ? arr : [];
+}
+
+// Every pack on disk: the recent window plus every monthly shard. Only needed
+// when re-sharding, never on the app's hot path.
+function loadAllPacks() {
+  const out = [...loadPacks()];
+  if (fs.existsSync(ARCHIVE_DIR)) {
+    for (const f of fs.readdirSync(ARCHIVE_DIR).filter((f) => /^\d{4}-\d{2}\.json$/.test(f)).sort()) {
+      const arr = readJson(path.join(ARCHIVE_DIR, f), []);
+      if (Array.isArray(arr)) out.push(...arr);
+    }
+  }
+  return dedupeById(out);
+}
+
+// ---------------------------------------------------------------------------
+// Sharding (pure — exercised by test/build_packs.test.js)
+// ---------------------------------------------------------------------------
+
+// First occurrence of each id wins, so a freshly built pack replaces the copy
+// already on disk when both are present.
+function dedupeById(packs) {
+  const seen = new Set();
+  const out = [];
+  for (const p of packs || []) {
+    if (!p || !p.id || seen.has(p.id)) continue;
+    seen.add(p.id);
+    out.push(p);
+  }
+  return out;
+}
+
+function byDateRankDesc(a, b) {
+  if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+  return (a.rank || 99) - (b.rank || 99);
+}
+
+// The one row per pack that archive/index.json carries. Deliberately excludes
+// passage/glossary/questions — those are what make a pack ~7KB, and the 보관함
+// list never shows them.
+function indexEntry(p) {
+  return {
+    id: p.id, date: p.date, rank: p.rank || 1,
+    category: p.category || "crypto", title: p.title || "", source: p.source || "",
+  };
+}
+
+function shardOf(p) { return String(p.date || "").slice(0, 7); }
+
+// Split the whole feed into the recent window (kept in packs.json) and the
+// monthly shards. The cut is by DAY, not by pack count, so a day is never
+// half-recent and half-archived.
+function splitPacks(all, recentDays = RECENT_DAYS) {
+  const packs = dedupeById(all).sort(byDateRankDesc);
+  const dates = Array.from(new Set(packs.map((p) => p.date))).sort().reverse();
+  const keep = new Set(dates.slice(0, recentDays));
+  const recent = packs.filter((p) => keep.has(p.date));
+  const shards = {};
+  for (const p of packs.filter((p) => !keep.has(p.date))) {
+    (shards[shardOf(p)] = shards[shardOf(p)] || []).push(p);
+  }
+  return { recent, shards, index: packs.map(indexEntry) };
+}
+
+// Write the split to disk, pruning shard files that no longer have any packs
+// (happens when RECENT_DAYS grows and a whole month moves back into the
+// recent window).
+// Only touch a file whose bytes actually change. Shards are deterministic, so
+// on a normal day just packs.json and the index move — rewriting a 1MB shard
+// nightly would add a fresh blob to git history each time, the exact bloat this
+// split exists to avoid.
+function writeIfChanged(file, text) {
+  if (fs.existsSync(file) && fs.readFileSync(file, "utf8") === text) return false;
+  fs.writeFileSync(file, text, "utf8");
+  return true;
+}
+
+function writeFeed(all) {
+  const { recent, shards, index } = splitPacks(all);
+  fs.mkdirSync(ARCHIVE_DIR, { recursive: true });
+  writeIfChanged(PACKS_PATH, JSON.stringify(recent, null, 2) + "\n");
+  writeIfChanged(INDEX_PATH, JSON.stringify(index) + "\n");
+  let touched = 0;
+  for (const [ym, list] of Object.entries(shards)) {
+    if (writeIfChanged(path.join(ARCHIVE_DIR, `${ym}.json`), JSON.stringify(list) + "\n")) touched++;
+  }
+  for (const f of fs.readdirSync(ARCHIVE_DIR)) {
+    if (/^\d{4}-\d{2}\.json$/.test(f) && !shards[f.replace(/\.json$/, "")]) {
+      fs.unlinkSync(path.join(ARCHIVE_DIR, f));
+    }
+  }
+  const kb = (n) => Math.round(n / 1024) + "KB";
+  console.log(
+    `Feed: ${recent.length} packs in packs.json (${kb(fs.statSync(PACKS_PATH).size)}), ` +
+    `${index.length - recent.length} archived across ${Object.keys(shards).length} shard(s) (${touched} rewritten), ` +
+    `index ${kb(fs.statSync(INDEX_PATH).size)}.`
+  );
+  return { recent, shards, index };
 }
 
 // Trim a meaning to a soft length WITHOUT cutting a word in half. Only trims
@@ -505,7 +630,7 @@ async function main() {
 
   // Load the accumulated feed up front so we can avoid re-running any article
   // that already appeared on a recent day (keeps crypto AND economy fresh).
-  const existing = loadPacks();
+  const existing = loadAllPacks();
   const used = usedUrlSet(existing);
 
   const crypto = await collectCrypto();
@@ -530,17 +655,32 @@ async function main() {
   const missing = newPacks.filter((p) => !p.url);
   if (missing.length) console.warn(`${missing.length} pack(s) have no URL after mapping.`);
 
-  // Replace any existing packs that share an id (same day + rank) with the
-  // freshly generated ones. Older days are preserved in the accumulating feed.
-  const newIds = new Set(newPacks.map((p) => p.id));
-  const merged = [...newPacks, ...existing.filter((p) => !newIds.has(p.id))];
+  // Freshly generated packs come first so they replace any copy already on
+  // disk sharing an id (same day + rank); older days are preserved.
+  const merged = [...newPacks, ...existing];
 
-  fs.writeFileSync(PACKS_PATH, JSON.stringify(merged, null, 2) + "\n", "utf8");
-  console.log(`Wrote ${newPacks.length} new packs (${cryptoPacks.length} crypto + ${econPacks.length} economy; total ${merged.length}).`);
+  writeFeed(merged);
+  console.log(`Wrote ${newPacks.length} new packs (${cryptoPacks.length} crypto + ${econPacks.length} economy).`);
   newPacks.forEach((p) => console.log(`  #${p.rank} [${p.category}] ${p.title} -> ${p.url}`));
 }
 
-main().catch((err) => {
-  console.error("build_packs failed:", err);
-  process.exit(1);
-});
+// Re-shard whatever is already on disk. No network, no API key — used to
+// migrate a legacy flat packs.json and to re-balance after RECENT_DAYS changes.
+function repack() {
+  const all = loadAllPacks();
+  if (!all.length) { console.error("Nothing to repack."); process.exit(1); }
+  writeFeed(all);
+}
+
+module.exports = {
+  dedupeById, indexEntry, shardOf, splitPacks, byDateRankDesc, writeIfChanged,
+  normUrl, usedUrlSet, excludeUsed, tidyMeaning, kstDateString,
+};
+
+if (require.main === module) {
+  const run = process.argv.includes("--repack") ? async () => repack() : main;
+  run().catch((err) => {
+    console.error("build_packs failed:", err);
+    process.exit(1);
+  });
+}

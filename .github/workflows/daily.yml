@@ -1,4 +1,4 @@
-name: Daily CoinDesk packs
+name: Daily packs (crypto + economy)
 
 on:
   schedule:
@@ -25,6 +25,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Test
+        run: node --test test/*.test.js
+
       - name: Build packs
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -35,10 +38,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain packs.json)" ]; then
-            git add packs.json
-            git commit -m "chore: daily packs $(date -u +%Y-%m-%d)"
+          # The run fires at 21:00 UTC, which is already the NEXT day in KST —
+          # the day the packs are actually dated. Using `date -u` here labelled
+          # every commit with the previous day and made the history look like it
+          # had gaps it didn't have.
+          PACK_DATE=$(TZ=Asia/Seoul date +%Y-%m-%d)
+          if [ -n "$(git status --porcelain packs.json archive)" ]; then
+            git add packs.json archive
+            git commit -m "chore: daily packs $PACK_DATE (KST)"
             git push
           else
-            echo "No changes to packs.json"
+            echo "No changes to the feed"
           fi
