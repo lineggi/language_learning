@@ -1,5 +1,933 @@
 [
   {
+    "id": "cd-2026-09-05-1",
+    "date": "2026-09-05",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "한국 금융 당국이 2027년 2월까지 토큰 증권 시장을 완전히 구축하려는 계획을 발표했습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
+    "title": "South Korea Plans Full Tokenized Securities Market by 2027",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "South Korea's financial regulators have revealed an ambitious roadmap. They aim to fully launch a tokenized securities market by February 2027. This phased plan will transition traditional capital markets onto distributed ledgers. The final stage involves on-chain settlement using stablecoins. This initiative demonstrates the country's commitment to blockchain innovation. It seeks to modernize financial infrastructure and enhance efficiency. For fintech professionals, this represents a significant shift. It opens new opportunities in digital asset development and regulation. The integration of stablecoins is crucial for seamless transactions. This move could set a global precedent for tokenization efforts.",
+    "sentences": [
+      {
+        "en": "South Korea's financial regulators have revealed an ambitious roadmap.",
+        "ko": "한국의 금융 당국이 야심찬 로드맵을 공개했습니다."
+      },
+      {
+        "en": "They aim to fully launch a tokenized securities market by February 2027.",
+        "ko": "이들은 2027년 2월까지 토큰 증권 시장을 완전히 출범시키는 것을 목표로 합니다."
+      },
+      {
+        "en": "This phased plan will transition traditional capital markets onto distributed ledgers.",
+        "ko": "이 단계별 계획은 전통적인 자본 시장을 분산원장으로 전환할 것입니다."
+      },
+      {
+        "en": "The final stage involves on-chain settlement using stablecoins.",
+        "ko": "최종 단계는 스테이블코인을 이용한 온체인 결제를 포함합니다."
+      },
+      {
+        "en": "This initiative demonstrates the country's commitment to blockchain innovation.",
+        "ko": "이러한 이니셔티브는 블록체인 혁신에 대한 국가의 의지를 보여줍니다."
+      },
+      {
+        "en": "It seeks to modernize financial infrastructure and enhance efficiency.",
+        "ko": "이는 금융 인프라를 현대화하고 효율성을 높이려는 노력입니다."
+      },
+      {
+        "en": "For fintech professionals, this represents a significant shift.",
+        "ko": "핀테크 전문가들에게 이것은 중요한 변화를 의미합니다."
+      },
+      {
+        "en": "It opens new opportunities in digital asset development and regulation.",
+        "ko": "이는 디지털 자산 개발 및 규제에 새로운 기회를 열어줍니다."
+      },
+      {
+        "en": "The integration of stablecoins is crucial for seamless transactions.",
+        "ko": "스테이블코인 통합은 원활한 거래에 매우 중요합니다."
+      },
+      {
+        "en": "This move could set a global precedent for tokenization efforts.",
+        "ko": "이러한 움직임은 토큰화 노력에 대한 세계적인 선례를 세울 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "regulators": {
+        "meaning": "Official authorities responsible for controlling and overseeing a particular industry or activity.",
+        "pos": "noun"
+      },
+      "ambitious": {
+        "meaning": "Having a strong desire for success or achievement, often implying a grand or challenging goal.",
+        "pos": "adjective"
+      },
+      "roadmap": {
+        "meaning": "A plan or strategy outlining the steps and timeline for achieving a goal.",
+        "pos": "noun"
+      },
+      "launch": {
+        "meaning": "To start or introduce a new product, service, or initiative.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "Converted into a digital token on a blockchain, representing ownership or value.",
+        "pos": "adjective"
+      },
+      "securities": {
+        "meaning": "Financial instruments that can be traded, such as stocks, bonds, or derivatives.",
+        "pos": "noun"
+      },
+      "phased": {
+        "meaning": "Implemented or developed in distinct stages or steps.",
+        "pos": "adjective"
+      },
+      "transition": {
+        "meaning": "To move or change from one state, place, or stage to another.",
+        "pos": "verb"
+      },
+      "capital": {
+        "meaning": "Relating to money or assets used for investment or to start a business.",
+        "pos": "adjective"
+      },
+      "distributed": {
+        "meaning": "Spread across multiple locations or systems, rather than centralized.",
+        "pos": "adjective"
+      },
+      "ledgers": {
+        "meaning": "Records of financial transactions, often used in the context of blockchain technology.",
+        "pos": "noun"
+      },
+      "final": {
+        "meaning": "Coming at the end; last in a series or process.",
+        "pos": "adjective"
+      },
+      "on-chain": {
+        "meaning": "Referring to transactions or data recorded directly on a blockchain network.",
+        "pos": "adjective"
+      },
+      "settlement": {
+        "meaning": "The process of completing a financial transaction by exchanging assets or funds.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "An important new plan or program.",
+        "pos": "noun"
+      },
+      "commitment": {
+        "meaning": "The state or quality of being dedicated to a cause, activity, or policy.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or devices.",
+        "pos": "noun"
+      },
+      "modernize": {
+        "meaning": "To adapt something to modern needs or habits, typically by updating its technology or methods.",
+        "pos": "verb"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "To improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "The state or quality of being efficient; achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or necessary.",
+        "pos": "adjective"
+      },
+      "precedent": {
+        "meaning": "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific year and month does South Korea aim to fully launch its tokenized securities market?",
+      "Q2: Explain what \"on-chain settlement using stablecoins\" means in the context of this plan. Why is this detail significant?",
+      "Q3: As a crypto/fintech PM, how might this development in South Korea influence your strategic decisions or product roadmap, especially regarding tokenization or stablecoin integration?"
+    ],
+    "modelAnswers": [
+      "A1: South Korea aims to fully launch its tokenized securities market by February 2027, according to its financial regulators' roadmap.",
+      "A2: \"On-chain settlement using stablecoins\" refers to completing financial transactions for tokenized securities directly on a blockchain using stablecoins as the medium of exchange. This is significant because stablecoins provide a reliable, less volatile digital currency for efficient and transparent transaction finality, crucial for integrating traditional finance with blockchain.",
+      "A3: This development suggests a strong regulatory push for tokenization in a major economy. As a PM, I would explore opportunities for developing compliant tokenization platforms or services, potentially focusing on stablecoin integration for settlement. It also highlights a need to understand evolving global regulatory frameworks for digital assets."
+    ]
+  },
+  {
+    "id": "cd-2026-09-05-2",
+    "date": "2026-09-05",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "로빈후드의 주식 토큰 발행을 둘러싼 논란이 AMC CEO의 반발에도 불구하고 계속되고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/04/amc-ceo-tells-robinhood-to-stop-issuing-stock-token-as-industry-executives-weigh-in",
+    "title": "Robinhood Defends Stock Tokens Amid AMC CEO's Criticism",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Robinhood is facing strong criticism for its stock token product. AMC CEO Adam Aron has publicly called these tokens \"synthetic equity.\" He believes they are created without the underlying company's consent. Aron has even threatened potential legal action against the brokerage. However, Robinhood CEO Vlad Tenev firmly defends the product. He states that the company stands behind its innovative offering. This dispute highlights ongoing questions about tokenization. It raises concerns about how traditional assets are brought on-chain. Regulators worldwide are closely watching these developments. They are considering the implications for market integrity and investor protection. The outcome could influence future approaches to asset tokenization.",
+    "sentences": [
+      {
+        "en": "Robinhood is facing strong criticism for its stock token product.",
+        "ko": "로빈후드는 주식 토큰 상품에 대해 강력한 비판에 직면해 있습니다."
+      },
+      {
+        "en": "AMC CEO Adam Aron has publicly called these tokens \"synthetic equity.\"",
+        "ko": "AMC CEO 아담 아론은 공개적으로 이 토큰들을 \"합성 주식\"이라고 불렀습니다."
+      },
+      {
+        "en": "He believes they are created without the underlying company's consent.",
+        "ko": "그는 이 토큰들이 기초 회사의 동의 없이 생성되었다고 믿습니다."
+      },
+      {
+        "en": "Aron has even threatened potential legal action against the brokerage.",
+        "ko": "아론은 심지어 증권사에 대한 잠재적인 법적 조치를 위협했습니다."
+      },
+      {
+        "en": "However, Robinhood CEO Vlad Tenev firmly defends the product.",
+        "ko": "그러나 로빈후드 CEO 블라드 테네브는 이 상품을 단호히 옹호합니다."
+      },
+      {
+        "en": "He states that the company stands behind its innovative offering.",
+        "ko": "그는 회사가 혁신적인 제품을 지지한다고 말합니다."
+      },
+      {
+        "en": "This dispute highlights ongoing questions about tokenization.",
+        "ko": "이 분쟁은 토큰화에 대한 지속적인 질문들을 부각시킵니다."
+      },
+      {
+        "en": "It raises concerns about how traditional assets are brought on-chain.",
+        "ko": "이는 전통적인 자산이 어떻게 온체인으로 전환되는지에 대한 우려를 제기합니다."
+      },
+      {
+        "en": "Regulators worldwide are closely watching these developments.",
+        "ko": "전 세계 규제 당국은 이러한 발전을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "They are considering the implications for market integrity and investor protection.",
+        "ko": "이들은 시장 건전성과 투자자 보호에 대한 영향을 고려하고 있습니다."
+      },
+      {
+        "en": "The outcome could influence future approaches to asset tokenization.",
+        "ko": "그 결과는 자산 토큰화에 대한 미래 접근 방식에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "criticism": {
+        "meaning": "The expression of disapproval of someone or something based on perceived faults or mistakes.",
+        "pos": "noun"
+      },
+      "product": {
+        "meaning": "An article or substance that is manufactured or refined for sale.",
+        "pos": "noun"
+      },
+      "synthetic": {
+        "meaning": "Made by chemical synthesis, especially to imitate a natural product; not genuine.",
+        "pos": "adjective"
+      },
+      "equity": {
+        "meaning": "The value of a company's shares, typically used to refer to shares themselves.",
+        "pos": "noun"
+      },
+      "underlying": {
+        "meaning": "Forming the basis of something; fundamental.",
+        "pos": "adjective"
+      },
+      "consent": {
+        "meaning": "Permission for something to happen or agreement to do something.",
+        "pos": "noun"
+      },
+      "threatened": {
+        "meaning": "Stated one's intention to take hostile action against someone in retribution for something done or not done.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Having or showing the capacity to become something in the future.",
+        "pos": "adjective"
+      },
+      "legal": {
+        "meaning": "Relating to the law or permissible by law.",
+        "pos": "adjective"
+      },
+      "action": {
+        "meaning": "A lawsuit or legal proceeding.",
+        "pos": "noun"
+      },
+      "brokerage": {
+        "meaning": "A company that buys and sells stocks, bonds, and other securities for its customers.",
+        "pos": "noun"
+      },
+      "firmly": {
+        "meaning": "Strongly and resolutely.",
+        "pos": "adverb"
+      },
+      "defends": {
+        "meaning": "To protect from attack; to speak or write in favor of.",
+        "pos": "verb"
+      },
+      "innovative": {
+        "meaning": "Featuring new methods, ideas, or products.",
+        "pos": "adjective"
+      },
+      "offering": {
+        "meaning": "A product, service, or idea that is put forward for consideration or acceptance.",
+        "pos": "noun"
+      },
+      "dispute": {
+        "meaning": "A disagreement, argument, or debate.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "To draw attention to something important.",
+        "pos": "verb"
+      },
+      "ongoing": {
+        "meaning": "Continuing; still in progress.",
+        "pos": "adjective"
+      },
+      "brought": {
+        "meaning": "Past tense of bring; to carry or take (someone or something) to a place or person.",
+        "pos": "verb"
+      },
+      "on-chain": {
+        "meaning": "Referring to transactions or data recorded directly on a blockchain network.",
+        "pos": "adjective"
+      },
+      "regulators": {
+        "meaning": "Official authorities responsible for controlling and overseeing a particular industry or activity.",
+        "pos": "noun"
+      },
+      "implications": {
+        "meaning": "The possible results or effects of an action or a decision.",
+        "pos": "noun"
+      },
+      "integrity": {
+        "meaning": "The quality of being honest and having strong moral principles; moral uprightness.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Who is the CEO of AMC, and what is his main concern about Robinhood's stock tokens?",
+      "Q2: In the context of this article, what does \"synthetic equity\" mean, and why is it a point of contention?",
+      "Q3: How do you think the debate around stock tokens and synthetic assets impacts the broader adoption of tokenization in traditional financial markets? What are the key challenges?"
+    ],
+    "modelAnswers": [
+      "A1: The CEO of AMC is Adam Aron. His main concern is that Robinhood's stock tokens are \"synthetic equity\" created without the underlying company's consent.",
+      "A2: \"Synthetic equity\" refers to a financial product designed to mimic the economic characteristics of a company's stock without actually being the underlying share itself. It's a point of contention because it raises questions about legitimate ownership, company consent, and potential market manipulation or dilution if not properly regulated.",
+      "A3: This debate likely creates caution among traditional financial institutions considering tokenization, as it highlights regulatory and legal uncertainties. Key challenges include establishing clear legal ownership for tokenized assets, ensuring proper disclosure, preventing market fragmentation, and achieving regulatory clarity across jurisdictions."
+    ]
+  },
+  {
+    "id": "cd-2026-09-05-3",
+    "date": "2026-09-05",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "미국 통화감독청(OCC)이 블록체인 기반 은행인 OpenReserve에 운영 승인을 내주며 암호화폐 관련 기관의 성장을 알렸습니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/03/u-s-banking-agency-gives-blockchain-bank-openreserve-initial-ok-to-operate",
+    "title": "U.S. Regulator Approves Blockchain-Native Bank OpenReserve",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Office of the Comptroller of the Currency (OCC) has granted a provisional charter. This approval allows OpenReserve, a new full-service blockchain bank, to operate. The OCC is a key U.S. banking regulatory agency. This decision marks a significant step for crypto-native financial institutions. It adds OpenReserve to a growing list of such entities. These institutions aim to bridge traditional finance with the digital asset world. The move signals increasing regulatory acceptance for blockchain technology. It shows a willingness to integrate it into the mainstream banking system. For fintech professionals, this creates new avenues for innovation. It encourages development of compliant blockchain-based financial services. This could accelerate the evolution of the broader financial landscape.",
+    "sentences": [
+      {
+        "en": "The Office of the Comptroller of the Currency (OCC) has granted a provisional charter.",
+        "ko": "통화감독청(OCC)은 임시 인가를 승인했습니다."
+      },
+      {
+        "en": "This approval allows OpenReserve, a new full-service blockchain bank, to operate.",
+        "ko": "이 승인으로 새로운 종합 블록체인 은행인 OpenReserve가 운영할 수 있게 되었습니다."
+      },
+      {
+        "en": "The OCC is a key U.S. banking regulatory agency.",
+        "ko": "OCC는 미국의 주요 은행 규제 기관입니다."
+      },
+      {
+        "en": "This decision marks a significant step for crypto-native financial institutions.",
+        "ko": "이 결정은 암호화폐 기반 금융 기관들에게 중요한 진전을 의미합니다."
+      },
+      {
+        "en": "It adds OpenReserve to a growing list of such entities.",
+        "ko": "이는 OpenReserve를 그러한 기관들의 증가하는 목록에 추가합니다."
+      },
+      {
+        "en": "These institutions aim to bridge traditional finance with the digital asset world.",
+        "ko": "이러한 기관들은 전통 금융과 디지털 자산 세계를 연결하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The move signals increasing regulatory acceptance for blockchain technology.",
+        "ko": "이러한 움직임은 블록체인 기술에 대한 규제 당국의 수용이 증가하고 있음을 시사합니다."
+      },
+      {
+        "en": "It shows a willingness to integrate it into the mainstream banking system.",
+        "ko": "이는 블록체인을 주류 은행 시스템에 통합하려는 의지를 보여줍니다."
+      },
+      {
+        "en": "For fintech professionals, this creates new avenues for innovation.",
+        "ko": "핀테크 전문가들에게 이것은 혁신을 위한 새로운 길을 열어줍니다."
+      },
+      {
+        "en": "It encourages development of compliant blockchain-based financial services.",
+        "ko": "이는 규정을 준수하는 블록체인 기반 금융 서비스 개발을 장려합니다."
+      },
+      {
+        "en": "This could accelerate the evolution of the broader financial landscape.",
+        "ko": "이는 더 넓은 금융 환경의 진화를 가속화할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "comptroller": {
+        "meaning": "A financial officer, especially of a government or public corporation.",
+        "pos": "noun"
+      },
+      "currency": {
+        "meaning": "A system of money in general use in a particular country.",
+        "pos": "noun"
+      },
+      "granted": {
+        "meaning": "To agree to give or allow something requested.",
+        "pos": "verb"
+      },
+      "provisional": {
+        "meaning": "Arranged or existing for the present, possibly to be changed later.",
+        "pos": "adjective"
+      },
+      "charter": {
+        "meaning": "A written grant by a country's legislative or sovereign power, by which an institution is created and its rights and privileges defined.",
+        "pos": "noun"
+      },
+      "operate": {
+        "meaning": "To control the functioning of a machine, process, or system.",
+        "pos": "verb"
+      },
+      "full-service": {
+        "meaning": "Offering a complete range of services.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "Serving or intended to regulate something.",
+        "pos": "adjective"
+      },
+      "agency": {
+        "meaning": "A government department responsible for a particular area of activity.",
+        "pos": "noun"
+      },
+      "marks": {
+        "meaning": "To indicate or characterize.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Sufficiently great or important to be worthy of attention; noteworthy.",
+        "pos": "adjective"
+      },
+      "crypto-native": {
+        "meaning": "Pertaining to institutions or products built specifically for the cryptocurrency ecosystem.",
+        "pos": "adjective"
+      },
+      "institutions": {
+        "meaning": "An established organization, especially one providing a public service or one that is dedicated to education, religion, or research.",
+        "pos": "noun"
+      },
+      "entities": {
+        "meaning": "Things with distinct and independent existence.",
+        "pos": "noun"
+      },
+      "bridge": {
+        "meaning": "To connect or join together.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "Existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "digital": {
+        "meaning": "Relating to or using computer technology; electronic.",
+        "pos": "adjective"
+      },
+      "signals": {
+        "meaning": "To indicate or convey information about.",
+        "pos": "verb"
+      },
+      "acceptance": {
+        "meaning": "The action of consenting to receive or undertake something offered.",
+        "pos": "noun"
+      },
+      "integrate": {
+        "meaning": "To combine one thing with another so that they become a whole.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "The ideas, attitudes, or activities that are regarded as normal or conventional.",
+        "pos": "adjective"
+      },
+      "avenues": {
+        "meaning": "A way of approaching a problem or making progress towards something.",
+        "pos": "noun"
+      },
+      "evolution": {
+        "meaning": "The gradual development of something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Which specific U.S. banking agency granted the provisional charter to OpenReserve?",
+      "Q2: What does it mean for OpenReserve to be a \"crypto-native financial institution\" that aims to \"bridge traditional finance with the digital asset world\"?",
+      "Q3: How might the increasing regulatory acceptance of blockchain banks, as exemplified by this OCC approval, impact the competitive landscape for traditional banks and existing fintech companies?"
+    ],
+    "modelAnswers": [
+      "A1: The Office of the Comptroller of the Currency (OCC) granted the provisional charter to OpenReserve.",
+      "A2: A \"crypto-native financial institution\" is one built from the ground up to operate within the cryptocurrency and blockchain ecosystem. To \"bridge traditional finance with the digital asset world\" means OpenReserve will offer services that connect conventional banking with blockchain-based assets, facilitating interaction between the two systems.",
+      "A3: This trend could intensify competition for traditional banks, pushing them to adopt blockchain technologies or risk losing market share to agile crypto-native players. For existing fintech companies, it presents opportunities for partnerships, acquisitions, or a need to innovate rapidly to keep pace with these newly legitimized blockchain banks."
+    ]
+  },
+  {
+    "id": "ec-2026-09-05-1",
+    "date": "2026-09-05",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 고용 시장의 예상치 못한 강세가 연준의 금리 결정에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/04/jobs-report-august-2026.html",
+    "title": "Strong US Jobs Report Fuels Rate Policy Debate",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The August US jobs report revealed a significant surge in nonfarm payrolls. The economy added 162,000 jobs, far exceeding the expected 53,000. The unemployment rate remained steady at 4.1%, signaling a robust labor market. This strong data has intensified the debate around the Federal Reserve's monetary policy. Some officials, like Governor Waller, support holding interest rates steady. However, others worry that strong job growth could reignite inflation pressures. Former President Trump even called for an immediate rate cut despite the figures. Wall Street's risk complex has largely defied the rate hike threat so far. The Fed's next decision will be closely watched for clues on the economic outlook.",
+    "sentences": [
+      {
+        "en": "The August US jobs report revealed a significant surge in nonfarm payrolls.",
+        "ko": "8월 미국 고용 보고서는 비농업 부문 급여가 크게 증가했음을 보여주었습니다."
+      },
+      {
+        "en": "The economy added 162,000 jobs, far exceeding the expected 53,000.",
+        "ko": "경제는 16만 2천 개의 일자리를 추가하여 예상치인 5만 3천 개를 훨씬 넘어섰습니다."
+      },
+      {
+        "en": "The unemployment rate remained steady at 4.1%, signaling a robust labor market.",
+        "ko": "실업률은 4.1%로 안정적으로 유지되어 견고한 노동 시장을 나타냈습니다."
+      },
+      {
+        "en": "This strong data has intensified the debate around the Federal Reserve's monetary policy.",
+        "ko": "이러한 강력한 데이터는 연방준비제도(Fed)의 통화 정책에 대한 논쟁을 심화시켰습니다."
+      },
+      {
+        "en": "Some officials, like Governor Waller, support holding interest rates steady.",
+        "ko": "월러 총재와 같은 일부 관계자들은 금리를 동결하는 것을 지지합니다."
+      },
+      {
+        "en": "However, others worry that strong job growth could reignite inflation pressures.",
+        "ko": "하지만 다른 이들은 강력한 일자리 증가가 인플레이션 압력을 다시 불러일으킬 수 있다고 우려합니다."
+      },
+      {
+        "en": "Former President Trump even called for an immediate rate cut despite the figures.",
+        "ko": "트럼프 전 대통령은 이러한 수치에도 불구하고 즉각적인 금리 인하를 요구했습니다."
+      },
+      {
+        "en": "Wall Street's risk complex has largely defied the rate hike threat so far.",
+        "ko": "월스트리트의 위험 복합체는 지금까지 금리 인상 위협에 대체로 맞섰습니다."
+      },
+      {
+        "en": "The Fed's next decision will be closely watched for clues on the economic outlook.",
+        "ko": "연준의 다음 결정은 경제 전망에 대한 단서를 찾기 위해 면밀히 주시될 것입니다."
+      }
+    ],
+    "glossary": {
+      "nonfarm": {
+        "meaning": "Referring to jobs in sectors of the economy that are not related to agriculture or farming.",
+        "pos": "adjective"
+      },
+      "payrolls": {
+        "meaning": "The total number of employees that a company or country pays, often used to indicate job creation.",
+        "pos": "noun"
+      },
+      "exceeding": {
+        "meaning": "Being greater than a particular number, amount, or limit that was expected or set.",
+        "pos": "verb"
+      },
+      "unemployment": {
+        "meaning": "The state of being without a job, or the percentage of the workforce that is jobless.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "Strong and healthy, indicating that something is performing well and is not likely to fail.",
+        "pos": "adjective"
+      },
+      "labor": {
+        "meaning": "The group of people who work or are available for work in a country or area.",
+        "pos": "noun"
+      },
+      "intensified": {
+        "meaning": "Became more extreme, stronger, or more serious than before, often referring to a feeling or action.",
+        "pos": "verb"
+      },
+      "monetary": {
+        "meaning": "Relating to money or the currency of a country, especially regarding the control of its supply.",
+        "pos": "adjective"
+      },
+      "policy": {
+        "meaning": "A set of rules or principles adopted by an organization or government to guide decisions and actions.",
+        "pos": "noun"
+      },
+      "officials": {
+        "meaning": "People who hold a position of authority in an organization or government and have specific duties.",
+        "pos": "noun"
+      },
+      "holding": {
+        "meaning": "Maintaining something at a particular level or state, preventing it from changing.",
+        "pos": "verb"
+      },
+      "interest": {
+        "meaning": "The cost of borrowing money or the return earned on an investment, usually expressed as a percentage.",
+        "pos": "noun"
+      },
+      "reignite": {
+        "meaning": "To cause something, especially a feeling or problem, to start again or become active once more.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money over time.",
+        "pos": "noun"
+      },
+      "pressures": {
+        "meaning": "Difficulties or demands that cause stress or require effort, often related to economic forces.",
+        "pos": "noun"
+      },
+      "immediate": {
+        "meaning": "Happening or done without any delay, occurring right away.",
+        "pos": "adjective"
+      },
+      "defied": {
+        "meaning": "Successfully resisted or challenged something, often an authority or expectation.",
+        "pos": "verb"
+      },
+      "threat": {
+        "meaning": "A statement or action that indicates potential harm or danger.",
+        "pos": "noun"
+      },
+      "clues": {
+        "meaning": "Pieces of information or evidence that help to solve a problem or understand a situation.",
+        "pos": "noun"
+      },
+      "outlook": {
+        "meaning": "The likely future prospects or expectations for a situation, economy, or person.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What were the key figures from the August US jobs report, and how did they compare to expectations?",
+      "Explain the \"dual mandate\" of the Federal Reserve and how the recent jobs report complicates achieving both goals.",
+      "Do you think strong job growth is always a positive sign for the economy, or can it sometimes lead to concerns? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "The August US jobs report showed 162,000 nonfarm payrolls added, significantly more than the expected 53,000. The unemployment rate held steady at 4.1%.",
+      "The Fed's dual mandate is to achieve maximum employment and stable prices (low inflation). Strong job growth, as seen in the report, is good for employment but can complicate price stability by potentially fueling inflation if demand outstrips supply.",
+      "Strong job growth is generally positive, indicating a healthy economy and consumer spending. However, it can raise concerns about inflation, as increased demand for goods and services can push prices up, potentially leading the central bank to raise interest rates, which can slow economic growth."
+    ]
+  },
+  {
+    "id": "ec-2026-09-05-2",
+    "date": "2026-09-05",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "전 세계 채권 시장의 불안정성이 가계 대출, 물가 상승, 국가 재정에 미치는 광범위한 영향을 이해해 보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/04/instability-in-global-bond-markets-rising-knock-on-effects",
+    "title": "Global Bond Market Instability: Widespread Economic Impacts",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Global bond markets are experiencing rising instability, sparking widespread concern. This volatility has significant knock-on effects across the global economy. Rising government borrowing costs are a primary driver of this trend. Higher yields on sovereign debt affect national public finances directly. These increased costs can then trickle down to consumers and businesses. For example, mortgage rates and other lending become more expensive. Such conditions can slow economic growth and potentially trigger a recession. Central banks face a challenge balancing inflation control with financial stability. Investors are seeking safe havens amidst the uncertainty. Understanding these dynamics is crucial for navigating modern financial markets.",
+    "sentences": [
+      {
+        "en": "Global bond markets are experiencing rising instability, sparking widespread concern.",
+        "ko": "전 세계 채권 시장은 불안정성이 고조되며 광범위한 우려를 불러일으키고 있습니다."
+      },
+      {
+        "en": "This volatility has significant knock-on effects across the global economy.",
+        "ko": "이러한 변동성은 세계 경제 전반에 걸쳐 상당한 파급 효과를 미칩니다."
+      },
+      {
+        "en": "Rising government borrowing costs are a primary driver of this trend.",
+        "ko": "정부 차입 비용 증가는 이러한 추세의 주요 동인입니다."
+      },
+      {
+        "en": "Higher yields on sovereign debt affect national public finances directly.",
+        "ko": "국채 수익률 상승은 국가의 공공 재정에 직접적인 영향을 미칩니다."
+      },
+      {
+        "en": "These increased costs can then trickle down to consumers and businesses.",
+        "ko": "이러한 증가된 비용은 소비자 및 기업으로 파급될 수 있습니다."
+      },
+      {
+        "en": "For example, mortgage rates and other lending become more expensive.",
+        "ko": "예를 들어, 모기지 금리와 다른 대출이 더 비싸집니다."
+      },
+      {
+        "en": "Such conditions can slow economic growth and potentially trigger a recession.",
+        "ko": "이러한 상황은 경제 성장을 둔화시키고 잠재적으로 경기 침체를 유발할 수 있습니다."
+      },
+      {
+        "en": "Central banks face a challenge balancing inflation control with financial stability.",
+        "ko": "중앙은행은 인플레이션 통제와 금융 안정성 사이에서 균형을 맞추는 데 어려움을 겪고 있습니다."
+      },
+      {
+        "en": "Investors are seeking safe havens amidst the uncertainty.",
+        "ko": "투자자들은 불확실성 속에서 안전 자산을 찾고 있습니다."
+      },
+      {
+        "en": "Understanding these dynamics is crucial for navigating modern financial markets.",
+        "ko": "이러한 역학 관계를 이해하는 것은 현대 금융 시장을 헤쳐나가는 데 중요합니다."
+      }
+    ],
+    "glossary": {
+      "instability": {
+        "meaning": "The state of being unpredictable or prone to sudden changes, especially in financial markets.",
+        "pos": "noun"
+      },
+      "sparking": {
+        "meaning": "Causing something to happen or develop, often quickly or suddenly.",
+        "pos": "verb"
+      },
+      "widespread": {
+        "meaning": "Existing or happening in many places or among many people, very common.",
+        "pos": "adjective"
+      },
+      "volatility": {
+        "meaning": "The tendency of a market or price to change rapidly and unpredictably.",
+        "pos": "noun"
+      },
+      "knock-on": {
+        "meaning": "Causing other events or situations to happen, often indirectly, as a result.",
+        "pos": "adjective"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank or lender with the intention of returning it, usually with interest.",
+        "pos": "noun"
+      },
+      "primary": {
+        "meaning": "Of chief importance or main, being the first or most fundamental.",
+        "pos": "adjective"
+      },
+      "driver": {
+        "meaning": "Something that causes or influences something else to happen or develop.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "The income or profit generated by an investment, often expressed as a percentage of the amount invested.",
+        "pos": "noun"
+      },
+      "sovereign": {
+        "meaning": "Referring to the government of a country, especially in relation to its debt or financial obligations.",
+        "pos": "adjective"
+      },
+      "debt": {
+        "meaning": "An amount of money that is owed by one person or entity to another.",
+        "pos": "noun"
+      },
+      "public": {
+        "meaning": "Relating to the government or the people of a country rather than private individuals.",
+        "pos": "adjective"
+      },
+      "finances": {
+        "meaning": "The money or resources of a government, organization, or person.",
+        "pos": "noun"
+      },
+      "trickle": {
+        "meaning": "To flow or spread slowly in a small amount or stream.",
+        "pos": "verb"
+      },
+      "mortgage": {
+        "meaning": "A legal agreement where a bank lends money at interest in exchange for taking title of the debtor's property.",
+        "pos": "noun"
+      },
+      "lending": {
+        "meaning": "The act of giving money to someone with the expectation that it will be paid back, often with interest.",
+        "pos": "noun"
+      },
+      "trigger": {
+        "meaning": "To cause an event or situation to happen or begin.",
+        "pos": "verb"
+      },
+      "recession": {
+        "meaning": "A period of temporary economic decline during which trade and industrial activity are reduced.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "The state of being stable and not subject to sudden or unexpected changes.",
+        "pos": "noun"
+      },
+      "havens": {
+        "meaning": "Places or things that provide safety and security, especially from danger or risk.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or doubtful about something, especially future events.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or essential, vital for success or understanding.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "According to the article, what are some of the \"knock-on effects\" of instability in global bond markets?",
+      "Define \"sovereign debt\" and explain why rising yields on it can be a concern for a country's public finances.",
+      "How might instability in global bond markets affect a fintech company that offers lending or investment services?"
+    ],
+    "modelAnswers": [
+      "Instability in global bond markets can lead to higher government borrowing costs, which then trickle down to consumers and businesses through more expensive mortgage rates and other lending. It can also slow economic growth and potentially trigger a recession.",
+      "Sovereign debt refers to the debt issued by a national government. Rising yields on sovereign debt mean the government has to pay more to borrow money, increasing its debt servicing costs and potentially straining public finances, leaving less for public services.",
+      "A fintech company offering lending services would face higher borrowing costs, making their loans more expensive for customers or reducing their profit margins. For investment services, bond market instability could lead to increased volatility and risk in fixed-income portfolios, requiring more sophisticated risk management strategies."
+    ]
+  },
+  {
+    "id": "ec-2026-09-05-3",
+    "date": "2026-09-05",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "한국의 반도체 수출 급증이 경제에 긍정적인 신호인지, 아니면 과도한 의존에 대한 경고인지 분석해 보세요.",
+    "url": "https://www.cnbc.com/2026/09/03/south-korea-semiconductor-exports-surging-concerns.html",
+    "title": "Korea's Soaring Chip Exports: Boom or Bust Risk?",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "South Korea's semiconductor exports have tripled year-over-year in August. This dramatic surge is a major boost to the national economy. Semiconductors are a critical component of Korea's economic growth. However, this heavy reliance also raises concerns about industry concentration. A slowdown in the global chip sector could significantly impact Korea's GDP. Analysts question if this growth is sustainable amidst global economic shifts. Geopolitical tensions and supply chain disruptions add to the risks. Diversification of export markets and industries is crucial for resilience. The government and businesses must strategize for future economic stability.",
+    "sentences": [
+      {
+        "en": "South Korea's semiconductor exports have tripled year-over-year in August.",
+        "ko": "8월 한국의 반도체 수출이 전년 대비 세 배 증가했습니다."
+      },
+      {
+        "en": "This dramatic surge is a major boost to the national economy.",
+        "ko": "이러한 극적인 급증은 국가 경제에 큰 활력을 불어넣고 있습니다."
+      },
+      {
+        "en": "Semiconductors are a critical component of Korea's economic growth.",
+        "ko": "반도체는 한국 경제 성장의 핵심 요소입니다."
+      },
+      {
+        "en": "However, this heavy reliance also raises concerns about industry concentration.",
+        "ko": "하지만 이러한 높은 의존도는 산업 집중 위험에 대한 우려를 불러일으키기도 합니다."
+      },
+      {
+        "en": "A slowdown in the global chip sector could significantly impact Korea's GDP.",
+        "ko": "글로벌 반도체 부문의 둔화는 한국의 GDP에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Analysts question if this growth is sustainable amidst global economic shifts.",
+        "ko": "분석가들은 이러한 성장이 글로벌 경제 변화 속에서 지속 가능한지 의문을 제기합니다."
+      },
+      {
+        "en": "Geopolitical tensions and supply chain disruptions add to the risks.",
+        "ko": "지정학적 긴장과 공급망 혼란이 위험을 가중시킵니다."
+      },
+      {
+        "en": "Diversification of export markets and industries is crucial for resilience.",
+        "ko": "수출 시장과 산업의 다각화는 회복력을 위해 매우 중요합니다."
+      },
+      {
+        "en": "The government and businesses must strategize for future economic stability.",
+        "ko": "정부와 기업은 미래 경제 안정을 위해 전략을 세워야 합니다."
+      }
+    ],
+    "glossary": {
+      "semiconductor": {
+        "meaning": "An electronic component that conducts electricity more than an insulator but less than a conductor, crucial for modern electronics.",
+        "pos": "noun"
+      },
+      "exports": {
+        "meaning": "Goods or services sent to another country for sale, contributing to a nation's trade balance.",
+        "pos": "noun"
+      },
+      "tripled": {
+        "meaning": "Increased by three times the original amount or number.",
+        "pos": "verb"
+      },
+      "dramatic": {
+        "meaning": "Sudden and striking, having a great effect or impact.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "A sudden, powerful, and often temporary increase in something, like prices or exports.",
+        "pos": "noun"
+      },
+      "boost": {
+        "meaning": "An act or event that helps to improve or increase something, giving it more power.",
+        "pos": "noun"
+      },
+      "critical": {
+        "meaning": "Extremely important or essential for the success or existence of something.",
+        "pos": "adjective"
+      },
+      "component": {
+        "meaning": "A part or element of a larger whole, often essential for its function.",
+        "pos": "noun"
+      },
+      "reliance": {
+        "meaning": "The state of depending on someone or something for support or help.",
+        "pos": "noun"
+      },
+      "concentration": {
+        "meaning": "The extent to which an industry or market is dominated by a small number of firms or products.",
+        "pos": "noun"
+      },
+      "slowdown": {
+        "meaning": "A reduction in the speed or rate of something, often referring to economic activity.",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "A distinct part of an economy, society, or area of activity.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "In a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "sustainable": {
+        "meaning": "Able to be maintained at a certain rate or level, especially without depleting resources.",
+        "pos": "adjective"
+      },
+      "amidst": {
+        "meaning": "In the middle of or during, surrounded by something.",
+        "pos": "preposition"
+      },
+      "shifts": {
+        "meaning": "Changes in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "geopolitical": {
+        "meaning": "Relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "tensions": {
+        "meaning": "Situations in which there is a barely controlled hostility or a strained relationship between groups.",
+        "pos": "noun"
+      },
+      "disruptions": {
+        "meaning": "Interruptions or disturbances to a process or activity.",
+        "pos": "noun"
+      },
+      "diversification": {
+        "meaning": "The process of varying products, investments, or activities to reduce risk.",
+        "pos": "noun"
+      },
+      "resilience": {
+        "meaning": "The capacity to recover quickly from difficulties; toughness.",
+        "pos": "noun"
+      },
+      "strategize": {
+        "meaning": "To plan the actions that are intended to achieve a particular goal.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "By how much did South Korea's semiconductor exports increase year-over-year in August, and what is the main concern associated with this growth?",
+      "Explain the concept of \"industry concentration risk\" in the context of South Korea's economy and its semiconductor sector.",
+      "What strategies could South Korea pursue to mitigate the risks associated with its heavy reliance on semiconductor exports?"
+    ],
+    "modelAnswers": [
+      "South Korea's semiconductor exports tripled year-over-year in August. The main concern is the country's heavy reliance on this single industry, which makes its economy vulnerable to fluctuations in the global chip sector.",
+      "Industry concentration risk refers to the danger that an economy becomes overly dependent on one particular industry or product. For South Korea, if the semiconductor sector experiences a downturn due to global demand shifts or geopolitical issues, it could significantly impact the entire national economy.",
+      "South Korea could mitigate these risks by actively promoting the growth of other high-tech industries, investing in research and development for new economic drivers, and diversifying its export markets to reduce dependence on a few key regions for semiconductor sales."
+    ]
+  },
+  {
     "id": "cd-2026-09-04-1",
     "date": "2026-09-04",
     "rank": 1,
