@@ -32,6 +32,8 @@
        an empty SUPABASE_URL the app runs local-only, exactly as before. -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="config.js"></script>
+  <!-- Pure state logic (streak / SRS / sync merges), shared with the Node test suite. -->
+  <script src="lib/state.js"></script>
 
   <style>
     :root {
@@ -721,72 +723,18 @@
           })
       : null;
 
-    // Merge remote state into local without losing anything the user collected
-    // offline. Keys are normalized to lowercase so the same word never survives
-    // twice under different casing; on a conflict the local value wins (keeps
-    // SRS progress made on this device), and an example is kept if either side
-    // has one.
-    function mergeWordbank(local, remote) {
-      const out = {};
-      const put = (k, v) => {
-        const key = String(k || "").toLowerCase().trim();
-        if (!key || !v) return;
-        const cur = out[key];
-        if (!cur) { out[key] = v; return; }
-        // Last-write-wins per word by updatedAt so devices converge on the most
-        // recent stage change (tie → keep the one already there = remote, since
-        // remote is merged first). An example/pos is kept if either side has one.
-        const win = (v.updatedAt || 0) > (cur.updatedAt || 0) ? v : cur;
-        out[key] = { ...win, example: cur.example || v.example || win.example || "", pos: cur.pos || v.pos || win.pos || null };
-      };
-      for (const [k, v] of Object.entries(remote || {})) put(k, v); // remote first
-      for (const [k, v] of Object.entries(local || {})) put(k, v);  // then local
-      return out;
-    }
-    // Last-write-wins per article, same as mergeWordbank — needed so a delete
-    // (a soft-delete write with a fresh updatedAt) actually wins over a stale
-    // remote copy instead of the old blind-spread letting remote resurrect it.
-    function mergeReads(local, remote) {
-      const out = {};
-      const put = (k, v) => {
-        if (!k || !v) return;
-        const cur = out[k];
-        if (!cur) { out[k] = v; return; }
-        const stamp = (x) => x.updatedAt || x.readAt || 0;
-        out[k] = stamp(v) > stamp(cur) ? v : cur;
-      };
-      for (const [k, v] of Object.entries(remote || {})) put(k, v);
-      for (const [k, v] of Object.entries(local || {})) put(k, v);
-      return out;
-    }
-    // A streak is "broken" once more than 1 day has passed since its
-    // lastDate with no word learned — normalize it to 0 (keeping lastDate)
-    // so a stale copy doesn't read as still active. `days` (every date a
-    // word was ever learned, for the streak calendar) is a pure history log
-    // and is never reset by a broken streak.
-    function normalizeStreak(s) {
-      const v = s || { count: 0, lastDate: null, days: [] };
-      // Backfill: lastDate always means "a word was learned that day", so
-      // make sure it's in days even for streak records saved before the
-      // days log existed (or any other reason it went missing).
-      const days = v.lastDate && !(v.days || []).includes(v.lastDate) ? [...(v.days || []), v.lastDate] : (v.days || []);
-      if (!v.lastDate || !v.count) return { ...v, days };
-      return daysBetween(v.lastDate, kstToday()) > 1 ? { count: 0, lastDate: v.lastDate, days } : { ...v, days };
-    }
-    // Both sides are normalized against TODAY before comparing. Without this,
-    // a genuinely broken local streak (correctly decayed to 0) would lose to
-    // a stale remote copy that still holds an old higher count from before it
-    // broke — "prefer the bigger number" is wrong once one side is stale.
-    // `days` is unioned from both sides regardless of which one wins the
-    // count/lastDate comparison, since it's a log, not a last-write field.
-    function pickStreak(local, remote) {
-      const l = normalizeStreak(local), r = normalizeStreak(remote);
-      const days = Array.from(new Set([...(l.days || []), ...(r.days || [])])).sort();
-      const winner = (l.count || 0) !== (r.count || 0)
-        ? ((l.count || 0) > (r.count || 0) ? l : r)
-        : ((l.lastDate || "") >= (r.lastDate || "") ? l : r); // tie → more recent lastDate
-      return { ...winner, days };
-    }
+    /* Pure state logic lives in lib/state.js so `npm test` can exercise the
+       rules that historically broke here — streak decay, wordbank stage
+       transitions and the cross-device merges — against the very same code
+       this page runs. */
+    const {
+      kstToday, daysBetween, monthDays, shiftMonth,
+      REVIEW_DUE_DAYS, stageOf, reviewDue, classifyWord,
+      normalizeStreak, pickStreak, bumpStreak,
+      mergeWordbank, mergeReads, mergeErrors, mergeWriting,
+      TOMBSTONE_TTL_MS, sweepTombstones,
+      candidateForms, glossVal, lookupGloss, normText, POS_KO,
+    } = window.DBW;
 
     // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
     // The Web Speech default voice differs per OS (macOS may pick a male or
@@ -875,105 +823,7 @@
     function save(key, val) {
       try { localStorage.setItem(key, JSON.stringify(val)); } catch (e) {}
     }
-    function kstToday() {
-      const now = new Date();
-      const kst = new Date(now.getTime() + 9 * 3600 * 1000);
-      return kst.toISOString().slice(0, 10);
-    }
-    function daysBetween(a, b) {
-      const da = new Date(a + "T00:00:00Z").getTime();
-      const db = new Date(b + "T00:00:00Z").getTime();
-      return Math.round((db - da) / 86400000);
-    }
-    // Calendar helpers for the streak history modal — "YYYY-MM" in, list of
-    // "YYYY-MM-DD" (or null for a leading blank cell) or a shifted "YYYY-MM" out.
-    function monthDays(ym) {
-      const [y, m] = ym.split("-").map(Number);
-      const startDow = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
-      const daysInMonth = new Date(Date.UTC(y, m, 0)).getUTCDate();
-      const cells = new Array(startDow).fill(null);
-      for (let d = 1; d <= daysInMonth; d++) cells.push(`${ym}-${String(d).padStart(2, "0")}`);
-      return cells;
-    }
-    function shiftMonth(ym, delta) {
-      const [y, m] = ym.split("-").map(Number);
-      const d = new Date(Date.UTC(y, m - 1 + delta, 1));
-      return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}`;
-    }
 
-    // Spaced-repetition timing (days).
-    const REVIEW_DUE_DAYS = 3;   // 복습중 → becomes due for the 복습하기 session (and stays due until reviewed)
-
-    /* ------------------------------------------------------------------ */
-    /* Lemma / word-form normalization for glossary lookup                 */
-    /* ------------------------------------------------------------------ */
-    function candidateForms(raw) {
-      const w = raw.toLowerCase().replace(/[^a-z\-']/g, "");
-      if (!w) return [];
-      const forms = new Set([w]);
-      // plurals / 3rd person
-      if (w.endsWith("ies") && w.length > 4) forms.add(w.slice(0, -3) + "y");
-      if (w.endsWith("es") && w.length > 3) { forms.add(w.slice(0, -2)); forms.add(w.slice(0, -1)); }
-      if (w.endsWith("s") && !w.endsWith("ss") && w.length > 3) forms.add(w.slice(0, -1));
-      // past tense
-      if (w.endsWith("ied") && w.length > 4) forms.add(w.slice(0, -3) + "y");
-      if (w.endsWith("ed") && w.length > 3) {
-        forms.add(w.slice(0, -2));            // walked -> walk
-        forms.add(w.slice(0, -1));            // liked -> like
-        if (w[w.length - 3] === w[w.length - 4]) forms.add(w.slice(0, -3)); // stopped -> stop
-      }
-      // -ing
-      if (w.endsWith("ing") && w.length > 4) {
-        forms.add(w.slice(0, -3));            // reading -> read
-        forms.add(w.slice(0, -3) + "e");      // making -> make
-        if (w[w.length - 4] === w[w.length - 5]) forms.add(w.slice(0, -4)); // running -> run
-      }
-      return Array.from(forms);
-    }
-    // A glossary entry is either a plain string (legacy packs, no pos) or
-    // { meaning, pos } (current packs) — normalize both to the same shape.
-    function glossVal(v) {
-      if (v == null) return null;
-      return typeof v === "string" ? { meaning: v, pos: null } : { meaning: v.meaning || "", pos: v.pos || null };
-    }
-    function lookupGloss(word, glossary, wordbank) {
-      const forms = candidateForms(word);
-      for (const f of forms) {
-        if (glossary && glossary[f]) {
-          const gv = glossVal(glossary[f]);
-          return { base: f, def: gv.meaning, pos: gv.pos, source: "gloss" };
-        }
-      }
-      for (const f of forms) {
-        if (wordbank && wordbank[f] && !wordbank[f].deleted) return { base: f, def: wordbank[f].meaning, pos: wordbank[f].pos || null, source: "bank" };
-      }
-      // last resort: whole phrase key present verbatim
-      const lc = word.toLowerCase();
-      if (glossary && glossary[lc]) {
-        const gv = glossVal(glossary[lc]);
-        return { base: lc, def: gv.meaning, pos: gv.pos, source: "gloss" };
-      }
-      return null;
-    }
-    // Classify a word about to be added against the current wordbank, so the
-    // caller can tell the user what actually happened instead of a generic
-    // "담았어요" every time: "new" (not present, gets added), "exists"
-    // (already 미암기/복습중, left untouched — no duplicate), or "mastered"
-    // (already 완료 — addWords sends it back to 미암기 since seeing it again
-    // means it wasn't actually remembered).
-    function classifyWord(wordbank, base) {
-      const norm = String(base || "").toLowerCase().trim();
-      const cur = wordbank && wordbank[norm];
-      if (!cur || cur.deleted) return "new";
-      return stageOf(cur) === "mastered" ? "mastered" : "exists";
-    }
-    // Part-of-speech tag shown on wordbank entries — canonical English key
-    // (from the glossary/definition data) mapped to its Korean label for display.
-    const POS_KO = {
-      noun: "명사", verb: "동사", adjective: "형용사", adverb: "부사",
-      preposition: "전치사", conjunction: "접속사", pronoun: "대명사",
-      determiner: "한정사", interjection: "감탄사", phrase: "구",
-    };
 
     /* ------------------------------------------------------------------ */
     /* App root                                                            */
@@ -983,6 +833,13 @@
       const [err, setErr] = useState(null);
       const [tab, setTab] = useState("today");
       const [openId, setOpenId] = useState(null);
+      // packs.json only carries the recent window (see build_packs.js). The
+      // rest of the feed is reached through a small index, fetched the first
+      // time 보관함 is opened, plus per-month shards fetched only when an old
+      // article is actually opened. Older builds shipped one flat packs.json,
+      // so both are optional: if they 404 the app simply shows what it has.
+      const [archIndex, setArchIndex] = useState(null); // entry[] | "error" | null
+      const [shards, setShards] = useState({});         // "YYYY-MM" -> pack[] | "error"
 
       // Normalize keys on load so any pre-existing case-variant duplicates
       // (e.g. "Vanguard" and "vanguard") collapse into one right away.
@@ -990,6 +847,11 @@
       const [reads, setReads] = useState(() => load(KEY.reads, {}));
       const [streak, setStreak] = useState(() => load(KEY.streak, { count: 0, lastDate: null, days: [] }));
       const [errors, setErrors] = useState(() => load(KEY.errors, {})); // 오답 노트 (grammar SRS)
+      // 영작 답안 + AI 채점 결과, keyed by pack id. Held here rather than read
+      // straight from localStorage inside <Writing> so it takes part in the
+      // same pull/merge/push cycle as everything else — otherwise switching
+      // devices silently loses every answer the learner wrote.
+      const [writing, setWriting] = useState(() => load(KEY.writing, {}));
       const [toast, setToast] = useState(null);
       const [session, setSession] = useState(null);
       const [syncMsg, setSyncMsg] = useState("");
@@ -1004,6 +866,7 @@
       useEffect(() => save(KEY.reads, reads), [reads]);
       useEffect(() => save(KEY.streak, streak), [streak]);
       useEffect(() => save(KEY.errors, errors), [errors]);
+      useEffect(() => save(KEY.writing, writing), [writing]);
 
       // If a day was missed (no word marked 외웠음 yesterday or today), the
       // streak is broken — reflect that as 0 right away instead of waiting
@@ -1043,6 +906,8 @@
         setWordbank((loc) => { const m = mergeWordbank(loc, data.wordbank); return same(m, loc) ? loc : m; });
         setReads((loc) => { const m = mergeReads(loc, data.reads); return same(m, loc) ? loc : m; });
         setStreak((loc) => pickStreak(loc, data.streak));
+        setErrors((loc) => { const m = mergeErrors(loc, data.errors); return same(m, loc) ? loc : m; });
+        setWriting((loc) => { const m = mergeWriting(loc, data.writing); return same(m, loc) ? loc : m; });
       }, [session]);
 
       // On sign-in: pull + merge, then allow pushing. Flipping `hydrated`
@@ -1092,8 +957,11 @@
             const wb = data ? mergeWordbank(wordbank, data.wordbank) : wordbank;
             const rd = data ? mergeReads(reads, data.reads) : reads;
             const st = data ? pickStreak(streak, data.streak) : streak;
+            const er = data ? mergeErrors(errors, data.errors) : errors;
+            const wr = data ? mergeWriting(writing, data.writing) : writing;
             const { error } = await SB.from("user_state").upsert({
               user_id: session.user.id, wordbank: wb, reads: rd, streak: st,
+              errors: er, writing: wr,
               updated_at: new Date().toISOString(),
             });
             if (error) { setSyncMsg("저장 오류"); return; }
@@ -1102,10 +970,12 @@
             setWordbank((loc) => (same(wb, loc) ? loc : wb));
             setReads((loc) => (same(rd, loc) ? loc : rd));
             setStreak((loc) => (same(st, loc) ? loc : st));
+            setErrors((loc) => (same(er, loc) ? loc : er));
+            setWriting((loc) => (same(wr, loc) ? loc : wr));
           } catch (e) { setSyncMsg("저장 오류"); }
         }, 1200);
         return () => saveTimer.current && clearTimeout(saveTimer.current);
-      }, [wordbank, reads, streak, session, hydrated]);
+      }, [wordbank, reads, streak, errors, writing, session, hydrated]);
 
       // Once on load: permanently purge soft-deleted entries whose tombstone
       // is old enough to have safely propagated to every device (deletion has
@@ -1123,26 +993,11 @@
       // An overdue 복습중 word was never actually "stuck" — reviewDue() has no
       // upper bound, so it simply stays due in 복습하기 until it's reviewed,
       // which is where a lapsed word belongs.
-      const TOMBSTONE_TTL_MS = 30 * 86400000;
       useEffect(() => {
-        setWordbank((prev) => {
-          const next = {};
-          let changed = false;
-          for (const [w, v] of Object.entries(prev)) {
-            if (v.deleted && Date.now() - (v.updatedAt || 0) >= TOMBSTONE_TTL_MS) { changed = true; continue; }
-            next[w] = v;
-          }
-          return changed ? next : prev;
-        });
-        setReads((prev) => {
-          const next = {};
-          let changed = false;
-          for (const [id, v] of Object.entries(prev)) {
-            if (v.deleted && Date.now() - (v.updatedAt || 0) >= TOMBSTONE_TTL_MS) { changed = true; continue; }
-            next[id] = v;
-          }
-          return changed ? next : prev;
-        });
+        setWordbank((prev) => sweepTombstones(prev));
+        setReads((prev) => sweepTombstones(prev));
+        setErrors((prev) => sweepTombstones(prev));
+        setWriting((prev) => sweepTombstones(prev));
       }, []);
 
       useEffect(() => {
@@ -1151,6 +1006,17 @@
           .then((arr) => setPacks(Array.isArray(arr) ? arr : []))
           .catch((e) => setErr(e.message));
       }, []);
+
+      // Lazy: nothing is fetched until the user actually opens 보관함.
+      useEffect(() => {
+        if (tab !== "archive" || archIndex) return;
+        let cancelled = false;
+        fetch("archive/index.json?t=" + Date.now())
+          .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+          .then((arr) => { if (!cancelled) setArchIndex(Array.isArray(arr) ? arr : "error"); })
+          .catch(() => { if (!cancelled) setArchIndex("error"); });
+        return () => { cancelled = true; };
+      }, [tab, archIndex]);
 
       const showToast = useCallback((msg) => {
         setToast(msg);
@@ -1168,7 +1034,60 @@
 
       const latestDate = sorted.length ? sorted[sorted.length - 1].date : null;
       const todaysPicks = sorted.filter((p) => p.date === latestDate);
-      const openPack = openId ? sorted.find((p) => p.id === openId || p.date === openId) : null;
+
+      // Which monthly shard an id lives in. The index is authoritative; ids
+      // embed their date ("cd-2026-08-01-1") so the fallback still works before
+      // the index has loaded.
+      const monthOf = useCallback((id) => {
+        const row = Array.isArray(archIndex) && archIndex.find((e) => e.id === id);
+        if (row && row.date) return row.date.slice(0, 7);
+        const m = String(id || "").match(/(\d{4}-\d{2})-\d{2}/);
+        return m ? m[1] : null;
+      }, [archIndex]);
+
+      const openPack = useMemo(() => {
+        if (!openId) return null;
+        const local = sorted.find((p) => p.id === openId || p.date === openId);
+        if (local) return local;
+        for (const list of Object.values(shards)) {
+          if (!Array.isArray(list)) continue;
+          const hit = list.find((p) => p.id === openId);
+          if (hit) return hit;
+        }
+        return null;
+      }, [openId, sorted, shards]);
+
+      // Opening an archived article pulls in its month, once, and keeps it.
+      // In-flight months are tracked in a ref rather than in `shards`: writing a
+      // "loading" marker into state would change this effect's own dependency
+      // and re-run it, abandoning the fetch it had just started.
+      const openShard = openId && !openPack ? monthOf(openId) : null;
+      const shardReq = useRef({});
+      useEffect(() => {
+        if (!openShard || shardReq.current[openShard]) return;
+        shardReq.current[openShard] = true;
+        // No cache-buster here: a shard is ~1MB and rarely changes, so a
+        // conditional request that comes back 304 is far cheaper than
+        // re-downloading it on every open. must-revalidate keeps it correct
+        // while the newest shard is still growing (see vercel.json).
+        fetch(`archive/${openShard}.json`)
+          .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+          .then((arr) => setShards((prev) => ({ ...prev, [openShard]: Array.isArray(arr) ? arr : "error" })))
+          .catch(() => setShards((prev) => ({ ...prev, [openShard]: "error" })));
+      }, [openShard]);
+
+      // 보관함 rows: index entries (the whole history) topped up with the
+      // recent window, so it works even when archive/index.json isn't there.
+      const archiveRows = useMemo(() => {
+        const rows = [];
+        const seen = new Set();
+        for (const p of sorted) { if (!seen.has(p.id)) { seen.add(p.id); rows.push(p); } }
+        if (Array.isArray(archIndex)) {
+          for (const e of archIndex) if (!seen.has(e.id)) { seen.add(e.id); rows.push(e); }
+        }
+        // Same ascending order <Archive> already expects (it reverses to show newest first).
+        return rows.sort((a, b) => (a.date === b.date ? (a.rank || 99) - (b.rank || 99) : (a.date < b.date ? -1 : 1)));
+      }, [sorted, archIndex]);
 
       const addWords = useCallback((entries, articleId) => {
         setWordbank((prev) => {
@@ -1208,14 +1127,7 @@
       // the first — the streak only bumps once per new day, and only for
       // actually memorizing a word (not reading, writing, or 몰라요).
       const recordWordLearned = useCallback(() => {
-        setStreak((prev) => {
-          const today = kstToday();
-          const days = (prev.days || []).includes(today) ? (prev.days || []) : [...(prev.days || []), today];
-          if (prev.lastDate === today) return { ...prev, days };
-          if (prev.lastDate && daysBetween(prev.lastDate, today) === 1)
-            return { count: (prev.count || 0) + 1, lastDate: today, days };
-          return { count: 1, lastDate: today, days };
-        });
+        setStreak((prev) => bumpStreak(prev));
       }, []);
 
       // Save AI corrections into the 오답 노트 (deduped by before→after).
@@ -1227,7 +1139,7 @@
             const after = String((c && c.after) || "").trim();
             if (!before || !after || before.toLowerCase() === after.toLowerCase()) continue;
             const id = (before + "→" + after).toLowerCase().replace(/\s+/g, " ");
-            if (next[id]) continue; // already noted
+            if (next[id] && !next[id].deleted) continue; // already noted
             next[id] = {
               before, after, why: String((c && c.why) || "").trim(),
               category: String((c && c.category) || "기타").trim(),
@@ -1235,6 +1147,19 @@
             };
           }
           return next;
+        });
+      }, []);
+
+      // Save (or clear) one article's 영작 answers. Clearing writes a
+      // tombstone rather than dropping the key, so a stale copy on another
+      // device can't resurrect answers the user deliberately reset.
+      const saveWriting = useCallback((packId, entry) => {
+        setWriting((prev) => {
+          if (!entry) {
+            if (!prev[packId] || prev[packId].deleted) return prev;
+            return { ...prev, [packId]: { deleted: true, updatedAt: Date.now() } };
+          }
+          return { ...prev, [packId]: { ...entry, deleted: false, updatedAt: Date.now() } };
         });
       }, []);
 
@@ -1250,7 +1175,12 @@
       if (!packs) return <Shell tab={tab} setTab={setTab}><div className="empty">불러오는 중…</div></Shell>;
 
       let body;
-      if (openPack) {
+      if (openId && !openPack && shards[openShard] === "error") {
+        body = <div className="empty">이 기사를 불러오지 못했습니다.<br/>
+          <button className="btn" onClick={() => setOpenId(null)}>돌아가기</button></div>;
+      } else if (openId && !openPack) {
+        body = <div className="empty">기사를 불러오는 중…</div>;
+      } else if (openPack) {
         body = <Reader
           pack={openPack}
           wordbank={wordbank}
@@ -1260,11 +1190,14 @@
           onAddWords={addWords}
           showToast={showToast}
           onAddErrors={addErrors}
+          writing={writing}
+          onSaveWriting={saveWriting}
         />;
       } else if (tab === "today") {
         body = <Today picks={todaysPicks} date={latestDate} reads={reads} onOpen={setOpenId} />;
       } else if (tab === "archive") {
-        body = <Archive packs={sorted} reads={reads} setReads={setReads} onOpen={setOpenId} />;
+        body = <Archive packs={archiveRows} reads={reads} setReads={setReads} onOpen={setOpenId}
+                        loading={archIndex === null} />;
       } else if (tab === "errors") {
         body = <ErrorNotes errors={errors} setErrors={setErrors} showToast={showToast} />;
       } else {
@@ -1454,7 +1387,7 @@
       return (text || "").split(/(\s+|[^\w'\-]+)/).filter((t) => t.length);
     }
 
-    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onAddErrors }) {
+    function Reader({ pack, wordbank, reads, onBack, onComplete, onAddWords, showToast, onAddErrors, writing, onSaveWriting }) {
       const alreadyRead = !!(reads[pack.id] && !reads[pack.id].deleted);
       // Restore any highlighted words for this article so they survive leaving
       // and re-opening the page (kept per pack id in localStorage).
@@ -1707,7 +1640,8 @@
               <div className="divider" />
               <Drill pack={pack} />
               <div className="divider" />
-              <Writing pack={pack} showToast={showToast} onAddErrors={onAddErrors} />
+              <Writing key={pack.id} pack={pack} showToast={showToast} onAddErrors={onAddErrors}
+                       saved={(writing || {})[pack.id]} onSave={onSaveWriting} />
             </React.Fragment>
           )}
         </div>
@@ -1797,7 +1731,7 @@
     /* ------------------------------------------------------------------ */
     /* Writing: 3 prompts, self-graded model answers                       */
     /* ------------------------------------------------------------------ */
-    function Writing({ pack, showToast, onAddErrors }) {
+    function Writing({ pack, showToast, onAddErrors, saved, onSave }) {
       const qs = pack.questions || [];
       const ans = pack.modelAnswers || [];
       const labels = ["Q1 · 사실확인", "Q2 · 문맥어휘", "Q3 · 의견"];
@@ -1808,9 +1742,15 @@
         ["In my view, ...", "One benefit is ..., but one risk is ...", "I think ~ because ..."],
       ];
       // Restore any answers + AI feedback saved for this article so they survive
-      // leaving and re-opening the page (kept per pack id in localStorage).
+      // leaving and re-opening the page. The store lives in <App> (and syncs);
+      // it is read once on mount so remote merges can't yank text out from
+      // under someone mid-sentence. <Reader> keys this component by pack id,
+      // so opening another article does re-read.
       const initRef = useRef(null);
-      if (initRef.current === null) initRef.current = (load(KEY.writing, {})[pack.id]) || {};
+      if (initRef.current === null) {
+        const s = saved && !saved.deleted ? saved : {};
+        initRef.current = s;
+      }
       const stored = initRef.current;
       const [inputs, setInputs] = useState(() => qs.map((_, i) => (stored.inputs && stored.inputs[i]) || ""));
       const [revealed, setRevealed] = useState(() => !!stored.revealed);
@@ -1824,13 +1764,15 @@
       const overallEndpoint = (window.DBW_CONFIG || {}).OVERALL_ENDPOINT || "/api/overall";
 
       // Persist answers + grades per pack so they aren't lost on navigation.
+      // Skipped on the very first render so simply opening an article doesn't
+      // stamp a fresh updatedAt on an untouched entry and beat a newer answer
+      // written on another device.
+      const dirty = useRef(false);
       useEffect(() => {
-        const all = load(KEY.writing, {});
+        if (!dirty.current) { dirty.current = true; return; }
         const hasContent = inputs.some((v) => v && v.trim()) || Object.keys(grades).length > 0 || revealed;
-        if (hasContent) all[pack.id] = { inputs, grades, revealed, overall };
-        else delete all[pack.id];
-        save(KEY.writing, all);
-      }, [inputs, grades, revealed, overall, pack.id]);
+        onSave(pack.id, hasContent ? { inputs, grades, revealed, overall } : null);
+      }, [inputs, grades, revealed, overall, pack.id, onSave]);
 
       const doReset = () => {
         setInputs(qs.map(() => ""));
@@ -1838,9 +1780,7 @@
         setRevealed(false);
         setOverall(null);
         setConfirmReset(false);
-        const all = load(KEY.writing, {});
-        delete all[pack.id];
-        save(KEY.writing, all);
+        onSave(pack.id, null);
         showToast("작성 내용을 지웠어요");
       };
       const hasWork = inputs.some((v) => v && v.trim()) || Object.keys(grades).length > 0;
@@ -2026,10 +1966,14 @@
     /* ------------------------------------------------------------------ */
     /* Archive                                                             */
     /* ------------------------------------------------------------------ */
-    function Archive({ packs, reads, setReads, onOpen }) {
+    function Archive({ packs, reads, setReads, onOpen, loading }) {
       // Only articles the user has finished reading, newest first.
       const rows = [...packs].reverse().filter((p) => reads[p.id] && !reads[p.id].deleted);
-      if (!rows.length) return <div className="empty">아직 읽은 기사가 없습니다.{"\n"}오늘 탭에서 기사를 완독하면 여기에 쌓입니다.</div>;
+      if (!rows.length) {
+        return loading
+          ? <div className="empty">보관함을 불러오는 중…</div>
+          : <div className="empty">아직 읽은 기사가 없습니다.{"\n"}오늘 탭에서 기사를 완독하면 여기에 쌓입니다.</div>;
+      }
       // Soft-delete: keep the record but mark it deleted with a fresh
       // timestamp, so cross-device sync (last-write-wins) actually removes it
       // everywhere instead of a stale remote copy silently bringing it back.
@@ -2057,9 +2001,6 @@
     /* ------------------------------------------------------------------ */
     /* 오답 노트: grammar SRS built from AI writing corrections            */
     /* ------------------------------------------------------------------ */
-    function normText(s) {
-      return String(s || "").toLowerCase().trim().replace(/\s+/g, " ").replace(/[.,!?;:'"()]/g, "");
-    }
     function ErrorNotes({ errors, setErrors, showToast }) {
       const [studying, setStudying] = useState(false);
       const [deck, setDeck] = useState([]);
@@ -2075,7 +2016,9 @@
       const [mcLoading, setMcLoading] = useState(false);
       const [mcUnavailable, setMcUnavailable] = useState(false); // → falls back to typing
 
-      const list = Object.entries(errors).map(([id, v]) => ({ id, ...v, stage: v.stage || "new" }));
+      const list = Object.entries(errors)
+        .filter(([, v]) => v && !v.deleted)
+        .map(([id, v]) => ({ id, ...v, stage: v.stage || "new" }));
       const counts = { new: 0, review: 0, mastered: 0 };
       list.forEach((e) => { counts[e.stage] = (counts[e.stage] || 0) + 1; });
       const total = list.length;
@@ -2086,7 +2029,12 @@
       filtered.forEach((e) => { (byCat[e.category || "기타"] = byCat[e.category || "기타"] || []).push(e); });
 
       const patchError = (id, p) => setErrors((prev) => prev[id] ? ({ ...prev, [id]: { ...prev[id], ...p, updatedAt: Date.now() } }) : prev);
-      const removeError = (id) => { if (!window.confirm("이 오답을 삭제할까요?")) return; setErrors((prev) => { const n = { ...prev }; delete n[id]; return n; }); };
+      // Soft delete (tombstone + fresh timestamp) so the removal wins the
+      // cross-device merge instead of a stale remote copy bringing it back.
+      const removeError = (id) => {
+        if (!window.confirm("이 오답을 삭제할까요?")) return;
+        setErrors((prev) => (prev[id] ? { ...prev, [id]: { ...prev[id], deleted: true, updatedAt: Date.now() } } : prev));
+      };
 
       const shuffle = (a) => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); const t = r[i]; r[i] = r[j]; r[j] = t; } return r; };
       const start = () => {
@@ -2265,8 +2213,6 @@
     /* ------------------------------------------------------------------ */
     /* Wordbank                                                            */
     /* ------------------------------------------------------------------ */
-    // Spaced-repetition stage of a word (with legacy 'learned' migration).
-    function stageOf(v) { return v.stage || (v.learned ? "review" : "new"); }
 
     function Wordbank({ wordbank, setWordbank, streak, session, showToast, onActivity }) {
       const [query, setQuery] = useState("");
@@ -2300,7 +2246,7 @@
         }));
       }, []);
 
-      const reviewDue = (v) => stageOf(v) === "review" && v.reviewSince && daysBetween(v.reviewSince, today) >= REVIEW_DUE_DAYS;
+      const isDue = (v) => reviewDue(v, today);
 
       // Soft-deleted words (a delete write with a fresh updatedAt, kept as a
       // tombstone) must be excluded from every view — grid, counts, and study
@@ -2331,7 +2277,7 @@
       // correctly without a single global mode.
       const toCard = (word, v) => ({ word, meaning: v.meaning, pos: v.pos || null, example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) });
       const reviewPool = useMemo(
-        () => aliveWords.filter(([, v]) => reviewDue(v)).map(([word, v]) => toCard(word, v)),
+        () => aliveWords.filter(([, v]) => isDue(v)).map(([word, v]) => toCard(word, v)),
         [aliveWords, today]
       );
       const newPool = useMemo(
@@ -2566,7 +2512,7 @@
       const actionFor = (e) => {
         if (e.stage === "new") return <span className="stagenote">미암기</span>;
         if (e.stage === "review") {
-          if (reviewDue(e)) return <span className="stagenote due">복습 가능</span>;
+          if (isDue(e)) return <span className="stagenote due">복습 가능</span>;
           const d = Math.max(1, REVIEW_DUE_DAYS - daysBetween(e.reviewSince || today, today));
           return <span className="stagenote">복습 D-{d}</span>;
         }
