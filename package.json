@@ -1,0 +1,13 @@
+{
+  "name": "daybreak-wire",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily crypto/economy English reading + wordbank app. Static front end, Node pack builder.",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check build_packs.js && node scripts/check_feed.js",
+    "repack": "node build_packs.js --repack",
+    "build": "node build_packs.js"
+  },
+  "engines": { "node": ">=20" }
+}
