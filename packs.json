@@ -1,5 +1,973 @@
 [
   {
+    "id": "cd-2026-09-06-1",
+    "date": "2026-09-06",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "한국은행 연구 결과에 따르면 달러 연동 스테이블코인이 자국 통화 약세를 유발할 수 있다고 합니다.",
+    "url": "https://www.coindesk.com/business/2026/09/05/dollar-backed-stablecoins-can-push-local-currencies-lower-bank-of-korea-study-finds",
+    "title": "BOK Study: Stablecoins May Depress Local Currencies",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A recent Bank of Korea study suggests stablecoins might negatively affect the stability of local currencies. Specifically, dollar-backed stablecoins could lead to noticeable depreciation in various national currencies. The study observed a significant increase in buying pressure for currencies paired with Binance's stablecoins. This particular pressure often directly correlates with a weakening of the local currency's exchange value. Market makers, crucial players in this ecosystem, perform a key role in this dynamic. They actively balance their trading positions between different stablecoins and local fiat currencies. This continuous balancing act can inadvertently create downward pressure on the local currency's strength. The comprehensive research highlights potential financial stability concerns for many central banks worldwide. It strongly emphasizes the growing and complex impact of digital assets on traditional financial systems. Therefore, policymakers globally need to carefully consider these important findings for future regulatory frameworks.",
+    "sentences": [
+      {
+        "en": "A recent Bank of Korea study suggests stablecoins might negatively affect the stability of local currencies.",
+        "ko": "최근 한국은행 연구에 따르면 스테이블코인이 자국 통화의 안정성에 부정적인 영향을 미칠 수 있다고 합니다."
+      },
+      {
+        "en": "Specifically, dollar-backed stablecoins could lead to noticeable depreciation in various national currencies.",
+        "ko": "특히, 달러 연동 스테이블코인은 여러 국가 통화에서 눈에 띄는 가치 하락을 초래할 수 있습니다."
+      },
+      {
+        "en": "The study observed a significant increase in buying pressure for currencies paired with Binance's stablecoins.",
+        "ko": "이 연구는 바이낸스 스테이블코인과 연동된 통화에 대한 매수 압력이 크게 증가했음을 관찰했습니다."
+      },
+      {
+        "en": "This particular pressure often directly correlates with a weakening of the local currency's exchange value.",
+        "ko": "이러한 특정 압력은 종종 현지 통화의 환율 가치 약화와 직접적으로 연관됩니다."
+      },
+      {
+        "en": "Market makers, crucial players in this ecosystem, perform a key role in this dynamic.",
+        "ko": "이 생태계의 핵심 주체인 시장 조성자들은 이러한 역학 관계에서 중요한 역할을 수행합니다."
+      },
+      {
+        "en": "They actively balance their trading positions between different stablecoins and local fiat currencies.",
+        "ko": "그들은 다양한 스테이블코인과 현지 법정화폐 사이에서 거래 포지션을 적극적으로 균형 있게 유지합니다."
+      },
+      {
+        "en": "This continuous balancing act can inadvertently create downward pressure on the local currency's strength.",
+        "ko": "이러한 지속적인 균형 조정 행위는 의도치 않게 현지 통화의 강세에 하방 압력을 가할 수 있습니다."
+      },
+      {
+        "en": "The comprehensive research highlights potential financial stability concerns for many central banks worldwide.",
+        "ko": "이 포괄적인 연구는 전 세계 많은 중앙은행에게 잠재적인 금융 안정성 우려를 강조합니다."
+      },
+      {
+        "en": "It strongly emphasizes the growing and complex impact of digital assets on traditional financial systems.",
+        "ko": "이는 디지털 자산이 전통적인 금융 시스템에 미치는 증가하고 복잡한 영향을 강력하게 강조합니다."
+      },
+      {
+        "en": "Therefore, policymakers globally need to carefully consider these important findings for future regulatory frameworks.",
+        "ko": "따라서 전 세계 정책 입안자들은 미래 규제 프레임워크를 위해 이러한 중요한 연구 결과를 신중하게 고려해야 합니다."
+      }
+    ],
+    "glossary": {
+      "suggests": {
+        "meaning": "indicates or implies something without directly stating it, often based on evidence or reasoning.",
+        "pos": "verb"
+      },
+      "negatively": {
+        "meaning": "in a harmful or undesirable way, often causing a detrimental effect or outcome.",
+        "pos": "adverb"
+      },
+      "depreciation": {
+        "meaning": "a decrease in the value of an asset or currency over time, making it worth less.",
+        "pos": "noun"
+      },
+      "national": {
+        "meaning": "relating to a particular nation or country; belonging to or characteristic of a nation.",
+        "pos": "adjective"
+      },
+      "observed": {
+        "meaning": "noticed or perceived something and registered it as a fact, often through careful attention.",
+        "pos": "verb"
+      },
+      "increased": {
+        "meaning": "having become greater in size, amount, intensity, or degree than before.",
+        "pos": "adjective"
+      },
+      "buying": {
+        "meaning": "related to the act of purchasing something, acquiring goods or services in exchange for money.",
+        "pos": "adjective"
+      },
+      "pressure": {
+        "meaning": "the force or influence exerted by something, often causing a particular action or state.",
+        "pos": "noun"
+      },
+      "correlates": {
+        "meaning": "has a mutual relationship or connection with another thing, where one often affects the other.",
+        "pos": "verb"
+      },
+      "weakening": {
+        "meaning": "the process of becoming less strong, powerful, effective, or intense over time.",
+        "pos": "noun"
+      },
+      "value": {
+        "meaning": "the monetary worth of something, or its importance and usefulness to someone.",
+        "pos": "noun"
+      },
+      "dynamic": {
+        "meaning": "a force or factor that stimulates change or progress within a system or situation.",
+        "pos": "noun"
+      },
+      "balance": {
+        "meaning": "to keep something in a steady or equal position so that it does not fall or change.",
+        "pos": "verb"
+      },
+      "positions": {
+        "meaning": "the amount of a security, commodity, or currency held or owned by a person or institution.",
+        "pos": "noun"
+      },
+      "fiat": {
+        "meaning": "a currency that a government has declared to be legal tender, not backed by a physical commodity.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something, making it more noticeable or prominent.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "having or showing the capacity to become something in the future, but not yet actualized.",
+        "pos": "adjective"
+      },
+      "stability": {
+        "meaning": "the state of being firm and not likely to change or fail, indicating steadiness.",
+        "pos": "noun"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or apprehension about a situation or problem.",
+        "pos": "noun"
+      },
+      "emphasizes": {
+        "meaning": "gives special importance or prominence to something, making it stand out.",
+        "pos": "verb"
+      },
+      "impact": {
+        "meaning": "the strong effect that something has on a situation, person, or system.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "people responsible for making or implementing policy, especially in government or institutions.",
+        "pos": "noun"
+      },
+      "regulations": {
+        "meaning": "rules or laws made by an authority to control or govern conduct.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the Bank of Korea study, what specific effect might dollar-backed stablecoins have on national currencies?",
+      "Q2: In the context of the passage, explain what \"market makers balance their positions\" means and why it's relevant to local currency depreciation.",
+      "Q3: What broader implications do these findings have for central banks and their approach to digital assets in the future?"
+    ],
+    "modelAnswers": [
+      "A1: The Bank of Korea study suggests that dollar-backed stablecoins could lead to the depreciation of national currencies by creating increased buying pressure for Binance-paired currencies.",
+      "A2: \"Market makers balance their positions\" refers to their actions of adjusting holdings between stablecoins and local fiat currencies. This is relevant because their efforts to maintain equilibrium can unintentionally exert downward pressure on the local currency's value.",
+      "A3: These findings imply that central banks must closely monitor the stablecoin market and consider new regulations. They need to protect financial stability and manage the growing influence of digital assets on traditional financial systems."
+    ]
+  },
+  {
+    "id": "cd-2026-09-06-2",
+    "date": "2026-09-06",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "영국 최대 소매 투자 플랫폼이 암호화폐 ETN 접근을 허용하며 규제 변화에 대한 중요한 신호를 보냅니다.",
+    "url": "https://www.coindesk.com/business/2026/09/04/from-warning-to-listing-uk-s-largest-wealth-platform-opens-access-to-crypto-etns",
+    "title": "UK Platform Embraces Crypto ETNs After Ban Lift",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Hargreaves Lansdown, a major UK investment platform, has recently begun offering access to crypto ETNs. This significant move directly follows the Financial Conduct Authority's (FCA) recent regulatory decision. The FCA officially lifted its long-standing ban on crypto ETPs specifically for retail investors. Previously, this prominent platform had consistently warned its clients against engaging in such volatile digital asset investments. This notable policy reversal signals a profound shift in the United Kingdom's crypto regulatory landscape. It clearly indicates the growing mainstream acceptance of digital asset products within traditional financial institutions. Consequently, retail investors can now gain regulated exposure to the crypto market through these structured instruments. This positive development is expected to attract many more traditional investors to the broader crypto ecosystem. It also highlights the constantly evolving approach of financial regulators and policymakers across the globe. The decision ultimately reflects an increasing level of confidence in the overall maturity and stability of crypto markets.",
+    "sentences": [
+      {
+        "en": "Hargreaves Lansdown, a major UK investment platform, has recently begun offering access to crypto ETNs.",
+        "ko": "영국의 주요 투자 플랫폼인 하그리브스 랜스다운이 최근 암호화폐 ETN 접근을 허용하기 시작했습니다."
+      },
+      {
+        "en": "This significant move directly follows the Financial Conduct Authority's (FCA) recent regulatory decision.",
+        "ko": "이 중요한 조치는 영국 금융감독청(FCA)의 최근 규제 결정에 따른 것입니다."
+      },
+      {
+        "en": "The FCA officially lifted its long-standing ban on crypto ETPs specifically for retail investors.",
+        "ko": "FCA는 소매 투자자를 대상으로 한 암호화폐 ETP에 대한 오랜 금지 조치를 공식적으로 해제했습니다."
+      },
+      {
+        "en": "Previously, this prominent platform had consistently warned its clients against engaging in such volatile digital asset investments.",
+        "ko": "이전에 이 저명한 플랫폼은 고객들에게 그러한 변동성이 큰 디지털 자산 투자에 참여하지 말라고 지속적으로 경고했습니다."
+      },
+      {
+        "en": "This notable policy reversal signals a profound shift in the United Kingdom's crypto regulatory landscape.",
+        "ko": "이 주목할 만한 정책 전환은 영국의 암호화폐 규제 환경에 중대한 변화를 시사합니다."
+      },
+      {
+        "en": "It clearly indicates the growing mainstream acceptance of digital asset products within traditional financial institutions.",
+        "ko": "이는 전통적인 금융 기관 내에서 디지털 자산 상품에 대한 주류의 수용이 증가하고 있음을 명확히 보여줍니다."
+      },
+      {
+        "en": "Consequently, retail investors can now gain regulated exposure to the crypto market through these structured instruments.",
+        "ko": "결과적으로, 소매 투자자들은 이제 이러한 구조화된 상품을 통해 암호화폐 시장에 규제된 노출을 얻을 수 있습니다."
+      },
+      {
+        "en": "This positive development is expected to attract many more traditional investors to the broader crypto ecosystem.",
+        "ko": "이러한 긍정적인 발전은 더 많은 전통적인 투자자들을 광범위한 암호화폐 생태계로 끌어들일 것으로 예상됩니다."
+      },
+      {
+        "en": "It also highlights the constantly evolving approach of financial regulators and policymakers across the globe.",
+        "ko": "이는 또한 전 세계 금융 규제 기관 및 정책 입안자들의 끊임없이 진화하는 접근 방식을 강조합니다."
+      },
+      {
+        "en": "The decision ultimately reflects an increasing level of confidence in the overall maturity and stability of crypto markets.",
+        "ko": "이 결정은 궁극적으로 암호화폐 시장의 전반적인 성숙도와 안정성에 대한 신뢰 수준이 높아지고 있음을 반영합니다."
+      }
+    ],
+    "glossary": {
+      "major": {
+        "meaning": "important, serious, or significant, often indicating something of great size or influence.",
+        "pos": "adjective"
+      },
+      "follows": {
+        "meaning": "happens or comes after something else in time or sequence, as a consequence.",
+        "pos": "verb"
+      },
+      "lifted": {
+        "meaning": "removed or ended a ban, restriction, or rule that was previously in effect.",
+        "pos": "verb"
+      },
+      "ban": {
+        "meaning": "an official or legal prohibition of something, preventing it from being done or used.",
+        "pos": "noun"
+      },
+      "retail": {
+        "meaning": "relating to the sale of goods or services directly to consumers, rather than to wholesalers.",
+        "pos": "adjective"
+      },
+      "investors": {
+        "meaning": "people who put money into financial schemes, shares, or property with the expectation of achieving a profit.",
+        "pos": "noun"
+      },
+      "previously": {
+        "meaning": "at a preceding time or on a preceding occasion, before the current moment.",
+        "pos": "adverb"
+      },
+      "warned": {
+        "meaning": "informed someone in advance about a possible danger, problem, or undesirable consequence.",
+        "pos": "verb"
+      },
+      "volatile": {
+        "meaning": "liable to change rapidly and unpredictably, especially for the worse, often describing market prices.",
+        "pos": "adjective"
+      },
+      "reversal": {
+        "meaning": "a change to an opposite direction, position, or course of action from what was previously held.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "sufficiently great or important to be worthy of attention; notably large or impactful.",
+        "pos": "adjective"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency, indicating a movement away from something.",
+        "pos": "noun"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system, industry, or activity by rules or laws.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "the overall situation or environment, often referring to a specific field or area of activity.",
+        "pos": "noun"
+      },
+      "indicates": {
+        "meaning": "points out or shows something clearly, often serving as a sign or symptom.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "representing the prevalent current thought, attitude, or style, widely accepted by most people.",
+        "pos": "adjective"
+      },
+      "acceptance": {
+        "meaning": "the action of consenting to receive or undertake something offered, or believing something is true.",
+        "pos": "noun"
+      },
+      "exposure": {
+        "meaning": "the state of being exposed to contact with something, often a risk or investment.",
+        "pos": "noun"
+      },
+      "regulated": {
+        "meaning": "controlled or supervised by rules or laws, ensuring compliance and order.",
+        "pos": "adjective"
+      },
+      "instruments": {
+        "meaning": "formal legal documents or financial products, such as contracts or securities.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex or advanced form.",
+        "pos": "adjective"
+      },
+      "confidence": {
+        "meaning": "the feeling or belief that one can rely on someone or something; firmness of trust.",
+        "pos": "noun"
+      },
+      "maturity": {
+        "meaning": "the state, fact, or period of being mature, indicating full development or readiness.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Which UK regulatory body recently lifted its ban on crypto ETPs for retail investors, enabling platforms like Hargreaves Lansdown to offer them?",
+      "Q2: Explain what \"policy reversal\" refers to in the passage and why it is considered a significant development for the crypto market.",
+      "Q3: How might the increasing availability of regulated crypto investment products, such as ETNs, influence the perception and adoption of digital assets among traditional investors?"
+    ],
+    "modelAnswers": [
+      "A1: The Financial Conduct Authority (FCA) recently lifted its ban on crypto ETPs for retail investors, which allowed platforms like Hargreaves Lansdown to offer these products.",
+      "A2: \"Policy reversal\" means Hargreaves Lansdown changed its stance from warning against crypto investments to offering them. This is significant because it shows growing mainstream acceptance and regulatory clarity for digital asset products in the UK.",
+      "A3: The availability of regulated crypto products like ETNs could normalize digital assets, making them appear safer and more legitimate to traditional investors. This might encourage broader adoption by reducing perceived risks and integrating crypto into conventional investment portfolios."
+    ]
+  },
+  {
+    "id": "cd-2026-09-06-3",
+    "date": "2026-09-06",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "미국 보안관 협회가 Clarity Act에 대한 반대 입장을 중립으로 변경하며 암호화폐 규제 논의에 변화를 시사합니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/04/u-s-sheriff-s-association-shifts-opposition-stance-to-clarity-act-to-neutral",
+    "title": "Sheriffs Go Neutral on US Crypto Clarity Act",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Sheriff's Association has recently altered its official position on the Clarity Act. They moved from actively opposing the bill to adopting a neutral stance. This legislative act aims to provide much-needed regulatory clarity for digital assets. Just months ago, the association had expressed significant strong concerns. They worried the proposed law might inadvertently protect crypto-related criminal activities. The shift indicates ongoing discussions and evolving perspectives within regulatory bodies. It suggests a potential compromise or a better understanding of the act's intentions. Law enforcement bodies are increasingly engaging with complex crypto regulation matters. Their practical input is crucial for shaping effective future legal frameworks. This change reflects the complex nature of digital asset oversight and governance. It shows a move towards a more nuanced and balanced approach to crypto policy.",
+    "sentences": [
+      {
+        "en": "The U.S. Sheriff's Association has recently altered its official position on the Clarity Act.",
+        "ko": "미국 보안관 협회가 최근 Clarity Act에 대한 공식 입장을 변경했습니다."
+      },
+      {
+        "en": "They moved from actively opposing the bill to adopting a neutral stance.",
+        "ko": "그들은 법안에 적극적으로 반대하던 입장에서 중립적인 태도를 채택했습니다."
+      },
+      {
+        "en": "This legislative act aims to provide much-needed regulatory clarity for digital assets.",
+        "ko": "이 입법안은 디지털 자산에 필요한 규제 명확성을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Just months ago, the association had expressed significant strong concerns.",
+        "ko": "불과 몇 달 전, 협회는 상당한 강한 우려를 표명했습니다."
+      },
+      {
+        "en": "They worried the proposed law might inadvertently protect crypto-related criminal activities.",
+        "ko": "그들은 제안된 법안이 암호화폐 관련 범죄 활동을 의도치 않게 보호할 수 있다고 우려했습니다."
+      },
+      {
+        "en": "The shift indicates ongoing discussions and evolving perspectives within regulatory bodies.",
+        "ko": "이러한 변화는 규제 기관 내에서 진행 중인 논의와 진화하는 관점을 나타냅니다."
+      },
+      {
+        "en": "It suggests a potential compromise or a better understanding of the act's intentions.",
+        "ko": "이는 잠재적인 타협 또는 법안의 의도에 대한 더 나은 이해를 시사합니다."
+      },
+      {
+        "en": "Law enforcement bodies are increasingly engaging with complex crypto regulation matters.",
+        "ko": "법 집행 기관들은 복잡한 암호화폐 규제 문제에 점점 더 관여하고 있습니다."
+      },
+      {
+        "en": "Their practical input is crucial for shaping effective future legal frameworks.",
+        "ko": "그들의 실질적인 의견은 효과적인 미래 법적 프레임워크를 형성하는 데 중요합니다."
+      },
+      {
+        "en": "This change reflects the complex nature of digital asset oversight and governance.",
+        "ko": "이러한 변화는 디지털 자산 감독 및 거버넌스의 복잡한 특성을 반영합니다."
+      },
+      {
+        "en": "It shows a move towards a more nuanced and balanced approach to crypto policy.",
+        "ko": "이는 암호화폐 정책에 대한 보다 미묘하고 균형 잡힌 접근 방식으로의 전환을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "altered": {
+        "meaning": "changed or made different, often implying a modification in form or character.",
+        "pos": "verb"
+      },
+      "position": {
+        "meaning": "a particular way of thinking about something, or a stance taken on an issue.",
+        "pos": "noun"
+      },
+      "opposing": {
+        "meaning": "disagreeing with and trying to prevent something from happening or succeeding.",
+        "pos": "verb"
+      },
+      "adopting": {
+        "meaning": "taking on or starting to use a particular attitude, method, or policy.",
+        "pos": "verb"
+      },
+      "neutral": {
+        "meaning": "not supporting or helping either side in a conflict or disagreement; impartial.",
+        "pos": "adjective"
+      },
+      "stance": {
+        "meaning": "a person's attitude toward something; the way they stand or position themselves.",
+        "pos": "noun"
+      },
+      "clarity": {
+        "meaning": "the quality of being clear, easy to understand, and free from confusion.",
+        "pos": "noun"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or apprehension about a situation or problem.",
+        "pos": "noun"
+      },
+      "protect": {
+        "meaning": "keep safe from harm or injury, or prevent something from being damaged.",
+        "pos": "verb"
+      },
+      "criminal": {
+        "meaning": "relating to crime, or involving illegal activities that are punishable by law.",
+        "pos": "adjective"
+      },
+      "indicates": {
+        "meaning": "points out or shows something clearly, often serving as a sign or symptom.",
+        "pos": "verb"
+      },
+      "ongoing": {
+        "meaning": "continuing; still in progress and not yet finished or resolved.",
+        "pos": "adjective"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex or advanced form.",
+        "pos": "adjective"
+      },
+      "perspectives": {
+        "meaning": "particular attitudes toward or ways of regarding something; points of view.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "having or showing the capacity to become something in the future, but not yet actualized.",
+        "pos": "adjective"
+      },
+      "compromise": {
+        "meaning": "an agreement or a settlement of a dispute that is reached by each side making concessions.",
+        "pos": "noun"
+      },
+      "understanding": {
+        "meaning": "the ability to understand something; comprehension or knowledge.",
+        "pos": "noun"
+      },
+      "engaging": {
+        "meaning": "participating or becoming involved in an activity, conversation, or relationship.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "of great importance, often determining the success or failure of something.",
+        "pos": "adjective"
+      },
+      "shaping": {
+        "meaning": "giving a particular form or impression to something, influencing its development.",
+        "pos": "verb"
+      },
+      "frameworks": {
+        "meaning": "basic structures underlying a system, concept, or text, providing support.",
+        "pos": "noun"
+      },
+      "oversight": {
+        "meaning": "the action of overseeing something, often implying supervision or management.",
+        "pos": "noun"
+      },
+      "nuanced": {
+        "meaning": "characterized by subtle shades of meaning or expression, showing complexity.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What was the U.S. Sheriff's Association's previous stance on the Clarity Act, and what was their main concern?",
+      "Q2: Explain what \"evolving perspectives\" means in the context of the passage, and how the association's shift reflects this.",
+      "Q3: Why is the input of law enforcement bodies considered crucial for shaping future legal frameworks for digital assets?"
+    ],
+    "modelAnswers": [
+      "A1: The U.S. Sheriff's Association previously opposed the Clarity Act. Their main concern was that the law might inadvertently protect crypto-related criminal activities.",
+      "A2: \"Evolving perspectives\" refers to changing views and understandings over time, especially regarding complex issues like crypto regulation. The association's shift from opposition to neutral reflects this, indicating they may have gained a better understanding or found common ground.",
+      "A3: Law enforcement's input is crucial because they are on the front lines of dealing with illicit activities and can provide practical insights into how regulations might affect their ability to combat crime. Their experience helps create effective legal frameworks that prevent misuse while supporting innovation."
+    ]
+  },
+  {
+    "id": "ec-2026-09-06-1",
+    "date": "2026-09-06",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 연준의 금리 인상 결정이 임박한 가운데, 트럼프 행정부가 금리 인상을 막기 위해 어떤 압력을 가했는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/05/trump-warsh-fed-september-rate-hike.html",
+    "title": "White House Pressures Fed on Rate Hike",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Trump administration is pushing hard against a looming Federal Reserve interest rate hike. Officials believe a rate increase would slow down economic growth. They are specifically targeting Kevin Warsh, a potential Fed chair nominee. Warsh is known for his hawkish stance on monetary policy. The administration wants to prevent the Fed from raising borrowing costs this month. This political pressure challenges the central bank's independence. The Fed traditionally makes decisions free from government interference. However, the White House views the current economic climate differently. They argue for sustained low rates to boost job creation further. This situation highlights the tension between political goals and monetary policy. The global markets are closely watching the outcome of this dispute.",
+    "sentences": [
+      {
+        "en": "The Trump administration is pushing hard against a looming Federal Reserve interest rate hike.",
+        "ko": "트럼프 행정부는 임박한 연방준비제도(Fed)의 금리 인상에 강력히 반대하고 있습니다."
+      },
+      {
+        "en": "Officials believe a rate increase would slow down economic growth.",
+        "ko": "관계자들은 금리 인상이 경제 성장을 둔화시킬 것이라고 믿습니다."
+      },
+      {
+        "en": "They are specifically targeting Kevin Warsh, a potential Fed chair nominee.",
+        "ko": "그들은 특히 연준 의장 후보로 거론되는 케빈 워시를 겨냥하고 있습니다."
+      },
+      {
+        "en": "Warsh is known for his hawkish stance on monetary policy.",
+        "ko": "워시는 통화 정책에 대한 매파적 입장으로 알려져 있습니다."
+      },
+      {
+        "en": "The administration wants to prevent the Fed from raising borrowing costs this month.",
+        "ko": "행정부는 연준이 이달에 차입 비용을 인상하는 것을 막으려 합니다."
+      },
+      {
+        "en": "This political pressure challenges the central bank's independence.",
+        "ko": "이러한 정치적 압력은 중앙은행의 독립성을 위협합니다."
+      },
+      {
+        "en": "The Fed traditionally makes decisions free from government interference.",
+        "ko": "연준은 전통적으로 정부의 간섭 없이 결정을 내립니다."
+      },
+      {
+        "en": "However, the White House views the current economic climate differently.",
+        "ko": "하지만 백악관은 현재의 경제 상황을 다르게 보고 있습니다."
+      },
+      {
+        "en": "They argue for sustained low rates to boost job creation further.",
+        "ko": "그들은 일자리 창출을 더욱 촉진하기 위해 지속적인 낮은 금리를 주장합니다."
+      },
+      {
+        "en": "This situation highlights the tension between political goals and monetary policy.",
+        "ko": "이 상황은 정치적 목표와 통화 정책 사이의 긴장을 부각시킵니다."
+      },
+      {
+        "en": "The global markets are closely watching the outcome of this dispute.",
+        "ko": "글로벌 시장은 이 분쟁의 결과를 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "administration": {
+        "meaning": "the government in power, especially the president and their officials.",
+        "pos": "noun"
+      },
+      "looming": {
+        "meaning": "appearing as a large, often threatening shape or event, usually in the near future.",
+        "pos": "adjective"
+      },
+      "federal": {
+        "meaning": "relating to a central government rather than individual states.",
+        "pos": "adjective"
+      },
+      "reserve": {
+        "meaning": "a supply of something kept available for future use.",
+        "pos": "noun"
+      },
+      "officials": {
+        "meaning": "people who hold a position of authority in an organization or government.",
+        "pos": "noun"
+      },
+      "targeting": {
+        "meaning": "directing an action or attack towards a particular person or object.",
+        "pos": "verb"
+      },
+      "nominee": {
+        "meaning": "a person who has been formally suggested for a position or award.",
+        "pos": "noun"
+      },
+      "hawkish": {
+        "meaning": "aggressive or favoring a strong, firm policy, especially in monetary terms.",
+        "pos": "adjective"
+      },
+      "monetary": {
+        "meaning": "relating to money or currency.",
+        "pos": "adjective"
+      },
+      "prevent": {
+        "meaning": "to stop something from happening or someone from doing something.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "the act of taking and using something that belongs to someone else with the intention of returning it.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "questions whether something is true, right, or legal.",
+        "pos": "verb"
+      },
+      "independence": {
+        "meaning": "the state of being free from the control or influence of others.",
+        "pos": "noun"
+      },
+      "traditionally": {
+        "meaning": "according to custom or tradition; historically.",
+        "pos": "adverb"
+      },
+      "interference": {
+        "meaning": "the act of getting involved in a situation without being asked.",
+        "pos": "noun"
+      },
+      "climate": {
+        "meaning": "the general mood or situation in a particular period.",
+        "pos": "noun"
+      },
+      "sustained": {
+        "meaning": "continuing for an extended period without interruption.",
+        "pos": "adjective"
+      },
+      "boost": {
+        "meaning": "to help something to increase or improve.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something important.",
+        "pos": "verb"
+      },
+      "tension": {
+        "meaning": "a state of emotional strain or political strain.",
+        "pos": "noun"
+      },
+      "dispute": {
+        "meaning": "a disagreement or argument between two or more parties.",
+        "pos": "noun"
+      },
+      "outcome": {
+        "meaning": "the way a situation ends; the result.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific action is the Trump administration trying to prevent the Federal Reserve from taking?",
+      "In the passage, what does the term \"hawkish stance\" imply about Kevin Warsh's views on monetary policy?",
+      "Do you think central banks should always remain independent from political pressure, or are there situations where government influence might be beneficial for the economy? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "The Trump administration is trying to prevent the Federal Reserve from implementing an interest rate hike this month.",
+      "A \"hawkish stance\" implies that Kevin Warsh favors a strong, firm monetary policy, likely meaning he supports higher interest rates to control inflation, even if it might slow economic growth.",
+      "Central bank independence is crucial for long-term economic stability, as it prevents short-term political motives from distorting monetary policy. However, in extreme crises, coordinated efforts between government and central banks might be necessary, though this should be an exception to maintain credibility."
+    ]
+  },
+  {
+    "id": "ec-2026-09-06-2",
+    "date": "2026-09-06",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "거시 경제적 압력이 커지는 가운데 비트코인이 3주 연속 상승세를 보인 이유와 그 배경을 살펴보세요.",
+    "url": "https://www.cnbc.com/2026/09/04/bitcoin-heads-for-third-winning-week-in-a-row-as-macro-pressures-mount.html",
+    "title": "Bitcoin Rises Amid Mounting Macro Pressures",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Bitcoin has achieved its third consecutive winning week. This rise occurs despite increasing global macroeconomic pressures. Traders are actively seeking safe havens amidst market volatility. Equities, currencies, and bond markets show significant fluctuations. Bitcoin is increasingly seen as an alternative asset class. It offers a potential refuge from traditional market instability. The cryptocurrency's strong performance suggests growing investor confidence. This trend challenges previous perceptions of Bitcoin's inherent risk. Fintech professionals should carefully note its evolving role. Understanding these complex market dynamics is vital for future investment strategies. Its resilience against broader economic headwinds is a key factor.",
+    "sentences": [
+      {
+        "en": "Bitcoin has achieved its third consecutive winning week.",
+        "ko": "비트코인이 3주 연속 상승세를 기록했습니다."
+      },
+      {
+        "en": "This rise occurs despite increasing global macroeconomic pressures.",
+        "ko": "이러한 상승은 전 세계적인 거시 경제적 압력이 커지는 가운데 발생했습니다."
+      },
+      {
+        "en": "Traders are actively seeking safe havens amidst market volatility.",
+        "ko": "거래자들은 시장 변동성 속에서 적극적으로 안전 자산을 찾고 있습니다."
+      },
+      {
+        "en": "Equities, currencies, and bond markets show significant fluctuations.",
+        "ko": "주식, 통화, 채권 시장은 상당한 변동을 보이고 있습니다."
+      },
+      {
+        "en": "Bitcoin is increasingly seen as an alternative asset class.",
+        "ko": "비트코인은 대안적인 자산군으로 점점 더 인식되고 있습니다."
+      },
+      {
+        "en": "It offers a potential refuge from traditional market instability.",
+        "ko": "이는 전통적인 시장 불안정성으로부터 잠재적인 피난처를 제공합니다."
+      },
+      {
+        "en": "The cryptocurrency's strong performance suggests growing investor confidence.",
+        "ko": "이 암호화폐의 강력한 실적은 투자자 신뢰가 커지고 있음을 시사합니다."
+      },
+      {
+        "en": "This trend challenges previous perceptions of Bitcoin's inherent risk.",
+        "ko": "이러한 추세는 비트코인의 내재된 위험에 대한 이전 인식을 뒤집습니다."
+      },
+      {
+        "en": "Fintech professionals should carefully note its evolving role.",
+        "ko": "핀테크 전문가들은 비트코인의 진화하는 역할에 주의 깊게 주목해야 합니다."
+      },
+      {
+        "en": "Understanding these complex market dynamics is vital for future investment strategies.",
+        "ko": "이러한 복잡한 시장 역학을 이해하는 것은 미래 투자 전략에 필수적입니다."
+      },
+      {
+        "en": "Its resilience against broader economic headwinds is a key factor.",
+        "ko": "더 넓은 경제적 역풍에 대한 비트코인의 회복력이 핵심 요소입니다."
+      }
+    ],
+    "glossary": {
+      "achieved": {
+        "meaning": "successfully gained or reached a desired result.",
+        "pos": "verb"
+      },
+      "consecutive": {
+        "meaning": "following continuously one after another.",
+        "pos": "adjective"
+      },
+      "despite": {
+        "meaning": "without being affected by; in spite of.",
+        "pos": "preposition"
+      },
+      "macroeconomic": {
+        "meaning": "relating to the study of large-scale economic factors, like national output and inflation.",
+        "pos": "adjective"
+      },
+      "pressures": {
+        "meaning": "the forces that influence or constrain something.",
+        "pos": "noun"
+      },
+      "traders": {
+        "meaning": "people who buy and sell goods or securities for profit.",
+        "pos": "noun"
+      },
+      "havens": {
+        "meaning": "places of safety or refuge.",
+        "pos": "noun"
+      },
+      "volatility": {
+        "meaning": "the tendency of a market or price to change rapidly and unpredictably.",
+        "pos": "noun"
+      },
+      "equities": {
+        "meaning": "the value of a company's shares; stocks.",
+        "pos": "noun"
+      },
+      "currencies": {
+        "meaning": "systems of money in general use in a particular country.",
+        "pos": "noun"
+      },
+      "bond": {
+        "meaning": "an agreement by a government or company to pay interest on borrowed money.",
+        "pos": "noun"
+      },
+      "fluctuations": {
+        "meaning": "irregular rising and falling in number or amount.",
+        "pos": "noun"
+      },
+      "alternative": {
+        "meaning": "available as another possibility or choice.",
+        "pos": "adjective"
+      },
+      "asset": {
+        "meaning": "an item of value owned by a company or individual.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "having or showing the capacity to develop into something in the future.",
+        "pos": "adjective"
+      },
+      "refuge": {
+        "meaning": "a condition of being safe or sheltered from pursuit, danger, or trouble.",
+        "pos": "noun"
+      },
+      "instability": {
+        "meaning": "the state of being prone to change or collapse.",
+        "pos": "noun"
+      },
+      "cryptocurrency": {
+        "meaning": "a digital currency in which transactions are verified and records maintained by a decentralized system.",
+        "pos": "noun"
+      },
+      "performance": {
+        "meaning": "how well a person, machine, or product functions.",
+        "pos": "noun"
+      },
+      "confidence": {
+        "meaning": "the feeling or belief that one can rely on someone or something.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "questions whether something is true or right.",
+        "pos": "verb"
+      },
+      "perceptions": {
+        "meaning": "ways of interpreting or understanding something.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth or change within a system.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the passage, what specific market conditions are traders seeking refuge from?",
+      "What does the term \"alternative asset\" suggest about Bitcoin's role in the current market environment, as described in the passage?",
+      "As a fintech professional, how might Bitcoin's increasing role as a \"refuge from traditional market instability\" impact future product development or investment strategies in your field?"
+    ],
+    "modelAnswers": [
+      "Traders are seeking refuge from market volatility, specifically significant fluctuations in equities, currencies, and bond markets.",
+      "The term \"alternative asset\" suggests that Bitcoin is increasingly viewed as a different type of investment, separate from traditional stocks or bonds, which investors turn to for safety during market uncertainty.",
+      "As a fintech professional, I would consider developing new investment products that integrate cryptocurrencies, offering clients diversified portfolios. This trend could also lead to increased demand for secure digital asset management platforms and educational tools to help investors understand crypto's evolving role."
+    ]
+  },
+  {
+    "id": "ec-2026-09-06-3",
+    "date": "2026-09-06",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국 고용 보고서가 예상을 뛰어넘는 호실적을 보인 가운데, 아르헨티나의 제재 위협으로 포클랜드 유전 탐사 기업들의 주가가 급락한 소식을 자세히 알아보세요.",
+    "url": "https://www.theguardian.com/business/live/2026/sep/04/uk-car-sales-rise-food-prices-bank-of-england-us-jobs-repost-latest-news-updates",
+    "title": "US Jobs Surge, Falklands Oil Stocks Plunge",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US economy added 162,000 new jobs in August. This figure significantly surpassed economic forecasts. The unemployment rate remained steady, signaling a robust labor market. Strong job growth often influences Federal Reserve decisions on interest rates. Such positive data can affect future monetary policy actions. Meanwhile, shares of Falklands oil explorers experienced a dramatic plunge. Argentina threatened new sanctions against companies operating there. These threats stem from a long-standing dispute over the islands' sovereignty. The geopolitical tension immediately impacted investor confidence. This illustrates how political events can rapidly affect market values. Investors must consider both economic data and international relations.",
+    "sentences": [
+      {
+        "en": "The US economy added 162,000 new jobs in August.",
+        "ko": "미국 경제는 8월에 162,000개의 새로운 일자리를 추가했습니다."
+      },
+      {
+        "en": "This figure significantly surpassed economic forecasts.",
+        "ko": "이 수치는 경제 전망치를 크게 뛰어넘었습니다."
+      },
+      {
+        "en": "The unemployment rate remained steady, signaling a robust labor market.",
+        "ko": "실업률은 변동 없이 유지되어 견고한 노동 시장을 나타냈습니다."
+      },
+      {
+        "en": "Strong job growth often influences Federal Reserve decisions on interest rates.",
+        "ko": "강력한 일자리 성장은 종종 연방준비제도(Fed)의 금리 결정에 영향을 미칩니다."
+      },
+      {
+        "en": "Such positive data can affect future monetary policy actions.",
+        "ko": "이러한 긍정적인 데이터는 미래 통화 정책 조치에 영향을 줄 수 있습니다."
+      },
+      {
+        "en": "Meanwhile, shares of Falklands oil explorers experienced a dramatic plunge.",
+        "ko": "한편, 포클랜드 유전 탐사 기업들의 주가는 급격한 폭락을 겪었습니다."
+      },
+      {
+        "en": "Argentina threatened new sanctions against companies operating there.",
+        "ko": "아르헨티나는 그곳에서 사업하는 기업들에 대해 새로운 제재를 위협했습니다."
+      },
+      {
+        "en": "These threats stem from a long-standing dispute over the islands' sovereignty.",
+        "ko": "이러한 위협은 섬들의 주권에 대한 오랜 분쟁에서 비롯됩니다."
+      },
+      {
+        "en": "The geopolitical tension immediately impacted investor confidence.",
+        "ko": "지정학적 긴장은 투자 심리에 즉각적인 영향을 미쳤습니다."
+      },
+      {
+        "en": "This illustrates how political events can rapidly affect market values.",
+        "ko": "이는 정치적 사건이 시장 가치에 얼마나 빠르게 영향을 미칠 수 있는지를 보여줍니다."
+      },
+      {
+        "en": "Investors must consider both economic data and international relations.",
+        "ko": "투자자들은 경제 데이터와 국제 관계를 모두 고려해야 합니다."
+      }
+    ],
+    "glossary": {
+      "economy": {
+        "meaning": "the system by which a country's money and goods are produced and used.",
+        "pos": "noun"
+      },
+      "added": {
+        "meaning": "increased in number or amount.",
+        "pos": "verb"
+      },
+      "surpassed": {
+        "meaning": "exceeded or went beyond expectations or limits.",
+        "pos": "verb"
+      },
+      "forecasts": {
+        "meaning": "predictions or estimates of future events or trends.",
+        "pos": "noun"
+      },
+      "unemployment": {
+        "meaning": "the state of being jobless and actively looking for work.",
+        "pos": "noun"
+      },
+      "steady": {
+        "meaning": "not changing or fluctuating; stable.",
+        "pos": "adjective"
+      },
+      "signaling": {
+        "meaning": "indicating or conveying information about something.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "strong, healthy, and unlikely to fail.",
+        "pos": "adjective"
+      },
+      "labor": {
+        "meaning": "the collective body of workers in an economy.",
+        "pos": "noun"
+      },
+      "influences": {
+        "meaning": "has an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "federal": {
+        "meaning": "relating to a central government rather than individual states.",
+        "pos": "adjective"
+      },
+      "shares": {
+        "meaning": "units of ownership in a company, held by a shareholder.",
+        "pos": "noun"
+      },
+      "explorers": {
+        "meaning": "companies or individuals involved in searching for natural resources.",
+        "pos": "noun"
+      },
+      "experienced": {
+        "meaning": "underwent or was subjected to something.",
+        "pos": "verb"
+      },
+      "dramatic": {
+        "meaning": "sudden and striking; significant.",
+        "pos": "adjective"
+      },
+      "plunge": {
+        "meaning": "a sudden and rapid decrease in value or amount.",
+        "pos": "noun"
+      },
+      "threatened": {
+        "meaning": "expressed an intention to inflict harm or punishment.",
+        "pos": "verb"
+      },
+      "sanctions": {
+        "meaning": "official orders or laws stopping trade or communication with a country as a way of forcing its government to obey international law.",
+        "pos": "noun"
+      },
+      "stem": {
+        "meaning": "originate from or be caused by.",
+        "pos": "verb"
+      },
+      "dispute": {
+        "meaning": "a disagreement, argument, or debate.",
+        "pos": "noun"
+      },
+      "souvereignty": {
+        "meaning": "supreme power or authority; the right to govern oneself.",
+        "pos": "noun"
+      },
+      "geopolitical": {
+        "meaning": "relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "impacted": {
+        "meaning": "had a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "relations": {
+        "meaning": "the way in which two or more people, groups, or countries behave towards each other.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "How many new jobs did the US economy add in August, and how did this compare to forecasts?",
+      "In the passage, what does the word \"plunge\" tell us about the change in shares of Falklands oil explorers?",
+      "Given the rapid impact of geopolitical events on market values, what strategies could investors or companies use to mitigate such risks?"
+    ],
+    "modelAnswers": [
+      "The US economy added 162,000 new jobs in August, which significantly surpassed economic forecasts.",
+      "The word \"plunge\" indicates a sudden, rapid, and significant decrease in the value or price of the shares of Falklands oil explorers, suggesting a sharp drop.",
+      "Investors could diversify their portfolios across different regions and asset classes to reduce exposure to single geopolitical risks. Companies might implement political risk insurance, establish contingency plans for supply chains, or engage in scenario planning to prepare for various international relations outcomes."
+    ]
+  },
+  {
     "id": "cd-2026-09-05-1",
     "date": "2026-09-05",
     "rank": 1,
