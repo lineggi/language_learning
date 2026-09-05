@@ -18,3 +18,20 @@ jobs:
         run: node --test test/*.test.js
       - name: Feed integrity
         run: node scripts/check_feed.js
+
+  # The flashcard session's correctness depends on pointer events, CSS
+  # transitions and React commit timing together, which only a real browser
+  # shows. It loads React/Babel from a CDN at runtime, so a network blip here
+  # is not a code failure — it reports without gating the run.
+  browser:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Install Playwright
+        run: npm i --no-save playwright && npx playwright install --with-deps chromium
+      - name: Study session
+        run: npm run test:browser

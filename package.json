@@ -7,7 +7,10 @@
     "test": "node --test test/*.test.js",
     "check": "node --check build_packs.js && node scripts/check_feed.js",
     "repack": "node build_packs.js --repack",
-    "build": "node build_packs.js"
+    "build": "node build_packs.js",
+    "test:browser": "node test/browser/study.spec.js"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

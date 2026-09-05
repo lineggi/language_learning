@@ -533,6 +533,20 @@
     .flashcard .fc-hint { position: absolute; bottom: 14px; font-size: 10px; color: var(--faint); letter-spacing: .1em; }
     .flashcard .fc-speak { position: absolute; bottom: 12px; right: 14px; border: 0; background: none; cursor: pointer; font-size: 18px; opacity: .7; }
     .flashcard .fc-speak:hover { opacity: 1; }
+    /* The answered card animates away here, on its own layer, so the live card
+       is immediately back under the user's finger and no swipe is ever lost. */
+    .fcstage { position: relative; }
+    .flashcard.flying {
+      position: absolute; left: 0; right: 0; top: 0; z-index: 3;
+      pointer-events: none; animation: fcfly .2s ease-out forwards;
+    }
+    @keyframes fcfly {
+      from { transform: translateX(var(--fc-from, 0px)) rotate(0deg); opacity: 1; }
+      to   { transform: translateX(var(--fc-to)) rotate(var(--fc-rot)); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .flashcard.flying { animation-duration: .01s; }
+    }
     .fc-controls { display: flex; gap: 10px; margin-top: 14px; }
     .fc-controls .btn { flex: 1; }
     .btn.fc-yes { background: var(--good); color: #fff; }
@@ -2231,6 +2245,7 @@
       const [showCal, setShowCal] = useState(false);
       const [calMonth, setCalMonth] = useState(() => kstToday().slice(0, 7));
       const [dragX, setDragX] = useState(0);
+      const [fly, setFly] = useState(null); // the answered card, animating away
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
       const today = kstToday();
 
@@ -2330,6 +2345,19 @@
       const flip = (word) => setFlipped((p) => ({ ...p, [word]: !p[word] }));
 
       // Flashcard study: random order, meaning first, tap to flip to the word.
+      // An answer is applied 160ms later, from inside the swipe animation's
+      // timeout. Reading `deck[idx]` out of that render's closure graded the
+      // WRONG card whenever a second answer slipped in before React re-rendered:
+      // both answers saw the same idx, so one word was graded twice and the next
+      // was skipped entirely — swiping briskly through ten words left several of
+      // them still 미암기. These refs are read at fire time instead, and
+      // `advance` moves the index immediately rather than waiting for the
+      // re-render, so every card is graded exactly once however fast the user is.
+      const deckRef = useRef([]);
+      const idxRef = useRef(0);
+      deckRef.current = deck;
+      idxRef.current = idx;
+
       const shuffle = (arr) => {
         const a = arr.slice();
         for (let i = a.length - 1; i > 0; i--) {
@@ -2342,6 +2370,7 @@
         if (!pool.length) return;
         const cards = pool.map((e) => ({ word: e.word, meaning: e.meaning, pos: e.pos || null, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage }));
         setStudyLabel(label); setDeckSource(cards);
+        idxRef.current = 0; setFly(null);
         setDeck(shuffle(cards)); setIdx(0); setCardFlip(false); setMissed([]); setHistory([]); setStudying(true);
       };
       // Speak whichever side of a card is showing: the word, or its English
@@ -2349,14 +2378,15 @@
       const speakVisible = (c, showWord) => { if (c) speak(showWord ? c.word : c.meaning, "en-US"); };
       // Each flip pronounces the side now shown; speak() cancels any prior audio.
       const flipCard = () => { const nf = !cardFlip; setCardFlip(nf); speakVisible(deck[idx], nf); };
-      const advance = () => { stopSpeech(); setCardFlip(false); setIdx((i) => i + 1); };
+      const advance = () => { stopSpeech(); setCardFlip(false); idxRef.current += 1; setIdx((i) => i + 1); };
       // "알아요" → advance one SRS stage, and mark today's word-learned streak.
       //   미암기 → 복습중.   복습중 → 장기완료.   장기완료 → stays 완료 (just a
       //   refresh; the deck mixes stages now that study sessions can be
       //   started from any filter chip, so each card advances off its own
       //   stage instead of a single session-wide mode).
       const know = () => {
-        const cur = deck[idx];
+        const cur = deckRef.current[idxRef.current];
+        if (!cur) return;
         const w = cur.word;
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: false }]);
         if (cur.stage === "mastered") patch(w, { masteredSince: today });
@@ -2372,7 +2402,8 @@
       // word answered wrong keeps its reviewSince, so it simply stays due in
       // 복습하기 rather than being demoted back to 미암기.
       const dontKnow = () => {
-        const cur = deck[idx];
+        const cur = deckRef.current[idxRef.current];
+        if (!cur) return;
         const w = cur.word;
         const wasIn = missed.includes(w);
         setHistory((h) => [...h, { word: w, prevEntry: wordbank[w], addedToMissed: !wasIn }]);
@@ -2392,8 +2423,9 @@
           return n;
         });
         if (last.addedToMissed) setMissed((m) => m.filter((x) => x !== last.word));
+        idxRef.current = Math.max(0, idxRef.current - 1);
         setIdx((i) => Math.max(0, i - 1));
-        setCardFlip(false); setDragX(0);
+        setCardFlip(false); setDragX(0); setFly(null);
       };
       const restartMissed = () => {
         stopSpeech();
@@ -2401,6 +2433,7 @@
           const v = wordbank[w] || {};
           return { word: w, meaning: v.meaning || "", pos: v.pos || null, example: v.example || "", meaningKo: v.meaningKo || "", stage: stageOf(v) };
         }));
+        idxRef.current = 0; setFly(null);
         setDeck(d); setMissed([]); setHistory([]); setIdx(0); setCardFlip(false);
       };
 
@@ -2455,16 +2488,32 @@
         if (Math.abs(dx) > 6) { swipeRef.current.moved = true; clearLong(); }
         if (!swipeRef.current.long) setDragX(dx);
       };
+      // The answer is applied IMMEDIATELY and the next card is live under the
+      // user's finger straight away; the card that was answered flies out as a
+      // separate, non-interactive ghost.
+      //
+      // It used to be the real card that flew: the answer waited 160ms inside a
+      // timeout while the card itself was translated 520px off to the side. A
+      // user swiping at any pace faster than that found the next swipe landing
+      // on empty space — the card wasn't under their finger any more — so the
+      // gesture was simply lost and that word stayed 미암기. Ten brisk swipes
+      // graded four words. Nothing waits on an animation now.
+      const flyKey = useRef(0);
       const answerSwipe = (dir) => {
-        if (swipeRef.current.animating) return; // guard against double-trigger (rapid keys)
-        swipeRef.current.animating = true;
+        const cur = deckRef.current[idxRef.current];
+        if (!cur) return; // deck already finished
         stopSpeech(); // moving to the next card stops any playing pronunciation
-        setDragX(dir === "no" ? -520 : 520);
-        setTimeout(() => {
-          if (dir === "no") dontKnow(); else know();
-          setDragX(0); swipeRef.current.animating = false;
-        }, 160);
+        setFly({ card: cur, dir, flipped: cardFlip, from: dragX, key: ++flyKey.current });
+        setDragX(0);
+        if (dir === "no") dontKnow(); else know();
       };
+      // The ghost is purely decorative; dropping it late is harmless, and a
+      // fresh answer replaces it outright.
+      useEffect(() => {
+        if (!fly) return;
+        const t = setTimeout(() => setFly((f) => (f && f.key === fly.key ? null : f)), 220);
+        return () => clearTimeout(t);
+      }, [fly]);
       const onCardUp = () => {
         const { dx, moved, long } = swipeRef.current;
         const wasDown = swipeRef.current.down;
@@ -2486,8 +2535,9 @@
         const onKey = (e) => {
           const k = keyRef.current;
           if (!k.active || isTyping(e.target)) return;
-          if (e.key === "ArrowLeft") { e.preventDefault(); k.answerSwipe("no"); }
-          else if (e.key === "ArrowRight") { e.preventDefault(); k.answerSwipe("yes"); }
+          // e.repeat: a held arrow key auto-repeats; one press = one answer.
+          if (e.key === "ArrowLeft") { e.preventDefault(); if (!e.repeat) k.answerSwipe("no"); }
+          else if (e.key === "ArrowRight") { e.preventDefault(); if (!e.repeat) k.answerSwipe("yes"); }
           else if (e.key === " " || e.key === "ArrowUp" || e.key === "ArrowDown") { e.preventDefault(); k.flipCard(); }
           else if (e.key === "Enter") { e.preventDefault(); k.setKoPeek(true); } // hold Enter = Korean 뜻 peek
         };
@@ -2583,7 +2633,23 @@
               <span>{studyLabel} · {idx + 1} / {deck.length}</span>
               <button className="chip" onClick={() => { stopSpeech(); setStudying(false); }}>닫기 ✕</button>
             </div>
-            <div className={"flashcard" + (cardFlip ? " flipped" : "") + (dragX > SWIPE_TH ? " yes" : dragX < -SWIPE_TH ? " no" : "")}
+            <div className="fcstage">
+            {fly && (
+              <div key={fly.key} className={"flashcard flying " + fly.dir + (fly.flipped ? " flipped" : "")}
+                style={{ "--fc-from": `${fly.from}px`, "--fc-to": fly.dir === "no" ? "-520px" : "520px",
+                         "--fc-rot": fly.dir === "no" ? "-21deg" : "21deg" }} aria-hidden="true">
+                {fly.flipped
+                  ? <div className="fc-word fraunces">{fly.card.word}</div>
+                  : <div className="fc-def">{fly.card.meaning}</div>}
+              </div>
+            )}
+            {/* Keyed by index so each card mounts fresh at rest. Without it the
+                element survived from the previous card and animated back from
+                wherever the finger let go — for those ~180ms it sat off to the
+                side, and a swipe started in that window landed on empty space
+                and was silently dropped, leaving that word unmarked. */}
+            <div key={"card-" + idx}
+              className={"flashcard" + (cardFlip ? " flipped" : "") + (dragX > SWIPE_TH ? " yes" : dragX < -SWIPE_TH ? " no" : "")}
               style={{ transform: `translateX(${dragX}px) rotate(${dragX * 0.04}deg)`, transition: swipeRef.current.down ? "none" : "transform .18s ease" }}
               onPointerDown={onCardDown} onPointerMove={onCardMove} onPointerUp={onCardUp} onPointerCancel={onCardUp}>
               <span className="swipe-tag no" style={{ opacity: dragX < 0 ? Math.min(1, -dragX / SWIPE_TH) : 0 }}>✕ 몰라요</span>
@@ -2604,6 +2670,7 @@
                   <div className="fc-ko-tag mono">한국어 뜻</div>
                 </div>
               )}
+            </div>
             </div>
             <div className="fc-help">
               <button className={"fc-help-btn" + (showHelp ? " open" : "")} onClick={() => setShowHelp((h) => !h)}>
