@@ -1,5 +1,977 @@
 [
   {
+    "id": "cd-2026-09-07-1",
+    "date": "2026-09-07",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "예측 시장의 규제 논란이 미국 대법원까지 올라가면서, 암호화폐 산업에 중요한 선례를 남길 수 있습니다.",
+    "url": "https://www.coindesk.com/news-analysis/2026/09/06/prediction-markets-inch-closer-to-the-supreme-court-state-of-crypto",
+    "title": "Supreme Court to Review Prediction Market Case",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The legal battle over prediction markets is escalating in the United States. New Jersey recently appealed a lower court's decision in a case involving Kalshi. This move sends the dispute directly to the Supreme Court for review. Kalshi operates a platform where users can bet on future events. Regulators argue that these markets resemble illegal gambling. However, Kalshi maintains that its offerings are legitimate financial products. The Supreme Court's decision will have significant implications for the crypto industry. It could establish a precedent for how digital assets and innovative platforms are regulated. This case highlights the ongoing challenge of classifying new financial technologies. Industry participants are watching closely for clarity on these complex issues.",
+    "sentences": [
+      {
+        "en": "The legal battle over prediction markets is escalating in the United States.",
+        "ko": "예측 시장을 둘러싼 법적 다툼이 미국에서 심화되고 있습니다."
+      },
+      {
+        "en": "New Jersey recently appealed a lower court's decision in a case involving Kalshi.",
+        "ko": "뉴저지주는 최근 칼시 관련 소송에서 하급 법원의 결정에 항소했습니다."
+      },
+      {
+        "en": "This move sends the dispute directly to the Supreme Court for review.",
+        "ko": "이러한 움직임은 이 분쟁을 대법원의 심사를 위해 직접 보냅니다."
+      },
+      {
+        "en": "Kalshi operates a platform where users can bet on future events.",
+        "ko": "칼시는 사용자들이 미래 사건에 베팅할 수 있는 플랫폼을 운영합니다."
+      },
+      {
+        "en": "Regulators argue that these markets resemble illegal gambling.",
+        "ko": "규제 당국은 이러한 시장이 불법 도박과 유사하다고 주장합니다."
+      },
+      {
+        "en": "However, Kalshi maintains that its offerings are legitimate financial products.",
+        "ko": "하지만 칼시는 자사의 상품이 합법적인 금융 상품이라고 주장합니다."
+      },
+      {
+        "en": "The Supreme Court's decision will have significant implications for the crypto industry.",
+        "ko": "대법원의 결정은 암호화폐 산업에 중대한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "It could establish a precedent for how digital assets and innovative platforms are regulated.",
+        "ko": "이는 디지털 자산과 혁신적인 플랫폼이 어떻게 규제될지에 대한 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "This case highlights the ongoing challenge of classifying new financial technologies.",
+        "ko": "이 사례는 새로운 금융 기술을 분류하는 데 있어 지속적인 과제를 강조합니다."
+      },
+      {
+        "en": "Industry participants are watching closely for clarity on these complex issues.",
+        "ko": "업계 참여자들은 이러한 복잡한 문제에 대한 명확성을 얻기 위해 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "legal": {
+        "meaning": "relating to the law or to lawyers, or allowed by the law.",
+        "pos": "adjective"
+      },
+      "escalating": {
+        "meaning": "increasing rapidly in size, intensity, or importance.",
+        "pos": "verb"
+      },
+      "appealed": {
+        "meaning": "applied to a higher court for a reversal of a lower court's decision.",
+        "pos": "verb"
+      },
+      "dispute": {
+        "meaning": "a disagreement or argument between people or groups.",
+        "pos": "noun"
+      },
+      "directly": {
+        "meaning": "in a direct manner; without an intermediary person or thing.",
+        "pos": "adverb"
+      },
+      "platform": {
+        "meaning": "a system that allows people to interact or conduct business.",
+        "pos": "noun"
+      },
+      "bet": {
+        "meaning": "to risk money on the result of an event or competition.",
+        "pos": "verb"
+      },
+      "regulators": {
+        "meaning": "official bodies or government agencies that control an industry.",
+        "pos": "noun"
+      },
+      "resemble": {
+        "meaning": "to look like or be similar to someone or something.",
+        "pos": "verb"
+      },
+      "illegal": {
+        "meaning": "against the law or not permitted by rules.",
+        "pos": "adjective"
+      },
+      "gambling": {
+        "meaning": "the activity of playing games of chance for money.",
+        "pos": "noun"
+      },
+      "maintains": {
+        "meaning": "to state something strongly to be true, even when challenged.",
+        "pos": "verb"
+      },
+      "offerings": {
+        "meaning": "products or services provided by a company or organization.",
+        "pos": "noun"
+      },
+      "legitimate": {
+        "meaning": "conforming to the law or to rules; acceptable and valid.",
+        "pos": "adjective"
+      },
+      "implications": {
+        "meaning": "the possible results or effects of an action or a decision.",
+        "pos": "noun"
+      },
+      "establish": {
+        "meaning": "to set up or create something permanently.",
+        "pos": "verb"
+      },
+      "precedent": {
+        "meaning": "an earlier event or action that serves as an example or guide.",
+        "pos": "noun"
+      },
+      "classifying": {
+        "meaning": "arranging something in categories or groups according to shared qualities.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "to draw special attention to something important.",
+        "pos": "verb"
+      },
+      "complex": {
+        "meaning": "consisting of many different and connected parts, making it difficult.",
+        "pos": "adjective"
+      },
+      "clarity": {
+        "meaning": "the quality of being clear, easy to understand, or certainty.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific action did New Jersey take to send the prediction market dispute to the Supreme Court?",
+      "Q2: In the passage, what does the word \"precedent\" mean in the context of the Supreme Court's potential decision?",
+      "Q3: Do you believe prediction markets should be regulated as financial products or as a form of gambling? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: New Jersey petitioned for a writ of certiorari, which is a formal request for the Supreme Court to review a lower court's decision.",
+      "A2: In this context, \"precedent\" refers to a legal ruling or decision that serves as an example or guide for future similar cases, especially regarding how digital assets might be regulated.",
+      "A3: I think they should be regulated as financial products. While they involve risk like gambling, they also offer mechanisms for hedging and price discovery, which are characteristics of financial instruments. Clear regulation could foster innovation while protecting consumers."
+    ]
+  },
+  {
+    "id": "cd-2026-09-07-2",
+    "date": "2026-09-07",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "코인베이스와 베터 모기지가 비트코인을 담보로 재사용하는 모기지 상품을 출시하며 금융 혁신을 이끌고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/06/better-and-coinbase-s-bitcoin-backed-mortgages-can-reuse-borrowers-collateral",
+    "title": "Coinbase Offers Reusable Bitcoin-Backed Mortgages",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Better Mortgage and Coinbase have launched an innovative new mortgage product. This program allows borrowers to use Bitcoin as collateral for their home loans. A key feature is that the pledged Bitcoin collateral can be reused by Better Mortgage. Borrowers cannot reclaim their crypto until the main mortgage is fully repaid. This also applies if the loan is refinanced with another provider. This development signifies a growing convergence between traditional finance and crypto assets. It offers new avenues for asset utilization and liquidity for Bitcoin holders. However, it also introduces unique risks related to Bitcoin's price volatility. Fintech professionals must understand these emerging financial instruments. This product could pave the way for more crypto-backed financial services.",
+    "sentences": [
+      {
+        "en": "Better Mortgage and Coinbase have launched an innovative new mortgage product.",
+        "ko": "베터 모기지와 코인베이스가 혁신적인 새 모기지 상품을 출시했습니다."
+      },
+      {
+        "en": "This program allows borrowers to use Bitcoin as collateral for their home loans.",
+        "ko": "이 프로그램은 차용인이 주택 대출을 위해 비트코인을 담보로 사용할 수 있도록 합니다."
+      },
+      {
+        "en": "A key feature is that the pledged Bitcoin collateral can be reused by Better Mortgage.",
+        "ko": "핵심 특징은 담보로 제공된 비트코인 담보가 베터 모기지에 의해 재사용될 수 있다는 점입니다."
+      },
+      {
+        "en": "Borrowers cannot reclaim their crypto until the main mortgage is fully repaid.",
+        "ko": "차용인은 주 모기지가 완전히 상환될 때까지 암호화폐를 되찾을 수 없습니다."
+      },
+      {
+        "en": "This also applies if the loan is refinanced with another provider.",
+        "ko": "이는 대출이 다른 제공업체로 재융자될 경우에도 적용됩니다."
+      },
+      {
+        "en": "This development signifies a growing convergence between traditional finance and crypto assets.",
+        "ko": "이러한 발전은 전통 금융과 암호화폐 자산 간의 융합이 증가하고 있음을 의미합니다."
+      },
+      {
+        "en": "It offers new avenues for asset utilization and liquidity for Bitcoin holders.",
+        "ko": "이는 비트코인 보유자에게 자산 활용 및 유동성을 위한 새로운 길을 제공합니다."
+      },
+      {
+        "en": "However, it also introduces unique risks related to Bitcoin's price volatility.",
+        "ko": "하지만 이는 비트코인 가격 변동성과 관련된 독특한 위험도 도입합니다."
+      },
+      {
+        "en": "Fintech professionals must understand these emerging financial instruments.",
+        "ko": "핀테크 전문가들은 이러한 신흥 금융 상품을 이해해야 합니다."
+      },
+      {
+        "en": "This product could pave the way for more crypto-backed financial services.",
+        "ko": "이 상품은 더 많은 암호화폐 담보 금융 서비스의 길을 열 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "innovative": {
+        "meaning": "introducing new ideas, methods, or products.",
+        "pos": "adjective"
+      },
+      "mortgage": {
+        "meaning": "a legal agreement where a bank lends money in exchange for property as security.",
+        "pos": "noun"
+      },
+      "borrowers": {
+        "meaning": "individuals or entities who receive money with the promise to pay it back.",
+        "pos": "noun"
+      },
+      "collateral": {
+        "meaning": "property or something valuable pledged as security for repayment of a loan.",
+        "pos": "noun"
+      },
+      "pledged": {
+        "meaning": "formally committed or guaranteed as security for a loan.",
+        "pos": "verb"
+      },
+      "reclaim": {
+        "meaning": "to retrieve or recover something that was lost or taken.",
+        "pos": "verb"
+      },
+      "repaid": {
+        "meaning": "to pay back money that you have borrowed.",
+        "pos": "verb"
+      },
+      "refinanced": {
+        "meaning": "to replace an existing loan with a new loan, often with better terms.",
+        "pos": "verb"
+      },
+      "provider": {
+        "meaning": "a company or organization that supplies a product or service.",
+        "pos": "noun"
+      },
+      "signifies": {
+        "meaning": "to be an indication of something; to mean something.",
+        "pos": "verb"
+      },
+      "convergence": {
+        "meaning": "the process or state of coming together from different directions.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a long-established custom or practice.",
+        "pos": "adjective"
+      },
+      "avenues": {
+        "meaning": "ways or opportunities to do or achieve something.",
+        "pos": "noun"
+      },
+      "utilization": {
+        "meaning": "the action of making practical and effective use of something.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "the availability of liquid assets to a market or company.",
+        "pos": "noun"
+      },
+      "holders": {
+        "meaning": "people or entities who own or possess something.",
+        "pos": "noun"
+      },
+      "introduces": {
+        "meaning": "to bring something new into existence or use.",
+        "pos": "verb"
+      },
+      "volatility": {
+        "meaning": "the tendency of a price or value to change rapidly and unpredictably.",
+        "pos": "noun"
+      },
+      "emerging": {
+        "meaning": "becoming apparent, prominent, or coming into existence.",
+        "pos": "adjective"
+      },
+      "instruments": {
+        "meaning": "financial assets or products, often used in a formal sense.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is a key characteristic of the Bitcoin collateral used in the new mortgage product offered by Better Mortgage and Coinbase?",
+      "Q2: Explain what \"convergence\" means in the sentence, \"This development signifies a growing convergence between traditional finance and crypto assets.\"",
+      "Q3: What are some potential benefits and risks for borrowers who choose a Bitcoin-backed mortgage compared to a traditional mortgage?"
+    ],
+    "modelAnswers": [
+      "A1: A key characteristic is that the pledged Bitcoin collateral can be reused by Better Mortgage, and borrowers cannot reclaim their crypto until the main mortgage is fully repaid or refinanced.",
+      "A2: \"Convergence\" in this context refers to the process where traditional financial systems and cryptocurrency assets are increasingly coming together, blending their features and creating new hybrid financial products and services.",
+      "A3: Potential benefits include unlocking liquidity from Bitcoin holdings without selling, and accessing new loan products. Risks involve exposure to Bitcoin's price volatility, which could lead to margin calls or loss of collateral if its value drops significantly, and the inability to access the collateral until the loan is settled."
+    ]
+  },
+  {
+    "id": "cd-2026-09-07-3",
+    "date": "2026-09-07",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "동남아시아 암호화폐 시장의 투자 유치 현황과 주요 동향을 통해 핀테크 PM으로서 중요한 인사이트를 얻을 수 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/05/southeast-asia-s-crypto-funding-rebounds-to-usd680-million-as-investors-focus-on-mature-firms",
+    "title": "Southeast Asia Crypto Funding Sees Rebound",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Crypto funding in Southeast Asia has shown a significant rebound this year. Total investment reached $680 million, indicating renewed investor confidence. Investors are now primarily focusing on more mature and established companies. This shift suggests a preference for stability and proven business models. Blockchain investment is largely concentrated in crypto financial services. Singapore remains the dominant hub for this capital, attracting most of the funds. A handful of companies are receiving the majority of the investment. This trend might suggest a consolidation within the regional crypto market. Fintech product managers should observe these dynamics closely. Understanding investment patterns is crucial for strategic planning and market entry.",
+    "sentences": [
+      {
+        "en": "Crypto funding in Southeast Asia has shown a significant rebound this year.",
+        "ko": "동남아시아의 암호화폐 투자 유치가 올해 상당한 반등을 보였습니다."
+      },
+      {
+        "en": "Total investment reached $680 million, indicating renewed investor confidence.",
+        "ko": "총 투자액은 6억 8천만 달러에 달하며, 투자자들의 신뢰가 회복되었음을 나타냅니다."
+      },
+      {
+        "en": "Investors are now primarily focusing on more mature and established companies.",
+        "ko": "투자자들은 이제 주로 더 성숙하고 확고한 회사들에 집중하고 있습니다."
+      },
+      {
+        "en": "This shift suggests a preference for stability and proven business models.",
+        "ko": "이러한 변화는 안정성과 검증된 사업 모델에 대한 선호를 시사합니다."
+      },
+      {
+        "en": "Blockchain investment is largely concentrated in crypto financial services.",
+        "ko": "블록체인 투자는 주로 암호화폐 금융 서비스에 집중되어 있습니다."
+      },
+      {
+        "en": "Singapore remains the dominant hub for this capital, attracting most of the funds.",
+        "ko": "싱가포르는 이러한 자본의 지배적인 허브로 남아 있으며, 대부분의 자금을 유치합니다."
+      },
+      {
+        "en": "A handful of companies are receiving the majority of the investment.",
+        "ko": "소수의 회사들이 투자의 대부분을 받고 있습니다."
+      },
+      {
+        "en": "This trend might suggest a consolidation within the regional crypto market.",
+        "ko": "이러한 추세는 지역 암호화폐 시장 내 통합을 시사할 수 있습니다."
+      },
+      {
+        "en": "Fintech product managers should observe these dynamics closely.",
+        "ko": "핀테크 제품 관리자들은 이러한 역학 관계를 면밀히 관찰해야 합니다."
+      },
+      {
+        "en": "Understanding investment patterns is crucial for strategic planning and market entry.",
+        "ko": "투자 패턴을 이해하는 것은 전략 계획 및 시장 진입에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "funding": {
+        "meaning": "money provided, especially by an organization or government, for a particular purpose.",
+        "pos": "noun"
+      },
+      "rebound": {
+        "meaning": "to recover in value, amount, or strength after a decrease or decline.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important, large, or noticeable in amount or effect.",
+        "pos": "adjective"
+      },
+      "indicating": {
+        "meaning": "pointing out or showing something, suggesting a particular fact.",
+        "pos": "verb"
+      },
+      "renewed": {
+        "meaning": "resumed or re-established after a pause or interruption.",
+        "pos": "adjective"
+      },
+      "confidence": {
+        "meaning": "the feeling or belief that one can rely on someone or something.",
+        "pos": "noun"
+      },
+      "primarily": {
+        "meaning": "for the most part; mainly or chiefly.",
+        "pos": "adverb"
+      },
+      "focusing": {
+        "meaning": "directing attention or effort towards something specific.",
+        "pos": "verb"
+      },
+      "mature": {
+        "meaning": "fully developed or grown, having reached an advanced stage.",
+        "pos": "adjective"
+      },
+      "established": {
+        "meaning": "having been in existence for a long time and recognized as stable.",
+        "pos": "adjective"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "preference": {
+        "meaning": "a greater liking for one alternative over another.",
+        "pos": "noun"
+      },
+      "proven": {
+        "meaning": "demonstrated or shown to be true or effective.",
+        "pos": "adjective"
+      },
+      "concentrated": {
+        "meaning": "gathered together in a particular place or area.",
+        "pos": "adjective"
+      },
+      "dominant": {
+        "meaning": "most important, powerful, or influential.",
+        "pos": "adjective"
+      },
+      "hub": {
+        "meaning": "the effective center of an activity, region, or network.",
+        "pos": "noun"
+      },
+      "attracting": {
+        "meaning": "drawing or pulling something towards itself.",
+        "pos": "verb"
+      },
+      "handful": {
+        "meaning": "a small number of people or things.",
+        "pos": "noun"
+      },
+      "consolidation": {
+        "meaning": "the action or process of combining several things into a single whole.",
+        "pos": "noun"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth or change within a system.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term aims and interests.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What was the total amount of crypto funding that Southeast Asia reportedly received this year?",
+      "Q2: What does the term \"dominant hub\" imply about Singapore's role in Southeast Asia's crypto investment landscape?",
+      "Q3: As a fintech PM, how might observing the shift towards \"mature and established companies\" in crypto funding influence your product development strategy?"
+    ],
+    "modelAnswers": [
+      "A1: Southeast Asia's crypto funding rebounded to $680 million this year, showing a significant increase in investment.",
+      "A2: \"Dominant hub\" implies that Singapore is the leading and most influential center for crypto investment in Southeast Asia, attracting the majority of the capital and playing a central role in the region's blockchain funding landscape.",
+      "A3: This shift would encourage me to focus on building robust, compliant, and sustainable products rather than experimental ones. It suggests investors prioritize proven business models and stability, so I would emphasize long-term value, regulatory adherence, and strong market fit in my product strategy."
+    ]
+  },
+  {
+    "id": "ec-2026-09-07-1",
+    "date": "2026-09-07",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "중국이 경기 둔화 우려 속에 금융 부문에 대규모 부양책을 준비하고 있다는 소식은 핀테크 업계에 중요한 시사점을 제공합니다.",
+    "url": "https://www.theguardian.com/world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth",
+    "title": "China Boosts Financial Sector Amid Slowdown Fears",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China is preparing a significant stimulus package for its financial sector. This move comes amid growing concerns about the nation's sluggish economic growth. Beijing plans to inject approximately £40 billion into banks and insurers. The goal is to encourage greater investment in the stock market. It also aims to help financial institutions replenish their cash reserves. This intervention highlights the government's efforts to stabilize the economy. Policymakers are keen to prevent a broader economic downturn. Such measures are crucial for maintaining financial stability. They also support confidence among investors and businesses. A healthy financial sector is vital for overall economic health. This package could influence global markets and trade. Fintech companies often rely on a stable financial environment. Their growth can be affected by such large-scale economic policies.",
+    "sentences": [
+      {
+        "en": "China is preparing a significant stimulus package for its financial sector.",
+        "ko": "중국이 금융 부문을 위한 대규모 부양책을 준비하고 있습니다."
+      },
+      {
+        "en": "This move comes amid growing concerns about the nation's sluggish economic growth.",
+        "ko": "이러한 움직임은 중국의 부진한 경제 성장에 대한 우려가 커지는 가운데 나왔습니다."
+      },
+      {
+        "en": "Beijing plans to inject approximately £40 billion into banks and insurers.",
+        "ko": "중국 정부는 은행과 보험사에 약 400억 파운드를 투입할 계획입니다."
+      },
+      {
+        "en": "The goal is to encourage greater investment in the stock market.",
+        "ko": "목표는 주식 시장에 대한 투자를 늘리는 것입니다."
+      },
+      {
+        "en": "It also aims to help financial institutions replenish their cash reserves.",
+        "ko": "또한 금융 기관들이 현금 보유고를 보충하는 것을 돕는 것도 목표입니다."
+      },
+      {
+        "en": "This intervention highlights the government's efforts to stabilize the economy.",
+        "ko": "이러한 개입은 경제를 안정화하려는 정부의 노력을 보여줍니다."
+      },
+      {
+        "en": "Policymakers are keen to prevent a broader economic downturn.",
+        "ko": "정책 입안자들은 더 광범위한 경기 침체를 막기 위해 노력하고 있습니다."
+      },
+      {
+        "en": "Such measures are crucial for maintaining financial stability.",
+        "ko": "이러한 조치들은 금융 안정성을 유지하는 데 매우 중요합니다."
+      },
+      {
+        "en": "They also support confidence among investors and businesses.",
+        "ko": "또한 투자자와 기업의 신뢰를 뒷받침합니다."
+      },
+      {
+        "en": "A healthy financial sector is vital for overall economic health.",
+        "ko": "건전한 금융 부문은 전반적인 경제 건전성에 필수적입니다."
+      },
+      {
+        "en": "This package could influence global markets and trade.",
+        "ko": "이 부양책은 글로벌 시장과 무역에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Fintech companies often rely on a stable financial environment.",
+        "ko": "핀테크 기업들은 종종 안정적인 금융 환경에 의존합니다."
+      },
+      {
+        "en": "Their growth can be affected by such large-scale economic policies.",
+        "ko": "이들의 성장은 이러한 대규모 경제 정책에 의해 영향을 받을 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "stimulus": {
+        "meaning": "an action taken by a government to encourage economic activity.",
+        "pos": "noun"
+      },
+      "financial": {
+        "meaning": "relating to money or the management of money.",
+        "pos": "adjective"
+      },
+      "sector": {
+        "meaning": "a part of an economy that includes a particular type of industry or business.",
+        "pos": "noun"
+      },
+      "amid": {
+        "meaning": "in the middle of or surrounded by.",
+        "pos": "preposition"
+      },
+      "sluggish": {
+        "meaning": "moving or working more slowly than usual and with less energy.",
+        "pos": "adjective"
+      },
+      "inject": {
+        "meaning": "to put money or resources into something to improve it.",
+        "pos": "verb"
+      },
+      "insurers": {
+        "meaning": "companies that provide insurance, which protects against financial loss.",
+        "pos": "noun"
+      },
+      "encourage": {
+        "meaning": "to give support, confidence, or hope to someone or something.",
+        "pos": "verb"
+      },
+      "investment": {
+        "meaning": "the act of putting money into something to make a profit.",
+        "pos": "noun"
+      },
+      "replenish": {
+        "meaning": "to fill something up again after it has been used.",
+        "pos": "verb"
+      },
+      "reserves": {
+        "meaning": "an amount of something kept for future use, especially money.",
+        "pos": "noun"
+      },
+      "intervention": {
+        "meaning": "the act of interfering in a situation to improve it or prevent it from getting worse.",
+        "pos": "noun"
+      },
+      "stabilize": {
+        "meaning": "to make something firm, steady, or unlikely to change.",
+        "pos": "verb"
+      },
+      "policymakers": {
+        "meaning": "people who make decisions and create plans, especially in government.",
+        "pos": "noun"
+      },
+      "broader": {
+        "meaning": "covering a large number of things or a wide area.",
+        "pos": "adjective"
+      },
+      "downturn": {
+        "meaning": "a period when a country's economy becomes weaker.",
+        "pos": "noun"
+      },
+      "maintaining": {
+        "meaning": "keeping something in good condition or at its current level.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary.",
+        "pos": "adjective"
+      },
+      "confidence": {
+        "meaning": "a feeling of belief in oneself or in something.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "overall": {
+        "meaning": "considering everything; in general.",
+        "pos": "adjective"
+      },
+      "influence": {
+        "meaning": "to affect or change how someone or something develops.",
+        "pos": "verb"
+      },
+      "rely": {
+        "meaning": "to depend on someone or something.",
+        "pos": "verb"
+      },
+      "affected": {
+        "meaning": "influenced or changed by something.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What is the main purpose of China's stimulus package for its financial sector, according to the passage?",
+      "Q2: Explain what \"sluggish economic growth\" means in the context of this story and why it prompts government intervention.",
+      "Q3: How might a large-scale government stimulus in a major economy like China impact global fintech markets, and what opportunities or challenges could arise for fintech companies?"
+    ],
+    "modelAnswers": [
+      "A1: The main purpose is to encourage investment in the stock market and help financial institutions, like banks and insurers, replenish their cash reserves.",
+      "A2: \"Sluggish economic growth\" refers to a period when the economy is growing more slowly than expected or desired. This prompts government intervention to stabilize the economy and prevent a deeper downturn.",
+      "A3: A Chinese stimulus could boost investor confidence and demand, creating opportunities for fintechs focused on investment or digital banking. However, increased government control or market volatility might also present challenges."
+    ]
+  },
+  {
+    "id": "ec-2026-09-07-2",
+    "date": "2026-09-07",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "강력한 고용 지표와 금리 인상 기대 속에서 트럼프 전 대통령이 금리 인하를 촉구했다는 소식은 중앙은행 정책과 시장 기대의 복잡한 관계를 보여줍니다.",
+    "url": "https://www.bbc.co.uk/news/articles/cy0zx2pkpx9o",
+    "title": "Trump Urges Rate Cut Amid Hike Bets",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Former President Trump recently called for a reduction in interest rates. His comments followed the release of stronger-than-expected jobs figures. These figures typically suggest a robust economy. A strong job market often leads to expectations of interest rate hikes. Central banks raise rates to control inflation. They also slow down an overheating economy. Trump's call, however, contradicts this conventional economic thinking. He advocates for lower borrowing costs to stimulate growth. This situation highlights the tension between political desires and economic realities. Monetary policy decisions are usually made independently. This independence helps ensure long-term stability. Market participants closely watch such political statements. They can influence market sentiment and expectations.",
+    "sentences": [
+      {
+        "en": "Former President Trump recently called for a reduction in interest rates.",
+        "ko": "트럼프 전 대통령이 최근 금리 인하를 촉구했습니다."
+      },
+      {
+        "en": "His comments followed the release of stronger-than-expected jobs figures.",
+        "ko": "그의 발언은 예상보다 강력한 고용 지표 발표 후에 나왔습니다."
+      },
+      {
+        "en": "These figures typically suggest a robust economy.",
+        "ko": "이러한 지표는 일반적으로 견고한 경제를 시사합니다."
+      },
+      {
+        "en": "A strong job market often leads to expectations of interest rate hikes.",
+        "ko": "강력한 고용 시장은 종종 금리 인상 기대로 이어집니다."
+      },
+      {
+        "en": "Central banks raise rates to control inflation.",
+        "ko": "중앙은행은 인플레이션을 통제하기 위해 금리를 인상합니다."
+      },
+      {
+        "en": "They also slow down an overheating economy.",
+        "ko": "또한 과열된 경제를 늦추기도 합니다."
+      },
+      {
+        "en": "Trump's call, however, contradicts this conventional economic thinking.",
+        "ko": "하지만 트럼프의 요구는 이러한 전통적인 경제적 사고와 모순됩니다."
+      },
+      {
+        "en": "He advocates for lower borrowing costs to stimulate growth.",
+        "ko": "그는 성장을 촉진하기 위해 낮은 대출 비용을 옹호합니다."
+      },
+      {
+        "en": "This situation highlights the tension between political desires and economic realities.",
+        "ko": "이러한 상황은 정치적 욕구와 경제적 현실 간의 긴장을 보여줍니다."
+      },
+      {
+        "en": "Monetary policy decisions are usually made independently.",
+        "ko": "통화 정책 결정은 일반적으로 독립적으로 이루어집니다."
+      },
+      {
+        "en": "This independence helps ensure long-term stability.",
+        "ko": "이러한 독립성은 장기적인 안정성을 보장하는 데 도움이 됩니다."
+      },
+      {
+        "en": "Market participants closely watch such political statements.",
+        "ko": "시장 참여자들은 그러한 정치적 발언을 면밀히 주시합니다."
+      },
+      {
+        "en": "They can influence market sentiment and expectations.",
+        "ko": "이는 시장 심리와 기대에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "reduction": {
+        "meaning": "the act of making something smaller in amount or size.",
+        "pos": "noun"
+      },
+      "interest": {
+        "meaning": "the money charged by a bank for borrowing money.",
+        "pos": "noun"
+      },
+      "rates": {
+        "meaning": "the amount of money charged or paid for a service, often a percentage.",
+        "pos": "noun"
+      },
+      "figures": {
+        "meaning": "numbers representing amounts, especially in official reports.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy.",
+        "pos": "adjective"
+      },
+      "typically": {
+        "meaning": "in most cases; usually.",
+        "pos": "adverb"
+      },
+      "suggest": {
+        "meaning": "to indicate or show something indirectly.",
+        "pos": "verb"
+      },
+      "hikes": {
+        "meaning": "increases, especially in prices, taxes, or interest rates.",
+        "pos": "noun"
+      },
+      "control": {
+        "meaning": "to limit or manage something.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "overheating": {
+        "meaning": "describing an economy growing too quickly, potentially leading to high inflation.",
+        "pos": "adjective"
+      },
+      "contradicts": {
+        "meaning": "to be in opposition to something.",
+        "pos": "verb"
+      },
+      "conventional": {
+        "meaning": "based on or in accordance with what is generally accepted.",
+        "pos": "adjective"
+      },
+      "advocates": {
+        "meaning": "publicly recommends or supports a particular policy or way of doing things.",
+        "pos": "verb"
+      },
+      "stimulate": {
+        "meaning": "to encourage something to grow or develop.",
+        "pos": "verb"
+      },
+      "tension": {
+        "meaning": "a state of mental or emotional strain, or a strained relationship.",
+        "pos": "noun"
+      },
+      "realities": {
+        "meaning": "the state of things as they actually exist, as opposed to an idealistic or notional idea.",
+        "pos": "noun"
+      },
+      "monetary": {
+        "meaning": "relating to money or currency.",
+        "pos": "adjective"
+      },
+      "independently": {
+        "meaning": "without being controlled by others.",
+        "pos": "adverb"
+      },
+      "stability": {
+        "meaning": "the state of being stable and not changing or being disturbed.",
+        "pos": "noun"
+      },
+      "participants": {
+        "meaning": "people who take part in an activity or event.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion.",
+        "pos": "noun"
+      },
+      "expectations": {
+        "meaning": "beliefs about what will happen or what should be the case.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "to affect or change how someone or something develops.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What economic data prompted increased expectations for interest rate hikes, according to the passage?",
+      "Q2: How does a strong job market typically relate to interest rate policy, and why might a central bank raise rates in such a scenario?",
+      "Q3: Do you think political figures should publicly comment on central bank monetary policy decisions? Discuss the potential benefits and drawbacks."
+    ],
+    "modelAnswers": [
+      "A1: Stronger-than-expected jobs figures were released, which typically suggest a robust economy and can lead to expectations of interest rate hikes.",
+      "A2: A strong job market usually signals a robust economy. Central banks might raise rates to prevent the economy from overheating and to control inflation.",
+      "A3: Public comments from political figures can undermine central bank independence and create market uncertainty. However, some argue it reflects democratic accountability and public interest."
+    ]
+  },
+  {
+    "id": "ec-2026-09-07-3",
+    "date": "2026-09-07",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국 국채 수익률 곡선 양쪽 끝에서의 변동성 증가에 대한 채권 트레이더들의 대비 소식은 핀테크 전문가들에게 시장 역학을 이해하는 데 필수적인 정보를 제공합니다.",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYV91ai1qYzdFdG0za0d5OHEyMGd1NzVfUzFRQjdVSVotTDlQNVFsa1dsbFY5ZlJDRmRQS2pBMktxanhlRjZ0Tk96czR3M1R3aUFHX3Q1MnJ1MDNZblpybDFkLXhFNUx0T2xtLXN6WXJ2elpBeTVRWmZwbUVMNGgtVmFOTVNtOF92dHZwY2xfOE84SW56cTlYdTZKcjZoWjNKQ0JvVWVxTGg3ZUpKNVJzMVNGV1dqRnM",
+    "title": "Bond Traders Brace for Yield Curve Swings",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Bond traders are preparing for increased volatility in the US yield curve. This means they expect significant price movements for government bonds. The yield curve illustrates the relationship between bond yields and their maturity. Swings at both ends imply uncertainty across different time horizons. Short-term yields are often influenced by central bank policy. Long-term yields reflect inflation expectations and economic growth outlook. Traders are adjusting their strategies to navigate these anticipated changes. This market activity is crucial for financial institutions. It affects borrowing costs for companies and consumers. Fintech platforms also need to monitor bond market dynamics closely. Their lending models and investment products are sensitive to yield changes. Understanding these movements helps manage risk and identify opportunities.",
+    "sentences": [
+      {
+        "en": "Bond traders are preparing for increased volatility in the US yield curve.",
+        "ko": "채권 트레이더들이 미국 국채 수익률 곡선의 변동성 증가에 대비하고 있습니다."
+      },
+      {
+        "en": "This means they expect significant price movements for government bonds.",
+        "ko": "이는 정부 채권의 상당한 가격 변동을 예상한다는 의미입니다."
+      },
+      {
+        "en": "The yield curve illustrates the relationship between bond yields and their maturity.",
+        "ko": "수익률 곡선은 채권 수익률과 만기 사이의 관계를 보여줍니다."
+      },
+      {
+        "en": "Swings at both ends imply uncertainty across different time horizons.",
+        "ko": "양쪽 끝에서의 변동은 다양한 시간 지평에 걸쳐 불확실성을 시사합니다."
+      },
+      {
+        "en": "Short-term yields are often influenced by central bank policy.",
+        "ko": "단기 수익률은 종종 중앙은행 정책의 영향을 받습니다."
+      },
+      {
+        "en": "Long-term yields reflect inflation expectations and economic growth outlook.",
+        "ko": "장기 수익률은 인플레이션 기대치와 경제 성장 전망을 반영합니다."
+      },
+      {
+        "en": "Traders are adjusting their strategies to navigate these anticipated changes.",
+        "ko": "트레이더들은 이러한 예상되는 변화에 대처하기 위해 전략을 조정하고 있습니다."
+      },
+      {
+        "en": "This market activity is crucial for financial institutions.",
+        "ko": "이러한 시장 활동은 금융 기관에 매우 중요합니다."
+      },
+      {
+        "en": "It affects borrowing costs for companies and consumers.",
+        "ko": "이는 기업과 소비자의 대출 비용에 영향을 미칩니다."
+      },
+      {
+        "en": "Fintech platforms also need to monitor bond market dynamics closely.",
+        "ko": "핀테크 플랫폼 또한 채권 시장 역학을 면밀히 주시해야 합니다."
+      },
+      {
+        "en": "Their lending models and investment products are sensitive to yield changes.",
+        "ko": "이들의 대출 모델과 투자 상품은 수익률 변화에 민감합니다."
+      },
+      {
+        "en": "Understanding these movements helps manage risk and identify opportunities.",
+        "ko": "이러한 움직임을 이해하는 것은 위험을 관리하고 기회를 식별하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "traders": {
+        "meaning": "people who buy and sell goods or assets.",
+        "pos": "noun"
+      },
+      "brace": {
+        "meaning": "to prepare oneself for something difficult or unpleasant.",
+        "pos": "verb"
+      },
+      "volatility": {
+        "meaning": "the quality of being likely to change suddenly and unexpectedly.",
+        "pos": "noun"
+      },
+      "yield": {
+        "meaning": "the income return on an investment, typically expressed as an annual percentage.",
+        "pos": "noun"
+      },
+      "curve": {
+        "meaning": "a line on a graph representing the relationship between two variables.",
+        "pos": "noun"
+      },
+      "illustrates": {
+        "meaning": "to explain or make clear by using examples, charts, or pictures.",
+        "pos": "verb"
+      },
+      "maturity": {
+        "meaning": "the date when an investment or insurance policy becomes payable.",
+        "pos": "noun"
+      },
+      "swings": {
+        "meaning": "sudden or significant changes in a particular direction.",
+        "pos": "noun"
+      },
+      "imply": {
+        "meaning": "to suggest something without saying it directly.",
+        "pos": "verb"
+      },
+      "uncertainty": {
+        "meaning": "the state of being unsure or not known.",
+        "pos": "noun"
+      },
+      "horizons": {
+        "meaning": "the limit of a person's knowledge, experience, or interest, often used in terms of time.",
+        "pos": "noun"
+      },
+      "influenced": {
+        "meaning": "affected or changed by something.",
+        "pos": "adjective"
+      },
+      "reflect": {
+        "meaning": "to show or express something.",
+        "pos": "verb"
+      },
+      "expectations": {
+        "meaning": "beliefs about what will happen or should be the case.",
+        "pos": "noun"
+      },
+      "outlook": {
+        "meaning": "a person's general attitude to life and the world, or a forecast of the future.",
+        "pos": "noun"
+      },
+      "adjusting": {
+        "meaning": "changing something slightly to make it more suitable.",
+        "pos": "verb"
+      },
+      "strategies": {
+        "meaning": "plans of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "navigate": {
+        "meaning": "to find the way through a difficult or complex situation.",
+        "pos": "verb"
+      },
+      "anticipated": {
+        "meaning": "expected or looked forward to.",
+        "pos": "adjective"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary.",
+        "pos": "adjective"
+      },
+      "institutions": {
+        "meaning": "large organizations such as banks, hospitals, or universities.",
+        "pos": "noun"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, development, or change within a system.",
+        "pos": "noun"
+      },
+      "lending": {
+        "meaning": "related to the act of giving money to someone with the agreement that it will be paid back.",
+        "pos": "adjective"
+      },
+      "sensitive": {
+        "meaning": "easily affected, influenced, or damaged by something.",
+        "pos": "adjective"
+      },
+      "identify": {
+        "meaning": "to recognize or distinguish something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What does the yield curve illustrate, according to the passage?",
+      "Q2: Explain the difference in what short-term and long-term yields typically reflect, as mentioned in the article.",
+      "Q3: How might increased volatility in the bond market affect a fintech company specializing in lending or investment products?"
+    ],
+    "modelAnswers": [
+      "A1: The yield curve illustrates the relationship between bond yields and their maturity.",
+      "A2: Short-term yields are often influenced by central bank policy, while long-term yields reflect broader inflation expectations and the economic growth outlook.",
+      "A3: Increased volatility could make it harder for fintechs to price their lending products accurately or predict returns on investment products, potentially increasing risk or reducing profitability."
+    ]
+  },
+  {
     "id": "cd-2026-09-06-1",
     "date": "2026-09-06",
     "rank": 1,
