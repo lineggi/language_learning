@@ -1,5 +1,993 @@
 [
   {
+    "id": "cd-2026-09-08-1",
+    "date": "2026-09-08",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 지갑이 전통 은행 계좌를 대체할 수 있을까요?",
+    "url": "https://www.coindesk.com/business/2026/09/07/stablecoin-wallets-challenge-traditional-bank-accounts-as-main-consumer-money-hub",
+    "title": "Stablecoin Wallets Emerge as Future Money Hubs",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Stablecoin wallets are gaining traction as central hubs for consumer money. This development challenges the long-standing dominance of traditional bank accounts. Industry leaders are now debating this significant shift. Some believe digital dollar wallets will completely dismantle old banking models. Others suggest they will instead modernize the underlying financial infrastructure. For a fintech Product Manager, understanding this trend is crucial. Stablecoins offer faster, cheaper, and more accessible transactions globally. This potential for disruption could reshape how people manage their finances. Observing this evolution will inform future product development strategies. The debate highlights a pivotal moment in the financial industry's transformation.",
+    "sentences": [
+      {
+        "en": "Stablecoin wallets are gaining traction as central hubs for consumer money.",
+        "ko": "스테이블코인 지갑이 소비자 자금의 핵심 허브로 인기를 얻고 있습니다."
+      },
+      {
+        "en": "This development challenges the long-standing dominance of traditional bank accounts.",
+        "ko": "이러한 발전은 전통 은행 계좌의 오랜 지배력에 도전합니다."
+      },
+      {
+        "en": "Industry leaders are now debating this significant shift.",
+        "ko": "업계 리더들은 현재 이 중요한 변화에 대해 논의하고 있습니다."
+      },
+      {
+        "en": "Some believe digital dollar wallets will completely dismantle old banking models.",
+        "ko": "일부는 디지털 달러 지갑이 기존 은행 모델을 완전히 해체할 것이라고 믿습니다."
+      },
+      {
+        "en": "Others suggest they will instead modernize the underlying financial infrastructure.",
+        "ko": "다른 이들은 대신 기본 금융 인프라를 현대화할 것이라고 제안합니다."
+      },
+      {
+        "en": "For a fintech Product Manager, understanding this trend is crucial.",
+        "ko": "핀테크 제품 관리자에게 이 추세를 이해하는 것은 매우 중요합니다."
+      },
+      {
+        "en": "Stablecoins offer faster, cheaper, and more accessible transactions globally.",
+        "ko": "스테이블코인은 전 세계적으로 더 빠르고 저렴하며 접근하기 쉬운 거래를 제공합니다."
+      },
+      {
+        "en": "This potential for disruption could reshape how people manage their finances.",
+        "ko": "이러한 파괴적 잠재력은 사람들이 재정을 관리하는 방식을 재편할 수 있습니다."
+      },
+      {
+        "en": "Observing this evolution will inform future product development strategies.",
+        "ko": "이러한 진화를 관찰하는 것은 미래 제품 개발 전략에 영향을 미칠 것입니다."
+      },
+      {
+        "en": "The debate highlights a pivotal moment in the financial industry's transformation.",
+        "ko": "이 논쟁은 금융 산업 변혁의 중요한 순간을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "traction": {
+        "meaning": "the quality of being popular or accepted, causing progress or development.",
+        "pos": "noun"
+      },
+      "hubs": {
+        "meaning": "central points where activity or information is concentrated.",
+        "pos": "noun"
+      },
+      "dominance": {
+        "meaning": "the state of being more powerful, successful, or important than others.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "following or belonging to customs or beliefs that have existed for a long time.",
+        "pos": "adjective"
+      },
+      "debating": {
+        "meaning": "discussing a subject in a formal way, often with different opinions.",
+        "pos": "verb"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "dismantle": {
+        "meaning": "to take apart a machine or structure, or to gradually get rid of a system.",
+        "pos": "verb"
+      },
+      "models": {
+        "meaning": "specific designs or forms of a system or structure.",
+        "pos": "noun"
+      },
+      "underlying": {
+        "meaning": "existing beneath or as the basis of something; fundamental.",
+        "pos": "adjective"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for operation.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary for success or development.",
+        "pos": "adjective"
+      },
+      "accessible": {
+        "meaning": "able to be reached or entered; easy to use or obtain.",
+        "pos": "adjective"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "disruption": {
+        "meaning": "a disturbance or problem that interrupts an event, activity, or process.",
+        "pos": "noun"
+      },
+      "reshape": {
+        "meaning": "to change the shape or structure of something.",
+        "pos": "verb"
+      },
+      "manage": {
+        "meaning": "to be in charge of or to organize something.",
+        "pos": "verb"
+      },
+      "finances": {
+        "meaning": "the money that a person, company, or country has, and how it is managed.",
+        "pos": "noun"
+      },
+      "observing": {
+        "meaning": "noticing or watching something carefully.",
+        "pos": "verb"
+      },
+      "evolution": {
+        "meaning": "a process of gradual change and development.",
+        "pos": "noun"
+      },
+      "inform": {
+        "meaning": "to give facts or information; to influence or inspire.",
+        "pos": "verb"
+      },
+      "strategies": {
+        "meaning": "plans of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "pivotal": {
+        "meaning": "of crucial importance in relation to the development or success of something else.",
+        "pos": "adjective"
+      },
+      "transformation": {
+        "meaning": "a dramatic change in form or appearance.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the article, what are stablecoin wallets potentially challenging in the financial sector?",
+      "What does the article mean by \"dismantle old banking models\" and \"modernize the underlying financial infrastructure\"?",
+      "How do you think increased adoption of stablecoin wallets could impact traditional banks and their services in the next five to ten years?"
+    ],
+    "modelAnswers": [
+      "The article states that stablecoin wallets are potentially challenging the long-standing dominance of traditional bank accounts as central hubs for consumer money.",
+      "\"Dismantle old banking models\" refers to completely replacing existing banking systems. \"Modernize the underlying financial infrastructure\" suggests updating and improving current systems rather than eliminating them entirely.",
+      "Increased adoption of stablecoin wallets could force traditional banks to innovate rapidly, offering more competitive digital services or integrating stablecoin capabilities. Banks might also face reduced demand for basic deposit accounts as consumers opt for faster, cheaper stablecoin transactions."
+    ]
+  },
+  {
+    "id": "cd-2026-09-08-2",
+    "date": "2026-09-08",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "토큰화된 예금으로 24시간 실시간 결제가 가능해졌습니다!",
+    "url": "https://www.coindesk.com/business/2026/09/07/dbs-and-citi-enable-instant-24-7-cross-border-tokenised-deposit-payments-on-the-swift-ledger",
+    "title": "Tokenized Deposits Enable 24/7 Cross-Border Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "DBS and Citi banks have successfully completed a cross-border payment. They used Swift's Digital Ledger and tokenized deposits for this transaction. This marks a significant step towards instant, 24/7 global payments. Tokenized deposits represent a digital form of bank liabilities on a blockchain. The transaction occurred over a weekend, proving the system's continuous operation. Swift is actively demonstrating its ability to compete with new digital payment rails. These digital rails offer services that operate without closing hours. For a fintech PM, this highlights the growing trend of tokenization in traditional finance. It shows how blockchain technology can enhance existing financial systems. This innovation could lead to more efficient and accessible global financial services.",
+    "sentences": [
+      {
+        "en": "DBS and Citi banks have successfully completed a cross-border payment.",
+        "ko": "DBS와 씨티은행이 국경 간 결제를 성공적으로 완료했습니다."
+      },
+      {
+        "en": "They used Swift's Digital Ledger and tokenized deposits for this transaction.",
+        "ko": "이 거래를 위해 스위프트의 디지털 원장과 토큰화된 예금을 사용했습니다."
+      },
+      {
+        "en": "This marks a significant step towards instant, 24/7 global payments.",
+        "ko": "이는 즉각적인 24시간 연중무휴 글로벌 결제를 향한 중요한 단계입니다."
+      },
+      {
+        "en": "Tokenized deposits represent a digital form of bank liabilities on a blockchain.",
+        "ko": "토큰화된 예금은 블록체인 상의 은행 부채를 디지털 형태로 나타냅니다."
+      },
+      {
+        "en": "The transaction occurred over a weekend, proving the system's continuous operation.",
+        "ko": "이 거래는 주말에 이루어져 시스템의 지속적인 운영을 입증했습니다."
+      },
+      {
+        "en": "Swift is actively demonstrating its ability to compete with new digital payment rails.",
+        "ko": "스위프트는 새로운 디지털 결제 레일과 경쟁할 수 있는 능력을 적극적으로 보여주고 있습니다."
+      },
+      {
+        "en": "These digital rails offer services that operate without closing hours.",
+        "ko": "이 디지털 레일은 마감 시간 없이 운영되는 서비스를 제공합니다."
+      },
+      {
+        "en": "For a fintech PM, this highlights the growing trend of tokenization in traditional finance.",
+        "ko": "핀테크 PM에게 이는 전통 금융에서 토큰화의 증가하는 추세를 강조합니다."
+      },
+      {
+        "en": "It shows how blockchain technology can enhance existing financial systems.",
+        "ko": "이는 블록체인 기술이 기존 금융 시스템을 어떻게 향상시킬 수 있는지 보여줍니다."
+      },
+      {
+        "en": "This innovation could lead to more efficient and accessible global financial services.",
+        "ko": "이 혁신은 더 효율적이고 접근하기 쉬운 글로벌 금융 서비스로 이어질 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "completed": {
+        "meaning": "to finish doing or making something.",
+        "pos": "verb"
+      },
+      "cross-border": {
+        "meaning": "involving movement or activity between two or more countries.",
+        "pos": "adjective"
+      },
+      "transaction": {
+        "meaning": "an instance of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "ledger": {
+        "meaning": "a book or electronic file in which financial records are kept.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing ownership or value.",
+        "pos": "adjective"
+      },
+      "deposits": {
+        "meaning": "sums of money placed in a bank account.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "instant": {
+        "meaning": "happening or done immediately.",
+        "pos": "adjective"
+      },
+      "global": {
+        "meaning": "relating to the whole world; worldwide.",
+        "pos": "adjective"
+      },
+      "represent": {
+        "meaning": "to stand for or symbolize something.",
+        "pos": "verb"
+      },
+      "liabilities": {
+        "meaning": "things for which someone is responsible, especially a debt or financial obligation.",
+        "pos": "noun"
+      },
+      "blockchain": {
+        "meaning": "a decentralized, distributed ledger technology that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "occurred": {
+        "meaning": "to happen or take place.",
+        "pos": "verb"
+      },
+      "continuous": {
+        "meaning": "without interruption or end.",
+        "pos": "adjective"
+      },
+      "operation": {
+        "meaning": "the state of being active or functioning.",
+        "pos": "noun"
+      },
+      "demonstrating": {
+        "meaning": "clearly showing the existence or truth of something by giving proof or evidence.",
+        "pos": "verb"
+      },
+      "compete": {
+        "meaning": "to strive to gain or win something by defeating or establishing superiority over others.",
+        "pos": "verb"
+      },
+      "rails": {
+        "meaning": "a system or network for moving something, often used for payment systems.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "to improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "existing": {
+        "meaning": "currently present or in use.",
+        "pos": "adjective"
+      },
+      "systems": {
+        "meaning": "sets of connected things or parts forming a complex whole.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "a new method, idea, product, etc.",
+        "pos": "noun"
+      },
+      "efficient": {
+        "meaning": "achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "adjective"
+      },
+      "accessible": {
+        "meaning": "able to be reached or entered; easy to use or obtain.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What two key technologies did DBS and Citi use to complete their cross-border payment?",
+      "What is meant by \"tokenized deposits\" in the context of this transaction?",
+      "How might the success of this initiative influence the future role of traditional financial institutions like Swift in the digital asset space?"
+    ],
+    "modelAnswers": [
+      "DBS and Citi used Swift's Digital Ledger and tokenized deposits to successfully complete their cross-border payment.",
+      "In this context, \"tokenized deposits\" refer to a digital representation of bank liabilities on a blockchain, allowing them to be transferred and settled efficiently.",
+      "This initiative could position traditional financial institutions like Swift as key players in bridging conventional and digital finance. It might encourage them to accelerate their adoption of blockchain technology to remain competitive in the evolving global payments landscape."
+    ]
+  },
+  {
+    "id": "cd-2026-09-08-3",
+    "date": "2026-09-08",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "대규모 암호화폐 사기 사건과 규제 당국의 움직임을 주목하세요!",
+    "url": "https://www.coindesk.com/policy/2026/09/07/polish-prosecutors-charge-fifth-suspect-in-a-massive-crypto-probe",
+    "title": "Polish Prosecutors Charge Fifth Suspect in Crypto Probe",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Polish prosecutors have charged a fifth suspect in a major crypto investigation. This probe relates to BitBay, an exchange that later became Zondacrypto. The exchange ceased trading in April, leaving customers with frozen withdrawals. Estimated losses from this incident are at least $94 million. This case highlights the critical importance of robust regulatory oversight. It also underscores the inherent risks associated with unregulated crypto platforms. For a crypto PM, understanding such incidents is vital for risk management. It informs strategies for ensuring user trust and platform security. Regulatory actions aim to protect investors and maintain market integrity. This ongoing investigation serves as a stark reminder for the industry.",
+    "sentences": [
+      {
+        "en": "Polish prosecutors have charged a fifth suspect in a major crypto investigation.",
+        "ko": "폴란드 검찰이 대규모 암호화폐 수사에서 다섯 번째 용의자를 기소했습니다."
+      },
+      {
+        "en": "This probe relates to BitBay, an exchange that later became Zondacrypto.",
+        "ko": "이 수사는 나중에 존다크립토가 된 거래소 비트베이와 관련이 있습니다."
+      },
+      {
+        "en": "The exchange ceased trading in April, leaving customers with frozen withdrawals.",
+        "ko": "이 거래소는 4월에 거래를 중단했고, 고객들은 인출이 동결되는 상황에 처했습니다."
+      },
+      {
+        "en": "Estimated losses from this incident are at least $94 million.",
+        "ko": "이 사건으로 인한 추정 손실액은 최소 9,400만 달러입니다."
+      },
+      {
+        "en": "This case highlights the critical importance of robust regulatory oversight.",
+        "ko": "이 사례는 강력한 규제 감독의 중요성을 강조합니다."
+      },
+      {
+        "en": "It also underscores the inherent risks associated with unregulated crypto platforms.",
+        "ko": "또한 규제되지 않은 암호화폐 플랫폼과 관련된 내재된 위험을 강조합니다."
+      },
+      {
+        "en": "For a crypto PM, understanding such incidents is vital for risk management.",
+        "ko": "암호화폐 PM에게 이러한 사건을 이해하는 것은 위험 관리상 필수적입니다."
+      },
+      {
+        "en": "It informs strategies for ensuring user trust and platform security.",
+        "ko": "이는 사용자 신뢰와 플랫폼 보안을 보장하기 위한 전략에 정보를 제공합니다."
+      },
+      {
+        "en": "Regulatory actions aim to protect investors and maintain market integrity.",
+        "ko": "규제 조치는 투자자를 보호하고 시장의 무결성을 유지하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This ongoing investigation serves as a stark reminder for the industry.",
+        "ko": "이 진행 중인 수사는 업계에 대한 분명한 경고 역할을 합니다."
+      }
+    ],
+    "glossary": {
+      "prosecutors": {
+        "meaning": "legal officials who conduct criminal proceedings against someone.",
+        "pos": "noun"
+      },
+      "charged": {
+        "meaning": "formally accused someone of an offense.",
+        "pos": "verb"
+      },
+      "suspect": {
+        "meaning": "a person thought to be guilty of a crime or offense.",
+        "pos": "noun"
+      },
+      "probe": {
+        "meaning": "an investigation into a crime or other matter.",
+        "pos": "noun"
+      },
+      "relates": {
+        "meaning": "to have a connection with something.",
+        "pos": "verb"
+      },
+      "exchange": {
+        "meaning": "a marketplace where financial assets like cryptocurrencies are traded.",
+        "pos": "noun"
+      },
+      "ceased": {
+        "meaning": "to stop something; to come to an end.",
+        "pos": "verb"
+      },
+      "trading": {
+        "meaning": "the activity of buying and selling goods or services.",
+        "pos": "noun"
+      },
+      "frozen": {
+        "meaning": "held at a fixed level or unable to be moved.",
+        "pos": "adjective"
+      },
+      "withdrawals": {
+        "meaning": "acts of taking money out of an account.",
+        "pos": "noun"
+      },
+      "estimated": {
+        "meaning": "calculated approximately.",
+        "pos": "adjective"
+      },
+      "losses": {
+        "meaning": "financial disadvantages suffered.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "to draw special attention to something.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "extremely important or crucial.",
+        "pos": "adjective"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "regulatory": {
+        "meaning": "relating to a rule or order prescribed by authority.",
+        "pos": "adjective"
+      },
+      "oversight": {
+        "meaning": "the action of overseeing something; supervision.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "to emphasize the importance of something.",
+        "pos": "verb"
+      },
+      "inherent": {
+        "meaning": "existing in something as a permanent, essential, or characteristic attribute.",
+        "pos": "adjective"
+      },
+      "unregulated": {
+        "meaning": "not subject to regulation or control by authority.",
+        "pos": "adjective"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important.",
+        "pos": "adjective"
+      },
+      "integrity": {
+        "meaning": "the quality of being honest and having strong moral principles; the state of being whole and undivided.",
+        "pos": "noun"
+      },
+      "ongoing": {
+        "meaning": "continuing; still in progress.",
+        "pos": "adjective"
+      },
+      "stark": {
+        "meaning": "severe or bare in appearance or outline; sharply clear.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What happened to the crypto exchange BitBay, which is central to the Polish investigation?",
+      "What does the article mean by \"robust regulatory oversight\" and \"inherent risks associated with unregulated crypto platforms\"?",
+      "As a crypto PM, what lessons can be learned from this incident regarding platform security and user trust?"
+    ],
+    "modelAnswers": [
+      "BitBay, later known as Zondacrypto, ceased trading in April, leading to customers having their withdrawals frozen and incurring estimated losses of at least $94 million.",
+      "\"Robust regulatory oversight\" refers to strong and comprehensive supervision by authorities to ensure compliance and protect users. \"Inherent risks associated with unregulated crypto platforms\" means dangers that are naturally part of platforms not governed by official rules, such as fraud or insolvency.",
+      "This incident underscores the critical need for transparent operations, strong internal controls, and proactive engagement with regulators to build and maintain user trust. For PMs, it means prioritizing security measures and clear communication about risks to prevent similar failures and protect the platform's reputation."
+    ]
+  },
+  {
+    "id": "ec-2026-09-08-1",
+    "date": "2026-09-08",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "일본 중앙은행의 엔화 가치 방어를 위한 시장 개입이 외환 보유고에 어떤 영향을 미쳤는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/07/japan-foreign-reserves-yen-intervention.html",
+    "title": "Japan's Foreign Reserves Fall After Yen Intervention",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Japan's foreign reserves decreased significantly in August. They dropped by a record $80 billion. This decline followed the Bank of Japan's intervention. The central bank intervened to support the yen's value. The yen had been weakening against the US dollar. Intervention involves selling dollars and buying yen. This action uses a country's foreign currency holdings. Such interventions can stabilize a currency. However, they also reduce a nation's reserve assets. Japan maintains substantial reserves despite this drop. These reserves are still among the largest globally. The move reflects ongoing efforts to manage currency stability.",
+    "sentences": [
+      {
+        "en": "Japan's foreign reserves decreased significantly in August.",
+        "ko": "일본의 외환 보유고가 8월에 크게 감소했습니다."
+      },
+      {
+        "en": "They dropped by a record $80 billion.",
+        "ko": "이는 사상 최대인 800억 달러가 줄어든 수치입니다."
+      },
+      {
+        "en": "This decline followed the Bank of Japan's intervention.",
+        "ko": "이러한 감소는 일본 중앙은행의 시장 개입 이후에 발생했습니다."
+      },
+      {
+        "en": "The central bank intervened to support the yen's value.",
+        "ko": "중앙은행은 엔화 가치를 지지하기 위해 개입했습니다."
+      },
+      {
+        "en": "The yen had been weakening against the US dollar.",
+        "ko": "엔화는 미국 달러 대비 약세를 보였습니다."
+      },
+      {
+        "en": "Intervention involves selling dollars and buying yen.",
+        "ko": "개입은 달러를 팔고 엔화를 사는 것을 포함합니다."
+      },
+      {
+        "en": "This action uses a country's foreign currency holdings.",
+        "ko": "이러한 조치는 한 국가의 외환 보유액을 사용합니다."
+      },
+      {
+        "en": "Such interventions can stabilize a currency.",
+        "ko": "이러한 개입은 통화를 안정화할 수 있습니다."
+      },
+      {
+        "en": "However, they also reduce a nation's reserve assets.",
+        "ko": "하지만, 이는 또한 국가의 준비 자산을 감소시킵니다."
+      },
+      {
+        "en": "Japan maintains substantial reserves despite this drop.",
+        "ko": "일본은 이러한 감소에도 불구하고 상당한 보유고를 유지하고 있습니다."
+      },
+      {
+        "en": "These reserves are still among the largest globally.",
+        "ko": "이 보유고는 여전히 전 세계적으로 가장 큰 규모 중 하나입니다."
+      },
+      {
+        "en": "The move reflects ongoing efforts to manage currency stability.",
+        "ko": "이러한 움직임은 통화 안정성을 관리하기 위한 지속적인 노력을 반영합니다."
+      }
+    ],
+    "glossary": {
+      "reserves": {
+        "meaning": "A nation's stored foreign currency, gold, or other assets used to support its own currency.",
+        "pos": "noun"
+      },
+      "decreased": {
+        "meaning": "Became smaller in amount, size, or intensity.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "In a way that is large or important enough to be noticed.",
+        "pos": "adverb"
+      },
+      "decline": {
+        "meaning": "A continuous fall in the amount, number, or quality of something.",
+        "pos": "noun"
+      },
+      "intervention": {
+        "meaning": "An action taken by a central bank to influence the value of its currency.",
+        "pos": "noun"
+      },
+      "support": {
+        "meaning": "To help something remain at a particular level or prevent it from falling further.",
+        "pos": "verb"
+      },
+      "weakening": {
+        "meaning": "Becoming less strong, effective, or valuable.",
+        "pos": "verb"
+      },
+      "against": {
+        "meaning": "In comparison with or in opposition to something.",
+        "pos": "preposition"
+      },
+      "involves": {
+        "meaning": "Includes something as a necessary part or consequence.",
+        "pos": "verb"
+      },
+      "selling": {
+        "meaning": "Giving something to someone else in exchange for money.",
+        "pos": "verb"
+      },
+      "buying": {
+        "meaning": "Getting something by paying money for it.",
+        "pos": "verb"
+      },
+      "holdings": {
+        "meaning": "The assets, such as money, property, or shares, owned by a person or organization.",
+        "pos": "noun"
+      },
+      "stabilize": {
+        "meaning": "To make something firm or steady, or to keep it from changing.",
+        "pos": "verb"
+      },
+      "currency": {
+        "meaning": "The system of money that a country uses.",
+        "pos": "noun"
+      },
+      "however": {
+        "meaning": "Used to introduce a statement that contrasts with something previously said.",
+        "pos": "adverb"
+      },
+      "reduce": {
+        "meaning": "To make something smaller in size, amount, or number.",
+        "pos": "verb"
+      },
+      "nation's": {
+        "meaning": "Belonging to a country, indicating possession or relation.",
+        "pos": "determiner"
+      },
+      "assets": {
+        "meaning": "Things of value owned by a person or organization.",
+        "pos": "noun"
+      },
+      "maintains": {
+        "meaning": "To keep something in good condition or at an existing level.",
+        "pos": "verb"
+      },
+      "substantial": {
+        "meaning": "Of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "despite": {
+        "meaning": "Without being affected by something; in spite of.",
+        "pos": "preposition"
+      },
+      "globally": {
+        "meaning": "All over the world.",
+        "pos": "adverb"
+      },
+      "reflects": {
+        "meaning": "Shows or is a sign of something.",
+        "pos": "verb"
+      },
+      "ongoing": {
+        "meaning": "Continuing to exist or develop.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, by how much did Japan's foreign reserves drop in August, and what was the main reason for this decline?",
+      "Q2: What does it mean for a central bank to \"intervene to support the yen's value,\" and what specific actions does this typically involve?",
+      "Q3: Do you think currency interventions are an effective long-term strategy for managing a nation's currency stability, or are they mostly for short-term effects? Explain your view."
+    ],
+    "modelAnswers": [
+      "A1: Japan's foreign reserves dropped by a record $80 billion in August. This decline was mainly due to the Bank of Japan's intervention to support the yen's value.",
+      "A2: To \"intervene to support the yen's value\" means the central bank takes action to prevent the yen from weakening further. This typically involves selling foreign currency, like US dollars, and using that money to buy yen in the market.",
+      "A3: Currency interventions can be effective for short-term stability, especially during volatile periods. However, their long-term effectiveness is often debated, as fundamental economic factors usually drive currency values over time."
+    ]
+  },
+  {
+    "id": "ec-2026-09-08-2",
+    "date": "2026-09-08",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "중국 정부의 은행 및 보험사 자본 확충 노력에도 불구하고 왜 주가가 하락했는지 분석해 보세요.",
+    "url": "https://www.cnbc.com/2026/09/07/china-state-banks-lenders-insurers-capital-solvency-bankrupt-nim-.html",
+    "title": "China Boosts Banks, Yet Stocks Decline",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China announced a $54 billion capital injection. This funding will go to state-owned banks and insurers. The goal is to strengthen their capital cushions. It aims to improve their financial solvency. However, despite this significant government support. Shares of these financial institutions still fell. Analysts suggest deeper issues might be at play. Concerns about economic growth persist in China. They also worry about the property market downturn. This market reaction shows investor skepticism. Investors may doubt the long-term effectiveness of the funds. Policymakers hope capital will encourage more lending. This could help mobilize resources in capital markets.",
+    "sentences": [
+      {
+        "en": "China announced a $54 billion capital injection.",
+        "ko": "중국은 540억 달러 규모의 자본 확충 계획을 발표했습니다."
+      },
+      {
+        "en": "This funding will go to state-owned banks and insurers.",
+        "ko": "이 자금은 국영 은행과 보험사에 투입될 예정입니다."
+      },
+      {
+        "en": "The goal is to strengthen their capital cushions.",
+        "ko": "목표는 이들의 자본 완충력을 강화하는 것입니다."
+      },
+      {
+        "en": "It aims to improve their financial solvency.",
+        "ko": "이는 재정 건전성을 개선하기 위한 목적입니다."
+      },
+      {
+        "en": "However, despite this significant government support.",
+        "ko": "그러나 이러한 상당한 정부 지원에도 불구하고,"
+      },
+      {
+        "en": "Shares of these financial institutions still fell.",
+        "ko": "이들 금융기관의 주가는 여전히 하락했습니다."
+      },
+      {
+        "en": "Analysts suggest deeper issues might be at play.",
+        "ko": "분석가들은 더 깊은 문제들이 작용하고 있을 수 있다고 제안합니다."
+      },
+      {
+        "en": "Concerns about economic growth persist in China.",
+        "ko": "중국 경제 성장에 대한 우려가 지속되고 있습니다."
+      },
+      {
+        "en": "They also worry about the property market downturn.",
+        "ko": "또한 부동산 시장의 침체에 대해서도 우려하고 있습니다."
+      },
+      {
+        "en": "This market reaction shows investor skepticism.",
+        "ko": "이러한 시장 반응은 투자자들의 회의적인 시각을 보여줍니다."
+      },
+      {
+        "en": "Investors may doubt the long-term effectiveness of the funds.",
+        "ko": "투자자들은 자금의 장기적인 효과에 대해 의심할 수 있습니다."
+      },
+      {
+        "en": "Policymakers hope capital will encourage more lending.",
+        "ko": "정책 입안자들은 자본이 더 많은 대출을 장려하기를 바랍니다."
+      },
+      {
+        "en": "This could help mobilize resources in capital markets.",
+        "ko": "이는 자본 시장에서 자원을 동원하는 데 도움이 될 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "announced": {
+        "meaning": "Made something known publicly or officially.",
+        "pos": "verb"
+      },
+      "capital": {
+        "meaning": "Money and other assets used to start or run a business.",
+        "pos": "noun"
+      },
+      "injection": {
+        "meaning": "The act of adding something, especially money, into a system.",
+        "pos": "noun"
+      },
+      "funding": {
+        "meaning": "Money provided, especially by an organization or government, for a particular purpose.",
+        "pos": "noun"
+      },
+      "state-owned": {
+        "meaning": "Owned and controlled by the government.",
+        "pos": "adjective"
+      },
+      "insurers": {
+        "meaning": "Companies that provide insurance, protecting against financial loss.",
+        "pos": "noun"
+      },
+      "strengthen": {
+        "meaning": "To make something stronger or more effective.",
+        "pos": "verb"
+      },
+      "cushions": {
+        "meaning": "Things that prevent or soften the effect of a blow or impact, here referring to financial buffers.",
+        "pos": "noun"
+      },
+      "solvency": {
+        "meaning": "The ability of a company to pay its debts and meet its financial obligations.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "Important, noticeable, or substantial.",
+        "pos": "adjective"
+      },
+      "support": {
+        "meaning": "Help or encouragement.",
+        "pos": "noun"
+      },
+      "shares": {
+        "meaning": "Units of ownership in a company that are sold to investors.",
+        "pos": "noun"
+      },
+      "fell": {
+        "meaning": "Decreased in value or amount.",
+        "pos": "verb"
+      },
+      "analysts": {
+        "meaning": "People who study and examine something in detail to understand it or explain it.",
+        "pos": "noun"
+      },
+      "suggest": {
+        "meaning": "To put forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "deeper": {
+        "meaning": "More serious or profound.",
+        "pos": "adjective"
+      },
+      "issues": {
+        "meaning": "Important topics or problems for debate or discussion.",
+        "pos": "noun"
+      },
+      "persist": {
+        "meaning": "To continue to exist, especially after a long time.",
+        "pos": "verb"
+      },
+      "concerns": {
+        "meaning": "Feelings of worry about something important.",
+        "pos": "noun"
+      },
+      "downturn": {
+        "meaning": "A decline in economic activity.",
+        "pos": "noun"
+      },
+      "skepticism": {
+        "meaning": "A doubtful attitude toward something.",
+        "pos": "noun"
+      },
+      "doubt": {
+        "meaning": "To feel uncertain about something.",
+        "pos": "verb"
+      },
+      "effectiveness": {
+        "meaning": "The degree to which something is successful in producing a desired result.",
+        "pos": "noun"
+      },
+      "mobilize": {
+        "meaning": "To organize and prepare something for use.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What was the purpose of China's $54 billion capital injection into banks and insurers, and how did the stock market react to this news?",
+      "Q2: Explain what \"strengthen their capital cushions\" and \"improve their financial solvency\" mean in the context of this news story.",
+      "Q3: Why do you think investors might still be skeptical about the long-term effectiveness of government capital injections, even when they are substantial?"
+    ],
+    "modelAnswers": [
+      "A1: China's capital injection aimed to strengthen the capital cushions and improve the financial solvency of state-owned banks and insurers. Despite this significant government support, shares of these financial institutions still fell.",
+      "A2: To \"strengthen their capital cushions\" means to increase the amount of money banks have as a buffer against potential losses. To \"improve their financial solvency\" means to enhance their ability to pay their debts and meet all financial obligations.",
+      "A3: Investors might remain skeptical because they could believe the underlying economic problems, such as slow growth or property market issues, are too large for a capital injection to solve alone. They may also worry about future returns or transparency."
+    ]
+  },
+  {
+    "id": "ec-2026-09-08-3",
+    "date": "2026-09-08",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "채권 수익률 상승과 정부 부채 증가가 향후 금리 인상에 어떤 영향을 미칠지 주요 경제 지표를 통해 이해해 보세요.",
+    "url": "https://www.bbc.co.uk/sounds/play/w3ct8g9r",
+    "title": "Rising Bond Yields Signal Rate Hike Risk",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Global financial markets are closely watching bond yields. These yields have been rising steadily recently. Higher bond yields often indicate increased borrowing costs. This trend is partly due to growing government debt. Governments are issuing more bonds to finance spending. More supply can push yields upward. Investors also demand higher returns for riskier debt. Central banks might respond to these market pressures. They could consider raising interest rates. This aims to control inflation and stabilize economies. However, higher rates can slow economic growth. They also make debt servicing more expensive for nations. This situation presents a complex challenge for policymakers.",
+    "sentences": [
+      {
+        "en": "Global financial markets are closely watching bond yields.",
+        "ko": "글로벌 금융 시장은 채권 수익률을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "These yields have been rising steadily recently.",
+        "ko": "이러한 수익률은 최근 꾸준히 상승했습니다."
+      },
+      {
+        "en": "Higher bond yields often indicate increased borrowing costs.",
+        "ko": "높은 채권 수익률은 종종 차입 비용 증가를 나타냅니다."
+      },
+      {
+        "en": "This trend is partly due to growing government debt.",
+        "ko": "이러한 추세는 부분적으로 증가하는 정부 부채 때문입니다."
+      },
+      {
+        "en": "Governments are issuing more bonds to finance spending.",
+        "ko": "정부들은 지출 자금을 조달하기 위해 더 많은 채권을 발행하고 있습니다."
+      },
+      {
+        "en": "More supply can push yields upward.",
+        "ko": "공급 증가는 수익률을 상승시킬 수 있습니다."
+      },
+      {
+        "en": "Investors also demand higher returns for riskier debt.",
+        "ko": "투자자들은 또한 위험한 부채에 대해 더 높은 수익을 요구합니다."
+      },
+      {
+        "en": "Central banks might respond to these market pressures.",
+        "ko": "중앙은행들은 이러한 시장 압력에 대응할 수 있습니다."
+      },
+      {
+        "en": "They could consider raising interest rates.",
+        "ko": "그들은 금리 인상을 고려할 수 있습니다."
+      },
+      {
+        "en": "This aims to control inflation and stabilize economies.",
+        "ko": "이는 인플레이션을 통제하고 경제를 안정화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, higher rates can slow economic growth.",
+        "ko": "하지만, 높은 금리는 경제 성장을 둔화시킬 수 있습니다."
+      },
+      {
+        "en": "They also make debt servicing more expensive for nations.",
+        "ko": "또한 국가들에게 부채 상환 비용을 더 비싸게 만듭니다."
+      },
+      {
+        "en": "This situation presents a complex challenge for policymakers.",
+        "ko": "이러한 상황은 정책 입안자들에게 복잡한 과제를 제시합니다."
+      }
+    ],
+    "glossary": {
+      "financial": {
+        "meaning": "Relating to money or how money is managed.",
+        "pos": "adjective"
+      },
+      "markets": {
+        "meaning": "Places or systems where financial products are bought and sold.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "The income earned from an investment, often expressed as a percentage.",
+        "pos": "noun"
+      },
+      "steadily": {
+        "meaning": "In a continuous and regular way.",
+        "pos": "adverb"
+      },
+      "indicate": {
+        "meaning": "To show or point out something.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from someone with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "issuing": {
+        "meaning": "Officially giving out or making available, especially bonds or currency.",
+        "pos": "verb"
+      },
+      "finance": {
+        "meaning": "To provide money for something.",
+        "pos": "verb"
+      },
+      "spending": {
+        "meaning": "The act of using money to buy things.",
+        "pos": "noun"
+      },
+      "supply": {
+        "meaning": "The amount of something that is available for use.",
+        "pos": "noun"
+      },
+      "demand": {
+        "meaning": "To ask for something forcefully, often as a right.",
+        "pos": "verb"
+      },
+      "returns": {
+        "meaning": "The profit or income from an investment.",
+        "pos": "noun"
+      },
+      "riskier": {
+        "meaning": "Involving a greater possibility of danger or loss.",
+        "pos": "adjective"
+      },
+      "respond": {
+        "meaning": "To react to something that has happened or been said.",
+        "pos": "verb"
+      },
+      "pressures": {
+        "meaning": "The force or influence that something exerts.",
+        "pos": "noun"
+      },
+      "raising": {
+        "meaning": "Increasing the amount, level, or strength of something.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "stabilize": {
+        "meaning": "To make something firm or steady, or to keep it from changing.",
+        "pos": "verb"
+      },
+      "servicing": {
+        "meaning": "The act of making regular payments on a debt.",
+        "pos": "noun"
+      },
+      "expensive": {
+        "meaning": "Costing a lot of money.",
+        "pos": "adjective"
+      },
+      "policymakers": {
+        "meaning": "People responsible for making decisions about government policy.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What are two key factors mentioned in the passage that are contributing to rising bond yields, and what do higher bond yields often indicate?",
+      "Q2: In the context of this story, explain how central banks might \"respond to these market pressures\" and what their primary goals would be in doing so.",
+      "Q3: Do you think central banks should prioritize controlling inflation with higher interest rates, even if it might slow economic growth, or should they focus more on supporting growth? Justify your answer."
+    ],
+    "modelAnswers": [
+      "A1: Rising government debt and increased bond issuance to finance spending are contributing to rising bond yields. Higher bond yields often indicate increased borrowing costs for governments and businesses.",
+      "A2: Central banks might respond by considering raising interest rates. Their primary goals would be to control inflation and stabilize economies, although this could potentially slow economic growth.",
+      "A3: Central banks face a difficult balance. Prioritizing inflation control is crucial for long-term economic stability and purchasing power, but excessive rate hikes can trigger recessions. A balanced approach considering both inflation and growth is often best."
+    ]
+  },
+  {
     "id": "cd-2026-09-07-1",
     "date": "2026-09-07",
     "rank": 1,
