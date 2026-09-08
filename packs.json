@@ -1,5 +1,961 @@
 [
   {
+    "id": "cd-2026-09-09-1",
+    "date": "2026-09-09",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "한국 정부 기관이 스테이블코인의 잠재적 이점과 위험을 평가한 소식을 확인하세요.",
+    "url": "https://www.coindesk.com/business/2026/09/08/stablecoins-could-save-south-korean-merchants-up-to-usd3-8-billion-a-year-budget-office-says",
+    "title": "South Korea: Stablecoins Could Save Merchants Billions",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "South Korea's budget office recently shared its findings on stablecoin adoption. They suggest stablecoins could save local merchants a huge amount. These savings might total up to $3.8 billion annually. This is because stablecoins can lower transaction costs significantly. However, the office also highlighted potential risks. One concern is that stablecoins might reduce banks' traditional roles. Banks often act as credit intermediaries in the current system. Another risk involves the stability of token pegs. Mass redemptions could potentially destabilize these pegs. This report offers a balanced view on stablecoin integration. It considers both economic benefits and financial system challenges.",
+    "sentences": [
+      {
+        "en": "South Korea's budget office recently shared its findings on stablecoin adoption.",
+        "ko": "한국 예산 당국은 최근 스테이블코인 채택에 대한 조사 결과를 발표했습니다."
+      },
+      {
+        "en": "They suggest stablecoins could save local merchants a huge amount.",
+        "ko": "그들은 스테이블코인이 지역 상인들에게 막대한 금액을 절약해 줄 수 있다고 제안합니다."
+      },
+      {
+        "en": "These savings might total up to $3.8 billion annually.",
+        "ko": "이러한 절감액은 연간 최대 38억 달러에 달할 수 있습니다."
+      },
+      {
+        "en": "This is because stablecoins can lower transaction costs significantly.",
+        "ko": "이는 스테이블코인이 거래 비용을 크게 낮출 수 있기 때문입니다."
+      },
+      {
+        "en": "However, the office also highlighted potential risks.",
+        "ko": "하지만 당국은 잠재적 위험도 강조했습니다."
+      },
+      {
+        "en": "One concern is that stablecoins might reduce banks' traditional roles.",
+        "ko": "한 가지 우려는 스테이블코인이 은행의 전통적인 역할을 축소할 수 있다는 점입니다."
+      },
+      {
+        "en": "Banks often act as credit intermediaries in the current system.",
+        "ko": "은행은 현재 시스템에서 신용 중개자 역할을 자주 합니다."
+      },
+      {
+        "en": "Another risk involves the stability of token pegs.",
+        "ko": "또 다른 위험은 토큰 페그의 안정성과 관련이 있습니다."
+      },
+      {
+        "en": "Mass redemptions could potentially destabilize these pegs.",
+        "ko": "대량 환매는 이러한 페그를 잠재적으로 불안정하게 만들 수 있습니다."
+      },
+      {
+        "en": "This report offers a balanced view on stablecoin integration.",
+        "ko": "이 보고서는 스테이블코인 통합에 대한 균형 잡힌 시각을 제공합니다."
+      },
+      {
+        "en": "It considers both economic benefits and financial system challenges.",
+        "ko": "이는 경제적 이점과 금융 시스템의 과제를 모두 고려합니다."
+      }
+    ],
+    "glossary": {
+      "budget": {
+        "meaning": "A plan that shows how much money an organization expects to earn and spend over a specific period.",
+        "pos": "noun"
+      },
+      "adoption": {
+        "meaning": "The act of starting to use a new idea, method, or product.",
+        "pos": "noun"
+      },
+      "merchants": {
+        "meaning": "People or businesses that buy and sell goods, especially in large amounts.",
+        "pos": "noun"
+      },
+      "annually": {
+        "meaning": "Happening or done once every year.",
+        "pos": "adverb"
+      },
+      "transaction": {
+        "meaning": "An instance of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "costs": {
+        "meaning": "The amount of money needed to buy, do, or maintain something.",
+        "pos": "noun"
+      },
+      "highlighted": {
+        "meaning": "Drew special attention to something important.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Possible when the necessary conditions exist.",
+        "pos": "adjective"
+      },
+      "intermediaries": {
+        "meaning": "People or organizations that help to arrange an agreement between other people or organizations.",
+        "pos": "noun"
+      },
+      "current": {
+        "meaning": "Happening or existing now; belonging to the present time.",
+        "pos": "adjective"
+      },
+      "involves": {
+        "meaning": "Includes something as a necessary part or result.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "The state of being firm, not likely to change or fail.",
+        "pos": "noun"
+      },
+      "pegs": {
+        "meaning": "Fixed exchange rates, especially one linking a cryptocurrency to a traditional currency.",
+        "pos": "noun"
+      },
+      "mass": {
+        "meaning": "Involving or affecting a large number of people or things.",
+        "pos": "adjective"
+      },
+      "redemptions": {
+        "meaning": "The acts of exchanging tokens for their underlying assets.",
+        "pos": "noun"
+      },
+      "destabilize": {
+        "meaning": "To make something unstable or likely to fail.",
+        "pos": "verb"
+      },
+      "integration": {
+        "meaning": "The process of combining different things so that they work together effectively.",
+        "pos": "noun"
+      },
+      "benefits": {
+        "meaning": "Advantages or profits gained from something.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "Difficult situations or problems that test someone's ability.",
+        "pos": "noun"
+      },
+      "financial": {
+        "meaning": "Relating to money or how money is managed.",
+        "pos": "adjective"
+      },
+      "system": {
+        "meaning": "A set of connected things or parts forming a complex whole.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the South Korean budget office, what are the potential annual savings for local merchants due to stablecoin adoption?",
+      "In the context of this article, what does \"credit intermediaries\" refer to, and why might their role be reduced by stablecoins?",
+      "Do you think the potential economic benefits of stablecoins, like reduced transaction costs, outweigh the risks of financial instability? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "The South Korean budget office suggests that stablecoin adoption could save local merchants up to $3.8 billion annually.",
+      "\"Credit intermediaries\" refers to banks that facilitate lending and borrowing. Their role might be reduced if stablecoins allow direct payments, bypassing traditional banking services.",
+      "The benefits could outweigh risks if robust regulations are in place. Reduced costs empower businesses, but stability mechanisms are crucial to prevent systemic issues during mass redemptions."
+    ]
+  },
+  {
+    "id": "cd-2026-09-09-2",
+    "date": "2026-09-09",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "비자가 스테이블코인 결제 데이터를 활용하여 블록체인 대출을 확대하는 방법을 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/09/08/visa-opens-settlement-data-to-help-blockchain-lenders-finance-crypto-cards-as-volume-surges",
+    "title": "Visa Uses Stablecoin Data for Onchain Lending",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Visa is expanding its use of stablecoins within its payment network. The company has integrated its VisaNet data with onchain lending. This initiative aims to power working capital for stablecoin card programs. Visa's stablecoin settlement volume has grown significantly. It recently exceeded a $20 billion annualized run rate. This represents a remarkable 15-fold increase year over year. Now, Visa encourages blockchain lenders to utilize this data. The goal is to extend credit to stablecoin card issuers. This move could further bridge traditional finance and crypto. It also highlights the growing importance of stablecoins in global payments. Such integration helps drive real-world stablecoin utility.",
+    "sentences": [
+      {
+        "en": "Visa is expanding its use of stablecoins within its payment network.",
+        "ko": "비자는 결제 네트워크에서 스테이블코인 사용을 확대하고 있습니다."
+      },
+      {
+        "en": "The company has integrated its VisaNet data with onchain lending.",
+        "ko": "이 회사는 VisaNet 데이터를 온체인 대출과 통합했습니다."
+      },
+      {
+        "en": "This initiative aims to power working capital for stablecoin card programs.",
+        "ko": "이 이니셔티브는 스테이블코인 카드 프로그램의 운전자본을 강화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Visa's stablecoin settlement volume has grown significantly.",
+        "ko": "비자의 스테이블코인 결제량이 크게 증가했습니다."
+      },
+      {
+        "en": "It recently exceeded a $20 billion annualized run rate.",
+        "ko": "최근 연간 200억 달러의 실행률을 넘어섰습니다."
+      },
+      {
+        "en": "This represents a remarkable 15-fold increase year over year.",
+        "ko": "이는 전년 대비 15배 증가한 놀라운 수치입니다."
+      },
+      {
+        "en": "Now, Visa encourages blockchain lenders to utilize this data.",
+        "ko": "이제 비자는 블록체인 대출 기관이 이 데이터를 활용하도록 권장합니다."
+      },
+      {
+        "en": "The goal is to extend credit to stablecoin card issuers.",
+        "ko": "목표는 스테이블코인 카드 발행자에게 신용을 확대하는 것입니다."
+      },
+      {
+        "en": "This move could further bridge traditional finance and crypto.",
+        "ko": "이러한 움직임은 전통 금융과 암호화폐 간의 격차를 더욱 좁힐 수 있습니다."
+      },
+      {
+        "en": "It also highlights the growing importance of stablecoins in global payments.",
+        "ko": "이는 또한 글로벌 결제에서 스테이블코인의 중요성이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "Such integration helps drive real-world stablecoin utility.",
+        "ko": "이러한 통합은 실생활 스테이블코인 활용을 촉진하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "expanding": {
+        "meaning": "Making something larger or more extensive.",
+        "pos": "verb"
+      },
+      "integrated": {
+        "meaning": "Combined different parts into a complete whole.",
+        "pos": "verb"
+      },
+      "initiative": {
+        "meaning": "A new plan or process to achieve something.",
+        "pos": "noun"
+      },
+      "power": {
+        "meaning": "To supply with energy or strength.",
+        "pos": "verb"
+      },
+      "programs": {
+        "meaning": "Sets of related measures or activities with a particular long-term aim.",
+        "pos": "noun"
+      },
+      "settlement": {
+        "meaning": "The process of completing a financial transaction.",
+        "pos": "noun"
+      },
+      "volume": {
+        "meaning": "The amount or quantity of something.",
+        "pos": "noun"
+      },
+      "exceeded": {
+        "meaning": "Was greater than a particular number or amount.",
+        "pos": "verb"
+      },
+      "annualized": {
+        "meaning": "Calculated as an annual rate or amount.",
+        "pos": "adjective"
+      },
+      "remarkable": {
+        "meaning": "Worthy of attention; unusual or surprising.",
+        "pos": "adjective"
+      },
+      "encourages": {
+        "meaning": "Gives support, confidence, or hope to someone.",
+        "pos": "verb"
+      },
+      "utilize": {
+        "meaning": "To make practical and effective use of something.",
+        "pos": "verb"
+      },
+      "extend": {
+        "meaning": "To offer or give something to someone.",
+        "pos": "verb"
+      },
+      "issuers": {
+        "meaning": "Entities that create and distribute financial instruments.",
+        "pos": "noun"
+      },
+      "bridge": {
+        "meaning": "To connect two things or groups.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "Existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "Draws attention to or emphasizes something.",
+        "pos": "verb"
+      },
+      "global": {
+        "meaning": "Relating to the whole world; worldwide.",
+        "pos": "adjective"
+      },
+      "utility": {
+        "meaning": "The state of being useful, profitable, or beneficial.",
+        "pos": "noun"
+      },
+      "drive": {
+        "meaning": "To cause or influence the progress of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What was Visa's stablecoin settlement volume recently, and how much has it increased year over year?",
+      "Explain what \"working capital\" means in the context of stablecoin card programs and how Visa's initiative supports it.",
+      "How do you think Visa's strategy of integrating traditional payment data with blockchain lending could impact the broader adoption of stablecoins in mainstream finance?"
+    ],
+    "modelAnswers": [
+      "Visa's stablecoin settlement volume recently exceeded a $20 billion annualized run rate, representing a 15-fold increase year over year.",
+      "Working capital refers to the funds needed for daily operations of stablecoin card programs. Visa's initiative supports it by allowing blockchain lenders to use VisaNet data to extend credit to card issuers.",
+      "This strategy could significantly accelerate stablecoin adoption by creating a more robust and liquid ecosystem. It builds trust and provides essential financial infrastructure, making stablecoins more accessible for everyday use."
+    ]
+  },
+  {
+    "id": "cd-2026-09-09-3",
+    "date": "2026-09-09",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "스테이블코인 발행사 서클이 국경 간 결제 기업을 인수하여 \"마지막 단계\" 인프라를 확보하는 방법을 살펴보세요.",
+    "url": "https://www.coindesk.com/business/2026/09/08/circle-agrees-to-buy-cross-border-payments-firm-tazapay-for-usd400-million",
+    "title": "Circle Acquires Tazapay for Cross-Border Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Circle, a major stablecoin issuer, has agreed to acquire Tazapay. Tazapay is a cross-border payments firm. The acquisition is valued at an estimated $400 million. This strategic move aims to strengthen Circle's global payment capabilities. The deal could provide Circle with crucial \"last-mile\" infrastructure. This infrastructure is vital for connecting stablecoins to traditional local banking systems. It helps bridge the gap between digital assets and conventional finance. Tazapay's expertise in regulated payments is key. This allows Circle to offer more seamless and compliant services. The acquisition highlights the growing convergence of fintech and crypto. It also shows stablecoins' increasing role in international transactions.",
+    "sentences": [
+      {
+        "en": "Circle, a major stablecoin issuer, has agreed to acquire Tazapay.",
+        "ko": "주요 스테이블코인 발행사인 서클이 타자페이를 인수하기로 합의했습니다."
+      },
+      {
+        "en": "Tazapay is a cross-border payments firm.",
+        "ko": "타자페이는 국경 간 결제 회사입니다."
+      },
+      {
+        "en": "The acquisition is valued at an estimated $400 million.",
+        "ko": "인수 금액은 약 4억 달러로 추정됩니다."
+      },
+      {
+        "en": "This strategic move aims to strengthen Circle's global payment capabilities.",
+        "ko": "이 전략적 움직임은 서클의 글로벌 결제 역량을 강화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The deal could provide Circle with crucial \"last-mile\" infrastructure.",
+        "ko": "이 거래는 서클에 중요한 \"마지막 단계\" 인프라를 제공할 수 있습니다."
+      },
+      {
+        "en": "This infrastructure is vital for connecting stablecoins to traditional local banking systems.",
+        "ko": "이 인프라는 스테이블코인을 전통적인 현지 은행 시스템에 연결하는 데 필수적입니다."
+      },
+      {
+        "en": "It helps bridge the gap between digital assets and conventional finance.",
+        "ko": "이는 디지털 자산과 기존 금융 간의 격차를 해소하는 데 도움이 됩니다."
+      },
+      {
+        "en": "Tazapay's expertise in regulated payments is key.",
+        "ko": "규제된 결제 분야에서 타자페이의 전문성은 핵심입니다."
+      },
+      {
+        "en": "This allows Circle to offer more seamless and compliant services.",
+        "ko": "이를 통해 서클은 더욱 원활하고 규정을 준수하는 서비스를 제공할 수 있습니다."
+      },
+      {
+        "en": "The acquisition highlights the growing convergence of fintech and crypto.",
+        "ko": "이번 인수는 핀테크와 암호화폐의 성장하는 융합을 강조합니다."
+      },
+      {
+        "en": "It also shows stablecoins' increasing role in international transactions.",
+        "ko": "또한 국제 거래에서 스테이블코인의 역할이 커지고 있음을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "issuer": {
+        "meaning": "An organization that provides or produces something official, such as money or documents.",
+        "pos": "noun"
+      },
+      "agreed": {
+        "meaning": "Had the same opinion as someone else; reached a decision together.",
+        "pos": "verb"
+      },
+      "acquire": {
+        "meaning": "To buy or obtain something.",
+        "pos": "verb"
+      },
+      "firm": {
+        "meaning": "A business or company.",
+        "pos": "noun"
+      },
+      "acquisition": {
+        "meaning": "The act of buying or taking control of another company or part of a company.",
+        "pos": "noun"
+      },
+      "valued": {
+        "meaning": "Estimated the monetary worth of something.",
+        "pos": "verb"
+      },
+      "estimated": {
+        "meaning": "Roughly calculated or guessed.",
+        "pos": "adjective"
+      },
+      "strategic": {
+        "meaning": "Relating to the identification of long-term or overall aims and interests.",
+        "pos": "adjective"
+      },
+      "strengthen": {
+        "meaning": "To make something stronger or more effective.",
+        "pos": "verb"
+      },
+      "capabilities": {
+        "meaning": "The ability or power to do something.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "Absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "connecting": {
+        "meaning": "Bringing together or establishing a link between.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "Existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "bridge": {
+        "meaning": "To reduce or get rid of the difference or gap between two things.",
+        "pos": "verb"
+      },
+      "conventional": {
+        "meaning": "Based on or in accordance with what is generally done or believed.",
+        "pos": "adjective"
+      },
+      "expertise": {
+        "meaning": "Expert skill or knowledge in a particular field.",
+        "pos": "noun"
+      },
+      "regulated": {
+        "meaning": "Controlled or governed by rules or laws.",
+        "pos": "adjective"
+      },
+      "seamless": {
+        "meaning": "Smooth and continuous, without apparent breaks or transitions.",
+        "pos": "adjective"
+      },
+      "compliant": {
+        "meaning": "Meeting or in accordance with rules or standards.",
+        "pos": "adjective"
+      },
+      "convergence": {
+        "meaning": "The process or state of coming together from different directions.",
+        "pos": "noun"
+      },
+      "transactions": {
+        "meaning": "An instance of buying or selling something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the estimated value of Circle's acquisition of Tazapay, and what kind of firm is Tazapay?",
+      "What does \"last-mile infrastructure\" mean in the context of this acquisition, and why is it crucial for Circle?",
+      "How might the acquisition of a regulated cross-border payments firm like Tazapay benefit Circle's goal of broader stablecoin adoption, especially concerning regulatory compliance?"
+    ],
+    "modelAnswers": [
+      "Circle's acquisition of Tazapay is valued at an estimated $400 million. Tazapay is a cross-border payments firm.",
+      "\"Last-mile infrastructure\" refers to the final step in connecting stablecoins to traditional local banking systems. It's crucial for Circle to bridge the gap between digital assets and conventional finance, enabling real-world use.",
+      "Acquiring Tazapay, with its expertise in regulated payments, allows Circle to offer more compliant and seamless services. This builds trust and facilitates broader stablecoin adoption by ensuring operations adhere to existing financial regulations."
+    ]
+  },
+  {
+    "id": "ec-2026-09-09-1",
+    "date": "2026-09-09",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "인공지능이 금융 산업을 어떻게 변화시키고 있는지 궁금하다면, 이 기사가 좋은 사례를 보여줍니다.",
+    "url": "https://www.cnbc.com/2026/09/08/brian-kelly-bracket22-ai-agents.html",
+    "title": "Hedge Fund Runs Entirely on AI Agents",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A hedge fund manager has created a firm powered solely by AI agents. This innovative approach showcases the growing role of artificial intelligence in finance. AI agents handle various tasks, from complex research to trading decisions. The firm's structure serves as a stark example for the broader Wall Street community. Many financial institutions are actively exploring AI's potential benefits and limitations. This trend is rapidly reshaping traditional financial operations across the industry. It highlights a future where human roles might evolve significantly alongside technology. Fintech professionals must understand these crucial technological shifts to stay competitive. AI can greatly enhance operational efficiency and uncover new market opportunities. However, it also presents challenges regarding ethical oversight and inherent risks. The entire industry needs to adapt quickly to integrate these powerful new tools. This transformation will undoubtedly continue to accelerate in the coming years.",
+    "sentences": [
+      {
+        "en": "A hedge fund manager has created a firm powered solely by AI agents.",
+        "ko": "한 헤지펀드 매니저가 오직 AI 에이전트만으로 운영되는 회사를 설립했습니다."
+      },
+      {
+        "en": "This innovative approach showcases the growing role of artificial intelligence in finance.",
+        "ko": "이 혁신적인 접근 방식은 금융 분야에서 인공지능의 역할이 커지고 있음을 보여줍니다."
+      },
+      {
+        "en": "AI agents handle various tasks, from complex research to trading decisions.",
+        "ko": "AI 에이전트들은 복잡한 연구부터 거래 결정에 이르기까지 다양한 업무를 처리합니다."
+      },
+      {
+        "en": "The firm's structure serves as a stark example for the broader Wall Street community.",
+        "ko": "이 회사의 구조는 더 넓은 월스트리트 커뮤니티에 분명한 사례가 됩니다."
+      },
+      {
+        "en": "Many financial institutions are actively exploring AI's potential benefits and limitations.",
+        "ko": "많은 금융 기관들이 AI의 잠재적인 이점과 한계를 적극적으로 탐색하고 있습니다."
+      },
+      {
+        "en": "This trend is rapidly reshaping traditional financial operations across the industry.",
+        "ko": "이러한 추세는 업계 전반의 전통적인 금융 운영 방식을 빠르게 재편하고 있습니다."
+      },
+      {
+        "en": "It highlights a future where human roles might evolve significantly alongside technology.",
+        "ko": "이는 기술과 함께 인간의 역할이 크게 진화할 수 있는 미래를 강조합니다."
+      },
+      {
+        "en": "Fintech professionals must understand these crucial technological shifts to stay competitive.",
+        "ko": "핀테크 전문가들은 경쟁력을 유지하기 위해 이러한 중요한 기술 변화를 이해해야 합니다."
+      },
+      {
+        "en": "AI can greatly enhance operational efficiency and uncover new market opportunities.",
+        "ko": "AI는 운영 효율성을 크게 높이고 새로운 시장 기회를 발견할 수 있습니다."
+      },
+      {
+        "en": "However, it also presents challenges regarding ethical oversight and inherent risks.",
+        "ko": "하지만 이는 윤리적 감독과 내재된 위험에 대한 과제도 제시합니다."
+      },
+      {
+        "en": "The entire industry needs to adapt quickly to integrate these powerful new tools.",
+        "ko": "전체 산업은 이러한 강력한 새로운 도구를 통합하기 위해 빠르게 적응해야 합니다."
+      },
+      {
+        "en": "This transformation will undoubtedly continue to accelerate in the coming years.",
+        "ko": "이러한 변화는 앞으로 몇 년 동안 의심할 여지 없이 계속 가속화될 것입니다."
+      }
+    ],
+    "glossary": {
+      "powered": {
+        "meaning": "supplied with the energy or force needed to make something work.",
+        "pos": "verb"
+      },
+      "solely": {
+        "meaning": "only and not involving anyone or anything else.",
+        "pos": "adverb"
+      },
+      "innovative": {
+        "meaning": "introducing new ideas, methods, or ways of doing things.",
+        "pos": "adjective"
+      },
+      "showcases": {
+        "meaning": "displays or presents something in a way that highlights its best qualities.",
+        "pos": "verb"
+      },
+      "agents": {
+        "meaning": "pieces of software that perform specific tasks, often autonomously.",
+        "pos": "noun"
+      },
+      "research": {
+        "meaning": "a careful study of a subject, especially to discover new facts or information.",
+        "pos": "noun"
+      },
+      "trading": {
+        "meaning": "the activity of buying and selling goods, services, or financial assets.",
+        "pos": "noun"
+      },
+      "stark": {
+        "meaning": "very clear and strong, sometimes unpleasantly so.",
+        "pos": "adjective"
+      },
+      "exploring": {
+        "meaning": "examining or discussing something thoroughly to find out more about it.",
+        "pos": "verb"
+      },
+      "limitations": {
+        "meaning": "restricting conditions or boundaries on what can be done.",
+        "pos": "noun"
+      },
+      "reshaping": {
+        "meaning": "changing the form or structure of something.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "operations": {
+        "meaning": "the activities involved in managing and running a business or organization.",
+        "pos": "noun"
+      },
+      "evolve": {
+        "meaning": "to develop gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "professionals": {
+        "meaning": "people who work in a specific profession, often requiring special training.",
+        "pos": "noun"
+      },
+      "shifts": {
+        "meaning": "changes in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "to improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being able to accomplish something with the least waste of time and effort.",
+        "pos": "noun"
+      },
+      "uncover": {
+        "meaning": "to discover something that was previously hidden or unknown.",
+        "pos": "verb"
+      },
+      "opportunities": {
+        "meaning": "sets of circumstances that make it possible to do something.",
+        "pos": "noun"
+      },
+      "oversight": {
+        "meaning": "the action of supervising someone or something.",
+        "pos": "noun"
+      },
+      "risks": {
+        "meaning": "situations involving exposure to danger or potential loss.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the main innovation described in the article regarding the hedge fund?",
+      "In the context of this article, what does \"reshaping traditional financial operations\" imply for the finance industry?",
+      "Do you believe AI-powered hedge funds will become the norm, or will human oversight always be essential? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "The main innovation is that a hedge fund manager has built a firm that is powered entirely by AI agents, handling tasks from research to trading decisions.",
+      "It implies that AI is fundamentally changing how financial businesses operate, automating tasks and requiring professionals to adapt to new technologies and processes.",
+      "While AI offers efficiency, human oversight will likely remain essential for complex decision-making, ethical considerations, and managing unforeseen risks that AI models might not anticipate."
+    ]
+  },
+  {
+    "id": "ec-2026-09-09-2",
+    "date": "2026-09-09",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "영국 정부 채권 금리가 1998년 이후 최고치를 기록했다는 소식은 현재의 경제 상황과 재정 정책에 대한 중요한 통찰력을 제공합니다.",
+    "url": "https://www.theguardian.com/business/2026/sep/08/uk-government-pays-highest-interest-rate-on-30-year-bond-since-1998",
+    "title": "UK Government Bond Rates Hit 25-Year High",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The UK government recently faced its highest interest rate on 30-year bonds since 1998. This development signals significant fiscal challenges for the country's economy. High bond yields directly impact government borrowing costs substantially. It means the government must pay more to finance its national debt. This situation can strain public finances considerably over time. It also reduces the budget available for other essential public services. Investors often demand higher returns due to prevailing economic uncertainties. Factors like inflation rates and economic growth prospects influence these bond rates. The chancellor faces immense pressure to manage these rising costs effectively. This event underscores the critical importance of sound fiscal policy. It reflects broader market sentiment regarding the overall UK economy. Such elevated rates can have long-term implications for all taxpayers.",
+    "sentences": [
+      {
+        "en": "The UK government recently faced its highest interest rate on 30-year bonds since 1998.",
+        "ko": "영국 정부는 최근 1998년 이후 30년 만기 채권에 대해 가장 높은 이자율을 경험했습니다."
+      },
+      {
+        "en": "This development signals significant fiscal challenges for the country's economy.",
+        "ko": "이러한 발전은 영국 경제에 중대한 재정적 어려움을 시사합니다."
+      },
+      {
+        "en": "High bond yields directly impact government borrowing costs substantially.",
+        "ko": "높은 채권 수익률은 정부의 차입 비용에 직접적으로 상당한 영향을 미칩니다."
+      },
+      {
+        "en": "It means the government must pay more to finance its national debt.",
+        "ko": "이는 정부가 국가 부채를 조달하기 위해 더 많은 비용을 지불해야 함을 의미합니다."
+      },
+      {
+        "en": "This situation can strain public finances considerably over time.",
+        "ko": "이러한 상황은 시간이 지남에 따라 공공 재정에 상당한 부담을 줄 수 있습니다."
+      },
+      {
+        "en": "It also reduces the budget available for other essential public services.",
+        "ko": "또한 다른 필수 공공 서비스에 사용할 수 있는 예산을 감소시킵니다."
+      },
+      {
+        "en": "Investors often demand higher returns due to prevailing economic uncertainties.",
+        "ko": "투자자들은 만연한 경제적 불확실성 때문에 더 높은 수익을 요구하는 경우가 많습니다."
+      },
+      {
+        "en": "Factors like inflation rates and economic growth prospects influence these bond rates.",
+        "ko": "인플레이션율과 경제 성장 전망과 같은 요인들이 이러한 채권 금리에 영향을 미칩니다."
+      },
+      {
+        "en": "The chancellor faces immense pressure to manage these rising costs effectively.",
+        "ko": "재무장관은 이러한 증가하는 비용을 효과적으로 관리해야 하는 엄청난 압력에 직면해 있습니다."
+      },
+      {
+        "en": "This event underscores the critical importance of sound fiscal policy.",
+        "ko": "이 사건은 건전한 재정 정책의 중요성을 강조합니다."
+      },
+      {
+        "en": "It reflects broader market sentiment regarding the overall UK economy.",
+        "ko": "이는 전반적인 영국 경제에 대한 더 넓은 시장 정서를 반영합니다."
+      },
+      {
+        "en": "Such elevated rates can have long-term implications for all taxpayers.",
+        "ko": "이러한 높은 금리는 모든 납세자에게 장기적인 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "faced": {
+        "meaning": "encountered or had to deal with a difficult situation or problem.",
+        "pos": "verb"
+      },
+      "bonds": {
+        "meaning": "debt securities issued by governments or companies to raise money, promising to pay interest over a period.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or gives an indication of something.",
+        "pos": "verb"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, and public spending.",
+        "pos": "adjective"
+      },
+      "challenges": {
+        "meaning": "difficult tasks or problems that test someone's ability.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the income return on an investment, typically expressed as an annual percentage rate.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money from a bank or person with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "finance": {
+        "meaning": "to provide funding for a person or enterprise.",
+        "pos": "verb"
+      },
+      "debt": {
+        "meaning": "money that is owed or due.",
+        "pos": "noun"
+      },
+      "strain": {
+        "meaning": "to put a severe demand on a system or resource.",
+        "pos": "verb"
+      },
+      "budget": {
+        "meaning": "an estimate of income and expenditure for a set period of time.",
+        "pos": "noun"
+      },
+      "uncertainties": {
+        "meaning": "situations of doubt or not knowing what will happen.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "prospects": {
+        "meaning": "the possibility or likelihood of some future event occurring.",
+        "pos": "noun"
+      },
+      "chancellor": {
+        "meaning": "a senior state official, often responsible for financial matters in a government.",
+        "pos": "noun"
+      },
+      "manage": {
+        "meaning": "to be in charge of or to control something.",
+        "pos": "verb"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "sound": {
+        "meaning": "based on valid reason or good judgment; reliable.",
+        "pos": "adjective"
+      },
+      "policy": {
+        "meaning": "a course or principle of action adopted or proposed by a government or organization.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion.",
+        "pos": "noun"
+      },
+      "implications": {
+        "meaning": "possible results or effects of an action or a decision.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific type of bond saw its interest rate rise to a 25-year high in the UK?",
+      "How do high bond yields affect a government's ability to finance its debt, as explained in the article?",
+      "In your opinion, what are the most significant long-term implications of consistently high government borrowing costs for a country's economy?"
+    ],
+    "modelAnswers": [
+      "The UK government's 30-year bonds saw their interest rate rise to the highest level since 1998.",
+      "High bond yields mean the government must pay more to borrow money, increasing its borrowing costs and putting a strain on public finances.",
+      "Consistently high borrowing costs can lead to reduced funding for public services, increased taxes, and potentially slower economic growth as more national income is diverted to debt servicing."
+    ]
+  },
+  {
+    "id": "ec-2026-09-09-3",
+    "date": "2026-09-09",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국과 캐나다 간의 무역 갈등이 심화되고 있으며, 이는 국제 무역 관계와 공급망에 미치는 영향을 이해하는 데 중요합니다.",
+    "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html",
+    "title": "Canada Imposes New Tariffs on US Goods",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Canada has officially implemented new retaliatory tariffs on US steel and aluminum products. These duties have now doubled to a hefty 50%, intensifying a bilateral trade dispute. This action follows increased tariffs previously imposed by Washington on Canadian goods. The escalating trade rift between these two neighboring nations is economically significant. Such disputes inevitably disrupt established international supply chains. Businesses relying on cross-border trade will consequently face increased operational costs. Consumers might also observe higher prices for various affected imported goods. The move highlights ongoing protectionist tendencies seen globally in recent years. These measures primarily aim to protect domestic industries from foreign competition. However, they frequently lead to reciprocal tit-for-tat actions by other countries. This often creates considerable instability in international trade relations worldwide. Resolving these economic conflicts is absolutely crucial for global economic stability.",
+    "sentences": [
+      {
+        "en": "Canada has officially implemented new retaliatory tariffs on US steel and aluminum products.",
+        "ko": "캐나다가 미국산 철강 및 알루미늄 제품에 대한 새로운 보복 관세를 공식적으로 시행했습니다."
+      },
+      {
+        "en": "These duties have now doubled to a hefty 50%, intensifying a bilateral trade dispute.",
+        "ko": "이 관세는 현재 무려 50%로 두 배 인상되어 양국 간 무역 분쟁을 심화시키고 있습니다."
+      },
+      {
+        "en": "This action follows increased tariffs previously imposed by Washington on Canadian goods.",
+        "ko": "이 조치는 앞서 워싱턴이 캐나다 상품에 부과했던 관세 인상에 따른 것입니다."
+      },
+      {
+        "en": "The escalating trade rift between these two neighboring nations is economically significant.",
+        "ko": "이 두 이웃 국가 간의 고조되는 무역 갈등은 경제적으로 중요합니다."
+      },
+      {
+        "en": "Such disputes inevitably disrupt established international supply chains.",
+        "ko": "이러한 분쟁은 필연적으로 기존의 국제 공급망을 교란합니다."
+      },
+      {
+        "en": "Businesses relying on cross-border trade will consequently face increased operational costs.",
+        "ko": "국경 간 무역에 의존하는 기업들은 결과적으로 운영 비용 증가에 직면할 것입니다."
+      },
+      {
+        "en": "Consumers might also observe higher prices for various affected imported goods.",
+        "ko": "소비자들도 영향을 받는 다양한 수입품에 대해 더 높은 가격을 보게 될 수 있습니다."
+      },
+      {
+        "en": "The move highlights ongoing protectionist tendencies seen globally in recent years.",
+        "ko": "이러한 움직임은 최근 몇 년간 전 세계적으로 나타나는 지속적인 보호주의 경향을 강조합니다."
+      },
+      {
+        "en": "These measures primarily aim to protect domestic industries from foreign competition.",
+        "ko": "이러한 조치들은 주로 국내 산업을 해외 경쟁으로부터 보호하는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, they frequently lead to reciprocal tit-for-tat actions by other countries.",
+        "ko": "하지만, 이는 종종 다른 국가들의 상호 보복 조치로 이어집니다."
+      },
+      {
+        "en": "This often creates considerable instability in international trade relations worldwide.",
+        "ko": "이것은 종종 전 세계 국제 무역 관계에 상당한 불안정성을 야기합니다."
+      },
+      {
+        "en": "Resolving these economic conflicts is absolutely crucial for global economic stability.",
+        "ko": "이러한 경제 갈등을 해결하는 것은 세계 경제 안정에 절대적으로 중요합니다."
+      }
+    ],
+    "glossary": {
+      "implemented": {
+        "meaning": "put a decision, plan, or agreement into effect.",
+        "pos": "verb"
+      },
+      "retaliatory": {
+        "meaning": "characterized by an action taken in return for an injury or offense.",
+        "pos": "adjective"
+      },
+      "tariffs": {
+        "meaning": "taxes or duties to be paid on a particular class of imports or exports.",
+        "pos": "noun"
+      },
+      "duties": {
+        "meaning": "taxes, especially on imports or exports.",
+        "pos": "noun"
+      },
+      "doubled": {
+        "meaning": "increased to twice the size, amount, or number.",
+        "pos": "verb"
+      },
+      "intensifying": {
+        "meaning": "becoming or making more intense.",
+        "pos": "verb"
+      },
+      "dispute": {
+        "meaning": "a disagreement, argument, or debate.",
+        "pos": "noun"
+      },
+      "imposed": {
+        "meaning": "forced something unwelcome or unfamiliar to be accepted or put in place.",
+        "pos": "verb"
+      },
+      "escalating": {
+        "meaning": "increasing rapidly; becoming more intense or serious.",
+        "pos": "verb"
+      },
+      "rift": {
+        "meaning": "a serious break in friendly relations between people or countries.",
+        "pos": "noun"
+      },
+      "disrupt": {
+        "meaning": "to interrupt an event, activity, or process by causing a disturbance or problem.",
+        "pos": "verb"
+      },
+      "established": {
+        "meaning": "having been in existence for a long time and therefore recognized and generally accepted.",
+        "pos": "adjective"
+      },
+      "relying": {
+        "meaning": "depending on someone or something with confidence.",
+        "pos": "verb"
+      },
+      "cross-border": {
+        "meaning": "relating to activities or goods that cross a border between two countries.",
+        "pos": "adjective"
+      },
+      "consumers": {
+        "meaning": "people who buy goods and services for their own use.",
+        "pos": "noun"
+      },
+      "affected": {
+        "meaning": "influenced or touched by an external factor.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "protectionist": {
+        "meaning": "relating to the policy of protecting domestic industries against foreign competition by means of tariffs.",
+        "pos": "adjective"
+      },
+      "tendencies": {
+        "meaning": "inclinations or aptitudes of a specified kind.",
+        "pos": "noun"
+      },
+      "domestic": {
+        "meaning": "relating to or existing within a particular country.",
+        "pos": "adjective"
+      },
+      "tit-for-tat": {
+        "meaning": "a situation in which you do something bad to someone because they have done something bad to you.",
+        "pos": "phrase"
+      },
+      "instability": {
+        "meaning": "the state of being unstable; lack of steadiness or permanence.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "the state of being stable and not likely to change or fail.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific products are affected by Canada's retaliatory tariffs mentioned in the article?",
+      "Based on the article, what is the primary consequence for businesses that rely on trade between Canada and the US due to these tariffs?",
+      "Do you think trade disputes, like the one between Canada and the US, ultimately benefit or harm global economic growth? Justify your stance."
+    ],
+    "modelAnswers": [
+      "Canada's retaliatory tariffs are imposed on US steel and aluminum products.",
+      "Businesses relying on cross-border trade will face increased costs due to the tariffs, and supply chains might be disrupted.",
+      "Trade disputes generally harm global economic growth by increasing costs, disrupting supply chains, and creating uncertainty, which discourages investment and can lead to higher consumer prices."
+    ]
+  },
+  {
     "id": "cd-2026-09-08-1",
     "date": "2026-09-08",
     "rank": 1,
