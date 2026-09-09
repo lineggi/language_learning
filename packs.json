@@ -1,5 +1,981 @@
 [
   {
+    "id": "cd-2026-09-10-1",
+    "date": "2026-09-10",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "PayPal이 자체 스테이블코인 플랫폼을 출시하며 토큰 발행 및 결제 인프라 확장에 나섰습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/09/paypal-expands-stablecoin-rails-with-launch-of-custom-token-issuance-platform",
+    "title": "PayPal Unveils Custom Stablecoin Issuance Platform",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "PayPal has launched a new platform for issuing custom stablecoins. This initiative significantly expands its presence in the digital asset space. The new PYUSDx developer platform supports tokenized payments. It allows businesses to create their own branded stablecoins. These custom tokens are backed by PayPal USD (PYUSD). The platform also offers advanced payment infrastructure. It was developed in collaboration with M0 and MoonPay. This move highlights PayPal's commitment to stablecoin innovation. It further integrates digital currencies into mainstream financial services. This could accelerate the adoption of stablecoins for various uses.",
+    "sentences": [
+      {
+        "en": "PayPal has launched a new platform for issuing custom stablecoins.",
+        "ko": "PayPal은 맞춤형 스테이블코인을 발행하기 위한 새로운 플랫폼을 출시했습니다."
+      },
+      {
+        "en": "This initiative significantly expands its presence in the digital asset space.",
+        "ko": "이 이니셔티브는 디지털 자산 분야에서 PayPal의 입지를 크게 확장합니다."
+      },
+      {
+        "en": "The new PYUSDx developer platform supports tokenized payments.",
+        "ko": "새로운 PYUSDx 개발자 플랫폼은 토큰화된 결제를 지원합니다."
+      },
+      {
+        "en": "It allows businesses to create their own branded stablecoins.",
+        "ko": "이는 기업들이 자신만의 브랜드 스테이블코인을 만들 수 있도록 합니다."
+      },
+      {
+        "en": "These custom tokens are backed by PayPal USD (PYUSD).",
+        "ko": "이 맞춤형 토큰들은 PayPal USD (PYUSD)에 의해 뒷받침됩니다."
+      },
+      {
+        "en": "The platform also offers advanced payment infrastructure.",
+        "ko": "이 플랫폼은 또한 고급 결제 인프라를 제공합니다."
+      },
+      {
+        "en": "It was developed in collaboration with M0 and MoonPay.",
+        "ko": "이것은 M0와 MoonPay와의 협력을 통해 개발되었습니다."
+      },
+      {
+        "en": "This move highlights PayPal's commitment to stablecoin innovation.",
+        "ko": "이러한 움직임은 스테이블코인 혁신에 대한 PayPal의 약속을 강조합니다."
+      },
+      {
+        "en": "It further integrates digital currencies into mainstream financial services.",
+        "ko": "이는 디지털 통화를 주류 금융 서비스에 더욱 통합합니다."
+      },
+      {
+        "en": "This could accelerate the adoption of stablecoins for various uses.",
+        "ko": "이는 다양한 용도로 스테이블코인 채택을 가속화할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "platform": {
+        "meaning": "a system or service that allows people to create or use digital products and services.",
+        "pos": "noun"
+      },
+      "issuing": {
+        "meaning": "the act of officially providing or distributing something, such as new tokens or currency.",
+        "pos": "verb"
+      },
+      "custom": {
+        "meaning": "made or designed specifically for a particular person or purpose.",
+        "pos": "adjective"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a problem.",
+        "pos": "noun"
+      },
+      "expands": {
+        "meaning": "to make something larger in size, amount, or scope.",
+        "pos": "verb"
+      },
+      "presence": {
+        "meaning": "the fact of being in a particular place or existing.",
+        "pos": "noun"
+      },
+      "digital": {
+        "meaning": "relating to or using computer technology, especially the internet.",
+        "pos": "adjective"
+      },
+      "asset": {
+        "meaning": "something valuable owned by a company or person.",
+        "pos": "noun"
+      },
+      "developer": {
+        "meaning": "a person or company that creates software or applications.",
+        "pos": "noun"
+      },
+      "supports": {
+        "meaning": "to provide help or assistance to something or someone.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      },
+      "backed": {
+        "meaning": "supported or guaranteed by something of value.",
+        "pos": "adjective"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "collaboration": {
+        "meaning": "the act of working together with someone to produce or create something.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "to draw special attention to something.",
+        "pos": "verb"
+      },
+      "commitment": {
+        "meaning": "a promise or firm decision to do something.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or devices.",
+        "pos": "noun"
+      },
+      "integrates": {
+        "meaning": "to combine two or more things so that they work together effectively.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "common, widely accepted, or used by most people.",
+        "pos": "adjective"
+      },
+      "accelerate": {
+        "meaning": "to happen or make something happen at a faster rate.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use something new.",
+        "pos": "noun"
+      },
+      "various": {
+        "meaning": "different from one another.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What is the name of PayPal's new stablecoin developer platform and what type of tokens is it designed to support?",
+      "In the passage, the word \"mainstream\" suggests widespread acceptance. How does PayPal's move to integrate digital currencies into \"mainstream financial services\" relate to the overall goal of stablecoin adoption?",
+      "Do you think PayPal's new platform will significantly boost the use of stablecoins by businesses, and what potential benefits or challenges might arise from companies issuing their own branded stablecoins?"
+    ],
+    "modelAnswers": [
+      "PayPal's new stablecoin developer platform is called PYUSDx. It is designed to support the issuance of custom, branded stablecoins, which are backed by PayPal USD (PYUSD).",
+      "Integrating digital currencies into \"mainstream financial services\" means making them common and widely used by the general public and businesses. This relates to stablecoin adoption by making them more accessible and trusted for everyday transactions, moving them beyond specialized crypto users.",
+      "Yes, I believe PayPal's platform could boost stablecoin use by offering a trusted brand and infrastructure. Benefits include easier cross-border payments and new business models. Challenges might involve regulatory hurdles and ensuring sufficient liquidity for many different branded stablecoins."
+    ]
+  },
+  {
+    "id": "cd-2026-09-10-2",
+    "date": "2026-09-10",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 5대 상업은행 중 하나인 U.S. Bank가 자체 스테이블코인 출시를 위한 중요한 단계를 밟았습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test",
+    "title": "U.S. Bank Pilots Stablecoin for Cross-Border Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "U.S. Bank, a major commercial bank, is advancing its stablecoin plans. It recently completed a live transaction using its USBDC stablecoin. This test explored USBDC for various treasury payments. The bank also evaluated its potential for liquidity management. Furthermore, USBDC was tested as collateral for transactions. This marks a significant step towards launching its own stablecoin. The move highlights traditional finance's growing interest in digital assets. It aims to improve efficiency in cross-border payments. This could offer new solutions for corporate clients. Such initiatives may reshape how large institutions handle funds.",
+    "sentences": [
+      {
+        "en": "U.S. Bank, a major commercial bank, is advancing its stablecoin plans.",
+        "ko": "주요 상업은행인 U.S. Bank가 스테이블코인 계획을 진전시키고 있습니다."
+      },
+      {
+        "en": "It recently completed a live transaction using its USBDC stablecoin.",
+        "ko": "최근 USBDC 스테이블코인을 사용하여 실시간 거래를 완료했습니다."
+      },
+      {
+        "en": "This test explored USBDC for various treasury payments.",
+        "ko": "이 테스트는 다양한 재무 결제에 USBDC를 탐색했습니다."
+      },
+      {
+        "en": "The bank also evaluated its potential for liquidity management.",
+        "ko": "은행은 또한 유동성 관리 가능성을 평가했습니다."
+      },
+      {
+        "en": "Furthermore, USBDC was tested as collateral for transactions.",
+        "ko": "또한, USBDC는 거래 담보로 테스트되었습니다."
+      },
+      {
+        "en": "This marks a significant step towards launching its own stablecoin.",
+        "ko": "이는 자체 스테이블코인 출시를 향한 중요한 단계입니다."
+      },
+      {
+        "en": "The move highlights traditional finance's growing interest in digital assets.",
+        "ko": "이러한 움직임은 전통 금융이 디지털 자산에 대한 관심이 커지고 있음을 보여줍니다."
+      },
+      {
+        "en": "It aims to improve efficiency in cross-border payments.",
+        "ko": "이는 국경 간 결제의 효율성을 개선하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This could offer new solutions for corporate clients.",
+        "ko": "이는 기업 고객에게 새로운 솔루션을 제공할 수 있습니다."
+      },
+      {
+        "en": "Such initiatives may reshape how large institutions handle funds.",
+        "ko": "이러한 이니셔티브는 대규모 기관이 자금을 처리하는 방식을 재편할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "advancing": {
+        "meaning": "making progress or moving forward with a plan.",
+        "pos": "verb"
+      },
+      "completed": {
+        "meaning": "finished doing or making something.",
+        "pos": "verb"
+      },
+      "transaction": {
+        "meaning": "an instance of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "explored": {
+        "meaning": "investigated or discussed something in detail.",
+        "pos": "verb"
+      },
+      "various": {
+        "meaning": "different from one another.",
+        "pos": "adjective"
+      },
+      "treasury": {
+        "meaning": "the department of a company or government that manages its money and financial assets.",
+        "pos": "noun"
+      },
+      "evaluated": {
+        "meaning": "assessed or judged the value, quality, or importance of something.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "the possibility that something will happen or develop.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "the availability of liquid assets to a market or company, meaning cash or assets that can be quickly converted to cash.",
+        "pos": "noun"
+      },
+      "management": {
+        "meaning": "the process of dealing with or controlling things or people.",
+        "pos": "noun"
+      },
+      "furthermore": {
+        "meaning": "in addition to what has just been said.",
+        "pos": "adverb"
+      },
+      "collateral": {
+        "meaning": "something pledged as security for repayment of a loan, to be forfeited in the event of a default.",
+        "pos": "noun"
+      },
+      "marks": {
+        "meaning": "indicates or signifies a particular event or stage.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "finance": {
+        "meaning": "the management of large amounts of money, especially by governments or large companies.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being efficient, meaning achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "cross-border": {
+        "meaning": "involving or concerning more than one country.",
+        "pos": "adjective"
+      },
+      "corporate": {
+        "meaning": "relating to a large company or group.",
+        "pos": "adjective"
+      },
+      "clients": {
+        "meaning": "a person or organization using the services of a professional person or company.",
+        "pos": "noun"
+      },
+      "reshape": {
+        "meaning": "to change the shape or form of something, or to change the way something is organized or planned.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "For what specific purposes did U.S. Bank test its USBDC stablecoin in the recent live transaction?",
+      "What does the term \"liquidity management\" mean in the context of a bank's operations, and why might a stablecoin be useful for this purpose?",
+      "How might the entry of major traditional banks like U.S. Bank into the stablecoin market impact the broader crypto industry and its perceived legitimacy?"
+    ],
+    "modelAnswers": [
+      "U.S. Bank tested its USBDC stablecoin for various treasury payments, liquidity management, and as collateral for transactions.",
+      "\"Liquidity management\" involves ensuring a bank has enough cash or easily convertible assets to meet its financial obligations. A stablecoin could be useful by providing a fast, programmable, and potentially cheaper way to move and settle funds, improving real-time liquidity.",
+      "The entry of major traditional banks could significantly boost the crypto industry's legitimacy by bringing institutional trust and large-scale adoption. It might also increase regulatory scrutiny and competition for existing stablecoin issuers, potentially leading to more innovation and standardization."
+    ]
+  },
+  {
+    "id": "cd-2026-09-10-3",
+    "date": "2026-09-10",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "Robinhood CEO가 주식 토큰에 대한 논쟁에서 AMC CEO의 주장에 반박하며 토큰화의 미래에 대한 논의를 촉발했습니다.",
+    "url": "https://www.coindesk.com/markets/2026/09/09/robinhood-s-ceo-vlad-tenev-defends-stock-tokens-in-escalating-fight-with-amc-ceo",
+    "title": "Robinhood CEO Defends Stock Tokens Amid Dispute",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Robinhood's CEO, Vlad Tenev, recently defended stock tokens. He responded to criticism from AMC's CEO, Adam Aron. The dispute centers on public companies' influence over tokenized shares. Tenev argued that companies should not veto third-party securities. These securities simply reference a company's underlying shares. He believes such tokens enhance market access and liquidity. This ongoing debate highlights the complexities of asset tokenization. It also raises questions about corporate control in the digital age. The outcome could significantly impact the future of tokenized stocks. It may shape how traditional assets are represented on blockchains.",
+    "sentences": [
+      {
+        "en": "Robinhood's CEO, Vlad Tenev, recently defended stock tokens.",
+        "ko": "Robinhood의 CEO 블라드 테네브는 최근 주식 토큰을 옹호했습니다."
+      },
+      {
+        "en": "He responded to criticism from AMC's CEO, Adam Aron.",
+        "ko": "그는 AMC의 CEO 아담 아론의 비판에 응수했습니다."
+      },
+      {
+        "en": "The dispute centers on public companies' influence over tokenized shares.",
+        "ko": "이 논쟁은 상장 기업이 토큰화된 주식에 미치는 영향력을 중심으로 합니다."
+      },
+      {
+        "en": "Tenev argued that companies should not veto third-party securities.",
+        "ko": "테네브는 기업이 제3자 증권을 거부해서는 안 된다고 주장했습니다."
+      },
+      {
+        "en": "These securities simply reference a company's underlying shares.",
+        "ko": "이 증권들은 단순히 기업의 기초 주식을 참조합니다."
+      },
+      {
+        "en": "He believes such tokens enhance market access and liquidity.",
+        "ko": "그는 이러한 토큰이 시장 접근성과 유동성을 향상시킨다고 믿습니다."
+      },
+      {
+        "en": "This ongoing debate highlights the complexities of asset tokenization.",
+        "ko": "이러한 지속적인 논쟁은 자산 토큰화의 복잡성을 강조합니다."
+      },
+      {
+        "en": "It also raises questions about corporate control in the digital age.",
+        "ko": "또한 디지털 시대의 기업 통제에 대한 의문을 제기합니다."
+      },
+      {
+        "en": "The outcome could significantly impact the future of tokenized stocks.",
+        "ko": "그 결과는 토큰화된 주식의 미래에 중대한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It may shape how traditional assets are represented on blockchains.",
+        "ko": "이는 전통 자산이 블록체인에 어떻게 표현될지 형성할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "defended": {
+        "meaning": "spoke or wrote in support of someone or something.",
+        "pos": "verb"
+      },
+      "criticism": {
+        "meaning": "the expression of disapproval of someone or something based on perceived faults or mistakes.",
+        "pos": "noun"
+      },
+      "dispute": {
+        "meaning": "a disagreement or argument.",
+        "pos": "noun"
+      },
+      "centers": {
+        "meaning": "to focus on or be concerned primarily with something.",
+        "pos": "verb"
+      },
+      "influence": {
+        "meaning": "the capacity to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      },
+      "argued": {
+        "meaning": "gave reasons or evidence to support an idea or action.",
+        "pos": "verb"
+      },
+      "veto": {
+        "meaning": "to reject or forbid a decision or proposal.",
+        "pos": "verb"
+      },
+      "third-party": {
+        "meaning": "relating to a person or group in addition to the two main ones involved in a situation.",
+        "pos": "adjective"
+      },
+      "securities": {
+        "meaning": "financial instruments, such as stocks or bonds, that can be traded.",
+        "pos": "noun"
+      },
+      "reference": {
+        "meaning": "to refer to or be connected with something.",
+        "pos": "verb"
+      },
+      "underlying": {
+        "meaning": "existing beneath or as the basis of something.",
+        "pos": "adjective"
+      },
+      "shares": {
+        "meaning": "units of ownership in a company.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "to improve the quality, amount, or value of something.",
+        "pos": "verb"
+      },
+      "access": {
+        "meaning": "the ability or right to approach or enter a place, or to use something.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "the availability of liquid assets to a market or company, meaning assets that can be quickly converted to cash.",
+        "pos": "noun"
+      },
+      "ongoing": {
+        "meaning": "continuing to exist or develop.",
+        "pos": "adjective"
+      },
+      "debate": {
+        "meaning": "a formal discussion on a particular topic in a public meeting or legislative assembly, in which opposing arguments are put forward.",
+        "pos": "noun"
+      },
+      "complexities": {
+        "meaning": "the state of being complicated or intricate.",
+        "pos": "noun"
+      },
+      "asset": {
+        "meaning": "something valuable owned by a company or person.",
+        "pos": "noun"
+      },
+      "raises": {
+        "meaning": "brings to mind or attention.",
+        "pos": "verb"
+      },
+      "corporate": {
+        "meaning": "relating to a large company or group.",
+        "pos": "adjective"
+      },
+      "outcome": {
+        "meaning": "the way a thing turns out; a consequence.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "to have a strong effect on someone or something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the core disagreement between Robinhood's CEO and AMC's CEO regarding stock tokens?",
+      "Explain the meaning of \"veto third-party securities\" in the context of the passage. Why does Robinhood's CEO believe companies should not have this power?",
+      "Do you agree that public companies should not have veto power over third-party securities that reference their shares? What are the potential advantages and disadvantages of such a system for both companies and investors?"
+    ],
+    "modelAnswers": [
+      "The core disagreement is whether public companies should have the power to veto or block third-party securities, specifically stock tokens, that are created to reference their underlying shares.",
+      "To \"veto third-party securities\" means to officially reject or forbid the creation or trading of financial instruments by external parties, even if those instruments merely reflect a company's shares. Robinhood's CEO believes companies shouldn't have this power because it could limit market access and liquidity for investors.",
+      "I agree that companies shouldn't have absolute veto power, as it could stifle innovation and limit investor access. Advantages for investors include greater liquidity and new trading opportunities. However, companies might argue disadvantages like potential market manipulation or dilution of brand control if they cannot influence how their shares are tokenized."
+    ]
+  },
+  {
+    "id": "ec-2026-09-10-1",
+    "date": "2026-09-10",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "핀테크 PM이라면 블록체인 기반 금융 서비스와 스테이블코인 관련 카드 수요 급증에 대한 Visa의 전략 변화를 놓치지 마세요.",
+    "url": "https://www.cnbc.com/2026/09/08/visa-blockchain-lender-stablecoin-cards.html",
+    "title": "Visa Expands Blockchain Lending for Stablecoin Cards",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Visa is significantly expanding its support for blockchain-powered financial services. The company is launching a new program specifically for crypto lenders. This initiative helps financial institutions that issue stablecoin-linked cards. These issuers can now access essential liquidity through Visa's platform. Such innovative cards allow users to spend their digital assets easily. They facilitate everyday transactions, bridging the gap to traditional commerce. Demand for these digital payment solutions is surging rapidly worldwide. Visa aims to provide crucial data offerings and analytics to these blockchain lenders. This strategic move highlights the growing mainstream adoption of digital currencies. It also demonstrates how traditional finance is actively embracing new fintech infrastructure. This integration could reshape how digital assets are used in global payments. Fintech product managers should note this important development for future strategies.",
+    "sentences": [
+      {
+        "en": "Visa is significantly expanding its support for blockchain-powered financial services.",
+        "ko": "Visa는 블록체인 기반 금융 서비스에 대한 지원을 대폭 확대하고 있습니다."
+      },
+      {
+        "en": "The company is launching a new program specifically for crypto lenders.",
+        "ko": "이 회사는 암호화폐 대출 기관을 위한 새로운 프로그램을 시작합니다."
+      },
+      {
+        "en": "This initiative helps financial institutions that issue stablecoin-linked cards.",
+        "ko": "이 이니셔티브는 스테이블코인 연동 카드를 발행하는 금융 기관을 돕습니다."
+      },
+      {
+        "en": "These issuers can now access essential liquidity through Visa's platform.",
+        "ko": "이 발행 기관들은 이제 Visa 플랫폼을 통해 필수적인 유동성을 확보할 수 있습니다."
+      },
+      {
+        "en": "Such innovative cards allow users to spend their digital assets easily.",
+        "ko": "이러한 혁신적인 카드는 사용자가 디지털 자산을 쉽게 사용할 수 있도록 합니다."
+      },
+      {
+        "en": "They facilitate everyday transactions, bridging the gap to traditional commerce.",
+        "ko": "이는 일상적인 거래를 용이하게 하여 전통적인 상업과의 격차를 줄입니다."
+      },
+      {
+        "en": "Demand for these digital payment solutions is surging rapidly worldwide.",
+        "ko": "이러한 디지털 결제 솔루션에 대한 수요는 전 세계적으로 빠르게 급증하고 있습니다."
+      },
+      {
+        "en": "Visa aims to provide crucial data offerings and analytics to these blockchain lenders.",
+        "ko": "Visa는 이러한 블록체인 대출 기관에 중요한 데이터 상품과 분석을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This strategic move highlights the growing mainstream adoption of digital currencies.",
+        "ko": "이러한 전략적 움직임은 디지털 통화의 주류 채택이 증가하고 있음을 강조합니다."
+      },
+      {
+        "en": "It also demonstrates how traditional finance is actively embracing new fintech infrastructure.",
+        "ko": "또한 전통 금융이 새로운 핀테크 인프라를 적극적으로 수용하고 있음을 보여줍니다."
+      },
+      {
+        "en": "This integration could reshape how digital assets are used in global payments.",
+        "ko": "이러한 통합은 디지털 자산이 글로벌 결제에 사용되는 방식을 재편할 수 있습니다."
+      },
+      {
+        "en": "Fintech product managers should note this important development for future strategies.",
+        "ko": "핀테크 제품 관리자는 미래 전략을 위해 이러한 중요한 발전에 주목해야 합니다."
+      }
+    ],
+    "glossary": {
+      "significantly": {
+        "meaning": "in a way that is large or important enough to be noticed or have an effect.",
+        "pos": "adverb"
+      },
+      "expanding": {
+        "meaning": "making something larger in size, amount, or extent.",
+        "pos": "verb"
+      },
+      "blockchain-powered": {
+        "meaning": "using blockchain technology as its underlying system or method for operation.",
+        "pos": "adjective"
+      },
+      "financial": {
+        "meaning": "relating to money or how money is managed, especially by governments or large companies.",
+        "pos": "adjective"
+      },
+      "services": {
+        "meaning": "systems or provisions that provide a public need, in this context, related to finance.",
+        "pos": "noun"
+      },
+      "launching": {
+        "meaning": "starting or introducing a new product, service, or initiative to the public.",
+        "pos": "verb"
+      },
+      "program": {
+        "meaning": "a planned series of actions or events, especially one designed to achieve a specific goal.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "an important new plan or process to achieve a particular aim or to solve a problem.",
+        "pos": "noun"
+      },
+      "issuers": {
+        "meaning": "organizations or companies that produce and distribute something, like cards or financial products.",
+        "pos": "noun"
+      },
+      "stablecoin-linked": {
+        "meaning": "connected to or working with a stablecoin, a cryptocurrency designed to maintain a stable value.",
+        "pos": "adjective"
+      },
+      "access": {
+        "meaning": "to be able to get or use something, such as information, a service, or money.",
+        "pos": "verb"
+      },
+      "liquidity": {
+        "meaning": "the availability of liquid assets to a market or company, meaning they are easily converted to cash.",
+        "pos": "noun"
+      },
+      "innovative": {
+        "meaning": "featuring new ideas, methods, or devices; original and creative in thinking.",
+        "pos": "adjective"
+      },
+      "digital": {
+        "meaning": "relating to or using computer technology, especially the internet and electronic data.",
+        "pos": "adjective"
+      },
+      "assets": {
+        "meaning": "items of property owned by a person or company, regarded as having economic value.",
+        "pos": "noun"
+      },
+      "transactions": {
+        "meaning": "acts of buying or selling something, or exchanging money, especially in business.",
+        "pos": "noun"
+      },
+      "surging": {
+        "meaning": "increasing suddenly and strongly, often in a rapid or powerful manner.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential, especially for the success or failure of something.",
+        "pos": "adjective"
+      },
+      "offerings": {
+        "meaning": "products or services that a company provides to its customers or the market.",
+        "pos": "noun"
+      },
+      "analytics": {
+        "meaning": "the systematic computational analysis of data or statistics, often for decision-making.",
+        "pos": "noun"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests.",
+        "pos": "adjective"
+      },
+      "mainstream": {
+        "meaning": "accepted by most people as normal or conventional, rather than being unusual.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use or accept something new, such as a technology or idea.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific type of financial service is Visa expanding its support for, according to the passage?",
+      "Explain what \"stablecoin-linked cards\" are and why their demand is surging, based on the context provided.",
+      "How do you think traditional financial institutions integrating with blockchain technology will impact the future of fintech?"
+    ],
+    "modelAnswers": [
+      "Visa is expanding its support for blockchain-powered financial services, specifically by launching a new program for crypto lenders.",
+      "Stablecoin-linked cards allow users to spend their digital assets in everyday transactions. Their demand is surging because they bridge the gap between digital currencies and traditional spending, offering convenience.",
+      "I believe this integration will accelerate the mainstream adoption of digital assets. It could also lead to more innovative financial products and increased competition within the fintech sector."
+    ]
+  },
+  {
+    "id": "ec-2026-09-10-2",
+    "date": "2026-09-10",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "AI 스타트업 Anthropic의 IPO 소식과 함께 다가오는 AI 기반 IPO 물결을 통해 시장의 새로운 동향을 파악하세요.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOc29UbEJhZWNRQU54VDlKbE05X1BiT2lxcUM0aFowZ25tZE51SnpycF9GTGhkbHA4V251MHBJSXlVbnE0ckZRdWoyUUhXeWo4X3ItLWJLVTRHNDJnOGtITndqZmtSR194QkdzcWRXS1gwa2JaX2FDRE1NWlBWSGQ1RTNCOTZ0RlRONGRXcTIzcUVDem9OTnpqRXduZ2haOExuSGNpc1otSFpaWFVFbW83UDdiTFBrZw",
+    "title": "AI Startups Fueling New IPO Wave",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The market is strongly anticipating a significant wave of AI-driven initial public offerings. This expectation follows the upcoming listing of Anthropic, a prominent AI company. Anthropic's market debut is widely expected to set a new benchmark for AI valuations. Many investors are currently showing robust interest in artificial intelligence ventures. Numerous AI startups have already achieved very high valuations in private funding rounds. Their upcoming public offerings will serve to test broader investor sentiment. This trend suggests a rapid maturing of the artificial intelligence tech sector. It also clearly indicates growing opportunities for substantial capital raising. Fintech companies, in particular, might leverage AI to significantly enhance their services. This synergy could lead to even more AI-focused fintech IPOs in the near future. Product managers should closely observe these developments for strategic planning.",
+    "sentences": [
+      {
+        "en": "The market is strongly anticipating a significant wave of AI-driven initial public offerings.",
+        "ko": "시장은 AI 기반 기업공개(IPO)의 상당한 물결을 강력히 기대하고 있습니다."
+      },
+      {
+        "en": "This expectation follows the upcoming listing of Anthropic, a prominent AI company.",
+        "ko": "이러한 기대는 저명한 AI 기업인 Anthropic의 예정된 상장 이후에 나옵니다."
+      },
+      {
+        "en": "Anthropic's market debut is widely expected to set a new benchmark for AI valuations.",
+        "ko": "Anthropic의 시장 데뷔는 AI 기업 가치 평가에 새로운 기준을 세울 것으로 널리 예상됩니다."
+      },
+      {
+        "en": "Many investors are currently showing robust interest in artificial intelligence ventures.",
+        "ko": "많은 투자자들이 현재 인공지능 벤처에 대해 강력한 관심을 보이고 있습니다."
+      },
+      {
+        "en": "Numerous AI startups have already achieved very high valuations in private funding rounds.",
+        "ko": "수많은 AI 스타트업들은 이미 사모 펀딩 라운드에서 매우 높은 기업 가치를 달성했습니다."
+      },
+      {
+        "en": "Their upcoming public offerings will serve to test broader investor sentiment.",
+        "ko": "이들의 예정된 기업공개는 더 넓은 투자 심리를 시험하는 역할을 할 것입니다."
+      },
+      {
+        "en": "This trend suggests a rapid maturing of the artificial intelligence tech sector.",
+        "ko": "이러한 추세는 인공지능 기술 분야의 급속한 성숙을 시사합니다."
+      },
+      {
+        "en": "It also clearly indicates growing opportunities for substantial capital raising.",
+        "ko": "또한 상당한 자본 조달을 위한 기회가 증가하고 있음을 분명히 나타냅니다."
+      },
+      {
+        "en": "Fintech companies, in particular, might leverage AI to significantly enhance their services.",
+        "ko": "특히 핀테크 기업들은 AI를 활용하여 서비스를 크게 향상시킬 수 있습니다."
+      },
+      {
+        "en": "This synergy could lead to even more AI-focused fintech IPOs in the near future.",
+        "ko": "이러한 시너지는 가까운 미래에 더 많은 AI 중심의 핀테크 IPO로 이어질 수 있습니다."
+      },
+      {
+        "en": "Product managers should closely observe these developments for strategic planning.",
+        "ko": "제품 관리자는 전략적 계획을 위해 이러한 발전을 면밀히 주시해야 합니다."
+      }
+    ],
+    "glossary": {
+      "anticipating": {
+        "meaning": "expecting or predicting something to happen, often with a sense of preparation.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important, noticeable, or having a great effect or influence.",
+        "pos": "adjective"
+      },
+      "wave": {
+        "meaning": "a sudden increase in something, often involving a large number of events or people.",
+        "pos": "noun"
+      },
+      "ai-driven": {
+        "meaning": "powered or influenced primarily by artificial intelligence technology and its capabilities.",
+        "pos": "adjective"
+      },
+      "initial": {
+        "meaning": "existing or occurring at the beginning; the first stage of something.",
+        "pos": "adjective"
+      },
+      "public": {
+        "meaning": "available to or concerning all the people in a country or community, not private.",
+        "pos": "adjective"
+      },
+      "offerings": {
+        "meaning": "the act of presenting something for acceptance; in finance, a sale of securities to the public.",
+        "pos": "noun"
+      },
+      "listing": {
+        "meaning": "the process by which a company's shares are added to a stock exchange for trading.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important, famous, or easily noticed because of its position or quality.",
+        "pos": "adjective"
+      },
+      "debut": {
+        "meaning": "a person's or thing's first public appearance or performance, especially in a new role.",
+        "pos": "noun"
+      },
+      "benchmark": {
+        "meaning": "a standard or point of reference against which things may be compared or assessed.",
+        "pos": "noun"
+      },
+      "investors": {
+        "meaning": "people or organizations who put money into a financial scheme, expecting to get a profit.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "ventures": {
+        "meaning": "business undertakings that involve risk but also the chance of profit.",
+        "pos": "noun"
+      },
+      "achieved": {
+        "meaning": "successfully brought about or reached a desired objective or result.",
+        "pos": "verb"
+      },
+      "valuations": {
+        "meaning": "the process of estimating the monetary worth of something, such as a company or asset.",
+        "pos": "noun"
+      },
+      "private": {
+        "meaning": "belonging to or for the use of one particular person or group of people only.",
+        "pos": "adjective"
+      },
+      "funding": {
+        "meaning": "money provided, especially by an organization or government, for a particular purpose.",
+        "pos": "noun"
+      },
+      "rounds": {
+        "meaning": "a stage in a competition or process, such as a stage of investment or negotiation.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion about something, especially among a group of people.",
+        "pos": "noun"
+      },
+      "maturing": {
+        "meaning": "developing or growing to a more advanced, complete, or sophisticated stage.",
+        "pos": "verb"
+      },
+      "opportunities": {
+        "meaning": "sets of circumstances that make it possible to do something, often advantageous.",
+        "pos": "noun"
+      },
+      "leverage": {
+        "meaning": "to use something to maximum advantage, especially a resource or influence.",
+        "pos": "verb"
+      },
+      "enhance": {
+        "meaning": "to intensify, increase, or further improve the quality, value, or extent of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is expected to follow the upcoming listing of Anthropic, according to the passage?",
+      "Explain the term \"market debut\" in the context of a company like Anthropic.",
+      "How might the \"maturing of the AI tech sector\" influence investment strategies for a fintech PM?"
+    ],
+    "modelAnswers": [
+      "A significant wave of AI-driven initial public offerings (IPOs) is expected to follow the upcoming listing of Anthropic.",
+      "\"Market debut\" refers to a company's first public appearance on a stock exchange, which is when its shares are offered to the public for the first time.",
+      "The maturing AI tech sector could signal a shift towards more stable, established AI companies. This might encourage fintech PMs to seek out AI solutions with proven track records or integrate AI more deeply into their own product development."
+    ]
+  },
+  {
+    "id": "ec-2026-09-10-3",
+    "date": "2026-09-10",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "미국 재무부의 부채 상환 계획이 채권 시장의 외면을 받은 소식을 통해 글로벌 금융 시장의 역학 관계를 이해해 보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/09/treasury-bond-buyback",
+    "title": "Bond Market Rejects Treasury Debt Buyback",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US Treasury recently attempted to reduce its federal borrowing costs. It proposed a plan to buy back $6 billion in existing government debt. However, the crucial bond market quickly and decisively rejected this plan. Bond yields rose significantly, reaching their highest point since the 2008 financial crisis. This sharp increase indicates investor skepticism regarding the Treasury's strategy. Higher yields mean the government will now incur greater expenses to borrow money. This situation reflects broader market concerns about persistent inflation. It also highlights worries about potential future interest rate hikes. Such strong market reactions directly influence overall economic stability. They also significantly impact lending rates for businesses and individual consumers. A fintech PM must therefore monitor bond market trends very closely. These trends directly affect capital availability and critical investment decisions.",
+    "sentences": [
+      {
+        "en": "The US Treasury recently attempted to reduce its federal borrowing costs.",
+        "ko": "미국 재무부는 최근 연방 차입 비용을 줄이려고 시도했습니다."
+      },
+      {
+        "en": "It proposed a plan to buy back $6 billion in existing government debt.",
+        "ko": "이는 60억 달러 상당의 기존 국채를 재매입하는 계획을 제안했습니다."
+      },
+      {
+        "en": "However, the crucial bond market quickly and decisively rejected this plan.",
+        "ko": "그러나 중요한 채권 시장은 이 계획을 신속하고 단호하게 거부했습니다."
+      },
+      {
+        "en": "Bond yields rose significantly, reaching their highest point since the 2008 financial crisis.",
+        "ko": "채권 수익률은 2008년 금융 위기 이후 최고치를 기록하며 크게 상승했습니다."
+      },
+      {
+        "en": "This sharp increase indicates investor skepticism regarding the Treasury's strategy.",
+        "ko": "이러한 급격한 증가는 재무부의 전략에 대한 투자자들의 회의론을 나타냅니다."
+      },
+      {
+        "en": "Higher yields mean the government will now incur greater expenses to borrow money.",
+        "ko": "수익률이 높아지면 정부는 이제 돈을 빌리는 데 더 많은 비용을 지불해야 합니다."
+      },
+      {
+        "en": "This situation reflects broader market concerns about persistent inflation.",
+        "ko": "이러한 상황은 지속적인 인플레이션에 대한 광범위한 시장 우려를 반영합니다."
+      },
+      {
+        "en": "It also highlights worries about potential future interest rate hikes.",
+        "ko": "또한 잠재적인 미래 금리 인상에 대한 우려를 강조합니다."
+      },
+      {
+        "en": "Such strong market reactions directly influence overall economic stability.",
+        "ko": "이러한 강력한 시장 반응은 전반적인 경제 안정성에 직접적으로 영향을 미칩니다."
+      },
+      {
+        "en": "They also significantly impact lending rates for businesses and individual consumers.",
+        "ko": "또한 기업과 개인 소비자의 대출 금리에도 상당한 영향을 미칩니다."
+      },
+      {
+        "en": "A fintech PM must therefore monitor bond market trends very closely.",
+        "ko": "따라서 핀테크 PM은 채권 시장 동향을 매우 면밀히 모니터링해야 합니다."
+      },
+      {
+        "en": "These trends directly affect capital availability and critical investment decisions.",
+        "ko": "이러한 추세는 자본 가용성과 중요한 투자 결정에 직접적인 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "treasury": {
+        "meaning": "the government department responsible for managing the money of a country, including debt.",
+        "pos": "noun"
+      },
+      "attempted": {
+        "meaning": "made an effort to achieve or complete something difficult or challenging.",
+        "pos": "verb"
+      },
+      "reduce": {
+        "meaning": "to make something smaller or less in amount, degree, or size.",
+        "pos": "verb"
+      },
+      "federal": {
+        "meaning": "relating to the central government of a country, rather than to local governments.",
+        "pos": "adjective"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money from a bank or person with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "costs": {
+        "meaning": "the amount of money needed to buy, do, or get something, or the expenses incurred.",
+        "pos": "noun"
+      },
+      "proposed": {
+        "meaning": "put forward an idea or plan for consideration or discussion by others.",
+        "pos": "verb"
+      },
+      "debt": {
+        "meaning": "a sum of money that is owed or due to another person or entity.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential for the success, failure, or existence of something.",
+        "pos": "adjective"
+      },
+      "bond": {
+        "meaning": "a certificate issued by a government or company promising to pay back money with interest.",
+        "pos": "noun"
+      },
+      "market": {
+        "meaning": "a place or system where goods or services are bought and sold, often financially.",
+        "pos": "noun"
+      },
+      "decisively": {
+        "meaning": "in a way that shows the ability to make decisions quickly and effectively.",
+        "pos": "adverb"
+      },
+      "rejected": {
+        "meaning": "dismissed as inadequate, unacceptable, or not to be used or considered.",
+        "pos": "verb"
+      },
+      "yields": {
+        "meaning": "the income returned on an investment, typically expressed as an annual percentage rate.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "to a large or important extent; in a way that shows something is important.",
+        "pos": "adverb"
+      },
+      "financial": {
+        "meaning": "relating to money or how money is managed, especially by governments or large companies.",
+        "pos": "adjective"
+      },
+      "crisis": {
+        "meaning": "a time of intense difficulty, trouble, or danger, often with economic implications.",
+        "pos": "noun"
+      },
+      "skepticism": {
+        "meaning": "doubt as to the truth of something; a questioning attitude.",
+        "pos": "noun"
+      },
+      "strategy": {
+        "meaning": "a plan of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "incur": {
+        "meaning": "to become subject to something unwelcome or unpleasant as a result of one's own behavior.",
+        "pos": "verb"
+      },
+      "expenses": {
+        "meaning": "the cost required for something; money spent or required to be spent.",
+        "pos": "noun"
+      },
+      "persistent": {
+        "meaning": "continuing firmly or obstinately in a course of action in spite of difficulty.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "the state of being steady and not changing, especially economically.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the US Treasury's plan to reduce its borrowing costs?",
+      "Based on the passage, what does a significant rise in bond yields imply for the government's borrowing?",
+      "Why is it important for a fintech PM to closely monitor bond market trends?"
+    ],
+    "modelAnswers": [
+      "The US Treasury planned to buy back $6 billion in government debt to reduce its borrowing costs.",
+      "A significant rise in bond yields implies that the government must pay more to borrow money, as investors demand higher returns for holding government debt.",
+      "Monitoring bond market trends is crucial for a fintech PM because these trends affect overall economic stability, lending rates for businesses and consumers, and ultimately, capital availability and investment decisions within the fintech sector."
+    ]
+  },
+  {
     "id": "cd-2026-09-09-1",
     "date": "2026-09-09",
     "rank": 1,
