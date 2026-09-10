@@ -1,5 +1,981 @@
 [
   {
+    "id": "cd-2026-09-11-1",
+    "date": "2026-09-11",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "토큰화된 증권의 법적 불확실성을 해소할 수 있는 새로운 SEC 제안에 대해 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/09/10/why-a-new-sec-plan-could-end-the-legal-headaches-of-holding-tokenized-securities",
+    "title": "SEC Proposal Could Ease Tokenized Securities Headaches",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Securities and Exchange Commission has proposed new rules. These changes aim to update existing transfer agent regulations. Currently, tokenized securities face significant legal challenges. Their ownership records exist both on-chain and off-chain. This dual record-keeping creates reconciliation costs and legal uncertainty. The new SEC plan could eliminate the need for duplicate off-chain records. This simplification would reduce operational burdens for issuers. It would also clarify legal ownership for investors holding tokenized assets. Such a move could significantly boost the adoption of tokenized securities. It aligns with the growing trend of digital asset integration into traditional finance. This proposal marks a crucial step towards regulatory clarity in the crypto space. It addresses a key barrier to wider institutional participation in tokenization.",
+    "sentences": [
+      {
+        "en": "The U.S. Securities and Exchange Commission has proposed new rules.",
+        "ko": "미국 증권거래위원회(SEC)가 새로운 규정을 제안했습니다."
+      },
+      {
+        "en": "These changes aim to update existing transfer agent regulations.",
+        "ko": "이러한 변경은 기존의 증권 양도 대리인 규정을 업데이트하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Currently, tokenized securities face significant legal challenges.",
+        "ko": "현재 토큰화된 증권은 상당한 법적 문제에 직면해 있습니다."
+      },
+      {
+        "en": "Their ownership records exist both on-chain and off-chain.",
+        "ko": "이들의 소유권 기록은 온체인과 오프체인 모두에 존재합니다."
+      },
+      {
+        "en": "This dual record-keeping creates reconciliation costs and legal uncertainty.",
+        "ko": "이러한 이중 기록 관리는 조정 비용과 법적 불확실성을 야기합니다."
+      },
+      {
+        "en": "The new SEC plan could eliminate the need for duplicate off-chain records.",
+        "ko": "새로운 SEC 계획은 중복되는 오프체인 기록의 필요성을 없앨 수 있습니다."
+      },
+      {
+        "en": "This simplification would reduce operational burdens for issuers.",
+        "ko": "이러한 단순화는 발행사의 운영 부담을 줄일 것입니다."
+      },
+      {
+        "en": "It would also clarify legal ownership for investors holding tokenized assets.",
+        "ko": "또한 토큰화된 자산을 보유한 투자자들의 법적 소유권을 명확히 할 것입니다."
+      },
+      {
+        "en": "Such a move could significantly boost the adoption of tokenized securities.",
+        "ko": "이러한 움직임은 토큰화된 증권의 채택을 크게 촉진할 수 있습니다."
+      },
+      {
+        "en": "It aligns with the growing trend of digital asset integration into traditional finance.",
+        "ko": "이는 디지털 자산이 전통 금융에 통합되는 증가하는 추세와 일치합니다."
+      },
+      {
+        "en": "This proposal marks a crucial step towards regulatory clarity in the crypto space.",
+        "ko": "이 제안은 암호화폐 분야에서 규제 명확성을 향한 중요한 단계를 나타냅니다."
+      },
+      {
+        "en": "It addresses a key barrier to wider institutional participation in tokenization.",
+        "ko": "이는 토큰화에 대한 더 광범위한 기관 참여의 주요 장벽을 해결합니다."
+      }
+    ],
+    "glossary": {
+      "proposal": {
+        "meaning": "a formal plan or suggestion put forward for consideration by others.",
+        "pos": "noun"
+      },
+      "overhaul": {
+        "meaning": "to make a complete change to a system or organization in order to improve it.",
+        "pos": "verb"
+      },
+      "agent": {
+        "meaning": "a person or company that acts for another, especially in business.",
+        "pos": "noun"
+      },
+      "regulation": {
+        "meaning": "an official rule or law that controls how something is done or behaves.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing ownership or value.",
+        "pos": "adjective"
+      },
+      "securities": {
+        "meaning": "financial instruments like stocks or bonds that represent ownership or a debt.",
+        "pos": "noun"
+      },
+      "on-chain": {
+        "meaning": "referring to data or transactions recorded directly and permanently on a blockchain.",
+        "pos": "adverb"
+      },
+      "off-chain": {
+        "meaning": "referring to data or transactions that occur outside of a blockchain's main network.",
+        "pos": "adverb"
+      },
+      "dual": {
+        "meaning": "having two different parts, uses, or aspects at the same time.",
+        "pos": "adjective"
+      },
+      "reconciliation": {
+        "meaning": "the process of making two different financial records or accounts agree.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "the state of being unsure or not definite, often causing doubt.",
+        "pos": "noun"
+      },
+      "eliminate": {
+        "meaning": "to completely remove or get rid of something that is not wanted.",
+        "pos": "verb"
+      },
+      "duplicate": {
+        "meaning": "exactly like something else, especially a copy of an original item.",
+        "pos": "adjective"
+      },
+      "simplification": {
+        "meaning": "the process of making something easier to do, understand, or manage.",
+        "pos": "noun"
+      },
+      "operational": {
+        "meaning": "relating to the way a business or system works or is managed.",
+        "pos": "adjective"
+      },
+      "burdens": {
+        "meaning": "responsibilities or duties that are difficult to bear or manage.",
+        "pos": "noun"
+      },
+      "issuers": {
+        "meaning": "organizations that offer and sell securities or financial products to investors.",
+        "pos": "noun"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use something new, like a technology or system.",
+        "pos": "noun"
+      },
+      "integration": {
+        "meaning": "the act of combining two or more things so that they work together effectively.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential, because it will affect future outcomes.",
+        "pos": "adjective"
+      },
+      "barrier": {
+        "meaning": "a problem or rule that prevents or limits people from doing something.",
+        "pos": "noun"
+      },
+      "institutional": {
+        "meaning": "relating to a large organization or system, such as a bank or university.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific problem does the SEC's new proposal aim to solve for tokenized securities?",
+      "Q2: In the context of the passage, what does \"reconciliation costs\" refer to, and why are they an issue for tokenized securities?",
+      "Q3: How do you think clearer regulations for tokenized securities could impact the broader financial industry and investor confidence?"
+    ],
+    "modelAnswers": [
+      "A1: The SEC's new proposal aims to solve the problem of duplicate off-chain shareholder records for tokenized securities. This dual record-keeping creates legal uncertainty and increases reconciliation costs.",
+      "A2: \"Reconciliation costs\" refer to the expenses and effort involved in making sure that on-chain and off-chain ownership records for tokenized securities match. They are an issue because maintaining two separate sets of records is inefficient and costly.",
+      "A3: Clearer regulations would likely increase institutional adoption and investor confidence by reducing legal risks. This could lead to more efficient markets, wider use of blockchain technology in finance, and potentially new investment products."
+    ]
+  },
+  {
+    "id": "cd-2026-09-11-2",
+    "date": "2026-09-11",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "OKX가 유럽에서 OpenAI 및 Anthropic 주식의 토큰화된 거래를 시작하며 시장을 확장하는 방법을 확인하세요.",
+    "url": "https://www.coindesk.com/markets/2026/09/10/okx-brings-openai-and-anthropic-bets-to-europe-as-pre-ipo-trading-grows",
+    "title": "OKX Expands Pre-IPO Tokenized Trading in Europe",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "OKX, a major crypto exchange, is expanding its offerings in Europe. The platform now allows trading in tokenized shares of private companies. These include high-profile AI firms like OpenAI and Anthropic. OKX is providing up to 10x leverage for these pre-IPO valuations. Additionally, it offers 100 tokenized stocks and exchange-traded funds (ETFs). This initiative democratizes access to traditionally exclusive investments. It enables more investors to participate in the growth of leading tech companies. Tokenization makes these illiquid private assets more accessible. The move highlights the increasing convergence of crypto and traditional finance. OKX aims to capture a significant share of the European digital asset market. This strategy could attract a new wave of users to its platform. It also demonstrates the innovative use of blockchain technology in trading.",
+    "sentences": [
+      {
+        "en": "OKX, a major crypto exchange, is expanding its offerings in Europe.",
+        "ko": "주요 암호화폐 거래소인 OKX가 유럽에서 제공 서비스를 확장하고 있습니다."
+      },
+      {
+        "en": "The platform now allows trading in tokenized shares of private companies.",
+        "ko": "이 플랫폼은 이제 비상장 기업의 토큰화된 주식 거래를 허용합니다."
+      },
+      {
+        "en": "These include high-profile AI firms like OpenAI and Anthropic.",
+        "ko": "여기에는 OpenAI 및 Anthropic과 같은 주목받는 AI 기업들이 포함됩니다."
+      },
+      {
+        "en": "OKX is providing up to 10x leverage for these pre-IPO valuations.",
+        "ko": "OKX는 이러한 상장 전 기업 가치 평가에 최대 10배의 레버리지를 제공합니다."
+      },
+      {
+        "en": "Additionally, it offers 100 tokenized stocks and exchange-traded funds (ETFs).",
+        "ko": "또한 100개의 토큰화된 주식과 상장지수펀드(ETF)를 제공합니다."
+      },
+      {
+        "en": "This initiative democratizes access to traditionally exclusive investments.",
+        "ko": "이러한 이니셔티브는 전통적으로 소수에게만 허용되던 투자에 대한 접근을 민주화합니다."
+      },
+      {
+        "en": "It enables more investors to participate in the growth of leading tech companies.",
+        "ko": "이는 더 많은 투자자들이 선도적인 기술 기업의 성장에 참여할 수 있도록 합니다."
+      },
+      {
+        "en": "Tokenization makes these illiquid private assets more accessible.",
+        "ko": "토큰화는 이러한 비유동적인 비상장 자산을 더 쉽게 접근할 수 있도록 만듭니다."
+      },
+      {
+        "en": "The move highlights the increasing convergence of crypto and traditional finance.",
+        "ko": "이러한 움직임은 암호화폐와 전통 금융의 증가하는 융합을 강조합니다."
+      },
+      {
+        "en": "OKX aims to capture a significant share of the European digital asset market.",
+        "ko": "OKX는 유럽 디지털 자산 시장에서 상당한 점유율을 확보하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This strategy could attract a new wave of users to its platform.",
+        "ko": "이 전략은 새로운 사용자들을 플랫폼으로 유인할 수 있습니다."
+      },
+      {
+        "en": "It also demonstrates the innovative use of blockchain technology in trading.",
+        "ko": "또한 거래에서 블록체인 기술의 혁신적인 사용을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "major": {
+        "meaning": "very important or large in scale, scope, or impact.",
+        "pos": "adjective"
+      },
+      "exchange": {
+        "meaning": "a marketplace where different assets like cryptocurrencies or stocks are traded.",
+        "pos": "noun"
+      },
+      "expanding": {
+        "meaning": "increasing in size, number, or importance, often into new areas.",
+        "pos": "verb"
+      },
+      "offerings": {
+        "meaning": "products, services, or investments that a company makes available.",
+        "pos": "noun"
+      },
+      "platform": {
+        "meaning": "a digital system or service that allows users to interact or perform tasks.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing a real-world asset.",
+        "pos": "adjective"
+      },
+      "shares": {
+        "meaning": "units of ownership in a company, typically bought and sold on an exchange.",
+        "pos": "noun"
+      },
+      "private": {
+        "meaning": "owned by individuals or companies rather than by the government or public.",
+        "pos": "adjective"
+      },
+      "high-profile": {
+        "meaning": "attracting a lot of public attention and media coverage due to importance.",
+        "pos": "adjective"
+      },
+      "leverage": {
+        "meaning": "the use of borrowed capital to increase potential returns from an investment.",
+        "pos": "noun"
+      },
+      "pre-ipo": {
+        "meaning": "referring to the period before a company's Initial Public Offering of stock.",
+        "pos": "adjective"
+      },
+      "valuations": {
+        "meaning": "the process of estimating the monetary worth or fair price of something.",
+        "pos": "noun"
+      },
+      "exchange-traded": {
+        "meaning": "investments that are bought and sold on a stock exchange like regular stocks.",
+        "pos": "adjective"
+      },
+      "funds": {
+        "meaning": "sums of money saved or invested for a particular purpose or managed collectively.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "an important new plan or process designed to achieve a specific aim.",
+        "pos": "noun"
+      },
+      "democratizes": {
+        "meaning": "makes something available to everyone, not just a select few or elite.",
+        "pos": "verb"
+      },
+      "exclusive": {
+        "meaning": "restricted to a particular person, group, or class, often implying high status.",
+        "pos": "adjective"
+      },
+      "illiquid": {
+        "meaning": "not easily converted into cash without a significant loss in value.",
+        "pos": "adjective"
+      },
+      "convergence": {
+        "meaning": "the process or state of coming together from different directions to meet.",
+        "pos": "noun"
+      },
+      "capture": {
+        "meaning": "to take control of something, often a share of a market or attention.",
+        "pos": "verb"
+      },
+      "strategy": {
+        "meaning": "a plan of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "innovative": {
+        "meaning": "introducing new ideas, methods, or products in a creative way.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific types of companies is OKX offering tokenized shares for in Europe?",
+      "Q2: Explain what \"pre-IPO valuations\" means in the context of OKX's new offering and why it might be appealing to investors.",
+      "Q3: How might the tokenization of private company shares impact traditional venture capital funding models in the future?"
+    ],
+    "modelAnswers": [
+      "A1: OKX is offering tokenized shares for high-profile private companies, specifically mentioning AI firms like OpenAI and Anthropic, which are currently in their pre-IPO phase.",
+      "A2: \"Pre-IPO valuations\" refers to the estimated worth of a private company before its shares are offered to the public in an Initial Public Offering. It's appealing because investors can potentially gain from the company's growth before it goes public.",
+      "A3: Tokenization of private shares could democratize access to early-stage investments, potentially reducing the dominance of traditional VCs. It might create more liquid secondary markets for private equity, offering new exit strategies for founders and earlier liquidity for investors."
+    ]
+  },
+  {
+    "id": "cd-2026-09-11-3",
+    "date": "2026-09-11",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "머니그램이 스테이블코인 기반 카드를 출시하며 디지털 달러의 일상생활 사용을 어떻게 확대하는지 살펴보세요.",
+    "url": "https://www.coindesk.com/business/2026/09/08/moneygram-unveils-stablecoin-backed-card-as-digital-dollars-move-into-everyday-spending",
+    "title": "MoneyGram Launches Stablecoin-Backed Visa Card",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "MoneyGram, a global remittance company, is launching a new product. It has unveiled a Visa card backed by stablecoins. This initiative allows customers to hold digital dollars securely. Users can then spend directly from their stablecoin-backed balance. This bridges the gap between cryptocurrency and everyday spending. The card aims to make digital assets more practical for daily use. It simplifies transactions, avoiding complex crypto conversions. This move integrates stablecoins into the traditional financial system. It expands the utility and accessibility of digital dollars significantly. MoneyGram is leveraging its established network for wider adoption. Such innovations are crucial for stablecoins to achieve mainstream acceptance. This development demonstrates a tangible step towards a digital economy.",
+    "sentences": [
+      {
+        "en": "MoneyGram, a global remittance company, is launching a new product.",
+        "ko": "글로벌 송금 회사인 머니그램이 새로운 상품을 출시합니다."
+      },
+      {
+        "en": "It has unveiled a Visa card backed by stablecoins.",
+        "ko": "이 회사는 스테이블코인으로 지원되는 비자 카드를 공개했습니다."
+      },
+      {
+        "en": "This initiative allows customers to hold digital dollars securely.",
+        "ko": "이 이니셔티브는 고객이 디지털 달러를 안전하게 보유할 수 있도록 합니다."
+      },
+      {
+        "en": "Users can then spend directly from their stablecoin-backed balance.",
+        "ko": "사용자들은 스테이블코인으로 지원되는 잔액에서 직접 지출할 수 있습니다."
+      },
+      {
+        "en": "This bridges the gap between cryptocurrency and everyday spending.",
+        "ko": "이는 암호화폐와 일상 지출 사이의 격차를 메웁니다."
+      },
+      {
+        "en": "The card aims to make digital assets more practical for daily use.",
+        "ko": "이 카드는 디지털 자산을 일상생활에서 더욱 실용적으로 만드는 것을 목표로 합니다."
+      },
+      {
+        "en": "It simplifies transactions, avoiding complex crypto conversions.",
+        "ko": "이는 복잡한 암호화폐 변환을 피하고 거래를 단순화합니다."
+      },
+      {
+        "en": "This move integrates stablecoins into the traditional financial system.",
+        "ko": "이러한 움직임은 스테이블코인을 전통적인 금융 시스템에 통합합니다."
+      },
+      {
+        "en": "It expands the utility and accessibility of digital dollars significantly.",
+        "ko": "이는 디지털 달러의 유용성과 접근성을 크게 확장합니다."
+      },
+      {
+        "en": "MoneyGram is leveraging its established network for wider adoption.",
+        "ko": "머니그램은 더 넓은 채택을 위해 기존 네트워크를 활용하고 있습니다."
+      },
+      {
+        "en": "Such innovations are crucial for stablecoins to achieve mainstream acceptance.",
+        "ko": "이러한 혁신은 스테이블코인이 주류 수용을 달성하는 데 중요합니다."
+      },
+      {
+        "en": "This development demonstrates a tangible step towards a digital economy.",
+        "ko": "이러한 발전은 디지털 경제를 향한 실질적인 단계를 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "remittance": {
+        "meaning": "money sent by someone working abroad to their family in their home country.",
+        "pos": "noun"
+      },
+      "launching": {
+        "meaning": "starting or introducing something new, like a product or service.",
+        "pos": "verb"
+      },
+      "unveiled": {
+        "meaning": "showed or revealed something for the first time, often publicly.",
+        "pos": "verb"
+      },
+      "backed": {
+        "meaning": "supported or guaranteed by something, such as an asset or currency.",
+        "pos": "adjective"
+      },
+      "stablecoins": {
+        "meaning": "cryptocurrencies designed to maintain a stable value, often pegged to fiat currency.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "an important new plan or process designed to achieve a specific aim.",
+        "pos": "noun"
+      },
+      "digital": {
+        "meaning": "relating to or using computer technology, especially the internet.",
+        "pos": "adjective"
+      },
+      "securely": {
+        "meaning": "in a way that is protected from danger, harm, or unauthorized access.",
+        "pos": "adverb"
+      },
+      "balance": {
+        "meaning": "the amount of money you have in an account, available for use.",
+        "pos": "noun"
+      },
+      "bridges": {
+        "meaning": "connects or reduces the difference between two separate things or groups.",
+        "pos": "verb"
+      },
+      "gap": {
+        "meaning": "a difference or space between two things, often needing to be filled.",
+        "pos": "noun"
+      },
+      "cryptocurrency": {
+        "meaning": "a digital currency that uses cryptography for security and is decentralized.",
+        "pos": "noun"
+      },
+      "everyday": {
+        "meaning": "used or happening regularly, as part of normal daily life.",
+        "pos": "adjective"
+      },
+      "practical": {
+        "meaning": "suitable for a particular purpose; useful in real-world situations.",
+        "pos": "adjective"
+      },
+      "simplifies": {
+        "meaning": "makes something easier to do, understand, or manage.",
+        "pos": "verb"
+      },
+      "transactions": {
+        "meaning": "instances of buying, selling, or exchanging something, especially money.",
+        "pos": "noun"
+      },
+      "conversions": {
+        "meaning": "the process of changing something from one form or currency to another.",
+        "pos": "noun"
+      },
+      "integrates": {
+        "meaning": "combines two or more things so that they work together effectively.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a long-established custom or system.",
+        "pos": "adjective"
+      },
+      "financial": {
+        "meaning": "relating to money, banking, investment, and other aspects of finance.",
+        "pos": "adjective"
+      },
+      "utility": {
+        "meaning": "the state of being useful, profitable, or beneficial for a purpose.",
+        "pos": "noun"
+      },
+      "accessibility": {
+        "meaning": "the quality of being able to be reached, used, or understood by everyone.",
+        "pos": "noun"
+      },
+      "leveraging": {
+        "meaning": "using something to maximum advantage, especially existing resources.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "the ideas, attitudes, or activities that are regarded as normal or conventional.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the primary function of MoneyGram's new Visa card, and what kind of digital asset supports it?",
+      "Q2: How does the new MoneyGram card \"bridge the gap between cryptocurrency and everyday spending\"?",
+      "Q3: What potential challenges might MoneyGram face in encouraging widespread adoption of a stablecoin-backed card among its existing customer base?"
+    ],
+    "modelAnswers": [
+      "A1: The primary function of MoneyGram's new Visa card is to allow customers to hold digital dollars and spend directly from a stablecoin-backed balance. It is supported by stablecoins.",
+      "A2: The card bridges the gap by enabling users to spend their digital dollars, specifically stablecoins, in places that accept Visa cards for everyday purchases. This removes the need for complex crypto conversions before spending.",
+      "A3: MoneyGram might face challenges related to customer education about stablecoins, trust in digital assets, and potential regulatory hurdles in different jurisdictions. Users might also prefer traditional fiat for simplicity."
+    ]
+  },
+  {
+    "id": "ec-2026-09-11-1",
+    "date": "2026-09-11",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "AI가 금융 서비스 분야에서 어떻게 인력을 대체하고 업무 방식을 변화시키는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/10/openai-chatgpt-for-financial-services-targets-work-of-junior-bankers.html",
+    "title": "AI Disrupts Wall Street: ChatGPT for Finance",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "OpenAI has launched a new version of ChatGPT designed for financial services. This specialized AI aims to automate tasks traditionally performed by junior bankers. These tasks include extensive research, complex financial modeling, and creating pitchbooks. Junior bankers often spend long hours on these labor-intensive activities. The new ChatGPT could significantly reduce the need for human input in these areas. Financial institutions might see increased efficiency and cost savings. However, it also raises questions about the future roles of entry-level employees. Fintech professionals should understand this shift to adapt their strategies. AI's growing capability in finance signals a major transformation for the industry. This innovation suggests a future where human roles will evolve towards more strategic oversight.",
+    "sentences": [
+      {
+        "en": "OpenAI has launched a new version of ChatGPT designed for financial services.",
+        "ko": "OpenAI는 금융 서비스를 위해 설계된 새로운 버전의 ChatGPT를 출시했습니다."
+      },
+      {
+        "en": "This specialized AI aims to automate tasks traditionally performed by junior bankers.",
+        "ko": "이 전문 AI는 주니어 뱅커들이 전통적으로 수행하던 업무를 자동화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "These tasks include extensive research, complex financial modeling, and creating pitchbooks.",
+        "ko": "이러한 업무에는 광범위한 조사, 복잡한 금융 모델링, 그리고 피치북 작성이 포함됩니다."
+      },
+      {
+        "en": "Junior bankers often spend long hours on these labor-intensive activities.",
+        "ko": "주니어 뱅커들은 이러한 노동 집약적인 활동에 많은 시간을 보냅니다."
+      },
+      {
+        "en": "The new ChatGPT could significantly reduce the need for human input in these areas.",
+        "ko": "새로운 ChatGPT는 이러한 분야에서 사람의 투입 필요성을 크게 줄일 수 있습니다."
+      },
+      {
+        "en": "Financial institutions might see increased efficiency and cost savings.",
+        "ko": "금융 기관들은 효율성 증가와 비용 절감을 경험할 수 있습니다."
+      },
+      {
+        "en": "However, it also raises questions about the future roles of entry-level employees.",
+        "ko": "하지만 이는 또한 신입 직원들의 미래 역할에 대한 의문을 제기합니다."
+      },
+      {
+        "en": "Fintech professionals should understand this shift to adapt their strategies.",
+        "ko": "핀테크 전문가들은 이러한 변화를 이해하고 전략을 조정해야 합니다."
+      },
+      {
+        "en": "AI's growing capability in finance signals a major transformation for the industry.",
+        "ko": "금융 분야에서 AI의 증가하는 역량은 업계의 주요 변화를 알립니다."
+      },
+      {
+        "en": "This innovation suggests a future where human roles will evolve towards more strategic oversight.",
+        "ko": "이러한 혁신은 인간의 역할이 더 전략적인 감독으로 발전할 미래를 시사합니다."
+      }
+    ],
+    "glossary": {
+      "launched": {
+        "meaning": "started or introduced something new, especially a product or service.",
+        "pos": "verb"
+      },
+      "specialized": {
+        "meaning": "designed or developed for a particular purpose or area of knowledge.",
+        "pos": "adjective"
+      },
+      "automate": {
+        "meaning": "to make a process or task operate using machines or computers instead of people.",
+        "pos": "verb"
+      },
+      "traditionally": {
+        "meaning": "in a way that follows old customs or beliefs that have existed for a long time.",
+        "pos": "adverb"
+      },
+      "performed": {
+        "meaning": "carried out or completed a task or action.",
+        "pos": "verb"
+      },
+      "extensive": {
+        "meaning": "covering a large area or having a wide range of details.",
+        "pos": "adjective"
+      },
+      "modeling": {
+        "meaning": "the process of creating a simplified representation of a system to analyze its behavior.",
+        "pos": "noun"
+      },
+      "pitchbooks": {
+        "meaning": "presentations used by investment bankers to propose financial ideas to clients.",
+        "pos": "noun"
+      },
+      "labor-intensive": {
+        "meaning": "requiring a lot of effort and time, especially from many workers.",
+        "pos": "adjective"
+      },
+      "significantly": {
+        "meaning": "in a way that is large or important enough to have an effect.",
+        "pos": "adverb"
+      },
+      "reduce": {
+        "meaning": "to make something smaller in amount, size, or degree.",
+        "pos": "verb"
+      },
+      "input": {
+        "meaning": "the information, data, or effort that is put into a system or process.",
+        "pos": "noun"
+      },
+      "institutions": {
+        "meaning": "large organizations like banks or universities that have an important purpose.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "the state of achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "cost": {
+        "meaning": "the amount of money needed to buy, do, or produce something.",
+        "pos": "noun"
+      },
+      "savings": {
+        "meaning": "money that you keep or do not spend, or a reduction in the amount of money spent.",
+        "pos": "noun"
+      },
+      "raises": {
+        "meaning": "brings up a question, issue, or problem for consideration.",
+        "pos": "verb"
+      },
+      "roles": {
+        "meaning": "the functions or positions that someone or something has in a particular situation.",
+        "pos": "noun"
+      },
+      "adapt": {
+        "meaning": "to change something to suit different conditions or a new purpose.",
+        "pos": "verb"
+      },
+      "strategies": {
+        "meaning": "carefully planned actions or methods used to achieve a particular goal.",
+        "pos": "noun"
+      },
+      "capability": {
+        "meaning": "the ability or power to do something.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or shows that something is happening or will happen.",
+        "pos": "verb"
+      },
+      "transformation": {
+        "meaning": "a complete change in the appearance or character of something.",
+        "pos": "noun"
+      },
+      "oversight": {
+        "meaning": "the action of supervising someone or something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, what specific tasks are traditionally handled by junior bankers that the new ChatGPT aims to automate?",
+      "Q2: In the context of the article, what does \"labor-intensive\" mean regarding the tasks junior bankers perform, and how does AI impact this?",
+      "Q3: Do you believe AI's automation of financial tasks will ultimately create more jobs in new areas, or lead to significant job losses in the finance industry? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: The new ChatGPT aims to automate tasks such as extensive research, complex financial modeling, and creating pitchbooks, which are traditionally handled by junior bankers.",
+      "A2: \"Labor-intensive\" refers to tasks requiring a lot of human effort and time. AI impacts this by significantly reducing the need for human input, potentially increasing efficiency and saving costs.",
+      "A3: I believe AI will likely lead to a shift in job roles rather than mass job losses. While some tasks will be automated, new roles focused on AI management, data interpretation, and strategic oversight will emerge."
+    ]
+  },
+  {
+    "id": "ec-2026-09-11-2",
+    "date": "2026-09-11",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "유럽중앙은행이 금리를 인상한 배경과 이것이 인플레이션 및 유럽 경제에 미치는 영향을 파악하세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/10/ecb-raises-interest-rates-to-25-amid-warning-iran-war-is-fuelling-inflation",
+    "title": "ECB Hikes Rates: Battling Inflation and Geopolitical Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The European Central Bank (ECB) recently raised its key interest rates to 2.5%. This decision aims to combat persistent and growing inflationary pressures across the eurozone. The ECB warned that the ongoing conflict in Iran is fueling these price increases. Higher energy costs, particularly for oil, are a significant factor. The bank stated that current inflationary pressures will be \"longer lasting\" than expected. Raising interest rates makes borrowing more expensive for businesses and consumers. This action is intended to cool down economic activity and reduce demand. Ultimately, the goal is to bring inflation back to the ECB's target level. This move also caused borrowing costs to climb further across Europe. Financial markets are closely watching central bank actions to gauge future economic trends.",
+    "sentences": [
+      {
+        "en": "The European Central Bank (ECB) recently raised its key interest rates to 2.5%.",
+        "ko": "유럽중앙은행(ECB)은 최근 기준 금리를 2.5%로 인상했습니다."
+      },
+      {
+        "en": "This decision aims to combat persistent and growing inflationary pressures across the eurozone.",
+        "ko": "이 결정은 유로존 전반에 걸쳐 지속적이고 증가하는 인플레이션 압력에 맞서기 위함입니다."
+      },
+      {
+        "en": "The ECB warned that the ongoing conflict in Iran is fueling these price increases.",
+        "ko": "ECB는 이란에서의 지속적인 분쟁이 이러한 물가 상승을 부추기고 있다고 경고했습니다."
+      },
+      {
+        "en": "Higher energy costs, particularly for oil, are a significant factor.",
+        "ko": "특히 유가를 포함한 높은 에너지 비용이 중요한 요인입니다."
+      },
+      {
+        "en": "The bank stated that current inflationary pressures will be \"longer lasting\" than expected.",
+        "ko": "은행은 현재의 인플레이션 압력이 예상보다 \"더 오래 지속될\" 것이라고 밝혔습니다."
+      },
+      {
+        "en": "Raising interest rates makes borrowing more expensive for businesses and consumers.",
+        "ko": "금리 인상은 기업과 소비자에게 대출 비용을 더 비싸게 만듭니다."
+      },
+      {
+        "en": "This action is intended to cool down economic activity and reduce demand.",
+        "ko": "이러한 조치는 경제 활동을 둔화시키고 수요를 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "Ultimately, the goal is to bring inflation back to the ECB's target level.",
+        "ko": "궁극적으로 목표는 인플레이션을 ECB의 목표 수준으로 되돌리는 것입니다."
+      },
+      {
+        "en": "This move also caused borrowing costs to climb further across Europe.",
+        "ko": "이러한 움직임은 또한 유럽 전역의 대출 비용을 더욱 상승시켰습니다."
+      },
+      {
+        "en": "Financial markets are closely watching central bank actions to gauge future economic trends.",
+        "ko": "금융 시장은 미래 경제 동향을 측정하기 위해 중앙은행의 조치를 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "key": {
+        "meaning": "very important or essential for understanding or achieving something.",
+        "pos": "adjective"
+      },
+      "interest": {
+        "meaning": "the money charged by a bank or other financial institution for borrowing money.",
+        "pos": "noun"
+      },
+      "combat": {
+        "meaning": "to try to stop something bad from happening or getting worse.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or happen, especially for a longer time than expected.",
+        "pos": "adjective"
+      },
+      "inflationary": {
+        "meaning": "related to or causing a general increase in prices and fall in the purchasing value of money.",
+        "pos": "adjective"
+      },
+      "pressures": {
+        "meaning": "forces or influences that make it difficult for things to continue as they are.",
+        "pos": "noun"
+      },
+      "eurozone": {
+        "meaning": "the group of European Union countries that use the euro as their common currency.",
+        "pos": "noun"
+      },
+      "ongoing": {
+        "meaning": "continuing to happen or develop.",
+        "pos": "adjective"
+      },
+      "fueling": {
+        "meaning": "increasing or strengthening something, often in a negative way.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "factor": {
+        "meaning": "a circumstance, fact, or influence that contributes to a result.",
+        "pos": "noun"
+      },
+      "stated": {
+        "meaning": "expressed something clearly and definitely in words.",
+        "pos": "verb"
+      },
+      "current": {
+        "meaning": "happening or existing now.",
+        "pos": "adjective"
+      },
+      "lasting": {
+        "meaning": "continuing for a long period of time.",
+        "pos": "adjective"
+      },
+      "expensive": {
+        "meaning": "costing a lot of money.",
+        "pos": "adjective"
+      },
+      "intended": {
+        "meaning": "planned or meant to be done.",
+        "pos": "adjective"
+      },
+      "cool": {
+        "meaning": "to reduce the level of something, such as economic activity or demand.",
+        "pos": "verb"
+      },
+      "demand": {
+        "meaning": "the desire of consumers for a particular product or service.",
+        "pos": "noun"
+      },
+      "ultimately": {
+        "meaning": "in the end, after a long and often complicated series of events.",
+        "pos": "adverb"
+      },
+      "target": {
+        "meaning": "a specific goal or level that you are trying to achieve.",
+        "pos": "noun"
+      },
+      "climb": {
+        "meaning": "to increase in amount or value.",
+        "pos": "verb"
+      },
+      "gauge": {
+        "meaning": "to estimate or judge something, especially a feeling or situation.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific percentage did the European Central Bank raise its interest rates to, and what was the primary reason for this decision?",
+      "Q2: Explain what \"inflationary pressures\" means in the context of the ECB's decision and how the Iran conflict is contributing to them.",
+      "Q3: How might the ECB's decision to raise interest rates affect the average consumer in the eurozone, both positively and negatively?"
+    ],
+    "modelAnswers": [
+      "A1: The ECB raised its key interest rates to 2.5% primarily to combat persistent and growing inflationary pressures across the eurozone.",
+      "A2: \"Inflationary pressures\" refer to forces causing a general increase in prices. The Iran conflict contributes by fueling higher energy costs, particularly for oil, which then drives up overall prices.",
+      "A3: Positively, it aims to reduce inflation, making goods more affordable in the long run. Negatively, it makes borrowing more expensive for mortgages and loans, potentially slowing economic growth and consumer spending."
+    ]
+  },
+  {
+    "id": "ec-2026-09-11-3",
+    "date": "2026-09-11",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "전 세계 채권 시장의 매도세가 다시 시작된 이유와 이것이 금리 및 인플레이션에 어떤 영향을 미치는지 살펴보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/10/global-bond-selloff-oil-prices-inflation-middle-east-conflict-government-borrowing",
+    "title": "Bond Sell-Off Resumes Amid Inflation and Geopolitical Fears",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Global government bond markets are experiencing renewed selling pressure. Nervous investors are dumping government bonds across major economies. This widespread sell-off is driving up the cost of borrowing for governments. Surging oil prices are a key factor amplifying fears about rising inflation. Concerns over the Middle East conflict are also contributing to market instability. When bond prices fall, their yields, or effective interest rates, go up. Higher yields mean it costs more for governments to finance their debt. This situation can lead to increased borrowing costs for businesses and consumers too. It reflects a lack of confidence in the future economic outlook. The bond market's reaction suggests that inflation might persist longer than anticipated. This instability makes it harder for companies to raise capital and plan investments.",
+    "sentences": [
+      {
+        "en": "Global government bond markets are experiencing renewed selling pressure.",
+        "ko": "전 세계 국채 시장이 다시 매도 압력을 겪고 있습니다."
+      },
+      {
+        "en": "Nervous investors are dumping government bonds across major economies.",
+        "ko": "불안한 투자자들이 주요 경제국 전반에서 국채를 대량으로 매각하고 있습니다."
+      },
+      {
+        "en": "This widespread sell-off is driving up the cost of borrowing for governments.",
+        "ko": "이러한 광범위한 매도세는 정부의 차입 비용을 증가시키고 있습니다."
+      },
+      {
+        "en": "Surging oil prices are a key factor amplifying fears about rising inflation.",
+        "ko": "급등하는 유가는 인플레이션 상승에 대한 우려를 증폭시키는 핵심 요인입니다."
+      },
+      {
+        "en": "Concerns over the Middle East conflict are also contributing to market instability.",
+        "ko": "중동 분쟁에 대한 우려 또한 시장 불안정성에 기여하고 있습니다."
+      },
+      {
+        "en": "When bond prices fall, their yields, or effective interest rates, go up.",
+        "ko": "채권 가격이 하락하면 채권의 수익률, 즉 실질 금리가 상승합니다."
+      },
+      {
+        "en": "Higher yields mean it costs more for governments to finance their debt.",
+        "ko": "수익률이 높다는 것은 정부가 부채를 조달하는 데 더 많은 비용이 든다는 것을 의미합니다."
+      },
+      {
+        "en": "This situation can lead to increased borrowing costs for businesses and consumers too.",
+        "ko": "이러한 상황은 기업과 소비자의 차입 비용 증가로 이어질 수도 있습니다."
+      },
+      {
+        "en": "It reflects a lack of confidence in the future economic outlook.",
+        "ko": "이는 미래 경제 전망에 대한 신뢰 부족을 반영합니다."
+      },
+      {
+        "en": "The bond market's reaction suggests that inflation might persist longer than anticipated.",
+        "ko": "채권 시장의 반응은 인플레이션이 예상보다 오래 지속될 수 있음을 시사합니다."
+      },
+      {
+        "en": "This instability makes it harder for companies to raise capital and plan investments.",
+        "ko": "이러한 불안정성은 기업이 자본을 조달하고 투자를 계획하는 것을 더 어렵게 만듭니다."
+      }
+    ],
+    "glossary": {
+      "global": {
+        "meaning": "relating to the whole world.",
+        "pos": "adjective"
+      },
+      "government": {
+        "meaning": "the group of people with the authority to govern a country or state.",
+        "pos": "noun"
+      },
+      "bond": {
+        "meaning": "a certificate issued by a government or company promising to pay back money with interest.",
+        "pos": "noun"
+      },
+      "markets": {
+        "meaning": "places or systems where financial products are bought and sold.",
+        "pos": "noun"
+      },
+      "experiencing": {
+        "meaning": "encountering or going through an event or situation.",
+        "pos": "verb"
+      },
+      "renewed": {
+        "meaning": "started again or continued with fresh energy or enthusiasm.",
+        "pos": "adjective"
+      },
+      "selling": {
+        "meaning": "the act of exchanging goods or services for money.",
+        "pos": "noun"
+      },
+      "pressure": {
+        "meaning": "the force or influence that makes something happen or change.",
+        "pos": "noun"
+      },
+      "nervous": {
+        "meaning": "worried or anxious about something.",
+        "pos": "adjective"
+      },
+      "investors": {
+        "meaning": "people or organizations that put money into financial schemes, expecting to get a profit.",
+        "pos": "noun"
+      },
+      "dumping": {
+        "meaning": "selling something quickly and in large quantities, often at a low price.",
+        "pos": "verb"
+      },
+      "widespread": {
+        "meaning": "existing or happening over a large area or among many people.",
+        "pos": "adjective"
+      },
+      "driving": {
+        "meaning": "causing something to move or happen.",
+        "pos": "verb"
+      },
+      "surging": {
+        "meaning": "increasing suddenly and strongly.",
+        "pos": "adjective"
+      },
+      "amplifying": {
+        "meaning": "making something stronger, clearer, or more intense.",
+        "pos": "verb"
+      },
+      "fears": {
+        "meaning": "strong feelings of worry about something dangerous or unpleasant.",
+        "pos": "noun"
+      },
+      "contributing": {
+        "meaning": "helping to cause or bring about something.",
+        "pos": "verb"
+      },
+      "instability": {
+        "meaning": "the state of being likely to change or fail.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the income returned on an investment, typically expressed as a percentage.",
+        "pos": "noun"
+      },
+      "effective": {
+        "meaning": "producing a desired or intended result.",
+        "pos": "adjective"
+      },
+      "finance": {
+        "meaning": "to provide money for a project or person.",
+        "pos": "verb"
+      },
+      "debt": {
+        "meaning": "money that is owed or due.",
+        "pos": "noun"
+      },
+      "reflects": {
+        "meaning": "shows or indicates something.",
+        "pos": "verb"
+      },
+      "outlook": {
+        "meaning": "the likely future prospects or situation.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What are the two main factors mentioned in the passage contributing to the global bond sell-off?",
+      "Q2: Explain the relationship between falling bond prices and rising yields, as described in the article.",
+      "Q3: If you were a financial advisor, what advice would you give to clients concerned about the implications of a global bond market sell-off on their investments?"
+    ],
+    "modelAnswers": [
+      "A1: The two main factors contributing to the global bond sell-off are surging oil prices, amplifying inflation fears, and concerns over the Middle East conflict.",
+      "A2: When bond prices fall, the fixed interest payment becomes a larger percentage of the lower bond price, effectively increasing the yield or effective interest rate for new buyers.",
+      "A3: I would advise clients to diversify their portfolios and consider investments that perform well during inflation, such as real assets or inflation-protected securities. I'd also emphasize long-term strategies over short-term market reactions."
+    ]
+  },
+  {
     "id": "cd-2026-09-10-1",
     "date": "2026-09-10",
     "rank": 1,
