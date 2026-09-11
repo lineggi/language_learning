@@ -1,5 +1,941 @@
 [
   {
+    "id": "cd-2026-09-12-1",
+    "date": "2026-09-12",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "인도가 디지털 루피 결제를 통해 6,200억 달러 규모의 회사채 시장을 토큰화하기 시작했습니다.",
+    "url": "https://www.coindesk.com/markets/2026/09/11/india-starts-tokenizing-usd620-billion-corporate-bond-market-with-digital-rupee-settlement",
+    "title": "India Tokenizes Corporate Bonds with Digital Rupee",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "India has launched a significant pilot program for corporate bond tokenization. This initiative aims to digitize its massive $620 billion corporate bond market. The Securities and Exchange Board of India (SEBI) is leading this project. It uses a \"Demat 2.0\" framework, turning traditional bonds into digital tokens. Crucially, settlements are made using the Reserve Bank of India's (RBI) wholesale digital rupee. This integration of a Central Bank Digital Currency (CBDC) is a major step. It showcases a practical application of blockchain technology in finance. The project could enhance efficiency and transparency in bond trading. Future phases plan to introduce secondary trading and retail investor access. This move positions India at the forefront of financial innovation and regulation. It could serve as a model for other nations exploring similar digital transformations.",
+    "sentences": [
+      {
+        "en": "India has launched a significant pilot program for corporate bond tokenization.",
+        "ko": "인도가 회사채 토큰화를 위한 중요한 시범 프로그램을 시작했습니다."
+      },
+      {
+        "en": "This initiative aims to digitize its massive $620 billion corporate bond market.",
+        "ko": "이 이니셔티브는 6,200억 달러에 달하는 방대한 회사채 시장을 디지털화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The Securities and Exchange Board of India (SEBI) is leading this project.",
+        "ko": "인도 증권거래위원회(SEBI)가 이 프로젝트를 이끌고 있습니다."
+      },
+      {
+        "en": "It uses a \"Demat 2.0\" framework, turning traditional bonds into digital tokens.",
+        "ko": "이는 'Demat 2.0' 프레임워크를 활용하여 전통적인 채권을 디지털 토큰으로 전환합니다."
+      },
+      {
+        "en": "Crucially, settlements are made using the Reserve Bank of India's (RBI) wholesale digital rupee.",
+        "ko": "특히, 결제는 인도 중앙은행(RBI)의 도매용 디지털 루피를 사용하여 이루어집니다."
+      },
+      {
+        "en": "This integration of a Central Bank Digital Currency (CBDC) is a major step.",
+        "ko": "중앙은행 디지털 통화(CBDC)의 이러한 통합은 중요한 진전입니다."
+      },
+      {
+        "en": "It showcases a practical application of blockchain technology in finance.",
+        "ko": "이는 금융 분야에서 블록체인 기술의 실질적인 적용을 보여줍니다."
+      },
+      {
+        "en": "The project could enhance efficiency and transparency in bond trading.",
+        "ko": "이 프로젝트는 채권 거래의 효율성과 투명성을 높일 수 있습니다."
+      },
+      {
+        "en": "Future phases plan to introduce secondary trading and retail investor access.",
+        "ko": "향후 단계에서는 2차 거래와 개인 투자자 접근을 도입할 계획입니다."
+      },
+      {
+        "en": "This move positions India at the forefront of financial innovation and regulation.",
+        "ko": "이러한 움직임은 인도를 금융 혁신 및 규제의 최전선에 놓이게 합니다."
+      },
+      {
+        "en": "It could serve as a model for other nations exploring similar digital transformations.",
+        "ko": "이는 유사한 디지털 전환을 모색하는 다른 국가들에게 모범이 될 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "pilot": {
+        "meaning": "a small-scale trial conducted to test the feasibility or effectiveness of a new product or idea.",
+        "pos": "noun"
+      },
+      "tokenization": {
+        "meaning": "the process of converting a real-world asset or right into a digital token on a blockchain.",
+        "pos": "noun"
+      },
+      "corporate": {
+        "meaning": "relating to a large company or group, especially one authorized to act as a single entity.",
+        "pos": "adjective"
+      },
+      "bond": {
+        "meaning": "a certificate issued by a government or company promising to pay back borrowed money with interest.",
+        "pos": "noun"
+      },
+      "digitize": {
+        "meaning": "to convert information or assets into a digital format that can be processed by a computer.",
+        "pos": "verb"
+      },
+      "massive": {
+        "meaning": "extremely large in size, amount, or degree.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "a basic structure of ideas or facts that provides a basis for something.",
+        "pos": "noun"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "crucially": {
+        "meaning": "in a way that is of great importance or essential to a successful outcome.",
+        "pos": "adverb"
+      },
+      "settlements": {
+        "meaning": "the process of completing a financial transaction by exchanging assets or funds.",
+        "pos": "noun"
+      },
+      "wholesale": {
+        "meaning": "relating to the business of selling goods in large quantities to be retailed by others.",
+        "pos": "adjective"
+      },
+      "integration": {
+        "meaning": "the act or process of combining two or more things so that they work together effectively.",
+        "pos": "noun"
+      },
+      "currency": {
+        "meaning": "a system of money in general use in a particular country.",
+        "pos": "noun"
+      },
+      "showcases": {
+        "meaning": "to display or present something impressively, highlighting its best qualities.",
+        "pos": "verb"
+      },
+      "application": {
+        "meaning": "a particular use or purpose for which something is designed.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "to improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being able to accomplish something with the least waste of time and effort.",
+        "pos": "noun"
+      },
+      "transparency": {
+        "meaning": "the condition of being open, honest, and easily understood, especially in business.",
+        "pos": "noun"
+      },
+      "phases": {
+        "meaning": "distinct stages in a process of change or development.",
+        "pos": "noun"
+      },
+      "retail": {
+        "meaning": "relating to the sale of goods directly to consumers in small quantities.",
+        "pos": "adjective"
+      },
+      "forefront": {
+        "meaning": "the leading or most important position or place.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or devices.",
+        "pos": "noun"
+      },
+      "regulation": {
+        "meaning": "a rule or directive made and maintained by an authority.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What are the key components of India's new pilot program for corporate bond tokenization, and which entities are involved?",
+      "In the context of this article, what does \"tokenization\" mean, and how does it relate to the \"digital rupee\"?",
+      "How might the tokenization of corporate bonds, coupled with CBDC settlements, impact the global financial landscape in the long term?"
+    ],
+    "modelAnswers": [
+      "India's pilot program tokenizes corporate bonds using a \"Demat 2.0\" framework. The Securities and Exchange Board of India (SEBI) leads it, and settlements occur via the Reserve Bank of India's (RBI) wholesale digital rupee.",
+      "\"Tokenization\" here refers to converting traditional corporate bonds into digital tokens on a blockchain. The \"digital rupee,\" a Central Bank Digital Currency (CBDC), is used to settle these tokenized bond transactions.",
+      "This initiative could significantly boost efficiency and transparency in bond markets. It might also inspire other nations to explore similar digital transformations, potentially leading to a more interconnected and digitally native global financial system."
+    ]
+  },
+  {
+    "id": "cd-2026-09-12-2",
+    "date": "2026-09-12",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "인도 최고 부자 주정부가 인프라 자금 조달을 위해 자체 자산을 토큰화하는 방안을 모색 중입니다.",
+    "url": "https://www.coindesk.com/markets/2026/09/11/india-s-richest-state-is-exploring-tokenizing-its-own-assets-to-fund-new-infrastructure",
+    "title": "Indian State Plans Asset Tokenization for Infrastructure",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Maharashtra, India's wealthiest state, is actively exploring asset tokenization. The state government is currently drafting a comprehensive policy for this purpose. This pioneering initiative aims to fund significant new infrastructure projects. It involves converting various state-owned physical assets into digital tokens. Electricity transmission infrastructure is one key asset under consideration for this. Tokenization can unlock new, efficient funding avenues for public projects. It allows for fractional ownership, potentially attracting a wider range of diverse investors. This innovative approach could democratize investment in large-scale state developments. It also enhances transparency in both asset management and project financing. Such a system promotes greater accountability and reduces potential for corruption. The move signifies a growing adoption of blockchain technology by governments globally. Maharashtra could therefore set a crucial precedent for other regions worldwide.",
+    "sentences": [
+      {
+        "en": "Maharashtra, India's wealthiest state, is actively exploring asset tokenization.",
+        "ko": "인도에서 가장 부유한 주인 마하라슈트라가 자산 토큰화를 적극적으로 모색하고 있습니다."
+      },
+      {
+        "en": "The state government is currently drafting a comprehensive policy for this purpose.",
+        "ko": "주 정부는 현재 이를 위한 포괄적인 정책을 초안 작성 중입니다."
+      },
+      {
+        "en": "This pioneering initiative aims to fund significant new infrastructure projects.",
+        "ko": "이 선구적인 이니셔티브는 중요한 신규 인프라 프로젝트에 자금을 조달하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It involves converting various state-owned physical assets into digital tokens.",
+        "ko": "이는 다양한 주 소유의 물리적 자산을 디지털 토큰으로 전환하는 것을 포함합니다."
+      },
+      {
+        "en": "Electricity transmission infrastructure is one key asset under consideration for this.",
+        "ko": "전력 송전 인프라가 이를 위해 고려되는 주요 자산 중 하나입니다."
+      },
+      {
+        "en": "Tokenization can unlock new, efficient funding avenues for public projects.",
+        "ko": "토큰화는 공공 프로젝트를 위한 새롭고 효율적인 자금 조달 경로를 열 수 있습니다."
+      },
+      {
+        "en": "It allows for fractional ownership, potentially attracting a wider range of diverse investors.",
+        "ko": "이는 분할 소유를 가능하게 하여 더 넓고 다양한 투자자들을 유치할 수 있습니다."
+      },
+      {
+        "en": "This innovative approach could democratize investment in large-scale state developments.",
+        "ko": "이 혁신적인 접근 방식은 대규모 주 개발 프로젝트에 대한 투자를 민주화할 수 있습니다."
+      },
+      {
+        "en": "It also enhances transparency in both asset management and project financing.",
+        "ko": "또한 자산 관리와 프로젝트 자금 조달 모두에서 투명성을 향상시킵니다."
+      },
+      {
+        "en": "Such a system promotes greater accountability and reduces potential for corruption.",
+        "ko": "이러한 시스템은 더 큰 책임성을 촉진하고 부패 가능성을 줄입니다."
+      },
+      {
+        "en": "The move signifies a growing adoption of blockchain technology by governments globally.",
+        "ko": "이러한 움직임은 전 세계 정부에 의한 블록체인 기술 채택이 증가하고 있음을 나타냅니다."
+      },
+      {
+        "en": "Maharashtra could therefore set a crucial precedent for other regions worldwide.",
+        "ko": "따라서 마하라슈트라는 전 세계 다른 지역에 중요한 선례를 남길 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "wealthiest": {
+        "meaning": "having a great deal of money, property, or valuable possessions.",
+        "pos": "adjective"
+      },
+      "exploring": {
+        "meaning": "to inquire into or discuss a subject in detail.",
+        "pos": "verb"
+      },
+      "drafting": {
+        "meaning": "to prepare a preliminary version of a document or plan.",
+        "pos": "verb"
+      },
+      "comprehensive": {
+        "meaning": "including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "pioneering": {
+        "meaning": "involving new ideas or methods; innovative and groundbreaking.",
+        "pos": "adjective"
+      },
+      "initiative": {
+        "meaning": "an important new plan or action taken to solve a problem or improve a situation.",
+        "pos": "noun"
+      },
+      "fund": {
+        "meaning": "to provide money for a particular purpose.",
+        "pos": "verb"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of a society.",
+        "pos": "noun"
+      },
+      "converting": {
+        "meaning": "to change the form, character, or function of something.",
+        "pos": "verb"
+      },
+      "transmission": {
+        "meaning": "the process of sending or transmitting something, such as electricity or data.",
+        "pos": "noun"
+      },
+      "consideration": {
+        "meaning": "careful thought, typically over a period of time.",
+        "pos": "noun"
+      },
+      "unlock": {
+        "meaning": "to make something available or accessible that was previously restricted.",
+        "pos": "verb"
+      },
+      "avenues": {
+        "meaning": "a way or means of approaching or achieving something.",
+        "pos": "noun"
+      },
+      "fractional": {
+        "meaning": "relating to or constituting a part of a whole; very small.",
+        "pos": "adjective"
+      },
+      "ownership": {
+        "meaning": "the act, state, or right of possessing something.",
+        "pos": "noun"
+      },
+      "attracting": {
+        "meaning": "to draw by appeal or charm.",
+        "pos": "verb"
+      },
+      "diverse": {
+        "meaning": "showing a great deal of variety; very different.",
+        "pos": "adjective"
+      },
+      "democratize": {
+        "meaning": "to make something accessible to everyone.",
+        "pos": "verb"
+      },
+      "enhances": {
+        "meaning": "to improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "signifies": {
+        "meaning": "to be an indication of something; to mean.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the action of formally taking a new idea or method.",
+        "pos": "noun"
+      },
+      "precedent": {
+        "meaning": "an earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the primary goal of Maharashtra's asset tokenization policy, and what type of assets are being considered?",
+      "Explain how \"fractional ownership\" through tokenization could benefit infrastructure funding, based on the article's context.",
+      "Do you believe governments globally will increasingly adopt asset tokenization for public projects, and what potential challenges might they face?"
+    ],
+    "modelAnswers": [
+      "Maharashtra's primary goal is to fund new infrastructure projects by tokenizing state-owned assets. Electricity transmission infrastructure is specifically mentioned as a key asset under consideration.",
+      "Fractional ownership allows investors to buy small portions of large assets, making investments more accessible and affordable. This could attract a broader range of diverse investors, thereby unlocking new funding avenues for public projects.",
+      "Yes, it's likely more governments will explore asset tokenization due to its potential for enhanced funding and transparency. However, they may face challenges like regulatory uncertainty, technological integration complexities, and public acceptance issues."
+    ]
+  },
+  {
+    "id": "cd-2026-09-12-3",
+    "date": "2026-09-12",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "새로운 '클래리티 법안'이 분산 금융(DeFi) 및 신용조합 조항을 수정하며 규제 논의를 이어갑니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/10/new-clarity-act-text-tweaks-defi-credit-union-provisions-but-road-ahead-for-bill-remains-murky",
+    "title": "Clarity Act Tweaks DeFi, Credit Union Rules",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Senate is reviewing a revised version of the Clarity Act. This important bill aims to establish clearer regulations for crypto. Specifically, it includes new provisions related to Decentralized Finance (DeFi). It also addresses how credit unions can engage with digital assets. The updated text reflects ongoing efforts to define crypto's legal status. Republicans recently circulated the fresh draft before an upcoming vote. However, the bill needs significant bipartisan support to pass. A 60-vote threshold is required when the Senate reconvenes next week. The path forward for this legislation remains uncertain and complex. Its passage could provide much-needed regulatory certainty for the industry. Conversely, failure might prolong the current ambiguous legal environment. This act is crucial for shaping the future of crypto in the United States.",
+    "sentences": [
+      {
+        "en": "The U.S. Senate is reviewing a revised version of the Clarity Act.",
+        "ko": "미국 상원이 클래리티 법안의 개정안을 검토 중입니다."
+      },
+      {
+        "en": "This important bill aims to establish clearer regulations for crypto.",
+        "ko": "이 중요한 법안은 암호화폐에 대한 더 명확한 규제를 확립하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Specifically, it includes new provisions related to Decentralized Finance (DeFi).",
+        "ko": "특히, 이 법안은 분산 금융(DeFi)과 관련된 새로운 조항을 포함합니다."
+      },
+      {
+        "en": "It also addresses how credit unions can engage with digital assets.",
+        "ko": "또한 신용조합이 디지털 자산과 어떻게 상호작용할 수 있는지도 다룹니다."
+      },
+      {
+        "en": "The updated text reflects ongoing efforts to define crypto's legal status.",
+        "ko": "업데이트된 텍스트는 암호화폐의 법적 지위를 정의하려는 지속적인 노력을 반영합니다."
+      },
+      {
+        "en": "Republicans recently circulated the fresh draft before an upcoming vote.",
+        "ko": "공화당은 다가오는 표결에 앞서 최근 새로운 초안을 회람했습니다."
+      },
+      {
+        "en": "However, the bill needs significant bipartisan support to pass.",
+        "ko": "하지만 이 법안은 통과를 위해 상당한 초당적 지지가 필요합니다."
+      },
+      {
+        "en": "A 60-vote threshold is required when the Senate reconvenes next week.",
+        "ko": "상원이 다음 주에 다시 소집될 때 60표의 문턱이 필요합니다."
+      },
+      {
+        "en": "The path forward for this legislation remains uncertain and complex.",
+        "ko": "이 법안의 향후 경로는 불확실하고 복잡한 상태입니다."
+      },
+      {
+        "en": "Its passage could provide much-needed regulatory certainty for the industry.",
+        "ko": "법안이 통과되면 업계에 절실히 필요한 규제 확실성을 제공할 수 있습니다."
+      },
+      {
+        "en": "Conversely, failure might prolong the current ambiguous legal environment.",
+        "ko": "반대로, 실패는 현재의 모호한 법적 환경을 연장시킬 수 있습니다."
+      },
+      {
+        "en": "This act is crucial for shaping the future of crypto in the United States.",
+        "ko": "이 법안은 미국의 암호화폐 미래를 형성하는 데 결정적입니다."
+      }
+    ],
+    "glossary": {
+      "reviewing": {
+        "meaning": "to examine or assess something formally with the intention of instituting change if necessary.",
+        "pos": "verb"
+      },
+      "revised": {
+        "meaning": "having been re-examined and improved or amended.",
+        "pos": "adjective"
+      },
+      "establish": {
+        "meaning": "to set up or create something on a firm or permanent basis.",
+        "pos": "verb"
+      },
+      "regulations": {
+        "meaning": "rules or directives made and maintained by an authority.",
+        "pos": "noun"
+      },
+      "specifically": {
+        "meaning": "in a precise or exact manner; for a particular reason.",
+        "pos": "adverb"
+      },
+      "provisions": {
+        "meaning": "conditions or clauses in a legal document.",
+        "pos": "noun"
+      },
+      "decentralized": {
+        "meaning": "having power or authority distributed among people or organizations, rather than concentrated in one central place.",
+        "pos": "adjective"
+      },
+      "addresses": {
+        "meaning": "to deal with or discuss a subject or problem.",
+        "pos": "verb"
+      },
+      "circulated": {
+        "meaning": "to pass from person to person or place to place.",
+        "pos": "verb"
+      },
+      "bipartisan": {
+        "meaning": "involving the agreement or cooperation of two political parties that usually oppose each other's policies.",
+        "pos": "adjective"
+      },
+      "threshold": {
+        "meaning": "a level or point at which something starts to happen or change.",
+        "pos": "noun"
+      },
+      "reconvenes": {
+        "meaning": "to meet again after a break.",
+        "pos": "verb"
+      },
+      "uncertain": {
+        "meaning": "not known or definite.",
+        "pos": "adjective"
+      },
+      "initiative": {
+        "meaning": "an important new plan or action taken to solve a problem or improve a situation.",
+        "pos": "noun"
+      },
+      "passage": {
+        "meaning": "the process of moving through or past something, or the formal approval of a bill or law.",
+        "pos": "noun"
+      },
+      "certainty": {
+        "meaning": "the quality of being reliably true or definite.",
+        "pos": "noun"
+      },
+      "conversely": {
+        "meaning": "introducing a statement or idea that reverses one that has just been made or referred to.",
+        "pos": "adverb"
+      },
+      "prolong": {
+        "meaning": "to extend the duration of something.",
+        "pos": "verb"
+      },
+      "ambiguous": {
+        "meaning": "open to more than one interpretation; unclear or inexact.",
+        "pos": "adjective"
+      },
+      "crucial": {
+        "meaning": "of great importance.",
+        "pos": "adjective"
+      },
+      "shaping": {
+        "meaning": "to determine the form or future of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What are the main areas of crypto regulation addressed in the revised Clarity Act, and which political group circulated the draft?",
+      "In the context of the article, what does \"regulatory certainty\" refer to, and why is it important for the crypto industry?",
+      "Considering the need for bipartisan support, what might be the biggest challenge for the Clarity Act to pass, and what could be the consequences of its failure?"
+    ],
+    "modelAnswers": [
+      "The revised Clarity Act primarily addresses new provisions for Decentralized Finance (DeFi) and how credit unions can engage with digital assets. Republicans recently circulated the fresh draft.",
+      "\"Regulatory certainty\" refers to having clear and definite rules from authorities. It's important for crypto as it provides a predictable legal environment, fostering innovation and mainstream adoption by reducing risks and confusion.",
+      "The biggest challenge is securing the necessary bipartisan support for a 60-vote threshold. Failure could prolong the current ambiguous legal environment, hindering innovation and potentially driving crypto businesses to more favorable jurisdictions."
+    ]
+  },
+  {
+    "id": "ec-2026-09-12-1",
+    "date": "2026-09-12",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "핀테크 PM이라면 AI 결제 표준화 동향을 반드시 주목해야 합니다.",
+    "url": "https://www.cnbc.com/2026/09/10/ant-international-visa-mastercard-ai-agent-payment-standard.html",
+    "title": "Global Payment Giants Collaborate on AI Payments",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Ant International, Visa, and Mastercard are collaborating on AI payments. They aim to develop common standards for AI-agent transactions. This initiative will define how AI agents make purchases. It also focuses on verifying and monitoring these transactions. The partnership seeks to ensure security and reliability. Establishing clear protocols is crucial for widespread adoption. This collaboration could shape the future of digital payments. It will create a more seamless and integrated payment ecosystem. For fintech professionals, these standards are highly significant. They impact how AI will interact with financial services.",
+    "sentences": [
+      {
+        "en": "Ant International, Visa, and Mastercard are collaborating on AI payments.",
+        "ko": "앤트 인터내셔널, 비자, 마스터카드가 AI 결제 분야에서 협력하고 있습니다."
+      },
+      {
+        "en": "They aim to develop common standards for AI-agent transactions.",
+        "ko": "이들은 AI 에이전트 거래를 위한 공통 표준을 개발하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This initiative will define how AI agents make purchases.",
+        "ko": "이 이니셔티브는 AI 에이전트가 어떻게 구매를 할지 정의할 것입니다."
+      },
+      {
+        "en": "It also focuses on verifying and monitoring these transactions.",
+        "ko": "또한 이러한 거래를 검증하고 모니터링하는 데 중점을 둡니다."
+      },
+      {
+        "en": "The partnership seeks to ensure security and reliability.",
+        "ko": "이 파트너십은 보안과 신뢰성을 확보하고자 합니다."
+      },
+      {
+        "en": "Establishing clear protocols is crucial for widespread adoption.",
+        "ko": "명확한 프로토콜을 수립하는 것은 광범위한 채택에 매우 중요합니다."
+      },
+      {
+        "en": "This collaboration could shape the future of digital payments.",
+        "ko": "이 협력은 디지털 결제의 미래를 형성할 수 있습니다."
+      },
+      {
+        "en": "It will create a more seamless and integrated payment ecosystem.",
+        "ko": "더욱 원활하고 통합된 결제 생태계를 조성할 것입니다."
+      },
+      {
+        "en": "For fintech professionals, these standards are highly significant.",
+        "ko": "핀테크 전문가들에게 이러한 표준은 매우 중요합니다."
+      },
+      {
+        "en": "They impact how AI will interact with financial services.",
+        "ko": "이는 AI가 금융 서비스와 상호작용하는 방식에 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "collaborating": {
+        "meaning": "working together with others to achieve a shared goal or project",
+        "pos": "verb"
+      },
+      "aim": {
+        "meaning": "to intend to do something or to have a specific purpose",
+        "pos": "verb"
+      },
+      "standards": {
+        "meaning": "official rules or principles that are used to judge the quality or type of something",
+        "pos": "noun"
+      },
+      "agent": {
+        "meaning": "a computer program or system that performs a task on behalf of a user",
+        "pos": "noun"
+      },
+      "transactions": {
+        "meaning": "acts of buying or selling something, or of exchanging money or goods",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a problem",
+        "pos": "noun"
+      },
+      "define": {
+        "meaning": "to state or describe exactly what something is or what it means",
+        "pos": "verb"
+      },
+      "verifying": {
+        "meaning": "checking that something is true, accurate, or legal",
+        "pos": "verb"
+      },
+      "monitoring": {
+        "meaning": "regularly observing and checking the progress or quality of something over time",
+        "pos": "verb"
+      },
+      "partnership": {
+        "meaning": "a relationship in which two or more people or organizations work together",
+        "pos": "noun"
+      },
+      "ensure": {
+        "meaning": "to make certain that something will happen or be the case",
+        "pos": "verb"
+      },
+      "reliability": {
+        "meaning": "the quality of being able to be trusted or believed to work or behave well",
+        "pos": "noun"
+      },
+      "establishing": {
+        "meaning": "setting up something on a firm or permanent basis, like a system or rule",
+        "pos": "verb"
+      },
+      "protocols": {
+        "meaning": "official systems of rules or procedures that guide how things are done",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary for the success of something",
+        "pos": "adjective"
+      },
+      "widespread": {
+        "meaning": "existing or happening in many places or among many people",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "the act of starting to use or accept a new idea, method, or product",
+        "pos": "noun"
+      },
+      "shape": {
+        "meaning": "to influence the way that something develops or appears",
+        "pos": "verb"
+      },
+      "seamless": {
+        "meaning": "without any breaks or interruptions, making something appear smooth and continuous",
+        "pos": "adjective"
+      },
+      "integrated": {
+        "meaning": "with different parts working together as a single, combined system",
+        "pos": "adjective"
+      },
+      "ecosystem": {
+        "meaning": "a complex network or interconnected system, often referring to technology or business",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "important or noticeable, often having a strong effect on future developments",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Which three major companies are working together to develop AI payment standards, according to the passage?",
+      "What does \"interoperability\" mean in the context of new payment technologies, and why is it important for the \"digital ecosystem\"?",
+      "How might the development of common AI payment standards impact consumer trust and the overall adoption of AI-driven financial services?"
+    ],
+    "modelAnswers": [
+      "Ant International, Visa, and Mastercard are collaborating to develop common standards for AI payments.",
+      "Interoperability refers to the ability of different systems or applications to work together seamlessly. In the digital ecosystem, it's crucial for allowing various AI agents and payment platforms to communicate and process transactions efficiently, promoting broader adoption and innovation.",
+      "Common AI payment standards could significantly boost consumer trust by ensuring security and consistency across different platforms. This increased trust would likely lead to greater adoption of AI-driven financial services, as users feel more confident in their safety and functionality."
+    ]
+  },
+  {
+    "id": "ec-2026-09-12-2",
+    "date": "2026-09-12",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미 연준의 금리 인상 결정에 큰 영향을 미칠 최신 인플레이션 보고서를 분석합니다.",
+    "url": "https://www.cnbc.com/2026/09/11/cpi-inflation-report-august-2026.html",
+    "title": "August Inflation Data Hints at Fed Rate Hike",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "August inflation data suggests a potential Federal Reserve interest rate hike. The all-items consumer price index (CPI) was expected to rise 0.4%. This includes volatile food and energy prices. Core inflation, excluding these items, was predicted to gain 0.2%. The Dow Jones consensus provided these forecasts. Persistent inflation often prompts central banks to tighten monetary policy. A rate hike aims to cool down the economy. It helps to bring price increases under control. This report is crucial for upcoming Fed decisions. Financial markets closely watch these economic indicators.",
+    "sentences": [
+      {
+        "en": "August inflation data suggests a potential Federal Reserve interest rate hike.",
+        "ko": "8월 인플레이션 데이터는 연방준비제도(Fed)의 잠재적인 금리 인상을 시사합니다."
+      },
+      {
+        "en": "The all-items consumer price index (CPI) was expected to rise 0.4%.",
+        "ko": "전체 소비자 물가 지수(CPI)는 0.4% 상승할 것으로 예상되었습니다."
+      },
+      {
+        "en": "This includes volatile food and energy prices.",
+        "ko": "이는 변동성이 큰 식품 및 에너지 가격을 포함합니다."
+      },
+      {
+        "en": "Core inflation, excluding these items, was predicted to gain 0.2%.",
+        "ko": "이러한 품목을 제외한 근원 인플레이션은 0.2% 상승할 것으로 예측되었습니다."
+      },
+      {
+        "en": "The Dow Jones consensus provided these forecasts.",
+        "ko": "다우존스 컨센서스가 이러한 예측을 제공했습니다."
+      },
+      {
+        "en": "Persistent inflation often prompts central banks to tighten monetary policy.",
+        "ko": "지속적인 인플레이션은 종종 중앙은행이 통화 정책을 긴축하도록 유도합니다."
+      },
+      {
+        "en": "A rate hike aims to cool down the economy.",
+        "ko": "금리 인상은 경제를 진정시키는 것을 목표로 합니다."
+      },
+      {
+        "en": "It helps to bring price increases under control.",
+        "ko": "이는 물가 상승을 통제하는 데 도움이 됩니다."
+      },
+      {
+        "en": "This report is crucial for upcoming Fed decisions.",
+        "ko": "이 보고서는 다가오는 연준의 결정에 매우 중요합니다."
+      },
+      {
+        "en": "Financial markets closely watch these economic indicators.",
+        "ko": "금융 시장은 이러한 경제 지표들을 면밀히 주시합니다."
+      }
+    ],
+    "glossary": {
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "possible but not yet actual or definite, likely to happen",
+        "pos": "adjective"
+      },
+      "hike": {
+        "meaning": "a sharp increase, especially in prices, costs, or rates",
+        "pos": "noun"
+      },
+      "index": {
+        "meaning": "a list of numbers or prices that shows how much they have increased or decreased",
+        "pos": "noun"
+      },
+      "volatile": {
+        "meaning": "likely to change suddenly and unexpectedly, especially for the worse",
+        "pos": "adjective"
+      },
+      "excluding": {
+        "meaning": "not including something, leaving it out from a group or calculation",
+        "pos": "preposition"
+      },
+      "predicted": {
+        "meaning": "stated what will happen in the future or what is likely to happen",
+        "pos": "verb"
+      },
+      "consensus": {
+        "meaning": "a general agreement among a group of people, often about an opinion or forecast",
+        "pos": "noun"
+      },
+      "forecasts": {
+        "meaning": "statements about what is likely to happen in the future, often based on data",
+        "pos": "noun"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or occur for a long time, often in an unwelcome way",
+        "pos": "adjective"
+      },
+      "prompts": {
+        "meaning": "causes or incites someone to take action or do something",
+        "pos": "verb"
+      },
+      "tighten": {
+        "meaning": "to make something more strict or less flexible, especially rules or policies",
+        "pos": "verb"
+      },
+      "aims": {
+        "meaning": "has the intention or purpose of achieving something specific",
+        "pos": "verb"
+      },
+      "cool": {
+        "meaning": "to reduce economic activity or slow down growth to prevent overheating",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary, especially for making a decision",
+        "pos": "adjective"
+      },
+      "upcoming": {
+        "meaning": "happening soon or in the near future, approaching",
+        "pos": "adjective"
+      },
+      "decisions": {
+        "meaning": "choices or judgments that someone makes after thinking about options",
+        "pos": "noun"
+      },
+      "closely": {
+        "meaning": "with great attention and care, in a detailed manner",
+        "pos": "adverb"
+      },
+      "indicators": {
+        "meaning": "pieces of information or statistics that show the condition or trend of something",
+        "pos": "noun"
+      },
+      "economy": {
+        "meaning": "the system of trade and industry by which the wealth of a country is made and used",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What were the expected increases for the all-items consumer price index and the core index in August, according to the Dow Jones consensus?",
+      "Explain the difference between the \"all-items consumer price index\" and \"core inflation,\" and why central banks often focus on the latter.",
+      "If the Federal Reserve raises interest rates, what potential effects could this have on borrowing costs for businesses and broader economic growth?"
+    ],
+    "modelAnswers": [
+      "The Dow Jones consensus expected the all-items consumer price index to rise 0.4% in August, while the core index, excluding food and energy, was predicted to gain 0.2%.",
+      "The \"all-items consumer price index\" measures the average change over time in prices paid by urban consumers for a market basket of consumer goods and services, including food and energy. \"Core inflation\" excludes these volatile food and energy prices, as they can fluctuate sharply and distort the underlying inflation trend. Central banks often focus on core inflation because it provides a clearer picture of long-term price pressures.",
+      "A Federal Reserve interest rate hike would likely increase borrowing costs for businesses, making loans more expensive for expansion or investment. This could slow down overall economic growth as companies might reduce spending and hiring in response to higher financing costs."
+    ]
+  },
+  {
+    "id": "ec-2026-09-12-3",
+    "date": "2026-09-12",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "AI 기술이 영국 경제 성장의 예상치 못한 원동력이 된 소식을 자세히 알아봅니다.",
+    "url": "https://www.theguardian.com/business/2026/sep/11/uk-economy-defies-forecasts-with-surprise-04-growth-in-july",
+    "title": "AI Boosts UK Economy with Unexpected Growth",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The UK economy unexpectedly grew by 0.4% in July. This defied earlier forecasts of no growth for the month. Rapid expansion in the AI sector largely drove this boost. The services sector, especially, benefited from AI innovation. AI's positive impact outweighed other economic challenges. This includes the economic fallout from the Iran war. The figures provide a welcome boost for the chancellor. It highlights technology's growing contribution to national economies. Policymakers will now consider AI's role in future growth strategies. This trend suggests AI could be a significant economic catalyst.",
+    "sentences": [
+      {
+        "en": "The UK economy unexpectedly grew by 0.4% in July.",
+        "ko": "영국 경제가 7월에 예상치 못하게 0.4% 성장했습니다."
+      },
+      {
+        "en": "This defied earlier forecasts of no growth for the month.",
+        "ko": "이는 해당 월에 성장이 없을 것이라는 이전 예측을 뒤엎은 것입니다."
+      },
+      {
+        "en": "Rapid expansion in the AI sector largely drove this boost.",
+        "ko": "AI 부문의 급속한 확장이 이러한 성장을 크게 이끌었습니다."
+      },
+      {
+        "en": "The services sector, especially, benefited from AI innovation.",
+        "ko": "특히 서비스 부문이 AI 혁신으로 이득을 보았습니다."
+      },
+      {
+        "en": "AI's positive impact outweighed other economic challenges.",
+        "ko": "AI의 긍정적인 영향은 다른 경제적 어려움을 능가했습니다."
+      },
+      {
+        "en": "This includes the economic fallout from the Iran war.",
+        "ko": "여기에는 이란 전쟁으로 인한 경제적 여파도 포함됩니다."
+      },
+      {
+        "en": "The figures provide a welcome boost for the chancellor.",
+        "ko": "이 수치는 재무장관에게 환영할 만한 힘을 실어줍니다."
+      },
+      {
+        "en": "It highlights technology's growing contribution to national economies.",
+        "ko": "이는 국가 경제에 대한 기술의 증가하는 기여를 강조합니다."
+      },
+      {
+        "en": "Policymakers will now consider AI's role in future growth strategies.",
+        "ko": "정책 입안자들은 이제 미래 성장 전략에서 AI의 역할을 고려할 것입니다."
+      },
+      {
+        "en": "This trend suggests AI could be a significant economic catalyst.",
+        "ko": "이러한 추세는 AI가 중요한 경제적 촉매제가 될 수 있음을 시사합니다."
+      }
+    ],
+    "glossary": {
+      "unexpectedly": {
+        "meaning": "in a way that was not foreseen or planned, surprisingly",
+        "pos": "adverb"
+      },
+      "defied": {
+        "meaning": "successfully resisted or challenged something, often an expectation or order",
+        "pos": "verb"
+      },
+      "forecasts": {
+        "meaning": "predictions or estimates of future events or trends, especially economic ones",
+        "pos": "noun"
+      },
+      "expansion": {
+        "meaning": "the act of increasing in size, amount, or importance, growing larger",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "a distinct part or division of an economy or society, like the services sector",
+        "pos": "noun"
+      },
+      "drove": {
+        "meaning": "was the main cause or force behind something, propelled",
+        "pos": "verb"
+      },
+      "boost": {
+        "meaning": "an act of helping or encouraging something to increase or improve",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or products, often improving existing ones",
+        "pos": "noun"
+      },
+      "outweighed": {
+        "meaning": "was more important or significant than something else, having greater influence",
+        "pos": "verb"
+      },
+      "challenges": {
+        "meaning": "difficult situations or problems that test one's abilities",
+        "pos": "noun"
+      },
+      "fallout": {
+        "meaning": "the adverse side effects or consequences of a situation or event",
+        "pos": "noun"
+      },
+      "chancellor": {
+        "meaning": "a senior state official, often the head of government or finance minister",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something, emphasizing its importance",
+        "pos": "verb"
+      },
+      "contribution": {
+        "meaning": "the part played by someone or something in achieving a result",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "people responsible for creating and implementing government policies",
+        "pos": "noun"
+      },
+      "consider": {
+        "meaning": "to think carefully about something, typically before making a decision",
+        "pos": "verb"
+      },
+      "strategies": {
+        "meaning": "plans of action designed to achieve a long-term or overall aim",
+        "pos": "noun"
+      },
+      "trend": {
+        "meaning": "a general direction in which something is developing or changing",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "puts forward an idea or a possible plan for consideration",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable, often indicating a strong effect",
+        "pos": "adjective"
+      },
+      "catalyst": {
+        "meaning": "a person or thing that precipitates an event or change",
+        "pos": "noun"
+      },
+      "economy": {
+        "meaning": "the system of how money, industry, and trade are organized in a country",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "By what percentage did the UK economy grow in July, and what was the primary factor attributed to this growth?",
+      "What does it mean for AI's positive impact to \"outweigh\" economic challenges, and how does this highlight AI's \"contribution\" to the economy?",
+      "Do you believe AI's positive impact on economic growth, as seen in the UK, is sustainable, or are there potential long-term risks to consider?"
+    ],
+    "modelAnswers": [
+      "The UK economy grew by an unexpected 0.4% in July. This growth was primarily attributed to the rapid expansion and innovation within the AI sector, particularly in the services industry.",
+      "For AI's impact to \"outweigh\" economic challenges means that its positive effects were greater and more significant than the negative effects of other factors, such as the Iran war fallout. This highlights AI's \"contribution\" by showing it played a substantial and beneficial role in driving economic activity and growth.",
+      "AI's positive impact could be sustainable if investment in R&D continues and regulatory frameworks adapt to support innovation. However, long-term risks include job displacement, increased inequality if benefits are not widely shared, and potential ethical concerns that could hinder public trust and adoption."
+    ]
+  },
+  {
     "id": "cd-2026-09-11-1",
     "date": "2026-09-11",
     "rank": 1,
