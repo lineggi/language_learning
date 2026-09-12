@@ -1,5 +1,989 @@
 [
   {
+    "id": "cd-2026-09-13-1",
+    "date": "2026-09-13",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "리플의 스테이블코인 책임자가 RLUSD의 거대한 기업 재무 시장 기회를 예측하며, MiCA 규제 하에 유럽 진출을 모색합니다.",
+    "url": "https://www.coindesk.com/business/2026/09/12/ripple-stablecoin-chief-sees-usd13-trillion-corporate-treasury-opportunity-for-rlusd",
+    "title": "Ripple Eyes $13 Trillion Corporate Stablecoin Market",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Ripple's stablecoin head sees a massive opportunity for its digital dollar, RLUSD. He believes RLUSD could tap into a $13 trillion corporate treasury market. This growth is driven by increasing demand in payments and capital markets. The firm plans to expand RLUSD into Europe. This expansion will occur under the new MiCA regulations. MiCA is a comprehensive regulatory framework for crypto assets in the EU. Ripple's move highlights the growing adoption of stablecoins by businesses. It also shows the importance of clear regulatory environments. Such developments could transform how companies manage their finances globally. RLUSD aims to offer a more efficient and transparent financial solution.",
+    "sentences": [
+      {
+        "en": "Ripple's stablecoin head sees a massive opportunity for its digital dollar, RLUSD.",
+        "ko": "리플의 스테이블코인 책임자는 자사의 디지털 달러인 RLUSD에 대한 엄청난 기회를 보고 있습니다."
+      },
+      {
+        "en": "He believes RLUSD could tap into a $13 trillion corporate treasury market.",
+        "ko": "그는 RLUSD가 13조 달러 규모의 기업 재무 시장을 활용할 수 있다고 믿습니다."
+      },
+      {
+        "en": "This growth is driven by increasing demand in payments and capital markets.",
+        "ko": "이러한 성장은 결제 및 자본 시장에서의 수요 증가에 의해 촉진됩니다."
+      },
+      {
+        "en": "The firm plans to expand RLUSD into Europe.",
+        "ko": "회사는 RLUSD를 유럽으로 확장할 계획입니다."
+      },
+      {
+        "en": "This expansion will occur under the new MiCA regulations.",
+        "ko": "이 확장은 새로운 MiCA 규제 하에 이루어질 것입니다."
+      },
+      {
+        "en": "MiCA is a comprehensive regulatory framework for crypto assets in the EU.",
+        "ko": "MiCA는 EU 내 암호화폐 자산에 대한 포괄적인 규제 프레임워크입니다."
+      },
+      {
+        "en": "Ripple's move highlights the growing adoption of stablecoins by businesses.",
+        "ko": "리플의 움직임은 기업들의 스테이블코인 채택 증가를 강조합니다."
+      },
+      {
+        "en": "It also shows the importance of clear regulatory environments.",
+        "ko": "또한 명확한 규제 환경의 중요성을 보여줍니다."
+      },
+      {
+        "en": "Such developments could transform how companies manage their finances globally.",
+        "ko": "이러한 발전은 기업들이 전 세계적으로 재정을 관리하는 방식을 변화시킬 수 있습니다."
+      },
+      {
+        "en": "RLUSD aims to offer a more efficient and transparent financial solution.",
+        "ko": "RLUSD는 더 효율적이고 투명한 금융 솔루션을 제공하는 것을 목표로 합니다."
+      }
+    ],
+    "glossary": {
+      "stablecoin": {
+        "meaning": "a type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency like the US dollar",
+        "pos": "noun"
+      },
+      "digital": {
+        "meaning": "relating to electronic technology that generates, stores, and processes data in terms of two states: on or off",
+        "pos": "adjective"
+      },
+      "dollar": {
+        "meaning": "the basic monetary unit of the United States, Canada, Australia, and certain other countries",
+        "pos": "noun"
+      },
+      "massive": {
+        "meaning": "very large in size, amount, or extent",
+        "pos": "adjective"
+      },
+      "opportunity": {
+        "meaning": "a set of circumstances that makes it possible to do something",
+        "pos": "noun"
+      },
+      "corporate": {
+        "meaning": "relating to a large company or group",
+        "pos": "adjective"
+      },
+      "treasury": {
+        "meaning": "the funds and financial resources of a government, company, or institution",
+        "pos": "noun"
+      },
+      "market": {
+        "meaning": "a place or system where goods are bought and sold",
+        "pos": "noun"
+      },
+      "tap": {
+        "meaning": "to make use of a source of money or information",
+        "pos": "verb"
+      },
+      "driven": {
+        "meaning": "caused or determined by a particular factor",
+        "pos": "adjective"
+      },
+      "increasing": {
+        "meaning": "becoming greater in size, amount, or intensity",
+        "pos": "adjective"
+      },
+      "demand": {
+        "meaning": "the desire of consumers for a good or service",
+        "pos": "noun"
+      },
+      "payments": {
+        "meaning": "the action or process of paying someone or something",
+        "pos": "noun"
+      },
+      "capital": {
+        "meaning": "wealth in the form of money or other assets owned by a person or organization",
+        "pos": "adjective"
+      },
+      "expand": {
+        "meaning": "to become or make larger or more extensive",
+        "pos": "verb"
+      },
+      "under": {
+        "meaning": "in accordance with a particular rule, system, or law",
+        "pos": "preposition"
+      },
+      "regulations": {
+        "meaning": "rules or laws made by an authority",
+        "pos": "noun"
+      },
+      "comprehensive": {
+        "meaning": "including or dealing with all or nearly all elements or aspects of something",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "a basic structure underlying a system, concept, or text",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the action or fact of choosing to take up, follow, or use something",
+        "pos": "noun"
+      },
+      "importance": {
+        "meaning": "the state or fact of being of great significance or value",
+        "pos": "noun"
+      },
+      "transform": {
+        "meaning": "to make a thorough or dramatic change in the form, appearance, or character of",
+        "pos": "verb"
+      },
+      "efficient": {
+        "meaning": "achieving maximum productivity with minimum wasted effort or expense",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific regulatory framework is Ripple planning to use for its expansion into Europe with RLUSD?",
+      "Q2: In the context of the passage, what does \"corporate treasury market\" refer to, and why is Ripple interested in it for RLUSD?",
+      "Q3: Do you think stablecoins like RLUSD will eventually replace traditional fiat currencies for corporate payments? Explain why or why not."
+    ],
+    "modelAnswers": [
+      "A1: Ripple plans to expand RLUSD into Europe under the new MiCA regulations. MiCA is a comprehensive regulatory framework for crypto assets within the EU.",
+      "A2: The \"corporate treasury market\" refers to the financial resources and funds managed by large companies. Ripple is interested because it sees a $13 trillion opportunity for RLUSD to serve businesses in payments and capital markets.",
+      "A3: While stablecoins offer efficiency, it's unlikely they will fully replace fiat currencies soon. Fiat currencies have established trust and widespread acceptance. However, stablecoins could significantly complement fiat for cross-border and digital corporate payments due to their speed and lower costs."
+    ]
+  },
+  {
+    "id": "cd-2026-09-13-2",
+    "date": "2026-09-13",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "로빈후드 CEO가 주식 토큰에 대한 기업의 거부권에 반대하며 토큰화의 미래와 주주 권리에 대한 중요한 논쟁을 제기합니다.",
+    "url": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud",
+    "title": "Robinhood CEO Challenges Corporate Veto on Stock Tokens",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Robinhood's CEO, Vlad Tenev, recently voiced his opinion on stock tokens. He argued against companies having a veto over these digital assets. This statement came amid a dispute involving AMC. Stock tokens are digital representations of publicly traded shares. Tenev believes that securities issuers should control shareholder rights. However, he stated they should not control separate products tracking their shares. This debate highlights key issues in tokenization. It touches on corporate control versus innovation in digital finance. The outcome could influence the future development of tokenized assets. It also impacts how traditional markets integrate with blockchain technology.",
+    "sentences": [
+      {
+        "en": "Robinhood's CEO, Vlad Tenev, recently voiced his opinion on stock tokens.",
+        "ko": "로빈후드 CEO 블라드 테네브는 최근 주식 토큰에 대한 자신의 의견을 밝혔습니다."
+      },
+      {
+        "en": "He argued against companies having a veto over these digital assets.",
+        "ko": "그는 기업들이 이러한 디지털 자산에 대해 거부권을 가져서는 안 된다고 주장했습니다."
+      },
+      {
+        "en": "This statement came amid a dispute involving AMC.",
+        "ko": "이 발언은 AMC와 관련된 분쟁 속에서 나왔습니다."
+      },
+      {
+        "en": "Stock tokens are digital representations of publicly traded shares.",
+        "ko": "주식 토큰은 공개적으로 거래되는 주식의 디지털 표현입니다."
+      },
+      {
+        "en": "Tenev believes that securities issuers should control shareholder rights.",
+        "ko": "테네브는 증권 발행자가 주주 권리를 통제해야 한다고 믿습니다."
+      },
+      {
+        "en": "However, he stated they should not control separate products tracking their shares.",
+        "ko": "그러나 그는 발행자들이 주식을 추적하는 별도의 상품을 통제해서는 안 된다고 말했습니다."
+      },
+      {
+        "en": "This debate highlights key issues in tokenization.",
+        "ko": "이 논쟁은 토큰화의 핵심 쟁점을 부각시킵니다."
+      },
+      {
+        "en": "It touches on corporate control versus innovation in digital finance.",
+        "ko": "이는 디지털 금융에서 기업 통제 대 혁신이라는 주제를 다룹니다."
+      },
+      {
+        "en": "The outcome could influence the future development of tokenized assets.",
+        "ko": "그 결과는 토큰화된 자산의 미래 발전에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It also impacts how traditional markets integrate with blockchain technology.",
+        "ko": "또한 전통 시장이 블록체인 기술과 어떻게 통합될지에 영향을 줍니다."
+      }
+    ],
+    "glossary": {
+      "ceo": {
+        "meaning": "the chief executive officer, who is the highest-ranking executive in a company",
+        "pos": "noun"
+      },
+      "voiced": {
+        "meaning": "expressed a feeling or opinion",
+        "pos": "verb"
+      },
+      "opinion": {
+        "meaning": "a belief or judgment about something not necessarily based on fact",
+        "pos": "noun"
+      },
+      "stock": {
+        "meaning": "the capital raised by a business or corporation through the issue and subscription of shares",
+        "pos": "noun"
+      },
+      "tokens": {
+        "meaning": "digital assets that represent a specific value or utility on a blockchain",
+        "pos": "noun"
+      },
+      "argued": {
+        "meaning": "gave reasons or evidence in support of an idea or action",
+        "pos": "verb"
+      },
+      "veto": {
+        "meaning": "a constitutional right to reject a decision or proposal made by a law-making body",
+        "pos": "noun"
+      },
+      "assets": {
+        "meaning": "property owned by a person or company, regarded as having value and available to meet debts",
+        "pos": "noun"
+      },
+      "statement": {
+        "meaning": "a definite or clear expression of something in speech or writing",
+        "pos": "noun"
+      },
+      "dispute": {
+        "meaning": "a disagreement, argument, or debate",
+        "pos": "noun"
+      },
+      "involving": {
+        "meaning": "having an emotional or close relationship with someone or something",
+        "pos": "verb"
+      },
+      "digital": {
+        "meaning": "relating to or using computer technology",
+        "pos": "adjective"
+      },
+      "representations": {
+        "meaning": "the action of presenting a fact or character in a particular way",
+        "pos": "noun"
+      },
+      "publicly": {
+        "meaning": "in a way that is open and accessible to the public",
+        "pos": "adverb"
+      },
+      "traded": {
+        "meaning": "bought and sold on a stock exchange",
+        "pos": "adjective"
+      },
+      "shares": {
+        "meaning": "units of ownership interest in a corporation or financial asset",
+        "pos": "noun"
+      },
+      "issuers": {
+        "meaning": "entities that offer or sell securities to investors",
+        "pos": "noun"
+      },
+      "control": {
+        "meaning": "the power to influence or direct people's behavior or the course of events",
+        "pos": "verb"
+      },
+      "shareholder": {
+        "meaning": "an owner of shares in a company",
+        "pos": "noun"
+      },
+      "tracking": {
+        "meaning": "following the progress or development of something",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something",
+        "pos": "verb"
+      },
+      "issues": {
+        "meaning": "important topics or problems for debate or discussion",
+        "pos": "noun"
+      },
+      "tokenization": {
+        "meaning": "the process of converting rights to an asset into a digital token on a blockchain",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the action or process of introducing new ideas, devices, or methods",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to Robinhood's CEO, what kind of control should securities issuers have, and what should they not control regarding stock tokens?",
+      "Q2: Explain the significance of the \"AMC feud\" in understanding the context of Vlad Tenev's statement about stock tokens.",
+      "Q3: How might allowing companies a veto over stock tokens impact the growth and adoption of tokenized assets in the future?"
+    ],
+    "modelAnswers": [
+      "A1: Robinhood's CEO believes securities issuers should control shareholder rights. However, they should not control separate digital products that merely track their publicly traded shares.",
+      "A2: The AMC feud provides the real-world scenario that prompted Tenev's statement. It's a specific conflict that highlights the tension between traditional corporate control and the emerging world of tokenized assets.",
+      "A3: A corporate veto could stifle innovation and limit the development of new tokenized products. It might deter companies from exploring tokenization, potentially slowing down the integration of blockchain technology into traditional finance."
+    ]
+  },
+  {
+    "id": "cd-2026-09-13-3",
+    "date": "2026-09-13",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "인공지능 투자 증가와 정부 부채 심화 속에서, 비트코인이 전통적인 투자 포트폴리오에서 채권을 대체할 수 있는 대안으로 떠오르고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/12/ditching-bonds-for-bitcoin-how-crypto-can-tackle-the-ai-heavy-portfolio-dilemma",
+    "title": "Bitcoin as Portfolio Diversifier in AI Era",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A new report suggests bitcoin can be a strong addition to investment portfolios. This is especially true in an era of heavy AI investment. Traditional stock-bond diversification is weakening. Rising government debt also complicates financial strategies. Bitcoin Suisse argues that bitcoin offers a unique hedge. It can protect against inflation and market volatility. Investors might consider replacing traditional bonds with bitcoin. This strategy aims to enhance portfolio resilience. It also provides exposure to a growing digital asset class. The report challenges conventional investment wisdom. It highlights bitcoin's evolving role in global finance.",
+    "sentences": [
+      {
+        "en": "A new report suggests bitcoin can be a strong addition to investment portfolios.",
+        "ko": "새로운 보고서는 비트코인이 투자 포트폴리오에 강력한 추가물이 될 수 있다고 제안합니다."
+      },
+      {
+        "en": "This is especially true in an era of heavy AI investment.",
+        "ko": "이는 특히 AI 투자가 많은 시대에 더욱 그렇습니다."
+      },
+      {
+        "en": "Traditional stock-bond diversification is weakening.",
+        "ko": "전통적인 주식-채권 분산 투자는 약화되고 있습니다."
+      },
+      {
+        "en": "Rising government debt also complicates financial strategies.",
+        "ko": "증가하는 정부 부채 또한 금융 전략을 복잡하게 만듭니다."
+      },
+      {
+        "en": "Bitcoin Suisse argues that bitcoin offers a unique hedge.",
+        "ko": "비트코인 스위스는 비트코인이 독특한 헤지를 제공한다고 주장합니다."
+      },
+      {
+        "en": "It can protect against inflation and market volatility.",
+        "ko": "이는 인플레이션과 시장 변동성으로부터 보호할 수 있습니다."
+      },
+      {
+        "en": "Investors might consider replacing traditional bonds with bitcoin.",
+        "ko": "투자자들은 전통적인 채권을 비트코인으로 대체하는 것을 고려할 수 있습니다."
+      },
+      {
+        "en": "This strategy aims to enhance portfolio resilience.",
+        "ko": "이 전략은 포트폴리오 회복탄력성을 강화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "It also provides exposure to a growing digital asset class.",
+        "ko": "또한 성장하는 디지털 자산 클래스에 대한 노출을 제공합니다."
+      },
+      {
+        "en": "The report challenges conventional investment wisdom.",
+        "ko": "이 보고서는 전통적인 투자 지혜에 도전합니다."
+      },
+      {
+        "en": "It highlights bitcoin's evolving role in global finance.",
+        "ko": "이는 글로벌 금융에서 비트코인의 진화하는 역할을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "report": {
+        "meaning": "a detailed account or statement about a particular matter",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "puts forward an idea or plan for consideration",
+        "pos": "verb"
+      },
+      "strong": {
+        "meaning": "having the power to move heavy weights or perform other physically demanding tasks",
+        "pos": "adjective"
+      },
+      "addition": {
+        "meaning": "the action or process of adding something to something else",
+        "pos": "noun"
+      },
+      "investment": {
+        "meaning": "the action or process of investing money for profit or material result",
+        "pos": "noun"
+      },
+      "portfolios": {
+        "meaning": "a range of investments held by a person or organization",
+        "pos": "noun"
+      },
+      "especially": {
+        "meaning": "to a great extent; pre-eminently",
+        "pos": "adverb"
+      },
+      "era": {
+        "meaning": "a long and distinct period of history with a particular feature or character",
+        "pos": "noun"
+      },
+      "heavy": {
+        "meaning": "of great weight; difficult to lift or move",
+        "pos": "adjective"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established",
+        "pos": "adjective"
+      },
+      "stock-bond": {
+        "meaning": "refers to a common strategy of combining stocks and bonds in an investment portfolio",
+        "pos": "adjective"
+      },
+      "diversification": {
+        "meaning": "the process of spreading investments across various assets to reduce risk",
+        "pos": "noun"
+      },
+      "weakening": {
+        "meaning": "making or becoming weaker",
+        "pos": "verb"
+      },
+      "rising": {
+        "meaning": "increasing in amount, size, or intensity",
+        "pos": "adjective"
+      },
+      "government": {
+        "meaning": "the governing body of a nation, state, or community",
+        "pos": "noun"
+      },
+      "debt": {
+        "meaning": "a sum of money that is owed or due",
+        "pos": "noun"
+      },
+      "complicates": {
+        "meaning": "makes something more difficult or complex",
+        "pos": "verb"
+      },
+      "financial": {
+        "meaning": "relating to finance",
+        "pos": "adjective"
+      },
+      "strategies": {
+        "meaning": "plans of action designed to achieve a long-term or overall aim",
+        "pos": "noun"
+      },
+      "argues": {
+        "meaning": "gives reasons or evidence in support of an idea, action, or theory",
+        "pos": "verb"
+      },
+      "unique": {
+        "meaning": "being the only one of its kind; unlike anything else",
+        "pos": "adjective"
+      },
+      "hedge": {
+        "meaning": "an investment intended to offset potential losses or gains that may be incurred by a companion investment",
+        "pos": "noun"
+      },
+      "volatility": {
+        "meaning": "liability to change rapidly and unpredictably, especially for the worse",
+        "pos": "noun"
+      },
+      "resilience": {
+        "meaning": "the capacity to recover quickly from difficulties; toughness",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What two main factors are weakening traditional stock-bond diversification, according to the report?",
+      "Q2: In the context of the passage, what does \"portfolio resilience\" mean, and how does adding bitcoin aim to achieve it?",
+      "Q3: Do you believe bitcoin can effectively replace traditional bonds in a diversified investment portfolio, especially for long-term stability? Why or why not?"
+    ],
+    "modelAnswers": [
+      "A1: According to the report, traditional stock-bond diversification is weakening due to rising AI investment and increasing government debt. These factors complicate existing financial strategies.",
+      "A2: \"Portfolio resilience\" refers to a portfolio's ability to withstand shocks and recover quickly from market downturns. Adding bitcoin aims to achieve this by offering a unique hedge against inflation and market volatility, thereby strengthening the portfolio.",
+      "A3: While bitcoin offers potential diversification and growth, replacing traditional bonds entirely for long-term stability is debatable. Bonds typically provide lower volatility and predictable income, which bitcoin currently lacks. However, a small allocation to bitcoin could enhance returns and offer a hedge against certain risks."
+    ]
+  },
+  {
+    "id": "ec-2026-09-13-1",
+    "date": "2026-09-13",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "다음 주 미국 연방준비제도(Fed)의 금리 인상 가능성이 높아진 이유와 시장의 반응을 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/10/the-likelihood-of-a-fed-interest-rate-hike-next-week-just-got-a-lot-higher.html",
+    "title": "Fed Rate Hike Odds Jump Amid Market Speculation",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Financial markets are now predicting a higher chance of a Federal Reserve interest rate hike. Traders recently pushed the probability of an increase to 70%. This sentiment shifted after new economic data suggested persistent inflation. A rate hike would aim to cool the economy and bring prices down. Such a move directly impacts borrowing costs for consumers and businesses. It also affects the profitability of financial institutions. Fintech companies, in particular, closely monitor these policy decisions. Their business models often rely on interest rate differentials. Higher rates can influence loan demand and investment strategies. Investors are now adjusting their portfolios in anticipation of this change. The Fed's upcoming meeting will be crucial for market direction.",
+    "sentences": [
+      {
+        "en": "Financial markets are now predicting a higher chance of a Federal Reserve interest rate hike.",
+        "ko": "금융 시장은 이제 연방준비제도(Fed)의 금리 인상 가능성이 더 높다고 예측하고 있습니다."
+      },
+      {
+        "en": "Traders recently pushed the probability of an increase to 70%.",
+        "ko": "최근 트레이더들은 금리 인상 확률을 70%까지 끌어올렸습니다."
+      },
+      {
+        "en": "This sentiment shifted after new economic data suggested persistent inflation.",
+        "ko": "이 같은 분위기는 지속적인 인플레이션을 시사하는 새로운 경제 데이터가 발표된 후 변화했습니다."
+      },
+      {
+        "en": "A rate hike would aim to cool the economy and bring prices down.",
+        "ko": "금리 인상은 경제를 진정시키고 물가를 낮추는 것을 목표로 할 것입니다."
+      },
+      {
+        "en": "Such a move directly impacts borrowing costs for consumers and businesses.",
+        "ko": "이러한 움직임은 소비자와 기업의 대출 비용에 직접적인 영향을 미칩니다."
+      },
+      {
+        "en": "It also affects the profitability of financial institutions.",
+        "ko": "이는 또한 금융 기관의 수익성에도 영향을 미칩니다."
+      },
+      {
+        "en": "Fintech companies, in particular, closely monitor these policy decisions.",
+        "ko": "핀테크 기업들은 특히 이러한 정책 결정을 면밀히 주시합니다."
+      },
+      {
+        "en": "Their business models often rely on interest rate differentials.",
+        "ko": "이들의 비즈니스 모델은 종종 금리 차이에 의존하기 때문입니다."
+      },
+      {
+        "en": "Higher rates can influence loan demand and investment strategies.",
+        "ko": "높은 금리는 대출 수요와 투자 전략에 영향을 줄 수 있습니다."
+      },
+      {
+        "en": "Investors are now adjusting their portfolios in anticipation of this change.",
+        "ko": "투자자들은 이제 이러한 변화에 대비하여 포트폴리오를 조정하고 있습니다."
+      },
+      {
+        "en": "The Fed's upcoming meeting will be crucial for market direction.",
+        "ko": "연준의 다가오는 회의는 시장 방향에 결정적인 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "financial": {
+        "meaning": "relating to money, banking, or credit.",
+        "pos": "adjective"
+      },
+      "predicting": {
+        "meaning": "stating or estimating that a specified event will happen in the future.",
+        "pos": "verb"
+      },
+      "traders": {
+        "meaning": "people who buy and sell goods or assets.",
+        "pos": "noun"
+      },
+      "probability": {
+        "meaning": "the likelihood of something happening or being the case.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion about something.",
+        "pos": "noun"
+      },
+      "persistent": {
+        "meaning": "continuing firmly or obstinately in an opinion or course of action.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "cool": {
+        "meaning": "to reduce the activity or intensity of something.",
+        "pos": "verb"
+      },
+      "impacts": {
+        "meaning": "has a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "taking and using something belonging to someone else with the intention of returning it.",
+        "pos": "noun"
+      },
+      "profitability": {
+        "meaning": "the state of yielding profit or financial gain.",
+        "pos": "noun"
+      },
+      "institutions": {
+        "meaning": "large organizations that have a particular purpose.",
+        "pos": "noun"
+      },
+      "fintech": {
+        "meaning": "technology that aims to improve and automate the delivery and use of financial services.",
+        "pos": "noun"
+      },
+      "monitor": {
+        "meaning": "to observe and check the progress or quality of something over a period of time.",
+        "pos": "verb"
+      },
+      "differentials": {
+        "meaning": "differences between things, especially amounts of pay or prices.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "demand": {
+        "meaning": "the desire of consumers for a good or service.",
+        "pos": "noun"
+      },
+      "strategies": {
+        "meaning": "plans of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "adjusting": {
+        "meaning": "altering or moving something slightly to achieve a desired fit or result.",
+        "pos": "verb"
+      },
+      "portfolios": {
+        "meaning": "collections of financial investments held by an individual or organization.",
+        "pos": "noun"
+      },
+      "anticipation": {
+        "meaning": "the action of looking forward to something.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "decisive or critical, especially in the success or failure of something.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: According to the article, what percentage did traders push the probability of a Fed rate increase to?",
+      "Q2: Explain how a Fed interest rate hike impacts \"borrowing costs\" and \"profitability of financial institutions\" based on the passage.",
+      "Q3: How might a fintech PM adjust their company's strategy in anticipation of a significant interest rate hike?"
+    ],
+    "modelAnswers": [
+      "Q1: Traders recently pushed the probability of a Federal Reserve interest rate increase to 70%.",
+      "Q2: A Fed interest rate hike directly increases borrowing costs for consumers and businesses, making loans more expensive. This also impacts the profitability of financial institutions because their lending margins can change, affecting their overall financial health.",
+      "Q3: A fintech PM might adjust their strategy by focusing on products less sensitive to interest rate changes, or by developing tools that help customers manage higher borrowing costs. They might also re-evaluate investment strategies for their own company's capital."
+    ]
+  },
+  {
+    "id": "ec-2026-09-13-2",
+    "date": "2026-09-13",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "핀테크 PM이라면 필독! 예측 시장 플랫폼 Kalshi가 CFTC 승인을 받아 금과 은 '영구 선물'을 출시하며 선물 상품을 확장했습니다.",
+    "url": "https://www.cnbc.com/2026/09/10/kalshi-launches-perps-for-gold-and-silver-following-cftc-approval-expanding-futures-offerings.html",
+    "title": "Fintech Firm Kalshi Expands Futures with Gold, Silver 'Perps'",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Kalshi, a prediction market company, recently expanded its financial offerings. They introduced \"perps\" for gold and silver, meaning perpetual futures contracts. This launch follows crucial approval from the CFTC. The CFTC is the U.S. Commodity Futures Trading Commission. Perpetual futures are a type of derivative without an expiration date. They allow continuous trading, unlike traditional futures. This innovation diversifies Kalshi's assets available for users to trade. It marks a significant step in the evolving prediction market space. For fintech product managers, this news highlights regulatory navigation. It also shows the creation of new, complex financial instruments. Understanding these market developments is key for strategic planning. It helps in identifying future opportunities in digital finance.",
+    "sentences": [
+      {
+        "en": "Kalshi, a prediction market company, recently expanded its financial offerings.",
+        "ko": "예측 시장 기업인 Kalshi는 최근 금융 상품을 확장했습니다."
+      },
+      {
+        "en": "They introduced \"perps\" for gold and silver, meaning perpetual futures contracts.",
+        "ko": "그들은 금과 은에 대한 \"perps\"를 도입했는데, 이는 영구 선물 계약을 의미합니다."
+      },
+      {
+        "en": "This launch follows crucial approval from the CFTC.",
+        "ko": "이번 출시는 CFTC의 중요한 승인에 따른 것입니다."
+      },
+      {
+        "en": "The CFTC is the U.S. Commodity Futures Trading Commission.",
+        "ko": "CFTC는 미국 상품선물거래위원회입니다."
+      },
+      {
+        "en": "Perpetual futures are a type of derivative without an expiration date.",
+        "ko": "영구 선물은 만기일이 없는 파생 상품의 일종입니다."
+      },
+      {
+        "en": "They allow continuous trading, unlike traditional futures.",
+        "ko": "이는 전통적인 선물과 달리 지속적인 거래를 허용합니다."
+      },
+      {
+        "en": "This innovation diversifies Kalshi's assets available for users to trade.",
+        "ko": "이러한 혁신은 사용자가 거래할 수 있는 Kalshi의 자산을 다양화합니다."
+      },
+      {
+        "en": "It marks a significant step in the evolving prediction market space.",
+        "ko": "이는 진화하는 예측 시장 공간에서 중요한 진전을 의미합니다."
+      },
+      {
+        "en": "For fintech product managers, this news highlights regulatory navigation.",
+        "ko": "핀테크 제품 관리자에게 이 소식은 규제 준수의 중요성을 강조합니다."
+      },
+      {
+        "en": "It also shows the creation of new, complex financial instruments.",
+        "ko": "또한 새롭고 복잡한 금융 상품의 창출을 보여줍니다."
+      },
+      {
+        "en": "Understanding these market developments is key for strategic planning.",
+        "ko": "이러한 시장 발전을 이해하는 것은 전략적 계획에 중요합니다."
+      },
+      {
+        "en": "It helps in identifying future opportunities in digital finance.",
+        "ko": "이는 디지털 금융의 미래 기회를 식별하는 데 도움이 됩니다."
+      }
+    ],
+    "glossary": {
+      "prediction": {
+        "meaning": "a statement about what will happen or might happen in the future.",
+        "pos": "noun"
+      },
+      "expanded": {
+        "meaning": "made or became larger or more extensive.",
+        "pos": "verb"
+      },
+      "financial": {
+        "meaning": "relating to money, banking, or credit.",
+        "pos": "adjective"
+      },
+      "offerings": {
+        "meaning": "things offered, especially as a product or service.",
+        "pos": "noun"
+      },
+      "introduced": {
+        "meaning": "brought something into existence or use for the first time.",
+        "pos": "verb"
+      },
+      "perpetual": {
+        "meaning": "never ending or changing.",
+        "pos": "adjective"
+      },
+      "futures": {
+        "meaning": "financial contracts obligating the buyer to purchase an asset at a predetermined future date.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "decisive or critical, especially in the success or failure of something.",
+        "pos": "adjective"
+      },
+      "approval": {
+        "meaning": "the action of officially agreeing to something.",
+        "pos": "noun"
+      },
+      "commission": {
+        "meaning": "an official group of people appointed for a specific purpose.",
+        "pos": "noun"
+      },
+      "derivative": {
+        "meaning": "a contract whose value is derived from an underlying asset.",
+        "pos": "noun"
+      },
+      "expiration": {
+        "meaning": "the end of the period for which something is valid.",
+        "pos": "noun"
+      },
+      "continuous": {
+        "meaning": "forming an unbroken whole; without interruption.",
+        "pos": "adjective"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a tradition; long-established.",
+        "pos": "adjective"
+      },
+      "diversifies": {
+        "meaning": "increases the variety of products or scope of operations.",
+        "pos": "verb"
+      },
+      "assets": {
+        "meaning": "useful or valuable things or people.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "space": {
+        "meaning": "an area of opportunity or activity.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "relating to the supervision and control of a system or industry.",
+        "pos": "adjective"
+      },
+      "navigation": {
+        "meaning": "the process of managing movement or progress through a complex system or set of rules.",
+        "pos": "noun"
+      },
+      "instruments": {
+        "meaning": "formal documents or tools used in finance.",
+        "pos": "noun"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests.",
+        "pos": "adjective"
+      },
+      "identifying": {
+        "meaning": "recognizing or establishing who or what someone or something is.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific financial products did Kalshi launch for gold and silver, and which regulatory body approved it?",
+      "Q2: Explain the key difference between \"perpetual futures\" and \"traditional futures\" as described in the passage.",
+      "Q3: How might the introduction of new financial instruments like perpetual futures affect risk management strategies for investors?"
+    ],
+    "modelAnswers": [
+      "Q1: Kalshi launched \"perps,\" or perpetual futures contracts, for gold and silver. This was approved by the CFTC, the U.S. Commodity Futures Trading Commission.",
+      "Q2: The key difference is that perpetual futures do not have an expiration date, allowing for continuous trading. Traditional futures, in contrast, have a predetermined expiration date when the contract must be settled.",
+      "Q3: New instruments like perpetual futures could offer investors more flexibility for long-term positions and hedging without the need for rollovers. However, they might also introduce new complexities in pricing and liquidity, requiring updated risk models and careful monitoring."
+    ]
+  },
+  {
+    "id": "ec-2026-09-13-3",
+    "date": "2026-09-13",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "AI 기술 발전이 영국 경제 성장을 견인했다는 소식은 핀테크 산업에도 시사하는 바가 큽니다.",
+    "url": "https://www.bbc.co.uk/news/articles/cq5xjlvn71lo",
+    "title": "AI Boom Fuels Unexpected UK Economic Growth",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The United Kingdom's economy experienced unexpected growth in July. Official figures showed a 0.4% expansion, defying analyst predictions. Experts had generally forecast no growth for the period. A significant factor behind this boost was the booming Artificial Intelligence sector. The services sector, particularly, saw robust activity. This indicates how technological advancements can influence national economies. For fintech professionals, this trend is highly relevant. AI applications are increasingly transforming financial services. They enhance efficiency, personalize customer experiences, and improve fraud detection. Such economic data underscores the importance of innovation. It also highlights the potential for tech-driven economic resilience.",
+    "sentences": [
+      {
+        "en": "The United Kingdom's economy experienced unexpected growth in July.",
+        "ko": "영국 경제는 7월에 예상치 못한 성장을 경험했습니다."
+      },
+      {
+        "en": "Official figures showed a 0.4% expansion, defying analyst predictions.",
+        "ko": "공식 수치는 애널리스트들의 예측을 뒤엎고 0.4%의 확장을 보였습니다."
+      },
+      {
+        "en": "Experts had generally forecast no growth for the period.",
+        "ko": "전문가들은 일반적으로 이 기간 동안 성장이 없을 것으로 예상했습니다."
+      },
+      {
+        "en": "A significant factor behind this boost was the booming Artificial Intelligence sector.",
+        "ko": "이러한 성장의 중요한 요인은 급성장하는 인공지능(AI) 부문이었습니다."
+      },
+      {
+        "en": "The services sector, particularly, saw robust activity.",
+        "ko": "특히 서비스 부문에서 견고한 활동이 관찰되었습니다."
+      },
+      {
+        "en": "This indicates how technological advancements can influence national economies.",
+        "ko": "이는 기술 발전이 국가 경제에 어떻게 영향을 미칠 수 있는지를 보여줍니다."
+      },
+      {
+        "en": "For fintech professionals, this trend is highly relevant.",
+        "ko": "핀테크 전문가들에게 이러한 추세는 매우 중요합니다."
+      },
+      {
+        "en": "AI applications are increasingly transforming financial services.",
+        "ko": "AI 애플리케이션은 금융 서비스를 점점 더 변화시키고 있습니다."
+      },
+      {
+        "en": "They enhance efficiency, personalize customer experiences, and improve fraud detection.",
+        "ko": "이는 효율성을 높이고, 고객 경험을 개인화하며, 사기 탐지를 개선합니다."
+      },
+      {
+        "en": "Such economic data underscores the importance of innovation.",
+        "ko": "이러한 경제 데이터는 혁신의 중요성을 강조합니다."
+      },
+      {
+        "en": "It also highlights the potential for tech-driven economic resilience.",
+        "ko": "또한 기술 중심의 경제 회복력의 잠재력을 부각합니다."
+      }
+    ],
+    "glossary": {
+      "unexpected": {
+        "meaning": "not expected or foreseen.",
+        "pos": "adjective"
+      },
+      "growth": {
+        "meaning": "the process of increasing in size, amount, or degree.",
+        "pos": "noun"
+      },
+      "expansion": {
+        "meaning": "the action of becoming larger or more extensive.",
+        "pos": "noun"
+      },
+      "defying": {
+        "meaning": "openly resisting or refusing to obey.",
+        "pos": "verb"
+      },
+      "analyst": {
+        "meaning": "a person who conducts analysis, especially in financial markets.",
+        "pos": "noun"
+      },
+      "predictions": {
+        "meaning": "statements about what will happen or might happen in the future.",
+        "pos": "noun"
+      },
+      "forecast": {
+        "meaning": "to predict or estimate a future event or trend.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "sufficiently great or important to be worthy of attention.",
+        "pos": "adjective"
+      },
+      "factor": {
+        "meaning": "a circumstance, fact, or influence that contributes to a result.",
+        "pos": "noun"
+      },
+      "booming": {
+        "meaning": "experiencing a period of great prosperity or rapid economic growth.",
+        "pos": "adjective"
+      },
+      "sector": {
+        "meaning": "a distinct part of an economy or society.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; vigorous.",
+        "pos": "adjective"
+      },
+      "activity": {
+        "meaning": "the condition in which things are happening or being done.",
+        "pos": "noun"
+      },
+      "indicates": {
+        "meaning": "points out or shows.",
+        "pos": "verb"
+      },
+      "technological": {
+        "meaning": "relating to or using technology.",
+        "pos": "adjective"
+      },
+      "advancements": {
+        "meaning": "developments or improvements.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "the capacity to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "transforming": {
+        "meaning": "making a thorough or dramatic change in the form, appearance, or character of something.",
+        "pos": "verb"
+      },
+      "enhance": {
+        "meaning": "to intensify, increase, or further improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "the state or quality of being efficient.",
+        "pos": "noun"
+      },
+      "personalize": {
+        "meaning": "to design or produce something to meet someone's individual requirements.",
+        "pos": "verb"
+      },
+      "detection": {
+        "meaning": "the action or process of identifying the presence of something.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "resilience": {
+        "meaning": "the capacity to recover quickly from difficulties; toughness.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was the unexpected growth percentage for the UK economy in July, and which sector showed robust activity?",
+      "Q2: The passage mentions \"technological advancements can influence national economies.\" Based on the text, how does the AI sector specifically demonstrate this influence?",
+      "Q3: In what ways do you think the \"AI boom\" could create new challenges or ethical considerations for fintech companies, despite its economic benefits?"
+    ],
+    "modelAnswers": [
+      "Q1: The UK economy experienced a 0.4% unexpected growth in July. The services sector, in particular, showed robust activity.",
+      "Q2: The AI sector demonstrates this influence by being a \"significant factor\" behind the UK's unexpected economic boost. Its applications are transforming financial services by enhancing efficiency, personalizing customer experiences, and improving fraud detection, thereby contributing to national economic growth.",
+      "Q3: The AI boom could create challenges such as ensuring data privacy and security, managing algorithmic bias in lending decisions, and addressing job displacement. Ethical considerations also arise regarding transparency in AI models and accountability for AI-driven financial outcomes."
+    ]
+  },
+  {
     "id": "cd-2026-09-12-1",
     "date": "2026-09-12",
     "rank": 1,
