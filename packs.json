@@ -1,5 +1,1009 @@
 [
   {
+    "id": "cd-2026-09-14-1",
+    "date": "2026-09-14",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 USDC 발행사 서클이 타자페이 인수를 통해 신흥 시장 진출을 가속화하는 전략을 분석합니다.",
+    "url": "https://www.coindesk.com/business/2026/09/13/circle-s-usd400m-tazapay-deal-buys-emerging-market-links-that-take-years-to-build",
+    "title": "Circle Expands USDC Reach in Emerging Markets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Circle, the issuer of the USDC stablecoin, recently announced a significant $400 million deal. They are acquiring Tazapay, a fintech platform based in Singapore. This acquisition aims to rapidly expand USDC's presence in emerging markets. Experts believe these markets are the next key battleground for stablecoins. Building local connections and infrastructure in these regions typically takes many years. Circle's strategic move allows them to quickly gain access to established networks. This accelerated entry helps USDC compete more effectively with rivals like Tether. The deal highlights Circle's ambition to dominate the global stablecoin landscape. It also signals a growing focus on cross-border payments in developing economies. Such expansion could significantly boost the utility and adoption of USDC worldwide.",
+    "sentences": [
+      {
+        "en": "Circle, the issuer of the USDC stablecoin, recently announced a significant $400 million deal.",
+        "ko": "USDC 스테이블코인 발행사인 서클은 최근 4억 달러 규모의 중요한 거래를 발표했습니다."
+      },
+      {
+        "en": "They are acquiring Tazapay, a fintech platform based in Singapore.",
+        "ko": "이들은 싱가포르에 기반을 둔 핀테크 플랫폼 타자페이를 인수하고 있습니다."
+      },
+      {
+        "en": "This acquisition aims to rapidly expand USDC's presence in emerging markets.",
+        "ko": "이번 인수는 신흥 시장에서 USDC의 존재감을 빠르게 확대하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Experts believe these markets are the next key battleground for stablecoins.",
+        "ko": "전문가들은 이들 시장이 스테이블코인의 다음 핵심 격전지가 될 것이라고 믿습니다."
+      },
+      {
+        "en": "Building local connections and infrastructure in these regions typically takes many years.",
+        "ko": "이러한 지역에서 현지 연결망과 인프라를 구축하는 데는 일반적으로 수년이 걸립니다."
+      },
+      {
+        "en": "Circle's strategic move allows them to quickly gain access to established networks.",
+        "ko": "서클의 전략적 움직임은 이미 확립된 네트워크에 신속하게 접근할 수 있도록 합니다."
+      },
+      {
+        "en": "This accelerated entry helps USDC compete more effectively with rivals like Tether.",
+        "ko": "이러한 가속화된 진출은 USDC가 테더와 같은 경쟁사들과 더 효과적으로 경쟁하는 데 도움이 됩니다."
+      },
+      {
+        "en": "The deal highlights Circle's ambition to dominate the global stablecoin landscape.",
+        "ko": "이번 거래는 글로벌 스테이블코인 시장을 장악하려는 서클의 야망을 보여줍니다."
+      },
+      {
+        "en": "It also signals a growing focus on cross-border payments in developing economies.",
+        "ko": "또한 개발도상국의 국경 간 결제에 대한 관심이 커지고 있음을 시사합니다."
+      },
+      {
+        "en": "Such expansion could significantly boost the utility and adoption of USDC worldwide.",
+        "ko": "이러한 확장은 전 세계적으로 USDC의 유용성과 채택을 크게 증진시킬 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "issuer": {
+        "meaning": "A company or organization that produces or makes something available, such as a financial product or cryptocurrency.",
+        "pos": "noun"
+      },
+      "stablecoin": {
+        "meaning": "A type of cryptocurrency designed to maintain a stable value, often pegged to a fiat currency like the US dollar.",
+        "pos": "noun"
+      },
+      "acquisition": {
+        "meaning": "The act of one company buying another company or a significant part of its assets or operations.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "To intend to achieve a specific goal or purpose by taking certain actions or strategies.",
+        "pos": "verb"
+      },
+      "presence": {
+        "meaning": "The fact or state of existing, occurring, or being present in a particular place or market.",
+        "pos": "noun"
+      },
+      "emerging": {
+        "meaning": "Starting to exist or develop, especially referring to markets or economies that are growing rapidly.",
+        "pos": "adjective"
+      },
+      "battleground": {
+        "meaning": "An area or issue where there is intense competition or conflict between different entities.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "typically": {
+        "meaning": "In most cases; usually or normally, representing a common or characteristic occurrence.",
+        "pos": "adverb"
+      },
+      "strategic": {
+        "meaning": "Relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "gain": {
+        "meaning": "To obtain or acquire something, especially something desirable or advantageous, through effort.",
+        "pos": "verb"
+      },
+      "access": {
+        "meaning": "The means or opportunity to approach, enter, or use something, often a system or network.",
+        "pos": "noun"
+      },
+      "established": {
+        "meaning": "Having been in existence for a long time and therefore recognized, respected, or well-known.",
+        "pos": "adjective"
+      },
+      "networks": {
+        "meaning": "Groups of interconnected people or things, especially for communication or support.",
+        "pos": "noun"
+      },
+      "accelerated": {
+        "meaning": "Faster than usual; sped up or increased in pace, often to achieve a goal quickly.",
+        "pos": "adjective"
+      },
+      "compete": {
+        "meaning": "To strive to gain or win something by defeating or establishing superiority over others.",
+        "pos": "verb"
+      },
+      "rivals": {
+        "meaning": "People or organizations competing for the same objective or for superiority in the same field.",
+        "pos": "noun"
+      },
+      "dominate": {
+        "meaning": "To have a commanding influence on; exercise control over a particular area or market.",
+        "pos": "verb"
+      },
+      "landscape": {
+        "meaning": "The overall situation or environment, often used in a business or industry context to describe the competitive scene.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "To indicate or express something, often without words, by means of an action or event.",
+        "pos": "verb"
+      },
+      "focus": {
+        "meaning": "The center of interest or activity, or the act of concentrating attention on something.",
+        "pos": "noun"
+      },
+      "cross-border": {
+        "meaning": "Involving an exchange or activity between two or more countries, crossing national boundaries.",
+        "pos": "adjective"
+      },
+      "utility": {
+        "meaning": "The state of being useful, profitable, or beneficial for a particular purpose.",
+        "pos": "noun"
+      },
+      "adoption": {
+        "meaning": "The act of starting to use or accept something new, such as a technology or product.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the main purpose of Circle's acquisition of Tazapay, according to the passage?",
+      "In the context of the passage, what does \"emerging markets\" refer to, and why are they considered a \"battleground\" for stablecoins?",
+      "How do you think Circle's strategy of acquiring an existing platform rather than building from scratch might impact its long-term success in new markets?"
+    ],
+    "modelAnswers": [
+      "Circle's main purpose in acquiring Tazapay is to rapidly expand USDC's presence and reach in emerging markets, bypassing the long process of building local connections.",
+      "\"Emerging markets\" refers to developing economies where stablecoins are expected to see significant growth. They are a \"battleground\" because different stablecoin issuers are intensely competing for market share and adoption there.",
+      "Acquiring an existing platform could provide immediate market entry and established networks, accelerating growth. However, integrating the acquired company's culture and technology might pose challenges to long-term success."
+    ]
+  },
+  {
+    "id": "cd-2026-09-14-2",
+    "date": "2026-09-14",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 의회의 암호화폐 '명확성 법안'이 통과될지, 지연될지, 아니면 다른 형태로 나타날지 현재 불확실한 상황을 다룹니다.",
+    "url": "https://www.coindesk.com/news-analysis/2026/09/11/crypto-s-clarity-act-is-a-schroedinger-s-cat-in-life-death-limbo-as-u-s-senate-returns",
+    "title": "US Senate Ponders Crypto Clarity Act's Fate",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The crypto industry in the U.S. is closely watching the \"Clarity Act.\" This proposed legislation aims to provide clear rules for digital assets. Its fate currently hangs in a state of uncertainty, like Schrödinger's cat. The U.S. Senate recently returned to session, bringing renewed attention to the bill. Stakeholders eagerly anticipate a potential vote, which was expected around September 15. However, there is no guarantee that this vote will actually occur as planned. The bill could face delays, be modified, or even reappear in a different form. This ongoing limbo creates significant challenges for crypto businesses. They struggle to innovate and grow without a stable regulatory framework. Clear regulations are crucial for fostering legitimate industry development. The outcome will heavily influence the future of crypto in the United States.",
+    "sentences": [
+      {
+        "en": "The crypto industry in the U.S. is closely watching the \"Clarity Act.\"",
+        "ko": "미국 암호화폐 산업은 \"명확성 법안\"을 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "This proposed legislation aims to provide clear rules for digital assets.",
+        "ko": "이 제안된 법안은 디지털 자산에 대한 명확한 규칙을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Its fate currently hangs in a state of uncertainty, like Schrödinger's cat.",
+        "ko": "그 운명은 현재 슈뢰딩거의 고양이처럼 불확실한 상태에 놓여 있습니다."
+      },
+      {
+        "en": "The U.S. Senate recently returned to session, bringing renewed attention to the bill.",
+        "ko": "미국 상원은 최근 회기에 복귀하여 법안에 대한 새로운 관심을 불러일으켰습니다."
+      },
+      {
+        "en": "Stakeholders eagerly anticipate a potential vote, which was expected around September 15.",
+        "ko": "이해관계자들은 9월 15일경으로 예상되었던 잠재적인 표결을 간절히 기대하고 있습니다."
+      },
+      {
+        "en": "However, there is no guarantee that this vote will actually occur as planned.",
+        "ko": "그러나 이 표결이 계획대로 실제로 진행될 것이라는 보장은 없습니다."
+      },
+      {
+        "en": "The bill could face delays, be modified, or even reappear in a different form.",
+        "ko": "이 법안은 지연되거나 수정되거나 심지어 다른 형태로 다시 나타날 수도 있습니다."
+      },
+      {
+        "en": "This ongoing limbo creates significant challenges for crypto businesses.",
+        "ko": "이러한 지속적인 불확실성은 암호화폐 기업에 상당한 어려움을 초래합니다."
+      },
+      {
+        "en": "They struggle to innovate and grow without a stable regulatory framework.",
+        "ko": "그들은 안정적인 규제 프레임워크 없이는 혁신하고 성장하는 데 어려움을 겪습니다."
+      },
+      {
+        "en": "Clear regulations are crucial for fostering legitimate industry development.",
+        "ko": "명확한 규제는 합법적인 산업 발전을 촉진하는 데 중요합니다."
+      },
+      {
+        "en": "The outcome will heavily influence the future of crypto in the United States.",
+        "ko": "그 결과는 미국 암호화폐의 미래에 크게 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "closely": {
+        "meaning": "With great attention or in a watchful manner, observing something with keen interest.",
+        "pos": "adverb"
+      },
+      "proposed": {
+        "meaning": "Suggested or put forward for consideration or discussion, often referring to a plan or law.",
+        "pos": "adjective"
+      },
+      "legislation": {
+        "meaning": "Laws, considered collectively, or the process of making laws by a legislative body.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "To intend to achieve a particular purpose or goal, indicating a specific objective.",
+        "pos": "verb"
+      },
+      "provide": {
+        "meaning": "To make available or supply something needed, like information or resources.",
+        "pos": "verb"
+      },
+      "fate": {
+        "meaning": "The development of events beyond a person's control, regarded as predetermined or inevitable.",
+        "pos": "noun"
+      },
+      "hangs": {
+        "meaning": "To remain in a state of suspense or indecision, without a clear resolution.",
+        "pos": "verb"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or not definite, where the outcome is not known.",
+        "pos": "noun"
+      },
+      "session": {
+        "meaning": "A period of time during which a legislative body conducts its business or meetings.",
+        "pos": "noun"
+      },
+      "renewed": {
+        "meaning": "Having been restarted or re-established, often with fresh energy or vigor after a pause.",
+        "pos": "adjective"
+      },
+      "stakeholders": {
+        "meaning": "People or groups with an interest or concern in something, especially a business or project.",
+        "pos": "noun"
+      },
+      "anticipate": {
+        "meaning": "To regard as probable; expect or predict something will happen.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Having or showing the capacity to become something in the future, possibly developing.",
+        "pos": "adjective"
+      },
+      "guarantee": {
+        "meaning": "A formal promise or assurance that certain conditions will be fulfilled, or a product will work.",
+        "pos": "noun"
+      },
+      "occur": {
+        "meaning": "To happen; take place, especially without being planned or expected.",
+        "pos": "verb"
+      },
+      "modified": {
+        "meaning": "Changed in form or character, typically to improve or adapt to new conditions.",
+        "pos": "adjective"
+      },
+      "reappear": {
+        "meaning": "To appear again after being absent or hidden for a period of time.",
+        "pos": "verb"
+      },
+      "limbo": {
+        "meaning": "A state of uncertainty or neglect, often implying a delay or an unresolved situation.",
+        "pos": "noun"
+      },
+      "struggle": {
+        "meaning": "To make forceful or violent efforts to get free of restraint or constriction, or to cope with difficulty.",
+        "pos": "verb"
+      },
+      "innovate": {
+        "meaning": "To make changes in something established, especially by introducing new methods, ideas, or products.",
+        "pos": "verb"
+      },
+      "framework": {
+        "meaning": "A basic structure underlying a system, concept, or text, providing support or definition.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Of great importance; critical, essential for the success or failure of something.",
+        "pos": "adjective"
+      },
+      "fostering": {
+        "meaning": "Encouraging the development of something good, or promoting growth and progress.",
+        "pos": "verb"
+      },
+      "legitimate": {
+        "meaning": "Conforming to the law or to rules; lawful and valid, often implying fairness.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What is the \"Clarity Act\" and why is its current status compared to Schrödinger's cat?",
+      "Explain why a \"stable regulatory framework\" is described as crucial for crypto businesses, using context from the passage.",
+      "In your opinion, what are the biggest risks for the crypto industry if the \"Clarity Act\" continues to face delays or uncertainty?"
+    ],
+    "modelAnswers": [
+      "The \"Clarity Act\" is proposed U.S. legislation intended to provide clear rules for digital assets. Its status is compared to Schrödinger's cat because its outcome (passage, delay, modification) is currently unknown and uncertain, existing in multiple potential states simultaneously.",
+      "A stable regulatory framework is crucial because without clear rules, crypto businesses struggle to innovate and grow. They face uncertainty about what is permissible, which hinders long-term planning and investment in legitimate industry development.",
+      "If the Clarity Act remains uncertain, the biggest risks include stifled innovation, businesses moving offshore, and a lack of investor confidence. This could prevent the U.S. from becoming a leader in the digital asset space."
+    ]
+  },
+  {
+    "id": "cd-2026-09-14-3",
+    "date": "2026-09-14",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "스테이킹된 이더리움이 분산형 경제의 핵심 벤치마크가 되어야 한다는 주장을 살펴봅니다.",
+    "url": "https://www.coindesk.com/opinion/2026/09/12/staked-ether-should-be-seen-as-the-benchmark-of-the-decentralized-economy",
+    "title": "Staked Ether: Benchmark of Decentralized Economy",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "An opinion piece argues for the significance of staked Ether (ETH). It suggests that staked ETH should be considered a benchmark. This benchmark would represent the health of the decentralized economy. Staked ETH is a yield-generating asset within the digital asset market. It plays a special role in many digital asset investor portfolios. The act of staking ETH supports the security of the Ethereum network. This process also provides returns to those participating. Its growing importance reflects the maturation of the decentralized finance (DeFi) sector. The asset's performance can indicate broader trends in decentralization. Therefore, understanding staked ETH offers insights into the future of crypto. It highlights the shift towards more sustainable and productive digital assets.",
+    "sentences": [
+      {
+        "en": "An opinion piece argues for the significance of staked Ether (ETH).",
+        "ko": "한 사설은 스테이킹된 이더리움(ETH)의 중요성을 주장합니다."
+      },
+      {
+        "en": "It suggests that staked ETH should be considered a benchmark.",
+        "ko": "스테이킹된 ETH가 벤치마크로 간주되어야 한다고 제안합니다."
+      },
+      {
+        "en": "This benchmark would represent the health of the decentralized economy.",
+        "ko": "이 벤치마크는 분산형 경제의 건전성을 나타낼 것입니다."
+      },
+      {
+        "en": "Staked ETH is a yield-generating asset within the digital asset market.",
+        "ko": "스테이킹된 ETH는 디지털 자산 시장 내에서 수익을 창출하는 자산입니다."
+      },
+      {
+        "en": "It plays a special role in many digital asset investor portfolios.",
+        "ko": "이는 많은 디지털 자산 투자자 포트폴리오에서 특별한 역할을 합니다."
+      },
+      {
+        "en": "The act of staking ETH supports the security of the Ethereum network.",
+        "ko": "ETH를 스테이킹하는 행위는 이더리움 네트워크의 보안을 지원합니다."
+      },
+      {
+        "en": "This process also provides returns to those participating.",
+        "ko": "이 과정은 또한 참여하는 사람들에게 수익을 제공합니다."
+      },
+      {
+        "en": "Its growing importance reflects the maturation of the decentralized finance (DeFi) sector.",
+        "ko": "그 중요성이 커지는 것은 분산형 금융(DeFi) 부문의 성숙을 반영합니다."
+      },
+      {
+        "en": "The asset's performance can indicate broader trends in decentralization.",
+        "ko": "이 자산의 성과는 분산화의 광범위한 추세를 나타낼 수 있습니다."
+      },
+      {
+        "en": "Therefore, understanding staked ETH offers insights into the future of crypto.",
+        "ko": "따라서 스테이킹된 ETH를 이해하는 것은 암호화폐의 미래에 대한 통찰력을 제공합니다."
+      },
+      {
+        "en": "It highlights the shift towards more sustainable and productive digital assets.",
+        "ko": "이는 더 지속 가능하고 생산적인 디지털 자산으로의 전환을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "opinion": {
+        "meaning": "A view or judgment formed about something, not necessarily based on fact or knowledge but personal belief.",
+        "pos": "noun"
+      },
+      "significance": {
+        "meaning": "The quality of being important or noteworthy, indicating a deep impact or meaning.",
+        "pos": "noun"
+      },
+      "staked": {
+        "meaning": "Referring to cryptocurrency that has been locked up by users to support the operations of a blockchain network.",
+        "pos": "adjective"
+      },
+      "benchmark": {
+        "meaning": "A standard or point of reference against which things may be compared or assessed for quality.",
+        "pos": "noun"
+      },
+      "represent": {
+        "meaning": "To stand for or symbolize something, acting as a sign or indication of it.",
+        "pos": "verb"
+      },
+      "health": {
+        "meaning": "The condition of being sound, robust, or in good operating order, often referring to an economy.",
+        "pos": "noun"
+      },
+      "decentralized": {
+        "meaning": "Not concentrated under one authority or in one place, distributed among various points.",
+        "pos": "adjective"
+      },
+      "yield-generating": {
+        "meaning": "Producing financial returns or income for the holder, typically from an investment.",
+        "pos": "adjective"
+      },
+      "asset": {
+        "meaning": "A useful or valuable thing, person, or quality; in finance, an item of property owned.",
+        "pos": "noun"
+      },
+      "portfolio": {
+        "meaning": "A range of investments held by an individual or organization, showing their financial holdings.",
+        "pos": "noun"
+      },
+      "supports": {
+        "meaning": "To bear all or part of the weight of; to provide assistance or backing for something.",
+        "pos": "verb"
+      },
+      "security": {
+        "meaning": "The state of being free from danger or threat, especially concerning data or systems.",
+        "pos": "noun"
+      },
+      "provides": {
+        "meaning": "To make available or supply something needed, like services, information, or resources.",
+        "pos": "verb"
+      },
+      "returns": {
+        "meaning": "Profits from an investment, representing the financial gain or loss over a period.",
+        "pos": "noun"
+      },
+      "participating": {
+        "meaning": "Taking part in an activity or event, being involved in a collective effort.",
+        "pos": "verb"
+      },
+      "reflects": {
+        "meaning": "To show or be an indication of something, serving as evidence or a sign.",
+        "pos": "verb"
+      },
+      "maturation": {
+        "meaning": "The process of becoming fully developed or mature, reaching an advanced stage.",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "A distinct part of an economy, society, or area of activity, often specialized.",
+        "pos": "noun"
+      },
+      "performance": {
+        "meaning": "The action or process of carrying out or accomplishing an action, task, or function.",
+        "pos": "noun"
+      },
+      "indicate": {
+        "meaning": "To point out or show something, often serving as a sign or symptom.",
+        "pos": "verb"
+      },
+      "trends": {
+        "meaning": "A general direction in which something is developing or changing, a prevailing tendency.",
+        "pos": "noun"
+      },
+      "insights": {
+        "meaning": "The capacity to gain an accurate and deep understanding of someone or something.",
+        "pos": "noun"
+      },
+      "sustainable": {
+        "meaning": "Able to be maintained at a certain rate or level, without depleting resources.",
+        "pos": "adjective"
+      },
+      "productive": {
+        "meaning": "Achieving a significant amount or result, yielding good or useful output.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "According to the opinion piece, what is the proposed role of staked Ether in the decentralized economy?",
+      "What does \"yield-generating asset\" mean in the context of staked Ether, and how does it relate to investor portfolios?",
+      "Do you agree that staked Ether should be considered a benchmark for the decentralized economy? Why or why not?"
+    ],
+    "modelAnswers": [
+      "The opinion piece proposes that staked Ether should serve as a benchmark, indicating the overall health and direction of the decentralized economy. Its performance can reveal broader trends in decentralization.",
+      "A \"yield-generating asset\" means staked Ether produces financial returns or income for investors. It plays a special role in portfolios by offering these returns while supporting the Ethereum network's security, attracting investors seeking passive income.",
+      "Yes, I agree. Staked Ether represents direct participation in securing a major decentralized network and generates real yield, making it a strong indicator of the decentralized economy's activity, health, and investor confidence."
+    ]
+  },
+  {
+    "id": "ec-2026-09-14-1",
+    "date": "2026-09-14",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "전 세계적으로 치솟는 인플레이션으로 인해 주요 중앙은행들이 금리 인상 압박에 직면하고 있습니다.",
+    "url": "https://www.theguardian.com/business/2026/sep/13/interest-rates-predicted-rise-us-uk-inflation-fears",
+    "title": "Global Central Banks Grapple with Surging Inflation",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Central banks worldwide are currently under significant pressure this week. This is due to persistent and surging inflation rates across major economies. Policymakers are therefore compelled to consider further interest rate hikes. Countries like the US, UK, and Japan are particularly grappling with these challenges. High energy costs continue to be a primary driver of rising consumer prices globally. These upcoming decisions are crucial for achieving economic stability. However, central banks also face the difficult task of avoiding economic slowdowns. Geopolitical tensions, such as the ongoing Iran war, add to global market uncertainty. Furthermore, turbulent global bond markets are complicating the overall financial situation. Central bankers must carefully navigate these complex factors to find a delicate balance. Their strategic choices will significantly influence the global economic trajectory for many months. These actions will shape the future financial landscape.",
+    "sentences": [
+      {
+        "en": "Central banks worldwide are currently under significant pressure this week.",
+        "ko": "전 세계 중앙은행들은 이번 주 상당한 압박을 받고 있습니다."
+      },
+      {
+        "en": "This is due to persistent and surging inflation rates across major economies.",
+        "ko": "이는 주요 경제국 전반에 걸친 지속적이고 치솟는 인플레이션율 때문입니다."
+      },
+      {
+        "en": "Policymakers are therefore compelled to consider further interest rate hikes.",
+        "ko": "따라서 정책 입안자들은 추가 금리 인상을 고려할 수밖에 없습니다."
+      },
+      {
+        "en": "Countries like the US, UK, and Japan are particularly grappling with these challenges.",
+        "ko": "미국, 영국, 일본과 같은 국가들이 특히 이러한 도전에 씨름하고 있습니다."
+      },
+      {
+        "en": "High energy costs continue to be a primary driver of rising consumer prices globally.",
+        "ko": "높은 에너지 비용은 전 세계적으로 소비자 물가 상승의 주요 원인으로 계속 작용하고 있습니다."
+      },
+      {
+        "en": "These upcoming decisions are crucial for achieving economic stability.",
+        "ko": "이러한 다가오는 결정들은 경제 안정을 달성하는 데 중요합니다."
+      },
+      {
+        "en": "However, central banks also face the difficult task of avoiding economic slowdowns.",
+        "ko": "그러나 중앙은행들은 경제 둔화를 피해야 하는 어려운 과제에도 직면해 있습니다."
+      },
+      {
+        "en": "Geopolitical tensions, such as the ongoing Iran war, add to global market uncertainty.",
+        "ko": "진행 중인 이란 전쟁과 같은 지정학적 긴장은 글로벌 시장 불확실성을 가중시킵니다."
+      },
+      {
+        "en": "Furthermore, turbulent global bond markets are complicating the overall financial situation.",
+        "ko": "더욱이, 불안정한 글로벌 채권 시장은 전반적인 금융 상황을 복잡하게 만들고 있습니다."
+      },
+      {
+        "en": "Central bankers must carefully navigate these complex factors to find a delicate balance.",
+        "ko": "중앙은행 총재들은 이러한 복잡한 요인들을 신중하게 헤쳐나가 미묘한 균형을 찾아야 합니다."
+      },
+      {
+        "en": "Their strategic choices will significantly influence the global economic trajectory for many months.",
+        "ko": "그들의 전략적 선택은 앞으로 몇 달 동안 글로벌 경제 궤도에 상당한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "These actions will shape the future financial landscape.",
+        "ko": "이러한 조치들이 미래 금융 지형을 형성할 것입니다."
+      }
+    ],
+    "glossary": {
+      "central": {
+        "meaning": "relating to a main or most important part of something.",
+        "pos": "adjective"
+      },
+      "banks": {
+        "meaning": "financial institutions that accept deposits and make loans.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or occur over a prolonged period.",
+        "pos": "adjective"
+      },
+      "surging": {
+        "meaning": "rapidly increasing or rising.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "people who make decisions about policy, especially in government.",
+        "pos": "noun"
+      },
+      "compelled": {
+        "meaning": "forced or obliged to do something.",
+        "pos": "verb"
+      },
+      "consider": {
+        "meaning": "to think carefully about something, typically before making a decision.",
+        "pos": "verb"
+      },
+      "hikes": {
+        "meaning": "increases, especially in prices, taxes, or interest rates.",
+        "pos": "noun"
+      },
+      "grappling": {
+        "meaning": "struggling to deal with a difficult problem or situation.",
+        "pos": "verb"
+      },
+      "driver": {
+        "meaning": "a main cause of something, especially a process or trend.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential.",
+        "pos": "adjective"
+      },
+      "stability": {
+        "meaning": "the state of being stable and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "avoiding": {
+        "meaning": "keeping away from or preventing something.",
+        "pos": "verb"
+      },
+      "slowdowns": {
+        "meaning": "reductions in speed or activity.",
+        "pos": "noun"
+      },
+      "geopolitical": {
+        "meaning": "relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "tensions": {
+        "meaning": "a state of mutual hostility or opposition between groups.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "the state of being uncertain or doubtful.",
+        "pos": "noun"
+      },
+      "turbulent": {
+        "meaning": "characterized by conflict, disorder, or confusion; not controlled or calm.",
+        "pos": "adjective"
+      },
+      "complicating": {
+        "meaning": "making something more difficult or complex.",
+        "pos": "verb"
+      },
+      "navigate": {
+        "meaning": "to plan or direct the course of a ship, aircraft, or other form of transport, or to find a way through a difficult situation.",
+        "pos": "verb"
+      },
+      "delicate": {
+        "meaning": "requiring sensitive or careful handling.",
+        "pos": "adjective"
+      },
+      "trajectory": {
+        "meaning": "the path followed by a projectile flying or an object moving under the action of given forces, or the path of development of something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What are central banks in major economies like the US, UK, and Japan currently facing pressure to do, according to the passage?",
+      "Q2: Explain the term \"geopolitical tensions\" in the context of the passage. How do they relate to the economic situation described?",
+      "Q3: Do you think central banks should prioritize controlling inflation or promoting economic growth when making interest rate decisions? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: Central banks in major economies such as the US, UK, and Japan are currently facing renewed pressure to consider further interest rate hikes due to surging inflation rates.",
+      "A2: \"Geopolitical tensions\" refer to political conflicts or strained relations between countries or regions, like the Iran war mentioned. These tensions increase global market uncertainty and complicate economic stability.",
+      "A3: Central banks should prioritize controlling inflation to maintain long-term economic stability. High inflation erodes purchasing power and creates uncertainty, which can harm growth more severely over time."
+    ]
+  },
+  {
+    "id": "ec-2026-09-14-2",
+    "date": "2026-09-14",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "5%에 달하는 국채 수익률이 금융 시장과 경제에 새로운 위험을 초래하고 있습니다.",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSjgtREVUcTBVWlQwcTgtdEg1YnFCOFRqQkt3S0FXclJwZVdJSUZEaXBCbjkzVmM5UWdKX09GSDh5Q18zT0JjaWoycjJteV9XUHAtYnQ0R3lFYmZPWEVocmNWYjRpcXFmRFU4NmF1MU1oM3FCYnppWTJ2Ql9LSHc2MU40STdoazlKYTA2MXdrWkNSekUtbmd0YmtpR1JnaDVtWjZNLW5oZnhqWl91T1hn",
+    "title": "High Treasury Yields Signal Market Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The US Treasury yield recently reached a notable 5% level. This significant milestone is now raising new concerns for financial markets. Higher yields typically signal increased borrowing costs for the government. They also exert pressure on corporate and consumer lending rates to rise. Such a substantial rise can effectively tighten overall financial conditions. This makes it more expensive for businesses to secure capital for investment. Consumers likewise face higher mortgage payments and other loan costs. Consequently, this environment often leads to a potential slowdown in economic growth. Many investors might shift their capital from stocks towards bonds for safety. This rebalancing can negatively impact equity markets and valuations. Policymakers are actively monitoring these developments very closely. They aim to assess the broader implications for long-term economic stability.",
+    "sentences": [
+      {
+        "en": "The US Treasury yield recently reached a notable 5% level.",
+        "ko": "미국 국채 수익률이 최근 주목할 만한 5% 수준에 도달했습니다."
+      },
+      {
+        "en": "This significant milestone is now raising new concerns for financial markets.",
+        "ko": "이 중요한 이정표는 이제 금융 시장에 새로운 우려를 불러일으키고 있습니다."
+      },
+      {
+        "en": "Higher yields typically signal increased borrowing costs for the government.",
+        "ko": "높은 수익률은 일반적으로 정부의 차입 비용 증가를 나타냅니다."
+      },
+      {
+        "en": "They also exert pressure on corporate and consumer lending rates to rise.",
+        "ko": "또한 기업 및 소비자 대출 금리 상승에 압력을 가합니다."
+      },
+      {
+        "en": "Such a substantial rise can effectively tighten overall financial conditions.",
+        "ko": "이러한 상당한 상승은 전반적인 금융 환경을 효과적으로 긴축시킬 수 있습니다."
+      },
+      {
+        "en": "This makes it more expensive for businesses to secure capital for investment.",
+        "ko": "이는 기업이 투자 자본을 확보하는 데 더 많은 비용이 들게 합니다."
+      },
+      {
+        "en": "Consumers likewise face higher mortgage payments and other loan costs.",
+        "ko": "소비자들도 마찬가지로 더 높은 모기지 상환액과 다른 대출 비용에 직면합니다."
+      },
+      {
+        "en": "Consequently, this environment often leads to a potential slowdown in economic growth.",
+        "ko": "결과적으로 이러한 환경은 종종 경제 성장 둔화로 이어질 수 있습니다."
+      },
+      {
+        "en": "Many investors might shift their capital from stocks towards bonds for safety.",
+        "ko": "많은 투자자들이 안전을 위해 주식에서 채권으로 자본을 옮길 수 있습니다."
+      },
+      {
+        "en": "This rebalancing can negatively impact equity markets and valuations.",
+        "ko": "이러한 재조정은 주식 시장과 가치 평가에 부정적인 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Policymakers are actively monitoring these developments very closely.",
+        "ko": "정책 입안자들은 이러한 발전을 매우 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "They aim to assess the broader implications for long-term economic stability.",
+        "ko": "그들은 장기적인 경제 안정에 대한 더 넓은 영향을 평가하는 것을 목표로 합니다."
+      }
+    ],
+    "glossary": {
+      "treasury": {
+        "meaning": "a government department responsible for financial matters.",
+        "pos": "noun"
+      },
+      "yield": {
+        "meaning": "the income returned on an investment, typically expressed as an annual percentage rate.",
+        "pos": "noun"
+      },
+      "notable": {
+        "meaning": "worthy of attention or notice; remarkable.",
+        "pos": "adjective"
+      },
+      "milestone": {
+        "meaning": "an important stage or event in the development of something.",
+        "pos": "noun"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or anxiety.",
+        "pos": "noun"
+      },
+      "signal": {
+        "meaning": "to indicate or show something.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money from a bank or person with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "exert": {
+        "meaning": "to apply or bring to bear a force, influence, or quality.",
+        "pos": "verb"
+      },
+      "corporate": {
+        "meaning": "relating to a large company or group.",
+        "pos": "adjective"
+      },
+      "lending": {
+        "meaning": "the act of giving money to someone with the expectation that they will pay it back.",
+        "pos": "noun"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "tighten": {
+        "meaning": "to make something stricter or more difficult to obtain.",
+        "pos": "verb"
+      },
+      "conditions": {
+        "meaning": "the circumstances or factors affecting the way people live or work.",
+        "pos": "noun"
+      },
+      "secure": {
+        "meaning": "to obtain something, especially after a lot of effort.",
+        "pos": "verb"
+      },
+      "likewise": {
+        "meaning": "in the same way; also.",
+        "pos": "adverb"
+      },
+      "mortgage": {
+        "meaning": "a legal agreement by which a bank lends money at interest in exchange for taking title of the debtor's property.",
+        "pos": "noun"
+      },
+      "consequently": {
+        "meaning": "as a result; therefore.",
+        "pos": "adverb"
+      },
+      "potential": {
+        "meaning": "having or showing the capacity to become something in the future.",
+        "pos": "adjective"
+      },
+      "shift": {
+        "meaning": "to move or change from one position or direction to another.",
+        "pos": "verb"
+      },
+      "equity": {
+        "meaning": "the value of shares issued by a company.",
+        "pos": "noun"
+      },
+      "valuations": {
+        "meaning": "assessments of something's worth.",
+        "pos": "noun"
+      },
+      "monitoring": {
+        "meaning": "observing and checking the progress or quality of something over a period of time.",
+        "pos": "verb"
+      },
+      "implications": {
+        "meaning": "the possible results or effects of something.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "the state of being stable and not likely to change or fail.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What does a higher US Treasury yield typically indicate regarding government borrowing costs, and how does it affect other lending rates?",
+      "Q2: Explain how a rise in Treasury yields can lead to a slowdown in economic growth.",
+      "Q3: As a fintech PM, how might rising Treasury yields influence your company's investment strategies or product offerings?"
+    ],
+    "modelAnswers": [
+      "A1: A higher US Treasury yield indicates increased borrowing costs for the government. It also affects corporate and consumer lending rates, making them higher.",
+      "A2: A rise in Treasury yields tightens financial conditions, making it more expensive for businesses to invest and for consumers to make mortgage and loan payments. This can consequently slow down economic growth.",
+      "A3: Rising Treasury yields could make debt financing more expensive for my company, potentially shifting focus to profitability over aggressive growth. It might also influence product development towards services that help users manage higher debt costs or offer alternative investment opportunities."
+    ]
+  },
+  {
+    "id": "ec-2026-09-14-3",
+    "date": "2026-09-14",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "선도적인 AI 기업인 Anthropic이 나스닥 상장을 준비하며 금융 시장의 큰 기대를 모으고 있습니다.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHpaNVFIZFhSb2ZUSG52aTFGdi1ZdHNmaDBzZEMyMkVxRXlNMHR2VWllZmdCREFWOEFSQzZfMHBlTjRCVkY0MTkzZjBqOGhiZERCT3ducXdXY1VhWFduZ3MtQ0NoNTlHYjBlS0prMkNmOWtQQkJId3RGSmRZaEE2alYxay1KaDAyaE14R1ZqTVdJamxneU8zSFJyeG9CQzNZQzU2SktkQVNjR25aMkw0Mlg5blQ1QQ",
+    "title": "AI Leader Anthropic Plans Nasdaq IPO",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Anthropic, a leading artificial intelligence firm, is reportedly preparing for its initial public offering. The company is widely expected to list its shares on the Nasdaq stock exchange. This highly anticipated move has generated significant excitement among investors and the tech industry. An IPO offers private companies a crucial pathway to raise substantial capital from public investors. Anthropic's successful listing would mark a pivotal moment for the burgeoning AI sector. It vividly reflects the growing investor confidence in the future potential of artificial intelligence technologies. The substantial capital raised will undoubtedly be allocated to accelerating further research and development efforts. It may also facilitate aggressive expansion into new product lines or global markets. Such high-profile listings frequently attract considerable market attention and scrutiny. They often establish important valuation benchmarks for other emerging AI startups. This upcoming IPO underscores the dynamic and evolving landscape of technology finance. It signals a new era for AI companies in public markets.",
+    "sentences": [
+      {
+        "en": "Anthropic, a leading artificial intelligence firm, is reportedly preparing for its initial public offering.",
+        "ko": "선도적인 인공지능 기업인 Anthropic이 기업 공개를 준비하고 있는 것으로 알려졌습니다."
+      },
+      {
+        "en": "The company is widely expected to list its shares on the Nasdaq stock exchange.",
+        "ko": "이 회사는 나스닥 증권 거래소에 주식을 상장할 것으로 널리 예상됩니다."
+      },
+      {
+        "en": "This highly anticipated move has generated significant excitement among investors and the tech industry.",
+        "ko": "이 크게 기대되는 움직임은 투자자들과 기술 업계 사이에서 상당한 기대감을 불러일으켰습니다."
+      },
+      {
+        "en": "An IPO offers private companies a crucial pathway to raise substantial capital from public investors.",
+        "ko": "IPO는 비상장 기업에게 일반 투자자로부터 상당한 자본을 조달할 수 있는 중요한 경로를 제공합니다."
+      },
+      {
+        "en": "Anthropic's successful listing would mark a pivotal moment for the burgeoning AI sector.",
+        "ko": "Anthropic의 성공적인 상장은 급성장하는 AI 부문에 중추적인 순간이 될 것입니다."
+      },
+      {
+        "en": "It vividly reflects the growing investor confidence in the future potential of artificial intelligence technologies.",
+        "ko": "이는 인공지능 기술의 미래 잠재력에 대한 투자자들의 증가하는 신뢰를 생생하게 반영합니다."
+      },
+      {
+        "en": "The substantial capital raised will undoubtedly be allocated to accelerating further research and development efforts.",
+        "ko": "조달된 상당한 자본은 의심할 여지 없이 추가 연구 및 개발 노력 가속화에 할당될 것입니다."
+      },
+      {
+        "en": "It may also facilitate aggressive expansion into new product lines or global markets.",
+        "ko": "또한 새로운 제품 라인이나 글로벌 시장으로의 적극적인 확장을 촉진할 수도 있습니다."
+      },
+      {
+        "en": "Such high-profile listings frequently attract considerable market attention and scrutiny.",
+        "ko": "이러한 세간의 이목을 끄는 상장은 종종 상당한 시장의 관심과 면밀한 조사를 끌어모읍니다."
+      },
+      {
+        "en": "They often establish important valuation benchmarks for other emerging AI startups.",
+        "ko": "이는 종종 다른 신흥 AI 스타트업들의 중요한 가치 평가 기준을 확립합니다."
+      },
+      {
+        "en": "This upcoming IPO underscores the dynamic and evolving landscape of technology finance.",
+        "ko": "이 다가오는 IPO는 기술 금융의 역동적이고 진화하는 지형을 강조합니다."
+      },
+      {
+        "en": "It signals a new era for AI companies in public markets.",
+        "ko": "이는 공개 시장에서 AI 기업들을 위한 새로운 시대를 알립니다."
+      }
+    ],
+    "glossary": {
+      "prominent": {
+        "meaning": "important or famous within a particular field.",
+        "pos": "adjective"
+      },
+      "firm": {
+        "meaning": "a company or business, especially one that provides professional services.",
+        "pos": "noun"
+      },
+      "reportedly": {
+        "meaning": "according to what is rumored or generally believed.",
+        "pos": "adverb"
+      },
+      "initial": {
+        "meaning": "existing or occurring at the beginning.",
+        "pos": "adjective"
+      },
+      "offering": {
+        "meaning": "an act of offering something for sale, like shares in a company.",
+        "pos": "noun"
+      },
+      "list": {
+        "meaning": "to formally register a company's shares on a stock exchange for trading.",
+        "pos": "verb"
+      },
+      "shares": {
+        "meaning": "units of ownership interest in a corporation or financial asset.",
+        "pos": "noun"
+      },
+      "anticipated": {
+        "meaning": "highly expected because of perceived importance.",
+        "pos": "adjective"
+      },
+      "generated": {
+        "meaning": "produced or created something.",
+        "pos": "verb"
+      },
+      "excitement": {
+        "meaning": "a feeling of great enthusiasm and eagerness.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important or essential.",
+        "pos": "adjective"
+      },
+      "pathway": {
+        "meaning": "a way of achieving a specified result.",
+        "pos": "noun"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "pivotal": {
+        "meaning": "of crucial importance in relation to the development or success of something.",
+        "pos": "adjective"
+      },
+      "burgeoning": {
+        "meaning": "beginning to grow or increase rapidly.",
+        "pos": "adjective"
+      },
+      "vividly": {
+        "meaning": "in a way that produces powerful feelings or strong images in the mind.",
+        "pos": "adverb"
+      },
+      "allocated": {
+        "meaning": "distributed something for a particular purpose.",
+        "pos": "verb"
+      },
+      "facilitate": {
+        "meaning": "to make an action or process easy or easier.",
+        "pos": "verb"
+      },
+      "aggressive": {
+        "meaning": "pursuing one's aims and interests forcefully.",
+        "pos": "adjective"
+      },
+      "scrutiny": {
+        "meaning": "critical observation or examination.",
+        "pos": "noun"
+      },
+      "benchmarks": {
+        "meaning": "standards or points of reference against which things may be compared.",
+        "pos": "noun"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "dynamic": {
+        "meaning": "characterized by constant change, activity, or progress.",
+        "pos": "adjective"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What is an Initial Public Offering (IPO), and what is its primary purpose for a private company like Anthropic?",
+      "Q2: The passage mentions that Anthropic's listing could \"set valuation benchmarks for other AI startups.\" Explain what this means.",
+      "Q3: How might a successful IPO by a leading AI firm like Anthropic impact the broader investment landscape for other emerging technologies?"
+    ],
+    "modelAnswers": [
+      "A1: An Initial Public Offering (IPO) is when a private company sells its shares to the public for the first time. Its primary purpose is to raise capital from public investors.",
+      "A2: Setting \"valuation benchmarks\" means that the price and market capitalization Anthropic achieves during its IPO could serve as a reference point for how other similar AI startups are valued by investors in the future.",
+      "A3: A successful IPO by a leading AI firm could boost investor confidence across the tech sector, making it easier for other emerging technologies to attract funding. It might also encourage more venture capital into related fields, seeking the next big opportunity."
+    ]
+  },
+  {
     "id": "cd-2026-09-13-1",
     "date": "2026-09-13",
     "rank": 1,
