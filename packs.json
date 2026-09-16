@@ -1,5 +1,869 @@
 [
   {
+    "id": "cd-2026-09-17-1",
+    "date": "2026-09-17",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "암호화폐 세계에서 개인 정보 보호와 보안의 중요성을 강조하며, 디지털 신원 보호가 자산 손실보다 더 치명적일 수 있음을 논합니다.",
+    "url": "https://www.coindesk.com/opinion/2026/09/16/a-stolen-coin-can-be-returned-a-leaked-identity-cannot",
+    "title": "Crypto Privacy: Why Digital Identity Matters More Than Stolen Funds.",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The article argues that losing personal identity in crypto is worse than losing digital assets. While stolen funds might be recoverable, a leaked identity is permanently exposed and irreversible. This perspective highlights the critical need for robust privacy protections within blockchain technology. Current regulations often prioritize anti-money laundering (AML) and know-your-customer (KYC) rules. These measures, while important for security, can sometimes inadvertently compromise user privacy and data. The author suggests a thoughtful rebalance is needed between preventing financial crimes and protecting individual data rights. True innovation in crypto requires solutions that effectively safeguard both digital assets and sensitive personal information. Achieving this delicate balance is crucial for widespread adoption and building trust in the evolving digital economy.",
+    "sentences": [
+      {
+        "en": "The article argues that losing personal identity in crypto is worse than losing digital assets.",
+        "ko": "이 기사는 암호화폐에서 개인 신원을 잃는 것이 디지털 자산을 잃는 것보다 더 나쁘다고 주장합니다."
+      },
+      {
+        "en": "While stolen funds might be recoverable, a leaked identity is permanently exposed and irreversible.",
+        "ko": "도난당한 자금은 회수될 수 있지만, 유출된 신원은 영구적으로 노출되며 되돌릴 수 없습니다."
+      },
+      {
+        "en": "This perspective highlights the critical need for robust privacy protections within blockchain technology.",
+        "ko": "이러한 관점은 블록체인 기술 내에서 강력한 개인 정보 보호의 필요성을 강조합니다."
+      },
+      {
+        "en": "Current regulations often prioritize anti-money laundering (AML) and know-your-customer (KYC) rules.",
+        "ko": "현재 규제는 종종 자금 세탁 방지(AML) 및 고객 신원 확인(KYC) 규칙을 우선시합니다."
+      },
+      {
+        "en": "These measures, while important for security, can sometimes inadvertently compromise user privacy and data.",
+        "ko": "이러한 조치들은 보안에 중요하지만, 때로는 의도치 않게 사용자 프라이버시와 데이터를 침해할 수 있습니다."
+      },
+      {
+        "en": "The author suggests a thoughtful rebalance is needed between preventing financial crimes and protecting individual data rights.",
+        "ko": "작가는 금융 범죄 예방과 개인 데이터 권리 보호 사이의 신중한 균형 재조정이 필요하다고 제안합니다."
+      },
+      {
+        "en": "True innovation in crypto requires solutions that effectively safeguard both digital assets and sensitive personal information.",
+        "ko": "암호화폐의 진정한 혁신은 디지털 자산과 민감한 개인 정보를 모두 효과적으로 보호하는 솔루션을 요구합니다."
+      },
+      {
+        "en": "Achieving this delicate balance is crucial for widespread adoption and building trust in the evolving digital economy.",
+        "ko": "이러한 미묘한 균형을 이루는 것이 광범위한 채택과 진화하는 디지털 경제에 대한 신뢰를 구축하는 데 중요합니다."
+      }
+    ],
+    "glossary": {
+      "argues": {
+        "meaning": "To present reasons for or against a particular idea or action.",
+        "pos": "verb"
+      },
+      "identity": {
+        "meaning": "The fact of being who or what a person or thing is.",
+        "pos": "noun"
+      },
+      "digital": {
+        "meaning": "Relating to computer technology and the internet.",
+        "pos": "adjective"
+      },
+      "assets": {
+        "meaning": "Valuable items owned by a person or company.",
+        "pos": "noun"
+      },
+      "recoverable": {
+        "meaning": "Able to be gotten back or restored after being lost or stolen.",
+        "pos": "adjective"
+      },
+      "leaked": {
+        "meaning": "Released or disclosed without authorization, often confidentially.",
+        "pos": "adjective"
+      },
+      "exposed": {
+        "meaning": "Made visible or known, often in a vulnerable way.",
+        "pos": "adjective"
+      },
+      "irreversible": {
+        "meaning": "Impossible to undo or change back to a former state.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "To draw special attention to something important.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "Extremely important or essential for success.",
+        "pos": "adjective"
+      },
+      "robust": {
+        "meaning": "Strong and healthy; not likely to fail or weaken.",
+        "pos": "adjective"
+      },
+      "protections": {
+        "meaning": "Measures taken to keep someone or something safe.",
+        "pos": "noun"
+      },
+      "blockchain": {
+        "meaning": "A digital ledger in which transactions are recorded chronologically and publicly.",
+        "pos": "noun"
+      },
+      "regulations": {
+        "meaning": "Rules or laws made by an authority to control behavior.",
+        "pos": "noun"
+      },
+      "prioritize": {
+        "meaning": "To treat something as more important than other things.",
+        "pos": "verb"
+      },
+      "know-your-customer": {
+        "meaning": "The process of verifying a client's identity to assess potential risks.",
+        "pos": "phrase"
+      },
+      "inadvertently": {
+        "meaning": "Without intention; accidentally.",
+        "pos": "adverb"
+      },
+      "compromise": {
+        "meaning": "To accept standards that are lower than desirable.",
+        "pos": "verb"
+      },
+      "rebalance": {
+        "meaning": "An act of adjusting or restoring equilibrium.",
+        "pos": "noun"
+      },
+      "safeguard": {
+        "meaning": "To protect someone or something from harm or damage.",
+        "pos": "verb"
+      },
+      "sensitive": {
+        "meaning": "Easily damaged, injured, or distressed.",
+        "pos": "adjective"
+      },
+      "effectively": {
+        "meaning": "In a way that is successful and achieves what is intended.",
+        "pos": "adverb"
+      },
+      "widespread": {
+        "meaning": "Found or distributed over a large area or number of people.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What does the article suggest is more concerning than losing digital assets in the crypto world?",
+      "In the passage, what specific measures are mentioned that can sometimes compromise user privacy while aiming for security?",
+      "Do you agree that privacy is more important than asset security in the long run for crypto adoption? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "The article suggests that losing personal identity is more concerning than losing digital assets because a leaked identity is permanently exposed and irreversible.",
+      "The passage mentions anti-money laundering (AML) and know-your-customer (KYC) rules as measures that can inadvertently compromise user privacy.",
+      "I agree. While asset security is vital, a permanent identity leak can lead to long-term harm beyond financial loss, eroding trust in the entire system. Protecting privacy encourages broader participation."
+    ]
+  },
+  {
+    "id": "cd-2026-09-17-2",
+    "date": "2026-09-17",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "암호화폐 시장에 큰 영향을 미친 미국 상원의 '명확성 법안(Clarity Act)' 부결 소식을 심층적으로 다루며, 규제 불확실성의 파급 효과를 분석합니다.",
+    "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
+    "title": "Crypto Market Downturn as Clarity Act Fails in Senate.",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The crypto market experienced a significant downturn following the Senate's rejection of the Clarity Act. This legislative setback caused Bitcoin's price to slide sharply from nearly $80,000. The Clarity Act aimed to provide a much-needed clear regulatory framework for digital assets in the U.S. Its failure creates continued uncertainty for crypto businesses and investors across the sector. Many industry participants had hoped the act would precisely define which tokens are securities and which are commodities. Without this clarity, the U.S. remains a challenging and unpredictable environment for crypto innovation. The decision underscores the ongoing struggle to establish consistent and comprehensive crypto legislation. This lack of clear rules often deters significant institutional investment and broader mainstream adoption.",
+    "sentences": [
+      {
+        "en": "The crypto market experienced a significant downturn following the Senate's rejection of the Clarity Act.",
+        "ko": "상원의 명확성 법안 부결 이후 암호화폐 시장은 상당한 하락세를 겪었습니다."
+      },
+      {
+        "en": "This legislative setback caused Bitcoin's price to slide sharply from nearly $80,000.",
+        "ko": "이러한 입법적 차질로 비트코인 가격은 8만 달러에 육박하던 수준에서 급격히 하락했습니다."
+      },
+      {
+        "en": "The Clarity Act aimed to provide a much-needed clear regulatory framework for digital assets in the U.S.",
+        "ko": "명확성 법안은 미국 내 디지털 자산에 대한 매우 필요한 명확한 규제 프레임워크를 제공하는 것을 목표로 했습니다."
+      },
+      {
+        "en": "Its failure creates continued uncertainty for crypto businesses and investors across the sector.",
+        "ko": "이 법안의 실패는 해당 부문 전반의 암호화폐 기업과 투자자들에게 지속적인 불확실성을 초래합니다."
+      },
+      {
+        "en": "Many industry participants had hoped the act would precisely define which tokens are securities and which are commodities.",
+        "ko": "많은 업계 관계자들은 이 법안이 어떤 토큰이 증권이고 어떤 토큰이 상품인지 정확히 정의해 줄 것을 기대했습니다."
+      },
+      {
+        "en": "Without this clarity, the U.S. remains a challenging and unpredictable environment for crypto innovation.",
+        "ko": "이러한 명확성 없이는 미국은 암호화폐 혁신에 여전히 어렵고 예측 불가능한 환경으로 남아있습니다."
+      },
+      {
+        "en": "The decision underscores the ongoing struggle to establish consistent and comprehensive crypto legislation.",
+        "ko": "이번 결정은 일관되고 포괄적인 암호화폐 법안을 수립하려는 지속적인 어려움을 강조합니다."
+      },
+      {
+        "en": "This lack of clear rules often deters significant institutional investment and broader mainstream adoption.",
+        "ko": "이러한 명확한 규칙의 부재는 종종 상당한 기관 투자와 더 넓은 주류 채택을 방해합니다."
+      }
+    ],
+    "glossary": {
+      "downturn": {
+        "meaning": "A decline in economic or business activity.",
+        "pos": "noun"
+      },
+      "rejection": {
+        "meaning": "The act of refusing to accept or consider something.",
+        "pos": "noun"
+      },
+      "legislative": {
+        "meaning": "Relating to the process of making laws.",
+        "pos": "adjective"
+      },
+      "setback": {
+        "meaning": "A reversal or check in progress; a temporary defeat.",
+        "pos": "noun"
+      },
+      "slide": {
+        "meaning": "To move smoothly or quickly, especially in a downward direction.",
+        "pos": "verb"
+      },
+      "sharply": {
+        "meaning": "Quickly and suddenly, often referring to a steep change.",
+        "pos": "adverb"
+      },
+      "aimed": {
+        "meaning": "Intended or designed for a particular purpose.",
+        "pos": "verb"
+      },
+      "framework": {
+        "meaning": "A basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or not definite.",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "A distinct part of an economy, society, or area of activity.",
+        "pos": "noun"
+      },
+      "participants": {
+        "meaning": "People who take part in an activity or event.",
+        "pos": "noun"
+      },
+      "precisely": {
+        "meaning": "In an exact or accurate manner.",
+        "pos": "adverb"
+      },
+      "define": {
+        "meaning": "To state or describe exactly the nature, scope, or meaning of something.",
+        "pos": "verb"
+      },
+      "securities": {
+        "meaning": "Financial instruments that represent an ownership position in a publicly-traded corporation.",
+        "pos": "noun"
+      },
+      "commodities": {
+        "meaning": "Raw materials or primary agricultural products that can be bought and sold.",
+        "pos": "noun"
+      },
+      "unpredictable": {
+        "meaning": "Not able to be foreseen or known in advance.",
+        "pos": "adjective"
+      },
+      "underscores": {
+        "meaning": "To emphasize the importance of something.",
+        "pos": "verb"
+      },
+      "struggle": {
+        "meaning": "A forceful or desperate effort to get free or achieve something.",
+        "pos": "noun"
+      },
+      "establish": {
+        "meaning": "To set up (an organization, system, or set of rules) on a firm or permanent basis.",
+        "pos": "verb"
+      },
+      "consistent": {
+        "meaning": "Acting or done in the same way over time, especially so as to be fair or accurate.",
+        "pos": "adjective"
+      },
+      "comprehensive": {
+        "meaning": "Including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "legislation": {
+        "meaning": "Laws, considered collectively.",
+        "pos": "noun"
+      },
+      "deters": {
+        "meaning": "To discourage someone from doing something by instilling doubt or fear.",
+        "pos": "verb"
+      },
+      "institutional": {
+        "meaning": "Relating to an institution or institutions.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What immediate effect did the failure of the Clarity Act have on the crypto market?",
+      "According to the passage, what key definitions did many industry participants hope the Clarity Act would provide?",
+      "How do you think the ongoing regulatory uncertainty in the U.S. might impact global crypto innovation and adoption?"
+    ],
+    "modelAnswers": [
+      "The failure of the Clarity Act caused a significant downturn in the crypto market, with Bitcoin's price sliding sharply.",
+      "Industry participants hoped the Clarity Act would precisely define which tokens are securities and which are commodities.",
+      "Ongoing regulatory uncertainty in the U.S. could slow global crypto innovation by making it harder for projects to launch or expand, potentially pushing development to regions with clearer rules."
+    ]
+  },
+  {
+    "id": "cd-2026-09-17-3",
+    "date": "2026-09-17",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "암호화폐 산업의 지속적인 혁신을 위해 '명확성 법안(Clarity Act)' 통과가 왜 필수적인지 설득력 있게 설명하며, 규제 명확성의 경제적 중요성을 강조합니다.",
+    "url": "https://www.coindesk.com/opinion/2026/09/15/to-ensure-permanent-economic-innovation-we-must-pass-the-clarity-act-now",
+    "title": "Clarity Act Passage: Key to Permanent Crypto Innovation.",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "This opinion piece strongly advocates for the immediate passage of the proposed Clarity Act. The author believes this legislation is absolutely crucial for fostering permanent economic innovation in the crypto space. Clear and comprehensive regulatory guidelines are essential to unlock the full potential of digital assets. Without clearly defined rules, developers and businesses face significant legal and operational risks. This persistent uncertainty stifles investment and actively prevents the growth of new blockchain applications. Passing the act would provide much-needed legal certainty, thereby encouraging responsible and compliant development. It would also significantly help the U.S. maintain its leadership position in the global fintech landscape. The article warns that delaying this clarity risks losing innovative projects and talent to other jurisdictions worldwide.",
+    "sentences": [
+      {
+        "en": "This opinion piece strongly advocates for the immediate passage of the proposed Clarity Act.",
+        "ko": "이 오피니언 기사는 제안된 명확성 법안의 즉각적인 통과를 강력히 옹호합니다."
+      },
+      {
+        "en": "The author believes this legislation is absolutely crucial for fostering permanent economic innovation in the crypto space.",
+        "ko": "작가는 이 법안이 암호화폐 분야에서 영구적인 경제 혁신을 촉진하는 데 절대적으로 중요하다고 믿습니다."
+      },
+      {
+        "en": "Clear and comprehensive regulatory guidelines are essential to unlock the full potential of digital assets.",
+        "ko": "명확하고 포괄적인 규제 지침은 디지털 자산의 잠재력을 최대한 발휘하는 데 필수적입니다."
+      },
+      {
+        "en": "Without clearly defined rules, developers and businesses face significant legal and operational risks.",
+        "ko": "명확하게 정의된 규칙 없이는 개발자와 기업은 상당한 법적 및 운영 위험에 직면합니다."
+      },
+      {
+        "en": "This persistent uncertainty stifles investment and actively prevents the growth of new blockchain applications.",
+        "ko": "이러한 지속적인 불확실성은 투자를 억제하고 새로운 블록체인 애플리케이션의 성장을 적극적으로 방해합니다."
+      },
+      {
+        "en": "Passing the act would provide much-needed legal certainty, thereby encouraging responsible and compliant development.",
+        "ko": "이 법안을 통과시키는 것은 필요한 법적 확실성을 제공하여 책임감 있고 규정을 준수하는 개발을 장려할 것입니다."
+      },
+      {
+        "en": "It would also significantly help the U.S. maintain its leadership position in the global fintech landscape.",
+        "ko": "또한 미국이 글로벌 핀테크 환경에서 선도적인 위치를 유지하는 데 크게 도움이 될 것입니다."
+      },
+      {
+        "en": "The article warns that delaying this clarity risks losing innovative projects and talent to other jurisdictions worldwide.",
+        "ko": "이 기사는 이러한 명확성을 지연하면 혁신적인 프로젝트와 인재를 전 세계 다른 관할권에 빼앗길 위험이 있다고 경고합니다."
+      }
+    ],
+    "glossary": {
+      "advocates": {
+        "meaning": "Publicly recommends or supports a particular cause or policy.",
+        "pos": "verb"
+      },
+      "passage": {
+        "meaning": "The official approval of a law or proposal.",
+        "pos": "noun"
+      },
+      "proposed": {
+        "meaning": "Suggested or put forward for consideration.",
+        "pos": "adjective"
+      },
+      "legislation": {
+        "meaning": "Laws, considered collectively.",
+        "pos": "noun"
+      },
+      "absolutely": {
+        "meaning": "With no qualification, restriction, or limitation; totally.",
+        "pos": "adverb"
+      },
+      "crucial": {
+        "meaning": "Decisive or critical, especially in the success or failure of something.",
+        "pos": "adjective"
+      },
+      "fostering": {
+        "meaning": "Encouraging the development of something good.",
+        "pos": "verb"
+      },
+      "permanent": {
+        "meaning": "Lasting or intended to last or remain unchanged indefinitely.",
+        "pos": "adjective"
+      },
+      "comprehensive": {
+        "meaning": "Including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "guidelines": {
+        "meaning": "A general rule, principle, or piece of advice.",
+        "pos": "noun"
+      },
+      "essential": {
+        "meaning": "Absolutely necessary or important.",
+        "pos": "adjective"
+      },
+      "unlock": {
+        "meaning": "To release or make available something that was previously restricted.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Latent qualities or abilities that may be developed and lead to future success.",
+        "pos": "noun"
+      },
+      "defined": {
+        "meaning": "Clearly stated or explained.",
+        "pos": "adjective"
+      },
+      "operational": {
+        "meaning": "Relating to the normal functioning of an activity, organization, or system.",
+        "pos": "adjective"
+      },
+      "persistent": {
+        "meaning": "Continuing firmly or obstinately in a course of action in spite of difficulty.",
+        "pos": "adjective"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or not definite.",
+        "pos": "noun"
+      },
+      "stifles": {
+        "meaning": "To suppress or prevent the development of something.",
+        "pos": "verb"
+      },
+      "actively": {
+        "meaning": "In a way that involves doing something rather than just thinking or talking about it.",
+        "pos": "adverb"
+      },
+      "prevents": {
+        "meaning": "To stop something from happening or someone from doing something.",
+        "pos": "verb"
+      },
+      "certainty": {
+        "meaning": "Firm conviction that something is the case; the quality of being reliably true.",
+        "pos": "noun"
+      },
+      "encouraging": {
+        "meaning": "Giving someone support, confidence, or hope.",
+        "pos": "verb"
+      },
+      "compliant": {
+        "meaning": "Obeying rules or requests.",
+        "pos": "adjective"
+      },
+      "maintain": {
+        "meaning": "To keep something in existence or at a required level.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What does the opinion piece advocate for regarding the Clarity Act?",
+      "According to the passage, what risks do developers and businesses face without defined rules in the crypto space?",
+      "Do you think the U.S. risks losing its leadership in fintech if it delays clear crypto regulations? Why or why not?"
+    ],
+    "modelAnswers": [
+      "The opinion piece strongly advocates for the immediate passage of the Clarity Act to foster permanent economic innovation in crypto.",
+      "Without clearly defined rules, developers and businesses face significant legal and operational risks, which stifles investment and actively prevents growth.",
+      "Yes, I believe the U.S. does risk losing its leadership. Other countries are actively developing clear regulatory frameworks, which could attract innovative projects and talent away from the U.S., diminishing its global influence."
+    ]
+  },
+  {
+    "id": "ec-2026-09-17-1",
+    "date": "2026-09-17",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 중앙은행의 금리 인상 결정이 당신의 금융 생활에 어떤 영향을 미칠지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+    "title": "Fed Hikes Rates, Signals More Increases Ahead",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Federal Reserve recently approved its first interest rate hike since 2023. This decision aims to curb persistent inflation across the economy. Higher interest rates make borrowing more expensive for consumers and businesses. Mortgage rates and credit card interest will likely rise. The Fed also indicated that another rate increase is expected this year. This forward guidance affects financial markets and investment decisions. Policymakers are carefully balancing growth with price stability. A fintech PM should monitor these changes closely. They impact lending products and consumer behavior significantly.",
+    "sentences": [
+      {
+        "en": "The Federal Reserve recently approved its first interest rate hike since 2023.",
+        "ko": "연방준비제도(Fed)는 최근 2023년 이후 처음으로 금리 인상을 승인했습니다."
+      },
+      {
+        "en": "This decision aims to curb persistent inflation across the economy.",
+        "ko": "이 결정은 경제 전반에 걸친 지속적인 인플레이션을 억제하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Higher interest rates make borrowing more expensive for consumers and businesses.",
+        "ko": "높은 금리는 소비자와 기업의 대출 비용을 더 비싸게 만듭니다."
+      },
+      {
+        "en": "Mortgage rates and credit card interest will likely rise.",
+        "ko": "모기지 금리와 신용카드 이자율이 오를 가능성이 높습니다."
+      },
+      {
+        "en": "The Fed also indicated that another rate increase is expected this year.",
+        "ko": "연준은 또한 올해 추가 금리 인상이 예상된다고 밝혔습니다."
+      },
+      {
+        "en": "This forward guidance affects financial markets and investment decisions.",
+        "ko": "이러한 선제 안내는 금융 시장과 투자 결정에 영향을 미칩니다."
+      },
+      {
+        "en": "Policymakers are carefully balancing growth with price stability.",
+        "ko": "정책 입안자들은 성장과 물가 안정을 신중하게 조절하고 있습니다."
+      },
+      {
+        "en": "A fintech PM should monitor these changes closely.",
+        "ko": "핀테크 PM은 이러한 변화를 면밀히 주시해야 합니다."
+      },
+      {
+        "en": "They impact lending products and consumer behavior significantly.",
+        "ko": "이러한 변화는 대출 상품과 소비자 행동에 상당한 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "approved": {
+        "meaning": "To officially agree to or accept something as satisfactory.",
+        "pos": "verb"
+      },
+      "hike": {
+        "meaning": "An increase in the amount or level of something, especially a price or rate.",
+        "pos": "noun"
+      },
+      "curb": {
+        "meaning": "To control or limit something, especially something undesirable.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "Continuing to exist or occur for a long time, often in an annoying or difficult way.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank or lender with the intention of returning it later.",
+        "pos": "noun"
+      },
+      "consumers": {
+        "meaning": "People who buy goods and services for their own use.",
+        "pos": "noun"
+      },
+      "businesses": {
+        "meaning": "Organizations or commercial enterprises that sell goods or services.",
+        "pos": "noun"
+      },
+      "mortgage": {
+        "meaning": "A legal agreement where a bank lends money to buy a house, and you pay it back over many years.",
+        "pos": "noun"
+      },
+      "likely": {
+        "meaning": "Having a high probability of happening or being true.",
+        "pos": "adverb"
+      },
+      "indicated": {
+        "meaning": "To show or point out something, or to suggest something as being true.",
+        "pos": "verb"
+      },
+      "expected": {
+        "meaning": "Believed to be going to happen or arrive.",
+        "pos": "adjective"
+      },
+      "investment": {
+        "meaning": "The act of putting money into something to make a profit or gain interest.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "Individuals or groups responsible for creating and implementing official plans or decisions.",
+        "pos": "noun"
+      },
+      "balancing": {
+        "meaning": "To give equal importance to two or more things that are in opposition.",
+        "pos": "verb"
+      },
+      "growth": {
+        "meaning": "The process of increasing in size, amount, or development.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "The state of being stable and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "monitor": {
+        "meaning": "To observe and check the progress or quality of something over a period of time.",
+        "pos": "verb"
+      },
+      "impact": {
+        "meaning": "To have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "lending": {
+        "meaning": "The act of giving money to someone with the expectation that it will be paid back.",
+        "pos": "noun"
+      },
+      "behavior": {
+        "meaning": "The way in which one acts or conducts oneself, especially towards others.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the primary reason the Federal Reserve decided to raise interest rates, and what did they signal for the near future?",
+      "Q2: Explain what 'forward guidance' means in the context of central bank decisions and how it influences financial markets.",
+      "Q3: As a fintech PM, how might you adjust your product strategy or customer communication in response to rising interest rates and the Fed's signals for future hikes?"
+    ],
+    "modelAnswers": [
+      "A1: The Federal Reserve raised interest rates primarily to curb persistent inflation. They also signaled that another rate increase is expected later this year.",
+      "A2: Forward guidance refers to communications from a central bank about its future monetary policy plans. This influences financial markets by giving investors and businesses an indication of future economic conditions and interest rate trends, helping them make informed decisions.",
+      "A3: As a fintech PM, I would focus on product features that help customers manage higher borrowing costs, such as tools for debt consolidation or budgeting. I would also communicate transparently about how new rates might affect their existing loans or savings, offering solutions for financial resilience."
+    ]
+  },
+  {
+    "id": "ec-2026-09-17-2",
+    "date": "2026-09-17",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "영국 인플레이션이 급등하며 가계와 기업에 미치는 영향에 대해 자세히 알아보세요.",
+    "url": "https://www.theguardian.com/business/live/2026/sep/16/uk-inflation-expected-to-have-risen-in-august-as-cost-of-living-squeeze-tightens-business-live",
+    "title": "UK Inflation Jumps, Rent & Producer Prices Soar",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "UK inflation reached a five-month high in August, hitting 3.1%. This surge was mainly driven by soaring motor fuel costs. Global oil supply disruptions contributed to this increase. Higher energy prices are putting significant pressure on households. The cost of goods produced by UK factories also rose faster. This indicates broader inflationary pressures in the economy. Additionally, UK rents accelerated, adding to the cost of living. However, London house prices experienced a slight fall. The Bank of England faces tough choices on monetary policy. They must decide whether to raise interest rates further.",
+    "sentences": [
+      {
+        "en": "UK inflation reached a five-month high in August, hitting 3.1%.",
+        "ko": "영국 인플레이션은 8월에 5개월 만에 최고치인 3.1%를 기록했습니다."
+      },
+      {
+        "en": "This surge was mainly driven by soaring motor fuel costs.",
+        "ko": "이러한 급등은 주로 치솟는 자동차 연료비 때문이었습니다."
+      },
+      {
+        "en": "Global oil supply disruptions contributed to this increase.",
+        "ko": "전 세계적인 석유 공급 차질이 이러한 증가에 기여했습니다."
+      },
+      {
+        "en": "Higher energy prices are putting significant pressure on households.",
+        "ko": "높은 에너지 가격은 가계에 상당한 압력을 가하고 있습니다."
+      },
+      {
+        "en": "The cost of goods produced by UK factories also rose faster.",
+        "ko": "영국 공장에서 생산되는 상품 비용 또한 더 빠르게 상승했습니다."
+      },
+      {
+        "en": "This indicates broader inflationary pressures in the economy.",
+        "ko": "이는 경제 전반에 걸친 더 광범위한 인플레이션 압력을 나타냅니다."
+      },
+      {
+        "en": "Additionally, UK rents accelerated, adding to the cost of living.",
+        "ko": "또한, 영국 임대료가 가속화되어 생활비를 증가시켰습니다."
+      },
+      {
+        "en": "However, London house prices experienced a slight fall.",
+        "ko": "하지만 런던 주택 가격은 소폭 하락했습니다."
+      },
+      {
+        "en": "The Bank of England faces tough choices on monetary policy.",
+        "ko": "영국 중앙은행은 통화 정책에 대한 어려운 선택에 직면해 있습니다."
+      },
+      {
+        "en": "They must decide whether to raise interest rates further.",
+        "ko": "그들은 금리를 더 인상할지 여부를 결정해야 합니다."
+      }
+    ],
+    "glossary": {
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "surge": {
+        "meaning": "A sudden, powerful increase, especially in a price or amount.",
+        "pos": "noun"
+      },
+      "soaring": {
+        "meaning": "Rising very quickly to a high level.",
+        "pos": "adjective"
+      },
+      "disruptions": {
+        "meaning": "Interruptions or problems that prevent something from continuing as usual.",
+        "pos": "noun"
+      },
+      "contributed": {
+        "meaning": "To help cause or bring about something.",
+        "pos": "verb"
+      },
+      "pressure": {
+        "meaning": "The force or influence that causes someone to do something or affects a situation.",
+        "pos": "noun"
+      },
+      "households": {
+        "meaning": "All the people living together in one house or apartment.",
+        "pos": "noun"
+      },
+      "produced": {
+        "meaning": "Made or manufactured, especially in large quantities.",
+        "pos": "verb"
+      },
+      "factories": {
+        "meaning": "Buildings where goods are manufactured or assembled in large quantities.",
+        "pos": "noun"
+      },
+      "broader": {
+        "meaning": "More general or widespread in scope.",
+        "pos": "adjective"
+      },
+      "inflationary": {
+        "meaning": "Relating to or causing economic inflation.",
+        "pos": "adjective"
+      },
+      "pressures": {
+        "meaning": "Forces or influences that make something difficult or stressful.",
+        "pos": "noun"
+      },
+      "accelerated": {
+        "meaning": "Increased in speed or rate of progress.",
+        "pos": "verb"
+      },
+      "experienced": {
+        "meaning": "Underwent or was subjected to something.",
+        "pos": "verb"
+      },
+      "slight": {
+        "meaning": "Small in degree or amount.",
+        "pos": "adjective"
+      },
+      "fall": {
+        "meaning": "A decrease in quantity, amount, or value.",
+        "pos": "noun"
+      },
+      "further": {
+        "meaning": "To a greater distance or degree.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "Q1: What were the main factors cited for the UK's inflation reaching a five-month high in August?",
+      "Q2: Explain the difference between 'consumer price index (CPI)' and 'producer output prices' and why both are important indicators of inflation.",
+      "Q3: How do rising energy prices and accelerating rents impact the average household's disposable income and spending habits in the UK?"
+    ],
+    "modelAnswers": [
+      "A1: The UK's inflation reaching a five-month high in August was mainly driven by soaring motor fuel costs and global oil supply disruptions. The rising cost of goods produced by UK factories also contributed.",
+      "A2: The Consumer Price Index (CPI) measures the average change over time in the prices paid by urban consumers for a market basket of consumer goods and services. Producer output prices, also known as factory gate prices, measure the average change in prices received by domestic producers for their output. Both are important because CPI shows direct consumer impact, while producer prices indicate future consumer price trends.",
+      "A3: Rising energy prices and accelerating rents significantly reduce an average household's disposable income because more money is allocated to essential utilities and housing. This leaves less money for discretionary spending, potentially leading to a decrease in overall consumer demand and a tighter household budget."
+    ]
+  },
+  {
+    "id": "ec-2026-09-17-3",
+    "date": "2026-09-17",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "유가와 금리 상승이 미국 가계에 미치는 구체적인 재정적 부담을 이해하세요.",
+    "url": "https://www.cnbc.com/2026/09/16/oil-prices-treasury-yields-consumers-iran.html",
+    "title": "Oil & Rates Create $1,700 Burden for US Households",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "US households are facing a significant financial burden this year. Rising oil prices and increasing Treasury yields are key factors. Geopolitical events, like the Iran war, have driven up energy costs. Higher Treasury yields translate to increased borrowing costs. This impacts mortgages, car loans, and credit card rates. Economists estimate this 'one-two punch' costs households $1,700 annually. Consumers are now drawing more heavily on their savings. This trend suggests reduced consumer spending power. Businesses may also see a dampening effect on demand. Understanding these dynamics is crucial for fintech product development.",
+    "sentences": [
+      {
+        "en": "US households are facing a significant financial burden this year.",
+        "ko": "미국 가계는 올해 상당한 재정적 부담에 직면해 있습니다."
+      },
+      {
+        "en": "Rising oil prices and increasing Treasury yields are key factors.",
+        "ko": "유가 상승과 국채 수익률 증가는 주요 요인입니다."
+      },
+      {
+        "en": "Geopolitical events, like the Iran war, have driven up energy costs.",
+        "ko": "이란 전쟁과 같은 지정학적 사건들이 에너지 비용을 상승시켰습니다."
+      },
+      {
+        "en": "Higher Treasury yields translate to increased borrowing costs.",
+        "ko": "더 높은 국채 수익률은 차입 비용 증가로 이어집니다."
+      },
+      {
+        "en": "This impacts mortgages, car loans, and credit card rates.",
+        "ko": "이는 모기지, 자동차 대출, 신용카드 이자율에 영향을 미칩니다."
+      },
+      {
+        "en": "Economists estimate this 'one-two punch' costs households $1,700 annually.",
+        "ko": "경제학자들은 이러한 '이중고'가 가구당 연간 1,700달러의 비용을 발생시킨다고 추정합니다."
+      },
+      {
+        "en": "Consumers are now drawing more heavily on their savings.",
+        "ko": "소비자들은 이제 저축을 더 많이 인출하고 있습니다."
+      },
+      {
+        "en": "This trend suggests reduced consumer spending power.",
+        "ko": "이러한 추세는 소비자 구매력 감소를 시사합니다."
+      },
+      {
+        "en": "Businesses may also see a dampening effect on demand.",
+        "ko": "기업들 또한 수요에 대한 위축 효과를 볼 수 있습니다."
+      },
+      {
+        "en": "Understanding these dynamics is crucial for fintech product development.",
+        "ko": "이러한 역학 관계를 이해하는 것은 핀테크 제품 개발에 중요합니다."
+      }
+    ],
+    "glossary": {
+      "households": {
+        "meaning": "All the people living together in one house or apartment, considered as a unit.",
+        "pos": "noun"
+      },
+      "rising": {
+        "meaning": "Increasing in amount, size, or level.",
+        "pos": "adjective"
+      },
+      "geopolitical": {
+        "meaning": "Relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "translate": {
+        "meaning": "To result in or be equivalent to something else.",
+        "pos": "verb"
+      },
+      "mortgages": {
+        "meaning": "Loans used to purchase real estate, secured by the property itself.",
+        "pos": "noun"
+      },
+      "loans": {
+        "meaning": "Amounts of money borrowed that are expected to be paid back with interest.",
+        "pos": "noun"
+      },
+      "economists": {
+        "meaning": "Experts who study the production, distribution, and consumption of goods and services.",
+        "pos": "noun"
+      },
+      "estimate": {
+        "meaning": "To roughly calculate or judge the value, number, quantity, or extent of something.",
+        "pos": "verb"
+      },
+      "annually": {
+        "meaning": "Once every year; yearly.",
+        "pos": "adverb"
+      },
+      "drawing": {
+        "meaning": "Using a fund or resource that has been accumulated.",
+        "pos": "verb"
+      },
+      "savings": {
+        "meaning": "Money that a person has saved, especially in a bank or investment account.",
+        "pos": "noun"
+      },
+      "dampening": {
+        "meaning": "Making something less strong or intense.",
+        "pos": "adjective"
+      },
+      "dynamics": {
+        "meaning": "The forces or properties that stimulate growth, development, or change within a system or process.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or essential.",
+        "pos": "adjective"
+      },
+      "development": {
+        "meaning": "The process of growing or changing and becoming more advanced.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to economists, what is the estimated annual financial cost to US households from the combined effect of rising oil prices and Treasury yields?",
+      "Q2: Explain the term 'Treasury yields' and how their increase leads to higher 'borrowing costs' for consumers.",
+      "Q3: Given that consumers are drawing more heavily on savings, what innovative fintech solutions could be developed to help households manage these increasing financial pressures?"
+    ],
+    "modelAnswers": [
+      "A1: Economists estimate that the combined effect of rising oil prices and increasing Treasury yields costs US households approximately $1,700 annually.",
+      "A2: Treasury yields are the returns investors get from US government debt. When these yields rise, it increases the benchmark for other loans, making it more expensive for banks to borrow. This cost is then passed on to consumers as higher interest rates on mortgages, car loans, and credit cards, thus increasing their borrowing costs.",
+      "A3: To help households manage increasing financial pressures, fintech could develop AI-powered budgeting tools that proactively identify savings opportunities and optimize spending. Additionally, micro-lending platforms with flexible repayment options or automated debt consolidation services could offer immediate relief and better financial planning."
+    ]
+  },
+  {
     "id": "cd-2026-09-16-1",
     "date": "2026-09-16",
     "rank": 1,
