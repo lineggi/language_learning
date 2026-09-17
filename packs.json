@@ -1,5 +1,977 @@
 [
   {
+    "id": "cd-2026-09-18-1",
+    "date": "2026-09-18",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "암호화폐 시장에 큰 영향을 미칠 것으로 예상되었던 규제 법안의 부결 소식을 확인하세요.",
+    "url": "https://www.coindesk.com/business/2026/09/15/live-updates-bitcoin-slides-from-nearly-usd80-000-as-senate-votes-on-clarity-act",
+    "title": "Clarity Act Fails, Crypto Market Reacts Negatively",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Senate recently voted on the Clarity Act, a significant piece of crypto legislation. This bill aimed to provide clear regulatory guidelines for digital assets. Many in the crypto industry hoped it would foster innovation and attract investment. However, the Senate ultimately failed to pass the Clarity Act. This outcome sent immediate shockwaves through the cryptocurrency market. Bitcoin's price notably dropped from nearly $80,000 following the news. The market's negative reaction highlights the need for regulatory certainty. Without clear rules, investors often hesitate due to perceived risks. This legislative setback could slow the mainstream adoption of digital currencies. Industry leaders continue to advocate for a comprehensive regulatory framework. The future of crypto regulation in the U.S. remains uncertain after this vote.",
+    "sentences": [
+      {
+        "en": "The U.S. Senate recently voted on the Clarity Act, a significant piece of crypto legislation.",
+        "ko": "미국 상원은 최근 중요한 암호화폐 법안인 Clarity Act에 대해 투표했습니다."
+      },
+      {
+        "en": "This bill aimed to provide clear regulatory guidelines for digital assets.",
+        "ko": "이 법안은 디지털 자산에 대한 명확한 규제 지침을 제공하는 것을 목표로 했습니다."
+      },
+      {
+        "en": "Many in the crypto industry hoped it would foster innovation and attract investment.",
+        "ko": "많은 암호화폐 업계 관계자들은 이 법안이 혁신을 촉진하고 투자를 유치할 것으로 기대했습니다."
+      },
+      {
+        "en": "However, the Senate ultimately failed to pass the Clarity Act.",
+        "ko": "하지만 상원은 결국 Clarity Act를 통과시키지 못했습니다."
+      },
+      {
+        "en": "This outcome sent immediate shockwaves through the cryptocurrency market.",
+        "ko": "이 결과는 암호화폐 시장에 즉각적인 충격을 주었습니다."
+      },
+      {
+        "en": "Bitcoin's price notably dropped from nearly $80,000 following the news.",
+        "ko": "이 소식에 따라 비트코인 가격은 8만 달러에 육박하던 수준에서 눈에 띄게 하락했습니다."
+      },
+      {
+        "en": "The market's negative reaction highlights the need for regulatory certainty.",
+        "ko": "시장의 부정적인 반응은 규제 명확성에 대한 필요성을 강조합니다."
+      },
+      {
+        "en": "Without clear rules, investors often hesitate due to perceived risks.",
+        "ko": "명확한 규칙이 없으면 투자자들은 인지된 위험 때문에 종종 망설입니다."
+      },
+      {
+        "en": "This legislative setback could slow the mainstream adoption of digital currencies.",
+        "ko": "이러한 입법적 차질은 디지털 통화의 주류 채택을 늦출 수 있습니다."
+      },
+      {
+        "en": "Industry leaders continue to advocate for a comprehensive regulatory framework.",
+        "ko": "업계 리더들은 포괄적인 규제 프레임워크를 계속해서 지지하고 있습니다."
+      },
+      {
+        "en": "The future of crypto regulation in the U.S. remains uncertain after this vote.",
+        "ko": "이번 투표 이후 미국 내 암호화폐 규제의 미래는 여전히 불확실합니다."
+      }
+    ],
+    "glossary": {
+      "senate": {
+        "meaning": "The upper house of a country's parliament or legislature, often responsible for making laws.",
+        "pos": "noun"
+      },
+      "legislation": {
+        "meaning": "A law or a set of laws made by a government or parliament.",
+        "pos": "noun"
+      },
+      "aimed": {
+        "meaning": "Directed a goal or purpose towards something specific.",
+        "pos": "verb"
+      },
+      "guidelines": {
+        "meaning": "Rules or instructions that tell you how to do something.",
+        "pos": "noun"
+      },
+      "foster": {
+        "meaning": "To encourage the development or growth of something.",
+        "pos": "verb"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "attract": {
+        "meaning": "To draw attention or interest from people or things.",
+        "pos": "verb"
+      },
+      "ultimately": {
+        "meaning": "In the end, after a long and often complicated series of events.",
+        "pos": "adverb"
+      },
+      "failed": {
+        "meaning": "Did not succeed in achieving a goal or purpose.",
+        "pos": "verb"
+      },
+      "outcome": {
+        "meaning": "The way something turns out; the result or consequence of an event.",
+        "pos": "noun"
+      },
+      "shockwaves": {
+        "meaning": "Sudden and powerful effects that cause widespread disturbance.",
+        "pos": "noun"
+      },
+      "notably": {
+        "meaning": "Especially or particularly, in a way that is clear and significant.",
+        "pos": "adverb"
+      },
+      "dropped": {
+        "meaning": "Fell suddenly to a lower level or position.",
+        "pos": "verb"
+      },
+      "highlights": {
+        "meaning": "Draws attention to or emphasizes something important.",
+        "pos": "verb"
+      },
+      "certainty": {
+        "meaning": "The state of being completely sure or having no doubt.",
+        "pos": "noun"
+      },
+      "hesitate": {
+        "meaning": "To pause before doing something, especially due to uncertainty.",
+        "pos": "verb"
+      },
+      "perceived": {
+        "meaning": "Understood or interpreted in a particular way.",
+        "pos": "adjective"
+      },
+      "setback": {
+        "meaning": "A problem that delays or prevents progress.",
+        "pos": "noun"
+      },
+      "mainstream": {
+        "meaning": "Considered normal and accepted by most people.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "The act of starting to use or accept something new.",
+        "pos": "noun"
+      },
+      "advocate": {
+        "meaning": "To publicly support or recommend a particular cause or policy.",
+        "pos": "verb"
+      },
+      "framework": {
+        "meaning": "A basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "uncertain": {
+        "meaning": "Not known or determined; subject to change.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "According to the passage, what was the primary goal of the Clarity Act, and what was its fate in the Senate?",
+      "The passage states the market's negative reaction \"highlights the need for regulatory certainty.\" What does \"regulatory certainty\" mean in this context, and why is it important for the crypto market?",
+      "If you were a crypto project founder, how might the failure of the Clarity Act impact your plans for launching new products or services in the U.S.?"
+    ],
+    "modelAnswers": [
+      "The Clarity Act aimed to provide clear regulatory guidelines for digital assets. It ultimately failed to pass in the U.S. Senate.",
+      "Regulatory certainty refers to having clear and predictable rules for operating in the crypto market. It's important because it reduces risks for investors and encourages innovation.",
+      "I would likely delay U.S. launches, focusing on markets with clearer rules. The uncertainty makes planning difficult and increases legal risks for new offerings."
+    ]
+  },
+  {
+    "id": "cd-2026-09-18-2",
+    "date": "2026-09-18",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "암호화폐 산업의 혁신을 위해 Clarity Act 통과가 왜 필수적인지 설득력 있는 주장을 살펴보세요.",
+    "url": "https://www.coindesk.com/opinion/2026/09/15/to-ensure-permanent-economic-innovation-we-must-pass-the-clarity-act-now",
+    "title": "Why Clarity Act Passage is Crucial for Innovation",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "This article argues for the immediate passage of the Clarity Act. It presents a compelling case for regulatory certainty in the crypto space. The author believes clear rules are essential for long-term economic innovation. Currently, the lack of defined regulations creates significant hurdles for businesses. These hurdles include legal ambiguities and investor reluctance. Passing the Clarity Act would establish a predictable environment for digital assets. Such an environment encourages investment and technological development. It would also help the U.S. maintain its competitive edge in the global crypto market. The article warns against the dangers of regulatory inaction. Without proper guidance, innovation may move to other, more welcoming jurisdictions. Therefore, the author urges lawmakers to act decisively for the industry's future.",
+    "sentences": [
+      {
+        "en": "This article argues for the immediate passage of the Clarity Act.",
+        "ko": "이 기사는 Clarity Act의 즉각적인 통과를 주장합니다."
+      },
+      {
+        "en": "It presents a compelling case for regulatory certainty in the crypto space.",
+        "ko": "이것은 암호화폐 분야에서 규제 명확성의 설득력 있는 사례를 제시합니다."
+      },
+      {
+        "en": "The author believes clear rules are essential for long-term economic innovation.",
+        "ko": "작가는 명확한 규칙이 장기적인 경제 혁신에 필수적이라고 믿습니다."
+      },
+      {
+        "en": "Currently, the lack of defined regulations creates significant hurdles for businesses.",
+        "ko": "현재, 명확한 규제의 부족은 기업에 상당한 장애물을 만듭니다."
+      },
+      {
+        "en": "These hurdles include legal ambiguities and investor reluctance.",
+        "ko": "이러한 장애물에는 법적 모호성과 투자자들의 주저함이 포함됩니다."
+      },
+      {
+        "en": "Passing the Clarity Act would establish a predictable environment for digital assets.",
+        "ko": "Clarity Act를 통과시키는 것은 디지털 자산을 위한 예측 가능한 환경을 확립할 것입니다."
+      },
+      {
+        "en": "Such an environment encourages investment and technological development.",
+        "ko": "이러한 환경은 투자와 기술 개발을 장려합니다."
+      },
+      {
+        "en": "It would also help the U.S. maintain its competitive edge in the global crypto market.",
+        "ko": "또한 미국이 글로벌 암호화폐 시장에서 경쟁 우위를 유지하는 데 도움이 될 것입니다."
+      },
+      {
+        "en": "The article warns against the dangers of regulatory inaction.",
+        "ko": "이 기사는 규제 부작위의 위험에 대해 경고합니다."
+      },
+      {
+        "en": "Without proper guidance, innovation may move to other, more welcoming jurisdictions.",
+        "ko": "적절한 지침이 없으면 혁신은 더 환영하는 다른 관할권으로 이동할 수 있습니다."
+      },
+      {
+        "en": "Therefore, the author urges lawmakers to act decisively for the industry's future.",
+        "ko": "따라서 작가는 의원들에게 산업의 미래를 위해 단호하게 행동할 것을 촉구합니다."
+      }
+    ],
+    "glossary": {
+      "argues": {
+        "meaning": "Gives reasons or evidence to support an idea or action.",
+        "pos": "verb"
+      },
+      "passage": {
+        "meaning": "The act of moving through or past something, or the approval of a law.",
+        "pos": "noun"
+      },
+      "compelling": {
+        "meaning": "Evoking interest, attention, or admiration in a powerfully irresistible way.",
+        "pos": "adjective"
+      },
+      "essential": {
+        "meaning": "Absolutely necessary or important.",
+        "pos": "adjective"
+      },
+      "defined": {
+        "meaning": "Clearly stated or explained, having precise limits.",
+        "pos": "adjective"
+      },
+      "regulations": {
+        "meaning": "Rules or laws made by an authority, often for controlling an activity.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "Important and noticeable.",
+        "pos": "adjective"
+      },
+      "hurdles": {
+        "meaning": "Obstacles or difficulties that need to be overcome.",
+        "pos": "noun"
+      },
+      "ambiguities": {
+        "meaning": "Situations where something is unclear or open to more than one interpretation.",
+        "pos": "noun"
+      },
+      "reluctance": {
+        "meaning": "Unwillingness or hesitation to do something.",
+        "pos": "noun"
+      },
+      "establish": {
+        "meaning": "To set up something on a firm or permanent basis.",
+        "pos": "verb"
+      },
+      "predictable": {
+        "meaning": "Able to be foreseen or known in advance.",
+        "pos": "adjective"
+      },
+      "environment": {
+        "meaning": "The conditions or surroundings in which a person, animal, or plant lives or operates.",
+        "pos": "noun"
+      },
+      "encourages": {
+        "meaning": "Gives support, confidence, or hope to someone or something.",
+        "pos": "verb"
+      },
+      "maintain": {
+        "meaning": "To keep something in good condition or at a certain level.",
+        "pos": "verb"
+      },
+      "competitive": {
+        "meaning": "Relating to or characterized by competition.",
+        "pos": "adjective"
+      },
+      "edge": {
+        "meaning": "An advantage over other people or things.",
+        "pos": "noun"
+      },
+      "warns": {
+        "meaning": "Informs someone of a possible danger, threat, or problem.",
+        "pos": "verb"
+      },
+      "inaction": {
+        "meaning": "Lack of action where some is expected or necessary.",
+        "pos": "noun"
+      },
+      "jurisdictions": {
+        "meaning": "The official power to make legal decisions and judgments.",
+        "pos": "noun"
+      },
+      "urges": {
+        "meaning": "Tries to persuade someone forcefully to do something.",
+        "pos": "verb"
+      },
+      "decisively": {
+        "meaning": "In a way that shows the ability to make decisions quickly and effectively.",
+        "pos": "adverb"
+      }
+    },
+    "questions": [
+      "What is the main argument presented in the article regarding the Clarity Act and economic innovation?",
+      "The passage mentions \"legal ambiguities and investor reluctance\" as hurdles. Explain what these terms mean in the context of unclear crypto regulations.",
+      "Do you agree that regulatory inaction poses a significant threat to a country's competitive edge in emerging industries like crypto? Why or why not?"
+    ],
+    "modelAnswers": [
+      "The article argues that passing the Clarity Act is crucial for long-term economic innovation in crypto. It believes clear rules are essential to foster investment and development.",
+      "Legal ambiguities refer to unclear or confusing laws, making it hard for businesses to know what is allowed. Investor reluctance means investors are unwilling to commit funds due to these uncertainties and risks.",
+      "Yes, I agree. Without clear rules, businesses and talent may move to other countries with more welcoming environments. This can lead to a loss of innovation and economic opportunity for the country."
+    ]
+  },
+  {
+    "id": "cd-2026-09-18-3",
+    "date": "2026-09-18",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "암호화폐 보안과 개인 정보 보호 사이의 미묘한 균형에 대한 흥미로운 시각을 탐색해 보세요.",
+    "url": "https://www.coindesk.com/opinion/2026/09/16/a-stolen-coin-can-be-returned-a-leaked-identity-cannot",
+    "title": "Stolen Coins vs. Leaked Identities in Crypto",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "This opinion piece explores a critical dilemma in the cryptocurrency space. It contrasts the recovery of stolen digital assets with the permanence of leaked personal data. The author argues that while a stolen coin *can* potentially be returned, a leaked identity *cannot*. This highlights a fundamental difference in how we perceive and protect value. Blockchain technology, by design, offers transparency for transactions. However, this transparency can sometimes conflict with individual privacy rights. When personal information is linked to on-chain activity, it becomes permanently exposed. Unlike reversible financial transactions, identity breaches are often irreversible. The article suggests that the industry should prioritize identity protection more. It urges developers to build systems that safeguard user privacy robustly. This perspective challenges the traditional focus solely on asset security. It encourages a broader understanding of \"security\" in the digital age.",
+    "sentences": [
+      {
+        "en": "This opinion piece explores a critical dilemma in the cryptocurrency space.",
+        "ko": "이 의견 기사는 암호화폐 공간의 중요한 딜레마를 탐구합니다."
+      },
+      {
+        "en": "It contrasts the recovery of stolen digital assets with the permanence of leaked personal data.",
+        "ko": "이는 도난당한 디지털 자산의 복구와 유출된 개인 데이터의 영구성을 대조합니다."
+      },
+      {
+        "en": "The author argues that while a stolen coin *can* potentially be returned, a leaked identity *cannot*.",
+        "ko": "작가는 도난당한 코인은 잠재적으로 반환될 수 있지만, 유출된 신분은 그렇지 않다고 주장합니다."
+      },
+      {
+        "en": "This highlights a fundamental difference in how we perceive and protect value.",
+        "ko": "이는 우리가 가치를 인식하고 보호하는 방식의 근본적인 차이를 강조합니다."
+      },
+      {
+        "en": "Blockchain technology, by design, offers transparency for transactions.",
+        "ko": "블록체인 기술은 본질적으로 거래에 대한 투명성을 제공합니다."
+      },
+      {
+        "en": "However, this transparency can sometimes conflict with individual privacy rights.",
+        "ko": "하지만 이 투명성은 때때로 개인의 프라이버시 권리와 충돌할 수 있습니다."
+      },
+      {
+        "en": "When personal information is linked to on-chain activity, it becomes permanently exposed.",
+        "ko": "개인 정보가 온체인 활동에 연결되면 영구적으로 노출됩니다."
+      },
+      {
+        "en": "Unlike reversible financial transactions, identity breaches are often irreversible.",
+        "ko": "되돌릴 수 있는 금융 거래와 달리, 신분 침해는 종종 되돌릴 수 없습니다."
+      },
+      {
+        "en": "The article suggests that the industry should prioritize identity protection more.",
+        "ko": "이 기사는 업계가 신분 보호를 더 우선시해야 한다고 제안합니다."
+      },
+      {
+        "en": "It urges developers to build systems that safeguard user privacy robustly.",
+        "ko": "이는 개발자들에게 사용자 프라이버시를 강력하게 보호하는 시스템을 구축하도록 촉구합니다."
+      },
+      {
+        "en": "This perspective challenges the traditional focus solely on asset security.",
+        "ko": "이 관점은 자산 보안에만 집중하는 전통적인 접근 방식에 이의를 제기합니다."
+      },
+      {
+        "en": "It encourages a broader understanding of \"security\" in the digital age.",
+        "ko": "이는 디지털 시대의 \"보안\"에 대한 더 넓은 이해를 장려합니다."
+      }
+    ],
+    "glossary": {
+      "opinion": {
+        "meaning": "A belief or judgment formed about something, not necessarily based on fact.",
+        "pos": "noun"
+      },
+      "explores": {
+        "meaning": "Examines or discusses a subject or issue in detail.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "Of crucial importance or significance.",
+        "pos": "adjective"
+      },
+      "dilemma": {
+        "meaning": "A situation in which a difficult choice has to be made between two or more alternatives.",
+        "pos": "noun"
+      },
+      "contrasts": {
+        "meaning": "Compares two things in such a way as to highlight their differences.",
+        "pos": "verb"
+      },
+      "recovery": {
+        "meaning": "The action or process of regaining possession or control of something stolen or lost.",
+        "pos": "noun"
+      },
+      "permanence": {
+        "meaning": "The state or quality of lasting or remaining unchanged indefinitely.",
+        "pos": "noun"
+      },
+      "potentially": {
+        "meaning": "With the possibility of becoming actual or real.",
+        "pos": "adverb"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to something.",
+        "pos": "verb"
+      },
+      "fundamental": {
+        "meaning": "Forming a necessary base or core; of central importance.",
+        "pos": "adjective"
+      },
+      "perceive": {
+        "meaning": "To become aware or conscious of something; to interpret or look on something.",
+        "pos": "verb"
+      },
+      "transparency": {
+        "meaning": "The condition of being open, honest, and easily seen or understood.",
+        "pos": "noun"
+      },
+      "conflict": {
+        "meaning": "To be incompatible or at variance; clash.",
+        "pos": "verb"
+      },
+      "individual": {
+        "meaning": "Relating to or characteristic of a single person or thing.",
+        "pos": "adjective"
+      },
+      "linked": {
+        "meaning": "Made a connection between two or more things.",
+        "pos": "verb"
+      },
+      "on-chain": {
+        "meaning": "Referring to transactions or data recorded directly on a blockchain.",
+        "pos": "adjective"
+      },
+      "exposed": {
+        "meaning": "Left without protection or defense.",
+        "pos": "adjective"
+      },
+      "reversible": {
+        "meaning": "Able to be turned the other way around or changed back to a previous state.",
+        "pos": "adjective"
+      },
+      "breaches": {
+        "meaning": "Acts of breaking or failing to observe a law, agreement, or code of conduct.",
+        "pos": "noun"
+      },
+      "irreversible": {
+        "meaning": "Impossible to reverse or change back.",
+        "pos": "adjective"
+      },
+      "prioritize": {
+        "meaning": "To treat something as more important than other things.",
+        "pos": "verb"
+      },
+      "safeguard": {
+        "meaning": "To protect something from harm or damage.",
+        "pos": "verb"
+      },
+      "robustly": {
+        "meaning": "In a strong and healthy way; in a way that is unlikely to fail.",
+        "pos": "adverb"
+      },
+      "challenges": {
+        "meaning": "Questions the truth or validity of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What is the main distinction the author makes between a stolen coin and a leaked identity in the crypto space?",
+      "The passage states \"Blockchain technology, by design, offers transparency for transactions.\" How can this transparency sometimes conflict with \"individual privacy rights\"?",
+      "As a product manager, how would you balance the need for transaction transparency with user privacy when designing a new crypto application?"
+    ],
+    "modelAnswers": [
+      "The author distinguishes that a stolen coin can potentially be recovered or returned, whereas a leaked personal identity linked to crypto activity is often permanently exposed and irreversible.",
+      "Transparency means all transactions are visible on the blockchain. This can conflict with privacy if personal information is linked to these transactions, making an individual's financial activity public.",
+      "I would implement zero-knowledge proofs or privacy-enhancing technologies for sensitive data. I'd also ensure clear user consent for any data sharing and offer options for pseudonymous transactions while adhering to necessary regulations."
+    ]
+  },
+  {
+    "id": "ec-2026-09-18-1",
+    "date": "2026-09-18",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "영란은행이 금리를 동결했지만, 인플레이션과 에너지 가격 상승에 대한 우려를 표명하며 향후 금리 인상 가능성을 시사했습니다.",
+    "url": "https://www.cnbc.com/2026/09/17/bank-of-england-interest-rate-decision-fed-rate-hike-uk-inflation.html",
+    "title": "UK Central Bank Holds Rates Amid Inflation Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Bank of England recently decided to keep its main interest rate unchanged. This decision came despite rising inflation in the United Kingdom. UK inflation unexpectedly climbed to 3.1%, surpassing earlier forecasts. Energy costs, especially for fuel, are a major factor pushing prices higher. The central bank indicated that future rate hikes are possible. This could happen if inflation pressures remain strong, particularly from energy. Their stance differs from the U.S. Federal Reserve, which recently raised its rates. The Bank of England is trying to balance economic growth with price stability. Businesses and consumers are closely watching for any further policy shifts. Higher rates would impact borrowing costs for mortgages and loans. This highlights the ongoing challenge of managing inflation in a volatile global economy.",
+    "sentences": [
+      {
+        "en": "The Bank of England recently decided to keep its main interest rate unchanged.",
+        "ko": "영란은행은 최근 기준 금리를 동결하기로 결정했습니다."
+      },
+      {
+        "en": "This decision came despite rising inflation in the United Kingdom.",
+        "ko": "이 결정은 영국 내 인플레이션 상승에도 불구하고 내려졌습니다."
+      },
+      {
+        "en": "UK inflation unexpectedly climbed to 3.1%, surpassing earlier forecasts.",
+        "ko": "영국 인플레이션은 예상치 못하게 3.1%로 상승하여 초기 예측치를 넘어섰습니다."
+      },
+      {
+        "en": "Energy costs, especially for fuel, are a major factor pushing prices higher.",
+        "ko": "특히 연료와 같은 에너지 비용이 물가를 상승시키는 주요 요인입니다."
+      },
+      {
+        "en": "The central bank indicated that future rate hikes are possible.",
+        "ko": "중앙은행은 향후 금리 인상이 가능하다고 밝혔습니다."
+      },
+      {
+        "en": "This could happen if inflation pressures remain strong, particularly from energy.",
+        "ko": "특히 에너지로부터의 인플레이션 압력이 강하게 유지된다면 이러한 일이 발생할 수 있습니다."
+      },
+      {
+        "en": "Their stance differs from the U.S. Federal Reserve, which recently raised its rates.",
+        "ko": "이러한 입장은 최근 금리를 인상한 미국 연방준비제도와는 다릅니다."
+      },
+      {
+        "en": "The Bank of England is trying to balance economic growth with price stability.",
+        "ko": "영란은행은 경제 성장과 물가 안정을 균형 있게 유지하려고 노력하고 있습니다."
+      },
+      {
+        "en": "Businesses and consumers are closely watching for any further policy shifts.",
+        "ko": "기업과 소비자들은 추가적인 정책 변화를 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "Higher rates would impact borrowing costs for mortgages and loans.",
+        "ko": "금리가 인상되면 주택담보대출과 다른 대출의 차입 비용에 영향을 미칠 것입니다."
+      },
+      {
+        "en": "This highlights the ongoing challenge of managing inflation in a volatile global economy.",
+        "ko": "이는 변동성이 큰 글로벌 경제에서 인플레이션을 관리하는 지속적인 과제를 강조합니다."
+      }
+    ],
+    "glossary": {
+      "unchanged": {
+        "meaning": "remaining the same and not altered or modified.",
+        "pos": "adjective"
+      },
+      "inflation": {
+        "meaning": "a general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "surpassing": {
+        "meaning": "going beyond what is expected or achieved by something else.",
+        "pos": "verb"
+      },
+      "forecasts": {
+        "meaning": "predictions or estimates of future trends or events.",
+        "pos": "noun"
+      },
+      "indicated": {
+        "meaning": "showed or pointed out something, often indirectly.",
+        "pos": "verb"
+      },
+      "hikes": {
+        "meaning": "increases, especially in prices, costs, or rates.",
+        "pos": "noun"
+      },
+      "pressures": {
+        "meaning": "forces or influences that make someone do something or that cause a difficult situation.",
+        "pos": "noun"
+      },
+      "stance": {
+        "meaning": "the attitude or position that a person or organization adopts towards something.",
+        "pos": "noun"
+      },
+      "differs": {
+        "meaning": "is unlike or distinct from something else.",
+        "pos": "verb"
+      },
+      "federal": {
+        "meaning": "relating to a system of government in which several states form a unity but remain independent in internal affairs.",
+        "pos": "adjective"
+      },
+      "reserve": {
+        "meaning": "a central bank that regulates a nation's money supply and credit.",
+        "pos": "noun"
+      },
+      "balance": {
+        "meaning": "to give equal importance to two or more things.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "the state of being steady and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "shifts": {
+        "meaning": "small changes in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money from a bank or person with the intention of paying it back.",
+        "pos": "noun"
+      },
+      "mortgages": {
+        "meaning": "legal agreements by which a bank lends money at interest in exchange for taking title of the debtor's property.",
+        "pos": "noun"
+      },
+      "loans": {
+        "meaning": "amounts of money that are borrowed, especially from a bank.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something important.",
+        "pos": "verb"
+      },
+      "challenge": {
+        "meaning": "a difficult task or problem that tests someone's abilities.",
+        "pos": "noun"
+      },
+      "managing": {
+        "meaning": "the process of dealing with or controlling things or people.",
+        "pos": "verb"
+      },
+      "volatile": {
+        "meaning": "likely to change rapidly and unpredictably, especially for the worse.",
+        "pos": "adjective"
+      },
+      "economy": {
+        "meaning": "the system by which a country's money and goods are produced and used.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was the Bank of England's recent decision regarding interest rates, and what was the reported UK inflation rate?",
+      "Q2: The article mentions the Bank of England's \"stance\" differs from the U.S. Federal Reserve. What does \"stance\" mean in this context, and why might central banks adopt different stances?",
+      "Q3: How do you think central banks balance controlling inflation with promoting economic growth, and what are the potential risks of prioritizing one over the other?"
+    ],
+    "modelAnswers": [
+      "A1: The Bank of England decided to keep its main interest rate unchanged. The reported UK inflation rate unexpectedly climbed to 3.1%.",
+      "A2: In this context, \"stance\" refers to the official position or policy adopted by a central bank. Central banks might adopt different stances due to varying economic conditions, inflation targets, or growth priorities in their respective countries.",
+      "A3: Central banks balance inflation control and economic growth by adjusting interest rates. Prioritizing inflation control too much can slow growth, while focusing too much on growth might lead to higher inflation. The risk is either a recession or runaway prices."
+    ]
+  },
+  {
+    "id": "ec-2026-09-18-2",
+    "date": "2026-09-18",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국 규제 당국이 토큰화된 주식 거래를 승인하면서 핀테크 부문의 중요한 발전이 이루어졌습니다.",
+    "url": "https://www.cnbc.com/2026/09/17/securitize-jumps-after-regulators-greenlight-tokenized-us-stocks.html",
+    "title": "Regulators Approve Tokenized Stock Trading in US",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Federal regulators in the U.S. have given their approval for tokenized stock trading. This landmark decision allows certain platforms to issue and trade these digital assets. Securitize, a major player in this space, saw its shares surge after the announcement. Tokenized stocks represent ownership of traditional securities on a blockchain. This innovation aims to bring greater efficiency and liquidity to financial markets. It also promises to reduce settlement times and operational costs. For fintech companies, this approval marks a significant regulatory milestone. It opens new avenues for digital asset offerings and investment products. However, the regulatory landscape for these assets is still evolving. This development could reshape how traditional investments are managed and traded. It signifies a growing acceptance of blockchain technology in mainstream finance.",
+    "sentences": [
+      {
+        "en": "Federal regulators in the U.S. have given their approval for tokenized stock trading.",
+        "ko": "미국 연방 규제 당국이 토큰화된 주식 거래를 승인했습니다."
+      },
+      {
+        "en": "This landmark decision allows certain platforms to issue and trade these digital assets.",
+        "ko": "이 획기적인 결정은 특정 플랫폼이 이러한 디지털 자산을 발행하고 거래할 수 있도록 허용합니다."
+      },
+      {
+        "en": "Securitize, a major player in this space, saw its shares surge after the announcement.",
+        "ko": "이 분야의 주요 기업인 Securitize는 발표 후 주가가 급등했습니다."
+      },
+      {
+        "en": "Tokenized stocks represent ownership of traditional securities on a blockchain.",
+        "ko": "토큰화된 주식은 블록체인 상에서 전통적인 증권의 소유권을 나타냅니다."
+      },
+      {
+        "en": "This innovation aims to bring greater efficiency and liquidity to financial markets.",
+        "ko": "이 혁신은 금융 시장에 더 큰 효율성과 유동성을 가져오는 것을 목표로 합니다."
+      },
+      {
+        "en": "It also promises to reduce settlement times and operational costs.",
+        "ko": "또한 결제 시간을 단축하고 운영 비용을 절감할 것으로 기대됩니다."
+      },
+      {
+        "en": "For fintech companies, this approval marks a significant regulatory milestone.",
+        "ko": "핀테크 기업에게 이 승인은 중요한 규제 이정표가 됩니다."
+      },
+      {
+        "en": "It opens new avenues for digital asset offerings and investment products.",
+        "ko": "이는 디지털 자산 제공 및 투자 상품을 위한 새로운 길을 열어줍니다."
+      },
+      {
+        "en": "However, the regulatory landscape for these assets is still evolving.",
+        "ko": "하지만 이러한 자산에 대한 규제 환경은 여전히 발전 중입니다."
+      },
+      {
+        "en": "This development could reshape how traditional investments are managed and traded.",
+        "ko": "이러한 발전은 전통적인 투자가 관리되고 거래되는 방식을 재편할 수 있습니다."
+      },
+      {
+        "en": "It signifies a growing acceptance of blockchain technology in mainstream finance.",
+        "ko": "이는 주류 금융에서 블록체인 기술에 대한 수용이 증가하고 있음을 의미합니다."
+      }
+    ],
+    "glossary": {
+      "federal": {
+        "meaning": "relating to the central government of a country.",
+        "pos": "adjective"
+      },
+      "regulators": {
+        "meaning": "government agencies or bodies that control and supervise a particular industry or activity.",
+        "pos": "noun"
+      },
+      "approval": {
+        "meaning": "the act of agreeing that something is good or acceptable.",
+        "pos": "noun"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital representation, often on a blockchain.",
+        "pos": "verb"
+      },
+      "landmark": {
+        "meaning": "an important stage or event in the development of something.",
+        "pos": "adjective"
+      },
+      "platforms": {
+        "meaning": "systems or services that allow users to interact and conduct transactions.",
+        "pos": "noun"
+      },
+      "issue": {
+        "meaning": "to formally produce or distribute something, like securities.",
+        "pos": "verb"
+      },
+      "surge": {
+        "meaning": "a sudden, powerful upward movement, often of prices or numbers.",
+        "pos": "verb"
+      },
+      "represents": {
+        "meaning": "stands for or is a sign of something else.",
+        "pos": "verb"
+      },
+      "ownership": {
+        "meaning": "the state of having legal possession of something.",
+        "pos": "noun"
+      },
+      "securities": {
+        "meaning": "financial instruments that can be traded, such as stocks and bonds.",
+        "pos": "noun"
+      },
+      "blockchain": {
+        "meaning": "a digital ledger in which transactions are recorded chronologically and publicly.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "a new method, idea, or product.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "the state of achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "the availability of liquid assets to a market or company.",
+        "pos": "noun"
+      },
+      "settlement": {
+        "meaning": "the completion of a transaction, often involving the transfer of ownership.",
+        "pos": "noun"
+      },
+      "operational": {
+        "meaning": "relating to the way a business or system works.",
+        "pos": "adjective"
+      },
+      "milestone": {
+        "meaning": "a significant event in the development of something.",
+        "pos": "noun"
+      },
+      "avenues": {
+        "meaning": "possible ways of approaching or achieving something.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "reshape": {
+        "meaning": "to change the form or structure of something.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "the ideas, attitudes, or activities that are regarded as normal or conventional.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What did federal regulators in the U.S. recently approve, and which company saw its shares surge as a result?",
+      "Q2: The article states tokenized stocks aim to bring \"greater efficiency and liquidity\" to financial markets. Explain what \"efficiency\" and \"liquidity\" mean in this financial context.",
+      "Q3: As a fintech professional, what do you see as the biggest opportunities and challenges with the increased adoption of tokenized assets in traditional finance?"
+    ],
+    "modelAnswers": [
+      "A1: Federal regulators in the U.S. approved tokenized stock trading on certain platforms. Securitize, a major player in this space, saw its shares surge after the announcement.",
+      "A2: In finance, \"efficiency\" means transactions are processed quickly and with minimal cost. \"Liquidity\" refers to how easily an asset can be bought or sold without significantly affecting its price, meaning there are many active buyers and sellers.",
+      "A3: The biggest opportunities include increased market access, faster settlements, and fractional ownership. Challenges involve regulatory clarity, cybersecurity risks, and ensuring interoperability with existing financial systems."
+    ]
+  },
+  {
+    "id": "ec-2026-09-18-3",
+    "date": "2026-09-18",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "탈달러화 논의가 계속되고 있지만, 글로벌 경제에서 달러의 지배적인 역할은 여전히 견고합니다.",
+    "url": "https://www.cnbc.com/2026/09/16/de-dollarization-brics-china-russia-trump.html",
+    "title": "De-dollarization: More Talk Than Action",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Discussions about \"de-dollarization\" are gaining attention globally. This concept involves reducing reliance on the U.S. dollar for international trade. BRICS nations, including Brazil, Russia, India, China, and South Africa, often advocate for this. They aim to use local currencies more for trade among themselves. The goal is to lessen dependency on the dollar's role as the primary global reserve currency. However, despite these talks, actual progress towards de-dollarization remains slow. The dollar still dominates global finance, trade, and foreign exchange reserves. Its widespread acceptance and stability are difficult to replace. Many countries still prefer the dollar for its deep markets and trustworthiness. Creating a viable alternative system requires immense economic and political coordination. Therefore, de-dollarization appears to be more of a long-term aspiration than an immediate reality.",
+    "sentences": [
+      {
+        "en": "Discussions about \"de-dollarization\" are gaining attention globally.",
+        "ko": "전 세계적으로 '탈달러화'에 대한 논의가 주목받고 있습니다."
+      },
+      {
+        "en": "This concept involves reducing reliance on the U.S. dollar for international trade.",
+        "ko": "이 개념은 국제 무역에서 미국 달러에 대한 의존도를 줄이는 것을 포함합니다."
+      },
+      {
+        "en": "BRICS nations, including Brazil, Russia, India, China, and South Africa, often advocate for this.",
+        "ko": "브라질, 러시아, 인도, 중국, 남아프리카를 포함한 BRICS 국가들이 종종 이를 주장합니다."
+      },
+      {
+        "en": "They aim to use local currencies more for trade among themselves.",
+        "ko": "이들은 자국 통화를 국가 간 무역에 더 많이 사용하려는 목표를 가지고 있습니다."
+      },
+      {
+        "en": "The goal is to lessen dependency on the dollar's role as the primary global reserve currency.",
+        "ko": "목표는 주요 글로벌 기축통화로서 달러의 역할에 대한 의존도를 줄이는 것입니다."
+      },
+      {
+        "en": "However, despite these talks, actual progress towards de-dollarization remains slow.",
+        "ko": "하지만 이러한 논의에도 불구하고, 탈달러화를 향한 실제 진전은 더딥니다."
+      },
+      {
+        "en": "The dollar still dominates global finance, trade, and foreign exchange reserves.",
+        "ko": "달러는 여전히 글로벌 금융, 무역 및 외환 보유고를 지배하고 있습니다."
+      },
+      {
+        "en": "Its widespread acceptance and stability are difficult to replace.",
+        "ko": "달러의 광범위한 수용과 안정성은 대체하기 어렵습니다."
+      },
+      {
+        "en": "Many countries still prefer the dollar for its deep markets and trustworthiness.",
+        "ko": "많은 국가들은 여전히 깊은 시장과 신뢰성 때문에 달러를 선호합니다."
+      },
+      {
+        "en": "Creating a viable alternative system requires immense economic and political coordination.",
+        "ko": "실현 가능한 대안 시스템을 만드는 것은 엄청난 경제적, 정치적 조정을 필요로 합니다."
+      },
+      {
+        "en": "Therefore, de-dollarization appears to be more of a long-term aspiration than an immediate reality.",
+        "ko": "따라서 탈달러화는 즉각적인 현실보다는 장기적인 열망에 가깝습니다."
+      }
+    ],
+    "glossary": {
+      "de-dollarization": {
+        "meaning": "the process of reducing the global reliance on the U.S. dollar.",
+        "pos": "noun"
+      },
+      "gaining": {
+        "meaning": "acquiring or increasing something, such as attention or popularity.",
+        "pos": "verb"
+      },
+      "attention": {
+        "meaning": "notice or interest shown by someone.",
+        "pos": "noun"
+      },
+      "concept": {
+        "meaning": "an abstract idea or general notion.",
+        "pos": "noun"
+      },
+      "reliance": {
+        "meaning": "the state of depending on someone or something.",
+        "pos": "noun"
+      },
+      "international": {
+        "meaning": "involving two or more countries.",
+        "pos": "adjective"
+      },
+      "advocate": {
+        "meaning": "to publicly recommend or support a particular cause or policy.",
+        "pos": "verb"
+      },
+      "local": {
+        "meaning": "relating or restricted to a particular area or one's neighborhood.",
+        "pos": "adjective"
+      },
+      "among": {
+        "meaning": "in the middle of a group of people or things.",
+        "pos": "preposition"
+      },
+      "lessen": {
+        "meaning": "to make or become less.",
+        "pos": "verb"
+      },
+      "dependency": {
+        "meaning": "the state of relying on or being controlled by something else.",
+        "pos": "noun"
+      },
+      "primary": {
+        "meaning": "of chief importance; principal.",
+        "pos": "adjective"
+      },
+      "reserve": {
+        "meaning": "an amount of something kept back for future use, often referring to currency held by central banks.",
+        "pos": "adjective"
+      },
+      "currency": {
+        "meaning": "a system of money in general use in a particular country.",
+        "pos": "noun"
+      },
+      "despite": {
+        "meaning": "without being affected by; in spite of.",
+        "pos": "preposition"
+      },
+      "actual": {
+        "meaning": "existing in fact; real.",
+        "pos": "adjective"
+      },
+      "progress": {
+        "meaning": "forward or onward movement towards a destination.",
+        "pos": "noun"
+      },
+      "dominates": {
+        "meaning": "has a commanding influence on; exercises control over.",
+        "pos": "verb"
+      },
+      "finance": {
+        "meaning": "the management of large amounts of money.",
+        "pos": "noun"
+      },
+      "exchange": {
+        "meaning": "the act of giving one thing and receiving another.",
+        "pos": "noun"
+      },
+      "acceptance": {
+        "meaning": "the action of consenting to receive or undertake something offered.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "the state of being steady and not likely to change.",
+        "pos": "noun"
+      },
+      "viable": {
+        "meaning": "capable of working successfully; feasible.",
+        "pos": "adjective"
+      },
+      "aspiration": {
+        "meaning": "a hope or ambition of achieving something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is \"de-dollarization,\" and which group of nations is often associated with advocating for it?",
+      "Q2: The article states the dollar's \"widespread acceptance and stability\" are difficult to replace. Explain what these qualities mean and why they are important for a global reserve currency.",
+      "Q3: What are the potential benefits and drawbacks for a country like South Korea if the world were to move away from the U.S. dollar as the primary global reserve currency?"
+    ],
+    "modelAnswers": [
+      "A1: \"De-dollarization\" refers to the process of reducing global reliance on the U.S. dollar for international trade and finance. The BRICS nations (Brazil, Russia, India, China, and South Africa) often advocate for this.",
+      "A2: \"Widespread acceptance\" means many countries use and trust the dollar for transactions. \"Stability\" means its value doesn't fluctuate wildly. These are crucial because they provide predictability and confidence for international trade and investment.",
+      "A3: Benefits could include reduced exposure to U.S. monetary policy and potentially lower transaction costs in non-dollar trades. Drawbacks might involve increased currency volatility, the need for new reserve management strategies, and disruption to existing trade relationships."
+    ]
+  },
+  {
     "id": "cd-2026-09-17-1",
     "date": "2026-09-17",
     "rank": 1,
