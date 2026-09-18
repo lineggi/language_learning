@@ -1,5 +1,981 @@
 [
   {
+    "id": "cd-2026-09-19-1",
+    "date": "2026-09-19",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "유럽 중앙은행 총재가 바이낸스의 EU 라이선스 취득을 막았다는 소식은 규제 환경과 주요 거래소에 미치는 영향이 큽니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/18/ecb-president-christine-lagarde-intervened-to-block-binance-s-eu-mica-license-wsj",
+    "title": "ECB President Blocked Binance's EU MiCA License",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The European Central Bank (ECB) President Christine Lagarde reportedly intervened. She allegedly blocked Binance from getting an EU MiCA license. This action occurred despite regulators previously deeming Binance's application complete. The Wall Street Journal reported this high-level intervention. Greece, where the application was stalled, followed this guidance. MiCA stands for Markets in Crypto-Assets regulation. It is a landmark regulatory framework for crypto in the EU. The ECB does not have formal licensing authority under MiCA. However, Lagarde's influence appears significant. This incident highlights political obstacles for major crypto exchanges. It also shows how top financial figures can impact crypto adoption. The move raises questions about fair regulatory processes. Binance faces ongoing scrutiny globally regarding compliance. This event could affect its future operations in Europe.",
+    "sentences": [
+      {
+        "en": "The European Central Bank (ECB) President Christine Lagarde reportedly intervened.",
+        "ko": "유럽 중앙은행(ECB) 총재인 크리스틴 라가르드가 개입한 것으로 알려졌습니다."
+      },
+      {
+        "en": "She allegedly blocked Binance from getting an EU MiCA license.",
+        "ko": "그녀는 바이낸스가 EU MiCA 라이선스를 받는 것을 막았다고 합니다."
+      },
+      {
+        "en": "This action occurred despite regulators previously deeming Binance's application complete.",
+        "ko": "이 조치는 규제 당국이 이전에 바이낸스의 신청서를 완료된 것으로 간주했음에도 불구하고 발생했습니다."
+      },
+      {
+        "en": "The Wall Street Journal reported this high-level intervention.",
+        "ko": "월스트리트 저널은 이러한 고위층의 개입을 보도했습니다."
+      },
+      {
+        "en": "Greece, where the application was stalled, followed this guidance.",
+        "ko": "신청이 지연된 그리스는 이 지침을 따랐습니다."
+      },
+      {
+        "en": "MiCA stands for Markets in Crypto-Assets regulation.",
+        "ko": "MiCA는 암호화 자산 시장(Markets in Crypto-Assets) 규제를 의미합니다."
+      },
+      {
+        "en": "It is a landmark regulatory framework for crypto in the EU.",
+        "ko": "이는 EU에서 암호화폐를 위한 획기적인 규제 프레임워크입니다."
+      },
+      {
+        "en": "The ECB does not have formal licensing authority under MiCA.",
+        "ko": "ECB는 MiCA에 따라 공식적인 라이선스 권한을 가지고 있지 않습니다."
+      },
+      {
+        "en": "However, Lagarde's influence appears significant.",
+        "ko": "하지만 라가르드 총재의 영향력은 상당해 보입니다."
+      },
+      {
+        "en": "This incident highlights political obstacles for major crypto exchanges.",
+        "ko": "이 사건은 주요 암호화폐 거래소에 대한 정치적 장애물을 부각시킵니다."
+      },
+      {
+        "en": "It also shows how top financial figures can impact crypto adoption.",
+        "ko": "또한 최고 금융 인물들이 암호화폐 채택에 어떻게 영향을 미칠 수 있는지 보여줍니다."
+      },
+      {
+        "en": "The move raises questions about fair regulatory processes.",
+        "ko": "이러한 움직임은 공정한 규제 절차에 대한 의문을 제기합니다."
+      },
+      {
+        "en": "Binance faces ongoing scrutiny globally regarding compliance.",
+        "ko": "바이낸스는 규정 준수와 관련하여 전 세계적으로 지속적인 조사를 받고 있습니다."
+      },
+      {
+        "en": "This event could affect its future operations in Europe.",
+        "ko": "이 사건은 유럽에서의 향후 운영에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "reportedly": {
+        "meaning": "Said to be true by some people, but not definitely known.",
+        "pos": "adverb"
+      },
+      "intervened": {
+        "meaning": "Got involved in a situation to try to change it or stop it from developing.",
+        "pos": "verb"
+      },
+      "allegedly": {
+        "meaning": "Used to show that something is said to be true, but has not been proved.",
+        "pos": "adverb"
+      },
+      "blocked": {
+        "meaning": "Stopped something from happening or moving forward.",
+        "pos": "verb"
+      },
+      "deeming": {
+        "meaning": "Considering or judging something in a particular way.",
+        "pos": "verb"
+      },
+      "application": {
+        "meaning": "A formal request for something, such as a job or a license.",
+        "pos": "noun"
+      },
+      "stalled": {
+        "meaning": "Stopped making progress or developing.",
+        "pos": "verb"
+      },
+      "guidance": {
+        "meaning": "Help and advice given to someone about their work or problems.",
+        "pos": "noun"
+      },
+      "landmark": {
+        "meaning": "Very important and having a great influence on what happens later.",
+        "pos": "adjective"
+      },
+      "framework": {
+        "meaning": "A set of rules, ideas, or beliefs that is used to plan or decide something.",
+        "pos": "noun"
+      },
+      "authority": {
+        "meaning": "The power or right to give orders, make decisions, and enforce obedience.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "The power to have an effect on people or things, or on the way things happen.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "Important or noticeable.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "Draws attention to something important.",
+        "pos": "verb"
+      },
+      "obstacles": {
+        "meaning": "Things that make it difficult to achieve something.",
+        "pos": "noun"
+      },
+      "adoption": {
+        "meaning": "The act of starting to use or accept something new.",
+        "pos": "noun"
+      },
+      "raises": {
+        "meaning": "Brings a question or issue to people's attention.",
+        "pos": "verb"
+      },
+      "scrutiny": {
+        "meaning": "Careful and thorough examination of something.",
+        "pos": "noun"
+      },
+      "globally": {
+        "meaning": "All over the world.",
+        "pos": "adverb"
+      },
+      "compliance": {
+        "meaning": "The act of obeying an order, rule, or request.",
+        "pos": "noun"
+      },
+      "operations": {
+        "meaning": "The activities involved in running a business or organization.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the passage, what specific action did ECB President Christine Lagarde reportedly take regarding Binance's EU MiCA license application?",
+      "The passage mentions that MiCA is a \"landmark regulatory framework.\" Based on the context, what does \"landmark\" imply about this framework, and why is it significant for crypto in the EU?",
+      "What are your thoughts on high-level interventions by financial figures, like Lagarde, in regulatory processes for crypto exchanges? Do you believe such actions are beneficial for market stability or do they create unfair hurdles for businesses?"
+    ],
+    "modelAnswers": [
+      "ECB President Christine Lagarde reportedly intervened to block Binance from obtaining an EU MiCA license, even though its application was previously considered complete by regulators.",
+      "\"Landmark\" implies that the MiCA regulatory framework is highly important and sets a new standard or precedent. It is significant for crypto in the EU because it is a comprehensive set of rules designed to govern crypto-assets across the entire European Union.",
+      "High-level interventions can be a double-edged sword. While they might ensure stricter oversight and protect consumers, they can also introduce political bias and create unpredictable hurdles for businesses. Transparency and clear legal grounds are essential to maintain trust in the regulatory process."
+    ]
+  },
+  {
+    "id": "cd-2026-09-19-2",
+    "date": "2026-09-19",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 CFTC가 암호화폐 규제안을 백악관에 보냈다는 소식은 미국 내 암호화폐 규제의 향방을 이해하는 데 중요합니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act",
+    "title": "CFTC Advances Crypto Rules Amid Congressional Delays",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Commodity Futures Trading Commission (CFTC) has advanced crypto market rules. They sent these proposed regulations to the White House for review. This move comes as Congress faces delays on the Clarity Act. The Clarity Act aims to provide clear crypto legislation. The Securities and Exchange Commission (SEC) is also active. It is exploring new paths for tokenized stock trading. This indicates a strong push for crypto regulation in the U.S. Regulators are acting even with legislative slowdowns. The CFTC primarily oversees derivatives markets. Its involvement suggests treating some crypto assets as commodities. This could shape how different digital assets are classified. Clarity in regulation is crucial for institutional adoption. It also affects investor protection and market stability. The White House review is a key step before final implementation.",
+    "sentences": [
+      {
+        "en": "The Commodity Futures Trading Commission (CFTC) has advanced crypto market rules.",
+        "ko": "미국 상품선물거래위원회(CFTC)가 암호화폐 시장 규정을 진전시켰습니다."
+      },
+      {
+        "en": "They sent these proposed regulations to the White House for review.",
+        "ko": "그들은 이 제안된 규정을 검토를 위해 백악관에 보냈습니다."
+      },
+      {
+        "en": "This move comes as Congress faces delays on the Clarity Act.",
+        "ko": "이러한 움직임은 의회가 Clarity Act(명확성 법안)에 대한 지연에 직면한 가운데 나왔습니다."
+      },
+      {
+        "en": "The Clarity Act aims to provide clear crypto legislation.",
+        "ko": "Clarity Act는 명확한 암호화폐 법률을 제공하는 것을 목표로 합니다."
+      },
+      {
+        "en": "The Securities and Exchange Commission (SEC) is also active.",
+        "ko": "증권거래위원회(SEC) 또한 활발하게 활동하고 있습니다."
+      },
+      {
+        "en": "It is exploring new paths for tokenized stock trading.",
+        "ko": "SEC는 토큰화된 주식 거래를 위한 새로운 방안을 모색하고 있습니다."
+      },
+      {
+        "en": "This indicates a strong push for crypto regulation in the U.S.",
+        "ko": "이는 미국에서 암호화폐 규제에 대한 강력한 추진력을 시사합니다."
+      },
+      {
+        "en": "Regulators are acting even with legislative slowdowns.",
+        "ko": "규제 당국은 입법 지연에도 불구하고 행동하고 있습니다."
+      },
+      {
+        "en": "The CFTC primarily oversees derivatives markets.",
+        "ko": "CFTC는 주로 파생상품 시장을 감독합니다."
+      },
+      {
+        "en": "Its involvement suggests treating some crypto assets as commodities.",
+        "ko": "그들의 개입은 일부 암호화폐 자산을 상품으로 취급할 가능성을 시사합니다."
+      },
+      {
+        "en": "This could shape how different digital assets are classified.",
+        "ko": "이는 다양한 디지털 자산이 분류되는 방식을 형성할 수 있습니다."
+      },
+      {
+        "en": "Clarity in regulation is crucial for institutional adoption.",
+        "ko": "규제 명확성은 기관 채택에 매우 중요합니다."
+      },
+      {
+        "en": "It also affects investor protection and market stability.",
+        "ko": "또한 투자자 보호와 시장 안정성에도 영향을 미칩니다."
+      },
+      {
+        "en": "The White House review is a key step before final implementation.",
+        "ko": "백악관 검토는 최종 실행 전의 핵심 단계입니다."
+      }
+    ],
+    "glossary": {
+      "advanced": {
+        "meaning": "Moved forward or made progress.",
+        "pos": "verb"
+      },
+      "proposed": {
+        "meaning": "Suggested for consideration or discussion.",
+        "pos": "adjective"
+      },
+      "regulations": {
+        "meaning": "Rules or laws made by an authority.",
+        "pos": "noun"
+      },
+      "review": {
+        "meaning": "A formal assessment of something with the intention of instituting change if necessary.",
+        "pos": "noun"
+      },
+      "delays": {
+        "meaning": "Situations where something is made to happen later than planned.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "Plans or intends to achieve a particular purpose.",
+        "pos": "verb"
+      },
+      "legislation": {
+        "meaning": "Laws considered collectively.",
+        "pos": "noun"
+      },
+      "exploring": {
+        "meaning": "Investigating or discussing something thoroughly.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "Converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      },
+      "indicates": {
+        "meaning": "Shows or points out something.",
+        "pos": "verb"
+      },
+      "push": {
+        "meaning": "A determined effort to achieve something.",
+        "pos": "noun"
+      },
+      "acting": {
+        "meaning": "Taking action or doing something.",
+        "pos": "verb"
+      },
+      "slowdowns": {
+        "meaning": "Reductions in the speed or rate of something.",
+        "pos": "noun"
+      },
+      "primarily": {
+        "meaning": "Mainly or mostly.",
+        "pos": "adverb"
+      },
+      "oversees": {
+        "meaning": "Supervises a person or their work, especially in an official capacity.",
+        "pos": "verb"
+      },
+      "derivatives": {
+        "meaning": "Financial contracts whose value is derived from an underlying asset.",
+        "pos": "noun"
+      },
+      "involvement": {
+        "meaning": "The act of taking part in something.",
+        "pos": "noun"
+      },
+      "commodities": {
+        "meaning": "Raw materials or primary agricultural products that can be bought and sold.",
+        "pos": "noun"
+      },
+      "classified": {
+        "meaning": "Arranged into groups according to shared qualities.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "Extremely important.",
+        "pos": "adjective"
+      },
+      "institutional": {
+        "meaning": "Relating to a large and important organization, such as a university or bank.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "The act of starting to use or accept something new.",
+        "pos": "noun"
+      },
+      "implementation": {
+        "meaning": "The process of putting a decision or plan into effect.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific regulatory body sent crypto market rules to the White House for review, and what is Congress reportedly doing regarding the Clarity Act?",
+      "The passage states that \"Clarity in regulation is crucial for institutional adoption.\" Explain what \"institutional adoption\" means in this context and why regulatory clarity is so important for it.",
+      "Given the CFTC and SEC are both advancing crypto rules while Congress delays legislation, what are the potential benefits and drawbacks of this multi-agency approach to crypto regulation in the U.S.?"
+    ],
+    "modelAnswers": [
+      "The Commodity Futures Trading Commission (CFTC) sent crypto market rules to the White House for review. Congress is reportedly facing delays on the Clarity Act, which aims to provide clear crypto legislation.",
+      "\"Institutional adoption\" refers to large financial organizations, like banks or investment firms, beginning to use or invest in crypto assets. Regulatory clarity is crucial because these institutions require clear rules and legal certainty to manage risks and comply with laws before engaging significantly in the crypto market.",
+      "A multi-agency approach might allow for faster action in developing specific rules, leveraging each agency's expertise. However, it could also lead to fragmented or conflicting regulations, creating confusion and increasing compliance burdens for crypto businesses operating across different sectors."
+    ]
+  },
+  {
+    "id": "cd-2026-09-19-3",
+    "date": "2026-09-19",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "암호화폐 기술 제공업체 Haruko가 사이버 공격을 받았다는 소식은 암호화폐 산업의 보안 취약성과 잠재적 위험을 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/09/18/crypto-tech-provider-haruko-hit-by-cyberattack-affecting-15-clients-some-funds-lost",
+    "title": "Crypto Tech Firm Haruko Suffers Cyberattack",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Haruko, a crypto technology provider, recently suffered a cyberattack. This incident affected 15 of its clients. Sources indicated that some funds were lost. Smaller hedge funds with weaker security controls were particularly vulnerable. The attack highlights persistent security challenges in the crypto sector. Such incidents underscore the importance of robust cybersecurity measures. They also emphasize the need for strong client security protocols. Crypto tech providers manage significant digital assets for their users. Therefore, their security infrastructure is critically important. This event serves as a reminder for all crypto participants. It reinforces the need for continuous vigilance against cyber threats. Even established firms can become targets of sophisticated attacks. Clients must carefully assess their providers' security posture. Protecting digital assets remains a top priority in this industry.",
+    "sentences": [
+      {
+        "en": "Haruko, a crypto technology provider, recently suffered a cyberattack.",
+        "ko": "암호화폐 기술 제공업체인 Haruko가 최근 사이버 공격을 받았습니다."
+      },
+      {
+        "en": "This incident affected 15 of its clients.",
+        "ko": "이 사건으로 15개 고객사가 피해를 입었습니다."
+      },
+      {
+        "en": "Sources indicated that some funds were lost.",
+        "ko": "소식통에 따르면 일부 자금이 손실되었습니다."
+      },
+      {
+        "en": "Smaller hedge funds with weaker security controls were particularly vulnerable.",
+        "ko": "보안 통제가 취약한 소규모 헤지펀드들이 특히 취약했습니다."
+      },
+      {
+        "en": "The attack highlights persistent security challenges in the crypto sector.",
+        "ko": "이번 공격은 암호화폐 부문의 지속적인 보안 문제를 부각시킵니다."
+      },
+      {
+        "en": "Such incidents underscore the importance of robust cybersecurity measures.",
+        "ko": "이러한 사건들은 강력한 사이버 보안 조치의 중요성을 강조합니다."
+      },
+      {
+        "en": "They also emphasize the need for strong client security protocols.",
+        "ko": "또한 강력한 고객 보안 프로토콜의 필요성을 역설합니다."
+      },
+      {
+        "en": "Crypto tech providers manage significant digital assets for their users.",
+        "ko": "암호화폐 기술 제공업체는 사용자들을 위해 상당한 디지털 자산을 관리합니다."
+      },
+      {
+        "en": "Therefore, their security infrastructure is critically important.",
+        "ko": "따라서 그들의 보안 인프라는 매우 중요합니다."
+      },
+      {
+        "en": "This event serves as a reminder for all crypto participants.",
+        "ko": "이 사건은 모든 암호화폐 참여자에게 경고 역할을 합니다."
+      },
+      {
+        "en": "It reinforces the need for continuous vigilance against cyber threats.",
+        "ko": "이는 사이버 위협에 대한 지속적인 경계의 필요성을 강화합니다."
+      },
+      {
+        "en": "Even established firms can become targets of sophisticated attacks.",
+        "ko": "심지어 잘 알려진 기업들도 정교한 공격의 표적이 될 수 있습니다."
+      },
+      {
+        "en": "Clients must carefully assess their providers' security posture.",
+        "ko": "고객은 자신의 제공업체 보안 태세를 신중하게 평가해야 합니다."
+      },
+      {
+        "en": "Protecting digital assets remains a top priority in this industry.",
+        "ko": "디지털 자산 보호는 이 산업에서 최우선 과제로 남아 있습니다."
+      }
+    ],
+    "glossary": {
+      "provider": {
+        "meaning": "A company or person that supplies something.",
+        "pos": "noun"
+      },
+      "suffered": {
+        "meaning": "Experienced something bad or unpleasant.",
+        "pos": "verb"
+      },
+      "incident": {
+        "meaning": "An event or occurrence, especially one that is unusual or unpleasant.",
+        "pos": "noun"
+      },
+      "affected": {
+        "meaning": "Had an effect on; made a difference to.",
+        "pos": "verb"
+      },
+      "indicated": {
+        "meaning": "Showed or pointed out.",
+        "pos": "verb"
+      },
+      "hedge": {
+        "meaning": "Relating to a type of investment fund that can invest in a wider range of assets than other funds.",
+        "pos": "adjective"
+      },
+      "vulnerable": {
+        "meaning": "Open to attack or harm.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "Draws attention to something important.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "Continuing to exist or occur over a prolonged period.",
+        "pos": "adjective"
+      },
+      "challenges": {
+        "meaning": "Difficulties that test one's ability or determination.",
+        "pos": "noun"
+      },
+      "underscore": {
+        "meaning": "Emphasize the importance of something.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "Strong and healthy; not likely to fail.",
+        "pos": "adjective"
+      },
+      "measures": {
+        "meaning": "Actions taken to achieve a particular purpose.",
+        "pos": "noun"
+      },
+      "emphasize": {
+        "meaning": "Give special importance or prominence to something.",
+        "pos": "verb"
+      },
+      "protocols": {
+        "meaning": "Official procedures or systems of rules.",
+        "pos": "noun"
+      },
+      "manage": {
+        "meaning": "Be in charge of; control or administer.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "Important or noticeable.",
+        "pos": "adjective"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "critically": {
+        "meaning": "To a crucial or decisive extent.",
+        "pos": "adverb"
+      },
+      "reinforces": {
+        "meaning": "Strengthens or supports.",
+        "pos": "verb"
+      },
+      "vigilance": {
+        "meaning": "The action or state of keeping careful watch for possible danger or difficulties.",
+        "pos": "noun"
+      },
+      "sophisticated": {
+        "meaning": "(of a machine, system, or technique) developed to a high degree of complexity.",
+        "pos": "adjective"
+      },
+      "assess": {
+        "meaning": "Evaluate or estimate the nature, ability, or quality of.",
+        "pos": "verb"
+      },
+      "posture": {
+        "meaning": "The way in which someone or something is regarded or treated.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Which crypto technology provider was recently hit by a cyberattack, and how many of its clients were affected according to the passage?",
+      "The passage states that \"Smaller hedge funds with weaker security controls were particularly vulnerable.\" What does \"vulnerable\" mean in this context, and why would weaker security controls make them so?",
+      "As a crypto/fintech PM, what immediate steps would you recommend to a company like Haruko to rebuild trust with its clients after such a cyberattack, and how would you prioritize these actions?"
+    ],
+    "modelAnswers": [
+      "Haruko, a crypto technology provider, was recently hit by a cyberattack, affecting 15 of its clients.",
+      "In this context, \"vulnerable\" means susceptible to being attacked or harmed. Weaker security controls would make them vulnerable because they lack the necessary protections, like strong encryption, multi-factor authentication, or regular audits, making it easier for attackers to breach their systems and access funds.",
+      "To rebuild trust, I would immediately recommend transparent communication about the incident, a detailed post-mortem analysis, and a clear action plan for enhanced security. Prioritizing client communication and fund recovery efforts would be paramount, followed by a comprehensive security overhaul and external audits to demonstrate commitment to future protection."
+    ]
+  },
+  {
+    "id": "ec-2026-09-19-1",
+    "date": "2026-09-19",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "일본 중앙은행의 금리 인상이 예상 밖의 시장 반응을 불러일으켰습니다. 그 배경과 경제적 파급 효과를 살펴보세요.",
+    "url": "https://www.cnbc.com/2026/09/18/japan-rate-hike-stocks-rise-bond-yields-yen-fall.html",
+    "title": "Japan's Rate Hike Sparks Unexpected Market Shifts",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Bank of Japan recently increased its key interest rate. This was the first hike in 31 years, aiming to combat rising prices. However, market reactions defied typical expectations. Usually, a rate hike strengthens the local currency and boosts bond yields. But the Japanese yen actually weakened significantly against the dollar. Additionally, the yield on Japan's 10-year government bond fell. Surprisingly, the Nikkei 225 stock index gained notably. This unusual response suggests investors see more hikes as unlikely soon. They might also believe the bank will maintain accommodative policies. Such a divergence highlights complex global economic dynamics. It also shows unique investor sentiment regarding Japan's economy. Fintech professionals should note these nuanced market signals.",
+    "sentences": [
+      {
+        "en": "The Bank of Japan recently increased its key interest rate.",
+        "ko": "일본 중앙은행이 최근 기준 금리를 인상했습니다."
+      },
+      {
+        "en": "This was the first hike in 31 years, aiming to combat rising prices.",
+        "ko": "이는 물가 상승에 대응하기 위한 31년 만의 첫 인상이었습니다."
+      },
+      {
+        "en": "However, market reactions defied typical expectations.",
+        "ko": "하지만 시장의 반응은 일반적인 예상을 뒤엎었습니다."
+      },
+      {
+        "en": "Usually, a rate hike strengthens the local currency and boosts bond yields.",
+        "ko": "통상적으로 금리 인상은 자국 통화를 강화하고 채권 수익률을 높입니다."
+      },
+      {
+        "en": "But the Japanese yen actually weakened significantly against the dollar.",
+        "ko": "그러나 일본 엔화는 달러 대비 오히려 상당히 약화되었습니다."
+      },
+      {
+        "en": "Additionally, the yield on Japan's 10-year government bond fell.",
+        "ko": "더불어 일본 10년 만기 국채 수익률은 하락했습니다."
+      },
+      {
+        "en": "Surprisingly, the Nikkei 225 stock index gained notably.",
+        "ko": "놀랍게도 닛케이 225 주가지수는 눈에 띄게 상승했습니다."
+      },
+      {
+        "en": "This unusual response suggests investors see more hikes as unlikely soon.",
+        "ko": "이러한 이례적인 반응은 투자자들이 추가 금리 인상을 당분간 없을 것으로 본다는 것을 시사합니다."
+      },
+      {
+        "en": "They might also believe the bank will maintain accommodative policies.",
+        "ko": "그들은 또한 중앙은행이 완화적인 정책을 유지할 것이라고 믿을 수도 있습니다."
+      },
+      {
+        "en": "Such a divergence highlights complex global economic dynamics.",
+        "ko": "이러한 차이는 복잡한 글로벌 경제 역학을 부각합니다."
+      },
+      {
+        "en": "It also shows unique investor sentiment regarding Japan's economy.",
+        "ko": "또한 일본 경제에 대한 독특한 투자 심리를 보여줍니다."
+      },
+      {
+        "en": "Fintech professionals should note these nuanced market signals.",
+        "ko": "핀테크 전문가들은 이러한 미묘한 시장 신호에 주목해야 합니다."
+      }
+    ],
+    "glossary": {
+      "combat": {
+        "meaning": "to fight against something difficult or undesirable",
+        "pos": "verb"
+      },
+      "defied": {
+        "meaning": "openly resisted or refused to obey something",
+        "pos": "verb"
+      },
+      "typical": {
+        "meaning": "showing the usual characteristics of a particular kind of person or thing",
+        "pos": "adjective"
+      },
+      "expectations": {
+        "meaning": "beliefs about what will happen in the future",
+        "pos": "noun"
+      },
+      "strengthens": {
+        "meaning": "makes something more powerful or effective",
+        "pos": "verb"
+      },
+      "boosts": {
+        "meaning": "improves or increases the level of something",
+        "pos": "verb"
+      },
+      "weakened": {
+        "meaning": "made something less strong or effective",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in an important or noticeable way",
+        "pos": "adverb"
+      },
+      "additionally": {
+        "meaning": "in addition to what has been said or mentioned",
+        "pos": "adverb"
+      },
+      "surprisingly": {
+        "meaning": "in an unexpected or astonishing manner",
+        "pos": "adverb"
+      },
+      "gained": {
+        "meaning": "obtained or acquired something, typically an advantage or profit",
+        "pos": "verb"
+      },
+      "notably": {
+        "meaning": "especially or particularly",
+        "pos": "adverb"
+      },
+      "unusual": {
+        "meaning": "not common or expected; strange",
+        "pos": "adjective"
+      },
+      "response": {
+        "meaning": "a reaction to something that has happened",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "puts forward for consideration or as a hypothesis",
+        "pos": "verb"
+      },
+      "accommodative": {
+        "meaning": "a monetary policy aimed at stimulating economic growth",
+        "pos": "adjective"
+      },
+      "divergence": {
+        "meaning": "the process or state of separating or going in different directions",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a feeling or opinion, especially one based on emotion rather than reason",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was the Bank of Japan's recent action, and what was its stated purpose?",
+      "Q2: Explain what \"accommodative policies\" mean in the context of central banking, and why investors might expect the Bank of Japan to maintain them.",
+      "Q3: How might unexpected market reactions to central bank decisions impact a fintech product manager's strategy, especially in areas like currency exchange or investment platforms?"
+    ],
+    "modelAnswers": [
+      "A1: The Bank of Japan recently increased its key interest rate for the first time in 31 years. Its stated purpose was to combat rising prices and global inflation.",
+      "A2: Accommodative policies refer to a central bank's efforts to stimulate economic growth, typically through low interest rates or quantitative easing. Investors might expect the Bank of Japan to maintain them if they believe the economy still needs support despite the recent rate hike.",
+      "A3: Unexpected market reactions create volatility and uncertainty. A fintech PM might need to build more robust risk management features, enhance real-time data analytics for currency fluctuations, or adapt investment algorithms to account for unconventional market behavior."
+    ]
+  },
+  {
+    "id": "ec-2026-09-19-2",
+    "date": "2026-09-19",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "투자의 귀재 워렌 버핏이 버크셔 해서웨이 회장직에서 물러났습니다. 그의 유산과 회사에 미칠 영향에 대해 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/18/buffett-stepping-down-as-berkshire-chairman.html",
+    "title": "Warren Buffett Steps Down as Berkshire Chairman",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Investment legend Warren Buffett has stepped down as chairman. He led Berkshire Hathaway for over six decades. Buffett transformed the struggling textile mill into a global conglomerate. His son, Howard Buffett, will now take over the chairman role. This transition follows a long-standing succession plan. Berkshire Hathaway is now a $1 trillion company. It holds diverse investments across many sectors. Buffett, at 96, famously stated, \"Father Time always wins.\" His departure marks the end of an extraordinary era. Investors will closely watch the company's future direction. The focus will be on maintaining its unique investment philosophy. This event highlights the importance of strong corporate governance. This succession highlights the enduring legacy of his investment approach.",
+    "sentences": [
+      {
+        "en": "Investment legend Warren Buffett has stepped down as chairman.",
+        "ko": "투자계의 전설 워렌 버핏이 회장직에서 물러났습니다."
+      },
+      {
+        "en": "He led Berkshire Hathaway for over six decades.",
+        "ko": "그는 60년 넘게 버크셔 해서웨이를 이끌었습니다."
+      },
+      {
+        "en": "Buffett transformed the struggling textile mill into a global conglomerate.",
+        "ko": "버핏은 고전하던 섬유 공장을 글로벌 복합 기업으로 변모시켰습니다."
+      },
+      {
+        "en": "His son, Howard Buffett, will now take over the chairman role.",
+        "ko": "그의 아들 하워드 버핏이 이제 회장직을 맡게 됩니다."
+      },
+      {
+        "en": "This transition follows a long-standing succession plan.",
+        "ko": "이번 인수인계는 오랜 기간 준비된 승계 계획에 따른 것입니다."
+      },
+      {
+        "en": "Berkshire Hathaway is now a $1 trillion company.",
+        "ko": "버크셔 해서웨이는 현재 1조 달러 규모의 회사입니다."
+      },
+      {
+        "en": "It holds diverse investments across many sectors.",
+        "ko": "이 회사는 다양한 부문에 걸쳐 여러 투자를 보유하고 있습니다."
+      },
+      {
+        "en": "Buffett, at 96, famously stated, \"Father Time always wins.\"",
+        "ko": "96세의 버핏은 \"시간은 항상 이긴다\"는 유명한 말을 남겼습니다."
+      },
+      {
+        "en": "His departure marks the end of an extraordinary era.",
+        "ko": "그의 퇴임은 비범했던 시대의 막을 내리는 것입니다."
+      },
+      {
+        "en": "Investors will closely watch the company's future direction.",
+        "ko": "투자자들은 회사의 향후 방향을 면밀히 주시할 것입니다."
+      },
+      {
+        "en": "The focus will be on maintaining its unique investment philosophy.",
+        "ko": "핵심은 독특한 투자 철학을 유지하는 데 있을 것입니다."
+      },
+      {
+        "en": "This event highlights the importance of strong corporate governance.",
+        "ko": "이 사건은 강력한 기업 지배 구조의 중요성을 부각합니다."
+      },
+      {
+        "en": "This succession highlights the enduring legacy of his investment approach.",
+        "ko": "이번 승계는 그의 투자 방식이 남긴 지속적인 유산을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "investment": {
+        "meaning": "the action of putting money into something for profit",
+        "pos": "noun"
+      },
+      "legend": {
+        "meaning": "an extremely famous or notorious person",
+        "pos": "noun"
+      },
+      "chairman": {
+        "meaning": "the person presiding over a board or committee",
+        "pos": "noun"
+      },
+      "led": {
+        "meaning": "guided or directed something, often a group or organization",
+        "pos": "verb"
+      },
+      "transformed": {
+        "meaning": "changed something completely in form or appearance",
+        "pos": "verb"
+      },
+      "struggling": {
+        "meaning": "experiencing great difficulty or effort",
+        "pos": "adjective"
+      },
+      "conglomerate": {
+        "meaning": "a large corporation formed by merging different companies",
+        "pos": "noun"
+      },
+      "transition": {
+        "meaning": "the process or a period of changing from one state to another",
+        "pos": "noun"
+      },
+      "diverse": {
+        "meaning": "showing a great deal of variety",
+        "pos": "adjective"
+      },
+      "investments": {
+        "meaning": "assets purchased with the hope that they will increase in value",
+        "pos": "noun"
+      },
+      "sectors": {
+        "meaning": "distinct parts of an economy or industry",
+        "pos": "noun"
+      },
+      "famously": {
+        "meaning": "in a well-known or celebrated manner",
+        "pos": "adverb"
+      },
+      "departure": {
+        "meaning": "the action of leaving, especially to start a journey",
+        "pos": "noun"
+      },
+      "extraordinary": {
+        "meaning": "very unusual or remarkable",
+        "pos": "adjective"
+      },
+      "era": {
+        "meaning": "a long and distinct period of history",
+        "pos": "noun"
+      },
+      "closely": {
+        "meaning": "in a careful or thorough manner",
+        "pos": "adverb"
+      },
+      "direction": {
+        "meaning": "the way in which someone or something is developing",
+        "pos": "noun"
+      },
+      "maintaining": {
+        "meaning": "keeping something in a good condition or at an appropriate level",
+        "pos": "verb"
+      },
+      "philosophy": {
+        "meaning": "a particular system of thought or principles",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something",
+        "pos": "verb"
+      },
+      "governance": {
+        "meaning": "the action or manner of governing a state or organization",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: Who is replacing Warren Buffett as chairman of Berkshire Hathaway, and how was this decision made?",
+      "Q2: Explain what a \"conglomerate\" is, and how Berkshire Hathaway exemplifies this term based on the passage.",
+      "Q3: From a fintech perspective, what challenges or opportunities might a company like Berkshire Hathaway face in adapting to new technologies and investment strategies after a major leadership change?"
+    ],
+    "modelAnswers": [
+      "A1: Warren Buffett's son, Howard Buffett, is replacing him as chairman. This decision was part of a long-standing succession plan.",
+      "A2: A conglomerate is a large corporation made up of several different companies operating in varied industries. Berkshire Hathaway exemplifies this by holding diverse investments across many sectors, having grown from a textile mill into a $1 trillion company.",
+      "A3: Berkshire Hathaway might face challenges in adopting new fintech tools due to its traditional approach, potentially missing out on efficiency gains or new investment avenues. However, it also presents an opportunity for new leadership to integrate technology, potentially attracting younger investors or modernizing its vast portfolio."
+    ]
+  },
+  {
+    "id": "ec-2026-09-19-3",
+    "date": "2026-09-19",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "중국 AI 기업이 월스트리트의 주요 데이터 제공업체와 연결되었습니다. 금융 분야 AI의 최신 동향을 파악하세요.",
+    "url": "https://www.cnbc.com/2026/09/17/china-moonshot-kimi-financial-services.html",
+    "title": "Chinese AI Integrates with Wall Street Data",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A Chinese AI startup, Moonshot, has made a significant move. It successfully connected its AI model to leading Wall Street data providers. This integration signals a growing trend in financial technology. The startup signed agreements with major financial industry giants. These include prominent investment banks and venture capital firms. The development could enhance AI capabilities in financial analysis. It allows for more sophisticated data processing and insights. This connection enables faster decision-making for investors. It also expands the global reach of advanced AI in finance. Fintech professionals should monitor this collaboration closely. It represents a crucial step in AI's role within global markets. Such partnerships could redefine competitive landscapes.",
+    "sentences": [
+      {
+        "en": "A Chinese AI startup, Moonshot, has made a significant move.",
+        "ko": "중국의 AI 스타트업 문샷이 중요한 움직임을 보였습니다."
+      },
+      {
+        "en": "It successfully connected its AI model to leading Wall Street data providers.",
+        "ko": "이 회사는 자사 AI 모델을 월스트리트의 주요 데이터 제공업체들과 성공적으로 연결했습니다."
+      },
+      {
+        "en": "This integration signals a growing trend in financial technology.",
+        "ko": "이러한 통합은 금융 기술 분야의 성장 추세를 나타냅니다."
+      },
+      {
+        "en": "The startup signed agreements with major financial industry giants.",
+        "ko": "이 스타트업은 주요 금융 업계 거대 기업들과 계약을 체결했습니다."
+      },
+      {
+        "en": "These include prominent investment banks and venture capital firms.",
+        "ko": "여기에는 저명한 투자 은행과 벤처 캐피털 회사들이 포함됩니다."
+      },
+      {
+        "en": "The development could enhance AI capabilities in financial analysis.",
+        "ko": "이러한 발전은 금융 분석에서 AI 역량을 강화할 수 있습니다."
+      },
+      {
+        "en": "It allows for more sophisticated data processing and insights.",
+        "ko": "이는 더 정교한 데이터 처리와 통찰력을 가능하게 합니다."
+      },
+      {
+        "en": "This connection enables faster decision-making for investors.",
+        "ko": "이 연결은 투자자들의 더 빠른 의사 결정을 가능하게 합니다."
+      },
+      {
+        "en": "It also expands the global reach of advanced AI in finance.",
+        "ko": "또한 금융 분야에서 첨단 AI의 전 세계적인 영향력을 확대합니다."
+      },
+      {
+        "en": "Fintech professionals should monitor this collaboration closely.",
+        "ko": "핀테크 전문가들은 이 협력을 면밀히 주시해야 합니다."
+      },
+      {
+        "en": "It represents a crucial step in AI's role within global markets.",
+        "ko": "이는 글로벌 시장에서 AI의 역할에 있어 중요한 단계입니다."
+      },
+      {
+        "en": "Such partnerships could redefine competitive landscapes.",
+        "ko": "이러한 파트너십은 경쟁 구도를 재정의할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "startup": {
+        "meaning": "a newly established business",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "important and deserving of attention",
+        "pos": "adjective"
+      },
+      "leading": {
+        "meaning": "most important or successful",
+        "pos": "adjective"
+      },
+      "integration": {
+        "meaning": "the act of combining separate things into a whole",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or serves as a sign of something",
+        "pos": "verb"
+      },
+      "trend": {
+        "meaning": "a general direction in which something is developing or changing",
+        "pos": "noun"
+      },
+      "giants": {
+        "meaning": "very large and powerful organizations or companies",
+        "pos": "noun"
+      },
+      "agreements": {
+        "meaning": "formal arrangements or promises made between parties",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important or famous",
+        "pos": "adjective"
+      },
+      "enhance": {
+        "meaning": "to improve the quality or value of something",
+        "pos": "verb"
+      },
+      "capabilities": {
+        "meaning": "the ability or power to do something",
+        "pos": "noun"
+      },
+      "sophisticated": {
+        "meaning": "complex or advanced in design or operation",
+        "pos": "adjective"
+      },
+      "processing": {
+        "meaning": "performing a series of operations on data",
+        "pos": "verb"
+      },
+      "insights": {
+        "meaning": "a deep understanding of a person or thing",
+        "pos": "noun"
+      },
+      "decision-making": {
+        "meaning": "the process of making choices or reaching conclusions",
+        "pos": "noun"
+      },
+      "collaboration": {
+        "meaning": "the action of working with someone to produce something",
+        "pos": "noun"
+      },
+      "monitor": {
+        "meaning": "to observe and check the progress or quality of something",
+        "pos": "verb"
+      },
+      "redefine": {
+        "meaning": "to define again or differently, often in an improved way",
+        "pos": "verb"
+      },
+      "connected": {
+        "meaning": "linked or joined together",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: Which Chinese AI startup is mentioned in the passage, and what specific action did it take regarding Wall Street?",
+      "Q2: What does \"enhance AI capabilities\" mean in the context of this story, and how might it benefit financial analysis?",
+      "Q3: How might the integration of advanced AI models with leading financial data providers impact the job roles and skill requirements for fintech professionals in the coming years?"
+    ],
+    "modelAnswers": [
+      "A1: The Chinese AI startup mentioned is Moonshot. It connected its AI model to leading Wall Street data providers.",
+      "A2: \"Enhance AI capabilities\" means improving the ability of AI models to perform complex tasks. In financial analysis, this could lead to more sophisticated data processing, better risk assessment, and deeper market insights, improving prediction accuracy.",
+      "A3: This integration could shift job roles for fintech professionals towards AI development, data science, and ethical AI oversight, rather than manual data analysis. Skill requirements would increasingly focus on AI literacy, machine learning, and understanding complex algorithms to leverage these advanced tools effectively."
+    ]
+  },
+  {
     "id": "cd-2026-09-18-1",
     "date": "2026-09-18",
     "rank": 1,
