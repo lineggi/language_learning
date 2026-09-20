@@ -1,5 +1,921 @@
 [
   {
+    "id": "cd-2026-09-21-1",
+    "date": "2026-09-21",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "미국 SEC의 토큰화된 주식 추진이 코인베이스, 로빈후드 등 주요 암호화폐 기업에 어떤 새로운 기회를 제공하는지 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/09/20/coinbase-robinhood-circle-could-be-early-winners-of-sec-s-tokenized-stock-push-analysts-say",
+    "title": "Tokenized Stocks: New Opportunities for Crypto Firms",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. SEC is actively promoting the development of tokenized stocks. This significant regulatory move could profoundly impact the entire crypto industry. It clearly signals a strategic shift towards integrating traditional financial assets onto blockchain platforms. Leading financial analysts now anticipate substantial benefits for major crypto platforms. Coinbase, Robinhood, and Circle are frequently cited as potential early winners in this evolving landscape. These prominent firms are expected to uncover significant new business opportunities across various sectors. Key opportunities include providing specialized custody solutions for newly tokenized assets. They also involve building essential tokenization infrastructure to support these digital securities. Furthermore, facilitating stablecoin settlement for these innovative products presents another crucial growth area. Traditional brokers may also expand their existing on-chain product offerings to meet demand. This proactive regulatory push has the potential to bridge the gap between traditional finance and the crypto world. Ultimately, it represents a transformative step towards broader digital asset integration into mainstream markets.",
+    "sentences": [
+      {
+        "en": "The U.S. SEC is actively promoting the development of tokenized stocks.",
+        "ko": "미국 증권거래위원회(SEC)는 토큰화된 주식의 개발을 적극적으로 추진하고 있습니다."
+      },
+      {
+        "en": "This significant regulatory move could profoundly impact the entire crypto industry.",
+        "ko": "이러한 중요한 규제 움직임은 전체 암호화폐 산업에 지대한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It clearly signals a strategic shift towards integrating traditional financial assets onto blockchain platforms.",
+        "ko": "이는 전통적인 금융 자산을 블록체인 플랫폼에 통합하려는 전략적 변화를 명확히 보여줍니다."
+      },
+      {
+        "en": "Leading financial analysts now anticipate substantial benefits for major crypto platforms.",
+        "ko": "선도적인 금융 분석가들은 이제 주요 암호화폐 플랫폼에 상당한 이점을 예상하고 있습니다."
+      },
+      {
+        "en": "Coinbase, Robinhood, and Circle are frequently cited as potential early winners in this evolving landscape.",
+        "ko": "코인베이스, 로빈후드, 서클은 이 변화하는 환경에서 잠재적인 초기 승자로 자주 언급됩니다."
+      },
+      {
+        "en": "These prominent firms are expected to uncover significant new business opportunities across various sectors.",
+        "ko": "이러한 저명한 기업들은 다양한 부문에서 중요한 새로운 사업 기회를 발견할 것으로 예상됩니다."
+      },
+      {
+        "en": "Key opportunities include providing specialized custody solutions for newly tokenized assets.",
+        "ko": "핵심 기회에는 새로 토큰화된 자산에 대한 전문적인 커스터디 솔루션 제공이 포함됩니다."
+      },
+      {
+        "en": "They also involve building essential tokenization infrastructure to support these digital securities.",
+        "ko": "또한 이러한 디지털 증권을 지원하기 위한 필수적인 토큰화 인프라 구축도 포함됩니다."
+      },
+      {
+        "en": "Furthermore, facilitating stablecoin settlement for these innovative products presents another crucial growth area.",
+        "ko": "나아가 이러한 혁신적인 제품에 대한 스테이블코인 결제를 촉진하는 것은 또 다른 중요한 성장 분야를 제시합니다."
+      },
+      {
+        "en": "Traditional brokers may also expand their existing on-chain product offerings to meet demand.",
+        "ko": "전통적인 브로커들도 수요를 충족하기 위해 기존의 온체인 상품 제공을 확장할 수 있습니다."
+      },
+      {
+        "en": "This proactive regulatory push has the potential to bridge the gap between traditional finance and the crypto world.",
+        "ko": "이러한 선제적인 규제 추진은 전통 금융과 암호화폐 세계 간의 간극을 연결할 잠재력을 가지고 있습니다."
+      },
+      {
+        "en": "Ultimately, it represents a transformative step towards broader digital asset integration into mainstream markets.",
+        "ko": "궁극적으로 이는 주류 시장으로의 광범위한 디지털 자산 통합을 향한 변혁적인 단계를 나타냅니다."
+      }
+    ],
+    "glossary": {
+      "sec": {
+        "meaning": "a government agency in the U.S. responsible for regulating the securities industry and protecting investors.",
+        "pos": "noun"
+      },
+      "promoting": {
+        "meaning": "actively supporting or encouraging the progress, development, or public acceptance of something.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain, representing ownership or value of an asset.",
+        "pos": "adjective"
+      },
+      "profoundly": {
+        "meaning": "to a great depth; intensely or deeply, having a strong effect on something.",
+        "pos": "adverb"
+      },
+      "impact": {
+        "meaning": "to have a strong effect or influence on someone or something, often a significant one.",
+        "pos": "verb"
+      },
+      "signals": {
+        "meaning": "indicates or suggests that something is happening or will happen in the near future.",
+        "pos": "verb"
+      },
+      "strategic": {
+        "meaning": "relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "integrating": {
+        "meaning": "the process of combining two or more things so that they work together effectively as a whole.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing or done for a long time, following old customs or beliefs, often contrasting with new forms.",
+        "pos": "adjective"
+      },
+      "assets": {
+        "meaning": "valuable items owned by a person or company that can be converted into cash or used to generate income.",
+        "pos": "noun"
+      },
+      "blockchain": {
+        "meaning": "a shared, immutable digital ledger that records transactions and tracks assets across a network.",
+        "pos": "noun"
+      },
+      "anticipate": {
+        "meaning": "to regard as probable; expect or predict that something will happen.",
+        "pos": "verb"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth; significant and noticeable.",
+        "pos": "adjective"
+      },
+      "platforms": {
+        "meaning": "systems or services that allow users to create, manage, and interact with digital content or financial products.",
+        "pos": "noun"
+      },
+      "cited": {
+        "meaning": "referred to as an example or in support of an argument or statement.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "having the capacity to develop into something in the future, but not yet actualized.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "the overall situation or environment related to a particular activity or area.",
+        "pos": "noun"
+      },
+      "prominent": {
+        "meaning": "important, famous, or easily noticeable, especially in a particular field or group.",
+        "pos": "adjective"
+      },
+      "uncover": {
+        "meaning": "to discover something previously unknown or hidden, often a new opportunity or fact.",
+        "pos": "verb"
+      },
+      "custody": {
+        "meaning": "the act of keeping and protecting something, especially financial assets or digital tokens.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of an enterprise.",
+        "pos": "noun"
+      },
+      "settlement": {
+        "meaning": "the process of completing a financial transaction by exchanging payments or assets.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Which three crypto firms are identified as potential early beneficiaries of the SEC's tokenized stock initiative?",
+      "In the passage, what specific opportunities are mentioned for crypto firms regarding tokenized assets, and what does \"on-chain\" mean in this context?",
+      "How might the SEC's push for tokenized stocks affect the broader adoption of blockchain technology in traditional financial markets, and what potential challenges do you foresee for firms seeking to capitalize on these new opportunities?"
+    ],
+    "modelAnswers": [
+      "Coinbase, Robinhood, and Circle are identified as potential early beneficiaries of the SEC's tokenized stock initiative.",
+      "The passage mentions opportunities in custody solutions, tokenization infrastructure, and stablecoin settlement for tokenized assets. \"On-chain\" refers to transactions or products directly recorded and verified on a blockchain.",
+      "The SEC's push could significantly accelerate blockchain adoption by legitimizing its use for traditional assets. Firms might face challenges like navigating complex regulatory landscapes, ensuring robust security for new products, and integrating existing financial systems with nascent blockchain infrastructure."
+    ]
+  },
+  {
+    "id": "cd-2026-09-21-2",
+    "date": "2026-09-21",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "암호화폐 거래소 제미니의 주가가 급락하면서 인수 가능성이 제기되고 있습니다. 이는 라이선스와 커스터디 인프라의 중요성을 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/09/20/gemini-s-stock-is-down-80-from-its-ipo-that-s-reviving-takeover-speculation",
+    "title": "Gemini's Stock Plunge Fuels Takeover Talks",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The cryptocurrency exchange Gemini has experienced a dramatic and substantial decline in its stock value. Its current market capitalization now stands at approximately $753 million. This figure signifies an alarming 80% decrease from its initial public offering price. Such a profound financial downturn has inevitably reignited discussions about a potential takeover. Prospective acquirers are currently scrutinizing Gemini with considerable interest. They are particularly drawn to Gemini’s underlying valuable business assets. These critical assets encompass its essential operating licenses, which are difficult to obtain. Furthermore, its highly robust custody infrastructure presents a significant advantage. Established customer relationships across its platform also enhance its overall appeal. A successful takeover might offer the struggling platform a much-needed fresh start. This situation vividly illustrates the inherently volatile and unpredictable nature of crypto markets. It also strongly emphasizes the paramount importance of strict regulatory compliance for all exchanges.",
+    "sentences": [
+      {
+        "en": "The cryptocurrency exchange Gemini has experienced a dramatic and substantial decline in its stock value.",
+        "ko": "암호화폐 거래소 제미니는 주식 가치에서 극적이고 상당한 하락을 경험했습니다."
+      },
+      {
+        "en": "Its current market capitalization now stands at approximately $753 million.",
+        "ko": "현재 시가총액은 약 7억 5,300만 달러에 이릅니다."
+      },
+      {
+        "en": "This figure signifies an alarming 80% decrease from its initial public offering price.",
+        "ko": "이 수치는 기업공개(IPO) 가격 대비 80%라는 놀라운 감소를 나타냅s니다."
+      },
+      {
+        "en": "Such a profound financial downturn has inevitably reignited discussions about a potential takeover.",
+        "ko": "이러한 심각한 재정 침체는 불가피하게 잠재적인 인수 논의를 다시 불러일으켰습니다."
+      },
+      {
+        "en": "Prospective acquirers are currently scrutinizing Gemini with considerable interest.",
+        "ko": "장래의 인수자들은 현재 상당한 관심을 가지고 제미니를 면밀히 조사하고 있습니다."
+      },
+      {
+        "en": "They are particularly drawn to Gemini’s underlying valuable business assets.",
+        "ko": "그들은 특히 제미니의 근본적인 가치 있는 사업 자산에 끌리고 있습니다."
+      },
+      {
+        "en": "These critical assets encompass its essential operating licenses, which are difficult to obtain.",
+        "ko": "이러한 중요한 자산에는 얻기 어려운 필수 운영 라이선스가 포함됩니다."
+      },
+      {
+        "en": "Furthermore, its highly robust custody infrastructure presents a significant advantage.",
+        "ko": "더욱이, 매우 견고한 커스터디 인프라는 상당한 이점을 제공합니다."
+      },
+      {
+        "en": "Established customer relationships across its platform also enhance its overall appeal.",
+        "ko": "플랫폼 전반에 걸쳐 확립된 고객 관계 또한 전반적인 매력을 높입니다."
+      },
+      {
+        "en": "A successful takeover might offer the struggling platform a much-needed fresh start.",
+        "ko": "성공적인 인수는 어려움을 겪는 플랫폼에 절실히 필요한 새로운 시작을 제공할 수 있습니다."
+      },
+      {
+        "en": "This situation vividly illustrates the inherently volatile and unpredictable nature of crypto markets.",
+        "ko": "이 상황은 암호화폐 시장의 본질적으로 변동성이 크고 예측 불가능한 특성을 생생하게 보여줍니다."
+      },
+      {
+        "en": "It also strongly emphasizes the paramount importance of strict regulatory compliance for all exchanges.",
+        "ko": "또한 모든 거래소에 대한 엄격한 규제 준수의 최고 중요성을 강력히 강조합니다."
+      }
+    ],
+    "glossary": {
+      "cryptocurrency": {
+        "meaning": "a digital currency secured by cryptography, making it nearly impossible to counterfeit or double-spend.",
+        "pos": "noun"
+      },
+      "dramatic": {
+        "meaning": "sudden and striking, often in a way that attracts a lot of attention.",
+        "pos": "adjective"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth; significant and noticeable.",
+        "pos": "adjective"
+      },
+      "decline": {
+        "meaning": "a gradual and continuous loss of strength, numbers, or value.",
+        "pos": "noun"
+      },
+      "capitalization": {
+        "meaning": "the total value of a company's shares or the total value of all cryptocurrency in circulation.",
+        "pos": "noun"
+      },
+      "signifies": {
+        "meaning": "is an indication of or represents something important.",
+        "pos": "verb"
+      },
+      "alarming": {
+        "meaning": "worrying or disturbing, causing concern or fear.",
+        "pos": "adjective"
+      },
+      "downturn": {
+        "meaning": "a decline in economic or business activity; a recession or slump.",
+        "pos": "noun"
+      },
+      "reignited": {
+        "meaning": "caused to become active or intense again; restarted something that had faded.",
+        "pos": "verb"
+      },
+      "takeover": {
+        "meaning": "an act of gaining control of a company by buying most of its shares.",
+        "pos": "noun"
+      },
+      "prospective": {
+        "meaning": "likely to happen at a future date; potential or expected.",
+        "pos": "adjective"
+      },
+      "acquirers": {
+        "meaning": "companies or individuals that buy or take over another company.",
+        "pos": "noun"
+      },
+      "scrutinizing": {
+        "meaning": "examining or inspecting something very closely and thoroughly.",
+        "pos": "verb"
+      },
+      "underlying": {
+        "meaning": "present but not obvious; forming the basis or foundation of something.",
+        "pos": "adjective"
+      },
+      "assets": {
+        "meaning": "items of property owned by a person or company, regarded as having value.",
+        "pos": "noun"
+      },
+      "encompass": {
+        "meaning": "to include a wide range of things; to surround or hold within.",
+        "pos": "verb"
+      },
+      "licenses": {
+        "meaning": "official permits to do something, especially to conduct a business or operate a service.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions or heavy use.",
+        "pos": "adjective"
+      },
+      "custody": {
+        "meaning": "the act of keeping and protecting something, especially financial assets or digital tokens.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures and facilities needed for the operation of an enterprise.",
+        "pos": "noun"
+      },
+      "volatile": {
+        "meaning": "liable to change rapidly and unpredictably, especially for the worse.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What percentage has Gemini's stock value declined from its IPO price, and what is its current approximate market value?",
+      "According to the passage, what specific \"valuable assets\" of Gemini are potential buyers interested in, and what does \"takeover speculation\" refer to?",
+      "What lessons can other crypto exchanges learn from Gemini's significant stock decline, especially regarding investor confidence and long-term business strategy in a volatile market?"
+    ],
+    "modelAnswers": [
+      "Gemini's stock value has declined by 80% from its IPO price, and its current approximate market value is about $753 million.",
+      "Potential buyers are interested in Gemini's crucial operating licenses, robust custody infrastructure, and strong customer relationships. \"Takeover speculation\" refers to theories or discussions about another company potentially acquiring Gemini by buying its shares.",
+      "Other crypto exchanges can learn that strong regulatory compliance and robust infrastructure are crucial for maintaining investor confidence. Long-term strategy should focus on sustainable growth, diverse revenue streams, and risk management rather than solely relying on market hype in a volatile crypto market."
+    ]
+  },
+  {
+    "id": "cd-2026-09-21-3",
+    "date": "2026-09-21",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "암호화폐 규제 환경이 어떻게 발전하고 있는지, 그리고 이것이 시장에 어떤 영향을 미치는지 전문가들의 견해를 들어보세요.",
+    "url": "https://www.coindesk.com/podcasts/the-policy-protocol",
+    "title": "Understanding Crypto's Evolving Policy Landscape",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The widely recognized “Policy Protocol” podcast frequently delves into the intricacies of crypto regulation. It offers profound and comprehensive insights into the rapidly evolving global policy landscape. This subject remains absolutely critical for all participants within the dynamic crypto space. Achieving greater regulatory clarity continues to be a primary concern for both investors and businesses. Any newly introduced rules possess the power to significantly impact overall market operations. The podcast’s discussions thoroughly examine diverse government approaches adopted across the globe. Esteemed experts meticulously analyze the potential long-term effects of forthcoming legislation. They also thoughtfully explore the intricate ways in which policy frameworks shape innovation. Grasping these ongoing developments helps industry players accurately predict future market trends. It furthermore provides essential guidance for effectively navigating complex legal and compliance challenges. Consequently, this podcast serves as an incredibly valuable educational resource for crypto/fintech PMs. It ensures they remain well-informed about all crucial and impactful regulatory changes.",
+    "sentences": [
+      {
+        "en": "The widely recognized “Policy Protocol” podcast frequently delves into the intricacies of crypto regulation.",
+        "ko": "널리 알려진 “Policy Protocol” 팟캐스트는 암호화폐 규제의 복잡한 부분들을 자주 탐구합니다."
+      },
+      {
+        "en": "It offers profound and comprehensive insights into the rapidly evolving global policy landscape.",
+        "ko": "이는 빠르게 진화하는 글로벌 정책 환경에 대한 심오하고 포괄적인 통찰력을 제공합니다."
+      },
+      {
+        "en": "This subject remains absolutely critical for all participants within the dynamic crypto space.",
+        "ko": "이 주제는 역동적인 암호화폐 분야 내 모든 참여자에게 절대적으로 중요합니다."
+      },
+      {
+        "en": "Achieving greater regulatory clarity continues to be a primary concern for both investors and businesses.",
+        "ko": "더 큰 규제 명확성을 달성하는 것은 투자자와 기업 모두에게 주요 관심사로 남아 있습니다."
+      },
+      {
+        "en": "Any newly introduced rules possess the power to significantly impact overall market operations.",
+        "ko": "새롭게 도입되는 모든 규칙은 전반적인 시장 운영에 상당한 영향을 미칠 수 있는 힘을 가집니다."
+      },
+      {
+        "en": "The podcast’s discussions thoroughly examine diverse government approaches adopted across the globe.",
+        "ko": "팟캐스트의 논의는 전 세계적으로 채택된 다양한 정부 접근 방식을 철저히 검토합니다."
+      },
+      {
+        "en": "Esteemed experts meticulously analyze the potential long-term effects of forthcoming legislation.",
+        "ko": "존경받는 전문가들은 다가오는 입법의 잠재적인 장기적 효과를 면밀히 분석합니다."
+      },
+      {
+        "en": "They also thoughtfully explore the intricate ways in which policy frameworks shape innovation.",
+        "ko": "그들은 또한 정책 프레임워크가 혁신을 어떻게 형성하는지 복잡한 방식들을 사려 깊게 탐구합니다."
+      },
+      {
+        "en": "Grasping these ongoing developments helps industry players accurately predict future market trends.",
+        "ko": "이러한 진행 중인 발전을 이해하는 것은 업계 참여자들이 미래 시장 동향을 정확하게 예측하는 데 도움이 됩니다."
+      },
+      {
+        "en": "It furthermore provides essential guidance for effectively navigating complex legal and compliance challenges.",
+        "ko": "또한 복잡한 법률 및 규정 준수 과제를 효과적으로 헤쳐나가는 데 필수적인 지침을 제공합니다."
+      },
+      {
+        "en": "Consequently, this podcast serves as an incredibly valuable educational resource for crypto/fintech PMs.",
+        "ko": "결과적으로 이 팟캐스트는 암호화폐/핀테크 PM에게 매우 귀중한 교육 자료 역할을 합니다."
+      },
+      {
+        "en": "It ensures they remain well-informed about all crucial and impactful regulatory changes.",
+        "ko": "이는 그들이 모든 중요하고 영향력 있는 규제 변화에 대해 잘 알도록 보장합니다."
+      }
+    ],
+    "glossary": {
+      "protocol": {
+        "meaning": "a set of rules governing the format of data sent or interactions within a system.",
+        "pos": "noun"
+      },
+      "delves": {
+        "meaning": "to investigate or research into something in detail, often a complex topic.",
+        "pos": "verb"
+      },
+      "intricacies": {
+        "meaning": "the complex and detailed aspects or elements of something.",
+        "pos": "noun"
+      },
+      "regulation": {
+        "meaning": "a rule or law made by an authority that controls or governs an activity.",
+        "pos": "noun"
+      },
+      "profound": {
+        "meaning": "very great or intense; having a deep and significant effect.",
+        "pos": "adjective"
+      },
+      "comprehensive": {
+        "meaning": "including or dealing with all or nearly all elements or aspects of something.",
+        "pos": "adjective"
+      },
+      "insights": {
+        "meaning": "a deep and accurate understanding of a complex thing or situation.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "the overall situation or environment related to a particular activity or area.",
+        "pos": "noun"
+      },
+      "critical": {
+        "meaning": "extremely important or essential for the success or understanding of something.",
+        "pos": "adjective"
+      },
+      "dynamic": {
+        "meaning": "characterized by constant change, activity, or progress.",
+        "pos": "adjective"
+      },
+      "clarity": {
+        "meaning": "the quality of being clear and easy to understand or interpret.",
+        "pos": "noun"
+      },
+      "primary": {
+        "meaning": "of chief importance; principal or main.",
+        "pos": "adjective"
+      },
+      "impact": {
+        "meaning": "to have a strong effect or influence on someone or something.",
+        "pos": "verb"
+      },
+      "operations": {
+        "meaning": "the activities involved in running a business, organization, or system.",
+        "pos": "noun"
+      },
+      "diverse": {
+        "meaning": "showing a great deal of variety; very different.",
+        "pos": "adjective"
+      },
+      "meticulously": {
+        "meaning": "in a way that shows great attention to detail; very carefully and precisely.",
+        "pos": "adverb"
+      },
+      "forthcoming": {
+        "meaning": "about to happen or appear; approaching in the near future.",
+        "pos": "adjective"
+      },
+      "legislation": {
+        "meaning": "laws that are made by a government or other authority.",
+        "pos": "noun"
+      },
+      "frameworks": {
+        "meaning": "basic structures underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "predict": {
+        "meaning": "to say or estimate that a specified thing will happen in the future.",
+        "pos": "verb"
+      },
+      "navigating": {
+        "meaning": "planning and directing the course or path of something, often through difficulties.",
+        "pos": "verb"
+      },
+      "compliance": {
+        "meaning": "the act or process of obeying a rule, command, or request.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the primary focus of \"The Policy Protocol\" podcast as described in the passage?",
+      "Why is \"regulatory clarity\" considered a major concern for investors and businesses in the crypto space, and what does \"evolving policy landscape\" mean?",
+      "How important is it for a crypto/fintech PM to stay informed about regulatory changes, and what are the potential risks of neglecting the evolving policy landscape in this industry?"
+    ],
+    "modelAnswers": [
+      "The primary focus of \"The Policy Protocol\" podcast is crypto regulation, providing deep insights into the evolving policy landscape.",
+      "Regulatory clarity is crucial because new rules can significantly impact market operations, affecting investments and business strategies. \"Evolving policy landscape\" refers to the continuously changing and developing environment of laws and rules governing the crypto industry.",
+      "It is extremely important for a crypto/fintech PM to stay informed about regulatory changes to ensure compliance and strategic planning. Neglecting the evolving policy landscape could lead to legal issues, missed opportunities, reduced investor confidence, and ultimately, business failure in a highly regulated and dynamic industry."
+    ]
+  },
+  {
+    "id": "ec-2026-09-21-1",
+    "date": "2026-09-21",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "연준의 금리 인상 결정과 향후 정책 방향에 대한 월스트리트의 깊은 고민을 다룹니다.",
+    "url": "https://www.cnbc.com/2026/09/18/three-words-from-kevin-warsh-have-wall-street-wondering-how-far-the-fed-will-go-with-rate-hikes.html",
+    "title": "Fed's Rate Hike Signals Future Monetary Policy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Federal Reserve recently raised interest rates. This decision sparked widespread discussion on Wall Street. Investors are now trying to understand the Fed's future plans. A former Fed official, Kevin Warsh, made a key statement. His words have caused much speculation among analysts. They are wondering how aggressively the central bank will act. The Fed aims to control inflation and stabilize the economy. However, rapid rate hikes can also slow economic growth. Wall Street is closely watching for any new policy signals. This uncertainty affects investment strategies and market sentiment. Businesses are also adjusting their financial forecasts. The next few months will reveal more about the Fed's path.",
+    "sentences": [
+      {
+        "en": "The Federal Reserve recently raised interest rates.",
+        "ko": "연방준비제도(Fed)는 최근 금리를 인상했습니다."
+      },
+      {
+        "en": "This decision sparked widespread discussion on Wall Street.",
+        "ko": "이 결정은 월스트리트에서 광범위한 논의를 촉발했습니다."
+      },
+      {
+        "en": "Investors are now trying to understand the Fed's future plans.",
+        "ko": "투자자들은 이제 연준의 향후 계획을 이해하려 노력하고 있습니다."
+      },
+      {
+        "en": "A former Fed official, Kevin Warsh, made a key statement.",
+        "ko": "전 연준 관리인 케빈 워시가 중요한 발언을 했습니다."
+      },
+      {
+        "en": "His words have caused much speculation among analysts.",
+        "ko": "그의 발언은 분석가들 사이에서 많은 추측을 불러일으켰습니다."
+      },
+      {
+        "en": "They are wondering how aggressively the central bank will act.",
+        "ko": "그들은 중앙은행이 얼마나 공격적으로 행동할지 궁금해하고 있습니다."
+      },
+      {
+        "en": "The Fed aims to control inflation and stabilize the economy.",
+        "ko": "연준은 인플레이션을 통제하고 경제를 안정시키는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, rapid rate hikes can also slow economic growth.",
+        "ko": "하지만 빠른 금리 인상은 경제 성장을 둔화시킬 수도 있습니다."
+      },
+      {
+        "en": "Wall Street is closely watching for any new policy signals.",
+        "ko": "월스트리트는 새로운 정책 신호를 면밀히 주시하고 있습니다."
+      },
+      {
+        "en": "This uncertainty affects investment strategies and market sentiment.",
+        "ko": "이러한 불확실성은 투자 전략과 시장 심리에 영향을 미칩니다."
+      },
+      {
+        "en": "Businesses are also adjusting their financial forecasts.",
+        "ko": "기업들도 재무 예측을 조정하고 있습니다."
+      },
+      {
+        "en": "The next few months will reveal more about the Fed's path.",
+        "ko": "향후 몇 달 안에 연준의 행보에 대해 더 많은 것이 밝혀질 것입니다."
+      }
+    ],
+    "glossary": {
+      "sparked": {
+        "meaning": "Caused something to happen or develop suddenly.",
+        "pos": "verb"
+      },
+      "widespread": {
+        "meaning": "Existing or happening over a large area or among many people.",
+        "pos": "adjective"
+      },
+      "speculation": {
+        "meaning": "The forming of a theory or conjecture without firm evidence.",
+        "pos": "noun"
+      },
+      "analysts": {
+        "meaning": "People who examine something in detail to understand it or explain it.",
+        "pos": "noun"
+      },
+      "aggressively": {
+        "meaning": "In a forceful or determined way, often to achieve a goal quickly.",
+        "pos": "adverb"
+      },
+      "control": {
+        "meaning": "To limit or regulate something, or to make it behave in a certain way.",
+        "pos": "verb"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "stabilize": {
+        "meaning": "To make something firm or steady, or to prevent it from changing.",
+        "pos": "verb"
+      },
+      "rapid": {
+        "meaning": "Happening or moving quickly.",
+        "pos": "adjective"
+      },
+      "closely": {
+        "meaning": "In a careful and thorough way, paying attention to details.",
+        "pos": "adverb"
+      },
+      "uncertainty": {
+        "meaning": "The state of being unsure or having doubts about something.",
+        "pos": "noun"
+      },
+      "affects": {
+        "meaning": "Has an influence on or makes a change in something.",
+        "pos": "verb"
+      },
+      "adjusting": {
+        "meaning": "Making small changes to something to improve it or make it more suitable.",
+        "pos": "verb"
+      },
+      "reveal": {
+        "meaning": "To make something known or visible that was previously secret or hidden.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific action did the Federal Reserve recently take regarding interest rates, according to the passage?",
+      "Q2: In the passage, what does the term \"market sentiment\" refer to, and why is it important in the context of the Fed's actions?",
+      "Q3: Do you think central banks should prioritize controlling inflation or promoting economic growth, especially when these goals conflict? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: The Federal Reserve recently raised interest rates, which led to significant discussion and speculation on Wall Street about its future monetary policy.",
+      "A2: \"Market sentiment\" refers to the overall attitude of investors toward the financial market. It's important because it influences investment strategies and how businesses plan for the future.",
+      "A3: It's a challenging balance. Prioritizing inflation control can ensure long-term stability, but it might slow growth in the short term. Promoting growth can create jobs, but risks higher inflation. A balanced approach considering current economic conditions is usually best."
+    ]
+  },
+  {
+    "id": "ec-2026-09-21-2",
+    "date": "2026-09-21",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "AI 부채, 이란 전쟁, 그리고 정부 채권 수익률 상승이 세계 경제를 뒤흔들면서 주식 시장의 미래에 대한 의문을 제기합니다.",
+    "url": "https://www.theguardian.com/business/ng-interactive/2026/sep/20/stock-market-crash-government-bond-yields",
+    "title": "Global Stock Markets Face Potential Turmoil",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Global financial capitals were optimistic earlier this summer. The US stock market reached new highs, driven by AI innovation. However, a shift in mood is now evident among investors. Concerns are growing about the stability of the world economy. Several factors contribute to this renewed turmoil. Rising government bond yields are a major worry. Geopolitical events, like a potential Iran war, add to anxieties. There are also discussions about \"AI debt\" and its impact. These combined pressures could lead to a stock market crash. Investors are now assessing risks more cautiously than before. Companies are also preparing for a potentially tougher environment. This period demands careful financial planning and strategy.",
+    "sentences": [
+      {
+        "en": "Global financial capitals were optimistic earlier this summer.",
+        "ko": "올여름 초, 세계 금융 중심지들은 낙관적이었습니다."
+      },
+      {
+        "en": "The US stock market reached new highs, driven by AI innovation.",
+        "ko": "미국 주식 시장은 AI 혁신에 힘입어 새로운 최고치를 기록했습니다."
+      },
+      {
+        "en": "However, a shift in mood is now evident among investors.",
+        "ko": "하지만 이제 투자자들 사이에서는 분위기 변화가 뚜렷합니다."
+      },
+      {
+        "en": "Concerns are growing about the stability of the world economy.",
+        "ko": "세계 경제의 안정성에 대한 우려가 커지고 있습니다."
+      },
+      {
+        "en": "Several factors contribute to this renewed turmoil.",
+        "ko": "여러 요인이 이러한 새로운 혼란에 기여하고 있습니다."
+      },
+      {
+        "en": "Rising government bond yields are a major worry.",
+        "ko": "정부 채권 수익률 상승은 큰 걱정거리입니다."
+      },
+      {
+        "en": "Geopolitical events, like a potential Iran war, add to anxieties.",
+        "ko": "이란 전쟁 가능성과 같은 지정학적 사건들도 불안감을 더합니다."
+      },
+      {
+        "en": "There are also discussions about \"AI debt\" and its impact.",
+        "ko": "\"AI 부채\"와 그 영향에 대한 논의도 있습니다."
+      },
+      {
+        "en": "These combined pressures could lead to a stock market crash.",
+        "ko": "이러한 복합적인 압력은 주식 시장의 폭락으로 이어질 수 있습니다."
+      },
+      {
+        "en": "Investors are now assessing risks more cautiously than before.",
+        "ko": "투자자들은 이제 이전보다 더 신중하게 위험을 평가하고 있습니다."
+      },
+      {
+        "en": "Companies are also preparing for a potentially tougher environment.",
+        "ko": "기업들도 잠재적으로 더 어려운 환경에 대비하고 있습니다."
+      },
+      {
+        "en": "This period demands careful financial planning and strategy.",
+        "ko": "이 시기는 신중한 재무 계획과 전략을 요구합니다."
+      }
+    ],
+    "glossary": {
+      "capitals": {
+        "meaning": "Major cities that are centers of finance, business, or government.",
+        "pos": "noun"
+      },
+      "optimistic": {
+        "meaning": "Hopeful and confident about the future.",
+        "pos": "adjective"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "evident": {
+        "meaning": "Clearly seen or understood; obvious.",
+        "pos": "adjective"
+      },
+      "concerns": {
+        "meaning": "Feelings of worry or anxiety about something.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "The state of being steady and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "contribute": {
+        "meaning": "To help to cause or bring about something.",
+        "pos": "verb"
+      },
+      "renewed": {
+        "meaning": "Started or occurring again, especially after a pause or break.",
+        "pos": "adjective"
+      },
+      "turmoil": {
+        "meaning": "A state of great disturbance, confusion, or uncertainty.",
+        "pos": "noun"
+      },
+      "anxieties": {
+        "meaning": "Feelings of worry, nervousness, or unease about something uncertain.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "The effect or influence of one thing on another.",
+        "pos": "noun"
+      },
+      "combined": {
+        "meaning": "Joined or put together.",
+        "pos": "adjective"
+      },
+      "pressures": {
+        "meaning": "Difficulties or problems caused by the need to achieve or do something.",
+        "pos": "noun"
+      },
+      "crash": {
+        "meaning": "A sudden and significant fall in the value of shares or prices.",
+        "pos": "noun"
+      },
+      "assessing": {
+        "meaning": "Evaluating or estimating the nature, ability, or quality of something.",
+        "pos": "verb"
+      },
+      "cautiously": {
+        "meaning": "In a careful and wary way, to avoid danger or mistakes.",
+        "pos": "adverb"
+      },
+      "tougher": {
+        "meaning": "More difficult or severe.",
+        "pos": "adjective"
+      },
+      "demands": {
+        "meaning": "Requires something as necessary or essential.",
+        "pos": "verb"
+      },
+      "strategy": {
+        "meaning": "A plan of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What were the global financial capitals' sentiments earlier this summer, and what was the main driver for this?",
+      "Q2: Explain what \"government bond yields\" are in the context of the passage, and why their rise is causing concern for stock markets.",
+      "Q3: As a fintech PM, how would you advise your company to prepare for potential market turmoil given the factors mentioned?"
+    ],
+    "modelAnswers": [
+      "A1: Earlier this summer, global financial capitals were optimistic, with the US stock market reaching new highs, primarily driven by AI innovation.",
+      "A2: \"Government bond yields\" are the returns investors get from government bonds. Their rise concerns stock markets because higher yields make bonds more attractive relative to stocks, potentially drawing investment away from equities and signaling higher borrowing costs.",
+      "A3: I'd advise diversifying investments, stress-testing financial models for various scenarios, and focusing on products that offer value in uncertain times, like risk management tools. Clear communication with stakeholders about market volatility is also key."
+    ]
+  },
+  {
+    "id": "ec-2026-09-21-3",
+    "date": "2026-09-21",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "관세, 유가 급등, 그리고 높은 금리가 미국 기업들을 압박하며 경제 전반에 걸친 도전 과제를 보여줍니다.",
+    "url": "https://www.cnbc.com/2026/09/20/tariffs-fuel-prices-and-interest-rates-squeeze-us-companies.html",
+    "title": "Tariffs, Fuel, Rates Squeeze US Businesses",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "American companies are currently facing significant pressure. Several economic factors are creating a challenging environment. Tariffs, or taxes on imported goods, are increasing costs. Soaring fuel prices are also hitting businesses hard. Transportation and manufacturing sectors feel this most acutely. Higher interest rates make borrowing more expensive for companies. This combination squeezes profit margins across industries. Manufacturers, auto suppliers, and retailers are particularly affected. Businesses are struggling to absorb these rising operational costs. Some may pass these costs onto consumers through higher prices. This could further fuel inflation, creating a difficult cycle. Companies are now re-evaluating their supply chains and budgets.",
+    "sentences": [
+      {
+        "en": "American companies are currently facing significant pressure.",
+        "ko": "미국 기업들은 현재 상당한 압력에 직면해 있습니다."
+      },
+      {
+        "en": "Several economic factors are creating a challenging environment.",
+        "ko": "여러 경제적 요인들이 어려운 환경을 조성하고 있습니다."
+      },
+      {
+        "en": "Tariffs, or taxes on imported goods, are increasing costs.",
+        "ko": "관세, 즉 수입품에 부과되는 세금이 비용을 증가시키고 있습니다."
+      },
+      {
+        "en": "Soaring fuel prices are also hitting businesses hard.",
+        "ko": "치솟는 유가 또한 기업들에게 큰 타격을 주고 있습니다."
+      },
+      {
+        "en": "Transportation and manufacturing sectors feel this most acutely.",
+        "ko": "운송 및 제조 부문이 이를 가장 심각하게 느끼고 있습니다."
+      },
+      {
+        "en": "Higher interest rates make borrowing more expensive for companies.",
+        "ko": "높은 금리는 기업들의 차입 비용을 증가시킵니다."
+      },
+      {
+        "en": "This combination squeezes profit margins across industries.",
+        "ko": "이러한 복합적인 요인은 산업 전반의 이윤폭을 압박합니다."
+      },
+      {
+        "en": "Manufacturers, auto suppliers, and retailers are particularly affected.",
+        "ko": "제조업체, 자동차 부품 공급업체, 소매업체가 특히 영향을 받습니다."
+      },
+      {
+        "en": "Businesses are struggling to absorb these rising operational costs.",
+        "ko": "기업들은 이러한 증가하는 운영 비용을 감당하기 위해 고군분투하고 있습니다."
+      },
+      {
+        "en": "Some may pass these costs onto consumers through higher prices.",
+        "ko": "일부는 이러한 비용을 더 높은 가격으로 소비자에게 전가할 수 있습니다."
+      },
+      {
+        "en": "This could further fuel inflation, creating a difficult cycle.",
+        "ko": "이는 인플레이션을 더욱 부추겨 어려운 순환을 만들 수 있습니다."
+      },
+      {
+        "en": "Companies are now re-evaluating their supply chains and budgets.",
+        "ko": "기업들은 이제 공급망과 예산을 재평가하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "significant": {
+        "meaning": "Important, noticeable, or having a strong effect.",
+        "pos": "adjective"
+      },
+      "pressure": {
+        "meaning": "The force or influence that is exerted on someone or something.",
+        "pos": "noun"
+      },
+      "challenging": {
+        "meaning": "Difficult in an interesting or stimulating way.",
+        "pos": "adjective"
+      },
+      "tariffs": {
+        "meaning": "Taxes or duties to be paid on a particular class of imports or exports.",
+        "pos": "noun"
+      },
+      "soaring": {
+        "meaning": "Rising very quickly to a high level.",
+        "pos": "adjective"
+      },
+      "acutely": {
+        "meaning": "To a very great or intense degree.",
+        "pos": "adverb"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank or lender with the intention of repaying it later.",
+        "pos": "noun"
+      },
+      "expensive": {
+        "meaning": "Costing a lot of money.",
+        "pos": "adjective"
+      },
+      "combination": {
+        "meaning": "A mixture of different things or people.",
+        "pos": "noun"
+      },
+      "squeezes": {
+        "meaning": "Puts pressure on something, often to limit or reduce it.",
+        "pos": "verb"
+      },
+      "industries": {
+        "meaning": "Groups of businesses that produce a particular kind of goods or services.",
+        "pos": "noun"
+      },
+      "particularly": {
+        "meaning": "Especially, or more than usual.",
+        "pos": "adverb"
+      },
+      "affected": {
+        "meaning": "Influenced or impacted by something.",
+        "pos": "adjective"
+      },
+      "struggling": {
+        "meaning": "Having difficulty doing something.",
+        "pos": "verb"
+      },
+      "absorb": {
+        "meaning": "To take in and deal with something, such as costs, without passing them on.",
+        "pos": "verb"
+      },
+      "consumers": {
+        "meaning": "People who buy goods and services for their own use.",
+        "pos": "noun"
+      },
+      "re-evaluating": {
+        "meaning": "Assessing something again or in a different way.",
+        "pos": "verb"
+      },
+      "budgets": {
+        "meaning": "Financial plans that estimate income and expenses for a future period.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, which specific sectors are feeling the impact of soaring fuel prices most acutely?",
+      "Q2: What are \"profit margins\" in this context, and how are tariffs, fuel prices, and interest rates affecting them for American companies?",
+      "Q3: If you were advising a manufacturing company, what two immediate strategies would you suggest to mitigate the impact of these rising costs?"
+    ],
+    "modelAnswers": [
+      "A1: The transportation and manufacturing sectors are feeling the impact of soaring fuel prices most acutely, according to the passage.",
+      "A2: \"Profit margins\" represent the percentage of revenue left after all costs are deducted. Tariffs, fuel prices, and interest rates are increasing operational costs, which squeezes or reduces these profit margins for companies.",
+      "A3: I would suggest immediately reviewing their supply chain for alternative, more cost-effective suppliers to reduce tariff impacts, and exploring hedging strategies for fuel costs to stabilize expenses."
+    ]
+  },
+  {
     "id": "cd-2026-09-20-1",
     "date": "2026-09-20",
     "rank": 1,
