@@ -1,5 +1,969 @@
 [
   {
+    "id": "cd-2026-09-22-1",
+    "date": "2026-09-22",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "유럽중앙은행이 블록체인 기반 금융 시장에 투자하기 위해 토큰화된 채권을 매입할 계획입니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
+    "title": "ECB Explores Tokenized Bonds for Payment System Link",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The European Central Bank (ECB) is advancing its digital finance strategy. It recently unveiled a new platform called Pontes. This system aims to connect traditional payment infrastructure with blockchain-based financial markets. A key part of this initiative is the ECB's plan to purchase tokenized bonds. These bonds will be acquired using its own funds. This move signals a significant step towards integrating digital assets into mainstream finance. The Pontes platform will facilitate the settlement of wholesale transactions. It supports transactions involving central bank money and tokenized securities. This development could set a precedent for other central banks globally. It highlights a growing interest in the efficiency and innovation of blockchain technology. The ECB believes tokenization can enhance market operations. It also sees potential for increased transparency and speed in financial dealings.",
+    "sentences": [
+      {
+        "en": "The European Central Bank (ECB) is advancing its digital finance strategy.",
+        "ko": "유럽중앙은행(ECB)이 디지털 금융 전략을 발전시키고 있습니다."
+      },
+      {
+        "en": "It recently unveiled a new platform called Pontes.",
+        "ko": "최근 폰테스(Pontes)라는 새로운 플랫폼을 공개했습니다."
+      },
+      {
+        "en": "This system aims to connect traditional payment infrastructure with blockchain-based financial markets.",
+        "ko": "이 시스템은 전통적인 결제 인프라를 블록체인 기반 금융 시장과 연결하는 것을 목표로 합니다."
+      },
+      {
+        "en": "A key part of this initiative is the ECB's plan to purchase tokenized bonds.",
+        "ko": "이 이니셔티브의 핵심은 ECB가 토큰화된 채권을 매입하려는 계획입니다."
+      },
+      {
+        "en": "These bonds will be acquired using its own funds.",
+        "ko": "이 채권들은 ECB 자체 자금을 사용하여 매입될 것입니다."
+      },
+      {
+        "en": "This move signals a significant step towards integrating digital assets into mainstream finance.",
+        "ko": "이러한 움직임은 디지털 자산을 주류 금융에 통합하는 중요한 단계를 시사합니다."
+      },
+      {
+        "en": "The Pontes platform will facilitate the settlement of wholesale transactions.",
+        "ko": "폰테스 플랫폼은 도매 거래의 결제를 촉진할 것입니다."
+      },
+      {
+        "en": "It supports transactions involving central bank money and tokenized securities.",
+        "ko": "중앙은행 화폐와 토큰화된 증권을 포함하는 거래를 지원합니다."
+      },
+      {
+        "en": "This development could set a precedent for other central banks globally.",
+        "ko": "이러한 발전은 전 세계 다른 중앙은행들에게 선례를 남길 수 있습니다."
+      },
+      {
+        "en": "It highlights a growing interest in the efficiency and innovation of blockchain technology.",
+        "ko": "이는 블록체인 기술의 효율성과 혁신에 대한 증가하는 관심을 강조합니다."
+      },
+      {
+        "en": "The ECB believes tokenization can enhance market operations.",
+        "ko": "ECB는 토큰화가 시장 운영을 향상시킬 수 있다고 믿습니다."
+      },
+      {
+        "en": "It also sees potential for increased transparency and speed in financial dealings.",
+        "ko": "또한 금융 거래의 투명성과 속도 향상 가능성도 보고 있습니다."
+      }
+    ],
+    "glossary": {
+      "advancing": {
+        "meaning": "Making progress or moving forward with a plan or development.",
+        "pos": "verb"
+      },
+      "strategy": {
+        "meaning": "A careful plan or method for achieving a particular goal over a long period.",
+        "pos": "noun"
+      },
+      "unveiled": {
+        "meaning": "Revealed or shown for the first time to the public.",
+        "pos": "verb"
+      },
+      "platform": {
+        "meaning": "A system or service that allows different types of software or hardware to work together.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "initiative": {
+        "meaning": "An important new plan or program to solve a problem or achieve a goal.",
+        "pos": "noun"
+      },
+      "purchase": {
+        "meaning": "To acquire something by paying for it; to buy.",
+        "pos": "verb"
+      },
+      "acquired": {
+        "meaning": "Obtained or gained possession of something.",
+        "pos": "verb"
+      },
+      "integrating": {
+        "meaning": "Combining or bringing together different parts into a whole.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "Considered normal and accepted by most people.",
+        "pos": "adjective"
+      },
+      "facilitate": {
+        "meaning": "To make an action or process easier or possible.",
+        "pos": "verb"
+      },
+      "settlement": {
+        "meaning": "The process of completing a financial transaction, often by exchanging payments.",
+        "pos": "noun"
+      },
+      "wholesale": {
+        "meaning": "Relating to the business of selling goods in large quantities, often to retailers.",
+        "pos": "adjective"
+      },
+      "securities": {
+        "meaning": "Financial assets that can be traded, such as stocks or bonds, representing ownership or debt.",
+        "pos": "noun"
+      },
+      "precedent": {
+        "meaning": "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
+        "pos": "noun"
+      },
+      "globally": {
+        "meaning": "All over the world; worldwide.",
+        "pos": "adverb"
+      },
+      "efficiency": {
+        "meaning": "The state or quality of achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "enhance": {
+        "meaning": "To improve the quality, value, or extent of something.",
+        "pos": "verb"
+      },
+      "transparency": {
+        "meaning": "The condition of being open, honest, and easily understood, especially in business or government.",
+        "pos": "noun"
+      },
+      "dealings": {
+        "meaning": "Business or financial transactions or relationships with others.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the name of the new platform the ECB unveiled, and what is its main purpose?",
+      "In the context of the passage, what does \"tokenized bonds\" mean, and why are they significant for the ECB?",
+      "How might the ECB's decision to invest in tokenized bonds impact the future of digital assets in mainstream finance, and do you think this is a positive development?"
+    ],
+    "modelAnswers": [
+      "The new platform unveiled by the ECB is called Pontes. Its main purpose is to connect traditional payment infrastructure with blockchain-based financial markets.",
+      "\"Tokenized bonds\" refer to traditional bonds that are represented as digital assets on a blockchain. They are significant for the ECB because purchasing them signals a major step towards integrating digital assets into mainstream finance and enhancing market operations.",
+      "This decision could set a precedent for other central banks, accelerating the adoption of digital assets and blockchain technology in global finance. I think it's a positive development as it can increase efficiency and transparency."
+    ]
+  },
+  {
+    "id": "cd-2026-09-22-2",
+    "date": "2026-09-22",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "미국 상원의 Clarity Act 부결이 은행과 역외 암호화폐 허브에 어떤 영향을 미치는지 알아보세요.",
+    "url": "https://www.coindesk.com/policy/2026/09/21/banks-overseas-crypto-hubs-gain-from-clarity-act-s-senate-defeat-critics-say",
+    "title": "Senate's Clarity Act Defeat Benefits Banks, Offshore Hubs",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The U.S. Senate recently failed to pass the Clarity Act. This proposed bill aimed to provide clear regulations for stablecoins. Its defeat has significant implications for the crypto industry. Experts suggest this outcome benefits traditional banks, which opposed stablecoin yields. Without clear rules, stablecoin offerings remain uncertain for U.S. firms. A legal expert believes overseas jurisdictions, like Dubai, will gain an advantage. They might attract more crypto business due to their clearer regulatory environments. The lack of U.S. clarity could push crypto innovation abroad. This situation creates an uneven playing field for domestic firms. The industry continues to seek regulatory certainty in the U.S. The Clarity Act's failure underscores ongoing legislative struggles. It highlights the complex path to crypto integration within the country.",
+    "sentences": [
+      {
+        "en": "The U.S. Senate recently failed to pass the Clarity Act.",
+        "ko": "미국 상원이 최근 Clarity Act 통과에 실패했습니다."
+      },
+      {
+        "en": "This proposed bill aimed to provide clear regulations for stablecoins.",
+        "ko": "이 법안은 스테이블코인에 대한 명확한 규제를 제공하는 것을 목표로 했습니다."
+      },
+      {
+        "en": "Its defeat has significant implications for the crypto industry.",
+        "ko": "이 법안의 부결은 암호화폐 산업에 중대한 영향을 미칩니다."
+      },
+      {
+        "en": "Experts suggest this outcome benefits traditional banks, which opposed stablecoin yields.",
+        "ko": "전문가들은 이 결과가 스테이블코인 수익률에 반대했던 전통 은행들에게 이득이 된다고 말합니다."
+      },
+      {
+        "en": "Without clear rules, stablecoin offerings remain uncertain for U.S. firms.",
+        "ko": "명확한 규정이 없으면 미국 기업들에게 스테이블코인 제공은 불확실하게 남아있습니다."
+      },
+      {
+        "en": "A legal expert believes overseas jurisdictions, like Dubai, will gain an advantage.",
+        "ko": "한 법률 전문가는 두바이와 같은 해외 관할권이 이점을 얻을 것이라고 믿습니다."
+      },
+      {
+        "en": "They might attract more crypto business due to their clearer regulatory environments.",
+        "ko": "그들은 더 명확한 규제 환경 덕분에 더 많은 암호화폐 사업을 유치할 수 있습니다."
+      },
+      {
+        "en": "The lack of U.S. clarity could push crypto innovation abroad.",
+        "ko": "미국의 명확성 부족은 암호화폐 혁신을 해외로 밀어낼 수 있습니다."
+      },
+      {
+        "en": "This situation creates an uneven playing field for domestic firms.",
+        "ko": "이 상황은 국내 기업들에게 불공평한 경쟁 환경을 조성합니다."
+      },
+      {
+        "en": "The industry continues to seek regulatory certainty in the U.S.",
+        "ko": "업계는 미국에서 규제 확실성을 계속 추구하고 있습니다."
+      },
+      {
+        "en": "The Clarity Act's failure underscores ongoing legislative struggles.",
+        "ko": "Clarity Act의 실패는 진행 중인 입법 투쟁을 강조합니다."
+      },
+      {
+        "en": "It highlights the complex path to crypto integration within the country.",
+        "ko": "이는 국내 암호화폐 통합의 복잡한 길을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "proposed": {
+        "meaning": "Suggested or put forward for consideration or discussion.",
+        "pos": "adjective"
+      },
+      "aimed": {
+        "meaning": "Directed something towards a particular target or goal.",
+        "pos": "verb"
+      },
+      "regulations": {
+        "meaning": "Official rules or laws that control how something is done.",
+        "pos": "noun"
+      },
+      "defeat": {
+        "meaning": "The act of losing a battle, contest, or election; in this context, the failure of a bill to pass.",
+        "pos": "noun"
+      },
+      "implications": {
+        "meaning": "Possible future effects or results of an action or decision.",
+        "pos": "noun"
+      },
+      "outcome": {
+        "meaning": "The way a thing turns out; a consequence.",
+        "pos": "noun"
+      },
+      "opposed": {
+        "meaning": "Disagreed with and tried to prevent something from happening.",
+        "pos": "verb"
+      },
+      "yields": {
+        "meaning": "The amount of profit or return generated by an investment.",
+        "pos": "noun"
+      },
+      "uncertain": {
+        "meaning": "Not known or definite; not able to be relied on.",
+        "pos": "adjective"
+      },
+      "offerings": {
+        "meaning": "Products or services that a company makes available to customers.",
+        "pos": "noun"
+      },
+      "jurisdictions": {
+        "meaning": "The official power to make legal decisions and judgments; or the territory over which this power is exercised.",
+        "pos": "noun"
+      },
+      "advantage": {
+        "meaning": "A condition or circumstance that puts one in a favorable or superior position.",
+        "pos": "noun"
+      },
+      "regulatory": {
+        "meaning": "Relating to the control of an activity or process, typically by rules.",
+        "pos": "adjective"
+      },
+      "environments": {
+        "meaning": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
+        "pos": "noun"
+      },
+      "clarity": {
+        "meaning": "The quality of being clear, easy to understand, or certain.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "The introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "abroad": {
+        "meaning": "In or to a foreign country.",
+        "pos": "adverb"
+      },
+      "uneven": {
+        "meaning": "Not level or smooth; or not fair or balanced.",
+        "pos": "adjective"
+      },
+      "domestic": {
+        "meaning": "Relating to one's own country or home.",
+        "pos": "adjective"
+      },
+      "underscores": {
+        "meaning": "Emphasizes or highlights something important.",
+        "pos": "verb"
+      },
+      "legislative": {
+        "meaning": "Relating to laws or the making of laws.",
+        "pos": "adjective"
+      },
+      "struggles": {
+        "meaning": "Difficult efforts or conflicts.",
+        "pos": "noun"
+      },
+      "integration": {
+        "meaning": "The action or process of combining two or more things to form an effective whole.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the main purpose of the Clarity Act, and what was its fate in the U.S. Senate?",
+      "Explain what \"stablecoin yields\" are in the context of the passage, and why traditional banks opposed them.",
+      "Do you believe the U.S. Senate's failure to pass the Clarity Act will ultimately harm or benefit the global crypto industry? Justify your opinion."
+    ],
+    "modelAnswers": [
+      "The Clarity Act aimed to provide clear regulations for stablecoins in the U.S. It failed to pass in the U.S. Senate.",
+      "\"Stablecoin yields\" refer to the returns or interest generated from holding or lending stablecoins. Traditional banks opposed them because they likely saw them as a competitive threat to their own financial products and services.",
+      "I believe it will harm the U.S. crypto industry but potentially benefit global crypto hubs. Without clear U.S. regulations, innovation and investment might shift to countries with more defined frameworks, making the U.S. fall behind."
+    ]
+  },
+  {
+    "id": "cd-2026-09-22-3",
+    "date": "2026-09-22",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "구글과 애플이 스테이블코인 및 토큰화 분야 전문가를 찾으며 빅테크 기업들이 암호화폐 시장에 진출할 조짐을 보이고 있습니다.",
+    "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
+    "title": "Big Tech Giants Eye Stablecoins, Tokenization",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Major tech companies, Google and Apple, are actively seeking crypto talent. Their recent job listings indicate a growing interest in digital assets. Specifically, they are looking for experts in stablecoins and tokenized deposits for future projects. This suggests both tech giants are exploring new financial infrastructure. These projects could involve building systems for digital payments. They might also be developing new tokenization rails, which represent real-world assets on a blockchain. This strategic move by Big Tech could significantly impact the crypto landscape. It validates the potential of stablecoins for everyday transactions. It also signals a broader acceptance of blockchain technology by mainstream firms. Their entry could accelerate mainstream adoption of digital currencies among consumers. This development could bridge the gap between traditional finance and crypto. It highlights a future where digital assets are integrated into daily tech use and services.",
+    "sentences": [
+      {
+        "en": "Major tech companies, Google and Apple, are actively seeking crypto talent.",
+        "ko": "주요 기술 기업인 구글과 애플이 적극적으로 암호화폐 인재를 찾고 있습니다."
+      },
+      {
+        "en": "Their recent job listings indicate a growing interest in digital assets.",
+        "ko": "최근 채용 공고는 디지털 자산에 대한 관심이 커지고 있음을 나타냅니다."
+      },
+      {
+        "en": "Specifically, they are looking for experts in stablecoins and tokenized deposits for future projects.",
+        "ko": "특히, 그들은 미래 프로젝트를 위해 스테이블코인 및 토큰화된 예금 전문가를 찾고 있습니다."
+      },
+      {
+        "en": "This suggests both tech giants are exploring new financial infrastructure.",
+        "ko": "이는 두 기술 거대 기업 모두 새로운 금융 인프라를 탐색하고 있음을 시사합니다."
+      },
+      {
+        "en": "These projects could involve building systems for digital payments.",
+        "ko": "이러한 프로젝트에는 디지털 결제 시스템 구축이 포함될 수 있습니다."
+      },
+      {
+        "en": "They might also be developing new tokenization rails, which represent real-world assets on a blockchain.",
+        "ko": "또한 블록체인 상에 실제 자산을 나타내는 새로운 토큰화 레일을 개발할 수도 있습니다."
+      },
+      {
+        "en": "This strategic move by Big Tech could significantly impact the crypto landscape.",
+        "ko": "빅테크의 이러한 전략적 움직임은 암호화폐 환경에 중대한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "It validates the potential of stablecoins for everyday transactions.",
+        "ko": "이는 일상적인 거래에서 스테이블코인의 잠재력을 입증합니다."
+      },
+      {
+        "en": "It also signals a broader acceptance of blockchain technology by mainstream firms.",
+        "ko": "또한 주류 기업들의 블록체인 기술에 대한 폭넓은 수용을 나타냅니다."
+      },
+      {
+        "en": "Their entry could accelerate mainstream adoption of digital currencies among consumers.",
+        "ko": "이들의 진입은 소비자들 사이에서 디지털 통화의 주류 채택을 가속화할 수 있습니다."
+      },
+      {
+        "en": "This development could bridge the gap between traditional finance and crypto.",
+        "ko": "이러한 발전은 전통 금융과 암호화폐 간의 격차를 해소할 수 있습니다."
+      },
+      {
+        "en": "It highlights a future where digital assets are integrated into daily tech use and services.",
+        "ko": "이는 디지털 자산이 일상적인 기술 사용 및 서비스에 통합되는 미래를 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "actively": {
+        "meaning": "In a way that involves doing something rather than just thinking or talking about it.",
+        "pos": "adverb"
+      },
+      "seeking": {
+        "meaning": "Trying to find or obtain something.",
+        "pos": "verb"
+      },
+      "talent": {
+        "meaning": "People with special natural abilities or skills.",
+        "pos": "noun"
+      },
+      "listings": {
+        "meaning": "Public announcements or advertisements, often for jobs or properties.",
+        "pos": "noun"
+      },
+      "indicate": {
+        "meaning": "To show or suggest that something is true or exists.",
+        "pos": "verb"
+      },
+      "deposits": {
+        "meaning": "Money placed in a bank account or held as security.",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "Puts forward an idea or plan for consideration.",
+        "pos": "verb"
+      },
+      "exploring": {
+        "meaning": "Examining or investigating something thoroughly.",
+        "pos": "verb"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "rails": {
+        "meaning": "Systems or frameworks that enable certain operations, often used in the context of financial transactions.",
+        "pos": "noun"
+      },
+      "representing": {
+        "meaning": "Showing or describing something, or acting as a symbol for it.",
+        "pos": "verb"
+      },
+      "strategic": {
+        "meaning": "Relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "impact": {
+        "meaning": "To have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "landscape": {
+        "meaning": "The overall picture or situation of a particular area of activity.",
+        "pos": "noun"
+      },
+      "validates": {
+        "meaning": "Confirms or gives official approval to something.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "The possibility of something happening or developing in a certain way.",
+        "pos": "noun"
+      },
+      "transactions": {
+        "meaning": "Instances of buying or selling something; business dealings.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "Indicates or communicates something, often indirectly.",
+        "pos": "verb"
+      },
+      "acceptance": {
+        "meaning": "The action of consenting to receive or undertake something offered.",
+        "pos": "noun"
+      },
+      "accelerate": {
+        "meaning": "To increase the rate, speed, or progress of something.",
+        "pos": "verb"
+      },
+      "mainstream": {
+        "meaning": "Considered normal and accepted by most people.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "The action of formally choosing to take up or follow something.",
+        "pos": "noun"
+      },
+      "bridge": {
+        "meaning": "To connect or make the gap between two things smaller or non-existent.",
+        "pos": "verb"
+      },
+      "integrated": {
+        "meaning": "Combined or made into a whole with other parts.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What specific types of crypto experts are Google and Apple reportedly seeking, and what does this suggest about their future plans?",
+      "In the passage, what does \"tokenization rails\" mean, and how does it relate to \"real-world assets\"?",
+      "How do you think Big Tech's involvement in stablecoins and tokenization might change the competitive landscape for existing crypto companies or traditional financial institutions?"
+    ],
+    "modelAnswers": [
+      "Google and Apple are seeking experts in stablecoins and tokenized deposits. This suggests they are exploring new financial projects involving digital payments and tokenization infrastructure.",
+      "\"Tokenization rails\" refers to the systems or frameworks that enable the process of tokenization. This process involves representing real-world assets, like property or art, as digital tokens on a blockchain.",
+      "Big Tech's involvement could intensify competition for existing crypto companies due to their massive user bases and resources. For traditional financial institutions, it might force them to accelerate their own digital asset strategies or partner with tech giants."
+    ]
+  },
+  {
+    "id": "ec-2026-09-22-1",
+    "date": "2026-09-22",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "중앙은행의 금리 결정과 에너지 가격 상승이 경제에 미치는 영향에 대해 알아보세요.",
+    "url": "https://www.bbc.co.uk/news/articles/cm4gjrxez1q0o",
+    "title": "Bank of England Holds Rates, Warns of Future Hikes",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Bank of England recently decided to keep its key interest rate unchanged. This marks the sixth consecutive time rates have been held steady. However, the central bank issued a clear warning about future policy. It indicated that interest rates might need to rise if energy prices remain elevated. High energy costs contribute significantly to inflationary pressures. Such a rise would impact borrowing costs for both consumers and businesses. The decision reflects ongoing concerns about economic stability. Policymakers are balancing inflation control with economic growth. This cautious approach aims to navigate current global economic uncertainties. A future rate hike could affect mortgages, loans, and investment decisions.",
+    "sentences": [
+      {
+        "en": "The Bank of England recently decided to keep its key interest rate unchanged.",
+        "ko": "영국 중앙은행은 최근 기준 금리를 동결하기로 결정했습니다."
+      },
+      {
+        "en": "This marks the sixth consecutive time rates have been held steady.",
+        "ko": "이는 금리가 6회 연속으로 유지된 것입니다."
+      },
+      {
+        "en": "However, the central bank issued a clear warning about future policy.",
+        "ko": "하지만 중앙은행은 향후 정책에 대해 명확한 경고를 발표했습니다."
+      },
+      {
+        "en": "It indicated that interest rates might need to rise if energy prices remain elevated.",
+        "ko": "에너지 가격이 계속 높은 수준을 유지하면 금리 인상이 필요할 수 있다고 밝혔습니다."
+      },
+      {
+        "en": "High energy costs contribute significantly to inflationary pressures.",
+        "ko": "높은 에너지 비용은 인플레이션 압력에 크게 기여합니다."
+      },
+      {
+        "en": "Such a rise would impact borrowing costs for both consumers and businesses.",
+        "ko": "그러한 인상은 소비자와 기업 모두의 대출 비용에 영향을 미칠 것입니다."
+      },
+      {
+        "en": "The decision reflects ongoing concerns about economic stability.",
+        "ko": "이 결정은 경제 안정성에 대한 지속적인 우려를 반영합니다."
+      },
+      {
+        "en": "Policymakers are balancing inflation control with economic growth.",
+        "ko": "정책 입안자들은 인플레이션 통제와 경제 성장 사이에서 균형을 맞추고 있습니다."
+      },
+      {
+        "en": "This cautious approach aims to navigate current global economic uncertainties.",
+        "ko": "이 신중한 접근 방식은 현재의 세계 경제 불확실성을 헤쳐나가기 위함입니다."
+      },
+      {
+        "en": "A future rate hike could affect mortgages, loans, and investment decisions.",
+        "ko": "향후 금리 인상은 주택 담보 대출, 대출 및 투자 결정에 영향을 줄 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "key": {
+        "meaning": "most important or essential, central to a particular situation or system.",
+        "pos": "adjective"
+      },
+      "unchanged": {
+        "meaning": "remaining the same; not altered or modified from a previous state.",
+        "pos": "adjective"
+      },
+      "consecutive": {
+        "meaning": "following one after another in an unbroken sequence or order.",
+        "pos": "adjective"
+      },
+      "steady": {
+        "meaning": "not changing or moving; stable and consistent over time.",
+        "pos": "adjective"
+      },
+      "issued": {
+        "meaning": "formally produced or published something, such as a statement or warning.",
+        "pos": "verb"
+      },
+      "warning": {
+        "meaning": "a statement or event that indicates a possible danger or problem.",
+        "pos": "noun"
+      },
+      "indicated": {
+        "meaning": "showed or suggested something, often indirectly or as a sign.",
+        "pos": "verb"
+      },
+      "elevated": {
+        "meaning": "higher than the normal or expected level.",
+        "pos": "adjective"
+      },
+      "contribute": {
+        "meaning": "to help to cause or bring about something, especially a problem.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in an important or noticeable manner; to a large extent.",
+        "pos": "adverb"
+      },
+      "inflationary": {
+        "meaning": "relating to or tending to cause a general increase in prices and fall in the purchasing value of money.",
+        "pos": "adjective"
+      },
+      "pressures": {
+        "meaning": "a force or influence that produces a particular result, often a difficult one.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "to have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "the act of taking and using something, such as money, with the intention of returning it.",
+        "pos": "noun"
+      },
+      "reflects": {
+        "meaning": "shows or is a sign of a particular situation, attitude, or quality.",
+        "pos": "verb"
+      },
+      "ongoing": {
+        "meaning": "continuing to exist, happen, or develop; in progress.",
+        "pos": "adjective"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or anxiety about something.",
+        "pos": "noun"
+      },
+      "stability": {
+        "meaning": "the state of being firm and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "individuals or groups responsible for creating or enacting policies.",
+        "pos": "noun"
+      },
+      "balancing": {
+        "meaning": "to give equal importance to two or more things that are in opposition.",
+        "pos": "verb"
+      },
+      "cautious": {
+        "meaning": "careful to avoid potential problems or dangers.",
+        "pos": "adjective"
+      },
+      "navigate": {
+        "meaning": "to find a way to deal with a difficult or complicated situation.",
+        "pos": "verb"
+      },
+      "uncertainties": {
+        "meaning": "situations or facts that are not known or fixed.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the Bank of England's recent decision regarding its key interest rate, and what condition might lead to a future change?",
+      "In the context of the passage, what does \"inflationary pressures\" mean, and how do high energy costs contribute to them?",
+      "As a fintech professional, how might a potential interest rate hike affect consumer behavior and investment trends in the financial market?"
+    ],
+    "modelAnswers": [
+      "The Bank of England held its key interest rate unchanged for the sixth consecutive time. However, it warned that rates might rise if energy prices remain elevated.",
+      "\"Inflationary pressures\" refers to factors causing a general increase in prices. High energy costs contribute by increasing production and transportation expenses for businesses, which are then passed on to consumers.",
+      "A rate hike could reduce consumer borrowing and spending due to higher loan costs, potentially slowing economic activity. For investments, it might shift funds from equities to less risky fixed-income assets, impacting fintech platforms offering various investment options."
+    ]
+  },
+  {
+    "id": "ec-2026-09-22-2",
+    "date": "2026-09-22",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "금리 인상과 고용 불안정성으로 영국 소비자 신뢰도가 최저치를 기록한 소식을 확인하세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/21/interest-rate-rise-jobs-uk-consumer-confidence-budget",
+    "title": "UK Consumer Confidence Hits Three-Year Low",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "UK consumer confidence has recently fallen to a three-year low. This significant drop is primarily driven by two major concerns. Households are worried about potential steep rises in mortgage payments. Many also fear increasing job insecurity across various sectors. A leading survey revealed this notable strain on household finances. This negative sentiment reflects broader economic anxieties among the public. Higher interest rates make borrowing more expensive for individuals. Job insecurity reduces disposable income and future spending plans. Such a decline in confidence often signals slower economic activity ahead. Businesses may face reduced demand as consumers become more cautious. Policymakers closely monitor these trends to gauge economic health.",
+    "sentences": [
+      {
+        "en": "UK consumer confidence has recently fallen to a three-year low.",
+        "ko": "영국의 소비자 신뢰도가 최근 3년 만에 최저치를 기록했습니다."
+      },
+      {
+        "en": "This significant drop is primarily driven by two major concerns.",
+        "ko": "이러한 상당한 하락은 주로 두 가지 주요 우려에 의해 야기되었습니다."
+      },
+      {
+        "en": "Households are worried about potential steep rises in mortgage payments.",
+        "ko": "가계는 잠재적인 주택 담보 대출 상환액의 급격한 상승을 우려하고 있습니다."
+      },
+      {
+        "en": "Many also fear increasing job insecurity across various sectors.",
+        "ko": "또한 많은 사람들이 다양한 부문에서 증가하는 고용 불안정을 두려워합니다."
+      },
+      {
+        "en": "A leading survey revealed this notable strain on household finances.",
+        "ko": "주요 설문조사는 가계 재정에 대한 이러한 주목할 만한 부담을 드러냈습니다."
+      },
+      {
+        "en": "This negative sentiment reflects broader economic anxieties among the public.",
+        "ko": "이러한 부정적인 정서는 대중의 더 넓은 경제적 불안감을 반영합니다."
+      },
+      {
+        "en": "Higher interest rates make borrowing more expensive for individuals.",
+        "ko": "높은 금리는 개인에게 대출을 더 비싸게 만듭니다."
+      },
+      {
+        "en": "Job insecurity reduces disposable income and future spending plans.",
+        "ko": "고용 불안정은 가처분 소득과 미래 지출 계획을 감소시킵니다."
+      },
+      {
+        "en": "Such a decline in confidence often signals slower economic activity ahead.",
+        "ko": "이러한 신뢰 하락은 종종 향후 경제 활동 둔화를 예고합니다."
+      },
+      {
+        "en": "Businesses may face reduced demand as consumers become more cautious.",
+        "ko": "소비자들이 더 신중해지면서 기업들은 수요 감소에 직면할 수 있습니다."
+      },
+      {
+        "en": "Policymakers closely monitor these trends to gauge economic health.",
+        "ko": "정책 입안자들은 경제 건전성을 측정하기 위해 이러한 추세를 면밀히 관찰합니다."
+      }
+    ],
+    "glossary": {
+      "fallen": {
+        "meaning": "dropped to a lower level or amount.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable.",
+        "pos": "adjective"
+      },
+      "primarily": {
+        "meaning": "mainly or mostly.",
+        "pos": "adverb"
+      },
+      "driven": {
+        "meaning": "caused or influenced by something.",
+        "pos": "verb"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or anxiety.",
+        "pos": "noun"
+      },
+      "households": {
+        "meaning": "all the people living together in a house or apartment.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "possible when the necessary conditions exist.",
+        "pos": "adjective"
+      },
+      "steep": {
+        "meaning": "rising or falling sharply; a large increase or decrease.",
+        "pos": "adjective"
+      },
+      "mortgage": {
+        "meaning": "a legal agreement where a bank lends you money to buy a house.",
+        "pos": "noun"
+      },
+      "insecurity": {
+        "meaning": "the state of not being safe or protected; uncertainty.",
+        "pos": "noun"
+      },
+      "sectors": {
+        "meaning": "parts of an economy or society.",
+        "pos": "noun"
+      },
+      "leading": {
+        "meaning": "most important or influential.",
+        "pos": "adjective"
+      },
+      "survey": {
+        "meaning": "a method of gathering information from a group of people.",
+        "pos": "noun"
+      },
+      "revealed": {
+        "meaning": "made something known that was previously secret or unknown.",
+        "pos": "verb"
+      },
+      "notable": {
+        "meaning": "worthy of attention or notice; important.",
+        "pos": "adjective"
+      },
+      "strain": {
+        "meaning": "a state of tension or difficulty.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion.",
+        "pos": "noun"
+      },
+      "anxieties": {
+        "meaning": "feelings of worry, nervousness, or unease.",
+        "pos": "noun"
+      },
+      "broader": {
+        "meaning": "covering a wide range of things; more general.",
+        "pos": "adjective"
+      },
+      "signals": {
+        "meaning": "indicates or gives a sign of something.",
+        "pos": "verb"
+      },
+      "gauge": {
+        "meaning": "to estimate or determine the amount, level, or nature of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What two main factors are identified as contributing to the decline in UK consumer confidence?",
+      "Explain what \"job insecurity\" means in the context of the passage and how it might influence consumer spending.",
+      "From a fintech perspective, how might a prolonged period of low consumer confidence affect the adoption of new financial products or services?"
+    ],
+    "modelAnswers": [
+      "The two main factors contributing to the decline in UK consumer confidence are fears of steep rises in mortgage payments and increasing job insecurity.",
+      "\"Job insecurity\" refers to the uncertainty workers feel about keeping their jobs. This might influence consumer spending by making people more cautious, leading them to save more and spend less on non-essential goods and services.",
+      "A prolonged period of low consumer confidence could reduce the adoption of new fintech products, especially those involving credit or investment, as consumers prioritize saving and reducing debt over exploring new financial tools."
+    ]
+  },
+  {
+    "id": "ec-2026-09-22-3",
+    "date": "2026-09-22",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "전쟁, AI 혼란, 시장 혼란 등 또 다른 금융 위기 가능성과 대비책에 대한 전문가의 분석을 읽어보세요.",
+    "url": "https://www.theguardian.com/commentisfree/2026/sep/21/financial-crisis-ai-oil-market-2008-crash-disruption",
+    "title": "Expert Warns of Impending Financial Crisis",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A recent commentary suggests that signs point to an impending financial crisis. The author, Larry Elliott, highlights several contributing factors. Global conflicts, particularly wars, are creating significant economic instability. Rapid advancements in Artificial Intelligence (AI) are also causing market disruption. Furthermore, global markets are currently experiencing considerable turmoil. Lessons from the 2008 crash are crucial for current preparedness. The article emphasizes the urgent need for proactive measures. It argues that policymakers should act now to mitigate potential damage. Preparing for such an event could prevent widespread economic hardship. This includes strengthening financial systems and international cooperation. The aim is to build resilience against future shocks.",
+    "sentences": [
+      {
+        "en": "A recent commentary suggests that signs point to an impending financial crisis.",
+        "ko": "최근 한 논평은 임박한 금융 위기의 징후가 보인다고 시사합니다."
+      },
+      {
+        "en": "The author, Larry Elliott, highlights several contributing factors.",
+        "ko": "저자인 래리 엘리엇은 몇 가지 기여 요인을 강조합니다."
+      },
+      {
+        "en": "Global conflicts, particularly wars, are creating significant economic instability.",
+        "ko": "특히 전쟁과 같은 전 세계적인 분쟁은 상당한 경제적 불안정을 야기하고 있습니다."
+      },
+      {
+        "en": "Rapid advancements in Artificial Intelligence (AI) are also causing market disruption.",
+        "ko": "인공지능(AI)의 급속한 발전 또한 시장 혼란을 초래하고 있습니다."
+      },
+      {
+        "en": "Furthermore, global markets are currently experiencing considerable turmoil.",
+        "ko": "게다가 글로벌 시장은 현재 상당한 혼란을 겪고 있습니다."
+      },
+      {
+        "en": "Lessons from the 2008 crash are crucial for current preparedness.",
+        "ko": "2008년 금융 위기에서 얻은 교훈은 현재의 대비를 위해 매우 중요합니다."
+      },
+      {
+        "en": "The article emphasizes the urgent need for proactive measures.",
+        "ko": "이 기사는 선제적 조치의 시급한 필요성을 강조합니다."
+      },
+      {
+        "en": "It argues that policymakers should act now to mitigate potential damage.",
+        "ko": "정책 입안자들이 잠재적 피해를 완화하기 위해 지금 행동해야 한다고 주장합니다."
+      },
+      {
+        "en": "Preparing for such an event could prevent widespread economic hardship.",
+        "ko": "그러한 사건에 대비하는 것은 광범위한 경제적 어려움을 예방할 수 있습니다."
+      },
+      {
+        "en": "This includes strengthening financial systems and international cooperation.",
+        "ko": "여기에는 금융 시스템 강화와 국제 협력이 포함됩니다."
+      },
+      {
+        "en": "The aim is to build resilience against future shocks.",
+        "ko": "목표는 미래의 충격에 대한 회복력을 구축하는 것입니다."
+      }
+    ],
+    "glossary": {
+      "commentary": {
+        "meaning": "an expression of opinions or an explanation about an event or situation.",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "puts forward an idea or a plan for consideration.",
+        "pos": "verb"
+      },
+      "impending": {
+        "meaning": "about to happen, often used to describe something unpleasant or threatening.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "contributing": {
+        "meaning": "playing a part in bringing something about.",
+        "pos": "adjective"
+      },
+      "conflicts": {
+        "meaning": "serious disagreements or arguments, often involving violence.",
+        "pos": "noun"
+      },
+      "instability": {
+        "meaning": "the state of being likely to change or fail; lack of stability.",
+        "pos": "noun"
+      },
+      "rapid": {
+        "meaning": "happening quickly or in a short time.",
+        "pos": "adjective"
+      },
+      "advancements": {
+        "meaning": "developments or improvements in a particular area.",
+        "pos": "noun"
+      },
+      "disruption": {
+        "meaning": "disturbance or problems that interrupt an event, activity, or process.",
+        "pos": "noun"
+      },
+      "experiencing": {
+        "meaning": "encountering or going through something.",
+        "pos": "verb"
+      },
+      "turmoil": {
+        "meaning": "a state of great disturbance, confusion, or uncertainty.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important, essential.",
+        "pos": "adjective"
+      },
+      "preparedness": {
+        "meaning": "the state of being ready for something.",
+        "pos": "noun"
+      },
+      "emphasizes": {
+        "meaning": "gives special importance or prominence to something.",
+        "pos": "verb"
+      },
+      "proactive": {
+        "meaning": "creating or controlling a situation rather than just responding to it after it has happened.",
+        "pos": "adjective"
+      },
+      "mitigate": {
+        "meaning": "to make something less severe, serious, or painful.",
+        "pos": "verb"
+      },
+      "hardship": {
+        "meaning": "severe suffering or privation.",
+        "pos": "noun"
+      },
+      "strengthening": {
+        "meaning": "making something stronger or more effective.",
+        "pos": "verb"
+      },
+      "cooperation": {
+        "meaning": "the process of working together to achieve the same aim.",
+        "pos": "noun"
+      },
+      "resilience": {
+        "meaning": "the capacity to recover quickly from difficulties; toughness.",
+        "pos": "noun"
+      },
+      "shocks": {
+        "meaning": "sudden, disturbing, or unexpected events.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the commentary, what three main factors indicate a potential impending financial crisis?",
+      "What does the term \"market disruption\" imply in the context of rapid AI advancements, and how might it differ from traditional market volatility?",
+      "Given the warnings, what role can fintech companies play in enhancing financial system resilience and mitigating potential hardship during a future crisis?"
+    ],
+    "modelAnswers": [
+      "The commentary points to global conflicts, rapid advancements in Artificial Intelligence causing market disruption, and current market turmoil as signs of an impending financial crisis.",
+      "\"Market disruption\" from AI advancements implies fundamental changes to market structures and operations, potentially making traditional businesses obsolete or creating entirely new, unpredictable markets. This differs from volatility, which is fluctuation within existing market frameworks.",
+      "Fintech companies can enhance resilience by providing tools for better risk assessment, democratizing access to diverse investment opportunities, and facilitating quicker, more transparent transactions. They can also offer innovative solutions for financial inclusion, helping to mitigate hardship for vulnerable populations during a crisis."
+    ]
+  },
+  {
     "id": "cd-2026-09-21-1",
     "date": "2026-09-21",
     "rank": 1,
