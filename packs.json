@@ -1,5 +1,997 @@
 [
   {
+    "id": "cd-2026-09-23-1",
+    "date": "2026-09-23",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "유럽 중앙은행들이 스테이블코인 수익 금지를 암호화폐 대출 및 스테이킹으로 확대하려 한다는 소식입니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+    "title": "EU Central Banks Eye Broader Crypto Yield Ban",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "European central bankers are advocating for stricter regulations on crypto assets. They propose extending the current ban on stablecoin yields. This ban would include other crypto activities like lending and staking. Central banks believe these activities blur lines with traditional banking. Specifically, they see them as similar to commercial bank deposits. This could potentially distort competition within the financial system. The officials aim to maintain financial stability and protect consumers. Such a move would significantly impact the crypto industry in Europe. It could force businesses to rethink their yield-generating models. This ongoing debate highlights the tension between innovation and regulation. Regulators are striving to adapt existing frameworks to new digital assets.",
+    "sentences": [
+      {
+        "en": "European central bankers are advocating for stricter regulations on crypto assets.",
+        "ko": "유럽 중앙은행 관계자들이 암호화폐 자산에 대한 더 엄격한 규제를 옹호하고 있습니다."
+      },
+      {
+        "en": "They propose extending the current ban on stablecoin yields.",
+        "ko": "그들은 현재 스테이블코인 수익 금지를 확대할 것을 제안합니다."
+      },
+      {
+        "en": "This ban would include other crypto activities like lending and staking.",
+        "ko": "이 금지는 대출 및 스테이킹과 같은 다른 암호화폐 활동을 포함할 것입니다."
+      },
+      {
+        "en": "Central banks believe these activities blur lines with traditional banking.",
+        "ko": "중앙은행들은 이러한 활동이 전통적인 은행 업무와의 경계를 흐리게 한다고 믿습니다."
+      },
+      {
+        "en": "Specifically, they see them as similar to commercial bank deposits.",
+        "ko": "특히, 그들은 이를 상업 은행 예금과 유사하다고 봅니다."
+      },
+      {
+        "en": "This could potentially distort competition within the financial system.",
+        "ko": "이는 잠재적으로 금융 시스템 내 경쟁을 왜곡할 수 있습니다."
+      },
+      {
+        "en": "The officials aim to maintain financial stability and protect consumers.",
+        "ko": "관계자들은 금융 안정성을 유지하고 소비자를 보호하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Such a move would significantly impact the crypto industry in Europe.",
+        "ko": "이러한 움직임은 유럽의 암호화폐 산업에 상당한 영향을 미칠 것입니다."
+      },
+      {
+        "en": "It could force businesses to rethink their yield-generating models.",
+        "ko": "이는 기업들이 수익 창출 모델을 재고하도록 강제할 수 있습니다."
+      },
+      {
+        "en": "This ongoing debate highlights the tension between innovation and regulation.",
+        "ko": "이러한 지속적인 논쟁은 혁신과 규제 사이의 긴장을 강조합니다."
+      },
+      {
+        "en": "Regulators are striving to adapt existing frameworks to new digital assets.",
+        "ko": "규제 기관들은 기존의 틀을 새로운 디지털 자산에 맞게 조정하기 위해 노력하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "advocating": {
+        "meaning": "publicly supporting a particular policy or way of doing things, often in a strong manner.",
+        "pos": "verb"
+      },
+      "stricter": {
+        "meaning": "more severe or demanding in terms of rules, controls, or requirements.",
+        "pos": "adjective"
+      },
+      "regulations": {
+        "meaning": "official rules or laws that control how things are done or how people behave.",
+        "pos": "noun"
+      },
+      "propose": {
+        "meaning": "to suggest a plan or idea for people to consider or discuss.",
+        "pos": "verb"
+      },
+      "extending": {
+        "meaning": "making something longer or increasing its scope, area, or application.",
+        "pos": "verb"
+      },
+      "current": {
+        "meaning": "happening, existing, or being used at the present time.",
+        "pos": "adjective"
+      },
+      "ban": {
+        "meaning": "an official order that forbids something from being done or used.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the amount of money or profit that something produces, especially in finance.",
+        "pos": "noun"
+      },
+      "lending": {
+        "meaning": "the act of giving money to someone with the expectation that it will be paid back.",
+        "pos": "noun"
+      },
+      "staking": {
+        "meaning": "the process of locking up crypto assets to support a blockchain network and earn rewards.",
+        "pos": "noun"
+      },
+      "believe": {
+        "meaning": "to accept that something is true or real, often based on evidence or conviction.",
+        "pos": "verb"
+      },
+      "blur": {
+        "meaning": "to make something less clear or distinct, making it harder to differentiate.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "existing in or as part of a long-established custom, practice, or belief.",
+        "pos": "adjective"
+      },
+      "deposits": {
+        "meaning": "sums of money placed in a bank or other financial institution for safekeeping.",
+        "pos": "noun"
+      },
+      "potentially": {
+        "meaning": "possibly; with the potential or likelihood to happen or develop.",
+        "pos": "adverb"
+      },
+      "distort": {
+        "meaning": "to change something from its usual, original, or true shape, meaning, or state.",
+        "pos": "verb"
+      },
+      "competition": {
+        "meaning": "the situation in which people or organizations are trying to be more successful than others.",
+        "pos": "noun"
+      },
+      "maintain": {
+        "meaning": "to keep something in its existing state or condition; to preserve it.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "the state of being firm, steady, and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "to have a strong effect on someone or something, often a significant one.",
+        "pos": "verb"
+      },
+      "rethink": {
+        "meaning": "to consider something again, especially to change your mind or approach.",
+        "pos": "verb"
+      },
+      "generating": {
+        "meaning": "producing or creating something, especially energy or profit.",
+        "pos": "verb"
+      },
+      "debate": {
+        "meaning": "a formal discussion on a particular matter, often with opposing arguments.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or devices.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific types of crypto activities are European central bankers proposing to include in the stablecoin yield ban?",
+      "Q2: In the context of the article, explain what 'blur lines' means when central banks say these activities blur lines with traditional banking.",
+      "Q3: Do you think expanding the ban on stablecoin yields to include crypto lending and staking is a necessary step for financial stability, or does it hinder innovation? Explain your reasoning."
+    ],
+    "modelAnswers": [
+      "A1: European central bankers are proposing to extend the stablecoin yield ban to include crypto lending and staking activities.",
+      "A2: When central banks say these activities 'blur lines,' it means they make the distinction between crypto-based financial products and traditional banking products, like commercial bank deposits, less clear or harder to differentiate.",
+      "A3: While ensuring financial stability is important, an overly broad ban might hinder innovation in the crypto space. Regulators should focus on clear guidelines and risk management rather than outright bans to allow responsible growth."
+    ]
+  },
+  {
+    "id": "cd-2026-09-23-2",
+    "date": "2026-09-23",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "캐나다의 주요 은행들이 은행 간 토큰화된 예금 시스템을 시범 운영하여 디지털 자산 생태계와의 연결을 모색합니다.",
+    "url": "https://www.coindesk.com/business/2026/09/22/canada-s-big-six-banks-unite-to-launch-interbank-tokenized-deposit-initiative",
+    "title": "Canadian Banks Pilot Tokenized Deposit System",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Canada's six largest banks are collaborating on a new digital initiative. They plan to test an interbank tokenized deposit system. This project aims to digitize commercial deposits using blockchain technology. Initial testing will focus on moving funds between participating institutions. The ultimate goal is to connect this system to broader digital asset ecosystems. This move signifies a growing interest in tokenization from traditional finance. Tokenized deposits could streamline transactions and reduce costs. They also offer potential for enhanced security and transparency. Such initiatives highlight the evolving landscape of financial services. Banks are exploring how to leverage blockchain for core operations. This development could pave the way for more widespread digital currency adoption.",
+    "sentences": [
+      {
+        "en": "Canada's six largest banks are collaborating on a new digital initiative.",
+        "ko": "캐나다의 6대 주요 은행들이 새로운 디지털 이니셔티브에 협력하고 있습니다."
+      },
+      {
+        "en": "They plan to test an interbank tokenized deposit system.",
+        "ko": "그들은 은행 간 토큰화된 예금 시스템을 시험할 계획입니다."
+      },
+      {
+        "en": "This project aims to digitize commercial deposits using blockchain technology.",
+        "ko": "이 프로젝트는 블록체인 기술을 사용하여 상업 예금을 디지털화하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Initial testing will focus on moving funds between participating institutions.",
+        "ko": "초기 테스트는 참여 기관들 간의 자금 이동에 중점을 둘 것입니다."
+      },
+      {
+        "en": "The ultimate goal is to connect this system to broader digital asset ecosystems.",
+        "ko": "궁극적인 목표는 이 시스템을 더 넓은 디지털 자산 생태계에 연결하는 것입니다."
+      },
+      {
+        "en": "This move signifies a growing interest in tokenization from traditional finance.",
+        "ko": "이러한 움직임은 전통 금융에서 토큰화에 대한 관심이 커지고 있음을 의미합니다."
+      },
+      {
+        "en": "Tokenized deposits could streamline transactions and reduce costs.",
+        "ko": "토큰화된 예금은 거래를 간소화하고 비용을 절감할 수 있습니다."
+      },
+      {
+        "en": "They also offer potential for enhanced security and transparency.",
+        "ko": "또한 향상된 보안과 투명성을 위한 잠재력을 제공합니다."
+      },
+      {
+        "en": "Such initiatives highlight the evolving landscape of financial services.",
+        "ko": "이러한 이니셔티브는 금융 서비스의 진화하는 환경을 강조합니다."
+      },
+      {
+        "en": "Banks are exploring how to leverage blockchain for core operations.",
+        "ko": "은행들은 핵심 운영에 블록체인을 활용하는 방법을 탐색하고 있습니다."
+      },
+      {
+        "en": "This development could pave the way for more widespread digital currency adoption.",
+        "ko": "이러한 발전은 더 광범위한 디지털 통화 채택을 위한 길을 열 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "collaborating": {
+        "meaning": "working together with others to produce or create something, often a project.",
+        "pos": "verb"
+      },
+      "initiative": {
+        "meaning": "a new plan or process to achieve something or solve a problem.",
+        "pos": "noun"
+      },
+      "interbank": {
+        "meaning": "existing or occurring between different banks, involving multiple financial institutions.",
+        "pos": "adjective"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital representation, often called a token, on a blockchain.",
+        "pos": "adjective"
+      },
+      "deposit": {
+        "meaning": "a sum of money placed in a bank account, typically for safekeeping.",
+        "pos": "noun"
+      },
+      "digitize": {
+        "meaning": "to convert information or data into a digital format that computers can process.",
+        "pos": "verb"
+      },
+      "blockchain": {
+        "meaning": "a decentralized, distributed ledger technology that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "initial": {
+        "meaning": "existing or occurring at the beginning of a process or series.",
+        "pos": "adjective"
+      },
+      "participating": {
+        "meaning": "taking part in an activity or event with others.",
+        "pos": "adjective"
+      },
+      "institutions": {
+        "meaning": "established organizations, especially those providing a public service like finance.",
+        "pos": "noun"
+      },
+      "ultimate": {
+        "meaning": "the final or most important aim or consequence of a process.",
+        "pos": "adjective"
+      },
+      "ecosystems": {
+        "meaning": "complex networks or interconnected systems, especially in technology or nature.",
+        "pos": "noun"
+      },
+      "signifies": {
+        "meaning": "to be an indication of something, conveying meaning or importance.",
+        "pos": "verb"
+      },
+      "traditional": {
+        "meaning": "relating to or following an established custom or belief that has existed for a long time.",
+        "pos": "adjective"
+      },
+      "streamline": {
+        "meaning": "to make an organization or process more efficient and effective.",
+        "pos": "verb"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something, or of exchanging money.",
+        "pos": "noun"
+      },
+      "enhanced": {
+        "meaning": "improved or increased in quality, value, or extent.",
+        "pos": "adjective"
+      },
+      "transparency": {
+        "meaning": "the condition of being open, honest, and easily understood, especially in business.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "the overall situation or environment related to a particular activity or subject.",
+        "pos": "noun"
+      },
+      "leverage": {
+        "meaning": "to use something to maximum advantage, gaining benefit from it.",
+        "pos": "verb"
+      },
+      "core": {
+        "meaning": "forming the central or most important part of something.",
+        "pos": "adjective"
+      },
+      "pave": {
+        "meaning": "to prepare a way for something to happen or for a future development.",
+        "pos": "verb"
+      },
+      "widespread": {
+        "meaning": "found or distributed over a large area or among many people.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: Which group of financial institutions in Canada is collaborating on this tokenized deposit initiative?",
+      "Q2: What is the 'ultimate goal' of the interbank tokenized deposit system, as mentioned in the article, beyond initial testing?",
+      "Q3: How might the adoption of tokenized deposits by major banks impact the broader financial industry and the future of digital currencies?"
+    ],
+    "modelAnswers": [
+      "A1: Canada's six largest banks are collaborating on this new digital initiative to test an interbank tokenized deposit system.",
+      "A2: The ultimate goal is to connect this tokenized deposit system to broader digital asset ecosystems, integrating it with the wider digital economy.",
+      "A3: Tokenized deposits could lead to faster, cheaper, and more transparent transactions within the financial industry. It might also accelerate the mainstream adoption of digital currencies by providing a familiar, regulated form of digital value."
+    ]
+  },
+  {
+    "id": "cd-2026-09-23-3",
+    "date": "2026-09-23",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "백악관과 재무부 관계자들은 암호화폐 시장 구조에 대한 명확성이 선거 후 법안 통과를 기다릴 수 없으며, 규제 당국의 역할이 중요하다고 강조합니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/22/crypto-market-structure-can-t-wait-for-shot-at-post-election-clarity-act-surge-white-house",
+    "title": "White House Urges Regulatory Clarity for Crypto",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "White House and Treasury officials recently addressed crypto market regulation. They emphasized the urgent need for clarity in the crypto market structure. Officials stated that the industry cannot wait for a post-election legislative surge. Many in crypto hoped the Clarity Act might pass during a \"lame duck\" session. However, the White House believes the responsibility now lies with regulators. This perspective suggests a shift from congressional action to agency guidance. The goal is to provide a stable operating environment for crypto businesses. Clear rules are essential for fostering innovation and protecting investors. Uncertainty can hinder growth and deter mainstream adoption of digital assets. This highlights the ongoing challenge of establishing a clear regulatory framework. Regulators must adapt existing laws to the unique characteristics of crypto.",
+    "sentences": [
+      {
+        "en": "White House and Treasury officials recently addressed crypto market regulation.",
+        "ko": "백악관과 재무부 관계자들이 최근 암호화폐 시장 규제에 대해 언급했습니다."
+      },
+      {
+        "en": "They emphasized the urgent need for clarity in the crypto market structure.",
+        "ko": "그들은 암호화폐 시장 구조에 대한 명확성의 시급한 필요성을 강조했습니다."
+      },
+      {
+        "en": "Officials stated that the industry cannot wait for a post-election legislative surge.",
+        "ko": "관계자들은 업계가 선거 후 입법 활동의 급증을 기다릴 수 없다고 밝혔습니다."
+      },
+      {
+        "en": "Many in crypto hoped the Clarity Act might pass during a \"lame duck\" session.",
+        "ko": "많은 암호화폐 관계자들은 클라리티 법안이 '레임덕' 회기 동안 통과되기를 바랐습니다."
+      },
+      {
+        "en": "However, the White House believes the responsibility now lies with regulators.",
+        "ko": "그러나 백악관은 이제 그 책임이 규제 기관에 있다고 믿습니다."
+      },
+      {
+        "en": "This perspective suggests a shift from congressional action to agency guidance.",
+        "ko": "이러한 관점은 의회의 조치에서 기관의 지침으로의 전환을 시사합니다."
+      },
+      {
+        "en": "The goal is to provide a stable operating environment for crypto businesses.",
+        "ko": "목표는 암호화폐 기업을 위한 안정적인 운영 환경을 제공하는 것입니다."
+      },
+      {
+        "en": "Clear rules are essential for fostering innovation and protecting investors.",
+        "ko": "명확한 규칙은 혁신을 촉진하고 투자자를 보호하는 데 필수적입니다."
+      },
+      {
+        "en": "Uncertainty can hinder growth and deter mainstream adoption of digital assets.",
+        "ko": "불확실성은 성장을 방해하고 디지털 자산의 주류 채택을 저해할 수 있습니다."
+      },
+      {
+        "en": "This highlights the ongoing challenge of establishing a clear regulatory framework.",
+        "ko": "이는 명확한 규제 체계를 구축하는 지속적인 과제를 강조합니다."
+      },
+      {
+        "en": "Regulators must adapt existing laws to the unique characteristics of crypto.",
+        "ko": "규제 기관은 기존 법률을 암호화폐의 독특한 특성에 맞게 조정해야 합니다."
+      }
+    ],
+    "glossary": {
+      "addressed": {
+        "meaning": "dealt with or discussed a problem or issue, often formally.",
+        "pos": "verb"
+      },
+      "emphasized": {
+        "meaning": "gave special importance or attention to something, making it stand out.",
+        "pos": "verb"
+      },
+      "urgent": {
+        "meaning": "needing immediate attention or action, often because it is very important.",
+        "pos": "adjective"
+      },
+      "clarity": {
+        "meaning": "the quality of being clear, easy to understand, or certain in meaning.",
+        "pos": "noun"
+      },
+      "structure": {
+        "meaning": "the way in which parts of something are arranged or organized.",
+        "pos": "noun"
+      },
+      "stated": {
+        "meaning": "expressed something definitely or clearly in words.",
+        "pos": "verb"
+      },
+      "legislative": {
+        "meaning": "relating to laws or the making of laws, typically by a government body.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "a sudden, powerful, and often overwhelming increase in something.",
+        "pos": "noun"
+      },
+      "hoped": {
+        "meaning": "wanted something to happen or be true, often with a feeling of expectation.",
+        "pos": "verb"
+      },
+      "pass": {
+        "meaning": "to be approved by a legislative body, becoming a law or regulation.",
+        "pos": "verb"
+      },
+      "responsibility": {
+        "meaning": "the state or fact of having a duty to deal with something or of having control.",
+        "pos": "noun"
+      },
+      "regulators": {
+        "meaning": "government agencies or officials who make and enforce rules in a particular sector.",
+        "pos": "noun"
+      },
+      "perspective": {
+        "meaning": "a particular way of considering something; a point of view.",
+        "pos": "noun"
+      },
+      "shift": {
+        "meaning": "a slight change in position, direction, or tendency, often in policy.",
+        "pos": "noun"
+      },
+      "congressional": {
+        "meaning": "relating to a congress, which is a legislative body, especially in the US.",
+        "pos": "adjective"
+      },
+      "guidance": {
+        "meaning": "advice or information aimed at resolving a problem or difficulty.",
+        "pos": "noun"
+      },
+      "fostering": {
+        "meaning": "encouraging the development of something good or desirable.",
+        "pos": "verb"
+      },
+      "investors": {
+        "meaning": "people who put money into financial schemes, shares, or property with the expectation of profit.",
+        "pos": "noun"
+      },
+      "uncertainty": {
+        "meaning": "the state of being unsure or not definite, causing doubt.",
+        "pos": "noun"
+      },
+      "hinder": {
+        "meaning": "to make it difficult for someone to do something or for something to happen.",
+        "pos": "verb"
+      },
+      "deter": {
+        "meaning": "to discourage someone from doing something, often by instilling doubt or fear.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the action or fact of choosing to take up, follow, or use something new.",
+        "pos": "noun"
+      },
+      "framework": {
+        "meaning": "a basic structure underlying a system, concept, or text.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to White House and Treasury officials, who now holds the primary responsibility for providing clarity in the crypto market structure?",
+      "Q2: Explain the meaning of a \"lame duck\" session in the context of legislative action, as it relates to the Clarity Act mentioned in the article.",
+      "Q3: Do you believe that relying more on agency guidance rather than congressional legislative action is a more effective way to regulate the rapidly evolving crypto market? Justify your opinion."
+    ],
+    "modelAnswers": [
+      "A1: White House and Treasury officials believe the primary responsibility for providing clarity in the crypto market structure now lies with regulators, shifting from congressional action.",
+      "A2: A \"lame duck\" session refers to the period after an election when the outgoing Congress or government still holds power but has reduced influence, before the newly elected officials take office.",
+      "A3: Relying on agency guidance might be more effective for crypto due to the market's rapid evolution. Agencies can adapt rules faster than Congress, ensuring regulations remain relevant to new technologies and business models. However, it could also lead to less democratic oversight."
+    ]
+  },
+  {
+    "id": "ec-2026-09-23-1",
+    "date": "2026-09-23",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "국제통화기금(IMF)이 선진국들에게 부채 감축을 촉구하며 전 세계 경제에 대한 중요한 경고를 보냈습니다.",
+    "url": "https://www.bbc.co.uk/news/articles/cx305ymq4ldqo",
+    "title": "IMF Warns Advanced Economies on Rising Debt Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The International Monetary Fund (IMF) has recently issued a stark warning to its member nations. It specifically urges advanced economies to actively reduce their substantial national debt levels. This crucial advice comes as global borrowing costs are consistently and steadily increasing worldwide. Kristalina Georgieva, the IMF's esteemed managing director, specifically highlighted this pressing issue. She noted that recent economic shocks have dramatically pushed global debt levels significantly higher. These accumulating high debt burdens create widespread and significant fiscal vulnerabilities for nations. Consequently, governments might struggle severely to respond effectively to any future economic crises. Rising global interest rates make debt servicing increasingly more expensive for many indebted nations. The IMF, therefore, strongly emphasizes the critical need for responsible and sustainable fiscal policies. This proactive approach aims to ensure long-term global economic stability and financial resilience. Such timely measures are absolutely vital to prevent a future financial staircase \"not to heaven.\"",
+    "sentences": [
+      {
+        "en": "The International Monetary Fund (IMF) has recently issued a stark warning to its member nations.",
+        "ko": "국제통화기금(IMF)은 최근 회원국들에게 강력한 경고를 발표했습니다."
+      },
+      {
+        "en": "It specifically urges advanced economies to actively reduce their substantial national debt levels.",
+        "ko": "특히 선진국들이 막대한 국가 부채 수준을 적극적으로 줄일 것을 촉구합니다."
+      },
+      {
+        "en": "This crucial advice comes as global borrowing costs are consistently and steadily increasing worldwide.",
+        "ko": "이 중요한 조언은 전 세계적으로 차입 비용이 꾸준히 증가하고 있는 가운데 나옵니다."
+      },
+      {
+        "en": "Kristalina Georgieva, the IMF's esteemed managing director, specifically highlighted this pressing issue.",
+        "ko": "IMF의 존경받는 총재인 크리스탈리나 게오르기에바는 이 긴급한 문제를 특별히 강조했습니다."
+      },
+      {
+        "en": "She noted that recent economic shocks have dramatically pushed global debt levels significantly higher.",
+        "ko": "그녀는 최근의 경제 충격으로 인해 전 세계 부채 수준이 급격히 높아졌다고 언급했습니다."
+      },
+      {
+        "en": "These accumulating high debt burdens create widespread and significant fiscal vulnerabilities for nations.",
+        "ko": "이렇게 축적되는 높은 부채 부담은 국가들에게 광범위하고 심각한 재정적 취약성을 초래합니다."
+      },
+      {
+        "en": "Consequently, governments might struggle severely to respond effectively to any future economic crises.",
+        "ko": "결과적으로 정부는 미래의 어떤 경제 위기에도 효과적으로 대응하는 데 심각한 어려움을 겪을 수 있습니다."
+      },
+      {
+        "en": "Rising global interest rates make debt servicing increasingly more expensive for many indebted nations.",
+        "ko": "전 세계적으로 금리가 상승하면서 많은 부채국에게는 부채 상환 비용이 점점 더 비싸지고 있습니다."
+      },
+      {
+        "en": "The IMF, therefore, strongly emphasizes the critical need for responsible and sustainable fiscal policies.",
+        "ko": "따라서 IMF는 책임감 있고 지속 가능한 재정 정책의 중요한 필요성을 강력히 강조합니다."
+      },
+      {
+        "en": "This proactive approach aims to ensure long-term global economic stability and financial resilience.",
+        "ko": "이러한 선제적인 접근 방식은 장기적인 세계 경제 안정과 금융 회복력을 보장하는 것을 목표로 합니다."
+      },
+      {
+        "en": "Such timely measures are absolutely vital to prevent a future financial staircase \"not to heaven.\"",
+        "ko": "이러한 시기적절한 조치들은 미래에 \"천국으로 가는 계단이 아닌\" 재정적 난관을 막는 데 절대적으로 중요합니다."
+      }
+    ],
+    "glossary": {
+      "stark": {
+        "meaning": "severe or bare in appearance, often used to describe a harsh reality.",
+        "pos": "adjective"
+      },
+      "urges": {
+        "meaning": "strongly advises or tries to persuade someone to do a particular thing.",
+        "pos": "verb"
+      },
+      "advanced": {
+        "meaning": "at a highly developed stage, often referring to economies or technologies.",
+        "pos": "adjective"
+      },
+      "economies": {
+        "meaning": "the system of trade and industry by which the wealth of a country is made.",
+        "pos": "noun"
+      },
+      "reduce": {
+        "meaning": "make smaller or less in amount, degree, or size.",
+        "pos": "verb"
+      },
+      "national": {
+        "meaning": "relating to a whole nation or country.",
+        "pos": "adjective"
+      },
+      "debt": {
+        "meaning": "a sum of money that is owed or due.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "the act of obtaining money that must be repaid, usually with interest.",
+        "pos": "noun"
+      },
+      "consistently": {
+        "meaning": "acting or done in the same way over time; unfailingly.",
+        "pos": "adverb"
+      },
+      "steadily": {
+        "meaning": "in a regular and continuous way.",
+        "pos": "adverb"
+      },
+      "esteemed": {
+        "meaning": "regarded with respect and admiration by many people.",
+        "pos": "adjective"
+      },
+      "highlighted": {
+        "meaning": "drawn special attention to or emphasized a particular point.",
+        "pos": "verb"
+      },
+      "pressing": {
+        "meaning": "requiring immediate attention or action; urgent.",
+        "pos": "adjective"
+      },
+      "shocks": {
+        "meaning": "sudden, unexpected, and often negative events that significantly impact something.",
+        "pos": "noun"
+      },
+      "dramatically": {
+        "meaning": "suddenly and in a very noticeable way; greatly.",
+        "pos": "adverb"
+      },
+      "burdens": {
+        "meaning": "heavy loads or responsibilities, often financial or emotional.",
+        "pos": "noun"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, or public finances.",
+        "pos": "adjective"
+      },
+      "vulnerabilities": {
+        "meaning": "the state of being exposed to the possibility of being attacked or harmed.",
+        "pos": "noun"
+      },
+      "consequently": {
+        "meaning": "as a result of a particular action or situation; therefore.",
+        "pos": "adverb"
+      },
+      "effectively": {
+        "meaning": "in a way that is successful in producing a desired result.",
+        "pos": "adverb"
+      },
+      "interest": {
+        "meaning": "the money charged by a lender for borrowing money, usually a percentage.",
+        "pos": "noun"
+      },
+      "servicing": {
+        "meaning": "the action of paying money owed on a debt, including interest and principal.",
+        "pos": "noun"
+      },
+      "sustainable": {
+        "meaning": "able to be maintained at a certain rate or level without depletion.",
+        "pos": "adjective"
+      },
+      "resilience": {
+        "meaning": "the capacity to recover quickly from difficulties; toughness.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the article, what specific action is the IMF urging advanced economies to take?",
+      "Q2: Explain what \"fiscal vulnerabilities\" means in the context of rising national debt. Why are these a concern for governments?",
+      "Q3: Do you think governments should prioritize reducing national debt even during times of economic uncertainty, or should they focus more on stimulating growth? Explain your perspective."
+    ],
+    "modelAnswers": [
+      "A1: The IMF is urging advanced economies to actively reduce their substantial national debt levels as global borrowing costs continue to rise.",
+      "A2: Fiscal vulnerabilities refer to a government's susceptibility to financial instability due to high debt burdens. They are a concern because they can limit a government's ability to fund essential services or respond effectively to future economic crises.",
+      "A3: There are arguments for both. Prioritizing debt reduction ensures long-term financial health and reduces future interest burdens. However, some argue that stimulating growth during uncertainty can prevent deeper recessions, even if it temporarily increases debt. The optimal approach often depends on the specific economic conditions and a balanced view."
+    ]
+  },
+  {
+    "id": "ec-2026-09-23-2",
+    "date": "2026-09-23",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "영국 정부의 예상치 못한 대규모 차입 소식은 재무장관에게 큰 압박을 가하고 있으며, 이는 국가 경제의 건전성을 이해하는 데 중요합니다.",
+    "url": "https://www.theguardian.com/business/2026/sep/22/uk-government-borrowing-john-healey-budget-bond-markets",
+    "title": "UK Borrowing Surges, Pressuring Chancellor on Budget",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The UK government recently borrowed significantly more funds than initially expected in August. This unexpected borrowing amounted to a substantial higher-than-anticipated £18.3 billion. Such a significant surge now places immense pressure directly on Chancellor John Healey. He must urgently work to calm jittery bond markets before the upcoming national budget. Many economists now widely consider further tax increases almost \"inevitable\" for the country. This situation is largely due to the persistently rising cost of servicing the national debt. High inflation continues to drive up various government expenditures across all sectors. The government's established fiscal rules aim to keep overall public finances under control. However, these recent borrowing figures make achieving this crucial task increasingly challenging. The government therefore faces difficult choices regarding future public spending and revenue generation. This complex situation clearly highlights the delicate balance required for sound economic policy.",
+    "sentences": [
+      {
+        "en": "The UK government recently borrowed significantly more funds than initially expected in August.",
+        "ko": "영국 정부는 최근 8월에 당초 예상했던 것보다 훨씬 더 많은 자금을 차입했습니다."
+      },
+      {
+        "en": "This unexpected borrowing amounted to a substantial higher-than-anticipated £18.3 billion.",
+        "ko": "이 예상치 못한 차입액은 예상치를 뛰어넘는 상당한 183억 파운드에 달했습니다."
+      },
+      {
+        "en": "Such a significant surge now places immense pressure directly on Chancellor John Healey.",
+        "ko": "이러한 상당한 급증은 이제 재무장관 존 힐리에게 직접적으로 막대한 압력을 가하고 있습니다."
+      },
+      {
+        "en": "He must urgently work to calm jittery bond markets before the upcoming national budget.",
+        "ko": "그는 다가오는 국가 예산 발표 전에 불안정한 채권 시장을 진정시키기 위해 시급히 노력해야 합니다."
+      },
+      {
+        "en": "Many economists now widely consider further tax increases almost \"inevitable\" for the country.",
+        "ko": "많은 경제학자들은 이제 추가적인 세금 인상이 국가에 거의 \"불가피\"하다고 널리 간주합니다."
+      },
+      {
+        "en": "This situation is largely due to the persistently rising cost of servicing the national debt.",
+        "ko": "이러한 상황은 주로 국가 부채를 상환하는 데 드는 비용이 지속적으로 증가하기 때문입니다."
+      },
+      {
+        "en": "High inflation continues to drive up various government expenditures across all sectors.",
+        "ko": "높은 인플레이션은 모든 부문에서 다양한 정부 지출을 계속해서 증가시키고 있습니다."
+      },
+      {
+        "en": "The government's established fiscal rules aim to keep overall public finances under control.",
+        "ko": "정부가 정한 재정 규칙은 전반적인 공공 재정을 통제하에 두는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, these recent borrowing figures make achieving this crucial task increasingly challenging.",
+        "ko": "그러나 이러한 최근의 차입 수치는 이 중요한 과제를 달성하는 것을 점점 더 어렵게 만듭니다."
+      },
+      {
+        "en": "The government therefore faces difficult choices regarding future public spending and revenue generation.",
+        "ko": "따라서 정부는 미래의 공공 지출과 세입 창출에 관해 어려운 선택에 직면해 있습니다."
+      },
+      {
+        "en": "This complex situation clearly highlights the delicate balance required for sound economic policy.",
+        "ko": "이러한 복잡한 상황은 건전한 경제 정책에 필요한 미묘한 균형을 명확하게 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "borrowed": {
+        "meaning": "took and used money with the intention of returning it, usually with interest.",
+        "pos": "verb"
+      },
+      "significantly": {
+        "meaning": "in a way that is large or important enough to be noticed.",
+        "pos": "adverb"
+      },
+      "unexpected": {
+        "meaning": "not expected or regarded as likely to happen; surprising.",
+        "pos": "adjective"
+      },
+      "amounted": {
+        "meaning": "added up to a total or resulted in a particular sum.",
+        "pos": "verb"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth; significant.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "a sudden powerful forward or upward movement or increase.",
+        "pos": "noun"
+      },
+      "immense": {
+        "meaning": "extremely large or great in scale or degree.",
+        "pos": "adjective"
+      },
+      "pressure": {
+        "meaning": "a state of intense difficulty or urgency, often causing stress.",
+        "pos": "noun"
+      },
+      "chancellor": {
+        "meaning": "a senior state official, often the head of finance in a government.",
+        "pos": "noun"
+      },
+      "urgently": {
+        "meaning": "in a way that requires immediate action or attention.",
+        "pos": "adverb"
+      },
+      "jittery": {
+        "meaning": "nervous or unable to relax, often used to describe market sentiment.",
+        "pos": "adjective"
+      },
+      "bond": {
+        "meaning": "a financial instrument representing a loan made by an investor to a borrower.",
+        "pos": "noun"
+      },
+      "budget": {
+        "meaning": "an estimate of income and expenditure for a set period of time.",
+        "pos": "noun"
+      },
+      "economists": {
+        "meaning": "experts in economics who study how society uses its resources.",
+        "pos": "noun"
+      },
+      "inevitable": {
+        "meaning": "certain to happen; unavoidable.",
+        "pos": "adjective"
+      },
+      "persistently": {
+        "meaning": "in a continuous and determined way, often despite difficulties.",
+        "pos": "adverb"
+      },
+      "servicing": {
+        "meaning": "the action of paying money owed on a debt, including interest and principal.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "the general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "expenditures": {
+        "meaning": "the action of spending funds; money spent.",
+        "pos": "noun"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, or public finances.",
+        "pos": "adjective"
+      },
+      "finances": {
+        "meaning": "the monetary resources and affairs of a state, organization, or person.",
+        "pos": "noun"
+      },
+      "challenging": {
+        "meaning": "testing one's abilities; demanding but potentially rewarding.",
+        "pos": "adjective"
+      },
+      "revenue": {
+        "meaning": "income, especially when of a company or organization and of a substantial nature.",
+        "pos": "noun"
+      },
+      "delicate": {
+        "meaning": "easily broken or damaged; requiring careful handling.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What was the unexpected amount the UK government borrowed in August, and who is facing pressure because of it?",
+      "Q2: In the context of the article, what does it mean for bond markets to be \"jittery\"? Why might this be a concern for the Chancellor?",
+      "Q3: If you were the UK Chancellor, what would be your top priority in the upcoming budget: controlling debt, stimulating economic growth, or addressing public services? Justify your choice."
+    ],
+    "modelAnswers": [
+      "A1: The UK government borrowed an unexpected £18.3 billion in August, putting immense pressure on Chancellor John Healey.",
+      "A2: \"Jittery\" bond markets mean investors are nervous or uncertain about the government's financial stability, possibly demanding higher interest rates for loans. This is a concern because higher rates increase the cost of servicing national debt, making it harder for the Chancellor to manage public finances.",
+      "A3: As Chancellor, my top priority would be controlling debt. High debt leads to higher interest payments, which diverts funds from public services and limits future economic maneuverability. A stable fiscal foundation is crucial for long-term growth and effective public service funding."
+    ]
+  },
+  {
+    "id": "ec-2026-09-23-3",
+    "date": "2026-09-23",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "예측 시장의 '언급' 계약이 조작 위험이 높다는 CFTC의 경고는 핀테크 분야의 규제와 시장 무결성에 대한 중요한 시사점을 제공합니다.",
+    "url": "https://www.cnbc.com/2026/09/22/cftc-prediction-markets-mentions-contracts-have-manipulation-risk.html",
+    "title": "CFTC Warns on Prediction Market Manipulation Risk",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The Commodity Futures Trading Commission (CFTC) has recently issued a significant warning. It states that \"mentions\" contracts in online prediction markets carry higher manipulation risks. This important announcement closely follows an extensive internal review by the agency. The comprehensive review specifically focused on these unique event contract types. Prediction markets generally allow various users to bet on diverse future outcomes. \"Mentions\" contracts typically involve counting public references to a specific topic or event. The CFTC's primary concern ultimately stems from the potential for artificial influence. Unscrupulous traders might strategically try to manipulate public discourse for financial profit. Such actions could severely undermine overall market integrity and fairness for all participants. The agency actively aims to protect market participants and ensure genuinely transparent trading. This rigorous regulatory scrutiny is crucial for the rapidly evolving financial technologies sector.",
+    "sentences": [
+      {
+        "en": "The Commodity Futures Trading Commission (CFTC) has recently issued a significant warning.",
+        "ko": "미국 상품선물거래위원회(CFTC)는 최근 중요한 경고를 발표했습니다."
+      },
+      {
+        "en": "It states that \"mentions\" contracts in online prediction markets carry higher manipulation risks.",
+        "ko": "이 경고는 온라인 예측 시장의 \"언급\" 계약이 더 높은 조작 위험을 수반한다고 명시합니다."
+      },
+      {
+        "en": "This important announcement closely follows an extensive internal review by the agency.",
+        "ko": "이 중요한 발표는 해당 기관의 광범위한 내부 검토에 이은 것입니다."
+      },
+      {
+        "en": "The comprehensive review specifically focused on these unique event contract types.",
+        "ko": "이 포괄적인 검토는 이러한 독특한 이벤트 계약 유형에 특별히 초점을 맞췄습니다."
+      },
+      {
+        "en": "Prediction markets generally allow various users to bet on diverse future outcomes.",
+        "ko": "예측 시장은 일반적으로 다양한 사용자들이 다양한 미래 결과에 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "\"Mentions\" contracts typically involve counting public references to a specific topic or event.",
+        "ko": "\"언급\" 계약은 일반적으로 특정 주제나 사건에 대한 대중의 언급을 집계하는 것을 포함합니다."
+      },
+      {
+        "en": "The CFTC's primary concern ultimately stems from the potential for artificial influence.",
+        "ko": "CFTC의 주된 우려는 궁극적으로 인위적인 영향력 행사의 가능성에서 비롯됩니다."
+      },
+      {
+        "en": "Unscrupulous traders might strategically try to manipulate public discourse for financial profit.",
+        "ko": "부도덕한 거래자들은 재정적 이득을 위해 대중의 담론을 전략적으로 조작하려 할 수 있습니다."
+      },
+      {
+        "en": "Such actions could severely undermine overall market integrity and fairness for all participants.",
+        "ko": "그러한 행동은 모든 참가자에게 전반적인 시장의 무결성과 공정성을 심각하게 훼손할 수 있습니다."
+      },
+      {
+        "en": "The agency actively aims to protect market participants and ensure genuinely transparent trading.",
+        "ko": "해당 기관은 시장 참가자를 보호하고 진정으로 투명한 거래를 보장하는 것을 적극적으로 목표로 합니다."
+      },
+      {
+        "en": "This rigorous regulatory scrutiny is crucial for the rapidly evolving financial technologies sector.",
+        "ko": "이러한 엄격한 규제 감시는 빠르게 진화하는 핀테크 부문에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "commodity": {
+        "meaning": "a raw material or primary agricultural product that can be bought and sold.",
+        "pos": "noun"
+      },
+      "futures": {
+        "meaning": "financial contracts to buy or sell an asset at a set price on a future date.",
+        "pos": "noun"
+      },
+      "commission": {
+        "meaning": "an official group of people appointed to investigate or control something.",
+        "pos": "noun"
+      },
+      "issued": {
+        "meaning": "formally announced or made available to the public.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noteworthy in amount, extent, or meaning.",
+        "pos": "adjective"
+      },
+      "warning": {
+        "meaning": "a statement or event that indicates a possible danger or problem.",
+        "pos": "noun"
+      },
+      "mentions": {
+        "meaning": "references to something or someone, often in public discourse.",
+        "pos": "noun"
+      },
+      "contracts": {
+        "meaning": "written or spoken agreements intended to be enforceable by law.",
+        "pos": "noun"
+      },
+      "prediction": {
+        "meaning": "a forecast or statement about what will happen in the future.",
+        "pos": "noun"
+      },
+      "manipulation": {
+        "meaning": "the action of controlling or influencing something unfairly or cleverly.",
+        "pos": "noun"
+      },
+      "extensive": {
+        "meaning": "covering a large area or a great amount of detail; comprehensive.",
+        "pos": "adjective"
+      },
+      "review": {
+        "meaning": "a formal examination of something with the aim of making changes if needed.",
+        "pos": "noun"
+      },
+      "unique": {
+        "meaning": "being the only one of its kind; unusual or special.",
+        "pos": "adjective"
+      },
+      "typically": {
+        "meaning": "in most cases; usually; characteristically.",
+        "pos": "adverb"
+      },
+      "stems": {
+        "meaning": "originates or is caused by; comes from.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "having the capacity to become something in the future; possibility.",
+        "pos": "noun"
+      },
+      "artificial": {
+        "meaning": "made or produced by human beings rather than occurring naturally.",
+        "pos": "adjective"
+      },
+      "influence": {
+        "meaning": "the power to affect or change someone or something.",
+        "pos": "noun"
+      },
+      "unscrupulous": {
+        "meaning": "having or showing no moral principles; not honest or fair.",
+        "pos": "adjective"
+      },
+      "undermine": {
+        "meaning": "lessen the effectiveness, power, or ability of something gradually.",
+        "pos": "verb"
+      },
+      "integrity": {
+        "meaning": "the quality of being honest and having strong moral principles.",
+        "pos": "noun"
+      },
+      "transparent": {
+        "meaning": "allowing light to pass through; clear and easily understood.",
+        "pos": "adjective"
+      },
+      "scrutiny": {
+        "meaning": "critical observation or examination; close inspection.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: Which regulatory body issued the warning about \"mentions\" contracts in prediction markets, and what is their main concern?",
+      "Q2: What does \"market integrity\" mean in the context of prediction markets, and why would manipulation undermine it?",
+      "Q3: As a fintech PM, how would you approach developing a new financial product in a prediction market while addressing regulatory concerns like potential manipulation?"
+    ],
+    "modelAnswers": [
+      "A1: The Commodity Futures Trading Commission (CFTC) issued the warning. Their main concern is the higher risk of manipulation associated with \"mentions\" contracts.",
+      "A2: Market integrity refers to the fairness, transparency, and trustworthiness of a market. Manipulation would undermine it by allowing artificial influence to distort outcomes, eroding investor confidence and making the market unreliable.",
+      "A3: I would prioritize robust internal controls and advanced monitoring systems to detect unusual trading patterns. I'd also ensure clear, transparent rules for contract settlement and engage proactively with regulators like the CFTC to understand and address their concerns from the product's inception."
+    ]
+  },
+  {
     "id": "cd-2026-09-22-1",
     "date": "2026-09-22",
     "rank": 1,
