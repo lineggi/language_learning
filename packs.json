@@ -1,5 +1,973 @@
 [
   {
+    "id": "cd-2026-09-24-1",
+    "date": "2026-09-24",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "트론 네트워크가 스테이블코인 거래의 핵심 인프라가 된 이유와 규제 영향에 대해 알아보세요.",
+    "url": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
+    "title": "Tron's Critical Role in Stablecoin Settlement",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Tron has become a crucial settlement layer for stablecoins, particularly USDT. It now processes a significant volume, often exceeding $150 billion weekly. This development is notable as Tron initially launched as a content distribution project. Its efficiency and low transaction fees attracted stablecoin users. The network's economics facilitate these massive transfers. However, potential stablecoin regulation could significantly impact Tron's thesis. Regulators are increasingly scrutinizing digital asset markets globally. Understanding Tron's role is key to grasping the broader crypto ecosystem. Future policy decisions will shape the landscape for such networks.",
+    "sentences": [
+      {
+        "en": "Tron has become a crucial settlement layer for stablecoins, particularly USDT.",
+        "ko": "트론은 특히 USDT와 같은 스테이블코인의 핵심 결제 계층이 되었습니다."
+      },
+      {
+        "en": "It now processes a significant volume, often exceeding $150 billion weekly.",
+        "ko": "이제 매주 1,500억 달러를 초과하는 상당한 거래량을 처리합니다."
+      },
+      {
+        "en": "This development is notable as Tron initially launched as a content distribution project.",
+        "ko": "트론이 원래 콘텐츠 배포 프로젝트로 시작했다는 점에서 이러한 발전은 주목할 만합니다."
+      },
+      {
+        "en": "Its efficiency and low transaction fees attracted stablecoin users.",
+        "ko": "그 효율성과 낮은 거래 수수료는 스테이블코인 사용자들을 끌어들였습니다."
+      },
+      {
+        "en": "The network's economics facilitate these massive transfers.",
+        "ko": "네트워크의 경제성은 이러한 대규모 전송을 용이하게 합니다."
+      },
+      {
+        "en": "However, potential stablecoin regulation could significantly impact Tron's thesis.",
+        "ko": "그러나 잠재적인 스테이블코인 규제는 트론의 핵심 이론에 상당한 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Regulators are increasingly scrutinizing digital asset markets globally.",
+        "ko": "규제 당국은 전 세계적으로 디지털 자산 시장을 점점 더 면밀히 조사하고 있습니다."
+      },
+      {
+        "en": "Understanding Tron's role is key to grasping the broader crypto ecosystem.",
+        "ko": "트론의 역할을 이해하는 것은 더 넓은 암호화폐 생태계를 파악하는 데 중요합니다."
+      },
+      {
+        "en": "Future policy decisions will shape the landscape for such networks.",
+        "ko": "미래의 정책 결정은 그러한 네트워크의 지형을 형성할 것입니다."
+      }
+    ],
+    "glossary": {
+      "settlement": {
+        "meaning": "The final process of transferring assets or funds between parties in a transaction.",
+        "pos": "noun"
+      },
+      "stablecoins": {
+        "meaning": "Cryptocurrencies designed to maintain a stable value, typically pegged to a fiat currency like the US dollar.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or essential for the success or existence of something.",
+        "pos": "adjective"
+      },
+      "particularly": {
+        "meaning": "Used to single out a specific person, thing, or situation as being more important than others.",
+        "pos": "adverb"
+      },
+      "exceeding": {
+        "meaning": "Being greater than a particular amount, number, or limit.",
+        "pos": "verb"
+      },
+      "notable": {
+        "meaning": "Worthy of attention or notice because it is unusual or important.",
+        "pos": "adjective"
+      },
+      "initially": {
+        "meaning": "At the beginning, or at first, before any other actions or developments.",
+        "pos": "adverb"
+      },
+      "distribution": {
+        "meaning": "The action of supplying something to a number of places or people.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "The quality of doing something well and thoroughly with no waste of time or money.",
+        "pos": "noun"
+      },
+      "attracted": {
+        "meaning": "Caused someone to come to a place or to participate in an activity.",
+        "pos": "verb"
+      },
+      "facilitate": {
+        "meaning": "To make an action or a process easier or more likely to happen.",
+        "pos": "verb"
+      },
+      "massive": {
+        "meaning": "Extremely large, heavy, or solid in amount or degree.",
+        "pos": "adjective"
+      },
+      "transfers": {
+        "meaning": "Acts of moving something from one place to another, especially money.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "Having or showing the capacity to become something in the future.",
+        "pos": "adjective"
+      },
+      "regulation": {
+        "meaning": "A rule or directive made and maintained by an authority, often for controlling an activity.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "To have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "thesis": {
+        "meaning": "A long piece of writing on a particular subject, often supporting a specific idea or argument.",
+        "pos": "noun"
+      },
+      "increasingly": {
+        "meaning": "To an increasing extent; more and more over time.",
+        "pos": "adverb"
+      },
+      "scrutinizing": {
+        "meaning": "Examining or inspecting something very closely and carefully.",
+        "pos": "verb"
+      },
+      "globally": {
+        "meaning": "Throughout the world; worldwide in scope.",
+        "pos": "adverb"
+      },
+      "grasping": {
+        "meaning": "Understanding a difficult idea or concept completely.",
+        "pos": "verb"
+      },
+      "ecosystem": {
+        "meaning": "A complex network or interconnected system, often referring to a digital environment.",
+        "pos": "noun"
+      },
+      "landscape": {
+        "meaning": "All the visible features of an area of land or, metaphorically, a particular situation or environment.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was Tron's original purpose before becoming a stablecoin settlement layer?",
+      "Q2: In the context of the passage, explain what is meant by 'Tron's thesis' and why regulation might impact it.",
+      "Q3: How might increased global regulation of stablecoins affect the adoption and development of decentralized finance (DeFi) applications?"
+    ],
+    "modelAnswers": [
+      "A1: Tron originally launched as a content distribution project, a different purpose from its current role in stablecoin settlement.",
+      "A2: 'Tron's thesis' refers to the underlying idea or argument for its value proposition, specifically its role as an efficient, low-cost stablecoin settlement network. Regulation could impact this if it imposes new requirements or restricts how stablecoins operate on such networks.",
+      "A3: Increased regulation could bring more legitimacy and security, potentially boosting mainstream adoption of DeFi. However, it might also introduce compliance burdens and centralize aspects of DeFi, which could challenge its core decentralized principles."
+    ]
+  },
+  {
+    "id": "cd-2026-09-24-2",
+    "date": "2026-09-24",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "트럼프 행정부의 암호화폐 정책과 Clarity Act 패배가 가져올 정치적 파장을 분석합니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/23/white-house-adviser-defends-president-trump-s-crypto-ties-in-wake-of-clarity-act-defeat",
+    "title": "Trump's Crypto Stance and Clarity Act Defeat",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A White House adviser recently defended President Trump's crypto ties. Patrick Witt accused Democrats of using Trump's crypto connections as a political weapon. This defense follows the defeat of the Clarity Act. The Clarity Act aimed to provide clear regulatory frameworks for digital assets. Its failure highlights ongoing legislative challenges in the crypto space. Political figures are increasingly engaging with crypto policy debates. The outcome of such debates will shape the industry's future. This situation underscores the growing intersection of politics and digital finance. It also shows how crypto is becoming a significant election issue.",
+    "sentences": [
+      {
+        "en": "A White House adviser recently defended President Trump's crypto ties.",
+        "ko": "백악관 고문이 최근 트럼프 대통령의 암호화폐 연관성을 옹호했습니다."
+      },
+      {
+        "en": "Patrick Witt accused Democrats of using Trump's crypto connections as a political weapon.",
+        "ko": "패트릭 위트는 민주당이 트럼프의 암호화폐 연관성을 정치적 무기로 사용했다고 비난했습니다."
+      },
+      {
+        "en": "This defense follows the defeat of the Clarity Act.",
+        "ko": "이러한 옹호는 Clarity Act의 패배에 뒤이어 나왔습니다."
+      },
+      {
+        "en": "The Clarity Act aimed to provide clear regulatory frameworks for digital assets.",
+        "ko": "Clarity Act는 디지털 자산에 대한 명확한 규제 프레임워크를 제공하는 것을 목표로 했습니다."
+      },
+      {
+        "en": "Its failure highlights ongoing legislative challenges in the crypto space.",
+        "ko": "그 실패는 암호화폐 분야에서 계속되는 입법 과제를 부각합니다."
+      },
+      {
+        "en": "Political figures are increasingly engaging with crypto policy debates.",
+        "ko": "정치인들은 암호화폐 정책 논쟁에 점점 더 참여하고 있습니다."
+      },
+      {
+        "en": "The outcome of such debates will shape the industry's future.",
+        "ko": "이러한 논쟁의 결과는 산업의 미래를 형성할 것입니다."
+      },
+      {
+        "en": "This situation underscores the growing intersection of politics and digital finance.",
+        "ko": "이 상황은 정치와 디지털 금융의 교차점이 커지고 있음을 강조합니다."
+      },
+      {
+        "en": "It also shows how crypto is becoming a significant election issue.",
+        "ko": "이는 또한 암호화폐가 중요한 선거 쟁점이 되고 있음을 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "adviser": {
+        "meaning": "A person who gives advice, especially officially or professionally.",
+        "pos": "noun"
+      },
+      "defended": {
+        "meaning": "Protected someone or something from harm or danger, or spoke in favor of them.",
+        "pos": "verb"
+      },
+      "ties": {
+        "meaning": "Connections or relationships between people, organizations, or countries.",
+        "pos": "noun"
+      },
+      "accused": {
+        "meaning": "Blamed someone for an offense or crime, or for doing something wrong.",
+        "pos": "verb"
+      },
+      "connections": {
+        "meaning": "Relationships or links between people or things.",
+        "pos": "noun"
+      },
+      "weapon": {
+        "meaning": "An object or tool used to inflict damage or gain an advantage, often metaphorically.",
+        "pos": "noun"
+      },
+      "follows": {
+        "meaning": "Comes after something else in time or order.",
+        "pos": "verb"
+      },
+      "defeat": {
+        "meaning": "The act of losing a battle, contest, or struggle, or the state of being defeated.",
+        "pos": "noun"
+      },
+      "aimed": {
+        "meaning": "Intended or directed at a particular object, goal, or purpose.",
+        "pos": "verb"
+      },
+      "provide": {
+        "meaning": "To make available or supply something to someone.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "Relating to the supervision and control of a system or industry by rules.",
+        "pos": "adjective"
+      },
+      "frameworks": {
+        "meaning": "Basic structures underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "digital": {
+        "meaning": "Relating to or using computer technology, especially the internet.",
+        "pos": "adjective"
+      },
+      "failure": {
+        "meaning": "The omission of expected or required action; not succeeding.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to something, making it stand out.",
+        "pos": "verb"
+      },
+      "ongoing": {
+        "meaning": "Continuing to exist, happen, or develop over time.",
+        "pos": "adjective"
+      },
+      "legislative": {
+        "meaning": "Relating to the process of making laws, or the body that makes them.",
+        "pos": "adjective"
+      },
+      "challenges": {
+        "meaning": "Difficult tasks or problems that test one's ability or resources.",
+        "pos": "noun"
+      },
+      "engaging": {
+        "meaning": "Becoming involved in an activity or discussion.",
+        "pos": "verb"
+      },
+      "underscores": {
+        "meaning": "Emphasizes the importance of something, making it more noticeable.",
+        "pos": "verb"
+      },
+      "intersection": {
+        "meaning": "A point where two or more things meet or cross each other.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "Sufficiently great or important to be worthy of attention; noteworthy.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What was the primary goal of the Clarity Act, according to the passage?",
+      "Q2: Explain what the passage means by crypto becoming a 'political weapon' in the context of President Trump's ties.",
+      "Q3: How might the political weaponization of crypto influence public perception and future legislative efforts for digital assets?"
+    ],
+    "modelAnswers": [
+      "A1: The primary goal of the Clarity Act was to provide clear regulatory frameworks for digital assets.",
+      "A2: Crypto becoming a 'political weapon' means that President Trump's connections to the crypto industry are being used by political opponents to criticize or undermine him, turning it into a tool for political attack.",
+      "A3: The political weaponization of crypto could polarize public opinion, making it harder to find bipartisan consensus for regulation. It might also lead to a more cautious or negative public perception if crypto is primarily associated with political controversy rather than innovation."
+    ]
+  },
+  {
+    "id": "cd-2026-09-24-3",
+    "date": "2026-09-24",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "예측 시장 칼시가 CFTC 조사를 부인하며 유동성 인센티브를 해명하는 배경을 살펴보세요.",
+    "url": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity",
+    "title": "Kalshi Denies CFTC Probe Over Trading Patterns",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Prediction market Kalshi has denied being investigated by the CFTC. The denial comes after reports of unusual trading patterns. Specifically, these patterns were observed in its ether perpetual market. Kalshi attributes these anomalies to liquidity incentives. Liquidity incentives are designed to encourage more trading activity. The company states it is cooperating fully with regulators. This incident highlights the ongoing regulatory scrutiny of crypto platforms. Prediction markets often face complex legal and regulatory questions. Ensuring market integrity is a key concern for authorities. Transparency in trading operations remains crucial for user trust.",
+    "sentences": [
+      {
+        "en": "Prediction market Kalshi has denied being investigated by the CFTC.",
+        "ko": "예측 시장 칼시가 CFTC의 조사를 받고 있다는 사실을 부인했습니다."
+      },
+      {
+        "en": "The denial comes after reports of unusual trading patterns.",
+        "ko": "이 부인은 비정상적인 거래 패턴에 대한 보도 이후에 나왔습니다."
+      },
+      {
+        "en": "Specifically, these patterns were observed in its ether perpetual market.",
+        "ko": "구체적으로 이러한 패턴은 이더리움 무기한 선물 시장에서 관찰되었습니다."
+      },
+      {
+        "en": "Kalshi attributes these anomalies to liquidity incentives.",
+        "ko": "칼시는 이러한 이상 현상이 유동성 인센티브 때문이라고 설명합니다."
+      },
+      {
+        "en": "Liquidity incentives are designed to encourage more trading activity.",
+        "ko": "유동성 인센티브는 더 많은 거래 활동을 장려하기 위해 고안되었습니다."
+      },
+      {
+        "en": "The company states it is cooperating fully with regulators.",
+        "ko": "이 회사는 규제 당국에 전적으로 협력하고 있다고 밝혔습니다."
+      },
+      {
+        "en": "This incident highlights the ongoing regulatory scrutiny of crypto platforms.",
+        "ko": "이 사건은 암호화폐 플랫폼에 대한 지속적인 규제 조사를 강조합니다."
+      },
+      {
+        "en": "Prediction markets often face complex legal and regulatory questions.",
+        "ko": "예측 시장은 종종 복잡한 법적 및 규제적 문제에 직면합니다."
+      },
+      {
+        "en": "Ensuring market integrity is a key concern for authorities.",
+        "ko": "시장 무결성을 보장하는 것은 당국의 주요 관심사입니다."
+      },
+      {
+        "en": "Transparency in trading operations remains crucial for user trust.",
+        "ko": "거래 운영의 투명성은 사용자 신뢰에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "prediction": {
+        "meaning": "A statement about what will happen in the future, often based on current knowledge.",
+        "pos": "noun"
+      },
+      "denied": {
+        "meaning": "Stated that something is not true, or refused to admit responsibility.",
+        "pos": "verb"
+      },
+      "investigated": {
+        "meaning": "Carried out a systematic inquiry to discover and examine the facts of an incident.",
+        "pos": "verb"
+      },
+      "cftc": {
+        "meaning": "The Commodity Futures Trading Commission, a US government agency regulating derivatives markets.",
+        "pos": "noun"
+      },
+      "reports": {
+        "meaning": "Accounts of an event or situation, often made public.",
+        "pos": "noun"
+      },
+      "unusual": {
+        "meaning": "Not habitually or commonly occurring or done; out of the ordinary.",
+        "pos": "adjective"
+      },
+      "patterns": {
+        "meaning": "Regular and repeatable forms, sequences, or designs.",
+        "pos": "noun"
+      },
+      "observed": {
+        "meaning": "Noticed or perceived something and registered it as being significant.",
+        "pos": "verb"
+      },
+      "perpetual": {
+        "meaning": "Never ending or changing, continuing indefinitely without interruption.",
+        "pos": "adjective"
+      },
+      "attributes": {
+        "meaning": "Regards something as belonging to or caused by a particular person or thing.",
+        "pos": "verb"
+      },
+      "anomalies": {
+        "meaning": "Things that deviate from what is standard, normal, or expected.",
+        "pos": "noun"
+      },
+      "liquidity": {
+        "meaning": "The availability of liquid assets to a market or company, meaning cash or easily convertible assets.",
+        "pos": "noun"
+      },
+      "incentives": {
+        "meaning": "Things that motivate or encourage someone to do something.",
+        "pos": "noun"
+      },
+      "encourage": {
+        "meaning": "To give support, confidence, or hope to someone or something.",
+        "pos": "verb"
+      },
+      "cooperating": {
+        "meaning": "Working together or acting jointly with someone or for a common purpose.",
+        "pos": "verb"
+      },
+      "regulators": {
+        "meaning": "Government agencies or officials responsible for controlling a system or industry.",
+        "pos": "noun"
+      },
+      "incident": {
+        "meaning": "An event or occurrence, especially one of an unusual or unpleasant nature.",
+        "pos": "noun"
+      },
+      "scrutiny": {
+        "meaning": "Critical observation or examination, often by an official body.",
+        "pos": "noun"
+      },
+      "platforms": {
+        "meaning": "Digital systems or services that allow users to interact and conduct transactions.",
+        "pos": "noun"
+      },
+      "integrity": {
+        "meaning": "The quality of being honest and having strong moral principles, or the state of being whole and undivided.",
+        "pos": "noun"
+      },
+      "authorities": {
+        "meaning": "The power or right to give orders, make decisions, and enforce obedience.",
+        "pos": "noun"
+      },
+      "transparency": {
+        "meaning": "The condition of being open, honest, and clear, with no hidden actions or motives.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important or essential for the success or existence of something.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What specific market did Kalshi observe unusual trading patterns in?",
+      "Q2: What are 'liquidity incentives' and how do they relate to Kalshi's explanation for the unusual trading patterns?",
+      "Q3: Why is ensuring market integrity and transparency crucial for prediction markets, especially when facing regulatory scrutiny?"
+    ],
+    "modelAnswers": [
+      "A1: Kalshi observed unusual trading patterns specifically in its ether perpetual market.",
+      "A2: 'Liquidity incentives' are mechanisms designed to encourage more participants to trade on a platform, thereby increasing the ease with which assets can be bought or sold. Kalshi claims these incentives caused the unusual trading patterns, not any illicit activity.",
+      "A3: Market integrity and transparency are crucial because they build user trust and prevent manipulation. For prediction markets, where outcomes can have real-world implications, maintaining public confidence and demonstrating fair operations are essential to satisfy regulators and ensure long-term viability."
+    ]
+  },
+  {
+    "id": "ec-2026-09-24-1",
+    "date": "2026-09-24",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "세계 주요 경제국들의 부채 증가와 차입 비용 급증에 대한 경고를 통해 글로벌 경제 위험을 이해해 보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/23/oecd-global-economy-resilient-iran-war",
+    "title": "Global Bodies Warn of Rising Debt Risks",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Three leading international organizations have issued serious warnings. They highlight the growing risks of rising debt levels globally. Major economies face soaring borrowing costs, which is a significant concern. The OECD, IMF, and IIF all expressed their shared anxieties. They noted particular challenges for countries like the US, France, and Japan. High debt can limit government spending on vital public services. It also makes economies more vulnerable to future economic shocks. These warnings urge policymakers to adopt more sustainable fiscal policies. Such measures are crucial for maintaining long-term economic stability. The global economy remains resilient but faces considerable headwinds.",
+    "sentences": [
+      {
+        "en": "Three leading international organizations have issued serious warnings.",
+        "ko": "세계 유수의 세 국제 기구가 심각한 경고를 발표했습니다."
+      },
+      {
+        "en": "They highlight the growing risks of rising debt levels globally.",
+        "ko": "이들은 전 세계적으로 증가하는 부채 수준의 위험성을 강조합니다."
+      },
+      {
+        "en": "Major economies face soaring borrowing costs, which is a significant concern.",
+        "ko": "주요 경제국들은 치솟는 차입 비용에 직면해 있으며, 이는 중대한 우려 사항입니다."
+      },
+      {
+        "en": "The OECD, IMF, and IIF all expressed their shared anxieties.",
+        "ko": "OECD, IMF, 그리고 IIF 모두 공통된 우려를 표명했습니다."
+      },
+      {
+        "en": "They noted particular challenges for countries like the US, France, and Japan.",
+        "ko": "이들은 미국, 프랑스, 일본과 같은 국가들이 겪는 특별한 어려움을 언급했습니다."
+      },
+      {
+        "en": "High debt can limit government spending on vital public services.",
+        "ko": "높은 부채는 필수 공공 서비스에 대한 정부 지출을 제한할 수 있습니다."
+      },
+      {
+        "en": "It also makes economies more vulnerable to future economic shocks.",
+        "ko": "또한 경제를 미래의 경제적 충격에 더욱 취약하게 만듭니다."
+      },
+      {
+        "en": "These warnings urge policymakers to adopt more sustainable fiscal policies.",
+        "ko": "이러한 경고는 정책 입안자들이 더 지속 가능한 재정 정책을 채택하도록 촉구합니다."
+      },
+      {
+        "en": "Such measures are crucial for maintaining long-term economic stability.",
+        "ko": "그러한 조치들은 장기적인 경제 안정을 유지하는 데 중요합니다."
+      },
+      {
+        "en": "The global economy remains resilient but faces considerable headwinds.",
+        "ko": "세계 경제는 회복력을 유지하고 있지만 상당한 역풍에 직면해 있습니다."
+      }
+    ],
+    "glossary": {
+      "organizations": {
+        "meaning": "official groups formed for a particular purpose or activity.",
+        "pos": "noun"
+      },
+      "issued": {
+        "meaning": "formally made something known or given something out.",
+        "pos": "verb"
+      },
+      "serious": {
+        "meaning": "important and needing careful thought or attention.",
+        "pos": "adjective"
+      },
+      "highlight": {
+        "meaning": "to draw attention to something important or significant.",
+        "pos": "verb"
+      },
+      "debt": {
+        "meaning": "an amount of money that is owed to someone or something.",
+        "pos": "noun"
+      },
+      "soaring": {
+        "meaning": "rising very quickly to a high level, often unexpectedly.",
+        "pos": "adjective"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money with the intention of returning it, often with interest.",
+        "pos": "noun"
+      },
+      "concern": {
+        "meaning": "a feeling of worry or anxiety about something important.",
+        "pos": "noun"
+      },
+      "expressed": {
+        "meaning": "showed a feeling or opinion clearly, often with words.",
+        "pos": "verb"
+      },
+      "anxieties": {
+        "meaning": "feelings of worry or nervousness about something uncertain.",
+        "pos": "noun"
+      },
+      "noted": {
+        "meaning": "paid attention to or mentioned something important.",
+        "pos": "verb"
+      },
+      "challenges": {
+        "meaning": "difficult situations that test your abilities or resources.",
+        "pos": "noun"
+      },
+      "limit": {
+        "meaning": "to restrict the size, amount, or extent of something.",
+        "pos": "verb"
+      },
+      "vital": {
+        "meaning": "extremely important or necessary for success or survival.",
+        "pos": "adjective"
+      },
+      "vulnerable": {
+        "meaning": "easily hurt, attacked, or affected by something bad.",
+        "pos": "adjective"
+      },
+      "shocks": {
+        "meaning": "sudden, unexpected, and often unpleasant events that disturb a system.",
+        "pos": "noun"
+      },
+      "urge": {
+        "meaning": "to strongly advise or encourage someone to do something.",
+        "pos": "verb"
+      },
+      "policymakers": {
+        "meaning": "people responsible for making official policies, especially in government.",
+        "pos": "noun"
+      },
+      "adopt": {
+        "meaning": "to start to use a particular method, approach, or attitude.",
+        "pos": "verb"
+      },
+      "sustainable": {
+        "meaning": "able to be maintained at a certain rate or level over time.",
+        "pos": "adjective"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes, and public spending.",
+        "pos": "adjective"
+      },
+      "stability": {
+        "meaning": "the state of being steady, balanced, and not changing much.",
+        "pos": "noun"
+      },
+      "resilient": {
+        "meaning": "able to recover quickly from difficult conditions or shocks.",
+        "pos": "adjective"
+      },
+      "headwinds": {
+        "meaning": "difficulties or problems that prevent progress or success.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What three international organizations are mentioned as warning about rising debt levels?",
+      "Explain in your own words what \"soaring borrowing costs\" means and why it is a significant concern for major economies.",
+      "Do you think governments should prioritize reducing national debt even if it means cutting essential public services? Why or why not?"
+    ],
+    "modelAnswers": [
+      "The three international organizations mentioned are the OECD, IMF, and IIF.",
+      "\"Soaring borrowing costs\" refers to the situation where governments have to pay much higher interest rates when they borrow money. This is a significant concern because it means more of their budget must go towards debt repayment, leaving less for public services and investments, and making the economy more fragile.",
+      "Prioritizing debt reduction is important for long-term economic health. However, cutting essential public services could harm citizens and hinder growth. A balanced approach, focusing on smart spending, revenue generation, and gradual debt reduction, might be more effective."
+    ]
+  },
+  {
+    "id": "ec-2026-09-24-2",
+    "date": "2026-09-24",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "국채 수익률 상승이 경제에 미치는 영향을 이해하고, 금리 인상이 기업과 소비자에 미치는 파급 효과를 알아보세요.",
+    "url": "https://www.cnbc.com/2026/09/23/what-happens-to-the-economy-when-treasury-yields-soar.html",
+    "title": "Soaring Treasury Yields Impact Economy",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Treasury yields have recently experienced a significant surge. This rapid increase signals higher borrowing costs for everyone. When yields rise, it becomes more expensive for the government to borrow. These higher rates then ripple through the entire economy. Businesses face increased costs for loans and financing expansion. Consumers also see higher interest rates on mortgages and credit cards. This can slow down economic growth and reduce consumer spending. Higher yields also make bonds more attractive compared to stocks. Investors might shift their money, potentially affecting stock market performance. Ultimately, the Federal Reserve's actions often influence these yield movements. Understanding these dynamics is crucial for economic forecasting.",
+    "sentences": [
+      {
+        "en": "Treasury yields have recently experienced a significant surge.",
+        "ko": "국채 수익률이 최근 크게 급등했습니다."
+      },
+      {
+        "en": "This rapid increase signals higher borrowing costs for everyone.",
+        "ko": "이러한 급격한 증가는 모든 사람에게 더 높은 차입 비용을 예고합니다."
+      },
+      {
+        "en": "When yields rise, it becomes more expensive for the government to borrow.",
+        "ko": "수익률이 오르면 정부의 차입 비용이 더 비싸집니다."
+      },
+      {
+        "en": "These higher rates then ripple through the entire economy.",
+        "ko": "이 높은 금리는 그 후 전체 경제에 파급 효과를 미칩니다."
+      },
+      {
+        "en": "Businesses face increased costs for loans and financing expansion.",
+        "ko": "기업은 대출 및 확장 자금 조달에 대한 비용 증가에 직면합니다."
+      },
+      {
+        "en": "Consumers also see higher interest rates on mortgages and credit cards.",
+        "ko": "소비자 또한 주택담보대출과 신용카드에 대한 이자율 상승을 경험합니다."
+      },
+      {
+        "en": "This can slow down economic growth and reduce consumer spending.",
+        "ko": "이는 경제 성장을 둔화시키고 소비자 지출을 감소시킬 수 있습니다."
+      },
+      {
+        "en": "Higher yields also make bonds more attractive compared to stocks.",
+        "ko": "높은 수익률은 또한 주식에 비해 채권을 더 매력적으로 만듭니다."
+      },
+      {
+        "en": "Investors might shift their money, potentially affecting stock market performance.",
+        "ko": "투자자들은 자금을 이동시킬 수 있으며, 이는 잠재적으로 주식 시장 성과에 영향을 미칩니다."
+      },
+      {
+        "en": "Ultimately, the Federal Reserve's actions often influence these yield movements.",
+        "ko": "궁극적으로 연방준비제도의 조치는 이러한 수익률 변동에 자주 영향을 미칩니다."
+      },
+      {
+        "en": "Understanding these dynamics is crucial for economic forecasting.",
+        "ko": "이러한 역학 관계를 이해하는 것은 경제 예측에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "treasury": {
+        "meaning": "a government department that manages public money and issues bonds.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the income returned on an investment, typically expressed as a percentage.",
+        "pos": "noun"
+      },
+      "experienced": {
+        "meaning": "had a particular feeling, event, or situation happen to you.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noticeable in amount or effect.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "a sudden, strong, and often temporary increase.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or shows that something is happening or likely to happen.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money with the intention of returning it, often with interest.",
+        "pos": "noun"
+      },
+      "ripple": {
+        "meaning": "to spread through a person, thing, or system like a wave.",
+        "pos": "verb"
+      },
+      "entire": {
+        "meaning": "whole or complete, without any parts missing.",
+        "pos": "adjective"
+      },
+      "expansion": {
+        "meaning": "the act of increasing in size, amount, or scope.",
+        "pos": "noun"
+      },
+      "consumers": {
+        "meaning": "people who buy goods and services for their own use.",
+        "pos": "noun"
+      },
+      "mortgages": {
+        "meaning": "legal agreements where a bank lends money to buy a house or property.",
+        "pos": "noun"
+      },
+      "credit": {
+        "meaning": "an agreement allowing you to buy things and pay for them later.",
+        "pos": "noun"
+      },
+      "slow": {
+        "meaning": "to reduce the speed or rate of something.",
+        "pos": "verb"
+      },
+      "reduce": {
+        "meaning": "to make something smaller in amount, size, or degree.",
+        "pos": "verb"
+      },
+      "attractive": {
+        "meaning": "pleasing or appealing, making something desirable.",
+        "pos": "adjective"
+      },
+      "compared": {
+        "meaning": "in relation to something else, noting similarities or differences.",
+        "pos": "preposition"
+      },
+      "shift": {
+        "meaning": "to move or change from one position, direction, or state to another.",
+        "pos": "verb"
+      },
+      "potentially": {
+        "meaning": "possibly; capable of happening or being done.",
+        "pos": "adverb"
+      },
+      "affecting": {
+        "meaning": "having an influence on something; causing a change.",
+        "pos": "verb"
+      },
+      "performance": {
+        "meaning": "how well a person, machine, or organization does a task.",
+        "pos": "noun"
+      },
+      "ultimately": {
+        "meaning": "in the end; finally, after all other events or considerations.",
+        "pos": "adverb"
+      },
+      "influence": {
+        "meaning": "to affect or change someone or something in an indirect but powerful way.",
+        "pos": "verb"
+      },
+      "dynamics": {
+        "meaning": "the forces or properties that stimulate growth, change, or activity within a system.",
+        "pos": "noun"
+      },
+      "forecasting": {
+        "meaning": "the process of predicting future events or conditions, often based on data.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to the passage, what is one direct effect of rising Treasury yields on the government?",
+      "How do increased borrowing costs for businesses and consumers typically affect economic growth and spending?",
+      "Imagine you are a fintech PM. How might soaring Treasury yields influence your company's strategy regarding lending products or investment platforms?"
+    ],
+    "modelAnswers": [
+      "One direct effect is that it becomes more expensive for the government to borrow money.",
+      "Increased borrowing costs typically slow down economic growth and reduce consumer spending because both businesses and individuals have less disposable income or capital for investments and purchases.",
+      "As a fintech PM, soaring Treasury yields would prompt a review of lending product interest rates to remain competitive and profitable. For investment platforms, it might mean highlighting bond-related products or adjusting risk models, as bonds become more attractive compared to stocks."
+    ]
+  },
+  {
+    "id": "ec-2026-09-24-3",
+    "date": "2026-09-24",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "핀테크 분야에서 아프리카 결제 기업의 런던 상장 소식을 통해 글로벌 금융 시장의 새로운 기회를 탐색해 보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+    "title": "Fintech Payments Firm Eyes London IPO",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "An Indian billionaire's payments company is planning a major London flotation. This firm operates across various African countries. It aims for a significant $9 billion initial public offering (IPO). This move could provide a much-needed boost for the UK stock market. London has recently seen fewer large company listings. A successful IPO would attract more international businesses to list there. The payments sector, especially in emerging markets, shows strong growth. This flotation highlights London's continued appeal as a global financial hub. For fintech professionals, it signifies new investment opportunities. It also demonstrates the expanding reach of digital payment solutions.",
+    "sentences": [
+      {
+        "en": "An Indian billionaire's payments company is planning a major London flotation.",
+        "ko": "한 인도 억만장자의 결제 기업이 런던에서 대규모 상장을 계획하고 있습니다."
+      },
+      {
+        "en": "This firm operates across various African countries.",
+        "ko": "이 회사는 아프리카 여러 국가에서 사업을 운영하고 있습니다."
+      },
+      {
+        "en": "It aims for a significant $9 billion initial public offering (IPO).",
+        "ko": "이 회사는 90억 달러 규모의 중요한 기업 공개(IPO)를 목표로 합니다."
+      },
+      {
+        "en": "This move could provide a much-needed boost for the UK stock market.",
+        "ko": "이러한 움직임은 영국 주식 시장에 절실히 필요한 활력을 불어넣을 수 있습니다."
+      },
+      {
+        "en": "London has recently seen fewer large company listings.",
+        "ko": "런던은 최근 대기업 상장이 줄어들었습니다."
+      },
+      {
+        "en": "A successful IPO would attract more international businesses to list there.",
+        "ko": "성공적인 IPO는 더 많은 국제 기업을 그곳에 상장하도록 유인할 것입니다."
+      },
+      {
+        "en": "The payments sector, especially in emerging markets, shows strong growth.",
+        "ko": "특히 신흥 시장의 결제 부문은 강력한 성장을 보입니다."
+      },
+      {
+        "en": "This flotation highlights London's continued appeal as a global financial hub.",
+        "ko": "이 상장은 글로벌 금융 허브로서 런던의 지속적인 매력을 강조합니다."
+      },
+      {
+        "en": "For fintech professionals, it signifies new investment opportunities.",
+        "ko": "핀테크 전문가들에게는 새로운 투자 기회를 의미합니다."
+      },
+      {
+        "en": "It also demonstrates the expanding reach of digital payment solutions.",
+        "ko": "또한 디지털 결제 솔루션의 확장되는 도달 범위를 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "billionaire": {
+        "meaning": "a person who has assets worth at least one billion dollars, euros, or pounds.",
+        "pos": "noun"
+      },
+      "payments": {
+        "meaning": "amounts of money paid for goods, services, or to settle a debt.",
+        "pos": "noun"
+      },
+      "planning": {
+        "meaning": "deciding on and arranging in advance how something will be done.",
+        "pos": "verb"
+      },
+      "major": {
+        "meaning": "very large or important, often having significant impact.",
+        "pos": "adjective"
+      },
+      "flotation": {
+        "meaning": "the process of offering a company's shares for sale to the public for the first time.",
+        "pos": "noun"
+      },
+      "operates": {
+        "meaning": "controls the way a business or system works; functions.",
+        "pos": "verb"
+      },
+      "various": {
+        "meaning": "different from one another; of different kinds.",
+        "pos": "adjective"
+      },
+      "aims": {
+        "meaning": "intends to achieve something; has a goal.",
+        "pos": "verb"
+      },
+      "initial": {
+        "meaning": "existing or occurring at the beginning; first.",
+        "pos": "adjective"
+      },
+      "offering": {
+        "meaning": "something that is presented or proposed for acceptance or rejection.",
+        "pos": "noun"
+      },
+      "provide": {
+        "meaning": "to make available for use; supply.",
+        "pos": "verb"
+      },
+      "boost": {
+        "meaning": "an act that helps to improve or increase something.",
+        "pos": "noun"
+      },
+      "stock": {
+        "meaning": "the capital raised by a business or corporation through the issue and subscription of shares.",
+        "pos": "noun"
+      },
+      "listings": {
+        "meaning": "the process of having a company's shares officially traded on a stock exchange.",
+        "pos": "noun"
+      },
+      "successful": {
+        "meaning": "achieving the desired aims or results; prosperous.",
+        "pos": "adjective"
+      },
+      "attract": {
+        "meaning": "to draw by appealing to interests, desires, or qualities.",
+        "pos": "verb"
+      },
+      "international": {
+        "meaning": "involving two or more countries; global.",
+        "pos": "adjective"
+      },
+      "sector": {
+        "meaning": "a distinct part of a larger system, economy, or society.",
+        "pos": "noun"
+      },
+      "emerging": {
+        "meaning": "starting to exist or develop; becoming prominent.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "emphasizes or makes prominent; draws attention to.",
+        "pos": "verb"
+      },
+      "continued": {
+        "meaning": "without interruption or cessation; ongoing.",
+        "pos": "adjective"
+      },
+      "appeal": {
+        "meaning": "the quality of being attractive or interesting to someone.",
+        "pos": "noun"
+      },
+      "hub": {
+        "meaning": "the effective center of an activity, region, or network.",
+        "pos": "noun"
+      },
+      "signifies": {
+        "meaning": "is an indication of; means or implies.",
+        "pos": "verb"
+      },
+      "demonstrates": {
+        "meaning": "clearly shows the existence or truth of something by giving proof or evidence.",
+        "pos": "verb"
+      },
+      "expanding": {
+        "meaning": "increasing in size, amount, or importance; growing.",
+        "pos": "adjective"
+      },
+      "solutions": {
+        "meaning": "means of solving a problem or dealing with a difficult situation.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the approximate value of the initial public offering (IPO) planned by the Indian billionaire's payments company?",
+      "Explain why a successful IPO of this firm could be beneficial for the UK stock market, given its recent trend.",
+      "As a fintech professional, what key insights or opportunities do you see arising from a major payments firm from an emerging market listing on a global exchange like London?"
+    ],
+    "modelAnswers": [
+      "The company aims for a $9 billion initial public offering (IPO).",
+      "The UK stock market has recently seen fewer large company listings. A successful IPO of this magnitude could provide a much-needed boost, attracting more international businesses and investment to list there.",
+      "This signals the growing maturity and global reach of fintech in emerging markets, creating new investment opportunities in digital payments. It also suggests that traditional financial hubs remain attractive for significant capital raises, despite localized market trends."
+    ]
+  },
+  {
     "id": "cd-2026-09-23-1",
     "date": "2026-09-23",
     "rank": 1,
