@@ -1,5 +1,993 @@
 [
   {
+    "id": "cd-2026-09-26-1",
+    "date": "2026-09-26",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "스테이블코인 발행사들이 해킹된 자금을 동결하며 암호화폐 보안에 대한 중요한 논의를 촉발합니다.",
+    "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+    "title": "Stablecoin Issuers Freeze Funds After Bitget Heist",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "A significant crypto heist recently targeted the Bitget exchange. Hackers successfully stole a large amount of digital assets. This incident highlights ongoing security challenges prevalent in the crypto space. Stablecoin issuers, Circle and Tether, quickly intervened after the breach. They successfully froze a hacker's wallet holding some stolen USDC and USDT funds. This decisive move demonstrates a unique power held by centralized stablecoins. It also raises important questions about censorship resistance within the crypto ecosystem. However, most of the stolen funds were in Ether, which inherently cannot be frozen. This specific situation clearly shows the limitations of such centralized interventions. It also emphasizes the distinct nature and control mechanisms of different crypto assets. This event reinforces the need for robust security measures across all platforms. It also prompts deeper discussions on balancing security with decentralization principles.",
+    "sentences": [
+      {
+        "en": "A significant crypto heist recently targeted the Bitget exchange.",
+        "ko": "최근 비트겟 거래소를 대상으로 한 대규모 암호화폐 해킹 사건이 발생했습니다."
+      },
+      {
+        "en": "Hackers successfully stole a large amount of digital assets.",
+        "ko": "해커들은 많은 양의 디지털 자산을 성공적으로 훔쳤습니다."
+      },
+      {
+        "en": "This incident highlights ongoing security challenges prevalent in the crypto space.",
+        "ko": "이 사건은 암호화폐 분야에 만연한 지속적인 보안 문제를 부각합니다."
+      },
+      {
+        "en": "Stablecoin issuers, Circle and Tether, quickly intervened after the breach.",
+        "ko": "스테이블코인 발행사인 Circle과 Tether는 침해 후 신속하게 개입했습니다."
+      },
+      {
+        "en": "They successfully froze a hacker's wallet holding some stolen USDC and USDT funds.",
+        "ko": "그들은 해커의 지갑에 있던 도난당한 USDC 및 USDT 자금 일부를 성공적으로 동결했습니다."
+      },
+      {
+        "en": "This decisive move demonstrates a unique power held by centralized stablecoins.",
+        "ko": "이 결정적인 조치는 중앙화된 스테이블코인이 가진 독특한 힘을 보여줍니다."
+      },
+      {
+        "en": "It also raises important questions about censorship resistance within the crypto ecosystem.",
+        "ko": "이는 또한 암호화폐 생태계 내 검열 저항성에 대한 중요한 질문을 제기합니다."
+      },
+      {
+        "en": "However, most of the stolen funds were in Ether, which inherently cannot be frozen.",
+        "ko": "하지만 도난당한 자금의 대부분은 본질적으로 동결할 수 없는 이더리움이었습니다."
+      },
+      {
+        "en": "This specific situation clearly shows the limitations of such centralized interventions.",
+        "ko": "이러한 특정 상황은 그러한 중앙화된 개입의 한계를 명확히 보여줍니다."
+      },
+      {
+        "en": "It also emphasizes the distinct nature and control mechanisms of different crypto assets.",
+        "ko": "이는 또한 다양한 암호화폐 자산의 독특한 특성과 통제 메커니즘을 강조합니다."
+      },
+      {
+        "en": "This event reinforces the need for robust security measures across all platforms.",
+        "ko": "이 사건은 모든 플랫폼에서 강력한 보안 조치의 필요성을 강화합니다."
+      },
+      {
+        "en": "It also prompts deeper discussions on balancing security with decentralization principles.",
+        "ko": "또한 보안과 탈중앙화 원칙의 균형에 대한 심층적인 논의를 촉발합니다."
+      }
+    ],
+    "glossary": {
+      "heist": {
+        "meaning": "a planned theft of a large amount of money or valuable items.",
+        "pos": "noun"
+      },
+      "targeted": {
+        "meaning": "directed an action or attack towards a specific person or thing.",
+        "pos": "verb"
+      },
+      "exchange": {
+        "meaning": "a platform where users can buy, sell, or trade cryptocurrencies.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws attention to an important part or feature.",
+        "pos": "verb"
+      },
+      "prevalent": {
+        "meaning": "widespread in a particular area or at a particular time.",
+        "pos": "adjective"
+      },
+      "intervened": {
+        "meaning": "became involved in a situation to alter an outcome.",
+        "pos": "verb"
+      },
+      "breach": {
+        "meaning": "a violation of an agreement or a break in security.",
+        "pos": "noun"
+      },
+      "froze": {
+        "meaning": "stopped the movement or use of funds or assets, often legally.",
+        "pos": "verb"
+      },
+      "demonstrates": {
+        "meaning": "clearly shows the existence or truth of something.",
+        "pos": "verb"
+      },
+      "unique": {
+        "meaning": "being the only one of its kind; unusual or special.",
+        "pos": "adjective"
+      },
+      "centralized": {
+        "meaning": "controlled by a single authority or organization.",
+        "pos": "adjective"
+      },
+      "raises": {
+        "meaning": "brings up for discussion or consideration.",
+        "pos": "verb"
+      },
+      "censorship": {
+        "meaning": "the suppression or prohibition of certain information.",
+        "pos": "noun"
+      },
+      "resistance": {
+        "meaning": "the ability not to be affected by something.",
+        "pos": "noun"
+      },
+      "ecosystem": {
+        "meaning": "a complex network or interconnected system.",
+        "pos": "noun"
+      },
+      "limitations": {
+        "meaning": "restrictions or boundaries on what can be done.",
+        "pos": "noun"
+      },
+      "interventions": {
+        "meaning": "actions taken to improve or help a situation.",
+        "pos": "noun"
+      },
+      "distinct": {
+        "meaning": "clearly different or separate in nature.",
+        "pos": "adjective"
+      },
+      "reinforces": {
+        "meaning": "strengthens or supports something.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "decentralization": {
+        "meaning": "the process of distributing power away from a central authority.",
+        "pos": "noun"
+      },
+      "principles": {
+        "meaning": "fundamental truths or beliefs that serve as a foundation.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What action did Circle and Tether take after the Bitget crypto heist, and what assets were they able to affect?",
+      "Explain why the ability of stablecoin issuers to freeze funds, as demonstrated in this incident, is a significant point of discussion in the crypto community.",
+      "Do you think stablecoin issuers should have the power to freeze funds, even in cases of theft? Discuss the potential benefits and drawbacks of such centralized control."
+    ],
+    "modelAnswers": [
+      "Circle and Tether froze a hacker's wallet that contained some of the stolen USDT and USDC stablecoins. They were unable to freeze the majority of the stolen funds, which were held in Ether.",
+      "This ability is significant because it highlights the centralized nature of some stablecoins, contrasting with the decentralized ethos of many cryptocurrencies. It raises questions about censorship resistance and the control stablecoin issuers have over user funds.",
+      "Granting stablecoin issuers the power to freeze funds offers benefits like recovering stolen assets and deterring hacks, which can protect users. However, drawbacks include concerns about censorship, potential misuse of power, and compromising the decentralized principles often valued in crypto."
+    ]
+  },
+  {
+    "id": "cd-2026-09-26-2",
+    "date": "2026-09-26",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "\"크립토 맘\"으로 알려진 헤스터 피어스 SEC 위원의 퇴임 소식이 암호화폐 규제 환경에 미칠 영향을 알아보세요.",
+    "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
+    "title": "\"Crypto Mom\" Hester Peirce to Leave SEC",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Hester Peirce, a U.S. SEC Commissioner, is set to depart next week. She is widely known as \"Crypto Mom\" for her supportive stance. Peirce has been a consistent advocate for clearer crypto regulations. Her departure marks the end of a significant era. Her exit comes at a critical time for the crypto industry. The SEC has recently increased its enforcement actions. Peirce often dissented from the agency's more restrictive approaches. Her absence could lead to even stricter regulatory decisions. This departure might reshape the future of crypto policy in the U.S. It underscores the ongoing tension between innovation and regulation. The industry will closely watch who replaces her. This change will likely influence how crypto is treated legally.",
+    "sentences": [
+      {
+        "en": "Hester Peirce, a U.S. SEC Commissioner, is set to depart next week.",
+        "ko": "미국 증권거래위원회(SEC) 위원인 헤스터 피어스가 다음 주에 퇴임할 예정입니다."
+      },
+      {
+        "en": "She is widely known as \"Crypto Mom\" for her supportive stance.",
+        "ko": "그녀는 암호화폐에 대한 지지적인 입장으로 \"크립토 맘\"으로 널리 알려져 있습니다."
+      },
+      {
+        "en": "Peirce has been a consistent advocate for clearer crypto regulations.",
+        "ko": "피어스는 보다 명확한 암호화폐 규제를 일관되게 옹호해 왔습니다."
+      },
+      {
+        "en": "Her departure marks the end of a significant era.",
+        "ko": "그녀의 퇴임은 중요한 시대의 끝을 알립니다."
+      },
+      {
+        "en": "Her exit comes at a critical time for the crypto industry.",
+        "ko": "그녀의 퇴임은 암호화폐 산업에 매우 중요한 시기에 이루어집니다."
+      },
+      {
+        "en": "The SEC has recently increased its enforcement actions.",
+        "ko": "SEC는 최근 규제 집행 조치를 강화했습니다."
+      },
+      {
+        "en": "Peirce often dissented from the agency's more restrictive approaches.",
+        "ko": "피어스는 종종 SEC의 더 제한적인 접근 방식에 반대 의견을 냈습니다."
+      },
+      {
+        "en": "Her absence could lead to even stricter regulatory decisions.",
+        "ko": "그녀의 부재는 훨씬 더 엄격한 규제 결정으로 이어질 수 있습니다."
+      },
+      {
+        "en": "This departure might reshape the future of crypto policy in the U.S.",
+        "ko": "이러한 퇴임은 미국 암호화폐 정책의 미래를 재편할 수도 있습니다."
+      },
+      {
+        "en": "It underscores the ongoing tension between innovation and regulation.",
+        "ko": "이는 혁신과 규제 사이의 지속적인 긴장감을 강조합니다."
+      },
+      {
+        "en": "The industry will closely watch who replaces her.",
+        "ko": "업계는 누가 그녀의 후임이 될지 면밀히 주시할 것입니다."
+      },
+      {
+        "en": "This change will likely influence how crypto is treated legally.",
+        "ko": "이러한 변화는 암호화폐가 법적으로 어떻게 다루어질지에 영향을 미칠 것입니다."
+      }
+    ],
+    "glossary": {
+      "commissioner": {
+        "meaning": "a member of a commission, a group with official authority.",
+        "pos": "noun"
+      },
+      "depart": {
+        "meaning": "to leave, especially to begin a new stage.",
+        "pos": "verb"
+      },
+      "widely": {
+        "meaning": "by a large number of people or in many places.",
+        "pos": "adverb"
+      },
+      "supportive": {
+        "meaning": "providing encouragement or approval.",
+        "pos": "adjective"
+      },
+      "stance": {
+        "meaning": "a person's attitude or opinion on a matter.",
+        "pos": "noun"
+      },
+      "consistent": {
+        "meaning": "acting or done in the same way over time.",
+        "pos": "adjective"
+      },
+      "advocate": {
+        "meaning": "a person who publicly supports a particular cause.",
+        "pos": "noun"
+      },
+      "clearer": {
+        "meaning": "easier to understand or see; less confusing.",
+        "pos": "adjective"
+      },
+      "regulations": {
+        "meaning": "rules or laws made by an authority.",
+        "pos": "noun"
+      },
+      "marks": {
+        "meaning": "indicates or signifies a particular event or stage.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or noteworthy.",
+        "pos": "adjective"
+      },
+      "era": {
+        "meaning": "a long and distinct period of history.",
+        "pos": "noun"
+      },
+      "critical": {
+        "meaning": "extremely important or crucial.",
+        "pos": "adjective"
+      },
+      "industry": {
+        "meaning": "the group of businesses that provide a product.",
+        "pos": "noun"
+      },
+      "enforcement": {
+        "meaning": "the act of compelling observance of a law.",
+        "pos": "noun"
+      },
+      "dissented": {
+        "meaning": "expressed opinions different from official ones.",
+        "pos": "verb"
+      },
+      "restrictive": {
+        "meaning": "limiting or controlling someone or something.",
+        "pos": "adjective"
+      },
+      "stricter": {
+        "meaning": "more severe or rigorous.",
+        "pos": "adjective"
+      },
+      "reshape": {
+        "meaning": "to form into a different shape or change its nature.",
+        "pos": "verb"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "tension": {
+        "meaning": "a state of mental strain or strained relationship.",
+        "pos": "noun"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas or methods.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "to have an effect on character or behavior.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Who is Hester Peirce, and what is she known for in the crypto community?",
+      "How might Commissioner Peirce's departure impact the future of crypto regulation in the U.S., considering the current regulatory environment?",
+      "If you were advising the SEC, what qualities or perspectives would you prioritize in selecting a replacement for Hester Peirce to best serve both innovation and investor protection in the crypto space?"
+    ],
+    "modelAnswers": [
+      "Hester Peirce is a U.S. SEC Commissioner widely known as \"Crypto Mom.\" She is recognized for her consistent support for clearer crypto regulations and often dissented from the SEC's more restrictive actions.",
+      "Her departure could lead to a stricter regulatory environment in the U.S. since she often advocated for more lenient approaches. With her absence, the SEC might pursue even more aggressive enforcement actions without her dissenting voice.",
+      "I would prioritize someone with a deep understanding of blockchain technology and its potential benefits, not just its risks. They should also possess a balanced perspective, open to dialogue with the industry, to foster innovation while ensuring robust investor protection."
+    ]
+  },
+  {
+    "id": "cd-2026-09-26-3",
+    "date": "2026-09-26",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "테더가 미국 자산 압류 사건에서 EQIBank 노출이 제한적임을 확인하며 스테이블코인 생태계의 숨겨진 리스크를 조명합니다.",
+    "url": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
+    "title": "Tether's Minimal Exposure to EQIBank Seizure",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "U.S. authorities recently seized $89 million in assets from EQIBank. This action raised concerns about potential impacts on crypto firms. Tether, a major stablecoin issuer, quickly clarified its position. Tether confirmed its exposure to EQIBank was minimal. The company stated its maximum exposure was under $64 million. This incident, however, highlights lingering counterparty risks. Such risks exist within fiat gateway networks. Stablecoins heavily rely on these traditional banking systems. The seizure underscores the importance of transparent reserves. It also emphasizes the need for robust risk management. This event reminds us that stablecoins are not entirely immune. They can still be affected by traditional financial system issues. This situation prompts deeper consideration of stablecoin resilience.",
+    "sentences": [
+      {
+        "en": "U.S. authorities recently seized $89 million in assets from EQIBank.",
+        "ko": "미국 당국이 최근 EQIBank에서 8,900만 달러 상당의 자산을 압류했습니다."
+      },
+      {
+        "en": "This action raised concerns about potential impacts on crypto firms.",
+        "ko": "이 조치는 암호화폐 기업에 미칠 잠재적 영향에 대한 우려를 제기했습니다."
+      },
+      {
+        "en": "Tether, a major stablecoin issuer, quickly clarified its position.",
+        "ko": "주요 스테이블코인 발행사인 테더는 신속하게 입장을 밝혔습니다."
+      },
+      {
+        "en": "Tether confirmed its exposure to EQIBank was minimal.",
+        "ko": "테더는 EQIBank에 대한 노출이 미미하다고 확인했습니다."
+      },
+      {
+        "en": "The company stated its maximum exposure was under $64 million.",
+        "ko": "회사는 최대 노출액이 6,400만 달러 미만이라고 밝혔습니다."
+      },
+      {
+        "en": "This incident, however, highlights lingering counterparty risks.",
+        "ko": "하지만 이 사건은 여전히 남아있는 거래 상대방 위험을 부각합니다."
+      },
+      {
+        "en": "Such risks exist within fiat gateway networks.",
+        "ko": "그러한 위험은 법정화폐 게이트웨이 네트워크 내에 존재합니다."
+      },
+      {
+        "en": "Stablecoins heavily rely on these traditional banking systems.",
+        "ko": "스테이블코인은 이러한 전통적인 은행 시스템에 크게 의존합니다."
+      },
+      {
+        "en": "The seizure underscores the importance of transparent reserves.",
+        "ko": "이번 압류는 투명한 준비금의 중요성을 강조합니다."
+      },
+      {
+        "en": "It also emphasizes the need for robust risk management.",
+        "ko": "또한 강력한 위험 관리의 필요성을 강조합니다."
+      },
+      {
+        "en": "This event reminds us that stablecoins are not entirely immune.",
+        "ko": "이 사건은 스테이블코인이 완전히 면역되지 않음을 상기시킵니다."
+      },
+      {
+        "en": "They can still be affected by traditional financial system issues.",
+        "ko": "그들은 여전히 전통적인 금융 시스템 문제의 영향을 받을 수 있습니다."
+      },
+      {
+        "en": "This situation prompts deeper consideration of stablecoin resilience.",
+        "ko": "이 상황은 스테이블코인 회복력에 대한 심층적인 고려를 촉발합니다."
+      }
+    ],
+    "glossary": {
+      "authorities": {
+        "meaning": "people or an organization having official power.",
+        "pos": "noun"
+      },
+      "seized": {
+        "meaning": "took possession of something suddenly and forcibly.",
+        "pos": "verb"
+      },
+      "assets": {
+        "meaning": "items of value owned by a person or company.",
+        "pos": "noun"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or apprehension.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "having the capacity to develop into something.",
+        "pos": "adjective"
+      },
+      "firms": {
+        "meaning": "businesses or companies.",
+        "pos": "noun"
+      },
+      "issuer": {
+        "meaning": "an organization that produces and distributes something.",
+        "pos": "noun"
+      },
+      "clarified": {
+        "meaning": "made something clearer or easier to understand.",
+        "pos": "verb"
+      },
+      "confirmed": {
+        "meaning": "established the truth or correctness of something.",
+        "pos": "verb"
+      },
+      "minimal": {
+        "meaning": "of a minimum amount, quantity, or degree.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "draws attention to an important part.",
+        "pos": "verb"
+      },
+      "lingering": {
+        "meaning": "lasting for a long time or slow to end.",
+        "pos": "adjective"
+      },
+      "counterparty": {
+        "meaning": "a party to a contract or financial transaction.",
+        "pos": "noun"
+      },
+      "risks": {
+        "meaning": "situations involving exposure to danger.",
+        "pos": "noun"
+      },
+      "fiat": {
+        "meaning": "referring to currency not backed by a physical commodity.",
+        "pos": "adjective"
+      },
+      "gateway": {
+        "meaning": "a point of entry or exit, allowing access.",
+        "pos": "noun"
+      },
+      "networks": {
+        "meaning": "systems of connected things.",
+        "pos": "noun"
+      },
+      "rely": {
+        "meaning": "depend on with full trust or confidence.",
+        "pos": "verb"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "transparent": {
+        "meaning": "allowing objects behind to be distinctly seen.",
+        "pos": "adjective"
+      },
+      "reserves": {
+        "meaning": "funds kept in an account to meet future liabilities.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; able to withstand difficult conditions.",
+        "pos": "adjective"
+      },
+      "immune": {
+        "meaning": "protected or exempt from something.",
+        "pos": "adjective"
+      },
+      "resilience": {
+        "meaning": "the capacity to recover quickly from difficulties.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the main concern regarding Tether's exposure to EQIBank, and how did Tether address it?",
+      "Explain what \"counterparty risks in fiat gateway networks\" means in the context of stablecoins and this incident.",
+      "How important do you think transparency regarding stablecoin reserves is for maintaining trust in the crypto market, and what measures could enhance it further?"
+    ],
+    "modelAnswers": [
+      "The main concern was Tether's potential financial exposure to EQIBank after U.S. authorities seized assets from the bank. Tether addressed this by confirming its exposure was minimal, stating it was under $64 million.",
+      "Counterparty risks in fiat gateway networks refer to the potential for financial loss that stablecoin issuers face from the traditional banks they use to hold their fiat reserves. If a bank like EQIBank faces issues, it can directly impact the stablecoin's backing.",
+      "Transparency in stablecoin reserves is extremely important for trust, as it assures users that their tokens are adequately backed. Measures like regular, independent audits, real-time attestation reports, and clear public disclosures of reserve compositions could significantly enhance this transparency."
+    ]
+  },
+  {
+    "id": "ec-2026-09-26-1",
+    "date": "2026-09-26",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "미국 주택 시장에 큰 영향을 미치는 모기지 금리 상승의 원인과 영향을 심층적으로 이해해 보세요.",
+    "url": "https://www.theguardian.com/business/2026/sep/24/mortgage-rates-housing-market",
+    "title": "US Mortgage Rates Hit 7%, Impacting Housing Market",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "US mortgage rates have climbed above 7% for the first time since early 2025. This significant increase follows the Federal Reserve's recent decision to raise benchmark interest rates. Higher interest rates make borrowing money more expensive for consumers and businesses alike. Consequently, home loan payments become significantly larger each month for new buyers. This trend is further aggravating the already challenging housing market conditions. Many potential homebuyers are now struggling with affordability issues and delayed plans. Stagnant wages combined with high prices are creating considerable financial strain for households. Experts predict this situation will likely slow down home sales and cool demand considerably. The Fed aims to combat persistent inflation by tightening its monetary policy aggressively. However, this strategy has significant and widespread consequences for everyday Americans and the broader economy.",
+    "sentences": [
+      {
+        "en": "US mortgage rates have climbed above 7% for the first time since early 2025.",
+        "ko": "미국의 모기지 금리가 2025년 초 이후 처음으로 7%를 넘어섰습니다."
+      },
+      {
+        "en": "This significant increase follows the Federal Reserve's recent decision to raise benchmark interest rates.",
+        "ko": "이러한 상당한 증가는 연방준비제도(Fed)의 최근 기준 금리 인상 결정에 따른 것입니다."
+      },
+      {
+        "en": "Higher interest rates make borrowing money more expensive for consumers and businesses alike.",
+        "ko": "높은 금리는 소비자와 기업 모두에게 돈을 빌리는 비용을 더 비싸게 만듭니다."
+      },
+      {
+        "en": "Consequently, home loan payments become significantly larger each month for new buyers.",
+        "ko": "결과적으로 신규 구매자들의 주택 대출 상환액이 매달 상당히 커집니다."
+      },
+      {
+        "en": "This trend is further aggravating the already challenging housing market conditions.",
+        "ko": "이러한 추세는 이미 어려운 주택 시장 상황을 더욱 악화시키고 있습니다."
+      },
+      {
+        "en": "Many potential homebuyers are now struggling with affordability issues and delayed plans.",
+        "ko": "많은 잠재적 주택 구매자들이 이제 감당 능력 문제와 계획 지연으로 어려움을 겪고 있습니다."
+      },
+      {
+        "en": "Stagnant wages combined with high prices are creating considerable financial strain for households.",
+        "ko": "정체된 임금과 높은 물가가 결합되어 가계에 상당한 재정적 부담을 가중시키고 있습니다."
+      },
+      {
+        "en": "Experts predict this situation will likely slow down home sales and cool demand considerably.",
+        "ko": "전문가들은 이러한 상황이 주택 판매를 둔화시키고 수요를 상당히 식힐 것으로 예상합니다."
+      },
+      {
+        "en": "The Fed aims to combat persistent inflation by tightening its monetary policy aggressively.",
+        "ko": "연준은 지속적인 인플레이션과 싸우기 위해 통화 정책을 공격적으로 긴축하는 것을 목표로 합니다."
+      },
+      {
+        "en": "However, this strategy has significant and widespread consequences for everyday Americans and the broader economy.",
+        "ko": "그러나 이 전략은 일반 미국인들과 광범위한 경제에 중대하고 광범위한 결과를 초래합니다."
+      }
+    ],
+    "glossary": {
+      "mortgage": {
+        "meaning": "a legal agreement where a bank or other lender lends money to buy a house.",
+        "pos": "noun"
+      },
+      "climbed": {
+        "meaning": "moved upward to a higher level or position, often gradually.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or notable, having a great effect.",
+        "pos": "adjective"
+      },
+      "benchmark": {
+        "meaning": "a standard or point of reference against which things may be compared or assessed.",
+        "pos": "adjective"
+      },
+      "interest": {
+        "meaning": "the money charged by a bank for borrowing money, usually a percentage of the amount borrowed.",
+        "pos": "noun"
+      },
+      "raise": {
+        "meaning": "to increase the amount or level of something, such as a price or a rate.",
+        "pos": "verb"
+      },
+      "borrowing": {
+        "meaning": "taking money from a bank or person with the intention of paying it back later.",
+        "pos": "noun"
+      },
+      "expensive": {
+        "meaning": "costing a lot of money, not cheap.",
+        "pos": "adjective"
+      },
+      "consequently": {
+        "meaning": "as a result of a particular action or situation.",
+        "pos": "adverb"
+      },
+      "payments": {
+        "meaning": "amounts of money that are paid regularly for something, such as a loan.",
+        "pos": "noun"
+      },
+      "aggravating": {
+        "meaning": "making a bad situation or problem worse.",
+        "pos": "verb"
+      },
+      "challenging": {
+        "meaning": "difficult to deal with or achieve, requiring effort.",
+        "pos": "adjective"
+      },
+      "potential": {
+        "meaning": "having the capacity to become something in the future, possible.",
+        "pos": "adjective"
+      },
+      "struggling": {
+        "meaning": "having great difficulty in doing something, often facing financial hardship.",
+        "pos": "verb"
+      },
+      "affordability": {
+        "meaning": "the state of being inexpensive enough for people to be able to buy.",
+        "pos": "noun"
+      },
+      "stagnant": {
+        "meaning": "not growing or changing, showing no activity or development.",
+        "pos": "adjective"
+      },
+      "combined": {
+        "meaning": "put or brought together to form a single unit or group.",
+        "pos": "verb"
+      },
+      "financial": {
+        "meaning": "relating to money or how money is managed.",
+        "pos": "adjective"
+      },
+      "strain": {
+        "meaning": "a state of tension or difficulty, often causing stress.",
+        "pos": "noun"
+      },
+      "predict": {
+        "meaning": "to say or estimate that a specified thing will happen in the future.",
+        "pos": "verb"
+      },
+      "combat": {
+        "meaning": "to try to stop something bad from happening or getting worse.",
+        "pos": "verb"
+      },
+      "tightening": {
+        "meaning": "making something stricter or more controlled, especially in economic policy.",
+        "pos": "verb"
+      },
+      "monetary": {
+        "meaning": "relating to money or currency.",
+        "pos": "adjective"
+      },
+      "consequences": {
+        "meaning": "results or effects of an action or condition.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific action by the Federal Reserve led to the recent rise in US mortgage rates?",
+      "Q2: In the passage, what does \"stagnant wages\" imply about the financial situation of potential homebuyers?",
+      "Q3: How might persistently high mortgage rates influence long-term investment decisions for individuals, beyond just home purchases?"
+    ],
+    "modelAnswers": [
+      "A1: The recent decision by the Federal Reserve to raise benchmark interest rates directly contributed to the increase in US mortgage rates.",
+      "A2: \"Stagnant wages\" suggests that people's incomes are not growing, or are growing very slowly, making it harder for them to afford rising home prices and higher mortgage payments.",
+      "A3: Persistently high mortgage rates could make people more cautious about taking on new debt. They might prioritize saving over investing in other assets, or seek investments with higher returns to offset increased borrowing costs for major purchases."
+    ]
+  },
+  {
+    "id": "ec-2026-09-26-2",
+    "date": "2026-09-26",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미중 무역 관계의 현재 상황과 미래 전망에 대한 중요한 통찰을 얻고 싶다면 이 기사를 읽어보세요.",
+    "url": "https://www.cnbc.com/2026/09/25/china-exports-surplus-trade-tariffs-.html",
+    "title": "China Exports to US Rebound Before Summit",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "A recent private survey indicates a surprising surge in China's exports to the United States. This rebound occurred just before a key summit between Presidents Trump and Xi. Companies appear to be strategically increasing orders to the U.S. market. They are anticipating continued trade stability between the two economic giants. This activity suggests businesses are adapting to the current geopolitical climate. The rise in orders could also reflect efforts to front-load shipments. This might hedge against potential future tariffs or trade disruptions. Such moves highlight the complex interplay of politics and global commerce. The data provides a crucial snapshot of international supply chain dynamics. It offers insights into corporate strategies amid trade uncertainties.",
+    "sentences": [
+      {
+        "en": "A recent private survey indicates a surprising surge in China's exports to the United States.",
+        "ko": "최근 민간 조사는 중국의 대미 수출이 놀랍게 급증했음을 보여줍니다."
+      },
+      {
+        "en": "This rebound occurred just before a key summit between Presidents Trump and Xi.",
+        "ko": "이러한 반등은 트럼프 대통령과 시진핑 주석 간의 주요 정상회담 직전에 발생했습니다."
+      },
+      {
+        "en": "Companies appear to be strategically increasing orders to the U.S. market.",
+        "ko": "기업들은 미국 시장으로의 주문을 전략적으로 늘리고 있는 것으로 보입니다."
+      },
+      {
+        "en": "They are anticipating continued trade stability between the two economic giants.",
+        "ko": "그들은 두 경제 대국 간의 지속적인 무역 안정을 기대하고 있습니다."
+      },
+      {
+        "en": "This activity suggests businesses are adapting to the current geopolitical climate.",
+        "ko": "이러한 활동은 기업들이 현재의 지정학적 환경에 적응하고 있음을 시사합니다."
+      },
+      {
+        "en": "The rise in orders could also reflect efforts to front-load shipments.",
+        "ko": "주문 증가는 또한 선적을 앞당기려는 노력을 반영할 수 있습니다."
+      },
+      {
+        "en": "This might hedge against potential future tariffs or trade disruptions.",
+        "ko": "이는 잠재적인 미래 관세나 무역 중단에 대비하기 위한 것일 수 있습니다."
+      },
+      {
+        "en": "Such moves highlight the complex interplay of politics and global commerce.",
+        "ko": "이러한 움직임은 정치와 국제 상업의 복잡한 상호작용을 강조합니다."
+      },
+      {
+        "en": "The data provides a crucial snapshot of international supply chain dynamics.",
+        "ko": "이 데이터는 국제 공급망 역학의 중요한 스냅샷을 제공합니다."
+      },
+      {
+        "en": "It offers insights into corporate strategies amid trade uncertainties.",
+        "ko": "이는 무역 불확실성 속에서 기업 전략에 대한 통찰력을 제공합니다."
+      }
+    ],
+    "glossary": {
+      "private": {
+        "meaning": "belonging to or for the use of one particular person or group, not public.",
+        "pos": "adjective"
+      },
+      "survey": {
+        "meaning": "a general study or report of a situation, especially one based on collecting information.",
+        "pos": "noun"
+      },
+      "indicates": {
+        "meaning": "points out, shows, or suggests something.",
+        "pos": "verb"
+      },
+      "surprising": {
+        "meaning": "causing a feeling of wonder or astonishment because it is unexpected.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "a sudden, strong increase in something, like a wave.",
+        "pos": "noun"
+      },
+      "exports": {
+        "meaning": "goods or services sold by one country to another.",
+        "pos": "noun"
+      },
+      "rebound": {
+        "meaning": "a recovery in price, value, or strength after a previous fall.",
+        "pos": "noun"
+      },
+      "occurred": {
+        "meaning": "happened or took place.",
+        "pos": "verb"
+      },
+      "summit": {
+        "meaning": "an official meeting between the heads of government of several countries.",
+        "pos": "noun"
+      },
+      "strategically": {
+        "meaning": "in a way that relates to achieving a particular long-term aim.",
+        "pos": "adverb"
+      },
+      "anticipating": {
+        "meaning": "regarding as probable, expecting or predicting something.",
+        "pos": "verb"
+      },
+      "stability": {
+        "meaning": "the state of being firm and not likely to change or fail.",
+        "pos": "noun"
+      },
+      "giants": {
+        "meaning": "very large and powerful organizations or companies.",
+        "pos": "noun"
+      },
+      "adapting": {
+        "meaning": "changing to suit different conditions or a new environment.",
+        "pos": "verb"
+      },
+      "geopolitical": {
+        "meaning": "relating to politics, especially international relations, as influenced by geographical factors.",
+        "pos": "adjective"
+      },
+      "reflect": {
+        "meaning": "to show or be a sign of something.",
+        "pos": "verb"
+      },
+      "front-load": {
+        "meaning": "to arrange or structure something so that a larger portion of the effort or cost occurs at the beginning.",
+        "pos": "verb"
+      },
+      "hedge": {
+        "meaning": "to protect oneself against a potential loss, especially by making counterbalancing investments.",
+        "pos": "verb"
+      },
+      "tariffs": {
+        "meaning": "taxes or duties to be paid on a particular class of imports or exports.",
+        "pos": "noun"
+      },
+      "disruptions": {
+        "meaning": "disturbances or problems that interrupt an event, activity, or process.",
+        "pos": "noun"
+      },
+      "highlight": {
+        "meaning": "to draw special attention to something.",
+        "pos": "verb"
+      },
+      "interplay": {
+        "meaning": "the way in which two or more things affect each other.",
+        "pos": "noun"
+      },
+      "commerce": {
+        "meaning": "the activity of buying and selling, especially on a large scale.",
+        "pos": "noun"
+      },
+      "uncertainties": {
+        "meaning": "situations or things that are not known or fixed, or that are not reliable.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific event was the surge in China's exports to the US observed before?",
+      "Q2: The passage mentions companies might \"front-load shipments\" to \"hedge against potential future tariffs.\" Explain what these phrases mean in this context.",
+      "Q3: How do you think such fluctuations in trade data, even if temporary, might influence investor confidence in global markets?"
+    ],
+    "modelAnswers": [
+      "A1: The surge in China's exports to the US occurred just before a key summit between Presidents Trump and Xi.",
+      "A2: \"Front-load shipments\" means sending out more goods earlier than usual. To \"hedge against potential future tariffs\" means companies are trying to protect themselves from possible losses if new taxes on imports are imposed later.",
+      "A3: Such fluctuations can create mixed signals for investors. A temporary surge might offer short-term optimism about trade stability, but the underlying reason (hedging against tariffs) could also signal ongoing uncertainty, leading to cautious long-term investment strategies."
+    ]
+  },
+  {
+    "id": "ec-2026-09-26-3",
+    "date": "2026-09-26",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "핀테크 산업, 특히 예측 시장의 규제 환경 변화가 궁금하다면 이 기사를 읽어보세요.",
+    "url": "https://www.cnbc.com/2026/09/25/appeals-court-rules-states-can-regulate-sports-prediction-markets.html",
+    "title": "States Can Regulate Prediction Markets, Court Rules",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "An appeals court recently ruled that U.S. states have the authority to regulate sports prediction markets. This decision specifically impacts platforms like Kalshi, a financial exchange. Kalshi allows users to bet on the outcomes of various real-world events. The ruling marks another significant legal challenge for prediction market operators. It reinforces the idea that states play a role in overseeing these contracts. This legal outcome could lead to a more fragmented regulatory landscape. Fintech companies often seek clear, unified federal guidelines for operations. However, this ruling suggests a patchwork of state-level rules instead. Such varied regulations can complicate national expansion and compliance efforts. It highlights the ongoing tension between innovation and consumer protection.",
+    "sentences": [
+      {
+        "en": "An appeals court recently ruled that U.S. states have the authority to regulate sports prediction markets.",
+        "ko": "항소법원은 최근 미국 주정부가 스포츠 예측 시장을 규제할 권한이 있다고 판결했습니다."
+      },
+      {
+        "en": "This decision specifically impacts platforms like Kalshi, a financial exchange.",
+        "ko": "이 결정은 특히 금융 거래소인 Kalshi와 같은 플랫폼에 영향을 미칩니다."
+      },
+      {
+        "en": "Kalshi allows users to bet on the outcomes of various real-world events.",
+        "ko": "Kalshi는 사용자들이 다양한 실제 사건의 결과에 베팅할 수 있도록 합니다."
+      },
+      {
+        "en": "The ruling marks another significant legal challenge for prediction market operators.",
+        "ko": "이 판결은 예측 시장 운영자들에게 또 다른 중요한 법적 도전을 의미합니다."
+      },
+      {
+        "en": "It reinforces the idea that states play a role in overseeing these contracts.",
+        "ko": "이는 주정부가 이러한 계약을 감독하는 역할을 한다는 생각을 강화합니다."
+      },
+      {
+        "en": "This legal outcome could lead to a more fragmented regulatory landscape.",
+        "ko": "이러한 법적 결과는 더욱 분열된 규제 환경으로 이어질 수 있습니다."
+      },
+      {
+        "en": "Fintech companies often seek clear, unified federal guidelines for operations.",
+        "ko": "핀테크 기업들은 종종 운영을 위한 명확하고 통일된 연방 지침을 추구합니다."
+      },
+      {
+        "en": "However, this ruling suggests a patchwork of state-level rules instead.",
+        "ko": "그러나 이 판결은 대신 주(州) 차원의 규제 조각들을 시사합니다."
+      },
+      {
+        "en": "Such varied regulations can complicate national expansion and compliance efforts.",
+        "ko": "이러한 다양한 규제는 전국적인 확장과 규정 준수 노력을 복잡하게 만들 수 있습니다."
+      },
+      {
+        "en": "It highlights the ongoing tension between innovation and consumer protection.",
+        "ko": "이는 혁신과 소비자 보호 사이의 지속적인 긴장을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "appeals": {
+        "meaning": "a formal request for a higher court to review a decision made by a lower court.",
+        "pos": "noun"
+      },
+      "court": {
+        "meaning": "a place where legal cases are heard and decided.",
+        "pos": "noun"
+      },
+      "ruled": {
+        "meaning": "made an official decision or judgment.",
+        "pos": "verb"
+      },
+      "authority": {
+        "meaning": "the power or right to give orders, make decisions, and enforce obedience.",
+        "pos": "noun"
+      },
+      "regulate": {
+        "meaning": "to control or supervise something, especially by means of rules and laws.",
+        "pos": "verb"
+      },
+      "prediction": {
+        "meaning": "a statement about what will happen in the future.",
+        "pos": "noun"
+      },
+      "specifically": {
+        "meaning": "in a precise way, for a particular reason or purpose.",
+        "pos": "adverb"
+      },
+      "impacts": {
+        "meaning": "has a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "platforms": {
+        "meaning": "systems or services that allow users to interact or conduct business.",
+        "pos": "noun"
+      },
+      "financial": {
+        "meaning": "relating to money or how money is managed.",
+        "pos": "adjective"
+      },
+      "exchange": {
+        "meaning": "a place where shares, currencies, or goods are bought and sold.",
+        "pos": "noun"
+      },
+      "outcomes": {
+        "meaning": "the way a situation turns out, or the result of an activity or process.",
+        "pos": "noun"
+      },
+      "marks": {
+        "meaning": "indicates or represents something important.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important or notable.",
+        "pos": "adjective"
+      },
+      "challenge": {
+        "meaning": "a difficult task or problem that tests someone's ability.",
+        "pos": "noun"
+      },
+      "reinforces": {
+        "meaning": "strengthens or supports an idea or argument.",
+        "pos": "verb"
+      },
+      "overseeing": {
+        "meaning": "supervising someone or something, especially to ensure that rules are followed.",
+        "pos": "verb"
+      },
+      "fragmented": {
+        "meaning": "broken into many small, separate parts.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "the general situation or environment relating to a particular activity.",
+        "pos": "noun"
+      },
+      "unified": {
+        "meaning": "made into or becoming a single unit, complete, or consistent.",
+        "pos": "adjective"
+      },
+      "guidelines": {
+        "meaning": "general rules, advice, or instructions for doing something.",
+        "pos": "noun"
+      },
+      "patchwork": {
+        "meaning": "something made up of many different parts or pieces.",
+        "pos": "noun"
+      },
+      "complicate": {
+        "meaning": "to make something more difficult or complex.",
+        "pos": "verb"
+      },
+      "compliance": {
+        "meaning": "the act of obeying an order, rule, or request.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the appeals court ruling, who now has the power to regulate sports prediction markets in the U.S.?",
+      "Q2: What does the phrase \"fragmented regulatory landscape\" mean in the context of this ruling and its impact on fintech companies?",
+      "Q3: As a fintech product manager, what are the primary challenges and opportunities you might foresee for a company like Kalshi following this court decision?"
+    ],
+    "modelAnswers": [
+      "A1: The appeals court ruled that U.S. states now have the authority to regulate sports prediction markets.",
+      "A2: A \"fragmented regulatory landscape\" means that instead of one clear federal rule, there will be many different state-level rules. This creates a complex and inconsistent environment for fintech companies to operate in.",
+      "A3: Challenges include increased complexity for national expansion, higher legal costs for compliance across different states, and potential market limitations in states with strict regulations. Opportunities might arise from developing tailored products for specific state markets or advocating for clearer federal standards based on state experiences."
+    ]
+  },
+  {
     "id": "cd-2026-09-25-1",
     "date": "2026-09-25",
     "rank": 1,
