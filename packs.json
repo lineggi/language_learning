@@ -1,5 +1,1077 @@
 [
   {
+    "id": "cd-2026-09-28-1",
+    "date": "2026-09-28",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "이더리움의 공동 창립자가 제시하는 2030년 비전은 블록체인의 미래와 확장성에 대한 중요한 통찰을 제공합니다.",
+    "url": "https://www.coindesk.com/tech/2026/09/27/vitalik-buterin-maps-ethereum-s-shift-beyond-a-blockchain-in-sweeping-2030-vision",
+    "title": "Buterin's 2030 Vision: Ethereum Beyond a Blockchain",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Vitalik Buterin, Ethereum's co-founder, recently shared his long-term vision for the network. He envisions Ethereum moving past its current role as a simple blockchain. By 2030, Ethereum aims to become a more complex, multi-layered system. This shift focuses on improving scalability and efficiency significantly. The goal is to allow the network to handle far more transactions. It also seeks to reduce the burden on individual computers within the network. Buterin emphasized the importance of specialized scaling solutions. These solutions will enable Ethereum to process diverse data types more effectively. This evolution is crucial for supporting mass adoption of decentralized applications. It also impacts the future of stablecoins and tokenized assets on Ethereum.",
+    "sentences": [
+      {
+        "en": "Vitalik Buterin, Ethereum's co-founder, recently shared his long-term vision for the network.",
+        "ko": "이더리움의 공동 창립자 비탈릭 부테린이 최근 네트워크에 대한 장기 비전을 공유했습니다."
+      },
+      {
+        "en": "He envisions Ethereum moving past its current role as a simple blockchain.",
+        "ko": "그는 이더리움이 단순한 블록체인이라는 현재의 역할을 넘어설 것을 구상합니다."
+      },
+      {
+        "en": "By 2030, Ethereum aims to become a more complex, multi-layered system.",
+        "ko": "2030년까지 이더리움은 더 복잡하고 다층적인 시스템이 되는 것을 목표로 합니다."
+      },
+      {
+        "en": "This shift focuses on improving scalability and efficiency significantly.",
+        "ko": "이러한 변화는 확장성과 효율성을 크게 향상시키는 데 중점을 둡니다."
+      },
+      {
+        "en": "The goal is to allow the network to handle far more transactions.",
+        "ko": "목표는 네트워크가 훨씬 더 많은 트랜잭션을 처리할 수 있도록 하는 것입니다."
+      },
+      {
+        "en": "It also seeks to reduce the burden on individual computers within the network.",
+        "ko": "이는 또한 네트워크 내 개별 컴퓨터의 부담을 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "Buterin emphasized the importance of specialized scaling solutions.",
+        "ko": "부테린은 특수 확장 솔루션의 중요성을 강조했습니다."
+      },
+      {
+        "en": "These solutions will enable Ethereum to process diverse data types more effectively.",
+        "ko": "이러한 솔루션은 이더리움이 다양한 데이터 유형을 더 효과적으로 처리할 수 있도록 할 것입니다."
+      },
+      {
+        "en": "This evolution is crucial for supporting mass adoption of decentralized applications.",
+        "ko": "이러한 진화는 분산형 애플리케이션의 대규모 채택을 지원하는 데 중요합니다."
+      },
+      {
+        "en": "It also impacts the future of stablecoins and tokenized assets on Ethereum.",
+        "ko": "이는 또한 이더리움의 스테이블코인 및 토큰화된 자산의 미래에 영향을 미칩니다."
+      }
+    ],
+    "glossary": {
+      "co-founder": {
+        "meaning": "a person who helps establish a company or organization with others.",
+        "pos": "noun"
+      },
+      "envision": {
+        "meaning": "to imagine something as a future possibility or a desired outcome.",
+        "pos": "verb"
+      },
+      "current": {
+        "meaning": "happening or existing at the present time; in progress.",
+        "pos": "adjective"
+      },
+      "role": {
+        "meaning": "the function or position that someone or something has in a particular situation.",
+        "pos": "noun"
+      },
+      "complex": {
+        "meaning": "consisting of many different and connected parts; not simple.",
+        "pos": "adjective"
+      },
+      "multi-layered": {
+        "meaning": "having several distinct levels or components.",
+        "pos": "adjective"
+      },
+      "shift": {
+        "meaning": "a change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "scalability": {
+        "meaning": "the ability of a system to handle a growing amount of work or users.",
+        "pos": "noun"
+      },
+      "efficiency": {
+        "meaning": "the state of achieving maximum productivity with minimum wasted effort or expense.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
+        "pos": "adverb"
+      },
+      "handle": {
+        "meaning": "to deal with or manage a situation, problem, or task.",
+        "pos": "verb"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something, or exchanging data between systems.",
+        "pos": "noun"
+      },
+      "reduce": {
+        "meaning": "to make something smaller or less in amount, degree, or size.",
+        "pos": "verb"
+      },
+      "burden": {
+        "meaning": "a heavy load or responsibility that is difficult to carry or manage.",
+        "pos": "noun"
+      },
+      "emphasized": {
+        "meaning": "gave special importance or prominence to something in speaking or writing.",
+        "pos": "verb"
+      },
+      "specialized": {
+        "meaning": "concentrating on a particular subject, skill, or area of work.",
+        "pos": "adjective"
+      },
+      "solutions": {
+        "meaning": "means of solving a problem or dealing with a difficult situation.",
+        "pos": "noun"
+      },
+      "enable": {
+        "meaning": "to give someone or something the authority or means to do something.",
+        "pos": "verb"
+      },
+      "process": {
+        "meaning": "to perform a series of mechanical or chemical operations on something.",
+        "pos": "verb"
+      },
+      "diverse": {
+        "meaning": "showing a great deal of variety; very different.",
+        "pos": "adjective"
+      },
+      "effectively": {
+        "meaning": "in such a manner as to achieve a desired result.",
+        "pos": "adverb"
+      },
+      "evolution": {
+        "meaning": "the gradual development of something, especially from a simple to a more complex form.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "of great importance, especially in determining the success or failure of something.",
+        "pos": "adjective"
+      },
+      "adoption": {
+        "meaning": "the action or fact of choosing to take up, follow, or use something.",
+        "pos": "noun"
+      },
+      "decentralized": {
+        "meaning": "having power or authority distributed among many people or places, rather than concentrated in one central place.",
+        "pos": "adjective"
+      },
+      "impacts": {
+        "meaning": "has a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "tokenized": {
+        "meaning": "converted into a digital token on a blockchain.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "Q1: What is one key goal of Vitalik Buterin's 2030 vision for Ethereum regarding its operational capacity?",
+      "Q2: In the passage, what does \"scalability\" refer to, and why is it important for Ethereum's future?",
+      "Q3: How might Ethereum's evolution into a \"multi-layered system\" affect the development and adoption of new stablecoins or tokenized assets?"
+    ],
+    "modelAnswers": [
+      "A1: One key goal is to significantly improve scalability and efficiency, allowing the network to handle far more transactions.",
+      "A2: \"Scalability\" refers to the network's ability to handle a growing amount of work or users. It's crucial because it enables Ethereum to support mass adoption of decentralized applications and diverse data types.",
+      "A3: A multi-layered Ethereum could offer specialized solutions for different asset types, making it more efficient and cost-effective to launch and manage stablecoins or tokenized assets. This could drive broader institutional and retail adoption."
+    ]
+  },
+  {
+    "id": "cd-2026-09-28-2",
+    "date": "2026-09-28",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "솔라나의 최신 정산 업그레이드는 네트워크 속도와 효율성을 크게 향상시켜, DeFi 및 토큰화 프로젝트에 중요한 영향을 미칠 것입니다.",
+    "url": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
+    "title": "Solana Boosts Settlement Speed on Test Networks",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Solana has introduced a significant upgrade to its settlement process. This new feature, called Alpenglow, aims to reduce transaction finality. Finality refers to how quickly a transaction is permanently recorded. Alpenglow intends to achieve settlement in just 150 milliseconds. This upgrade is currently live on Solana's second public test network. Application developers are now testing their software against it. The goal is to ensure smooth functionality before a full mainnet launch. Faster settlement is vital for high-frequency trading and DeFi applications. It also improves the user experience for everyday transactions. This enhancement supports Solana's ambition to be a leading blockchain. It could attract more projects, including stablecoins and tokenization efforts.",
+    "sentences": [
+      {
+        "en": "Solana has introduced a significant upgrade to its settlement process.",
+        "ko": "솔라나가 정산 과정에 중요한 업그레이드를 도입했습니다."
+      },
+      {
+        "en": "This new feature, called Alpenglow, aims to reduce transaction finality.",
+        "ko": "알펜글로우(Alpenglow)라는 이 새로운 기능은 트랜잭션 최종성을 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "Finality refers to how quickly a transaction is permanently recorded.",
+        "ko": "최종성은 트랜잭션이 영구적으로 기록되는 속도를 의미합니다."
+      },
+      {
+        "en": "Alpenglow intends to achieve settlement in just 150 milliseconds.",
+        "ko": "알펜글로우는 단 150밀리초 내에 정산을 달성하려 합니다."
+      },
+      {
+        "en": "This upgrade is currently live on Solana's second public test network.",
+        "ko": "이 업그레이드는 현재 솔라나의 두 번째 공개 테스트 네트워크에서 운영 중입니다."
+      },
+      {
+        "en": "Application developers are now testing their software against it.",
+        "ko": "애플리케이션 개발자들은 이제 이 기능을 대상으로 소프트웨어를 테스트하고 있습니다."
+      },
+      {
+        "en": "The goal is to ensure smooth functionality before a full mainnet launch.",
+        "ko": "목표는 전체 메인넷 출시 전에 원활한 기능을 보장하는 것입니다."
+      },
+      {
+        "en": "Faster settlement is vital for high-frequency trading and DeFi applications.",
+        "ko": "더 빠른 정산은 고빈도 거래 및 DeFi 애플리케이션에 필수적입니다."
+      },
+      {
+        "en": "It also improves the user experience for everyday transactions.",
+        "ko": "이는 또한 일상적인 트랜잭션에 대한 사용자 경험을 향상시킵니다."
+      },
+      {
+        "en": "This enhancement supports Solana's ambition to be a leading blockchain.",
+        "ko": "이러한 향상은 선도적인 블록체인이 되고자 하는 솔라나의 야망을 뒷받침합니다."
+      },
+      {
+        "en": "It could attract more projects, including stablecoins and tokenization efforts.",
+        "ko": "이는 스테이블코인 및 토큰화 노력을 포함한 더 많은 프로젝트를 유치할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "introduced": {
+        "meaning": "brought something into use or operation for the first time.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "sufficiently great or important to be worthy of attention.",
+        "pos": "adjective"
+      },
+      "upgrade": {
+        "meaning": "an improvement or enhancement to a system or component.",
+        "pos": "noun"
+      },
+      "settlement": {
+        "meaning": "the process of finalizing a transaction, transferring assets or funds.",
+        "pos": "noun"
+      },
+      "feature": {
+        "meaning": "a distinctive attribute or aspect of something.",
+        "pos": "noun"
+      },
+      "aims": {
+        "meaning": "directs at a particular target or objective.",
+        "pos": "verb"
+      },
+      "reduce": {
+        "meaning": "to make something smaller or less in amount, degree, or size.",
+        "pos": "verb"
+      },
+      "transaction": {
+        "meaning": "an instance of buying or selling something, or exchanging data between systems.",
+        "pos": "noun"
+      },
+      "finality": {
+        "meaning": "the state or quality of being complete and unalterable.",
+        "pos": "noun"
+      },
+      "permanently": {
+        "meaning": "in a way that lasts or remains unchanged indefinitely.",
+        "pos": "adverb"
+      },
+      "recorded": {
+        "meaning": "set down in writing or some other permanent form for future reference.",
+        "pos": "verb"
+      },
+      "intends": {
+        "meaning": "has a plan or purpose in mind.",
+        "pos": "verb"
+      },
+      "achieve": {
+        "meaning": "successfully bring about or reach a desired objective or result.",
+        "pos": "verb"
+      },
+      "currently": {
+        "meaning": "at the present time.",
+        "pos": "adverb"
+      },
+      "live": {
+        "meaning": "in actual operation or use.",
+        "pos": "adjective"
+      },
+      "public": {
+        "meaning": "relating to or concerning the people as a whole.",
+        "pos": "adjective"
+      },
+      "developers": {
+        "meaning": "people who create software applications or systems.",
+        "pos": "noun"
+      },
+      "testing": {
+        "meaning": "subjecting something to examination or experiment to determine its quality or reliability.",
+        "pos": "verb"
+      },
+      "ensure": {
+        "meaning": "to make certain that something will occur or be the case.",
+        "pos": "verb"
+      },
+      "smooth": {
+        "meaning": "operating or performing without problems or difficulties.",
+        "pos": "adjective"
+      },
+      "functionality": {
+        "meaning": "the range of functions that an electronic device or software can perform.",
+        "pos": "noun"
+      },
+      "mainnet": {
+        "meaning": "the primary, official, and public blockchain network where actual transactions occur.",
+        "pos": "noun"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "high-frequency": {
+        "meaning": "occurring often or at a rapid rate.",
+        "pos": "adjective"
+      },
+      "defi": {
+        "meaning": "an abbreviation for decentralized finance, which refers to financial applications built on blockchain.",
+        "pos": "noun"
+      },
+      "improves": {
+        "meaning": "makes something better.",
+        "pos": "verb"
+      },
+      "user": {
+        "meaning": "a person who uses or operates something.",
+        "pos": "noun"
+      },
+      "experience": {
+        "meaning": "the overall experience of a person using a product or system.",
+        "pos": "noun"
+      },
+      "enhancement": {
+        "meaning": "an increase or improvement in quality, value, or extent.",
+        "pos": "noun"
+      },
+      "ambition": {
+        "meaning": "a strong desire to do or achieve something.",
+        "pos": "noun"
+      },
+      "leading": {
+        "meaning": "most important; preeminent.",
+        "pos": "adjective"
+      },
+      "attract": {
+        "meaning": "to draw or entice someone or something to a place or situation.",
+        "pos": "verb"
+      },
+      "tokenization": {
+        "meaning": "the process of converting rights to an asset into a digital token on a blockchain.",
+        "pos": "noun"
+      },
+      "efforts": {
+        "meaning": "attempts to do something, especially when it is difficult.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the name of Solana's new upgrade designed to reduce transaction finality, and what is its target settlement time?",
+      "Q2: Explain what \"transaction finality\" means in the context of this passage and why reducing it is considered important for blockchain networks.",
+      "Q3: How might Solana's improved settlement speed impact its competitiveness against other blockchains for hosting stablecoins or facilitating real-world asset tokenization?"
+    ],
+    "modelAnswers": [
+      "A1: The upgrade is called Alpenglow, and it aims to achieve settlement in just 150 milliseconds.",
+      "A2: Transaction finality refers to how quickly a transaction is permanently recorded and irreversible on the blockchain. Reducing it is important because it enables faster, more efficient operations crucial for high-frequency trading and a better user experience.",
+      "A3: Faster settlement could make Solana more attractive for stablecoins requiring rapid transfers and for real-world asset tokenization where quick, irreversible transactions are essential. This could significantly boost its competitiveness against rivals."
+    ]
+  },
+  {
+    "id": "cd-2026-09-28-3",
+    "date": "2026-09-28",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "비트코인에 프라이버시 기능을 추가하려는 혁신적인 접근 방식은 기존 규칙을 변경하지 않으면서도 익명 거래를 가능하게 할 잠재력을 보여줍니다.",
+    "url": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+    "title": "Bitcoin Privacy: Shielded Transfers Without Protocol Changes",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Researchers are exploring new ways to enhance Bitcoin's privacy. Their focus is on creating \"shielded\" transactions similar to Zcash. Crucially, this system aims to work without altering Bitcoin's core rules. This approach involves private bitcoin-denominated transfers running alongside the main Bitcoin blockchain. Users could lock up actual BTC and then release it later. However, a finished mechanism for this locking and releasing is still missing. This innovation could offer users greater anonymity for their holdings. It addresses concerns about Bitcoin's transparent transaction history. Implementing such privacy features could broaden Bitcoin's appeal. It might also influence future regulatory discussions around digital assets.",
+    "sentences": [
+      {
+        "en": "Researchers are exploring new ways to enhance Bitcoin's privacy.",
+        "ko": "연구원들은 비트코인의 프라이버시를 강화할 새로운 방법을 모색하고 있습니다."
+      },
+      {
+        "en": "Their focus is on creating \"shielded\" transactions similar to Zcash.",
+        "ko": "그들의 초점은 Zcash와 유사한 \"보호된\" 트랜잭션을 만드는 것입니다."
+      },
+      {
+        "en": "Crucially, this system aims to work without altering Bitcoin's core rules.",
+        "ko": "결정적으로, 이 시스템은 비트코인의 핵심 규칙을 변경하지 않고 작동하는 것을 목표로 합니다."
+      },
+      {
+        "en": "This approach involves private bitcoin-denominated transfers running alongside the main Bitcoin blockchain.",
+        "ko": "이 접근 방식은 주 비트코인 블록체인과 함께 실행되는 비공개 비트코인 표시 전송을 포함합니다."
+      },
+      {
+        "en": "Users could lock up actual BTC and then release it later.",
+        "ko": "사용자는 실제 BTC를 잠그고 나중에 해제할 수 있습니다."
+      },
+      {
+        "en": "However, a finished mechanism for this locking and releasing is still missing.",
+        "ko": "하지만 이 잠금 및 해제에 대한 완성된 메커니즘은 아직 없습니다."
+      },
+      {
+        "en": "This innovation could offer users greater anonymity for their holdings.",
+        "ko": "이러한 혁신은 사용자들에게 보유 자산에 대한 더 큰 익명성을 제공할 수 있습니다."
+      },
+      {
+        "en": "It addresses concerns about Bitcoin's transparent transaction history.",
+        "ko": "이는 비트코인의 투명한 거래 기록에 대한 우려를 해소합니다."
+      },
+      {
+        "en": "Implementing such privacy features could broaden Bitcoin's appeal.",
+        "ko": "이러한 프라이버시 기능을 구현하는 것은 비트코인의 매력을 넓힐 수 있습니다."
+      },
+      {
+        "en": "It might also influence future regulatory discussions around digital assets.",
+        "ko": "이는 또한 디지털 자산에 대한 미래 규제 논의에 영향을 미칠 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "exploring": {
+        "meaning": "inquiring into or discussing a subject in detail.",
+        "pos": "verb"
+      },
+      "enhance": {
+        "meaning": "to intensify, increase, or further improve the quality, value, or extent of.",
+        "pos": "verb"
+      },
+      "privacy": {
+        "meaning": "the state or condition of being free from being observed or disturbed by other people.",
+        "pos": "noun"
+      },
+      "creating": {
+        "meaning": "bringing something into existence.",
+        "pos": "verb"
+      },
+      "shielded": {
+        "meaning": "protected or hidden from view or detection.",
+        "pos": "adjective"
+      },
+      "transactions": {
+        "meaning": "instances of buying or selling something, or exchanging data between systems.",
+        "pos": "noun"
+      },
+      "crucially": {
+        "meaning": "in a way that is of great importance.",
+        "pos": "adverb"
+      },
+      "aims": {
+        "meaning": "directs at a particular target or objective.",
+        "pos": "verb"
+      },
+      "altering": {
+        "meaning": "changing or making different.",
+        "pos": "verb"
+      },
+      "core": {
+        "meaning": "forming the central or most important part of something.",
+        "pos": "adjective"
+      },
+      "rules": {
+        "meaning": "explicit or understood regulations or principles governing conduct within a particular activity.",
+        "pos": "noun"
+      },
+      "approach": {
+        "meaning": "a way of dealing with something or someone.",
+        "pos": "noun"
+      },
+      "involves": {
+        "meaning": "includes something as a necessary part or consequence.",
+        "pos": "verb"
+      },
+      "private": {
+        "meaning": "not connected with or belonging to a particular group or organization.",
+        "pos": "adjective"
+      },
+      "denominated": {
+        "meaning": "expressed in a specified unit of currency.",
+        "pos": "adjective"
+      },
+      "alongside": {
+        "meaning": "next to; at the side of.",
+        "pos": "preposition"
+      },
+      "main": {
+        "meaning": "chief in size or importance.",
+        "pos": "adjective"
+      },
+      "blockchain": {
+        "meaning": "a digital ledger in which transactions are recorded chronologically and publicly.",
+        "pos": "noun"
+      },
+      "actual": {
+        "meaning": "existing in reality; real.",
+        "pos": "adjective"
+      },
+      "release": {
+        "meaning": "to allow something to move or flow freely.",
+        "pos": "verb"
+      },
+      "mechanism": {
+        "meaning": "a natural or mechanical process by which something takes place.",
+        "pos": "noun"
+      },
+      "missing": {
+        "meaning": "not present or found; absent.",
+        "pos": "adjective"
+      },
+      "innovation": {
+        "meaning": "the action or process of inventing new methods, ideas, or products.",
+        "pos": "noun"
+      },
+      "anonymity": {
+        "meaning": "the state of being unknown by name.",
+        "pos": "noun"
+      },
+      "holdings": {
+        "meaning": "property, especially stocks, shares, or land, owned by a person or company.",
+        "pos": "noun"
+      },
+      "addresses": {
+        "meaning": "thinks about and begins to deal with a problem or issue.",
+        "pos": "verb"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or anxiety.",
+        "pos": "noun"
+      },
+      "transparent": {
+        "meaning": "allowing light to pass through so that objects behind can be distinctly seen.",
+        "pos": "adjective"
+      },
+      "history": {
+        "meaning": "the whole series of past events connected with someone or something.",
+        "pos": "noun"
+      },
+      "implementing": {
+        "meaning": "putting a decision, plan, or agreement into effect.",
+        "pos": "verb"
+      },
+      "broaden": {
+        "meaning": "to make or become wider or more general.",
+        "pos": "verb"
+      },
+      "appeal": {
+        "meaning": "the quality of being attractive or interesting.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "relating to the regulation or supervision of a particular industry or activity.",
+        "pos": "adjective"
+      },
+      "discussions": {
+        "meaning": "conversations or debates about a particular subject.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the primary goal of the new system being explored for Bitcoin, and what existing privacy coin is it compared to?",
+      "Q2: The passage mentions that a \"finished mechanism\" for locking up and releasing BTC is still missing. Explain why this component is crucial for the system to function effectively.",
+      "Q3: How might the introduction of Zcash-style privacy features for Bitcoin impact its perceived value and utility for different user groups, and what potential regulatory challenges might arise?"
+    ],
+    "modelAnswers": [
+      "A1: The primary goal is to create \"shielded\" transactions for Bitcoin, similar to Zcash, without altering Bitcoin's core rules.",
+      "A2: The locking and releasing mechanism is crucial because it allows users to move real BTC into the private system and retrieve it later. Without it, the system cannot connect to the actual Bitcoin supply, making the private transfers theoretical.",
+      "A3: Enhanced privacy could increase Bitcoin's appeal for users seeking anonymity, potentially boosting its utility for certain transactions. However, it might also raise regulatory concerns about illicit financial activities, prompting stricter oversight or restrictions from authorities."
+    ]
+  },
+  {
+    "id": "ec-2026-09-28-1",
+    "date": "2026-09-28",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "AI 인프라 구축에 필요한 자금 조달 비용이 채권 수익률 급등으로 증가하면서 AI 기업들의 위험이 커지고 있습니다.",
+    "url": "https://www.cnbc.com/2026/09/27/debt-hungry-data-center-companies-increased-risk-bond-yields-spike.html",
+    "title": "Rising Bond Yields Threaten AI Company Debt Financing",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The rapid expansion of AI infrastructure requires significant capital investment. Many AI companies rely heavily on debt to fund this ambitious buildout. However, a recent surge in bond yields is changing the financial landscape. Higher yields mean increased borrowing costs for these debt-hungry firms. This situation poses a new risk to their financial health and growth plans. Investors may become more cautious about lending money at higher rates. Consequently, some AI projects could face delays or even cancellation. The increased cost of capital could also impact overall market valuations. Companies must now carefully manage their debt and funding strategies. This trend highlights the sensitivity of tech growth to broader economic shifts.",
+    "sentences": [
+      {
+        "en": "The rapid expansion of AI infrastructure requires significant capital investment.",
+        "ko": "AI 인프라의 급격한 확장은 상당한 자본 투자를 필요로 합니다."
+      },
+      {
+        "en": "Many AI companies rely heavily on debt to fund this ambitious buildout.",
+        "ko": "많은 AI 기업들이 이러한 야심찬 구축 자금을 조달하기 위해 부채에 크게 의존합니다."
+      },
+      {
+        "en": "However, a recent surge in bond yields is changing the financial landscape.",
+        "ko": "그러나 최근 채권 수익률의 급등이 금융 환경을 변화시키고 있습니다."
+      },
+      {
+        "en": "Higher yields mean increased borrowing costs for these debt-hungry firms.",
+        "ko": "수익률이 높아지면 이러한 부채 의존 기업들의 차입 비용이 증가합니다."
+      },
+      {
+        "en": "This situation poses a new risk to their financial health and growth plans.",
+        "ko": "이러한 상황은 그들의 재정 건전성과 성장 계획에 새로운 위험을 제기합니다."
+      },
+      {
+        "en": "Investors may become more cautious about lending money at higher rates.",
+        "ko": "투자자들은 더 높은 금리로 돈을 빌려주는 것에 대해 더 신중해질 수 있습니다."
+      },
+      {
+        "en": "Consequently, some AI projects could face delays or even cancellation.",
+        "ko": "결과적으로 일부 AI 프로젝트는 지연되거나 심지어 취소될 수도 있습니다."
+      },
+      {
+        "en": "The increased cost of capital could also impact overall market valuations.",
+        "ko": "자본 비용 증가는 전반적인 시장 가치 평가에도 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Companies must now carefully manage their debt and funding strategies.",
+        "ko": "기업들은 이제 부채와 자금 조달 전략을 신중하게 관리해야 합니다."
+      },
+      {
+        "en": "This trend highlights the sensitivity of tech growth to broader economic shifts.",
+        "ko": "이러한 추세는 기술 성장이 광범위한 경제 변화에 얼마나 민감한지 보여줍니다."
+      }
+    ],
+    "glossary": {
+      "expansion": {
+        "meaning": "The process of becoming larger or more extensive, often referring to a company's growth.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "capital": {
+        "meaning": "Wealth in the form of money or other assets owned by a person or organization, available for investment.",
+        "pos": "noun"
+      },
+      "debt": {
+        "meaning": "An amount of money that is owed by one person or organization to another.",
+        "pos": "noun"
+      },
+      "fund": {
+        "meaning": "To provide money for a particular purpose or project.",
+        "pos": "verb"
+      },
+      "ambitious": {
+        "meaning": "Having or showing a strong desire and determination to succeed, often involving large goals.",
+        "pos": "adjective"
+      },
+      "buildout": {
+        "meaning": "The process of developing or constructing something, especially a large-scale project.",
+        "pos": "noun"
+      },
+      "surge": {
+        "meaning": "A sudden, powerful, and often upward movement, like a rapid increase in amount or value.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "The income return on an investment, such as the interest received from a bond.",
+        "pos": "noun"
+      },
+      "landscape": {
+        "meaning": "The overall situation or environment, especially in a particular area of activity.",
+        "pos": "noun"
+      },
+      "borrowing": {
+        "meaning": "The act of taking money from a bank or person with the intention of paying it back later.",
+        "pos": "adjective"
+      },
+      "costs": {
+        "meaning": "The amount of money needed or spent to buy or do something.",
+        "pos": "noun"
+      },
+      "debt-hungry": {
+        "meaning": "Describing companies that rely heavily on borrowed money to finance their operations and growth.",
+        "pos": "adjective"
+      },
+      "financial": {
+        "meaning": "Relating to money or how money is managed, especially concerning business or government.",
+        "pos": "adjective"
+      },
+      "health": {
+        "meaning": "The condition of being sound and robust, often referring to the economic state of a business.",
+        "pos": "noun"
+      },
+      "cautious": {
+        "meaning": "Careful to avoid potential problems or dangers.",
+        "pos": "adjective"
+      },
+      "lending": {
+        "meaning": "The act of giving money to someone with the expectation that it will be paid back.",
+        "pos": "verb"
+      },
+      "consequently": {
+        "meaning": "As a result; therefore.",
+        "pos": "adverb"
+      },
+      "cancellation": {
+        "meaning": "The act of stopping something that was planned or arranged.",
+        "pos": "noun"
+      },
+      "impact": {
+        "meaning": "To have a strong effect on someone or something.",
+        "pos": "verb"
+      },
+      "valuations": {
+        "meaning": "Estimates of the worth or value of something, such as a company or asset.",
+        "pos": "noun"
+      },
+      "strategies": {
+        "meaning": "Plans of action designed to achieve a long-term or overall aim.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to something.",
+        "pos": "verb"
+      },
+      "shifts": {
+        "meaning": "Changes in position, direction, or tendency.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific financial factor is increasing the risk for AI companies that rely on debt, according to the passage?",
+      "Q2: Explain how rising bond yields affect companies that need to borrow money for their expansion plans, using terms from the passage.",
+      "Q3: Do you think the rapid expansion of AI infrastructure is sustainable given these rising costs? Why or why not, considering potential impacts on innovation and competition?"
+    ],
+    "modelAnswers": [
+      "A1: A recent surge in bond yields is increasing the risk for AI companies that rely on debt for their infrastructure buildout.",
+      "A2: Rising bond yields lead to increased borrowing costs for companies. This makes it more expensive for debt-hungry firms to fund their ambitious expansion plans, potentially causing delays or cancellations of projects.",
+      "A3: The sustainability of AI expansion is questionable if borrowing costs remain high. While innovation might slow due to funding challenges, it could also force companies to be more efficient. Competition might decrease if smaller firms struggle to secure capital, allowing larger, more financially stable players to dominate."
+    ]
+  },
+  {
+    "id": "ec-2026-09-28-2",
+    "date": "2026-09-28",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국 국채 수익률 급등이 연방준비제도(Fed)에 새로운 도전을 제기하며 인플레이션 통제에 대한 복잡한 상황을 만듭니다.",
+    "url": "https://www.cnbc.com/2026/09/24/surging-treasury-yields-are-posing-a-brand-new-problem-for-kevin-warsh-and-the-fed.html",
+    "title": "Surging Treasury Yields Challenge Fed's Inflation Fight",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Treasury yields have recently seen a significant surge. This development presents a complex problem for the Federal Reserve. The Fed's primary goal is to maintain price stability and control inflation. Markets now expect the central bank to take a firmer hand. However, the situation is not as straightforward as it seems. High yields can signal investor concerns about future inflation. They might also reflect expectations for stronger economic growth. The Fed must carefully balance these conflicting signals. Decisions on interest rates will have broad economic implications. This scenario highlights the delicate nature of monetary policy.",
+    "sentences": [
+      {
+        "en": "Treasury yields have recently seen a significant surge.",
+        "ko": "국채 수익률이 최근 상당한 급등세를 보였습니다."
+      },
+      {
+        "en": "This development presents a complex problem for the Federal Reserve.",
+        "ko": "이러한 전개는 연방준비제도에 복잡한 문제를 제시합니다."
+      },
+      {
+        "en": "The Fed's primary goal is to maintain price stability and control inflation.",
+        "ko": "연준의 주요 목표는 물가 안정과 인플레이션 통제입니다."
+      },
+      {
+        "en": "Markets now expect the central bank to take a firmer hand.",
+        "ko": "시장은 이제 중앙은행이 더 단호한 조치를 취할 것으로 예상합니다."
+      },
+      {
+        "en": "However, the situation is not as straightforward as it seems.",
+        "ko": "그러나 상황은 보이는 것만큼 간단하지 않습니다."
+      },
+      {
+        "en": "High yields can signal investor concerns about future inflation.",
+        "ko": "높은 수익률은 미래 인플레이션에 대한 투자자들의 우려를 나타낼 수 있습니다."
+      },
+      {
+        "en": "They might also reflect expectations for stronger economic growth.",
+        "ko": "또한 더 강력한 경제 성장에 대한 기대를 반영할 수도 있습니다."
+      },
+      {
+        "en": "The Fed must carefully balance these conflicting signals.",
+        "ko": "연준은 이러한 상충되는 신호들을 신중하게 균형 맞춰야 합니다."
+      },
+      {
+        "en": "Decisions on interest rates will have broad economic implications.",
+        "ko": "금리 결정은 광범위한 경제적 영향을 미칠 것입니다."
+      },
+      {
+        "en": "This scenario highlights the delicate nature of monetary policy.",
+        "ko": "이러한 시나리오는 통화 정책의 섬세한 본질을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "treasury": {
+        "meaning": "Referring to government bonds issued by the U.S. Department of the Treasury.",
+        "pos": "adjective"
+      },
+      "yields": {
+        "meaning": "The income generated by an investment, typically expressed as an annual percentage rate.",
+        "pos": "noun"
+      },
+      "significant": {
+        "meaning": "Important and noticeable, having a strong impact or meaning.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "A sudden and powerful increase in amount or volume.",
+        "pos": "noun"
+      },
+      "development": {
+        "meaning": "A new event or stage in a process, often one that causes a change.",
+        "pos": "noun"
+      },
+      "presents": {
+        "meaning": "To offer or give something for consideration, display, or use.",
+        "pos": "verb"
+      },
+      "complex": {
+        "meaning": "Consisting of many different and connected parts, making it difficult to understand or solve.",
+        "pos": "adjective"
+      },
+      "federal": {
+        "meaning": "Relating to a system of government in which several states form a unity but remain independent in internal affairs.",
+        "pos": "adjective"
+      },
+      "reserve": {
+        "meaning": "A central bank that oversees the monetary system of a nation, like the U.S. Federal Reserve.",
+        "pos": "noun"
+      },
+      "primary": {
+        "meaning": "Of chief importance; principal.",
+        "pos": "adjective"
+      },
+      "stability": {
+        "meaning": "The state of being stable and not subject to change or fluctuation.",
+        "pos": "noun"
+      },
+      "inflation": {
+        "meaning": "A general increase in prices and fall in the purchasing value of money.",
+        "pos": "noun"
+      },
+      "central": {
+        "meaning": "Of or at the center, or most important part.",
+        "pos": "adjective"
+      },
+      "firmer": {
+        "meaning": "More resolute or determined; less likely to change.",
+        "pos": "adjective"
+      },
+      "straightforward": {
+        "meaning": "Easy to understand or simple to do.",
+        "pos": "adjective"
+      },
+      "signal": {
+        "meaning": "An act, event, or sound that gives information or a warning.",
+        "pos": "verb"
+      },
+      "reflect": {
+        "meaning": "To show or be an indication of something.",
+        "pos": "verb"
+      },
+      "expectations": {
+        "meaning": "Strong beliefs that something will happen or be the case.",
+        "pos": "noun"
+      },
+      "conflicting": {
+        "meaning": "Incompatible or at variance; disagreeing.",
+        "pos": "adjective"
+      },
+      "implications": {
+        "meaning": "The possible results or effects of an action or a decision.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "Draws special attention to something important.",
+        "pos": "verb"
+      },
+      "delicate": {
+        "meaning": "Easily broken or damaged; requiring careful handling.",
+        "pos": "adjective"
+      },
+      "monetary": {
+        "meaning": "Relating to money or currency.",
+        "pos": "adjective"
+      },
+      "policy": {
+        "meaning": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What is the primary goal of the Federal Reserve, as stated in the passage?",
+      "Q2: Explain how surging Treasury yields can create a complex problem for the Fed in its efforts to control inflation. What conflicting signals might they represent?",
+      "Q3: How might persistently high Treasury yields influence the average consumer's financial decisions, such as borrowing for a home or car, and what could be the broader economic impact?"
+    ],
+    "modelAnswers": [
+      "A1: The Federal Reserve's primary goal is to maintain price stability and control inflation.",
+      "A2: Surging Treasury yields complicate the Fed's inflation fight because they can signal both investor concerns about future inflation and expectations for stronger economic growth. The Fed must balance these conflicting signals when making monetary policy decisions.",
+      "A3: Persistently high Treasury yields would likely lead to higher interest rates for consumers on loans like mortgages and auto loans. This could reduce consumer spending and investment, potentially slowing economic growth as borrowing becomes more expensive."
+    ]
+  },
+  {
+    "id": "ec-2026-09-28-3",
+    "date": "2026-09-28",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "채권 시장의 동향이 경제 둔화에 대한 경고 신호를 보내고 있어 투자자들이 주의를 기울여야 합니다.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTFrYzFvbDRlX0l0RU82NG1VZElManl5VkJCNk9FbUNfakVQaDlqYVZFWjUzWHpOWlJIeEtTRUw0bVZDN09XbzJEY2wwZmRWQ3hVaUhEaWpRNl9XSFFJTlN0QVg0aVd0NUhNcGdPWXdoVnh1MHhsYUFMRXFETElzS1E1eWdZWWFzaFhORzdSZXVWQlNhWE9zbTNkS09MWnBpQUNZS3JoUTRZTFd3ZWhWVUtKWQ",
+    "title": "Bond Market Signals Growing Economic Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The bond market often acts as a key economic indicator. Currently, it appears to be sounding an alarm about the economy. This means investors are observing signs of potential trouble ahead. One such sign can be an inverted yield curve. This occurs when short-term bond yields are higher than long-term yields. Historically, this has preceded many economic recessions. Such market behavior reflects growing investor sentiment of risk aversion. They might be seeking safer assets like government bonds. A slowing economy could impact corporate earnings and job growth. Policymakers will closely monitor these bond market signals.",
+    "sentences": [
+      {
+        "en": "The bond market often acts as a key economic indicator.",
+        "ko": "채권 시장은 종종 핵심 경제 지표 역할을 합니다."
+      },
+      {
+        "en": "Currently, it appears to be sounding an alarm about the economy.",
+        "ko": "현재, 채권 시장은 경제에 대한 경고음을 울리는 것으로 보입니다."
+      },
+      {
+        "en": "This means investors are observing signs of potential trouble ahead.",
+        "ko": "이는 투자자들이 앞으로 닥칠 잠재적 문제의 징후를 관찰하고 있다는 의미입니다."
+      },
+      {
+        "en": "One such sign can be an inverted yield curve.",
+        "ko": "그러한 징후 중 하나는 역전된 수익률 곡선일 수 있습니다."
+      },
+      {
+        "en": "This occurs when short-term bond yields are higher than long-term yields.",
+        "ko": "이는 단기 채권 수익률이 장기 채권 수익률보다 높을 때 발생합니다."
+      },
+      {
+        "en": "Historically, this has preceded many economic recessions.",
+        "ko": "역사적으로 이는 많은 경제 불황에 선행했습니다."
+      },
+      {
+        "en": "Such market behavior reflects growing investor sentiment of risk aversion.",
+        "ko": "이러한 시장 행동은 위험 회피에 대한 투자자 심리가 커지고 있음을 반영합니다."
+      },
+      {
+        "en": "They might be seeking safer assets like government bonds.",
+        "ko": "그들은 국채와 같은 더 안전한 자산을 찾고 있을 수 있습니다."
+      },
+      {
+        "en": "A slowing economy could impact corporate earnings and job growth.",
+        "ko": "경제 둔화는 기업 수익과 일자리 성장에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Policymakers will closely monitor these bond market signals.",
+        "ko": "정책 입안자들은 이러한 채권 시장 신호를 면밀히 주시할 것입니다."
+      }
+    ],
+    "glossary": {
+      "bond": {
+        "meaning": "A certificate of debt issued by a government or company, promising to pay back the money with interest.",
+        "pos": "noun"
+      },
+      "market": {
+        "meaning": "A place or system where goods and services are bought and sold, or where financial instruments are traded.",
+        "pos": "noun"
+      },
+      "economic": {
+        "meaning": "Relating to the production, distribution, and consumption of goods and services.",
+        "pos": "adjective"
+      },
+      "indicator": {
+        "meaning": "A sign or piece of information that points to something or suggests a trend.",
+        "pos": "noun"
+      },
+      "sounding": {
+        "meaning": "Making a noise or giving a signal, often to warn of something.",
+        "pos": "verb"
+      },
+      "alarm": {
+        "meaning": "A warning of danger or a signal to take action.",
+        "pos": "noun"
+      },
+      "observing": {
+        "meaning": "Watching carefully to notice details, often for a specific purpose.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Having the capacity to develop into something in the future.",
+        "pos": "adjective"
+      },
+      "inverted": {
+        "meaning": "Turned upside down or in the opposite direction.",
+        "pos": "adjective"
+      },
+      "yield": {
+        "meaning": "The income return on an investment, like the interest paid on a bond.",
+        "pos": "noun"
+      },
+      "curve": {
+        "meaning": "A line on a graph that shows how a particular value changes over time or in relation to another value.",
+        "pos": "noun"
+      },
+      "short-term": {
+        "meaning": "Occurring over a brief period of time.",
+        "pos": "adjective"
+      },
+      "long-term": {
+        "meaning": "Occurring over a long period of time.",
+        "pos": "adjective"
+      },
+      "historically": {
+        "meaning": "In the past, according to historical events or records.",
+        "pos": "adverb"
+      },
+      "preceded": {
+        "meaning": "Came before something else in time or order.",
+        "pos": "verb"
+      },
+      "recessions": {
+        "meaning": "Periods of temporary economic decline during which trade and industrial activity are reduced.",
+        "pos": "noun"
+      },
+      "behavior": {
+        "meaning": "The way in which someone or something acts or functions.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "A general feeling or opinion, especially one shared by a group of people.",
+        "pos": "noun"
+      },
+      "aversion": {
+        "meaning": "A strong dislike or disinclination, often used in finance to describe avoiding risk.",
+        "pos": "noun"
+      },
+      "assets": {
+        "meaning": "Items of value owned by a person or company, which can be converted into cash.",
+        "pos": "noun"
+      },
+      "corporate": {
+        "meaning": "Relating to a large company or group.",
+        "pos": "adjective"
+      },
+      "earnings": {
+        "meaning": "Money obtained in return for labor or services, or from investments and business activities.",
+        "pos": "noun"
+      },
+      "policymakers": {
+        "meaning": "People responsible for making official policy, especially in government.",
+        "pos": "noun"
+      },
+      "monitor": {
+        "meaning": "To observe and check the progress or quality of something over a period of time.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "Q1: What specific market phenomenon is mentioned as historically preceding many economic recessions?",
+      "Q2: Describe how signs from the bond market, such as an \"inverted yield curve,\" can influence investor decisions and broader economic activity, as explained in the passage.",
+      "Q3: If the bond market is indeed signaling an economic slowdown, what actions do you think governments or central banks should prioritize to mitigate the impact, and why would these be effective?"
+    ],
+    "modelAnswers": [
+      "A1: An inverted yield curve is mentioned as historically preceding many economic recessions.",
+      "A2: An inverted yield curve, where short-term yields exceed long-term yields, signals investor risk aversion and concerns about future economic trouble. This can lead investors to seek safer assets, potentially reducing investment in riskier ventures and slowing overall economic activity.",
+      "A3: Governments might prioritize fiscal stimulus like infrastructure spending or tax cuts to boost demand. Central banks could consider lowering interest rates to encourage borrowing and investment. These actions aim to inject liquidity and confidence into the economy, mitigating the slowdown by stimulating growth."
+    ]
+  },
+  {
     "id": "cd-2026-09-27-1",
     "date": "2026-09-27",
     "rank": 1,
