@@ -495,6 +495,51 @@
       text-align: center; font-size: 13px; color: var(--muted); margin: 14px 0 16px;
     }
 
+    /* 단어장 구성 전환 (진도별 / 주차별) */
+    .modeswitch {
+      display: flex; gap: 4px; padding: 4px; margin-bottom: 14px;
+      background: var(--hair); border-radius: 999px;
+    }
+    .modeswitch button {
+      flex: 1; border: 0; background: none; cursor: pointer; border-radius: 999px;
+      padding: 8px 10px; color: var(--muted);
+      font-family: "IBM Plex Mono", "Pretendard", monospace; font-size: 12px; letter-spacing: .06em;
+    }
+    .modeswitch button.active { background: var(--card); color: var(--ink); font-weight: 600; box-shadow: var(--shadow); }
+    .modeswitch .modedot {
+      display: inline-block; width: 5px; height: 5px; border-radius: 50%;
+      background: var(--amber); margin-left: 5px; vertical-align: 2px;
+    }
+    .weekhint { font-size: 12px; color: var(--muted); margin: -4px 0 14px; line-height: 1.5; }
+
+    /* 주차별 단어장 */
+    .weeklabel {
+      font-size: 10px; letter-spacing: .14em; color: var(--faint);
+      text-transform: uppercase; margin: 2px 0 8px;
+    }
+    .weekbar {
+      display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 12px;
+      scrollbar-width: none; -webkit-overflow-scrolling: touch;
+    }
+    .weekbar::-webkit-scrollbar { display: none; }
+    .weekchip {
+      flex: 0 0 auto; display: flex; flex-direction: column; gap: 3px; text-align: left;
+      border: 1px solid var(--hair); background: var(--card); border-radius: 12px;
+      padding: 9px 13px; cursor: pointer; color: var(--ink);
+    }
+    .weekchip .weekchip-t { font-size: 13px; font-weight: 600; letter-spacing: -.01em; }
+    .weekchip .weekchip-s { font-size: 10px; color: var(--muted); letter-spacing: .04em; }
+    .weekchip.now { border-color: var(--amber-soft); }
+    .weekchip.active { background: var(--amber-soft); border-color: var(--amber-soft); }
+    .weekchip.active .weekchip-t, .weekchip.active .weekchip-s { color: #8a5a12; }
+    .weekendcard {
+      background: var(--card); border: 1px solid var(--amber-soft); border-left: 3px solid var(--amber);
+      border-radius: 14px; padding: 16px 16px 14px; margin-bottom: 14px; box-shadow: var(--shadow);
+    }
+    .weekendcard .weekendcard-k { font-size: 10px; letter-spacing: .12em; color: var(--amber); margin-bottom: 6px; }
+    .weekendcard .weekendcard-t { font-size: 20px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 4px; }
+    .weekendcard .weekendcard-d { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 12px; }
+
     /* Flashcard study */
     .studybtn { margin-bottom: 14px; }
     .studyhead {
@@ -717,7 +762,7 @@
     /* ------------------------------------------------------------------ */
     /* Storage helpers (localStorage, prefix dbw:)                         */
     /* ------------------------------------------------------------------ */
-    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks", writing: "dbw:writing", errors: "dbw:errors" };
+    const KEY = { wordbank: "dbw:wordbank", reads: "dbw:reads", streak: "dbw:streak", picks: "dbw:picks", writing: "dbw:writing", errors: "dbw:errors", wbmode: "dbw:wbmode" };
 
     /* Optional backend: Supabase (sync) + /api/grade (AI grading). If SUPABASE_URL
        is empty the client is null and the app stays fully local. */
@@ -742,13 +787,18 @@
        transitions and the cross-device merges — against the very same code
        this page runs. */
     const {
-      kstToday, daysBetween, monthDays, shiftMonth,
+      kstToday, daysBetween, monthDays, shiftMonth, isWeekend, dayOfWeek,
+      weekKey, weekMonday, weekLabel, weekRangeText,
       REVIEW_DUE_DAYS, stageOf, reviewDue, classifyWord,
       normalizeStreak, pickStreak, bumpStreak,
       mergeWordbank, mergeReads, mergeErrors, mergeWriting,
       TOMBSTONE_TTL_MS, sweepTombstones,
       candidateForms, glossVal, lookupGloss, normText, POS_KO,
     } = window.DBW;
+
+    const DOW_KO = ["일", "월", "화", "수", "목", "금", "토"];
+    // Bucket for words saved before their collection date was recorded.
+    const NO_DATE = "__nodate__";
 
     // Speak an English word/phrase aloud via the browser's Web Speech API (TTS).
     // The Web Speech default voice differs per OS (macOS may pick a male or
@@ -2244,6 +2294,13 @@
       const [confirmClearAll, setConfirmClearAll] = useState(false);
       const [showCal, setShowCal] = useState(false);
       const [calMonth, setCalMonth] = useState(() => kstToday().slice(0, 7));
+      // How the 단어장 is organised. "stage" keeps the original 미암기/복습중/완료
+      // flow; "week" groups the same words into Mon–Fri wordbooks reviewed over
+      // the weekend. A per-device display preference, so it stays in
+      // localStorage rather than joining the synced learning data.
+      const [mode, setMode] = useState(() => (load(KEY.wbmode, "stage") === "week" ? "week" : "stage"));
+      useEffect(() => save(KEY.wbmode, mode), [mode]);
+      const [week, setWeek] = useState(null); // 선택한 주차, null = 주차 전체
       const [dragX, setDragX] = useState(0);
       const [fly, setFly] = useState(null); // the answered card, animating away
       const swipeRef = useRef({ down: false, startX: 0, dx: 0, moved: false });
@@ -2272,20 +2329,19 @@
           .filter(([, v]) => v && !v.deleted)
           .map(([word, v]) => ({ word, ...v, stage: stageOf(v) }))
           .filter((e) => {
+            if (week && (weekKey(e.addedDate) || NO_DATE) !== week) return false;
             if (filter !== "all" && e.stage !== filter) return false;
             if (query && !e.word.includes(query.toLowerCase()) &&
                 !(e.meaning || "").toLowerCase().includes(query.toLowerCase())) return false;
             return true;
           })
           .sort((a, b) => (b.addedDate || "").localeCompare(a.addedDate || "") || a.word.localeCompare(b.word));
-      }, [wordbank, query, filter, today]);
+      }, [wordbank, query, filter, week, today]);
 
       const aliveWords = useMemo(() => Object.entries(wordbank).filter(([, v]) => v && !v.deleted), [wordbank]);
       const total = aliveWords.length;
-      const counts = { new: 0, review: 0, mastered: 0 };
-      aliveWords.forEach(([, v]) => { counts[stageOf(v)]++; });
+      const totalMastered = aliveWords.filter(([, v]) => stageOf(v) === "mastered").length;
       const filterLabel = { new: "미암기", review: "복습중", mastered: "완료" }[filter] || "전체";
-
       // Study pool = 미암기(new) words; review pool = 복습중 words that are now due.
       // Each card carries its own `stage`, so a mixed-stage deck (e.g. the
       // filter-driven "학습하기" session below) can advance each word
@@ -2306,6 +2362,41 @@
         () => entries.map((e) => ({ word: e.word, meaning: e.meaning, pos: e.pos || null, example: e.example || "", meaningKo: e.meaningKo || "", stage: e.stage })),
         [entries]
       );
+
+      // 주차별 단어장 — words are collected Mon–Fri and reviewed together over
+      // the weekend, so they are grouped by the KST week they were added in.
+      // Built in one pass and kept newest-first; words saved before addedDate
+      // existed have no week and simply don't appear in any of them.
+      const weeks = useMemo(() => {
+        const by = new Map();
+        for (const pair of aliveWords) {
+          // Words collected before addedDate was stored still need somewhere to
+          // live, or they would be invisible — and unstudiable — in this mode.
+          const k = weekKey(pair[1].addedDate) || NO_DATE;
+          if (!by.has(k)) by.set(k, []);
+          by.get(k).push(pair);
+        }
+        const summarize = (key) => {
+          const items = by.get(key);
+          return {
+            key,
+            label: key === NO_DATE ? "날짜 미상" : weekLabel(key),
+            range: key === NO_DATE ? "수집일 기록 이전" : weekRangeText(key),
+            count: items.length,
+            done: items.filter((p) => stageOf(p[1]) === "mastered").length,
+            cards: items.map((p) => toCard(p[0], p[1])),
+          };
+        };
+        const dated = Array.from(by.keys()).filter((k) => k !== NO_DATE)
+          .sort((a, b) => (weekMonday(b) || "").localeCompare(weekMonday(a) || ""))
+          .map(summarize);
+        return by.has(NO_DATE) ? [...dated, summarize(NO_DATE)] : dated;
+      }, [aliveWords]);
+      const thisWeekKey = weekKey(today);
+      const thisWeek = weeks.find((w) => w.key === thisWeekKey) || null;
+      const selectedWeek = week ? weeks.find((w) => w.key === week) || null : null;
+      // Saturday and Sunday are this week's review days.
+      const isReviewDay = isWeekend(today);
 
       const patch = (word, p, ev) => {
         ev && ev.stopPropagation();
@@ -2341,6 +2432,19 @@
           ? { ...prev, [word]: { ...prev[word], stage: "review", reviewSince: today, masteredSince: undefined, learned: true, updatedAt: Date.now() } }
           : prev);
         if (showToast) showToast(`"${word}" 다시 복습중으로 옮겼어요`);
+      };
+      // Picking a week clears a stage filter that would otherwise hide the very
+      // words the week is being opened for (e.g. 완료 selected, then a week with
+      // nothing finished yet → an empty grid that looks like a bug).
+      const pickWeek = (key) => {
+        setWeek((prev) => (prev === key ? null : key));
+        setFilter("all");
+      };
+      const pickMode = (m) => {
+        if (m === mode) return;
+        setMode(m);
+        setWeek(null);
+        setFilter("all");
       };
       const flip = (word) => setFlipped((p) => ({ ...p, [word]: !p[word] }));
 
@@ -2550,8 +2654,16 @@
         return () => { window.removeEventListener("keydown", onKey); window.removeEventListener("keyup", onKeyUp); };
       }, []);
 
+      // Stage counts follow the selected week, so the chips describe the set
+      // actually on screen rather than the whole wordbank.
+      const scopeWords = week ? aliveWords.filter((p) => (weekKey(p[1].addedDate) || NO_DATE) === week) : aliveWords;
+      const counts = { new: 0, review: 0, mastered: 0 };
+      scopeWords.forEach((p) => { counts[stageOf(p[1])]++; });
+      const scopeLabel = selectedWeek
+        ? (filter === "all" ? selectedWeek.label : `${selectedWeek.label} ${filterLabel}`)
+        : filterLabel;
       const CHIPS = [
-        { id: "all", label: `전체 ${total}` },
+        { id: "all", label: `전체 ${scopeWords.length}` },
         { id: "new", label: `미암기 ${counts.new}` },
         { id: "review", label: `복습중 ${counts.review}` },
         { id: "mastered", label: `완료 ${counts.mastered}` },
@@ -2716,7 +2828,7 @@
               <span className="streakhint">탭하면 캘린더 보기</span>
             </button>
             <div style={{ textAlign: "right" }}>
-              <div className="big fraunces">{counts.mastered}/{total}</div>
+              <div className="big fraunces">{totalMastered}/{total}</div>
               <div className="lbl mono">장기완료 / 전체</div>
             </div>
           </div>
@@ -2751,6 +2863,30 @@
           )}
 
           {total > 0 && (
+            <div className="modeswitch" role="tablist" aria-label="단어장 구성">
+              <button role="tab" aria-selected={mode === "stage"} className={mode === "stage" ? "active" : ""}
+                onClick={() => pickMode("stage")}>진도별</button>
+              <button role="tab" aria-selected={mode === "week"} className={mode === "week" ? "active" : ""}
+                onClick={() => pickMode("week")}>
+                주차별{isReviewDay && thisWeek ? <span className="modedot" title="이번 주 복습일" /> : null}
+              </button>
+            </div>
+          )}
+
+          {mode === "week" && isReviewDay && thisWeek && (
+            <div className="weekendcard">
+              <div className="weekendcard-k mono">주말 복습 · {today.slice(5).replace("-", "/")} {DOW_KO[dayOfWeek(today)]}요일</div>
+              <div className="weekendcard-t fraunces">{thisWeek.label} 단어 {thisWeek.count}개</div>
+              <div className="weekendcard-d">
+                {thisWeek.range} 동안 모은 단어예요. 주말엔 한 주치를 몰아서 복습해요.
+              </div>
+              <button className="btn primary" onClick={() => startStudy(thisWeek.cards, `${thisWeek.label} 복습`)}>
+                🔁 {thisWeek.count}개 몰아서 복습하기
+              </button>
+            </div>
+          )}
+
+          {mode === "stage" && total > 0 && (
             <React.Fragment>
               <button className="btn primary studybtn" onClick={() => startStudy(newPool, "단어 외우기")} disabled={!newPool.length}>
                 🎴 단어 외우기 · 미암기 {newPool.length}개
@@ -2761,6 +2897,30 @@
             </React.Fragment>
           )}
 
+          {mode === "week" && weeks.length > 0 && (
+            <React.Fragment>
+              <div className="weeklabel mono">주차별 단어장</div>
+              <div className="weekbar">
+                {weeks.slice(0, 8).map((w) => (
+                  <button key={w.key} className={"weekchip" + (week === w.key ? " active" : "") + (w.key === thisWeekKey ? " now" : "")}
+                    onClick={() => pickWeek(w.key)}>
+                    <span className="weekchip-t">{w.label}{w.key === thisWeekKey ? " · 이번 주" : ""}</span>
+                    <span className="weekchip-s mono">{w.range} · {w.count}개{w.done ? ` · 완료 ${w.done}` : ""}</span>
+                  </button>
+                ))}
+              </div>
+            </React.Fragment>
+          )}
+
+          {mode === "week" && selectedWeek && (
+            <button className="btn primary studybtn" onClick={() => startStudy(selectedWeek.cards, selectedWeek.label)}>
+              🎴 {selectedWeek.label} {selectedWeek.count}개 몰아서 외우기
+            </button>
+          )}
+          {mode === "week" && !selectedWeek && weeks.length > 0 && (
+            <div className="weekhint">주차를 선택하면 그 주에 모은 단어를 한 번에 외울 수 있어요.</div>
+          )}
+
           <div className="toolbar">
             <input className="search" placeholder="단어·뜻 검색" value={query} onChange={(e) => setQuery(e.target.value)} />
             {CHIPS.map((c) => (
@@ -2768,15 +2928,15 @@
             ))}
           </div>
 
-          {entries.length > 0 && (
-            <button className="btn ghost studybtn" onClick={() => startStudy(filteredPool, `${filterLabel} 학습`)}>
-              🎴 {filterLabel} 학습하기 · {entries.length}개
+          {entries.length > 0 && !(selectedWeek && filter === "all" && !query) && (
+            <button className="btn ghost studybtn" onClick={() => startStudy(filteredPool, `${scopeLabel} 학습`)}>
+              🎴 {scopeLabel} 학습하기 · {entries.length}개
             </button>
           )}
 
           {entries.length > 0 && (
             <button className="clearallbtn" onClick={() => setConfirmClearAll(true)}>
-              {filter === "all" && !query ? "단어장 전체 삭제" : `${filterLabel} 삭제`}
+              {filter === "all" && !query && !week ? "단어장 전체 삭제" : `${scopeLabel} 삭제`}
             </button>
           )}
 
@@ -2785,7 +2945,7 @@
               <div className="sheet" onClick={(e) => e.stopPropagation()}>
                 <div className="sheet-grip" />
                 <div className="sheet-title fraunces">
-                  {filter === "all" && !query ? "단어장을 전체 삭제할까요?" : `${filterLabel} 단어를 삭제할까요?`}
+                  {filter === "all" && !query && !week ? "단어장을 전체 삭제할까요?" : `${scopeLabel} 단어를 삭제할까요?`}
                 </div>
                 <div className="sheet-desc">
                   {filter === "all" && !query

@@ -13,23 +13,11 @@
  * Run:  npm run test:browser        (needs Playwright + network for the CDN)
  * Installs on demand:  npx playwright install chromium
  */
-const http = require("http");
-const fs = require("fs");
-const path = require("path");
+const { requirePlaywright, serve, counter } = require("./harness.js");
+const { chromium } = requirePlaywright();
 
-const ROOT = path.join(__dirname, "..", "..");
 const PORT = Number(process.env.PORT || 8123);
 const BASE = `http://127.0.0.1:${PORT}`;
-const TYPES = { ".html": "text/html", ".js": "application/javascript", ".json": "application/json",
-                ".png": "image/png", ".svg": "image/svg+xml", ".webmanifest": "application/manifest+json" };
-
-let chromium;
-try { ({ chromium } = require("playwright")); }
-catch (e) {
-  console.error("Playwright is not installed — skipping the browser suite.");
-  console.error("  npm i -D playwright && npx playwright install chromium");
-  process.exit(0);
-}
 
 const today = () => new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const ago = (n) => new Date(Date.now() + 9 * 3600e3 - n * 86400e3).toISOString().slice(0, 10);
@@ -37,28 +25,16 @@ const bankOf = (n, extra = {}) => Object.fromEntries(
   Array.from({ length: n }, (_, i) => [`word${String(i + 1).padStart(2, "0")}`,
     { meaning: `meaning ${i + 1}`, pos: "noun", stage: "new", addedDate: today(), updatedAt: 1, ...extra }]));
 
-let failed = 0;
-const ok = (cond, msg) => { if (!cond) failed++; console.log(`${cond ? "  ok" : "NOT OK"} — ${msg}`); };
-
-function serve() {
-  return new Promise((resolve) => {
-    const s = http.createServer((req, res) => {
-      const url = decodeURIComponent(req.url.split("?")[0]);
-      const file = path.join(ROOT, url === "/" ? "index.html" : url);
-      if (!file.startsWith(ROOT) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) {
-        res.writeHead(404); res.end("not found"); return;
-      }
-      res.writeHead(200, { "Content-Type": TYPES[path.extname(file)] || "text/plain", "Cache-Control": "no-store" });
-      fs.createReadStream(file).pipe(res);
-    });
-    s.listen(PORT, () => resolve(s));
-  });
-}
+const t = counter();
+const ok = t.ok;
 
 // Open the wordbank with a seeded set of words and start a study session.
 async function startSession(page, bank, button = /단어 외우기/) {
   await page.goto(`${BASE}/index.html`);
-  await page.evaluate((b) => localStorage.setItem("dbw:wordbank", JSON.stringify(b)), bank);
+  await page.evaluate((b) => {
+    localStorage.setItem("dbw:wordbank", JSON.stringify(b));
+    localStorage.setItem("dbw:wbmode", JSON.stringify("stage")); // this spec is about the deck, not the grouping
+  }, bank);
   await page.reload({ waitUntil: "networkidle" });
   await page.waitForSelector("nav.tabbar", { timeout: 20000 });
   await page.locator('nav.tabbar button:has-text("단어장")').first().click();
@@ -92,7 +68,7 @@ const stagesOf = (page) => page.evaluate(() => {
 });
 
 (async () => {
-  const server = await serve();
+  const server = await serve(PORT);
   const browser = await chromium.launch();
   const pageErrors = [];
   const newPage = async () => {
@@ -169,6 +145,6 @@ const stagesOf = (page) => page.evaluate(() => {
 
   await browser.close();
   server.close();
-  console.log(failed ? `\n${failed} check(s) failed.` : "\nAll browser checks passed.");
-  process.exit(failed ? 1 : 0);
+  console.log(t.failed ? `\n${t.failed} check(s) failed.` : "\nAll study-session checks passed.");
+  process.exit(t.failed ? 1 : 0);
 })().catch((e) => { console.error(e); process.exit(1); });

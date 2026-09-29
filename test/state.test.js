@@ -214,3 +214,80 @@ test("normText makes 오답노트 answer matching forgiving", () => {
   assert.equal(S.normText("  The  Bank's,  rate. "), "the banks rate", "punctuation, apostrophes and runs of space all go");
   assert.equal(S.normText("Yes!"), S.normText("yes"));
 });
+
+/* ------------------------------------------------- weekly wordbooks -- */
+
+test("a week runs Monday to Sunday", () => {
+  // 2026-09-28 is a Monday, 2026-10-04 the Sunday that closes the same week.
+  for (const d of ["2026-09-28", "2026-09-30", "2026-10-02", "2026-10-03", "2026-10-04"]) {
+    assert.equal(S.weekStart(d), "2026-09-28", d);
+  }
+  assert.equal(S.weekStart("2026-10-05"), "2026-10-05", "the next Monday starts a new week");
+});
+
+test("isWeekend marks exactly Saturday and Sunday", () => {
+  assert.deepEqual(
+    ["2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02", "2026-10-03", "2026-10-04"]
+      .map(S.isWeekend),
+    [false, false, false, false, false, true, true]
+  );
+});
+
+test("a week is labelled by the month holding its Thursday", () => {
+  // 2026-10-01 is a Thursday, so Mon 9/28–Sun 10/4 is the week containing
+  // October 1st — 10월 1주차, which is what a reader expects it to mean.
+  assert.equal(S.weekKey("2026-09-28"), "2026-10-W1");
+  assert.equal(S.weekLabel(S.weekKey("2026-09-28")), "10월 1주차");
+  assert.equal(S.weekRangeText("2026-10-W1"), "9/28–10/4");
+  assert.equal(S.weekLabel(S.weekKey("2026-10-05")), "10월 2주차");
+  assert.equal(S.weekLabel(S.weekKey("2026-10-26")), "10월 5주차");
+  // Sunday 11/1 closes October's fifth week rather than opening November's
+  // first — and it is a review day, so it belongs with the week being reviewed.
+  assert.equal(S.weekLabel(S.weekKey("2026-11-01")), "10월 5주차");
+  assert.equal(S.weekLabel(S.weekKey("2026-11-02")), "11월 1주차");
+});
+
+test("every day of a month lands in a week of that month, with no gaps", () => {
+  // Walk a whole year: week numbers must run 1..N within each month, and
+  // consecutive weeks must be exactly 7 days apart.
+  const seen = new Map();
+  for (let d = Date.parse("2026-01-01T00:00:00Z"); d <= Date.parse("2026-12-31T00:00:00Z"); d += 86400000) {
+    const day = new Date(d).toISOString().slice(0, 10);
+    const key = S.weekKey(day);
+    assert.ok(key, day);
+    const mon = S.weekMonday(key);
+    assert.equal(mon, S.weekStart(day), `${day}: key ${key} must point back at its own Monday`);
+    if (seen.has(key)) assert.equal(seen.get(key), mon, `${key} maps to two different Mondays`);
+    seen.set(key, mon);
+  }
+  const byMonth = {};
+  for (const key of seen.keys()) {
+    const [, ym, n] = /^(\d{4}-\d{2})-W(\d+)$/.exec(key);
+    (byMonth[ym] = byMonth[ym] || []).push(Number(n));
+  }
+  for (const [ym, ns] of Object.entries(byMonth)) {
+    ns.sort((a, b) => a - b);
+    assert.deepEqual(ns, ns.map((_, i) => i + 1), `${ym} week numbers must be 1..${ns.length}`);
+    assert.ok(ns.length >= 4 && ns.length <= 5, `${ym} has ${ns.length} weeks`);
+  }
+});
+
+test("weekWeekdays lists the five collecting days", () => {
+  assert.deepEqual(S.weekWeekdays("2026-10-W1"),
+    ["2026-09-28", "2026-09-29", "2026-09-30", "2026-10-01", "2026-10-02"]);
+  assert.ok(S.weekWeekdays("2026-10-W1").every((d) => !S.isWeekend(d)));
+});
+
+test("weekKeysOf collects the weeks present, newest first, ignoring undated words", () => {
+  const keys = S.weekKeysOf([
+    { addedDate: "2026-10-06" }, { addedDate: "2026-09-29" },
+    { addedDate: "2026-10-07" }, { addedDate: "" }, { }, { addedDate: "nope" },
+  ]);
+  assert.deepEqual(keys, ["2026-10-W2", "2026-10-W1"]);
+});
+
+test("weekKey rejects anything that is not a plain KST date", () => {
+  for (const bad of [null, undefined, "", "2026-10", "2026/10/06", "yesterday"]) {
+    assert.equal(S.weekKey(bad), null, String(bad));
+  }
+});
