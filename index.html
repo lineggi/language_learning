@@ -495,6 +495,15 @@
       text-align: center; font-size: 13px; color: var(--muted); margin: 14px 0 16px;
     }
 
+    /* 담기지 못한 단어 안내 */
+    .unsaved {
+      background: var(--card); border: 1px solid #e6bcbc; border-left: 3px solid #b23b3b;
+      border-radius: 12px; padding: 14px 14px 12px; margin-top: 16px;
+    }
+    .unsaved .unsaved-t { font-size: 10px; letter-spacing: .12em; color: #b23b3b; margin-bottom: 6px; }
+    .unsaved .unsaved-w { font-size: 15px; font-weight: 600; margin-bottom: 4px; word-break: break-word; }
+    .unsaved .unsaved-d { font-size: 13px; color: var(--muted); line-height: 1.5; margin-bottom: 10px; }
+
     /* 단어장 구성 전환 (진도별 / 주차별) */
     .modeswitch {
       display: flex; gap: 4px; padding: 4px; margin-bottom: 14px;
@@ -1459,6 +1468,9 @@
       const [completed, setCompleted] = useState(alreadyRead);
       const [openSent, setOpenSent] = useState(null); // expanded sentence index (study mode)
       const savedRef = useRef(false);
+      // Tapped words whose meaning could not be fetched — surfaced, not dropped.
+      const [unsaved, setUnsaved] = useState([]);
+      const [retrying, setRetrying] = useState(false);
       const doneRef = useRef(alreadyRead);
 
       const tokens = useMemo(() => tokenize(pack.passage), [pack.passage]);
@@ -1577,51 +1589,84 @@
         return hit ? hit.en.trim() : "";
       };
 
+      // Look up the meaning of words the article glossary doesn't cover, via
+      // /api/define. Returns what it managed to define AND what it didn't —
+      // the caller must account for both. Previously the failures were dropped
+      // by a bare `.filter(Boolean)` and the toast counted only the successes,
+      // so a learner who tapped six words, saw "1개 담았어요" and never learnt
+      // that the other five had gone nowhere.
+      const defineMissing = async (entries) => {
+        const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
+        if (!entries.length) return { defined: [], failed: [] };
+        if (!endpoint) return { defined: [], failed: entries }; // no server configured
+        const results = await Promise.all(entries.map(async (e) => {
+          try {
+            const r = await fetch(endpoint, {
+              method: "POST", headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({ word: e.surface, passage: pack.passage }),
+            });
+            if (!r.ok) return null;
+            const d = await r.json();
+            return d && d.meaning
+              ? { base: (d.word || e.base), def: d.meaning, pos: d.pos || null, example: d.example || sentenceContaining(e.surface) }
+              : null;
+          } catch { return null; }
+        }));
+        const defined = [], failed = [];
+        results.forEach((res, i) => { if (res) defined.push(res); else failed.push(entries[i]); });
+        return { defined, failed };
+      };
+
+      // Say what actually happened to the words the reader tapped — including
+      // the ones that could not be saved.
+      const reportCollected = (saved, failedCount) => {
+        const parts = [];
+        if (saved.length) {
+          const cls = saved.map((e) => classifyWord(wordbank, e.base));
+          const newCount = cls.filter((c) => c === "new").length;
+          const masteredCount = cls.filter((c) => c === "mastered").length;
+          const existsCount = saved.length - newCount - masteredCount;
+          if (!masteredCount && !existsCount) parts.push(`${saved.length}개 단어를 단어장에 담았어요`);
+          else {
+            if (newCount) parts.push(`${newCount}개 새로 담음`);
+            if (masteredCount) parts.push(`${masteredCount}개는 다시 미암기로`);
+            if (existsCount) parts.push(`${existsCount}개는 이미 있는 단어`);
+          }
+        }
+        if (failedCount) parts.push(`${failedCount}개는 뜻을 못 불러왔어요`);
+        if (parts.length) showToast(parts.join(" · "));
+      };
+
       // On completion, save the tapped words into the wordbank (once). Words in
       // the article glossary use that meaning; any others are defined on demand
-      // via /api/define so nothing is left as "사전에 없음". Each word also gets a
-      // short example sentence (the passage sentence, or one from the API).
+      // via /api/define. Whatever that can't define is kept in `unsaved` so the
+      // reader is told about it and can try again, instead of the words simply
+      // vanishing between "6개 단어 선택됨" and the wordbank.
       useEffect(() => {
         if (!completed || savedRef.current) return;
         savedRef.current = true;
         (async () => {
           const withDef = glossEntries.filter((e) => e.def).map((e) => ({ base: e.base, def: e.def, pos: e.pos, example: sentenceContaining(e.surface) }));
-          const noDef = glossEntries.filter((e) => !e.def);
-          const endpoint = (window.DBW_CONFIG || {}).DEFINE_ENDPOINT;
-          let fetched = [];
-          if (noDef.length && endpoint) {
-            const results = await Promise.all(noDef.map(async (e) => {
-              try {
-                const r = await fetch(endpoint, {
-                  method: "POST", headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ word: e.surface, passage: pack.passage }),
-                });
-                if (!r.ok) return null;
-                const d = await r.json();
-                return d && d.meaning ? { base: (d.word || e.base), def: d.meaning, pos: d.pos || null, example: d.example || sentenceContaining(e.surface) } : null;
-              } catch { return null; }
-            }));
-            fetched = results.filter(Boolean);
-          }
-          const all = [...withDef, ...fetched];
-          if (all.length) {
-            const cls = all.map((e) => classifyWord(wordbank, e.base));
-            const newCount = cls.filter((c) => c === "new").length;
-            const masteredCount = cls.filter((c) => c === "mastered").length;
-            const existsCount = all.length - newCount - masteredCount;
-            onAddWords(all, pack.id);
-            if (!masteredCount && !existsCount) {
-              showToast(all.length + "개 단어를 단어장에 담았어요");
-            } else {
-              const parts = [];
-              if (newCount) parts.push(`${newCount}개 새로 담음`);
-              if (masteredCount) parts.push(`${masteredCount}개는 다시 미암기로`);
-              if (existsCount) parts.push(`${existsCount}개는 이미 있는 단어`);
-              showToast(parts.join(" · "));
-            }
-          }
+          const { defined, failed } = await defineMissing(glossEntries.filter((e) => !e.def));
+          const all = [...withDef, ...defined];
+          if (all.length) onAddWords(all, pack.id);
+          setUnsaved(failed);
+          reportCollected(all, failed.length);
         })();
       }, [completed]);
+
+      // Retry the ones that failed. Anything still undefined stays listed, so
+      // repeated attempts never quietly lose a word either.
+      const retryUnsaved = async () => {
+        if (retrying || !unsaved.length) return;
+        setRetrying(true);
+        try {
+          const { defined, failed } = await defineMissing(unsaved);
+          if (defined.length) onAddWords(defined, pack.id);
+          setUnsaved(failed);
+          reportCollected(defined, failed.length);
+        } finally { setRetrying(false); }
+      };
 
       // Persist highlighted words per pack so they remain after navigating away.
       useEffect(() => {
@@ -1700,6 +1745,19 @@
                   </span>
                 ))}
               </div>
+
+              {unsaved.length > 0 && (
+                <div className="unsaved">
+                  <div className="unsaved-t mono">담기지 못한 단어 {unsaved.length}개</div>
+                  <div className="unsaved-w">{unsaved.map((e) => e.surface).join(", ")}</div>
+                  <div className="unsaved-d">
+                    뜻을 불러오지 못했어요. 잠시 뒤 다시 시도하면 단어장에 담깁니다.
+                  </div>
+                  <button className="btn ghost" onClick={retryUnsaved} disabled={retrying}>
+                    {retrying ? "불러오는 중…" : "다시 시도"}
+                  </button>
+                </div>
+              )}
 
               <div className="divider" />
               <Drill pack={pack} />
@@ -1795,6 +1853,30 @@
     /* ------------------------------------------------------------------ */
     /* Writing: 3 prompts, self-graded model answers                       */
     /* ------------------------------------------------------------------ */
+    // POST JSON to one of the /api/* functions and come back with either data
+    // or a message worth reading. The body is parsed defensively: a missing
+    // function answers with plain text, so `r.json()` throws, and that raw
+    // SyntaxError used to be shown verbatim — "채점 실패: Unexpected token 'o',
+    // \"not found\" is not valid JSON".
+    async function postJson(endpoint, body) {
+      let r;
+      try {
+        r = await fetch(endpoint, {
+          method: "POST", headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+        });
+      } catch (e) {
+        return { error: "서버에 연결하지 못했어요 · 네트워크를 확인해 주세요" };
+      }
+      let data = null;
+      try { data = await r.json(); } catch (e) { data = null; }
+      if (r.ok && data) return { data };
+      if (r.status === 404) return { error: "AI 채점 서버가 아직 준비되지 않았어요" };
+      if (r.status === 429) return { error: "요청이 많아요 · 잠시 뒤 다시 시도해 주세요" };
+      if (data && data.error) return { error: String(data.error) };
+      return { error: `서버 오류 (HTTP ${r.status})` };
+    }
+
     function Writing({ pack, showToast, onAddErrors, saved, onSave }) {
       const qs = pack.questions || [];
       const ans = pack.modelAnswers || [];
@@ -1868,15 +1950,9 @@
         for (let i = 0; i < qs.length; i++) {
           const ua = (inputs[i] || "").trim();
           if (!ua) { acc[i] = { skipped: true }; setGrades({ ...acc }); continue; }
-          try {
-            const r = await fetch(endpoint, {
-              method: "POST", headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ question: qs[i], passage: pack.passage, modelAnswer: ans[i], userAnswer: ua }),
-            });
-            const data = await r.json();
-            acc[i] = r.ok ? data : { error: data.error || ("HTTP " + r.status) };
-            if (r.ok && data && onAddErrors) onAddErrors(data.corrections, pack.id); // save to 오답 노트
-          } catch (e) { acc[i] = { error: String((e && e.message) || e) }; }
+          const res = await postJson(endpoint, { question: qs[i], passage: pack.passage, modelAnswer: ans[i], userAnswer: ua });
+          acc[i] = res.data || { error: res.error };
+          if (res.data && onAddErrors) onAddErrors(res.data.corrections, pack.id); // save to 오답 노트
           setGrades({ ...acc });
         }
         setGrading(false);
@@ -1895,17 +1971,9 @@
         })).filter((it) => it.userAnswer);
         if (!items.length) return;
         setOverallLoading(true);
-        try {
-          const r = await fetch(overallEndpoint, {
-            method: "POST", headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ items }),
-          });
-          const data = await r.json();
-          if (r.ok && data && data.overall) setOverall(data);
-          else setOverall({ error: (data && data.error) || ("HTTP " + r.status) });
-        } catch (e) {
-          setOverall({ error: String((e && e.message) || e) });
-        }
+        const res = await postJson(overallEndpoint, { items });
+        if (res.data && res.data.overall) setOverall(res.data);
+        else setOverall({ error: res.error || "총평을 만들지 못했어요" });
         setOverallLoading(false);
       };
 
