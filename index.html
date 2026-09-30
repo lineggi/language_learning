@@ -801,7 +801,7 @@
       REVIEW_DUE_DAYS, stageOf, reviewDue, classifyWord,
       normalizeStreak, pickStreak, bumpStreak,
       mergeWordbank, mergeReads, mergeErrors, mergeWriting,
-      TOMBSTONE_TTL_MS, sweepTombstones,
+      TOMBSTONE_TTL_MS, sweepTombstones, isMissingColumn,
       candidateForms, glossVal, lookupGloss, normText, POS_KO,
     } = window.DBW;
 
@@ -1032,12 +1032,23 @@
             const st = data ? pickStreak(streak, data.streak) : streak;
             const er = data ? mergeErrors(errors, data.errors) : errors;
             const wr = data ? mergeWriting(writing, data.writing) : writing;
-            const { error } = await SB.from("user_state").upsert({
+            // 오답노트(errors) and 영작(writing) are newer columns. A project
+            // whose supabase/schema.sql predates them rejects the whole upsert,
+            // which would stop the wordbank, reads and streak syncing too — so
+            // fall back to the long-standing columns and say what's missing
+            // rather than losing every kind of sync at once.
+            const base = {
               user_id: session.user.id, wordbank: wb, reads: rd, streak: st,
-              errors: er, writing: wr,
               updated_at: new Date().toISOString(),
-            });
-            if (error) { setSyncMsg("저장 오류"); return; }
+            };
+            let { error } = await SB.from("user_state").upsert({ ...base, errors: er, writing: wr });
+            let degraded = false;
+            if (error && isMissingColumn(error)) {
+              ({ error } = await SB.from("user_state").upsert(base));
+              degraded = !error;
+            }
+            if (error) { setSyncMsg("저장 오류 · " + (error.message || error.code || "알 수 없음")); return; }
+            setSyncMsg(degraded ? "DB 업데이트 필요 · 오답노트·영작은 이 기기에만 저장돼요" : "동기화됨");
             // Reflect the merged result locally (guarded so it can't loop).
             const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
             setWordbank((loc) => (same(wb, loc) ? loc : wb));
@@ -1045,7 +1056,7 @@
             setStreak((loc) => (same(st, loc) ? loc : st));
             setErrors((loc) => (same(er, loc) ? loc : er));
             setWriting((loc) => (same(wr, loc) ? loc : wr));
-          } catch (e) { setSyncMsg("저장 오류"); }
+          } catch (e) { setSyncMsg("저장 오류 · " + ((e && e.message) || "네트워크 확인")); }
         }, 1200);
         return () => saveTimer.current && clearTimeout(saveTimer.current);
       }, [wordbank, reads, streak, errors, writing, session, hydrated]);

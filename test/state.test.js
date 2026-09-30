@@ -291,3 +291,28 @@ test("weekKey rejects anything that is not a plain KST date", () => {
     assert.equal(S.weekKey(bad), null, String(bad));
   }
 });
+
+/* --------------------------------------------- schema drift in sync -- */
+
+test("isMissingColumn spots a table that predates the errors/writing columns", () => {
+  // What PostgREST actually returns when the column isn't in its schema cache.
+  assert.equal(S.isMissingColumn({ code: "PGRST204",
+    message: "Could not find the 'errors' column of 'user_state' in the schema cache" }), true);
+  // ...and what Postgres itself returns.
+  assert.equal(S.isMissingColumn({ code: "42703",
+    message: 'column "writing" of relation "user_state" does not exist' }), true);
+  // Message-only, no code.
+  assert.equal(S.isMissingColumn({ message: 'column "writing" does not exist' }), true);
+});
+
+test("isMissingColumn does not swallow unrelated failures", () => {
+  // These must keep surfacing as a real error, not be retried into a
+  // half-written row that silently stops syncing 오답노트 and 영작.
+  for (const err of [
+    null, undefined, {},
+    { code: "42501", message: "new row violates row-level security policy" },
+    { code: "23505", message: "duplicate key value violates unique constraint" },
+    { message: "TypeError: Failed to fetch" },
+    { code: "PGRST301", message: "JWT expired" },
+  ]) assert.equal(S.isMissingColumn(err), false, JSON.stringify(err));
+});
