@@ -1,5 +1,941 @@
 [
   {
+    "id": "cd-2026-10-04-1",
+    "date": "2026-10-04",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "블랙록이 자산 토큰화의 미래를 어떻게 보고 있는지, 그리고 이것이 투자 포트폴리오를 어떻게 바꿀지 알아보세요.",
+    "url": "https://www.coindesk.com/business/2026/10/03/blackrock-offers-a-glimpse-of-how-tokenization-may-change-your-investment-portfolio",
+    "title": "BlackRock Explores Tokenization's Future for Investment Portfolios",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "BlackRock, a leading asset manager, is actively exploring the potential of tokenization. This innovative technology could fundamentally transform how investment portfolios are structured. Tokenization extends beyond merely placing individual stocks or funds onto a blockchain. It envisions entire investment portfolios being managed and traded digitally. This means investors could experience real-time rebalancing and potentially enhanced liquidity. Ultimately, they might gain greater control and flexibility over their diverse holdings. The core process involves representing real-world assets as secure digital tokens. These tokens can then be efficiently and transparently traded on blockchain networks. This financial innovation promises to make investing significantly more efficient and widely accessible. It also aims to reduce many traditional market complexities and intermediaries. BlackRock's growing interest signals a profound shift in the finance industry. This strategic move could pave the way for the widespread adoption of various tokenized assets globally. It strongly suggests a future where digital assets are central to mainstream investing practices.",
+    "sentences": [
+      {
+        "en": "BlackRock, a leading asset manager, is actively exploring the potential of tokenization.",
+        "ko": "선도적인 자산 관리 회사인 블랙록이 토큰화의 잠재력을 적극적으로 탐색하고 있습니다."
+      },
+      {
+        "en": "This innovative technology could fundamentally transform how investment portfolios are structured.",
+        "ko": "이 혁신적인 기술은 투자 포트폴리오가 구성되는 방식을 근본적으로 변화시킬 수 있습니다."
+      },
+      {
+        "en": "Tokenization extends beyond merely placing individual stocks or funds onto a blockchain.",
+        "ko": "토큰화는 단순히 개별 주식이나 펀드를 블록체인에 올리는 것을 넘어섭니다."
+      },
+      {
+        "en": "It envisions entire investment portfolios being managed and traded digitally.",
+        "ko": "이는 전체 투자 포트폴리오가 디지털 방식으로 관리되고 거래되는 것을 구상합니다."
+      },
+      {
+        "en": "This means investors could experience real-time rebalancing and potentially enhanced liquidity.",
+        "ko": "이는 투자자들이 실시간 리밸런싱과 잠재적으로 향상된 유동성을 경험할 수 있음을 의미합니다."
+      },
+      {
+        "en": "Ultimately, they might gain greater control and flexibility over their diverse holdings.",
+        "ko": "궁극적으로 그들은 다양한 보유 자산에 대해 더 큰 통제력과 유연성을 얻을 수 있습니다."
+      },
+      {
+        "en": "The core process involves representing real-world assets as secure digital tokens.",
+        "ko": "핵심 과정은 실제 자산을 안전한 디지털 토큰으로 나타내는 것을 포함합니다."
+      },
+      {
+        "en": "These tokens can then be efficiently and transparently traded on blockchain networks.",
+        "ko": "이 토큰들은 블록체인 네트워크에서 효율적이고 투명하게 거래될 수 있습니다."
+      },
+      {
+        "en": "This financial innovation promises to make investing significantly more efficient and widely accessible.",
+        "ko": "이 금융 혁신은 투자를 훨씬 더 효율적이고 광범위하게 접근 가능하게 만들 것을 약속합니다."
+      },
+      {
+        "en": "It also aims to reduce many traditional market complexities and intermediaries.",
+        "ko": "또한 많은 전통적인 시장의 복잡성과 중개자를 줄이는 것을 목표로 합니다."
+      },
+      {
+        "en": "BlackRock's growing interest signals a profound shift in the finance industry.",
+        "ko": "블랙록의 증가하는 관심은 금융 산업의 심오한 변화를 알립니다."
+      },
+      {
+        "en": "This strategic move could pave the way for the widespread adoption of various tokenized assets globally.",
+        "ko": "이 전략적인 움직임은 전 세계적으로 다양한 토큰화된 자산의 광범위한 채택을 위한 길을 열 수 있습니다."
+      },
+      {
+        "en": "It strongly suggests a future where digital assets are central to mainstream investing practices.",
+        "ko": "이는 디지털 자산이 주류 투자 관행의 중심이 되는 미래를 강력히 시사합니다."
+      }
+    ],
+    "glossary": {
+      "asset": {
+        "meaning": "Something valuable owned by a person or company that can be used to pay debts or generate income.",
+        "pos": "noun"
+      },
+      "manager": {
+        "meaning": "A person or organization responsible for controlling or administering all or part of a company.",
+        "pos": "noun"
+      },
+      "exploring": {
+        "meaning": "Investigating or discussing a subject or issue in detail to learn more about it.",
+        "pos": "verb"
+      },
+      "potential": {
+        "meaning": "Latent qualities or abilities that may be developed and lead to future success or usefulness.",
+        "pos": "noun"
+      },
+      "tokenization": {
+        "meaning": "The process of converting a real-world asset into a digital token on a blockchain.",
+        "pos": "noun"
+      },
+      "innovative": {
+        "meaning": "Featuring new methods, ideas, or products; original and creative in approach.",
+        "pos": "adjective"
+      },
+      "fundamentally": {
+        "meaning": "In a basic and important way; at a deep or essential level.",
+        "pos": "adverb"
+      },
+      "transform": {
+        "meaning": "To make a thorough or dramatic change in the form, appearance, or character of something.",
+        "pos": "verb"
+      },
+      "portfolios": {
+        "meaning": "A range of investments held by an individual or organization.",
+        "pos": "noun"
+      },
+      "structured": {
+        "meaning": "Arranged or organized in a systematic way.",
+        "pos": "adjective"
+      },
+      "extends": {
+        "meaning": "To stretch or spread out to a greater distance or scope.",
+        "pos": "verb"
+      },
+      "merely": {
+        "meaning": "Just; only; no more than what is specified.",
+        "pos": "adverb"
+      },
+      "blockchain": {
+        "meaning": "A decentralized, distributed digital ledger that records transactions across many computers.",
+        "pos": "noun"
+      },
+      "envisions": {
+        "meaning": "To imagine as a future possibility; to visualize or foresee.",
+        "pos": "verb"
+      },
+      "digitally": {
+        "meaning": "In a way that involves or relates to the use of computer technology.",
+        "pos": "adverb"
+      },
+      "rebalancing": {
+        "meaning": "The process of adjusting a portfolio's asset allocation back to its original target.",
+        "pos": "noun"
+      },
+      "enhanced": {
+        "meaning": "Improved or increased in quality, value, or extent.",
+        "pos": "adjective"
+      },
+      "liquidity": {
+        "meaning": "The availability of liquid assets to a market or company; ease of converting assets to cash.",
+        "pos": "noun"
+      },
+      "holdings": {
+        "meaning": "Assets such as stocks, property, or money that a person or company owns.",
+        "pos": "noun"
+      },
+      "transparently": {
+        "meaning": "In a way that is open, honest, and easily understood, with nothing hidden.",
+        "pos": "adverb"
+      },
+      "accessible": {
+        "meaning": "Able to be reached or entered; easy to obtain or use.",
+        "pos": "adjective"
+      },
+      "intermediaries": {
+        "meaning": "People or organizations that act as a link between parties to bring about an agreement.",
+        "pos": "noun"
+      },
+      "profound": {
+        "meaning": "Very great or intense; showing great knowledge or insight.",
+        "pos": "adjective"
+      },
+      "widespread": {
+        "meaning": "Found or distributed over a large area or among many people.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What is BlackRock exploring, and how does it plan to change investment portfolios?",
+      "In the context of the passage, what does \"rebalancing\" refer to, and why is \"liquidity\" considered enhanced by tokenization?",
+      "Do you believe tokenization will truly reduce market complexities and make investing more accessible globally? Explain your perspective."
+    ],
+    "modelAnswers": [
+      "BlackRock is exploring tokenization, which aims to transform investment portfolios by managing and trading entire portfolios digitally, offering real-time rebalancing and enhanced liquidity.",
+      "\"Rebalancing\" refers to adjusting a portfolio's asset allocation back to its target. \"Liquidity\" is enhanced because tokenization allows assets to be traded more easily and quickly on blockchain networks.",
+      "Yes, I believe tokenization has the potential to reduce complexities by streamlining transactions and removing intermediaries. It could also increase accessibility by fractionalizing assets and enabling global trading."
+    ]
+  },
+  {
+    "id": "cd-2026-10-04-2",
+    "date": "2026-10-04",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "핀테크 기업 OpenPayd가 나스닥 상장을 통해 미국 시장에 진출하고 인수 합병을 추진하는 계획을 확인하세요.",
+    "url": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions",
+    "title": "OpenPayd Eyes Nasdaq Listing for US Expansion",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "OpenPayd, a payments firm, plans to list on Nasdaq by year-end. This strategic move aims to fund its ambitious U.S. expansion. The company intends to launch operations in the U.S. by April 2027. OpenPayd is actively seeking deals for licenses and technology. CEO Iana Dimitrova highlighted the importance of this growth strategy. A Nasdaq listing would provide significant capital for these initiatives. It also enhances the company's public profile and credibility. Expanding into the U.S. market is a key step for global fintech players. This move will help OpenPayd compete with established payment providers. It reflects the growing trend of fintech companies seeking broader market reach. Such listings can attract more investors and secure future funding rounds. This expansion could also involve navigating complex U.S. financial regulations.",
+    "sentences": [
+      {
+        "en": "OpenPayd, a payments firm, plans to list on Nasdaq by year-end.",
+        "ko": "결제 회사인 OpenPayd는 연말까지 나스닥에 상장할 계획입니다."
+      },
+      {
+        "en": "This strategic move aims to fund its ambitious U.S. expansion.",
+        "ko": "이 전략적인 움직임은 미국의 야심찬 확장을 위한 자금 조달을 목표로 합니다."
+      },
+      {
+        "en": "The company intends to launch operations in the U.S. by April 2027.",
+        "ko": "회사는 2027년 4월까지 미국에서 사업을 시작할 예정입니다."
+      },
+      {
+        "en": "OpenPayd is actively seeking deals for licenses and technology.",
+        "ko": "OpenPayd는 라이선스와 기술 확보를 위한 거래를 적극적으로 모색하고 있습니다."
+      },
+      {
+        "en": "CEO Iana Dimitrova highlighted the importance of this growth strategy.",
+        "ko": "CEO 이아나 디미트로바는 이러한 성장 전략의 중요성을 강조했습니다."
+      },
+      {
+        "en": "A Nasdaq listing would provide significant capital for these initiatives.",
+        "ko": "나스닥 상장은 이러한 이니셔티브를 위한 상당한 자본을 제공할 것입니다."
+      },
+      {
+        "en": "It also enhances the company's public profile and credibility.",
+        "ko": "또한 회사의 대중적 인지도와 신뢰도를 높입니다."
+      },
+      {
+        "en": "Expanding into the U.S. market is a key step for global fintech players.",
+        "ko": "미국 시장으로의 확장은 글로벌 핀테크 기업들에게 중요한 단계입니다."
+      },
+      {
+        "en": "This move will help OpenPayd compete with established payment providers.",
+        "ko": "이러한 움직임은 OpenPayd가 기존 결제 제공업체와 경쟁하는 데 도움이 될 것입니다."
+      },
+      {
+        "en": "It reflects the growing trend of fintech companies seeking broader market reach.",
+        "ko": "이는 더 넓은 시장 도달 범위를 추구하는 핀테크 기업들의 증가하는 추세를 반영합니다."
+      },
+      {
+        "en": "Such listings can attract more investors and secure future funding rounds.",
+        "ko": "이러한 상장은 더 많은 투자자를 유치하고 미래 자금 조달 라운드를 확보할 수 있습니다."
+      },
+      {
+        "en": "This expansion could also involve navigating complex U.S. financial regulations.",
+        "ko": "이 확장은 또한 복잡한 미국 금융 규제를 헤쳐나가는 것을 포함할 수 있습니다."
+      }
+    ],
+    "glossary": {
+      "payments": {
+        "meaning": "Money paid in exchange for goods or services.",
+        "pos": "noun"
+      },
+      "firm": {
+        "meaning": "A business organization or company.",
+        "pos": "noun"
+      },
+      "nasdaq": {
+        "meaning": "A global electronic marketplace for buying and selling securities.",
+        "pos": "noun"
+      },
+      "strategic": {
+        "meaning": "Relating to the identification of long-term or overall aims and interests and the means of achieving them.",
+        "pos": "adjective"
+      },
+      "ambitious": {
+        "meaning": "Having or showing a strong desire and determination to succeed.",
+        "pos": "adjective"
+      },
+      "expansion": {
+        "meaning": "The action of becoming larger or more extensive.",
+        "pos": "noun"
+      },
+      "intends": {
+        "meaning": "To have as one's purpose or aim.",
+        "pos": "verb"
+      },
+      "operations": {
+        "meaning": "The activities involved in running a business or organization.",
+        "pos": "noun"
+      },
+      "seeking": {
+        "meaning": "Trying to find or obtain something.",
+        "pos": "verb"
+      },
+      "licenses": {
+        "meaning": "Official permissions or permits to do, use, or own something.",
+        "pos": "noun"
+      },
+      "highlighted": {
+        "meaning": "Drew attention to something as important.",
+        "pos": "verb"
+      },
+      "initiatives": {
+        "meaning": "Important new plans or programs.",
+        "pos": "noun"
+      },
+      "enhances": {
+        "meaning": "To intensify, increase, or further improve the quality, value, or extent of.",
+        "pos": "verb"
+      },
+      "profile": {
+        "meaning": "A description of someone or something, especially one that provides useful information.",
+        "pos": "noun"
+      },
+      "credibility": {
+        "meaning": "The quality of being convincing or believable.",
+        "pos": "noun"
+      },
+      "compete": {
+        "meaning": "To strive to gain or win something by defeating or establishing superiority over others.",
+        "pos": "verb"
+      },
+      "established": {
+        "meaning": "Having been in existence for a long time and therefore recognized and generally accepted.",
+        "pos": "adjective"
+      },
+      "providers": {
+        "meaning": "People or companies that supply a service or commodity.",
+        "pos": "noun"
+      },
+      "reflects": {
+        "meaning": "Shows an image of; indicates.",
+        "pos": "verb"
+      },
+      "trend": {
+        "meaning": "A general direction in which something is developing or changing.",
+        "pos": "noun"
+      },
+      "attract": {
+        "meaning": "To draw by appeal.",
+        "pos": "verb"
+      },
+      "secure": {
+        "meaning": "To obtain something, especially after a lot of effort.",
+        "pos": "verb"
+      },
+      "navigating": {
+        "meaning": "Planning and directing the route or course of a ship, aircraft, or other form of transport, or dealing with complex situations.",
+        "pos": "verb"
+      },
+      "regulations": {
+        "meaning": "Rules or laws made by an authority.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is OpenPayd's main goal for its Nasdaq listing, and by when does it aim to launch U.S. operations?",
+      "Explain what \"strategic move\" means in this context and why a Nasdaq listing might \"enhance credibility\" for a fintech company.",
+      "Do you think the U.S. market is essential for global fintech players, and what challenges might OpenPayd face with its expansion?"
+    ],
+    "modelAnswers": [
+      "OpenPayd's main goal for its Nasdaq listing is to fund its U.S. expansion and acquisitions. It aims to launch U.S. operations by April 2027.",
+      "A \"strategic move\" is a carefully planned action to achieve a specific long-term goal. A Nasdaq listing enhances credibility by signaling financial stability, transparency, and adherence to regulatory standards.",
+      "Yes, the U.S. market is crucial due to its size and innovation. OpenPayd might face challenges like intense competition, navigating complex state-level regulations, and building brand recognition."
+    ]
+  },
+  {
+    "id": "cd-2026-10-04-3",
+    "date": "2026-10-04",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "AI 에이전트가 실제 돈을 지출하기 시작하면서 투자자들이 금융 네트워크를 어떻게 바라봐야 할지 캐시 우드의 통찰력을 들어보세요.",
+    "url": "https://www.coindesk.com/markets/2026/10/01/cathie-wood-says-smart-investors-need-to-start-watching-where-ai-agents-spend-money",
+    "title": "Cathie Wood: AI Agents Will Reshape Commerce",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Cathie Wood suggests investors monitor AI agents' spending habits. These AI agents are evolving beyond simple question-answering. They are starting to manage and spend real money autonomously. This shift creates new opportunities and challenges for the financial sector. Investors and tech giants are now competing for control. They want to dominate the financial networks powering machine-driven commerce. Understanding these networks will be crucial for future investment success. As AI becomes more integrated into daily transactions, its influence grows. This trend signifies a major transformation in how money moves. It prompts a re-evaluation of traditional commerce models. The race to build the infrastructure for this AI economy is on. This development could reshape banking, payments, and investment strategies. It highlights the convergence of artificial intelligence and finance.",
+    "sentences": [
+      {
+        "en": "Cathie Wood suggests investors monitor AI agents' spending habits.",
+        "ko": "캐시 우드는 투자자들이 AI 에이전트의 지출 습관을 주시해야 한다고 제안합니다."
+      },
+      {
+        "en": "These AI agents are evolving beyond simple question-answering.",
+        "ko": "이러한 AI 에이전트들은 단순한 질문 답변을 넘어 진화하고 있습니다."
+      },
+      {
+        "en": "They are starting to manage and spend real money autonomously.",
+        "ko": "그들은 자율적으로 실제 돈을 관리하고 지출하기 시작하고 있습니다."
+      },
+      {
+        "en": "This shift creates new opportunities and challenges for the financial sector.",
+        "ko": "이러한 변화는 금융 부문에 새로운 기회와 도전을 만들어냅니다."
+      },
+      {
+        "en": "Investors and tech giants are now competing for control.",
+        "ko": "투자자들과 기술 대기업들은 이제 통제권을 놓고 경쟁하고 있습니다."
+      },
+      {
+        "en": "They want to dominate the financial networks powering machine-driven commerce.",
+        "ko": "그들은 기계 주도 상거래를 지원하는 금융 네트워크를 지배하기를 원합니다."
+      },
+      {
+        "en": "Understanding these networks will be crucial for future investment success.",
+        "ko": "이러한 네트워크를 이해하는 것은 미래 투자 성공에 중요할 것입니다."
+      },
+      {
+        "en": "As AI becomes more integrated into daily transactions, its influence grows.",
+        "ko": "AI가 일상적인 거래에 더 많이 통합될수록 그 영향력은 커집니다."
+      },
+      {
+        "en": "This trend signifies a major transformation in how money moves.",
+        "ko": "이러한 추세는 돈이 움직이는 방식의 주요한 변화를 의미합니다."
+      },
+      {
+        "en": "It prompts a re-evaluation of traditional commerce models.",
+        "ko": "이는 전통적인 상거래 모델에 대한 재평가를 촉발합니다."
+      },
+      {
+        "en": "The race to build the infrastructure for this AI economy is on.",
+        "ko": "이 AI 경제를 위한 인프라를 구축하기 위한 경쟁이 시작되었습니다."
+      },
+      {
+        "en": "This development could reshape banking, payments, and investment strategies.",
+        "ko": "이러한 발전은 은행 업무, 결제 및 투자 전략을 재편할 수 있습니다."
+      },
+      {
+        "en": "It highlights the convergence of artificial intelligence and finance.",
+        "ko": "이는 인공지능과 금융의 융합을 강조합니다."
+      }
+    ],
+    "glossary": {
+      "suggests": {
+        "meaning": "Puts forward for consideration or thought.",
+        "pos": "verb"
+      },
+      "monitor": {
+        "meaning": "To observe and check the progress or quality of something over a period of time.",
+        "pos": "verb"
+      },
+      "habits": {
+        "meaning": "Settled or regular tendencies or practices, especially ones that are hard to give up.",
+        "pos": "noun"
+      },
+      "evolving": {
+        "meaning": "Developing gradually, especially from a simple to a more complex form.",
+        "pos": "verb"
+      },
+      "beyond": {
+        "meaning": "At or to the further side of; surpassing the limits or scope of.",
+        "pos": "preposition"
+      },
+      "autonomously": {
+        "meaning": "Acting independently or having the freedom to do so without external control.",
+        "pos": "adverb"
+      },
+      "shift": {
+        "meaning": "A slight change in position, direction, or tendency.",
+        "pos": "noun"
+      },
+      "opportunities": {
+        "meaning": "Sets of circumstances that make it possible to do something.",
+        "pos": "noun"
+      },
+      "challenges": {
+        "meaning": "Difficulties that test one's ability or determination.",
+        "pos": "noun"
+      },
+      "competing": {
+        "meaning": "Striving to gain or win something by defeating or establishing superiority over others.",
+        "pos": "verb"
+      },
+      "dominate": {
+        "meaning": "To have a commanding influence on; exercise control over.",
+        "pos": "verb"
+      },
+      "powering": {
+        "meaning": "Supplying with mechanical or electrical energy, or enabling its operation.",
+        "pos": "verb"
+      },
+      "machine-driven": {
+        "meaning": "Operated or controlled by a machine rather than a human.",
+        "pos": "adjective"
+      },
+      "commerce": {
+        "meaning": "The activity of buying and selling, especially on a large scale.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "Extremely important, because it will affect other things.",
+        "pos": "adjective"
+      },
+      "integrated": {
+        "meaning": "With different parts linked or coordinated closely, forming a whole.",
+        "pos": "adjective"
+      },
+      "influence": {
+        "meaning": "The capacity to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "noun"
+      },
+      "signifies": {
+        "meaning": "To be an indication of something.",
+        "pos": "verb"
+      },
+      "transformation": {
+        "meaning": "A dramatic change in form or appearance.",
+        "pos": "noun"
+      },
+      "prompts": {
+        "meaning": "Causes or brings about an action or feeling.",
+        "pos": "verb"
+      },
+      "re-evaluation": {
+        "meaning": "The action of assessing something again or differently.",
+        "pos": "noun"
+      },
+      "infrastructure": {
+        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
+        "pos": "noun"
+      },
+      "reshape": {
+        "meaning": "To give a new or different shape or form to.",
+        "pos": "verb"
+      },
+      "convergence": {
+        "meaning": "The process or state of converging; coming together from different directions.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "According to Cathie Wood, what are AI agents starting to do, and who is competing for control over the financial networks?",
+      "What does \"autonomously\" mean in the context of AI agents spending money, and why is \"infrastructure\" important for the AI economy?",
+      "How do you think the rise of AI agents managing and spending money could impact financial privacy and security for individuals?"
+    ],
+    "modelAnswers": [
+      "Cathie Wood states that AI agents are starting to manage and spend real money autonomously. Investors and tech giants are competing for control over the financial networks.",
+      "\"Autonomously\" means AI agents can make financial decisions and spend money independently without direct human intervention. Infrastructure is important for the AI economy because it provides the foundational systems and networks needed for AI agents to operate and conduct transactions.",
+      "The rise of AI agents could significantly impact privacy by potentially exposing personal spending patterns to AI systems. For security, it introduces new vulnerabilities if these autonomous systems are hacked, requiring robust new safeguards."
+    ]
+  },
+  {
+    "id": "ec-2026-10-04-1",
+    "date": "2026-10-04",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "이번 달 고용 보고서가 예상치를 크게 밑돌면서 미국 노동 시장의 둔화 조짐을 파악하고 관련 경제 용어를 익혀보세요.",
+    "url": "https://www.cnbc.com/2026/10/02/jobs-report-september-2026.html",
+    "title": "US Job Growth Slows Significantly in September",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The U.S. labor market experienced a notable slowdown in September, surprising many analysts. Employers added significantly fewer jobs than economists had projected, indicating a shift. Nonfarm payrolls increased by only 29,000, falling far below the 84,000 forecast. This figure marked a sharp decrease from the robust gains observed in the previous month. Consequently, the national unemployment rate edged up slightly to 4.2%. This rise suggests a definite cooling trend in the overall job market, impacting worker confidence. Such data often critically influences the Federal Reserve's upcoming monetary policy decisions. A weaker jobs report can significantly reduce the likelihood of future interest rate hikes, easing market pressure. This development could impact consumer spending, business investment, and broader economic growth prospects. Businesses might also adjust their hiring and expansion plans based on these latest, cautious figures. Understanding these reports is crucial for assessing economic health and future market directions.",
+    "sentences": [
+      {
+        "en": "The U.S. labor market experienced a notable slowdown in September, surprising many analysts.",
+        "ko": "미국 노동 시장은 9월에 눈에 띄게 둔화되었고, 많은 분석가들을 놀라게 했습니다."
+      },
+      {
+        "en": "Employers added significantly fewer jobs than economists had projected, indicating a shift.",
+        "ko": "고용주들은 경제학자들이 예측했던 것보다 훨씬 적은 일자리를 추가하며 변화를 나타냈습니다."
+      },
+      {
+        "en": "Nonfarm payrolls increased by only 29,000, falling far below the 84,000 forecast.",
+        "ko": "비농업 부문 고용은 겨우 29,000명 증가하여 84,000명이라는 예측치에 훨씬 못 미쳤습니다."
+      },
+      {
+        "en": "This figure marked a sharp decrease from the robust gains observed in the previous month.",
+        "ko": "이 수치는 지난달에 관찰된 견조한 증가세에서 급격히 감소한 것을 의미합니다."
+      },
+      {
+        "en": "Consequently, the national unemployment rate edged up slightly to 4.2%.",
+        "ko": "결과적으로 전국 실업률은 4.2%로 소폭 상승했습니다."
+      },
+      {
+        "en": "This rise suggests a definite cooling trend in the overall job market, impacting worker confidence.",
+        "ko": "이러한 상승은 전반적인 고용 시장의 확실한 둔화 추세를 시사하며, 근로자 신뢰에 영향을 미칩니다."
+      },
+      {
+        "en": "Such data often critically influences the Federal Reserve's upcoming monetary policy decisions.",
+        "ko": "이러한 데이터는 종종 연방준비제도(Fed)의 향후 통화 정책 결정에 결정적인 영향을 미칩니다."
+      },
+      {
+        "en": "A weaker jobs report can significantly reduce the likelihood of future interest rate hikes, easing market pressure.",
+        "ko": "약한 고용 보고서는 향후 금리 인상 가능성을 크게 줄여 시장 압력을 완화할 수 있습니다."
+      },
+      {
+        "en": "This development could impact consumer spending, business investment, and broader economic growth prospects.",
+        "ko": "이러한 전개는 소비자 지출, 기업 투자, 그리고 더 넓은 경제 성장 전망에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Businesses might also adjust their hiring and expansion plans based on these latest, cautious figures.",
+        "ko": "기업들 또한 이러한 최근의 신중한 수치에 따라 고용 및 확장 계획을 조정할 수 있습니다."
+      },
+      {
+        "en": "Understanding these reports is crucial for assessing economic health and future market directions.",
+        "ko": "이러한 보고서를 이해하는 것은 경제 건전성과 미래 시장 방향을 평가하는 데 중요합니다."
+      }
+    ],
+    "glossary": {
+      "notable": {
+        "meaning": "easy to see or notice; important or interesting in a particular way.",
+        "pos": "adjective"
+      },
+      "slowdown": {
+        "meaning": "a reduction in the speed or activity of something, especially in an economy.",
+        "pos": "noun"
+      },
+      "analysts": {
+        "meaning": "people who examine information carefully and in detail to understand it or explain it.",
+        "pos": "noun"
+      },
+      "projected": {
+        "meaning": "estimated or predicted what something would be in the future based on current data.",
+        "pos": "verb"
+      },
+      "forecast": {
+        "meaning": "a prediction or estimate of future events, especially concerning business or economic conditions.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy; not likely to fail or weaken under normal conditions.",
+        "pos": "adjective"
+      },
+      "observed": {
+        "meaning": "noticed or perceived something and registered it as a fact or occurrence.",
+        "pos": "verb"
+      },
+      "consequently": {
+        "meaning": "as a result of something that has just been mentioned; therefore.",
+        "pos": "adverb"
+      },
+      "critically": {
+        "meaning": "in a way that is very important or serious, often influencing outcomes.",
+        "pos": "adverb"
+      },
+      "influences": {
+        "meaning": "affects or changes the way that someone or something develops, behaves, or thinks.",
+        "pos": "verb"
+      },
+      "likelihood": {
+        "meaning": "the probability or chance of something happening in the future.",
+        "pos": "noun"
+      },
+      "easing": {
+        "meaning": "making something less severe, difficult, or painful for people or markets.",
+        "pos": "verb"
+      },
+      "prospects": {
+        "meaning": "the possibility or likelihood of some future event occurring, often positive.",
+        "pos": "noun"
+      },
+      "crucial": {
+        "meaning": "extremely important, because it will affect other things or determine success.",
+        "pos": "adjective"
+      },
+      "assessing": {
+        "meaning": "evaluating or judging the quality, importance, or value of something.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "According to the passage, what was the actual increase in nonfarm payrolls in September, and how did it compare to economists' forecasts?",
+      "What does the term \"cooling trend\" signify in the context of the job market, and how might it affect the Federal Reserve's monetary policy?",
+      "How do you think a significant slowdown in job growth could impact consumer confidence and spending habits in your country?"
+    ],
+    "modelAnswers": [
+      "Nonfarm payrolls increased by only 29,000 in September. This figure was far below the 84,000 jobs that economists had forecast.",
+      "A \"cooling trend\" means economic activity or job growth is decreasing. This suggests reduced pressure on inflation, potentially leading the Federal Reserve to be less likely to raise interest rates.",
+      "A slowdown in job growth could make consumers more cautious about their finances. They might reduce discretionary spending and increase savings, impacting overall economic activity."
+    ]
+  },
+  {
+    "id": "ec-2026-10-04-2",
+    "date": "2026-10-04",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "약한 고용 보고서 이후 연준의 금리 인상 가능성이 낮아졌다는 소식을 통해 금융 시장의 기대치와 중앙은행 정책 간의 관계를 이해해 보세요.",
+    "url": "https://www.cnbc.com/2026/10/02/fed-rate-hike-odds-decline-after-september-jobs-report.html",
+    "title": "Weak Jobs Report Lowers Fed Rate Hike Odds",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Following the recent weak jobs report, traders have significantly lowered their expectations. They now see little chance of a Federal Reserve interest rate hike in October. The September jobs data revealed a soft labor market performance. Nonfarm payrolls increased by only 29,000, much less than anticipated. This slowdown in job growth suggests reduced inflationary pressures. Less inflation typically means the Fed has less reason to tighten monetary policy. Financial markets quickly adjusted to this new outlook. The probability of a rate increase this month tumbled among investors. Central banks use interest rates to manage economic growth and price stability. Lowering hike expectations can provide relief to borrowers and businesses. This decision reflects the Fed's data-dependent approach to policy setting.",
+    "sentences": [
+      {
+        "en": "Following the recent weak jobs report, traders have significantly lowered their expectations.",
+        "ko": "최근의 부진한 고용 보고서 이후, 트레이더들은 자신들의 기대를 크게 낮췄습니다."
+      },
+      {
+        "en": "They now see little chance of a Federal Reserve interest rate hike in October.",
+        "ko": "그들은 이제 10월에 연방준비제도(Fed)의 금리 인상 가능성이 거의 없다고 봅니다."
+      },
+      {
+        "en": "The September jobs data revealed a soft labor market performance.",
+        "ko": "9월 고용 데이터는 부진한 노동 시장 성과를 드러냈습니다."
+      },
+      {
+        "en": "Nonfarm payrolls increased by only 29,000, much less than anticipated.",
+        "ko": "비농업 부문 고용은 겨우 29,000명 증가하여 예상보다 훨씬 적었습니다."
+      },
+      {
+        "en": "This slowdown in job growth suggests reduced inflationary pressures.",
+        "ko": "이러한 고용 증가 둔화는 인플레이션 압력이 감소했음을 시사합니다."
+      },
+      {
+        "en": "Less inflation typically means the Fed has less reason to tighten monetary policy.",
+        "ko": "인플레이션이 적다는 것은 일반적으로 연준이 통화 정책을 긴축할 이유가 적다는 것을 의미합니다."
+      },
+      {
+        "en": "Financial markets quickly adjusted to this new outlook.",
+        "ko": "금융 시장은 이러한 새로운 전망에 빠르게 적응했습니다."
+      },
+      {
+        "en": "The probability of a rate increase this month tumbled among investors.",
+        "ko": "이번 달 금리 인상 가능성은 투자자들 사이에서 급격히 떨어졌습니다."
+      },
+      {
+        "en": "Central banks use interest rates to manage economic growth and price stability.",
+        "ko": "중앙은행은 경제 성장과 물가 안정을 관리하기 위해 금리를 사용합니다."
+      },
+      {
+        "en": "Lowering hike expectations can provide relief to borrowers and businesses.",
+        "ko": "금리 인상 기대치를 낮추는 것은 차용자와 기업에 안도감을 줄 수 있습니다."
+      },
+      {
+        "en": "This decision reflects the Fed's data-dependent approach to policy setting.",
+        "ko": "이러한 결정은 정책 설정에 대한 연준의 데이터 의존적 접근 방식을 반영합니다."
+      }
+    ],
+    "glossary": {
+      "traders": {
+        "meaning": "people who buy and sell goods or financial assets, typically in large quantities.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "in a way that is great or important enough to be noticed or have an effect.",
+        "pos": "adverb"
+      },
+      "expectations": {
+        "meaning": "a strong belief that something will happen or be the case in the future.",
+        "pos": "noun"
+      },
+      "revealed": {
+        "meaning": "made previously unknown or secret information known to others.",
+        "pos": "verb"
+      },
+      "soft": {
+        "meaning": "not strong or firm; indicating a weak or mild economic performance.",
+        "pos": "adjective"
+      },
+      "anticipated": {
+        "meaning": "regarded as probable or expected; predicted to happen.",
+        "pos": "verb"
+      },
+      "typically": {
+        "meaning": "in most cases; usually or characteristically.",
+        "pos": "adverb"
+      },
+      "tighten": {
+        "meaning": "to make something stricter or more restrictive, especially monetary policy.",
+        "pos": "verb"
+      },
+      "outlook": {
+        "meaning": "a person's general attitude to life or a subject, or future prospects.",
+        "pos": "noun"
+      },
+      "probability": {
+        "meaning": "the extent to which something is likely to happen or be true; its chance.",
+        "pos": "noun"
+      },
+      "tumbled": {
+        "meaning": "fell suddenly and sharply, often referring to prices or values.",
+        "pos": "verb"
+      },
+      "investors": {
+        "meaning": "people who put money into financial schemes, shares, or property with the expectation of profit.",
+        "pos": "noun"
+      },
+      "manage": {
+        "meaning": "to be in charge of or to control something, often a business or economy.",
+        "pos": "verb"
+      },
+      "borrowers": {
+        "meaning": "people or organizations that take money from a bank or person with the intention of returning it.",
+        "pos": "noun"
+      },
+      "relief": {
+        "meaning": "a feeling of reassurance and relaxation following release from anxiety or distress.",
+        "pos": "noun"
+      },
+      "data-dependent": {
+        "meaning": "relying on current economic information and statistics to make decisions.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What specific economic report led traders to lower their expectations for a Fed rate hike in October?",
+      "Explain why a \"soft labor market performance\" might cause the Federal Reserve to be less inclined to tighten monetary policy.",
+      "As a fintech PM, how do changes in interest rate hike expectations influence your strategic planning for product development or market entry?"
+    ],
+    "modelAnswers": [
+      "The September jobs report, which showed a soft labor market performance, caused traders to lower their expectations for an October Fed rate hike.",
+      "A soft labor market suggests reduced demand and potentially lower wage growth, which helps ease inflationary pressures. With less inflation, the Fed has less reason to raise rates to cool the economy.",
+      "Lowered rate hike expectations can lead to cheaper borrowing costs, encouraging investment and consumer spending. For fintech, this might mean more favorable conditions for lending products or higher demand for investment platforms due to increased market confidence."
+    ]
+  },
+  {
+    "id": "ec-2026-10-04-3",
+    "date": "2026-10-04",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "AI가 월스트리트 직업을 어떻게 재정의하고 있으며, 핀테크 PM으로서 어떤 새로운 기술 수요에 주목해야 하는지 알아보세요.",
+    "url": "https://www.cnbc.com/2026/10/02/ai-redefining-wall-street-jobs.html",
+    "title": "AI Reshapes Wall Street, Boosts New Skill Demand",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "Artificial intelligence is profoundly redefining the landscape of Wall Street jobs. Financial institutions are rapidly integrating AI into their operations. This shift is creating new roles and changing existing ones dramatically. There is a massive surge in demand for specialized AI engineers. These professionals possess a crucial skill called \"agent orchestration.\" Agent orchestration involves coordinating multiple specialized AI agents effectively. It enables AI systems to collaborate on complex tasks, like market analysis. This capability is becoming the \"hottest skill\" in the financial sector. Banks are significantly increasing their hiring for these roles. The demand for this specific skill has reportedly skyrocketed by 1,721%. Fintech PMs should understand these evolving technological requirements. Adapting to these changes is vital for staying competitive in the industry.",
+    "sentences": [
+      {
+        "en": "Artificial intelligence is profoundly redefining the landscape of Wall Street jobs.",
+        "ko": "인공지능은 월스트리트 일자리의 지형을 심오하게 재정의하고 있습니다."
+      },
+      {
+        "en": "Financial institutions are rapidly integrating AI into their operations.",
+        "ko": "금융 기관들은 AI를 자신들의 운영에 빠르게 통합하고 있습니다."
+      },
+      {
+        "en": "This shift is creating new roles and changing existing ones dramatically.",
+        "ko": "이러한 변화는 새로운 역할을 만들고 기존 역할을 극적으로 바꾸고 있습니다."
+      },
+      {
+        "en": "There is a massive surge in demand for specialized AI engineers.",
+        "ko": "전문 AI 엔지니어에 대한 수요가 엄청나게 급증하고 있습니다."
+      },
+      {
+        "en": "These professionals possess a crucial skill called \"agent orchestration.\"",
+        "ko": "이 전문가들은 '에이전트 오케스트레이션'이라는 중요한 기술을 가지고 있습니다."
+      },
+      {
+        "en": "Agent orchestration involves coordinating multiple specialized AI agents effectively.",
+        "ko": "에이전트 오케스트레이션은 여러 전문 AI 에이전트를 효과적으로 조율하는 것을 포함합니다."
+      },
+      {
+        "en": "It enables AI systems to collaborate on complex tasks, like market analysis.",
+        "ko": "이는 AI 시스템이 시장 분석과 같은 복잡한 작업에서 협력할 수 있도록 합니다."
+      },
+      {
+        "en": "This capability is becoming the \"hottest skill\" in the financial sector.",
+        "ko": "이러한 역량은 금융 부문에서 '가장 인기 있는 기술'이 되고 있습니다."
+      },
+      {
+        "en": "Banks are significantly increasing their hiring for these roles.",
+        "ko": "은행들은 이러한 역할에 대한 채용을 크게 늘리고 있습니다."
+      },
+      {
+        "en": "The demand for this specific skill has reportedly skyrocketed by 1,721%.",
+        "ko": "이 특정 기술에 대한 수요는 보도에 따르면 1,721% 급증했습니다."
+      },
+      {
+        "en": "Fintech PMs should understand these evolving technological requirements.",
+        "ko": "핀테크 PM들은 이러한 진화하는 기술적 요구 사항을 이해해야 합니다."
+      },
+      {
+        "en": "Adapting to these changes is vital for staying competitive in the industry.",
+        "ko": "이러한 변화에 적응하는 것은 업계에서 경쟁력을 유지하는 데 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "profoundly": {
+        "meaning": "to a great depth or extent; intensely or deeply affecting something.",
+        "pos": "adverb"
+      },
+      "redefining": {
+        "meaning": "changing the nature, scope, or meaning of something, often fundamentally.",
+        "pos": "verb"
+      },
+      "landscape": {
+        "meaning": "the overall situation or environment, especially in a particular area of activity.",
+        "pos": "noun"
+      },
+      "integrating": {
+        "meaning": "combining one thing with another so that they become a whole, or work together.",
+        "pos": "verb"
+      },
+      "operations": {
+        "meaning": "the activities involved in running a business, organization, or system.",
+        "pos": "noun"
+      },
+      "dramatically": {
+        "meaning": "in a striking or impressive manner, often involving a sudden change.",
+        "pos": "adverb"
+      },
+      "surge": {
+        "meaning": "a sudden powerful forward or upward movement, often referring to an increase.",
+        "pos": "noun"
+      },
+      "specialized": {
+        "meaning": "concentrating on a particular subject, area, or activity; having specific expertise.",
+        "pos": "adjective"
+      },
+      "engineers": {
+        "meaning": "people who design, build, or maintain engines, machines, or complex systems.",
+        "pos": "noun"
+      },
+      "possess": {
+        "meaning": "to have as belonging to one; to own or be endowed with a quality.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important, because it will affect other things or determine success.",
+        "pos": "adjective"
+      },
+      "coordinating": {
+        "meaning": "bringing different elements of a complex activity or organization into a harmonious relationship.",
+        "pos": "verb"
+      },
+      "collaborate": {
+        "meaning": "to work jointly on an activity or project with others.",
+        "pos": "verb"
+      },
+      "capability": {
+        "meaning": "the ability or power to do something, often a specific skill or capacity.",
+        "pos": "noun"
+      },
+      "sector": {
+        "meaning": "a distinct part of an economy, society, or area of activity.",
+        "pos": "noun"
+      },
+      "skyrocketed": {
+        "meaning": "increased very rapidly and to a very high level, like a rocket.",
+        "pos": "verb"
+      },
+      "reportedly": {
+        "meaning": "as reported by others; according to what is said, often by reliable sources.",
+        "pos": "adverb"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "adapting": {
+        "meaning": "making something suitable for a new use or purpose; modifying to fit.",
+        "pos": "verb"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential for life or success.",
+        "pos": "adjective"
+      }
+    },
+    "questions": [
+      "What specific skill is reportedly seeing a massive surge in demand on Wall Street due to AI integration?",
+      "How does \"agent orchestration\" contribute to the effectiveness of AI systems in complex financial tasks, as described in the passage?",
+      "Given the rapid evolution of AI in finance, what steps can fintech PMs take to ensure their products and teams remain at the forefront of innovation?"
+    ],
+    "modelAnswers": [
+      "The skill reportedly seeing a massive surge in demand on Wall Street due to AI integration is \"agent orchestration.\"",
+      "Agent orchestration enables AI systems to coordinate and manage multiple specialized AI agents. This allows them to collaborate effectively on complex tasks such as market analysis, making the overall AI system more powerful.",
+      "Fintech PMs should prioritize continuous learning about AI advancements, foster cross-functional teams with AI expertise, and strategically integrate AI capabilities into their product roadmaps. They should also focus on developing solutions that address emerging needs created by AI."
+    ]
+  },
+  {
     "id": "cd-2026-10-03-1",
     "date": "2026-10-03",
     "rank": 1,
@@ -12777,942 +13713,6 @@
       "A1: The transportation and manufacturing sectors are feeling the impact of soaring fuel prices most acutely, according to the passage.",
       "A2: \"Profit margins\" represent the percentage of revenue left after all costs are deducted. Tariffs, fuel prices, and interest rates are increasing operational costs, which squeezes or reduces these profit margins for companies.",
       "A3: I would suggest immediately reviewing their supply chain for alternative, more cost-effective suppliers to reduce tariff impacts, and exploring hedging strategies for fuel costs to stabilize expenses."
-    ]
-  },
-  {
-    "id": "cd-2026-09-20-1",
-    "date": "2026-09-20",
-    "rank": 1,
-    "category": "crypto",
-    "reads": "Crypto #1",
-    "hook": "월스트리트 거대 기업들이 토큰화된 돈을 어떻게 활용하는지 알아보세요.",
-    "url": "https://www.coindesk.com/business/2026/09/15/why-wall-street-giants-build-tokenization-money-for-institutions-not-regular-consumers",
-    "title": "Wall Street Giants Embrace Institutional Tokenization",
-    "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "Major Wall Street firms are actively exploring tokenization for their internal operations. JPMorgan and Citi, for example, move billions in tokenized deposits between their own branches. This method improves efficiency for wholesale payments and interbank transactions. However, these systems are not yet available to regular consumers. A UK challenger bank plans to offer tokenized money externally, a significant step. This move could bridge the gap between traditional finance and digital assets. It shows a growing interest in leveraging blockchain for financial infrastructure. Tokenization offers faster settlement and enhanced transparency for institutions. The future may see broader adoption of tokenized assets beyond internal use.",
-    "sentences": [
-      {
-        "en": "Major Wall Street firms are actively exploring tokenization for their internal operations.",
-        "ko": "주요 월스트리트 기업들은 내부 운영을 위해 토큰화를 적극적으로 탐색하고 있습니다."
-      },
-      {
-        "en": "JPMorgan and Citi, for example, move billions in tokenized deposits between their own branches.",
-        "ko": "예를 들어, JP모건과 씨티는 자체 지점 간에 수십억 달러의 토큰화된 예금을 이동시킵니다."
-      },
-      {
-        "en": "This method improves efficiency for wholesale payments and interbank transactions.",
-        "ko": "이 방법은 도매 결제 및 은행 간 거래의 효율성을 향상시킵니다."
-      },
-      {
-        "en": "However, these systems are not yet available to regular consumers.",
-        "ko": "하지만 이러한 시스템은 아직 일반 소비자에게는 제공되지 않습니다."
-      },
-      {
-        "en": "A UK challenger bank plans to offer tokenized money externally, a significant step.",
-        "ko": "영국의 한 챌린저 은행은 토큰화된 돈을 외부로 제공할 계획이며, 이는 중요한 진전입니다."
-      },
-      {
-        "en": "This move could bridge the gap between traditional finance and digital assets.",
-        "ko": "이러한 움직임은 전통 금융과 디지털 자산 간의 격차를 해소할 수 있습니다."
-      },
-      {
-        "en": "It shows a growing interest in leveraging blockchain for financial infrastructure.",
-        "ko": "이는 금융 인프라에 블록체인을 활용하려는 관심이 커지고 있음을 보여줍니다."
-      },
-      {
-        "en": "Tokenization offers faster settlement and enhanced transparency for institutions.",
-        "ko": "토큰화는 기관에 더 빠른 결제와 향상된 투명성을 제공합니다."
-      },
-      {
-        "en": "The future may see broader adoption of tokenized assets beyond internal use.",
-        "ko": "미래에는 내부 사용을 넘어 토큰화된 자산의 더 넓은 채택이 나타날 수 있습니다."
-      }
-    ],
-    "glossary": {
-      "tokenization": {
-        "meaning": "The process of converting rights to an asset into a digital token on a blockchain.",
-        "pos": "noun"
-      },
-      "deposits": {
-        "meaning": "Money placed into a bank account, which can be withdrawn by the depositor.",
-        "pos": "noun"
-      },
-      "wholesale": {
-        "meaning": "Relating to the sale of goods in large quantities, often to businesses rather than individual consumers.",
-        "pos": "adjective"
-      },
-      "interbank": {
-        "meaning": "Occurring or existing between different banks, such as financial transactions.",
-        "pos": "adjective"
-      },
-      "challenger": {
-        "meaning": "A relatively new bank that operates primarily online and aims to compete with traditional banks.",
-        "pos": "adjective"
-      },
-      "externally": {
-        "meaning": "On the outside or outside of a particular system or organization.",
-        "pos": "adverb"
-      },
-      "bridge": {
-        "meaning": "To connect or make a transition between two different things or situations.",
-        "pos": "verb"
-      },
-      "leveraging": {
-        "meaning": "Using something to maximum advantage or for a specific purpose.",
-        "pos": "verb"
-      },
-      "infrastructure": {
-        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society or enterprise.",
-        "pos": "noun"
-      },
-      "settlement": {
-        "meaning": "The completion of a financial transaction, involving the exchange of assets or funds.",
-        "pos": "noun"
-      },
-      "transparency": {
-        "meaning": "The condition of being open, clear, and easily understood, especially regarding information.",
-        "pos": "noun"
-      },
-      "institutions": {
-        "meaning": "Large, established organizations, especially those providing public services or financial services.",
-        "pos": "noun"
-      },
-      "adoption": {
-        "meaning": "The action or fact of choosing to take up, follow, or use something new.",
-        "pos": "noun"
-      },
-      "traditional": {
-        "meaning": "Existing in or as part of a tradition; long-established.",
-        "pos": "adjective"
-      },
-      "digital": {
-        "meaning": "Relating to or using computer technology, especially the internet.",
-        "pos": "adjective"
-      },
-      "assets": {
-        "meaning": "Items of property owned by a person or company, regarded as having value.",
-        "pos": "noun"
-      },
-      "operations": {
-        "meaning": "The activities involved in the running of a business or organization.",
-        "pos": "noun"
-      },
-      "exploring": {
-        "meaning": "Investigating or discussing something in detail to discover more about it.",
-        "pos": "verb"
-      },
-      "systems": {
-        "meaning": "Sets of principles or procedures according to which something is done.",
-        "pos": "noun"
-      },
-      "available": {
-        "meaning": "Able to be used or obtained; at someone's disposal.",
-        "pos": "adjective"
-      }
-    },
-    "questions": [
-      "Q1: What is the main difference in how JPMorgan and Citi use tokenized deposits compared to the UK challenger bank's plans?",
-      "Q2: Explain what \"wholesale payments\" means in the context of this article.",
-      "Q3: Do you think tokenized money will eventually become common for regular consumers? Why or why not?"
-    ],
-    "modelAnswers": [
-      "JPMorgan and Citi currently use tokenized deposits internally between their own branches. In contrast, the UK challenger bank plans to offer tokenized money externally, making it available beyond its own system.",
-      "In this article, \"wholesale payments\" refer to large-volume transactions typically made between financial institutions or corporations, rather than individual consumers. Tokenization aims to make these payments more efficient.",
-      "Yes, I believe tokenized money will become common for regular consumers eventually. As technology advances and regulatory frameworks mature, the benefits of faster, cheaper, and more transparent transactions will likely extend to retail users, driven by challenger banks and broader market adoption."
-    ]
-  },
-  {
-    "id": "cd-2026-09-20-2",
-    "date": "2026-09-20",
-    "rank": 2,
-    "category": "crypto",
-    "reads": "Crypto #2",
-    "hook": "리플의 최신 결제 업그레이드가 자산 관리자들에게 어떤 영향을 미치는지 확인하세요.",
-    "url": "https://www.coindesk.com/tech/2026/09/19/ripple-says-asset-managers-are-preparing-for-xrp-ledger-s-next-payments-upgrade",
-    "title": "Ripple's XRP Ledger Boosts Institutional Payments",
-    "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "Ripple announced that asset managers are preparing for a new XRP Ledger upgrade. The upcoming Batch V1.1 aims to enhance payment transfers significantly. This upgrade allows linked asset and payment transfers to succeed or fail together. This feature, known as atomic settlement, ensures transaction integrity. Commercial projects are already being built around this new capability. An extensive security review has been completed, building trust among users. The update improves efficiency and reliability for institutional financial operations. It highlights Ripple's focus on enterprise solutions and blockchain adoption. Such advancements are crucial for integrating digital assets into mainstream finance.",
-    "sentences": [
-      {
-        "en": "Ripple announced that asset managers are preparing for a new XRP Ledger upgrade.",
-        "ko": "리플은 자산 관리자들이 새로운 XRP 원장 업그레이드를 준비하고 있다고 발표했습니다."
-      },
-      {
-        "en": "The upcoming Batch V1.1 aims to enhance payment transfers significantly.",
-        "ko": "다가오는 Batch V1.1은 결제 이체를 크게 향상시키는 것을 목표로 합니다."
-      },
-      {
-        "en": "This upgrade allows linked asset and payment transfers to succeed or fail together.",
-        "ko": "이 업그레이드는 연결된 자산 및 결제 이체가 함께 성공하거나 실패하도록 합니다."
-      },
-      {
-        "en": "This feature, known as atomic settlement, ensures transaction integrity.",
-        "ko": "원자적 결제라고 알려진 이 기능은 거래의 무결성을 보장합니다."
-      },
-      {
-        "en": "Commercial projects are already being built around this new capability.",
-        "ko": "이 새로운 기능을 중심으로 상업 프로젝트들이 이미 구축되고 있습니다."
-      },
-      {
-        "en": "An extensive security review has been completed, building trust among users.",
-        "ko": "광범위한 보안 검토가 완료되어 사용자들 사이의 신뢰를 구축하고 있습니다."
-      },
-      {
-        "en": "The update improves efficiency and reliability for institutional financial operations.",
-        "ko": "이 업데이트는 기관 금융 운영의 효율성과 신뢰성을 향상시킵니다."
-      },
-      {
-        "en": "It highlights Ripple's focus on enterprise solutions and blockchain adoption.",
-        "ko": "이는 엔터프라이즈 솔루션과 블록체인 채택에 대한 리플의 초점을 강조합니다."
-      },
-      {
-        "en": "Such advancements are crucial for integrating digital assets into mainstream finance.",
-        "ko": "이러한 발전은 디지털 자산을 주류 금융에 통합하는 데 중요합니다."
-      }
-    ],
-    "glossary": {
-      "ledger": {
-        "meaning": "A digital record book that keeps track of all transactions on a blockchain.",
-        "pos": "noun"
-      },
-      "upgrade": {
-        "meaning": "An improvement or enhancement made to a system or software.",
-        "pos": "noun"
-      },
-      "asset": {
-        "meaning": "An item of property owned by a person or company, regarded as having value.",
-        "pos": "noun"
-      },
-      "transfers": {
-        "meaning": "The act of moving something from one place or person to another.",
-        "pos": "noun"
-      },
-      "atomic": {
-        "meaning": "Referring to a transaction that either fully completes or completely fails, with no partial states.",
-        "pos": "adjective"
-      },
-      "settlement": {
-        "meaning": "The completion of a financial transaction, involving the exchange of assets or funds.",
-        "pos": "noun"
-      },
-      "integrity": {
-        "meaning": "The quality of being whole and undivided; soundness and completeness.",
-        "pos": "noun"
-      },
-      "commercial": {
-        "meaning": "Related to or engaged in commerce; making or intended to make a profit.",
-        "pos": "adjective"
-      },
-      "capability": {
-        "meaning": "The ability or power to do something, or the extent of someone's ability.",
-        "pos": "noun"
-      },
-      "extensive": {
-        "meaning": "Covering a large area or range, or thorough and comprehensive.",
-        "pos": "adjective"
-      },
-      "security": {
-        "meaning": "The state of being free from danger or threat; protection against harm.",
-        "pos": "noun"
-      },
-      "review": {
-        "meaning": "A formal assessment of something with the intention of instituting change if necessary.",
-        "pos": "noun"
-      },
-      "efficiency": {
-        "meaning": "The state or quality of being efficient; achieving maximum productivity with minimum wasted effort or expense.",
-        "pos": "noun"
-      },
-      "reliability": {
-        "meaning": "The quality of being trustworthy or of performing consistently well.",
-        "pos": "noun"
-      },
-      "institutional": {
-        "meaning": "Relating to a large organization or establishment, especially in finance.",
-        "pos": "adjective"
-      },
-      "operations": {
-        "meaning": "The activities involved in the running of a business or organization.",
-        "pos": "noun"
-      },
-      "enterprise": {
-        "meaning": "A project or undertaking, typically a difficult or complex one, or a business organization.",
-        "pos": "noun"
-      },
-      "solutions": {
-        "meaning": "Means of solving a problem or dealing with a difficult situation.",
-        "pos": "noun"
-      },
-      "adoption": {
-        "meaning": "The action or fact of choosing to take up, follow, or use something new.",
-        "pos": "noun"
-      },
-      "mainstream": {
-        "meaning": "The ideas, attitudes, or activities that are regarded as normal or conventional.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What is the key new feature of Batch V1.1 on the XRP Ledger, and what does it ensure?",
-      "Q2: What does \"atomic settlement\" mean in the context of linked asset and payment transfers?",
-      "Q3: How do you think such upgrades impact the broader adoption of blockchain technology by traditional financial institutions?"
-    ],
-    "modelAnswers": [
-      "The key new feature of Batch V1.1 is that it allows linked asset and payment transfers to either succeed together or fail together. This ensures transaction integrity and reliability.",
-      "\"Atomic settlement\" means that a transaction involving multiple parts, like an asset transfer and a payment, will either be fully completed as a single, indivisible unit or not happen at all. There are no partial outcomes.",
-      "Such upgrades significantly boost adoption by traditional financial institutions. They address critical concerns like security and reliability, making blockchain solutions more appealing for complex institutional operations and fostering greater trust in digital asset infrastructure."
-    ]
-  },
-  {
-    "id": "cd-2026-09-20-3",
-    "date": "2026-09-20",
-    "rank": 3,
-    "category": "crypto",
-    "reads": "Crypto #3",
-    "hook": "암호화폐 선구자가 AI가 은행 시스템에 미칠 수 있는 충격에 대해 경고합니다.",
-    "url": "https://www.coindesk.com/markets/2026/09/17/we-have-lost-control-crypto-pioneer-warns-ai-could-trigger-systemic-banking-and-infrastructure-shocks",
-    "title": "Crypto Pioneer Warns AI Risks Banking Shocks",
-    "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "Marc van der Chijs, a crypto pioneer, has voiced significant concerns about AI. He warns that artificial intelligence could trigger systemic banking and infrastructure shocks. Van der Chijs previously sold much of his Bitcoin to invest in AI technology. Now, he expresses growing worries about AI's potential disruptive power. These shocks could destabilize financial systems and critical services. Interestingly, he is now reinvesting some AI profits back into crypto assets. This suggests a hedge against potential AI-induced economic instability. His perspective highlights the evolving risks at the intersection of tech and finance. It prompts important discussions about future regulatory frameworks for AI.",
-    "sentences": [
-      {
-        "en": "Marc van der Chijs, a crypto pioneer, has voiced significant concerns about AI.",
-        "ko": "암호화폐 선구자인 마크 반 데르 시스는 AI에 대해 상당한 우려를 표명했습니다."
-      },
-      {
-        "en": "He warns that artificial intelligence could trigger systemic banking and infrastructure shocks.",
-        "ko": "그는 인공지능이 시스템적인 은행 및 인프라 충격을 유발할 수 있다고 경고합니다."
-      },
-      {
-        "en": "Van der Chijs previously sold much of his Bitcoin to invest in AI technology.",
-        "ko": "반 데르 시스는 이전에 자신의 비트코인 대부분을 AI 기술에 투자하기 위해 매각했습니다."
-      },
-      {
-        "en": "Now, he expresses growing worries about AI's potential disruptive power.",
-        "ko": "이제 그는 AI의 잠재적인 파괴력에 대해 커지는 우려를 표명합니다."
-      },
-      {
-        "en": "These shocks could destabilize financial systems and critical services.",
-        "ko": "이러한 충격은 금융 시스템과 핵심 서비스를 불안정하게 만들 수 있습니다."
-      },
-      {
-        "en": "Interestingly, he is now reinvesting some AI profits back into crypto assets.",
-        "ko": "흥미롭게도, 그는 이제 AI 수익 일부를 다시 암호화폐 자산에 재투자하고 있습니다."
-      },
-      {
-        "en": "This suggests a hedge against potential AI-induced economic instability.",
-        "ko": "이는 잠재적인 AI 유발 경제 불안정에 대한 헤지를 시사합니다."
-      },
-      {
-        "en": "His perspective highlights the evolving risks at the intersection of tech and finance.",
-        "ko": "그의 관점은 기술과 금융의 교차점에서 진화하는 위험을 강조합니다."
-      },
-      {
-        "en": "It prompts important discussions about future regulatory frameworks for AI.",
-        "ko": "이는 AI에 대한 미래 규제 프레임워크에 대한 중요한 논의를 촉발합니다."
-      }
-    ],
-    "glossary": {
-      "pioneer": {
-        "meaning": "A person who is among the first to explore or settle a new country or area of research.",
-        "pos": "noun"
-      },
-      "voiced": {
-        "meaning": "Expressed something in words, especially an opinion or feeling.",
-        "pos": "verb"
-      },
-      "concerns": {
-        "meaning": "Feelings of worry or anxiety about something important.",
-        "pos": "noun"
-      },
-      "trigger": {
-        "meaning": "To cause an event or situation to happen or begin.",
-        "pos": "verb"
-      },
-      "systemic": {
-        "meaning": "Relating to a system as a whole, rather than to a particular part.",
-        "pos": "adjective"
-      },
-      "banking": {
-        "meaning": "The business of operating a bank; dealing with money and financial services.",
-        "pos": "noun"
-      },
-      "infrastructure": {
-        "meaning": "The basic physical and organizational structures and facilities needed for the operation of a society.",
-        "pos": "noun"
-      },
-      "shocks": {
-        "meaning": "Sudden and disturbing events that cause a strong emotional or physical reaction.",
-        "pos": "noun"
-      },
-      "disruptive": {
-        "meaning": "Causing or tending to cause disruption; breaking apart or interrupting something.",
-        "pos": "adjective"
-      },
-      "destabilize": {
-        "meaning": "To make something unstable or cause it to lose its balance.",
-        "pos": "verb"
-      },
-      "financial": {
-        "meaning": "Relating to finance; concerning money matters.",
-        "pos": "adjective"
-      },
-      "reinvesting": {
-        "meaning": "Investing money that you have earned as profit back into the same business or asset.",
-        "pos": "verb"
-      },
-      "profits": {
-        "meaning": "A financial gain, especially the difference between the amount earned and the amount spent.",
-        "pos": "noun"
-      },
-      "crypto": {
-        "meaning": "Short for cryptocurrency, a digital currency in which transactions are verified and records maintained by a decentralized system.",
-        "pos": "noun"
-      },
-      "hedge": {
-        "meaning": "An investment intended to offset potential losses or gains that may be incurred by a companion investment.",
-        "pos": "noun"
-      },
-      "instability": {
-        "meaning": "The state of being unstable; a tendency to change or fluctuate.",
-        "pos": "noun"
-      },
-      "intersection": {
-        "meaning": "A point where two or more things meet or cross.",
-        "pos": "noun"
-      },
-      "evolving": {
-        "meaning": "Developing gradually, especially from a simple to a more complex form.",
-        "pos": "verb"
-      },
-      "prompts": {
-        "meaning": "Causes or brings about an action or feeling.",
-        "pos": "verb"
-      },
-      "frameworks": {
-        "meaning": "Basic structures underlying a system, concept, or text.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What specific types of shocks does Marc van der Chijs warn about due to AI?",
-      "Q2: What does \"systemic banking and infrastructure shocks\" refer to in the context of the financial system?",
-      "Q3: Do you agree that AI poses a significant risk to the stability of traditional banking and infrastructure? Why or why not?"
-    ],
-    "modelAnswers": [
-      "Marc van der Chijs warns that artificial intelligence could trigger systemic banking and infrastructure shocks. These shocks could potentially destabilize entire financial systems and critical services.",
-      "\"Systemic banking and infrastructure shocks\" refers to widespread disruptions that affect the entire financial system or critical public services, rather than just isolated incidents. These could lead to widespread failures or collapse.",
-      "Yes, I agree that AI poses significant risks. Its rapid advancements and increasing integration into complex systems could create unforeseen vulnerabilities, leading to cascading failures if not properly regulated and controlled. The interconnectedness of modern finance amplifies these risks."
-    ]
-  },
-  {
-    "id": "ec-2026-09-20-1",
-    "date": "2026-09-20",
-    "rank": 4,
-    "category": "economy",
-    "reads": "Economy #1",
-    "hook": "일본 중앙은행이 31년 만에 처음으로 금리를 인상하며 글로벌 인플레이션에 어떻게 대응하는지 알아보세요.",
-    "url": "https://www.theguardian.com/business/2026/sep/18/japan-raises-interest-rates-to-31-year-high-rising-prices",
-    "title": "Japan Raises Rates to Combat Global Inflation",
-    "source": "Daybreak Wire (based on business news)",
-    "passage": "Japan's central bank has increased interest rates. This marks the first rise in 31 years. The Bank of Japan (BoJ) aims to combat global inflation. Rising prices are linked to ongoing geopolitical events. The rate increased from 1% to 1.25%. This move follows similar actions by the US Federal Reserve. The European Central Bank has also tightened its monetary policy. Central banks worldwide are fighting persistent price increases. This decision reflects a shift in Japan's long-standing economic strategy. It shows a global effort to stabilize economies. The BoJ's action will influence market expectations. It could also affect borrowing costs for businesses and consumers.",
-    "sentences": [
-      {
-        "en": "Japan's central bank has increased interest rates.",
-        "ko": "일본 중앙은행이 금리를 인상했습니다."
-      },
-      {
-        "en": "This marks the first rise in 31 years.",
-        "ko": "이는 31년 만에 처음으로 인상된 것입니다."
-      },
-      {
-        "en": "The Bank of Japan (BoJ) aims to combat global inflation.",
-        "ko": "일본은행(BoJ)은 글로벌 인플레이션에 맞서기 위해 노력하고 있습니다."
-      },
-      {
-        "en": "Rising prices are linked to ongoing geopolitical events.",
-        "ko": "물가 상승은 현재 진행 중인 지정학적 사건들과 관련이 있습니다."
-      },
-      {
-        "en": "The rate increased from 1% to 1.25%.",
-        "ko": "금리는 1%에서 1.25%로 인상되었습니다."
-      },
-      {
-        "en": "This move follows similar actions by the US Federal Reserve.",
-        "ko": "이러한 움직임은 미국 연방준비제도(Fed)의 유사한 조치에 뒤따른 것입니다."
-      },
-      {
-        "en": "The European Central Bank has also tightened its monetary policy.",
-        "ko": "유럽 중앙은행 또한 통화 정책을 강화했습니다."
-      },
-      {
-        "en": "Central banks worldwide are fighting persistent price increases.",
-        "ko": "전 세계 중앙은행들은 지속적인 물가 상승과 싸우고 있습니다."
-      },
-      {
-        "en": "This decision reflects a shift in Japan's long-standing economic strategy.",
-        "ko": "이 결정은 일본의 오랜 경제 전략에 변화가 있음을 반영합니다."
-      },
-      {
-        "en": "It shows a global effort to stabilize economies.",
-        "ko": "이는 경제를 안정시키기 위한 전 세계적인 노력을 보여줍니다."
-      },
-      {
-        "en": "The BoJ's action will influence market expectations.",
-        "ko": "일본은행의 조치는 시장의 기대에 영향을 미칠 것입니다."
-      },
-      {
-        "en": "It could also affect borrowing costs for businesses and consumers.",
-        "ko": "또한 기업과 소비자의 대출 비용에도 영향을 줄 수 있습니다."
-      }
-    ],
-    "glossary": {
-      "central": {
-        "meaning": "most important or main; located in the middle.",
-        "pos": "adjective"
-      },
-      "increased": {
-        "meaning": "made larger in amount, size, or number.",
-        "pos": "verb"
-      },
-      "interest": {
-        "meaning": "the money paid regularly by a borrower to a lender.",
-        "pos": "noun"
-      },
-      "rates": {
-        "meaning": "a charge or payment calculated in relation to something else.",
-        "pos": "noun"
-      },
-      "combat": {
-        "meaning": "to fight against something or try to prevent it.",
-        "pos": "verb"
-      },
-      "global": {
-        "meaning": "relating to the whole world.",
-        "pos": "adjective"
-      },
-      "inflation": {
-        "meaning": "a general increase in prices and fall in the purchasing value of money.",
-        "pos": "noun"
-      },
-      "rising": {
-        "meaning": "increasing in amount, size, or level.",
-        "pos": "adjective"
-      },
-      "linked": {
-        "meaning": "connected or associated with something else.",
-        "pos": "verb"
-      },
-      "ongoing": {
-        "meaning": "continuing to happen or develop.",
-        "pos": "adjective"
-      },
-      "geopolitical": {
-        "meaning": "relating to politics, especially foreign policy, as influenced by geographical factors.",
-        "pos": "adjective"
-      },
-      "monetary": {
-        "meaning": "relating to money or currency.",
-        "pos": "adjective"
-      },
-      "policy": {
-        "meaning": "a set of rules or a plan of action.",
-        "pos": "noun"
-      },
-      "tightened": {
-        "meaning": "made stricter or more controlled.",
-        "pos": "verb"
-      },
-      "persistent": {
-        "meaning": "continuing firmly or obstinately in a course of action.",
-        "pos": "adjective"
-      },
-      "stabilize": {
-        "meaning": "to make something firm, steady, or unlikely to change.",
-        "pos": "verb"
-      },
-      "economies": {
-        "meaning": "the system of how money is made and used within a particular country or region.",
-        "pos": "noun"
-      },
-      "influence": {
-        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
-        "pos": "verb"
-      },
-      "market": {
-        "meaning": "a place or system where goods are bought and sold.",
-        "pos": "noun"
-      },
-      "expectations": {
-        "meaning": "a strong belief that something will happen or be the case.",
-        "pos": "noun"
-      },
-      "borrowing": {
-        "meaning": "the act of taking money from a bank or person with the intention of paying it back.",
-        "pos": "noun"
-      },
-      "consumers": {
-        "meaning": "people who buy goods and services for their own use.",
-        "pos": "noun"
-      },
-      "strategy": {
-        "meaning": "a plan of action designed to achieve a long-term or overall aim.",
-        "pos": "noun"
-      },
-      "shift": {
-        "meaning": "a slight change in position, direction, or tendency.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "What specific action did Japan's central bank take recently, and what was the previous duration without such an action?",
-      "Explain the term \"monetary policy\" in the context of central banks' actions to combat inflation.",
-      "How might a country's decision to raise interest rates affect its international trade relationships or currency value?"
-    ],
-    "modelAnswers": [
-      "Japan's central bank increased interest rates, marking the first such action in 31 years.",
-      "Monetary policy refers to actions by a central bank to control the money supply and credit conditions. When central banks tighten monetary policy, they raise interest rates to slow down spending and reduce inflation.",
-      "Raising interest rates can strengthen a country's currency, making its exports more expensive and imports cheaper. This might lead to changes in trade balances as goods become less competitive abroad."
-    ]
-  },
-  {
-    "id": "ec-2026-09-20-2",
-    "date": "2026-09-20",
-    "rank": 5,
-    "category": "economy",
-    "reads": "Economy #2",
-    "hook": "영국 인플레이션이 급등하는 이유와 중앙은행의 향후 정책 결정에 어떤 영향을 미칠지 파악해 보세요.",
-    "url": "https://www.cnbc.com/2026/09/16/uk-august-inflation-energy-gasoline.html",
-    "title": "UK Inflation Rises Amid Soaring Energy Costs",
-    "source": "Daybreak Wire (based on business news)",
-    "passage": "UK inflation recently jumped to 3.1%. This increase is primarily due to soaring energy costs. Gas and gasoline prices have significantly risen. This trend puts pressure on household budgets. Higher inflation reduces purchasing power for consumers. The Bank of England closely monitors these economic indicators. Energy prices are a major factor in monetary policy decisions. The central bank considers inflation when setting interest rates. Sustained high energy costs could prompt further rate hikes. This aims to cool down the economy and control price rises. Such decisions affect borrowing and saving for individuals and businesses. The upcoming monetary policy update will be crucial for the UK economy.",
-    "sentences": [
-      {
-        "en": "UK inflation recently jumped to 3.1%.",
-        "ko": "영국 인플레이션이 최근 3.1%로 급등했습니다."
-      },
-      {
-        "en": "This increase is primarily due to soaring energy costs.",
-        "ko": "이러한 증가는 주로 치솟는 에너지 비용 때문입니다."
-      },
-      {
-        "en": "Gas and gasoline prices have significantly risen.",
-        "ko": "가스와 휘발유 가격이 크게 올랐습니다."
-      },
-      {
-        "en": "This trend puts pressure on household budgets.",
-        "ko": "이러한 추세는 가계 예산에 부담을 줍니다."
-      },
-      {
-        "en": "Higher inflation reduces purchasing power for consumers.",
-        "ko": "높은 인플레이션은 소비자의 구매력을 감소시킵니다."
-      },
-      {
-        "en": "The Bank of England closely monitors these economic indicators.",
-        "ko": "영국은행은 이러한 경제 지표들을 면밀히 주시하고 있습니다."
-      },
-      {
-        "en": "Energy prices are a major factor in monetary policy decisions.",
-        "ko": "에너지 가격은 통화 정책 결정에 중요한 요소입니다."
-      },
-      {
-        "en": "The central bank considers inflation when setting interest rates.",
-        "ko": "중앙은행은 금리를 설정할 때 인플레이션을 고려합니다."
-      },
-      {
-        "en": "Sustained high energy costs could prompt further rate hikes.",
-        "ko": "지속적인 고에너지 비용은 추가 금리 인상을 유발할 수 있습니다."
-      },
-      {
-        "en": "This aims to cool down the economy and control price rises.",
-        "ko": "이는 경제를 진정시키고 물가 상승을 억제하는 것을 목표로 합니다."
-      },
-      {
-        "en": "Such decisions affect borrowing and saving for individuals and businesses.",
-        "ko": "이러한 결정은 개인과 기업의 대출 및 저축에 영향을 미칩니다."
-      },
-      {
-        "en": "The upcoming monetary policy update will be crucial for the UK economy.",
-        "ko": "다가오는 통화 정책 업데이트는 영국 경제에 매우 중요할 것입니다."
-      }
-    ],
-    "glossary": {
-      "inflation": {
-        "meaning": "the rate at which the general level of prices for goods and services is rising.",
-        "pos": "noun"
-      },
-      "jumped": {
-        "meaning": "increased suddenly and significantly.",
-        "pos": "verb"
-      },
-      "primarily": {
-        "meaning": "mainly or chiefly.",
-        "pos": "adverb"
-      },
-      "soaring": {
-        "meaning": "rising very quickly to a high level.",
-        "pos": "adjective"
-      },
-      "energy": {
-        "meaning": "power derived from the utilization of physical or chemical resources, especially to provide light and heat or to work machines.",
-        "pos": "noun"
-      },
-      "significantly": {
-        "meaning": "in a sufficiently great or important way as to be worthy of attention.",
-        "pos": "adverb"
-      },
-      "trend": {
-        "meaning": "a general direction in which something is developing or changing.",
-        "pos": "noun"
-      },
-      "pressure": {
-        "meaning": "the use of persuasion or intimidation to make someone do something.",
-        "pos": "noun"
-      },
-      "household": {
-        "meaning": "relating to a house or the people living in it.",
-        "pos": "adjective"
-      },
-      "budgets": {
-        "meaning": "an estimate of income and expenditure for a set period of time.",
-        "pos": "noun"
-      },
-      "purchasing": {
-        "meaning": "the action of buying something.",
-        "pos": "noun"
-      },
-      "power": {
-        "meaning": "the ability to influence or control events.",
-        "pos": "noun"
-      },
-      "monitors": {
-        "meaning": "observes and checks the progress or quality of something over a period of time.",
-        "pos": "verb"
-      },
-      "indicators": {
-        "meaning": "a sign or signal that something exists or is true.",
-        "pos": "noun"
-      },
-      "monetary": {
-        "meaning": "relating to money or currency.",
-        "pos": "adjective"
-      },
-      "policy": {
-        "meaning": "a set of rules or a plan of action.",
-        "pos": "noun"
-      },
-      "central": {
-        "meaning": "most important or main.",
-        "pos": "adjective"
-      },
-      "setting": {
-        "meaning": "establishing or deciding.",
-        "pos": "verb"
-      },
-      "sustained": {
-        "meaning": "continuing for an extended period or without interruption.",
-        "pos": "adjective"
-      },
-      "prompt": {
-        "meaning": "to cause or bring about an action or feeling.",
-        "pos": "verb"
-      },
-      "hikes": {
-        "meaning": "a sharp increase, especially in prices.",
-        "pos": "noun"
-      },
-      "cool": {
-        "meaning": "to reduce the intensity or excitement of something.",
-        "pos": "verb"
-      },
-      "crucial": {
-        "meaning": "extremely important, because it will affect other things.",
-        "pos": "adjective"
-      },
-      "economy": {
-        "meaning": "the system of how money is made and used within a particular country or region.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "What was the recent inflation rate in the UK, and what is identified as the main reason for this increase?",
-      "Define \"purchasing power\" and explain how high inflation affects it for consumers.",
-      "In your opinion, what measures could the UK government take, beyond interest rate adjustments, to alleviate the impact of soaring energy costs on households?"
-    ],
-    "modelAnswers": [
-      "UK inflation recently jumped to 3.1%, primarily due to soaring energy costs, including gas and gasoline prices.",
-      "Purchasing power is the financial ability to buy goods and services. High inflation reduces purchasing power because the same amount of money buys fewer goods and services than before.",
-      "The UK government could implement energy subsidies for low-income households or cap energy prices. Investing in renewable energy sources long-term could also reduce reliance on volatile fossil fuel markets."
-    ]
-  },
-  {
-    "id": "ec-2026-09-20-3",
-    "date": "2026-09-20",
-    "rank": 6,
-    "category": "economy",
-    "reads": "Economy #3",
-    "hook": "탄탄한 경제에도 불구하고 왜 소비자 심리가 위축되고 있는지 심리학적 관점에서 분석한 이 기사를 읽어보세요.",
-    "url": "https://www.cnbc.com/2026/09/19/goldman-sachs-happiness-struggling-consumer-sentiment.html",
-    "title": "Consumer Sentiment Drops Despite Strong Economy",
-    "source": "Daybreak Wire (based on business news)",
-    "passage": "Consumer sentiment remains low despite a robust economy. This presents a puzzling economic paradox. Goldman Sachs economists suggest broader societal pessimism. They link this to a decline in general \"happiness.\" Economic indicators like job growth and GDP are strong. However, people's feelings about the economy are negative. This disconnect can influence future spending habits. It might also impact investment decisions. Consumer confidence is vital for economic stability. When sentiment is low, consumers may delay major purchases. This can slow down overall economic activity. Understanding this psychological aspect is key for policymakers.",
-    "sentences": [
-      {
-        "en": "Consumer sentiment remains low despite a robust economy.",
-        "ko": "탄탄한 경제에도 불구하고 소비자 심리는 여전히 낮습니다."
-      },
-      {
-        "en": "This presents a puzzling economic paradox.",
-        "ko": "이것은 당혹스러운 경제적 역설을 보여줍니다."
-      },
-      {
-        "en": "Goldman Sachs economists suggest broader societal pessimism.",
-        "ko": "골드만삭스 이코노미스트들은 더 넓은 사회적 비관론을 제안합니다."
-      },
-      {
-        "en": "They link this to a decline in general \"happiness.\"",
-        "ko": "그들은 이것을 전반적인 '행복'의 감소와 연결합니다."
-      },
-      {
-        "en": "Economic indicators like job growth and GDP are strong.",
-        "ko": "고용 성장과 GDP 같은 경제 지표들은 강세를 보입니다."
-      },
-      {
-        "en": "However, people's feelings about the economy are negative.",
-        "ko": "하지만 경제에 대한 사람들의 감정은 부정적입니다."
-      },
-      {
-        "en": "This disconnect can influence future spending habits.",
-        "ko": "이러한 단절은 미래의 소비 습관에 영향을 미칠 수 있습니다."
-      },
-      {
-        "en": "It might also impact investment decisions.",
-        "ko": "또한 투자 결정에도 영향을 줄 수 있습니다."
-      },
-      {
-        "en": "Consumer confidence is vital for economic stability.",
-        "ko": "소비자 신뢰는 경제 안정에 필수적입니다."
-      },
-      {
-        "en": "When sentiment is low, consumers may delay major purchases.",
-        "ko": "심리가 낮으면 소비자들은 주요 구매를 미룰 수 있습니다."
-      },
-      {
-        "en": "This can slow down overall economic activity.",
-        "ko": "이것은 전반적인 경제 활동을 둔화시킬 수 있습니다."
-      },
-      {
-        "en": "Understanding this psychological aspect is key for policymakers.",
-        "ko": "이러한 심리적 측면을 이해하는 것은 정책 입안자들에게 중요합니다."
-      }
-    ],
-    "glossary": {
-      "consumer": {
-        "meaning": "a person who buys goods and services for personal use.",
-        "pos": "noun"
-      },
-      "sentiment": {
-        "meaning": "a general feeling or opinion.",
-        "pos": "noun"
-      },
-      "remains": {
-        "meaning": "continues to be in the same state.",
-        "pos": "verb"
-      },
-      "robust": {
-        "meaning": "strong and healthy.",
-        "pos": "adjective"
-      },
-      "economy": {
-        "meaning": "the system of how money is made and used within a particular country or region.",
-        "pos": "noun"
-      },
-      "puzzling": {
-        "meaning": "causing confusion because it is difficult to understand.",
-        "pos": "adjective"
-      },
-      "paradox": {
-        "meaning": "a situation that seems impossible or difficult to understand because it contains two opposite facts or characteristics.",
-        "pos": "noun"
-      },
-      "economists": {
-        "meaning": "experts who study the production, distribution, and consumption of goods and services.",
-        "pos": "noun"
-      },
-      "societal": {
-        "meaning": "relating to society or social relations.",
-        "pos": "adjective"
-      },
-      "pessimism": {
-        "meaning": "a tendency to see the worst aspect of things or believe that the worst will happen.",
-        "pos": "noun"
-      },
-      "decline": {
-        "meaning": "a gradual and continuous loss of strength, numbers, or value.",
-        "pos": "noun"
-      },
-      "general": {
-        "meaning": "affecting or concerning all or most people.",
-        "pos": "adjective"
-      },
-      "indicators": {
-        "meaning": "a sign or signal that something exists or is true.",
-        "pos": "noun"
-      },
-      "gdp": {
-        "meaning": "(Gross Domestic Product) the total value of goods and services produced in a country over a specific period.",
-        "pos": "noun"
-      },
-      "disconnect": {
-        "meaning": "a lack of connection or consistency.",
-        "pos": "noun"
-      },
-      "influence": {
-        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
-        "pos": "verb"
-      },
-      "habits": {
-        "meaning": "a settled or regular tendency or practice.",
-        "pos": "noun"
-      },
-      "investment": {
-        "meaning": "the action or process of investing money for profit.",
-        "pos": "noun"
-      },
-      "vital": {
-        "meaning": "absolutely necessary or important.",
-        "pos": "adjective"
-      },
-      "stability": {
-        "meaning": "the state of being stable and not changing or being disturbed.",
-        "pos": "noun"
-      },
-      "delay": {
-        "meaning": "to make someone or something late or slow.",
-        "pos": "verb"
-      },
-      "purchases": {
-        "meaning": "the act of buying something.",
-        "pos": "noun"
-      },
-      "overall": {
-        "meaning": "taking everything into account.",
-        "pos": "adjective"
-      },
-      "policymakers": {
-        "meaning": "people responsible for making policies, especially in government.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "According to the article, what is the current state of consumer sentiment despite a strong economy?",
-      "Explain what \"economic indicators\" are and provide two examples mentioned in the passage.",
-      "As a fintech PM, how might you use insights about low consumer sentiment to inform product development or marketing strategies for financial services?"
-    ],
-    "modelAnswers": [
-      "Consumer sentiment remains low despite the economy being robust, creating a puzzling economic paradox.",
-      "Economic indicators are statistics that provide insights into economic performance and future trends. Job growth and GDP are two examples mentioned.",
-      "With low consumer sentiment, I might focus on products that offer financial security, such as budgeting tools or savings accounts with higher interest. Marketing could emphasize stability and long-term planning over risky investments."
     ]
   }
 ]
