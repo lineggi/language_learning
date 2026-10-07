@@ -66,6 +66,22 @@ const ECON_FEEDS = [
   // Bloomberg stories with real article links.
   "https://news.google.com/rss/search?q=site%3Abloomberg.com&hl=en-US&gl=US&ceid=US%3Aen", // Bloomberg (via Google News)
 ];
+// Korean economy, written in English. The first four are Korea's own
+// English-language business desks, which cover the domestic economy in far
+// more depth than the wires do. The Google News queries pull in how the
+// international press (NYT, Reuters, the FT, Bloomberg) frames the same
+// stories, which is the register the learner is actually working towards.
+const KOREA_FEEDS = [
+  "https://www.kedglobal.com/rss/news.xml",              // Korea Economic Daily (한국경제) English
+  "https://en.yna.co.kr/RSS/economy.xml",                // Yonhap English — Economy
+  "https://www.koreaherald.com/rss/020000000000.xml",    // Korea Herald — Business
+  "https://www.koreatimes.co.kr/www/rss/biz.xml",        // Korea Times — Business
+  // The foreign press has no Korea-economy feed of its own, so these are
+  // Google News searches. Same trade-off as the Bloomberg feed above: the
+  // <link> is a Google News redirect to the real article.
+  "https://news.google.com/rss/search?q=%22South+Korea%22+(economy+OR+won+OR+exports+OR+%22Bank+of+Korea%22)&hl=en-US&gl=US&ceid=US%3Aen",
+  "https://news.google.com/rss/search?q=Korea+economy+site%3Anytimes.com+OR+site%3Areuters.com+OR+site%3Aft.com&hl=en-US&gl=US&ceid=US%3Aen",
+];
 const UA = "DaybreakWire/1.0 (+github actions)";
 
 // ---------------------------------------------------------------------------
@@ -294,6 +310,15 @@ async function collectEconomy() {
   return { candidates: rss, label: "Economy", ranked: false };
 }
 
+// Korean-economy candidates. perFeedCap=10 across six feeds so the Google News
+// searches (which return far more items than the Korean desks) can't crowd the
+// domestic coverage out of the pool.
+async function collectKorea() {
+  const rss = await fetchRss(KOREA_FEEDS, 40, 10);
+  console.log(`Korea: ${rss.length} candidates.`);
+  return { candidates: rss, label: "Korea economy", ranked: false };
+}
+
 // ---------------------------------------------------------------------------
 // Gemini
 // ---------------------------------------------------------------------------
@@ -365,9 +390,15 @@ function buildPrompt(candidates, label, ranked, domain) {
     ? "These candidates are already ordered by popularity (the \"Most Read\" list), so prefer the ones near the top unless a lower story is far more relevant to the learner."
     : "Pick the 3 most relevant and interesting stories for the learner.";
 
-  const persona = domain === "economy"
-    ? `You are the editor of "Daybreak Wire", a daily news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a fintech PM. For ECONOMY, choose general economics / business stories — central banks and interest rates, inflation, jobs, growth, trade, major companies, and markets — that build strong economic English vocabulary.`
-    : `You are the editor of "Daybreak Wire", a daily crypto news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a crypto/fintech PM interested in stablecoins, regulation, tokenization, and exchanges like OKX.`;
+  const PERSONAS = {
+    economy: `You are the editor of "Daybreak Wire", a daily news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a fintech PM. For ECONOMY, choose general economics / business stories — central banks and interest rates, inflation, jobs, growth, trade, major companies, and markets — that build strong economic English vocabulary.`,
+    // The learner already knows these stories in Korean, so the value is the
+    // English a native outlet reaches for — which is why the brief is about
+    // vocabulary and framing rather than explaining the news itself.
+    korea: `You are the editor of "Daybreak Wire", a daily news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a fintech PM in Seoul. For KOREA ECONOMY, choose stories about the South Korean economy written in English — the Bank of Korea and rates, the won, exports and semiconductors, chaebol and major Korean companies, housing, household debt, trade with the US and China, and financial regulation. Prefer stories whose English is worth borrowing: the terms and turns of phrase an English-language outlet uses for Korean economic news, which the learner can reuse at work. Skip anything that is mostly a press release or a stock-price blurb.`,
+    crypto: `You are the editor of "Daybreak Wire", a daily crypto news reader that helps a Korean upper-intermediate to advanced (B2–C1) English learner. The learner is a crypto/fintech PM interested in stablecoins, regulation, tokenization, and exchanges like OKX.`,
+  };
+  const persona = PERSONAS[domain] || PERSONAS.crypto;
 
   return `${persona}
 
@@ -583,10 +614,14 @@ async function makePacks(coll, domain, idPrefix, rankBase, date) {
     console.warn(`${domain}: fewer than 3 candidates (${coll ? coll.candidates.length : 0}); skipping.`);
     return [];
   }
-  const source = domain === "crypto"
-    ? "Daybreak Wire (based on CoinDesk)"
-    : "Daybreak Wire (based on business news)";
-  const readsLabel = domain === "crypto" ? "Crypto" : "Economy";
+  const SOURCES = {
+    crypto: "Daybreak Wire (based on CoinDesk)",
+    korea: "Daybreak Wire (based on Korean business press)",
+    economy: "Daybreak Wire (based on business news)",
+  };
+  const LABELS = { crypto: "Crypto", korea: "Korea", economy: "Economy" };
+  const source = SOURCES[domain] || SOURCES.economy;
+  const readsLabel = LABELS[domain] || LABELS.economy;
 
   const result = await callGemini(buildPrompt(coll.candidates, coll.label, coll.ranked, domain));
   const raw = Array.isArray(result?.packs) ? result.packs : [];
@@ -603,8 +638,8 @@ async function makePacks(coll, domain, idPrefix, rankBase, date) {
     return {
       id: `${idPrefix}-${date}-${localRank}`,
       date,
-      rank: rankBase + localRank,       // crypto → 1..3, economy → 4..6 (ordering)
-      category: domain,                 // "crypto" | "economy"
+          rank: rankBase + localRank,       // crypto 1..3, economy 4..6, korea 7..9
+      category: domain,                 // "crypto" | "economy" | "korea"
       reads: `${readsLabel} #${localRank}`,
       hook: p.hook || "",
       url: src.link || "",
@@ -633,20 +668,27 @@ async function main() {
   const existing = loadAllPacks();
   const used = usedUrlSet(existing);
 
+  // One section failing must not cost the others their day, so each collector
+  // is allowed to come back empty; makePacks then skips that section.
+  const safely = async (fn, label) => {
+    try { return await fn(); }
+    catch (err) { console.warn(`${label} collection failed: ${err.message}`); return { candidates: [], label, ranked: false }; }
+  };
   const crypto = await collectCrypto();
-  let economy;
-  try { economy = await collectEconomy(); }
-  catch (err) { console.warn(`Economy collection failed: ${err.message}`); economy = { candidates: [], label: "Economy", ranked: false }; }
+  const economy = await safely(collectEconomy, "Economy");
+  const korea = await safely(collectKorea, "Korea economy");
 
-  const cryptoBefore = crypto.candidates.length;
-  const econBefore = economy.candidates.length;
+  const before = { crypto: crypto.candidates.length, economy: economy.candidates.length, korea: korea.candidates.length };
   crypto.candidates = excludeUsed(crypto.candidates, used);
   economy.candidates = excludeUsed(economy.candidates, used);
-  console.log(`After dropping already-used stories: crypto ${crypto.candidates.length}/${cryptoBefore}, economy ${economy.candidates.length}/${econBefore}.`);
+  korea.candidates = excludeUsed(korea.candidates, used);
+  console.log(`After dropping already-used stories: crypto ${crypto.candidates.length}/${before.crypto}, ` +
+    `economy ${economy.candidates.length}/${before.economy}, korea ${korea.candidates.length}/${before.korea}.`);
 
   const cryptoPacks = await makePacks(crypto, "crypto", "cd", 0, date);
   const econPacks = await makePacks(economy, "economy", "ec", 3, date);
-  const newPacks = [...cryptoPacks, ...econPacks];
+  const koreaPacks = await makePacks(korea, "korea", "kr", 6, date);
+  const newPacks = [...cryptoPacks, ...econPacks, ...koreaPacks];
 
   if (newPacks.length === 0) {
     console.error("No packs generated; aborting without changes.");
@@ -660,7 +702,7 @@ async function main() {
   const merged = [...newPacks, ...existing];
 
   writeFeed(merged);
-  console.log(`Wrote ${newPacks.length} new packs (${cryptoPacks.length} crypto + ${econPacks.length} economy).`);
+  console.log(`Wrote ${newPacks.length} new packs (${cryptoPacks.length} crypto + ${econPacks.length} economy + ${koreaPacks.length} korea).`);
   newPacks.forEach((p) => console.log(`  #${p.rank} [${p.category}] ${p.title} -> ${p.url}`));
 }
 
@@ -675,6 +717,7 @@ function repack() {
 module.exports = {
   dedupeById, indexEntry, shardOf, splitPacks, byDateRankDesc, writeIfChanged,
   normUrl, usedUrlSet, excludeUsed, tidyMeaning, kstDateString,
+  ECON_FEEDS, KOREA_FEEDS, RSS_FEEDS,
 };
 
 if (require.main === module) {

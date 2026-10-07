@@ -8,7 +8,7 @@
     "check": "node --check build_packs.js && node scripts/check_feed.js",
     "repack": "node build_packs.js --repack",
     "build": "node build_packs.js",
-    "test:browser": "node test/browser/study.spec.js && node test/browser/wordbook.spec.js && node test/browser/collect.spec.js && node test/browser/sync.spec.js"
+    "test:browser": "node test/browser/study.spec.js && node test/browser/wordbook.spec.js && node test/browser/collect.spec.js && node test/browser/sync.spec.js && node test/browser/today.spec.js"
   },
   "engines": {
     "node": ">=20"

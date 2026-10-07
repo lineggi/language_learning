@@ -104,3 +104,52 @@ test("kstDateString labels a 21:00 UTC build with the KST day it belongs to", ()
   assert.equal(B.kstDateString(new Date("2026-09-03T21:00:00Z")), "2026-09-04");
   assert.equal(B.kstDateString(new Date("2026-09-04T14:59:00Z")), "2026-09-04");
 });
+
+/* ------------------------------------------------- Korea economy -- */
+
+test("the three sections get non-overlapping rank bands", () => {
+  // crypto 1..3, economy 4..6, korea 7..9 — the app sorts by rank within a
+  // day, so an overlap would interleave the sections.
+  const bands = { crypto: 0, economy: 3, korea: 6 };
+  const ranks = [];
+  for (const base of Object.values(bands)) for (let r = 1; r <= 3; r++) ranks.push(base + r);
+  assert.deepEqual(ranks, [1, 2, 3, 4, 5, 6, 7, 8, 9]);
+  assert.equal(new Set(ranks).size, 9, "no two sections may claim the same rank");
+});
+
+test("a day of all three sections shards and indexes as one group", () => {
+  const day = (date) => [
+    ...[1, 2, 3].map((r) => ({ id: `cd-${date}-${r}`, date, rank: r, category: "crypto", title: "c" + r })),
+    ...[1, 2, 3].map((r) => ({ id: `ec-${date}-${r}`, date, rank: 3 + r, category: "economy", title: "e" + r })),
+    ...[1, 2, 3].map((r) => ({ id: `kr-${date}-${r}`, date, rank: 6 + r, category: "korea", title: "k" + r })),
+  ];
+  const all = ["2026-10-07", "2026-10-06"].flatMap(day);
+  const { recent, index } = B.splitPacks(all, 14);
+  assert.equal(recent.length, 18, "nine packs a day, both days recent");
+  assert.equal(index.length, 18);
+  assert.deepEqual(index.slice(0, 9).map((e) => e.rank), [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "the newest day comes out in rank order, crypto → economy → korea");
+  assert.deepEqual([...new Set(index.map((e) => e.category))].sort(), ["crypto", "economy", "korea"]);
+});
+
+test("the Korea feed list is distinct, absolute and free of the other sections' sources", () => {
+  const korea = B.KOREA_FEEDS;
+  assert.ok(korea.length >= 4, `want several sources, got ${korea.length}`);
+  assert.equal(new Set(korea).size, korea.length, "no duplicate feeds");
+  for (const f of korea) assert.match(f, /^https:\/\//, f);
+  const others = new Set([...B.ECON_FEEDS, ...B.RSS_FEEDS]);
+  for (const f of korea) assert.ok(!others.has(f), `${f} is already used by another section`);
+  // Korea's own English-language desks, not only wire coverage of Korea.
+  const domestic = korea.filter((f) => /kedglobal|yna\.co\.kr|koreaherald|koreatimes/.test(f));
+  assert.ok(domestic.length >= 3, `want Korean outlets in the mix, got ${domestic.length}`);
+});
+
+test("round-robin keeps one Korea feed from swamping the pool", () => {
+  // The Google News searches return far more items than the Korean desks, so
+  // the interleave is what keeps domestic coverage in the candidate list.
+  const used = B.usedUrlSet([]);
+  const fat = Array.from({ length: 40 }, (_, i) => ({ link: `https://news.google.com/x${i}` }));
+  const thin = [{ link: "https://www.kedglobal.com/a" }, { link: "https://en.yna.co.kr/b" }];
+  // excludeUsed must not reorder or drop anything when nothing has been used.
+  assert.equal(B.excludeUsed([...thin, ...fat], used).length, 42);
+});

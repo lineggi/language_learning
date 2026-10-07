@@ -1430,45 +1430,56 @@
       );
     }
 
+    // The sections of 오늘의 추천, in the order they are read. Adding one here
+    // and in build_packs.js is all a new section needs on this side.
+    const CATEGORIES = [
+      { id: "crypto", label: "크립토" },
+      { id: "economy", label: "경제" },
+      { id: "korea", label: "한국경제" },
+    ];
+
     function Today({ picks, date, reads, onOpen }) {
-      const [cat, setCat] = useState("all"); // all | crypto | economy
+      const [cat, setCat] = useState("all");
+      const known = useMemo(() => new Set(CATEGORIES.map((c) => c.id)), []);
+      // Packs built before a section existed carry an unknown (or missing)
+      // category; they read as 크립토, exactly as they did before.
+      const groups = useMemo(() => {
+        const of = (p) => (known.has(p.category) ? p.category : "crypto");
+        return CATEGORIES
+          .map((c) => ({ ...c, items: picks.filter((p) => of(p) === c.id) }))
+          .filter((g) => g.items.length);
+      }, [picks, known]);
+
       if (!picks.length) return <div className="empty">아직 추천 기사가 없습니다.<br/>Actions가 첫 팩을 생성하면 여기에 표시됩니다.</div>;
-      const crypto = picks.filter((p) => p.category !== "economy");
-      const econ = picks.filter((p) => p.category === "economy");
-      const hasBoth = crypto.length > 0 && econ.length > 0;
 
       const Group = ({ items }) => items.map((p, i) => (
         <RecCard key={p.id} p={p} reads={reads} onOpen={onOpen} badge={String(i + 1).padStart(2, "0")} />
       ));
 
-      const CHIPS = [
-        { id: "all", label: `전체 ${picks.length}` },
-        { id: "crypto", label: `크립토 ${crypto.length}` },
-        { id: "economy", label: `경제 ${econ.length}` },
-      ];
+      // A chip for a section that produced nothing today would select an empty
+      // list, so only non-empty sections get one — and a selection left over
+      // from a day that had that section falls back to 전체.
+      const active = groups.some((g) => g.id === cat) ? cat : "all";
+      const shown = active === "all" ? groups : groups.filter((g) => g.id === active);
+      const CHIPS = [{ id: "all", label: `전체 ${picks.length}` },
+        ...groups.map((g) => ({ id: g.id, label: `${g.label} ${g.items.length}` }))];
 
       return (
         <React.Fragment>
           <div className="section-label mono">오늘의 추천 · {date}</div>
-          {hasBoth && (
+          {groups.length > 1 && (
             <div className="toolbar" style={{ marginBottom: "12px" }}>
               {CHIPS.map((c) => (
-                <button key={c.id} className={"chip" + (cat === c.id ? " active" : "")} onClick={() => setCat(c.id)}>{c.label}</button>
+                <button key={c.id} className={"chip" + (active === c.id ? " active" : "")} onClick={() => setCat(c.id)}>{c.label}</button>
               ))}
             </div>
           )}
-          {!hasBoth ? (
-            <Group items={crypto.length ? crypto : econ} />
-          ) : cat === "all" ? (
-            <React.Fragment>
-              <div className="cat-label mono">◆ 크립토</div>
-              <Group items={crypto} />
-              <div className="cat-label mono">◆ 경제</div>
-              <Group items={econ} />
+          {shown.map((g) => (
+            <React.Fragment key={g.id}>
+              {(active === "all" && groups.length > 1) && <div className="cat-label mono">◆ {g.label}</div>}
+              <Group items={g.items} />
             </React.Fragment>
-          ) : (
-            <Group items={cat === "crypto" ? crypto : econ} />
-          )}
+          ))}
         </React.Fragment>
       );
     }
