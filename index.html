@@ -1049,13 +1049,23 @@
             }
             if (error) { setSyncMsg("저장 오류 · " + (error.message || error.code || "알 수 없음")); return; }
             setSyncMsg(degraded ? "DB 업데이트 필요 · 오답노트·영작은 이 기기에만 저장돼요" : "동기화됨");
-            // Reflect the merged result locally (guarded so it can't loop).
+            // Fold the pushed result back in — MERGED against whatever local
+            // state exists now, never assigned over it. wb/rd/st/er/wr were
+            // computed from the state as it stood before two network round
+            // trips; assigning them back threw away everything the user did
+            // while the push was in flight. Marking words 외웠음 during a sync
+            // sent them straight back to 미암기, locally and then on the server
+            // too, which is why a finished deck could still show words left.
+            // The merges are per-entry last-write-wins on updatedAt, so the
+            // newer local changes survive and the older snapshot loses.
             const same = (a, b) => JSON.stringify(a) === JSON.stringify(b);
-            setWordbank((loc) => (same(wb, loc) ? loc : wb));
-            setReads((loc) => (same(rd, loc) ? loc : rd));
-            setStreak((loc) => (same(st, loc) ? loc : st));
-            setErrors((loc) => (same(er, loc) ? loc : er));
-            setWriting((loc) => (same(wr, loc) ? loc : wr));
+            const fold = (setter, merge, pushed) =>
+              setter((loc) => { const m = merge(loc, pushed); return same(m, loc) ? loc : m; });
+            fold(setWordbank, mergeWordbank, wb);
+            fold(setReads, mergeReads, rd);
+            fold(setErrors, mergeErrors, er);
+            fold(setWriting, mergeWriting, wr);
+            setStreak((loc) => { const m = pickStreak(loc, st); return same(m, loc) ? loc : m; });
           } catch (e) { setSyncMsg("저장 오류 · " + ((e && e.message) || "네트워크 확인")); }
         }, 1200);
         return () => saveTimer.current && clearTimeout(saveTimer.current);
