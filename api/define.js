@@ -1,6 +1,10 @@
 // Vercel serverless function: on-demand definition for ANY word the reader taps
 // that is not in the article's built-in glossary. Keeps the Gemini key server-side.
 
+// Access check (shared with every other /api function) runs before any
+// Gemini call, so an unapproved request never spends quota.
+const { guarded } = require("./_guard.js");
+
 const DEFINE_SCHEMA = {
   type: "object",
   properties: {
@@ -13,7 +17,7 @@ const DEFINE_SCHEMA = {
   required: ["word", "meaning", "ko", "example", "pos"],
 };
 
-module.exports = async function handler(req, res) {
+async function handler(req, res) {
   if (req.method !== "POST") { res.status(405).json({ error: "Use POST" }); return; }
 
   // Trim to guard against a trailing newline/space pasted into the env var,
@@ -71,3 +75,5 @@ Return JSON: {
     res.status(500).json({ error: String((err && err.message) || err) });
   }
 };
+
+module.exports = guarded(handler);

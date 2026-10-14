@@ -2,6 +2,10 @@
 // The Gemini key lives ONLY here (Vercel env var GEMINI_API_KEY), never in the
 // browser. Same-origin call from the app: POST /api/grade.
 
+// Access check (shared with every other /api function) runs before any
+// Gemini call, so an unapproved request never spends quota.
+const { guarded } = require("./_guard.js");
+
 const GRADE_SCHEMA = {
   type: "object",
   properties: {
@@ -58,7 +62,7 @@ Return JSON:
 }`;
 }
 
-module.exports = async function handler(req, res) {
+async function handler(req, res) {
   if (req.method !== "POST") {
     res.status(405).json({ error: "Use POST" });
     return;
@@ -112,3 +116,5 @@ module.exports = async function handler(req, res) {
     res.status(500).json({ error: String(err && err.message || err) });
   }
 }
+
+module.exports = guarded(handler);

@@ -2,6 +2,10 @@
 // the day's article, focused on the things Korean learners drop — verb form,
 // articles (a/an/the), plurals, prepositions. Same-origin: POST /api/drill.
 
+// Access check (shared with every other /api function) runs before any
+// Gemini call, so an unapproved request never spends quota.
+const { guarded } = require("./_guard.js");
+
 const DRILL_SCHEMA = {
   type: "object",
   properties: {
@@ -65,7 +69,7 @@ function blankIsClean(sentence, answer) {
   return !sameRoot(before, answer) && !sameRoot(after, answer);
 }
 
-module.exports = async function handler(req, res) {
+async function handler(req, res) {
   if (req.method !== "POST") { res.status(405).json({ error: "Use POST" }); return; }
 
   const key = (process.env.GEMINI_API_KEY || "").trim();
@@ -107,3 +111,5 @@ module.exports = async function handler(req, res) {
     res.status(500).json({ error: String((err && err.message) || err) });
   }
 };
+
+module.exports = guarded(handler);

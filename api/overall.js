@@ -2,6 +2,10 @@
 // answers, plus ideas for building writing skill. Same-origin: POST /api/overall.
 // The Gemini key lives only here (Vercel env var GEMINI_API_KEY).
 
+// Access check (shared with every other /api function) runs before any
+// Gemini call, so an unapproved request never spends quota.
+const { guarded } = require("./_guard.js");
+
 const OVERALL_SCHEMA = {
   type: "object",
   properties: {
@@ -44,7 +48,7 @@ Return JSON:
 }`;
 }
 
-module.exports = async function handler(req, res) {
+async function handler(req, res) {
   if (req.method !== "POST") { res.status(405).json({ error: "Use POST" }); return; }
 
   const key = (process.env.GEMINI_API_KEY || "").trim();
@@ -79,3 +83,5 @@ module.exports = async function handler(req, res) {
     res.status(500).json({ error: String((err && err.message) || err) });
   }
 };
+
+module.exports = guarded(handler);

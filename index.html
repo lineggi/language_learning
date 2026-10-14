@@ -1632,17 +1632,10 @@
         if (!entries.length) return { defined: [], failed: [] };
         if (!endpoint) return { defined: [], failed: entries }; // no server configured
         const results = await Promise.all(entries.map(async (e) => {
-          try {
-            const r = await fetch(endpoint, {
-              method: "POST", headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ word: e.surface, passage: pack.passage }),
-            });
-            if (!r.ok) return null;
-            const d = await r.json();
-            return d && d.meaning
-              ? { base: (d.word || e.base), def: d.meaning, pos: d.pos || null, example: d.example || sentenceContaining(e.surface) }
-              : null;
-          } catch { return null; }
+          const { data: d } = await postJson(endpoint, { word: e.surface, passage: pack.passage });
+          return d && d.meaning
+            ? { base: (d.word || e.base), def: d.meaning, pos: d.pos || null, example: d.example || sentenceContaining(e.surface) }
+            : null;
         }));
         const defined = [], failed = [];
         results.forEach((res, i) => { if (res) defined.push(res); else failed.push(entries[i]); });
@@ -1817,16 +1810,10 @@
 
       const load = async () => {
         setLoading(true); setErrMsg("");
-        try {
-          const r = await fetch(endpoint, {
-            method: "POST", headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ passage: pack.passage }),
-          });
-          const data = await r.json();
-          if (r.ok && data && Array.isArray(data.items) && data.items.length) {
-            setItems(data.items); setIdx(0); setTyped(""); setRevealed(false); setRight(0);
-          } else setErrMsg((data && data.error) || "드릴을 불러오지 못했어요");
-        } catch (e) { setErrMsg(String((e && e.message) || e)); }
+        const { data, error } = await postJson(endpoint, { passage: pack.passage });
+        if (data && Array.isArray(data.items) && data.items.length) {
+          setItems(data.items); setIdx(0); setTyped(""); setRevealed(false); setRight(0);
+        } else setErrMsg(error || "드릴을 불러오지 못했어요");
         setLoading(false);
       };
 
@@ -1885,25 +1872,36 @@
     /* ------------------------------------------------------------------ */
     /* Writing: 3 prompts, self-graded model answers                       */
     /* ------------------------------------------------------------------ */
-    // POST JSON to one of the /api/* functions and come back with either data
-    // or a message worth reading. The body is parsed defensively: a missing
-    // function answers with plain text, so `r.json()` throws, and that raw
-    // SyntaxError used to be shown verbatim — "채점 실패: Unexpected token 'o',
-    // \"not found\" is not valid JSON".
+    // The single way this page calls /api/*. Everything AI-backed goes through
+    // here so the signed-in user's access token is attached in exactly one
+    // place — the server checks it before spending any Gemini quota — and so a
+    // 401/403 reads the same wherever it surfaces.
+    //
+    // The body is also parsed defensively: a missing function answers with
+    // plain text, so `r.json()` throws, and that raw SyntaxError used to be
+    // shown verbatim — "채점 실패: Unexpected token 'o', \"not found\" is not
+    // valid JSON".
     async function postJson(endpoint, body) {
+      const headers = { "Content-Type": "application/json" };
+      try {
+        // Local-only mode has no client at all; an expired session just means
+        // no header, and the server answers 401 with something readable.
+        const token = SB && (await SB.auth.getSession()).data.session?.access_token;
+        if (token) headers.Authorization = `Bearer ${token}`;
+      } catch (e) { /* no session — let the server decide */ }
+
       let r;
       try {
-        r = await fetch(endpoint, {
-          method: "POST", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(body),
-        });
+        r = await fetch(endpoint, { method: "POST", headers, body: JSON.stringify(body) });
       } catch (e) {
         return { error: "서버에 연결하지 못했어요 · 네트워크를 확인해 주세요" };
       }
       let data = null;
       try { data = await r.json(); } catch (e) { data = null; }
       if (r.ok && data) return { data };
-      if (r.status === 404) return { error: "AI 채점 서버가 아직 준비되지 않았어요" };
+      if (r.status === 401) return { error: "로그인이 필요해요", state: "signin" };
+      if (r.status === 403) return { error: (data && data.error) || "아직 사용 승인이 안 된 계정이에요", state: (data && data.state) || "denied" };
+      if (r.status === 404) return { error: "AI 기능이 아직 준비되지 않았어요" };
       if (r.status === 429) return { error: "요청이 많아요 · 잠시 뒤 다시 시도해 주세요" };
       if (data && data.error) return { error: String(data.error) };
       return { error: `서버 오류 (HTTP ${r.status})` };
@@ -2224,13 +2222,9 @@
           if (!endpoint) { if (!cancelled) setMcUnavailable(true); return; }
           setMcLoading(true);
           try {
-            const r = await fetch(endpoint, {
-              method: "POST", headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ before: cur.before, after: cur.after, category: cur.category, why: cur.why }),
-            });
-            const data = await r.json();
+            const { data } = await postJson(endpoint, { before: cur.before, after: cur.after, category: cur.category, why: cur.why });
             if (cancelled) return;
-            if (r.ok && data && Array.isArray(data.distractors) && data.distractors.length >= 1) {
+            if (data && Array.isArray(data.distractors) && data.distractors.length >= 1) {
               patchError(cur.id, { options: data.distractors });
               setChoices(shuffle([cur.after, ...data.distractors]));
             } else setMcUnavailable(true);
@@ -2654,13 +2648,8 @@
         let cancelled = false;
         (async () => {
           try {
-            const r = await fetch(endpoint, {
-              method: "POST", headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ word: cur.word, passage: "" }),
-            });
-            if (!r.ok) return;
-            const d = await r.json();
-            if (cancelled) return;
+            const { data: d } = await postJson(endpoint, { word: cur.word, passage: "" });
+            if (!d || cancelled) return;
             const patch = {};
             if (d.example && !cur.example) patch.example = d.example;
             if (d.ko && !cur.meaningKo) patch.meaningKo = d.ko;

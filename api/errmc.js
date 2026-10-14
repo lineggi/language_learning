@@ -3,6 +3,10 @@
 // fix" instead of blind free-typing with no clue what to change. Keeps the
 // Gemini key server-side. Same-origin: POST /api/errmc.
 
+// Access check (shared with every other /api function) runs before any
+// Gemini call, so an unapproved request never spends quota.
+const { guarded } = require("./_guard.js");
+
 const MC_SCHEMA = {
   type: "object",
   properties: {
@@ -28,7 +32,7 @@ NOT itself be a valid correct English sentence for this context.
 Return JSON: { "distractors": ["<wrong option 1>", "<wrong option 2>", "<wrong option 3>"] }`;
 }
 
-module.exports = async function handler(req, res) {
+async function handler(req, res) {
   if (req.method !== "POST") { res.status(405).json({ error: "Use POST" }); return; }
 
   const key = (process.env.GEMINI_API_KEY || "").trim();
@@ -68,3 +72,5 @@ module.exports = async function handler(req, res) {
     res.status(500).json({ error: String((err && err.message) || err) });
   }
 };
+
+module.exports = guarded(handler);

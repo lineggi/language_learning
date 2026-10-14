@@ -71,6 +71,18 @@ async function swipeYes(page, gapMs) {
 async function studyWholeDeck(browser, { latency, gap }) {
   const page = await pinnedPage(browser, "2026-10-07", (m) => { t.failed++; console.log("PAGEERROR: " + m); });
   await page.addInitScript(fakeSupabase(latency));
+  // config.js picks its backend by hostname and leaves anything that isn't the
+  // production host in local-only mode, so a preview can never write to real
+  // data. That also means a test host gets no client at all — serve a config
+  // with credentials so the app builds one from the stand-in above.
+  await page.route("**/config.js", (route) => route.fulfill({
+    status: 200, contentType: "application/javascript",
+    body: `window.DBW_CONFIG = ${JSON.stringify({
+      ENV: "test", SUPABASE_URL: "https://test.supabase.co", SUPABASE_ANON_KEY: "test-anon-key",
+      GRADE_ENDPOINT: "/api/grade", DEFINE_ENDPOINT: "/api/define", OVERALL_ENDPOINT: "/api/overall",
+      DRILL_ENDPOINT: "/api/drill", ERRMC_ENDPOINT: "/api/errmc",
+    })};`,
+  }));
   const bank = {};
   for (let i = 1; i <= N; i++) bank[`word${String(i).padStart(2, "0")}`] =
     { meaning: `meaning ${i}`, pos: "noun", stage: "new", addedDate: "2026-10-07", updatedAt: 1 };
