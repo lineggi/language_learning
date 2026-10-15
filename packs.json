@@ -1,5 +1,1463 @@
 [
   {
+    "id": "cd-2026-10-16-1",
+    "date": "2026-10-16",
+    "rank": 1,
+    "category": "crypto",
+    "reads": "Crypto #1",
+    "hook": "필리핀 최대 암호화폐 거래소가 중앙은행의 규제 조치에 직면했다는 소식은 규제 환경 변화를 주시하는 PM에게 중요합니다.",
+    "url": "https://www.coindesk.com/policy/2026/10/13/largest-philippines-crypto-exchange-coins-ph-said-to-face-central-bank-regulatory-action",
+    "title": "Philippine Crypto Exchange Faces Central Bank Scrutiny",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "The Philippines' largest cryptocurrency exchange, Coins.ph, is reportedly facing regulatory action. The country's central bank, Bangko Sentral ng Pilipinas (BSP), is reportedly involved in this development. This situation underscores a growing global trend towards stricter crypto oversight. Coins.ph serves a vast number of users, making its compliance significant. The specifics of the alleged violations remain undisclosed at this time. Regulatory clarity is absolutely crucial for fostering healthy digital asset market growth. Such governmental actions can profoundly impact both user confidence and exchange operations. Crypto exchanges worldwide must adapt to rapidly evolving legal frameworks. This event could establish an important precedent for other emerging markets. For crypto product managers, comprehending these regulatory challenges is essential. It highlights the continuous balancing act between technological innovation and necessary financial oversight. This ongoing tension shapes the future of the entire decentralized finance space.",
+    "sentences": [
+      {
+        "en": "The Philippines' largest cryptocurrency exchange, Coins.ph, is reportedly facing regulatory action.",
+        "ko": "필리핀 최대 암호화폐 거래소인 코인즈.ph가 규제 조치에 직면한 것으로 알려졌습니다."
+      },
+      {
+        "en": "The country's central bank, Bangko Sentral ng Pilipinas (BSP), is reportedly involved in this development.",
+        "ko": "필리핀 중앙은행인 방코 센트랄 필리피나스(BSP)가 이 사안에 개입한 것으로 전해집니다."
+      },
+      {
+        "en": "This situation underscores a growing global trend towards stricter crypto oversight.",
+        "ko": "이러한 상황은 암호화폐에 대한 더욱 엄격한 감독을 향한 전 세계적인 추세를 강조합니다."
+      },
+      {
+        "en": "Coins.ph serves a vast number of users, making its compliance significant.",
+        "ko": "코인즈.ph는 방대한 수의 사용자에게 서비스를 제공하며, 따라서 규제 준수가 중요합니다."
+      },
+      {
+        "en": "The specifics of the alleged violations remain undisclosed at this time.",
+        "ko": "현재까지 주장되는 위반 사항에 대한 구체적인 내용은 공개되지 않았습니다."
+      },
+      {
+        "en": "Regulatory clarity is absolutely crucial for fostering healthy digital asset market growth.",
+        "ko": "규제 명확성은 건전한 디지털 자산 시장 성장을 촉진하는 데 절대적으로 중요합니다."
+      },
+      {
+        "en": "Such governmental actions can profoundly impact both user confidence and exchange operations.",
+        "ko": "이러한 정부 조치는 사용자 신뢰와 거래소 운영 모두에 깊은 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Crypto exchanges worldwide must adapt to rapidly evolving legal frameworks.",
+        "ko": "전 세계 암호화폐 거래소는 빠르게 진화하는 법적 틀에 적응해야 합니다."
+      },
+      {
+        "en": "This event could establish an important precedent for other emerging markets.",
+        "ko": "이 사건은 다른 신흥 시장에 중요한 선례를 세울 수 있습니다."
+      },
+      {
+        "en": "For crypto product managers, comprehending these regulatory challenges is essential.",
+        "ko": "암호화폐 제품 관리자에게는 이러한 규제 과제를 이해하는 것이 필수적입니다."
+      },
+      {
+        "en": "It highlights the continuous balancing act between technological innovation and necessary financial oversight.",
+        "ko": "이는 기술 혁신과 필요한 금융 감독 사이의 지속적인 균형 잡힌 행동을 강조합니다."
+      },
+      {
+        "en": "This ongoing tension shapes the future of the entire decentralized finance space.",
+        "ko": "이러한 지속적인 긴장은 전체 분산 금융 공간의 미래를 형성합니다."
+      }
+    ],
+    "glossary": {
+      "reportedly": {
+        "meaning": "said to be true by some, though not proven.",
+        "pos": "adverb"
+      },
+      "facing": {
+        "meaning": "dealing with a difficult situation or problem.",
+        "pos": "verb"
+      },
+      "regulatory": {
+        "meaning": "related to rules or laws made by an authority.",
+        "pos": "adjective"
+      },
+      "underscores": {
+        "meaning": "emphasizes or highlights the importance of something.",
+        "pos": "verb"
+      },
+      "oversight": {
+        "meaning": "the act of supervising something, especially to ensure compliance.",
+        "pos": "noun"
+      },
+      "serves": {
+        "meaning": "provides a service or product to customers or users.",
+        "pos": "verb"
+      },
+      "compliance": {
+        "meaning": "the act of following rules, laws, or standards.",
+        "pos": "noun"
+      },
+      "alleged": {
+        "meaning": "stated as a fact but without proof.",
+        "pos": "adjective"
+      },
+      "violations": {
+        "meaning": "acts that break a rule, law, or agreement.",
+        "pos": "noun"
+      },
+      "undisclosed": {
+        "meaning": "not made known or revealed to others.",
+        "pos": "adjective"
+      },
+      "fostering": {
+        "meaning": "encouraging the development or growth of something.",
+        "pos": "verb"
+      },
+      "profoundly": {
+        "meaning": "to a great depth or extent; deeply.",
+        "pos": "adverb"
+      },
+      "confidence": {
+        "meaning": "a feeling of trust or belief in someone or something.",
+        "pos": "noun"
+      },
+      "operations": {
+        "meaning": "the activities involved in running a business or organization.",
+        "pos": "noun"
+      },
+      "adapt": {
+        "meaning": "to adjust to new conditions or circumstances.",
+        "pos": "verb"
+      },
+      "evolving": {
+        "meaning": "developing gradually, especially from a simple to a more complex form.",
+        "pos": "adjective"
+      },
+      "frameworks": {
+        "meaning": "basic structures underlying a system, concept, or text.",
+        "pos": "noun"
+      },
+      "establish": {
+        "meaning": "to set up or create something permanently.",
+        "pos": "verb"
+      },
+      "precedent": {
+        "meaning": "an earlier event or action that is regarded as an example.",
+        "pos": "noun"
+      },
+      "comprehending": {
+        "meaning": "understanding something fully.",
+        "pos": "verb"
+      },
+      "balancing": {
+        "meaning": "the act of keeping things in equilibrium or proportion.",
+        "pos": "noun"
+      },
+      "decentralized": {
+        "meaning": "having power or authority distributed among people.",
+        "pos": "adjective"
+      },
+      "finance": {
+        "meaning": "the management of money, especially by governments or large companies.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the name of the central bank reportedly involved in regulatory action against Coins.ph?",
+      "Explain why regulatory clarity is considered crucial for the growth of digital asset markets, based on the passage.",
+      "How do you think stricter crypto regulations might affect user adoption and innovation in emerging markets like the Philippines?"
+    ],
+    "modelAnswers": [
+      "The central bank reportedly involved is Bangko Sentral ng Pilipinas (BSP).",
+      "Regulatory clarity is crucial because it fosters healthy market growth. It provides a stable environment, which boosts user confidence and ensures predictable exchange operations.",
+      "Stricter regulations could initially slow user adoption due to increased barriers. However, they might also build greater trust and legitimacy, potentially encouraging long-term growth and more responsible innovation."
+    ]
+  },
+  {
+    "id": "cd-2026-10-16-2",
+    "date": "2026-10-16",
+    "rank": 2,
+    "category": "crypto",
+    "reads": "Crypto #2",
+    "hook": "AI 에이전트가 1억 3천 8백만 건의 암호화폐 결제를 처리했다는 소식은 AI와 암호화폐의 교차점에서 새로운 사용 사례를 보여줍니다.",
+    "url": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+    "title": "AI Agents Drive Millions of Crypto Payments",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Artificial intelligence (AI) agents have executed a staggering 138 million crypto payments. This significant volume highlights a growing intersection between AI and blockchain technology. The United States notably leads in spending on these advanced AI models. AI agents often perform micro-transactions for various digital services. Crypto payments offer efficiency and lower fees for such automated processes. This trend indicates increasing practical adoption of cryptocurrencies beyond speculation. It points to a future where machines autonomously manage their own finances. For fintech product managers, this presents exciting new opportunities. Imagine AI systems paying for data, cloud computing, or API access. This synergy could revolutionize how digital economies operate. Further innovation in payment infrastructure will be essential. This marks a significant step towards a more automated financial landscape.",
+    "sentences": [
+      {
+        "en": "Artificial intelligence (AI) agents have executed a staggering 138 million crypto payments.",
+        "ko": "인공지능(AI) 에이전트들이 무려 1억 3천 8백만 건의 암호화폐 결제를 실행했습니다."
+      },
+      {
+        "en": "This significant volume highlights a growing intersection between AI and blockchain technology.",
+        "ko": "이러한 상당한 규모는 AI와 블록체인 기술 간의 교차점이 증가하고 있음을 강조합니다."
+      },
+      {
+        "en": "The United States notably leads in spending on these advanced AI models.",
+        "ko": "미국은 이러한 고급 AI 모델에 대한 지출에서 특히 앞서고 있습니다."
+      },
+      {
+        "en": "AI agents often perform micro-transactions for various digital services.",
+        "ko": "AI 에이전트는 다양한 디지털 서비스를 위해 소액 결제를 자주 수행합니다."
+      },
+      {
+        "en": "Crypto payments offer efficiency and lower fees for such automated processes.",
+        "ko": "암호화폐 결제는 이러한 자동화된 프로세스에 효율성과 낮은 수수료를 제공합니다."
+      },
+      {
+        "en": "This trend indicates increasing practical adoption of cryptocurrencies beyond speculation.",
+        "ko": "이러한 추세는 투기를 넘어 암호화폐의 실질적인 채택이 증가하고 있음을 시사합니다."
+      },
+      {
+        "en": "It points to a future where machines autonomously manage their own finances.",
+        "ko": "이는 기계가 자율적으로 자체 재정을 관리하는 미래를 가리킵니다."
+      },
+      {
+        "en": "For fintech product managers, this presents exciting new opportunities.",
+        "ko": "핀테크 제품 관리자들에게 이는 흥미로운 새로운 기회를 제시합니다."
+      },
+      {
+        "en": "Imagine AI systems paying for data, cloud computing, or API access.",
+        "ko": "AI 시스템이 데이터, 클라우드 컴퓨팅 또는 API 액세스 비용을 지불한다고 상상해 보세요."
+      },
+      {
+        "en": "This synergy could revolutionize how digital economies operate.",
+        "ko": "이러한 시너지는 디지털 경제가 운영되는 방식을 혁신할 수 있습니다."
+      },
+      {
+        "en": "Further innovation in payment infrastructure will be essential.",
+        "ko": "결제 인프라의 추가 혁신이 필수적일 것입니다."
+      },
+      {
+        "en": "This marks a significant step towards a more automated financial landscape.",
+        "ko": "이는 더욱 자동화된 금융 환경을 향한 중요한 발걸음을 의미합니다."
+      }
+    ],
+    "glossary": {
+      "executed": {
+        "meaning": "carried out or performed a plan, command, or action.",
+        "pos": "verb"
+      },
+      "staggering": {
+        "meaning": "deeply shocking, astonishing, or overwhelming.",
+        "pos": "adjective"
+      },
+      "volume": {
+        "meaning": "the amount or quantity of something.",
+        "pos": "noun"
+      },
+      "intersection": {
+        "meaning": "a point where two or more things meet or cross.",
+        "pos": "noun"
+      },
+      "notably": {
+        "meaning": "especially, in particular, or remarkably.",
+        "pos": "adverb"
+      },
+      "dominates": {
+        "meaning": "has a commanding or controlling influence over.",
+        "pos": "verb"
+      },
+      "advanced": {
+        "meaning": "highly developed or complex.",
+        "pos": "adjective"
+      },
+      "micro-transactions": {
+        "meaning": "very small financial transactions, especially online.",
+        "pos": "noun"
+      },
+      "perform": {
+        "meaning": "carry out, accomplish, or fulfill an action or function.",
+        "pos": "verb"
+      },
+      "efficiency": {
+        "meaning": "the state of achieving maximum productivity with minimum wasted effort.",
+        "pos": "noun"
+      },
+      "automated": {
+        "meaning": "operated or controlled by machines or computers.",
+        "pos": "adjective"
+      },
+      "processes": {
+        "meaning": "a series of actions or steps taken to achieve an end.",
+        "pos": "noun"
+      },
+      "indicates": {
+        "meaning": "points out or shows something.",
+        "pos": "verb"
+      },
+      "adoption": {
+        "meaning": "the action or fact of choosing to take up, follow, or use something.",
+        "pos": "noun"
+      },
+      "speculation": {
+        "meaning": "the forming of a theory or conjecture without firm evidence.",
+        "pos": "noun"
+      },
+      "autonomously": {
+        "meaning": "acting independently or having the freedom to do so.",
+        "pos": "adverb"
+      },
+      "manage": {
+        "meaning": "to be in charge of or to control something.",
+        "pos": "verb"
+      },
+      "presents": {
+        "meaning": "offers or makes available for consideration.",
+        "pos": "verb"
+      },
+      "opportunities": {
+        "meaning": "sets of circumstances that make it possible to do something.",
+        "pos": "noun"
+      },
+      "synergy": {
+        "meaning": "the interaction or cooperation of two or more organizations.",
+        "pos": "noun"
+      },
+      "revolutionize": {
+        "meaning": "to change something radically or fundamentally.",
+        "pos": "verb"
+      },
+      "infrastructure": {
+        "meaning": "the basic physical and organizational structures needed for operations.",
+        "pos": "noun"
+      },
+      "essential": {
+        "meaning": "absolutely necessary or important.",
+        "pos": "adjective"
+      },
+      "landscape": {
+        "meaning": "the overall environment or situation for a particular activity.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "How many crypto payments have AI agents reportedly executed, and which country leads in AI model spending?",
+      "Based on the passage, what specific advantages do crypto payments offer for automated processes involving AI agents?",
+      "How might the increasing use of AI agents for crypto payments redefine the traditional roles of financial institutions in the future?"
+    ],
+    "modelAnswers": [
+      "AI agents have reportedly executed 138 million crypto payments. The United States leads in spending on AI models.",
+      "Crypto payments offer efficiency and lower fees for automated processes. These benefits make them suitable for the micro-transactions AI agents frequently perform.",
+      "This trend could shift financial transactions from human-centric to machine-centric. Financial institutions might need to adapt by developing services for AI-driven finance, focusing less on individual human clients."
+    ]
+  },
+  {
+    "id": "cd-2026-10-16-3",
+    "date": "2026-10-16",
+    "rank": 3,
+    "category": "crypto",
+    "reads": "Crypto #3",
+    "hook": "레저 하드웨어 지갑에 스파이 칩이 발견되어 지갑 키가 유출될 수 있었다는 소식은 암호화폐 보안의 중요성을 다시 한번 강조합니다.",
+    "url": "https://www.coindesk.com/tech/2026/10/13/ledger-says-spy-chip-inside-cryptobilis-ledger-devices-transmitted-wallet-keys-over-mobile-network",
+    "title": "'Spy Chip' Found in Ledger Hardware Wallets",
+    "source": "Daybreak Wire (based on CoinDesk)",
+    "passage": "Ledger, a prominent hardware wallet manufacturer, revealed a serious security flaw. A 'spy chip' was reportedly found inside some devices sold by a reseller, CryptoBilis. This malicious chip could transmit users' wallet keys over mobile networks. Wallet keys are critical for accessing and controlling cryptocurrency funds. Such a vulnerability poses an immense threat to digital asset security. Ledger emphasized that the issue was specific to devices from this third-party vendor. They assured customers that official Ledger products remain secure. This incident underscores the importance of purchasing hardware directly from trusted sources. It also highlights the persistent risks within the broader crypto ecosystem. Users must always prioritize vigilance when managing their digital assets. Supply chain attacks are a growing concern in the tech industry. This serves as a stark reminder for all crypto investors.",
+    "sentences": [
+      {
+        "en": "Ledger, a prominent hardware wallet manufacturer, revealed a serious security flaw.",
+        "ko": "유명 하드웨어 지갑 제조사인 레저가 심각한 보안 결함을 공개했습니다."
+      },
+      {
+        "en": "A 'spy chip' was reportedly found inside some devices sold by a reseller, CryptoBilis.",
+        "ko": "재판매업체인 크립토빌리스가 판매한 일부 기기에서 '스파이 칩'이 발견된 것으로 알려졌습니다."
+      },
+      {
+        "en": "This malicious chip could transmit users' wallet keys over mobile networks.",
+        "ko": "이 악성 칩은 사용자의 지갑 키를 모바일 네트워크를 통해 전송할 수 있었습니다."
+      },
+      {
+        "en": "Wallet keys are critical for accessing and controlling cryptocurrency funds.",
+        "ko": "지갑 키는 암호화폐 자금에 접근하고 제어하는 데 매우 중요합니다."
+      },
+      {
+        "en": "Such a vulnerability poses an immense threat to digital asset security.",
+        "ko": "이러한 취약점은 디지털 자산 보안에 막대한 위협을 가합니다."
+      },
+      {
+        "en": "Ledger emphasized that the issue was specific to devices from this third-party vendor.",
+        "ko": "레저는 이 문제가 해당 제3자 공급업체의 기기에만 해당된다고 강조했습니다."
+      },
+      {
+        "en": "They assured customers that official Ledger products remain secure.",
+        "ko": "그들은 공식 레저 제품은 안전하다고 고객들에게 확신시켰습니다."
+      },
+      {
+        "en": "This incident underscores the importance of purchasing hardware directly from trusted sources.",
+        "ko": "이 사건은 신뢰할 수 있는 출처에서 직접 하드웨어를 구매하는 것의 중요성을 강조합니다."
+      },
+      {
+        "en": "It also highlights the persistent risks within the broader crypto ecosystem.",
+        "ko": "이는 또한 더 넓은 암호화폐 생태계 내의 지속적인 위험을 강조합니다."
+      },
+      {
+        "en": "Users must always prioritize vigilance when managing their digital assets.",
+        "ko": "사용자는 디지털 자산을 관리할 때 항상 경계를 우선시해야 합니다."
+      },
+      {
+        "en": "Supply chain attacks are a growing concern in the tech industry.",
+        "ko": "공급망 공격은 기술 산업에서 증가하는 우려 사항입니다."
+      },
+      {
+        "en": "This serves as a stark reminder for all crypto investors.",
+        "ko": "이는 모든 암호화폐 투자자에게 혹독한 경고 역할을 합니다."
+      }
+    ],
+    "glossary": {
+      "prominent": {
+        "meaning": "important, famous, or easily noticeable.",
+        "pos": "adjective"
+      },
+      "revealed": {
+        "meaning": "made known something previously secret or unknown.",
+        "pos": "verb"
+      },
+      "flaw": {
+        "meaning": "a defect or imperfection, especially a serious one.",
+        "pos": "noun"
+      },
+      "malicious": {
+        "meaning": "intending to do harm.",
+        "pos": "adjective"
+      },
+      "transmit": {
+        "meaning": "to send something from one person or place to another.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "extremely important or essential.",
+        "pos": "adjective"
+      },
+      "vulnerability": {
+        "meaning": "the state of being exposed to the possibility of being attacked or harmed.",
+        "pos": "noun"
+      },
+      "poses": {
+        "meaning": "presents or constitutes a threat, danger, or problem.",
+        "pos": "verb"
+      },
+      "immense": {
+        "meaning": "extremely large or great.",
+        "pos": "adjective"
+      },
+      "emphasized": {
+        "meaning": "gave special importance or prominence to something.",
+        "pos": "verb"
+      },
+      "specific": {
+        "meaning": "clearly defined or identified.",
+        "pos": "adjective"
+      },
+      "third-party": {
+        "meaning": "relating to a person or group other than the main ones.",
+        "pos": "adjective"
+      },
+      "assured": {
+        "meaning": "told someone something positively to remove any doubt.",
+        "pos": "verb"
+      },
+      "official": {
+        "meaning": "relating to an authority or public body.",
+        "pos": "adjective"
+      },
+      "underscores": {
+        "meaning": "emphasizes or highlights the importance of something.",
+        "pos": "verb"
+      },
+      "trusted": {
+        "meaning": "reliable and deserving of confidence.",
+        "pos": "adjective"
+      },
+      "persistent": {
+        "meaning": "continuing firmly or obstinately in a course of action.",
+        "pos": "adjective"
+      },
+      "ecosystem": {
+        "meaning": "a complex network or interconnected system.",
+        "pos": "noun"
+      },
+      "prioritize": {
+        "meaning": "designate or treat something as more important than other things.",
+        "pos": "verb"
+      },
+      "vigilance": {
+        "meaning": "the action or state of keeping careful watch for possible danger.",
+        "pos": "noun"
+      },
+      "stark": {
+        "meaning": "severe or bare in appearance or outline.",
+        "pos": "adjective"
+      },
+      "reminder": {
+        "meaning": "a thing that makes someone remember something.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What specific type of device was found to have a 'spy chip,' and what was its reported capability?",
+      "Why does the passage emphasize purchasing hardware directly from trusted sources?",
+      "Given this incident, what steps would you take to enhance security for digital assets, and what role do you think hardware wallet manufacturers should play?"
+    ],
+    "modelAnswers": [
+      "A 'spy chip' was found inside some Ledger hardware wallet devices sold by a reseller. It was reportedly capable of transmitting users' wallet keys over mobile networks.",
+      "The passage emphasizes direct purchases from trusted sources because the issue was specific to devices from a third-party vendor. This ensures users receive genuine, secure products.",
+      "I would use multi-factor authentication, regularly audit security practices, and diversify storage methods. Manufacturers should implement robust supply chain security, educate users on risks, and offer clear verification tools for their products."
+    ]
+  },
+  {
+    "id": "ec-2026-10-16-1",
+    "date": "2026-10-16",
+    "rank": 4,
+    "category": "economy",
+    "reads": "Economy #1",
+    "hook": "생산자물가지수(PPI)가 예상을 뛰어넘는 급등세를 보이면서 인플레이션 압력이 여전함을 보여줍니다.",
+    "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
+    "title": "US Wholesale Prices Surge, Fueling Inflation Concerns",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "US wholesale prices saw a significant annual increase in September. The Producer Price Index (PPI) rose by 6.3% from the previous year. This marks the largest annual gain recorded since 2022. Economists had anticipated a smaller increase of 5.5%. The monthly rise was 0.8%, also exceeding forecasts. This data suggests that inflationary pressures remain strong. Higher wholesale costs often pass through to consumer prices. Such persistent inflation could influence the Federal Reserve's decisions. Another interest rate hike might be considered to control rising prices. These economic signals are critical for financial markets.",
+    "sentences": [
+      {
+        "en": "US wholesale prices saw a significant annual increase in September.",
+        "ko": "9월 미국 도매물가가 연간 기준으로 크게 상승했습니다."
+      },
+      {
+        "en": "The Producer Price Index (PPI) rose by 6.3% from the previous year.",
+        "ko": "생산자물가지수(PPI)는 전년 대비 6.3% 올랐습니다."
+      },
+      {
+        "en": "This marks the largest annual gain recorded since 2022.",
+        "ko": "이는 2022년 이후 가장 큰 연간 상승폭입니다."
+      },
+      {
+        "en": "Economists had anticipated a smaller increase of 5.5%.",
+        "ko": "경제학자들은 5.5%의 더 작은 상승을 예상했습니다."
+      },
+      {
+        "en": "The monthly rise was 0.8%, also exceeding forecasts.",
+        "ko": "월간 상승률은 0.8%로, 이 역시 예측치를 넘어섰습니다."
+      },
+      {
+        "en": "This data suggests that inflationary pressures remain strong.",
+        "ko": "이 데이터는 인플레이션 압력이 여전히 강하다는 것을 시사합니다."
+      },
+      {
+        "en": "Higher wholesale costs often pass through to consumer prices.",
+        "ko": "더 높은 도매 비용은 종종 소비자 가격으로 전가됩니다."
+      },
+      {
+        "en": "Such persistent inflation could influence the Federal Reserve's decisions.",
+        "ko": "이러한 지속적인 인플레이션은 연방준비제도(Fed)의 결정에 영향을 미칠 수 있습니다."
+      },
+      {
+        "en": "Another interest rate hike might be considered to control rising prices.",
+        "ko": "물가 상승을 억제하기 위해 추가 금리 인상이 고려될 수 있습니다."
+      },
+      {
+        "en": "These economic signals are critical for financial markets.",
+        "ko": "이러한 경제 신호는 금융 시장에 매우 중요합니다."
+      }
+    ],
+    "glossary": {
+      "wholesale": {
+        "meaning": "the business of selling goods in large quantities at lower prices to retailers.",
+        "pos": "noun"
+      },
+      "annual": {
+        "meaning": "happening once every year or calculated over a year.",
+        "pos": "adjective"
+      },
+      "producer": {
+        "meaning": "a person or company that makes or creates goods.",
+        "pos": "noun"
+      },
+      "index": {
+        "meaning": "a numerical scale used to measure changes in a particular economic variable.",
+        "pos": "noun"
+      },
+      "rose": {
+        "meaning": "increased in amount, number, or level.",
+        "pos": "verb"
+      },
+      "marks": {
+        "meaning": "indicates or shows a particular quality or event.",
+        "pos": "verb"
+      },
+      "anticipated": {
+        "meaning": "expected or looked forward to something.",
+        "pos": "verb"
+      },
+      "exceeding": {
+        "meaning": "being greater than a particular number or amount.",
+        "pos": "verb"
+      },
+      "forecasts": {
+        "meaning": "predictions about future economic conditions or trends.",
+        "pos": "noun"
+      },
+      "suggests": {
+        "meaning": "indicates something indirectly or implies it.",
+        "pos": "verb"
+      },
+      "inflationary": {
+        "meaning": "relating to or causing a general increase in prices and fall in the purchasing value of money.",
+        "pos": "adjective"
+      },
+      "pressures": {
+        "meaning": "forces or influences that make something happen or change.",
+        "pos": "noun"
+      },
+      "remain": {
+        "meaning": "continue to be in a particular state or condition.",
+        "pos": "verb"
+      },
+      "persistent": {
+        "meaning": "continuing to exist or occur over a prolonged period.",
+        "pos": "adjective"
+      },
+      "pass": {
+        "meaning": "to transfer costs or benefits from one party to another.",
+        "pos": "verb"
+      },
+      "consumer": {
+        "meaning": "a person who buys goods and services for personal use.",
+        "pos": "noun"
+      },
+      "influence": {
+        "meaning": "to have an effect on the character, development, or behavior of someone or something.",
+        "pos": "verb"
+      },
+      "federal": {
+        "meaning": "relating to the central government rather than individual states.",
+        "pos": "adjective"
+      },
+      "decisions": {
+        "meaning": "choices made about what action to take.",
+        "pos": "noun"
+      },
+      "hike": {
+        "meaning": "a sharp increase, especially in prices or rates.",
+        "pos": "noun"
+      },
+      "considered": {
+        "meaning": "thought about carefully before making a decision.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "of crucial importance or significance.",
+        "pos": "adjective"
+      },
+      "markets": {
+        "meaning": "places or systems where financial assets are bought and sold.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What was the annual increase in the US Producer Price Index (PPI) for September, and how did it compare to economists' expectations?",
+      "In the context of the article, explain what \"inflationary pressures\" are and why they are \"critical for financial markets.\"",
+      "How might persistently high wholesale prices affect your personal spending or investment decisions in the coming months?"
+    ],
+    "modelAnswers": [
+      "The US Producer Price Index (PPI) increased by 6.3% annually in September. This was significantly higher than economists' anticipation of a 5.5% rise.",
+      "\"Inflationary pressures\" refer to forces causing a general increase in prices. They are critical for financial markets because they can lead central banks to raise interest rates, impacting borrowing costs, investment returns, and overall market stability.",
+      "Persistently high wholesale prices would likely lead to higher consumer prices. This could make me more cautious with non-essential spending and might encourage me to re-evaluate my investment portfolio towards assets that perform well during inflationary periods."
+    ]
+  },
+  {
+    "id": "ec-2026-10-16-2",
+    "date": "2026-10-16",
+    "rank": 5,
+    "category": "economy",
+    "reads": "Economy #2",
+    "hook": "미국의 막대한 재정 적자와 높은 국채 금리가 미국 경제의 주요 과제로 떠오르고 있습니다.",
+    "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+    "title": "US Deficit and High Treasury Yields Pose Economic Challenge",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "The United States faces a significant economic challenge. Its national debt continues to grow, reaching over $40 trillion. A large budget deficit, around $2 trillion, adds to this concern. This deficit requires substantial borrowing by the government. Meanwhile, Treasury yields have risen above 5%. Higher yields mean increased borrowing costs for the government. These elevated costs also affect households and businesses. Financing the national debt becomes more expensive. This situation highlights concerns about America's fiscal outlook. Sustainable fiscal policies are needed to address these issues.",
+    "sentences": [
+      {
+        "en": "The United States faces a significant economic challenge.",
+        "ko": "미국은 중대한 경제적 과제에 직면해 있습니다."
+      },
+      {
+        "en": "Its national debt continues to grow, reaching over $40 trillion.",
+        "ko": "국가 부채가 계속 증가하여 40조 달러를 넘어섰습니다."
+      },
+      {
+        "en": "A large budget deficit, around $2 trillion, adds to this concern.",
+        "ko": "약 2조 달러에 달하는 큰 재정 적자가 이러한 우려를 가중시킵니다."
+      },
+      {
+        "en": "This deficit requires substantial borrowing by the government.",
+        "ko": "이 적자는 정부의 상당한 차입을 필요로 합니다."
+      },
+      {
+        "en": "Meanwhile, Treasury yields have risen above 5%.",
+        "ko": "한편, 국채 금리는 5% 이상으로 상승했습니다."
+      },
+      {
+        "en": "Higher yields mean increased borrowing costs for the government.",
+        "ko": "금리 상승은 정부의 차입 비용 증가를 의미합니다."
+      },
+      {
+        "en": "These elevated costs also affect households and businesses.",
+        "ko": "이러한 높은 비용은 가계와 기업에도 영향을 미칩니다."
+      },
+      {
+        "en": "Financing the national debt becomes more expensive.",
+        "ko": "국가 부채를 조달하는 것이 더 비싸집니다."
+      },
+      {
+        "en": "This situation highlights concerns about America's fiscal outlook.",
+        "ko": "이러한 상황은 미국의 재정 전망에 대한 우려를 부각합니다."
+      },
+      {
+        "en": "Sustainable fiscal policies are needed to address these issues.",
+        "ko": "이러한 문제를 해결하기 위해 지속 가능한 재정 정책이 필요합니다."
+      }
+    ],
+    "glossary": {
+      "faces": {
+        "meaning": "is confronted with or has to deal with.",
+        "pos": "verb"
+      },
+      "significant": {
+        "meaning": "important, noticeable, or having a great effect.",
+        "pos": "adjective"
+      },
+      "challenge": {
+        "meaning": "a difficult task or problem that tests someone's ability.",
+        "pos": "noun"
+      },
+      "national": {
+        "meaning": "relating to or characteristic of a nation.",
+        "pos": "adjective"
+      },
+      "debt": {
+        "meaning": "the total amount of money that a country's government has borrowed.",
+        "pos": "noun"
+      },
+      "deficit": {
+        "meaning": "the amount by which expenses exceed income or liabilities exceed assets.",
+        "pos": "noun"
+      },
+      "concern": {
+        "meaning": "a feeling of worry or anxiety.",
+        "pos": "noun"
+      },
+      "substantial": {
+        "meaning": "of considerable importance, size, or worth.",
+        "pos": "adjective"
+      },
+      "borrowing": {
+        "meaning": "the act of taking money from a bank or person with an agreement to pay it back later.",
+        "pos": "noun"
+      },
+      "treasury": {
+        "meaning": "the government department responsible for financial policy.",
+        "pos": "noun"
+      },
+      "yields": {
+        "meaning": "the return an investor receives on US government bonds.",
+        "pos": "noun"
+      },
+      "risen": {
+        "meaning": "increased in amount, number, or level.",
+        "pos": "verb"
+      },
+      "increased": {
+        "meaning": "made greater in size, amount, or degree.",
+        "pos": "adjective"
+      },
+      "costs": {
+        "meaning": "the amount of money needed to buy, do, or get something.",
+        "pos": "noun"
+      },
+      "elevated": {
+        "meaning": "higher than normal or expected.",
+        "pos": "adjective"
+      },
+      "affect": {
+        "meaning": "to produce a change in someone or something.",
+        "pos": "verb"
+      },
+      "households": {
+        "meaning": "all the people living together in one house or dwelling.",
+        "pos": "noun"
+      },
+      "financing": {
+        "meaning": "the act of providing money for a project or activity.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "fiscal": {
+        "meaning": "relating to government revenue, especially taxes.",
+        "pos": "adjective"
+      },
+      "sustainable": {
+        "meaning": "able to be maintained at a certain rate or level.",
+        "pos": "adjective"
+      },
+      "policies": {
+        "meaning": "courses or principles of action adopted or proposed by a government.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "What is the current approximate national debt of the United States, and what are the Treasury yields mentioned in the article?",
+      "Explain how \"higher yields mean increased borrowing costs for the government\" and why this \"affects households and businesses.\"",
+      "If you were a financial advisor, what advice would you give to clients concerned about the implications of a large national deficit and rising Treasury yields?"
+    ],
+    "modelAnswers": [
+      "The US national debt is currently over $40 trillion. Treasury yields have risen above 5%.",
+      "Higher yields mean the government must pay more interest on its borrowed money, increasing its borrowing costs. This affects households and businesses by pushing up interest rates on mortgages, loans, and business investments.",
+      "As a financial advisor, I would advise clients to diversify their portfolios and consider inflation-protected assets. I would also suggest reviewing debt levels, as borrowing costs might increase, and focusing on long-term financial planning rather than short-term market volatility."
+    ]
+  },
+  {
+    "id": "ec-2026-10-16-3",
+    "date": "2026-10-16",
+    "rank": 6,
+    "category": "economy",
+    "reads": "Economy #3",
+    "hook": "중국의 9월 수출입 데이터가 예상을 뛰어넘는 호조를 보이며 글로벌 경제에 중요한 시사점을 제공합니다.",
+    "url": "https://www.cnbc.com/2026/10/14/chinas-exports-likely-grew-by-double-digits-in-september.html",
+    "title": "China's Trade Surges, Exceeding September Expectations",
+    "source": "Daybreak Wire (based on business news)",
+    "passage": "China's trade performance in September significantly exceeded expectations. Both exports and imports showed a robust surge. This positive data was released by the country's customs agency. Strong trade figures indicate resilience in China's economy. Global demand for Chinese goods appears to be recovering. Increased imports also suggest stronger domestic consumption. This trade surplus could provide a boost to China's growth. The data offers an optimistic signal for the global economy. Many countries rely on trade with China for their supply chains. Fintech professionals should monitor these international trade trends closely.",
+    "sentences": [
+      {
+        "en": "China's trade performance in September significantly exceeded expectations.",
+        "ko": "9월 중국의 무역 실적은 예상을 크게 뛰어넘었습니다."
+      },
+      {
+        "en": "Both exports and imports showed a robust surge.",
+        "ko": "수출과 수입 모두 견고한 급증세를 보였습니다."
+      },
+      {
+        "en": "This positive data was released by the country's customs agency.",
+        "ko": "이 긍정적인 데이터는 중국 세관에 의해 발표되었습니다."
+      },
+      {
+        "en": "Strong trade figures indicate resilience in China's economy.",
+        "ko": "강력한 무역 수치는 중국 경제의 회복력을 나타냅니다."
+      },
+      {
+        "en": "Global demand for Chinese goods appears to be recovering.",
+        "ko": "중국 상품에 대한 세계적 수요가 회복되는 것으로 보입니다."
+      },
+      {
+        "en": "Increased imports also suggest stronger domestic consumption.",
+        "ko": "수입 증가는 또한 더 강력한 국내 소비를 시사합니다."
+      },
+      {
+        "en": "This trade surplus could provide a boost to China's growth.",
+        "ko": "이러한 무역 흑자는 중국 경제 성장에 활력을 불어넣을 수 있습니다."
+      },
+      {
+        "en": "The data offers an optimistic signal for the global economy.",
+        "ko": "이 데이터는 세계 경제에 낙관적인 신호를 제공합니다."
+      },
+      {
+        "en": "Many countries rely on trade with China for their supply chains.",
+        "ko": "많은 국가들이 공급망을 위해 중국과의 무역에 의존합니다."
+      },
+      {
+        "en": "Fintech professionals should monitor these international trade trends closely.",
+        "ko": "핀테크 전문가들은 이러한 국제 무역 동향을 면밀히 주시해야 합니다."
+      }
+    ],
+    "glossary": {
+      "performance": {
+        "meaning": "how well or badly something works or succeeds.",
+        "pos": "noun"
+      },
+      "significantly": {
+        "meaning": "in an important or noticeable way.",
+        "pos": "adverb"
+      },
+      "exceeded": {
+        "meaning": "went beyond what was expected or required.",
+        "pos": "verb"
+      },
+      "expectations": {
+        "meaning": "beliefs about what will happen or what should be the case.",
+        "pos": "noun"
+      },
+      "robust": {
+        "meaning": "strong and healthy.",
+        "pos": "adjective"
+      },
+      "surge": {
+        "meaning": "a sudden and great increase.",
+        "pos": "noun"
+      },
+      "customs": {
+        "meaning": "the government department responsible for collecting duties and controlling the flow of goods into and out of a country.",
+        "pos": "noun"
+      },
+      "agency": {
+        "meaning": "a business or organization providing a particular service on behalf of another.",
+        "pos": "noun"
+      },
+      "released": {
+        "meaning": "made available to the public.",
+        "pos": "verb"
+      },
+      "figures": {
+        "meaning": "numbers that represent a particular amount, especially in official reports.",
+        "pos": "noun"
+      },
+      "indicate": {
+        "meaning": "to show that something is true or exists.",
+        "pos": "verb"
+      },
+      "resilience": {
+        "meaning": "the ability to recover quickly from difficulties.",
+        "pos": "noun"
+      },
+      "demand": {
+        "meaning": "the amount of a product or service that people want to buy.",
+        "pos": "noun"
+      },
+      "recovering": {
+        "meaning": "returning to a normal or healthy state.",
+        "pos": "verb"
+      },
+      "domestic": {
+        "meaning": "relating to or existing within a particular country.",
+        "pos": "adjective"
+      },
+      "consumption": {
+        "meaning": "the act of buying and using goods and services.",
+        "pos": "noun"
+      },
+      "surplus": {
+        "meaning": "an amount that is more than needed.",
+        "pos": "noun"
+      },
+      "boost": {
+        "meaning": "an act or event that helps to improve or increase something.",
+        "pos": "noun"
+      },
+      "optimistic": {
+        "meaning": "hopeful and confident about the future.",
+        "pos": "adjective"
+      },
+      "signal": {
+        "meaning": "an event or information that indicates what is happening or what is likely to happen.",
+        "pos": "noun"
+      },
+      "rely": {
+        "meaning": "to depend on someone or something.",
+        "pos": "verb"
+      },
+      "monitor": {
+        "meaning": "to watch and check a situation carefully for a period of time.",
+        "pos": "verb"
+      }
+    },
+    "questions": [
+      "What was the general trend of China's exports and imports in September, and who released this data?",
+      "What does a \"robust surge\" in both exports and imports suggest about China's economy and global demand, according to the article?",
+      "As a fintech PM, how might China's strong trade performance influence your company's strategic planning or market analysis?"
+    ],
+    "modelAnswers": [
+      "China's exports and imports both showed a robust surge in September, significantly exceeding expectations. This data was released by the country's customs agency.",
+      "A \"robust surge\" suggests resilience in China's economy, with recovering global demand for its goods and stronger domestic consumption indicated by increased imports.",
+      "China's strong trade performance could signal increased stability in global supply chains and potentially higher demand in Asian markets. My company might consider expanding services or partnerships in regions heavily reliant on Chinese trade, or adjust risk assessments for global economic forecasts."
+    ]
+  },
+  {
+    "id": "kr-2026-10-16-1",
+    "date": "2026-10-16",
+    "rank": 7,
+    "category": "korea",
+    "reads": "Korea #1",
+    "hook": "한국의 AI 붐에 힘입어 수출이 사상 최고치를 기록했다는 소식은 경제의 활력을 보여줍니다.",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX3NKUDFscG16UF9kbmVWUUdwb182Q2lOdDJweElBYTlwUE1NRXluZUdjSXp5STNweldSU1lGeUkydXhRWDctVFkxd0x2TGZNTDZneTREeENuRUVLQURJSzJzNHB5ZXFwa2VyUnM4MmtManF0M2xpY3VMM2tjOXdxNXlrazZZeC1nQzhYanNPaEtnQTdDd3fSAZsBQVVfeXFMT205N25lTE5OYnVTT2xseVhlVG9qQk01Q0ZfT2wwc3VaN3Y2V1N4UjNpZkNIVFRtbE8yeF9VQ29mRU1tUll3a056VVRXLVZhclRyeUJ4RkFGZ014WEM2MVNQREctcHY2ekpidXladzBCNEFrbFRkamdjSWdZX2xVeGNpeTEyVUsxaUlBZFlqcUF5UVNnWXZTbDdJOFk",
+    "title": "AI Boom Drives South Korea's Record Exports",
+    "source": "Daybreak Wire (based on Korean business press)",
+    "passage": "South Korea recently achieved a significant economic milestone. Its exports reached an all-time high, driven largely by the global artificial intelligence boom. Demand for advanced semiconductors and related technologies surged. Korean chipmakers, a cornerstone of the nation's economy, benefited immensely. This strong export performance signals robust growth in key industrial sectors. It also highlights Korea's crucial role in the global tech supply chain. The AI revolution is transforming various industries, creating new market opportunities. For South Korea, this translated into increased orders for high-tech components. Such positive trade data offers a hopeful outlook for the country's economic future. It underscores the importance of technological innovation for national prosperity. Policymakers will likely focus on sustaining this momentum. They aim to further strengthen Korea's competitive edge in emerging technologies.",
+    "sentences": [
+      {
+        "en": "South Korea recently achieved a significant economic milestone.",
+        "ko": "한국은 최근 중요한 경제적 이정표를 달성했습니다."
+      },
+      {
+        "en": "Its exports reached an all-time high, driven largely by the global artificial intelligence boom.",
+        "ko": "수출은 세계적인 인공지능 붐에 힘입어 사상 최고치를 기록했습니다."
+      },
+      {
+        "en": "Demand for advanced semiconductors and related technologies surged.",
+        "ko": "첨단 반도체 및 관련 기술에 대한 수요가 급증했습니다."
+      },
+      {
+        "en": "Korean chipmakers, a cornerstone of the nation's economy, benefited immensely.",
+        "ko": "한국 경제의 초석인 국내 칩 제조업체들은 엄청난 이익을 얻었습니다."
+      },
+      {
+        "en": "This strong export performance signals robust growth in key industrial sectors.",
+        "ko": "이러한 강력한 수출 실적은 주요 산업 부문의 견고한 성장을 보여줍니다."
+      },
+      {
+        "en": "It also highlights Korea's crucial role in the global tech supply chain.",
+        "ko": "이는 또한 글로벌 기술 공급망에서 한국의 핵심적인 역할을 강조합니다."
+      },
+      {
+        "en": "The AI revolution is transforming various industries, creating new market opportunities.",
+        "ko": "AI 혁명은 다양한 산업을 변화시키며 새로운 시장 기회를 창출하고 있습니다."
+      },
+      {
+        "en": "For South Korea, this translated into increased orders for high-tech components.",
+        "ko": "한국의 경우, 이는 첨단 부품에 대한 주문 증가로 이어졌습니다."
+      },
+      {
+        "en": "Such positive trade data offers a hopeful outlook for the country's economic future.",
+        "ko": "이러한 긍정적인 무역 데이터는 한국 경제의 미래에 대한 희망적인 전망을 제시합니다."
+      },
+      {
+        "en": "It underscores the importance of technological innovation for national prosperity.",
+        "ko": "이는 국가 번영을 위한 기술 혁신의 중요성을 강조합니다."
+      },
+      {
+        "en": "Policymakers will likely focus on sustaining this momentum.",
+        "ko": "정책 입안자들은 이러한 모멘텀을 유지하는 데 집중할 것입니다."
+      },
+      {
+        "en": "They aim to further strengthen Korea's competitive edge in emerging technologies.",
+        "ko": "그들은 신기술 분야에서 한국의 경쟁 우위를 더욱 강화하는 것을 목표로 합니다."
+      }
+    ],
+    "glossary": {
+      "achieved": {
+        "meaning": "successfully reached a desired goal or result after effort.",
+        "pos": "verb"
+      },
+      "milestone": {
+        "meaning": "a significant event or stage in the development of something.",
+        "pos": "noun"
+      },
+      "exports": {
+        "meaning": "goods or services sent to another country for sale.",
+        "pos": "noun"
+      },
+      "driven": {
+        "meaning": "caused or influenced by a particular factor.",
+        "pos": "verb"
+      },
+      "boom": {
+        "meaning": "a period of rapid economic growth or increased activity.",
+        "pos": "noun"
+      },
+      "advanced": {
+        "meaning": "highly developed or complex.",
+        "pos": "adjective"
+      },
+      "semiconductors": {
+        "meaning": "materials used in electronic devices that can conduct electricity under certain conditions.",
+        "pos": "noun"
+      },
+      "surged": {
+        "meaning": "increased suddenly and greatly.",
+        "pos": "verb"
+      },
+      "chipmakers": {
+        "meaning": "companies that design and manufacture semiconductor chips.",
+        "pos": "noun"
+      },
+      "cornerstone": {
+        "meaning": "the most important part of something, on which everything else depends.",
+        "pos": "noun"
+      },
+      "benefited": {
+        "meaning": "gained an advantage or profit from something.",
+        "pos": "verb"
+      },
+      "immensely": {
+        "meaning": "to a very great extent; extremely.",
+        "pos": "adverb"
+      },
+      "performance": {
+        "meaning": "how well or badly something functions or works.",
+        "pos": "noun"
+      },
+      "signals": {
+        "meaning": "indicates or shows something.",
+        "pos": "verb"
+      },
+      "robust": {
+        "meaning": "strong and healthy; not likely to fail or weaken.",
+        "pos": "adjective"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary.",
+        "pos": "adjective"
+      },
+      "revolution": {
+        "meaning": "a dramatic and wide-ranging change in the way something works or is organized.",
+        "pos": "noun"
+      },
+      "transforming": {
+        "meaning": "making a thorough or dramatic change in the form, appearance, or character of something.",
+        "pos": "verb"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "prosperity": {
+        "meaning": "the state of being successful, usually by making a lot of money.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What specific factor is credited for South Korea's recent record export performance?",
+      "Q2: In the context of the passage, what does \"cornerstone\" mean regarding Korean chipmakers? Why are they considered a cornerstone?",
+      "Q3: How might South Korea maintain its strong export performance in the face of evolving global technological demands? What strategies should policymakers consider?"
+    ],
+    "modelAnswers": [
+      "A1: The global artificial intelligence boom is credited for South Korea's recent record export performance. It led to increased demand for advanced semiconductors and related technologies.",
+      "A2: \"Cornerstone\" means the most fundamental or important part. Korean chipmakers are considered a cornerstone because they are a crucial and foundational element of the nation's economy, supporting its overall growth.",
+      "A3: To maintain its performance, South Korea should invest more in R&D for next-generation AI and semiconductor technologies. Diversifying export markets and fostering a skilled workforce in emerging tech sectors would also be beneficial."
+    ]
+  },
+  {
+    "id": "kr-2026-10-16-2",
+    "date": "2026-10-16",
+    "rank": 8,
+    "category": "korea",
+    "reads": "Korea #2",
+    "hook": "AI 관련 우려로 국내 칩 제조업체들이 부진하며 코스피 지수가 6개월 최저치를 기록했다는 소식입니다.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdWpRSjBjZzFURGRKR0VQWHlfRGlueEl6akRuam5yVExaVDJQWVYyckVBTDJ0WTlKc1F0THBUNWJBajN3bzRGa2U3TjBUSGxKS05NclZpWU14N2FVUzFoX05pQ1NwV2QtaXljRnJiUTZOc0RIaXZnMHlhX05aNmMwRmJhMmtINmRranYyVEFITFZJWnNGWFY1N2pNcEx0V3lEdTJZZWwzZnc1Y0U2ZFVpU0NnaUxydw",
+    "title": "KOSPI Hits 6-Month Low Amid Chipmaker Slump",
+    "source": "Daybreak Wire (based on Korean business press)",
+    "passage": "South Korea's benchmark stock index, the KOSPI, recently experienced a significant drop. It closed at its lowest point in six months, reflecting investor concerns. A major factor was the slump in share prices of leading chipmakers. These companies are crucial to the Korean economy and global tech supply. The decline was primarily driven by increasing worries about the artificial intelligence sector. Investors are questioning the sustainability of the current AI boom's valuation. Some fear a potential oversupply or slowing demand for AI-related hardware. This sentiment affected major players like Samsung Electronics and SK Hynix. Their performance often dictates the direction of the broader KOSPI index. The market reaction underscores the volatility associated with high-growth tech areas. It also highlights the interconnectedness of global technology trends and local markets. Analysts are now closely watching for signs of stabilization or further decline.",
+    "sentences": [
+      {
+        "en": "South Korea's benchmark stock index, the KOSPI, recently experienced a significant drop.",
+        "ko": "한국의 벤치마크 주가지수인 코스피가 최근 크게 하락했습니다."
+      },
+      {
+        "en": "It closed at its lowest point in six months, reflecting investor concerns.",
+        "ko": "이는 투자자들의 우려를 반영하며 6개월 만에 최저치로 마감했습니다."
+      },
+      {
+        "en": "A major factor was the slump in share prices of leading chipmakers.",
+        "ko": "주요 원인은 선두 칩 제조업체들의 주가 하락이었습니다."
+      },
+      {
+        "en": "These companies are crucial to the Korean economy and global tech supply.",
+        "ko": "이들 기업은 한국 경제와 글로벌 기술 공급에 매우 중요합니다."
+      },
+      {
+        "en": "The decline was primarily driven by increasing worries about the artificial intelligence sector.",
+        "ko": "하락은 주로 인공지능 부문에 대한 우려 증가에 의해 촉발되었습니다."
+      },
+      {
+        "en": "Investors are questioning the sustainability of the current AI boom's valuation.",
+        "ko": "투자자들은 현재 AI 붐의 가치 평가 지속 가능성에 의문을 제기하고 있습니다."
+      },
+      {
+        "en": "Some fear a potential oversupply or slowing demand for AI-related hardware.",
+        "ko": "일부에서는 AI 관련 하드웨어의 잠재적인 과잉 공급이나 수요 둔화를 우려합니다."
+      },
+      {
+        "en": "This sentiment affected major players like Samsung Electronics and SK Hynix.",
+        "ko": "이러한 심리는 삼성전자와 SK하이닉스 같은 주요 기업에 영향을 미쳤습니다."
+      },
+      {
+        "en": "Their performance often dictates the direction of the broader KOSPI index.",
+        "ko": "이들의 실적은 종종 더 넓은 코스피 지수의 방향을 결정합니다."
+      },
+      {
+        "en": "The market reaction underscores the volatility associated with high-growth tech areas.",
+        "ko": "시장 반응은 고성장 기술 분야와 관련된 변동성을 강조합니다."
+      },
+      {
+        "en": "It also highlights the interconnectedness of global technology trends and local markets.",
+        "ko": "이는 또한 글로벌 기술 트렌드와 지역 시장의 상호 연결성을 보여줍니다."
+      },
+      {
+        "en": "Analysts are now closely watching for signs of stabilization or further decline.",
+        "ko": "분석가들은 이제 안정화 또는 추가 하락의 징후를 면밀히 주시하고 있습니다."
+      }
+    ],
+    "glossary": {
+      "benchmark": {
+        "meaning": "a standard or point of reference against which things may be compared or assessed.",
+        "pos": "noun"
+      },
+      "drop": {
+        "meaning": "a fall or decline in amount, level, or quality.",
+        "pos": "noun"
+      },
+      "reflecting": {
+        "meaning": "showing or indicating something.",
+        "pos": "verb"
+      },
+      "investor": {
+        "meaning": "a person or organization that puts money into financial schemes with the expectation of achieving a profit.",
+        "pos": "noun"
+      },
+      "concerns": {
+        "meaning": "feelings of worry or apprehension.",
+        "pos": "noun"
+      },
+      "slump": {
+        "meaning": "a sudden severe or prolonged fall in the price, value, or amount of something.",
+        "pos": "noun"
+      },
+      "leading": {
+        "meaning": "most important or successful.",
+        "pos": "adjective"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary.",
+        "pos": "adjective"
+      },
+      "driven": {
+        "meaning": "caused or influenced by a particular factor.",
+        "pos": "verb"
+      },
+      "sustainability": {
+        "meaning": "the ability to be maintained at a certain rate or level.",
+        "pos": "noun"
+      },
+      "valuation": {
+        "meaning": "the process of estimating the monetary value of an asset or company.",
+        "pos": "noun"
+      },
+      "potential": {
+        "meaning": "having or showing the capacity to become something in the future.",
+        "pos": "adjective"
+      },
+      "oversupply": {
+        "meaning": "an excessive supply.",
+        "pos": "noun"
+      },
+      "demand": {
+        "meaning": "the desire of consumers for a good or service.",
+        "pos": "noun"
+      },
+      "sentiment": {
+        "meaning": "a general feeling or opinion.",
+        "pos": "noun"
+      },
+      "dictates": {
+        "meaning": "largely determines or influences.",
+        "pos": "verb"
+      },
+      "underscores": {
+        "meaning": "emphasizes the importance of something.",
+        "pos": "verb"
+      },
+      "volatility": {
+        "meaning": "the tendency of a market or price to change rapidly and unpredictably.",
+        "pos": "noun"
+      },
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "stabilization": {
+        "meaning": "the process of making something stable or secure.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: What was the recent performance of South Korea's KOSPI index, and what contributed to this outcome?",
+      "Q2: Explain what \"sustainability of the current AI boom's valuation\" means in the context of investors' concerns. Why would this be a concern?",
+      "Q3: If you were an investor, how would you approach investing in chipmakers given the current market sentiment and AI worries? What factors would guide your decision?"
+    ],
+    "modelAnswers": [
+      "A1: The KOSPI index closed at a six-month low. This outcome was largely due to a slump in leading chipmakers' share prices, driven by worries about the AI sector.",
+      "A2: This phrase refers to whether the high prices of AI-related stocks can be maintained long-term. Investors worry if current valuations are realistic or if there might be an oversupply or slowing demand for AI hardware in the future.",
+      "A3: I would assess chipmakers' long-term innovation capabilities and diversification beyond current AI trends. I'd also look for strong financials and a clear strategy to navigate market volatility, perhaps favoring companies with diverse product portfolios."
+    ]
+  },
+  {
+    "id": "kr-2026-10-16-3",
+    "date": "2026-10-16",
+    "rank": 9,
+    "category": "korea",
+    "reads": "Korea #3",
+    "hook": "한국의 교육 시스템이 경제에 필요한 인력을 양성하지 못하고 있다는 진단은 미래 성장 동력에 대한 중요한 질문을 던집니다.",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY2g2RHdMN3hpdFU1enpCT3NLblI4di1TTGxCRTk4S3FFYkJmLVpFNTJBT0RyUm9IU1ZrQ1B5QWRpbTlYcHo4Y2tuQWtNUl9WenJOcHpBOGZ4ZHFaMk5Bd2hsU3Y1d1Z6WHN1OEkyUmE2S2tRZVhueFZ3UkFyb0NXT2hxaUZEV050ZzlyUE9rSEtJenRmU1E0ak9reURnZ2gtb0dubnBn",
+    "title": "Education System Fails to Meet Korea's Economic Needs",
+    "source": "Daybreak Wire (based on Korean business press)",
+    "passage": "A recent report highlights a critical issue for South Korea's economy. The nation's education system is struggling to produce the necessary workforce. There is a growing mismatch between graduates' skills and industry demands. This problem poses a significant challenge to future economic growth. Traditional curricula often do not align with rapid technological advancements. Industries, especially in fintech and IT, require highly specialized talents. However, many graduates lack practical experience and relevant competencies. This skills gap can hinder innovation and reduce national competitiveness. The report suggests a need for fundamental reforms in educational approaches. Emphasizing critical thinking, creativity, and problem-solving is vital. Closer collaboration between universities and businesses is also recommended. Addressing this issue is crucial for securing Korea's long-term prosperity.",
+    "sentences": [
+      {
+        "en": "A recent report highlights a critical issue for South Korea's economy.",
+        "ko": "최근 보고서는 한국 경제의 중요한 문제를 강조합니다."
+      },
+      {
+        "en": "The nation's education system is struggling to produce the necessary workforce.",
+        "ko": "국가의 교육 시스템은 필요한 인력을 양성하는 데 어려움을 겪고 있습니다."
+      },
+      {
+        "en": "There is a growing mismatch between graduates' skills and industry demands.",
+        "ko": "졸업생의 기술과 산업 수요 사이에 점점 더 큰 불일치가 있습니다."
+      },
+      {
+        "en": "This problem poses a significant challenge to future economic growth.",
+        "ko": "이 문제는 미래 경제 성장에 중대한 도전을 제기합니다."
+      },
+      {
+        "en": "Traditional curricula often do not align with rapid technological advancements.",
+        "ko": "전통적인 교육과정은 급변하는 기술 발전에 종종 부합하지 않습니다."
+      },
+      {
+        "en": "Industries, especially in fintech and IT, require highly specialized talents.",
+        "ko": "특히 핀테크 및 IT 산업은 고도로 전문화된 인재를 요구합니다."
+      },
+      {
+        "en": "However, many graduates lack practical experience and relevant competencies.",
+        "ko": "하지만 많은 졸업생들은 실무 경험과 관련 역량이 부족합니다."
+      },
+      {
+        "en": "This skills gap can hinder innovation and reduce national competitiveness.",
+        "ko": "이러한 기술 격차는 혁신을 저해하고 국가 경쟁력을 약화시킬 수 있습니다."
+      },
+      {
+        "en": "The report suggests a need for fundamental reforms in educational approaches.",
+        "ko": "이 보고서는 교육 방식에 대한 근본적인 개혁의 필요성을 제안합니다."
+      },
+      {
+        "en": "Emphasizing critical thinking, creativity, and problem-solving is vital.",
+        "ko": "비판적 사고, 창의성, 문제 해결 능력을 강조하는 것이 중요합니다."
+      },
+      {
+        "en": "Closer collaboration between universities and businesses is also recommended.",
+        "ko": "대학과 기업 간의 긴밀한 협력도 권장됩니다."
+      },
+      {
+        "en": "Addressing this issue is crucial for securing Korea's long-term prosperity.",
+        "ko": "이 문제를 해결하는 것은 한국의 장기적인 번영을 확보하는 데 필수적입니다."
+      }
+    ],
+    "glossary": {
+      "highlights": {
+        "meaning": "draws special attention to something.",
+        "pos": "verb"
+      },
+      "critical": {
+        "meaning": "extremely important or serious.",
+        "pos": "adjective"
+      },
+      "struggling": {
+        "meaning": "experiencing difficulty or making a strenuous effort.",
+        "pos": "verb"
+      },
+      "produce": {
+        "meaning": "create or make something.",
+        "pos": "verb"
+      },
+      "workforce": {
+        "meaning": "all the people working or available to work, as in a country or company.",
+        "pos": "noun"
+      },
+      "mismatch": {
+        "meaning": "a failure to correspond or be compatible.",
+        "pos": "noun"
+      },
+      "demands": {
+        "meaning": "strong requests or needs for something.",
+        "pos": "noun"
+      },
+      "poses": {
+        "meaning": "presents or constitutes a problem or danger.",
+        "pos": "verb"
+      },
+      "challenge": {
+        "meaning": "a difficult task or problem.",
+        "pos": "noun"
+      },
+      "curricula": {
+        "meaning": "the subjects comprising a course of study in a school or college.",
+        "pos": "noun"
+      },
+      "align": {
+        "meaning": "match or correspond with something.",
+        "pos": "verb"
+      },
+      "advancements": {
+        "meaning": "developments or improvements.",
+        "pos": "noun"
+      },
+      "industries": {
+        "meaning": "groups of businesses that provide a particular product or service.",
+        "pos": "noun"
+      },
+      "fintech": {
+        "meaning": "technology used to improve and automate financial services.",
+        "pos": "noun"
+      },
+      "specialized": {
+        "meaning": "concentrating on a particular subject or area.",
+        "pos": "adjective"
+      },
+      "competencies": {
+        "meaning": "the ability to do something successfully or efficiently.",
+        "pos": "noun"
+      },
+      "hinder": {
+        "meaning": "create difficulties for someone or something, resulting in delay or obstruction.",
+        "pos": "verb"
+      },
+      "innovation": {
+        "meaning": "the introduction of new ideas, methods, or products.",
+        "pos": "noun"
+      },
+      "competitiveness": {
+        "meaning": "the ability of a company or a country to be more successful than others.",
+        "pos": "noun"
+      },
+      "fundamental": {
+        "meaning": "forming a necessary base or core; of central importance.",
+        "pos": "adjective"
+      },
+      "vital": {
+        "meaning": "absolutely necessary or important; essential.",
+        "pos": "adjective"
+      },
+      "collaboration": {
+        "meaning": "the action of working with someone to produce something.",
+        "pos": "noun"
+      },
+      "addressing": {
+        "meaning": "dealing with or discussing a subject.",
+        "pos": "verb"
+      },
+      "crucial": {
+        "meaning": "extremely important or necessary.",
+        "pos": "adjective"
+      },
+      "securing": {
+        "meaning": "achieving or guaranteeing something.",
+        "pos": "verb"
+      },
+      "prosperity": {
+        "meaning": "the state of being successful, usually by making a lot of money.",
+        "pos": "noun"
+      }
+    },
+    "questions": [
+      "Q1: According to the passage, what is the main problem with South Korea's education system concerning its economy?",
+      "Q2: What does the term \"skills gap\" refer to in this context? How does it affect the national economy?",
+      "Q3: As a fintech PM, how do you see this issue impacting your industry? What specific changes in education or training would you advocate for to better prepare the future workforce?"
+    ],
+    "modelAnswers": [
+      "A1: The main problem is that the education system is struggling to produce a workforce with skills that match the demands of the industry, especially in rapidly advancing technological fields.",
+      "A2: A \"skills gap\" means there's a mismatch between the skills graduates possess and the specialized talents industries require. This hinders innovation and reduces national competitiveness.",
+      "A3: This issue directly impacts fintech by limiting the availability of specialized talent in areas like AI and data science. I would advocate for more practical, project-based learning and closer partnerships between universities and fintech companies to develop relevant curricula and offer internships."
+    ]
+  },
+  {
     "id": "cd-2026-10-15-1",
     "date": "2026-10-15",
     "rank": 1,
@@ -16605,998 +18063,6 @@
       "The core inflation rate for August was 3.0%, which was significantly lighter than market expectations of 3.3%.",
       "Lower-than-expected inflation data might reduce the urgency for the Federal Reserve to implement further interest rate hikes. This is because the Fed often raises rates to combat high inflation.",
       "A fintech PM could use inflation data to recommend inflation-hedging investments to clients, like real estate or inflation-protected securities. They might also develop new products that help users manage rising costs or forecast future purchasing power more accurately."
-    ]
-  },
-  {
-    "id": "cd-2026-10-02-1",
-    "date": "2026-10-02",
-    "rank": 1,
-    "category": "crypto",
-    "reads": "Crypto #1",
-    "hook": "미국 증권거래위원회가 암호화폐 자산 관리자들을 위한 새로운 수탁 규정을 제안했습니다.",
-    "url": "https://www.coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda",
-    "title": "SEC Proposes New Crypto Custody Rules",
-    "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "The U.S. Securities and Exchange Commission (SEC) has proposed new rules. These rules focus on how investment advisers handle client crypto assets. The proposal aims to enhance investor protection in the digital asset space. It requires advisers to keep client funds and securities with a qualified custodian. This includes digital assets, treating them similarly to traditional assets. The SEC wants to reduce risks like fraud and theft for investors. This move signals the regulator's ongoing effort to oversee the crypto market. It also highlights the evolving regulatory landscape for digital assets. Industry participants must understand these changes for compliance. The new rules could significantly impact how crypto funds operate. This proposal is a major step in formalizing crypto asset custody. It reflects a growing desire for clearer guidelines in the sector.",
-    "sentences": [
-      {
-        "en": "The U.S. Securities and Exchange Commission (SEC) has proposed new rules.",
-        "ko": "미국 증권거래위원회(SEC)가 새로운 규정을 제안했습니다."
-      },
-      {
-        "en": "These rules focus on how investment advisers handle client crypto assets.",
-        "ko": "이 규정들은 투자 자문사들이 고객의 암호화폐 자산을 어떻게 다루는지에 중점을 둡니다."
-      },
-      {
-        "en": "The proposal aims to enhance investor protection in the digital asset space.",
-        "ko": "이 제안은 디지털 자산 분야에서 투자자 보호를 강화하는 것을 목표로 합니다."
-      },
-      {
-        "en": "It requires advisers to keep client funds and securities with a qualified custodian.",
-        "ko": "이는 자문사들이 고객의 자금과 증권을 자격 있는 수탁기관에 보관하도록 요구합니다."
-      },
-      {
-        "en": "This includes digital assets, treating them similarly to traditional assets.",
-        "ko": "이는 디지털 자산을 포함하며, 전통적인 자산과 유사하게 취급합니다."
-      },
-      {
-        "en": "The SEC wants to reduce risks like fraud and theft for investors.",
-        "ko": "SEC는 투자자들을 위한 사기 및 절도와 같은 위험을 줄이기를 원합니다."
-      },
-      {
-        "en": "This move signals the regulator's ongoing effort to oversee the crypto market.",
-        "ko": "이러한 움직임은 암호화폐 시장을 감독하려는 규제 당국의 지속적인 노력을 보여줍니다."
-      },
-      {
-        "en": "It also highlights the evolving regulatory landscape for digital assets.",
-        "ko": "또한 디지털 자산에 대한 진화하는 규제 환경을 강조합니다."
-      },
-      {
-        "en": "Industry participants must understand these changes for compliance.",
-        "ko": "업계 참여자들은 준수를 위해 이러한 변경 사항을 이해해야 합니다."
-      },
-      {
-        "en": "The new rules could significantly impact how crypto funds operate.",
-        "ko": "새로운 규정은 암호화폐 펀드 운영 방식에 상당한 영향을 미칠 수 있습니다."
-      },
-      {
-        "en": "This proposal is a major step in formalizing crypto asset custody.",
-        "ko": "이 제안은 암호화폐 자산 수탁을 공식화하는 데 있어 중요한 단계입니다."
-      },
-      {
-        "en": "It reflects a growing desire for clearer guidelines in the sector.",
-        "ko": "이는 해당 부문에서 더 명확한 지침에 대한 증가하는 열망을 반영합니다."
-      }
-    ],
-    "glossary": {
-      "commission": {
-        "meaning": "A group of people officially chosen to do a specific job, often related to government or regulation.",
-        "pos": "noun"
-      },
-      "proposed": {
-        "meaning": "Suggested or put forward an idea or plan for consideration.",
-        "pos": "verb"
-      },
-      "custody": {
-        "meaning": "The legal right or duty to care for something, especially money or assets.",
-        "pos": "noun"
-      },
-      "advisers": {
-        "meaning": "People who give professional advice, especially on financial matters.",
-        "pos": "noun"
-      },
-      "enhance": {
-        "meaning": "To improve the quality, value, or extent of something.",
-        "pos": "verb"
-      },
-      "protection": {
-        "meaning": "The action of keeping someone or something safe from harm or damage.",
-        "pos": "noun"
-      },
-      "qualified": {
-        "meaning": "Officially recognized as being suitable or competent to perform a particular job or task.",
-        "pos": "adjective"
-      },
-      "custodian": {
-        "meaning": "A person or institution responsible for safeguarding and overseeing assets or property.",
-        "pos": "noun"
-      },
-      "traditional": {
-        "meaning": "Existing in or as part of a long-established custom or belief.",
-        "pos": "adjective"
-      },
-      "reduce": {
-        "meaning": "To make something smaller or less in amount, degree, or size.",
-        "pos": "verb"
-      },
-      "fraud": {
-        "meaning": "Wrongful or criminal deception intended to result in financial or personal gain.",
-        "pos": "noun"
-      },
-      "signals": {
-        "meaning": "Indicates or suggests that something is happening or will happen.",
-        "pos": "verb"
-      },
-      "oversee": {
-        "meaning": "To supervise a person or their work, especially in an official capacity.",
-        "pos": "verb"
-      },
-      "evolving": {
-        "meaning": "Developing gradually, especially from a simple to a more complex form.",
-        "pos": "adjective"
-      },
-      "landscape": {
-        "meaning": "The overall situation or environment relating to a particular activity or subject.",
-        "pos": "noun"
-      },
-      "participants": {
-        "meaning": "People who take part in an activity or event.",
-        "pos": "noun"
-      },
-      "compliance": {
-        "meaning": "The act of obeying an order, rule, or request.",
-        "pos": "noun"
-      },
-      "significantly": {
-        "meaning": "In a sufficiently great or important way as to be worthy of attention.",
-        "pos": "adverb"
-      },
-      "impact": {
-        "meaning": "To have a strong effect on someone or something.",
-        "pos": "verb"
-      },
-      "formalizing": {
-        "meaning": "Giving something an official or legal form or status.",
-        "pos": "verb"
-      },
-      "reflects": {
-        "meaning": "Shows or indicates something.",
-        "pos": "verb"
-      },
-      "guidelines": {
-        "meaning": "General rules, principles, or advice.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What is the main purpose of the SEC's proposed new rules regarding crypto assets?",
-      "Q2: In the context of the passage, what does \"qualified custodian\" mean, and why is it important for investor protection?",
-      "Q3: How might these new custody rules affect the growth and innovation of the crypto industry, considering both potential benefits and drawbacks?"
-    ],
-    "modelAnswers": [
-      "A1: The main purpose is to enhance investor protection in the digital asset space by requiring investment advisers to keep client crypto assets with a qualified custodian.",
-      "A2: A \"qualified custodian\" is an institution officially recognized as competent to safeguard assets. It's important because it reduces risks like fraud and theft, treating digital assets similarly to traditional ones for security.",
-      "A3: These rules could increase investor confidence and bring more institutional money into crypto, fostering growth. However, they might also impose significant compliance costs and operational hurdles, potentially slowing down innovation for smaller firms."
-    ]
-  },
-  {
-    "id": "cd-2026-10-02-2",
-    "date": "2026-10-02",
-    "rank": 2,
-    "category": "crypto",
-    "reads": "Crypto #2",
-    "hook": "CLARITY 법안은 실패했지만, 암호화폐에 대한 새로운 규정들이 결국 도입되었습니다.",
-    "url": "https://www.coindesk.com/coindesk-indices/2026/10/01/crypto-for-advisors-the-clarity-act-failed-but-the-rules-came-anyway",
-    "title": "CLARITY Act Failed, Crypto Rules Arrived",
-    "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "The CLARITY Act was a proposed legislative effort for crypto. It aimed to provide clear regulatory guidance for digital assets. However, this specific bill ultimately did not pass. Despite its failure, new rules and regulations have still emerged. This shows that lawmakers and regulators are actively addressing crypto. The industry has long sought clear guidelines for operation. Yet, the approach to regulation has been piecemeal and evolving. Different agencies are issuing their own interpretations and mandates. This creates a complex and sometimes fragmented regulatory environment. Businesses must navigate these varied requirements for compliance. The lack of a unified approach causes uncertainty for market participants. This situation highlights the ongoing struggle for comprehensive crypto legislation.",
-    "sentences": [
-      {
-        "en": "The CLARITY Act was a proposed legislative effort for crypto.",
-        "ko": "CLARITY 법안은 암호화폐를 위한 제안된 입법 노력이었습니다."
-      },
-      {
-        "en": "It aimed to provide clear regulatory guidance for digital assets.",
-        "ko": "이는 디지털 자산에 대한 명확한 규제 지침을 제공하는 것을 목표로 했습니다."
-      },
-      {
-        "en": "However, this specific bill ultimately did not pass.",
-        "ko": "하지만 이 특정 법안은 결국 통과되지 못했습니다."
-      },
-      {
-        "en": "Despite its failure, new rules and regulations have still emerged.",
-        "ko": "실패에도 불구하고 새로운 규칙과 규정들이 여전히 나타났습니다."
-      },
-      {
-        "en": "This shows that lawmakers and regulators are actively addressing crypto.",
-        "ko": "이는 입법자와 규제 당국이 암호화폐 문제를 적극적으로 다루고 있음을 보여줍니다."
-      },
-      {
-        "en": "The industry has long sought clear guidelines for operation.",
-        "ko": "업계는 오랫동안 운영을 위한 명확한 지침을 찾아왔습니다."
-      },
-      {
-        "en": "Yet, the approach to regulation has been piecemeal and evolving.",
-        "ko": "하지만 규제 접근 방식은 단편적이고 진화하고 있습니다."
-      },
-      {
-        "en": "Different agencies are issuing their own interpretations and mandates.",
-        "ko": "다양한 기관들이 자체적인 해석과 명령을 내리고 있습니다."
-      },
-      {
-        "en": "This creates a complex and sometimes fragmented regulatory environment.",
-        "ko": "이는 복잡하고 때로는 파편화된 규제 환경을 만듭니다."
-      },
-      {
-        "en": "Businesses must navigate these varied requirements for compliance.",
-        "ko": "기업들은 준수를 위해 이러한 다양한 요구 사항들을 헤쳐나가야 합니다."
-      },
-      {
-        "en": "The lack of a unified approach causes uncertainty for market participants.",
-        "ko": "통일된 접근 방식의 부재는 시장 참여자들에게 불확실성을 야기합니다."
-      },
-      {
-        "en": "This situation highlights the ongoing struggle for comprehensive crypto legislation.",
-        "ko": "이러한 상황은 포괄적인 암호화폐 입법을 위한 지속적인 노력을 강조합니다."
-      }
-    ],
-    "glossary": {
-      "act": {
-        "meaning": "A law passed by a legislative body.",
-        "pos": "noun"
-      },
-      "proposed": {
-        "meaning": "Suggested as a plan or idea.",
-        "pos": "adjective"
-      },
-      "legislative": {
-        "meaning": "Relating to laws or the making of laws.",
-        "pos": "adjective"
-      },
-      "effort": {
-        "meaning": "A serious attempt or try.",
-        "pos": "noun"
-      },
-      "aimed": {
-        "meaning": "Directed or intended toward a particular goal.",
-        "pos": "verb"
-      },
-      "guidance": {
-        "meaning": "Advice or information intended to resolve a problem or difficulty.",
-        "pos": "noun"
-      },
-      "ultimately": {
-        "meaning": "In the end; finally.",
-        "pos": "adverb"
-      },
-      "emerged": {
-        "meaning": "Became known or apparent.",
-        "pos": "verb"
-      },
-      "lawmakers": {
-        "meaning": "People who write and pass laws, such as members of a parliament or congress.",
-        "pos": "noun"
-      },
-      "addressing": {
-        "meaning": "Dealing with or discussing a problem or issue.",
-        "pos": "verb"
-      },
-      "sought": {
-        "meaning": "Tried to find or obtain something.",
-        "pos": "verb"
-      },
-      "piecemeal": {
-        "meaning": "Characterized by unsystematic partial measures over a period of time.",
-        "pos": "adjective"
-      },
-      "evolving": {
-        "meaning": "Developing gradually, especially from a simple to a more complex form.",
-        "pos": "verb"
-      },
-      "agencies": {
-        "meaning": "Government departments or organizations responsible for specific functions.",
-        "pos": "noun"
-      },
-      "issuing": {
-        "meaning": "Supplying or distributing something.",
-        "pos": "verb"
-      },
-      "interpretations": {
-        "meaning": "The way something is explained or understood.",
-        "pos": "noun"
-      },
-      "mandates": {
-        "meaning": "Official orders or commands to do something.",
-        "pos": "noun"
-      },
-      "fragmented": {
-        "meaning": "Broken into small, distinct parts.",
-        "pos": "adjective"
-      },
-      "environment": {
-        "meaning": "The surroundings or conditions in which a person, animal, or plant lives or operates.",
-        "pos": "noun"
-      },
-      "navigate": {
-        "meaning": "To find a way through a complex situation.",
-        "pos": "verb"
-      },
-      "varied": {
-        "meaning": "Incorporating a number of different types or elements; diverse.",
-        "pos": "adjective"
-      },
-      "unified": {
-        "meaning": "Made into or becoming a single unit.",
-        "pos": "adjective"
-      },
-      "uncertainty": {
-        "meaning": "The state of being unsure or not definite.",
-        "pos": "noun"
-      },
-      "comprehensive": {
-        "meaning": "Including or dealing with all or nearly all elements or aspects of something.",
-        "pos": "adjective"
-      },
-      "legislation": {
-        "meaning": "Laws, considered collectively.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What was the main goal of the CLARITY Act, even though it ultimately failed?",
-      "Q2: Explain what \"piecemeal\" means in the context of crypto regulation, and what challenges it creates for businesses.",
-      "Q3: Do you think a \"unified approach\" to crypto regulation is achievable or desirable, and what are the potential benefits or drawbacks of such an approach?"
-    ],
-    "modelAnswers": [
-      "A1: The CLARITY Act aimed to provide clear regulatory guidance for digital assets and the crypto industry.",
-      "A2: \"Piecemeal\" means regulation is happening in small, unsystematic parts, with different agencies issuing their own rules. This creates a complex, fragmented environment, making compliance difficult for businesses.",
-      "A3: A unified approach is desirable for clarity and certainty, potentially fostering innovation. However, it might be hard to achieve due to differing agency jurisdictions and rapid technological changes. It could also lead to over-regulation if not carefully balanced."
-    ]
-  },
-  {
-    "id": "cd-2026-10-02-3",
-    "date": "2026-10-02",
-    "rank": 3,
-    "category": "crypto",
-    "reads": "Crypto #3",
-    "hook": "일리노이주가 암호화폐 세금 부과를 6개월 연기하며 업계와 법적 공방을 이어갑니다.",
-    "url": "https://www.coindesk.com/policy/2026/09/30/illinois-agrees-to-six-month-delay-of-crypto-tax-as-industry-continues-court-battle",
-    "title": "Illinois Delays Crypto Tax Amid Legal Fight",
-    "source": "Daybreak Wire (based on CoinDesk)",
-    "passage": "Illinois recently agreed to delay a new crypto tax. The implementation of the 0.2% tax is now pushed back. This delay is for a period of six months, until July 1. It allows the state and the crypto industry to focus on a legal dispute. The industry is currently challenging the legality of this tax in court. Both sides agreed to the postponement, if approved by the court. This situation highlights the ongoing tension between innovation and taxation. States are exploring ways to generate revenue from the digital economy. However, the crypto sector often argues against burdensome regulations. Such taxes can be seen as hindering growth and discouraging investment. This specific case could set a precedent for other states considering similar taxes. It underscores the need for clear and fair tax policies for digital assets.",
-    "sentences": [
-      {
-        "en": "Illinois recently agreed to delay a new crypto tax.",
-        "ko": "일리노이주가 최근 새로운 암호화폐 세금 부과를 연기하기로 합의했습니다."
-      },
-      {
-        "en": "The implementation of the 0.2% tax is now pushed back.",
-        "ko": "0.2% 세금의 시행이 이제 연기되었습니다."
-      },
-      {
-        "en": "This delay is for a period of six months, until July 1.",
-        "ko": "이 연기는 7월 1일까지 6개월 동안입니다."
-      },
-      {
-        "en": "It allows the state and the crypto industry to focus on a legal dispute.",
-        "ko": "이는 주 정부와 암호화폐 업계가 법적 분쟁에 집중할 수 있도록 합니다."
-      },
-      {
-        "en": "The industry is currently challenging the legality of this tax in court.",
-        "ko": "업계는 현재 이 세금의 합법성에 대해 법원에서 이의를 제기하고 있습니다."
-      },
-      {
-        "en": "Both sides agreed to the postponement, if approved by the court.",
-        "ko": "양측은 법원의 승인이 있을 경우 연기에 동의했습니다."
-      },
-      {
-        "en": "This situation highlights the ongoing tension between innovation and taxation.",
-        "ko": "이 상황은 혁신과 과세 사이의 지속적인 긴장을 강조합니다."
-      },
-      {
-        "en": "States are exploring ways to generate revenue from the digital economy.",
-        "ko": "주 정부들은 디지털 경제에서 수익을 창출할 방법을 모색하고 있습니다."
-      },
-      {
-        "en": "However, the crypto sector often argues against burdensome regulations.",
-        "ko": "하지만 암호화폐 부문은 종종 부담스러운 규제에 반대합니다."
-      },
-      {
-        "en": "Such taxes can be seen as hindering growth and discouraging investment.",
-        "ko": "이러한 세금은 성장을 저해하고 투자를 위축시키는 것으로 볼 수 있습니다."
-      },
-      {
-        "en": "This specific case could set a precedent for other states considering similar taxes.",
-        "ko": "이 특정 사례는 유사한 세금을 고려하는 다른 주들에게 선례가 될 수 있습니다."
-      },
-      {
-        "en": "It underscores the need for clear and fair tax policies for digital assets.",
-        "ko": "이는 디지털 자산에 대한 명확하고 공정한 세금 정책의 필요성을 강조합니다."
-      }
-    ],
-    "glossary": {
-      "agreed": {
-        "meaning": "Reached a consensus or decision.",
-        "pos": "verb"
-      },
-      "delay": {
-        "meaning": "To postpone or put off to a later time.",
-        "pos": "verb"
-      },
-      "implementation": {
-        "meaning": "The process of putting a decision or plan into effect.",
-        "pos": "noun"
-      },
-      "pushed": {
-        "meaning": "Moved something forward or backward in time, often to a later date.",
-        "pos": "verb"
-      },
-      "allows": {
-        "meaning": "Gives the necessary time or opportunity for something.",
-        "pos": "verb"
-      },
-      "dispute": {
-        "meaning": "A disagreement or argument, especially an official one between two parties.",
-        "pos": "noun"
-      },
-      "challenging": {
-        "meaning": "Questioning the legality or validity of something.",
-        "pos": "verb"
-      },
-      "legality": {
-        "meaning": "The state of being in accordance with the law.",
-        "pos": "noun"
-      },
-      "postponement": {
-        "meaning": "The action of delaying or putting off an event or decision.",
-        "pos": "noun"
-      },
-      "approved": {
-        "meaning": "Officially agreed to or accepted.",
-        "pos": "verb"
-      },
-      "tension": {
-        "meaning": "A state of strained relations or conflict between parties.",
-        "pos": "noun"
-      },
-      "innovation": {
-        "meaning": "The introduction of new ideas, methods, or devices.",
-        "pos": "noun"
-      },
-      "taxation": {
-        "meaning": "The system of imposing taxes.",
-        "pos": "noun"
-      },
-      "generate": {
-        "meaning": "To produce or create something.",
-        "pos": "verb"
-      },
-      "revenue": {
-        "meaning": "Income, especially when of a company or organization.",
-        "pos": "noun"
-      },
-      "burdensome": {
-        "meaning": "Difficult to carry out or bear; oppressive.",
-        "pos": "adjective"
-      },
-      "hindering": {
-        "meaning": "Making it difficult for someone to do something or for something to happen.",
-        "pos": "verb"
-      },
-      "discouraging": {
-        "meaning": "Causing someone to lose confidence or enthusiasm.",
-        "pos": "verb"
-      },
-      "precedent": {
-        "meaning": "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
-        "pos": "noun"
-      },
-      "underscores": {
-        "meaning": "Emphasizes or highlights something.",
-        "pos": "verb"
-      },
-      "policies": {
-        "meaning": "Courses of action or principles adopted or proposed by a government, party, business, or individual.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What is the specific percentage of the crypto tax that Illinois agreed to delay?",
-      "Q2: In the context of the passage, what does \"set a precedent\" mean, and why is this case important for other states?",
-      "Q3: Do you believe states should impose specific taxes on crypto transactions, or should crypto be treated under existing financial regulations? Explain your reasoning."
-    ],
-    "modelAnswers": [
-      "A1: Illinois agreed to delay the implementation of a 0.2% crypto tax.",
-      "A2: \"Set a precedent\" means this case could serve as an example or guide for how similar situations are handled in the future. It's important because other states considering crypto taxes will observe its outcome to inform their own policies.",
-      "A3: Specific crypto taxes could generate revenue and provide clarity, but might also hinder innovation if too high. Treating crypto under existing regulations could offer consistency, but might not fully address crypto's unique characteristics. A balanced approach is probably best."
-    ]
-  },
-  {
-    "id": "ec-2026-10-02-1",
-    "date": "2026-10-02",
-    "rank": 4,
-    "category": "economy",
-    "reads": "Economy #1",
-    "hook": "연준 관계자의 발언을 통해 인플레이션과 고용 시장에 대한 최신 경제 전망을 이해하고 핵심 경제 용어를 학습하세요.",
-    "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
-    "title": "Fed Official Sees High Inflation, Resilient Labor Market",
-    "source": "Daybreak Wire (based on business news)",
-    "passage": "Minneapolis Fed President Neel Kashkari recently shared his views on the U.S. economy. He stated that inflation remains \"still too high\" despite recent data showing some softening. The Personal Consumption Expenditures (PCE) index, a key inflation gauge, showed a slight decrease. However, Kashkari emphasized that this progress is not yet sufficient for policymakers. He also described the labor market as \"pretty good\" and quite resilient. This strong job growth might keep upward pressure on wages and prices. Central bank officials are carefully monitoring these indicators. Their goal is to achieve stable prices and maximum employment. Future decisions on interest rates will depend on continued economic data. The Fed aims to bring inflation down to its 2% target without causing a severe recession. This balancing act is a significant challenge for monetary policy.",
-    "sentences": [
-      {
-        "en": "Minneapolis Fed President Neel Kashkari recently shared his views on the U.S. economy.",
-        "ko": "미니애폴리스 연방준비은행 총재 닐 카시카리는 최근 미국 경제에 대한 자신의 견해를 밝혔습니다."
-      },
-      {
-        "en": "He stated that inflation remains \"still too high\" despite recent data showing some softening.",
-        "ko": "그는 최근 데이터에서 일부 완화 조짐이 보였음에도 불구하고 인플레이션이 여전히 \"너무 높다\"고 말했습니다."
-      },
-      {
-        "en": "The Personal Consumption Expenditures (PCE) index, a key inflation gauge, showed a slight decrease.",
-        "ko": "핵심 인플레이션 지표인 개인소비지출(PCE) 지수는 소폭 하락했습니다."
-      },
-      {
-        "en": "However, Kashkari emphasized that this progress is not yet sufficient for policymakers.",
-        "ko": "하지만 카시카리는 이러한 진전이 정책 입안자들에게는 아직 충분하지 않다고 강조했습니다."
-      },
-      {
-        "en": "He also described the labor market as \"pretty good\" and quite resilient.",
-        "ko": "그는 또한 노동 시장이 \"꽤 좋고\" 상당히 회복력이 있다고 묘사했습니다."
-      },
-      {
-        "en": "This strong job growth might keep upward pressure on wages and prices.",
-        "ko": "이러한 강력한 일자리 증가는 임금과 물가에 상승 압력을 유지할 수 있습니다."
-      },
-      {
-        "en": "Central bank officials are carefully monitoring these indicators.",
-        "ko": "중앙은행 관계자들은 이러한 지표들을 신중하게 주시하고 있습니다."
-      },
-      {
-        "en": "Their goal is to achieve stable prices and maximum employment.",
-        "ko": "그들의 목표는 물가 안정과 최대 고용을 달성하는 것입니다."
-      },
-      {
-        "en": "Future decisions on interest rates will depend on continued economic data.",
-        "ko": "향후 금리 결정은 지속적인 경제 데이터에 따라 달라질 것입니다."
-      },
-      {
-        "en": "The Fed aims to bring inflation down to its 2% target without causing a severe recession.",
-        "ko": "연준은 심각한 경기 침체를 유발하지 않으면서 인플레이션을 2% 목표치로 낮추는 것을 목표로 합니다."
-      },
-      {
-        "en": "This balancing act is a significant challenge for monetary policy.",
-        "ko": "이러한 균형 잡힌 행동은 통화 정책에 중요한 과제입니다."
-      }
-    ],
-    "glossary": {
-      "president": {
-        "meaning": "The official head of a country, organization, or institution.",
-        "pos": "noun"
-      },
-      "economy": {
-        "meaning": "The system by which goods and services are produced, sold, and bought in a country or region.",
-        "pos": "noun"
-      },
-      "inflation": {
-        "meaning": "A general increase in prices and fall in the purchasing value of money.",
-        "pos": "noun"
-      },
-      "softening": {
-        "meaning": "A reduction in the speed or intensity of something, such as prices or economic activity.",
-        "pos": "noun"
-      },
-      "pce": {
-        "meaning": "An economic measure of how much money people spend on goods and services.",
-        "pos": "noun"
-      },
-      "gauge": {
-        "meaning": "An instrument or mechanism used to measure or indicate a particular quantity or level.",
-        "pos": "noun"
-      },
-      "decrease": {
-        "meaning": "A reduction in the size, amount, or extent of something.",
-        "pos": "noun"
-      },
-      "emphasized": {
-        "meaning": "Gave special importance or prominence to something in speaking or writing.",
-        "pos": "verb"
-      },
-      "sufficient": {
-        "meaning": "Enough; adequate for a particular purpose.",
-        "pos": "adjective"
-      },
-      "labor": {
-        "meaning": "Work, especially hard physical work, or the people who do it.",
-        "pos": "noun"
-      },
-      "resilient": {
-        "meaning": "Able to withstand or recover quickly from difficult conditions.",
-        "pos": "adjective"
-      },
-      "upward": {
-        "meaning": "Moving or pointing towards a higher place or level.",
-        "pos": "adjective"
-      },
-      "wages": {
-        "meaning": "A fixed regular payment earned for work or services, typically paid on a daily or weekly basis.",
-        "pos": "noun"
-      },
-      "monitoring": {
-        "meaning": "Observing and checking the progress or quality of something over a period of time.",
-        "pos": "verb"
-      },
-      "indicators": {
-        "meaning": "Signs or pieces of information that show something exists or is likely to happen.",
-        "pos": "noun"
-      },
-      "stable": {
-        "meaning": "Not likely to change or fail; firmly established.",
-        "pos": "adjective"
-      },
-      "employment": {
-        "meaning": "The state of having paid work.",
-        "pos": "noun"
-      },
-      "decisions": {
-        "meaning": "Choices made about what should be done or which option should be chosen.",
-        "pos": "noun"
-      },
-      "interest": {
-        "meaning": "Money paid regularly at a particular rate for the use of money lent, or for delaying the repayment of a debt.",
-        "pos": "noun"
-      },
-      "target": {
-        "meaning": "A goal or aim that you try to achieve.",
-        "pos": "noun"
-      },
-      "recession": {
-        "meaning": "A period of temporary economic decline during which trade and industrial activity are reduced.",
-        "pos": "noun"
-      },
-      "balancing": {
-        "meaning": "Maintaining a state where opposing forces or elements are in equilibrium.",
-        "pos": "adjective"
-      },
-      "monetary": {
-        "meaning": "Relating to money or currency.",
-        "pos": "adjective"
-      },
-      "policy": {
-        "meaning": "A course or principle of action adopted or proposed by a government, party, business, or individual.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What two main economic indicators did Minneapolis Fed President Neel Kashkari comment on in his recent statements?",
-      "Q2: Explain the term \"monetary policy\" in the context of the Federal Reserve's actions to achieve stable prices and maximum employment.",
-      "Q3: How might a fintech PM use insights from central bank statements like Kashkari's to inform their product development or strategy, especially concerning inflation and labor market trends?"
-    ],
-    "modelAnswers": [
-      "A1: Neel Kashkari commented on inflation, stating it is \"still too high,\" and the labor market, which he described as \"pretty good\" and resilient.",
-      "A2: Monetary policy refers to actions taken by a central bank, like the Federal Reserve, to control the money supply and credit conditions. Its goal is to influence economic activity to achieve objectives such as stable prices (low inflation) and maximum employment, often by adjusting interest rates.",
-      "A3: A fintech PM could use these insights to anticipate market shifts, such as changes in consumer spending due to inflation or changes in lending rates. This could inform product features related to savings, investments, or credit, ensuring they remain relevant and competitive in an evolving economic climate."
-    ]
-  },
-  {
-    "id": "ec-2026-10-02-2",
-    "date": "2026-10-02",
-    "rank": 5,
-    "category": "economy",
-    "reads": "Economy #2",
-    "hook": "인공지능(AI) 투자의 급증이 금융 시장에 미칠 잠재적 위험에 대한 영국 중앙은행의 경고를 살펴보세요.",
-    "url": "https://www.bbc.co.uk/news/articles/cv8e30enrkxyo",
-    "title": "Bank of England Warns of AI Investment Risks",
-    "source": "Daybreak Wire (based on business news)",
-    "passage": "The Bank of England's chief, Andrew Bailey, has issued a warning about the artificial intelligence boom. He suggests that the rapid investment in AI could potentially trigger market shocks. Central banks are closely watching the \"waves of cash\" flowing into the technology sector. There is concern about the potential for asset bubbles to form. Such bubbles can lead to significant financial instability if they burst. The bank emphasizes the need for rigorous testing and safeguards for AI. This approach aims to contain risks associated with this fast-growing technology. Policymakers are debating how to manage the economic impact effectively. The challenge is to foster innovation while protecting the financial system. The global economy must prepare for both the benefits and risks of AI's expansion.",
-    "sentences": [
-      {
-        "en": "The Bank of England's chief, Andrew Bailey, has issued a warning about the artificial intelligence boom.",
-        "ko": "영국 중앙은행 총재 앤드루 베일리가 인공지능(AI) 붐에 대해 경고를 발표했습니다."
-      },
-      {
-        "en": "He suggests that the rapid investment in AI could potentially trigger market shocks.",
-        "ko": "그는 AI에 대한 급속한 투자가 잠재적으로 시장 충격을 유발할 수 있다고 시사했습니다."
-      },
-      {
-        "en": "Central banks are closely watching the \"waves of cash\" flowing into the technology sector.",
-        "ko": "중앙은행들은 기술 부문으로 흘러 들어오는 \"막대한 자금\"을 면밀히 주시하고 있습니다."
-      },
-      {
-        "en": "There is concern about the potential for asset bubbles to form.",
-        "ko": "자산 거품이 형성될 가능성에 대한 우려가 있습니다."
-      },
-      {
-        "en": "Such bubbles can lead to significant financial instability if they burst.",
-        "ko": "그러한 거품은 터지면 심각한 금융 불안정으로 이어질 수 있습니다."
-      },
-      {
-        "en": "The bank emphasizes the need for rigorous testing and safeguards for AI.",
-        "ko": "은행은 AI에 대한 엄격한 테스트와 안전 장치의 필요성을 강조합니다."
-      },
-      {
-        "en": "This approach aims to contain risks associated with this fast-growing technology.",
-        "ko": "이러한 접근 방식은 빠르게 성장하는 이 기술과 관련된 위험을 억제하는 것을 목표로 합니다."
-      },
-      {
-        "en": "Policymakers are debating how to manage the economic impact effectively.",
-        "ko": "정책 입안자들은 경제적 영향을 효과적으로 관리하는 방법에 대해 논의하고 있습니다."
-      },
-      {
-        "en": "The challenge is to foster innovation while protecting the financial system.",
-        "ko": "과제는 금융 시스템을 보호하면서 혁신을 육성하는 것입니다."
-      },
-      {
-        "en": "The global economy must prepare for both the benefits and risks of AI's expansion.",
-        "ko": "세계 경제는 AI 확장의 이점과 위험 모두에 대비해야 합니다."
-      }
-    ],
-    "glossary": {
-      "chief": {
-        "meaning": "The person with the highest rank or authority in an organization.",
-        "pos": "noun"
-      },
-      "issued": {
-        "meaning": "Formally sent out, announced, or distributed something, like a warning or statement.",
-        "pos": "verb"
-      },
-      "warning": {
-        "meaning": "A statement or event that indicates a possible danger or problem.",
-        "pos": "noun"
-      },
-      "artificial": {
-        "meaning": "Made or produced by human beings rather than occurring naturally.",
-        "pos": "adjective"
-      },
-      "intelligence": {
-        "meaning": "The ability to acquire and apply knowledge and skills.",
-        "pos": "noun"
-      },
-      "boom": {
-        "meaning": "A period of great prosperity or rapid economic growth.",
-        "pos": "noun"
-      },
-      "rapid": {
-        "meaning": "Happening quickly or moving with great speed.",
-        "pos": "adjective"
-      },
-      "investment": {
-        "meaning": "The action or process of investing money for profit or material result.",
-        "pos": "noun"
-      },
-      "trigger": {
-        "meaning": "To cause an event or situation to happen or begin.",
-        "pos": "verb"
-      },
-      "market": {
-        "meaning": "A place or system where buyers and sellers exchange goods and services.",
-        "pos": "noun"
-      },
-      "shocks": {
-        "meaning": "Sudden and disturbing events, especially in an economic or financial context.",
-        "pos": "noun"
-      },
-      "closely": {
-        "meaning": "In a careful and thorough manner; with great attention.",
-        "pos": "adverb"
-      },
-      "flowing": {
-        "meaning": "Moving or proceeding smoothly and continuously.",
-        "pos": "verb"
-      },
-      "technology": {
-        "meaning": "The application of scientific knowledge for practical purposes, especially in industry.",
-        "pos": "noun"
-      },
-      "sector": {
-        "meaning": "A distinct part or branch of a nation's economy or society.",
-        "pos": "noun"
-      },
-      "asset": {
-        "meaning": "A useful or valuable thing or person; something owned that has value.",
-        "pos": "noun"
-      },
-      "bubbles": {
-        "meaning": "Economic situations where asset prices rise rapidly and are far above their intrinsic value.",
-        "pos": "noun"
-      },
-      "instability": {
-        "meaning": "The state of being unstable, prone to change or collapse.",
-        "pos": "noun"
-      },
-      "rigorous": {
-        "meaning": "Extremely thorough, exhaustive, or accurate.",
-        "pos": "adjective"
-      },
-      "safeguards": {
-        "meaning": "Measures taken to protect someone or something or to prevent something undesirable.",
-        "pos": "noun"
-      },
-      "contain": {
-        "meaning": "To keep something harmful or undesirable under control or within limits.",
-        "pos": "verb"
-      },
-      "foster": {
-        "meaning": "To encourage the development of something good.",
-        "pos": "verb"
-      },
-      "innovation": {
-        "meaning": "The introduction of new ideas, methods, or products.",
-        "pos": "noun"
-      },
-      "protecting": {
-        "meaning": "Keeping safe from harm or injury.",
-        "pos": "verb"
-      }
-    },
-    "questions": [
-      "Q1: Which institution issued a warning about the potential for market shocks due to the artificial intelligence boom?",
-      "Q2: What does the term \"asset bubbles\" mean in the context of rapidly rising investments in a sector like artificial intelligence?",
-      "Q3: In what ways could a sudden \"market shock\" related to AI investments impact the fintech industry, and what measures might a fintech PM consider?"
-    ],
-    "modelAnswers": [
-      "A1: The Bank of England, specifically its chief Andrew Bailey, issued the warning about market shocks from the AI boom.",
-      "A2: \"Asset bubbles\" refer to situations where the price of assets, like company stocks in the AI sector, rises rapidly and significantly beyond their real or intrinsic value, often driven by speculation rather than fundamentals.",
-      "A3: A market shock from AI investments could cause venture capital funding to dry up, impact stock prices of publicly traded fintechs, and reduce consumer confidence, affecting adoption of new financial products. A fintech PM might consider diversifying product offerings, building robust risk management into their platforms, and focusing on sustainable business models less reliant on speculative trends."
-    ]
-  },
-  {
-    "id": "ec-2026-10-02-3",
-    "date": "2026-10-02",
-    "rank": 6,
-    "category": "economy",
-    "reads": "Economy #3",
-    "hook": "미국 국채 수익률 상승과 글로벌 채권 시장의 동향이 전 세계 경제에 미치는 영향을 이해하세요.",
-    "url": "https://www.theguardian.com/business/2026/oct/01/global-bond-sell-off-uk-long-term-borrowing-costs-us-bond-yield",
-    "title": "US Borrowing Costs Soar as Global Bond Sell-off Intensifies",
-    "source": "Daybreak Wire (based on business news)",
-    "passage": "U.S. government borrowing costs recently reached a 24-year high. This surge occurred as a global bond sell-off intensified. Ten-year U.S. Treasury yields rose significantly. Investors are concerned about the sustainability of the U.S. deficit. Increased government debt requires more borrowing from the market. This higher demand for funds pushes up interest rates for everyone. A bond sell-off happens when investors sell existing bonds. They do this to avoid losses or seek better returns elsewhere. This action drives bond prices down and yields up. Higher borrowing costs can slow economic growth by making loans more expensive. The situation also impacts other countries, including the UK, experiencing similar pressures. These trends reflect evolving inflation expectations and monetary policy outlooks.",
-    "sentences": [
-      {
-        "en": "U.S. government borrowing costs recently reached a 24-year high.",
-        "ko": "최근 미국 정부의 차입 비용이 24년 만에 최고치를 기록했습니다."
-      },
-      {
-        "en": "This surge occurred as a global bond sell-off intensified.",
-        "ko": "이러한 급증은 글로벌 채권 매도세가 심화되면서 발생했습니다."
-      },
-      {
-        "en": "Ten-year U.S. Treasury yields rose significantly.",
-        "ko": "10년 만기 미국 국채 수익률이 크게 상승했습니다."
-      },
-      {
-        "en": "Investors are concerned about the sustainability of the U.S. deficit.",
-        "ko": "투자자들은 미국 재정 적자의 지속 가능성에 대해 우려하고 있습니다."
-      },
-      {
-        "en": "Increased government debt requires more borrowing from the market.",
-        "ko": "정부 부채 증가는 시장으로부터 더 많은 차입을 필요로 합니다."
-      },
-      {
-        "en": "This higher demand for funds pushes up interest rates for everyone.",
-        "ko": "이러한 자금 수요 증가는 모든 사람의 금리를 인상시킵니다."
-      },
-      {
-        "en": "A bond sell-off happens when investors sell existing bonds.",
-        "ko": "채권 매도세는 투자자들이 기존 채권을 팔 때 발생합니다."
-      },
-      {
-        "en": "They do this to avoid losses or seek better returns elsewhere.",
-        "ko": "그들은 손실을 피하거나 다른 곳에서 더 나은 수익을 찾기 위해 이 작업을 수행합니다."
-      },
-      {
-        "en": "This action drives bond prices down and yields up.",
-        "ko": "이러한 행동은 채권 가격을 낮추고 수익률을 높입니다."
-      },
-      {
-        "en": "Higher borrowing costs can slow economic growth by making loans more expensive.",
-        "ko": "높은 차입 비용은 대출을 더 비싸게 만들어 경제 성장을 둔화시킬 수 있습니다."
-      },
-      {
-        "en": "The situation also impacts other countries, including the UK, experiencing similar pressures.",
-        "ko": "이러한 상황은 영국을 포함한 다른 국가들에도 영향을 미쳐 비슷한 압력을 겪게 합니다."
-      },
-      {
-        "en": "These trends reflect evolving inflation expectations and monetary policy outlooks.",
-        "ko": "이러한 추세는 변화하는 인플레이션 기대치와 통화 정책 전망을 반영합니다."
-      }
-    ],
-    "glossary": {
-      "borrowing": {
-        "meaning": "The act of taking money from a lender with the intention of returning it, usually with interest.",
-        "pos": "noun"
-      },
-      "costs": {
-        "meaning": "The amount of money required to obtain or achieve something.",
-        "pos": "noun"
-      },
-      "surge": {
-        "meaning": "A sudden and great increase in something, such as prices or activity.",
-        "pos": "noun"
-      },
-      "global": {
-        "meaning": "Relating to the whole world; worldwide.",
-        "pos": "adjective"
-      },
-      "bond": {
-        "meaning": "A certificate of debt issued by a government or company, promising to pay back the money with interest.",
-        "pos": "noun"
-      },
-      "sell-off": {
-        "meaning": "A rapid or widespread selling of investments, leading to a fall in their value.",
-        "pos": "noun"
-      },
-      "intensified": {
-        "meaning": "Became or made more intense, stronger, or more extreme.",
-        "pos": "verb"
-      },
-      "treasury": {
-        "meaning": "The government department responsible for the financial administration of a country.",
-        "pos": "noun"
-      },
-      "yields": {
-        "meaning": "The income return on an investment, typically expressed as an annual percentage rate.",
-        "pos": "noun"
-      },
-      "significantly": {
-        "meaning": "In a sufficiently great or important way as to be worthy of attention.",
-        "pos": "adverb"
-      },
-      "investors": {
-        "meaning": "People who put money into financial schemes, shares, property, etc., with the expectation of achieving a profit.",
-        "pos": "noun"
-      },
-      "sustainability": {
-        "meaning": "The ability to be maintained at a certain rate or level; the ability to endure.",
-        "pos": "noun"
-      },
-      "deficit": {
-        "meaning": "The amount by which expenses exceed income or liabilities exceed assets.",
-        "pos": "noun"
-      },
-      "debt": {
-        "meaning": "Something, typically money, that is owed or due.",
-        "pos": "noun"
-      },
-      "demand": {
-        "meaning": "An insistent and peremptory request or requirement; the desire of consumers for goods and services.",
-        "pos": "noun"
-      },
-      "funds": {
-        "meaning": "A sum of money saved or made available for a particular purpose.",
-        "pos": "noun"
-      },
-      "interest": {
-        "meaning": "Money paid regularly at a particular rate for the use of money lent, or for delaying the repayment of a debt.",
-        "pos": "noun"
-      },
-      "existing": {
-        "meaning": "In effect or in operation at the present time.",
-        "pos": "adjective"
-      },
-      "losses": {
-        "meaning": "The fact or process of losing something or someone; financial detriment.",
-        "pos": "noun"
-      },
-      "returns": {
-        "meaning": "The profit or income from an investment.",
-        "pos": "noun"
-      },
-      "prices": {
-        "meaning": "The amount of money expected, required, or given in payment for something.",
-        "pos": "noun"
-      },
-      "slow": {
-        "meaning": "To reduce the speed of something.",
-        "pos": "verb"
-      },
-      "economic": {
-        "meaning": "Relating to economics or the economy.",
-        "pos": "adjective"
-      },
-      "outlooks": {
-        "meaning": "The likely future prospects or outcomes for a situation or economy.",
-        "pos": "noun"
-      }
-    },
-    "questions": [
-      "Q1: What specific financial instrument saw its borrowing costs reach a 24-year high, and what was the main reason for this surge?",
-      "Q2: Define \"Treasury yields\" and explain how a bond sell-off typically affects both bond prices and these yields.",
-      "Q3: How might sustained high U.S. borrowing costs affect international investment flows and the global economy, and what implications does this have for fintech companies operating globally?"
-    ],
-    "modelAnswers": [
-      "A1: U.S. government borrowing costs, specifically for 10-year U.S. Treasury yields, reached a 24-year high. This surge was primarily driven by an intensified global bond sell-off.",
-      "A2: Treasury yields represent the return an investor receives on a U.S. government bond. During a bond sell-off, investors sell existing bonds, which drives bond prices down. As bond prices fall, their yields (the return relative to the price) rise.",
-      "A3: Sustained high U.S. borrowing costs can attract international investment into U.S. bonds, potentially diverting capital from other markets. This could strengthen the dollar but also make borrowing more expensive for other countries and global companies, slowing economic growth worldwide. For fintechs, this means higher capital costs, potentially reduced foreign investment in emerging markets, and a need to adapt lending and investment products to a high-interest rate environment."
     ]
   }
 ]
