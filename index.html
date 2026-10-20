@@ -1095,7 +1095,12 @@
       }, []);
 
       useEffect(() => {
-        fetch("packs.json?t=" + Date.now())
+        // No cache-buster: `?t=` made every URL unique, so the browser could
+        // never reuse what it already had and re-downloaded the whole feed on
+        // every open. vercel.json serves this must-revalidate, so a plain
+        // request is still always checked against the server — it just comes
+        // back 304 on the days nothing changed.
+        fetch("packs.json")
           .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
           .then((arr) => setPacks(Array.isArray(arr) ? arr : []))
           .catch((e) => setErr(e.message));
@@ -1105,7 +1110,7 @@
       useEffect(() => {
         if (tab !== "archive" || archIndex) return;
         let cancelled = false;
-        fetch("archive/index.json?t=" + Date.now())
+        fetch("archive/index.json")
           .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
           .then((arr) => { if (!cancelled) setArchIndex(Array.isArray(arr) ? arr : "error"); })
           .catch(() => { if (!cancelled) setArchIndex("error"); });
