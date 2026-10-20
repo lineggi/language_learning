@@ -5,10 +5,11 @@
   "description": "Daily crypto/economy English reading + wordbank app. Static front end, Node pack builder.",
   "scripts": {
     "test": "node --test test/*.test.js",
-    "check": "node --check build_packs.js && node scripts/check_feed.js",
+    "check": "node --check build_packs.js && node scripts/check_feed.js && node scripts/repair_glossary.js --dry-run",
     "repack": "node build_packs.js --repack",
     "build": "node build_packs.js",
-    "test:browser": "node test/browser/study.spec.js && node test/browser/wordbook.spec.js && node test/browser/collect.spec.js && node test/browser/sync.spec.js && node test/browser/today.spec.js"
+    "test:browser": "node test/browser/study.spec.js && node test/browser/wordbook.spec.js && node test/browser/collect.spec.js && node test/browser/sync.spec.js && node test/browser/today.spec.js",
+    "repair:glossary": "node scripts/repair_glossary.js"
   },
   "engines": {
     "node": ">=20"

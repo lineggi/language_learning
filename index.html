@@ -802,7 +802,7 @@
       normalizeStreak, pickStreak, bumpStreak,
       mergeWordbank, mergeReads, mergeErrors, mergeWriting,
       TOMBSTONE_TTL_MS, sweepTombstones, isMissingColumn,
-      candidateForms, glossVal, lookupGloss, normText, POS_KO, maskWord,
+      candidateForms, glossVal, lookupGloss, normText, POS_KO,
     } = window.DBW;
 
     const DOW_KO = ["일", "월", "화", "수", "목", "금", "토"];
@@ -2857,7 +2857,7 @@
                          "--fc-rot": fly.dir === "no" ? "-21deg" : "21deg" }} aria-hidden="true">
                 {fly.flipped
                   ? <div className="fc-word fraunces">{fly.card.word}</div>
-                  : <div className="fc-def">{maskWord(fly.card.meaning, fly.card.word)}</div>}
+                  : <div className="fc-def">{fly.card.meaning}</div>}
               </div>
             )}
             {/* Keyed by index so each card mounts fresh at rest. Without it the
@@ -2878,7 +2878,7 @@
                     <div className="fc-word fraunces">{cur.word}</div>
                     {cur.example && <div className="fc-ex">{cur.example}</div>}
                   </React.Fragment>
-                : <div className="fc-def">{maskWord(cur.meaning, cur.word)}</div>}
+                : <div className="fc-def">{cur.meaning}</div>}
               <div className="fc-hint mono">{cardFlip ? "탭하면 뜻으로" : "탭하면 단어 보기"}</div>
               {koPeek && (
                 <div className="fc-ko">
@@ -3081,7 +3081,7 @@
                     {e.pos && <span className="poschip">{POS_KO[e.pos] || e.pos}</span>}
                     {flipped[e.word]
                       ? <div className="front fraunces">{e.word}</div>
-                      : <div className="backdef">{maskWord(e.meaning, e.word)}</div>}
+                      : <div className="backdef">{e.meaning}</div>}
                   </div>
                   <div className="meta">
                     <span>{e.addedDate || ""}</span>

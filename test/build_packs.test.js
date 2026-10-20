@@ -153,3 +153,75 @@ test("round-robin keeps one Korea feed from swamping the pool", () => {
   // excludeUsed must not reorder or drop anything when nothing has been used.
   assert.equal(B.excludeUsed([...thin, ...fat], used).length, 42);
 });
+
+/* ------------------------------------------ glossary leak repair -- */
+
+const LEAKY = () => ([
+  { id: "p1", glossary: {
+      traditional: { meaning: "Existing in or as part of a tradition; long-established.", pos: "adjective" },
+      custody: { meaning: "Holding and protecting an asset for someone else.", pos: "noun" } } },
+  { id: "p2", glossary: { quantum: "Relating to quantum mechanics and tiny particles." } },
+]);
+
+test("findLeaks spots definitions that contain their own word, and only those", () => {
+  const found = B.findLeaks(LEAKY());
+  assert.deepEqual(found.map((f) => f.word).sort(), ["quantum", "traditional"]);
+  assert.equal(found.find((f) => f.word === "traditional").packId, "p1");
+});
+
+test("applyFixes keeps each entry's shape — object or bare string", () => {
+  const packs = LEAKY();
+  const n = B.applyFixes(packs, new Map([
+    ["p1\u0000traditional", "Long established and handed down over many years."],
+    ["p2\u0000quantum", "Relating to the physics of extremely small particles."],
+  ]));
+  assert.equal(n, 2);
+  assert.deepEqual(packs[0].glossary.traditional,
+    { meaning: "Long established and handed down over many years.", pos: "adjective" },
+    "an object entry keeps its pos");
+  assert.equal(typeof packs[1].glossary.quantum, "string", "a legacy string entry stays a string");
+  assert.equal(B.findLeaks(packs).length, 0);
+});
+
+test("a rewrite that still leaks is thrown away, not applied", async () => {
+  // The safety property: a bad batch must leave the data as it was.
+  const items = B.findLeaks(LEAKY());
+  const call = async () => ({ items: items.map((it, i) => ({
+    n: i + 1,
+    // Both rewrites still contain the word — the model ignored the brief.
+    meaning: `Something to do with ${it.word} in general use.`,
+  })) });
+  const fixes = await B.rewriteLeaks(items, { call, log: () => {} });
+  assert.equal(fixes.size, 0, "nothing accepted");
+  const packs = LEAKY();
+  assert.equal(B.applyFixes(packs, fixes), 0);
+  assert.equal(B.findLeaks(packs).length, 2, "the originals are untouched");
+});
+
+test("clean rewrites are accepted and leaky ones in the same batch are not", async () => {
+  const items = B.findLeaks(LEAKY());
+  const call = async () => ({ items: [
+    { n: items.findIndex((i) => i.word === "traditional") + 1, meaning: "Long established and handed down over many years." },
+    { n: items.findIndex((i) => i.word === "quantum") + 1, meaning: "About quantum physics." }, // still leaks
+  ] });
+  const fixes = await B.rewriteLeaks(items, { call, log: () => {} });
+  assert.equal(fixes.size, 1);
+  const packs = LEAKY();
+  B.applyFixes(packs, fixes);
+  assert.equal(B.findLeaks(packs).map((f) => f.word).join(), "quantum", "only the bad one is left");
+});
+
+test("a failed call leaves every original in place", async () => {
+  const items = B.findLeaks(LEAKY());
+  const call = async () => { throw new Error("503 from the model"); };
+  const fixes = await B.rewriteLeaks(items, { call, log: () => {} });
+  assert.equal(fixes.size, 0);
+});
+
+test("rewriting is batched so one huge prompt is never sent", async () => {
+  const many = Array.from({ length: 95 }, (_, i) => ({ packId: "p", word: `alpha${i}`, meaning: `About alpha${i}.` }));
+  const sizes = [];
+  const call = async (prompt) => { sizes.push((prompt.match(/^\d+\. /gm) || []).length); return { items: [] }; };
+  await B.rewriteLeaks(many, { call, log: () => {}, batch: 40 });
+  assert.deepEqual(sizes, [40, 40, 15]);
+});

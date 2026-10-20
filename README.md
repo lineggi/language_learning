@@ -63,6 +63,7 @@
 | `archive/YYYY-MM.json` | 지난 달치 기사 본문. **옛 기사를 실제로 열 때만** 받습니다. |
 | `build_packs.js` | RSS 수집 → Gemini 가공 → 팩 생성 → 피드 재분할. |
 | `scripts/check_feed.js` | 배포된 피드가 위 규칙을 지키는지 검사(CI). |
+| `scripts/repair_glossary.js` | 단어를 그대로 쓴 뜻풀이를 찾아 다시 쓰게 함. |
 | `test/` | `node --test` 유닛 테스트, `test/browser/`는 Playwright 시나리오. |
 | `config.js` | 클라이언트 설정(Supabase URL/anon key, API 엔드포인트). 비워두면 로컬 전용. |
 | `api/*.js` | Vercel 서버리스 함수 5종(아래). Gemini 키는 서버 env에만 둡니다. |
@@ -170,6 +171,21 @@ npx http-server -p 8080 -c-1
 유닛 테스트는 스트릭 감쇠, 단어 stage 전이, 주차 계산, 기기 간 병합, 피드 분할처럼
 **실제로 회귀가 났던 규칙**을 덮습니다. `lib/state.js`나 `build_packs.js`의 순수 로직을 고칠 때는
 테스트를 함께 갱신하세요.
+
+### 뜻풀이에 그 단어가 들어가지 않게
+
+플래시카드는 **뜻을 보여주고 단어를 맞히게** 합니다. 그래서 `traditional`의 뜻이
+"Existing in or as part of a tradition"이면 답이 문제에 적혀 있는 셈입니다.
+
+화면에서 가리지 않고 **데이터를 고칩니다.** 빈칸은 뜻풀이가 아니라 문제처럼 보이니까요.
+
+- 생성 프롬프트가 같은 어간에서 나온 말을 쓰지 말라고 지시합니다
+- `build_packs.js`가 매일 발행 전에 검사해, 걸리면 한 번 더 호출해 다시 씁니다
+- 다시 쓴 것이 **또 걸리면 버리고 원문을 유지**합니다 — 나빠지지는 않습니다
+- 이미 발행된 분량은 `npm run repair:glossary`(또는 Actions의
+  *Repair glossary definitions*)로 같은 작업을 한 번에 돌립니다
+
+`npm run check`에 탐지가 포함돼 있어 남은 건수가 바로 보입니다.
 
 `test/browser/`는 순수 함수로는 볼 수 없는 것 — 포인터 이벤트·CSS 트랜지션·React 커밋 타이밍이
 얽힌 플래시카드 스와이프, 그리고 "오늘이 무슨 요일인가"에 달린 주차별 단어장 — 을 실제 크로미움에서

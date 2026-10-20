@@ -319,52 +319,41 @@ test("isMissingColumn does not swallow unrelated failures", () => {
 
 /* ------------------------------------------- headword in its own gloss -- */
 
-test("maskWord hides the word the flashcard is asking for", () => {
-  // The real case: the definition handed over the answer.
-  assert.equal(
-    S.maskWord("An autonomous entity can control itself and make its own decisions independently.", "autonomous"),
-    "An ___ entity can control itself and make its own decisions independently."
-  );
-  assert.equal(S.maskWord("An Autonomous system runs alone.", "autonomous"), "An ___ system runs alone.",
-    "case does not matter");
+// A flashcard shows the meaning and asks for the word, so a definition that
+// contains the word is unanswerable as intended. These rules decide which
+// published definitions get rewritten, so a false positive costs an
+// unnecessary rewrite and a false negative ships a broken card.
+
+test("leaksHeadword catches the word itself", () => {
+  assert.equal(S.leaksHeadword("An autonomous entity can control itself.", "autonomous"), true);
+  assert.equal(S.leaksHeadword("An Autonomous system runs alone.", "autonomous"), true, "case does not matter");
+  assert.equal(S.leaksHeadword("Able to act without any outside control.", "autonomous"), false);
 });
 
-test("maskWord also hides forms built from the same stem", () => {
-  // A definition of "autonomous" that says "autonomy" leaks just as much.
-  assert.equal(S.maskWord("Autonomy means acting without outside control.", "autonomous"),
-    "___ means acting without outside control.");
-  assert.equal(S.maskWord("Rules that regulate it; regulation comes from a regulator.", "regulate"),
-    "Rules that ___ it; ___ comes from a ___.");
-  assert.equal(S.maskWord("Settled trades are done; settling takes days.", "settle"),
-    "___ trades are done; ___ takes days.");
+test("leaksHeadword catches relatives built from the same stem", () => {
+  // These leak just as badly as the word itself.
+  assert.equal(S.leaksHeadword("Autonomy means acting without outside control.", "autonomous"), true);
+  assert.equal(S.leaksHeadword("Existing in or as part of a tradition.", "traditional"), true);
+  assert.equal(S.leaksHeadword("The use or operation of computers.", "computing"), true);
+  assert.equal(S.leaksHeadword("Serving to control by means of rules and regulations.", "regulatory"), true);
 });
 
-test("short words match only their own inflections, never lookalikes", () => {
-  // A 3-letter stem would swallow unrelated words, so short words are matched
-  // exactly: "act" must not take "actual" with it.
-  assert.equal(S.maskWord("The actual process of doing; people act on it.", "act"),
-    "The actual process of doing; people ___ on it.");
-  assert.equal(S.maskWord("Bonds and bonding are not the same as a corporate rate.", "bond"),
-    "___ and ___ are not the same as a corporate rate.");
-  assert.equal(S.maskWord("A corporate rate is rated yearly.", "rate"),
-    "A corporate ___ is ___ yearly.", "word boundaries keep 'corporate' intact");
+test("short words are matched exactly, so lookalikes survive", () => {
+  // A three-letter stem would swallow unrelated words.
+  assert.equal(S.leaksHeadword("The actual process of doing something.", "act"), false);
+  assert.equal(S.leaksHeadword("People act on it quickly.", "act"), true);
+  assert.equal(S.leaksHeadword("A corporate rate set each year.", "bond"), false);
+  assert.equal(S.leaksHeadword("Bonds are loans to a company.", "bond"), true);
 });
 
-test("maskWord leaves a definition that never mentions the word alone", () => {
-  const clean = "Money that a company owes to the people who lent it.";
-  assert.equal(S.maskWord(clean, "bond"), clean);
+test("leaksHeadword is safe on junk input", () => {
+  for (const [t, w] of [["some text", ""], ["some text", null], ["", "bond"], [null, "bond"],
+                        ["a.b*c", "a.b*c"], ["Two or three words", "two words"]]) {
+    assert.equal(S.leaksHeadword(t, w), false, `${JSON.stringify(t)} / ${JSON.stringify(w)}`);
+  }
 });
 
-test("maskWord is safe on junk input", () => {
-  assert.equal(S.maskWord("some text", ""), "some text");
-  assert.equal(S.maskWord("some text", null), "some text");
-  assert.equal(S.maskWord("", "bond"), "");
-  assert.equal(S.maskWord(null, "bond"), "");
-  assert.equal(S.maskWord("a.b*c", "a.b*c"), "a.b*c", "regex metacharacters are not patterns");
-  assert.equal(S.maskWord("Two or three words here", "two words"), "Two or three words here",
-    "a phrase is left alone rather than half-masked");
-});
-
-test("repeated hits collapse into one blank", () => {
-  assert.equal(S.maskWord("self-governing autonomous autonomy things", "autonomous"), "self-governing ___ things");
+test("maskWord still marks the leaking part, for the repair tool's report", () => {
+  assert.equal(S.maskWord("Existing in or as part of a tradition; long-established.", "traditional"),
+    "Existing in or as part of a ___; long-established.");
 });

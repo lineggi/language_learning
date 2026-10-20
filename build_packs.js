@@ -420,14 +420,14 @@ Choose exactly 3 stories. For EACH chosen story produce an object with:
 Return JSON matching the schema: { "packs": [ {...}, {...}, {...} ] }. Output ONLY JSON.`;
 }
 
-async function callGemini(prompt) {
+async function callGemini(prompt, schema) {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${API_KEY}`;
   const body = {
     contents: [{ role: "user", parts: [{ text: prompt }] }],
     generationConfig: {
       temperature: 0.7,
       responseMimeType: "application/json",
-      responseSchema: PACK_SCHEMA,
+      responseSchema: schema || PACK_SCHEMA,
     },
   };
   const res = await fetchWithRetry(url, {
@@ -609,6 +609,113 @@ function normalizeGlossary(g) {
 // ---------------------------------------------------------------------------
 
 // Generate up to 3 packs for one domain and shape them into feed entries.
+// ---------------------------------------------------------------------------
+// Glossary repair — a definition must never contain the word it defines
+// ---------------------------------------------------------------------------
+//
+// The card shows the meaning and asks the learner to recall the word, so
+// "Existing in or as part of a tradition" for `traditional` hands over the
+// answer. The prompt forbids it, but models slip at a low rate (~2% of
+// entries), and the fix has to be a definition written with other words — not
+// a blank on screen, which reads as a quiz gap rather than a dictionary entry.
+//
+// Shared with scripts/repair_glossary.js, which runs the same pass over the
+// packs already published.
+
+const { leaksHeadword } = require("./lib/state.js");
+
+// Every (word, meaning) in these packs whose meaning gives the word away.
+function findLeaks(packs) {
+  const out = [];
+  for (const p of packs || []) {
+    for (const [word, v] of Object.entries((p && p.glossary) || {})) {
+      const meaning = typeof v === "string" ? v : (v && v.meaning) || "";
+      if (meaning && leaksHeadword(meaning, word)) out.push({ packId: p.id, word, meaning });
+    }
+  }
+  return out;
+}
+
+function rewritePrompt(items) {
+  const list = items.map((it, i) => `${i + 1}. ${it.word} — ${it.meaning}`).join("\n");
+  return `Each English definition below accidentally contains the very word it defines, or a word built from the same stem. The app shows the definition as a flashcard question and the learner must recall the word from it, so this gives away the answer.
+
+Rewrite each definition so it means the same thing but NEVER uses the word itself or any relative of it — no plural, no -ing/-ed/-ly, and no noun or adjective built from the same stem. For "traditional", neither "traditional" nor "tradition". Use synonyms and plain description instead.
+
+Keep each rewrite a single clear sentence of about 8 to 16 words, in simple English a B2–C1 learner can read. English only, never Korean. Keep the original sense — do not define a different meaning of the word.
+
+${list}
+
+Return JSON: { "items": [ { "n": <the number above>, "meaning": "<the rewritten definition>" } ] }. Output ONLY JSON.`;
+}
+
+const REWRITE_SCHEMA = {
+  type: "object",
+  properties: {
+    items: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: { n: { type: "integer" }, meaning: { type: "string" } },
+        required: ["n", "meaning"],
+      },
+    },
+  },
+  required: ["items"],
+};
+
+// Ask for clean rewrites, in batches, and accept only the ones that are
+// actually clean. A rewrite that still leaks — or that comes back empty — is
+// dropped, leaving the original: never worse than before.
+async function rewriteLeaks(items, { batch = 40, log = console.log, call = callGemini } = {}) {
+  const fixes = new Map(); // `${packId}\u0000${word}` -> new meaning
+  for (let i = 0; i < items.length; i += batch) {
+    const slice = items.slice(i, i + batch);
+    let result;
+    try {
+      result = await call(rewritePrompt(slice), REWRITE_SCHEMA);
+    } catch (err) {
+      log(`  rewrite batch ${i / batch + 1} failed: ${err.message} — keeping originals`);
+      continue;
+    }
+    let ok = 0, rejected = 0;
+    for (const r of (result && result.items) || []) {
+      const it = slice[Number(r.n) - 1];
+      const meaning = tidyMeaning(r.meaning);
+      if (!it || !meaning) continue;
+      if (leaksHeadword(meaning, it.word)) { rejected++; continue; } // still gives it away
+      fixes.set(`${it.packId}\u0000${it.word}`, meaning);
+      ok++;
+    }
+    log(`  batch ${i / batch + 1}: ${ok} rewritten, ${rejected} still leaked (kept original)`);
+  }
+  return fixes;
+}
+
+// Apply fixes in place. Returns how many entries changed.
+function applyFixes(packs, fixes) {
+  let n = 0;
+  for (const p of packs || []) {
+    for (const [word, v] of Object.entries((p && p.glossary) || {})) {
+      const next = fixes.get(`${p.id}\u0000${word}`);
+      if (!next) continue;
+      p.glossary[word] = typeof v === "string" ? next : { ...v, meaning: next };
+      n++;
+    }
+  }
+  return n;
+}
+
+// Find, rewrite and apply in one go.
+async function cleanGlossaries(packs, opts) {
+  const leaks = findLeaks(packs);
+  if (!leaks.length) return { found: 0, fixed: 0 };
+  const log = (opts && opts.log) || console.log;
+  log(`Glossary: ${leaks.length} definition(s) contain their own word — rewriting.`);
+  const fixes = await rewriteLeaks(leaks, opts);
+  return { found: leaks.length, fixed: applyFixes(packs, fixes) };
+}
+
 async function makePacks(coll, domain, idPrefix, rankBase, date) {
   if (!coll || coll.candidates.length < 3) {
     console.warn(`${domain}: fewer than 3 candidates (${coll ? coll.candidates.length : 0}); skipping.`);
@@ -690,6 +797,16 @@ async function main() {
   const koreaPacks = await makePacks(korea, "korea", "kr", 6, date);
   const newPacks = [...cryptoPacks, ...econPacks, ...koreaPacks];
 
+  // A definition that contains the word it defines makes the flashcard
+  // unanswerable-as-intended, so today's batch is checked and rewritten before
+  // it ships. Costs one extra call on the days it finds anything.
+  try {
+    const { found, fixed } = await cleanGlossaries(newPacks);
+    if (found) console.log(`Glossary: rewrote ${fixed}/${found}.`);
+  } catch (err) {
+    console.warn(`Glossary repair skipped: ${err.message}`);
+  }
+
   if (newPacks.length === 0) {
     console.error("No packs generated; aborting without changes.");
     process.exit(1);
@@ -716,6 +833,7 @@ function repack() {
 
 module.exports = {
   dedupeById, indexEntry, shardOf, splitPacks, byDateRankDesc, writeIfChanged,
+  findLeaks, rewriteLeaks, applyFixes, cleanGlossaries,
   normUrl, usedUrlSet, excludeUsed, tidyMeaning, kstDateString,
   ECON_FEEDS, KOREA_FEEDS, RSS_FEEDS,
 };

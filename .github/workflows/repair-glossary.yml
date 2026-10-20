@@ -1,0 +1,57 @@
+# One-off repair: rewrite published definitions that contain the word they
+# define. build_packs.js does this for each new day; this covers the packs that
+# shipped before that check existed. Safe to re-run — it only looks for leaks
+# and keeps the original whenever a rewrite is no better.
+name: Repair glossary definitions
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "목록만 보고 파일은 건드리지 않음"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repair-glossary
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Repair
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node scripts/repair_glossary.js --dry-run
+          else
+            node scripts/repair_glossary.js
+          fi
+
+      - name: Check the feed still holds together
+        if: ${{ inputs.dry_run != true }}
+        run: node scripts/check_feed.js
+
+      - name: Commit
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain packs.json archive)" ]; then
+            git add packs.json archive
+            git commit -m "chore: rewrite glossary definitions that contained their own word"
+            git push
+          else
+            echo "No changes"
+          fi
