@@ -154,6 +154,42 @@ const weekDeckBtn = (page) => page.locator("main button.btn.primary.studybtn").f
     await page.close();
   }
 
+  console.log("a definition never gives away the word it is asking for");
+  {
+    // Hundreds of published packs define a word using the word, so the screen
+    // masks it; these two assertions guard the wiring at both places that show
+    // a meaning while the word is still hidden.
+    const leaky = {
+      autonomous: { meaning: "An autonomous entity can control itself and make its own decisions.",
+        example: "An autonomous robot works alone.", pos: "adjective",
+        stage: "new", addedDate: "2026-10-07", updatedAt: 1 },
+    };
+    const page = await pinnedPage(browser, "2026-10-07", (m) => { t.failed++; console.log("PAGEERROR: " + m); });
+    await page.goto(`${BASE}/index.html`);
+    await page.evaluate((b) => {
+      localStorage.setItem("dbw:wordbank", JSON.stringify(b));
+      localStorage.setItem("dbw:wbmode", JSON.stringify("stage"));
+    }, leaky);
+    await page.reload({ waitUntil: "networkidle" });
+    await page.waitForSelector("nav.tabbar", { timeout: 20000 });
+    await page.locator('nav.tabbar button:has-text("단어장")').first().click();
+    await page.waitForTimeout(500);
+    const grid = await page.locator(".wcard .backdef").innerText();
+    ok(!/autonom/i.test(grid) && /___/.test(grid), `grid card masks it (${grid})`);
+
+    await page.locator("main button").filter({ hasText: /단어 외우기/ }).first().click();
+    await page.waitForTimeout(500);
+    const q = await page.locator(".flashcard:not(.flying) .fc-def").innerText();
+    ok(!/autonom/i.test(q) && /___/.test(q), `flashcard question masks it (${q})`);
+
+    await page.locator(".flashcard:not(.flying)").click(); // flip to the answer
+    await page.waitForTimeout(400);
+    const a = flat(await page.locator(".flashcard:not(.flying)").innerText());
+    ok(/autonomous/.test(a), "the answer side still shows the word in full");
+    ok(/An autonomous robot works alone/.test(a), "and the example keeps it too");
+    await page.close();
+  }
+
   await browser.close();
   server.close();
   console.log(t.failed ? `\n${t.failed} check(s) failed.` : "\nAll wordbook checks passed.");

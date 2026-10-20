@@ -36,7 +36,7 @@ ${passage || "(none)"}
 
 Return JSON: {
   "word": "<base/dictionary form of the word, lowercase>",
-  "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words.>",
+  "meaning": "<a clear definition in SIMPLE English — one short sentence of about 8 to 16 words. English only, no Korean. Do not use hard words. CRITICAL: the definition is shown as a quiz question and the learner has to recall the word from it, so it must NOT contain \"${word}\" itself, nor any form of it (plural, -ing, -ed, -ly, or a related form such as a noun built from the same stem). Define it with other words entirely.>",
   "ko": "<the word's meaning in KOREAN — a short, natural Korean gloss (e.g. 정당성, 합법성 / 완화하다). Korean only, a few words, no English.>",
   "example": "<one short, natural English example sentence (max ~14 words) that uses the word \\"${word}\\" itself>",
   "pos": "<its part of speech in this sense — exactly one of: noun, verb, adjective, adverb, preposition, conjunction, pronoun, determiner, interjection, phrase>"

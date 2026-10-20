@@ -316,3 +316,55 @@ test("isMissingColumn does not swallow unrelated failures", () => {
     { code: "PGRST301", message: "JWT expired" },
   ]) assert.equal(S.isMissingColumn(err), false, JSON.stringify(err));
 });
+
+/* ------------------------------------------- headword in its own gloss -- */
+
+test("maskWord hides the word the flashcard is asking for", () => {
+  // The real case: the definition handed over the answer.
+  assert.equal(
+    S.maskWord("An autonomous entity can control itself and make its own decisions independently.", "autonomous"),
+    "An ___ entity can control itself and make its own decisions independently."
+  );
+  assert.equal(S.maskWord("An Autonomous system runs alone.", "autonomous"), "An ___ system runs alone.",
+    "case does not matter");
+});
+
+test("maskWord also hides forms built from the same stem", () => {
+  // A definition of "autonomous" that says "autonomy" leaks just as much.
+  assert.equal(S.maskWord("Autonomy means acting without outside control.", "autonomous"),
+    "___ means acting without outside control.");
+  assert.equal(S.maskWord("Rules that regulate it; regulation comes from a regulator.", "regulate"),
+    "Rules that ___ it; ___ comes from a ___.");
+  assert.equal(S.maskWord("Settled trades are done; settling takes days.", "settle"),
+    "___ trades are done; ___ takes days.");
+});
+
+test("short words match only their own inflections, never lookalikes", () => {
+  // A 3-letter stem would swallow unrelated words, so short words are matched
+  // exactly: "act" must not take "actual" with it.
+  assert.equal(S.maskWord("The actual process of doing; people act on it.", "act"),
+    "The actual process of doing; people ___ on it.");
+  assert.equal(S.maskWord("Bonds and bonding are not the same as a corporate rate.", "bond"),
+    "___ and ___ are not the same as a corporate rate.");
+  assert.equal(S.maskWord("A corporate rate is rated yearly.", "rate"),
+    "A corporate ___ is ___ yearly.", "word boundaries keep 'corporate' intact");
+});
+
+test("maskWord leaves a definition that never mentions the word alone", () => {
+  const clean = "Money that a company owes to the people who lent it.";
+  assert.equal(S.maskWord(clean, "bond"), clean);
+});
+
+test("maskWord is safe on junk input", () => {
+  assert.equal(S.maskWord("some text", ""), "some text");
+  assert.equal(S.maskWord("some text", null), "some text");
+  assert.equal(S.maskWord("", "bond"), "");
+  assert.equal(S.maskWord(null, "bond"), "");
+  assert.equal(S.maskWord("a.b*c", "a.b*c"), "a.b*c", "regex metacharacters are not patterns");
+  assert.equal(S.maskWord("Two or three words here", "two words"), "Two or three words here",
+    "a phrase is left alone rather than half-masked");
+});
+
+test("repeated hits collapse into one blank", () => {
+  assert.equal(S.maskWord("self-governing autonomous autonomy things", "autonomous"), "self-governing ___ things");
+});
