@@ -357,3 +357,19 @@ test("maskWord still marks the leaking part, for the repair tool's report", () =
   assert.equal(S.maskWord("Existing in or as part of a tradition; long-established.", "traditional"),
     "Existing in or as part of a ___; long-established.");
 });
+
+test("a short stem does not make an unrelated word look like a leak", () => {
+  // "interim" trimmed by three is "inte", which matches "intended". This
+  // definition never contained its own word; the repair pass flagged it anyway.
+  assert.equal(
+    S.leaksHeadword(
+      "temporary and intended to be used or accepted until something permanent is found",
+      "interim",
+    ),
+    false,
+  );
+  // The stem floor must not cost us real derived forms.
+  assert.equal(S.leaksHeadword("the process of description", "describe"), true);
+  assert.equal(S.leaksHeadword("a state of autonomy", "autonomous"), true);
+  assert.equal(S.leaksHeadword("acting in an interim role", "interim"), true);
+});
