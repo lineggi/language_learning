@@ -1,6 +1,13 @@
 // Vercel serverless function: on-demand definition for ANY word the reader taps
 // that is not in the article's built-in glossary. Keeps the Gemini key server-side.
 
+// The same rule the nightly build applies, so a word collected on demand is
+// held to it too. Required defensively: if bundling ever fails to include
+// lib/, the endpoint should lose its verification, not stop defining words.
+let leaksHeadword = () => false;
+try { ({ leaksHeadword } = require("../lib/state.js")); }
+catch (e) { console.warn("define: leak check unavailable —", e.message); }
+
 const DEFINE_SCHEMA = {
   type: "object",
   properties: {
@@ -42,20 +49,44 @@ Return JSON: {
   "pos": "<its part of speech in this sense — exactly one of: noun, verb, adjective, adverb, preposition, conjunction, pronoun, determiner, interjection, phrase>"
 }`;
 
-  try {
+  const ask = async (text) => {
     const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${key}`;
     const r = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        contents: [{ role: "user", parts: [{ text }] }],
         generationConfig: { temperature: 0.3, responseMimeType: "application/json", responseSchema: DEFINE_SCHEMA },
       }),
     });
-    if (!r.ok) { const t = await r.text(); res.status(502).json({ error: `Gemini ${r.status}`, detail: t.slice(0, 200) }); return; }
+    if (!r.ok) { const t = await r.text(); return { httpError: r.status, detail: t.slice(0, 200) }; }
     const data = await r.json();
-    const text = data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "{}";
-    let out; try { out = JSON.parse(text); } catch { res.status(502).json({ error: "parse", raw: text.slice(0, 200) }); return; }
+    const body = data?.candidates?.[0]?.content?.parts?.map((p) => p.text).join("") || "{}";
+    try { return { out: JSON.parse(body) }; } catch { return { parseError: body.slice(0, 200) }; }
+  };
+
+  try {
+    const first = await ask(prompt);
+    if (first.httpError) { res.status(502).json({ error: `Gemini ${first.httpError}`, detail: first.detail }); return; }
+    if (first.parseError) { res.status(502).json({ error: "parse", raw: first.parseError }); return; }
+    let out = first.out;
+
+    // The card shows the meaning and asks for the word, so a definition that
+    // contains it gives away the answer. The prompt forbids that, but models
+    // slip — roughly one glossary entry in forty did. Ask once more, naming
+    // what was wrong. If the retry is no better, keep the first: losing the
+    // word entirely is worse than a weak definition.
+    const base = String((out && out.word) || word).toLowerCase().trim();
+    if (out && leaksHeadword(out.meaning, base)) {
+      const retry = await ask(`${prompt}
+
+Your previous answer was rejected. You wrote:
+  "${String(out.meaning || "").replace(/"/g, "'")}"
+That uses "${base}", or a word built from the same stem, which gives away the answer the learner is supposed to recall. Write the definition again with entirely different words — synonyms and plain description. Keep the other fields as they were.`);
+      if (retry.out && !leaksHeadword(retry.out.meaning, String(retry.out.word || base).toLowerCase().trim())) {
+        out = retry.out;
+      }
+    }
     const VALID_POS = new Set([
       "noun", "verb", "adjective", "adverb", "preposition",
       "conjunction", "pronoun", "determiner", "interjection", "phrase",
