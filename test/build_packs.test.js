@@ -225,3 +225,22 @@ test("rewriting is batched so one huge prompt is never sent", async () => {
   await B.rewriteLeaks(many, { call, log: () => {}, batch: 40 });
   assert.deepEqual(sizes, [40, 40, 15]);
 });
+
+test("every build_packs function the scripts call is actually exported", () => {
+  // scripts/repair_glossary.js called B.writeFeed, which was not in the export
+  // list. Nothing noticed until a live run had already paid for the rewrites
+  // and then died on the line that saves them — the dry run returns before
+  // reaching it, so no amount of dry-running would have caught it.
+  const fs = require("node:fs");
+  const path = require("node:path");
+  const dir = path.join(__dirname, "..", "scripts");
+  const missing = [];
+  for (const file of fs.readdirSync(dir).filter((f) => f.endsWith(".js"))) {
+    const src = fs.readFileSync(path.join(dir, file), "utf8");
+    if (!/require\(["'][^"']*build_packs\.js["']\)/.test(src)) continue;
+    for (const m of src.matchAll(/\bB\.([A-Za-z_$][\w$]*)/g)) {
+      if (typeof B[m[1]] !== "function") missing.push(`${file} → B.${m[1]}`);
+    }
+  }
+  assert.deepEqual([...new Set(missing)], [], "these are called but not exported");
+});

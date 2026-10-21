@@ -832,7 +832,7 @@ function repack() {
 }
 
 module.exports = {
-  dedupeById, indexEntry, shardOf, splitPacks, byDateRankDesc, writeIfChanged,
+  dedupeById, indexEntry, shardOf, splitPacks, byDateRankDesc, writeIfChanged, writeFeed,
   findLeaks, rewriteLeaks, applyFixes, cleanGlossaries,
   normUrl, usedUrlSet, excludeUsed, tidyMeaning, kstDateString,
   ECON_FEEDS, KOREA_FEEDS, RSS_FEEDS,
